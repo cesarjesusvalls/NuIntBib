@@ -1,0 +1,5 @@
+*.csv
+*Untitled*
+*.ipynb_checkpoints
+.DS_Store
+/papers
