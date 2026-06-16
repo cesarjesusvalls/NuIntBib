@@ -1,0 +1,37 @@
+- bibtag: Colaresi:2022obx
+  title: Measurement of Coherent Elastic Neutrino-Nucleus Scattering from Reactor Antineutrinos
+  collaboration: Dresden-II
+  arxiv: '2202.09672'
+  doi: 10.1103/PhysRevLett.129.211802
+  journal: Phys.Rev.Lett.
+  volume: '129'
+  pages: '211802'
+  year: 2022
+  published_date: '2022-02-19'
+  inspire_recid: 2035575
+  citation_count: 130
+  abstract: The 96.4 day exposure of a 3 kg ultra-low noise germanium detector to the high flux of antineutrinos
+    from a power nuclear reactor is described. A very strong preference ($p<1.2\times10^{-3}$) for the
+    presence of a coherent elastic neutrino-nucleus scattering (CE$\nu$NS) component in the data is found,
+    when compared to a background-only model. No such effect is visible in 25 days of operation during
+    reactor outages. The best-fit CE$\nu$NS signal is in good agreement with expectations based on a recent
+    characterization of germanium response to sub-keV nuclear recoils. Deviations of order 60% from the
+    Standard Model CE$\nu$NS prediction can be excluded using present data. Standing uncertainties in
+    models of germanium quenching factor, neutrino energy spectrum, and background are examined.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2202.09672
+    doi: https://doi.org/10.1103/PhysRevLett.129.211802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Colaresi:2022obx
+  measurements:
+  - current: NC
+    flavor:
+    - nuebar
+    target:
+    - Ge
+    topology: CEvNS
+    pion_bucket: null
+    measurement_type: total
+    observables: reactor antineutrino CEvNS
+    energy_notes: Dresden-II reactor, ~MeV

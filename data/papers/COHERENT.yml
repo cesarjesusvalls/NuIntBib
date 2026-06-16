@@ -1,0 +1,268 @@
+- bibtag: COHERENT:2026yje
+  title: Measurement of coherent elastic neutrino nucleus scattering on germanium by COHERENT
+  collaboration: COHERENT
+  arxiv: '2603.17951'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-03-18'
+  inspire_recid: 3130981
+  citation_count: 6
+  abstract: The COHERENT collaboration reports the most precise measurement of the coherent elastic neutrino-nucleus
+    scattering cross section to date. This measurement was performed with COHERENT's germanium detector
+    array, Ge-Mini, at the Spallation Neutron Source at Oak Ridge National Laboratory. A cumulative exposure
+    of $4.68\times10^{22}$ protons on target yielded a total number of observed counts of $124^{+14}_{-12}$
+    and a flux-averaged cross section of $1.00 \pm 0.10 \mathrm{(statistical)} \pm 0.10 \mathrm{(systematic)}$
+    relative to the standard-model expectation of $5.9\times10^{-39} \mathrm{cm}^2$. The well-understood
+    energy and timing distributions of the neutrino source allow for independent measurements of muon-
+    and electron-neutrino scattering rates. This information is used to improve constraints on non-standard
+    neutrino interactions mediated by heavy particles.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2603.17951
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:COHERENT:2026yje
+  measurements:
+  - current: NC
+    flavor: &id001
+    - numu
+    - numubar
+    - nue
+    target:
+    - Ge
+    topology: CEvNS
+    pion_bucket: null
+    measurement_type: total
+    observables: CEvNS on germanium
+    energy_notes: stopped-pion (SNS)
+- bibtag: COHERENT:2024axu
+  title: Evidence of Coherent Elastic Neutrino-Nucleus Scattering with COHERENT’s Germanium Array
+  collaboration: COHERENT
+  arxiv: '2406.13806'
+  doi: 10.1103/PhysRevLett.134.231801
+  journal: Phys.Rev.Lett.
+  volume: '134'
+  pages: '231801'
+  year: 2025
+  published_date: '2024-06-19'
+  inspire_recid: 2800533
+  citation_count: 94
+  abstract: We report the first detection of coherent elastic neutrino-nucleus scattering (CEvNS) on natural
+    germanium, measured at the Spallation Neutron Source at Oak Ridge National Laboratory. The Ge-Mini
+    detector of the COHERENT collaboration employs large-mass, low-noise, high-purity germanium spectrometers,
+    enabling excellent energy resolution, and an analysis threshold of 1.5 keV electron-equivalent ionization
+    energy. We observe a on-beam excess of 20.6 +7.1 -6.3 counts with a total exposure of 10.22 GWhkg
+    and we reject the no-CEvNS hypothesis with 3.9 sigma significance. The result agrees with the predicted
+    standard model of particle physics signal rate within 2 sigma.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2406.13806
+    doi: https://doi.org/10.1103/PhysRevLett.134.231801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:COHERENT:2024axu
+  measurements:
+  - current: NC
+    flavor: *id001
+    target:
+    - Ge
+    topology: CEvNS
+    pion_bucket: null
+    measurement_type: total
+    observables: evidence of CEvNS on germanium
+    energy_notes: stopped-pion (SNS)
+- bibtag: COHERENT:2022fic
+  title: Measurement of <math display="inline"><mrow><mmultiscripts><mrow><mi>Pb</mi></mrow><mprescripts/><none/><mrow><mi>n</mi><mi>a</mi><mi>t</mi></mrow></mmultiscripts><mo
+    stretchy="false">(</mo><msub><mrow><mi>ν</mi></mrow><mrow><mi>e</mi></mrow></msub><mo>,</mo><mi mathvariant="normal">X</mi><mi>n</mi><mo
+    stretchy="false">)</mo></mrow></math> production with a stopped-pion neutrino source
+  collaboration: COHERENT
+  arxiv: '2212.11295'
+  doi: 10.1103/PhysRevD.108.072001
+  journal: Phys.Rev.D
+  volume: '108'
+  pages: '072001'
+  year: 2023
+  published_date: '2022-12-21'
+  inspire_recid: 2706242
+  citation_count: 27
+  abstract: Using neutrinos produced at the Spallation Neutron Source (SNS) at Oak Ridge National Laboratory
+    (ORNL), the COHERENT collaboration has studied the Pb($\nu_e$,X$n$) process with a lead neutrino-induced-neutron
+    (NIN) detector. Data from this detector are fit jointly with previously collected COHERENT data on
+    this process. A combined analysis of the two datasets yields a cross section that is $0.29^{+0.17}_{-0.16}$
+    times that predicted by the MARLEY event generator using experimentally-measured Gamow-Teller strength
+    distributions, consistent with no NIN events at 1.8$\sigma$. This is the first inelastic neutrino-nucleus
+    process COHERENT has studied, among several planned exploiting the high flux of low-energy neutrinos
+    produced at the SNS.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2212.11295
+    doi: https://doi.org/10.1103/PhysRevD.108.072001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:COHERENT:2022fic
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - Pb
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: natPb(nue,Xn) charged-current cross section
+    energy_notes: stopped-pion (~30 MeV)
+- bibtag: COHERENT:2023ffx
+  title: Measurement of Electron-Neutrino Charged-Current Cross Sections on <math display="inline"><mrow><mmultiscripts><mrow><mi
+    mathvariant="normal">I</mi></mrow><mprescripts/><none/><mrow><mn>127</mn></mrow></mmultiscripts></mrow></math>
+    with the COHERENT <math display="inline"><mrow><mi>NaI</mi><mi>ν</mi><mi mathvariant="normal">E</mi></mrow></math>
+    Detector
+  collaboration: COHERENT
+  arxiv: '2305.19594'
+  doi: 10.1103/PhysRevLett.131.221801
+  journal: Phys.Rev.Lett.
+  volume: '131'
+  pages: '221801'
+  year: 2023
+  published_date: '2023-05-31'
+  inspire_recid: 2664113
+  citation_count: 32
+  abstract: Using an 185-kg NaI[Tl] array, COHERENT has measured the inclusive electron-neutrino charged-current
+    cross section on ${}^{127}$I with pion decay-at-rest neutrinos produced by the Spallation Neutron
+    Source at Oak Ridge National Laboratory. Iodine is one the heaviest targets for which low-energy ($\leq$
+    50 MeV) inelastic neutrino-nucleus processes have been measured, and this is the first measurement
+    of its inclusive cross section. After a five-year detector exposure, COHERENT reports a flux-averaged
+    cross section for electron neutrinos of $9.2^{+2.1}_{-1.8} \times 10^{-40}$ cm$^2$. This corresponds
+    to a value that is $\sim$41% lower than predicted using the MARLEY event generator with a measured
+    Gamow-Teller strength distribution. In addition, the observed visible spectrum from charged-current
+    scattering on $^{127}$I has been measured between 10 and 55 MeV, and the exclusive zero-neutron and
+    one-or-more-neutron emission cross sections are measured to be $5.2^{+3.4}_{-3.1} \times 10^{-40}$
+    and $2.2^{+3.5}_{-2.2} \times 10^{-40}$ cm$^2$, respectively.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2305.19594
+    doi: https://doi.org/10.1103/PhysRevLett.131.221801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:COHERENT:2023ffx
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - I
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: nue CC cross section on 127I (NaInuE detector)
+    energy_notes: stopped-pion (~30 MeV)
+- bibtag: COHERENT:2021xmm
+  title: Measurement of the Coherent Elastic Neutrino-Nucleus Scattering Cross Section on CsI by COHERENT
+  collaboration: COHERENT
+  arxiv: '2110.07730'
+  doi: 10.1103/PhysRevLett.129.081801
+  journal: Phys.Rev.Lett.
+  volume: '129'
+  pages: 081801
+  year: 2022
+  published_date: '2021-10-14'
+  inspire_recid: 1945677
+  citation_count: 188
+  abstract: We measured the cross section of coherent elastic neutrino-nucleus scattering (\cevns) using
+    a CsI[Na] scintillating crystal in a high flux of neutrinos produced at the Spallation Neutron Source
+    (SNS) at Oak Ridge National Laboratory. New data collected before detector decommissioning has more
+    than doubled the dataset since the first observation of \cevns, achieved with this detector. Systematic
+    uncertainties have also been reduced with an updated quenching model, allowing for improved precision.
+    With these analysis improvements, the COHERENT collaboration determined the cross section to be $(165^{+30}_{-25})\times10^{-40}$~cm$^2$,
+    consistent with the standard model, giving the most precise measurement of \cevns yet. The timing
+    structure of the neutrino beam has been exploited to compare the \cevns cross section from scattering
+    of different neutrino flavors. This result places leading constraints on neutrino non-standard interactions
+    while testing lepton flavor universality and measures the weak mixing angle as $\sin^2\theta_{W}=0.220^{+0.028}_{-0.026}$
+    at $Q^2\approx(50\text{ MeV})^2$
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2110.07730
+    doi: https://doi.org/10.1103/PhysRevLett.129.081801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:COHERENT:2021xmm
+  measurements:
+  - current: NC
+    flavor: *id001
+    target:
+    - CsI
+    topology: CEvNS
+    pion_bucket: null
+    measurement_type: total
+    observables: CEvNS cross section, full CsI[Na] dataset
+    energy_notes: stopped-pion (SNS)
+- bibtag: COHERENT:2020iec
+  title: First Measurement of Coherent Elastic Neutrino-Nucleus Scattering on Argon
+  collaboration: COHERENT
+  arxiv: '2003.10630'
+  doi: 10.1103/PhysRevLett.126.012002
+  journal: Phys.Rev.Lett.
+  volume: '126'
+  pages: '012002'
+  year: 2021
+  published_date: '2020-04-03'
+  inspire_recid: 1787880
+  citation_count: 432
+  abstract: We report the first measurement of coherent elastic neutrino-nucleus scattering (\cevns) on
+    argon using a liquid argon detector at the Oak Ridge National Laboratory Spallation Neutron Source.
+    Two independent analyses prefer \cevns over the background-only null hypothesis with greater than
+    $3\sigma$ significance. The measured cross section, averaged over the incident neutrino flux, is (2.2
+    $\pm$ 0.7) $\times$10$^{-39}$ cm$^2$ -- consistent with the standard model prediction. The neutron-number
+    dependence of this result, together with that from our previous measurement on CsI, confirms the existence
+    of the \cevns process and provides improved constraints on non-standard neutrino interactions.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2003.10630
+    doi: https://doi.org/10.1103/PhysRevLett.126.012002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:COHERENT:2020iec
+  measurements:
+  - current: NC
+    flavor: *id001
+    target:
+    - Ar
+    topology: CEvNS
+    pion_bucket: null
+    measurement_type: total
+    observables: first CEvNS on argon (CENNS-10)
+    energy_notes: stopped-pion (SNS)
+- bibtag: COHERENT:2017ipa
+  title: Observation of Coherent Elastic Neutrino-Nucleus Scattering
+  collaboration: COHERENT
+  arxiv: '1708.01294'
+  doi: 10.1126/science.aao0990
+  journal: Science
+  volume: '357'
+  pages: '1123'
+  year: 2017
+  published_date: '2017-08-03'
+  inspire_recid: 1614476
+  citation_count: 979
+  abstract: The coherent elastic scattering of neutrinos off nuclei has eluded detection for four decades,
+    even though its predicted cross-section is the largest by far of all low-energy neutrino couplings.
+    This mode of interaction provides new opportunities to study neutrino properties, and leads to a miniaturization
+    of detector size, with potential technological applications. We observe this process at a 6.7-sigma
+    confidence level, using a low-background, 14.6-kg CsI[Na] scintillator exposed to the neutrino emissions
+    from the Spallation Neutron Source (SNS) at Oak Ridge National Laboratory. Characteristic signatures
+    in energy and time, predicted by the Standard Model for this process, are observed in high signal-to-background
+    conditions. Improved constraints on non-standard neutrino interactions with quarks are derived from
+    this initial dataset.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/1708.01294
+    doi: https://doi.org/10.1126/science.aao0990
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:COHERENT:2017ipa
+  measurements:
+  - current: NC
+    flavor: *id001
+    target:
+    - CsI
+    topology: CEvNS
+    pion_bucket: null
+    measurement_type: total
+    observables: first observation of CEvNS
+    energy_notes: stopped-pion (SNS), Enu<~55 MeV

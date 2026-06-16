@@ -1,0 +1,41 @@
+- bibtag: LZ:2025igz
+  title: Searches for Light Dark Matter and Evidence of Coherent Elastic Neutrino-Nucleus Scattering of
+    Solar Neutrinos with the LUX-ZEPLIN (LZ) Experiment
+  collaboration: LZ
+  arxiv: '2512.08065'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2025
+  published_date: '2025-12-08'
+  inspire_recid: 3091049
+  citation_count: 45
+  abstract: We present searches for light dark matter (DM) with masses 3-9 GeV/$c^2$ in the presence of
+    coherent elastic neutrino-nucleus scattering (CE$ν$NS) from $^{8}$B solar neutrinos with the LUX-ZEPLIN
+    experiment. This analysis uses a 5.7 tonne-year exposure with data collected between March 2023 and
+    April 2025. In an energy range spanning 1-6 keV, we report no significant excess of events attributable
+    to dark matter nuclear recoils, but we observe a significant signal from $^{8}$B CE$ν$NS interactions
+    that is consistent with expectation. We set world-leading limits on spin-independent and spin-dependent-neutron
+    DM-nucleon interactions for masses down to 5 GeV/$c^2$. In the no-dark-matter scenario, we observe
+    a signal consistent with $^{8}$B CE$ν$NS events, corresponding to a $4.5σ$ statistical significance.
+    This is the most significant evidence of $^{8}$B CE$ν$NS interactions and is enabled by robust background
+    modeling and mitigation techniques. This demonstrates LZ's ability to detect rare signals at keV-scale
+    energies.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2512.08065
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LZ:2025igz
+  measurements:
+  - current: NC
+    flavor:
+    - nue
+    target:
+    - Xe
+    topology: CEvNS
+    pion_bucket: null
+    measurement_type: total
+    observables: evidence of solar 8B CEvNS
+    energy_notes: solar 8B, ~MeV

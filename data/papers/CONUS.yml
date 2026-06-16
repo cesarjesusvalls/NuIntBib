@@ -1,0 +1,38 @@
+- bibtag: CONUSCollaboration:2024kvo
+  title: Final CONUS Results on Coherent Elastic Neutrino-Nucleus Scattering at the Brokdorf Reactor
+  collaboration: CONUS
+  arxiv: '2401.07684'
+  doi: 10.1103/PhysRevLett.133.251802
+  journal: Phys.Rev.Lett.
+  volume: '133'
+  pages: '251802'
+  year: 2024
+  published_date: '2024-01-15'
+  inspire_recid: 2747139
+  citation_count: 44
+  abstract: The Conus experiment studies coherent elastic neutrino-nucleus scattering in four 1 kg germanium
+    spectrometers. Low ionization energy thresholds of 210 eV were achieved. The detectors were operated
+    inside an optimized shield at the Brokdorf nuclear power plant which provided a reactor antineutrino
+    flux of up to 2.3$\cdot$10$^{13}$ cm$^{-2}$s$^{-1}$. In the final phase of data collection at this
+    site, the constraints on the neutrino interaction rate were improved by an order of magnitude as compared
+    to the previous Conus analysis. The new limit of less than 0.34 signal events kg$^{-1}$ d$^{-1}$ is
+    within a factor 2 of the rate predicted by the standard model. This constraint is discussed in the
+    context of conflicting measurements and results from another reactor neutrino experiment using similar
+    technology.
+  added: '2026-06-16'
+  notes: CEvNS / coherent-elastic channel (added 2026-06).
+  links:
+    arxiv: https://arxiv.org/abs/2401.07684
+    doi: https://doi.org/10.1103/PhysRevLett.133.251802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CONUSCollaboration:2024kvo
+  measurements:
+  - current: NC
+    flavor:
+    - nuebar
+    target:
+    - Ge
+    topology: CEvNS
+    pion_bucket: null
+    measurement_type: total
+    observables: final CONUS reactor CEvNS result
+    energy_notes: reactor antineutrinos, ~MeV

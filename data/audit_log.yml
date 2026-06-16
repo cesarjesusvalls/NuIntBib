@@ -129,11 +129,56 @@ CHORUS:2003qcm:
   method: abstract
   notes: null
   status: clean
+COHERENT:2017ipa:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
+COHERENT:2020iec:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
+COHERENT:2021xmm:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
+COHERENT:2022fic:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
+COHERENT:2023ffx:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
+COHERENT:2024axu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
+COHERENT:2026yje:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
+CONUSCollaboration:2024kvo:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
 Campbell:1973wg:
   audited: '2026-06-16'
   method: abstract
   notes: flavor numu+numubar->numu; target D2->H2 (Argonne 12-ft hydrogen, nup reaction) [APPLIED]
   status: fixed
+Colaresi:2022obx:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
 Coteus:1981ub:
   audited: '2026-06-16'
   method: abstract
@@ -229,6 +274,11 @@ Kitagaki:1986ct:
   method: abstract
   notes: flavor numu+numubar->numu (BNL deuterium, neutrino-only exclusive pion production) [APPLIED]
   status: fixed
+LZ:2025igz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
 Lee:1976wr:
   audited: '2026-06-16'
   method: abstract
@@ -804,6 +854,11 @@ NuTeV:2005wsg:
   method: abstract
   notes: null
   status: clean
+PandaX:2024muv:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
+  status: clean
 Pohl:1977sx:
   audited: '2026-06-16'
   method: abstract
@@ -1026,4 +1081,9 @@ T2K:2025wde:
   audited: '2026-06-16'
   method: abstract
   notes: null
+  status: clean
+XENON:2024ijk:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
   status: clean
