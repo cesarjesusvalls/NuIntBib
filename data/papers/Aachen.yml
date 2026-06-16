@@ -32,8 +32,8 @@
     - numubar
     target:
     - Al
-    topology: NC pi production
-    pion_bucket: null
+    topology: NCcoh pi0
+    pion_bucket: pi0
     measurement_type: null
     observables: null
     energy_notes: null
@@ -66,13 +66,13 @@
     doi: https://doi.org/10.1103/PhysRevD.21.555
     inspire: https://inspirehep.net/literature?q=texkeys.raw:Faissner:1978yi
   measurements:
-  - current: CC
+  - current: NC
     flavor:
     - numu
     target:
     - Al
-    topology: CCQE
-    pion_bucket: null
-    measurement_type: null
+    topology: NC elastic
+    pion_bucket: 0pi
+    measurement_type: ratio
     observables: null
     energy_notes: null

@@ -1,0 +1,160 @@
+- bibtag: CHARM:1987mvh
+  title: Total Cross-sections of Charged Current Neutrino and Anti-neutrino Interactions on Isoscalar
+    Nuclei
+  collaboration: CHARM
+  arxiv: null
+  doi: 10.1007/BF01584388
+  journal: Z.Phys.C
+  volume: '38'
+  pages: '403'
+  year: 1988
+  published_date: 1987-12
+  inspire_recid: 252954
+  citation_count: 67
+  abstract: New measurements of the total crosssections of charged-current interactions of muonneutrinos
+    and antineutrinos on isoscalar nuclei have been performed. Data were recorded in an exposure of the
+    CHARM d
+  added: '2026-06-16'
+  notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01584388
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHARM:1987mvh
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CaCO3
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total CC cross sections on isoscalar nuclei
+    energy_notes: high-energy (CERN SPS)
+- bibtag: CHARM:1985bva
+  title: Measurement of the Cross-section of Coherent $\pi^0$ Production by Muon Neutrino and Anti-neutrino
+    Neutral Current Interactions on Nuclei
+  collaboration: CHARM
+  arxiv: null
+  doi: 10.1016/0370-2693(85)90402-2
+  journal: Phys.Lett.B
+  volume: '157'
+  pages: '469'
+  year: 1985
+  published_date: 1985-03
+  inspire_recid: 214232
+  citation_count: 81
+  abstract: Measurements of coherent π 0 production by muon-neutrinos and antineutrinos on nuclei in marble
+    have been carried out using the CHARM neutrino detector in the CERN-SPS neutrino wide-band beam. We
+    determined the cross sections σ ν = (96±42)×10 −40 cm 2 and σ ν = (79±26)×10 −40 cm 2 per average
+    marble nucleus. Comparing these experimental results to theoretical predictions we evaluated the isovector
+    axial vector neutral-current coupling constant ∣ β ∣ = 1.08±0.24, averaged over the neutrino and the
+    antineutrino results, and found agreement with the prediction of the standard model, β = 1.0. From
+    the ratio of coherent π 0 production by neutral-current interactions observed in this experiment and
+    of coherent π − production by charged-current interactions of antineutrinos measured in BEBC a value
+    of ∣ β ∣ = 1.10±0.23 is derived.
+  added: '2026-06-16'
+  notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(85)90402-2
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHARM:1985bva
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CaCO3
+    topology: NCcoh pi0
+    pion_bucket: pi0
+    measurement_type: total
+    observables: coherent pi0 production
+    energy_notes: high-energy (CERN SPS WBB)
+- bibtag: CHARM:1981sef
+  title: Experimental Study of Differential Cross-sections in Charged Current Neutrino and Anti-neutrinos
+    Interactions
+  collaboration: CHARM
+  arxiv: null
+  doi: 10.1016/0370-2693(82)90479-8
+  journal: Phys.Lett.B
+  volume: '109'
+  pages: '133'
+  year: 1982
+  published_date: 1981-10
+  inspire_recid: 168613
+  citation_count: 31
+  abstract: Inclusive neutrino and antineutrino charged-current interactions were studied using the electronic
+    detector of the CHARM Collaboration exposed to the narrow-band beam of the CERN SPS. The relative
+    contributions of quarks and antiquarks to the neutrino cross sections were deduced from the differential
+    cross sectionsdσ/d y . The x and Q 2 dependence of the structure functions F 2 and F 3 were measured.
+    Scaling violations were observed, in qualitative agreement with QCD. A value of the mass scale parameter
+    of QCD,Λ = [0.29 ± 0.12 (stat.) ± 0.10 (syst.)] GeV, was deduced in a leading-order approximation,
+    following the method of Buras and Gaemers.
+  added: '2026-06-16'
+  notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(82)90479-8
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHARM:1981sef
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CaCO3
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: inclusive CC differential cross sections (quark/antiquark)
+    energy_notes: high-energy (CERN SPS NBB)
+- bibtag: CHARM:1980yym
+  title: Experimental Study of Neutral Current and Charged Current Neutrino Cross-Sections
+  collaboration: CHARM
+  arxiv: null
+  doi: 10.1016/0370-2693(81)91123-0
+  journal: Phys.Lett.B
+  volume: '99'
+  pages: '265'
+  year: 1981
+  published_date: 1980-12
+  inspire_recid: 156267
+  citation_count: 211
+  abstract: Samples of 9200 muon-neutrino and 3800 muon-antineutrino interactions on nuclei were obtained
+    with the fine-grain calorimeter of the CHARM Collaboration at the CERN 200 GeV narrow-band neutrino
+    beam. The interactions were classified as either neutral-current or charged-current processes on an
+    event-by-event basis. Neutral-current and charged-current cross sections in neutrino and antineutrino
+    interactions are presented. From these results we deduce a statistically significant contribution
+    of right-handed coupling to the neutral hadronic current, and a value of the electroweak mixing angle
+    corresponding to sin 2 θ = 0.220 ± 0.014.
+  added: '2026-06-16'
+  notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(81)91123-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHARM:1980yym
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CaCO3
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: NC and CC inclusive cross sections
+    energy_notes: high-energy (CERN SPS NBB, ~30 GeV)
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CaCO3
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: NC inclusive cross section
+    energy_notes: high-energy (CERN SPS NBB)

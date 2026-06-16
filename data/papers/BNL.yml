@@ -1,3 +1,37 @@
+- bibtag: Ahrens:1988rr
+  title: A Study of the Axial Vector Form-factor and Second Class Currents in Anti-neutrino Quasielastic
+    Scattering
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1016/0370-2693(88)90026-3
+  journal: Phys.Lett.B
+  volume: '202'
+  pages: '284'
+  year: 1988
+  published_date: '1988'
+  inspire_recid: 264269
+  citation_count: 124
+  abstract: The antineutrino quasielastic reaction ν μm p →μ + n has been studied in the Q 2 range up
+    to 1.0 (GeV/ c ) 2 at the Brookhaven AGS. The value of the axial vector mass M A in the dipole parametrization
+    of the from factor was determined from the shape of the Q 2 distribution to be 1.09±0.03±0.02 GeV/
+    c 2 . A search for second-class currents was also conducted. No significant effect was found.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(88)90026-3
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ahrens:1988rr
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: null
+    observables: null
+    energy_notes: null
 - bibtag: Kitagaki:1986ct
   title: Charged Current Exclusive Pion Production in Neutrino Deuterium Interactions
   collaboration: BNL
@@ -25,7 +59,6 @@
   - current: CC
     flavor:
     - numu
-    - numubar
     target:
     - D2
     topology: CC pi production
@@ -94,13 +127,14 @@
     doi: https://doi.org/10.1103/PhysRevD.24.1420
     inspire: https://inspirehep.net/literature?q=texkeys.raw:Coteus:1981ub
   measurements:
-  - current: CC
+  - current: NC
     flavor:
     - numu
+    - numubar
     target:
-    - D2
-    topology: CCQE
-    pion_bucket: null
+    - H2
+    topology: NC elastic
+    pion_bucket: 0pi
     measurement_type: null
     observables: null
     energy_notes: null
@@ -136,11 +170,21 @@
     flavor:
     - numubar
     target:
-    - D2
-    topology: CCQE
+    - H2
+    topology: Inclusive
     pion_bucket: null
+    measurement_type: total
+    observables: inclusive antineutrino-proton CC cross section
+    energy_notes: BNL 7-ft hydrogen, ~1.1GeV
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - H2
+    topology: CCQE
+    pion_bucket: 0pi
     measurement_type: null
-    observables: null
+    observables: quasielastic antineutrino-proton, axial mass
     energy_notes: null
 - bibtag: Lee:1976wr
   title: Single Pion Production in Neutrino and anti-neutrino Reactions

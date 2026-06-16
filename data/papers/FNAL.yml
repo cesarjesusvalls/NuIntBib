@@ -54,13 +54,12 @@
     doi: https://doi.org/10.1016/0370-2693(80)90684-X
     inspire: https://inspirehep.net/literature?q=texkeys.raw:Barish:1979ny
   measurements:
-  - current: NC
+  - current: CC
     flavor:
-    - numu
     - numubar
     target:
-    - D2
-    topology: NC pi production
+    - H2
+    topology: CC pi production
     pion_bucket: null
     measurement_type: null
     observables: null
@@ -92,11 +91,20 @@
   - current: CC
     flavor:
     - numu
-    - numubar
     target:
-    - D2
-    topology: CC pi production
+    - H2
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: total
+    observables: nu p -> mu- pi+ p cross section
+    energy_notes: E>5GeV, FNAL 15ft hydrogen
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: CC K+
     pion_bucket: null
-    measurement_type: null
-    observables: null
-    energy_notes: null
+    measurement_type: total
+    observables: nu p -> mu- K+ p cross section
+    energy_notes: E>5GeV

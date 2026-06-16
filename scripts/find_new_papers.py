@@ -30,6 +30,8 @@ COLLABORATIONS = [
     # forward-looking / newer (note: use "SND@LHC", NOT "SND" which is the
     # Novosibirsk e+e- experiment and pollutes the results)
     "SBND", "ICARUS", "ANNIE", "DUNE", "SND@LHC", "WAGASCI",
+    # high-energy DIS-era experiments
+    "NuTeV", "CCFR", "CDHSW", "CDHS", "CHARM", "CHARM-II", "CHORUS", "IHEP-JINR",
 ]
 
 # Topic terms that flag an experimental cross-section measurement.

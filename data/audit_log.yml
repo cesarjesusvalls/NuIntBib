@@ -1,0 +1,1029 @@
+Ahrens:1988rr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: flavor numu->numubar (antineutrino QE); experiment ANL->BNL (Brookhaven AGS/E734) [APPLIED]
+  status: fixed
+Allasia:1990uy:
+  audited: '2026-06-16'
+  method: fulltext
+  notes: '[FULLTEXT] CC-only (title: deuteron charged current); dropped NC measurement; CCQE flavor->numu+numubar'
+  status: fixed
+ArgoNeuT:2011bms:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+ArgoNeuT:2014ihi:
+  audited: '2026-06-16'
+  method: fulltext
+  notes: '[FULLTEXT] no cross section reported - detection of 2p/SRC topology; measurement_type ratio->null;
+    KEPT as interaction-property measurement'
+  status: fixed
+ArgoNeuT:2014rlj:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+ArgoNeuT:2014uwh:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+ArgoNeuT:2015ldo:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+ArgoNeuT:2018und:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+ArgoNeuT:2020kir:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Armenise:1979zg:
+  audited: '2026-06-16'
+  method: abstract
+  notes: target [C3H8,CF3Br]->[C3H8] (propane only) [APPLIED]
+  status: fixed
+Auchincloss:1990tu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+BEBCWA21:1986pvd:
+  audited: '2026-06-16'
+  method: abstract
+  notes: pi-production->Inclusive total CC, drop NC, target D2->[H2,Ne] [APPLIED]
+  status: fixed
+Baker:1981su:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Barish:1977qk:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Barish:1978pj:
+  audited: '2026-06-16'
+  method: abstract
+  notes: flavor numu+numubar->numu (neutrino reactions only) [APPLIED]
+  status: fixed
+Barish:1979ny:
+  audited: '2026-06-16'
+  method: abstract
+  notes: NC->CC (mu+ final state), numu+numubar->numubar, D2->H2 (FNAL 15ft hydrogen) [APPLIED]
+  status: fixed
+Belikov:1983kg:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Bell:1978qu:
+  audited: '2026-06-16'
+  method: fulltext
+  notes: '[FULLTEXT] target D2->H2; flavor->numu; split into CC1pi+ and CC K+ (nup->mu-pi+p, nup->mu-K+p)'
+  status: fixed
+Bolognese:1979gf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: 'NC->CC (title: charged current), flavor->numubar, target->C3H8 (propane) [APPLIED]'
+  status: fixed
+Bonetti:1977cs:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CCQE flavor numu->numu+numubar (studies nu and nubar) [APPLIED]
+  status: fixed
+CHARM-II:1993xmz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+CHARM:1980yym:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+CHARM:1981sef:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+CHARM:1985bva:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+CHARM:1987mvh:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+CHORUS:2003qcm:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Campbell:1973wg:
+  audited: '2026-06-16'
+  method: abstract
+  notes: flavor numu+numubar->numu; target D2->H2 (Argonne 12-ft hydrogen, nup reaction) [APPLIED]
+  status: fixed
+Coteus:1981ub:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CCQE->NC elastic, current CC->NC, target D2->H2 (elastic numu p scattering, NC/CC ratio) [APPLIED]
+  status: fixed
+Day:1983itd:
+  audited: '2026-06-16'
+  method: abstract
+  notes: flavor numu+numubar->numu (neutrino-only two-pion reactions) [APPLIED]
+  status: fixed
+Derrick:1980nr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: flavor numu+numubar->numu (neutrino-only NC single pion) [APPLIED]
+  status: fixed
+Entenberg:1979wc:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CCQE->NC elastic, current CC->NC, flavor->numu+numubar, target D2->H2 (np->np elastic) [APPLIED]
+  status: fixed
+FASER:2024hoe:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+FASER:2024ref:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Faissner:1978yi:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CCQE->NC elastic, current CC->NC, mtype ratio (NC/CC ratio off protons); Al target ok [APPLIED]
+  status: fixed
+Faissner:1983ng:
+  audited: '2026-06-16'
+  method: abstract
+  notes: topology NC pi production->NCcoh pi0 (coherent single pi0 off Al) [APPLIED]
+  status: fixed
+Fanourakis:1980si:
+  audited: '2026-06-16'
+  method: fulltext
+  notes: '[FULLTEXT] target D2->H2; inclusive CC + CCQE on hydrogen (numubar)'
+  status: fixed
+Fogli:1979qj:
+  audited: '2026-06-16'
+  method: abstract
+  notes: REMOVE - theory/model paper ("A New Model..."), not an experimental measurement [REMOVED]
+  status: fixed
+GargamelleNeutrinoPropane:1977hya:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+ICARUS:2026nbg:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+K2K:2004qpv:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+K2K:2005uiu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+K2K:2006odf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+K2K:2008tus:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+K2K:2010xeb:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Kitagaki:1983px:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Kitagaki:1986ct:
+  audited: '2026-06-16'
+  method: abstract
+  notes: flavor numu+numubar->numu (BNL deuterium, neutrino-only exclusive pion production) [APPLIED]
+  status: fixed
+Lee:1976wr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2013bcy:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2013kdn:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2014ani:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2014ogb:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2014rdw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2014ypj:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2015jih:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2015slz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2015ydy:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2016cun:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2016ing:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2016oql:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2016sfc:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2016uck:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2016ymg:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2016zyp:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2017dzh:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2017ipy:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2017okh:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2017ozn:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2018hba:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2018hqn:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2018nab:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2018vjb:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2019gsf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2019ope:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2019rhx:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2019wqe:
+  audited: '2026-06-16'
+  method: fulltext
+  notes: '[FULLTEXT] no measured nu cross section (sigma mentions are GEANT4/detector); neutron-activity
+    measurement - KEPT (property)'
+  status: clean
+MINERvA:2020anu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2020zzv:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2021owq:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2021wjs:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2022bno:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2022djk:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2022esg:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2022mnw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2023ikp:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2023kuz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2023ner:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2025hzq:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2025tem:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2026apf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2026naw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINERvA:2026ymp:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINOS:2009ugl:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINOS:2014axb:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MINOS:2016yyz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2018neo:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2019nio:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2020akw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2020fxd:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2021gfj:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2021ppm:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2021sfa:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2022cls:
+  audited: '2026-06-16'
+  method: abstract
+  notes: 'flavor numu->numubar (title: Muon Antineutrino Interactions, Cabibbo-suppressed Lambda production)
+    [APPLIED]'
+  status: fixed
+MicroBooNE:2022emb:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2022tdd:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2022zhr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2023cmw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2023foc:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2023krv:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2023tzj:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2023ubu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2024bnl:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2024sec:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2024tmp:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2024zkh:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2024zwf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2025aiw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2025kqo:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2025ooi:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2025ovj:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2025pvb:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2025rch:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2025rsd:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2026ifl:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MicroBooNE:2026sbw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2007iti:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2008mmr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2009dxl:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2009koj:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2010bsu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2010cxl:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2010eis:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2010xqw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2013dds:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2013qnd:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+MiniBooNE:2018dus:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NINJA:2020bvx:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NINJA:2020gbg:
+  audited: '2026-06-16'
+  method: fulltext
+  notes: '[FULLTEXT] measures multiplicity/angle/momentum distributions (water), no sigma - KEPT (property)'
+  status: clean
+NINJA:2022zbi:
+  audited: '2026-06-16'
+  method: fulltext
+  notes: '[FULLTEXT] measures multiplicity/kinematics (iron), no sigma - KEPT (property)'
+  status: clean
+NOMAD:1998gsx:
+  audited: '2026-06-16'
+  method: abstract
+  notes: KEPT - neutrino-interaction property measurement (polarization/yield/fragmentation); site scope
+    broadened beyond cross sections
+  status: clean
+NOMAD:2000wdf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: KEPT - neutrino-interaction property measurement (polarization/yield/fragmentation); site scope
+    broadened beyond cross sections
+  status: clean
+NOMAD:2001iup:
+  audited: '2026-06-16'
+  method: abstract
+  notes: KEPT - neutrino-interaction property measurement (polarization/yield/fragmentation); site scope
+    broadened beyond cross sections
+  status: clean
+NOMAD:2001kdr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: KEPT - neutrino-interaction property measurement (polarization/yield/fragmentation); site scope
+    broadened beyond cross sections
+  status: clean
+NOMAD:2001kpt:
+  audited: '2026-06-16'
+  method: abstract
+  notes: KEPT - neutrino-interaction property measurement (polarization/yield/fragmentation); site scope
+    broadened beyond cross sections
+  status: clean
+NOMAD:2001ozt:
+  audited: '2026-06-16'
+  method: abstract
+  notes: KEPT - neutrino-interaction property measurement (polarization/yield/fragmentation); site scope
+    broadened beyond cross sections
+  status: clean
+NOMAD:2001vdk:
+  audited: '2026-06-16'
+  method: abstract
+  notes: KEPT - neutrino-interaction property measurement (polarization/yield/fragmentation); site scope
+    broadened beyond cross sections
+  status: clean
+NOMAD:2004djf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: KEPT - neutrino-interaction property measurement (polarization/yield/fragmentation); site scope
+    broadened beyond cross sections
+  status: clean
+NOMAD:2007krq:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOMAD:2009idt:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOMAD:2009qmu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOMAD:2011gyy:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOvA:2019bdw:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOvA:2021eqi:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOvA:2022see:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOvA:2023uxq:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOvA:2024rov:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOvA:2024zmr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOvA:2025vdg:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NOvA:2026zup:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+NuTeV:2005wsg:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Pohl:1977sx:
+  audited: '2026-06-16'
+  method: abstract
+  notes: CCQE->NC elastic, current CC->NC, target [C3H8,CF3Br]->[CF3Br] (Gargamelle freon, np->np elastic)
+    [APPLIED]
+  status: fixed
+Radecky:1981fn:
+  audited: '2026-06-16'
+  method: abstract
+  notes: flavor numu+numubar->numu (ANL deuterium, neutrino-only single pion) [APPLIED]
+  status: fixed
+SKAT:1988qkt:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+SKAT:1989nel:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+SNDLHC:2026oxu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+SciBooNE:2008bzb:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+SciBooNE:2009nlf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+SciBooNE:2010lca:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+SciBooNE:2010slc:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+SciBooNE:2011sjq:
+  audited: '2026-06-16'
+  method: abstract
+  notes: REMOVE - p+Be->K+ hadron production cross section (for flux), not a neutrino interaction measurement
+    [REMOVED]
+  status: fixed
+Super-Kamiokande:2019hga:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+Super-Kamiokande:2026xsm:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2013nor:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2014axs:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2014hih:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2014lbi:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2014vog:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2015cxp:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2015ujp:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2015ydf:
+  audited: '2026-06-16'
+  method: fulltext
+  notes: '[FULLTEXT] measures nue interaction rate (data/MC ratio) on water, not absolute sigma - KEPT
+    (rate)'
+  status: clean
+T2K:2016cbz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2016jor:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2016soz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2017bvo:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2017epu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: energy_notes 1.3GeV->~0.6GeV (T2K peak; abstract says 0.6 GeV) [APPLIED]
+  status: fixed
+T2K:2017qxv:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2018lnf:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2018rnz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2019ddy:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2019dgm:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2019odo:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2019yqu:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2019zqh:
+  audited: '2026-06-16'
+  method: abstract
+  notes: flavor []->[numu,numubar] (T2K-beam NCQE on oxygen) [APPLIED]
+  status: fixed
+T2K:2020jav:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2020lrr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2020sbd:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2020txr:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2021naz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2023qjb:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2023xlh:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2025kda:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2025kdk:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2025smz:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean
+T2K:2025wde:
+  audited: '2026-06-16'
+  method: abstract
+  notes: null
+  status: clean

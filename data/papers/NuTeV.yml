@@ -1,0 +1,36 @@
+- bibtag: NuTeV:2005wsg
+  title: Precise measurement of neutrino and anti-neutrino differential cross sections
+  collaboration: NuTeV
+  arxiv: hep-ex/0509010
+  doi: 10.1103/PhysRevD.74.012008
+  journal: Phys.Rev.D
+  volume: '74'
+  pages: 012008
+  year: 2006
+  published_date: 2005-09
+  inspire_recid: 691719
+  citation_count: 314
+  abstract: The NuTeV experiment at Fermilab has obtained a unique high statistics sample of neutrino
+    and anti-neutrino interactions using its high-energy sign-selected beam. We present a measurement
+    of the differential cross section for charged-current neutrino and anti-neutrino scattering from iron.
+    Structure functions, F_2(x,Q^2) and xF_3(x,Q^2), are determined by fitting the inelasticity, y, dependence
+    of the cross sections. This measurement has significantly improved systematic precision as a consequence
+    of more precise understanding of hadron and muon energy scales.
+  added: '2026-06-16'
+  notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0509010
+    doi: https://doi.org/10.1103/PhysRevD.74.012008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NuTeV:2005wsg
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: CC differential cross sections (DIS) on iron
+    energy_notes: high-energy (FNAL sign-selected beam)

@@ -26,9 +26,8 @@
     - numubar
     target:
     - C3H8
-    - CF3Br
     topology: CCQE
-    pion_bucket: null
+    pion_bucket: 0pi
     measurement_type: null
     observables: null
     energy_notes: null
@@ -55,16 +54,14 @@
     doi: https://doi.org/10.1016/0370-2693(79)90361-7
     inspire: https://inspirehep.net/literature?q=texkeys.raw:Bolognese:1979gf
   measurements:
-  - current: NC
+  - current: CC
     flavor:
-    - numu
     - numubar
     target:
     - C3H8
-    - CF3Br
-    topology: NC pi production
+    topology: CC pi production
     pion_bucket: null
-    measurement_type: null
+    measurement_type: total
     observables: null
     energy_notes: null
 - bibtag: GargamelleNeutrinoPropane:1977hya
@@ -127,14 +124,13 @@
     doi: https://doi.org/10.1016/0370-2693(78)90741-4
     inspire: https://inspirehep.net/literature?q=texkeys.raw:Pohl:1977sx
   measurements:
-  - current: CC
+  - current: NC
     flavor:
     - numu
     target:
-    - C3H8
     - CF3Br
-    topology: CCQE
-    pion_bucket: null
+    topology: NC elastic
+    pion_bucket: 0pi
     measurement_type: null
     observables: null
     energy_notes: null
@@ -169,11 +165,12 @@
   - current: CC
     flavor:
     - numu
+    - numubar
     target:
     - C3H8
     - CF3Br
     topology: CCQE
-    pion_bucket: null
+    pion_bucket: 0pi
     measurement_type: null
     observables: null
     energy_notes: null

@@ -1,37 +1,3 @@
-- bibtag: Ahrens:1988rr
-  title: A Study of the Axial Vector Form-factor and Second Class Currents in Anti-neutrino Quasielastic
-    Scattering
-  collaboration: ANL
-  arxiv: null
-  doi: 10.1016/0370-2693(88)90026-3
-  journal: Phys.Lett.B
-  volume: '202'
-  pages: '284'
-  year: 1988
-  published_date: '1988'
-  inspire_recid: 264269
-  citation_count: 124
-  abstract: The antineutrino quasielastic reaction ν μm p →μ + n has been studied in the Q 2 range up
-    to 1.0 (GeV/ c ) 2 at the Brookhaven AGS. The value of the axial vector mass M A in the dipole parametrization
-    of the from factor was determined from the shape of the Q 2 distribution to be 1.09±0.03±0.02 GeV/
-    c 2 . A search for second-class currents was also conducted. No significant effect was found.
-  added: '2026-06-16'
-  notes: Imported from PhD thesis Chapter 3 classification tables.
-  links:
-    arxiv: null
-    doi: https://doi.org/10.1016/0370-2693(88)90026-3
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ahrens:1988rr
-  measurements:
-  - current: CC
-    flavor:
-    - numu
-    target:
-    - D2
-    topology: CCQE
-    pion_bucket: null
-    measurement_type: null
-    observables: null
-    energy_notes: null
 - bibtag: Day:1983itd
   title: STUDY OF neutrino D CHARGED CURRENT TWO PION PRODUCTION IN THE THRESHOLD REGION
   collaboration: ANL
@@ -63,7 +29,6 @@
   - current: CC
     flavor:
     - numu
-    - numubar
     target:
     - D2
     topology: CC pi production
@@ -104,7 +69,6 @@
   - current: CC
     flavor:
     - numu
-    - numubar
     target:
     - D2
     topology: CC pi production
@@ -140,43 +104,6 @@
   - current: NC
     flavor:
     - numu
-    - numubar
-    target:
-    - D2
-    topology: NC pi production
-    pion_bucket: null
-    measurement_type: null
-    observables: null
-    energy_notes: null
-- bibtag: Fogli:1979qj
-  title: 'Neutral Current Induced One Pion Production: A New Model and Its Comparison With the Experiment'
-  collaboration: ANL
-  arxiv: null
-  doi: 10.1016/0550-3213(80)90312-0
-  journal: Nucl.Phys.B
-  volume: '165'
-  pages: '162'
-  year: 1980
-  published_date: 1979-10
-  inspire_recid: 8438
-  citation_count: 63
-  abstract: In the framework of a recently presented model of weak one-pion production processes we analyze
-    the neutral current induced ν and ν channels, by assuming a Weinberg-Salam structure of the neutral
-    currents. We find substantial agreement in the ν case, some discrepancy arising in the analysis of
-    the ν data. Predictions are given for the experiments requiring an improved statistics. In particular
-    the relevance of the extension of the analyzed Nπ invariant-mass region up to 1.6 GeV/ c 2 , with
-    the inclusion of the first I− 1 2 resonances, is stressed.
-  added: '2026-06-16'
-  notes: Imported from PhD thesis Chapter 3 classification tables.
-  links:
-    arxiv: null
-    doi: https://doi.org/10.1016/0550-3213(80)90312-0
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:Fogli:1979qj
-  measurements:
-  - current: NC
-    flavor:
-    - numu
-    - numubar
     target:
     - D2
     topology: NC pi production
@@ -218,7 +145,6 @@
   - current: CC
     flavor:
     - numu
-    - numubar
     target:
     - D2
     topology: CC pi production
@@ -250,13 +176,14 @@
     doi: https://doi.org/10.1103/PhysRevLett.42.1198
     inspire: https://inspirehep.net/literature?q=texkeys.raw:Entenberg:1979wc
   measurements:
-  - current: CC
+  - current: NC
     flavor:
     - numu
+    - numubar
     target:
-    - D2
-    topology: CCQE
-    pion_bucket: null
+    - H2
+    topology: NC elastic
+    pion_bucket: 0pi
     measurement_type: null
     observables: null
     energy_notes: null
@@ -332,9 +259,8 @@
   - current: CC
     flavor:
     - numu
-    - numubar
     target:
-    - D2
+    - H2
     topology: CC pi production
     pion_bucket: null
     measurement_type: null

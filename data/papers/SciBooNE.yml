@@ -36,47 +36,6 @@
     measurement_type: total
     observables: total cross section
     energy_notes: mean energy 0.8GeV
-- bibtag: SciBooNE:2011sjq
-  title: Measurement of $K^+$ production cross section by 8 GeV protons using high energy neutrino interactions
-    in the SciBooNE detector
-  collaboration: SciBooNE
-  arxiv: '1105.2871'
-  doi: 10.1103/PhysRevD.84.012009
-  journal: Phys.Rev.D
-  volume: '84'
-  pages: 012009
-  year: 2011
-  published_date: 2011-05
-  inspire_recid: 900203
-  citation_count: 47
-  abstract: The SciBooNE Collaboration reports K+ production cross section and rate measurements using
-    high energy daughter muon neutrino scattering data off the SciBar polystyrene (C8H8) target in the
-    SciBooNE detector. The K+ mesons are produced by 8 GeV protons striking a beryllium target in Fermilab
-    Booster Neutrino Beam line (BNB). Using observed neutrino and antineutrino events in SciBooNE, we
-    measure d2{\sigma}/dpd{\Omega} = (5.34 \times 0.76) mb/(GeV/c \times sr) for p + Be -> K+ + X at mean
-    K+ energy of 3.9 GeV and angle (with respect to the proton beam direction) of 3.7 degrees, corresponding
-    to the selected K+ sample. Compared to Monte Carlo predictions using previous higher energy K+ production
-    measurements, this measurement, which uses the NUANCE neutrino interaction generator, is consistent
-    with a normalization factor of 0.85\times0.12. This agreement is evidence that the extrapolation of
-    the higher energy K+ measurements to an 8 GeV beam energy using Feynman scaling is valid. This measurement
-    reduces the error on the K+ production cross section from 40% to 14%.
-  added: '2024-12-09'
-  notes: null
-  links:
-    arxiv: https://arxiv.org/abs/1105.2871
-    doi: https://doi.org/10.1103/PhysRevD.84.012009
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:SciBooNE:2011sjq
-  measurements:
-  - current: CC
-    flavor:
-    - numu
-    target:
-    - C8H8
-    topology: CC K+
-    pion_bucket: null
-    measurement_type: total
-    observables: K+ production cross section
-    energy_notes: 8GeV proton beam
 - bibtag: SciBooNE:2009nlf
   title: Measurement of Inclusive Neutral Current Neutral $\pi^0$ Production on Carbon in a Few-GeV Neutrino
     Beam

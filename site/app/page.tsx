@@ -22,11 +22,12 @@ export default function HomePage() {
         <Container className="page-hero-inner">
           <div className="page-hero-copy">
             <p className="eyebrow">Neutrino-interaction literature resource</p>
-            <h1 className="type-h1">Neutrino cross-section measurements, in one place.</h1>
+            <h1 className="type-h1">Neutrino interaction measurements, in one place.</h1>
             <p>
-              NuIntBib is a continuously updated index of published neutrino cross-section
-              measurements — searchable and filterable by experiment, current, flavor, target, and
-              interaction topology, with one-click links to arXiv, the journal, INSPIRE, and BibTeX.
+              NuIntBib is a continuously updated index of published neutrino interaction
+              measurements — cross sections and related observables — searchable and filterable by
+              experiment, current, flavor, target, and interaction topology, with one-click links to
+              arXiv, the journal, INSPIRE, and BibTeX.
             </p>
             <div className="hero-actions">
               <ButtonLink href="/papers">
@@ -59,7 +60,7 @@ export default function HomePage() {
           <SectionHeader
             eyebrow="By experiment"
             title="Coverage across the field"
-            body="Every collaboration measuring neutrino cross sections, ordered by number of tracked papers."
+            body="Every collaboration measuring neutrino interactions, ordered by number of tracked papers."
           />
           <div className="exp-grid">
             {stats.experiments.map(([exp, n]) => (

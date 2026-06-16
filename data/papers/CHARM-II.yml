@@ -1,0 +1,35 @@
+- bibtag: CHARM-II:1993xmz
+  title: Coherent single charged pion production by neutrinos
+  collaboration: CHARM-II
+  arxiv: null
+  doi: 10.1016/0370-2693(93)91223-A
+  journal: Phys.Lett.B
+  volume: '313'
+  pages: '267'
+  year: 1993
+  published_date: 1993-07
+  inspire_recid: 358417
+  citation_count: 73
+  abstract: We report on a measurement of coherent single charged pion production in neutrino-nucleus
+    scattering. The analysis is based on data taken with the CHARM II detector in beams of muon-neutrinos
+    and -antineutrinos. The event numbers amount to N ( μ − π ) = 748 and N ( μ + π ) = 631. Cross sections
+    and their dependence on the neutrino energy are determined. The results are in agreement with the
+    predictions of models based on the PCAC hypothesis.
+  added: '2026-06-16'
+  notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(93)91223-A
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHARM-II:1993xmz
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - SiO2
+    topology: CCcoh pi
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: coherent single charged-pion production
+    energy_notes: high-energy (CERN SPS WBB)

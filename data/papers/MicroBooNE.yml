@@ -783,7 +783,7 @@
   measurements:
   - current: CC
     flavor:
-    - numu
+    - numubar
     target:
     - Ar
     topology: CC Lambda

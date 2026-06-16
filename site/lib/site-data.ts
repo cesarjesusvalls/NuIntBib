@@ -1,10 +1,10 @@
 export const site = {
   name: 'NuIntBib',
-  fullName: 'Neutrino Cross-Section Papers',
-  tagline: 'Neutrino cross-section measurements, in one place.',
-  title: 'NuIntBib | Neutrino Interaction Cross-Section Papers',
+  fullName: 'Neutrino Interaction Measurements',
+  tagline: 'Neutrino interaction measurements, in one place.',
+  title: 'NuIntBib | Neutrino Interaction Measurements',
   description:
-    'A continuously updated index of published neutrino cross-section measurements — searchable and filterable by experiment, current, flavor, target, and interaction topology.',
+    'A continuously updated index of published neutrino interaction measurements — cross sections and related observables — searchable and filterable by experiment, current, flavor, target, and interaction topology.',
   url: 'https://cesarjesusvalls.github.io/NuIntBib',
   githubUrl: 'https://github.com/cesarjesusvalls/NuIntBib',
   maintainer: 'César Jesús Valls',

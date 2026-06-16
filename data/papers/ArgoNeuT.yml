@@ -157,7 +157,7 @@
     - Ar
     topology: CC2p
     pion_bucket: null
-    measurement_type: ratio
+    measurement_type: null
     observables: two-proton topology study focusing on back-to-back configurations
     energy_notes: Focus on SRC events
     flavor_note: unspecified (likely numu)

@@ -644,7 +644,9 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019zqh
   measurements:
   - current: NC
-    flavor: []
+    flavor:
+    - numu
+    - numubar
     target:
     - O
     topology: NC elastic
@@ -693,7 +695,7 @@
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section
-    energy_notes: mean energy 1.3GeV
+    energy_notes: mean energy ~0.6GeV
 - bibtag: T2K:2017qxv
   title: First measurement of the $\nu_{\mu}$ charged-current cross section on a water target without
     pions in the final state

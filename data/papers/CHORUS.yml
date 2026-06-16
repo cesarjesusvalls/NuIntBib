@@ -1,0 +1,34 @@
+- bibtag: CHORUS:2003qcm
+  title: Measurement of the Z/A dependence of neutrino charged-current total cross-sections
+  collaboration: CHORUS
+  arxiv: null
+  doi: 10.1140/epjc/s2003-01292-3
+  journal: Eur.Phys.J.C
+  volume: '30'
+  pages: '159'
+  year: 2003
+  published_date: 2003-07
+  inspire_recid: 627267
+  citation_count: 17
+  abstract: A relative measurement of total cross-sections is reported for polyethylene, marble, iron,
+    and lead targets for the inclusive charged-current reaction $\nu_\mu + N \rightarrow \mu^-
+  added: '2026-06-16'
+  notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1140/epjc/s2003-01292-3
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHORUS:2003qcm
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH2
+    - CaCO3
+    - Fe
+    - Pb
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: Z/A dependence of total CC cross section
+    energy_notes: high-energy (CERN WANF, ~27 GeV)

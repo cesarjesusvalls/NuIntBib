@@ -126,6 +126,33 @@ cd site && yarn build      # static export to site/out
 Commit the changed `data/papers/*.yml` (and, if used, regenerated `.bib`).
 GitHub Actions rebuilds and deploys the site (see `.github/workflows/`).
 
+## Auditing classifications
+
+The classification of each paper (current/flavor/target/topology/measurement
+type) is periodically re-validated against its abstract — and, when the abstract
+is ambiguous, its full text. To avoid repeating work, every audited paper is
+recorded in `data/audit_log.yml` (keyed by bibtag) with a status:
+
+- `clean` — classification matches the abstract, no change;
+- `fix-proposed` — a discrepancy was found, correction proposed;
+- `fixed` — correction applied;
+- `needs-fulltext` — abstract insufficient; flagged for body inspection.
+
+`clean` and `fixed` are **closed** and skipped on future passes. Drive audits off
+the ledger:
+
+```bash
+scripts/audit_log.py stats      # how many audited / remaining
+scripts/audit_log.py pending    # database papers not yet closed (audit these next)
+scripts/audit_log.py open       # audited but unresolved (fix-proposed / needs-fulltext)
+```
+
+Audit in batches (e.g. 20 at a time) so token spend stays visible. Common error
+patterns found so far: thesis-imported bubble-chamber rows where the coarse table
+columns mis-assigned current (CC vs NC), flavor (neutrino vs antineutrino), or
+target — always cross-check the abstract's reaction (e.g. a `μ+` final state is
+charged current; "in propane" means C3H8 only).
+
 ## Notes
 
 - INSPIRE responses are cached under `.cache/` (gitignored); delete it to force

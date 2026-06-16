@@ -4,7 +4,7 @@ import { getAllPapers, getStats } from '@/lib/papers';
 
 export const metadata: Metadata = {
   title: 'Statistics',
-  description: 'Distribution of tracked neutrino cross-section papers by experiment, channel, target, flavor, and year.',
+  description: 'Distribution of tracked neutrino interaction measurements by experiment, channel, target, flavor, and year.',
 };
 
 const FLAVOR_LABEL: Record<string, string> = {

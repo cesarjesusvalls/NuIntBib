@@ -7,7 +7,7 @@ import { stripTex, texToHtml } from '@/lib/tex';
 export const metadata: Metadata = {
   title: 'Papers',
   description:
-    'Browse and filter every tracked neutrino cross-section measurement by experiment, current, flavor, target, and interaction topology.',
+    'Browse and filter every tracked neutrino interaction measurement by experiment, current, flavor, target, and interaction topology.',
 };
 
 export default function PapersPage() {
@@ -54,7 +54,7 @@ export default function PapersPage() {
     <>
       <PageHero
         eyebrow={`${papers.length} measurements`}
-        title="Neutrino cross-section papers"
+        title="Neutrino interaction measurements"
         body="Every record is enriched from INSPIRE-HEP. Filter by experiment, current, flavor, target, and topology; open arXiv, the journal, or INSPIRE, or copy a BibTeX citation in one click."
       />
       <section className="section">

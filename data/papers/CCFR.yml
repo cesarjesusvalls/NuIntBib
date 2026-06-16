@@ -1,0 +1,33 @@
+- bibtag: Auchincloss:1990tu
+  title: Measurement of the Inclusive Charged Current Cross-section for Neutrino and Anti-neutrino Scattering
+    on Isoscalar Nucleons
+  collaboration: CCFR
+  arxiv: null
+  doi: 10.1007/BF01572022
+  journal: Z.Phys.C
+  volume: '48'
+  pages: '411'
+  year: 1990
+  published_date: '1990-05-21'
+  inspire_recid: 27761
+  citation_count: 104
+  abstract: This paper reports on measurements of the total cross section for the inclusive reaction vμ+N,
+    as a function of incident energy. Neutrinos and antineutrinos with energy in the range 3
+  added: '2026-06-16'
+  notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01572022
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Auchincloss:1990tu
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total inclusive CC cross section vs energy
+    energy_notes: high-energy (FNAL, ~30-250 GeV)

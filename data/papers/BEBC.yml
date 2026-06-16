@@ -26,12 +26,13 @@
   - current: CC
     flavor:
     - numu
+    - numubar
     target:
     - D2
     topology: CCQE
-    pion_bucket: null
+    pion_bucket: 0pi
     measurement_type: null
-    observables: null
+    observables: quasielastic on deuterium
     energy_notes: null
   - current: CC
     flavor:
@@ -42,18 +43,7 @@
     topology: CC pi production
     pion_bucket: null
     measurement_type: null
-    observables: null
-    energy_notes: null
-  - current: NC
-    flavor:
-    - numu
-    - numubar
-    target:
-    - D2
-    topology: NC pi production
-    pion_bucket: null
-    measurement_type: null
-    observables: null
+    observables: one-, two-, three-pion production cross sections
     energy_notes: null
 - bibtag: BEBCWA21:1986pvd
   title: Measurement of Total Cross-sections for Neutrino and Anti-neutrino Charged Current Interactions
@@ -89,20 +79,10 @@
     - numu
     - numubar
     target:
-    - D2
-    topology: CC pi production
+    - H2
+    - Ne
+    topology: Inclusive
     pion_bucket: null
-    measurement_type: null
-    observables: null
-    energy_notes: null
-  - current: NC
-    flavor:
-    - numu
-    - numubar
-    target:
-    - D2
-    topology: NC pi production
-    pion_bucket: null
-    measurement_type: null
-    observables: null
-    energy_notes: null
+    measurement_type: total
+    observables: total CC cross sections on hydrogen and neon (and their ratio)
+    energy_notes: high-energy (CERN SPS WBB, 20-300 GeV)
