@@ -1,0 +1,48 @@
+- bibtag: FASER:2024hoe
+  title: First Measurement of <math display="inline"><msub><mi>ν</mi><mi>e</mi></msub></math> and <math
+    display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math> Interaction Cross Sections at the LHC with
+    FASER’s Emulsion Detector
+  collaboration: FASER
+  arxiv: '2403.12520'
+  doi: 10.1103/PhysRevLett.133.021802
+  journal: Phys.Rev.Lett.
+  volume: '133'
+  pages: 021802
+  year: 2024
+  published_date: '2024-03-19'
+  inspire_recid: 2769917
+  citation_count: 83
+  abstract: This paper presents the first results of the study of high-energy electron and muon neutrino
+    charged-current interactions in the FASER$\nu$ emulsion/tungsten detector of the FASER experiment
+    at the LHC. A subset of the FASER$\nu$ volume, which corresponds to a target mass of 128.6~kg, was
+    exposed to neutrinos from the LHC $pp$ collisions with a centre-of-mass energy of 13.6~TeV and an
+    integrated luminosity of 9.5 fb$^{-1}$. Applying stringent selections requiring electrons with reconstructed
+    energy above 200~GeV, four electron neutrino interaction candidate events are observed with an expected
+    background of $0.025^{+0.015}_{-0.010}$, leading to a statistical significance of 5.2$\sigma$. This
+    is the first direct observation of electron neutrino interactions at a particle collider. Eight muon
+    neutrino interaction candidate events are also detected, with an expected background of $0.22^{+0.09}_{-0.07}$,
+    leading to a statistical significance of 5.7$\sigma$. The signal events include neutrinos with energies
+    in the TeV range, the highest-energy electron and muon neutrinos ever detected from an artificial
+    source. The energy-independent part of the interaction cross section per nucleon is measured over
+    an energy range of 560--1740 GeV (520--1760 GeV) for $\nu_e$ ($\nu_{\mu}$) to be $(1.2_{-0.7}^{+0.8})
+    \times 10^{-38}~\mathrm{cm}^{2}\,\mathrm{GeV}^{-1}$ ($(0.5\pm0.2) \times 10^{-38}~\mathrm{cm}^{2}\,\mathrm{GeV}^{-1}$),
+    consistent with Standard Model predictions. These are the first measurements of neutrino interaction
+    cross sections in those energy ranges.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2403.12520
+    doi: https://doi.org/10.1103/PhysRevLett.133.021802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:FASER:2024hoe
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - nue
+    target:
+    - W
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: energy-independent interaction cross section
+    energy_notes: TeV neutrinos (560-1740GeV for nue, 520-1760GeV for numu), first collider nue observation

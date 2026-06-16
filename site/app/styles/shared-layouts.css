@@ -1,0 +1,11 @@
+.page-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.split-section {
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+  gap: 3rem;
+  align-items: start;
+}

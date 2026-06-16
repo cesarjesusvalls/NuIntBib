@@ -1,0 +1,123 @@
+- bibtag: MINOS:2016yyz
+  title: Measurement of single $\pi^0$ production by coherent neutral-current $\nu$ Fe interactions in
+    the MINOS Near Detector
+  collaboration: MINOS
+  arxiv: '1608.05702'
+  doi: 10.1103/PhysRevD.94.072006
+  journal: Phys.Rev.D
+  volume: '94'
+  pages: '072006'
+  year: 2016
+  published_date: '2016-08-19'
+  inspire_recid: 1482650
+  citation_count: 33
+  abstract: Forward single $\pi^0$ production by coherent neutral-current interactions, $\nu \mathcal{A}
+    \to \nu \mathcal{A} \pi^0$, is investigated using a 2.8$\times 10^{20}$ protons-on-target exposure
+    of the MINOS Near Detector. For single-shower topologies, the event distribution in production angle
+    exhibits a clear excess above the estimated background at very forward angles for visible energy in
+    the range~1-8 GeV. Cross sections are obtained for the detector medium comprised of 80% iron and 20%
+    carbon nuclei with $\langle \mathcal{A} \rangle = 48$, the highest-$\langle \mathcal{A} \rangle$ target
+    used to date in the study of this coherent reaction. The total cross section for coherent neutral-current
+    single-$\pi^0$ production initiated by the $\nu_\mu$ flux of the NuMI low-energy beam with mean (mode)
+    $E_{\nu}$ of 4.9 GeV (3.0 GeV), is $77.6\pm5.0\,(\text{stat}) ^{+15.0}_{-16.8}\,(\text{syst})\times10^{-40}\,\text{cm}^2~\text{per
+    nucleus}$. The results are in good agreement with predictions of the Berger-Sehgal model.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1608.05702
+    doi: https://doi.org/10.1103/PhysRevD.94.072006
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2016yyz
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - Fe
+    - C
+    topology: NCcoh pi0
+    pion_bucket: pi0
+    measurement_type: total
+    observables: total cross section
+    energy_notes: mean E=4.9GeV
+- bibtag: MINOS:2014axb
+  title: Study of Quasielastic Scattering using Charged-Current νμ -Iron Interactions in the MINOS Near
+    Detector
+  collaboration: MINOS
+  arxiv: '1410.8613'
+  doi: 10.1103/PhysRevD.91.012005
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '012005'
+  year: 2015
+  published_date: '2014-10-30'
+  inspire_recid: 1325543
+  citation_count: 117
+  abstract: Kinematic distributions from an inclusive sample of 1.41 x 10^6 charged-current nu_mu interactions
+    on iron, obtained using the MINOS Near Detector exposed to a wide-band beam with peak flux at 3 GeV,
+    are compared to a conventional treatment of neutrino scattering within a Fermi gas nucleus. Results
+    are used to guide the selection of a subsample enriched in quasielastic nu_mu Fe interactions, containing
+    an estimated 123,000 quasielastic events of incident energies 1 < E_nu < 8 GeV, with <E_nu> = 2.79
+    GeV. Four additional subsamples representing topological and kinematic sideband regions to quasielastic
+    scattering are also selected for the purpose of evaluating backgrounds. Comparisons using subsample
+    distributions in four-momentum transfer Q^2 show the Monte Carlo model to be inadequate at low Q^2.
+    Its shortcomings are remedied via inclusion of a Q^2-dependent suppression function for baryon resonance
+    production, developed from the data. A chi-square fit of the resulting Monte Carlo simulation to the
+    shape of the Q^2 distribution for the quasielastic-enriched sample is carried out with the axial-vector
+    mass M_A of the dipole axial-vector form factor of the neutron as a free parameter. The effective
+    M_A which best describes the data is 1.23 +0.13/-0.09 (fit) +0.12/-0.15 (syst.) GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1410.8613
+    doi: https://doi.org/10.1103/PhysRevD.91.012005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2014axb
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Fe
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential Q2 distribution
+    energy_notes: 'E: 1-8GeV'
+- bibtag: MINOS:2009ugl
+  title: Neutrino and Antineutrino Inclusive Charged-current Cross Section Measurements with the MINOS
+    Near Detector
+  collaboration: MINOS
+  arxiv: '0910.2201'
+  doi: 10.1103/PhysRevD.81.072002
+  journal: Phys.Rev.D
+  volume: '81'
+  pages: '072002'
+  year: 2010
+  published_date: 2009-10
+  inspire_recid: 833709
+  citation_count: 213
+  abstract: The energy dependence of the neutrino-iron and antineutrino-iron inclusive charged-current
+    cross sections and their ratio have been measured using a high-statistics sample with the MINOS Near
+    Detector exposed to the NuMI beam from the Main Injector at Fermilab. Neutrino and antineutrino fluxes
+    were determined using a low hadronic energy subsample of charged-current events. We report measurements
+    of neutrino-Fe (antineutrinoFe) cross section in the energy range 3-50 GeV (5-50 GeV) with precision
+    of 2-8% (3-9%) and their ratio which is measured with precision 2-8%. The data set spans the region
+    from low energy, where accurate measurements are sparse, up to the high-energy scaling region where
+    the cross section is well understood.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0910.2201
+    doi: https://doi.org/10.1103/PhysRevD.81.072002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2009ugl
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: total cross section and ratio
+    energy_notes: 'E: 3-50GeV for numu, 5-50GeV for numubar'

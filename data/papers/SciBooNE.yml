@@ -1,0 +1,189 @@
+- bibtag: SciBooNE:2010slc
+  title: Measurement of Inclusive Charged Current Interactions on Carbon in a Few-GeV Neutrino Beam
+  collaboration: SciBooNE
+  arxiv: '1011.2131'
+  doi: 10.1103/PhysRevD.83.012005
+  journal: Phys.Rev.D
+  volume: '83'
+  pages: '012005'
+  year: 2011
+  published_date: 2010-11
+  inspire_recid: 876534
+  citation_count: 145
+  abstract: 'The SciBooNE Collaboration reports a measurement of inclusive charged current interactions
+    of muon neutrinos on carbon with an average energy of 0.8 GeV using the Fermilab Booster Neutrino
+    Beam. We compare our measurement with two neutrino interaction simulations: NEUT and NUANCE. The charged
+    current interaction rates (product of flux and cross section) are extracted by fitting the muon kinematics,
+    with a precision of 6-15% for the energy dependent and 3% for the energy integrated analyses. We also
+    extract CC inclusive interaction cross sections from the observed rates, with a precision of 10-30%
+    for the energy dependent and 8% for the energy integrated analyses. This is the first measurement
+    of the CC inclusive cross section on carbon around 1 GeV. These results can be used to convert previous
+    SciBooNE cross section ratio measurements to absolute cross section values.'
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1011.2131
+    doi: https://doi.org/10.1103/PhysRevD.83.012005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SciBooNE:2010slc
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total cross section
+    energy_notes: mean energy 0.8GeV
+- bibtag: SciBooNE:2011sjq
+  title: Measurement of $K^+$ production cross section by 8 GeV protons using high energy neutrino interactions
+    in the SciBooNE detector
+  collaboration: SciBooNE
+  arxiv: '1105.2871'
+  doi: 10.1103/PhysRevD.84.012009
+  journal: Phys.Rev.D
+  volume: '84'
+  pages: 012009
+  year: 2011
+  published_date: 2011-05
+  inspire_recid: 900203
+  citation_count: 47
+  abstract: The SciBooNE Collaboration reports K+ production cross section and rate measurements using
+    high energy daughter muon neutrino scattering data off the SciBar polystyrene (C8H8) target in the
+    SciBooNE detector. The K+ mesons are produced by 8 GeV protons striking a beryllium target in Fermilab
+    Booster Neutrino Beam line (BNB). Using observed neutrino and antineutrino events in SciBooNE, we
+    measure d2{\sigma}/dpd{\Omega} = (5.34 \times 0.76) mb/(GeV/c \times sr) for p + Be -> K+ + X at mean
+    K+ energy of 3.9 GeV and angle (with respect to the proton beam direction) of 3.7 degrees, corresponding
+    to the selected K+ sample. Compared to Monte Carlo predictions using previous higher energy K+ production
+    measurements, this measurement, which uses the NUANCE neutrino interaction generator, is consistent
+    with a normalization factor of 0.85\times0.12. This agreement is evidence that the extrapolation of
+    the higher energy K+ measurements to an 8 GeV beam energy using Feynman scaling is valid. This measurement
+    reduces the error on the K+ production cross section from 40% to 14%.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1105.2871
+    doi: https://doi.org/10.1103/PhysRevD.84.012009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SciBooNE:2011sjq
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C8H8
+    topology: CC K+
+    pion_bucket: null
+    measurement_type: total
+    observables: K+ production cross section
+    energy_notes: 8GeV proton beam
+- bibtag: SciBooNE:2009nlf
+  title: Measurement of Inclusive Neutral Current Neutral $\pi^0$ Production on Carbon in a Few-GeV Neutrino
+    Beam
+  collaboration: SciBooNE
+  arxiv: '0910.5768'
+  doi: 10.1103/PhysRevD.81.033004
+  journal: Phys.Rev.D
+  volume: '81'
+  pages: '033004'
+  year: 2010
+  published_date: 2009-10
+  inspire_recid: 835586
+  citation_count: 82
+  abstract: The SciBooNE Collaboration reports inclusive neutral current neutral pion production by a
+    muon neutrino beam on a polystyrene target (C8H8). We obtain (7.7 \pm 0.5(stat.) \pm 0.5 (sys.)) x
+    10^(-2) as the ratio of the neutral current neutral pion production to total charged current cross
+    section; the mean energy of neutrinos producing detected neutral pions is 1.1 GeV. The result agrees
+    with the Rein-Sehgal model implemented in our neutrino interaction simulation program with nuclear
+    effects. The spectrum shape of the neutral pion momentum and angle agree with the model. We also measure
+    the ratio of the neutral current coherent pion production to total charged current cross section to
+    be (0.7 \pm 0.4) x 10^(-2).
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0910.5768
+    doi: https://doi.org/10.1103/PhysRevD.81.033004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SciBooNE:2009nlf
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - C8H8
+    topology: NC1pi0
+    pion_bucket: pi0
+    measurement_type: ratio
+    observables: ratio to total CC
+    energy_notes: mean energy 1.1GeV
+- bibtag: SciBooNE:2010lca
+  title: Improved Measurement of Neutral Current Coherent $\pi^0$ Production on Carbon in a Few-GeV Neutrino
+    Beam
+  collaboration: SciBooNE
+  arxiv: '1005.0059'
+  doi: 10.1103/PhysRevD.81.111102
+  journal: Phys.Rev.D
+  volume: '81'
+  pages: '111102'
+  year: 2010
+  published_date: 2010-05
+  inspire_recid: 853762
+  citation_count: 99
+  abstract: The SciBooNE Collaboration reports a measurement of neutral current coherent neutral pion
+    production on carbon by a muon neutrino beam with average energy 0.8 GeV. The separation of coherent
+    from inclusive neutral pion production has been improved by detecting recoil protons from resonant
+    neutral pion production. We measure the ratio of the neutral current coherent neutral pion production
+    to total charged current cross sections to be (1.16 +/- 0.24) x 10-2. The ratio of charged current
+    coherent pion to neutral current coherent pion production is calculated to be 0.14+0.30 -0.28, using
+    our published charged current coherent pion measurement.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1005.0059
+    doi: https://doi.org/10.1103/PhysRevD.81.111102
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SciBooNE:2010lca
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: NCcoh pi0
+    pion_bucket: pi0
+    measurement_type: ratio
+    observables: ratio to total CC
+    energy_notes: mean energy 0.8GeV
+- bibtag: SciBooNE:2008bzb
+  title: Search for Charged Current Coherent Pion Production on Carbon in a Few-GeV Neutrino Beam
+  collaboration: SciBooNE
+  arxiv: '0811.0369'
+  doi: 10.1103/PhysRevD.78.112004
+  journal: Phys.Rev.D
+  volume: '78'
+  pages: '112004'
+  year: 2008
+  published_date: 2008-11
+  inspire_recid: 801424
+  citation_count: 191
+  abstract: The SciBooNE Collaboration has performed a search for charged current coherent pion production
+    from muon neutrinos scattering on carbon, $\nu_{\mu}$ $^{12}C \to \mu^{-12}C \pi^+$, with two distinct
+    data samples. No evidence for coherent pion production is observed. We set 90% confidence level upper
+    limits on the cross section ratio of charged current coherent pion production to the total charged
+    current cross section at $ 0.67 \times 10^{-2}$ at mean neutrino energy 1.1 GeV and 1.36\times 10^{-2}
+    at mean neutrino energy 2.2 GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0811.0369
+    doi: https://doi.org/10.1103/PhysRevD.78.112004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SciBooNE:2008bzb
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CCcoh pi
+    pion_bucket: null
+    measurement_type: ratio
+    observables: upper limit on cross section ratio
+    energy_notes: mean energies 1.1GeV and 2.2GeV

@@ -1,0 +1,76 @@
+.not-found-page {
+  position: relative;
+  display: flex;
+  min-height: clamp(30rem, calc(100vh - 10rem), 44rem);
+  align-items: center;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.not-found-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, .045) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.not-found-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  pointer-events: none;
+  user-select: none;
+}
+
+.not-found-ascii-shell {
+  width: clamp(30rem, 62vw, 62rem);
+  aspect-ratio: 1;
+  margin-right: max(-14rem, calc((100vw - 80rem) / 2 - 7rem));
+  color: var(--black-30);
+  opacity: .52;
+  pointer-events: none;
+  user-select: none;
+  --wc-cherenkov-color: var(--black-30);
+}
+
+.not-found-ascii-shell wc-cherenkov {
+  display: block;
+  width: 100%;
+  height: 100%;
+  --ascii-aspect: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.not-found-inner {
+  position: relative;
+  z-index: 1;
+  padding-block: 5rem;
+}
+
+.not-found-copy {
+  max-width: 32rem;
+}
+
+.not-found-copy > p:not(.eyebrow) {
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  line-height: 1.625;
+}
+
+@media (max-width: 760px) {
+  .not-found-page {
+    min-height: 34rem;
+  }
+
+  .not-found-ascii-shell {
+    width: clamp(24rem, 112vw, 38rem);
+    margin-right: -14rem;
+    opacity: .38;
+  }
+}

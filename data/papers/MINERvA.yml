@@ -1,0 +1,1581 @@
+- bibtag: MINERvA:2023ner
+  title: Measurement of electron neutrino and antineutrino cross sections at low momentum transfer
+  collaboration: MINERvA
+  arxiv: '2312.16631'
+  doi: 10.1103/PhysRevD.109.092008
+  journal: Phys.Rev.D
+  volume: '109'
+  pages: 092008
+  year: 2024
+  published_date: '2023-12-27'
+  inspire_recid: 2741241
+  citation_count: 12
+  abstract: Accelerator based neutrino oscillation experiments seek to measure the relative number of
+    electron and muon neutrinos and antineutrinos at different $L/E$ values. However high statistics studies
+    of neutrino interactions are almost exclusively measured using muon neutrinos and antineutrinos since
+    the dominant flavor of neutrinos produced by accelerator based beams are of the muon type. This work
+    reports new measurements of electron neutrino and antineutrino interactions in hydrocarbon, obtained
+    by strongly suppressing backgrounds initiated by muon flavor neutrinos and antineutrinos. Double differential
+    cross sections as a function of visible energy transfer, $E_\text{avail}$, and transverse momentum
+    transfer, $p_T$, or three momentum transfer, $q_3$ are presented.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2312.16631
+    doi: https://doi.org/10.1103/PhysRevD.109.092008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2023ner
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    - nuebar
+    target:
+    - CH
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double differential cross sections (Eavail, pT or q3)
+    energy_notes: null
+- bibtag: MINERvA:2022bno
+  title: High-Statistics Measurement of Antineutrino Quasielastic-like scattering at $E_\nu \sim$ 6~GeV
+    on a Hydrocarbon Target
+  collaboration: MINERvA
+  arxiv: '2211.10402'
+  doi: 10.1103/PhysRevD.108.032018
+  journal: Phys.Rev.D
+  volume: '108'
+  pages: 032018
+  year: 2023
+  published_date: '2022-11-18'
+  inspire_recid: 2512191
+  citation_count: 12
+  abstract: We present measurements of the cross section for anti-neutrino charged-current quasielastic-like
+    scattering on hydrocarbon using the medium energy (ME) NuMI wide-band neutrino beam peaking at $<E_{\nu}>\sim
+    6$ GeV. The cross section measurements are presented as a function of the longitudinal momentum ($p_{||}$)
+    and transverse momentum ($p_{T}$) of the final state muon. This work complements our previously reported
+    high statistics measurement in the neutrino channel and extends the previous anti-neutrino measurement
+    made in the low energy (LE) beam at neutrino energy($<E_{\nu}>$) $\sim$ 3.5 GeV to $p_{T}$ of 2.5
+    GeV/c. Current theoretical models do not completely describe the data in this previously unexplored
+    high $p_{T}$ region. The single differential cross section as a function of four momentum transfer
+    ($Q^{2}_{QE}$) now extends to 4 GeV$^2$ with high statistics. The cross section as a function of $Q^{2}_{QE}$
+    shows that the tuned simulations developed by the MINERvA collaboration that agreed well with the
+    low energy beam measurements do not agree as well with the medium energy beam measurements. Newer
+    neutrino interaction models such as the GENIE 3 tunes are better able to simulate the high $Q^{2}_{QE}$.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2211.10402
+    doi: https://doi.org/10.1103/PhysRevD.108.032018
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2022bno
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential cross sections (plong, pT)
+    energy_notes: mean energy ~6GeV, extends to high pT
+- bibtag: MINERvA:2022djk
+  title: Simultaneous Measurement of Muon Neutrino <math display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math>
+    Charged-Current Single <math display="inline"><msup><mi>π</mi><mo>+</mo></msup></math> Production
+    in CH, C, <math display="inline"><mrow><msub><mrow><mi mathvariant="normal">H</mi></mrow><mrow><mn>2</mn></mrow></msub><mi
+    mathvariant="normal">O</mi></mrow></math>, Fe, and Pb Targets in MINERvA
+  collaboration: MINERvA
+  arxiv: '2209.07852'
+  doi: 10.1103/PhysRevLett.131.011801
+  journal: Phys.Rev.Lett.
+  volume: '131'
+  pages: '1'
+  year: 2023
+  published_date: '2022-09-16'
+  inspire_recid: 2152987
+  citation_count: 29
+  abstract: Neutrino-induced charged-current single $\pi^+$ production in the $\Delta(1232)$ resonance
+    region is of considerable interest to accelerator-based neutrino oscillation experiments. In this
+    work, high statistics differential cross sections are reported for the semi-exclusive reaction $\nu_\mu
+    A \to \mu^- \pi^+ +$ nucleon(s) on scintillator, carbon, water, iron, and lead targets recorded by
+    MINERvA using a wide-band $\nu_\mu$ beam with $\left< E_\nu \right> \approx 6$~GeV. Suppression of
+    the cross section at low $Q^2$ and enhancement of low $T_\pi$ are observed in both light and heavy
+    nuclear targets compared to phenomenological models used in current neutrino interaction generators.
+    The cross-section ratios for iron and lead compared to CH across the kinematic variables probed are
+    0.8 and 0.5 respectively, a scaling which is also not predicted by current generators.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2209.07852
+    doi: https://doi.org/10.1103/PhysRevLett.131.011801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2022djk
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    - C
+    - H2O
+    - Fe
+    - Pb
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: ratio
+    observables: differential cross sections and nuclear ratios
+    energy_notes: mean energy ~6GeV, Delta(1232) region
+- bibtag: MINERvA:2022esg
+  title: Neutrino-Induced Coherent <math display="inline"><mrow><msup><mrow><mi>π</mi></mrow><mrow><mo>+</mo></mrow></msup></mrow></math>
+    Production in C, CH, Fe, and Pb at <math display="inline"><mrow><mo stretchy="false">⟨</mo><msub><mrow><mi>E</mi></mrow><mrow><mi>ν</mi></mrow></msub><mo
+    stretchy="false">⟩</mo><mo>∼</mo><mn>6</mn><mtext> </mtext><mtext> </mtext><mi>GeV</mi></mrow></math>
+  collaboration: MINERvA
+  arxiv: '2210.01285'
+  doi: 10.1103/PhysRevLett.131.051801
+  journal: Phys.Rev.Lett.
+  volume: '131'
+  pages: 051801
+  year: 2023
+  published_date: '2022-10-03'
+  inspire_recid: 2159830
+  citation_count: 20
+  abstract: MINERvA has measured the $\nu_{\mu}$-induced coherent $\pi^{+}$ cross section simultaneously
+    in hydrocarbon (CH), graphite (C), iron (Fe) and lead (Pb) targets using neutrinos from 2 to 20 GeV.
+    The measurements exceed the predictions of the Rein-Sehgal and Berger-Sehgal PCAC based models at
+    multi-GeV $\nu_{\mu}$ energies and at produced $\pi^{+}$ energies and angles, $E_{\pi}>1$ GeV and
+    $\theta_{\pi}<10^{\circ}$. Measurements of the cross-section ratios of Fe and Pb relative to CH reveal
+    the effective $A$-scaling to increase from an approximate $A^{1/3}$ scaling at few GeV to an $A^{2/3}$
+    scaling for $E_{\nu}>10$ GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2210.01285
+    doi: https://doi.org/10.1103/PhysRevLett.131.051801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2022esg
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    - C
+    - Fe
+    - Pb
+    topology: CCcoh pi+
+    pion_bucket: pi_charged
+    measurement_type: total
+    observables: cross sections and A-dependence
+    energy_notes: neutrino energy 2-20GeV
+- bibtag: MINERvA:2023ikp
+  title: Measurement of the multineutron <math display="inline"><msub><mover accent="true"><mi>ν</mi><mo
+    stretchy="false">¯</mo></mover><mi>μ</mi></msub></math> charged current differential cross section
+    at low available energy on hydrocarbon
+  collaboration: MINERvA
+  arxiv: '2310.17014'
+  doi: 10.1103/PhysRevD.108.112010
+  journal: Phys.Rev.D
+  volume: '108'
+  pages: '112010'
+  year: 2023
+  published_date: '2023-10-25'
+  inspire_recid: 2714644
+  citation_count: 17
+  abstract: Neutron production in antineutrino interactions can lead to bias in energy reconstruction
+    in neutrino oscillation experiments, but these interactions have rarely been studied. MINERvA previously
+    studied neutron production at an average antineutrino energy of ~3 GeV in 2016 and found deficiencies
+    in leading models. In this paper, the MINERvA 6 GeV average antineutrino energy data set is shown
+    to have similar disagreements. A measurement of the cross section for an antineutrino to produce two
+    or more neutrons and have low visible energy is presented as an experiment-independent way to explore
+    neutron production modeling. This cross section disagrees with several leading models' predictions.
+    Neutron modeling techniques from nuclear physics are used to quantify neutron detection uncertainties
+    on this result.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2310.17014
+    doi: https://doi.org/10.1103/PhysRevD.108.112010
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2023ikp
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH
+    topology: Multi-neutron
+    pion_bucket: null
+    measurement_type: total
+    observables: cross section for events with ≥2 neutrons
+    energy_notes: mean energy ~6GeV
+- bibtag: MINERvA:2023kuz
+  title: Simultaneous Measurement of <math display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math> Quasielasticlike
+    Cross Sections on CH, C, <math display="inline"><mrow><msub><mrow><mi mathvariant="normal">H</mi></mrow><mrow><mn>2</mn></mrow></msub><mi
+    mathvariant="normal">O</mi></mrow></math>, Fe, and Pb as a Function of Muon Kinematics at MINERvA
+  collaboration: MINERvA
+  arxiv: '2301.02272'
+  doi: 10.1103/PhysRevLett.130.161801
+  journal: Phys.Rev.Lett.
+  volume: '130'
+  pages: '161801'
+  year: 2023
+  published_date: '2023-01-05'
+  inspire_recid: 2621204
+  citation_count: 26
+  abstract: This paper presents the first simultaneous measurement of the quasielastic-like neutrino-nucleus
+    cross sections on C, water, Fe, Pb and scintillator (hydrocarbon or CH) as a function of longitudinal
+    and transverse muon momentum. The ratio of cross sections per nucleon between Pb and CH is always
+    above unity and has a characteristic shape as a function of transverse muon momentum that evolves
+    slowly as a function of longitudinal muon momentum. The ratio is constant versus longitudinal momentum
+    within uncertainties above a longitudinal momentum of 4.5GeV/c. The cross section ratios to CH for
+    C, water, and Fe remain roughly constant with increasing longitudinal momentum, and the ratios between
+    water or C to CH do not have any significant deviation from unity. Both the overall cross section
+    level and the shape for Pb and Fe as a function of transverse muon momentum are not reproduced by
+    current neutrino event generators. These measurements provide a direct test of nuclear effects in
+    quasielastic-like interactions, which are major contributors to long-baseline neutrino oscillation
+    data samples.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2301.02272
+    doi: https://doi.org/10.1103/PhysRevLett.130.161801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2023kuz
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    - C
+    - H2O
+    - Fe
+    - Pb
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: ratio
+    observables: cross section ratios vs longitudinal and transverse muon momentum
+    energy_notes: null
+- bibtag: MINERvA:2021wjs
+  title: Measurement of inclusive charged-current <math display="inline"><mrow><msub><mrow><mi>ν</mi></mrow><mrow><mi>μ</mi></mrow></msub></mrow></math>
+    scattering on hydrocarbon at <math display="inline"><mrow><mo stretchy="false">⟨</mo><msub><mrow><mi>E</mi></mrow><mrow><mi>ν</mi></mrow></msub><mo
+    stretchy="false">⟩</mo><mo>∼</mo><mn>6</mn><mtext> </mtext><mtext> </mtext><mi>GeV</mi></mrow></math>
+    with low three-momentum transfer
+  collaboration: MINERvA
+  arxiv: '2110.13372'
+  doi: 10.1103/PhysRevD.106.032001
+  journal: Phys.Rev.D
+  volume: '106'
+  pages: '032001'
+  year: 2022
+  published_date: '2021-10-25'
+  inspire_recid: 1952230
+  citation_count: 32
+  abstract: The \minerva experiment reports double-differential cross-section measurements for $\nu_{\mu}$-carbon
+    interactions with three-momentum transfer $|\vec{q}| < 1.2$ GeV obtained with medium energy exposures
+    in the NuMI beam. These measurements are performed as a function of the three-momentum transfer and
+    an energy transfer estimator called the available energy defined as the energy that would be visible
+    in the detector. The double differential cross sections are compared to the GENIE and NuWro predictions
+    along with the modified version of GENIE which incorporates new models for better agreement with earlier
+    measurements from MINERvA. In these measurements, the quasi-elastic, resonance, and multi-nucleon
+    knockout processes appear at different kinematics in this two-dimensional space. The results can be
+    used to improve models for neutrino interactions needed by neutrino oscillation experiments.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2110.13372
+    doi: https://doi.org/10.1103/PhysRevD.106.032001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2021wjs
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double differential cross sections (q, Eavail)
+    energy_notes: '|q|<1.2GeV'
+- bibtag: MINERvA:2022mnw
+  title: Simultaneous Measurement of Proton and Lepton Kinematics in Quasielasticlike <math display="inline"><mrow><msub><mrow><mi>ν</mi></mrow><mrow><mi>μ</mi></mrow></msub></mrow></math>-Hydrocarbon
+    Interactions from 2 to 20 GeV
+  collaboration: MINERvA
+  arxiv: '2203.08022'
+  doi: 10.1103/PhysRevLett.129.021803
+  journal: Phys.Rev.Lett.
+  volume: '129'
+  pages: 021803
+  year: 2022
+  published_date: '2022-03-14'
+  inspire_recid: 2052681
+  citation_count: 29
+  abstract: Neutrino charged-current quasielastic-like scattering, a reaction category extensively used
+    in neutrino oscillation measurements, probes nuclear effects that govern neutrino-nucleus interactions.
+    This Letter reports the first measurement of the triple-differential cross section for $\nu_{\mu}$
+    quasielastic-like reactions using the hydrocarbon medium of the MINERvA detector exposed to a wide-band
+    beam spanning 2 $\leq$ E$_\nu \leq$ 20 GeV. The measurement maps the correlations among transverse
+    and longitudinal muon momenta and summed proton kinetic energies, and compares them to predictions
+    from a state-of-art simulation. Discrepancies are observed that likely reflect shortfalls with modeling
+    of pion and nucleon intranuclear scattering and/or spectator nucleon ejection from struck nuclei.
+    The separate determination of leptonic and hadronic variables can inform experimental approaches to
+    neutrino-energy estimation.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2203.08022
+    doi: https://doi.org/10.1103/PhysRevLett.129.021803
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2022mnw
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: triple-diff
+    observables: triple-differential cross section (muon pT, pL, proton KE)
+    energy_notes: neutrino energy 2-20GeV
+- bibtag: MINERvA:2021owq
+  title: Measurement of inclusive charged-current $\nu_\mu$ cross sections as a function of muon kinematics
+    at $<E_\nu>\sim6~GeV$ on hydrocarbon
+  collaboration: MINERvA
+  arxiv: '2106.16210'
+  doi: 10.1103/PhysRevD.104.092007
+  journal: Phys.Rev.D
+  volume: '104'
+  pages: 092007
+  year: 2021
+  published_date: '2021-06-30'
+  inspire_recid: 1873359
+  citation_count: 29
+  abstract: MINERvA presents a new analysis of inclusive charged-current neutrino interactions on a hydrocarbon
+    target. We report single and double-differential cross sections in muon transverse and longitudinal
+    momentum. These measurements are compared to neutrino interaction generator predictions from GENIE,
+    NuWro, GiBUU, and NEUT. In addition, comparisons against models with different treatments of multi-nucleon
+    correlations, nuclear effects, resonant pion production, and deep inelastic scattering are presented.
+    The data recorded corresponds to $10.61\times10^{20}$ protons on target with a peak neutrino energy
+    of approximately 6 GeV. The higher energy and larger statistics of these data extend the kinematic
+    range for model testing beyond previous MINERvA inclusive charged-current measurements. The results
+    are not well modeled by several generator predictions using a variety of input models.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2106.16210
+    doi: https://doi.org/10.1103/PhysRevD.104.092007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2021owq
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: single and double-differential cross sections (muon pT, pL)
+    energy_notes: peak energy ~6GeV
+- bibtag: MINERvA:2019gsf
+  title: High-Statistics Measurement of Neutrino Quasielasticlike Scattering at 6 GeV on a Hydrocarbon
+    Target
+  collaboration: MINERvA
+  arxiv: '1912.09890'
+  doi: 10.1103/PhysRevLett.124.121801
+  journal: Phys.Rev.Lett.
+  volume: '124'
+  pages: '121801'
+  year: 2020
+  published_date: '2019-12-20'
+  inspire_recid: 1772170
+  citation_count: 45
+  abstract: We measure neutrino charged current quasielastic-like scattering on hydrocarbon at high statistics
+    using the wide-band NuMI beam with neutrino energy peaked at 6 GeV. The double-differential cross
+    section is reported in terms of muon longitudinal and transverse momentum. Cross-section contours
+    versus lepton momentum components are approximately described by a conventional generator-based simulation,
+    however discrepancies are observed for transverse momenta above 0.5 GeV/c for longitudinal momentum
+    ranges 3 to 5 GeV/c and 9 to 20 GeV/c. The single differential cross section versus momentum transfer
+    squared ($d\sigma/dQ_{QE}^2$) is measured over a four-decade range of $Q^2$ that extends to $10~GeV^2$.
+    The cross section turn-over and fall-off in the $Q^2$ range 0.3 to $10~GeV^2$ is not fully reproduced
+    by generator predictions that rely on dipole form factors. Our measurement probes the axial-vector
+    content of the hadronic current and complements the electromagnetic form factor data obtained using
+    electron-nucleon elastic scattering. These results help oscillation experiments because they probe
+    the importance of various correlations and final-state interaction effects within the nucleus, which
+    have different effects on the visible energy in detectors.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1912.09890
+    doi: https://doi.org/10.1103/PhysRevLett.124.121801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2019gsf
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section (muon pT, pL) and dσ/dQ2
+    energy_notes: Q2 up to 10GeV2
+- bibtag: MINERvA:2019ope
+  title: Nucleon binding energy and transverse momentum imbalance in neutrino-nucleus reactions
+  collaboration: MINERvA
+  arxiv: '1910.08658'
+  doi: 10.1103/PhysRevD.101.092001
+  journal: Phys.Rev.D
+  volume: '101'
+  pages: 092001
+  year: 2020
+  published_date: '2019-10-18'
+  inspire_recid: 1759868
+  citation_count: 89
+  abstract: We have measured new observables based on the final state kinematic imbalances in the mesonless
+    production of $ν_μ+A\rightarrowμ^-+p+X$ in the $\text{MINER}ν\text{A}$ tracker. Components of the
+    muon-proton momentum imbalances parallel ($δp_\mathrm{Ty}$) and perpendicular($δp_\mathrm{Tx}$) to
+    the momentum transfer in the transverse plane are found to be sensitive to the nuclear effects such
+    as Fermi motion, binding energy and non-QE contributions. The QE peak location in $δp_\mathrm{Ty}$
+    is particularly sensitive to the binding energy. Differential cross sections are compared to predictions
+    from different neutrino interaction models. The Fermi gas models presented in this study cannot simultaneously
+    describe features such as QE peak location, width and the non-QE events contributing to the signal
+    process. Correcting the GENIE's binding energy implementation according to theory causes better agreement
+    with data. Hints of proton left-right asymmetry are observed in $δp_\mathrm{Tx}$. Better modeling
+    of the binding energy can reduce bias in neutrino energy reconstruction and these observables can
+    be applied in current and future experiments to better constrain nuclear effects.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1910.08658
+    doi: https://doi.org/10.1103/PhysRevD.101.092001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2019ope
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCQEp
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential cross sections of muon-proton momentum imbalance
+    energy_notes: focus on nuclear effects
+- bibtag: MINERvA:2020anu
+  title: Probing nuclear effects with neutrino-induced charged-current neutral pion production
+  collaboration: MINERvA
+  arxiv: '2002.05812'
+  doi: 10.1103/PhysRevD.102.072007
+  journal: Phys.Rev.D
+  volume: '102'
+  pages: '072007'
+  year: 2020
+  published_date: '2020-02-13'
+  inspire_recid: 1780811
+  citation_count: 51
+  abstract: We study neutrino-induced charged-current (CC) $\pi^0$ production on carbon nuclei using events
+    with fully imaged final-state proton-$\pi^0$ systems. Novel use of final-state correlations based
+    on transverse kinematic imbalance enable the first measurements of the struck nucleon's Fermi motion,
+    of the intranuclear momentum transfer (IMT) dynamics, and of the final-state hadronic momentum configuration
+    in neutrino pion production. Event distributions are presented for i) the momenta of neutrino-struck
+    neutrons below the Fermi surface, ii) the direction of missing transverse momentum characterizing
+    the strength of IMT, and iii) proton-pion momentum imbalance with respect to the lepton scattering
+    plane. The observed Fermi motion and IMT strength are compared to the previous MINERvA measurement
+    of neutrino CC quasielastic-like production. The measured shapes and absolute rates of these distributions,
+    as well as the cross-section asymmetries show tensions with predictions from current neutrino generator
+    models.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2002.05812
+    doi: https://doi.org/10.1103/PhysRevD.102.072007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2020anu
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CCpi0
+    pion_bucket: pi0
+    measurement_type: null
+    observables: final-state correlations and momentum imbalance
+    energy_notes: focus on nuclear effects and FSI
+- bibtag: MINERvA:2020zzv
+  title: Double-differential inclusive charged-current $\nu_\mu$ cross sections on hydrocarbon in MINERvA
+    at $\langle E_{\nu} \rangle \sim$ 3.5 GeV
+  collaboration: MINERvA
+  arxiv: '2002.12496'
+  doi: 10.1103/PhysRevD.101.112007
+  journal: Phys.Rev.D
+  volume: '101'
+  pages: '112007'
+  year: 2020
+  published_date: '2020-02-27'
+  inspire_recid: 1782964
+  citation_count: 46
+  abstract: MINERvA reports inclusive charged-current cross sections for muon neutrinos on hydrocarbon
+    in the NuMI beamline. We measured the double-differential cross section in terms of the longitudinal
+    and transverse muon momenta, as well as the single-differential cross sections in those variables.
+    The data used in this analysis correspond to an exposure of $3.34 \times 10^{20}$ protons on target
+    with a peak neutrino energy of approximately 3.5 GeV. Measurements are compared to the GENIE, NuWro
+    and GiBUU neutrino cross-section predictions, as well as a version of GENIE modified to produce better
+    agreement with prior exclusive MINERvA measurements. None of the models or variants were able to successfully
+    reproduce the data across the entire phase space, which includes areas dominated by each interaction
+    channel.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2002.12496
+    doi: https://doi.org/10.1103/PhysRevD.101.112007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2020zzv
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double-differential cross section (muon pT, pL)
+    energy_notes: peak energy ~3.5GeV
+- bibtag: MINERvA:2018hqn
+  title: Measurement of Quasielastic-Like Neutrino Scattering at $\langle{E_\nu}\rangle  \sim 3.5$ GeV
+    on a Hydrocarbon Target
+  collaboration: MINERvA
+  arxiv: '1811.02774'
+  doi: 10.1103/PhysRevD.99.012004
+  journal: Phys.Rev.D
+  volume: '99'
+  pages: '012004'
+  year: 2019
+  published_date: '2018-11-07'
+  inspire_recid: 1702546
+  citation_count: 77
+  abstract: MINERvA presents a new analysis of neutrino induced quasielastic-like interactions in a hydrocarbon
+    tracking target. We report a double-differential cross section using the muon transverse and longitudinal
+    momentum. In addition, differential cross sections as a function of the square of the four-momentum
+    transferred and the neutrino energy are calculated using a quasielastic hypothesis. Finally, an analysis
+    of energy deposited near the interaction vertex is presented. These results are compared to modified
+    GENIE predictions as well as a NuWro prediction. All results use a dataset produced by $3.34\times10^{20}$
+    protons on target creating a neutrino beam with a peak energy of approximately 3.5 GeV
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1811.02774
+    doi: https://doi.org/10.1103/PhysRevD.99.012004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2018hqn
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section (muon pT, pL)
+    energy_notes: peak energy ~3.5GeV
+- bibtag: MINERvA:2019rhx
+  title: Measurement of $\bar{\nu}_{\mu}$ Charged-Current Single $\pi^{-}$ Production on Hydrocarbon in
+    the Few-GeV Region using MINERvA
+  collaboration: MINERvA
+  arxiv: '1906.08300'
+  doi: 10.1103/PhysRevD.100.052008
+  journal: Phys.Rev.D
+  volume: '100'
+  pages: 052008
+  year: 2019
+  published_date: '2019-06-19'
+  inspire_recid: 1740745
+  citation_count: 41
+  abstract: 'The antineutrino scattering channel $\bar{\nu}_{\mu} \,\text{CH} \rightarrow \mu^{+} \,\pi^{-}
+    \,X$(nucleon(s)) is analyzed in the incident energy range 1.5 to 10 GeV using the MINERvA detector
+    at Fermilab. Differential cross sections are reported as functions of $\mu^{+}$ momentum and production
+    angle, $\pi^{-}$ kinetic energy and production angle, and antineutrino energy and squared four-momentum
+    transfer. Distribution shapes are generally reproduced by simulations based on the GENIE, NuWro, and
+    GiBUU event generators, however GENIE (GiBUU) overestimates (underestimates) the cross-section normalizations
+    by 8% (10%). Comparisons of data with the GENIE-based reference simulation probe conventional treatments
+    of cross sections and pion intranuclear rescattering. The distribution of non-track vertex energy
+    is used to decompose the signal sample into reaction categories, and cross sections are determined
+    for the exclusive reactions $\mu^{+} \pi^{-} n$ and $ \mu^+ \pi^{-} p$. A similar treatment applied
+    to the published MINERvA sample $\bar{\nu}_{\mu} \,\text{CH} \rightarrow \mu^{+} \,\pi^{0} \,X$(nucleon(s))
+    has determined the $\mu^{+} \pi^{0} n$ cross section, and the latter is used with $\sigma(\pi^{-}
+    n)$ and $\sigma(\pi^{-} p)$ to carry out an isospin decomposition of $\bar{\nu}_{\mu}$-induced CC($\pi$).
+    The ratio of magnitudes and relative phase for isospin amplitudes $A_{3}$ and $A_{1}$ thereby obtained
+    are: $R^{\bar{\nu}} = 0.99 \pm 0.19$ and $\phi^{\bar{\nu}} = 93^{\circ} \pm 7^{\circ}$. Our results
+    are in agreement with bubble chamber measurements made four decades ago.'
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1906.08300
+    doi: https://doi.org/10.1103/PhysRevD.100.052008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2019rhx
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH
+    topology: CCpi-
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: differential cross sections (muon and pion kinematics)
+    energy_notes: 'E: 1.5-10GeV, includes isospin decomposition'
+- bibtag: MINERvA:2019wqe
+  title: Neutron measurements from antineutrino hydrocarbon reactions
+  collaboration: MINERvA
+  arxiv: '1901.04892'
+  doi: 10.1103/PhysRevD.100.052002
+  journal: Phys.Rev.D
+  volume: '100'
+  pages: '052002'
+  year: 2019
+  published_date: '2019-01-15'
+  inspire_recid: 1713807
+  citation_count: 48
+  abstract: Charged-current anti-neutrino interactions on hydrocarbon scintillator in the MINERvA detector
+    are used to study activity from their final-state neutrons. To ensure that most of the neutrons are
+    from the primary interaction, rather than hadronic reinteractions in the detector, the sample is limited
+    to momentum transfers below 0.8 GeV/c. From 16,129 interactions, 15,246 neutral particle candidates
+    are observed. The reference simulation predicts 64\% of these candidates are due to neutrons from
+    the anti-neutrino interaction directly, but also overpredicts the number of candidates by 15\% overall,
+    which is beyond the standard uncertainty estimates for models of neutrino interactions and neutron
+    propagation in the detector. Using the measured distributions for energy deposition, time of flight,
+    position, and speed, we explore the sensitivity to the details those two aspects of the models. We
+    also use multiplicity distributions to evaluate the presence of a two-nucleon knockout process. These
+    results provide critical new information toward a complete description of the hadronic final state
+    of neutrino interactions, which is vital to neutrino oscillation experiments.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1901.04892
+    doi: https://doi.org/10.1103/PhysRevD.100.052002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2019wqe
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: null
+    observables: neutron activity study
+    energy_notes: Q < 0.8GeV/c
+- bibtag: MINERvA:2017ipy
+  title: Measurement of total and differential cross sections of neutrino and antineutrino coherent $\pi^\pm$
+    production on carbon
+  collaboration: MINERvA
+  arxiv: '1711.01178'
+  doi: 10.1103/PhysRevD.97.032014
+  journal: Phys.Rev.D
+  volume: '97'
+  pages: '032014'
+  year: 2018
+  published_date: '2017-11-03'
+  inspire_recid: 1634433
+  citation_count: 58
+  abstract: Neutrino induced coherent charged pion production on nuclei, $\overline{\nu}_\mu A\to\mu^\pm\pi^\mp
+    A$, is a rare inelastic interaction in which the four-momentum squared transfered to the nucleus is
+    nearly zero, leaving it intact. We identify such events in the scintillator of MINERvA by reconstructing
+    |t| from the final state pion and muon momenta and by removing events with evidence of energetic nuclear
+    recoil or production of other final state particles. We measure the total neutrino and antineutrino
+    cross sections as a function of neutrino energy between 2 and 20 GeV and measure flux integrated differential
+    cross sections as a function of $Q^2$, $E_\pi$ and $\theta_\pi$. The $Q^2$ dependence and equality
+    of the neutrino and anti-neutrino cross-sections at finite $Q^2$ provide a confirmation of Adler's
+    PCAC hypothesis.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1711.01178
+    doi: https://doi.org/10.1103/PhysRevD.97.032014
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2017ipy
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CH
+    topology: CCcoh pi
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: total and differential cross sections
+    energy_notes: 'E: 2-20GeV'
+- bibtag: MINERvA:2018hba
+  title: Measurement of final-state correlations in neutrino muon-proton mesonless production on hydrocarbon
+    at $\langle E_\nu\rangle=3$ GeV
+  collaboration: MINERvA
+  arxiv: '1805.05486'
+  doi: 10.1103/PhysRevLett.121.022504
+  journal: Phys.Rev.Lett.
+  volume: '121'
+  pages: '022504'
+  year: 2018
+  published_date: '2018-05-14'
+  inspire_recid: 1673175
+  citation_count: 129
+  abstract: Final-state kinematic imbalances are measured in mesonless production of $\nu_\mu + A \to
+    \mu^- + p + X$ in the MINERvA tracker. Initial- and final-state nuclear effects are probed using the
+    direction of the $\mu^-$-p transverse momentum imbalance and the initial-state momentum of the struck
+    neutron. Differential cross sections are compared to predictions based on current approaches to medium
+    modeling. These models under-predict the cross section at intermediate intranuclear momentum transfers
+    that generally exceed the Fermi momenta. As neutrino interaction models need to correctly incorporate
+    the effect of the nucleus in order to predict neutrino energy resolution in oscillation experiments,
+    this result points to a region of phase space where additional cross section strength is needed in
+    current models, and demonstrates a new technique that would be suitable for use in fine grained liquid
+    argon detectors where the effect of the nucleus may be even larger.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1805.05486
+    doi: https://doi.org/10.1103/PhysRevLett.121.022504
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2018hba
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCQEp
+    pion_bucket: 0pi
+    measurement_type: null
+    observables: kinematic imbalance measurements
+    energy_notes: focus on nuclear effects
+- bibtag: MINERvA:2018nab
+  title: Antineutrino Charged-Current Reactions on Hydrocarbon with Low Momentum Transfer
+  collaboration: MINERvA
+  arxiv: '1803.09377'
+  doi: 10.1103/PhysRevLett.120.221805
+  journal: Phys.Rev.Lett.
+  volume: '120'
+  pages: '221805'
+  year: 2018
+  published_date: '2018-03-25'
+  inspire_recid: 1664316
+  citation_count: 52
+  abstract: We report on multinucleon effects in low momentum transfer ($< 0.8$ GeV/c) anti-neutrino interactions
+    on plastic (CH) scintillator. These data are from the 2010-2011 antineutrino phase of the MINERvA
+    experiment at Fermilab. The hadronic energy spectrum of this inclusive sample is well described when
+    a screening effect at low energy transfer and a two-nucleon knockout process are added to a relativistic
+    Fermi gas model of quasielastic, $\Delta$ resonance, and higher resonance processes. In this analysis,
+    model elements introduced to describe previously published neutrino results have quantitatively similar
+    benefits for this antineutrino sample. We present the results as a double-differential cross section
+    to accelerate investigation of alternate models for antineutrino scattering off nuclei.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1803.09377
+    doi: https://doi.org/10.1103/PhysRevLett.120.221805
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2018nab
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: Q < 0.8GeV/c, focus on multinucleon effects
+- bibtag: MINERvA:2018vjb
+  title: Measurement of the Muon Antineutrino Double-Differential Cross Section for Quasielastic-like
+    Scattering on Hydrocarbon at $E_\nu \sim 3.5$GeV
+  collaboration: MINERvA
+  arxiv: '1801.01197'
+  doi: 10.1103/PhysRevD.97.052002
+  journal: Phys.Rev.D
+  volume: '97'
+  pages: '052002'
+  year: 2018
+  published_date: '2018-01-03'
+  inspire_recid: 1646253
+  citation_count: 69
+  abstract: We present double-differential measurements of anti-neutrino quasi-elastic scattering in the
+    MINERvA detector. This study improves on a previous single differential measurement by using updated
+    reconstruction algorithms and interaction models, and provides a complete description of observed
+    muon kinematics in the form of a double-differential cross section with respect to muon transverse
+    and longitudinal momentum. We include in our signal definition zero-meson final states arising from
+    multi-nucleon interactions and from resonant pion production followed by pion absorption in the primary
+    nucleus. We find that model agreement is considerably improved by a model tuned to MINERvA inclusive
+    neutrino scattering data that incorporates nuclear effects such as weak nuclear screening and two-particle,
+    two-hole enhancements.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1801.01197
+    doi: https://doi.org/10.1103/PhysRevD.97.052002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2018vjb
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section (muon pT, pL)
+    energy_notes: null
+- bibtag: MINERvA:2016ymg
+  title: Measurement of neutral-current $K^+$ production by neutrinos using MINERvA
+  collaboration: MINERvA
+  arxiv: '1611.02224'
+  doi: 10.1103/PhysRevLett.119.011802
+  journal: Phys.Rev.Lett.
+  volume: '119'
+  pages: 011802
+  year: 2017
+  published_date: '2016-11-07'
+  inspire_recid: 1495999
+  citation_count: 24
+  abstract: Neutral-current production of $K^{+}$ by atmospheric neutrinos is a background in searches
+    for the proton decay $p \rightarrow K^{+} \bar{\nu}$. Reactions such as $\nu p \rightarrow \nu K^{+}
+    \Lambda$ are indistinguishable from proton decays when the decay products of the $\Lambda$ are below
+    detection threshold. Events with $K^{+}$ are identified in MINERvA by reconstructing the timing signature
+    of a $K^{+}$ decay at rest. A sample of 201 neutrino-induced neutral-current $K^{+}$ events is used
+    to measure differential cross sections with respect to the $K^{+}$ kinetic energy, and the non-$K^{+}$
+    hadronic visible energy. An excess of events at low hadronic visible energy is observed relative to
+    the prediction of the NEUT event generator. Good agreement is observed with the cross section prediction
+    of the GENIE generator. A search for photons from $\pi^{0}$ decay, which would veto a neutral-current
+    $K^{+}$ event in a proton decay search, is performed, and a 2$\sigma$ deficit of detached photons
+    is observed relative to the GENIE prediction.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1611.02224
+    doi: https://doi.org/10.1103/PhysRevLett.119.011802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2016ymg
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: NC K+
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross sections
+    energy_notes: proton decay background study
+- bibtag: MINERvA:2017dzh
+  title: Direct Measurement of Nuclear Dependence of Charged Current Quasielasticlike Neutrino Interactions
+    Using MINER$\nu$A
+  collaboration: MINERvA
+  arxiv: '1705.03791'
+  doi: 10.1103/PhysRevLett.119.082001
+  journal: Phys.Rev.Lett.
+  volume: '119'
+  pages: 082001
+  year: 2017
+  published_date: '2017-05-10'
+  inspire_recid: 1598765
+  citation_count: 55
+  abstract: Charged-current $\nu_{\mu}$ interactions on carbon, iron, and lead with a final state hadronic
+    system of one or more protons with zero mesons are used to investigate the influence of the nuclear
+    environment on quasielastic-like interactions. The transfered four-momentum squared to the target
+    nucleus, $Q^2$, is reconstructed based on the kinematics of the leading proton, and differential cross
+    sections versus $Q^2$ and the cross-section ratios of iron, lead and carbon to scintillator are measured
+    for the first time in a single experiment. The measurements show a dependence on atomic number. While
+    the quasielastic-like scattering on carbon is compatible with predictions, the trends exhibited by
+    scattering on iron and lead favor a prediction with intranuclear rescattering of hadrons accounted
+    for by a conventional particle cascade treatment. These measurements help discriminate between different
+    models of both initial state nucleons and final state interactions used in the neutrino oscillation
+    experiments.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1705.03791
+    doi: https://doi.org/10.1103/PhysRevLett.119.082001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2017dzh
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    - Fe
+    - Pb
+    topology: CCQEp
+    pion_bucket: 0pi
+    measurement_type: ratio
+    observables: differential cross sections and nuclear ratios
+    energy_notes: focus on nuclear effects
+- bibtag: MINERvA:2017okh
+  title: Measurement of $\nu_{\mu}$ charged-current single $\pi^{0}$ production on hydrocarbon in the
+    few-GeV region using MINERvA
+  collaboration: MINERvA
+  arxiv: '1708.03723'
+  doi: 10.1103/PhysRevD.96.072003
+  journal: Phys.Rev.D
+  volume: '96'
+  pages: '072003'
+  year: 2017
+  published_date: '2017-08-11'
+  inspire_recid: 1615865
+  citation_count: 82
+  abstract: The semi-exclusive channel $\nu_{\mu}+\textrm{CH}\rightarrow\mu^{-}\pi^{0}+\textrm{nucleon(s)}$
+    is analyzed using MINERvA exposed to the low-energy NuMI $\nu_{\mu}$ beam with spectral peak at $E_{\nu}
+    \simeq 3$ GeV. Differential cross sections for muon momentum and production angle, $\pi^{0}$ kinetic
+    energy and production angle, and for squared four-momentum transfer are reported, and the cross section
+    $\sigma(E_{\nu})$ is obtained over the range 1.5 GeV $\leq E_{\nu} <$ 20 GeV. Results are compared
+    to GENIE and NuWro predictions and to published MINERvA cross sections for $\nu_{\mu}\textrm{-CC}(\pi^{+})$
+    and $\bar{\nu}_{\mu}\textrm{-CC}(\pi^{0})$. Disagreements between data and simulation are observed
+    at very low and relatively high values for muon angle and for $Q^2$ that may reflect shortfalls in
+    modeling of interactions on carbon. For $\pi^{0}$ kinematic distributions however, the data are consistent
+    with the simulation and provide support for generator treatments of pion intranuclear scattering.
+    Using signal-event subsamples that have reconstructed protons as well as $\pi^{0}$ mesons, the $p\pi^{0}$
+    invariant mass distribution is obtained, and the decay polar and azimuthal angle distributions in
+    the rest frame of the $p\pi^{0}$ system are measured in the region of $\Delta(1232)^+$ production,
+    $W < 1.4$ GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1708.03723
+    doi: https://doi.org/10.1103/PhysRevD.96.072003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2017okh
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCpi0
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: ldifferential cross sections (muon and π0 kinematics)
+    energy_notes: 'E: 1.5-20GeV'
+- bibtag: MINERvA:2017ozn
+  title: Measurement of the antineutrino to neutrino charged-current interaction cross section ratio in
+    MINERvA
+  collaboration: MINERvA
+  arxiv: '1701.04857'
+  doi: 10.1103/PhysRevD.95.072009
+  journal: Phys.Rev.D
+  volume: '95'
+  pages: 072009
+  year: 2017
+  published_date: '2017-01-17'
+  inspire_recid: 1509504
+  citation_count: 43
+  abstract: We present measurements of the neutrino and antineutrino total charged-current cross sections
+    on carbon and their ratio using the MINERvA scintillator-tracker. The measurements span the energy
+    range 2-22 GeV and were performed using forward and reversed horn focusing modes of the Fermilab low-energy
+    NuMI beam to obtain large neutrino and antineutrino samples. The flux is obtained using a sub-sample
+    of charged-current events at low hadronic energy transfer along with precise higher energy external
+    neutrino cross section data overlapping with our energy range between 12-22 GeV. We also report on
+    the antineutrino-neutrino cross section ratio, Rcc, which does not rely on external normalization
+    information. Our ratio measurement, obtained within the same experiment using the same technique,
+    benefits from the cancellation of common sample systematic uncertainties and reaches a precision of
+    5% at low energy. Our results for the antineutrino-nucleus scattering cross section and for Rcc are
+    the most precise to date in the energy range $E_{\nu} <$ 6GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1701.04857
+    doi: https://doi.org/10.1103/PhysRevD.95.072009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2017ozn
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: total cross section and ratio
+    energy_notes: 'E: 2-22GeV'
+- bibtag: MINERvA:2015jih
+  title: Measurement of electron neutrino quasielastic and quasielasticlike scattering on hydrocarbon
+    at $\langle E_{\nu} \rangle $ = 3.6 GeV
+  collaboration: MINERvA
+  arxiv: '1509.05729'
+  doi: 10.1103/PhysRevLett.116.081802
+  journal: Phys.Rev.Lett.
+  volume: '116'
+  pages: 081802
+  year: 2016
+  published_date: '2015-09-18'
+  inspire_recid: 1393997
+  citation_count: 76
+  abstract: The first direct measurement of electron-neutrino quasielastic and quasielastic-like scattering
+    on hydrocarbon in the few-GeV region of incident neutrino energy has been carried out using the MINERvA
+    detector in the NuMI beam at Fermilab. The flux-integrated differential cross sections in electron
+    production angle, electron energy and $Q^{2}$ are presented. The ratio of the quasielastic, flux-integrated
+    differential cross section in $Q^{2}$ for $\nu_{e}$ with that of similarly-selected $\nu_{\mu}$-induced
+    events from the same exposure is used to probe assumptions that underpin conventional treatments of
+    charged-current $\nu_{e}$ interactions used by long-baseline neutrino oscillation experiments. The
+    data are found to be consistent with lepton universality and are well-described by the predictions
+    of the neutrino event generator GENIE.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1509.05729
+    doi: https://doi.org/10.1103/PhysRevLett.116.081802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2015jih
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - CH
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential cross sections (e angle, energy, Q2)
+    energy_notes: comparison with numu data
+- bibtag: MINERvA:2015ydy
+  title: Identification of nuclear effects in neutrino-carbon interactions at low three-momentum transfer
+  collaboration: MINERvA
+  arxiv: '1511.05944'
+  doi: 10.1103/PhysRevLett.116.071802
+  journal: Phys.Rev.Lett.
+  volume: '116'
+  pages: 071802
+  year: 2016
+  published_date: '2015-11-18'
+  inspire_recid: 1405301
+  citation_count: 201
+  abstract: Two different nuclear-medium effects are isolated using a low three-momentum transfer subsample
+    of neutrino-carbon scattering data from the MINERvA neutrino experiment. The observed hadronic energy
+    in charged-current $\nu_\mu$ interactions is combined with muon kinematics to permit separation of
+    the quasielastic and $\Delta$(1232) resonance processes. First, we observe a small cross section at
+    very low energy transfer that matches the expected screening effect of long-range nucleon correlations.
+    Second, additions to the event rate in the kinematic region between the quasielastic and $\Delta$
+    resonance processes are needed to describe the data. The data in this kinematic region also has an
+    enhanced population of multi-proton final states. Contributions predicted for scattering from a nucleon
+    pair have both properties; the model tested in this analysis is a significant improvement but does
+    not fully describe the data. We present the results as a double-differential cross section to enable
+    further investigation of nuclear models. Improved description of the effects of the nuclear environment
+    are required by current and future neutrino oscillation experiments.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1511.05944
+    doi: https://doi.org/10.1103/PhysRevLett.116.071802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2015ydy
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: low Q2, focus on nuclear effects
+- bibtag: MINERvA:2016cun
+  title: First evidence of coherent $K^{+}$ meson production in neutrino-nucleus scattering
+  collaboration: MINERvA
+  arxiv: '1606.08890'
+  doi: 10.1103/PhysRevLett.117.061802
+  journal: Phys.Rev.Lett.
+  volume: '117'
+  pages: 061802
+  year: 2016
+  published_date: '2016-06-28'
+  inspire_recid: 1473763
+  citation_count: 23
+  abstract: Neutrino-induced charged-current coherent kaon production, $\nu_{\mu}A\rightarrow\mu^{-}K^{+}A$,
+    is a rare, inelastic electroweak process that brings a $K^+$ on shell and leaves the target nucleus
+    intact in its ground state. This process is significantly lower in rate than neutrino-induced charged-current
+    coherent pion production, because of Cabibbo suppression and a kinematic suppression due to the larger
+    kaon mass. We search for such events in the scintillator tracker of MINERvA by observing the final
+    state $K^+$, $\mu^-$ and no other detector activity, and by using the kinematics of the final state
+    particles to reconstruct the small momentum transfer to the nucleus, which is a model-independent
+    characteristic of coherent scattering. We find the first experimental evidence for the process at
+    $3\sigma$ significance.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1606.08890
+    doi: https://doi.org/10.1103/PhysRevLett.117.061802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2016cun
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCcoh K+
+    pion_bucket: null
+    measurement_type: null
+    observables: first evidence of coherent K+ production
+    energy_notes: 3σ observation
+- bibtag: MINERvA:2016ing
+  title: Measurements of the Inclusive Neutrino and Antineutrino Charged Current Cross Sections in MINERvA
+    Using the Low-$\nu$ Flux Method
+  collaboration: MINERvA
+  arxiv: '1610.04746'
+  doi: 10.1103/PhysRevD.94.112007
+  journal: Phys.Rev.D
+  volume: '94'
+  pages: '112007'
+  year: 2016
+  published_date: '2016-10-15'
+  inspire_recid: 1492312
+  citation_count: 54
+  abstract: The total cross sections are important ingredients for the current and future neutrino oscillation
+    experiments. We present measurements of the total charged-current neutrino and antineutrino cross
+    sections on scintillator (CH) in the NuMI low-energy beamline using an {\em in situ} prediction of
+    the shape of the flux as a function of neutrino energy from 2--50 GeV. This flux prediction takes
+    advantage of the fact that neutrino and antineutrino interactions with low nuclear recoil energy ($\nu$)
+    have a nearly constant cross section as a function of incident neutrino energy. This measurement is
+    the lowest energy application of the low-$\nu$ flux technique, the first time it has been used in
+    the NuMI antineutrino beam configuration, and demonstrates that the technique is applicable to future
+    neutrino beams operating at multi-GeV energies. The cross section measurements presented are the most
+    precise measurements to date below 5 GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1610.04746
+    doi: https://doi.org/10.1103/PhysRevD.94.112007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2016ing
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CH
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total cross section
+    energy_notes: 'E: 2-50GeV, using low-nu flux technique'
+- bibtag: MINERvA:2016oql
+  title: Measurement of Partonic Nuclear Effects in Deep-Inelastic Neutrino Scattering using MINERvA
+  collaboration: MINERvA
+  arxiv: '1601.06313'
+  doi: 10.1103/PhysRevD.93.071101
+  journal: Phys.Rev.D
+  volume: '93'
+  pages: '071101'
+  year: 2016
+  published_date: '2016-01-23'
+  inspire_recid: 1416818
+  citation_count: 79
+  abstract: The MINERvA collaboration reports a novel study of neutrino-nucleus charged-current deep inelastic
+    scattering (DIS) using the same neutrino beam incident on targets of polystyrene, graphite, iron,
+    and lead. Results are presented as ratios of C, Fe, and Pb to CH. The ratios of total DIS cross sections
+    as a function of neutrino energy and flux-integrated differential cross sections as a function of
+    the Bjorken scaling variable x are presented in the neutrino-energy range of 5 - 50 GeV. Good agreement
+    is found between the data and predicted ratios, based on charged-lepton nucleus scattering, at medium
+    x and low neutrino energies. However, the data rate appears depleted in the vicinity of the nuclear
+    shadowing region, x < 0.1. This apparent deficit, reflected in the DIS cross-section ratio at high
+    neutrino energy , is consistent with previous MINERvA observations and with the predicted onset of
+    nuclear shadowing with the the axial-vector current in neutrino scattering.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1601.06313
+    doi: https://doi.org/10.1103/PhysRevD.93.071101
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2016oql
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    - C
+    - Fe
+    - Pb
+    topology: DIS
+    pion_bucket: null
+    measurement_type: ratio
+    observables: total and differential cross section ratios
+    energy_notes: 'E: 5-50GeV'
+- bibtag: MINERvA:2016sfc
+  title: Cross sections for $\nu_\mu$ and $\bar \nu_\mu$ induced pion production on hydrocarbon in the
+    few-GeV region using MINERvA
+  collaboration: MINERvA
+  arxiv: '1606.07127'
+  doi: 10.1103/PhysRevD.94.052005
+  journal: Phys.Rev.D
+  volume: '94'
+  pages: '052005'
+  year: 2016
+  published_date: '2016-06-22'
+  inspire_recid: 1471834
+  citation_count: 117
+  abstract: Separate samples of charged-current pion production events representing two semi-inclusive
+    channels $\nu_\mu$-CC($\pi^{+}$) and $\bar{\nu}_{\mu}$-CC($\pi^{0}$) have been obtained using neutrino
+    and antineutrino exposures of the MINERvA detector. Distributions in kinematic variables based upon
+    $\mu^{\pm}$-track reconstructions are analyzed and compared for the two samples. The differential
+    cross sections for muon production angle, muon momentum, and four-momentum transfer $Q^2$, are reported,
+    and cross sections versus neutrino energy are obtained. Comparisons with predictions of current neutrino
+    event generators are used to clarify the role of the $\Delta(1232)$ and higher-mass baryon resonances
+    in CC pion production and to show the importance of pion final-state interactions. For the $\nu_\mu$-CC($\pi^{+}$)
+    ($\bar{\nu}_{\mu}$-CC($\pi^{0}$)) sample, the absolute data rate is observed to lie below (above)
+    the predictions of some of the event generators by amounts that are typically 1-to-2 $\sigma$. However
+    the generators are able to reproduce the shapes of the differential cross sections for all kinematic
+    variables of either data set.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1606.07127
+    doi: https://doi.org/10.1103/PhysRevD.94.052005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2016sfc
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CH
+    topology: CCpi+/CCpi0
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: differential cross sections
+    energy_notes: focus on resonance production
+- bibtag: MINERvA:2016uck
+  title: Evidence for Neutral-Current Diffractive $\pi^0$ Production from Hydrogen in Neutrino Interactions
+    on Hydrocarbon
+  collaboration: MINERvA
+  arxiv: '1604.01728'
+  doi: 10.1103/PhysRevLett.117.111801
+  journal: Phys.Rev.Lett.
+  volume: '117'
+  pages: '111801'
+  year: 2016
+  published_date: '2016-04-06'
+  inspire_recid: 1444347
+  citation_count: 39
+  abstract: The MINERvA experiment observes an excess of events containing electromagnetic showers relative
+    to the expectation from Monte Carlo simulations in neutral-current neutrino interactions with mean
+    beam energy of 4.5 GeV on a hydrocarbon target. The excess is characterized and found to be consistent
+    with neutral-current neutral pion production with a broad energy distribution peaking at 7 GeV and
+    a total cross section of 0.26 +- 0.02 (stat) +- 0.08 (sys) x 10^{-39} cm^{2}. The angular distribution,
+    electromagnetic shower energy, and spatial distribution of the energy depositions of the excess are
+    consistent with expectations from neutrino neutral-current diffractive neutral pion production from
+    hydrogen in the hydrocarbon target. These data comprise the first direct experimental observation
+    and constraint for a reaction that poses an important background process in neutrino oscillation experiments
+    searching for muon neutrino to electron neutrino oscillations.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1604.01728
+    doi: https://doi.org/10.1103/PhysRevLett.117.111801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2016uck
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: NC1pi0
+    pion_bucket: pi0
+    measurement_type: total
+    observables: total cross section
+    energy_notes: 'E: ~4.5GeV, focus on diffractive production'
+- bibtag: MINERvA:2016zyp
+  title: Measurement of $K^{+}$ production in charged-current $\nu_{\mu}$ interactions
+  collaboration: MINERvA
+  arxiv: '1604.03920'
+  doi: 10.1103/PhysRevD.94.012002
+  journal: Phys.Rev.D
+  volume: '94'
+  pages: '012002'
+  year: 2016
+  published_date: '2016-04-13'
+  inspire_recid: 1446753
+  citation_count: 31
+  abstract: Production of K^{+} mesons in charged-current \nu_{\mu} interactions on plastic scintillator
+    (CH) is measured using MINERvA exposed to the low-energy NuMI beam at Fermilab. Timing information
+    is used to isolate a sample of 885 charged-current events containing a stopping K^{+} which decays
+    at rest. The differential cross section in K^{+} kinetic energy, d\sigma/dT_{K}, is observed to be
+    relatively flat between 0 and 500 MeV. Its shape is in good agreement with the prediction by the \textsc{genie}
+    neutrino event generator when final-state interactions are included, however the data rate is lower
+    than the prediction by 15\%.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1604.03920
+    doi: https://doi.org/10.1103/PhysRevD.94.012002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2016zyp
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CC K+
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross section (K+ KE)
+    energy_notes: K+ kinetic energy 0-500 MeV
+- bibtag: MINERvA:2014ogb
+  title: Charged Pion Production in $\nu_\mu$ Interactions on Hydrocarbon at $\langle E_{\nu}\rangle$=
+    4.0 GeV
+  collaboration: MINERvA
+  arxiv: '1406.6415'
+  doi: 10.1103/PhysRevD.92.092008
+  journal: Phys.Rev.D
+  volume: '92'
+  pages: 092008
+  year: 2015
+  published_date: '2014-06-24'
+  inspire_recid: 1303106
+  citation_count: 156
+  abstract: Charged pion production via charged current $\nu_{\mu}$ interactions on plastic (CH) is studied
+    using the MINERvA detector exposed to the NuMI wideband neutrino beam at Fermilab. Events with hadronic
+    invariant mass W $<$ 1.4 GeV are selected to isolate single pion production, which is expected to
+    occur primarily through the $\Delta(1232)$ resonance. Cross sections as functions of pion production
+    angle and kinetic energy are reported and compared to predictions from different theoretical calculations
+    and generator-based models, for neutrinos ranging in energy from 1.5 GeV to 10 GeV. The data are best
+    described by calculations which include significant contributions from pion intranuclear rescattering.
+    These measurements constrain the primary interaction rate and the role of final state interactions
+    in pion production, both of which need to be well understood by neutrino oscillation experiments.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1406.6415
+    doi: https://doi.org/10.1103/PhysRevD.92.092008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2014ogb
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: differential cross sections (pion angle and KE)
+    energy_notes: 'E: 1.5-10GeV, W<1.4GeV'
+- bibtag: MINERvA:2014ypj
+  title: Measurement of muon plus proton final states in $\nu_{\mu}$ interactions on hydrocarbon at $<
+    E_{\nu} > = $ 4.2 GeV
+  collaboration: MINERvA
+  arxiv: '1409.4497'
+  doi: 10.1103/PhysRevD.91.071301
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '071301'
+  year: 2015
+  published_date: '2014-09-16'
+  inspire_recid: 1317233
+  citation_count: 89
+  abstract: A study of charged-current muon neutrino scattering on hydrocarbon in which the final state
+    includes a muon and a proton and no pions is presented. Although this signature has the topology of
+    neutrino quasielastic scattering from neutrons, the event sample contains contributions from both
+    quasielastic and inelastic processes where pions are absorbed in the nucleus. The analysis accepts
+    events with muon production angles up to 70$^{\circ}$ and proton kinetic energies greater than 110
+    MeV. The extracted cross section, when based completely on hadronic kinematics, is well-described
+    by a simple relativistic Fermi gas nuclear model including the neutrino event generator modeling for
+    inelastic processes and particle transportation through the nucleus. This is in contrast to the quasielastic
+    cross section based on muon kinematics, which is best described by an extended model that incorporates
+    multi-nucleon correlations. This measurement guides the formulation of a complete description of neutrino-nucleus
+    interactions that encompasses the hadronic as well as the leptonic aspects of this process.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1409.4497
+    doi: https://doi.org/10.1103/PhysRevD.91.071301
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2014ypj
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCQEp
+    pion_bucket: 0pi
+    measurement_type: total
+    observables: cross section vs hadronic kinematics
+    energy_notes: muon angle <70deg, proton KE >110MeV
+- bibtag: MINERvA:2015slz
+  title: Single Neutral Pion Production by Charged-Current $\bar{\nu}_\mu$ Interactions on Hydrocarbon
+    at $\langle E_\nu \rangle = $3.6 GeV
+  collaboration: MINERvA
+  arxiv: '1503.02107'
+  doi: 10.1016/j.physletb.2015.07.039
+  journal: Phys.Lett.B
+  volume: '749'
+  pages: '130'
+  year: 2015
+  published_date: '2015-03-06'
+  inspire_recid: 1351216
+  citation_count: 87
+  abstract: Single neutral pion production via muon antineutrino charged-current interactions in plastic
+    scintillator (CH) is studied using the \minerva detector exposed to the NuMI low-energy, wideband
+    antineutrino beam at Fermilab. Measurement of this process constrains models of neutral pion production
+    in nuclei, which is important because the neutral-current analog is a background for $\bar{\nu}_e$
+    appearance oscillation experiments. The differential cross sections for $\pi^0$ momentum and production
+    angle, for events with a single observed $\pi^0$ and no charged pions, are presented and compared
+    to model predictions. These results comprise the first measurement of the $\pi^0$ kinematics for this
+    process.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1503.02107
+    doi: https://doi.org/10.1016/j.physletb.2015.07.039
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2015slz
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH
+    topology: CC1pi0
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: differential cross sections (π0 momentum and angle)
+    energy_notes: first π0 kinematics measurement
+- bibtag: MINERvA:2014ani
+  title: Measurement of Coherent Production of $\pi^\pm$ in Neutrino and Antineutrino Beams on Carbon
+    from $E_\nu$ of $1.5$ to $20$ GeV
+  collaboration: MINERvA
+  arxiv: '1409.3835'
+  doi: 10.1103/PhysRevLett.113.261802
+  journal: Phys.Rev.Lett.
+  volume: '113'
+  pages: '261802'
+  year: 2014
+  published_date: '2014-09-12'
+  inspire_recid: 1316335
+  citation_count: 144
+  abstract: Neutrino-induced coherent charged pion production on nuclei, $\stackrel{(-)}{\nu}_\mu A\to\mu^\pm\pi^\mp
+    A$ is a rare, inelastic interaction in which a small squared four-momentum $| t|$ is transferred to
+    the recoil nucleus leaving it intact in the reaction. In the scintillator tracker of MINERvA, we remove
+    events with evidence of particles from nuclear breakup and reconstruct $| t|$ from the final state
+    pion and muon. We select low $| t|$ events to isolate a sample rich in coherent candidates. By selecting
+    low $| t|$ events we produce a model-independent measurement of the differential cross section for
+    coherent scattering of neutrinos and anti-neutrinos on carbon. We find poor agreement with the predicted
+    kinematics in neutrino generators used by current oscillation experiments.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1409.3835
+    doi: https://doi.org/10.1103/PhysRevLett.113.261802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2014ani
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CH
+    topology: CCcoh pi
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross section vs |t|
+    energy_notes: focus on low |t| region
+- bibtag: MINERvA:2014rdw
+  title: Measurement of Ratios of $\nu_{\mu}$ Charged-Current Cross Sections on C, Fe, and Pb to CH at
+    Neutrino Energies 2-20 GeV
+  collaboration: MINERvA
+  arxiv: '1403.2103'
+  doi: 10.1103/PhysRevLett.112.231801
+  journal: Phys.Rev.Lett.
+  volume: '112'
+  pages: '231801'
+  year: 2014
+  published_date: '2014-03-09'
+  inspire_recid: 1285224
+  citation_count: 93
+  abstract: We present measurements of $\nu_{\mu}$ charged-current cross section ratios on carbon, iron,
+    and lead relative to a scintillator (CH) using the fine-grained MINERvA detector exposed to the NuMI
+    neutrino beam at Fermilab. The measurements utilize events of energies $2<E_{\nu}<20~GeV$, with $\left<
+    E_{\nu}\right>=8~GeV$, which have a reconstructed $\mu^{-}$ scattering angle less than $17^\circ$
+    to extract ratios of inclusive total cross sections as a function of neutrino energy $E_{\nu}$ and
+    flux-integrated differential cross sections with respect to the Bjorken scaling variable $x$. These
+    results provide the first high-statistics direct measurements of nuclear effects in neutrino scattering
+    using different targets in the same neutrino beam. Measured cross section ratios exhibit a relative
+    depletion at low $x$ and enhancement at large $x$. Both become more pronounced as the nucleon number
+    of the target nucleus increases. The data are not reproduced by GENIE, a conventional neutrino-nucleus
+    scattering simulation, or by the alternative models for the nuclear dependence of inelastic scattering
+    that are considered.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1403.2103
+    doi: https://doi.org/10.1103/PhysRevLett.112.231801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2014rdw
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    - C
+    - Fe
+    - Pb
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: cross section ratios vs E and x
+    energy_notes: 'E: 2-20GeV, muon angle <17deg'
+- bibtag: MINERvA:2013bcy
+  title: Measurement of Muon Antineutrino Quasielastic Scattering on a Hydrocarbon Target at Eν∼3.5  GeV
+  collaboration: MINERvA
+  arxiv: '1305.2234'
+  doi: 10.1103/PhysRevLett.111.022501
+  journal: Phys.Rev.Lett.
+  volume: '111'
+  pages: '022501'
+  year: 2013
+  published_date: '2013-05-09'
+  inspire_recid: 1232962
+  citation_count: 244
+  abstract: We have isolated muon anti-neutrino charged-current quasi-elastic interactions occurring in
+    the segmented scintillator tracking region of the MINERvA detector running in the NuMI neutrino beam
+    at Fermilab. We measure the flux-averaged differential cross-section, d{\sigma}/dQ^2, and compare
+    to several theoretical models of quasi-elastic scattering. Good agreement is obtained with a model
+    where the nucleon axial mass, M_A, is set to 0.99 GeV/c^2 but the nucleon vector form factors are
+    modified to account for the observed enhancement, relative to the free nucleon case, of the cross-section
+    for the exchange of transversely polarized photons in electron-nucleus scattering. Our data at higher
+    Q^2 favor this interpretation over an alternative in which the axial mass is increased.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1305.2234
+    doi: https://doi.org/10.1103/PhysRevLett.111.022501
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2013bcy
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential cross section vs Q2
+    energy_notes: null
+- bibtag: MINERvA:2013kdn
+  title: Measurement of Muon Neutrino Quasielastic Scattering on a Hydrocarbon  Target at $E_\nu \sim
+    3.5$ GeV
+  collaboration: MINERvA
+  arxiv: '1305.2243'
+  doi: 10.1103/PhysRevLett.111.022502
+  journal: Phys.Rev.Lett.
+  volume: '111'
+  pages: '022502'
+  year: 2013
+  published_date: '2013-05-09'
+  inspire_recid: 1232963
+  citation_count: 291
+  abstract: We report a study of muon neutrino charged-current quasi-elastic events in the segmented scintillator
+    inner tracker of the MINERvA experiment running in the NuMI neutrino beam at Fermilab. The events
+    were selected by requiring a {\mu}^- and low calorimetric recoil energy separated from the interaction
+    vertex. We measure the flux-averaged differential cross-section, d{\sigma}/dQ^2, and study the low
+    energy particle content of the final state. Deviations are found between the measured d{\sigma}/dQ^2
+    and the expectations of a model of independent nucleons in a relativistic Fermi gas. We also observe
+    an excess of energy near the vertex consistent with multiple protons in the final state.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1305.2243
+    doi: https://doi.org/10.1103/PhysRevLett.111.022502
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2013kdn
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential cross section vs Q2
+    energy_notes: focus on low recoil energy

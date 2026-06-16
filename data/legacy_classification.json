@@ -1,0 +1,1138 @@
+{
+ "ArgoNeuT:2020kir": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "nue+nuebar",
+  "total and lepton angle differential cross section",
+  "Average energies: nuebar=4.3GeV, nue=10.5GeV"
+ ],
+ "ArgoNeuT:2018und": [
+  "CC1π±",
+  "[Ar]",
+  "CC",
+  "numu+numubar",
+  "differential cross sections (muon momentum, muon angle, pion angle, muon-pion angle)",
+  "pion momentum > 100 MeV/c, mean energies: numu=9.6GeV, numubar=3.6GeV"
+ ],
+ "ArgoNeuT:2015ldo": [
+  "NC1π0",
+  "[Ar]",
+  "NC",
+  "numu+numubar",
+  "cross section and kinematic distributions",
+  "mean energies: numu=9.6GeV, numubar=3.6GeV"
+ ],
+ "ArgoNeuT:2014ihi": [
+  "CC2p",
+  "[Ar]",
+  "CC",
+  "unspecified (likely numu)",
+  "two-proton topology study focusing on back-to-back configurations",
+  "Focus on SRC events"
+ ],
+ "ArgoNeuT:2014uwh": [
+  "CCcoh π",
+  "[Ar]",
+  "CC",
+  "numu+numubar",
+  "coherent pion production cross section",
+  "mean energies: numu=9.6GeV, numubar=3.6GeV"
+ ],
+ "ArgoNeuT:2014rlj": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "numu+numubar",
+  "differential cross sections (muon angle and momentum)",
+  "mean energies: numu=9.6GeV, numubar=3.6GeV, angles 0-36deg, momentum 0-25GeV"
+ ],
+ "ArgoNeuT:2011bms": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "numu",
+  "differential cross sections (muon angle and momentum)",
+  "angles 0-36deg, momentum 0-25GeV"
+ ],
+ "FASER:2024hoe": [
+  "Inclusive",
+  "[W]",
+  "CC",
+  "nue+numu",
+  "energy-independent interaction cross section",
+  "TeV neutrinos (560-1740GeV for nue, 520-1760GeV for numu), first collider nue observation"
+ ],
+ "K2K:2010xeb": [
+  "CC1π0",
+  "[C8H8]",
+  "CC",
+  "numu",
+  "ratio of CC1π0 to CCQE cross section",
+  "mean energy 1.3GeV"
+ ],
+ "K2K:2008tus": [
+  "CC1π+",
+  "[C]",
+  "CC",
+  "numu",
+  "ratio of CC1π+ to CCQE cross section",
+  "mean energy 1.3GeV, W<2GeV"
+ ],
+ "K2K:2006odf": [
+  "CCQE",
+  "[O]",
+  "CC",
+  "numu",
+  "axial vector form factor",
+  "Form factor measurement through Q2 distribution"
+ ],
+ "K2K:2005uiu": [
+  "CCcoh π",
+  "[C]",
+  "CC",
+  "numu",
+  "upper limit on coherent pion production",
+  "mean energy 1.3GeV"
+ ],
+ "K2K:2004qpv": [
+  "NC1π0",
+  "[H2O]",
+  "NC",
+  "numu",
+  "ratio of NC1π0 to CC total cross section",
+  "mean energy 1.3GeV"
+ ],
+ "MINERvA:2023ner": [
+  "Inclusive",
+  "[CH]",
+  "CC",
+  "nue+nuebar",
+  "double differential cross sections (Eavail, pT or q3)",
+  ""
+ ],
+ "MINERvA:2022djk": [
+  "CC1π+",
+  "[CH,C,H2O,Fe,Pb]",
+  "CC",
+  "numu",
+  "differential cross sections and nuclear ratios",
+  "mean energy ~6GeV, Delta(1232) region"
+ ],
+ "MINERvA:2023kuz": [
+  "CCQE-like",
+  "[CH,C,H2O,Fe,Pb]",
+  "CC",
+  "numu",
+  "cross section ratios vs longitudinal and transverse muon momentum",
+  ""
+ ],
+ "MINERvA:2022esg": [
+  "CCcoh π+",
+  "[CH,C,Fe,Pb]",
+  "CC",
+  "numu",
+  "cross sections and A-dependence",
+  "neutrino energy 2-20GeV"
+ ],
+ "MINERvA:2022bno": [
+  "CCQE-like",
+  "[CH]",
+  "CC",
+  "numubar",
+  "differential cross sections (plong, pT)",
+  "mean energy ~6GeV, extends to high pT"
+ ],
+ "MINERvA:2023ikp": [
+  "Multi-neutron",
+  "[CH]",
+  "CC",
+  "numubar",
+  "cross section for events with ≥2 neutrons",
+  "mean energy ~6GeV"
+ ],
+ "MINERvA:2021wjs": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu",
+  "double differential cross sections (q, Eavail)",
+  "|q|<1.2GeV"
+ ],
+ "MINERvA:2022mnw": [
+  "CCQE-like",
+  "[CH]",
+  "CC",
+  "numu",
+  "triple-differential cross section (muon pT, pL, proton KE)",
+  "neutrino energy 2-20GeV"
+ ],
+ "MINERvA:2021owq": [
+  "Inclusive",
+  "[CH]",
+  "CC",
+  "numu",
+  "single and double-differential cross sections (muon pT, pL)",
+  "peak energy ~6GeV"
+ ],
+ "MINERvA:2019ope": [
+  "CCQEp",
+  "[CH]",
+  "CC",
+  "numu",
+  "differential cross sections of muon-proton momentum imbalance",
+  "focus on nuclear effects"
+ ],
+ "MINERvA:2019gsf": [
+  "CCQE-like",
+  "[CH]",
+  "CC",
+  "numu",
+  "double-differential cross section (muon pT, pL) and dσ/dQ2",
+  "Q2 up to 10GeV2"
+ ],
+ "MINERvA:2020anu": [
+  "CCπ0",
+  "[C]",
+  "CC",
+  "numu",
+  "final-state correlations and momentum imbalance",
+  "focus on nuclear effects and FSI"
+ ],
+ "MINERvA:2020zzv": [
+  "Inclusive",
+  "[CH]",
+  "CC",
+  "numu",
+  "double-differential cross section (muon pT, pL)",
+  "peak energy ~3.5GeV"
+ ],
+ "MINERvA:2018hqn": [
+  "CCQE-like",
+  "[CH]",
+  "CC",
+  "numu",
+  "double-differential cross section (muon pT, pL)",
+  "peak energy ~3.5GeV"
+ ],
+ "MINERvA:2019wqe": [
+  "Inclusive",
+  "[CH]",
+  "CC",
+  "numubar",
+  "neutron activity study",
+  "Q < 0.8GeV/c"
+ ],
+ "MINERvA:2019rhx": [
+  "CCπ-",
+  "[CH]",
+  "CC",
+  "numubar",
+  "differential cross sections (muon and pion kinematics)",
+  "E: 1.5-10GeV, includes isospin decomposition"
+ ],
+ "MINERvA:2018hba": [
+  "CCQEp",
+  "[CH]",
+  "CC",
+  "numu",
+  "kinematic imbalance measurements",
+  "focus on nuclear effects"
+ ],
+ "MINERvA:2018vjb": [
+  "CCQE-like",
+  "[CH]",
+  "CC",
+  "numubar",
+  "double-differential cross section (muon pT, pL)",
+  ""
+ ],
+ "MINERvA:2017ipy": [
+  "CCcoh π",
+  "[CH]",
+  "CC",
+  "numu+numubar",
+  "total and differential cross sections",
+  "E: 2-20GeV"
+ ],
+ "MINERvA:2018nab": [
+  "Inclusive",
+  "[CH]",
+  "CC",
+  "numubar",
+  "double-differential cross section",
+  "Q < 0.8GeV/c, focus on multinucleon effects"
+ ],
+ "MINERvA:2017okh": [
+  "CCπ0",
+  "[CH]",
+  "CC",
+  "numu",
+  "ldifferential cross sections (muon and π0 kinematics)",
+  "E: 1.5-20GeV"
+ ],
+ "MINERvA:2017dzh": [
+  "CCQEp",
+  "[CH,Fe,Pb]",
+  "CC",
+  "numu",
+  "differential cross sections and nuclear ratios",
+  "focus on nuclear effects"
+ ],
+ "MINERvA:2017ozn": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu+numubar",
+  "total cross section and ratio",
+  "E: 2-22GeV"
+ ],
+ "MINERvA:2016ymg": [
+  "NC K+",
+  "[CH]",
+  "NC",
+  "numu",
+  "differential cross sections",
+  "proton decay background study"
+ ],
+ "MINERvA:2015ydy": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu",
+  "double-differential cross section",
+  "low Q2, focus on nuclear effects"
+ ],
+ "MINERvA:2016sfc": [
+  "CCπ+/CCπ0",
+  "[CH]",
+  "CC",
+  "numu/numubar",
+  "differential cross sections",
+  "focus on resonance production"
+ ],
+ "MINERvA:2016oql": [
+  "DIS",
+  "[CH,C,Fe,Pb]",
+  "CC",
+  "numu",
+  "total and differential cross section ratios",
+  "E: 5-50GeV"
+ ],
+ "MINERvA:2015jih": [
+  "CCQE-like",
+  "[CH]",
+  "CC",
+  "nue",
+  "differential cross sections (e angle, energy, Q2)",
+  "comparison with numu data"
+ ],
+ "MINERvA:2016ing": [
+  "Inclusive",
+  "[CH]",
+  "CC",
+  "numu+numubar",
+  "total cross section",
+  "E: 2-50GeV, using low-nu flux technique"
+ ],
+ "MINERvA:2016uck": [
+  "NC1π0",
+  "[CH]",
+  "NC",
+  "numu",
+  "total cross section",
+  "E: ~4.5GeV, focus on diffractive production"
+ ],
+ "MINERvA:2016zyp": [
+  "CC K+",
+  "[CH]",
+  "CC",
+  "numu",
+  "differential cross section (K+ KE)",
+  "K+ kinetic energy 0-500 MeV"
+ ],
+ "MINERvA:2016cun": [
+  "CCcoh K+",
+  "[CH]",
+  "CC",
+  "numu",
+  "first evidence of coherent K+ production",
+  "3σ observation"
+ ],
+ "MINERvA:2014ogb": [
+  "CC1π+",
+  "[CH]",
+  "CC",
+  "numu",
+  "differential cross sections (pion angle and KE)",
+  "E: 1.5-10GeV, W<1.4GeV"
+ ],
+ "MINERvA:2014ypj": [
+  "CCQEp",
+  "[CH]",
+  "CC",
+  "numu",
+  "cross section vs hadronic kinematics",
+  "muon angle <70deg, proton KE >110MeV"
+ ],
+ "MINERvA:2015slz": [
+  "CC1π0",
+  "[CH]",
+  "CC",
+  "numubar",
+  "differential cross sections (π0 momentum and angle)",
+  "first π0 kinematics measurement"
+ ],
+ "MINERvA:2014ani": [
+  "CCcoh π",
+  "[CH]",
+  "CC",
+  "numu+numubar",
+  "differential cross section vs |t|",
+  "focus on low |t| region"
+ ],
+ "MINERvA:2014rdw": [
+  "Inclusive",
+  "[CH,C,Fe,Pb]",
+  "CC",
+  "numu",
+  "cross section ratios vs E and x",
+  "E: 2-20GeV, muon angle <17deg"
+ ],
+ "MINERvA:2013kdn": [
+  "CCQE",
+  "[CH]",
+  "CC",
+  "numu",
+  "differential cross section vs Q2",
+  "focus on low recoil energy"
+ ],
+ "MINERvA:2013bcy": [
+  "CCQE",
+  "[CH]",
+  "CC",
+  "numubar",
+  "differential cross section vs Q2",
+  ""
+ ],
+ "MINOS:2016yyz": [
+  "NCcoh π0",
+  "[Fe/C]",
+  "NC",
+  "numu",
+  "total cross section",
+  "mean E=4.9GeV"
+ ],
+ "MINOS:2014axb": [
+  "CCQE",
+  "[Fe]",
+  "CC",
+  "numu",
+  "differential Q2 distribution",
+  "E: 1-8GeV"
+ ],
+ "MINOS:2009ugl": [
+  "Inclusive",
+  "[Fe]",
+  "CC",
+  "numu+numubar",
+  "total cross section and ratio",
+  "E: 3-50GeV for numu, 5-50GeV for numubar"
+ ],
+ "MicroBooNE:2024sec": [
+  "NC1π0",
+  "[Ar]",
+  "NC",
+  "numu",
+  "double-differential cross section (π0 momentum, angle)",
+  "mean energy ~0.8GeV"
+ ],
+ "MicroBooNE:2024bnl": [
+  "CC1π0",
+  "[Ar]",
+  "CC",
+  "numu",
+  "differential cross sections (muon/π0 momentum and angles)",
+  ""
+ ],
+ "MicroBooNE:2024tmp": [
+  "CC0π",
+  "[Ar]",
+  "CC",
+  "numu",
+  "double-differential cross section",
+  "proton momentum > 0.25GeV/c"
+ ],
+ "MicroBooNE:2024zkh": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "numu",
+  "double-differential cross section with/without protons",
+  "mean energy ~0.8GeV"
+ ],
+ "MicroBooNE:2024zwf": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "numu",
+  "differential cross sections (lepton and hadron system)",
+  "mean energy ~0.8GeV"
+ ],
+ "MicroBooNE:2023krv": [
+  "CCQEp",
+  "[Ar]",
+  "CC",
+  "numu",
+  "differential cross sections vs kinematic imbalance",
+  "1μ1p topology"
+ ],
+ "MicroBooNE:2023ubu": [
+  "CC η",
+  "[Ar]",
+  "CC",
+  "numu",
+  "total cross section",
+  "first measurement of η production"
+ ],
+ "MicroBooNE:2023foc": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "numu",
+  "differential cross section (muon angle and momentum, Enu)",
+  "mean energy ~0.8GeV"
+ ],
+ "MicroBooNE:2023cmw": [
+  "CCQEp",
+  "[Ar]",
+  "CC",
+  "numu",
+  "multi-differential cross section",
+  "1μ1p topology"
+ ],
+ "MicroBooNE:2023tzj": [
+  "CCQE-like",
+  "[Ar]",
+  "CC",
+  "numu",
+  "double-differential cross section vs kinematic imbalance",
+  ""
+ ],
+ "MicroBooNE:2022cls": [
+  "CC Λ",
+  "[Ar]",
+  "CC",
+  "numu",
+  "total cross section",
+  "Cabibbo-suppressed production"
+ ],
+ "MicroBooNE:2022zhr": [
+  "NC1π0",
+  "[Ar]",
+  "NC",
+  "numu",
+  "total cross section",
+  "exclusive 0p and 1p topologies"
+ ],
+ "MicroBooNE:2022emb": [
+  "CC2p",
+  "[Ar]",
+  "CC",
+  "numu",
+  "differential cross sections",
+  "1μ2p0π topology"
+ ],
+ "MicroBooNE:2022tdd": [
+  "CC0π",
+  "[Ar]",
+  "CC",
+  "nue",
+  "differential cross sections (e/p energy and angle)",
+  ""
+ ],
+ "MicroBooNE:2021sfa": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "numu",
+  "total and differential cross sections vs Enu and ν",
+  "mean energy ~0.8GeV"
+ ],
+ "MicroBooNE:2021ppm": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "nue+nuebar",
+  "differential cross sections (e energy and angle)",
+  "NuMI beam"
+ ],
+ "MicroBooNE:2021gfj": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "nue+nuebar",
+  "total cross section",
+  "Enu > 250MeV"
+ ],
+ "MicroBooNE:2020akw": [
+  "CC0πNp",
+  "[Ar]",
+  "CC",
+  "numu",
+  "differential cross sections",
+  "proton momentum > 300MeV/c"
+ ],
+ "MicroBooNE:2020fxd": [
+  "CCQEp",
+  "[Ar]",
+  "CC",
+  "numu",
+  "total and differential cross sections",
+  "1μ1p topology"
+ ],
+ "MicroBooNE:2019nio": [
+  "Inclusive",
+  "[Ar]",
+  "CC",
+  "numu",
+  "double-differential cross section (muon momentum and angle)",
+  "mean energy ~0.8GeV"
+ ],
+ "MicroBooNE:2018neo": [
+  "CC1π0",
+  "[Ar]",
+  "CC",
+  "numu",
+  "total cross section",
+  "first measurement on argon"
+ ],
+ "MiniBooNE:2018dus": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu",
+  "total cross section",
+  "monoenergetic 236MeV neutrinos"
+ ],
+ "MiniBooNE:2013dds": [
+  "NC elastic",
+  "[CH2]",
+  "NC",
+  "numubar",
+  "differential cross section dσ/dQ2",
+  ""
+ ],
+ "MiniBooNE:2013qnd": [
+  "CCQE",
+  "[CH2]",
+  "CC",
+  "numubar",
+  "double-differential cross section",
+  "largest antinu CCQE sample"
+ ],
+ "MiniBooNE:2010eis": [
+  "CC1π+",
+  "[CH2]",
+  "CC",
+  "numu",
+  "differential cross sections",
+  "E ~1GeV"
+ ],
+ "MiniBooNE:2010cxl": [
+  "CC1π0",
+  "[CH2]",
+  "CC",
+  "numu",
+  "total and differential cross sections",
+  "E: 0.5-2.0GeV"
+ ],
+ "MiniBooNE:2010xqw": [
+  "NC elastic",
+  "[CH2]",
+  "NC",
+  "numu",
+  "differential cross section dσ/dQ2",
+  "nucleon KE > 50MeV"
+ ],
+ "MiniBooNE:2010bsu": [
+  "CCQE",
+  "[C]",
+  "CC",
+  "numu",
+  "double-differential cross section (muon KE, angle)",
+  ""
+ ],
+ "MiniBooNE:2009dxl": [
+  "NC1π0",
+  "[CH2]",
+  "NC",
+  "numu+numubar",
+  "total and differential cross sections",
+  "mean energy: numu=808MeV, numubar=664MeV"
+ ],
+ "MiniBooNE:2009koj": [
+  "CC1π+/CCQE",
+  "[CH2]",
+  "CC",
+  "numu",
+  "ratio CC1π+/CCQE vs energy",
+  "E: 0.4-2.4GeV"
+ ],
+ "MiniBooNE:2008mmr": [
+  "NC1π0",
+  "[CH2]",
+  "NC",
+  "numu",
+  "momentum distribution and coherent fraction",
+  "coherent+diffractive ~19.5% of NC1π0"
+ ],
+ "MiniBooNE:2007iti": [
+  "CCQE",
+  "[C]",
+  "CC",
+  "numu",
+  "axial mass measurement",
+  "MA=1.23±0.20GeV"
+ ],
+ "NINJA:2022zbi": [
+  "Inclusive",
+  "[Fe]",
+  "CC",
+  "numu",
+  "multiplicity and kinematics of muons/protons/pions",
+  "mean energy 1.49GeV"
+ ],
+ "NINJA:2020bvx": [
+  "Inclusive",
+  "[Fe]",
+  "CC",
+  "numu",
+  "total cross section and multiplicity",
+  "mean energy 1.49GeV"
+ ],
+ "NINJA:2020gbg": [
+  "Inclusive",
+  "[H2O]",
+  "CC",
+  "numu+numubar",
+  "track multiplicity and kinematics",
+  "mean energy 1.3GeV"
+ ],
+ "NOMAD:2011gyy": [
+  "NC single γ",
+  "[C]",
+  "NC",
+  "numu",
+  "upper limit on single photon production",
+  ""
+ ],
+ "NOMAD:2009idt": [
+  "NCcoh π0",
+  "[C]",
+  "NC",
+  "numu",
+  "total cross section",
+  "E: 2.5-300GeV"
+ ],
+ "NOMAD:2009qmu": [
+  "CCQE",
+  "[C]",
+  "CC",
+  "numu+numubar",
+  "total cross section and axial mass",
+  "E: 3-100GeV"
+ ],
+ "NOMAD:2007krq": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu",
+  "total cross section",
+  "E: 2.5-40GeV"
+ ],
+ "NOMAD:2004djf": [
+  "NC strange",
+  "[C]",
+  "NC",
+  "numu",
+  "strange particle yields",
+  "K0s,Lambda,Lambdabar production"
+ ],
+ "NOMAD:2001kdr": [
+  "CC strange",
+  "[C]",
+  "CC",
+  "numu",
+  "strange particle yields",
+  "K0s,Lambda,Lambdabar production"
+ ],
+ "NOMAD:2001vdk": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu",
+  "backward proton/pion production",
+  ""
+ ],
+ "NOMAD:2001ozt": [
+  "CC resonances",
+  "[C]",
+  "CC",
+  "numu",
+  "resonance production",
+  "ρ0,f0,f2 multiplicities"
+ ],
+ "NOMAD:2001iup": [
+  "CC strange",
+  "[C]",
+  "CC",
+  "numu",
+  "Antilambda polarization",
+  ""
+ ],
+ "NOvA:2024rov": [
+  "Low recoil",
+  "[CH2]",
+  "CC",
+  "numu",
+  "differential cross sections (muon kinematics)",
+  "hadron KE < 250MeV"
+ ],
+ "NOvA:2024zmr": [
+  "Inclusive",
+  "[CH2]",
+  "CC",
+  "numu",
+  "double-differential cross section",
+  "mean energy 1.86GeV"
+ ],
+ "NOvA:2021eqi": [
+  "Inclusive",
+  "[CH2]",
+  "CC",
+  "numu",
+  "differential cross sections (muon kinematics)",
+  ""
+ ],
+ "NOvA:2022see": [
+  "Inclusive",
+  "[CH2]",
+  "CC",
+  "nue",
+  "double-differential cross section",
+  "E: 1-6GeV"
+ ],
+ "NOvA:2023uxq": [
+  "CC1π0",
+  "[CH2]",
+  "CC",
+  "numu",
+  "total and differential cross sections",
+  "E: 1-5GeV"
+ ],
+ "NOvA:2019bdw": [
+  "NCcoh π0",
+  "[C]",
+  "NC",
+  "numu",
+  "total cross section",
+  "mean energy 2.7GeV"
+ ],
+ "Super-Kamiokande:2019hga": [
+  "NC elastic",
+  "[O]",
+  "NC",
+  "nu+nubar",
+  "total cross section",
+  "E: 160MeV-10GeV"
+ ],
+ "SciBooNE:2011sjq": [
+  "CC K+",
+  "[C8H8]",
+  "CC",
+  "numu",
+  "K+ production cross section",
+  "8GeV proton beam"
+ ],
+ "SciBooNE:2010slc": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu",
+  "total cross section",
+  "mean energy 0.8GeV"
+ ],
+ "SciBooNE:2010lca": [
+  "NCcoh π0",
+  "[C]",
+  "NC",
+  "numu",
+  "ratio to total CC",
+  "mean energy 0.8GeV"
+ ],
+ "SciBooNE:2009nlf": [
+  "NC1π0",
+  "[C8H8]",
+  "NC",
+  "numu",
+  "ratio to total CC",
+  "mean energy 1.1GeV"
+ ],
+ "SciBooNE:2008bzb": [
+  "CCcoh π",
+  "[C]",
+  "CC",
+  "numu",
+  "upper limit on cross section ratio",
+  "mean energies 1.1GeV and 2.2GeV"
+ ],
+ "T2K:2023qjb": [
+  "CC0π",
+  "[CH,Fe]",
+  "CC",
+  "numu",
+  "double-differential cross sections",
+  "mean energies 0.6GeV and 1.1GeV"
+ ],
+ "T2K:2023xlh": [
+  "CCcoh π",
+  "[C]",
+  "CC",
+  "numu+numubar",
+  "flux-averaged cross section",
+  "mean energy 0.85GeV"
+ ],
+ "T2K:2021naz": [
+  "CC1π+",
+  "[CH]",
+  "CC",
+  "numu",
+  "differential cross sections vs kinematic imbalance",
+  ""
+ ],
+ "T2K:2020txr": [
+  "CC0π",
+  "[H2O,CH]",
+  "CC",
+  "numubar+numu",
+  "cross sections and ratio",
+  "mean energy 0.86GeV"
+ ],
+ "T2K:2020jav": [
+  "CC0π",
+  "[O,C]",
+  "CC",
+  "numu",
+  "double-differential cross section and ratio",
+  "peak energy 0.6GeV"
+ ],
+ "T2K:2020sbd": [
+  "CC0π",
+  "[CH]",
+  "CC",
+  "numu+numubar",
+  "double-differential cross sections",
+  "peak energy 0.6GeV"
+ ],
+ "T2K:2020lrr": [
+  "Inclusive",
+  "[CH]",
+  "CC",
+  "nue+nuebar",
+  "differential cross sections (e momentum/angle)",
+  "p>300MeV/c, θ≤45°"
+ ],
+ "T2K:2019yqu": [
+  "CC1π+",
+  "[C]",
+  "CC",
+  "numu",
+  "single and double differential cross sections",
+  "peak energy 0.6GeV"
+ ],
+ "T2K:2019ddy": [
+  "CC0π",
+  "[H2O]",
+  "CC",
+  "numubar",
+  "double-differential cross section",
+  ""
+ ],
+ "T2K:2019zqh": [
+  "NC elastic",
+  "[O]",
+  "NC",
+  "nu+nubar",
+  "flux-averaged cross sections",
+  "mean energies: nu=0.82GeV, nubar=0.68GeV"
+ ],
+ "T2K:2019odo": [
+  "NC single γ",
+  "[CH]",
+  "NC",
+  "numu",
+  "upper limit on cross section",
+  "mean energy ~0.6GeV"
+ ],
+ "T2K:2019dgm": [
+  "Inclusive",
+  "[H2O,CH,Fe]",
+  "CC",
+  "numu",
+  "total cross sections and ratios",
+  "mean energy 1.5GeV"
+ ],
+ "T2K:2018rnz": [
+  "CC0π",
+  "[C8H8]",
+  "CC",
+  "numu",
+  "proton multiplicity and kinematics",
+  ""
+ ],
+ "T2K:2017qxv": [
+  "CC0π",
+  "[H2O]",
+  "CC",
+  "numu",
+  "double-differential cross section",
+  ""
+ ],
+ "T2K:2018lnf": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu",
+  "double-differential cross section",
+  ""
+ ],
+ "T2K:2017epu": [
+  "NC1π0",
+  "[H2O]",
+  "NC",
+  "numu",
+  "total cross section",
+  "mean energy 1.3GeV"
+ ],
+ "T2K:2016cbz": [
+  "CC1π+",
+  "[H2O]",
+  "CC",
+  "numu",
+  "differential cross sections",
+  "restricted phase space"
+ ],
+ "T2K:2017bvo": [
+  "Inclusive",
+  "[C,O,H,Cu]",
+  "CC",
+  "numu+numubar",
+  "cross sections and ratio",
+  "E<1.5GeV"
+ ],
+ "T2K:2016jor": [
+  "CC0π",
+  "[C]",
+  "CC",
+  "numu",
+  "double-differential cross section",
+  ""
+ ],
+ "T2K:2016soz": [
+  "CCcoh π+",
+  "[C]",
+  "CC",
+  "numu",
+  "flux-averaged cross section",
+  "E<1.5GeV"
+ ],
+ "T2K:2015cxp": [
+  "Inclusive",
+  "[Fe]",
+  "CC",
+  "numu",
+  "energy-dependent cross section",
+  "E: 1.1-3.3GeV"
+ ],
+ "T2K:2014hih": [
+  "CCQE",
+  "[C]",
+  "CC",
+  "numu",
+  "flux-integrated cross section",
+  ""
+ ],
+ "T2K:2015ujp": [
+  "CCQE",
+  "[C]",
+  "CC",
+  "numu",
+  "total cross section",
+  "mean energies 1.94GeV and 0.93GeV"
+ ],
+ "T2K:2015ydf": [
+  "Inclusive",
+  "[H2O]",
+  "CC",
+  "nue",
+  "interaction rate ratio",
+  "E>1.5GeV"
+ ],
+ "T2K:2014lbi": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "nue",
+  "differential cross sections",
+  "E~1GeV"
+ ],
+ "T2K:2014axs": [
+  "Inclusive",
+  "[Fe,CH]",
+  "CC",
+  "numu",
+  "total cross sections and ratio",
+  "mean energy 1.51GeV"
+ ],
+ "T2K:2014vog": [
+  "NC elastic",
+  "[O]",
+  "NC",
+  "numu",
+  "flux-averaged cross section",
+  "median energy 630MeV"
+ ],
+ "T2K:2013nor": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu",
+  "double-differential cross section",
+  "mean energy 0.85GeV"
+ ],
+ "NOMAD:2001kpt": [
+  "CC D★+",
+  "[C]",
+  "CC",
+  "numu",
+  "D★+ yield and fragmentation",
+  ""
+ ],
+ "NOMAD:2000wdf": [
+  "CC strange",
+  "[C]",
+  "CC",
+  "numu",
+  "Lambda polarization",
+  "Target and current fragmentation regions"
+ ],
+ "NOMAD:1998gsx": [
+  "Inclusive",
+  "[C]",
+  "CC",
+  "numu+numubar",
+  "jet properties in Breit frame",
+  "Q2: 1-100GeV2"
+ ]
+}

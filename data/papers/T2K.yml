@@ -1,0 +1,1137 @@
+- bibtag: T2K:2023qjb
+  title: First measurement of muon neutrino charged-current interactions on hydrocarbon without pions
+    in the final state using multiple detectors with correlated energy spectra at T2K
+  collaboration: T2K
+  arxiv: '2303.14228'
+  doi: 10.1103/PhysRevD.108.112009
+  journal: Phys.Rev.D
+  volume: '108'
+  pages: '112009'
+  year: 2023
+  published_date: '2023-03-24'
+  inspire_recid: 2646102
+  citation_count: 29
+  abstract: This paper reports the first measurement of muon neutrino charged-current interactions without
+    pions in the final state using multiple detectors with correlated energy spectra at T2K. The data
+    was collected on hydrocarbon targets using the off-axis T2K near detector (ND280) and the on-axis
+    T2K near detector (INGRID) with neutrino energy spectra peaked at 0.6 GeV and 1.1 GeV respectively.
+    The correlated neutrino flux presents an opportunity to reduce the impact of the flux uncertainty
+    and to study the energy dependence of neutrino interactions. The extracted double-differential cross
+    sections are compared to several Monte Carlo neutrino-nucleus interaction event generators showing
+    the agreement between both detectors individually and with the correlated result.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2303.14228
+    doi: https://doi.org/10.1103/PhysRevD.108.112009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2023qjb
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    - Fe
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross sections
+    energy_notes: mean energies 0.6GeV and 1.1GeV
+- bibtag: T2K:2023xlh
+  title: Measurements of the <math display="inline"><mrow><msub><mrow><mi>ν</mi></mrow><mrow><mi>μ</mi></mrow></msub></mrow></math>
+    and <math display="inline"><mrow><msub><mrow><mover accent="true"><mrow><mi>ν</mi></mrow><mrow><mo
+    stretchy="false">¯</mo></mrow></mover></mrow><mrow><mi>μ</mi></mrow></msub></mrow></math>-induced
+    coherent charged pion production cross sections on <math display="inline"><mrow><mmultiscripts><mrow><mi
+    mathvariant="normal">C</mi></mrow><mprescripts/><none/><mrow><mn>12</mn></mrow></mmultiscripts></mrow></math>
+    by the T2K experiment
+  collaboration: T2K
+  arxiv: '2308.16606'
+  doi: 10.1103/PhysRevD.108.092009
+  journal: Phys.Rev.D
+  volume: '108'
+  pages: '9'
+  year: 2023
+  published_date: '2023-08-31'
+  inspire_recid: 2692442
+  citation_count: 17
+  abstract: We report an updated measurement of the $\nu_{\mu}$-induced, and the first measurement of
+    the $\bar{\nu}_{\mu}$-induced coherent charged pion production cross section on $^{12}C$ nuclei in
+    the T2K experiment. This is measured in a restricted region of the final-state phase space for which
+    $p_{\mu,\pi} > 0.2$ GeV, $\cos(\theta_{\mu}) > 0.8$ and $\cos(\theta_{\pi}) > 0.6$, and at a mean
+    (anti)neutrino energy of 0.85 GeV using the T2K near detector. The measured $\nu_{\mu}$ CC coherent
+    pion production flux-averaged cross section on $^{12}C$ is $(2.98 \pm 0.37 (stat.) \pm 0.31 (syst.)
+    \substack{ +0.49 \\ -0.00 } \mathrm{ (Q^2\,model)}) \times 10^{-40}~\mathrm{cm}^{2}$. The new measurement
+    of the $\bar{\nu}_{\mu}$-induced cross section on $^{12}{C}$ is $(3.05 \pm 0.71 (stat.) \pm 0.39 (syst.)
+    \substack{ +0.74 \\ -0.00 } \mathrm{(Q^2\,model)}) \times 10^{-40}~\mathrm{cm}^{2}$. The results are
+    compatible with both the NEUT 5.4.0 Berger-Sehgal (2009) and GENIE 2.8.0 Rein-Sehgal (2007) model
+    predictions.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2308.16606
+    doi: https://doi.org/10.1103/PhysRevD.108.092009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2023xlh
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - C
+    topology: CCcoh pi
+    pion_bucket: null
+    measurement_type: total
+    observables: flux-averaged cross section
+    energy_notes: mean energy 0.85GeV
+- bibtag: T2K:2020txr
+  title: Measurements of $\overline{\nu}_{\mu}$ and $\overline{\nu}_{\mu} + \nu_{\mu}$ charged-current
+    cross-sections without detected pions or protons on water and hydrocarbon at a mean anti-neutrino
+    energy of 0.86 GeV
+  collaboration: T2K
+  arxiv: '2004.13989'
+  doi: 10.1093/ptep/ptab014
+  journal: PTEP
+  volume: '2021'
+  pages: 043C01
+  year: 2021
+  published_date: '2020-04-29'
+  inspire_recid: 1793459
+  citation_count: 31
+  abstract: We report measurements of the flux-integrated $\bar{\nu}_\mu$ and $\bar{\nu}_\mu+\nu_\mu$
+    charged-current cross-sections on water and hydrocarbon targets using the T2K anti-neutrino beam,
+    with a mean neutrino energy of 0.86 GeV. The signal is defined as the (anti-)neutrino charged-current
+    interaction with one induced $\mu^\pm$ and no detected charged pion nor proton. These measurements
+    are performed using a new WAGASCI module recently added to the T2K setup in combination with the INGRID
+    Proton module. The phase space of muons is restricted to the high-detection efficiency region, $p_{\mu}>400~{\rm
+    MeV}/c$ and $\theta_{\mu}<30^{\circ}$, in the laboratory frame. Absence of pions and protons in the
+    detectable phase space of "$p_{\pi}>200~{\rm MeV}/c$ and $\theta_{\pi}<70^{\circ}$", and "$p_{\rm
+    p}>600~{\rm MeV}/c$ and $\theta_{\rm p}<70^{\circ}$" is required. In this paper, both of the $\bar{\nu}_\mu$
+    cross-sections and $\bar{\nu}_\mu+\nu_\mu$ cross-sections on water and hydrocarbon targets, and their
+    ratios are provided by using D'Agostini unfolding method. The results of the integrated $\bar{\nu}_\mu$
+    cross-section measurements over this phase space are $\sigma_{\rm H_{2}O}\,=\,(1.082\pm0.068(\rm stat.)^{+0.145}_{-0.128}(\rm
+    syst.)) \times 10^{-39}~{\rm cm^{2}/nucleon}$, $\sigma_{\rm CH}\,=\,(1.096\pm0.054(\rm stat.)^{+0.132}_{-0.117}(\rm
+    syst.)) \times 10^{-39}~{\rm cm^{2}/nucleon}$, and $\sigma_{\rm H_{2}O}/\sigma_{\rm CH} = 0.987\pm0.078(\rm
+    stat.)^{+0.093}_{-0.090}(\rm syst.)$. The $\bar{\nu}_\mu+\nu_\mu$ cross-section is $\sigma_{\rm H_{2}O}
+    = (1.155\pm0.064(\rm stat.)^{+0.148}_{-0.129}(\rm syst.)) \times 10^{-39}~{\rm cm^{2}/nucleon}$, $\sigma_{\rm
+    CH}\,=\,(1.159\pm0.049(\rm stat.)^{+0.129}_{-0.115}(\rm syst.)) \times 10^{-39}~{\rm cm^{2}/nucleon}$,
+    and $\sigma_{\rm H_{2}O}/\sigma_{\rm CH}\,=\,0.996\pm0.069(\rm stat.)^{+0.083}_{-0.078}(\rm syst.)$.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2004.13989
+    doi: https://doi.org/10.1093/ptep/ptab014
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2020txr
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - H2O
+    - CH
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: ratio
+    observables: cross sections and ratio
+    energy_notes: mean energy 0.86GeV
+- bibtag: T2K:2021naz
+  title: First T2K measurement of transverse kinematic imbalance in the muon-neutrino charged-current
+    single-$\pi^+$ production channel containing at least one proton
+  collaboration: T2K
+  arxiv: '2102.03346'
+  doi: 10.1103/PhysRevD.103.112009
+  journal: Phys.Rev.D
+  volume: '103'
+  pages: '112009'
+  year: 2021
+  published_date: '2021-02-05'
+  inspire_recid: 1845154
+  citation_count: 59
+  abstract: This paper reports the first T2K measurement of the transverse kinematic imbalance in the
+    single-$\pi^+$ production channel of neutrino interactions. We measure the differential cross sections
+    in the muon-neutrino charged-current interaction on hydrocarbon with a single $\pi^+$ and at least
+    one proton in the final state, at the ND280 off-axis near detector of the T2K experiment. The extracted
+    cross sections are compared to the predictions from different neutrino-nucleus interaction event generators.
+    Overall, the results show a preference for models which have a more realistic treatment of nuclear
+    medium effects including the initial nuclear state and final-state interactions.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2102.03346
+    doi: https://doi.org/10.1103/PhysRevD.103.112009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2021naz
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: differential cross sections vs kinematic imbalance
+    energy_notes: null
+- bibtag: T2K:2019ddy
+  title: First measurement of the charged current $\overline{\nu}_{\mu}$ double differential cross section
+    on a water target without pions in the final state
+  collaboration: T2K
+  arxiv: '1908.10249'
+  doi: 10.1103/PhysRevD.102.012007
+  journal: Phys.Rev.D
+  volume: '102'
+  pages: '012007'
+  year: 2020
+  published_date: '2019-08-27'
+  inspire_recid: 1751375
+  citation_count: 25
+  abstract: This paper reports the first differential measurement of the charged-current $\overline{\nu}_{\mu}$
+    interaction cross section on water with no pions in the final state. The unfolded flux-averaged measurement
+    using the T2K off-axis near detector is given in double differential bins of $\mu^+$ momentum and
+    angle. The integrated cross section in a restricted phase space is $\sigma=\left(1.11\pm0.18\right)\times10^{-38}$
+    cm$^{2}$ per water molecule. Comparisons with several nuclear models are also presented.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1908.10249
+    doi: https://doi.org/10.1103/PhysRevD.102.012007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019ddy
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - H2O
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: null
+- bibtag: T2K:2019yqu
+  title: Measurement of the muon neutrino charged-current single $\pi^+$ production on hydrocarbon using
+    the T2K off-axis near detector ND280
+  collaboration: T2K
+  arxiv: '1909.03936'
+  doi: 10.1103/PhysRevD.101.012007
+  journal: Phys.Rev.D
+  volume: '101'
+  pages: '012007'
+  year: 2020
+  published_date: '2019-09-09'
+  inspire_recid: 1753109
+  citation_count: 53
+  abstract: We report the measurements of single and double differential cross section of muon neutrino
+    charged-current interactions on carbon with a single positively charged pion in the final state at
+    the T2K off-axis near detector using $5.56\times10^{20}$ protons on target. The analysis uses data
+    control samples for the background subtraction and the cross section signal, defined as a single negatively
+    charged muon and a single positively charged pion exiting from the target nucleus, is extracted using
+    an unfolding method. The model dependent cross section, integrated over the T2K off-axis neutrino
+    beam spectrum peaking at $0.6$~GeV, is measured to be $\sigma = (11.76 \pm 0.44 \text{(stat)} \pm
+    2.39 \text{(syst)}) \times 10^{-40} \text{cm}^2$~$\text{nucleon}^{-1}$. Various differential cross
+    sections are measured, including the first measurement of the Adler angles for single charged pion
+    production in neutrino interactions with heavy nuclei target.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1909.03936
+    doi: https://doi.org/10.1103/PhysRevD.101.012007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019yqu
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: double-diff
+    observables: single and double differential cross sections
+    energy_notes: peak energy 0.6GeV
+- bibtag: T2K:2020jav
+  title: Simultaneous measurement of the muon neutrino charged-current cross section on oxygen and carbon
+    without pions in the final state at T2K
+  collaboration: T2K
+  arxiv: '2004.05434'
+  doi: 10.1103/PhysRevD.101.112004
+  journal: Phys.Rev.D
+  volume: '101'
+  pages: '112004'
+  year: 2020
+  published_date: '2020-04-11'
+  inspire_recid: 1791020
+  citation_count: 82
+  abstract: This paper reports the first simultaneous measurement of the double differential muon neutrino
+    charged-current cross section on oxygen and carbon without pions in the final state as a function
+    of the outgoing muon kinematics, made at the ND280 off-axis near detector of the T2K experiment. The
+    ratio of the oxygen and carbon cross sections is also provided to help validate various models' ability
+    to extrapolate between carbon and oxygen nuclear targets, as is required in T2K oscillation analyses.
+    The data are taken using a neutrino beam with an energy spectrum peaked at 0.6 GeV. The extracted
+    measurement is compared with the prediction from different Monte Carlo neutrino-nucleus interaction
+    event generators, showing particular model separation for very forward-going muons. Overall, of the
+    models tested, the result is best described using Local Fermi Gas descriptions of the nuclear ground
+    state with RPA suppression.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2004.05434
+    doi: https://doi.org/10.1103/PhysRevD.101.112004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2020jav
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - O
+    - C
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section and ratio
+    energy_notes: peak energy 0.6GeV
+- bibtag: T2K:2020lrr
+  title: Measurement of the charged-current electron (anti-)neutrino inclusive cross-sections at the T2K
+    off-axis near detector ND280
+  collaboration: T2K
+  arxiv: '2002.11986'
+  doi: 10.1007/JHEP10(2020)114
+  journal: JHEP
+  volume: '10'
+  pages: '114'
+  year: 2020
+  published_date: '2020-02-27'
+  inspire_recid: 1782636
+  citation_count: 53
+  abstract: The electron (anti-)neutrino component of the T2K neutrino beam constitutes the largest background
+    in the measurement of electron (anti-)neutrino appearance at the far detector. The electron neutrino
+    scattering is measured directly with the T2K off-axis near detector, ND280. The selection of the electron
+    (anti-)neutrino events in the plastic scintillator target from both neutrino and anti-neutrino mode
+    beams is discussed in this paper. The flux integrated single differential charged-current inclusive
+    electron (anti-)neutrino cross-sections, $d\sigma/dp$ and $d\sigma/d\cos(\theta)$, and the total cross-sections
+    in a limited phase-space in momentum and scattering angle ($p > 300$ MeV/c and $\theta \leq 45^{\circ}$)
+    are measured using a binned maximum likelihood fit and compared to the neutrino Monte Carlo generator
+    predictions, resulting in good agreement.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2002.11986
+    doi: https://doi.org/10.1007/JHEP10(2020)114
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2020lrr
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    - nuebar
+    target:
+    - CH
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross sections (e momentum/angle)
+    energy_notes: p>300MeV/c, θ≤45°
+- bibtag: T2K:2020sbd
+  title: First combined measurement of the muon neutrino and antineutrino charged-current cross section
+    without pions in the final state at T2K
+  collaboration: T2K
+  arxiv: '2002.09323'
+  doi: 10.1103/PhysRevD.101.112001
+  journal: Phys.Rev.D
+  volume: '101'
+  pages: '112001'
+  year: 2020
+  published_date: '2020-02-21'
+  inspire_recid: 1781792
+  citation_count: 51
+  abstract: This paper presents the first combined measurement of the double-differential muon neutrino
+    and antineutrino charged-current cross sections with no pions in the final state on hydrocarbon at
+    the off-axis near detector of the T2K experiment. The data analyzed in this work comprise 5.8$\times$10$^{20}$
+    and 6.3$\times$10$^{20}$ protons on target in neutrino and antineutrino mode respectively, at a beam
+    energy peak of 0.6 GeV. Using the two measured cross sections, the sum, difference and asymmetry were
+    calculated with the aim of better understanding the nuclear effects involved in such interactions.
+    The extracted measurements have been compared with the prediction from different Monte Carlo generators
+    and theoretical models showing that the difference between the two cross sections have interesting
+    sensitivity to nuclear effects.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2002.09323
+    doi: https://doi.org/10.1103/PhysRevD.101.112001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2020sbd
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CH
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross sections
+    energy_notes: peak energy 0.6GeV
+- bibtag: T2K:2019dgm
+  title: Measurement of the $\nu_{\mu}$ charged-current cross sections on water, hydrocarbon, iron, and
+    their ratios with the T2K on-axis detectors
+  collaboration: T2K
+  arxiv: '1904.09611'
+  doi: 10.1093/ptep/ptz070
+  journal: PTEP
+  volume: '2019'
+  pages: 093C02
+  year: 2019
+  published_date: '2019-04-21'
+  inspire_recid: 1730502
+  citation_count: 21
+  abstract: 'We report a measurement of the flux-integrated $\nu_{\mu}$ charged-current cross sections
+    on water, hydrocarbon, and iron in the T2K on-axis neutrino beam with a mean neutrino energy of 1.5
+    GeV. The measured cross sections on water, hydrocarbon, and iron are $\sigma^{\rm{H_{2}O}}_{\rm{CC}}$
+    = (0.840$\pm 0.010$(stat.)$^{+0.10}_{-0.08}$(syst.))$\times$10$^{-38}$cm$^2$/nucleon, $\sigma^{\rm{CH}}_{\rm{CC}}$
+    = (0.817$\pm 0.007$(stat.)$^{+0.11}_{-0.08}$(syst.))$\times$10$^{-38}$cm$^2$/nucleon, and $\sigma^{\rm{Fe}}_{\rm{CC}}$
+    = (0.859$\pm 0.003$(stat.) $^{+0.12}_{-0.10}$(syst.))$\times$10$^{-38}$cm$^2$/nucleon respectively,
+    for a restricted phase space of induced muons: $\theta_{\mu}<45^{\circ}$ and $p_{\mu}>$0.4 GeV/$c$
+    in the laboratory frame. The measured cross section ratios are ${\sigma^{\rm{H_{2}O}}_{\rm{CC}}}/{\sigma^{\rm{CH}}_{\rm{CC}}}$
+    = 1.028$\pm 0.016$(stat.)$\pm 0.053$(syst.), ${\sigma^{\rm{Fe}}_{\rm{CC}}}/{\sigma^{\rm{H_{2}O}}_{\rm{CC}}}$
+    = 1.023$\pm 0.012$(stat.)$\pm 0.058$(syst.), and ${\sigma^{\rm{Fe}}_{\rm{CC}}}/{\sigma^{\rm{CH}}_{\rm{CC}}}$
+    = 1.049$\pm 0.010$(stat.)$\pm 0.043$(syst.). These results, with an unprecedented precision for the
+    measurements of neutrino cross sections on water in the studied energy region, show good agreement
+    with the current neutrino interaction models used in the T2K oscillation analyses.'
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1904.09611
+    doi: https://doi.org/10.1093/ptep/ptz070
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019dgm
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2O
+    - CH
+    - Fe
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: total cross sections and ratios
+    energy_notes: mean energy 1.5GeV
+- bibtag: T2K:2019odo
+  title: Search for neutral-current induced single photon production at the ND280 near detector in T2K
+  collaboration: T2K
+  arxiv: '1902.03848'
+  doi: 10.1088/1361-6471/ab227d
+  journal: J.Phys.G
+  volume: '46'
+  pages: 08LT01
+  year: 2019
+  published_date: '2019-02-11'
+  inspire_recid: 1719344
+  citation_count: 28
+  abstract: Neutrino neutral-current induced single photon production is a sub-leading order process for
+    accelerator-based neutrino beam experiments including T2K. It is, however, an important process to
+    understand because it is a background for electron (anti)neutrino appearance oscillation experiments.
+    Here, we performed the first search of this process below 1 GeV using the fine-grained detector at
+    the T2K ND280 off-axis near detector. By reconstructing single photon kinematics from electron-positron
+    pairs, we achieved 95\% pure gamma ray sample from 5.738$\times 10^{20}$ protons-on-targets neutrino
+    mode data. We do not find positive evidence of neutral current induced single photon production in
+    this sample. We set the model-dependent upper limit on the cross-section for this process, at 0.114$\times
+    10^{-38}$ cm$^2$ (90\% C.L.) per nucleon, using the J-PARC off-axis neutrino beam with an average
+    energy of $\left<E_\nu\right>\sim 0.6$ GeV. This is the first limit on this process below 1 GeV which
+    is important for current and future oscillation experiments looking for electron neutrino appearance
+    oscillation signals.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1902.03848
+    doi: https://doi.org/10.1088/1361-6471/ab227d
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019odo
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: NC single gamma
+    pion_bucket: null
+    measurement_type: limit
+    observables: upper limit on cross section
+    energy_notes: mean energy ~0.6GeV
+- bibtag: T2K:2019zqh
+  title: Measurement of neutrino and antineutrino neutral-current quasielasticlike interactions on oxygen
+    by detecting nuclear deexcitation $\gamma$ rays
+  collaboration: T2K
+  arxiv: '1910.09439'
+  doi: 10.1103/PhysRevD.100.112009
+  journal: Phys.Rev.D
+  volume: '100'
+  pages: '112009'
+  year: 2019
+  published_date: '2019-10-21'
+  inspire_recid: 1759879
+  citation_count: 45
+  abstract: Neutrino- and antineutrino-oxygen neutral-current quasielastic-like interactions are measured
+    at Super-Kamiokande using nuclear de-excitation $\gamma$-rays to identify signal-like interactions
+    in data from a $14.94 \ (16.35)\times 10^{20}$ protons-on-target exposure of the T2K neutrino (antineutrino)
+    beam. The measured flux-averaged cross sections on oxygen nuclei are $\langle \sigma_{\nu {\rm -NCQE}}
+    \rangle = 1.70 \pm 0.17 ({\rm stat.}) ^{+ {\rm 0.51}}_{- {\rm 0.38}} ({\rm syst.}) \times 10^{-38}
+    \ {\rm cm^2/oxygen}$ with a flux-averaged energy of 0.82 GeV and $\langle \sigma_{\bar{\nu} {\rm -NCQE}}
+    \rangle = 0.98 \pm 0.16 ({\rm stat.}) ^{+ {\rm 0.26}}_{- {\rm 0.19}} ({\rm syst.}) \times 10^{-38}
+    \ {\rm cm^2/oxygen}$ with a flux-averaged energy of 0.68 GeV, for neutrinos and antineutrinos, respectively.
+    These results are the most precise to date, and the antineutrino result is the first cross section
+    measurement of this channel. They are compared with various theoretical predictions. The impact on
+    evaluation of backgrounds to searches for supernova relic neutrinos at present and future water Cherenkov
+    detectors is also discussed.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1910.09439
+    doi: https://doi.org/10.1103/PhysRevD.100.112009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019zqh
+  measurements:
+  - current: NC
+    flavor: []
+    target:
+    - O
+    topology: NC elastic
+    pion_bucket: 0pi
+    measurement_type: total
+    observables: flux-averaged cross sections
+    energy_notes: 'mean energies: nu=0.82GeV, nubar=0.68GeV'
+    flavor_note: nu+nubar
+- bibtag: T2K:2017epu
+  title: Measurement of the single $\pi^0$ production rate in neutral current neutrino interactions on
+    water
+  collaboration: T2K
+  arxiv: '1704.07467'
+  doi: 10.1103/PhysRevD.97.032002
+  journal: Phys.Rev.D
+  volume: '97'
+  pages: '032002'
+  year: 2018
+  published_date: '2017-04-24'
+  inspire_recid: 1594905
+  citation_count: 21
+  abstract: The single $\pi^0$ production rate in neutral current neutrino interactions on water in a
+    neutrino beam with a peak neutrino energy of 0.6 GeV has been measured using the P{\O}D, one of the
+    subdetectors of the T2K near detector. The production rate was measured for data taking periods when
+    the P{\O}D contained water ($2.64\times{}10^{20}$ protons-on-target) and also periods without water
+    ($3.49 \times 10^{20}$ protons-on-target). A measurement of the neutral current single $\pi^0$ production
+    rate on water is made using appropriate subtraction of the production rate with water in from the
+    rate with water out of the target region. The subtraction analysis yields 106 $\pm$ 41 (stat.) $\pm$
+    69 (sys.) signal events, which is consistent with the prediction of 157 events from the nominal simulation.
+    The measured to expected ratio is 0.68 $\pm$ 0.26 (stat.) $\pm$ 0.44 (sys.) $\pm$ 0.12 (flux). The
+    nominal simulation uses a flux integrated cross section of $7.63\times{}10^{-39}$ cm${}^2$ per nucleon
+    with an average neutrino interaction energy of 1.3 GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1704.07467
+    doi: https://doi.org/10.1103/PhysRevD.97.032002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2017epu
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - H2O
+    topology: NC1pi0
+    pion_bucket: pi0
+    measurement_type: total
+    observables: total cross section
+    energy_notes: mean energy 1.3GeV
+- bibtag: T2K:2017qxv
+  title: First measurement of the $\nu_{\mu}$ charged-current cross section on a water target without
+    pions in the final state
+  collaboration: T2K
+  arxiv: '1708.06771'
+  doi: 10.1103/PhysRevD.97.012001
+  journal: Phys.Rev.D
+  volume: '97'
+  pages: '012001'
+  year: 2018
+  published_date: '2017-08-22'
+  inspire_recid: 1618338
+  citation_count: 59
+  abstract: This paper reports the first differential measurement of the charged-current interaction cross
+    section of $\nu_{\mu}$ on water with no pions in the final state. This flux-averaged measurement has
+    been made using the T2K experiment's off-axis near detector, and is reported in doubly-differential
+    bins of muon momentum and angle. The flux-averaged total cross section in a restricted region of phase
+    space was found to be $ \sigma= (0.95 \pm 0.08 (\mbox{stat}) \pm 0.06 (\mbox{det. syst.}) \pm 0.04(\mbox{model
+    syst.}) \pm{} 0.08(\mbox{flux}) ) \times 10^{-38} \mbox{cm}^2$ per n.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1708.06771
+    doi: https://doi.org/10.1103/PhysRevD.97.012001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2017qxv
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2O
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: null
+- bibtag: T2K:2018lnf
+  title: Measurement of inclusive double-differential $\nu_\mu$ charged-current cross section with improved
+    acceptance in the T2K off-axis near detector
+  collaboration: T2K
+  arxiv: '1801.05148'
+  doi: 10.1103/PhysRevD.98.012004
+  journal: Phys.Rev.D
+  volume: '98'
+  pages: '012004'
+  year: 2018
+  published_date: '2018-01-16'
+  inspire_recid: 1648384
+  citation_count: 54
+  abstract: We report a measurement of the flux-integrated cross section for inclusive muon neutrino charged-current
+    interactions on carbon. The double differential measurements are given as function of the muon momentum
+    and angle. Relative to our previous publication on this topic, these results have an increased angular
+    acceptance and higher statistics. The data sample presented here corresponds to $5.7 \times 10^{20}$
+    protons-on-target. The total flux-integrated cross section is measured to be $(6.950 \pm 0.662) \times
+    10^{-39}$ cm$^2$nucleon$^{-1}$ and is consistent with our simulation.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1801.05148
+    doi: https://doi.org/10.1103/PhysRevD.98.012004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2018lnf
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: null
+- bibtag: T2K:2018rnz
+  title: Characterization of nuclear effects in muon-neutrino scattering on hydrocarbon with a measurement
+    of final-state kinematics and correlations in charged-current pionless interactions at T2K
+  collaboration: T2K
+  arxiv: '1802.05078'
+  doi: 10.1103/PhysRevD.98.032003
+  journal: Phys.Rev.D
+  volume: '98'
+  pages: '032003'
+  year: 2018
+  published_date: '2018-02-14'
+  inspire_recid: 1654927
+  citation_count: 169
+  abstract: This paper reports measurements of final-state proton multiplicity, muon and proton kinematics,
+    and their correlations in charged-current pionless neutrino interactions, measured by the T2K ND280
+    near detector in its plastic scintillator (C$_8$H$_8$) target. The data were taken between years 2010
+    and 2013, corresponding to approximately 6$\times10^{20}$ protons on target. Thanks to their exploration
+    of the proton kinematics and of kinematic imbalances between the proton and muon kinematics, the results
+    offer a novel probe of the nuclear-medium effects most pertinent to the (sub-)GeV neutrino-nucleus
+    interactions that are used in accelerator-based long-baseline neutrino oscillation measurements. These
+    results are compared to many neutrino-nucleus interaction models which all fail to describe at least
+    part of the observed phase space. In case of events without a proton above a detection threshold in
+    the final state, a fully consistent implementation of the local Fermi gas model with multinucleon
+    interactions gives the best description of the data. In the case of at least one proton in the final
+    state the spectral function model agrees well with the data, most notably when measuring the kinematic
+    imbalance between the muon and the proton in the plane transverse to the incoming neutrino. A clear
+    indication of existence of multinucleon interactions is observed. The effect of final-state interactions
+    is also discussed.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1802.05078
+    doi: https://doi.org/10.1103/PhysRevD.98.032003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2018rnz
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C8H8
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: null
+    observables: proton multiplicity and kinematics
+    energy_notes: null
+- bibtag: T2K:2016cbz
+  title: First measurement of the muon neutrino charged current single pion production cross section on
+    water with the T2K near detector
+  collaboration: T2K
+  arxiv: '1605.07964'
+  doi: 10.1103/PhysRevD.95.012010
+  journal: Phys.Rev.D
+  volume: '95'
+  pages: '012010'
+  year: 2017
+  published_date: '2016-05-25'
+  inspire_recid: 1465650
+  citation_count: 91
+  abstract: The T2K off-axis near detector, ND280, is used to make the first differential cross section
+    measurements of muon neutrino charged current single positive pion production on a water target at
+    energies ${\sim}0.8$ GeV. The differential measurements are presented as a function of muon and pion
+    kinematics, in the restricted phase-space defined by $p_{\pi^+}>200$MeV/c, $p_{\mu^-}>200$MeV/c, $\cos
+    \theta_{\pi^+}>0.3$ and $\cos \theta_{\mu^-}>0.3$. The total flux integrated $\nu_\mu$ charged current
+    single positive pion production cross section on water in the restricted phase-space is measured to
+    be $\langle\sigma\rangle_\phi=4.25\pm0.48 (\mathrm{stat})\pm1.56 (\mathrm{syst})\times10^{-40} \mathrm{cm}^{2}/\mathrm{nucleon}$.
+    The total cross section is consistent with the NEUT prediction ($5.03\times10^{-40} \mathrm{cm}^{2}/\mathrm{nucleon}$)
+    and 2$\sigma$ lower than the GENIE prediction ($7.68\times10^{-40} \mathrm{cm}^{2}/\mathrm{nucleon}$).
+    The differential cross sections are in good agreement with the NEUT generator. The GENIE simulation
+    reproduces well the shapes of the distributions, but over-estimates the overall cross section normalization.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1605.07964
+    doi: https://doi.org/10.1103/PhysRevD.95.012010
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2016cbz
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2O
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: differential cross sections
+    energy_notes: restricted phase space
+- bibtag: T2K:2017bvo
+  title: Measurement of $\bar{\nu}_{\mu}$ and $\nu_{\mu}$ charged current inclusive cross sections and
+    their ratio with the T2K off-axis near detector
+  collaboration: T2K
+  arxiv: '1706.04257'
+  doi: 10.1103/PhysRevD.96.052001
+  journal: Phys.Rev.D
+  volume: '96'
+  pages: '052001'
+  year: 2017
+  published_date: '2017-06-13'
+  inspire_recid: 1605123
+  citation_count: 27
+  abstract: We report a measurement of cross section $\sigma(\nu_{\mu}+{\rm nucleus}\rightarrow\mu^{-}+X)$
+    and the first measurements of the cross section $\sigma(\bar{\nu}_{\mu}+{\rm nucleus}\rightarrow\mu^{+}+X)$
+    and their ratio $R(\frac{\sigma(\bar \nu)}{\sigma(\nu)})$ at (anti-)neutrino energies below 1.5 GeV.
+    We determine the single momentum bin cross section measurements, averaged over the T2K $\bar{\nu}/\nu$-flux,
+    for the detector target material (mainly Carbon, Oxygen, Hydrogen and Copper) with phase space restricted
+    laboratory frame kinematics of $\theta_{\mu}<32^\circ$ and $p_{\mu}>$500 MeV/c. The results are $\sigma(\bar{\nu})=\left(
+    0.900\pm0.029{\rm (stat.)}\pm0.088{\rm (syst.)}\right)\times10^{-39}$ and $\sigma(\nu)=\left( 2.41\
+    \pm0.022{\rm{(stat.)}}\pm0.231{\rm (syst.)}\ \right)\times10^{-39}$ in units of cm$^{2}$/nucleon and
+    $R\left(\frac{\sigma(\bar{\nu})}{\sigma(\nu)}\right)= 0.373\pm0.012{\rm (stat.)}\pm0.015{\rm (syst.)}$.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1706.04257
+    doi: https://doi.org/10.1103/PhysRevD.96.052001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2017bvo
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - C
+    - O
+    - H
+    - Cu
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: cross sections and ratio
+    energy_notes: E<1.5GeV
+- bibtag: T2K:2015cxp
+  title: Measurement of the muon neutrino inclusive charged-current cross section in the energy range
+    of 1–3 GeV with the T2K INGRID detector
+  collaboration: T2K
+  arxiv: '1509.06940'
+  doi: 10.1103/PhysRevD.93.072002
+  journal: Phys.Rev.D
+  volume: '93'
+  pages: '072002'
+  year: 2016
+  published_date: '2015-09-23'
+  inspire_recid: 1394549
+  citation_count: 46
+  abstract: We report a measurement of the $\nu_{\mu}$-nucleus inclusive charged current cross section
+    (=$\sigma^{cc}$) on iron using data from exposed to the J-PARC neutrino beam. The detector consists
+    of 14 modules in total, which are spread over a range of off-axis angles from 0$^\circ$ to 1.1$^\circ$.
+    The variation in the neutrino energy spectrum as a function of the off-axis angle, combined with event
+    topology information, is used to calculate this cross section as a function of neutrino energy. The
+    cross section is measured to be $\sigma^{cc}(1.1\text{ GeV}) = 1.10 \pm 0.15$ $(10^{-38}\text{cm}^2/\text{nucleon})$,
+    $\sigma^{cc}(2.0\text{ GeV}) = 2.07 \pm 0.27$ $(10^{-38}\text{cm}^2/\text{nucleon})$, and $\sigma^{cc}(3.3\text{
+    GeV}) = 2.29 \pm 0.45$ $(10^{-38}\text{cm}^2/\text{nucleon})$, at energies of 1.1, 2.0, and 3.3 GeV,
+    respectively. These results are consistent with the cross section calculated by the neutrino interaction
+    generators currently used by T2K. More importantly, the method described here opens up a new way to
+    determine the energy dependence of neutrino-nucleus cross sections.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1509.06940
+    doi: https://doi.org/10.1103/PhysRevD.93.072002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2015cxp
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Fe
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: energy-dependent cross section
+    energy_notes: 'E: 1.1-3.3GeV'
+- bibtag: T2K:2016jor
+  title: Measurement of double-differential muon neutrino charged-current interactions on C$_8$H$_8$ without
+    pions in the final state using the T2K off-axis beam
+  collaboration: T2K
+  arxiv: '1602.03652'
+  doi: 10.1103/PhysRevD.93.112012
+  journal: Phys.Rev.D
+  volume: '93'
+  pages: '112012'
+  year: 2016
+  published_date: '2016-02-11'
+  inspire_recid: 1421157
+  citation_count: 175
+  abstract: We report the measurement of muon neutrino charged-current interactions on carbon without
+    pions in the final state at the T2K beam energy using 5.734$\times10^{20}$ protons on target. For
+    the first time the measurement is reported as a flux-integrated, double-differential cross-section
+    in muon kinematic variables ($\cos\theta_\mu$, $p_\mu$), without correcting for events where a pion
+    is produced and then absorbed by final state interactions. Two analyses are performed with different
+    selections, background evaluations and cross-section extraction methods to demonstrate the robustness
+    of the results against biases due to model-dependent assumptions. The measurements compare favorably
+    with recent models which include nucleon-nucleon correlations but, given the present precision, the
+    measurement does not solve the degeneracy between different models. The data also agree with Monte
+    Carlo simulations which use effective parameters that are tuned to external data to describe the nuclear
+    effects. The total cross-section in the full phase space is $\sigma = (0.417 \pm 0.047 \text{(syst)}
+    \pm 0.005 \text{(stat)})\times 10^{-38} \text{cm}^2$ $\text{nucleon}^{-1}$ and the cross-section integrated
+    in the region of phase space with largest efficiency and best signal-over-background ratio ($\cos\theta_\mu>0.6$
+    and $p_\mu > 200$ MeV) is $\sigma = (0.202 \pm 0.0359 \text{(syst)} \pm 0.0026 \text{(stat)}) \times
+    10^{-38} \text{cm}^2$ $\text{nucleon}^{-1}$.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1602.03652
+    doi: https://doi.org/10.1103/PhysRevD.93.112012
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2016jor
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: null
+- bibtag: T2K:2016soz
+  title: Measurement of Coherent $\pi^{+}$ Production in Low Energy Neutrino-Carbon Scattering
+  collaboration: T2K
+  arxiv: '1604.04406'
+  doi: 10.1103/PhysRevLett.117.192501
+  journal: Phys.Rev.Lett.
+  volume: '117'
+  pages: '192501'
+  year: 2016
+  published_date: '2016-04-15'
+  inspire_recid: 1448099
+  citation_count: 52
+  abstract: We report the first measurement of the flux-averaged cross section for charged current coherent
+    $\pi^{+}$ production on carbon for neutrino energies less than 1.5 GeV to a restricted final state
+    phase space region in the T2K near detector, ND280. Comparisons are made with predictions from the
+    Rein-Sehgal coherent production model and the model by Alvarez-Ruso {\it et al.}, the latter representing
+    the first implementation of an instance of the new class of microscopic coherent models in a neutrino
+    interaction Monte Carlo event generator. This results contradicts the null results reported by K2K
+    and SciBooNE in a similar neutrino energy region.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1604.04406
+    doi: https://doi.org/10.1103/PhysRevLett.117.192501
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2016soz
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CCcoh pi+
+    pion_bucket: pi_charged
+    measurement_type: total
+    observables: flux-averaged cross section
+    energy_notes: E<1.5GeV
+- bibtag: T2K:2014hih
+  title: Measurement of the ν$_μ$ charged-current quasielastic cross section on carbon with the ND280
+    detector at T2K
+  collaboration: T2K
+  arxiv: '1411.6264'
+  doi: 10.1103/PhysRevD.92.112003
+  journal: Phys.Rev.D
+  volume: '92'
+  pages: '112003'
+  year: 2015
+  published_date: '2014-11-23'
+  inspire_recid: 1329784
+  citation_count: 92
+  abstract: The Charged-Current Quasi-Elastic (CCQE) interaction, $\nu_{l} + n \rightarrow l^{-} + p$,
+    is the dominant CC process at $E_\nu \sim 1$ GeV and contributes to the signal in accelerator-based
+    long-baseline neutrino oscillation experiments operating at intermediate neutrino energies. This paper
+    reports a measurement by the T2K experiment of the $\nu_{\mu}$ CCQE cross section on a carbon target
+    with the off-axis detector based on the observed distribution of muon momentum ($p_\mu$) and angle
+    with respect to the incident neutrino beam ($\theta_\mu$). The flux-integrated CCQE cross section
+    was measured to be $(0.83 \pm 0.12) \times 10^{-38}\textrm{ cm}^{2}$ in good agreement with NEUT MC
+    value of ${0.88 \times 10^{-38}} \textrm{ cm}^{2}$. The energy dependence of the CCQE cross section
+    is also reported. The axial mass, $M_A^{QE}$, of the dipole axial form factor was extracted assuming
+    the Smith-Moniz CCQE model with a relativistic Fermi gas nuclear model. Using the absolute (shape-only)
+    $p_{\mu}cos\theta_\mu$ distribution, the effective $M_A^{QE}$ parameter was measured to be ${1.26^{+0.21}_{-0.18}
+    \textrm{ GeV}/c^{2}}$ (${1.43^{+0.28}_{-0.22} \textrm{ GeV}/c^{2}}$).
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1411.6264
+    doi: https://doi.org/10.1103/PhysRevD.92.112003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2014hih
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: total
+    observables: flux-integrated cross section
+    energy_notes: null
+- bibtag: T2K:2015ujp
+  title: Measurement of the $\nu_{\mu}$ charged current quasielastic cross section on carbon with the
+    T2K on-axis neutrino beam
+  collaboration: T2K
+  arxiv: '1503.07452'
+  doi: 10.1103/PhysRevD.91.112002
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '112002'
+  year: 2015
+  published_date: '2015-03-25'
+  inspire_recid: 1355549
+  citation_count: 78
+  abstract: We report a measurement of the $\nu_\mu$ charged current quasi-elastic cross-sections on carbon
+    in the T2K on-axis neutrino beam. The measured charged current quasi-elastic cross-sections on carbon
+    at mean neutrino energies of 1.94 GeV and 0.93 GeV are $(11.95\pm 0.19(stat.)_{-1.47}^{+1.82} (syst.))\times
+    10^{-39}\mathrm{cm}^2/\mathrm{neutron}$ and $(10.64\pm 0.37(stat.)_{-1.65}^{+2.03} (syst.))\times
+    10^{-39}\mathrm{cm}^2/\mathrm{neutron}$, respectively. These results agree well with the predictions
+    of neutrino interaction models. In addition, we investigated the effects of the nuclear model and
+    the multi-nucleon interaction.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1503.07452
+    doi: https://doi.org/10.1103/PhysRevD.91.112002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2015ujp
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: total
+    observables: total cross section
+    energy_notes: mean energies 1.94GeV and 0.93GeV
+- bibtag: T2K:2015ydf
+  title: Measurement of the electron neutrino charged-current interaction rate on water with the T2K ND280
+    $π^0$ detector
+  collaboration: T2K
+  arxiv: '1503.08815'
+  doi: 10.1103/PhysRevD.91.112010
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '112010'
+  year: 2015
+  published_date: '2015-03-30'
+  inspire_recid: 1357001
+  citation_count: 30
+  abstract: This paper presents a measurement of the charged current interaction rate of the electron
+    neutrino beam component of the beam above $1.5$~GeV using the large fiducial mass of the T2K $\pi^0$
+    detector. The predominant poriton of the $\nu_e$ flux ($\sim$85 %) at these energies comes from kaon
+    decays. The measured ratio of the observed beam interaction rate to the predicted rate in the detector
+    with water targets filled is 0.89 $\pm$ 0.08 (stat.) $\pm$ 0.11 (sys.), and with the water targets
+    emptied is 0.90 $\pm$ 0.09 (stat.) $\pm$ 0.13 (sys.). The ratio obtained for the interactions on water
+    only from an event subtraction method is 0.87 $\pm$ 0.33 (stat.) $\pm$ 0.21 (sys.). This is the first
+    measurement of the interaction rate of electron neutrinos on water, which is particularly of interest
+    to experiments with water Cherenkov detectors.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1503.08815
+    doi: https://doi.org/10.1103/PhysRevD.91.112010
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2015ydf
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - H2O
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: interaction rate ratio
+    energy_notes: E>1.5GeV
+- bibtag: T2K:2014axs
+  title: Measurement of the inclusive $\nu_{\mu}$ charged current cross section on iron and hydrocarbon
+    in the T2K on-axis neutrino beam
+  collaboration: T2K
+  arxiv: '1407.4256'
+  doi: 10.1103/PhysRevD.90.052010
+  journal: Phys.Rev.D
+  volume: '90'
+  pages: '052010'
+  year: 2014
+  published_date: '2014-07-16'
+  inspire_recid: 1306617
+  citation_count: 88
+  abstract: We report a measurement of the $\nu_\mu$ inclusive charged current cross sections on iron
+    and hydrocarbon in the T2K on-axis neutrino beam. The measured inclusive charged current cross sections
+    on iron and hydrocarbon averaged over the T2K on-axis flux with a mean neutrino energy of 1.51 GeV
+    are $(1.444\pm0.002(stat.)_{-0.157}^{+0.189}(syst.))\times 10^{-38}\mathrm{cm}^2/\mathrm{nucleon}$,
+    and $(1.379\pm0.009(stat.)_{-0.147}^{+0.178}(syst.))\times 10^{-38}\mathrm{cm}^2/\mathrm{nucleon}$,
+    respectively, and their cross section ratio is $1.047\pm0.007(stat.)\pm0.035(syst.)$. These results
+    agree well with the predictions of the neutrino interaction model, and thus we checked the correct
+    treatment of the nuclear effect for iron and hydrocarbon targets in the model within the measurement
+    precisions.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1407.4256
+    doi: https://doi.org/10.1103/PhysRevD.90.052010
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2014axs
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Fe
+    - CH
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: total cross sections and ratio
+    energy_notes: mean energy 1.51GeV
+- bibtag: T2K:2014lbi
+  title: Measurement of the Inclusive Electron Neutrino Charged Current Cross Section on Carbon with the
+    T2K Near Detector
+  collaboration: T2K
+  arxiv: '1407.7389'
+  doi: 10.1103/PhysRevLett.113.241803
+  journal: Phys.Rev.Lett.
+  volume: '113'
+  pages: '241803'
+  year: 2014
+  published_date: '2014-07-28'
+  inspire_recid: 1308519
+  citation_count: 120
+  abstract: The T2K off-axis near detector, ND280, is used to make the first differential cross-section
+    measurements of electron neutrino charged current interactions at energies ~1 GeV as a function of
+    electron momentum, electron scattering angle and four-momentum transfer of the interaction. The total
+    flux-averaged $\nu_e$ charged current cross-section on carbon is measured to be $1.11\pm0.09~(stat)\pm0.18~(syst)\times10^{-38}
+    cm^2/nucleon$. The differential and total cross-section measurements agree with the predictions of
+    two leading neutrino interaction generators, NEUT and GENIE. The NEUT prediction is $1.23\times10^{-38}
+    cm^2/nucleon$ and the GENIE prediction is $1.08\times10^{-38} cm^2/nucleon$. The total $\nu_e$ charged
+    current cross-section result is also in agreement with data from the Gargamelle experiment.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1407.7389
+    doi: https://doi.org/10.1103/PhysRevLett.113.241803
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2014lbi
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross sections
+    energy_notes: E~1GeV
+- bibtag: T2K:2014vog
+  title: Measurement of the neutrino-oxygen neutral-current interaction cross section by observing nuclear
+    deexcitation $\gamma$ rays
+  collaboration: T2K
+  arxiv: '1403.3140'
+  doi: 10.1103/PhysRevD.90.072012
+  journal: Phys.Rev.D
+  volume: '90'
+  pages: '072012'
+  year: 2014
+  published_date: '2014-03-12'
+  inspire_recid: 1285732
+  citation_count: 73
+  abstract: We report the first measurement of the neutrino-oxygen neutral-current quasielastic (NCQE)
+    cross section. It is obtained by observing nuclear deexcitation $\gamma$-rays which follow neutrino-oxygen
+    interactions at the Super-Kamiokande water Cherenkov detector. We use T2K data corresponding to $3.01
+    \times 10^{20}$ protons on target. By selecting only events during the T2K beam window and with well-reconstructed
+    vertices in the fiducial volume, the large background rate from natural radioactivity is dramatically
+    reduced. We observe 43 events in the $4-30$ MeV reconstructed energy window, compared with an expectation
+    of 51.0, which includes an estimated 16.2 background events. The background is primarily nonquasielastic
+    neutral-current interactions and has only 1.2 events from natural radioactivity. The flux-averaged
+    NCQE cross section we measure is $1.55 \times 10^{-38}$ cm$^2$ with a 68\% confidence interval of
+    $(1.22, 2.20) \times 10^{-38}$ cm$^2$ at a median neutrino energy of 630 MeV, compared with the theoretical
+    prediction of $2.01 \times 10^{-38}$ cm$^2$.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1403.3140
+    doi: https://doi.org/10.1103/PhysRevD.90.072012
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2014vog
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - O
+    topology: NC elastic
+    pion_bucket: 0pi
+    measurement_type: total
+    observables: flux-averaged cross section
+    energy_notes: median energy 630MeV
+- bibtag: T2K:2013nor
+  title: Measurement of the inclusive $ν_μ$ charged current cross section on carbon in the near detector
+    of the T2K experiment
+  collaboration: T2K
+  arxiv: '1302.4908'
+  doi: 10.1103/PhysRevD.87.092003
+  journal: Phys.Rev.D
+  volume: '87'
+  pages: 092003
+  year: 2013
+  published_date: '2013-02-20'
+  inspire_recid: 1220379
+  citation_count: 181
+  abstract: T2K has performed the first measurement of \nu{\mu} inclusive charged current interactions
+    on carbon at neutrino energies of ~1 GeV where the measurement is reported as a flux-averaged double
+    differential cross section in muon momentum and angle. The flux is predicted by the beam Monte Carlo
+    and external data, including the results from the NA61/SHINE experiment. The data used for this measurement
+    were taken in 2010 and 2011, with a total of 10.8 x 10^{19} protons-on-target. The analysis is performed
+    on 4485 inclusive charged current interaction candidates selected in the most upstream fine-grained
+    scintillator detector of the near detector. The flux-averaged total cross section is <\sigma_CC>_\phi
+    =(6.91 +/- 0.13 (stat) +/- 0.84 (syst)) x10^{-39} cm^2/nucleon for a mean neutrino energy of 0.85
+    GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1302.4908
+    doi: https://doi.org/10.1103/PhysRevD.87.092003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2013nor
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: mean energy 0.85GeV

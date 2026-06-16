@@ -1,0 +1,183 @@
+- bibtag: K2K:2010xeb
+  title: Measurement of inclusive $\pi^0$ production in the Charged-Current Interactions of Neutrinos
+    in a 1.3-GeV wide band beam
+  collaboration: K2K
+  arxiv: '1012.1794'
+  doi: 10.1103/PhysRevD.83.054023
+  journal: Phys.Rev.D
+  volume: '83'
+  pages: '054023'
+  year: 2011
+  published_date: 2010-12
+  inspire_recid: 880001
+  citation_count: 34
+  abstract: In this paper we report on the measurement of the rate of inclusive $\pi^0$ production induced
+    by charged-current neutrino interactions in a C$_8$H$_8$ target at a mean energy of 1.3 GeV in the
+    K2K near detector. Out of a sample of 11,606 charged current neutrino interactions, we select 479
+    $\pi^0$ events with two reconstructed photons. We find that the cross section for the inclusive $\pi^0$
+    production relative to the charged-current quasi-elastic cross section is $$\frac{\sigma_{CC\pi^0}}{\sigma_{CCQE}}=0.426\pm0.032(stat.)\pm0.035(syst.)$$
+    The energy dependent cross section ratio is also measured. The results are consistent with previous
+    experiments for exclusive channels on different targets.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1012.1794
+    doi: https://doi.org/10.1103/PhysRevD.83.054023
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2010xeb
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C8H8
+    topology: CC1pi0
+    pion_bucket: pi0
+    measurement_type: ratio
+    observables: ratio of CC1π0 to CCQE cross section
+    energy_notes: mean energy 1.3GeV
+- bibtag: K2K:2008tus
+  title: Measurement of single charged pion production in the charged-current interactions of neutrinos
+    in a 1.3-GeV wide band beam
+  collaboration: K2K
+  arxiv: '0805.0186'
+  doi: 10.1103/PhysRevD.78.032003
+  journal: Phys.Rev.D
+  volume: '78'
+  pages: '032003'
+  year: 2008
+  published_date: 2008-05
+  inspire_recid: 784875
+  citation_count: 99
+  abstract: Single charged pion production in charged-current muon neutrino interactions with carbon is
+    studied using data collected in the K2K long-baseline neutrino experiment. The mean energy of the
+    incident muon neutrinos is 1.3 GeV. The data used in this analysis are mainly from a fully active
+    scintillator detector, SciBar. The cross section for single $\pi^{+}$ production in the resonance
+    region ($W<2$ GeV/$c^2$) relative to the charged-current quasi-elastic cross section is found to be
+    0.734 $^{+0.140}_{-0.153}$. The energy-dependent cross section ratio is also measured. The results
+    are consistent with a previous experiment and the prediction of our model.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0805.0186
+    doi: https://doi.org/10.1103/PhysRevD.78.032003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2008tus
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: ratio
+    observables: ratio of CC1π+ to CCQE cross section
+    energy_notes: mean energy 1.3GeV, W<2GeV
+- bibtag: K2K:2006odf
+  title: Measurement of the quasi-elastic axial vector mass in neutrino-oxygen interactions
+  collaboration: K2K
+  arxiv: hep-ex/0603034
+  doi: 10.1103/PhysRevD.74.052002
+  journal: Phys.Rev.D
+  volume: '74'
+  pages: '052002'
+  year: 2006
+  published_date: 2006-03
+  inspire_recid: 712635
+  citation_count: 317
+  abstract: The weak nucleon axial-vector form factor for quasi-elastic interactions is determined using
+    neutrino interaction data from the K2K Scintillating Fiber detector in the neutrino beam at KEK. More
+    than 12,000 events are analyzed, of which half are charged-current quasi-elastic interactions nu-mu
+    n to mu- p occurring primarily in oxygen nuclei. We use a relativistic Fermi gas model for oxygen
+    and assume the form factor is approximately a dipole with one parameter, the axial vector mass M_A,
+    and fit to the shape of the distribution of the square of the momentum transfer from the nucleon to
+    the nucleus. Our best fit result for M_A = 1.20 \pm 0.12 GeV. Furthermore, this analysis includes
+    updated vector form factors from recent electron scattering experiments and a discussion of the effects
+    of the nucleon momentum on the shape of the fitted distributions.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0603034
+    doi: https://doi.org/10.1103/PhysRevD.74.052002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2006odf
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - O
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: null
+    observables: axial vector form factor
+    energy_notes: Form factor measurement through Q2 distribution
+- bibtag: K2K:2004qpv
+  title: Measurement of single pi0 production in neutral current neutrino interactions with water by a
+    1.3-GeV wide band muon neutrino beam
+  collaboration: K2K
+  arxiv: hep-ex/0408134
+  doi: 10.1016/j.physletb.2005.05.044
+  journal: Phys.Lett.B
+  volume: '619'
+  pages: '255'
+  year: 2005
+  published_date: 2004-08
+  inspire_recid: 657451
+  citation_count: 138
+  abstract: Neutral current single pi0 production induced by neutrinos with a mean energy of 1.3 GeV is
+    measured at a 1000 ton water Cherenkov detector as a near detector of the K2K long baseline neutrino
+    experiment. The cross section for this process relative to the total charged current cross section
+    is measured to be 0.064 +- 0.001 (stat.) +- 0.007 (sys.). The momentum distribution of produced pi0s
+    is measured and is found to be in good agreement with an expectation from the present knowledge of
+    the neutrino cross sections.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0408134
+    doi: https://doi.org/10.1016/j.physletb.2005.05.044
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2004qpv
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - H2O
+    topology: NC1pi0
+    pion_bucket: pi0
+    measurement_type: ratio
+    observables: ratio of NC1π0 to CC total cross section
+    energy_notes: mean energy 1.3GeV
+- bibtag: K2K:2005uiu
+  title: Search for coherent charged pion production in neutrino-carbon interactions
+  collaboration: K2K
+  arxiv: hep-ex/0506008
+  doi: 10.1103/PhysRevLett.95.252301
+  journal: Phys.Rev.Lett.
+  volume: '95'
+  pages: '252301'
+  year: 2005
+  published_date: 2005-06
+  inspire_recid: 684207
+  citation_count: 240
+  abstract: We report the result from a search for charged-current coherent pion production induced by
+    muon neutrinos with a mean energy of 1.3 GeV. The data are collected with a fully active scintillator
+    detector in the K2K long-baseline neutrino oscillation experiment. No evidence for coherent pion production
+    is observed and an upper limit of $0.60 \times 10^{-2}$ is set on the cross section ratio of coherent
+    pion production to the total charged-current interaction at 90% confidence level. This is the first
+    experimental limit for coherent charged pion production in the energy region of a few GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0506008
+    doi: https://doi.org/10.1103/PhysRevLett.95.252301
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2005uiu
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CCcoh pi
+    pion_bucket: null
+    measurement_type: limit
+    observables: upper limit on coherent pion production
+    energy_notes: mean energy 1.3GeV

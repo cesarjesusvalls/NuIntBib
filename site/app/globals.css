@@ -1,0 +1,15 @@
+@import "./styles/theme.css";
+@import "./styles/base.css";
+@import "./styles/home.css";
+@import "./styles/updates.css";
+@import "./styles/shared-layouts.css";
+@import "./styles/software.css";
+@import "./styles/not-found.css";
+@import "./styles/course-library.css";
+@import "./styles/articles.css";
+@import "./styles/footer.css";
+@import "./styles/evaluation-matrix.css";
+@import "./styles/record-browser.css";
+@import "./styles/detail-pages.css";
+@import "./styles/papers.css";
+@import "./styles/responsive.css";

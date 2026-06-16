@@ -1,0 +1,124 @@
+.software-hero {
+  background: linear-gradient(180deg, var(--fog-light) 0%, var(--white) 100%);
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 42%, transparent);
+}
+
+.software-hero-inner {
+  display: grid;
+  min-height: 14rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 3rem;
+  padding-block: 2rem 2.75rem;
+}
+
+.software-title {
+  max-width: 60rem;
+  margin: 1rem 0 0;
+  color: var(--ink);
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: clamp(2.75rem, 4vw, 3.75rem);
+  font-weight: 400;
+  letter-spacing: -.015em;
+  line-height: 1.12;
+}
+
+.software-hero-copy > p:not(.eyebrow) {
+  max-width: 46rem;
+  margin: 1.4rem 0 0;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+.software-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: end;
+  justify-content: flex-end;
+  gap: .85rem 1.25rem;
+  margin-bottom: .15rem;
+}
+
+.software-hero-actions .button {
+  white-space: nowrap;
+}
+
+.software-libraries {
+  padding-block: 5.5rem 6.5rem;
+  background: var(--fog-light);
+}
+
+.software-libraries-label {
+  margin-bottom: 1.5rem;
+}
+
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.software-card {
+  display: grid;
+  min-height: 19rem;
+  align-content: start;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--software-accent, var(--line)) 7%, transparent), transparent 9rem),
+    var(--white);
+  transition: box-shadow .2s, transform .2s;
+}
+
+.software-card-cardinal { --software-accent: var(--cardinal); }
+.software-card-lagunita { --software-accent: var(--lagunita); }
+.software-card-palo { --software-accent: var(--palo-alto); }
+
+.software-card:hover {
+  transform: translateY(-2px);
+}
+
+.software-card-top {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+.software-card-copy {
+  display: grid;
+  gap: .7rem;
+}
+
+.software-card-copy h2,
+.software-card-copy p {
+  margin: 0;
+}
+
+.software-card p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.software-repo-owner {
+  display: block;
+  margin: -.2rem 0 .1rem;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  line-height: 1.25;
+}
+
+.software-card .button {
+  align-self: end;
+  justify-self: start;
+  margin-top: auto;
+}
+
+.software-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.75rem;
+  margin-top: auto;
+}

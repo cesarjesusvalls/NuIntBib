@@ -1,0 +1,124 @@
+.evaluation-matrix {
+  width: min(100%, 30rem);
+  color: var(--muted);
+}
+
+.evaluation-matrix.is-compact {
+  width: min(100%, 26rem);
+}
+
+.evaluation-matrix.is-compact .matrix-question-row {
+  display: none;
+}
+
+.evaluation-matrix.is-compact .matrix-heading {
+  grid-template-columns: 1.5rem minmax(3.2rem, auto) minmax(0, 1fr);
+}
+
+.matrix-heading,
+.matrix-question-row,
+.matrix-body {
+  display: grid;
+  gap: .25rem;
+}
+
+.matrix-heading,
+.matrix-question-row {
+  grid-template-columns: 1.5rem minmax(3.2rem, auto) repeat(var(--cols), 1fr);
+  align-items: end;
+}
+
+.matrix-axis-x {
+  grid-column: span var(--cols);
+  text-align: center;
+  font-size: .72rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.matrix-body {
+  grid-template-columns: 1.5rem minmax(3.2rem, auto) repeat(var(--cols), 1fr);
+  margin-top: .35rem;
+}
+
+.matrix-axis-y {
+  grid-row: span var(--rows);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrix-axis-y span {
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  font-size: .72rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.matrix-row {
+  display: contents;
+}
+
+.matrix-model {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: .55rem;
+}
+
+.matrix-label {
+  color: var(--black-30);
+  font-size: .65rem;
+  line-height: 1;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .3s ease var(--label-delay, 0ms);
+}
+
+.eg-phase-scanning .matrix-label {
+  opacity: 1;
+}
+
+.eval-cell {
+  aspect-ratio: 1;
+  min-width: 12px;
+  background: var(--cell-color, var(--sky-light));
+  border-radius: 2px;
+  opacity: 0;
+  transform: translateY(4px) scale(.6);
+  will-change: opacity, transform, filter;
+  animation:
+    eg-struct-enter .4s var(--ease-out) var(--struct-delay, 0ms) both,
+    eg-color-bloom .6s ease var(--color-delay, 0ms) both,
+    eg-cell-breathe var(--spark-duration, 3.8s) ease-in-out var(--spark-delay, 0s) infinite;
+}
+
+.eval-cell:hover {
+  z-index: 2;
+  position: relative;
+  filter: brightness(1.13);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 124, 146, .2);
+}
+
+.matrix-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: .35rem .5rem;
+  margin-top: .75rem;
+  color: var(--black-60);
+  font-size: .68rem;
+}
+
+.matrix-legend span:nth-child(odd) {
+  width: .8rem;
+  height: .8rem;
+  border-radius: 999px;
+}
+
+.legend-strong { background: var(--palo-alto); }
+.legend-moderate { background: var(--lagunita); }
+.legend-low { background: var(--sky-light); }
+.legend-weak { background: var(--black-20); }
