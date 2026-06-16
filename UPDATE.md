@@ -27,22 +27,45 @@ cd site && yarn build
 
 ## What "relevant" means
 
-We track **published experimental neutrino cross-section measurements**. Include:
-flux-averaged total / differential / double- / triple-differential cross sections
-and cross-section ratios from neutrino experiments.
+We track **published experimental neutrino cross-section measurements**: flux-averaged
+total / differential / double- / triple-differential cross sections and cross-section
+ratios from neutrino experiments.
 
-Exclude (these show up in the candidate list and must be filtered out):
+Exclude:
 
-- **Proceedings, reviews, theses** — usually have an **author-keyed** texkey
-  (`Latham:2024zcq`, `Litchfield:2024zqw`) rather than a collaboration key. The
-  discovery script tags each candidate with `_triage` to flag these.
-- **Simulation / flux / detector / method papers** (e.g. "Development of T2K
-  Beam Simulation", "BDT reweighting of simulated interactions").
+- **Simulation / flux / detector / method papers** (e.g. "Development of T2K Beam
+  Simulation", "BDT reweighting of simulated interactions").
 - **Pure theory / generator / form-factor extraction** papers.
 
 Rule of thumb: a real measurement almost always has a **collaboration-keyed**
 texkey (`MicroBooNE:2025ooi`, `T2K:2025smz`, `MINERvA:2026ymp`) and a title that
 reports a *measurement of a cross section*.
+
+### Proceedings policy
+
+Conference proceedings and theses are **not automatically excluded**. A group
+often releases a proceeding while an analysis is still ongoing and later
+publishes the final journal article. The rule:
+
+- If a **journal article reports the same result**, keep the **article** and drop
+  the proceeding (the article is the citable, final version).
+- If **no matching article exists** (the result was only ever shown in a
+  proceeding), **keep the proceeding** — it is the only record of that measurement.
+
+The discovery script (`find_new_papers.py`) tags proceedings in `_triage` and
+records their `_document_type`, so each can be checked during review. The audit
+script (`audit_proceedings.py`) finds proceeding/thesis records already in the
+database, searches INSPIRE for a matching article, and labels each `SUPERSEDED`
+(article exists → `--remove` drops it) or `STANDALONE` (keep). Run it after any
+bulk import:
+
+```bash
+scripts/audit_proceedings.py            # report
+scripts/audit_proceedings.py --remove   # drop only superseded proceedings
+```
+
+INSPIRE's `document_type` (`article` vs `conference paper`/`proceedings`/`thesis`)
+is the primary signal; proceedings venues (PoS, J.Phys.Conf.Ser., …) are a backup.
 
 ## 1. Discover
 

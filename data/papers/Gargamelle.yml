@@ -1,0 +1,179 @@
+- bibtag: Armenise:1979zg
+  title: CHARGED CURRENT ELASTIC ANTI-NEUTRINO INTERACTIONS IN PROPANE
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0550-3213(79)90087-7
+  journal: Nucl.Phys.B
+  volume: '152'
+  pages: '365'
+  year: 1979
+  published_date: '1979'
+  inspire_recid: 146172
+  citation_count: 101
+  abstract: A sample of 766 antineutrino charged current elastic events has been used to extract the variation
+    of the elastic cross section with antineutrino energy and the distribution of d N /d q 2 . The best
+    fit value for the parameter M A obtained from these measurements is M A = 0.91 ± 0.04 GeV/ c 2 for
+    M V = 0.84 GeV/ c 2 . A simultaneous determination of M A and M V gives M A = 0.94 ± 0.07, M V = 0.81
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0550-3213(79)90087-7
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Armenise:1979zg
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - C3H8
+    - CF3Br
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Bolognese:1979gf
+  title: Single Pion Production in Anti-neutrino Induced Charged Current Interactions
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(79)90361-7
+  journal: Phys.Lett.B
+  volume: '81'
+  pages: '393'
+  year: 1979
+  published_date: 1979-02
+  inspire_recid: 7549
+  citation_count: 54
+  abstract: Results are presented on the exclusive charged current antineutrino production of one pion
+    using the data of the Gargamelle propane experiment at CERN PS. The isospin structure of the charged
+    weak current is studied as well as the energy dependence of the total cross section for π − antineutrino
+    production, which is compared with the prediction of the Adler model.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(79)90361-7
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Bolognese:1979gf
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - C3H8
+    - CF3Br
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: GargamelleNeutrinoPropane:1977hya
+  title: Experimental Study of Exclusive One Pion Production in All Neutrino Induced Neutral Current Channels
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0550-3213(78)90213-4
+  journal: Nucl.Phys.B
+  volume: '135'
+  pages: '45'
+  year: 1978
+  published_date: 1977-09
+  inspire_recid: 122235
+  citation_count: 136
+  abstract: Results are presented on exclusive single-pion production in the bubble chamber Gargamelle,
+    filled with a light propane-freon mixture, and exposed to the focused neutrino wide-band beam at the
+    CERN PS. The results are corrected for nuclear reinteractions. The isospin structure of the weak neutral
+    current is analysed using all four single-pion channels. The isovector-isoscalar interference term
+    is measured and found to differ from zero by two standard deviations. Evidence of Δ production by
+    the weak neutral
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0550-3213(78)90213-4
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:GargamelleNeutrinoPropane:1977hya
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - C3H8
+    - CF3Br
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Pohl:1977sx
+  title: Study of Neutrino Proton Elastic Scattering in the GARGAMELLE Freon Experiment
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(78)90741-4
+  journal: Phys.Lett.B
+  volume: '72'
+  pages: '489'
+  year: 1978
+  published_date: 1977-11
+  inspire_recid: 122236
+  citation_count: 42
+  abstract: The cross section ratio of the elastic neutral current reaction ν p→ ν p to the quasi-elastic
+    charged current reaction ν n→ μ − p has been measured in the kinematical region 0.3⩽ q 2 ⩽1.0 (GeV/
+    c ) 2 . The measured value is R M =0.17±0.08. Model dependent corrections are applied, especially
+    for ν n→ ν n contamination, and the result is compared to various models.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(78)90741-4
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Pohl:1977sx
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C3H8
+    - CF3Br
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Bonetti:1977cs
+  title: Study of Quasielastic Reactions of Neutrino and anti-neutrino in Gargamelle
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1007/BF02730023
+  journal: Nuovo Cim.A
+  volume: '38'
+  pages: '260'
+  year: 1977
+  published_date: '1977'
+  inspire_recid: 124163
+  citation_count: 148
+  abstract: The quasi-elastic cross-sectionsσeltot and dσ/dq2 for the reactions 1) νn → μ−p and 2)\(\overline
+    v \) → μ+n have been measured by using the data of the ν Gargamelle collaboration. 687 ν events, candidates
+    for reaction 1), and 476\(\overline v \) events, candidates for the reactions 2), have been used for
+    the analysis. Because the ν and\(\overline v \) interactions are on nuclei, suitable corrections for
+    nuclear effects have been taken into account. In the framework of the «usual»V −A theory, by assuming
+    for the axial form factor the dipolar formFA(q2)=1.23/(1 +q2/MA/2)2, our data have been fitted to
+    the differential cross-section dσ/dq2 integrated over the ν and\(\overline v \) energy spectra and
+    to the total cross-sectionσeltot as a function of the ν,\(\overline v \) energy to determine the best
+    value for the parameterMA.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF02730023
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Bonetti:1977cs
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C3H8
+    - CF3Br
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null

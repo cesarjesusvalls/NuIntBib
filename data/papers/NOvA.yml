@@ -1,3 +1,81 @@
+- bibtag: NOvA:2025vdg
+  title: Measurement of <math display="inline"><msup><mi>π</mi><mn>0</mn></msup></math> production in
+    <math display="inline"><msub><mover accent="true"><mi>ν</mi><mo stretchy="false">¯</mo></mover><mi>μ</mi></msub></math>
+    charged-current interactions in the NOvA near detector
+  collaboration: NOvA
+  arxiv: '2511.05807'
+  doi: 10.1103/t6vj-7hht
+  journal: Phys.Rev.D
+  volume: '113'
+  pages: '112008'
+  year: 2026
+  published_date: '2025-11-08'
+  inspire_recid: 3081601
+  citation_count: 3
+  abstract: We present a high-statistics measurement of muon antineutrino-induced charged-current neutral
+    pion production on a hydrocarbon target using the NOvA Near Detector. The differential cross sections
+    as functions of the momenta and angles of the outgoing pion and muon, the squared four-momentum transfer,
+    and the invariant mass of the hadronic system at an average neutrino energy of 2~GeV are measured
+    and compared with predictions from various neutrino interaction models. The results agree with the
+    GENIE prediction but suggest that other models underestimate the cross section in the $Δ$(1232) resonance
+    region. These results represent the most precise measurement of antineutrino-induced neutral pion
+    production to date.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2511.05807
+    doi: https://doi.org/10.1103/t6vj-7hht
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2025vdg
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH2
+    topology: CC1pi0
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: numubar CC pi0 production, differential
+    energy_notes: ~2 GeV (NuMI)
+- bibtag: NOvA:2026zup
+  title: First inclusive triple-differential measurement of the muon-antineutrino charged-current cross
+    section using the NOvA Near Detector
+  collaboration: NOvA
+  arxiv: '2603.06718'
+  doi: 10.5281/zenodo.18867876
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-03-05'
+  inspire_recid: 3127940
+  citation_count: 2
+  abstract: We present the first measurement of the triple-differential muon antineutrino charged-current
+    inclusive cross section, using the NOvA Near Detector and $12.5 \times 10^{20}$ protons on target
+    in the NuMI beam. This sample of muon antineutrino interactions is the largest ever published, with
+    approximately 1 million selected muon antineutrino events. The triple-differential cross section is
+    measured in the final-state kinetic energy, the scattering angle, and the available energy of the
+    interaction. The measurement enables phase-space regions populated by differing neutrino reaction
+    processes to be isolated and the transition regions between them to be defined. The results are compared
+    with the predictions of the main event generators used in the neutrino community and we observe energy-
+    and angle-dependent discrepancies across a broad range of energies and interaction types
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2603.06718
+    doi: https://doi.org/10.5281/zenodo.18867876
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2026zup
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: triple-diff
+    observables: first inclusive triple-differential numubar CC
+    energy_notes: ~2 GeV (NuMI)
 - bibtag: NOvA:2024zmr
   title: Measurement of <math display="inline"><mrow><msup><mrow><mi>d</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>σ</mi><mo>/</mo><mi>d</mi><mo
     stretchy="false">|</mo><mover accent="true"><mrow><mi>q</mi></mrow><mrow><mo stretchy="false">→</mo></mrow></mover><mo

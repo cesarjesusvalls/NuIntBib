@@ -1,0 +1,78 @@
+- bibtag: Faissner:1983ng
+  title: Observation of Neutrino and Anti-neutrino Induced Coherent Neutral Pion Production Off $^{27}$Al
+  collaboration: Aachen
+  arxiv: null
+  doi: 10.1016/0370-2693(83)91274-1
+  journal: Phys.Lett.B
+  volume: '125'
+  pages: '230'
+  year: 1983
+  published_date: 1983-03
+  inspire_recid: 189649
+  citation_count: 145
+  abstract: The angular distribution of isolated π 0 ,s, produced by ν μ ′s and ν μ ′s in the Aachen-Padova
+    spark chamber, shows a peak in the forward direction which is not explicable by resonance production.
+    A similar effect is seen in the acoplanarity distribution of the decay photons, which shows an excess
+    of nearly coplanar events. A control sample containing a recoil proton shows no such peaks and is
+    well reproduced by a resonance model. The observed effects are consistent with neutral current (NC)
+    induced coherent single π 0 production off the entire Al 27 nucleus. The coherent cross sections are
+    σ ν =(29±10)×10 −40 cm 2 /nucleus and σ ν =(25±7)×10 −40 cm 2 / nucleus . They determine the isovector
+    axial NC coupling constant ß =0.93±0.12. No η 0 mesons were observed, which limits the corresponding
+    isoscalar coupling constant to δ <0.7 (with 90% confidence).
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(83)91274-1
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Faissner:1983ng
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Al
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Faissner:1978yi
+  title: Measurement of Elastic Muon Neutrino Scattering Off Protons
+  collaboration: Aachen
+  arxiv: null
+  doi: 10.1103/PhysRevD.21.555
+  journal: Phys.Rev.D
+  volume: '21'
+  pages: '555'
+  year: 1980
+  published_date: '1978'
+  inspire_recid: 137396
+  citation_count: 21
+  abstract: Single recoil protons have been detected in a multiplate Al spark chamber exposed to the 2-GeV
+    wide-band neutrino beam from the CERN proton synchrotron. Neutron-induced protons were suppressed
+    by suitable geometrical and kinematical cuts. After correction for remaining neutron background (110±15
+    events) and single-pion contribution (45±6 events), the final sample contains 62±19 genuine neutrino-induced
+    single protons. This yields an effective ratio of neutral-current (NC) to charged-current (CC) events
+    of RN=(15±5)%, in the range 0.2<−q2<1.0 (GeV/c)2. This number is due to a mixture of elastic neutrino
+    scatterings off protons and neutrons. From the probability fnp for a recoil neutron to give an accepted
+    proton, one derives a model-independent combination of the NC/CC ratios Rp+fnpRn, with fnp=0.31±0.04.
+    This favors axial-vector-isovector-dominant NC coupling constants and is consistent with the Weinberg-Salam
+    model with sin2θW=0.29−0.11+0.21. In terms of this model, this corresponds to Rp=(10±3)% and Rn=(15−5+3)%.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.21.555
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Faissner:1978yi
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Al
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null

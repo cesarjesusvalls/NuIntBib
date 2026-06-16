@@ -1,3 +1,47 @@
+- bibtag: Super-Kamiokande:2026xsm
+  title: TeV-scale neutrino cross-section measurement using upward through-going muons in Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: '2605.10221'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-05-11'
+  inspire_recid: 3154151
+  citation_count: 0
+  abstract: Neutrinos provide a unique probe of both particle physics and the high-energy universe, traversing
+    astronomical distances with minimal interaction. Their charged-current scattering cross section encodes
+    fundamental information about weak interactions and nucleon structure across a vast energy range,
+    yet measurements at TeV energies remain sparse. Here we report the first determination of the flux-averaged
+    muon neutrino and anti-neutrino charged-current total cross section using high-energy atmospheric
+    neutrinos observed in Super-Kamiokande. Using 3989 upward through-going muon events collected over
+    4269 days, together with a Bayesian fit to atmospheric flux and detector simulations, we measure the
+    flux-averaged charged-current cross section in the 500-5000 GeV range to be $σ/E_ν=(0.51\pm 0.11)\times
+    10^{-38}$ cm$^2$GeV$^{-1}$, with the highest precision to date in the TeV regime. Our results are
+    consistent with accelerator-based measurements at lower energies and collider-based measurements at
+    higher energies, bridging a critical gap between accelerator experiments and neutrino telescopes.
+    This work demonstrates the capability of large underground detectors to perform precision cross-section
+    measurements with atmospheric neutrinos, opening a new window for probing Standard Model physics and
+    potential new physics searches at multi-TeV energies.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2605.10221
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2026xsm
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - rock
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: flux-averaged CC cross section from upward through-going muons
+    energy_notes: TeV-scale (atmospheric)
 - bibtag: Super-Kamiokande:2019hga
   title: Measurement of the neutrino-oxygen neutral-current quasielastic cross section using atmospheric
     neutrinos at Super-Kamiokande

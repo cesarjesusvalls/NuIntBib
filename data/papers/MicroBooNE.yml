@@ -37,6 +37,130 @@
     measurement_type: single-diff
     observables: differential cross sections
     energy_notes: 1μ2p0π topology
+- bibtag: MicroBooNE:2025rch
+  title: Measurement of single charged pion production in charged-current <math display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math>-Ar
+    interactions with the MicroBooNE detector
+  collaboration: MicroBooNE
+  arxiv: '2509.03628'
+  doi: 10.1103/t2cw-cdx2
+  journal: Phys.Rev.D
+  volume: '113'
+  pages: '032007'
+  year: 2026
+  published_date: '2025-09-03'
+  inspire_recid: 2966820
+  citation_count: 5
+  abstract: We present flux-averaged charged-current $ν_μ$ cross-section measurements on argon for final
+    states containing exactly one $π^\pm$ and no other hadrons except nucleons. The analysis uses data
+    from the MicroBooNE experiment in the Booster Neutrino Beam, corresponding to $1.11 \times 10^{21}$
+    protons on target. Total and single-differential cross-section measurements are provided within a
+    phase space restricted to muon momenta above 150 MeV, pion momenta above 100 MeV, and muon-pion opening
+    angles smaller than 2.65 rad. Differential cross sections are reported with respect to the scattering
+    angles of the muon and pion relative to the beam direction, their momenta, and their combined opening
+    angle. The differential cross section with respect to muon momentum is based on a subset of selected
+    events with the muon track fully contained in the detector, whereas the cross section with respect
+    to pion momentum is based on a subset of selected events rich in pions that have not hadronically
+    scattered on the argon before coming to rest. The latter has not been measured on argon before. The
+    total cross section is measured as $(3.75~\pm~0.07~\textrm{(stat.)}~\pm~0.80~\textrm{(syst.)}) \times
+    10^{-38} \, \text{cm}^2/\text{Ar}$ at a mean energy of approximately 0.8 GeV. Comparisons of the measured
+    cross sections with predictions from multiple neutrino-nucleus interaction generators show good overall
+    agreement, except at very forward muon angles.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2509.03628
+    doi: https://doi.org/10.1103/t2cw-cdx2
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025rch
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Ar
+    topology: CC1pi+-
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: single charged-pion production, total and single-differential
+    energy_notes: ~0.8 GeV (BNB)
+- bibtag: MicroBooNE:2026ifl
+  title: Measurements of the electron neutrino-argon differential cross section without pions in the final
+    state in MicroBooNE
+  collaboration: MicroBooNE
+  arxiv: '2603.13593'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-03-13'
+  inspire_recid: 3129478
+  citation_count: 1
+  abstract: We present a new measurement of the electron neutrino charged current cross section on argon
+    without pions in the final state. This measurement uses the full MicroBooNE Booster Neutrino Beam
+    dataset of $1.3\times 10^{21}$ protons on target collected at Fermi National Accelerator Laboratory.
+    Events are considered both with and without protons above the kinetic energy visibility threshold.
+    Differential cross sections are extracted in proton and electron kinematics, including energy and
+    angle relative to the neutrino beam direction. The relationship between the hadronic and leptonic
+    systems is explored through the angle between the proton and electron directions. The resulting cross
+    sections are compared to a variety of available generator predictions using different models of neutrino
+    interactions. We find good agreement with most models in lepton kinematics and some discrepancies
+    in the hadronic system modeling, particularly in proton angle.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2603.13593
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2026ifl
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - Ar
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: nue CC without pions (with/without protons)
+    energy_notes: ~0.8 GeV (BNB)
+- bibtag: MicroBooNE:2026sbw
+  title: First Measurement of Sub-GeV $ν_μ$ Charged-Current Coherent Pion Production on Argon in MicroBooNE
+  collaboration: MicroBooNE
+  arxiv: '2606.13613'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-06-11'
+  inspire_recid: 3168119
+  citation_count: 0
+  abstract: We report a measurement of the charged-current coherent pion production cross section on argon
+    using the MicroBooNE liquid argon time projection chamber exposed to the Booster Neutrino Beam at
+    Fermilab. The measurement uses the MicroBooNE data set corresponding to $1.26 \times 10^{21}$ protons
+    on target with a mean neutrino energy of $0.8$~GeV. The flux-averaged cross section is measured to
+    be $(9.1 \pm 1.2_{\text{stat}} \pm 1.2_\text{syst}) \times 10^{-40}\,\text{cm}^2/\text{Ar}$. This
+    result represents the first measurement of charged-current coherent pion production on argon at sub-GeV
+    neutrino energies. Due to its clean two-body kinematics, where the neutrino interacts coherently with
+    the entire nucleus producing a forward muon and pion with no nuclear breakup, this process provides
+    a useful tool for constraining neutrino flux uncertainties in current and future oscillation experiments
+    such as DUNE.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2606.13613
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2026sbw
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Ar
+    topology: CCcoh pi
+    pion_bucket: null
+    measurement_type: total
+    observables: coherent charged-pion production
+    energy_notes: ~0.8 GeV (BNB)
 - bibtag: MicroBooNE:2023foc
   title: Measurement of three-dimensional inclusive muon-neutrino charged-current cross sections on argon
     with the MicroBooNE detector
@@ -166,6 +290,253 @@
     measurement_type: double-diff
     observables: double-differential cross section
     energy_notes: proton momentum > 0.25GeV/c
+- bibtag: MicroBooNE:2025aiw
+  title: Measurements of differential charged-current cross sections on argon for electron neutrinos with
+    final-state protons in MicroBooNE
+  collaboration: MicroBooNE
+  arxiv: '2511.17342'
+  doi: 10.1103/lwrr-98vx
+  journal: Phys.Rev.D
+  volume: null
+  pages: null
+  year: 2025
+  published_date: '2025-11-21'
+  inspire_recid: 3085428
+  citation_count: 5
+  abstract: This work presents single-differential electron-neutrino charged-current cross sections on
+    argon measured using the MicroBooNE detector at the Fermi National Accelerator Laboratory. The analysis
+    uses data recorded when the Neutrinos at the Main Injector beam was operating in both neutrino and
+    antineutrino modes, with exposures of $2 \times 10^{20}$ and $5 \times 10^{20}$ protons on target,
+    respectively. A selection algorithm targeting electron-neutrino charged-current interactions with
+    at least one proton, one electron, and no pions in the final topology is used to measure differential
+    cross sections as a function of outgoing electron energy, total visible energy, and opening angle
+    between the electron and the most energetic proton. The interaction rate as a function of proton multiplicity
+    is also reported. The total cross section is measured as [4.1 $\pm$ 0.3 (stat.) $\pm$ 1.1 (syst.)]$
+    $$\times 10^{-39} \mathrm{cm}^{2}/ \mathrm{nucleon}$. The unfolded cross-section measurements are
+    compared to predictions from neutrino event generators commonly employed in the field. Good agreement
+    is seen across all variables within uncertainties.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2511.17342
+    doi: https://doi.org/10.1103/lwrr-98vx
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025aiw
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    - nuebar
+    target:
+    - Ar
+    topology: CCNp
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: nue CC with final-state protons
+    energy_notes: NuMI (nu and nubar modes)
+- bibtag: MicroBooNE:2025kqo
+  title: First Measurement of Charged-Current Muon-Neutrino-Induced <math display="inline"><msup><mi>K</mi><mo>+</mo></msup></math>
+    Production on Argon Using the MicroBooNE Detector
+  collaboration: MicroBooNE
+  arxiv: '2503.00291'
+  doi: 10.1103/96vx-gq2g
+  journal: Phys.Rev.Lett.
+  volume: '135'
+  pages: '251804'
+  year: 2025
+  published_date: '2025-02-28'
+  inspire_recid: 2896177
+  citation_count: 4
+  abstract: The MicroBooNE experiment is an 85 tonne active mass liquid argon time projection chamber
+    neutrino detector exposed to the on-axis Booster Neutrino Beam (BNB) at Fermilab. One of MicroBooNE's
+    physics goals is the precise measurement of neutrino interactions on argon in the 1 GeV energy regime.
+    Building on the capabilities of the MicroBooNE detector, this analysis identifies $K^{+}$ mesons,
+    a key signature for the study of strange particle production in neutrino interactions. This measurement
+    is furthermore valuable for background estimation for future nucleon decay searches and for improved
+    reconstruction and particle identification capabilities in experiments such as the Deep Underground
+    Neutrino Experiment (DUNE). In this letter, we present the first-ever measurement of a flux-integrated
+    cross section for charged-current muon neutrino induced $K^{+}$ production on argon nuclei, determined
+    to be 7.93 $\pm$ 3.22 (stat.) $\pm$ 2.83 (syst.) $\times~10^{-42}\;$ cm$^2$/nucleon based on an analysis
+    of 6.88$\times10^{20}$ protons on target. This result was found to be consistent with model predictions
+    from different neutrino event generators within the reported uncertainties.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2503.00291
+    doi: https://doi.org/10.1103/96vx-gq2g
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025kqo
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Ar
+    topology: CC K+
+    pion_bucket: null
+    measurement_type: total
+    observables: CC K+ production (strangeness)
+    energy_notes: ~1 GeV (BNB)
+- bibtag: MicroBooNE:2025ooi
+  title: Measurement of charged-current muon neutrino-argon interactions without pions in the final state
+    using the MicroBooNE detector
+  collaboration: MicroBooNE
+  arxiv: '2507.00921'
+  doi: 10.1103/xfs2-94m3
+  journal: Phys.Rev.D
+  volume: '112'
+  pages: '072007'
+  year: 2025
+  published_date: '2025-07-01'
+  inspire_recid: 2940837
+  citation_count: 8
+  abstract: We report a new measurement of flux-integrated differential cross sections for charged-current
+    (CC) muon neutrino interactions with argon nuclei that produce no final-state pions ($ν_μ\mathrm{CC}0π$).
+    These interactions are of particular importance as a topologically defined signal dominated by quasielasticlike
+    interactions. This measurement was performed with the MicroBooNE liquid argon time projection chamber
+    detector located at the Fermilab Booster Neutrino Beam and uses an exposure of $1.3\times10^{21}$
+    protons on target collected between 2015 and 2020. The results are presented in terms of single- and
+    double-differential cross sections as a function of the final-state muon momentum and angle. The data
+    are compared with widely used neutrino event generators. We find good agreement with the single-differential
+    measurements, while only a subset of generators are also able to adequately describe the data in double-differential
+    distributions. This work facilitates comparison with Cherenkov detector measurements, including those
+    located at the Booster Neutrino Beam.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2507.00921
+    doi: https://doi.org/10.1103/xfs2-94m3
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025ooi
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Ar
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential CC0pi (quasielastic-like)
+    energy_notes: ~0.8 GeV (BNB)
+- bibtag: MicroBooNE:2025ovj
+  title: Enhanced search for neutral current <math display="inline"><mi mathvariant="normal">Δ</mi></math>
+    radiative single-photon production in MicroBooNE
+  collaboration: MicroBooNE
+  arxiv: '2502.05750'
+  doi: 10.1103/49ds-5hfh
+  journal: Phys.Rev.D
+  volume: '112'
+  pages: L091101
+  year: 2025
+  published_date: '2025-02-08'
+  inspire_recid: 2878288
+  citation_count: 7
+  abstract: We report results from an updated search for neutral current (NC) resonant $Δ$(1232) baryon
+    production and subsequent $Δ$ radiative decay (NC $Δ\rightarrow N γ$). We consider events with and
+    without final state protons; events with a proton can be compared with the kinematics of a $Δ(1232)$
+    baryon decay, while events without a visible proton represent a more generic phase space. In order
+    to maximize sensitivity to each topology, we simultaneously make use of two different reconstruction
+    paradigms, Pandora and Wire-Cell, which have complementary strengths, and select mostly orthogonal
+    sets of events. Considering an overall scaling of the NC $Δ\rightarrow N γ$ rate as an explanation
+    of the MiniBooNE anomaly, our data exclude this hypothesis at 94.4% CL. When we decouple the expected
+    correlations between NC $Δ\rightarrow N γ$ events with and without final state protons, and allow
+    independent scaling of both types of events, our data exclude explanations in which excess events
+    have associated protons, and do not exclude explanations in which excess events have no associated
+    protons.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2502.05750
+    doi: https://doi.org/10.1103/49ds-5hfh
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025ovj
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - Ar
+    topology: NC single gamma
+    pion_bucket: null
+    measurement_type: total
+    observables: NC Delta radiative single-photon production
+    energy_notes: ~0.8 GeV (BNB)
+- bibtag: MicroBooNE:2025pvb
+  title: First Measurement of <math display="inline"><mrow><msub><mrow><mi>ν</mi></mrow><mrow><mi>e</mi></mrow></msub></mrow></math>
+    and <math display="inline"><mrow><msub><mrow><mover accent="true"><mrow><mi>ν</mi></mrow><mrow><mo
+    stretchy="false">¯</mo></mrow></mover></mrow><mrow><mi>e</mi></mrow></msub></mrow></math> Charged-Current
+    Single Charged-Pion Production Differential Cross Sections on Argon Using the MicroBooNE Detector
+  collaboration: MicroBooNE
+  arxiv: '2503.23384'
+  doi: 10.1103/sfrz-c8m9
+  journal: Phys.Rev.Lett.
+  volume: '135'
+  pages: 061802
+  year: 2025
+  published_date: '2025-03-30'
+  inspire_recid: 2906108
+  citation_count: 13
+  abstract: Understanding electron neutrino interactions is crucial for measurements of neutrino oscillations
+    and searches for new physics in neutrino experiments. We present the first measurement of the flux-averaged
+    $ν_e$ + $\barν_e$ charged current single charged pion production cross section on argon using the
+    MicroBooNE detector and data from the NuMI neutrino beam. The total cross section is measured to be
+    (0.93 $\pm$ 0.13 (stat.) $\pm$ 0.27 (syst.)) $\times 10^{-39}$ cm$^2$/nucleon at a mean $ν_e$ + $\barν_e$
+    energy of 730 MeV. Differential cross sections are also reported in electron energy, electron and
+    pion angles, and electron-pion opening angle.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2503.23384
+    doi: https://doi.org/10.1103/sfrz-c8m9
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025pvb
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    - nuebar
+    target:
+    - Ar
+    topology: CC1pi+-
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: nue+nuebar CC single charged-pion production
+    energy_notes: NuMI beam
+- bibtag: MicroBooNE:2025rsd
+  title: First Search for Neutral Current Coherent Single-Photon Production in MicroBooNE
+  collaboration: MicroBooNE
+  arxiv: '2502.06091'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2025
+  published_date: '2025-02-09'
+  inspire_recid: 2878505
+  citation_count: 9
+  abstract: This article presents the first search for neutrino-induced neutral current coherent single-photon
+    production (NC coherent 1$\gamma$). The search makes use of data from the MicroBooNE 85-tonne active
+    volume liquid argon time projection chamber detector, situated in the Fermilab Booster Neutrino Beam
+    (BNB), with an average neutrino energy of $\langle E_{\nu}\rangle \sim 0.8$ GeV. A targeted selection
+    of candidate neutrino interactions with a single photon-like electromagnetic shower in the final state
+    and no visible vertex activity was developed to search for the NC coherent 1$\gamma$ process, along
+    with two auxiliary selections used to constrain the dominant background from NC$\pi^0$ production.
+    With an integrated exposure of $6.87 \times 10^{20}$ protons on target delivered by the BNB, we set
+    the world's first limit for this rare process, corresponding to an upper limit on the flux-averaged
+    cross section of $\sigma<1.49 \times 10^{-41}\text{cm}^2$ at 90% C.L.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2502.06091
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025rsd
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - Ar
+    topology: NC coh single gamma
+    pion_bucket: null
+    measurement_type: limit
+    observables: first search for NC coherent single-photon production
+    energy_notes: ~0.8 GeV (BNB)
 - bibtag: MicroBooNE:2023krv
   title: Measurement of nuclear effects in neutrino-argon interactions using generalized kinematic imbalance
     variables with the MicroBooNE detector

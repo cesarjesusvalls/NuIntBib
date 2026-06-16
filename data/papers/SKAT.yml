@@ -1,0 +1,71 @@
+- bibtag: SKAT:1989nel
+  title: Quasielastic Nucleon and Hyperon Production by Neutrinos and Anti-neutrinos With Energies Below
+    30-{GeV}
+  collaboration: SKAT
+  arxiv: null
+  doi: 10.1007/BF01556267
+  journal: Z.Phys.C
+  volume: '45'
+  pages: '551'
+  year: 1990
+  published_date: '1989-10-23'
+  inspire_recid: 26520
+  citation_count: 107
+  abstract: The cross sections of neutrino and antineutrino quasielastic reactions\(vn \to \mu ^ -p,\bar
+    vp \to \mu ^ +n,\bar vp \to \mu ^ +\Lambda\) were studied in the neutrino energy range between 3 and
+    30 GeV. In comparison withV-A theory axial mass parameters ofMA=(1.06±0.05±0.14) GeV/c2 from neutrino
+    andMA=(0.71±0.10±0.20) GeV/c2 from antineutrino data were found. The total cross-section for the hyperon
+    production process can be described byMA=1.0 GeV/c2.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01556267
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SKAT:1989nel
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CF3Br
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: SKAT:1988qkt
+  title: Cross-section Measurements of Single Pion Production in Charged Current Neutrino and Anti-neutrino
+    Interactions
+  collaboration: SKAT
+  arxiv: null
+  doi: 10.1007/BF01564697
+  journal: Z.Phys.C
+  volume: '41'
+  pages: '527'
+  year: 1989
+  published_date: '1988'
+  inspire_recid: 267738
+  citation_count: 72
+  abstract: All six exclusive single pion production processes from neutrino and antineutrino charged
+    current interactions are studied in the energy range between 3 and 30 GeV. Using a quark model for
+    single pion production from Rein and Sehgal we fitted the aximal mass parameter from total cross sections
+    and compare the results with values from other experiments and the world-averages.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01564697
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SKAT:1988qkt
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CF3Br
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null

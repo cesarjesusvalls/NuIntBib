@@ -1,0 +1,108 @@
+- bibtag: Allasia:1990uy
+  title: Investigation of exclusive channels in neutrino / anti-neutrino deuteron charged current interactions
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1016/0550-3213(90)90472-P
+  journal: Nucl.Phys.B
+  volume: '343'
+  pages: '285'
+  year: 1990
+  published_date: '1990'
+  inspire_recid: 303953
+  citation_count: 127
+  abstract: An analysis has been performed of neutrino and antineutrino interactions with protons and
+    neutrons in a deuterium bubble chamber. The interactions under study are quasielastic neutrino-neutron
+    scattering and one-, two- and three-pion production reactions. Results are presented on cross sections,
+    effective mass distributions, resonance production, momentum transfer distributions and coefficients
+    of the decay angular distributions. Where possible, comparisons are made with existing theoretical
+    models and predictions.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0550-3213(90)90472-P
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Allasia:1990uy
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: BEBCWA21:1986pvd
+  title: Measurement of Total Cross-sections for Neutrino and Anti-neutrino Charged Current Interactions
+    in Hydrogen and Neon
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1016/0370-2693(86)90248-0
+  journal: Phys.Lett.B
+  volume: '173'
+  pages: '211'
+  year: 1986
+  published_date: 1986-03
+  inspire_recid: 227412
+  citation_count: 31
+  abstract: BEBC filled in turn with hydrogen, and with a neon-hydrogen mixture, was exposed to the CERN
+    SPS wide band neutrino and antineutrino beams. The ratios of the charged-current cross sections per
+    nucleon, σ(νH 2 ) σ(ν Ne ) and σ( ν H 2 ) σ( ν Ne ) , between 20 and 300 GeV were found to be 0.656
+    ± 0.020 and 1.425 ± 0.052, respectively. Multiplying these ratios by the revised cross sections in
+    neon, σ(ν Ne ) E = (0.723 ± 0.038) × 10 −38 cm 2 / GeV per nucleon and σ( ν Ne ) E = (0.351 ± 0.019)
+    × 10 −38 cm 2 / GeV per nucleon, and their ratio, σ( ν Ne ) σ(ν Ne ) = 0.485 ± 0.020 ,, yields values
+    for the total charged-current cross sections on protons, σ(νp)/ E and σ( ν p ) E , of (0.474 ± 0.029)
+    × 10 −38 cm 2 /GeV and (0.500 ± 0.032) × 10 −38 cm 2 /GeV. respectively, and a value for the ratio
+    σ( ν p ) σ(ν p ) of 1.053 ± 0.066.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(86)90248-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:BEBCWA21:1986pvd
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null

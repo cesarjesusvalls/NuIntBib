@@ -1,0 +1,45 @@
+- bibtag: ICARUS:2026nbg
+  title: Measurement of muon (anti-)neutrino charged-current quasielastic-like cross section using off-axis
+    NuMI beam at ICARUS
+  collaboration: ICARUS
+  arxiv: '2604.24925'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-04-27'
+  inspire_recid: 3149758
+  citation_count: 1
+  abstract: This paper presents the first neutrino cross-section measurement from the ICARUS detector
+    at Fermilab, using NuMI (Neutrinos at the Main Injector) beam data collected from two beam operation
+    periods corresponding to $2.5\times10^{20}$ protons-on-target in neutrino beam mode. The signal is
+    defined by events with no pions produced in the final state, a topology dominated by charged-current
+    quasi-elastic-like (CCQE-like) signatures. The measurement is reported as flux-averaged differential
+    cross sections as functions of kinematic variables that provide sensitivity to the complex nuclear
+    effects which often dominate the systematic uncertainty budgets of neutrino oscillation measurements.
+    Specifically, this work reports cross sections in two angular variables -- the angle of the outgoing
+    lepton and the opening angle between the lepton and leading proton -- and two variables characterizing
+    the kinematic imbalance between the muon and proton in the plane transverse to the incoming neutrino.
+    These results are compared against predictions from a variety of neutrino event generators, with $p$-values
+    calculated between the extracted cross sections and each prediction. Overall, the predictions agree
+    with the data; however, the current budget of uncertainties does not yet provide sufficient discriminating
+    power to favor a specific model.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2604.24925
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ICARUS:2026nbg
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ar
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: CCQE-like (no final-state pions)
+    energy_notes: off-axis NuMI

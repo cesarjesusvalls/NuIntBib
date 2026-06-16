@@ -1,0 +1,41 @@
+- bibtag: SNDLHC:2026oxu
+  title: Measurement of the muon neutrino charged-current cross section with SND@LHC
+  collaboration: SND@LHC
+  arxiv: '2606.14669'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-06-12'
+  inspire_recid: 3168390
+  citation_count: 0
+  abstract: We report a measurement of the muon neutrino charged-current (CC) interaction cross section
+    on tungsten using the electronic detectors of the SND@LHC experiment at the CERN Large Hadron Collider.
+    The analysis uses proton--proton collision data at a centre-of-mass energy of $\sqrt{s} = 13.6$ TeV,
+    corresponding to an integrated luminosity of $68.6 ~\text{fb}^{-1}$ collected during LHC Run 3 in
+    2022 and 2023. A total of 31 $ν_μ$ CC candidates are selected against an expected background of $5.0
+    \pm 1.1$ events, consistent with a signal expectation of $24^{+10}_{-9}$ events. The signal strength
+    is measured to be $\hatμ = 1.09^{+0.72}_{-0.37}$, and the combined muon neutrino and anti-neutrino
+    CC cross section on tungsten is determined to be $σ(ν_μ+ \barν_μ) = (37^{+24}_{-12})\times 10^{-35}~\text{cm}^2$
+    at a median energy of $228$ GeV. In addition, a calorimetric measurement of the hadronic energies
+    of the neutrino candidate events is performed, making use of calibration data from dedicated test-beam
+    campaigns.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2606.14669
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNDLHC:2026oxu
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - W
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: muon neutrino CC cross section
+    energy_notes: TeV-scale (LHC Run 3)

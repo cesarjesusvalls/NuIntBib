@@ -1,0 +1,102 @@
+- bibtag: Kitagaki:1983px
+  title: High-Energy Quasielastic $\nu_{\mu} n \to \mu^- p$ Scattering in Deuterium
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevD.28.436
+  journal: Phys.Rev.D
+  volume: '28'
+  pages: '436'
+  year: 1983
+  published_date: '1983'
+  inspire_recid: 195139
+  citation_count: 288
+  abstract: We have studied the quasielastic reaction νμn→μ−p in an exposure of the Fermilab deuterium-filled
+    15-foot bubble chamber to a high-energy wide-band neutrino beam. From an analysis of the Q2 distribution
+    based on the standard V−A theory, the axial-vector mass in a dipole parametrization of the axial-vector
+    form factor is determined to be MA=1.05−0.16+0.12 GeV, consistent with the values previously reported
+    from low-energy experiments.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.28.436
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Kitagaki:1983px
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Barish:1979ny
+  title: Study of the Reaction $\bar{\nu} p \to \mu^+ p \pi^-$
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1016/0370-2693(80)90684-X
+  journal: Phys.Lett.B
+  volume: '91'
+  pages: '161'
+  year: 1980
+  published_date: 1979-10
+  inspire_recid: 8430
+  citation_count: 42
+  abstract: We present data on the reaction ν p → μ + pπ − from an exposure of the Fermilab 15 ft hydrogen
+    bubble chamber. The channel cross section for 5 GeV < E ν < 70 GeV and M( p π − ) < 1.9 GeV is σ =
+    (27 ± 5) × 10 −40 cm 2 . This cross section is dominated by the I = 1 2 production amplitude.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(80)90684-X
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Barish:1979ny
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Bell:1978qu
+  title: Cross-section Measurements for the Reactions $\nu p \to \mu^- \pi^+ p$ and $\nu p \to \mu^- K^+
+    p$ at High-Energies
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevLett.41.1008
+  journal: Phys.Rev.Lett.
+  volume: '41'
+  pages: '1008'
+  year: 1978
+  published_date: 1978-08
+  inspire_recid: 131344
+  citation_count: 102
+  abstract: We present results for the reactions νp→μ−π+p and νp→μ−K+p at energies above 5 GeV. The average
+    cross section for the first reaction between 15 and 40 GeV is (0.80±0.12) × 10−38 cm2 and for events
+    with Mπ+p<1.4 GeV is (0.55±0.08) × 10−38 cm2. The ratio of the cross section for the second reaction
+    to that for the first is 0.017±0.010.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.41.1008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Bell:1978qu
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null

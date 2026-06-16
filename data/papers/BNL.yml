@@ -1,0 +1,178 @@
+- bibtag: Kitagaki:1986ct
+  title: Charged Current Exclusive Pion Production in Neutrino Deuterium Interactions
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.34.2554
+  journal: Phys.Rev.D
+  volume: '34'
+  pages: '2554'
+  year: 1986
+  published_date: 1986-11
+  inspire_recid: 238395
+  citation_count: 329
+  abstract: High-statistics data from two exposures of the BNL 7-foot deuterium bubble chamber to a wide-band-neutrino
+    beam with an average energy of 1.6 GeV were analyzed for exclusive pion production in charged-current
+    neutrino-deuterium interactions. For the single-pion production reactions, the properties of Δ++ production
+    and decay as well as the final results of an isospin analysis are presented. New results for single-pion
+    and multipion production are also presented.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.34.2554
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Kitagaki:1986ct
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Baker:1981su
+  title: 'Quasielastic Neutrino Scattering: A Measurement of the Weak Nucleon Axial Vector Form-Factor'
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.23.2499
+  journal: Phys.Rev.D
+  volume: '23'
+  pages: '2499'
+  year: 1981
+  published_date: 1981-06
+  inspire_recid: 170354
+  citation_count: 344
+  abstract: The quasielastic reaction νμn→μ−p was studied in an experiment using the BNL 7-foot deuterium
+    bubble chamber exposed to the wide-band neutrino beam with an average energy of 1.6 GeV. A total of
+    1138 quasielastic events in the momentum-transfer range Q2=0.06−3.00 (GeV/c)2 were selected by kinematic
+    fitting and particle identification and were used to extract the axial-vector form factor FA(Q2) from
+    the Q2 distribution. In the framework of the conventional V−A theory, we find that the dipole parametrization
+    is favored over the monopole. The value of the axial-vector mass MA in the dipole parametrization
+    is 1.07±0.06 GeV, which is in good agreement with both recent neutrino and electroproduction experiments.
+    In addition, the standard assumptions of conserved vector current and no second-class currents are
+    checked.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.23.2499
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Baker:1981su
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Coteus:1981ub
+  title: Measurement of Elastic Muon-neutrino and Anti-muon-neutrino Scattering on Protons
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.24.1420
+  journal: Phys.Rev.D
+  volume: '24'
+  pages: '1420'
+  year: 1981
+  published_date: '1981'
+  inspire_recid: 171264
+  citation_count: 15
+  abstract: We have measured elastic νμ and ν¯μ scattering on protons at the Brookhaven National Laboratory
+    Alternating Gradient Synchrotron. We find RNC=σ(ν¯μp→ν¯μp)σ(νμp→νμp)=0.44±0.12 and Rνμ=σ(νμp→νμp)σ(νμn→μ−p)=0.11±0.03.
+    The elastic Q2 distribution is in good agreement with present knowledge of form factors and the Weinberg-Salam
+    model. We find sin2θW=0.26±0.06.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.24.1420
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Coteus:1981ub
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Fanourakis:1980si
+  title: Study of Low-energy Anti-neutrino Interactions on Protons
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.21.562
+  journal: Phys.Rev.D
+  volume: '21'
+  pages: '562'
+  year: 1980
+  published_date: 1980-03
+  inspire_recid: 9011
+  citation_count: 70
+  abstract: We present a study of antineutrino interactions in hydrogen obtained in a 138000-picture run
+    at the BNL 7-ft bubble chamber. The antineutrino beam had an energy distribution that peaked at ∼1.1
+    GeV. The cross section measured for charged-current interactions is σ(ν¯p→μ++anything)=(0.32±0.08)×10−38×[Eν¯ (GeV)]
+    cm2. The neutral-current cross section is σ(ν¯p→ν¯pπ+π−)=5.5−2.6+4.4×10−40 cm2. The ratio of strangeness-changing
+    to non-strangeness-changing charged currents is Rs=0.06−0.05+0.13. An upper limit determined for charm
+    production is σc<3.8×10−40 cm2 at the 90% confidence level. From the momentum-transfer distribution
+    we measure average Q2 for inelastic charged-current events with energy greater than 2 GeV, 〈Q2〉=(0.10±0.03)[Eν¯ (GeV)]+(0.10±0.09)
+    (GeV/c)2. Using a maximum-likelihood method we determine from the quasielastic events ν¯p→μ+n an axial-vector
+    mass MA=0.9−0.3+0.4 GeV/c2.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.21.562
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Fanourakis:1980si
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Lee:1976wr
+  title: Single Pion Production in Neutrino and anti-neutrino Reactions
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevLett.38.202
+  journal: Phys.Rev.Lett.
+  volume: '38'
+  pages: '202'
+  year: 1977
+  published_date: 1976-11
+  inspire_recid: 110367
+  citation_count: 86
+  abstract: We have studied the neutral-current reactions νμN→νμN′π0 and ν¯μN→ν¯μN′π0 and compared them
+    to the charged-current reactions νμN→μ−N′′π0 and ν¯μN→μ+N′′π0. We have measured the ratios R0′=σ(νμN→νμN′π0)2σ(νμN→μ−N′′π0)
+    and R¯0′=σ(ν¯μN→ν¯μN′π0)2σ(ν¯μN→μ+N′′π0) to be 0.17±0.04 and 0.39±0.18, respectively. We also present
+    the π0p invariant-mass distribution of the neutrino-induced reactions.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.38.202
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Lee:1976wr
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null

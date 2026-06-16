@@ -27,8 +27,9 @@ import inspire  # noqa: E402
 COLLABORATIONS = [
     "T2K", "MINERvA", "MicroBooNE", "MiniBooNE", "NOvA", "ArgoNeuT", "NOMAD",
     "K2K", "MINOS", "SciBooNE", "NINJA", "Super-Kamiokande", "FASER",
-    # forward-looking
-    "SBND", "ICARUS", "ANNIE", "DUNE", "SND", "WAGASCI",
+    # forward-looking / newer (note: use "SND@LHC", NOT "SND" which is the
+    # Novosibirsk e+e- experiment and pollutes the results)
+    "SBND", "ICARUS", "ANNIE", "DUNE", "SND@LHC", "WAGASCI",
 ]
 
 # Topic terms that flag an experimental cross-section measurement.
@@ -43,6 +44,19 @@ def default_since(records) -> str:
     return d.isoformat()
 
 
+def is_proceeding(meta: dict) -> bool:
+    """True for conference papers / theses (we track only journal articles)."""
+    dtypes = [d.lower() for d in (meta.get("document_type") or [])]
+    if dtypes and "article" not in dtypes:
+        return True
+    journal = ""
+    for p in meta.get("publication_info") or []:
+        if p.get("journal_title"):
+            journal = p["journal_title"]
+            break
+    return journal.startswith(("PoS", "J.Phys.Conf.Ser", "AIP Conf.Proc", "EPJ Web Conf", "Conf.Proc"))
+
+
 def candidate_from_meta(meta: dict) -> dict:
     n = inspire.normalize(meta)
     bibtag = n.get("bibtag")
@@ -50,13 +64,19 @@ def candidate_from_meta(meta: dict) -> dict:
         return {}
     arxiv = n.get("arxiv")
     prefix = bibtag.split(":")[0]
-    triage = (
-        "collaboration-keyed (likely a real measurement)"
-        if prefix in COLLABORATIONS
-        else "author-keyed (often a proceedings/thesis/theory — verify before adding)"
-    )
+    dtype = n.get("document_type") or []
+    if is_proceeding(meta):
+        triage = (
+            "PROCEEDING/thesis — include ONLY if no journal article covers the same "
+            "result (see UPDATE.md). Check for a matching article first."
+        )
+    elif prefix in COLLABORATIONS:
+        triage = "collaboration-keyed article (likely a real measurement)"
+    else:
+        triage = "author-keyed article (verify it is a measurement, not theory)"
     return {
         "_triage": triage,
+        "_document_type": dtype,
         "bibtag": bibtag,
         "title": n.get("title") or bibtag,
         "collaboration": n.get("collaboration") or bibtag.split(":")[0],

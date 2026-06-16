@@ -1,3 +1,161 @@
+- bibtag: T2K:2025kda
+  title: Measurement of muon neutrino induced charged current interactions without charged pions in the
+    final state using a new T2K off-axis near detector WAGASCI-BabyMIND
+  collaboration: T2K
+  arxiv: '2509.07814'
+  doi: 10.1103/fpqb-j6nv
+  journal: Phys.Rev.D
+  volume: '112'
+  pages: '112020'
+  year: 2025
+  published_date: '2025-09-09'
+  inspire_recid: 2968065
+  citation_count: 4
+  abstract: We report a flux-integrated cross section measurement of muon neutrino interactions on water
+    and hydrocarbon via charged current reactions without charged pions in the final state with the WAGASCI-BabyMIND
+    detector which was installed in the T2K near detector hall in 2018. The detector is located 1.5$^\circ$
+    off-axis and is exposed to a more energetic neutrino flux than ND280, another T2K near detector, which
+    is located at a different off-axis position. The total flux-integrated cross section is measured to
+    be $1.26 \pm 0.18\,(stat.+syst.) \times 10^{-39} $$\mathrm{cm^{2}/nucleon}$ on CH and $1.44 \pm 0.21\,(stat.+syst.)
+    \times 10^{-39} $$\mathrm{cm^{2}/nucleon}$ on H$_{2}$O. These results are compared to model predictions
+    provided by the NEUT v5.3.2 and GENIE v2.8.0 MC generators and the measurements are compatible with
+    these models. Differential cross sections in muon momentum and cosine of the muon scattering angle
+    are also reported. This is the first such measurement reported with the WAGASCI-BabyMIND detector
+    and utilizes the 2020 and 2021 datasets.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2509.07814
+    doi: https://doi.org/10.1103/fpqb-j6nv
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2025kda
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2O
+    - CH
+    topology: CC0pi
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: CC without charged pions (WAGASCI-BabyMIND)
+    energy_notes: off-axis, more energetic than ND280
+- bibtag: T2K:2025kdk
+  title: Signal selection and model-independent extraction of the neutrino neutral-current single <math
+    display="inline"><msup><mi>π</mi><mo>+</mo></msup></math> cross section with the T2K experiment
+  collaboration: T2K
+  arxiv: '2503.06843'
+  doi: 10.1103/wcn1-4tyl
+  journal: Phys.Rev.D
+  volume: '112'
+  pages: 072008
+  year: 2025
+  published_date: '2025-03-09'
+  inspire_recid: 2898373
+  citation_count: 2
+  abstract: This article presents a study of single $π^+$ production in neutrino neutral-current interactions
+    (NC1$π^+$) using the FGD1 hydrocarbon target of the ND280 detector of the T2K experiment. We report
+    the largest sample of such events selected by any experiment, providing the first new data for this
+    channel in over four decades and the first using a sub-GeV neutrino flux. The signal selection strategy
+    and its performance are detailed together with validations of a robust cross section extraction methodology.
+    The measured flux-averaged integrated cross-section is $ σ= (6.07 \pm 1.22 )\times 10^{-41} \,\, \text{cm}^2/\text{nucleon}$,
+    1.3~$σ~$ above the NEUT v5.4.0 expectation.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2503.06843
+    doi: https://doi.org/10.1103/wcn1-4tyl
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2025kdk
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: NC1pi+
+    pion_bucket: pi_charged
+    measurement_type: total
+    observables: model-independent NC1pi+ cross-section extraction
+    energy_notes: sub-GeV (T2K ND280)
+- bibtag: T2K:2025smz
+  title: First Measurement of the Electron-Neutrino Charged-Current Pion Production Cross Section on Carbon
+    with the T2K Near Detector
+  collaboration: T2K
+  arxiv: '2505.00516'
+  doi: 10.1103/klhv-7t6h
+  journal: Phys.Rev.Lett.
+  volume: '135'
+  pages: '151802'
+  year: 2025
+  published_date: '2025-05-01'
+  inspire_recid: 2917207
+  citation_count: 7
+  abstract: The T2K Collaboration presents the first measurement of electron neutrino-induced charged-current
+    pion production on carbon in a restricted kinematical phase space. This is performed using data from
+    the 2.5$^°$ off-axis near detector, ND280. The differential cross sections with respect to the outgoing
+    electron and pion kinematics, in addition to the total flux-integrated cross section, are obtained.
+    Comparisons between the measured and predicted cross section results using the Neut, Genie and NuWro
+    Monte Carlo event generators are presented. The measured total flux-integrated cross section is [2.52
+    $\pm$ 0.52 (stat) $\pm$ 0.30 (sys)] x $10^{-39}$ cm$^2$ nucleon$^{-1}$, which is lower than the event
+    generator predictions.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2505.00516
+    doi: https://doi.org/10.1103/klhv-7t6h
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2025smz
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - C
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: first nue CC pion production, differential in e and pi kinematics
+    energy_notes: T2K ND280
+- bibtag: T2K:2025wde
+  title: First Differential Measurement of the Single <math display="inline"><mrow><msup><mrow><mi>π</mi></mrow><mrow><mo>+</mo></mrow></msup></mrow></math>
+    Production Cross Section in Neutrino Neutral-Current Scattering
+  collaboration: T2K
+  arxiv: '2503.06849'
+  doi: 10.1103/6d32-l452
+  journal: Phys.Rev.Lett.
+  volume: '135'
+  pages: '171803'
+  year: 2025
+  published_date: '2025-03-09'
+  inspire_recid: 2898342
+  citation_count: 3
+  abstract: Since its first observation in the 1970s, neutrino-induced neutral-current single positive
+    pion production (NC1$π^+$) has remained an elusive and poorly understood interaction channel. This
+    process is a significant background in neutrino oscillation experiments and studying it further is
+    critical for the physics program of next-generation accelerator-based neutrino oscillation experiments.
+    In this Letter we present the first double-differential cross-section measurement of NC1$π^+$ interactions
+    using data from the ND280 detector of the T2K experiment collected in $ν$-beam mode. The measured
+    flux-averaged integrated cross-section is $ σ= (6.07 \pm 1.22 )\times 10^{-41} \,\, \text{cm}^2/\text{nucleon}$.
+    We compare the results on a hydrocarbon target to the predictions of several neutrino interaction
+    generators and final-state interaction models. While model predictions agree with the differential
+    results, the data shows a weak preference for a cross-section normalization approximately 30% higher
+    than predicted by most models studied in this Letter.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2503.06849
+    doi: https://doi.org/10.1103/6d32-l452
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2025wde
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: NC1pi+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: first differential NC1pi+ cross section
+    energy_notes: sub-GeV (T2K ND280)
 - bibtag: T2K:2023qjb
   title: First measurement of muon neutrino charged-current interactions on hydrocarbon without pions
     in the final state using multiple detectors with correlated energy spectra at T2K

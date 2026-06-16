@@ -1,3 +1,218 @@
+- bibtag: MINERvA:2026apf
+  title: Measurement of Inclusive Charged-Current $\barν_μ$ Scattering on C, CH, Fe, and Pb at $\langle
+    E_{\barν}\rangle \sim$ 6 GeV with MINERvA
+  collaboration: MINERvA
+  arxiv: '2604.07091'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-04-08'
+  inspire_recid: 3141797
+  citation_count: 2
+  abstract: We report MINERvA's first measurement of inclusive charged-current $\barν_μ$ cross sections
+    on carbon, hydrocarbon, iron, and lead, and their ratios to the cross section on hydrocarbon, as functions
+    of the antimuon transverse momentum, $p_{\mathrm{T}}$. Using a wide-band $\barν_μ$ beam with mean
+    energy $\sim 6~\text{GeV}$, these measurements probe all interaction modes, including the transition
+    from resonance production to deep-inelastic scattering. The total uncertainties are typically $5-10\%$
+    for the absolute cross sections and $2-5\%$ for the ratios. Comparisons with multiple neutrino interaction
+    models reveal significant discrepancies in the $p_{\mathrm{T}}$ dependence, particularly for heavier
+    nuclei. The disagreements are most pronounced at low $p_{\mathrm{T}}$ but extend across the full $p_{\mathrm{T}}$
+    range, indicating missing or mis-modelled nuclear effects.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2604.07091
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2026apf
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - C
+    - CH
+    - Fe
+    - Pb
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: inclusive CC and nuclear ratios vs pT
+    energy_notes: ~6 GeV
+- bibtag: MINERvA:2026naw
+  title: Comparisons of triple-differential cross sections for quasielastic-like $ν_μ$-hydrocarbon interactions
+    using $\langle E_ν\rangle \sim$ 3~GeV versus $\sim$ 6~GeV beams in MINERvA
+  collaboration: MINERvA
+  arxiv: '2606.00745'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-05-30'
+  inspire_recid: 3164246
+  citation_count: 0
+  abstract: 'Neutrino charged-current quasielastic-like scattering, a reaction category extensively used
+    in neutrino oscillation measurements, receives contributions from single nucleon knockout processes,
+    multinucleon processes, and inelastic scattering with subsequent rescattering or absorption in the
+    nucleus to produce only nucleons in the final state. In this article, comparisons are presented of
+    the same measurement in two different wideband neutrino beams: one beam peaks near 3 GeV with few
+    neutrinos above 6 GeV; the other peaks near 6 GeV with few neutrinos above 10 GeV. Comparisons of
+    differential cross sections in muon and proton kinematics for these two exposures probe deviations
+    from free-neutron scattering that arise from the processes involving the nuclear medium, and provide
+    a test of neutrino interaction models used to infer neutrino energies in oscillation experiments.
+    Discrepancies are observed between the data and predictions that point to overestimates of the final
+    state interactions of both protons and charged pions in quasielastic-like events.'
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2606.00745
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2026naw
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: triple-diff
+    observables: triple-differential CCQE-like, ~3 vs ~6 GeV
+    energy_notes: ~3 and ~6 GeV
+- bibtag: MINERvA:2026ymp
+  title: High Statistics Measurements of $ν_μ$ Charged-Current Single $π^{+}$ Production with Zero Pion
+    Kinetic Energy Threshold in MINERvA
+  collaboration: MINERvA
+  arxiv: '2605.24224'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-05-22'
+  inspire_recid: 3159168
+  citation_count: 0
+  abstract: This Letter presents measurements of single-differential cross sections of $ν_μ$-induced charged-current
+    1 $π^{+}$ production on scintillator using the MINERvA detector at Fermilab. These measurements use
+    traditional track-based pion reconstruction as well as pions identified solely via Michel electron
+    decays, allowing measurement of kinetic energies from 0 to 350 MeV. In total, 91,843 events were selected
+    with $W_{exp}$$<$ 1.4 GeV/c. Differential cross sections as a function of pion and muon kinematic
+    variables are presented and compared with the predictions of several neutrino event generators. Overall,
+    modern pion production models tend to agree with data at the ends of the kinematic regions probed,
+    but are discrepant with the main regions of the phase space probed by up to 15% in muon observables
+    and up to 20% in pion observables. No model describes any of the variables well, and this result highlights
+    model areas that require improvement for the next generation of neutrino oscillation experiments.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2605.24224
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2026ymp
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: CC 1pi+ with zero pion KE threshold
+    energy_notes: low W (<1.4 GeV)
+- bibtag: MINERvA:2025hzq
+  title: Measurement of charged-current $\nu_\mu$ and $\bar{\nu}_\mu$ cross sections on hydrocarbon in
+    a shallow inelastic scattering region
+  collaboration: MINERvA
+  arxiv: '2503.20043'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2025
+  published_date: '2025-03-25'
+  inspire_recid: 2904418
+  citation_count: 7
+  abstract: This MINERvA analysis is the first neutrino and antineutrino study of a shallow inelastic
+    scattering region, which is the transition region between resonant production and deep inelastic scattering
+    processes. This transition is explicitly included in this study by expanding the scope of shallow
+    inelastic scattering to include not only the mainly lower-$Q^2$ nonresonant pion production but also
+    the kinematic region where pion production off quarks within the nucleon becomes significant with
+    $Q^2$ below the onset of the deep-inelastic scattering region defined in this analysis. To reduce
+    the resonance background the kinematic region 1.5 $<$$W$$<$ 2 GeV/$c^2$ was chosen. In addition to
+    the inclusive differential cross section measurements, to emphasize SIS interactions off quarks within
+    the nucleon a sample with $Q^2$$\geq$ 1 GeV/$c^2$ was also analyzed. The measurements of one-dimensional
+    cross sections at $\left\langle E_\nu \right\rangle \sim 6$ GeV on hydrocarbon of $Q^2$, Bjorken x
+    and muon momentum variables are compared with modified predictions from the GENIE 2 neutrino generator
+    as well as predictions of other neutrino simulators GiBUU, NEUT, NuWro and an alternative GENIE 3
+    version. Significant discrepancies both in shape and magnitude between measurements and neutrino simulator
+    predictions of all variables have been observed.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2503.20043
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2025hzq
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CH
+    topology: SIS
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: shallow inelastic scattering region
+    energy_notes: wide-band NuMI
+- bibtag: MINERvA:2025tem
+  title: Measurement of the <math display="inline"><mi>A</mi></math> dependence of the <math display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math>
+    charged-current quasielasticlike cross section as a function of muon and proton kinematics at <math
+    display="inline"><mrow><mo stretchy="false">⟨</mo><msub><mrow><mi>E</mi></mrow><mrow><mi>ν</mi></mrow></msub><mo
+    stretchy="false">⟩</mo><mo>∼</mo><mn>6</mn><mtext> </mtext><mtext> </mtext><mi>GeV</mi></mrow></math>
+  collaboration: MINERvA
+  arxiv: '2503.15047'
+  doi: 10.1103/h9vz-x4xf
+  journal: Phys.Rev.D
+  volume: '112'
+  pages: '052005'
+  year: 2025
+  published_date: '2025-03-19'
+  inspire_recid: 2902126
+  citation_count: 7
+  abstract: The first simultaneous measurements of the $ν_μ$ quasielastic-like cross section on C, CH,
+    H$_2$0, Fe, and Pb targets as a function of kinematic imbalance variables in the plane transverse
+    to the incoming neutrino direction are presented. These variables combine the muon and proton information
+    to provide a new way to disentangle the effects of the nucleus in quasielastic-like processes. The
+    data were obtained using a wide-band $ν_μ$ beam with $<$E$_ν>\sim$6 GeV. Cross-section ratios of the
+    different target materials to CH are also shown. These measurements are used to explore the nature
+    of the cross-section $A$-scaling, as well as initial and final state interaction effects. Comparisons
+    are made to predictions from a number of commonly used neutrino Monte Carlo event generators. The
+    range of predictions of the different models tends to cover the data but the degree and consistency
+    of the agreement suffers in regions, and on higher $A$ targets, where the final state interactions
+    are expected to be more pronounced.
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2503.15047
+    doi: https://doi.org/10.1103/h9vz-x4xf
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2025tem
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    - CH
+    - H2O
+    - Fe
+    - Pb
+    topology: CCQE-like
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: A-dependence vs transverse kinematic imbalance
+    energy_notes: ~6 GeV
 - bibtag: MINERvA:2023ner
   title: Measurement of electron neutrino and antineutrino cross sections at low momentum transfer
   collaboration: MINERvA

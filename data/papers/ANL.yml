@@ -1,0 +1,342 @@
+- bibtag: Ahrens:1988rr
+  title: A Study of the Axial Vector Form-factor and Second Class Currents in Anti-neutrino Quasielastic
+    Scattering
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1016/0370-2693(88)90026-3
+  journal: Phys.Lett.B
+  volume: '202'
+  pages: '284'
+  year: 1988
+  published_date: '1988'
+  inspire_recid: 264269
+  citation_count: 124
+  abstract: The antineutrino quasielastic reaction ν μm p →μ + n has been studied in the Q 2 range up
+    to 1.0 (GeV/ c ) 2 at the Brookhaven AGS. The value of the axial vector mass M A in the dipole parametrization
+    of the from factor was determined from the shape of the Q 2 distribution to be 1.09±0.03±0.02 GeV/
+    c 2 . A search for second-class currents was also conducted. No significant effect was found.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(88)90026-3
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ahrens:1988rr
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Day:1983itd
+  title: STUDY OF neutrino D CHARGED CURRENT TWO PION PRODUCTION IN THE THRESHOLD REGION
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1103/PhysRevD.28.2714
+  journal: Phys.Rev.D
+  volume: '28'
+  pages: '2714'
+  year: 1983
+  published_date: '1983'
+  inspire_recid: 200475
+  citation_count: 45
+  abstract: We present our final results on double-pion production by muon-type neutrinos observed in
+    a 2.4×106 (365 000) picture exposure of the Argonne 12-foot deuterium- (hydrogen-) filled bubble chamber.
+    The reactions νd→μ−π−π+pps, νd→μ−π+π0pns, and νd→μ−π+π+nns are studied. The data, which shows strong
+    Δ(1236) production, has nucleon-π−π mass distribution peaked at low masses in all three reactions.
+    The excitation functions for the three reactions exhibit a rapid rise over the energy range from threshold
+    up to about 3 GeV, but thereafter the energy dependence appears less pronounced. The threshold behavior
+    of the cross sections for these reactions is analyzed in the context of a model developed by Adjei,
+    Dicus, and Teplitz. Data from the constrained reaction, νd→μ−π−π+pps, satisfy the Adler conserved-vector-current
+    test.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.28.2714
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Day:1983itd
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Radecky:1981fn
+  title: Study of Single Pion Production by Weak Charged Currents in Low-energy Neutrino $d$ Interactions
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1103/PhysRevD.25.1161
+  journal: Phys.Rev.D
+  volume: '25'
+  pages: '1161'
+  year: 1982
+  published_date: 1981-09
+  inspire_recid: 167744
+  citation_count: 366
+  abstract: This paper gives the results of a study of single-pion production by the weak charged current
+    utilizing the wide-band muon-type-neutrino beam at the Argonne Zero Gradient Synchrotron. The data
+    were obtained from hydrogen and deuterium fillings of the 12-ft bubble chamber. The methods of event
+    selection and separation from background are given as are the details of the corrections and systematic
+    effects in the data sample. The energy-dependent cross sections and differential distributions are
+    presented for the three single-pion production reactions νp→μ−pπ+, νn→μ−pπ0, and νn→μ−nπ+. An isospin
+    decomposition shows that the ratio of I=12 to I=32 amplitudes is 0.68±0.04 with a relative phase of
+    (90.7±4.6)° for M(Nπ)<1.4 GeV. This agrees with theoretical models, particularly the detailed calculation
+    of Adler. Using the data of the reaction νp→μ−pπ+, the characteristic mass of the nucleon axial-vector
+    elastic form factor is measured to be 0.98−0.03+0.06 GeV when analyzed within the context of the Adler
+    model. The data are also compared to other parametrizations of the nucleon axial-vector form factor.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.25.1161
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Radecky:1981fn
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Derrick:1980nr
+  title: Study of the Reaction Neutrino $N \to$ Neutrino $p \pi^-$
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1016/0370-2693(80)90283-X
+  journal: Phys.Lett.B
+  volume: '92'
+  pages: '363'
+  year: 1980
+  published_date: 1980-02
+  inspire_recid: 8885
+  citation_count: 47
+  abstract: We have measured the excitation function for the neutral current process νn → νpπ − as a function
+    of neutrino energy. Our data give a cross section ratio R = σ ( ν p π − )/ σ ( μ − p π + )=0.11±0.022
+    over the energy interval (0.3⩽ E ν ⩽1.5)GeV. This measurement of single-pion production in a kinematically
+    defined reaction is the first to use a deuterium target. The R value, as well as other characteristics
+    of the data, agrees with the Adler model for single-pion production via the neutral current and gives
+    a value of sin 2 θ w =0.26±0.09.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(80)90283-X
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Derrick:1980nr
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Fogli:1979qj
+  title: 'Neutral Current Induced One Pion Production: A New Model and Its Comparison With the Experiment'
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1016/0550-3213(80)90312-0
+  journal: Nucl.Phys.B
+  volume: '165'
+  pages: '162'
+  year: 1980
+  published_date: 1979-10
+  inspire_recid: 8438
+  citation_count: 63
+  abstract: In the framework of a recently presented model of weak one-pion production processes we analyze
+    the neutral current induced ν and ν channels, by assuming a Weinberg-Salam structure of the neutral
+    currents. We find substantial agreement in the ν case, some discrepancy arising in the analysis of
+    the ν data. Predictions are given for the experiments requiring an improved statistics. In particular
+    the relevance of the extension of the analyzed Nπ invariant-mass region up to 1.6 GeV/ c 2 , with
+    the inclusion of the first I− 1 2 resonances, is stressed.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0550-3213(80)90312-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Fogli:1979qj
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: NC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Barish:1978pj
+  title: 'Study of Neutrino Interactions in Hydrogen and Deuterium: Inelastic Charged Current Reactions'
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1103/PhysRevD.19.2521
+  journal: Phys.Rev.D
+  volume: '19'
+  pages: '2521'
+  year: 1979
+  published_date: 1978-11
+  inspire_recid: 7237
+  citation_count: 304
+  abstract: This paper gives the results of a study of inelastic charged-current interactions of muon-type
+    neutrinos with hydrogen and deuterium targets using the Argonne 12-foot bubble chamber. We discuss
+    in detail the separation of the events from background. For the single-pion production reactions νp→μ−pπ+,
+    νn→μ−nπ+, and νn→μ−pπ0, energy-dependent cross sections, differential cross sections, invariant-mass
+    distributions, and the Δ++(1236) decay angular distribution are presented. These data are also used
+    to study the isospin properties of the πN system. Comparisons of the data with models of single-pion
+    production are made, and a direct test of partial conservation of the axial-vector current is discussed.
+    Cross sections and invariant-mass distributions are given for the reactions in which more than one
+    pion is produced. Ten events of strange-particle production were found, and the properties of these
+    events are discussed. The energy dependence of the total νp and νn cross sections from threshold to
+    6 GeV was determined, and the σ(νn)σ(νp) ratio measured. This ratio and the inclusive x and y distributions
+    rapidly approach the scaling distributions expected from the quark-parton model.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.19.2521
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Barish:1978pj
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Entenberg:1979wc
+  title: Measurement of the Elastic Scattering of Neutrinos and Anti-neutrinos by Protons
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1103/PhysRevLett.42.1198
+  journal: Phys.Rev.Lett.
+  volume: '42'
+  pages: '1198'
+  year: 1979
+  published_date: 1979-01
+  inspire_recid: 140053
+  citation_count: 53
+  abstract: We have observed 217 (66) events of the process νp→νp (ν¯p→ν¯p) with an estimated background
+    of 82 (28). The neutral-to-charged-current ratios are σ(νp→νp)σ(νn→μ−p)=0.11±0.02 and σ(ν¯p→ν¯p)σ(ν¯p→μ+n)=0.19±0.05
+    for 0.40<Q2<0.90 (GeV/c)2, where -Q2 is the square of the momentum transfer to the nucleon. These
+    yield σ(ν¯p→ν¯p)σ(νp→νp)=0.53±0.17. The neutral-current form factors at Q2=0 are GE=0.5−0.5+0.25,
+    GM=1.0−0.04+0.35, and gA=0.5−0.15+0.2.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.42.1198
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Entenberg:1979wc
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Barish:1977qk
+  title: Study of Neutrino Interactions in Hydrogen and Deuterium. 1. Description of the Experiment and
+    Study of the Reaction Neutrino d --> mu- p p(s)
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1103/PhysRevD.16.3103
+  journal: Phys.Rev.D
+  volume: '16'
+  pages: '3103'
+  year: 1977
+  published_date: 1977-07
+  inspire_recid: 5566
+  citation_count: 313
+  abstract: This paper gives a detailed description of an experiment which studies the interactions of
+    muon-type neutrinos in hydrogen and deuterium. The experiment was performed at the Zero Gradient Synchrotron
+    using the wide-band neutrino beam incident on the Argonne 12-foot bubble chamber filled with hydrogen
+    and deuterium. The neutrino energy spectrum peaks at 0.5 GeV and has a tail extending to 6 GeV. The
+    shape and intensity of the flux is determined using measurements of pion yields from beryllium. The
+    produced pions are focused by one or (for the latter part of the experiment) two magnetic horns. A
+    total of 364000 pictures were taken with a hydrogen filling of the bubble chamber and 903 000 with
+    a deuterium filling. The scanning and other analyses of the events are described. The most abundant
+    reaction occurs off neutrons and is quasi-elastic scattering νd→μ−pps. The separation of these events
+    from background channels is discussed. The total and differential cross sections are analyzed to obtain
+    the axial-vector form factor of the nucleon. Our result, expressed in terms of a dipole form factor,
+    gives an axial-vector mass of 0.95±0.09 GeV. A comparison is made to previous measurements using neutrino
+    beams, and also to determinations based upon threshold pion electroproduction experiments. In addition,
+    the data are used to measure the weak vector form factor and so check the conserved-vector-current
+    hypothesis.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.16.3103
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Barish:1977qk
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+- bibtag: Campbell:1973wg
+  title: Study of the reaction nu p ---> mu- pi+ p
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1103/PhysRevLett.30.335
+  journal: Phys.Rev.Lett.
+  volume: '30'
+  pages: '335'
+  year: 1973
+  published_date: '1973'
+  inspire_recid: 84537
+  citation_count: 140
+  abstract: We present an analysis of 153 events of the reaction νp→μ−π+p at an average neutrino energy
+    of 1 GeV. The results were obtained using the Argonne 12-ft hydrogen bubble chamber. The reaction
+    is dominated by μ−Δ++(1236) production for which the total cross section rises from threshold to a
+    value of (0.74±0.18)×10−38 cm2 at Eν≳1.0 GeV. The production and decay angular distributions of the
+    Δ++ are given. There is no evidence for hadron-lepton mass enhancements.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.30.335
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Campbell:1973wg
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - D2
+    topology: CC pi production
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null

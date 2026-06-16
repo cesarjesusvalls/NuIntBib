@@ -1,0 +1,37 @@
+- bibtag: Belikov:1983kg
+  title: 'Quasielastic Neutrino and Anti-neutrinos Scattering: Total Cross-sections, Axial Vector Form-factor'
+  collaboration: Serpukhov
+  arxiv: null
+  doi: 10.1007/BF01411863
+  journal: Z.Phys.A
+  volume: '320'
+  pages: '625'
+  year: 1985
+  published_date: 1983-08
+  inspire_recid: 195754
+  citation_count: 133
+  abstract: Experimental results on the study of quasielastic reactionsvμn→μ−p and\(\bar v_u p \to \mu
+    ^ +n\) in the energy range 3–30 GeV are presented in this paper. Spark chamber detector with Al filters
+    has been exposed to the wide-band neutrino and antineutrino beams at Serpukhov. Neutrino and antineutrino
+    data have been used to reconstruct the behaviour of axial-vector form-factorFA(Q2). We measured the
+    total cross-sections as a function of energy. The parameterMA=(1.00±0.04) GeV/c2 has been determined
+    under the assumption of the dipole parametrization and CVC hypothesis. Upper limit for the second
+    class currents was estimated.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01411863
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Belikov:1983kg
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Al
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null

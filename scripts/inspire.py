@@ -22,6 +22,7 @@ FIELDS = ",".join([
     "control_number", "titles", "abstracts", "publication_info",
     "arxiv_eprints", "dois", "preprint_date", "earliest_date",
     "citation_count", "collaborations", "authors", "texkeys",
+    "document_type", "number_of_pages",
 ])
 
 _last_call = [0.0]
@@ -115,6 +116,7 @@ def normalize(meta: dict) -> Dict:
         "journal": None, "volume": None, "pages": None, "year": None,
         "published_date": None, "citation_count": meta.get("citation_count"),
         "collaboration": None, "bibtag": None,
+        "document_type": meta.get("document_type") or [],
     }
     titles = meta.get("titles") or []
     if titles:

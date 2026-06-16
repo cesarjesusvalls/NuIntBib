@@ -1,3 +1,46 @@
+- bibtag: FASER:2024ref
+  title: First Measurement of the Muon Neutrino Interaction Cross Section and Flux as a Function of Energy
+    at the LHC with FASER
+  collaboration: FASER
+  arxiv: '2412.03186'
+  doi: 10.1103/PhysRevLett.134.211801
+  journal: Phys.Rev.Lett.
+  volume: '134'
+  pages: '211801'
+  year: 2025
+  published_date: '2024-12-04'
+  inspire_recid: 2855783
+  citation_count: 51
+  abstract: 'This letter presents the measurement of the energy-dependent neutrino-nucleon cross section
+    in tungsten and the differential flux of muon neutrinos and anti-neutrinos. The analysis is performed
+    using proton-proton collision data at a center-of-mass energy of $13.6 \, {\rm TeV}$ and corresponding
+    to an integrated luminosity of $(65.6 \pm 1.4) \, \mathrm{fb^{-1}}$. Using the active electronic components
+    of the FASER detector, $338.1 \pm 21.0$ charged current muon neutrino interaction events are identified,
+    with backgrounds from other processes subtracted. We unfold the neutrino events into a fiducial volume
+    corresponding to the sensitive regions of the FASER detector and interpret the results in two ways:
+    We use the expected neutrino flux to measure the cross section, and we use the predicted cross section
+    to measure the neutrino flux. Both results are presented in six bins of neutrino energy, achieving
+    the first differential measurement in the TeV range. The observed distributions align with Standard
+    Model predictions. Using this differential data, we extract the contributions of neutrinos from pion
+    and kaon decays.'
+  added: '2026-06-16'
+  notes: Added via 2024-2026 INSPIRE update.
+  links:
+    arxiv: https://arxiv.org/abs/2412.03186
+    doi: https://doi.org/10.1103/PhysRevLett.134.211801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:FASER:2024ref
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - W
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: energy-dependent neutrino-nucleon cross section
+    energy_notes: TeV-scale (LHC, sqrt(s)=13.6 TeV)
 - bibtag: FASER:2024hoe
   title: First Measurement of <math display="inline"><msub><mi>ν</mi><mi>e</mi></msub></math> and <math
     display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math> Interaction Cross Sections at the LHC with
