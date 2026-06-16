@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Icon } from '@/components/Icon';
 
 export type PaperRow = {
@@ -125,6 +125,19 @@ export function PapersTable({ rows, facets }: { rows: PaperRow[]; facets: RowFac
   const [active, setActive] = useState<Record<string, string>>({});
   const [query, setQuery] = useState('');
   const [sort, setSort] = useState<SortKey>('year-desc');
+
+  // Pre-select filters from the URL query string (e.g. /papers?experiment=MINERvA),
+  // so deep links from the home page land on the right subset.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const next: Record<string, string> = {};
+    for (const f of facets) {
+      const v = params.get(f.key);
+      if (v && (v === ALL || f.values.includes(v))) next[f.key] = v;
+    }
+    if (Object.keys(next).length) setActive((c) => ({ ...c, ...next }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const topFacet = facets.find((f) => f.key === 'experiment')!;
   const sidebarFacets = facets.filter((f) => f.key !== 'experiment');

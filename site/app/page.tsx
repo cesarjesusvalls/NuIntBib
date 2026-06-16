@@ -64,7 +64,11 @@ export default function HomePage() {
           />
           <div className="exp-grid">
             {stats.experiments.map(([exp, n]) => (
-              <Link className="panel exp-card" href="/papers" key={exp}>
+              <Link
+                className="panel exp-card"
+                href={`/papers?experiment=${encodeURIComponent(exp)}`}
+                key={exp}
+              >
                 <strong>{n}</strong>
                 <span>{exp}</span>
               </Link>
