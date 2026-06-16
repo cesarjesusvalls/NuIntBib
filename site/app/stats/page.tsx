@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Container, PageHero, SectionHeader } from '@/components/UI';
-import { getAllPapers, getStats } from '@/lib/papers';
+import { PapersOverTime } from '@/components/PapersOverTime';
+import { getAllPapers, getStats, getTimeline } from '@/lib/papers';
 
 export const metadata: Metadata = {
   title: 'Statistics',
@@ -43,7 +44,9 @@ function BarList({
 }
 
 export default function StatsPage() {
-  const stats = getStats(getAllPapers());
+  const papers = getAllPapers();
+  const stats = getStats(papers);
+  const timeline = getTimeline(papers);
 
   return (
     <>
@@ -52,7 +55,17 @@ export default function StatsPage() {
         title="What the collection covers"
         body={`${stats.papers} papers and ${stats.measurements} measurements across ${stats.experiments.length} experiments, ${stats.yearRange[0]}–${stats.yearRange[1]}.`}
       />
-      <section className="section">
+      <section className="section section-timeline">
+        <Container>
+          <SectionHeader
+            eyebrow="Over time"
+            title="Evolution of the field"
+            body="Papers (or citations) published per year, or accumulated. Highlight any experiment to see its contribution within the whole."
+          />
+          <PapersOverTime data={timeline} />
+        </Container>
+      </section>
+      <section className="section section-after-timeline">
         <Container>
           <SectionHeader eyebrow="Distributions" title="By category" />
           <div className="stat-grid">

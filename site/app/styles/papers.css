@@ -326,6 +326,134 @@
   color: var(--palo-alto);
 }
 
+/* Stats: papers-over-time interactive chart */
+.section-timeline {
+  padding-block: 2.25rem 2.25rem;
+}
+.section-after-timeline {
+  padding-top: 2.5rem;
+}
+.timeline-panel {
+  padding: 1.4rem 1.5rem 1.1rem;
+}
+.timeline-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.seg {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.seg button {
+  font: inherit;
+  font-size: 0.82rem;
+  padding: 0.34rem 0.7rem;
+  background: var(--white);
+  color: var(--black-80);
+  border: none;
+  cursor: pointer;
+  border-right: 1px solid var(--line);
+}
+.seg button:last-child {
+  border-right: none;
+}
+.seg button.is-on {
+  background: var(--palo-alto);
+  color: var(--white);
+}
+.timeline-highlight {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.timeline-highlight select {
+  font: inherit;
+  padding: 0.34rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--white);
+  color: var(--ink);
+  max-width: 16rem;
+}
+.timeline-chart {
+  position: relative;
+}
+.timeline-chart svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.tl-grid {
+  stroke: var(--line);
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+.tl-axis {
+  fill: var(--muted);
+  font-family: var(--font-roboto-mono), monospace;
+  font-size: 11px;
+}
+.tl-bar {
+  fill: var(--palo-alto);
+}
+.tl-bar-rest {
+  fill: var(--fog);
+}
+.tl-bar-sel {
+  fill: var(--cardinal);
+}
+.tl-bar,
+.tl-bar-rest,
+.tl-bar-sel {
+  transition: opacity 0.12s var(--ease-out);
+}
+.tl-tooltip {
+  position: absolute;
+  transform: translate(-50%, calc(-100% - 8px));
+  background: var(--ink);
+  color: var(--white);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.45rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: var(--shadow-md);
+  z-index: 3;
+}
+.tl-tooltip strong {
+  display: block;
+  font-family: var(--font-roboto-mono), monospace;
+}
+.tl-tooltip span {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+}
+.tl-tooltip-sel {
+  color: #f3b6b6 !important;
+}
+.timeline-caption {
+  margin: 0.75rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.tl-legend-sel {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 2px;
+  background: var(--cardinal);
+  vertical-align: middle;
+}
+
 /* Stats page */
 .stat-grid {
   display: grid;

@@ -184,6 +184,41 @@ export function getStats(papers: Paper[]): DbStats {
   };
 }
 
+export type Timeline = {
+  years: number[];
+  total: { papers: number[]; citations: number[] };
+  byExp: Record<string, { papers: number[]; citations: number[] }>;
+  experiments: string[]; // sorted by total papers, desc
+};
+
+/** Per-year (and per-experiment) paper counts and citation sums, for the time chart. */
+export function getTimeline(papers: Paper[]): Timeline {
+  const ys = papers.map((p) => p.year).filter((y): y is number => Boolean(y));
+  const min = Math.min(...ys);
+  const max = Math.max(...ys);
+  const years = Array.from({ length: max - min + 1 }, (_, i) => min + i);
+  const idx = new Map(years.map((y, i) => [y, i]));
+  const zeros = () => years.map(() => 0);
+  const total = { papers: zeros(), citations: zeros() };
+  const byExp: Record<string, { papers: number[]; citations: number[] }> = {};
+  for (const p of papers) {
+    if (p.year == null) continue;
+    const i = idx.get(p.year);
+    if (i == null) continue;
+    const c = p.citation_count ?? 0;
+    total.papers[i] += 1;
+    total.citations[i] += c;
+    (byExp[p.collaboration] ??= { papers: zeros(), citations: zeros() });
+    byExp[p.collaboration].papers[i] += 1;
+    byExp[p.collaboration].citations[i] += c;
+  }
+  const sum = (a: number[]) => a.reduce((x, y) => x + y, 0);
+  const experiments = Object.keys(byExp).sort(
+    (a, b) => sum(byExp[b].papers) - sum(byExp[a].papers),
+  );
+  return { years, total, byExp, experiments };
+}
+
 /** Flatten facet membership for a paper (used by the client filter). */
 export function paperFacetValues(p: Paper): Record<string, string[]> {
   return {
