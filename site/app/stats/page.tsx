@@ -54,6 +54,7 @@ export default function StatsPage() {
         eyebrow="Database statistics"
         title="What the collection covers"
         body={`${stats.papers} papers and ${stats.measurements} measurements across ${stats.experiments.length} experiments, ${stats.yearRange[0]}–${stats.yearRange[1]}.`}
+        className="page-hero-flush"
       />
       <section className="section section-timeline">
         <Container>

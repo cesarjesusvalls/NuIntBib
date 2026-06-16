@@ -4,7 +4,7 @@ export const site = {
   tagline: 'Neutrino interaction measurements, in one place.',
   title: 'NuIntBib | Neutrino Interaction Measurements',
   description:
-    'A continuously updated index of published neutrino interaction measurements — cross sections and related observables — searchable and filterable by experiment, current, flavor, target, and interaction topology.',
+    'A continuously updated index of published neutrino-interaction measurements.',
   url: 'https://cesarjesusvalls.github.io/NuIntBib',
   githubUrl: 'https://github.com/cesarjesusvalls/NuIntBib',
   maintainer: 'César Jesús Valls',

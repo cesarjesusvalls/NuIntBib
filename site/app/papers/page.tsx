@@ -55,9 +55,10 @@ export default function PapersPage() {
       <PageHero
         eyebrow={`${papers.length} measurements`}
         title="Neutrino interaction measurements"
-        body="Every record is enriched from INSPIRE-HEP. Filter by experiment, current, flavor, target, and topology; open arXiv, the journal, or INSPIRE, or copy a BibTeX citation in one click."
+        body="Up-to-date, labeled neutrino-interaction measurements."
+        className="page-hero-flush"
       />
-      <section className="section">
+      <section className="section section-papers">
         <div className="container">
           <PapersTable rows={rows} facets={facets} />
         </div>

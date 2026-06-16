@@ -328,7 +328,10 @@
 
 /* Stats: papers-over-time interactive chart */
 .section-timeline {
-  padding-block: 2.25rem 2.25rem;
+  padding-block: 1.5rem 2rem;
+}
+.section-timeline .section-header {
+  margin-bottom: 1rem;
 }
 .section-after-timeline {
   padding-top: 2.5rem;
@@ -503,8 +506,23 @@
 }
 
 /* About prose */
+.page-hero-flush .page-hero-inner {
+  min-height: 0;
+  padding-bottom: 0;
+}
+/* Hero subtitle: tight gap under the title, and span the full width. */
+.page-hero-copy > p:not(.eyebrow) {
+  max-width: none;
+  margin-top: 0.6rem;
+}
+.section-about {
+  padding-top: 0.5rem;
+}
+.section-papers {
+  padding-top: 1.5rem;
+}
 .prose {
-  max-width: 760px;
+  max-width: none;
 }
 .prose h2 {
   margin-top: 2rem;

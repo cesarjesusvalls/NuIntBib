@@ -31,7 +31,7 @@ type PageHeroProps = {
   eyebrow: string;
   title: string;
   titleClassName?: string;
-  body: string;
+  body?: string;
   actions?: ReactNode;
   visual?: ReactNode;
   className?: string;
@@ -138,7 +138,7 @@ export function PageHero({
         <div className="page-hero-copy">
           <p className="eyebrow">{eyebrow}</p>
           <h1 className={`type-h1 ${titleClassName}`.trim()}>{title}</h1>
-          <p>{body}</p>
+          {body ? <p>{body}</p> : null}
           {actions ? <div className="hero-actions">{actions}</div> : null}
         </div>
         {visual ? <div className="page-hero-visual">{visual}</div> : null}
