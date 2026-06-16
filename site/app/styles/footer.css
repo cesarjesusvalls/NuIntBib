@@ -114,6 +114,16 @@
   gap: .5rem 1.5rem;
 }
 
+.footer-legal a {
+  color: rgba(255, 255, 255, .85);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.footer-legal a:hover {
+  color: white;
+}
+
 .footer-socials {
   display: flex;
   align-items: center;

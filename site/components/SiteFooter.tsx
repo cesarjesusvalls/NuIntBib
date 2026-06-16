@@ -58,8 +58,8 @@ export function SiteFooter() {
         <div className="footer-bottom">
           <div className="footer-legal">
             <p>
-              Developed &amp; managed by{' '}
-              <a href={`mailto:${site.contactEmail}`}>{site.maintainer}</a> ({site.maintainerAffiliation})
+              Developed &amp; managed by {site.maintainer} ({site.maintainerAffiliation}). Contact:{' '}
+              <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
             </p>
           </div>
           <div className="footer-socials">

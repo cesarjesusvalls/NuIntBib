@@ -199,17 +199,62 @@ html[data-scroll-reveal="ready"] [data-reveal][data-reveal-visible="true"] {
 
 .brand {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   min-width: 0;
   min-height: 2.75rem;
-  align-items: center;
-  gap: .65rem;
+  gap: 1px;
 }
 
 .brand-name {
   color: var(--ink);
   font-size: 1.5rem;
   font-weight: 760;
+  line-height: 1.05;
+}
+
+.brand-credit {
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: .01em;
+}
+
+.brand-credit a {
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.brand-credit a:hover {
+  color: var(--cardinal);
+}
+
+.brand-home {
+  text-decoration: none;
   line-height: 1;
+}
+
+.brand-group {
+  display: flex;
+  min-width: 0;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.brand-tagline {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--cardinal);
+  color: var(--palo-alto);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -.01em;
 }
 
 .brand-rule {

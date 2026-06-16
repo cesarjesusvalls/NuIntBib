@@ -21,13 +21,12 @@ export default function HomePage() {
       <section className="page-hero">
         <Container className="page-hero-inner">
           <div className="page-hero-copy">
-            <p className="eyebrow">Community neutrino-interaction resource</p>
+            <p className="eyebrow">Neutrino-interaction literature resource</p>
             <h1 className="type-h1">Neutrino cross-section measurements, in one place.</h1>
             <p>
-              NuIntBib is a continuously updated, community-maintained index of published neutrino
-              cross-section measurements — searchable and filterable by experiment, current, flavor,
-              target, and interaction topology, with one-click links to arXiv, the journal, INSPIRE,
-              and BibTeX.
+              NuIntBib is a continuously updated index of published neutrino cross-section
+              measurements — searchable and filterable by experiment, current, flavor, target, and
+              interaction topology, with one-click links to arXiv, the journal, INSPIRE, and BibTeX.
             </p>
             <div className="hero-actions">
               <ButtonLink href="/papers">

@@ -25,6 +25,13 @@
   }
 }
 
+/* The full-size one-line tagline needs room; hide it before it crowds the nav. */
+@media (max-width: 1180px) {
+  .brand-tagline {
+    display: none;
+  }
+}
+
 @media (max-width: 980px) {
   .desktop-nav {
     display: none;

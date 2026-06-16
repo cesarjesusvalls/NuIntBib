@@ -1,5 +1,17 @@
 /* ---- NuIntBib: papers table, link cluster, stats ---- */
 
+/* Hero titles: our pages have no hero visual, so use the full width and a
+   generous title cap instead of doraemon's narrow 12ch column. */
+.page-hero-inner {
+  grid-template-columns: 1fr;
+}
+.page-hero .type-h1 {
+  max-width: 30ch;
+}
+.detail-hero .type-h1 {
+  max-width: 46ch;
+}
+
 /* Home: stat strip */
 .stat-strip {
   display: grid;

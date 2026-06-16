@@ -33,7 +33,7 @@ export default function AboutPage() {
               INSPIRE-HEP
             </a>{' '}
             — title, authors, journal reference, arXiv identifier, publication date, and live
-            citation count. The physics classification is curated by the community. The canonical
+            citation count. The physics classification is curated by the maintainer. The canonical
             data lives as version-controlled YAML in the{' '}
             <a href={site.githubUrl} target="_blank" rel="noreferrer">
               GitHub repository

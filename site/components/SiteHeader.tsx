@@ -20,11 +20,15 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="site-header-inner">
-        <Link className="brand" href="/" onClick={() => setOpen(false)}>
-          <span className="brand-name">{site.name}</span>
-          <span className="brand-rule" />
-          <span className="brand-subtitle">{site.fullName}</span>
-        </Link>
+        <div className="brand-group">
+          <div className="brand">
+            <Link className="brand-home" href="/" onClick={() => setOpen(false)}>
+              <span className="brand-name">{site.name}</span>
+            </Link>
+            <span className="brand-credit">by {site.maintainer}</span>
+          </div>
+          <span className="brand-tagline">{site.tagline}</span>
+        </div>
 
         <nav aria-label="Main navigation" className="desktop-nav">
           {navItems.map((item) =>
