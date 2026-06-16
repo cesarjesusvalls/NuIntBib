@@ -277,8 +277,9 @@ Kitagaki:1986ct:
 LZ:2025igz:
   audited: '2026-06-16'
   method: abstract
-  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
-  status: clean
+  notes: '[REMOVED] solar-8B flux / DM-search measurement (fixes SM CEvNS cross section to extract the
+    flux), not an interaction cross-section measurement'
+  status: fixed
 Lee:1976wr:
   audited: '2026-06-16'
   method: abstract
@@ -857,8 +858,9 @@ NuTeV:2005wsg:
 PandaX:2024muv:
   audited: '2026-06-16'
   method: abstract
-  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
-  status: clean
+  notes: '[REMOVED] solar-8B flux / DM-search measurement (fixes SM CEvNS cross section to extract the
+    flux), not an interaction cross-section measurement'
+  status: fixed
 Pohl:1977sx:
   audited: '2026-06-16'
   method: abstract
@@ -1085,5 +1087,6 @@ T2K:2025wde:
 XENON:2024ijk:
   audited: '2026-06-16'
   method: abstract
-  notes: CEvNS/coherent-elastic channel - classified on addition (2026-06)
-  status: clean
+  notes: '[REMOVED] solar-8B flux / DM-search measurement (fixes SM CEvNS cross section to extract the
+    flux), not an interaction cross-section measurement'
+  status: fixed
