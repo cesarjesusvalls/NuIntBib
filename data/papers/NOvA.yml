@@ -1,0 +1,242 @@
+- bibtag: NOvA:2024zmr
+  title: Measurement of <math display="inline"><mrow><msup><mrow><mi>d</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>σ</mi><mo>/</mo><mi>d</mi><mo
+    stretchy="false">|</mo><mover accent="true"><mrow><mi>q</mi></mrow><mrow><mo stretchy="false">→</mo></mrow></mover><mo
+    stretchy="false">|</mo><mi>d</mi><msub><mrow><mi>E</mi></mrow><mrow><mtext>avail</mtext></mrow></msub></mrow></math>
+    in charged current <math display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math>-nucleus interactions
+    at <math display="inline"><mrow><mo stretchy="false">⟨</mo><msub><mrow><mi>E</mi></mrow><mrow><mi>ν</mi></mrow></msub><mo
+    stretchy="false">⟩</mo><mo>=</mo><mn>1.86</mn><mtext> </mtext><mtext> </mtext><mi>GeV</mi></mrow></math>
+    using the NOvA Near Detector
+  collaboration: NOvA
+  arxiv: '2410.05526'
+  doi: 10.1103/PhysRevD.111.052009
+  journal: Phys.Rev.D
+  volume: '111'
+  pages: 052009
+  year: 2025
+  published_date: '2024-10-07'
+  inspire_recid: 2838751
+  citation_count: 9
+  abstract: Double- and single-differential cross sections for inclusive charged-current neutrino-nucleus
+    scattering are reported for the kinematic domain 0 to 2 GeV/c in three-momentum transfer and 0 to
+    2 GeV in available energy, at a mean muon-neutrino energy of 1.86 GeV. The measurements are based
+    on an estimated 995,760 muon-neutrino CC interactions in the scintillator medium of the NOvA Near
+    Detector. The subdomain populated by 2-particle-2-hole reactions is identified by the cross-section
+    excess relative to predictions for neutrino-nucleus scattering that are constrained by a data control
+    sample. Models for 2-particle-2- hole processes are rated by chi-square comparisons of the predicted-versus-measured
+    muon-neutrino CC inclusive cross section over the full phase space and in the restricted subdomain.
+    Shortfalls are observed in neutrino generator predictions obtained using the theory-based Val`encia
+    and SuSAv2 2p2h models.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2410.05526
+    doi: https://doi.org/10.1103/PhysRevD.111.052009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2024zmr
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: mean energy 1.86GeV
+- bibtag: NOvA:2024rov
+  title: Measurement of the double-differential cross section of muon-neutrino charged-current interactions
+    with low hadronic energy in the NOvA Near Detector
+  collaboration: NOvA
+  arxiv: '2410.10222'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2024
+  published_date: '2024-10-14'
+  inspire_recid: 2839647
+  citation_count: 6
+  abstract: The NOvA collaboration reports cross-section measurements for $\nu_{\mu}$ charged-current
+    interactions with low hadronic energy (maximum kinetic energy of 250 MeV for protons and 175 MeV for
+    pions) in the NOvA Near Detector. The results are presented as a double-differential cross section
+    as a function of the direct observables of the final-state muon kinematics. Results are also presented
+    as a single-differential cross section as a function of the derived square of the four-momentum transfer,
+    $Q^{2}$, and as a function of the derived neutrino energy. The data correspond to an accumulated 8.09$\times10^{20}$
+    protons-on-target (POT) in the neutrino mode of the NuMI beam, with a narrow band of neutrino energies
+    peaked at 1.8 GeV. The analysis provides a sample of neutrino-nucleus interactions with an enhanced
+    fraction of quasi-elastic and two-particle-two-hole (2p2h) interactions. This enhancement allows quantitative
+    comparisons with various nuclear models. We find strong disagreement between data and theory-based
+    models in various regions of the muon kinematic phase space, especially in the forward muon direction.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2410.10222
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2024rov
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: Low recoil
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross sections (muon kinematics)
+    energy_notes: hadron KE < 250MeV
+- bibtag: NOvA:2021eqi
+  title: Measurement of the double-differential muon-neutrino charged-current inclusive cross section
+    in the NOvA near detector
+  collaboration: NOvA
+  arxiv: '2109.12220'
+  doi: 10.1103/PhysRevD.107.052011
+  journal: Phys.Rev.D
+  volume: '107'
+  pages: '052011'
+  year: 2023
+  published_date: '2021-09-24'
+  inspire_recid: 1928957
+  citation_count: 36
+  abstract: We report cross-section measurements of the final-state muon kinematics for \numu charged-current
+    interactions in the NOvA near detector using an accumulated 8.09$\times10^{20}$ protons-on-target
+    (POT) in the NuMI beam. We present the results as a double-differential cross section in the observed
+    outgoing muon energy and angle, as well as single-differential cross sections in the derived neutrino
+    energy, $E_\nu$, and square of the four-momentum transfer, $Q^2$. We compare the results to inclusive
+    cross-section predictions from various neutrino event generators via $\chi^2$ calculations using a
+    covariance matrix that accounts for bin-to-bin correlations of systematic uncertainties. These comparisons
+    show a clear discrepancy between the data and each of the tested predictions at forward muon angle
+    and low $Q^2$, indicating a missing suppression of the cross section in current neutrino-nucleus scattering
+    models.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2109.12220
+    doi: https://doi.org/10.1103/PhysRevD.107.052011
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2021eqi
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross sections (muon kinematics)
+    energy_notes: null
+- bibtag: NOvA:2022see
+  title: Measurement of the $\nu_e-$Nucleus Charged-Current Double-Differential Cross Section at $\left<
+    E_{\nu} \right> = $ 2.4 GeV using NOvA
+  collaboration: NOvA
+  arxiv: '2206.10585'
+  doi: 10.1103/PhysRevLett.130.051802
+  journal: Phys.Rev.Lett.
+  volume: '130'
+  pages: 051802
+  year: 2023
+  published_date: '2022-06-21'
+  inspire_recid: 2098257
+  citation_count: 29
+  abstract: The inclusive electron neutrino charged-current cross section is measured in the NOvA near
+    detector using $8.02\times10^{20}$ protons-on-target (POT) in the NuMI beam. The sample of GeV electron
+    neutrino interactions is the largest analyzed to date and is limited by $\simeq$ 17% systematic rather
+    than the $\simeq$ 7.4% statistical uncertainties. The double-differential cross section in final-state
+    electron energy and angle is presented for the first time, together with the single-differential dependence
+    on $Q^{2}$ (squared four-momentum transfer) and energy, in the range 1 GeV $ \leq E_{\nu} < $6 GeV.
+    Detailed comparisons are made to the predictions of the GENIE, GiBUU, NEUT, and NuWro neutrino event
+    generators. The data do not strongly favor a model over the others consistently across all three cross
+    sections measured, though some models have especially good or poor agreement in the single differential
+    cross section vs. $Q^{2}$.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2206.10585
+    doi: https://doi.org/10.1103/PhysRevLett.130.051802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2022see
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - CH2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: 'E: 1-6GeV'
+- bibtag: NOvA:2023uxq
+  title: Measurement of <math display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math> charged-current
+    inclusive <math display="inline"><msup><mi>π</mi><mn>0</mn></msup></math> production in the NOvA near
+    detector
+  collaboration: NOvA
+  arxiv: '2306.04028'
+  doi: 10.1103/PhysRevD.107.112008
+  journal: Phys.Rev.D
+  volume: '107'
+  pages: '112008'
+  year: 2023
+  published_date: '2023-06-06'
+  inspire_recid: 2666877
+  citation_count: 20
+  abstract: Cross sections for the interaction $\nu_\mu A\rightarrow\mu^-\pi^0 X$ with neutrino energies
+    between 1 and 5~GeV are measured using a sample of 165k selected events collected in the NOvA experiment's
+    Near Detector, a hydrocarbon-based detector exposed to the NuMI neutrino beam at the Fermi National
+    Accelerator Laboratory. Results are presented as a flux-averaged total cross section and as differential
+    cross sections in the momenta and angles of the outgoing muon and $\pi^0$, the total four-momentum
+    transfer, and the invariant mass of the hadronic system. Comparisons are made with predictions from
+    a reference version of the GENIE neutrino interaction generator. The measured total cross section
+    of ($3.57\pm0.44)\times10^{-39}\ \mathrm{cm}^2$ is $7.5\%$ higher than the GENIE prediction but is
+    consistent within experimental errors.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2306.04028
+    doi: https://doi.org/10.1103/PhysRevD.107.112008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2023uxq
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: CC1pi0
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: total and differential cross sections
+    energy_notes: 'E: 1-5GeV'
+- bibtag: NOvA:2019bdw
+  title: Measurement of neutrino-induced neutral-current coherent $\pi^0$  production in the NOvA near
+    detector
+  collaboration: NOvA
+  arxiv: '1902.00558'
+  doi: 10.1103/PhysRevD.102.012004
+  journal: Phys.Rev.D
+  volume: '102'
+  pages: '012004'
+  year: 2020
+  published_date: '2019-02-01'
+  inspire_recid: 1718411
+  citation_count: 44
+  abstract: The cross section of neutrino-induced neutral-current coherent $\pi^0$ production on a carbon-dominated
+    target is measured in the NOvA near detector. This measurement uses a narrow-band neutrino beam with
+    the average neutrino energy of 2.7\,GeV, xwhich is of interest to the ongoing and future long-baseline
+    neutrino oscillation experiments. The measured, flux-averaged cross section is $\sigma = 14.0\pm0.9$\,(stat.)$\pm2.1$\,(syst.)$\times
+    10^{-40}$ $\text{cm}^2/$nucleus, consistent with model prediction. This result is the most precise
+    measurement of neutral-current coherent $\pi^0$ production in the few-GeV neutrino energy region.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1902.00558
+    doi: https://doi.org/10.1103/PhysRevD.102.012004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2019bdw
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: NCcoh pi0
+    pion_bucket: pi0
+    measurement_type: total
+    observables: total cross section
+    energy_notes: mean energy 2.7GeV

@@ -1,0 +1,376 @@
+.library-hero {
+  overflow: hidden;
+  background: var(--fog-light);
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 74%, transparent);
+}
+
+.library-hero-inner {
+  min-height: 16.5rem;
+  padding-block: 4.7rem 3.8rem;
+}
+
+.library-hero h1 {
+  max-width: 58rem;
+  margin: 1.05rem 0 0;
+  color: var(--ink);
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: clamp(2.8rem, 5vw, 4.35rem);
+  font-weight: 400;
+  letter-spacing: -.015em;
+  line-height: 1.05;
+}
+
+.library-hero p:not(.eyebrow) {
+  max-width: 64rem;
+  margin: 1.4rem 0 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.library-hero .eyebrow,
+.library-reading-heading .eyebrow,
+.library-outcomes .eyebrow {
+  font-family: var(--font-roboto-mono), ui-monospace, monospace;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.library-tabs {
+  position: sticky;
+  top: 4.25rem;
+  z-index: 30;
+  background: rgba(255, 255, 255, .94);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(14px);
+}
+
+.library-tabs-inner {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  min-height: 2.75rem;
+  overflow-x: auto;
+}
+
+.library-tabs a {
+  position: relative;
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  padding: .625rem .875rem;
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  transition: color .2s;
+}
+
+.library-tabs a:hover {
+  color: var(--ink);
+}
+
+.library-tabs a[aria-current="true"] {
+  color: var(--cardinal);
+}
+
+.library-tab-indicator {
+  position: absolute;
+  right: .25rem;
+  bottom: 0;
+  left: .25rem;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--cardinal);
+}
+
+.library-section {
+  padding-block: 4.75rem;
+  scroll-margin-top: 8rem;
+}
+
+.library-section-title {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: clamp(2rem, 4vw, 2.85rem);
+  font-weight: 400;
+  line-height: 1.12;
+}
+
+.library-feature-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.library-feature-copy {
+  display: grid;
+  gap: 1rem;
+}
+
+.library-feature-copy h2 {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.library-feature-copy h2 svg {
+  color: var(--palo-alto);
+}
+
+.library-feature-copy p {
+  max-width: 45rem;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.library-feature-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.library-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  min-height: 2.75rem;
+  border-radius: .55rem;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.library-action-primary {
+  padding: .7rem 1rem;
+  color: var(--white);
+  background: color-mix(in srgb, var(--cardinal) 68%, white);
+}
+
+.library-action-primary:hover {
+  background: var(--cardinal);
+}
+
+.library-action-ghost {
+  color: var(--digital-blue);
+}
+
+.library-action-ghost:hover {
+  color: var(--lagunita);
+}
+
+.library-lectures {
+  padding-top: 2rem;
+}
+
+.library-arc-stack {
+  display: grid;
+  gap: 3.3rem;
+  margin-top: 2rem;
+}
+
+.library-arc {
+  display: grid;
+  gap: 1rem;
+}
+
+.library-arc h3 {
+  margin: 0 0 .2rem;
+  color: var(--cardinal);
+  font-family: var(--font-roboto-mono), ui-monospace, monospace;
+  font-size: .75rem;
+  font-weight: 400;
+  letter-spacing: .18em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.library-card-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.library-lecture-card {
+  display: grid;
+  gap: .85rem;
+  padding: 1.45rem 1.55rem;
+  border-radius: 8px;
+}
+
+.library-lecture-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .6rem;
+  color: var(--muted);
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.library-lecture-meta strong {
+  color: var(--cardinal);
+  font-family: var(--font-roboto-mono), ui-monospace, monospace;
+  font-weight: 700;
+}
+
+.library-kind-pill {
+  padding: .125rem .625rem;
+  color: var(--muted);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.library-lecture-card h4 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.library-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem .65rem;
+}
+
+.library-chip {
+  display: inline-flex;
+  max-width: 18rem;
+  align-items: center;
+  gap: .38rem;
+  overflow: hidden;
+  padding: .25rem .75rem;
+  color: var(--muted);
+  background: var(--fog-light);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.library-chip span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.library-chip-slides {
+  color: var(--cardinal);
+  background: color-mix(in srgb, var(--cardinal) 6%, white);
+  border-color: color-mix(in srgb, var(--cardinal) 20%, var(--line));
+}
+
+.library-chip-video {
+  color: var(--black-60);
+  opacity: .62;
+}
+
+.library-chip-book,
+.library-chip-default {
+  color: var(--palo-alto);
+  background: color-mix(in srgb, var(--palo-alto) 6%, white);
+  border-color: color-mix(in srgb, var(--palo-alto) 16%, var(--line));
+}
+
+.library-reading-band {
+  background: var(--fog-light);
+  border-block: 1px solid var(--line);
+}
+
+.library-reading-heading {
+  display: grid;
+  gap: .75rem;
+  margin-bottom: 2rem;
+}
+
+.library-reading-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.library-reading-card {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  padding: 1.4rem;
+  border-radius: 8px;
+}
+
+.library-reading-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.library-reading-card ul {
+  display: grid;
+  gap: .75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.library-reading-card a {
+  display: flex;
+  align-items: flex-start;
+  gap: .55rem;
+  color: var(--palo-alto);
+  line-height: 1.45;
+}
+
+.library-reading-card a:hover {
+  color: var(--cardinal);
+}
+
+.library-outcomes {
+  display: grid;
+  grid-template-columns: minmax(0, .62fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 3rem;
+}
+
+.library-outcome-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.library-outcome-card {
+  display: grid;
+  gap: .9rem;
+  padding: 1.35rem;
+  border-radius: 8px;
+}
+
+.library-outcome-card span {
+  color: var(--cardinal);
+  font-family: var(--font-roboto-mono), ui-monospace, monospace;
+  font-size: .82rem;
+  font-weight: 700;
+}
+
+.library-outcome-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}

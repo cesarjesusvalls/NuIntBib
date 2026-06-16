@@ -1,0 +1,147 @@
+.text-block p {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.text-block p:first-child {
+  margin-top: 0;
+}
+
+.quote-panel {
+  padding: 2rem;
+  color: white;
+  background: var(--cardinal);
+  border-radius: var(--radius);
+}
+
+.quote-panel blockquote {
+  margin: 0;
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.12;
+}
+
+.quote-panel cite {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  opacity: .74;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.process-card {
+  padding: 1.25rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.process-card span {
+  display: block;
+  margin-bottom: .5rem;
+  color: var(--cardinal);
+  font-weight: 700;
+}
+
+.article-shell {
+  display: grid;
+  gap: 1.5rem;
+  width: min(100% - 2rem, 52rem);
+  margin-inline: auto;
+  padding-block: 3rem 6rem;
+}
+
+.article-card {
+  padding: 2rem;
+}
+
+.article-title-card {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-title-card .type-h1 {
+  max-width: 16ch;
+  margin: 0;
+}
+
+.article-lede {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+
+.article-body-card {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.article-body {
+  color: var(--black-90);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.article-body p {
+  margin: 1.15rem 0 0;
+}
+
+.article-body p:first-child {
+  margin-top: 0;
+}
+
+.article-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.article-nav-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.article-nav-grid .button {
+  width: fit-content;
+}
+
+.article-nav-grid .button:nth-child(2) {
+  justify-self: end;
+}
+
+.article-nav-grid .button:last-child {
+  grid-column: 1 / -1;
+  margin-top: 1rem;
+}
+
+.article-shell > .panel .updates-signup {
+  padding: 0;
+  place-items: start;
+  text-align: left;
+}
+
+.article-shell > .panel .updates-signup::before {
+  content: none;
+}
+
+.article-shell > .panel .updates-signup .type-h1 {
+  font-family: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+.article-shell > .panel .updates-form {
+  margin-top: .75rem;
+}
+

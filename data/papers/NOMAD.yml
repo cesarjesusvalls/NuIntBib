@@ -1,0 +1,467 @@
+- bibtag: NOMAD:2011gyy
+  title: A search for single photon events in neutrino interactions
+  collaboration: NOMAD
+  arxiv: '1111.3713'
+  doi: 10.1016/j.physletb.2011.11.049
+  journal: Phys.Lett.B
+  volume: '706'
+  pages: '268'
+  year: 2012
+  published_date: 2011-11
+  inspire_recid: 946100
+  citation_count: 46
+  abstract: We present a search for neutrino-induced events containing a single, exclusive photon using
+    data from the NOMAD experiment at the CERN SPS where the average energy of the neutrino flux is $\simeq
+    25$ GeV. The search is motivated by an excess of electron-like events in the 200--475 MeV energy region
+    as reported by the MiniBOONE experiment. In NOMAD, photons are identified via their conversion to
+    $e^+e^-$ in an active target embedded in a magnetic field. The background to the single photon signal
+    is dominated by the asymmetric decay of neutral pions produced either in a coherent neutrino-nucleus
+    interaction, or in a neutrino-nucleon neutral current deep inelastic scattering, or in an interaction
+    occurring outside the fiducial volume. All three backgrounds are determined {\it in situ} using control
+    data samples prior to opening the `signal-box'. In the signal region, we observe {\bf 155} events
+    with a predicted background of {\bf 129.2 $\pm$ 8.5 $\pm$ 3.3}. We interpret this as null evidence
+    for excess of single photon events, and set a limit. Assuming that the hypothetical single photon
+    has a momentum distribution similar to that of a photon from the coherent $\pi^0$ decay, the measurement
+    yields an upper limit on single photon events, {\boldmath $< 4.0 \times 10^{-4}$} per \nm\ charged
+    current event. Narrowing the search to events where the photon is approximately collinear with the
+    incident neutrino, we observe {\bf 78} events with a predicted background of {\bf 76.6 $\pm$ 4.9 $\pm$
+    1.9} yielding a more stringent upper limit, {\boldmath $< 1.6 \times 10^{-4}$} per \nm\ charged current
+    event.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1111.3713
+    doi: https://doi.org/10.1016/j.physletb.2011.11.049
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2011gyy
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: NC single gamma
+    pion_bucket: null
+    measurement_type: limit
+    observables: upper limit on single photon production
+    energy_notes: null
+- bibtag: NOMAD:2009idt
+  title: A Measurement of Coherent Neutral Pion Production in Neutrino Neutral Current Interactions in
+    NOMAD
+  collaboration: NOMAD
+  arxiv: '0910.0062'
+  doi: 10.1016/j.physletb.2009.10.083
+  journal: Phys.Lett.B
+  volume: '682'
+  pages: '177'
+  year: 2009
+  published_date: 2009-10
+  inspire_recid: 832713
+  citation_count: 62
+  abstract: 'We present a study of exclusive neutral pion production in neutrino-nucleus Neutral Current
+    interactions using data from the NOMAD experiment at the CERN SPS. The data correspond to $1.44 \times
+    10^6$ muon-neutrino Charged Current interactions in the energy range $2.5 \leq E_{\nu} \leq 300$ GeV.
+    Neutrino events with only one visible $\pi^0$ in the final state are expected to result from two Neutral
+    Current processes: coherent $\pi^0$ production, {\boldmath $\nu + {\cal A} \to \nu + {\cal A} + \pi^0$}
+    and single $\pi^0$ production in neutrino-nucleon scattering. The signature of coherent $\pi^0$ production
+    is an emergent $\pi^0$ almost collinear with the incident neutrino while $\pi^0$''s produced in neutrino-nucleon
+    deep inelastic scattering have larger transverse momenta. In this analysis all relevant backgrounds
+    to the coherent $\pi^0$ production signal are measured using data themselves. Having determined the
+    backgrounds, and using the Rein-Sehgal model for the coherent $\pi^0$ production to compute the detection
+    efficiency, we obtain {\boldmath $4630 \pm 522 (stat) \pm 426 (syst)$} corrected coherent-$\pi^0$
+    events with $E_{\pi^0} \geq 0.5$ GeV. We measure {\boldmath $\sigma (\nu {\cal A} \to \nu {\cal A}
+    \pi^0) = [ 72.6 \pm 8.1(stat) \pm 6.9(syst) ] \times 10^{-40} cm^2/nucleus$}. This is the most precise
+    measurement of the coherent $\pi^0$ production to date.'
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0910.0062
+    doi: https://doi.org/10.1016/j.physletb.2009.10.083
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2009idt
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: NCcoh pi0
+    pion_bucket: pi0
+    measurement_type: total
+    observables: total cross section
+    energy_notes: 'E: 2.5-300GeV'
+- bibtag: NOMAD:2009qmu
+  title: A Study of quasi-elastic muon neutrino and antineutrino scattering in the NOMAD experiment
+  collaboration: NOMAD
+  arxiv: '0812.4543'
+  doi: 10.1140/epjc/s10052-009-1113-0
+  journal: Eur.Phys.J.C
+  volume: '63'
+  pages: '355'
+  year: 2009
+  published_date: '2009'
+  inspire_recid: 810117
+  citation_count: 361
+  abstract: We have studied the muon neutrino and antineutrino quasi-elastic (QEL) scattering reactions
+    ($\nu_\mu n\to \mu^- p$ and $\bar{\nu}_\mu p\to \mu^+ n$) using a set of experimental data collected
+    by the NOMAD collaboration. We have performed measurements of the cross-section of these processes
+    on a nuclear target (mainly Carbon) normalizing it to the total $\nu_\mu$ ($\bar{\nu}_\mu$) charged
+    current cross-section. The results for the flux averaged QEL cross-sections in the (anti)neutrino
+    energy interval 3-100 GeV are $\sigma^{qel}_{\nu_\mu} = (0.92 \pm 0.02 (stat) \pm 0.06 (syst))\times
+    10^{-38}~\cm^2$ and $\sigma{qel}_{\bar{\nu}_\mu} = (0.81 \pm 0.05 (stat) \pm 0.08 (syst))\times 10^{-38}~\cm^2$
+    for neutrino and antineutrino, respectively. The axial mass parameter $M_A$ was extracted from the
+    measured quasi-elastic neutrino cross-section. The corresponding result is $M_A = 1.05 \pm 0.02 (stat)
+    \pm 0.06 (syst)~GeV$. It is consistent with the axial mass values recalculated from the antineutrino
+    cross-section and extracted from the pure $Q^2$ shape analysis of the high purity sample of $\nu_\mu$
+    quasi-elastic 2-track events, but has smaller systematic error and should be quoted as the main result
+    of this work. Our measured $M_A$ is found to be in good agreement with the world average value obtained
+    in previous deuterium filled bubble chamber experiments. The NOMAD measurement of $M_A$ is lower than
+    those recently published by K2K and MiniBooNE collaborations. However, within the large errors quoted
+    by these experiments on $M_A$, these results are compatible with the more precise NOMAD value.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0812.4543
+    doi: https://doi.org/10.1140/epjc/s10052-009-1113-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2009qmu
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - C
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: total
+    observables: total cross section and axial mass
+    energy_notes: 'E: 3-100GeV'
+- bibtag: NOMAD:2007krq
+  title: A Precise measurement of the muon neutrino-nucleon inclusive charged current cross-section off
+    an isoscalar target in the energy range 2.5 < E(nu) < 40-GeV by NOMAD
+  collaboration: NOMAD
+  arxiv: '0711.1183'
+  doi: 10.1016/j.physletb.2007.12.027
+  journal: Phys.Lett.B
+  volume: '660'
+  pages: '19'
+  year: 2008
+  published_date: 2007-11
+  inspire_recid: 767013
+  citation_count: 144
+  abstract: We present a measurement of the muon neutrino-nucleon inclusive charged current cross-section,
+    off an isoscalar target, in the neutrino energy range $2.5 \leq E_\nu \leq 40$ GeV. The significance
+    of this measurement is its precision, $\pm 4$% in $2.5 \leq E_\nu \leq 10$ GeV, and $\pm 2.6$% in
+    $10 \leq E_\nu \leq 40$ GeV regions, where significant uncertainties in previous experiments still
+    exist, and its importance to the current and proposed long baseline neutrino oscillation experiments.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0711.1183
+    doi: https://doi.org/10.1016/j.physletb.2007.12.027
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2007krq
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total cross section
+    energy_notes: 'E: 2.5-40GeV'
+- bibtag: NOMAD:2004djf
+  title: A Study of strange particles produced in neutrino neutral current interactions in the NOMAD experiment
+  collaboration: NOMAD
+  arxiv: hep-ex/0409037
+  doi: 10.1016/j.nuclphysb.2004.09.013
+  journal: Nucl.Phys.B
+  volume: '700'
+  pages: '51'
+  year: 2004
+  published_date: 2004-09
+  inspire_recid: 659147
+  citation_count: 12
+  abstract: "Results of a detailed study of strange particle production in neutrino neutral current interactions\
+    \ are presented using the data from the NOMAD experiment. Integral yields of neutral strange particles\
+    \ ( \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tK\t\t\t\t\t\t\t\ts\t\t\t\t\t\t\t\t0\t\t\t\t\t\t\t\t\t\t\t\t\t ,\
+    \ Λ, \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tΛ\t\t\t\t\t\t\t\t¯\t\t\t\t\t\t\t\t\t\t\t\t\t ) have been measured.\
+    \ Decays of resonances and heavy hyperons with an identified \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tK\t\t\t\
+    \t\t\t\t\ts\t\t\t\t\t\t\t\t0\t\t\t\t\t\t\t\t\t\t\t\t\t or Λ in the final state have been analyzed.\
+    \ Clear signals corresponding to \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tK\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
+    ⋆\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t±\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t and \t\t\t\t\t\t\t\
+    Σ\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t(\t\t\t\t\t\t\t\t\t1385\t\t\t\t\t\t\t\t\t)\t\t\t\t\
+    \t\t\t\t\t\t\t\t\t\t\t\t±\t\t\t\t\t\t\t\t\t\t\t\t\t have been observed. First results on the measurements\
+    \ of the Λ polarization in neutral current interactions have been obtained."
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0409037
+    doi: https://doi.org/10.1016/j.nuclphysb.2004.09.013
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2004djf
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: NC strange
+    pion_bucket: null
+    measurement_type: null
+    observables: strange particle yields
+    energy_notes: K0s,Lambda,Lambdabar production
+- bibtag: NOMAD:2001kdr
+  title: A Study of strange particle production in muon-neutrino charged current interactions in the NOMAD
+    experiment
+  collaboration: NOMAD
+  arxiv: hep-ex/0111057
+  doi: 10.1016/S0550-3213(01)00584-3
+  journal: Nucl.Phys.B
+  volume: '621'
+  pages: '3'
+  year: 2002
+  published_date: 2001-11
+  inspire_recid: 566751
+  citation_count: 40
+  abstract: 'A study of strange particle production in muon neutrino charged current interactions has
+    been performed using the data from the NOMAD experiment. Yields of neutral strange particles K0s,
+    Lambda, AntiLambda have been measured. Mean multiplicities are reported as a function of the event
+    kinematic variables Enu, W2 and Q2 as well as of the variables describing particle behaviour within
+    a hadronic jet: xF, z and pT2. Decays of resonances and heavy hyperons with identified K0s and Lambda
+    in the final state have been analyzed. Clear signals corresponding to K*+-, Sigma*+-, Xi- and Sigma0
+    have been observed.'
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0111057
+    doi: https://doi.org/10.1016/S0550-3213(01)00584-3
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2001kdr
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CC strange
+    pion_bucket: null
+    measurement_type: null
+    observables: strange particle yields
+    energy_notes: K0s,Lambda,Lambdabar production
+- bibtag: NOMAD:2001kpt
+  title: Study of D*+ production in nu/mu charged current interactions in the NOMAD experiment
+  collaboration: NOMAD
+  arxiv: null
+  doi: 10.1016/S0370-2693(01)01493-9
+  journal: Phys.Lett.B
+  volume: '526'
+  pages: '278'
+  year: 2002
+  published_date: 2001-11
+  inspire_recid: 567771
+  citation_count: 22
+  abstract: 'A search was made among ν μ charged current events collected in the NOMAD experiment for
+    the reaction: ν μ +N→μ − +D ★+ + hadrons ↪ D 0 +π + ↪ K − +π + . A high purity D ★+ sample composed
+    of 35 events was extracted. The D ★+ yield in ν μ charged current interactions was measured to be
+    T =(0.79±0.17(stat.)±0.10(syst.))%. The mean fraction of the hadronic jet energy taken by the D ★+
+    is 0.67±0.02(stat.)±0.02(syst.). The distributions of the fragmentation variables z, P T 2 and x F
+    for D ★+ are also presented.'
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/S0370-2693(01)01493-9
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2001kpt
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CC Dstar+
+    pion_bucket: null
+    measurement_type: null
+    observables: D★+ yield and fragmentation
+    energy_notes: null
+- bibtag: NOMAD:2001iup
+  title: Measurement of the anti-Lambda polarization in muon-neutrino charged current interactions in
+    the NOMAD experiment
+  collaboration: NOMAD
+  arxiv: hep-ex/0103047
+  doi: 10.1016/S0550-3213(01)00181-X
+  journal: Nucl.Phys.B
+  volume: '605'
+  pages: '3'
+  year: 2001
+  published_date: 2001-03
+  inspire_recid: 554759
+  citation_count: 71
+  abstract: We present a measurement of the polarization of Antilambda hyperons produced in nu_mu charged
+    current interactions. The full data sample from the NOMAD experiment has been analyzed using the same
+    V0 identification procedure and analysis method reported in a previous paper for the case of Lambda
+    hyperons. The Antilambda polarization has been measured for the first time in a neutrino experiment.
+    The polarization vector is found to be compatible with zero.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0103047
+    doi: https://doi.org/10.1016/S0550-3213(01)00181-X
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2001iup
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CC strange
+    pion_bucket: null
+    measurement_type: null
+    observables: Antilambda polarization
+    energy_notes: null
+- bibtag: NOMAD:2001ozt
+  title: Inclusive production of rho0(770), f(0)(980) and f(2)(1270) mesons in muon-neutrino charged current
+    interactions
+  collaboration: NOMAD
+  arxiv: hep-ex/0103017
+  doi: 10.1016/S0550-3213(01)00054-2
+  journal: Nucl.Phys.B
+  volume: '601'
+  pages: '3'
+  year: 2001
+  published_date: 2001-03
+  inspire_recid: 554060
+  citation_count: 21
+  abstract: The inclusive production of the meson resonances $\rho^{0}(770)$, $f_0(980)$ and $f_2(1270)$
+    in neutrino-nucleus charged current interactions has been studied with the NOMAD detector exposed
+    to the wide band neutrino beam generated by 450 GeV protons at the CERN SPS. For the first time the
+    $f_{0}(980)$ meson is observed in neutrino interactions. The statistical significance of its observation
+    is 6 standard deviations. The presence of $f_{2}(1270)$ in neutrino interactions is reliably established.
+    The average multiplicity of these three resonances is measured as a function of several kinematic
+    variables. The experimental results are compared to the multiplicities obtained from a simulation
+    based on the Lund model. In addition, the average multiplicity of $\rho^{0}(770)$ in antineutrino
+    - nucleus interactions is measured.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0103017
+    doi: https://doi.org/10.1016/S0550-3213(01)00054-2
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2001ozt
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CC resonances
+    pion_bucket: null
+    measurement_type: null
+    observables: resonance production
+    energy_notes: ρ0,f0,f2 multiplicities
+- bibtag: NOMAD:2001vdk
+  title: A Study of backward going p and pi in neutrino(muon) CC interactions with the NOMAD detector
+  collaboration: NOMAD
+  arxiv: hep-ex/0105048
+  doi: 10.1016/S0550-3213(01)00293-0
+  journal: Nucl.Phys.B
+  volume: '609'
+  pages: '255'
+  year: 2001
+  published_date: 2001-05
+  inspire_recid: 556818
+  citation_count: 17
+  abstract: Backward proton and $\pi^-$ production has been studied in $\nu_{\mu}CC$ interactions with
+    carbon nuclei. Detailed analyses of the momentum distributions, of the production rates, and of the
+    general features of events with a backward going particle, have been carried out in order to understand
+    the mechanism producing these particles. The backward proton data have been compared with the predictions
+    of the reinteraction and the short range correlation models.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0105048
+    doi: https://doi.org/10.1016/S0550-3213(01)00293-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2001vdk
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: null
+    observables: backward proton/pion production
+    energy_notes: null
+- bibtag: NOMAD:2000wdf
+  title: Measurement of the Lambda polarization in nu/mu charged current interactions in the NOMAD experiment
+  collaboration: NOMAD
+  arxiv: null
+  doi: 10.1016/S0550-3213(00)00503-4
+  journal: Nucl.Phys.B
+  volume: '588'
+  pages: '3'
+  year: 2000
+  published_date: 2000-07
+  inspire_recid: 532522
+  citation_count: 117
+  abstract: 'The Λ polarization in ν μ charged current interactions has been measured in the NOMAD experiment.
+    The event sample (8087 reconstructed Λ ''s) is more than an order of magnitude larger than that of
+    previous bubble chamber experiments, while the quality of event reconstruction is comparable. We observe
+    negative polarization along the W -boson direction which is enhanced in the target fragmentation region:
+    P x (x F <0)=−0.21±0.04 (stat) ±0.02 (sys) . In the current fragmentation region we find P x (x F
+    >0)=−0.09±0.06 (stat) ±0.03 (sys) . These results provide a test of different models describing the
+    nucleon spin composition and the spin transfer mechanisms. A significant transverse polarization (in
+    the direction orthogonal to the Λ production plane) has been observed for the first time in a neutrino
+    experiment: P y =−0.22±0.03 (stat) ±0.01 (sys) . The dependence of the absolute value of P y on the
+    Λ transverse momentum with respect to the hadronic jet direction is in qualitative agreement with
+    the results from unpolarized hadron–hadron experiments.'
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/S0550-3213(00)00503-4
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2000wdf
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CC strange
+    pion_bucket: null
+    measurement_type: null
+    observables: Lambda polarization
+    energy_notes: Target and current fragmentation regions
+- bibtag: NOMAD:1998gsx
+  title: Precision measurement of scaled momentum, charge multiplicity and thrust in (muon)neutrino N
+    and (muon)anti-neutrino interactions
+  collaboration: NOMAD
+  arxiv: null
+  doi: 10.1016/S0370-2693(98)01477-4
+  journal: Phys.Lett.B
+  volume: '445'
+  pages: '439'
+  year: 1999
+  published_date: 1998-11
+  inspire_recid: 480555
+  citation_count: 16
+  abstract: We report the first precision measurements of the scaled momentum, the charge multiplicity,
+    and the thrust of hadronic jets in the Breit frame in Deep Inelastic Scattering ν μ N and ν ̄ μ N
+    charged current events over the Q 2 range from 1 to 100 GeV 2 . The neutrino data, obtained in the
+    NOMAD experiment at the CERN SPS, extend the Q 2 -evolution of these parameters by two orders of magnitude,
+    and with commensurate precision, when compared to those reported by the ep and e + e − experiments.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/S0370-2693(98)01477-4
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:1998gsx
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: null
+    observables: jet properties in Breit frame
+    energy_notes: 'Q2: 1-100GeV2'

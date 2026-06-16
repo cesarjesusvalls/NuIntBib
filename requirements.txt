@@ -1,0 +1,5 @@
+# Tooling for building and updating the NuIntBib database.
+# Install into a venv:  uv venv .venv && uv pip install --python .venv -r requirements.txt
+pyyaml
+requests
+jsonschema

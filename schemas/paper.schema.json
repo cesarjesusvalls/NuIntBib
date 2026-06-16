@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NuIntBib Paper Record",
+  "description": "One published neutrino cross-section measurement paper tracked by NuIntBib.",
+  "type": "object",
+  "required": ["bibtag", "title", "collaboration", "year", "measurements"],
+  "properties": {
+    "bibtag": {
+      "type": "string",
+      "description": "INSPIRE-HEP texkey, e.g. T2K:2013nor. Primary key.",
+      "pattern": "^[A-Za-z0-9.-]+:[0-9a-z]+$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "collaboration": { "type": "string", "minLength": 1 },
+    "arxiv": { "type": ["string", "null"] },
+    "doi": { "type": ["string", "null"] },
+    "journal": { "type": ["string", "null"] },
+    "volume": { "type": ["string", "null"] },
+    "pages": { "type": ["string", "null"] },
+    "year": { "type": "integer", "minimum": 1960, "maximum": 2100 },
+    "published_date": {
+      "type": ["string", "null"],
+      "description": "ISO date (YYYY-MM-DD) of the earliest INSPIRE date for the record."
+    },
+    "inspire_recid": { "type": ["integer", "null"] },
+    "citation_count": { "type": ["integer", "null"] },
+    "abstract": { "type": ["string", "null"] },
+    "added": {
+      "type": ["string", "null"],
+      "description": "ISO date this record was added to the NuIntBib database."
+    },
+    "notes": { "type": ["string", "null"] },
+    "links": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "null"] }
+    },
+    "measurements": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One or more distinct cross-section measurements reported in the paper.",
+      "items": {
+        "type": "object",
+        "required": ["current", "topology"],
+        "properties": {
+          "current": { "type": "string", "enum": ["CC", "NC"] },
+          "flavor": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["numu", "numubar", "nue", "nuebar"] }
+          },
+          "flavor_note": {
+            "type": ["string", "null"],
+            "description": "Raw flavor text when it does not map cleanly to the enum (e.g. 'unspecified (likely numu)')."
+          },
+          "target": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Target material(s), e.g. Ar, CH, C, O, H2O, Fe, Pb, W, C8H8, CH2."
+          },
+          "topology": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Signal definition / interaction topology, e.g. Inclusive, CCQE, CC0pi, CC1pi+, NC1pi0, CCcohpi, DIS."
+          },
+          "pion_bucket": {
+            "type": ["string", "null"],
+            "enum": ["0pi", "pi_charged", "pi0", "multi_pi", null],
+            "description": "Derived coarse pion-content bucket for filtering."
+          },
+          "measurement_type": {
+            "type": ["string", "null"],
+            "enum": ["total", "single-diff", "double-diff", "triple-diff", "ratio", "limit", null]
+          },
+          "observables": { "type": ["string", "null"] },
+          "energy_notes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

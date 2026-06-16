@@ -1,0 +1,422 @@
+- bibtag: MiniBooNE:2018dus
+  title: First Measurement of Monoenergetic Muon Neutrino Charged Current Interactions
+  collaboration: MiniBooNE
+  arxiv: '1801.03848'
+  doi: 10.1103/PhysRevLett.120.141802
+  journal: Phys.Rev.Lett.
+  volume: '120'
+  pages: '141802'
+  year: 2018
+  published_date: '2018-01-11'
+  inspire_recid: 1647569
+  citation_count: 64
+  abstract: We report the first measurement of monoenergetic muon neutrino charged current interactions.
+    MiniBooNE has isolated 236 MeV muon neutrino events originating from charged kaon decay at rest ($K^+
+    \rightarrow \mu^+ \nu_\mu$) at the NuMI beamline absorber. These signal $\nu_\mu$-carbon events are
+    distinguished from primarily pion decay in flight $\nu_\mu$ and $\overline{\nu}_\mu$ backgrounds produced
+    at the target station and decay pipe using their arrival time and reconstructed muon energy. The significance
+    of the signal observation is at the 3.9$\sigma$ level. The muon kinetic energy, neutrino-nucleus energy
+    transfer ($\omega=E_\nu-E_\mu$), and total cross section for these events is extracted. This result
+    is the first known-energy, weak-interaction-only probe of the nucleus to yield a measurement of $\omega$
+    using neutrinos, a quantity thus far only accessible through electron scattering.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1801.03848
+    doi: https://doi.org/10.1103/PhysRevLett.120.141802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2018dus
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total cross section
+    energy_notes: monoenergetic 236MeV neutrinos
+- bibtag: MiniBooNE:2013dds
+  title: Measurement of the Antineutrino Neutral-Current Elastic Differential Cross Section
+  collaboration: MiniBooNE
+  arxiv: '1309.7257'
+  doi: 10.1103/PhysRevD.91.012004
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '012004'
+  year: 2015
+  published_date: '2013-09-27'
+  inspire_recid: 1255829
+  citation_count: 77
+  abstract: We report the measurement of the flux-averaged antineutrino neutral current elastic scattering
+    cross section ($d\sigma_{\bar \nu N \rightarrow \bar \nu N}/dQ^{2}$) on CH$_{2}$ by the MiniBooNE
+    experiment using the largest sample of antineutrino neutral current elastic candidate events ever
+    collected. The ratio of the antineutrino to neutrino neutral current elastic scattering cross sections
+    and a ratio of antineutrino neutral current elastic to antineutrino charged current quasi elastic
+    cross section is also presented.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1309.7257
+    doi: https://doi.org/10.1103/PhysRevD.91.012004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2013dds
+  measurements:
+  - current: NC
+    flavor:
+    - numubar
+    target:
+    - CH2
+    topology: NC elastic
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential cross section dσ/dQ2
+    energy_notes: null
+- bibtag: MiniBooNE:2013qnd
+  title: First measurement of the Muon Antineutrino Double-Differential Charged-Current Quasi-Elastic
+    Cross Section
+  collaboration: MiniBooNE
+  arxiv: '1301.7067'
+  doi: 10.1103/PhysRevD.88.032001
+  journal: Phys.Rev.D
+  volume: '88'
+  pages: '032001'
+  year: 2013
+  published_date: 2013-01
+  inspire_recid: 1216885
+  citation_count: 264
+  abstract: The largest sample ever recorded of $\numub$ charged-current quasi-elastic (CCQE, $\numub
+    + p \to \mup + n$) candidate events is used to produce the minimally model-dependent, flux-integrated
+    double-differential cross section $\frac{d^{2}\sigma}{dT_\mu d\uz}$ for $\numub$ incident on mineral
+    oil. This measurement exploits the unprecedented statistics of the MiniBooNE anti-neutrino mode sample
+    and provides the most complete information of this process to date. Also given to facilitate historical
+    comparisons are the flux-unfolded total cross section $\sigma(E_\nu)$ and single-differential cross
+    section $\frac{d\sigma}{d\qsq}$ on both mineral oil and on carbon by subtracting the $\numub$ CCQE
+    events on hydrogen. The observed cross section is somewhat higher than the predicted cross section
+    from a model assuming independently-acting nucleons in carbon with canonical form factor values. The
+    shape of the data are also discrepant with this model. These results have implications for intra-nuclear
+    processes and can help constrain signal and background processes for future neutrino oscillation measurements.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1301.7067
+    doi: https://doi.org/10.1103/PhysRevD.88.032001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2013qnd
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CH2
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section
+    energy_notes: largest antinu CCQE sample
+- bibtag: MiniBooNE:2010cxl
+  title: Measurement of $\nu_\mu$-induced charged-current neutral pion production cross sections on mineral
+    oil at $E_\nu\in0.5-2.0$ GeV
+  collaboration: MiniBooNE
+  arxiv: '1010.3264'
+  doi: 10.1103/PhysRevD.83.052009
+  journal: Phys.Rev.D
+  volume: '83'
+  pages: 052009
+  year: 2011
+  published_date: 2010-10
+  inspire_recid: 873458
+  citation_count: 189
+  abstract: Using a custom 3 \v{C}erenkov-ring fitter, we report cross sections for $\nu_\mu$-induced
+    charged-current single $\pi^0$ production on mineral oil (\chtwo) from a sample of 5810 candidate
+    events with 57% signal purity over an energy range of $0.5-2.0$GeV. This includes measurements of
+    the absolute total cross section as a function of neutrino energy, and flux-averaged differential
+    cross sections measured in terms of $Q^2$, $\mu^-$ kinematics, and $\pi^0$ kinematics. The sample
+    yields a flux-averaged total cross section of $(9.2\pm0.3_{stat.}\pm1.5_{syst.})\times10^{-39}$cm$^2$/CH$_2$
+    at mean neutrino energy of 0.965GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1010.3264
+    doi: https://doi.org/10.1103/PhysRevD.83.052009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2010cxl
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: CC1pi0
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: total and differential cross sections
+    energy_notes: 'E: 0.5-2.0GeV'
+- bibtag: MiniBooNE:2010eis
+  title: Measurement of Neutrino-Induced Charged-Current Charged Pion Production Cross Sections on Mineral
+    Oil at E$_{\nu}\sim 1~\textrm{GeV}$
+  collaboration: MiniBooNE
+  arxiv: '1011.3572'
+  doi: 10.1103/PhysRevD.83.052007
+  journal: Phys.Rev.D
+  volume: '83'
+  pages: '052007'
+  year: 2011
+  published_date: 2010-11
+  inspire_recid: 877512
+  citation_count: 272
+  abstract: Using a high-statistics, high-purity sample of $\nu_\mu$-induced charged current, charged
+    pion events in mineral oil (CH$_2$), MiniBooNE reports a collection of interaction cross sections
+    for this process. This includes measurements of the CC$\pi^+$ cross section as a function of neutrino
+    energy, as well as flux-averaged single- and double-differential cross sections of the energy and
+    direction of both the final-state muon and pion. In addition, each of the single-differential cross
+    sections are extracted as a function of neutrino energy to decouple the shape of the MiniBooNE energy
+    spectrum from the results. In many cases, these cross sections are the first time such quantities
+    have been measured on a nuclear target and in the 1 GeV energy range.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1011.3572
+    doi: https://doi.org/10.1103/PhysRevD.83.052007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2010eis
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: CC1pi+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: differential cross sections
+    energy_notes: E ~1GeV
+- bibtag: MiniBooNE:2009dxl
+  title: Measurement of $\nu_\mu$ and $\bar{\nu}_\mu$ induced neutral current single $\pi^0$ production
+    cross sections on mineral oil at $E_\nu \sim {\cal O}(1 {\rm GeV})$
+  collaboration: MiniBooNE
+  arxiv: '0911.2063'
+  doi: 10.1103/PhysRevD.81.013005
+  journal: Phys.Rev.D
+  volume: '81'
+  pages: '013005'
+  year: 2010
+  published_date: 2009-11
+  inspire_recid: 836624
+  citation_count: 206
+  abstract: MiniBooNE reports the first absolute cross sections for neutral current single \pi^0 production
+    on CH_2 induced by neutrino and antineutrino interactions measured from the largest sets of NC \pi^0
+    events collected to date. The principal result consists of differential cross sections measured as
+    functions of \pi^0 momentum and \pi^0 angle averaged over the neutrino flux at MiniBooNE. We find
+    total cross sections of (4.76+/-0.05_{stat}+/-0.40_{sys})*10^{-40} cm^2/nucleon at a mean energy of
+    <E_\nu>=808 MeV and (1.48+/-0.05_{stat}+/-0.14_{sys})*10^{-40} cm^2/nucleon at a mean energy of <E_\nu>=664
+    MeV for \nu_\mu and \bar\nu_\mu induced production, respectively. In addition, we have included measurements
+    of the neutrino and antineutrino total cross sections for incoherent exclusive NC 1\pi^0 production
+    corrected for the effects of final state interactions to compare to prior results.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0911.2063
+    doi: https://doi.org/10.1103/PhysRevD.81.013005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2009dxl
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CH2
+    topology: NC1pi0
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: total and differential cross sections
+    energy_notes: 'mean energy: numu=808MeV, numubar=664MeV'
+- bibtag: MiniBooNE:2010bsu
+  title: First Measurement of the Muon Neutrino Charged Current Quasielastic Double Differential Cross
+    Section
+  collaboration: MiniBooNE
+  arxiv: '1002.2680'
+  doi: 10.1103/PhysRevD.81.092005
+  journal: Phys.Rev.D
+  volume: '81'
+  pages: 092005
+  year: 2010
+  published_date: 2010-02
+  inspire_recid: 845845
+  citation_count: 722
+  abstract: A high-statistics sample of charged-current muon neutrino scattering events collected with
+    the MiniBooNE experiment is analyzed to extract the first measurement of the double differential cross
+    section ($\frac{d^2\sigma}{dT_\mu d\cos\theta_\mu}$) for charged-current quasielastic (CCQE) scattering
+    on carbon. This result features minimal model dependence and provides the most complete information
+    on this process to date. With the assumption of CCQE scattering, the absolute cross section as a function
+    of neutrino energy ($\sigma[E_\nu]$) and the single differential cross section ($\frac{d\sigma}{dQ^2}$)
+    are extracted to facilitate comparison with previous measurements. These quantities may be used to
+    characterize an effective axial-vector form factor of the nucleon and to improve the modeling of low-energy
+    neutrino interactions on nuclear targets. The results are relevant for experiments searching for neutrino
+    oscillations.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1002.2680
+    doi: https://doi.org/10.1103/PhysRevD.81.092005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2010bsu
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: double-diff
+    observables: double-differential cross section (muon KE, angle)
+    energy_notes: null
+- bibtag: MiniBooNE:2010xqw
+  title: Measurement of the Neutrino Neutral-Current Elastic Differential Cross Section on Mineral Oil
+    at $E_\nu \sim 1$ GeV
+  collaboration: MiniBooNE
+  arxiv: '1007.4730'
+  doi: 10.1103/PhysRevD.82.092005
+  journal: Phys.Rev.D
+  volume: '82'
+  pages: 092005
+  year: 2010
+  published_date: 2010-07
+  inspire_recid: 863070
+  citation_count: 237
+  abstract: We report a measurement of the flux-averaged neutral-current elastic differential cross section
+    for neutrinos scattering on mineral oil (CH$_2$) as a function of four-momentum transferred squared.
+    It is obtained by measuring the kinematics of recoiling nucleons with kinetic energy greater than
+    50~MeV which are readily detected in MiniBooNE. This differential cross-section distribution is fit
+    with fixed nucleon form factors apart from an axial mass, $M_{A}$, that provides a best fit for $M_A=
+    1.39\pm0.11$~GeV. Additionally, single protons with kinetic energies above 350 MeV can be distinguished
+    from neutrons and multiple nucleon events. Using this marker, the strange quark contribution to the
+    neutral-current axial vector form factor at $Q^2 = 0$, $\Delta s$, is found to be $\Delta s=0.08\pm0.26$.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1007.4730
+    doi: https://doi.org/10.1103/PhysRevD.82.092005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2010xqw
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: NC elastic
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: differential cross section dσ/dQ2
+    energy_notes: nucleon KE > 50MeV
+- bibtag: MiniBooNE:2009koj
+  title: Measurement of the $\nu_\mu$ charged current $\pi^+$ to quasi-elastic cross section ratio on
+    mineral oil in a 0.8-GeV neutrino beam
+  collaboration: MiniBooNE
+  arxiv: '0904.3159'
+  doi: 10.1103/PhysRevLett.103.081801
+  journal: Phys.Rev.Lett.
+  volume: '103'
+  pages: 081801
+  year: 2009
+  published_date: 2009-04
+  inspire_recid: 818393
+  citation_count: 93
+  abstract: Using high statistics samples of charged current $\nu_\mu$ interactions, MiniBooNE reports
+    a measurement of the single charged pion production to quasi-elastic cross section ratio on mineral
+    oil (CH$_2$), both with and without corrections for hadron re-interactions in the target nucleus.
+    The result is provided as a function of neutrino energy in the range 0.4 GeV $< E_\nu <$ 2.4 GeV with
+    11% precision in the region of highest statistics. The results are consistent with previous measurements
+    and the prediction from historical neutrino calculations.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0904.3159
+    doi: https://doi.org/10.1103/PhysRevLett.103.081801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2009koj
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: CC1pi+/CCQE
+    pion_bucket: pi_charged
+    measurement_type: ratio
+    observables: ratio CC1π+/CCQE vs energy
+    energy_notes: 'E: 0.4-2.4GeV'
+- bibtag: MiniBooNE:2007iti
+  title: Measurement of Muon Neutrino Quasi-Elastic Scattering on Carbon
+  collaboration: MiniBooNE
+  arxiv: '0706.0926'
+  doi: 10.1103/PhysRevLett.100.032301
+  journal: Phys.Rev.Lett.
+  volume: '100'
+  pages: '032301'
+  year: 2008
+  published_date: 2007-06
+  inspire_recid: 752503
+  citation_count: 301
+  abstract: The observation of neutrino oscillations is clear evidence for physics beyond the standard
+    model. To make precise measurements of this phenomenon, neutrino oscillation experiments, including
+    MiniBooNE, require an accurate description of neutrino charged current quasi-elastic (CCQE) cross
+    sections to predict signal samples. Using a high-statistics sample of muon neutrino CCQE events, MiniBooNE
+    finds that a simple Fermi gas model, with appropriate adjustments, accurately characterizes the CCQE
+    events observed in a carbon-based detector. The extracted parameters include an effective axial mass,
+    M_A^eff = 1.23+/-0.20 GeV, that describes the four-momentum dependence of the axial-vector form factor
+    of the nucleon; and a Pauli-suppression parameter, kappa = 1.019+/-0.011. Such a modified Fermi gas
+    model may also be used by future accelerator-based experiments measuring neutrino oscillations on
+    nuclear targets.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0706.0926
+    doi: https://doi.org/10.1103/PhysRevLett.100.032301
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2007iti
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: CCQE
+    pion_bucket: 0pi
+    measurement_type: null
+    observables: axial mass measurement
+    energy_notes: MA=1.23±0.20GeV
+- bibtag: MiniBooNE:2008mmr
+  title: First Observation of Coherent $\pi^0$ Production in Neutrino Nucleus Interactions with $E_{\nu}<$
+    2 GeV
+  collaboration: MiniBooNE
+  arxiv: '0803.3423'
+  doi: 10.1016/j.physletb.2008.05.006
+  journal: Phys.Lett.B
+  volume: '664'
+  pages: '41'
+  year: 2008
+  published_date: 2008-03
+  inspire_recid: 781931
+  citation_count: 170
+  abstract: The MiniBooNE experiment at Fermilab has amassed the largest sample to date of $\pi^0$s produced
+    in neutral current (NC) neutrino-nucleus interactions at low energy. This paper reports a measurement
+    of the momentum distribution of $\pi^0$s produced in mineral oil (CH$_2$) and the first observation
+    of coherent $\pi^0$ production below 2 GeV. In the forward direction, the yield of events observed
+    above the expectation for resonant production is attributed primarily to coherent production off carbon,
+    but may also include a small contribution from diffractive production on hydrogen. Integrated over
+    the MiniBooNE neutrino flux, the sum of the NC coherent and diffractive modes is found to be (19.5
+    $\pm$1.1 (stat) $\pm$2.5 (sys))% of all exclusive NC $\pi^0$ production at MiniBooNE. These measurements
+    are of immediate utility because they quantify an important background to MiniBooNE's search for $\nu_{\mu}
+    \to \nu_e$ oscillations.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0803.3423
+    doi: https://doi.org/10.1016/j.physletb.2008.05.006
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2008mmr
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - CH2
+    topology: NC1pi0
+    pion_bucket: pi0
+    measurement_type: null
+    observables: momentum distribution and coherent fraction
+    energy_notes: coherent+diffractive ~19.5% of NC1π0

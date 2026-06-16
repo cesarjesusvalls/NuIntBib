@@ -1,0 +1,272 @@
+- bibtag: ArgoNeuT:2020kir
+  title: First measurement of electron neutrino scattering cross section on argon
+  collaboration: ArgoNeuT
+  arxiv: '2004.01956'
+  doi: 10.1103/PhysRevD.102.011101
+  journal: Phys.Rev.D
+  volume: '102'
+  pages: '011101'
+  year: 2020
+  published_date: '2020-04-04'
+  inspire_recid: 1789766
+  citation_count: 35
+  abstract: We report the first electron neutrino cross section measurements on argon, based on data collected
+    by the ArgoNeuT experiment running in the GeV-scale NuMI beamline at Fermilab. A flux-averaged $\nu_e
+    + \overline{\nu}_e$ total and a lepton angle differential cross section are extracted using 13 $\nu_e$
+    and $\overline{\nu}_e$ events identified with fully-automated selection and reconstruction. We employ
+    electromagnetic-induced shower characterization and analysis tools developed to identify $\nu_e/\overline{\nu}_e$-like
+    events among complex interaction topologies present in ArgoNeuT data ($\langle E_{\bar{\nu}_e} \rangle
+    = 4.3$ GeV and $\langle E_{\nu_e} \rangle = 10.5$ GeV). The techniques are widely applicable to searches
+    for electron-flavor appearance at short- and long-baseline using liquid argon time projection chamber
+    technology. Notably, the data-driven studies of GeV-scale $\nu_e/\overline{\nu}_e$ interactions presented
+    in this Letter probe an energy regime relevant for future DUNE oscillation physics.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2004.01956
+    doi: https://doi.org/10.1103/PhysRevD.102.011101
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ArgoNeuT:2020kir
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    - nuebar
+    target:
+    - Ar
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: total and lepton angle differential cross section
+    energy_notes: 'Average energies: nuebar=4.3GeV, nue=10.5GeV'
+- bibtag: ArgoNeuT:2018und
+  title: First measurement of the cross section for $\nu_\mu$ and $\bar{\nu}_\mu$ induced single charged
+    pion production on argon using ArgoNeuT
+  collaboration: ArgoNeuT
+  arxiv: '1804.10294'
+  doi: 10.1103/PhysRevD.98.052002
+  journal: Phys.Rev.D
+  volume: '98'
+  pages: '052002'
+  year: 2018
+  published_date: '2018-04-26'
+  inspire_recid: 1670609
+  citation_count: 42
+  abstract: We report on the first cross section measurement of charged-current single charged pion production
+    by neutrinos and antineutrinos on argon. This analysis was performed using the ArgoNeuT detector exposed
+    to the NuMI beam at Fermilab. The measurements are presented as functions of muon momentum, muon angle,
+    pion angle, and angle between muon and pion. The flux-averaged cross sections are measured to be $2.7\pm0.5(stat)\pm0.5(syst)
+    \times 10^{-37} \textrm{cm}^{2}/\textrm{Ar}$ for neutrinos at a mean energy of 9.6 GeV and $8.4\pm0.9(stat)^{+1.0}_{-0.8}(syst)
+    \times 10^{-38} \textrm{cm}^{2}/\textrm{Ar}$ for antineutrinos at a mean energy of 3.6 GeV with the
+    charged pion momentum above 100 MeV/$c$. The results are compared with several model predictions.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1804.10294
+    doi: https://doi.org/10.1103/PhysRevD.98.052002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ArgoNeuT:2018und
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ar
+    topology: CC1pi
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: differential cross sections (muon momentum, muon angle, pion angle, muon-pion angle)
+    energy_notes: 'pion momentum > 100 MeV/c, mean energies: numu=9.6GeV, numubar=3.6GeV'
+- bibtag: ArgoNeuT:2015ldo
+  title: Measurement of $\nu_{\mu}$ and $\bar{\nu}_{\mu}$ neutral current $\pi^{0} \rightarrow \gamma\gamma$
+    production in the ArgoNeuT detector
+  collaboration: ArgoNeuT
+  arxiv: '1511.00941'
+  doi: 10.1103/PhysRevD.96.012006
+  journal: Phys.Rev.D
+  volume: '96'
+  pages: '012006'
+  year: 2017
+  published_date: '2015-11-03'
+  inspire_recid: 1402595
+  citation_count: 43
+  abstract: The ArgoNeuT collaboration reports the first measurement of neutral current $\pi^{0}$ production
+    in $\nu_{\mu}$-argon and $\bar{\nu}_{\mu}$-argon scattering. This measurement was performed using
+    the ArgoNeuT liquid argon time projection chamber deployed at Fermilab's NuMI neutrino beam with an
+    exposure corresponding to 1.2$\times 10^{20}$ protons-on-target from the Fermilab Main Injector and
+    a mean energy for $\nu_{\mu}$ of 9.6~GeV and for $\bar{\nu}_{\mu}$ of 3.6~GeV. We compare the measured
+    cross section and kinematic distributions to predictions from the GENIE and NuWro neutrino interaction
+    event generators.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1511.00941
+    doi: https://doi.org/10.1103/PhysRevD.96.012006
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ArgoNeuT:2015ldo
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ar
+    topology: NC1pi0
+    pion_bucket: pi0
+    measurement_type: total
+    observables: cross section and kinematic distributions
+    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV'
+- bibtag: ArgoNeuT:2014ihi
+  title: Detection of Back-to-Back Proton Pairs in Charged-Current Neutrino Interactions with the ArgoNeuT
+    Detector in the NuMI Low Energy Beam Line
+  collaboration: ArgoNeuT
+  arxiv: '1405.4261'
+  doi: 10.1103/PhysRevD.90.012008
+  journal: Phys.Rev.D
+  volume: '90'
+  pages: 012008
+  year: 2014
+  published_date: '2014-05-16'
+  inspire_recid: 1296836
+  citation_count: 116
+  abstract: Short range nucleon-nucleon correlations in nuclei (NN SRC) carry important information on
+    nuclear structure and dynamics. NN SRC have been extensively probed through two-nucleon knock- out
+    reactions in both pion and electron scattering experiments. We report here on the detection of two-nucleon
+    knock-out events from neutrino interactions and discuss their topological features as possibly involving
+    NN SRC content in the target argon nuclei. The ArgoNeuT detector in the Main Injector neutrino beam
+    at Fermilab has recorded a sample of 30 fully reconstructed charged current events where the leading
+    muon is accompanied by a pair of protons at the interaction vertex, 19 of which have both protons
+    above the Fermi momentum of the Ar nucleus. Out of these 19 events, four are found with the two protons
+    in a strictly back-to-back high momenta configuration directly observed in the final state and can
+    be associated to nucleon Resonance pionless mechanisms involving a pre-existing short range correlated
+    np pair in the nucleus. Another fraction (four events) of the remaining 15 events have a reconstructed
+    back-to-back configuration of a np pair in the initial state, a signature compatible with one-body
+    Quasi Elastic interaction on a neutron in a SRC pair. The detection of these two subsamples of the
+    collected (mu- + 2p) events suggests that mechanisms directly involving nucleon-nucleon SRC pairs
+    in the nucleus are active and can be efficiently explored in neutrino-argon interactions with the
+    LAr TPC technology.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1405.4261
+    doi: https://doi.org/10.1103/PhysRevD.90.012008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ArgoNeuT:2014ihi
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Ar
+    topology: CC2p
+    pion_bucket: null
+    measurement_type: ratio
+    observables: two-proton topology study focusing on back-to-back configurations
+    energy_notes: Focus on SRC events
+    flavor_note: unspecified (likely numu)
+- bibtag: ArgoNeuT:2014rlj
+  title: Measurements of Inclusive Muon Neutrino and Antineutrino Charged Current Differential Cross Sections
+    on Argon in the NuMI Antineutrino Beam
+  collaboration: ArgoNeuT
+  arxiv: '1404.4809'
+  doi: 10.1103/PhysRevD.89.112003
+  journal: Phys.Rev.D
+  volume: '89'
+  pages: '112003'
+  year: 2014
+  published_date: '2014-04-18'
+  inspire_recid: 1291281
+  citation_count: 106
+  abstract: The ArgoNeuT collaboration presents measurements of inclusive muon neutrino and antineutrino
+    charged current differential cross sections on argon in the Fermilab NuMI beam operating in the low
+    energy antineutrino mode. The results are reported in terms of outgoing muon angle and momentum at
+    a mean neutrino energy of 9.6 GeV (neutrinos) and 3.6 GeV (antineutrinos), in the range $0^\circ <
+    \theta_\mu < 36^\circ$ and $0 < p_\mu < 25$ GeV/$c$, for both neutrinos and antineutrinos.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1404.4809
+    doi: https://doi.org/10.1103/PhysRevD.89.112003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ArgoNeuT:2014rlj
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ar
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross sections (muon angle and momentum)
+    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV, angles 0-36deg, momentum 0-25GeV'
+- bibtag: ArgoNeuT:2014uwh
+  title: First Measurement of Neutrino and Antineutrino Coherent Charged Pion Production on Argon
+  collaboration: ArgoNeuT
+  arxiv: '1408.0598'
+  doi: 10.1103/PhysRevLett.113.261801
+  journal: Phys.Rev.Lett.
+  volume: '113'
+  pages: '261801'
+  year: 2014
+  published_date: '2014-08-04'
+  inspire_recid: 1309590
+  citation_count: 81
+  abstract: We report on the first cross section measurements for charged current coherent pion production
+    by neutrinos and antineutrinos on argon. These measurements are performed using the ArgoNeuT detector
+    exposed to the NuMI beam at Fermilab. The cross sections are measured to be $2.6^{+1.2}_{-1.0}(stat)^{+0.3}_{-0.4}(syst)
+    \times 10^{-38} \textrm{cm}^{2}/\textrm{Ar}$ for neutrinos at a mean energy of $9.6$ GeV and $5.5^{+2.6}_{-2.1}(stat)^{+0.6}_{-0.7}(syst)
+    \times 10^{-39} \textrm{cm}^{2}/\textrm{Ar}$ for antineutrinos at a mean energy of $3.6$ GeV.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1408.0598
+    doi: https://doi.org/10.1103/PhysRevLett.113.261801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ArgoNeuT:2014uwh
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ar
+    topology: CCcoh pi
+    pion_bucket: null
+    measurement_type: total
+    observables: coherent pion production cross section
+    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV'
+- bibtag: ArgoNeuT:2011bms
+  title: First Measurements of Inclusive Muon Neutrino Charged Current Differential Cross Sections on
+    Argon
+  collaboration: ArgoNeuT
+  arxiv: '1111.0103'
+  doi: 10.1103/PhysRevLett.108.161802
+  journal: Phys.Rev.Lett.
+  volume: '108'
+  pages: '161802'
+  year: 2012
+  published_date: 2011-11
+  inspire_recid: 943972
+  citation_count: 151
+  abstract: The ArgoNeuT collaboration presents the first measurements of inclusive muon neutrino charged
+    current differential cross sections on argon. Obtained in the NuMI neutrino beamline at Fermilab,
+    the results are reported in terms of outgoing muon angle and momentum. The data are consistent with
+    the Monte Carlo expectation across the full range of kinematics sampled, $0^\circ$$<\theta_\mu$$<36^\circ$
+    and 0$<P_\mu$$<25$ GeV/c. Along with confirming the viability of liquid argon time projection chamber
+    technology for neutrino detection, the measurements allow tests of low energy neutrino scattering
+    models important for interpreting results from long baseline neutrino oscillation experiments designed
+    to investigate CP violation and the orientation of the neutrino mass hierarchy.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1111.0103
+    doi: https://doi.org/10.1103/PhysRevLett.108.161802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ArgoNeuT:2011bms
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Ar
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: differential cross sections (muon angle and momentum)
+    energy_notes: angles 0-36deg, momentum 0-25GeV

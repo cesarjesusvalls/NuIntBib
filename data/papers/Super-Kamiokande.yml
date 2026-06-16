@@ -1,0 +1,39 @@
+- bibtag: Super-Kamiokande:2019hga
+  title: Measurement of the neutrino-oxygen neutral-current quasielastic cross section using atmospheric
+    neutrinos at Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: '1901.05281'
+  doi: 10.1103/PhysRevD.99.032005
+  journal: Phys.Rev.D
+  volume: '99'
+  pages: '032005'
+  year: 2019
+  published_date: '2019-01-16'
+  inspire_recid: 1714021
+  citation_count: 43
+  abstract: Neutral current (NC) interactions of atmospheric neutrinos on oxygen form one of the major
+    backgrounds in the search for supernova relic neutrinos with water-based Cherenkov detectors. The
+    NC channel is dominated by neutrino quasi-elastic (NCQE) scattering off nucleons inside $^{16}$O nuclei.
+    In this paper we report the first measurement of NCQE cross section using atmospheric neutrinos at
+    Super-Kamiokande (SK). The measurement used 2,778 live days of SK-IV data with a fiducial volume of
+    22.5 kiloton water. Within the visible energy window of 7.5-29.5 MeV, we observed $117$ events compared
+    to the expected $71.9$ NCQE signal and $53.1$ background events. Weighted by the atmospheric neutrino
+    spectrum from 160 MeV to 10 GeV, the flux averaged NCQE cross section is measured to be $(1.01\pm0.17(\text{stat.})^{+0.78}_{-0.30}(\text{sys.}))\times10^{-38}$
+    cm$^2$.
+  added: '2024-12-09'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1901.05281
+    doi: https://doi.org/10.1103/PhysRevD.99.032005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2019hga
+  measurements:
+  - current: NC
+    flavor: []
+    target:
+    - O
+    topology: NC elastic
+    pion_bucket: 0pi
+    measurement_type: total
+    observables: total cross section
+    energy_notes: 'E: 160MeV-10GeV'
+    flavor_note: nu+nubar

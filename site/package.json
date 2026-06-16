@@ -1,0 +1,28 @@
+{
+  "name": "@nuintbib/site",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev": "next dev --webpack --hostname 0.0.0.0",
+    "build": "next build --webpack",
+    "start": "serve out -l 3000",
+    "typecheck": "rm -rf .next/types .next/dev/types && tsc --noEmit"
+  },
+  "dependencies": {
+    "katex": "^0.16.11",
+    "next": "^16.2.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.8",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "playwright": "^1.60.0",
+    "serve": "^14.2.6",
+    "typescript": "^5.9.3"
+  }
+}

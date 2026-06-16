@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="#2E2D29" />
+  <!-- neutrino interaction vertex: incoming beam, target, outgoing tracks -->
+  <line x1="14" y1="64" x2="64" y2="64" stroke="#DAD7CB" stroke-width="5" stroke-dasharray="9 7" />
+  <circle cx="64" cy="64" r="9" fill="#8C1515" />
+  <line x1="64" y1="64" x2="112" y2="34" stroke="#007C92" stroke-width="5" stroke-linecap="round" />
+  <line x1="64" y1="64" x2="116" y2="66" stroke="#67AFD2" stroke-width="5" stroke-linecap="round" />
+  <line x1="64" y1="64" x2="104" y2="98" stroke="#175E54" stroke-width="5" stroke-linecap="round" />
+  <text x="20" y="40" font-family="Georgia, serif" font-size="26" fill="#DAD7CB" font-style="italic">&#957;</text>
+</svg>
