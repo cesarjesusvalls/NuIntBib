@@ -6,7 +6,9 @@ export const site = {
     'A community-maintained, continuously updated index of published neutrino cross-section measurements — searchable and filterable by experiment, current, flavor, target, and interaction topology.',
   url: 'https://cesarjesusvalls.github.io/NuIntBib',
   githubUrl: 'https://github.com/cesarjesusvalls/NuIntBib',
-  maintainer: 'Maintained by the neutrino-interaction community',
+  maintainer: 'César Jesús Valls',
+  maintainerAffiliation: 'CERN',
+  contactEmail: 'cesar.jesus@cern.ch',
 };
 
 export const navItems = [

@@ -59,6 +59,17 @@ export default function AboutPage() {
             page, to copy a ready-to-use entry. Keys follow the INSPIRE texkey convention (e.g.{' '}
             <code>T2K:2013nor</code>).
           </p>
+
+          <h2 className="type-h3">Maintainer</h2>
+          <p>
+            NuIntBib is developed and managed by{' '}
+            <a href={`mailto:${site.contactEmail}`}>{site.maintainer}</a> ({site.maintainerAffiliation}).
+            Corrections, additions, and suggestions are welcome by email or on{' '}
+            <a href={site.githubUrl} target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            .
+          </p>
         </Container>
       </section>
     </>
