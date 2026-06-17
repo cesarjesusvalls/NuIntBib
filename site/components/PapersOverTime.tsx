@@ -5,6 +5,14 @@ import type { Timeline } from '@/lib/papers';
 
 type Metric = 'papers' | 'citations';
 
+const ALL_LABEL: Record<string, string> = {
+  experiment: 'All experiments',
+  topology: 'All topologies',
+  flavor: 'All flavours',
+  current: 'CC + NC',
+  material: 'All materials',
+};
+
 const W = 960;
 const H = 320;
 const ML = 48;
@@ -32,18 +40,21 @@ function niceTicks(max: number, count = 4): number[] {
 export function PapersOverTime({ data }: { data: Timeline }) {
   const [metric, setMetric] = useState<Metric>('papers');
   const [cumulative, setCumulative] = useState(false);
-  const [exp, setExp] = useState<string>('');
+  const [dimKey, setDimKey] = useState<string>(data.dims[0]?.key ?? 'experiment');
+  const [value, setValue] = useState<string>('');
   const [hover, setHover] = useState<number | null>(null);
+
+  const dim = data.dims.find((d) => d.key === dimKey) ?? data.dims[0];
 
   const { tot, sel } = useMemo(() => {
     let tot = data.total[metric].slice();
-    let sel = exp ? (data.byExp[exp]?.[metric] ?? data.years.map(() => 0)).slice() : null;
+    let sel = value ? (dim?.series[value]?.[metric] ?? data.years.map(() => 0)).slice() : null;
     if (cumulative) {
       tot = runningSum(tot);
       if (sel) sel = runningSum(sel);
     }
     return { tot, sel };
-  }, [data, metric, cumulative, exp]);
+  }, [data, dim, metric, cumulative, value]);
 
   const n = data.years.length;
   const max = Math.max(...tot, 1);
@@ -75,13 +86,28 @@ export function PapersOverTime({ data }: { data: Timeline }) {
             Cumulative
           </button>
         </div>
+        <div className="seg" role="group" aria-label="Break down by">
+          {data.dims.map((d) => (
+            <button
+              key={d.key}
+              className={dimKey === d.key ? 'is-on' : ''}
+              onClick={() => {
+                setDimKey(d.key);
+                setValue('');
+              }}
+              type="button"
+            >
+              {d.label}
+            </button>
+          ))}
+        </div>
         <label className="timeline-highlight">
           Highlight
-          <select value={exp} onChange={(e) => setExp(e.currentTarget.value)}>
-            <option value="">All experiments</option>
-            {data.experiments.map((e) => (
-              <option key={e} value={e}>
-                {e}
+          <select value={value} onChange={(e) => setValue(e.currentTarget.value)}>
+            <option value="">{ALL_LABEL[dim?.key ?? ''] ?? 'All'}</option>
+            {dim?.values.map((v) => (
+              <option key={v} value={v}>
+                {v}
               </option>
             ))}
           </select>
@@ -117,7 +143,7 @@ export function PapersOverTime({ data }: { data: Timeline }) {
                 {/* rest (or full bar when no selection) */}
                 {t > 0 && (
                   <rect
-                    className={exp ? 'tl-bar-rest' : 'tl-bar'}
+                    className={value ? 'tl-bar-rest' : 'tl-bar'}
                     x={x(i)}
                     y={y(t)}
                     width={barW}
@@ -154,9 +180,9 @@ export function PapersOverTime({ data }: { data: Timeline }) {
               {fmt(tot[hover])} {metricLabel}
               {cumulative ? ' (total)' : ''}
             </span>
-            {exp && (
+            {value && (
               <span className="tl-tooltip-sel">
-                {exp}: {fmt(Math.min(sel ? sel[hover] : 0, tot[hover]))}
+                {value}: {fmt(Math.min(sel ? sel[hover] : 0, tot[hover]))}
               </span>
             )}
           </div>
@@ -165,13 +191,16 @@ export function PapersOverTime({ data }: { data: Timeline }) {
 
       <p className="timeline-caption">
         {cumulative ? 'Cumulative' : 'Per-year'} {metricLabel}
-        {exp ? (
+        {value ? (
           <>
             {' '}
-            — <span className="tl-legend-sel" /> {exp} highlighted within the total
+            — <span className="tl-legend-sel" /> {value} highlighted within the total
           </>
         ) : (
-          <> across {data.experiments.length} experiments. Pick an experiment to highlight its share.</>
+          <>
+            {' '}
+            — pick a {dim?.label.toLowerCase()} to highlight its share within the total.
+          </>
         )}
       </p>
     </div>

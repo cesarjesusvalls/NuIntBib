@@ -333,9 +333,6 @@
 .section-timeline .section-header {
   margin-bottom: 1rem;
 }
-.section-after-timeline {
-  padding-top: 2.5rem;
-}
 .timeline-panel {
   padding: 1.4rem 1.5rem 1.1rem;
 }
@@ -455,54 +452,6 @@
   border-radius: 2px;
   background: var(--cardinal);
   vertical-align: middle;
-}
-
-/* Stats page */
-.stat-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1.25rem;
-}
-.stat-panel {
-  padding: 1.4rem 1.5rem;
-}
-.bar-list {
-  list-style: none;
-  margin: 1rem 0 0;
-  padding: 0;
-  display: grid;
-  gap: 0.5rem;
-}
-.bar-list li {
-  display: grid;
-  grid-template-columns: 7.5rem 1fr 2.2rem;
-  align-items: center;
-  gap: 0.6rem;
-}
-.bar-label {
-  font-size: 0.8rem;
-  color: var(--black-80);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.bar-track {
-  height: 0.7rem;
-  background: var(--fog-light);
-  border-radius: 99px;
-  overflow: hidden;
-}
-.bar-fill {
-  display: block;
-  height: 100%;
-  background: linear-gradient(90deg, var(--palo-alto), var(--sky));
-  border-radius: 99px;
-}
-.bar-value {
-  font-family: var(--font-roboto-mono), monospace;
-  font-size: 0.78rem;
-  color: var(--muted);
-  text-align: right;
 }
 
 /* About prose */

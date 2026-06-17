@@ -184,14 +184,76 @@ export function getStats(papers: Paper[]): DbStats {
   };
 }
 
+export type Series = { papers: number[]; citations: number[] };
+export type Dimension = {
+  key: string;
+  label: string;
+  values: string[]; // sorted by total papers, desc
+  series: Record<string, Series>;
+};
 export type Timeline = {
   years: number[];
-  total: { papers: number[]; citations: number[] };
-  byExp: Record<string, { papers: number[]; citations: number[] }>;
-  experiments: string[]; // sorted by total papers, desc
+  total: Series;
+  dims: Dimension[];
 };
 
-/** Per-year (and per-experiment) paper counts and citation sums, for the time chart. */
+const FLAVOR_DISPLAY: Record<string, string> = {
+  numu: 'νμ',
+  numubar: 'ν̄μ',
+  nue: 'νe',
+  nuebar: 'ν̄e',
+};
+
+// Condensed target groupings for the timeline breakdown. Anything not listed
+// (Ge, CsI, CaCO3, rock, SiO2, …) falls into "Other".
+const MATERIAL_GROUPS: [string, string[]][] = [
+  ['Plastic / carbon', ['C', 'CH', 'CH2', 'C8H8']],
+  ['Heavy nuclei', ['Fe', 'Pb', 'W', 'Cu', 'Al']],
+  ['Argon', ['Ar']],
+  ['Water / oxygen', ['H2O', 'O']],
+  ['Bubble chamber', ['H2', 'D2', 'C3H8', 'CF3Br', 'Ne']],
+  ['CEvNS crystals', ['Ge', 'CsI', 'I']],
+];
+const MATERIAL_LOOKUP = new Map<string, string>(
+  MATERIAL_GROUPS.flatMap(([group, targets]) => targets.map((t) => [t, group] as const)),
+);
+function materialGroup(target: string): string {
+  return MATERIAL_LOOKUP.get(target) ?? 'Other';
+}
+
+// A measurement on a detector that blends several material groups in a single
+// result (e.g. T2K's [C, O, H, Cu] tracker) is labelled "Composite" rather than
+// double-counted into each constituent group.
+function measurementMaterial(targets: string[]): string {
+  const groups = new Set(targets.map(materialGroup));
+  if (groups.size === 0) return 'Other';
+  if (groups.size > 1) return 'Composite';
+  return groups.values().next().value as string;
+}
+
+function uniq(values: string[]): string[] {
+  return Array.from(new Set(values));
+}
+
+// Each dimension maps a paper to the set of values it belongs to (deduped, so a
+// paper counts once per value even with many measurements).
+const DIM_SPECS: { key: string; label: string; values: (p: Paper) => string[] }[] = [
+  { key: 'experiment', label: 'Experiment', values: (p) => [p.collaboration] },
+  { key: 'topology', label: 'Topology', values: (p) => uniq(p.measurements.map((m) => m.topology)) },
+  {
+    key: 'flavor',
+    label: 'Flavour',
+    values: (p) => uniq(p.measurements.flatMap((m) => m.flavor).map((f) => FLAVOR_DISPLAY[f] ?? f)),
+  },
+  { key: 'current', label: 'Current', values: (p) => uniq(p.measurements.map((m) => m.current)) },
+  {
+    key: 'material',
+    label: 'Material',
+    values: (p) => uniq(p.measurements.map((m) => measurementMaterial(m.target ?? []))),
+  },
+];
+
+/** Per-year paper counts and citation sums, broken down along several dimensions. */
 export function getTimeline(papers: Paper[]): Timeline {
   const ys = papers.map((p) => p.year).filter((y): y is number => Boolean(y));
   const min = Math.min(...ys);
@@ -199,8 +261,13 @@ export function getTimeline(papers: Paper[]): Timeline {
   const years = Array.from({ length: max - min + 1 }, (_, i) => min + i);
   const idx = new Map(years.map((y, i) => [y, i]));
   const zeros = () => years.map(() => 0);
-  const total = { papers: zeros(), citations: zeros() };
-  const byExp: Record<string, { papers: number[]; citations: number[] }> = {};
+  const total: Series = { papers: zeros(), citations: zeros() };
+  const dims: Dimension[] = DIM_SPECS.map((s) => ({
+    key: s.key,
+    label: s.label,
+    values: [],
+    series: {},
+  }));
   for (const p of papers) {
     if (p.year == null) continue;
     const i = idx.get(p.year);
@@ -208,15 +275,19 @@ export function getTimeline(papers: Paper[]): Timeline {
     const c = p.citation_count ?? 0;
     total.papers[i] += 1;
     total.citations[i] += c;
-    (byExp[p.collaboration] ??= { papers: zeros(), citations: zeros() });
-    byExp[p.collaboration].papers[i] += 1;
-    byExp[p.collaboration].citations[i] += c;
+    DIM_SPECS.forEach((spec, di) => {
+      for (const v of spec.values(p)) {
+        const ser = (dims[di].series[v] ??= { papers: zeros(), citations: zeros() });
+        ser.papers[i] += 1;
+        ser.citations[i] += c;
+      }
+    });
   }
   const sum = (a: number[]) => a.reduce((x, y) => x + y, 0);
-  const experiments = Object.keys(byExp).sort(
-    (a, b) => sum(byExp[b].papers) - sum(byExp[a].papers),
-  );
-  return { years, total, byExp, experiments };
+  for (const d of dims) {
+    d.values = Object.keys(d.series).sort((a, b) => sum(d.series[b].papers) - sum(d.series[a].papers));
+  }
+  return { years, total, dims };
 }
 
 /** Flatten facet membership for a paper (used by the client filter). */
