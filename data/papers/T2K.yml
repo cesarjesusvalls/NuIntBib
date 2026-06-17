@@ -109,7 +109,7 @@
     flavor:
     - nue
     target:
-    - C
+    - CH
     topology: CC1pi+
     pion_bucket: pi_charged
     measurement_type: single-diff
@@ -398,7 +398,7 @@
     flavor:
     - numu
     target:
-    - C
+    - CH
     topology: CC1pi+
     pion_bucket: pi_charged
     measurement_type: double-diff
@@ -762,7 +762,7 @@
     flavor:
     - numu
     target:
-    - C
+    - CH
     topology: Inclusive
     pion_bucket: null
     measurement_type: double-diff
@@ -807,7 +807,7 @@
     flavor:
     - numu
     target:
-    - C8H8
+    - CH
     topology: CC0pi
     pion_bucket: 0pi
     measurement_type: null
@@ -1209,7 +1209,7 @@
     flavor:
     - nue
     target:
-    - C
+    - CH
     topology: Inclusive
     pion_bucket: null
     measurement_type: single-diff
@@ -1289,7 +1289,7 @@
     flavor:
     - numu
     target:
-    - C
+    - CH
     topology: Inclusive
     pion_bucket: null
     measurement_type: double-diff

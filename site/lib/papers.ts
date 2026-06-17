@@ -207,7 +207,8 @@ const FLAVOR_DISPLAY: Record<string, string> = {
 // Condensed target groupings for the timeline breakdown. Anything not listed
 // (Ge, CsI, CaCO3, rock, SiO2, …) falls into "Other".
 const MATERIAL_GROUPS: [string, string[]][] = [
-  ['Plastic / carbon', ['C', 'CH', 'CH2', 'C8H8']],
+  ['Carbon', ['C']],
+  ['Hydrocarbon', ['CH', 'CH2']],
   ['Heavy nuclei', ['Fe', 'Pb', 'W', 'Cu', 'Al']],
   ['Argon', ['Ar']],
   ['Water / oxygen', ['H2O', 'O']],
@@ -231,6 +232,12 @@ function measurementMaterial(targets: string[]): string {
   return groups.values().next().value as string;
 }
 
+// Detectors whose target is reported as a single element (e.g. NOMAD quotes a
+// carbon-equivalent cross section) but whose physical medium is a genuine blend
+// (NOMAD's drift chambers are C/O/N/H). They count as Composite in the material
+// breakdown without polluting the per-element target data/filter.
+const COMPOSITE_DETECTORS = new Set(['NOMAD']);
+
 function uniq(values: string[]): string[] {
   return Array.from(new Set(values));
 }
@@ -249,7 +256,10 @@ const DIM_SPECS: { key: string; label: string; values: (p: Paper) => string[] }[
   {
     key: 'material',
     label: 'Material',
-    values: (p) => uniq(p.measurements.map((m) => measurementMaterial(m.target ?? []))),
+    values: (p) =>
+      COMPOSITE_DETECTORS.has(p.collaboration)
+        ? ['Composite']
+        : uniq(p.measurements.map((m) => measurementMaterial(m.target ?? []))),
   },
 ];
 

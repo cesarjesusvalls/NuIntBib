@@ -29,7 +29,7 @@
     flavor:
     - numu
     target:
-    - C8H8
+    - CH
     topology: CC1pi0
     pion_bucket: pi0
     measurement_type: ratio
@@ -66,7 +66,7 @@
     flavor:
     - numu
     target:
-    - C
+    - CH
     topology: CC1pi+
     pion_bucket: pi_charged
     measurement_type: ratio

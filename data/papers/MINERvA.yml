@@ -501,7 +501,7 @@
     flavor:
     - numu
     target:
-    - C
+    - CH
     topology: Inclusive
     pion_bucket: null
     measurement_type: double-diff
@@ -704,7 +704,7 @@
     flavor:
     - numu
     target:
-    - C
+    - CH
     topology: CCpi0
     pion_bucket: pi0
     measurement_type: null
@@ -1192,7 +1192,7 @@
     - numu
     - numubar
     target:
-    - C
+    - CH
     topology: Inclusive
     pion_bucket: null
     measurement_type: ratio
@@ -1272,7 +1272,7 @@
     flavor:
     - numu
     target:
-    - C
+    - CH
     topology: Inclusive
     pion_bucket: null
     measurement_type: double-diff

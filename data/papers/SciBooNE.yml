@@ -30,7 +30,7 @@
     flavor:
     - numu
     target:
-    - C
+    - CH
     topology: Inclusive
     pion_bucket: null
     measurement_type: total
@@ -68,7 +68,7 @@
     flavor:
     - numu
     target:
-    - C8H8
+    - CH
     topology: NC1pi0
     pion_bucket: pi0
     measurement_type: ratio
