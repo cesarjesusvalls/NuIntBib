@@ -214,26 +214,52 @@
   line-height: 1.2;
 }
 
-.challenge-filter-option {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  gap: .55rem;
+.challenge-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+
+.challenge-chip {
+  display: inline-flex;
   align-items: center;
-  color: var(--black-90);
-  font-size: .98rem;
-  line-height: 1.25;
+  gap: .35rem;
+  padding: .3rem .58rem;
+  font: inherit;
+  font-size: .84rem;
+  line-height: 1.1;
+  color: var(--black-80);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color .15s, border-color .15s, color .15s;
 }
 
-.challenge-filter-option input {
-  width: .9rem;
-  height: .9rem;
-  accent-color: var(--cardinal);
-}
-
-.challenge-filter-option span:last-child {
-  color: var(--black-60);
+.challenge-chip small {
   font-family: var(--font-roboto-mono), ui-monospace, monospace;
-  font-size: .78rem;
+  font-size: .68rem;
+  color: var(--black-50);
+}
+
+.challenge-chip:hover:not(:disabled) {
+  border-color: var(--cardinal);
+  color: var(--ink);
+}
+
+.challenge-chip[aria-pressed="true"] {
+  background: var(--cardinal);
+  border-color: var(--cardinal);
+  color: var(--white);
+}
+
+.challenge-chip[aria-pressed="true"] small {
+  color: rgba(255, 255, 255, .82);
+}
+
+.challenge-chip:disabled {
+  opacity: .34;
+  cursor: default;
 }
 
 .challenge-results {

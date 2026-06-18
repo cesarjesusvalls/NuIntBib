@@ -226,26 +226,32 @@ export function PapersTable({ rows, facets }: { rows: PaperRow[]; facets: RowFac
           {sidebarFacets.map((facet) => (
             <fieldset className="challenge-filter-group" key={facet.key}>
               <legend>{facet.label}</legend>
-              {[ALL, ...facet.values].map((value) => {
-                const label =
-                  value === ALL
-                    ? facet.allLabel
-                    : facet.key === 'flavor'
-                      ? flavorLabel(value)
-                      : value;
-                return (
-                  <label className="challenge-filter-option" key={value}>
-                    <input
-                      checked={(active[facet.key] ?? ALL) === value}
-                      name={facet.key}
-                      onChange={() => setActive((c) => ({ ...c, [facet.key]: value }))}
-                      type="radio"
-                    />
-                    <span>{label}</span>
-                    <span>{count(facet, value)}</span>
-                  </label>
-                );
-              })}
+              <div className="challenge-filter-chips">
+                {[ALL, ...facet.values].map((value) => {
+                  const label =
+                    value === ALL
+                      ? facet.allLabel
+                      : facet.key === 'flavor'
+                        ? flavorLabel(value)
+                        : value;
+                  const isActive = (active[facet.key] ?? ALL) === value;
+                  const n = count(facet, value);
+                  const disabled = value !== ALL && n === 0 && !isActive;
+                  return (
+                    <button
+                      key={value}
+                      aria-pressed={isActive}
+                      className="challenge-chip"
+                      disabled={disabled}
+                      onClick={() => setActive((c) => ({ ...c, [facet.key]: value }))}
+                      type="button"
+                    >
+                      <span>{label}</span>
+                      <small>{n}</small>
+                    </button>
+                  );
+                })}
+              </div>
             </fieldset>
           ))}
         </aside>
