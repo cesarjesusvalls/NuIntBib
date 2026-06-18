@@ -34,7 +34,7 @@
     target:
     - Fe
     - C
-    topology: NCcoh pi0
+    topology: NCcoh1π0
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section

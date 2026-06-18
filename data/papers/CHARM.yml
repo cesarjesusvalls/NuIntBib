@@ -67,7 +67,7 @@
     - numubar
     target:
     - CaCO3
-    topology: NCcoh pi0
+    topology: NCcoh1π0
     pion_bucket: pi0
     measurement_type: total
     observables: coherent pi0 production

@@ -57,11 +57,27 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:Kitagaki:1986ct
   measurements:
   - current: CC
-    flavor:
+    flavor: &id001
     - numu
-    target:
+    target: &id002
     - D2
-    topology: CC pi production
+    topology: CC1π+
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC1π0
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC2π
     pion_bucket: null
     measurement_type: null
     observables: null
@@ -133,7 +149,7 @@
     - numubar
     target:
     - H2
-    topology: NC elastic
+    topology: NCE
     pion_bucket: 0pi
     measurement_type: null
     observables: null
@@ -215,7 +231,7 @@
     - numubar
     target:
     - D2
-    topology: NC pi production
+    topology: NC1π0
     pion_bucket: null
     measurement_type: null
     observables: null

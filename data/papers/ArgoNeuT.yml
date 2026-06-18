@@ -66,12 +66,20 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:ArgoNeuT:2018und
   measurements:
   - current: CC
-    flavor:
+    flavor: &id001
     - numu
     - numubar
-    target:
+    target: &id002
     - Ar
-    topology: CC1pi
+    topology: CC1π+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: differential cross sections (muon momentum, muon angle, pion angle, muon-pion angle)
+    energy_notes: 'pion momentum > 100 MeV/c, mean energies: numu=9.6GeV, numubar=3.6GeV'
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC1π-
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections (muon momentum, muon angle, pion angle, muon-pion angle)
@@ -109,7 +117,7 @@
     - numubar
     target:
     - Ar
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: total
     observables: cross section and kinematic distributions
@@ -155,7 +163,7 @@
     - numu
     target:
     - Ar
-    topology: CC2p
+    topology: CC0π2p
     pion_bucket: null
     measurement_type: null
     observables: two-proton topology study focusing on back-to-back configurations
@@ -227,7 +235,7 @@
     - numubar
     target:
     - Ar
-    topology: CCcoh pi
+    topology: CCcoh1π±
     pion_bucket: null
     measurement_type: total
     observables: coherent pion production cross section

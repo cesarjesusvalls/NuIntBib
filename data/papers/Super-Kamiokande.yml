@@ -75,7 +75,7 @@
     flavor: []
     target:
     - O
-    topology: NC elastic
+    topology: NCE
     pion_bucket: 0pi
     measurement_type: total
     observables: total cross section

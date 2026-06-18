@@ -32,7 +32,7 @@
     - numu
     target:
     - Ar
-    topology: CC2p
+    topology: CC0π2p
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross sections
@@ -73,11 +73,19 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025rch
   measurements:
   - current: CC
-    flavor:
+    flavor: &id001
     - numu
-    target:
+    target: &id002
     - Ar
-    topology: CC1pi+-
+    topology: CC1π+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: single charged-pion production, total and single-differential
+    energy_notes: ~0.8 GeV (BNB)
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC1π-
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: single charged-pion production, total and single-differential
@@ -117,7 +125,7 @@
     - nue
     target:
     - Ar
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: nue CC without pions (with/without protons)
@@ -156,7 +164,7 @@
     - numu
     target:
     - Ar
-    topology: CCcoh pi
+    topology: CCcoh1π±
     pion_bucket: null
     measurement_type: total
     observables: coherent charged-pion production
@@ -245,7 +253,7 @@
     - numu
     target:
     - Ar
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: double-diff
     observables: double-differential cross section (π0 momentum, angle)
@@ -285,7 +293,7 @@
     - numu
     target:
     - Ar
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section
@@ -328,7 +336,7 @@
     - nuebar
     target:
     - Ar
-    topology: CCNp
+    topology: CC0πNp
     pion_bucket: null
     measurement_type: single-diff
     observables: nue CC with final-state protons
@@ -370,7 +378,7 @@
     - numu
     target:
     - Ar
-    topology: CC K+
+    topology: CC1K+
     pion_bucket: null
     measurement_type: total
     observables: CC K+ production (strangeness)
@@ -411,7 +419,7 @@
     - numu
     target:
     - Ar
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential CC0pi (quasielastic-like)
@@ -453,7 +461,7 @@
     - numu
     target:
     - Ar
-    topology: NC single gamma
+    topology: NC1γ
     pion_bucket: null
     measurement_type: total
     observables: NC Delta radiative single-photon production
@@ -488,12 +496,20 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025pvb
   measurements:
   - current: CC
-    flavor:
+    flavor: &id003
     - nue
     - nuebar
-    target:
+    target: &id004
     - Ar
-    topology: CC1pi+-
+    topology: CC1π+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: nue+nuebar CC single charged-pion production
+    energy_notes: NuMI beam
+  - current: CC
+    flavor: *id003
+    target: *id004
+    topology: CC1π-
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: nue+nuebar CC single charged-pion production
@@ -532,7 +548,7 @@
     - numu
     target:
     - Ar
-    topology: NC coh single gamma
+    topology: NCcoh1γ
     pion_bucket: null
     measurement_type: limit
     observables: first search for NC coherent single-photon production
@@ -572,7 +588,7 @@
     - numu
     target:
     - Ar
-    topology: CCQEp
+    topology: CC0π1p
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections vs kinematic imbalance
@@ -612,7 +628,7 @@
     - numu
     target:
     - Ar
-    topology: CC eta
+    topology: CC η
     pion_bucket: null
     measurement_type: total
     observables: total cross section
@@ -655,7 +671,7 @@
     - numu
     target:
     - Ar
-    topology: CC1pi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: single-diff
     observables: differential cross sections (muon/π0 momentum and angles)
@@ -786,7 +802,7 @@
     - numubar
     target:
     - Ar
-    topology: CC Lambda
+    topology: CC Λ
     pion_bucket: null
     measurement_type: total
     observables: total cross section
@@ -828,7 +844,7 @@
     - numu
     target:
     - Ar
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section
@@ -866,7 +882,7 @@
     - numu
     target:
     - Ar
-    topology: CCQEp
+    topology: CC0π1p
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: multi-differential cross section
@@ -906,7 +922,7 @@
     - numu
     target:
     - Ar
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section vs kinematic imbalance
@@ -1028,7 +1044,7 @@
     - nue
     target:
     - Ar
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections (e/p energy and angle)
@@ -1118,7 +1134,7 @@
     - numu
     target:
     - Ar
-    topology: CC0piNp
+    topology: CC0πNp
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections
@@ -1160,7 +1176,7 @@
     - numu
     target:
     - Ar
-    topology: CCQEp
+    topology: CC0π1p
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: total and differential cross sections
@@ -1198,7 +1214,7 @@
     - numu
     target:
     - Ar
-    topology: CC1pi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section

@@ -66,7 +66,7 @@
     - numubar
     target:
     - CH2
-    topology: NC elastic
+    topology: NCE
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross section dσ/dQ2
@@ -144,7 +144,7 @@
     - numu
     target:
     - CH2
-    topology: CC1pi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: single-diff
     observables: total and differential cross sections
@@ -182,7 +182,7 @@
     - numu
     target:
     - CH2
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections
@@ -222,7 +222,7 @@
     - numubar
     target:
     - CH2
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: single-diff
     observables: total and differential cross sections
@@ -300,7 +300,7 @@
     - numu
     target:
     - CH2
-    topology: NC elastic
+    topology: NCE
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross section dσ/dQ2
@@ -332,11 +332,19 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2009koj
   measurements:
   - current: CC
-    flavor:
+    flavor: &id001
     - numu
-    target:
+    target: &id002
     - CH2
-    topology: CC1pi+/CCQE
+    topology: CC1π+
+    pion_bucket: pi_charged
+    measurement_type: ratio
+    observables: ratio CC1π+/CCQE vs energy
+    energy_notes: 'E: 0.4-2.4GeV'
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CCQE
     pion_bucket: pi_charged
     measurement_type: ratio
     observables: ratio CC1π+/CCQE vs energy
@@ -415,7 +423,7 @@
     - numu
     target:
     - CH2
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: null
     observables: momentum distribution and coherent fraction

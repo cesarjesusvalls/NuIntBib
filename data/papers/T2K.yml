@@ -35,7 +35,7 @@
     target:
     - H2O
     - CH
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: CC without charged pions (WAGASCI-BabyMIND)
@@ -72,7 +72,7 @@
     - numu
     target:
     - CH
-    topology: NC1pi+
+    topology: NC1π+
     pion_bucket: pi_charged
     measurement_type: total
     observables: model-independent NC1pi+ cross-section extraction
@@ -110,7 +110,7 @@
     - nue
     target:
     - CH
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: first nue CC pion production, differential in e and pi kinematics
@@ -151,7 +151,7 @@
     - numu
     target:
     - CH
-    topology: NC1pi+
+    topology: NC1π+
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: first differential NC1pi+ cross section
@@ -190,7 +190,7 @@
     target:
     - CH
     - Fe
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross sections
@@ -236,7 +236,7 @@
     - numubar
     target:
     - C
-    topology: CCcoh pi
+    topology: CCcoh1π±
     pion_bucket: null
     measurement_type: total
     observables: flux-averaged cross section
@@ -287,7 +287,7 @@
     target:
     - H2O
     - CH
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: ratio
     observables: cross sections and ratio
@@ -324,7 +324,7 @@
     - numu
     target:
     - CH
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections vs kinematic imbalance
@@ -359,7 +359,7 @@
     - numubar
     target:
     - H2O
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section
@@ -399,7 +399,7 @@
     - numu
     target:
     - CH
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: double-diff
     observables: single and double differential cross sections
@@ -440,7 +440,7 @@
     target:
     - O
     - C
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section and ratio
@@ -520,7 +520,7 @@
     - numubar
     target:
     - CH
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross sections
@@ -606,7 +606,7 @@
     - numu
     target:
     - CH
-    topology: NC single gamma
+    topology: NC1γ
     pion_bucket: null
     measurement_type: limit
     observables: upper limit on cross section
@@ -649,7 +649,7 @@
     - numubar
     target:
     - O
-    topology: NC elastic
+    topology: NCE
     pion_bucket: 0pi
     measurement_type: total
     observables: flux-averaged cross sections
@@ -691,7 +691,7 @@
     - numu
     target:
     - H2O
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section
@@ -727,7 +727,7 @@
     - numu
     target:
     - H2O
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section
@@ -808,7 +808,7 @@
     - numu
     target:
     - CH
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: null
     observables: proton multiplicity and kinematics
@@ -849,7 +849,7 @@
     - numu
     target:
     - H2O
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections
@@ -978,7 +978,7 @@
     - numu
     target:
     - C
-    topology: CC0pi
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section
@@ -1014,7 +1014,7 @@
     - numu
     target:
     - C
-    topology: CCcoh pi+
+    topology: CCcoh1π±
     pion_bucket: pi_charged
     measurement_type: total
     observables: flux-averaged cross section
@@ -1251,7 +1251,7 @@
     - numu
     target:
     - O
-    topology: NC elastic
+    topology: NCE
     pion_bucket: 0pi
     measurement_type: total
     observables: flux-averaged cross section

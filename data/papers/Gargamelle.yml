@@ -59,7 +59,7 @@
     - numubar
     target:
     - C3H8
-    topology: CC pi production
+    topology: CC1π-
     pion_bucket: null
     measurement_type: total
     observables: null
@@ -90,13 +90,29 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:GargamelleNeutrinoPropane:1977hya
   measurements:
   - current: NC
-    flavor:
+    flavor: &id001
     - numu
     - numubar
-    target:
+    target: &id002
     - C3H8
     - CF3Br
-    topology: NC pi production
+    topology: NC1π0
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+  - current: NC
+    flavor: *id001
+    target: *id002
+    topology: NC1π+
+    pion_bucket: null
+    measurement_type: null
+    observables: null
+    energy_notes: null
+  - current: NC
+    flavor: *id001
+    target: *id002
+    topology: NC1π-
     pion_bucket: null
     measurement_type: null
     observables: null
@@ -129,7 +145,7 @@
     - numu
     target:
     - CF3Br
-    topology: NC elastic
+    topology: NCE
     pion_bucket: 0pi
     measurement_type: null
     observables: null

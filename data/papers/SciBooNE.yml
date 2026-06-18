@@ -69,7 +69,7 @@
     - numu
     target:
     - CH
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: ratio
     observables: ratio to total CC
@@ -106,7 +106,7 @@
     - numu
     target:
     - C
-    topology: NCcoh pi0
+    topology: NCcoh1π0
     pion_bucket: pi0
     measurement_type: ratio
     observables: ratio to total CC
@@ -141,7 +141,7 @@
     - numu
     target:
     - C
-    topology: CCcoh pi
+    topology: CCcoh1π±
     pion_bucket: null
     measurement_type: ratio
     observables: upper limit on cross section ratio

@@ -32,7 +32,7 @@
     - numubar
     target:
     - Al
-    topology: NCcoh pi0
+    topology: NCcoh1π0
     pion_bucket: pi0
     measurement_type: null
     observables: null
@@ -71,7 +71,7 @@
     - numu
     target:
     - Al
-    topology: NC elastic
+    topology: NCE
     pion_bucket: 0pi
     measurement_type: ratio
     observables: null

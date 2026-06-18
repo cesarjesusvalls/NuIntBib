@@ -59,7 +59,7 @@
     - numubar
     target:
     - H2
-    topology: CC pi production
+    topology: CC1π-
     pion_bucket: null
     measurement_type: null
     observables: null
@@ -93,7 +93,7 @@
     - numu
     target:
     - H2
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: total
     observables: nu p -> mu- pi+ p cross section
@@ -103,7 +103,7 @@
     - numu
     target:
     - H2
-    topology: CC K+
+    topology: CC1K+
     pion_bucket: null
     measurement_type: total
     observables: nu p -> mu- K+ p cross section

@@ -76,7 +76,7 @@
     - numu
     target:
     - CH
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: triple-diff
     observables: triple-differential CCQE-like, ~3 vs ~6 GeV
@@ -116,7 +116,7 @@
     - numu
     target:
     - CH
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: CC 1pi+ with zero pion KE threshold
@@ -208,7 +208,7 @@
     - H2O
     - Fe
     - Pb
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: A-dependence vs transverse kinematic imbalance
@@ -288,7 +288,7 @@
     - numubar
     target:
     - CH
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections (plong, pT)
@@ -333,7 +333,7 @@
     - H2O
     - Fe
     - Pb
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: ratio
     observables: differential cross sections and nuclear ratios
@@ -374,7 +374,7 @@
     - C
     - Fe
     - Pb
-    topology: CCcoh pi+
+    topology: CCcoh1π±
     pion_bucket: pi_charged
     measurement_type: total
     observables: cross sections and A-dependence
@@ -461,7 +461,7 @@
     - H2O
     - Fe
     - Pb
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: ratio
     observables: cross section ratios vs longitudinal and transverse muon momentum
@@ -542,7 +542,7 @@
     - numu
     target:
     - CH
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: triple-diff
     observables: triple-differential cross section (muon pT, pL, proton KE)
@@ -624,7 +624,7 @@
     - numu
     target:
     - CH
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section (muon pT, pL) and dσ/dQ2
@@ -665,7 +665,7 @@
     - numu
     target:
     - CH
-    topology: CCQEp
+    topology: CC0π1p
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections of muon-proton momentum imbalance
@@ -705,7 +705,7 @@
     - numu
     target:
     - CH
-    topology: CCpi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: null
     observables: final-state correlations and momentum imbalance
@@ -781,7 +781,7 @@
     - numu
     target:
     - CH
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section (muon pT, pL)
@@ -827,7 +827,7 @@
     - numubar
     target:
     - CH
-    topology: CCpi-
+    topology: CC1π-
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections (muon and pion kinematics)
@@ -908,7 +908,7 @@
     - numubar
     target:
     - CH
-    topology: CCcoh pi
+    topology: CCcoh1π±
     pion_bucket: null
     measurement_type: single-diff
     observables: total and differential cross sections
@@ -948,7 +948,7 @@
     - numu
     target:
     - CH
-    topology: CCQEp
+    topology: CC0π1p
     pion_bucket: 0pi
     measurement_type: null
     observables: kinematic imbalance measurements
@@ -1024,7 +1024,7 @@
     - numubar
     target:
     - CH
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section (muon pT, pL)
@@ -1064,7 +1064,7 @@
     - numu
     target:
     - CH
-    topology: NC K+
+    topology: NC1K+
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross sections
@@ -1107,7 +1107,7 @@
     - CH
     - Fe
     - Pb
-    topology: CCQEp
+    topology: CC0π1p
     pion_bucket: 0pi
     measurement_type: ratio
     observables: differential cross sections and nuclear ratios
@@ -1151,7 +1151,7 @@
     - numu
     target:
     - CH
-    topology: CCpi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: single-diff
     observables: ldifferential cross sections (muon and π0 kinematics)
@@ -1232,7 +1232,7 @@
     - nue
     target:
     - CH
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections (e angle, energy, Q2)
@@ -1311,7 +1311,7 @@
     - numu
     target:
     - CH
-    topology: CCcoh K+
+    topology: CCcoh1K+
     pion_bucket: null
     measurement_type: null
     observables: first evidence of coherent K+ production
@@ -1432,12 +1432,20 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:MINERvA:2016sfc
   measurements:
   - current: CC
-    flavor:
+    flavor: &id001
     - numu
     - numubar
-    target:
+    target: &id002
     - CH
-    topology: CCpi+/CCpi0
+    topology: CC1π+
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: differential cross sections
+    energy_notes: focus on resonance production
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: single-diff
     observables: differential cross sections
@@ -1477,7 +1485,7 @@
     - numu
     target:
     - CH
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section
@@ -1513,7 +1521,7 @@
     - numu
     target:
     - CH
-    topology: CC K+
+    topology: CC1K+
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross section (K+ KE)
@@ -1552,7 +1560,7 @@
     - numu
     target:
     - CH
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections (pion angle and KE)
@@ -1593,7 +1601,7 @@
     - numu
     target:
     - CH
-    topology: CCQEp
+    topology: CC0π1p
     pion_bucket: 0pi
     measurement_type: total
     observables: cross section vs hadronic kinematics
@@ -1631,7 +1639,7 @@
     - numubar
     target:
     - CH
-    topology: CC1pi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: single-diff
     observables: differential cross sections (π0 momentum and angle)
@@ -1670,7 +1678,7 @@
     - numubar
     target:
     - CH
-    topology: CCcoh pi
+    topology: CCcoh1π±
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross section vs |t|

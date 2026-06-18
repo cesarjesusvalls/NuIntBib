@@ -32,7 +32,7 @@
     - numubar
     target:
     - CH2
-    topology: CC1pi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: single-diff
     observables: numubar CC pi0 production, differential
@@ -277,7 +277,7 @@
     - numu
     target:
     - CH2
-    topology: CC1pi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: single-diff
     observables: total and differential cross sections
@@ -313,7 +313,7 @@
     - numu
     target:
     - C
-    topology: NCcoh pi0
+    topology: NCcoh1π0
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section

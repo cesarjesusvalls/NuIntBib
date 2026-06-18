@@ -28,7 +28,7 @@
     - numubar
     target:
     - SiO2
-    topology: CCcoh pi
+    topology: CCcoh1π±
     pion_bucket: null
     measurement_type: single-diff
     observables: coherent single charged-pion production

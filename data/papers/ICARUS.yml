@@ -38,7 +38,7 @@
     - numubar
     target:
     - Ar
-    topology: CCQE-like
+    topology: CC0π
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: CCQE-like (no final-state pions)

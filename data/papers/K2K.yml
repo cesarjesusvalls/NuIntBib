@@ -30,7 +30,7 @@
     - numu
     target:
     - CH
-    topology: CC1pi0
+    topology: CC1π0
     pion_bucket: pi0
     measurement_type: ratio
     observables: ratio of CC1π0 to CCQE cross section
@@ -67,7 +67,7 @@
     - numu
     target:
     - CH
-    topology: CC1pi+
+    topology: CC1π+
     pion_bucket: pi_charged
     measurement_type: ratio
     observables: ratio of CC1π+ to CCQE cross section
@@ -141,7 +141,7 @@
     - numu
     target:
     - H2O
-    topology: NC1pi0
+    topology: NC1π0
     pion_bucket: pi0
     measurement_type: ratio
     observables: ratio of NC1π0 to CC total cross section
@@ -176,7 +176,7 @@
     - numu
     target:
     - C
-    topology: CCcoh pi
+    topology: CCcoh1π±
     pion_bucket: null
     measurement_type: limit
     observables: upper limit on coherent pion production

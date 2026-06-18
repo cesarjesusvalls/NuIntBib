@@ -35,12 +35,44 @@
     observables: quasielastic on deuterium
     energy_notes: null
   - current: CC
-    flavor:
+    flavor: &id001
     - numu
     - numubar
-    target:
+    target: &id002
     - D2
-    topology: CC pi production
+    topology: CC1π+
+    pion_bucket: null
+    measurement_type: null
+    observables: one-, two-, three-pion production cross sections
+    energy_notes: null
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC1π0
+    pion_bucket: null
+    measurement_type: null
+    observables: one-, two-, three-pion production cross sections
+    energy_notes: null
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC1π-
+    pion_bucket: null
+    measurement_type: null
+    observables: one-, two-, three-pion production cross sections
+    energy_notes: null
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC2π
+    pion_bucket: null
+    measurement_type: null
+    observables: one-, two-, three-pion production cross sections
+    energy_notes: null
+  - current: CC
+    flavor: *id001
+    target: *id002
+    topology: CC3π
     pion_bucket: null
     measurement_type: null
     observables: one-, two-, three-pion production cross sections

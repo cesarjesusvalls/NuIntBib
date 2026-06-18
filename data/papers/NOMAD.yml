@@ -39,7 +39,7 @@
     - numu
     target:
     - C
-    topology: NC single gamma
+    topology: NC1γ
     pion_bucket: null
     measurement_type: limit
     observables: upper limit on single photon production
@@ -83,7 +83,7 @@
     - numu
     target:
     - C
-    topology: NCcoh pi0
+    topology: NCcoh1π0
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section
@@ -276,7 +276,7 @@
     - numu
     target:
     - C
-    topology: CC Dstar+
+    topology: CC D*+
     pion_bucket: null
     measurement_type: null
     observables: D★+ yield and fragmentation
