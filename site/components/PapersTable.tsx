@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import { Icon } from '@/components/Icon';
+import { downloadText, fileSlug } from '@/lib/download';
 
 export type PaperRow = {
   slug: string;
@@ -187,6 +188,13 @@ export function PapersTable({ rows, facets }: { rows: PaperRow[]; facets: RowFac
     setQuery('');
   }
 
+  function downloadBib() {
+    if (!visible.length) return;
+    const bib = visible.map((r) => r.bibtex.trim()).join('\n\n') + '\n';
+    const slug = fileSlug(facets.map((f) => active[f.key]));
+    downloadText(`nubib-${slug}.bib`, bib, 'application/x-bibtex');
+  }
+
   const activeChips = facets
     .map((f) => ({ f, value: active[f.key] ?? ALL }))
     .filter((c) => c.value !== ALL);
@@ -282,6 +290,18 @@ export function PapersTable({ rows, facets }: { rows: PaperRow[]; facets: RowFac
                 <option value="title-asc">Title A–Z</option>
               </select>
             </label>
+            <button
+              className="papers-bib-btn"
+              onClick={downloadBib}
+              type="button"
+              disabled={!visible.length}
+              title="Download a .bib file with the BibTeX of every paper in the current results"
+            >
+              <Icon name="download" size={14} />
+              <span>
+                .bib<small>{visible.length}</small>
+              </span>
+            </button>
           </div>
 
           <div className="challenge-results-header">

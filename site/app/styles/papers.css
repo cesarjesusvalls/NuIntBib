@@ -118,6 +118,39 @@
   background: var(--white);
   color: var(--ink);
 }
+.papers-bib-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 650;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--white);
+  color: var(--ink);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.15s, color 0.15s;
+}
+.papers-bib-btn:hover:not(:disabled) {
+  border-color: var(--cardinal);
+  color: var(--cardinal);
+}
+.papers-bib-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.papers-bib-btn small {
+  font-family: var(--font-roboto-mono), ui-monospace, monospace;
+  font-size: 0.68rem;
+  color: var(--muted);
+  margin-left: 0.1rem;
+}
+.papers-bib-btn:hover:not(:disabled) small {
+  color: var(--cardinal);
+}
 
 .papers-list {
   list-style: none;

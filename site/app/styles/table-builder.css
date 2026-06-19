@@ -1,0 +1,115 @@
+/* Table builder (/table) */
+.tb {
+  display: grid;
+  gap: 1.25rem;
+}
+.tb-controls {
+  display: grid;
+  gap: 1rem;
+  padding: 1.4rem 1.5rem;
+}
+.tb-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 0.9rem;
+}
+.tb-label {
+  flex: none;
+  width: 5.5rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.tb-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.tb-filter select {
+  font: inherit;
+  font-size: 0.82rem;
+  padding: 0.28rem 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--white);
+  color: var(--ink);
+  max-width: 12rem;
+}
+.tb-clear {
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--cardinal);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.tb-col-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  flex: 1 1 20rem;
+}
+
+.tb-resultbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.tb-resultbar p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.tb-exports {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+/* Publication-style preview table, made to screenshot well */
+.tb-preview {
+  overflow-x: auto;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.5rem;
+}
+.tb-preview table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.tb-preview thead th {
+  text-align: left;
+  font-weight: 700;
+  padding: 0.4rem 0.85rem;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1.5px solid var(--ink);
+  white-space: nowrap;
+}
+.tb-preview tbody td {
+  padding: 0.36rem 0.85rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.tb-preview tbody tr:last-child td {
+  border-bottom: 2px solid var(--ink);
+}
+.tb-preview .tb-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.tb-preview td .math,
+.tb-preview td .katex {
+  font-size: 0.95em;
+}

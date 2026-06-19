@@ -14,12 +14,14 @@ export const site = {
 
 export const navItems = [
   { href: '/papers', label: 'Papers' },
+  { href: '/table', label: 'Table builder' },
   { href: '/stats', label: 'Statistics' },
   { href: '/about', label: 'About' },
 ];
 
 export const footerPages = [
   { href: '/papers', label: 'Browse papers' },
+  { href: '/table', label: 'Table builder' },
   { href: '/stats', label: 'Statistics' },
   { href: '/about', label: 'About' },
 ];
