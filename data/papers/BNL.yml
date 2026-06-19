@@ -82,6 +82,48 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- inspire_recid: 159782
+  title: STUDY OF THE ISOSPIN STRUCTURE OF SINGLE PION PRODUCTION IN CHARGED CURRENT NEUTRINO INTERACTIONS
+  abstract: The isospin structure of weak single-pion production in the reactions νp→μ−pπ+, νn→μ−pπ0,
+    and νn→μ−nπ+ has been studied using the 7-foot deuterium bubble chamber exposed to a wide-band neutrino
+    beam at BNL. We find that the I=12Nπ amplitude is substantial even in the Δ(1232) mass region and
+    the relative phase angle ψ is approximately 90° as predicted by the Adler model.
+  arxiv: null
+  doi: 10.1103/PhysRevD.23.2495
+  journal: Phys.Rev.D
+  volume: '23'
+  pages: '2495'
+  year: 1981
+  published_date: '1980'
+  citation_count: 42
+  collaboration: BNL
+  bibtag: Baker:1980pj
+  added: '2026-06-19'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevD.23.2495
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Baker:1980pj
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CC1π+
+    pion_bucket: pi_charged
+    measurement_type: single-diff
+    observables: single-pion production cross sections (νp→μ⁻pπ⁺, νn→μ⁻nπ⁺); isospin structure
+    energy_notes: null
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CC1π0
+    pion_bucket: pi0
+    measurement_type: single-diff
+    observables: single-pion production cross sections (νn→μ⁻pπ⁰); isospin structure
+    energy_notes: null
 - bibtag: Baker:1981su
   title: 'Quasielastic Neutrino Scattering: A Measurement of the Weak Nucleon Axial Vector Form-Factor'
   collaboration: BNL

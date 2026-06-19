@@ -1,3 +1,48 @@
+- inspire_recid: 15108
+  title: 'Two and Three Pion Production by $\nu_\mu D$ Reactions Near Threshold: The Implications for
+    Nucleon Decay Experiments'
+  abstract: We use νμ-deuteron reactions into exclusive multipion final states to determine the extent
+    to which atmospheric ν interactions can imitate nucleon decay. For decays N→lcπcπc (lcπcπcπ0), neutrinos
+    induce background events at the rate 0.07±0.06 (0.03±0.02) per kiloton year. By requiring a multipion
+    final state to be consistent with a ρ, ω, or η, a fivefold reduction of the background is obtained.
+    Thus presentgeneration experiments are capable of searching for such decays at a lifetime level corresponding
+    to many kiloton years of detector exposure.
+  arxiv: null
+  doi: 10.1103/PhysRevD.30.1605
+  journal: Phys.Rev.D
+  volume: '30'
+  pages: '1605'
+  year: 1984
+  published_date: 1984-06
+  citation_count: 14
+  collaboration: ANL
+  bibtag: Derrick:1984fn
+  added: '2026-06-19'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevD.30.1605
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Derrick:1984fn
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CC2π
+    pion_bucket: null
+    measurement_type: total
+    observables: exclusive two-pion production
+    energy_notes: null
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CC3π
+    pion_bucket: null
+    measurement_type: total
+    observables: exclusive three-pion production
+    energy_notes: null
 - bibtag: Day:1983itd
   title: STUDY OF neutrino D CHARGED CURRENT TWO PION PRODUCTION IN THE THRESHOLD REGION
   collaboration: ANL
@@ -83,6 +128,59 @@
     pion_bucket: null
     measurement_type: null
     observables: null
+    energy_notes: null
+- inspire_recid: 9759
+  title: Study of Single Pion Production by Weak Neutral Currents in Low-energy Neutrino $d$ Interactions
+  abstract: Results are presented on single-pion production by the weak neutral current observed in low-energy
+    neutrino reactions in deuterium. Cross sections are given for the three exclusive neutral-current
+    final states νpπ−, νpπ0, and νnπ+ relative to the charged-current final state μ−pπ+. The results agree
+    well with models for weak one-pion production which incorporate the Weinberg-Salam structure of the
+    neutral current.
+  arxiv: null
+  doi: 10.1103/PhysRevD.23.569
+  journal: Phys.Rev.D
+  volume: '23'
+  pages: '569'
+  year: 1981
+  published_date: 1980-09
+  citation_count: 59
+  collaboration: ANL
+  bibtag: Derrick:1980xw
+  added: '2026-06-19'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevD.23.569
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Derrick:1980xw
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: NC1π-
+    pion_bucket: pi_charged
+    measurement_type: ratio
+    observables: NC single-pion cross sections relative to CC (νpπ⁻)
+    energy_notes: null
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: NC1π0
+    pion_bucket: pi0
+    measurement_type: ratio
+    observables: NC single-pion cross sections relative to CC (νpπ⁰)
+    energy_notes: null
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: NC1π+
+    pion_bucket: pi_charged
+    measurement_type: ratio
+    observables: NC single-pion cross sections relative to CC (νnπ⁺)
     energy_notes: null
 - bibtag: Derrick:1980nr
   title: Study of the Reaction Neutrino $N \to$ Neutrino $p \pi^-$
