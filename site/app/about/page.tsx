@@ -36,12 +36,8 @@ export default function AboutPage() {
             NuIntBib is developed and managed by {site.maintainer} ({site.maintainerAffiliation}).
             Corrections, additions, and suggestions are welcome by email (
             <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>) or on{' '}
-            <a href={site.githubUrl} target="_blank" rel="noreferrer">
-              GitHub
-            </a>
-            , where you can{' '}
             <a href={`${site.githubUrl}/issues`} target="_blank" rel="noreferrer">
-              open an issue
+              GitHub
             </a>
             .
           </p>

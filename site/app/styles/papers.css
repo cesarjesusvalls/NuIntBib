@@ -513,6 +513,15 @@
   margin-top: 0.75rem;
   line-height: 1.7;
 }
+.prose a {
+  color: var(--cardinal);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.prose a:hover {
+  text-decoration-thickness: 2px;
+}
 .prose code {
   font-family: var(--font-roboto-mono), monospace;
   font-size: 0.85em;
