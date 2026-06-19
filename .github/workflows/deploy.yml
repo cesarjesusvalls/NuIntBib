@@ -39,9 +39,8 @@ jobs:
 
       - name: Build static site
         working-directory: site
-        env:
-          # Served from https://<user>.github.io/NuIntBib/
-          NEXT_PUBLIC_BASE_PATH: /NuIntBib
+        # Served from the apex custom domain https://nubib.org/ (root path),
+        # so NEXT_PUBLIC_BASE_PATH is left unset (basePath = '').
         run: yarn build
 
       - name: Disable Jekyll processing

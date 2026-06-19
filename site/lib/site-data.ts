@@ -5,7 +5,7 @@ export const site = {
   title: 'NuIntBib | Neutrino Interaction Measurements',
   description:
     'A continuously updated index of published neutrino-interaction measurements.',
-  url: 'https://cesarjesusvalls.github.io/NuIntBib',
+  url: 'https://nubib.org',
   githubUrl: 'https://github.com/cesarjesusvalls/NuIntBib',
   maintainer: 'César Jesús Valls',
   maintainerAffiliation: 'CERN',
