@@ -39,6 +39,10 @@ export default function AboutPage() {
             <a href={site.githubUrl} target="_blank" rel="noreferrer">
               GitHub
             </a>
+            , where you can{' '}
+            <a href={`${site.githubUrl}/issues`} target="_blank" rel="noreferrer">
+              open an issue
+            </a>
             .
           </p>
         </Container>
