@@ -1,0 +1,46 @@
+- bibtag: DANSS:2018fnn
+  title: Search for sterile neutrinos at the DANSS experiment
+  collaboration: DANSS
+  arxiv: '1804.04046'
+  doi: 10.1016/j.physletb.2018.10.038
+  journal: Phys.Lett.B
+  volume: '787'
+  pages: '56'
+  year: 2018
+  published_date: '2018-04-11'
+  inspire_recid: 1667194
+  citation_count: 284
+  abstract: DANSS is a highly segmented 1~m${}^3$ plastic scintillator detector. Its 2500 one meter long
+    scintillator strips have a Gd-loaded reflective cover. The DANSS detector is placed under an industrial
+    3.1~$\mathrm{GW_{th}}$ reactor of the Kalinin Nuclear Power Plant 350~km NW from Moscow. The distance
+    to the core is varied on-line from 10.7~m to 12.7~m. The reactor building provides about 50~m water-equivalent
+    shielding against the cosmic background. DANSS detects almost 5000 $\widetilde\nu_e$ per day at the
+    closest position with the cosmic background less than 3$\%$. The inverse beta decay process is used
+    to detect $\widetilde\nu_e$. Sterile neutrinos are searched for assuming the $4\nu$ model (3 active
+    and 1 sterile $\nu$). The exclusion area in the $\Delta m_{14}^2,\sin^22\theta_{14}$ plane is obtained
+    using a ratio of positron energy spectra collected at different distances. Therefore results do not
+    depend on the shape and normalization of the reactor $\widetilde\nu_e$ spectrum, as well as on the
+    detector efficiency. Results are based on 966 thousand antineutrino events collected at 3 distances
+    from the reactor core. The excluded area covers a wide range of the sterile neutrino parameters up
+    to $\sin^22\theta_{14}&lt;0.01$ in the most sensitive region.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1804.04046
+    doi: https://doi.org/10.1016/j.physletb.2018.10.038
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DANSS:2018fnn
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null

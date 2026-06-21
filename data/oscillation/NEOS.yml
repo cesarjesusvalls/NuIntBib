@@ -1,0 +1,44 @@
+- bibtag: NEOS:2016wee
+  title: Sterile Neutrino Search at the NEOS Experiment
+  collaboration: NEOS
+  arxiv: '1610.05134'
+  doi: 10.1103/PhysRevLett.118.121802
+  journal: Phys.Rev.Lett.
+  volume: '118'
+  pages: '121802'
+  year: 2017
+  published_date: '2016-10-17'
+  inspire_recid: 1492322
+  citation_count: 458
+  abstract: An experiment to search for light sterile neutrinos was conducted at a reactor with a thermal
+    power of 2.8 GW located at the Hanbit nuclear power complex. The search was done with a detector consisting
+    of a ton of Gd-loaded liquid scintillator in a tendon gallery approximately 24 m from the reactor
+    core. The measured antineutrino event rate is 1976 per day with a signal to background ratio of about
+    22. The shape of the antineutrino energy spectrum obtained from eight-month data-taking period is
+    compared with a hypothesis of oscillations due to active-sterile antineutrino mixing. It is found
+    to be consistent with no oscillation. An excess around 5 MeV prompt energy range is observed as seen
+    in existing longer baseline experiments. The parameter space of $\sin^{2}2\theta_{14}$ down below
+    0.1 for $\Delta m^{2}_{41}$ ranging from 0.2 eV$^{2}$ to 2.3 eV$^{2}$ and the optimum point for the
+    previously reported reactor antineutrino anomaly are excluded with a confidence level higher than
+    90%.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1610.05134
+    doi: https://doi.org/10.1103/PhysRevLett.118.121802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NEOS:2016wee
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₄
+    - Δm²₄₁
+    observables: null
+    notes: null

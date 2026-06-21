@@ -1,0 +1,49 @@
+- bibtag: NEUTRINO-4:2018huq
+  title: First Observation of the Oscillation Effect in the Neutrino-4 Experiment on the Search for the
+    Sterile Neutrino
+  collaboration: NEUTRINO-4
+  arxiv: '1809.10561'
+  doi: 10.1134/S0021364019040040
+  journal: Pisma Zh.Eksp.Teor.Fiz.
+  volume: '109'
+  pages: '209'
+  year: 2019
+  published_date: '2018-09-27'
+  inspire_recid: 1695828
+  citation_count: 134
+  abstract: 'We present the results of the Neutrino-4 experiment on search for a sterile neutrino. The
+    experiment has been carried out on the SM-3 reactor having a compact active zone of $42\times42\times35\textrm{cm}^3$
+    and operating on the highly enriched uranium-235 at 90 MW thermal power. We report the results of
+    the Neutrino-4 experiment of measurements of reactor antineutrino flux and spectrum dependence on
+    the distance in the range 6-12 meters from the center of the reactor core. Using the measured spectrum
+    and the distance dependence of antineutrino flux, we performed the model independent analysis of restrictions
+    on the oscillation parameters $\Delta m^2_{14}$ and $\sin^2 2\theta_{14}$. The method of coherent
+    addition of results of measurements is proposed. It allows us to directly observe the effect of oscillations.
+    We observed the oscillation effect at CL $3.5\sigma$ in the vicinity of $\Delta m^2_{14} \approx 7.26\textrm{eV}^2$
+    and $\sin^2 2\theta_{14} \approx 0.38$. Combining the result of the Neutrino-4 experiment and the
+    result of the gallium anomaly effect we obtained value $\sin^2 2\theta_{14} \approx 0.35 \pm 0.07
+    (5\sigma)$. The analysis of systematics effects is presented. Comparison with results of other experiments
+    is presented. Future prospect of the experiment is discussed. It is necessary to notice that obtained
+    values $\sin^2 2\theta_{14} \approx 0.35 \pm 0.07 (5\sigma)$ and $\Delta m^2_{14} \approx (7.3 \pm
+    0.7)\textrm{eV}^2$ allow make assessment on the mass of a neutrino: $m_{\beta} \approx 0.8\textrm{eV}$.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1809.10561
+    doi: https://doi.org/10.1134/S0021364019040040
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NEUTRINO-4:2018huq
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null

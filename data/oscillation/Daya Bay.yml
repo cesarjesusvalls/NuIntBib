@@ -1,3 +1,533 @@
+- bibtag: DayaBay:2024hrv
+  title: Measurement of Electron Antineutrino Oscillation Amplitude and Frequency via Neutron Capture
+    on Hydrogen at Daya Bay
+  collaboration: Daya Bay
+  arxiv: '2406.01007'
+  doi: 10.1103/PhysRevLett.133.151801
+  journal: Phys.Rev.Lett.
+  volume: '133'
+  pages: '151801'
+  year: 2024
+  published_date: '2024-06-03'
+  inspire_recid: 2793710
+  citation_count: 16
+  abstract: This Letter reports the first measurement of the oscillation amplitude and frequency of reactor
+    antineutrinos at Daya Bay via neutron capture on hydrogen using 1958 days of data. With over 3.6 million
+    signal candidates, an optimized candidate selection, improved treatment of backgrounds and efficiencies,
+    refined energy calibration, and an energy response model for the capture-on-hydrogen sensitive region,
+    the relative $\overline{\nu}_{e}$ rates and energy spectra variation among the near and far detectors
+    gives $\mathrm{sin}^22\theta_{13} = 0.0759_{-0.0049}^{+0.0050}$ and $\Delta m^2_{32} = (2.72^{+0.14}_{-0.15})\times10^{-3}$
+    eV$^2$ assuming the normal neutrino mass ordering, and $\Delta m^2_{32} = (-2.83^{+0.15}_{-0.14})\times10^{-3}$
+    eV$^2$ for the inverted neutrino mass ordering. This estimate of $\sin^2 2\theta_{13}$ is consistent
+    with and essentially independent from the one obtained using the capture-on-gadolinium sample at Daya
+    Bay. The combination of these two results yields $\mathrm{sin}^22\theta_{13}= 0.0833\pm0.0022$, which
+    represents an 8% relative improvement in precision regarding the Daya Bay full 3158-day capture-on-gadolinium
+    result.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2406.01007
+    doi: https://doi.org/10.1103/PhysRevLett.133.151801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2024hrv
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: DayaBay:2024nip
+  title: Search for a Sub-eV Sterile Neutrino using Daya Bay’s Full Dataset
+  collaboration: Daya Bay
+  arxiv: '2404.01687'
+  doi: 10.1103/PhysRevLett.133.051801
+  journal: Phys.Rev.Lett.
+  volume: '133'
+  pages: 051801
+  year: 2024
+  published_date: '2024-04-02'
+  inspire_recid: 2773385
+  citation_count: 17
+  abstract: This Letter presents results of a search for the mixing of a sub-eV sterile neutrino with
+    three active neutrinos based on the full data sample of the Daya Bay Reactor Neutrino Experiment,
+    collected during 3158 days of detector operation, which contains $5.55 \times 10^{6}$ reactor \anue
+    candidates identified as inverse beta-decay interactions followed by neutron-capture on gadolinium.
+    The analysis benefits from a doubling of the statistics of our previous result and from improvements
+    of several important systematic uncertainties. No significant oscillation due to mixing of a sub-eV
+    sterile neutrino with active neutrinos was found. Exclusion limits are set by both Feldman-Cousins
+    and CLs methods. Light sterile neutrino mixing with $\sin^2 2\theta_{14} \gtrsim 0.01$ can be excluded
+    at 95% confidence level in the region of $0.01$ eV$^2 \lesssim |\Delta m^{2}_{41}| \lesssim 0.1 $
+    eV$^2$. This result represents the world-leading constraints in the region of $2 \times 10^{-4}$ eV$^2
+    \lesssim |\Delta m^{2}_{41}| \lesssim 0.2 $ eV$^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2404.01687
+    doi: https://doi.org/10.1103/PhysRevLett.133.051801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2024nip
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: DayaBay:2022orm
+  title: Precision Measurement of Reactor Antineutrino Oscillation at Kilometer-Scale Baselines by Daya
+    Bay
+  collaboration: Daya Bay
+  arxiv: '2211.14988'
+  doi: 10.1103/PhysRevLett.130.161802
+  journal: Phys.Rev.Lett.
+  volume: '130'
+  pages: '161802'
+  year: 2023
+  published_date: '2022-11-27'
+  inspire_recid: 2601288
+  citation_count: 141
+  abstract: We present a new determination of the smallest neutrino mixing angle ${\theta}_{13}$ and the
+    mass-squared difference ${\Delta}{\rm m}^{2}_{32}$ using a final sample of $5.55 \times 10^{6}$ inverse
+    beta-decay (IBD) candidates with the final-state neutron captured on gadolinium. This sample was selected
+    from the complete data set obtained by the Daya Bay reactor neutrino experiment in 3158 days of operation.
+    Compared to the previous Daya Bay results, selection of IBD candidates has been optimized, energy
+    calibration refined, and treatment of backgrounds further improved. The resulting oscillation parameters
+    are ${\rm sin}^{2}2{\theta}_{13} = 0.0851 \pm 0.0024$, ${\Delta}{\rm m}^{2}_{32} = (2.466 \pm 0.060)
+    \times 10^{-3}{\rm eV}^{2}$ for the normal mass ordering or ${\Delta}{\rm m}^{2}_{32} = -(2.571 \pm
+    0.060) \times 10^{-3} {\rm eV}^{2}$ for the inverted mass ordering.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2211.14988
+    doi: https://doi.org/10.1103/PhysRevLett.130.161802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2022orm
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: DayaBay:2018yms
+  title: Measurement of the Electron Antineutrino Oscillation with 1958 Days of Operation at Daya Bay
+  collaboration: Daya Bay
+  arxiv: '1809.02261'
+  doi: 10.1103/PhysRevLett.121.241805
+  journal: Phys.Rev.Lett.
+  volume: '121'
+  pages: '241805'
+  year: 2018
+  published_date: '2018-09-06'
+  inspire_recid: 1693245
+  citation_count: 376
+  abstract: We report a measurement of electron antineutrino oscillation from the Daya Bay Reactor Neutrino
+    Experiment with nearly 4 million reactor $\overline{\nu}_{e}$ inverse beta decay candidates observed
+    over 1958 days of data collection. The installation of a Flash-ADC readout system and a special calibration
+    campaign using different source enclosures reduce uncertainties in the absolute energy calibration
+    to less than 0.5% for visible energies larger than 2 MeV. The uncertainty in the cosmogenic $^9$Li
+    and $^8$He background is reduced from 45% to 30% in the near detectors. A detailed investigation of
+    the spent nuclear fuel history improves its uncertainty from 100% to 30%. Analysis of the relative
+    $\overline{\nu}_{e}$ rates and energy spectra among detectors yields $\sin^{2}2\theta_{13} = 0.0856\pm
+    0.0029$ and $\Delta m^2_{32}=(2.471^{+0.068}_{-0.070})\times 10^{-3}~\mathrm{eV}^2$ assuming the normal
+    hierarchy, and $\Delta m^2_{32}=-(2.575^{+0.068}_{-0.070})\times 10^{-3}~\mathrm{eV}^2$ assuming the
+    inverted hierarchy.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1809.02261
+    doi: https://doi.org/10.1103/PhysRevLett.121.241805
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2018yms
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: DayaBay:2016ggj
+  title: Measurement of electron antineutrino oscillation based on 1230 days of operation of the Daya
+    Bay experiment
+  collaboration: Daya Bay
+  arxiv: '1610.04802'
+  doi: 10.1103/PhysRevD.95.072006
+  journal: Phys.Rev.D
+  volume: '95'
+  pages: '072006'
+  year: 2017
+  published_date: '2016-10-15'
+  inspire_recid: 1492315
+  citation_count: 334
+  abstract: A measurement of electron antineutrino oscillation by the Daya Bay Reactor Neutrino Experiment
+    is described in detail. Six 2.9-GW$_{\rm th}$ nuclear power reactors of the Daya Bay and Ling Ao nuclear
+    power facilities served as intense sources of $\overline{\nu}_{e}$'s. Comparison of the $\overline{\nu}_{e}$
+    rate and energy spectrum measured by antineutrino detectors far from the nuclear reactors ($\sim$1500-1950
+    m) relative to detectors near the reactors ($\sim$350-600 m) allowed a precise measurement of $\overline{\nu}_{e}$
+    disappearance. More than 2.5 million $\overline{\nu}_{e}$ inverse beta decay interactions were observed,
+    based on the combination of 217 days of operation of six antineutrino detectors (Dec. 2011--Jul. 2012)
+    with a subsequent 1013 days using the complete configuration of eight detectors (Oct. 2012--Jul. 2015).
+    The $\overline{\nu}_{e}$ rate observed at the far detectors relative to the near detectors showed
+    a significant deficit, $R=0.949 \pm 0.002(\mathrm{stat.}) \pm 0.002(\mathrm{syst.})$. The energy dependence
+    of $\overline{\nu}_{e}$ disappearance showed the distinct variation predicted by neutrino oscillation.
+    Analysis using an approximation for the three-flavor oscillation probability yielded the flavor-mixing
+    angle $\sin^22\theta_{13}=0.0841 \pm 0.0027(\mathrm{stat.}) \pm 0.0019(\mathrm{syst.})$ and the effective
+    neutrino mass-squared difference of $\left|{\Delta}m^2_{\mathrm{ee}}\right|=(2.50 \pm 0.06(\mathrm{stat.})
+    \pm 0.06(\mathrm{syst.})) \times 10^{-3}\ {\rm eV}^2$. Analysis using the exact three-flavor probability
+    found ${\Delta}m^2_{32}=(2.45 \pm 0.06(\mathrm{stat.}) \pm 0.06(\mathrm{syst.})) \times 10^{-3}\ {\rm
+    eV}^2$ assuming the normal neutrino mass hierarchy and ${\Delta}m^2_{32}=(-2.56 \pm 0.06(\mathrm{stat.})
+    \pm 0.06(\mathrm{syst.})) \times 10^{-3}\ {\rm eV}^2$ for the inverted hierarchy.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1610.04802
+    doi: https://doi.org/10.1103/PhysRevD.95.072006
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2016ggj
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: DayaBay:2016qvc
+  title: Improved Search for a Light Sterile Neutrino with the Full Configuration of the Daya Bay Experiment
+  collaboration: Daya Bay
+  arxiv: '1607.01174'
+  doi: 10.1103/PhysRevLett.117.151802
+  journal: Phys.Rev.Lett.
+  volume: '117'
+  pages: '151802'
+  year: 2016
+  published_date: '2016-07-05'
+  inspire_recid: 1473824
+  citation_count: 122
+  abstract: This Letter reports an improved search for light sterile neutrino mixing in the electron antineutrino
+    disappearance channel with the full configuration of the Daya Bay Reactor Neutrino Experiment. With
+    an additional 404 days of data collected in eight antineutrino detectors, this search benefits from
+    3.6 times the statistics available to the previous publication, as well as from improvements in energy
+    calibration and background reduction. A relative comparison of the rate and energy spectrum of reactor
+    antineutrinos in the three experimental halls yields no evidence of sterile neutrino mixing in the
+    $2\times10^{-4} \lesssim |\Delta m^{2}_{41}| \lesssim 0.3$ eV$^{2}$ mass range. The resulting limits
+    on $\sin^{2}2\theta_{14}$ are improved by approximately a factor of 2 over previous results and constitute
+    the most stringent constraints to date in the $|\Delta m^{2}_{41}| \lesssim 0.2$ eV$^{2}$ region.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1607.01174
+    doi: https://doi.org/10.1103/PhysRevLett.117.151802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2016qvc
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: DayaBay:2016ziq
+  title: New measurement of $\theta_{13}$ via neutron capture on hydrogen at Daya Bay
+  collaboration: Daya Bay
+  arxiv: '1603.03549'
+  doi: 10.1103/PhysRevD.93.072011
+  journal: Phys.Rev.D
+  volume: '93'
+  pages: '072011'
+  year: 2016
+  published_date: '2016-03-11'
+  inspire_recid: 1427291
+  citation_count: 95
+  abstract: This article reports an improved independent measurement of neutrino mixing angle $\theta_{13}$
+    at the Daya Bay Reactor Neutrino Experiment. Electron antineutrinos were identified by inverse $\beta$-decays
+    with the emitted neutron captured by hydrogen, yielding a data-set with principally distinct uncertainties
+    from that with neutrons captured by gadolinium. With the final two of eight antineutrino detectors
+    installed, this study used 621 days of data including the previously reported 217-day data set with
+    six detectors. The dominant statistical uncertainty was reduced by 49%. Intensive studies of the cosmogenic
+    muon-induced $^9$Li and fast neutron backgrounds and the neutron-capture energy selection efficiency,
+    resulted in a reduction of the systematic uncertainty by 26%. The deficit in the detected number of
+    antineutrinos at the far detectors relative to the expected number based on the near detectors yielded
+    $\sin^22\theta_{13} = 0.071 \pm 0.011$ in the three-neutrino-oscillation framework. The combination
+    of this result with the gadolinium-capture result is also reported.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1603.03549
+    doi: https://doi.org/10.1103/PhysRevD.93.072011
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2016ziq
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: DayaBay:2015ayh
+  title: New Measurement of Antineutrino Oscillation with the Full Detector Configuration at Daya Bay
+  collaboration: Daya Bay
+  arxiv: '1505.03456'
+  doi: 10.1103/PhysRevLett.115.111802
+  journal: Phys.Rev.Lett.
+  volume: '115'
+  pages: '111802'
+  year: 2015
+  published_date: '2015-05-13'
+  inspire_recid: 1369999
+  citation_count: 283
+  abstract: We report a new measurement of electron antineutrino disappearance using the fully-constructed
+    Daya Bay Reactor Neutrino Experiment. The final two of eight antineutrino detectors were installed
+    in the summer of 2012. Including the 404 days of data collected from October 2012 to November 2013
+    resulted in a total exposure of 6.9$\times$10$^5$ GW$_{\rm th}$-ton-days, a 3.6 times increase over
+    our previous results. Improvements in energy calibration limited variations between detectors to 0.2%.
+    Removal of six $^{241}$Am-$^{13}$C radioactive calibration sources reduced the background by a factor
+    of two for the detectors in the experimental hall furthest from the reactors. Direct prediction of
+    the antineutrino signal in the far detectors based on the measurements in the near detectors explicitly
+    minimized the dependence of the measurement on models of reactor antineutrino emission. The uncertainties
+    in our estimates of $\sin^{2}2\theta_{13}$ and $|\Delta m^2_{ee}|$ were halved as a result of these
+    improvements. Analysis of the relative antineutrino rates and energy spectra between detectors gave
+    $\sin^{2}2\theta_{13} = 0.084\pm0.005$ and $|\Delta m^{2}_{ee}|= (2.42\pm0.11) \times 10^{-3}$ eV$^2$
+    in the three-neutrino framework.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1505.03456
+    doi: https://doi.org/10.1103/PhysRevLett.115.111802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2015ayh
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: DayaBay:2013yxg
+  title: Spectral measurement of electron antineutrino oscillation amplitude and frequency at Daya Bay
+  collaboration: Daya Bay
+  arxiv: '1310.6732'
+  doi: 10.1103/PhysRevLett.112.061801
+  journal: Phys.Rev.Lett.
+  volume: '112'
+  pages: 061801
+  year: 2014
+  published_date: '2013-10-24'
+  inspire_recid: 1261972
+  citation_count: 401
+  abstract: A measurement of the energy dependence of antineutrino disappearance at the Daya Bay Reactor
+    Neutrino Experiment is reported. Electron antineutrinos ($\overline{\nu}_{e}$) from six $2.9$ GW$_{\rm
+    th}$ reactors were detected with six detectors deployed in two near (effective baselines 512 m and
+    561 m) and one far (1579 m) underground experimental halls. Using 217 days of data, 41589 (203809
+    and 92912) antineutrino candidates were detected in the far hall (near halls). An improved measurement
+    of the oscillation amplitude $\sin^{2}2\theta_{13} = 0.090^{+0.008}_{-0.009} $ and the first direct
+    measurement of the $\overline{\nu}_{e}$ mass-squared difference $|\Delta m^{2}_{ee}|= (2.59_{-0.20}^{+0.19})
+    \times 10^{-3}\ {\rm eV}^2 $ is obtained using the observed $\overline{\nu}_{e}$ rates and energy
+    spectra in a three-neutrino framework. This value of $|\Delta m^{2}_{ee}|$ is consistent with $|\Delta
+    m^{2}_{\mu\mu}|$ measured by muon neutrino disappearance, supporting the three-flavor oscillation
+    model.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1310.6732
+    doi: https://doi.org/10.1103/PhysRevLett.112.061801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2013yxg
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: DayaBay:2014fct
+  title: Search for a Light Sterile Neutrino at Daya Bay
+  collaboration: Daya Bay
+  arxiv: '1407.7259'
+  doi: 10.1103/PhysRevLett.113.141802
+  journal: Phys.Rev.Lett.
+  volume: '113'
+  pages: '141802'
+  year: 2014
+  published_date: '2014-07-27'
+  inspire_recid: 1308514
+  citation_count: 144
+  abstract: A search for light sterile neutrino mixing was performed with the first 217 days of data from
+    the Daya Bay Reactor Antineutrino Experiment. The experiment's unique configuration of multiple baselines
+    from six 2.9~GW$_{\rm th}$ nuclear reactors to six antineutrino detectors deployed in two near (effective
+    baselines 512~m and 561~m) and one far (1579~m) underground experimental halls makes it possible to
+    test for oscillations to a fourth (sterile) neutrino in the $10^{\rm -3}~{\rm eV}^{2} < |\Delta m_{41}^{2}|
+    < 0.3~{\rm eV}^{2}$ range. The relative spectral distortion due to electron antineutrino disappearance
+    was found to be consistent with that of the three-flavor oscillation model. The derived limits on
+    $\sin^22\theta_{14}$ cover the $10^{-3}~{\rm eV}^{2} \lesssim |\Delta m^{2}_{41}| \lesssim 0.1~{\rm
+    eV}^{2}$ region, which was largely unexplored.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1407.7259
+    doi: https://doi.org/10.1103/PhysRevLett.113.141802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2014fct
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: DayaBay:2014fud
+  title: Independent measurement of the neutrino mixing angle $\theta_{13}$ via neutron capture on hydrogen
+    at Daya Bay
+  collaboration: Daya Bay
+  arxiv: '1406.6468'
+  doi: 10.1103/PhysRevD.90.071101
+  journal: Phys.Rev.D
+  volume: '90'
+  pages: '071101'
+  year: 2014
+  published_date: '2014-06-25'
+  inspire_recid: 1303107
+  citation_count: 80
+  abstract: A new measurement of the $\theta_{13}$ mixing angle has been obtained at the Daya Bay Reactor
+    Neutrino Experiment via the detection of inverse beta decays tagged by neutron capture on hydrogen.
+    The antineutrino events for hydrogen capture are distinct from those for gadolinium capture with largely
+    different systematic uncertainties, allowing a determination independent of the gadolinium-capture
+    result and an improvement on the precision of $\theta_{13}$ measurement. With a 217-day antineutrino
+    data set obtained with six antineutrino detectors and from six 2.9 GW$_{th}$ reactors, the rate deficit
+    observed at the far hall is interpreted as $\sin^22\theta_{13}=0.083\pm0.018$ in the three-flavor
+    oscillation model. When combined with the gadolinium-capture result from Daya Bay, we obtain $\sin^22\theta_{13}=0.089\pm0.008$
+    as the final result for the six-antineutrino-detector configuration of the Daya Bay experiment.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1406.6468
+    doi: https://doi.org/10.1103/PhysRevD.90.071101
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2014fud
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: DayaBay:2012yjv
+  title: Improved Measurement of Electron Antineutrino Disappearance at Daya Bay
+  collaboration: Daya Bay
+  arxiv: '1210.6327'
+  doi: 10.1088/1674-1137/37/1/011001
+  journal: Chin.Phys.C
+  volume: '37'
+  pages: '011001'
+  year: 2013
+  published_date: 2012-10
+  inspire_recid: 1192924
+  citation_count: 472
+  abstract: We report an improved measurement of the neutrino mixing angle $\theta_{13}$ from the Daya
+    Bay Reactor Neutrino Experiment. We exclude a zero value for $\sin^22\theta_{13}$ with a significance
+    of 7.7 standard deviations. Electron antineutrinos from six reactors of 2.9 GW$_{\rm th}$ were detected
+    in six antineutrino detectors deployed in two near (flux-weighted baselines of 470 m and 576 m) and
+    one far (1648 m) underground experimental halls. Using 139 days of data, 28909 (205308) electron antineutrino
+    candidates were detected at the far hall (near halls). The ratio of the observed to the expected number
+    of antineutrinos assuming no oscillations at the far hall is $0.944\pm 0.007({\rm stat.}) \pm 0.003({\rm
+    syst.})$. An analysis of the relative rates in six detectors finds $\sin^22\theta_{13}=0.089\pm 0.010({\rm
+    stat.})\pm0.005({\rm syst.})$ in a three-neutrino framework.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1210.6327
+    doi: https://doi.org/10.1088/1674-1137/37/1/011001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DayaBay:2012yjv
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
 - inspire_recid: 1093266
   title: Observation of electron-antineutrino disappearance at Daya Bay
   abstract: The Daya Bay Reactor Neutrino Experiment has measured a non-zero value for the neutrino mixing

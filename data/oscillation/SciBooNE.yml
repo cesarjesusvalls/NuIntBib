@@ -1,0 +1,40 @@
+- bibtag: SciBooNE:2011qyf
+  title: Dual baseline search for muon neutrino disappearance at $0.5 {\rm eV}^2 < \Delta m^2 < 40 {\rm
+    eV}^2$
+  collaboration: SciBooNE
+  arxiv: '1106.5685'
+  doi: 10.1103/PhysRevD.85.032007
+  journal: Phys.Rev.D
+  volume: '85'
+  pages: '032007'
+  year: 2012
+  published_date: 2011-06
+  inspire_recid: 916049
+  citation_count: 156
+  abstract: The SciBooNE and MiniBooNE collaborations report the results of a \nu_\mu disappearance search
+    in the \Delta m^2 region of 0.5-40 eV^2. The neutrino rate as measured by the SciBooNE tracking detectors
+    is used to constrain the rate at the MiniBooNE Cherenkov detector in the first joint analysis of data
+    from both collaborations. Two separate analyses of the combined data samples set 90% confidence level
+    (CL) limits on \nu_\mu disappearance in the 0.5-40 eV^2 \Delta m^2 region, with an improvement over
+    previous experimental constraints between 10 and 30 eV^2.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1106.5685
+    doi: https://doi.org/10.1103/PhysRevD.85.032007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SciBooNE:2011qyf
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null

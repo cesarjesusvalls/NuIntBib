@@ -1,3 +1,104 @@
+- bibtag: MiniBooNE:2022emn
+  title: MiniBooNE and MicroBooNE Combined Fit to a <math display="inline"><mrow><mn>3</mn><mo>+</mo><mn>1</mn></mrow></math>
+    Sterile Neutrino Scenario
+  collaboration: MiniBooNE
+  arxiv: '2201.01724'
+  doi: 10.1103/PhysRevLett.129.201801
+  journal: Phys.Rev.Lett.
+  volume: '129'
+  pages: '201801'
+  year: 2022
+  published_date: '2022-01-05'
+  inspire_recid: 2001778
+  citation_count: 51
+  abstract: This letter presents the results from the MiniBooNE experiment within a full "3+1" scenario
+    where one sterile neutrino is introduced to the three-active-neutrino picture. In addition to electron-neutrino
+    appearance at short-baselines, this scenario also allows for disappearance of the muon-neutrino and
+    electron-neutrino fluxes in the Booster Neutrino Beam, which is shared by the MicroBooNE experiment.
+    We present the 3+1 fit to the MiniBooNE electron-(anti)neutrino and muon-(anti)neutrino data alone,
+    and in combination with MicroBooNE electron-neutrino data. The best-fit parameters of the combined
+    fit with the exclusive CCQE analysis (inclusive analysis) are $\Delta m^2 = 0.29 eV^2 (0.33 eV^2)$,
+    $|U_{e4}|^2 = 0.016 (0.500)$, $|U_{\mu 4}|^2 = 0.500 (0.500)$, and $\sin^2(2\theta_{\mu e})=0.0316
+    (1.0)$. Comparing the no-oscillation scenario to the 3+1 model, the data prefer the 3+1 model with
+    a $\Delta \chi^2/\text{dof} = 24.7 / 3 (17.3 / 3)$, a $4.3\sigma (3.4\sigma)$ preference assuming
+    the asymptotic approximation given by Wilks' theorem.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2201.01724
+    doi: https://doi.org/10.1103/PhysRevLett.129.201801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2022emn
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: false
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MiniBooNE:2020pnu
+  title: Updated MiniBooNE neutrino oscillation results with increased data and new background studies
+  collaboration: MiniBooNE
+  arxiv: '2006.16883'
+  doi: 10.1103/PhysRevD.103.052002
+  journal: Phys.Rev.D
+  volume: '103'
+  pages: '052002'
+  year: 2021
+  published_date: '2020-06-30'
+  inspire_recid: 1804293
+  citation_count: 337
+  abstract: The MiniBooNE experiment at Fermilab reports a total excess of $638.0 \pm 132.8$ electron-like
+    events ($4.8 \sigma$) from a data sample corresponding to $18.75 \times 10^{20}$ protons-on-target
+    in neutrino mode, which is a 46\% increase in the data sample with respect to previously published
+    results, and $11.27 \times 10^{20}$ protons-on-target in antineutrino mode. The additional statistics
+    allow several studies to address questions on the source of the excess. First, we provide two-dimensional
+    plots in visible energy and cosine of the angle of the outgoing lepton, which can provide valuable
+    input to models for the event excess. Second, we test whether the excess may arise from photons that
+    enter the detector from external events or photons exiting the detector from $\pi^0$ decays in two
+    model independent ways. Beam timing information shows that almost all of the excess is in time with
+    neutrinos that interact in the detector. The radius distribution shows that the excess is distributed
+    throughout the volume, while tighter cuts on the fiducal volume increase the significance of the excess.
+    We conclude that models of the event excess based on entering and exiting photons are disfavored.
+  added: '2026-06-21'
+  notes: needs full-text check
+  links:
+    arxiv: https://arxiv.org/abs/2006.16883
+    doi: https://doi.org/10.1103/PhysRevD.103.052002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2020pnu
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - θ₁₄
+    - θ₂₄
+    - Δm²₄₁
+    observables: null
+    notes: null
 - inspire_recid: 1675670
   title: Significant Excess of ElectronLike Events in the MiniBooNE Short-Baseline Neutrino Experiment
   abstract: The MiniBooNE experiment at Fermilab reports results from an analysis of $\nu_e$ appearance
@@ -46,4 +147,345 @@
     parameters:
     - Δm²₄₁
     observables: electron-like event excess at 541 m
+    notes: null
+- bibtag: MiniBooNE:2011pix
+  title: Test of Lorentz and CPT violation with Short Baseline Neutrino Oscillation Excesses
+  collaboration: MiniBooNE
+  arxiv: '1109.3480'
+  doi: 10.1016/j.physletb.2012.12.020
+  journal: Phys.Lett.B
+  volume: '718'
+  pages: '1303'
+  year: 2013
+  published_date: 2011-09
+  inspire_recid: 927609
+  citation_count: 107
+  abstract: The sidereal time dependence of MiniBooNE electron neutrino and anti-electron neutrino appearance
+    data are analyzed to search for evidence of Lorentz and CPT violation. An unbinned Kolmogorov-Smirnov
+    test shows both the electron neutrino and anti-electron neutrino appearance data are compatible with
+    the null sidereal variation hypothesis to more than 5%. Using an unbinned likelihood fit with a Lorentz-violating
+    oscillation model derived from the Standard Model Extension (SME) to describe any excess events over
+    background, we find that the electron neutrino appearance data prefer a sidereal time-independent
+    solution, and the anti-electron neutrino appearance data slightly prefer a sidereal time-dependent
+    solution. Limits of order 10E-20 GeV are placed on combinations of SME coefficients. These limits
+    give the best limits on certain SME coefficients for muon neutrino to electron neutrino and anti-muon
+    neutrino to anti-electron neutrino oscillations. The fit values and limits of combinations of SME
+    coefficients are provided.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1109.3480
+    doi: https://doi.org/10.1016/j.physletb.2012.12.020
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2011pix
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: LIV
+    channels:
+    - from: numu
+      to: nue
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters: []
+    observables: null
+    notes: null
+- bibtag: MiniBooNE:2013uba
+  title: Improved Search for $\bar \nu_\mu \rightarrow \bar \nu_e$ Oscillations in the MiniBooNE Experiment
+  collaboration: MiniBooNE
+  arxiv: '1303.2588'
+  doi: 10.1103/PhysRevLett.110.161801
+  journal: Phys.Rev.Lett.
+  volume: '110'
+  pages: '161801'
+  year: 2013
+  published_date: '2013-03-11'
+  inspire_recid: 1223326
+  citation_count: 697
+  abstract: The MiniBooNE experiment at Fermilab reports results from an analysis of $\bar \nu_e$ appearance
+    data from $11.27 \times 10^{20}$ protons on target in antineutrino mode, an increase of approximately
+    a factor of two over the previously reported results. An event excess of $78.4 \pm 28.5$ events ($2.8
+    \sigma$) is observed in the energy range $200<E_\nu^{QE}<1250$ MeV. If interpreted in a two-neutrino
+    oscillation model, $\bar{\nu}_{\mu}\rightarrow\bar{\nu}_e$, the best oscillation fit to the excess
+    has a probability of 66% while the background-only fit has a $\chi^2$-probability of 0.5% relative
+    to the best fit. The data are consistent with antineutrino oscillations in the $0.01 < \Delta m^2
+    < 1.0$ eV$^2$ range and have some overlap with the evidence for antineutrino oscillations from the
+    Liquid Scintillator Neutrino Detector (LSND). All of the major backgrounds are constrained by in-situ
+    event measurements so non-oscillation explanations would need to invoke new anomalous background processes.
+    The neutrino mode running also shows an excess at low energy of $162.0 \pm 47.8$ events ($3.4 \sigma$)
+    but the energy distribution of the excess is marginally compatible with a simple two neutrino oscillation
+    formalism. Expanded models with several sterile neutrinos can reduce the incompatibility by allowing
+    for CP violating effects between neutrino and antineutrino oscillations.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1303.2588
+    doi: https://doi.org/10.1103/PhysRevLett.110.161801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2013uba
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MiniBooNE:2012maf
+  title: A Combined $\nu_\mu \rightarrow \nu_e$ and $\bar \nu_\mu \rightarrow \bar \nu_e$ Oscillation
+    Analysis of the MiniBooNE Excesses
+  collaboration: MiniBooNE
+  arxiv: '1207.4809'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2012
+  published_date: '2012-07-19'
+  inspire_recid: 1495903
+  citation_count: 317
+  abstract: The MiniBooNE experiment at Fermilab reports results from an analysis of the combined $\nu_e$
+    and $\bar \nu_e$ appearance data from $6.46 \times 10^{20}$ protons on target in neutrino mode and
+    $11.27 \times 10^{20}$ protons on target in antineutrino mode. A total excess of $240.3 \pm 34.5 \pm
+    52.6$ events ($3.8 \sigma$) is observed from combining the two data sets in the energy range $200<E_\nu^{QE}<1250$
+    MeV. In a combined fit for CP-conserving $\nu_\mu \rightarrow \nu_e$ and $\bar{\nu}_{\mu}\rightarrow\bar{\nu}_e$
+    oscillations via a two-neutrino model, the background-only fit has a $\chi^2$-probability of 0.03%
+    relative to the best oscillation fit. The data are consistent with neutrino oscillations in the $0.01
+    < \Delta m^2 < 1.0$ eV$^2$ range and with the evidence for antineutrino oscillations from the Liquid
+    Scintillator Neutrino Detector (LSND).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1207.4809
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2012maf
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: MiniBooNE:2012meu
+  title: Dual baseline search for muon antineutrino disappearance at $0.1 {\rm eV}^2 < {\Delta}m^2 < 100
+    {\rm eV}^2$
+  collaboration: MiniBooNE
+  arxiv: '1208.0322'
+  doi: 10.1103/PhysRevD.86.052009
+  journal: Phys.Rev.D
+  volume: '86'
+  pages: 052009
+  year: 2012
+  published_date: 2012-08
+  inspire_recid: 1124583
+  citation_count: 178
+  abstract: The MiniBooNE and SciBooNE collaborations report the results of a joint search for short baseline
+    disappearance of \bar{{\nu}_{\mu}} at Fermilab's Booster Neutrino Beamline. The MiniBooNE Cherenkov
+    detector and the SciBooNE tracking detector observe antineutrinos from the same beam, therefore the
+    combined analysis of their datasets serves to partially constrain some of the flux and cross section
+    uncertainties. Uncertainties in the {\nu}_{\mu} background were constrained by neutrino flux and cross
+    section measurements performed in both detectors. A likelihood ratio method was used to set a 90%
+    confidence level upper limit on \bar{{\nu}_{\mu}} disappearance that dramatically improves upon prior
+    limits in the {\Delta}m^2=0.1-100 eV^2 region.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1208.0322
+    doi: https://doi.org/10.1103/PhysRevD.86.052009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2012meu
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MiniBooNE:2010idf
+  title: Event Excess in the MiniBooNE Search for $\bar \nu_\mu \rightarrow \bar \nu_e$ Oscillations
+  collaboration: MiniBooNE
+  arxiv: '1007.1150'
+  doi: 10.1103/PhysRevLett.105.181801
+  journal: Phys.Rev.Lett.
+  volume: '105'
+  pages: '181801'
+  year: 2010
+  published_date: 2010-07
+  inspire_recid: 860589
+  citation_count: 690
+  abstract: The MiniBooNE experiment at Fermilab reports results from a search for $\bar \nu_\mu \rightarrow
+    \bar \nu_e$ oscillations, using a data sample corresponding to $5.66 \times 10^{20}$ protons on target.
+    An excess of $20.9 \pm 14.0$ events is observed in the energy range $475&lt;E_\nu^{QE}&lt;1250$ MeV,
+    which, when constrained by the observed $\bar \nu_\mu$ events, has a probability for consistency with
+    the background-only hypothesis of 0.5\%. On the other hand, fitting for $\bar{\nu}_{\mu}\rightarrow\bar{\nu}_e$
+    oscillations, the best-fit point has a $\chi^2$-probability of 8.7\%. The data are consistent with
+    $\bar \nu_\mu \rightarrow \bar \nu_e$ oscillations in the 0.1 to 1.0 eV$^2$ $\Delta m^2$ range and
+    with the evidence for antineutrino oscillations from the Liquid Scintillator Neutrino Detector at
+    Los Alamos National Laboratory.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1007.1150
+    doi: https://doi.org/10.1103/PhysRevLett.105.181801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2010idf
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MiniBooNE:2009atu
+  title: A Search for Electron Antineutrino Appearance at the $\Delta m^2 \sim$ 1 $\mathrm{eV}^{2}$ Scale
+  collaboration: MiniBooNE
+  arxiv: '0904.1958'
+  doi: 10.1103/PhysRevLett.103.111801
+  journal: Phys.Rev.Lett.
+  volume: '103'
+  pages: '111801'
+  year: 2009
+  published_date: 2009-05
+  inspire_recid: 817850
+  citation_count: 166
+  abstract: 'The MiniBooNE Collaboration reports initial results from a search for $\bar{\nu}_{\mu}\to\bar{\nu}_e$
+    oscillations. A signal-blind analysis was performed using a data sample corresponding to $3.39 \times
+    10^{20}$ protons on target. The data are consistent with background prediction across the full range
+    of neutrino energy reconstructed assuming quasielastic scattering, $200 < E_{\nu}^{QE} < 3000$ MeV:
+    144 electron-like events have been observed in this energy range, compared to an expectation of $139.2
+    \pm 17.6$ events. No significant excess of events has been observed, both at low energy, 200-475 MeV,
+    and at high energy, 475-1250 MeV. The data are inconclusive with respect to antineutrino oscillations
+    suggested by data from the Liquid Scintillator Neutrino Detector at Los Alamos National Laboratory.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0904.1958
+    doi: https://doi.org/10.1103/PhysRevLett.103.111801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2009atu
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: MiniBooNE:2009ozf
+  title: A Search for muon neutrino and antineutrino disappearance in MiniBooNE
+  collaboration: MiniBooNE
+  arxiv: '0903.2465'
+  doi: 10.1103/PhysRevLett.103.061802
+  journal: Phys.Rev.Lett.
+  volume: '103'
+  pages: 061802
+  year: 2009
+  published_date: 2009-03
+  inspire_recid: 815443
+  citation_count: 104
+  abstract: The MiniBooNE Collaboration reports a search for \numu and \numubar disappearance in the \dmsq
+    region of a few \evsq. These measurements are important for constraining models with extra types of
+    neutrinos, extra dimensions an d CPT violation. Fits to the shape of the \numu and \numubar energy
+    spectra reveal no evidence for disappearance at 90% confidence level (CL) in either mode. This is
+    the first test of \numubar disappearance between \dmsq=0.1-10\evsq.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0903.2465
+    doi: https://doi.org/10.1103/PhysRevLett.103.061802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2009ozf
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MiniBooNE:2007uho
+  title: A Search for Electron Neutrino Appearance at the $\Delta m^2 \sim 1 eV^2$ Scale
+  collaboration: MiniBooNE
+  arxiv: '0704.1500'
+  doi: 10.1103/PhysRevLett.98.231801
+  journal: Phys.Rev.Lett.
+  volume: '98'
+  pages: '231801'
+  year: 2007
+  published_date: 2007-04
+  inspire_recid: 748380
+  citation_count: 857
+  abstract: The MiniBooNE Collaboration reports first results of a search for $\nu_e$ appearance in a
+    $\nu_\mu$ beam. With two largely independent analyses, we observe no significant excess of events
+    above background for reconstructed neutrino energies above 475 MeV. The data are consistent with no
+    oscillations within a two neutrino appearance-only oscillation model.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0704.1500
+    doi: https://doi.org/10.1103/PhysRevLett.98.231801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2007uho
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
     notes: null

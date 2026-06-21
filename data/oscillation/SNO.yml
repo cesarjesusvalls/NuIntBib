@@ -1,3 +1,303 @@
+- bibtag: SNO:2024wzq
+  title: Initial measurement of reactor antineutrino oscillation at SNO+
+  collaboration: SNO
+  arxiv: '2405.19700'
+  doi: 10.1140/epjc/s10052-024-13687-5
+  journal: Eur.Phys.J.C
+  volume: '85'
+  pages: '17'
+  year: 2025
+  published_date: '2024-05-30'
+  inspire_recid: 2791608
+  citation_count: 18
+  abstract: The SNO+ collaboration reports its first spectral analysis of long-baseline reactor antineutrino
+    oscillation using 114 tonne-years of data. Fitting the neutrino oscillation probability to the observed
+    energy spectrum yields constraints on the neutrino mass-squared difference $\Delta m^2_{21}$. In the
+    ranges allowed by previous measurements, the best-fit $\Delta m^2_{21}$ is (8.85$^{+1.10}_{-1.33}$)
+    $\times$ 10$^{-5}$ eV$^2$. This measurement is continuing in the next phases of SNO+ and is expected
+    to surpass the present global precision on $\Delta m^2_{21}$ with about three years of data.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2405.19700
+    doi: https://doi.org/10.1140/epjc/s10052-024-13687-5
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNO:2024wzq
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: SNO:2025koj
+  title: Measurement of Reactor Antineutrino Oscillation at <math display="inline"><mrow><mi>SNO</mi><mo>+</mo></mrow></math>
+  collaboration: SNO
+  arxiv: '2505.04469'
+  doi: 10.1103/gypt-lc9v
+  journal: Phys.Rev.Lett.
+  volume: '135'
+  pages: '121801'
+  year: 2025
+  published_date: '2025-05-07'
+  inspire_recid: 2919048
+  citation_count: 12
+  abstract: The SNO+ collaboration reports its second spectral analysis of reactor antineutrino oscillation
+    using 286 tonne-years of new data. The measured energies of reactor antineutrino candidates were fitted
+    to obtain the second-most precise determination of the neutrino mass-squared difference $Δm^2_{21}$
+    = ($7.96^{+0.48}_{-0.42}$) $\times$ 10$^{-5}$ eV$^2$. Constraining $Δm^2_{21}$ and $\sin^2θ_{12}$
+    with measurements from long-baseline reactor antineutrino and solar neutrino experiments yields $Δm^2_{21}$
+    = ($7.58^{+0.18}_{-0.17}$) $\times$ 10$^{-5}$ eV$^2$ and $\sin^2θ_{12} = 0.308 \pm 0.013$. This fit
+    also yields a first measurement of the flux of geoneutrinos in the Western Hemisphere, with $73^{+47}_{-43}$
+    TNU at SNO+.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2505.04469
+    doi: https://doi.org/10.1103/gypt-lc9v
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNO:2025koj
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: SNO:2011ajh
+  title: Measurement of the $\nu_e$ and Total $^{8}$B Solar Neutrino Fluxes with the Sudbury Neutrino
+    Observatory Phase-III Data Set
+  collaboration: SNO
+  arxiv: '1107.2901'
+  doi: 10.1103/PhysRevC.87.015502
+  journal: Phys.Rev.C
+  volume: '87'
+  pages: '015502'
+  year: 2013
+  published_date: 2011-07
+  inspire_recid: 918440
+  citation_count: 97
+  abstract: This paper details the solar neutrino analysis of the 385.17-day Phase-III data set acquired
+    by the Sudbury Neutrino Observatory (SNO). An array of $^3$He proportional counters was installed
+    in the heavy-water target to measure precisely the rate of neutrino-deuteron neutral-current interactions.
+    This technique to determine the total active $^8$B solar neutrino flux was largely independent of
+    the methods employed in previous phases. The total flux of active neutrinos was measured to be $5.54^{+0.33}_{-0.31}(stat.)^{+0.36}_{-0.34}(syst.)\times
+    10^{6}$ cm$^{-2}$ s$^{-1}$, consistent with previous measurements and standard solar models. A global
+    analysis of solar and reactor neutrino mixing parameters yielded the best-fit values of $\Delta m^2
+    = 7.59^{+0.19}_{-0.21}\times 10^{-5}{eV}^2$ and $\theta = 34.4^{+1.3}_{-1.2}$ degrees.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1107.2901
+    doi: https://doi.org/10.1103/PhysRevC.87.015502
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNO:2011ajh
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: SNO:2011hxd
+  title: Combined Analysis of all Three Phases of Solar Neutrino Data from the Sudbury Neutrino Observatory
+  collaboration: SNO
+  arxiv: '1109.0763'
+  doi: 10.1103/PhysRevC.88.025501
+  journal: Phys.Rev.C
+  volume: '88'
+  pages: '025501'
+  year: 2013
+  published_date: 2011-09
+  inspire_recid: 926320
+  citation_count: 771
+  abstract: We report results from a combined analysis of solar neutrino data from all phases of the Sudbury
+    Neutrino Observatory. By exploiting particle identification information obtained from the proportional
+    counters installed during the third phase, this analysis improved background rejection in that phase
+    of the experiment. The combined analysis resulted in a total flux of active neutrino flavors from
+    8B decays in the Sun of (5.25 \pm 0.16(stat.)+0.11-0.13(syst.))\times10^6 cm^{-2}s^{-1}. A two-flavor
+    neutrino oscillation analysis yielded \Deltam^2_{21} = (5.6^{+1.9}_{-1.4})\times10^{-5} eV^2 and tan^2{\theta}_{12}=
+    0.427^{+0.033}_{-0.029}. A three-flavor neutrino oscillation analysis combining this result with results
+    of all other solar neutrino experiments and the KamLAND experiment yielded \Deltam^2_{21} = (7.41^{+0.21}_{-0.19})\times10^{-5}
+    eV^2, tan^2{\theta}_{12} = 0.446^{+0.030}_{-0.029}, and sin^2{\theta}_{13} = (2.5^{+1.8}_{-1.5})\times10^{-2}.
+    This implied an upper bound of sin^2{\theta}_{13} < 0.053 at the 95% confidence level (C.L.).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1109.0763
+    doi: https://doi.org/10.1103/PhysRevC.88.025501
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNO:2011hxd
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: SNO:2005oxr
+  title: Electron energy spectra, fluxes, and day-night asymmetries of B-8 solar neutrinos from measurements
+    with NaCl dissolved in the heavy-water detector at the Sudbury Neutrino Observatory
+  collaboration: SNO
+  arxiv: nucl-ex/0502021
+  doi: 10.1103/PhysRevC.72.055502
+  journal: Phys.Rev.C
+  volume: '72'
+  pages: '055502'
+  year: 2005
+  published_date: 2005-02
+  inspire_recid: 677505
+  citation_count: 1103
+  abstract: Results are reported from the complete salt phase of the Sudbury Neutrino Observatory experiment
+    in which NaCl was dissolved in the D$_2$O target. The addition of salt enhanced the signal from neutron
+    capture, as compared to the pure D$_2$O detector. By making a statistical separation of charged-current
+    events from other types based on event-isotropy criteria, the effective electron recoil energy spectrum
+    has been extracted. In units of $ 10^6$ cm$^{-2}$ s$^{-1}$, the total flux of active-flavor neutrinos
+    from $^8$B decay in the Sun is found to be $4.94^{+0.21}_{-0.21}{(stat)}^{+0.38}_{-0.34}{(syst)}$
+    and the integral flux of electron neutrinos for an undistorted $^8$B spectrum is $1.68^{+0.06}_{-0.06}{(stat)}^{+0.08}_{-0.09}{(syst)}$;
+    the signal from ($\nu_x$,e) elastic scattering is equivalent to an electron-neutrino flux of $2.35^{+0.22}_{-0.22}{(stat)}^{+0.15}_{-0.15}{(syst)}$.
+    These results are consistent with those expected for neutrino oscillations with the so-called Large
+    Mixing Angle parameters, and also with an undistorted spectrum. A search for matter-enhancement effects
+    in the Earth through a possible day-night asymmetry in the charged-current integral rate is consistent
+    with no asymmetry. Including results from other experiments, the best-fit values for two-neutrino
+    mixing parameters are $\Delta m^2 = (8.0^{+0.6}_{-0.4}) \times 10^{-5}$ eV$^2$ and $\theta = 33.9
+    ^{+2.4}_{-2.2}$ degrees.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/0502021
+    doi: https://doi.org/10.1103/PhysRevC.72.055502
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNO:2005oxr
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: SNO:2002fbv
+  title: Solar neutrino observations at the Sudbury Neutrino Observatory
+  collaboration: SNO
+  arxiv: hep-ex/0211013
+  doi: null
+  journal: eConf
+  volume: C020805
+  pages: TTH01
+  year: 2002
+  published_date: 2002-11
+  inspire_recid: 601418
+  citation_count: 8
+  abstract: The Sudbury Neutrino Observatory (SNO) is a 1000-tonne heavy water Cherenkov detector. Its
+    usage of \dto as target allows the simultaneous measurements of the $\nu_e$ flux from $^8$B decay
+    in the Sun and the total flux of all active neutrino species through the charged-current and the neutral-current
+    interactions on the deuterons. Assuming the standard $^{8}$B shape, the $\nu_e$ component of the $^{8}$B
+    solar neutrino flux is measured to be $\phi_e = 1.76^{+0.05}_{-0.05}{(stat.)}^{+0.09}_{-0.09} {(syst.)}
+    x 10^6 {\rm cm}^{-2} {\rm s}^{-1}$ for a kinetic energy threshold of 5 MeV. The non-\nue component
+    is found to be $\phinumutau = 3.41^{+0.45}_{-0.45}{(stat.)}^{+0.48}_{-0.45} {(syst.)} x 10^6 {\rm
+    cm}^{-2} {\rm s}^{-1}$. This $5.3\sigma$ difference provides strong evidence for $\nu_{e}$ flavor
+    transformation in the solar neutrino sector. The total active neutrino flux is measured with the neutral-current
+    reaction at a neutrino energy threshold of 2.2 MeV. This flux is determined to be $\phi_{NC} = 5.09^{+0.44}_{-0.43}{(stat.)}^{+0.46}_{-0.43}
+    {(syst.)} x 10^6 {\rm cm}^{-2} {\rm s}^{-1}$, and is consistent with solar model predictions. Assuming
+    an undistorted $^8$B spectrum, the night minus day rate is 14.0$\pm$6.3(stat.)$^{+1.5}_{-1.4}$(sys.)\%
+    of the average rate in the charged-current channel. If the total active neutrino flux is constrained
+    to have no asymmetry, the night-day asymmetry in the $\nu_e$ flux is found to be 7.0$\pm$4.9(stat.)$^{+1.3}_{1.2}$(sys.)\%.
+    A global analysis of all the available solar neutrino data in terms of matter-enhanced oscillations
+    of two active flavors strongly favors the Large Mixing Angle (LMA) solution.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0211013
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNO:2002fbv
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: SNO:2002hgz
+  title: Measurement of day and night neutrino energy spectra at SNO and constraints on neutrino mixing
+    parameters
+  collaboration: SNO
+  arxiv: nucl-ex/0204009
+  doi: 10.1103/PhysRevLett.89.011302
+  journal: Phys.Rev.Lett.
+  volume: '89'
+  pages: '011302'
+  year: 2002
+  published_date: 2002-04
+  inspire_recid: 585724
+  citation_count: 1470
+  abstract: The Sudbury Neutrino Observatory (SNO) has measured day and night solar neutrino energy spectra
+    and rates. For charged current events, assuming an undistorted $^8$B spectrum, the night minus day
+    rate is $14.0% \pm 6.3% ^{+1.5}_{-1.4}%$ of the average rate. If the total flux of active neutrinos
+    is additionally constrained to have no asymmetry, the $\nu_e$ asymmetry is found to be $7.0% \pm 4.9%
+    ^{+1.3}_{-1.2}%$. A global solar neutrino analysis in terms of matter-enhanced oscillations of two
+    active flavors strongly favors the Large Mixing Angle (LMA) solution.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/0204009
+    doi: https://doi.org/10.1103/PhysRevLett.89.011302
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNO:2002hgz
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
 - inspire_recid: 585723
   title: Direct evidence for neutrino flavor transformation from neutral current interactions in the Sudbury
     Neutrino Observatory

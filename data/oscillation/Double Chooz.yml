@@ -1,0 +1,393 @@
+- bibtag: DoubleChooz:2020pnv
+  title: Search for signatures of sterile neutrinos with Double Chooz
+  collaboration: Double Chooz
+  arxiv: '2009.05515'
+  doi: 10.1140/epjc/s10052-021-09459-0
+  journal: Eur.Phys.J.C
+  volume: '81'
+  pages: '775'
+  year: 2021
+  published_date: '2020-09-11'
+  inspire_recid: 1816683
+  citation_count: 28
+  abstract: We present a search for signatures of neutrino mixing of electron anti-neutrinos with additional
+    hypothetical sterile neutrino flavors using the Double Chooz experiment. The search is based on data
+    from 5 years of operation of Double Chooz, including 2 years in the two-detector configuration. The
+    analysis is based on a profile likelihood, i.e. comparing the data to the model prediction of disappearance
+    in a data-to-data comparison of the two respective detectors. The analysis is optimized for a model
+    of three active and one sterile neutrino. It is sensitive in the typical mass range $5 \cdot 10^{-3}
+    $ eV$^2 \lesssim \Delta m^2_{41} \lesssim 3\cdot 10^{-1} $ eV$^2$ for mixing angles down to $\sin^2
+    2\theta_{14} \gtrsim 0.02$. No significant disappearance additionally to the conventional disappearance
+    related to $\theta_{13} $ is observed and correspondingly exclusion bounds on the sterile mixing parameter
+    $\theta_{14} $ as function of $ \Delta m^2_{41} $ are obtained.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2009.05515
+    doi: https://doi.org/10.1140/epjc/s10052-021-09459-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2020pnv
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: DoubleChooz:2020vtr
+  title: Reactor rate modulation oscillation analysis with two detectors in Double Chooz
+  collaboration: Double Chooz
+  arxiv: '2007.13431'
+  doi: 10.1007/JHEP01(2021)190
+  journal: JHEP
+  volume: '01'
+  pages: '190'
+  year: 2021
+  published_date: '2020-07-27'
+  inspire_recid: 1808884
+  citation_count: 13
+  abstract: A $\theta_{13}$ oscillation analysis based on the observed antineutrino rates at the Double
+    Chooz far and near detectors for different reactor power conditions is presented. This approach provides
+    a so far unique simultaneous determination of $\theta_{13}$ and the total background rates without
+    relying on any assumptions on the specific background contributions. The analysis comprises 865 days
+    of data collected in both detectors with at least one reactor in operation. The oscillation results
+    are enhanced by the use of 24.06 days (12.74 days) of reactor-off data in the far (near) detector.
+    The analysis considers the \nue interactions up to a visible energy of 8.5 MeV, using the events at
+    higher energies to build a cosmogenic background model considering fast-neutrons interactions and
+    $^{9}$Li decays. The background-model-independent determination of the mixing angle yields sin$^2(2\theta_{13})=0.094\pm0.017$,
+    being the best-fit total background rates fully consistent with the cosmogenic background model. A
+    second oscillation analysis is also performed constraining the total background rates to the cosmogenic
+    background estimates. While the central value is not significantly modified due to the consistency
+    between the reactor-off data and the background estimates, the addition of the background model reduces
+    the uncertainty on $\theta_{13}$ to 0.015. Along with the oscillation results, the normalization of
+    the anti-neutrino rate is measured with a precision of 0.86\%, reducing the 1.43\% uncertainty associated
+    to the expectation.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2007.13431
+    doi: https://doi.org/10.1007/JHEP01(2021)190
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2020vtr
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: DoubleChooz:2019qbj
+  title: Double Chooz $\theta_{13}$ measurement via total neutron capture detection
+  collaboration: Double Chooz
+  arxiv: '1901.09445'
+  doi: 10.1038/s41567-020-0831-y
+  journal: Nature Phys.
+  volume: '16'
+  pages: '558'
+  year: 2020
+  published_date: '2019-01-27'
+  inspire_recid: 1717203
+  citation_count: 256
+  abstract: 'The establishment of the neutrino oscillations phenomenon as a solution to both solar and
+    atmospheric neutrino anomalies had two consequences: a new oscillation mode, labelled $\mathbf{\theta_{13}}$,
+    and the possibility to observe CP violation, if $\mathbf{\theta_{13}}$ was sizeable. CP violation
+    implies that neutrino oscillations behave differently for neutrinos and anti-neutrinos -- a rare fundamental
+    phenomenon key for our understanding of the Universe. The experimental demonstration of $\mathbf{\theta_{13}}$
+    has aided the completion of a quest lasting half a century. The best $\mathbf{\theta_{13}}$ knowledge
+    is today inferred from high-precision reactor neutrino disappearance. The Double Chooz (DC) experiment
+    has played a pioneering role in this channel by providing the first positive evidence, in 2011, in
+    combination with the T2K experiment appearance data. The establishment of $\mathbf{\theta_{13}}$ awaited
+    the Daya Bay experiment''s observation in 2012; confirmed soon after by the RENO experiment. Today''s
+    best knowledge on $\mathbf{\theta_{13}}$ from reactor experiments is a key input to many neutrino
+    experiments. Here DC reports its first multi-detector $\mathbf{\theta_{13}}$ measurement exploiting
+    several unprecedented techniques for a major precision improvement.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1901.09445
+    doi: https://doi.org/10.1038/s41567-020-0831-y
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2019qbj
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: DoubleChooz:2015mfm
+  title: Measurement of θ$_{13}$ in Double Chooz using neutron captures on hydrogen with novel background
+    rejection techniques
+  collaboration: Double Chooz
+  arxiv: '1510.08937'
+  doi: 10.1007/JHEP01(2016)163
+  journal: JHEP
+  volume: '01'
+  pages: '163'
+  year: 2016
+  published_date: '2015-10-29'
+  inspire_recid: 1402088
+  citation_count: 137
+  abstract: The Double Chooz collaboration presents a measurement of the neutrino mixing angle $\theta_{13}$
+    using reactor $\overline{\nu}_{e}$ observed via the inverse beta decay reaction in which the neutron
+    is captured on hydrogen. This measurement is based on 462.72 live days data, approximately twice as
+    much data as in the previous such analysis, collected with a detector positioned at an average distance
+    of 1050m from two reactor cores. Several novel techniques have been developed to achieve significant
+    reductions of the backgrounds and systematic uncertainties. Accidental coincidences, the dominant
+    background in this analysis, are suppressed by more than an order of magnitude with respect to our
+    previous publication by a multi-variate analysis. These improvements demonstrate the capability of
+    precise measurement of reactor $\overline{\nu}_{e}$ without gadolinium loading. Spectral distortions
+    from the $\overline{\nu}_{e}$ reactor flux predictions previously reported with the neutron capture
+    on gadolinium events are confirmed in the independent data sample presented here. A value of $\sin^{2}2\theta_{13}
+    = 0.095^{+0.038}_{-0.039}$(stat+syst) is obtained from a fit to the observed event rate as a function
+    of the reactor power, a method insensitive to the energy spectrum shape. A simultaneous fit of the
+    hydrogen capture events and of the gadolinium capture events yields a measurement of $\sin^{2}2\theta_{13}
+    = 0.088\pm0.033$(stat+syst).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1510.08937
+    doi: https://doi.org/10.1007/JHEP01(2016)163
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2015mfm
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: DoubleChooz:2014kuw
+  title: Improved measurements of the neutrino mixing angle $\theta_{13}$ with the Double Chooz detector
+  collaboration: Double Chooz
+  arxiv: '1406.7763'
+  doi: 10.1007/JHEP02(2015)074
+  journal: JHEP
+  volume: '10'
+  pages: 086
+  year: 2014
+  published_date: '2014-06-30'
+  inspire_recid: 1303901
+  citation_count: 502
+  abstract: The Double Chooz experiment presents improved measurements of the neutrino mixing angle $\theta_{13}$
+    using the data collected in 467.90 live days from a detector positioned at an average distance of
+    1050 m from two reactor cores at the Chooz nuclear power plant. Several novel techniques have been
+    developed to achieve significant reductions of the backgrounds and systematic uncertainties with respect
+    to previous publications, whereas the efficiency of the $\bar\nu_{e}$ signal has increased. The value
+    of $\theta_{13}$ is measured to be $\sin^{2}2\theta_{13} = 0.090 ^{+0.032}_{-0.029}$ from a fit to
+    the observed energy spectrum. Deviations from the reactor $\bar\nu_{e}$ prediction observed above
+    a prompt signal energy of 4 MeV and possible explanations are also reported. A consistent value of
+    $\theta_{13}$ is obtained from a fit to the observed rate as a function of the reactor power independently
+    of the spectrum shape and background estimation, demonstrating the robustness of the $\theta_{13}$
+    measurement despite the observed distortion.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1406.7763
+    doi: https://doi.org/10.1007/JHEP02(2015)074
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2014kuw
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: DoubleChooz:2014ppz
+  title: Background-independent measurement of $\theta_{13}$ in Double Chooz
+  collaboration: Double Chooz
+  arxiv: '1401.5981'
+  doi: 10.1016/j.physletb.2014.04.045
+  journal: Phys.Lett.B
+  volume: '735'
+  pages: '51'
+  year: 2014
+  published_date: '2014-01-23'
+  inspire_recid: 1278587
+  citation_count: 84
+  abstract: The oscillation results published by the Double Chooz collaboration in 2011 and 2012 rely
+    on background models substantiated by reactor-on data. In this analysis, we present a background-model-independent
+    measurement of the mixing angle $\theta_{13}$ by including 7.53 days of reactor-off data. A global
+    fit of the observed neutrino rates for different reactor power conditions is performed, yielding a
+    measurement of both $\theta_{13}$ and the total background rate. The results on the mixing angle are
+    improved significantly by including the reactor-off data in the fit, as it provides a direct measurement
+    of the total background rate. This reactor rate modulation analysis considers antineutrino candidates
+    with neutron captures on both Gd and H, whose combination yields $\sin^2(2\theta_{13})=$ 0.102 $\pm$
+    0.028(stat.) $\pm$ 0.033(syst.). The results presented in this study are fully consistent with the
+    ones already published by Double Chooz, achieving a competitive precision. They provide, for the first
+    time, a determination of $\theta_{13}$ that does not depend on a background model.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1401.5981
+    doi: https://doi.org/10.1016/j.physletb.2014.04.045
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2014ppz
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: DoubleChooz:2013dxe
+  title: First Measurement of $\theta_{13}$ from Delayed Neutron Capture on Hydrogen in the Double Chooz
+    Experiment
+  collaboration: Double Chooz
+  arxiv: '1301.2948'
+  doi: 10.1016/j.physletb.2013.04.050
+  journal: Phys.Lett.B
+  volume: '723'
+  pages: '66'
+  year: 2013
+  published_date: 2013-01
+  inspire_recid: 1210656
+  citation_count: 195
+  abstract: The Double Chooz experiment has determined the value of the neutrino oscillation parameter
+    $\theta_{13}$ from an analysis of inverse beta decay interactions with neutron capture on hydrogen.
+    This analysis uses a three times larger fiducial volume than the standard Double Chooz assessment,
+    which is restricted to a region doped with gadolinium (Gd), yielding an exposure of 113.1 GW-ton-years.
+    The data sample used in this analysis is distinct from that of the Gd analysis, and the systematic
+    uncertainties are also largely independent, with some exceptions, such as the reactor neutrino flux
+    prediction. A combined rate- and energy-dependent fit finds $\sin^2 2\theta_{13}=0.097\pm 0.034(stat.)
+    \pm 0.034 (syst.)$, excluding the no-oscillation hypothesis at 2.0 \sigma. This result is consistent
+    with previous measurements of $\sin^2 2\theta_{13}$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1301.2948
+    doi: https://doi.org/10.1016/j.physletb.2013.04.050
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2013dxe
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: DoubleChooz:2011ymz
+  title: Indication of Reactor $\bar{\nu}_e$ Disappearance in the Double Chooz Experiment
+  collaboration: Double Chooz
+  arxiv: '1112.6353'
+  doi: 10.1103/PhysRevLett.108.131801
+  journal: Phys.Rev.Lett.
+  volume: '108'
+  pages: '131801'
+  year: 2012
+  published_date: 2011-12
+  inspire_recid: 1082938
+  citation_count: 1805
+  abstract: The Double Chooz Experiment presents an indication of reactor electron antineutrino disappearance
+    consistent with neutrino oscillations. A ratio of 0.944 $\pm$ 0.016 (stat) $\pm$ 0.040 (syst) observed
+    to predicted events was obtained in 101 days of running at the Chooz Nuclear Power Plant in France,
+    with two 4.25 GW$_{th}$ reactors. The results were obtained from a single 10 m$^3$ fiducial volume
+    detector located 1050 m from the two reactor cores. The reactor antineutrino flux prediction used
+    the Bugey4 measurement as an anchor point. The deficit can be interpreted as an indication of a non-zero
+    value of the still unmeasured neutrino mixing parameter \sang. Analyzing both the rate of the prompt
+    positrons and their energy spectrum we find \sang = 0.086 $\pm$ 0.041 (stat) $\pm$ 0.030 (syst), or,
+    at 90% CL, 0.015 $<$ \sang $\ <$ 0.16.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1112.6353
+    doi: https://doi.org/10.1103/PhysRevLett.108.131801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2011ymz
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: DoubleChooz:2012gmf
+  title: Reactor electron antineutrino disappearance in the Double Chooz experiment
+  collaboration: Double Chooz
+  arxiv: '1207.6632'
+  doi: 10.1103/PhysRevD.86.052008
+  journal: Phys.Rev.D
+  volume: '86'
+  pages: 052008
+  year: 2012
+  published_date: 2012-07
+  inspire_recid: 1124153
+  citation_count: 617
+  abstract: The Double Chooz experiment has observed 8,249 candidate electron antineutrino events in 227.93
+    live days with 33.71 GW-ton-years (reactor power x detector mass x livetime) exposure using a 10.3
+    cubic meter fiducial volume detector located at 1050 m from the reactor cores of the Chooz nuclear
+    power plant in France. The expectation in case of theta13 = 0 is 8,937 events. The deficit is interpreted
+    as evidence of electron antineutrino disappearance. From a rate plus spectral shape analysis we find
+    sin^2 2{\theta}13 = 0.109 \pm 0.030(stat) \pm 0.025(syst). The data exclude the no-oscillation hypothesis
+    at 99.8% CL (2.9{\sigma}).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1207.6632
+    doi: https://doi.org/10.1103/PhysRevD.86.052008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:DoubleChooz:2012gmf
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null

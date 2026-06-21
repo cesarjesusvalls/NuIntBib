@@ -1,3 +1,44 @@
+- bibtag: LSND:2005oop
+  title: Tests of Lorentz violation in anti-nu(mu) ---> anti-nu(e) oscillations
+  collaboration: LSND
+  arxiv: hep-ex/0506067
+  doi: 10.1103/PhysRevD.72.076004
+  journal: Phys.Rev.D
+  volume: '72'
+  pages: '076004'
+  year: 2005
+  published_date: 2005-06
+  inspire_recid: 686013
+  citation_count: 150
+  abstract: A recently developed Standard-Model Extension (SME) formalism for neutrino oscillations that
+    includes Lorentz and CPT violation is used to analyze the sidereal time variation of the neutrino
+    event excess measured by the Liquid Scintillator Neutrino Detector (LSND) experiment. The LSND experiment,
+    performed at Los Alamos National Laboratory, observed an excess, consistent with neutrino oscillations,
+    of ${\bar\nu}_e$ in a beam of ${\bar\nu}_\mu$. It is determined that the LSND oscillation signal is
+    consistent with no sidereal variation. However, there are several combinations of SME coefficients
+    that describe the LSND data; both with and without sidereal variations. The scale of Lorentz and CPT
+    violation extracted from the LSND data is of order $10^{-19}$ GeV for the SME coefficients $a_L$ and
+    $E \times c_L$. This solution for Lorentz and CPT violating neutrino oscillations may be tested by
+    other short baseline neutrino oscillation experiments, such as the MiniBooNE experiment.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0506067
+    doi: https://doi.org/10.1103/PhysRevD.72.076004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:2005oop
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: LIV
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters: []
+    observables: null
+    notes: null
 - inspire_recid: 555937
   title: "Evidence for neutrino oscillations from the observation of $\\bar{\\nu}_e$ appearance in a $\\\
     bar{\\nu}_\\mu$\n beam"
@@ -38,4 +79,212 @@
     parameters:
     - Δm²₄₁
     observables: nuebar appearance excess at 30 m
+    notes: null
+- bibtag: LSND:1997vqj
+  title: Evidence for muon-neutrino ---> electron-neutrino oscillations from pion decay in flight neutrinos
+  collaboration: LSND
+  arxiv: nucl-ex/9706006
+  doi: 10.1103/PhysRevC.58.2489
+  journal: Phys.Rev.C
+  volume: '58'
+  pages: '2489'
+  year: 1998
+  published_date: 1997-06
+  inspire_recid: 444336
+  citation_count: 575
+  abstract: A search for nu_mu -> nu_e oscillations has been conducted at the Los Alamos Meson Physics
+    Facility using nu_mu from pi^+ decay in flight. An excess in the number of beam-related events from
+    the C(nu_e,e^-)X inclusive reaction is observed. The excess is too large to be explained by normal
+    nu_e contamination in the beam at a confidence level greater than 99%. If interpreted as an oscillation
+    signal, the observed oscillation probability of (2.6 +- 1.0 +- 0.5) x 10^{-3} is consistent with the
+    previously reported nu_mu_bar -> nu_e_bar oscillation evidence from LSND.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/9706006
+    doi: https://doi.org/10.1103/PhysRevC.58.2489
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:1997vqj
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: LSND:1997vun
+  title: Evidence for nu(mu) ---> nu(e) neutrino oscillations from LSND
+  collaboration: LSND
+  arxiv: nucl-ex/9709006
+  doi: 10.1103/PhysRevLett.81.1774
+  journal: Phys.Rev.Lett.
+  volume: '81'
+  pages: '1774'
+  year: 1998
+  published_date: 1997-09
+  inspire_recid: 448489
+  citation_count: 1177
+  abstract: A search for nu_mu -> nu_e oscillations has been conducted with the LSND apparatus at the
+    Los Alamos Meson Physics Facility. Using nu_mu from pi^+ decay in flight, the nu_e appearance is detected
+    via the charged-current reaction C(nu_e,e^-)X. Two independent analyses observe a total of 40 beam-on
+    high-energy electron events (60 < E_e < 200 MeV) consistent with the above signature. This number
+    is significantly above the 21.9 +- 2.1 events expected from the nu_e contamination in the beam and
+    the beam-off background. If interpreted as an oscillation signal, the observed oscillation probability
+    of (2.6 +- 1.0 +- 0.5) x 10^{-3} is consistent with the previously reported nu_mu_bar -> nu_e_bar
+    oscillation evidence from LSND.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/9709006
+    doi: https://doi.org/10.1103/PhysRevLett.81.1774
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:1997vun
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: LSND:1996ubh
+  title: Evidence for anti-muon-neutrino ---> anti-electron-neutrino oscillations from the LSND experiment
+    at LAMPF
+  collaboration: LSND
+  arxiv: nucl-ex/9605003
+  doi: 10.1103/PhysRevLett.77.3082
+  journal: Phys.Rev.Lett.
+  volume: '77'
+  pages: '3082'
+  year: 1996
+  published_date: 1996-05
+  inspire_recid: 418439
+  citation_count: 1299
+  abstract: A search for $\bar\nu_{\mu}\to \bar\nu_{e}$ oscillations has been conducted at the Los Alamos
+    Meson Physics Facility by using $\bar\nu_\mu$ from $\mu^+$ decay at rest. The $\bar\nu_e$ are detected
+    via the reaction $\bar\nu_e\,p \rightarrow e^{+}\,n$, correlated with a $\gamma$ from $np\rightarrow
+    d\gamma$ ($2.2\,{\rm MeV}$). The use of tight cuts to identify $e^+$ events with correlated $\gamma$
+    rays yields 22 events with $e^+$ energy between 36 and $60\,{\rm MeV}$ and only $4.6 \pm 0.6$ background
+    events. A fit to the $e^+$ events between 20 and $60\,{\rm MeV}$ yields a total excess of $51.8^{+18.7}_{-16.9}
+    \pm 8.0$ events. If attributed to $\bar \nu_\mu \rightarrow \bar \nu_e$ oscillations, this corresponds
+    to an oscillation probability of ($0.31^{+0.11}_{-0.10} \pm 0.05$)\%.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/9605003
+    doi: https://doi.org/10.1103/PhysRevLett.77.3082
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:1996ubh
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: LSND:1996vlr
+  title: Evidence for neutrino oscillations from muon decay at rest
+  collaboration: LSND
+  arxiv: nucl-ex/9605001
+  doi: 10.1103/PhysRevC.54.2685
+  journal: Phys.Rev.C
+  volume: '54'
+  pages: '2685'
+  year: 1996
+  published_date: 1996-05
+  inspire_recid: 418178
+  citation_count: 503
+  abstract: A search for nu_bar_mu to nu_bar_e oscillations has been conducted at the Los Alamos Meson
+    Physics Facility using nu_bar_mu from mu+ decay at rest. The nu_bar_e are detected via the reaction
+    (nu_bar_e,p) -> (e+,n), correlated with the 2.2 MeV gamma from (n,p) -> (d,gamma). The use of tight
+    cuts to identify e+ events with correlated gamma rays yields 22 events with e+ energy between 36 and
+    60 MeV and only 4.6 (+/- 0.6) background events. The probability that this excess is due entirely
+    to a statistical fluctuation is 4.1E-08. A chi~2 fit to the entire e+ sample results in a total excess
+    of 51.8 (+18.7) (-16.9) (+/- 8.0) events with e+ energy between 20 and 60 MeV. If attributed to nu_bar_mu
+    -> nu_bar_e oscillations, this corresponds to an oscillation probability (averaged over the experimental
+    energy and spatial acceptance) of 0.0031 (+0.0011) (-0.0010) (+/- 0.0005).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/9605001
+    doi: https://doi.org/10.1103/PhysRevC.54.2685
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:1996vlr
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    observables: null
+    notes: null
+- bibtag: LSND:1995lje
+  title: Candidate events in a search for anti-muon-neutrino ---> anti-electron-neutrino oscillations
+  collaboration: LSND
+  arxiv: nucl-ex/9504002
+  doi: 10.1103/PhysRevLett.75.2650
+  journal: Phys.Rev.Lett.
+  volume: '75'
+  pages: '2650'
+  year: 1995
+  published_date: 1995-04
+  inspire_recid: 394385
+  citation_count: 830
+  abstract: A search for $\nuebar$'s in excess of the number expected from conventional sources has been
+    made using the Liquid Scintillator Neutrino Detector, located 30 m from a proton beam dump at LAMPF.
+    A $\nuebar$ signal was detected via the reaction $\nuebar\,p \rightarrow e^{+}\,n$ with $e^+$ energy
+    between 36 and $60\mev$, followed by a $\gamma$ from $np\rightarrow d\gamma$ ($2.2\mev$). Using strict
+    cuts to identify $\gamma$'s correlated with positrons results in a signal of 9 events, with an expected
+    background of $2.1 \pm 0.3$. A likelihood fit to the entire $e^+$ sample yields a total excess of
+    $16.4^{+9.7}_{-8.9}\pm 3.3$ events, where the second uncertainty is systematic. If this excess is
+    attributed to neutrino oscillations of the type $\numubar\rightarrow\nuebar$, it corresponds to an
+    oscillation probability of ($0.34^{+0.20}_{-0.18}\pm 0.07$)\%.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/9504002
+    doi: https://doi.org/10.1103/PhysRevLett.75.2650
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:1995lje
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
     notes: null

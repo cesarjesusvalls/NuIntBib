@@ -1,3 +1,364 @@
+- bibtag: RENO:2025wbu
+  title: Measurement of reactor antineutrino oscillation parameters using the full 3800-day dataset of
+    the RENO experiment
+  collaboration: RENO
+  arxiv: null
+  doi: 10.1103/dc6j-5ky6
+  journal: Phys.Rev.D
+  volume: '111'
+  pages: '112006'
+  year: 2025
+  published_date: '2025-06-01'
+  inspire_recid: 2935469
+  citation_count: 6
+  abstract: We report an updated neutrino mixing angle of <math display="inline"><msub><mi>θ</mi><mn>13</mn></msub></math>
+    obtained from a complete data sample of the RENO experiment. The experiment has measured the amplitude
+    and frequency of reactor electron antineutrino (<math display="inline"><msub><mover accent="true"><mi>ν</mi><mo
+    stretchy="false">¯</mo></mover><mi>e</mi></msub></math>) oscillations at the Hanbit nuclear power
+    plant, Younggwang, Korea, since August 2011. As of March 2023, the data acquisition was completed
+    after a total of 3800 live days of detector operation. The observed candidates via inverse beta decay
+    with the neutron capture on the gadolinium channel are 1,211,995 (144,667) in the near (far) detector.
+    Based on an observed energy-dependent reactor neutrino disappearance, neutrino oscillation parameters
+    of <math display="inline"><msub><mi>θ</mi><mn>13</mn></msub></math> and <math display="inline"><mo
+    stretchy="false">|</mo><mi mathvariant="normal">Δ</mi><msubsup><mi>m</mi><mrow><mi>e</mi><mi>e</mi></mrow><mn>2</mn></msubsup><mo
+    stretchy="false">|</mo></math> are precisely determined as <math display="inline"><mrow><msup><mrow><mi>sin</mi></mrow><mrow><mn>2</mn></mrow></msup><mn>2</mn><msub><mrow><mi>θ</mi></mrow><mrow><mn>13</mn></mrow></msub><mo>=</mo><mn>0.092</mn><msubsup><mrow><mn>0</mn></mrow><mrow><mo>-</mo><mn>0.0042</mn></mrow><mrow><mo>+</mo><mn>0.0044</mn></mrow></msubsup><mo
+    stretchy="false">(</mo><mrow><mi>stat</mi></mrow><msubsup><mrow><mo stretchy="false">)</mo></mrow><mrow><mo>-</mo><mn>0.0041</mn></mrow><mrow><mo>+</mo><mn>0.0041</mn></mrow></msubsup><mo
+    stretchy="false">(</mo><mrow><mi>syst</mi></mrow><mo stretchy="false">)</mo></mrow></math> and <math
+    display="inline"><mrow><mo stretchy="false">|</mo><mi mathvariant="normal">Δ</mi><msubsup><mrow><mi>m</mi></mrow><mrow><mi>e</mi><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mo
+    stretchy="false">|</mo><mo>=</mo><mrow><mo stretchy="false">[</mo><mn>2.5</mn><msubsup><mrow><mn>7</mn></mrow><mrow><mo>-</mo><mn>0.11</mn></mrow><mrow><mo>+</mo><mn>0.10</mn></mrow></msubsup><mo
+    stretchy="false">(</mo><mrow><mi>stat</mi></mrow><msubsup><mrow><mo stretchy="false">)</mo></mrow><mrow><mo>-</mo><mn>0.05</mn></mrow><mrow><mo>+</mo><mn>0.05</mn></mrow></msubsup><mo
+    stretchy="false">(</mo><mrow><mi>syst</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mo>×</mo><msup><mrow><mn>10</mn></mrow><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext> </mtext><mtext> </mtext><msup><mrow><mi>eV</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></math>.
+    Compared to the previously published RENO results, the precision is improved from 7.5% to 6.4% for
+    <math display="inline"><msup><mi>sin</mi><mn>2</mn></msup><mn>2</mn><msub><mi>θ</mi><mn>13</mn></msub></math>
+    and from 5.2% to 4.5% for <math display="inline"><mo stretchy="false">|</mo><mi mathvariant="normal">Δ</mi><msubsup><mi>m</mi><mrow><mi>e</mi><mi>e</mi></mrow><mn>2</mn></msubsup><mo
+    stretchy="false">|</mo></math>. The statistical error of the measurement has reached our goal and
+    is hardly improved with additional data taking.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/dc6j-5ky6
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2025wbu
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: RENO:2024msr
+  title: Measurement of reactor antineutrino oscillation amplitude and frequency using 3800 days of complete
+    data sample of the RENO experiment
+  collaboration: RENO
+  arxiv: '2412.18711'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2024
+  published_date: '2024-12-24'
+  inspire_recid: 2863227
+  citation_count: 5
+  abstract: We report an updated neutrino mixing angle of $\theta_{13}$ obtained from a complete data
+    sample of the RENO experiment. The experiment has measured the amplitude and frequency of reactor
+    anti-electron-neutrinos ($\bar{\nu}_{e}$) oscillations at the Hanbit nuclear power plant, Younggwang,
+    Korea, since August 2011. As of March 2023, the data acquisition was completed after a total of 3800
+    live days of detector operation. The observed candidates via inverse beta decay (IBD) are 1,211,995
+    (144,667) in the near (far) detector. Based on an observed energy-dependent reactor neutrino disappearance,
+    neutrino oscillation parameters of $\theta_{13}$ and $\lvert\Delta m_{ee}^2\rvert$ are precisely determined
+    as $\sin^{2}2\theta_{13}=0.0920_{-0.0042}^{+0.0044}(\text{stat.})_{-0.0041}^{+0.0041}(\text{syst.})$
+    and $\lvert\Delta m_{ee}^2\rvert=\left[2.57_{-0.11}^{+0.10}(\text{stat.})_{-0.05}^{+0.05}(\text{syst.})\right]\times10^{-3}~\text{eV}^{2}$.
+    Compared to the previous RENO results published in Ref.~\cite{PhysRevLett.121.201801}, the precision
+    is improved from 7.5% to 6.4% for $\sin^{2}2\theta_{13}$ and from 5.2% to 4.5% for $\lvert\Delta m_{ee}^2\rvert$.
+    The statistical error of the measurement has reached our goal and is hardly improved with additional
+    data-taking.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2412.18711
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2024msr
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: RENO:2020hva
+  title: Search for sterile neutrino oscillations using RENO and NEOS data
+  collaboration: RENO
+  arxiv: '2011.00896'
+  doi: 10.1103/PhysRevD.105.L111101
+  journal: Phys.Rev.D
+  volume: '105'
+  pages: L111101
+  year: 2022
+  published_date: '2020-11-02'
+  inspire_recid: 1827478
+  citation_count: 73
+  abstract: We present a reactor model independent search for sterile neutrino oscillation using 2 509
+    days of RENO near detector data and 180 days of NEOS data. The reactor related systematic uncertainties
+    are significantly suppressed as both detectors are located at the same reactor complex of Hanbit Nuclear
+    Power Plant. The search is performed by electron antineutrino ($\overline{\nu}_e$) disappearance between
+    six reactors and two detectors with baselines of 294 m (RENO) and 24 m (NEOS). A spectral comparison
+    of the NEOS prompt-energy spectrum with a no-oscillation prediction from the RENO measurement can
+    explore reactor $\overline{\nu}_e$ oscillations to sterile neutrino. Based on the comparison, we obtain
+    a 95% C.L. excluded region of $0.1<|\Delta m_{41}^2|<7$ eV$^2$. We also obtain a 68% C.L. allowed
+    region with the best fit of $|\Delta m_{41}^2|=2.41\,\pm\,0.03\,$ eV$^2$ and $\sin^2 2\theta_{14}$=0.08$\,\pm\,$0.03
+    with a p-value of 8.2%. Comparisons of obtained reactor antineutrino spectra at reactor sources are
+    made among RENO, NEOS, and Daya Bay to find a possible spectral variation.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2011.00896
+    doi: https://doi.org/10.1103/PhysRevD.105.L111101
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2020hva
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: RENO:2019otc
+  title: Observation of reactor antineutrino disappearance using delayed neutron capture on hydrogen at
+    RENO
+  collaboration: RENO
+  arxiv: '1911.04601'
+  doi: 10.1007/JHEP04(2020)029
+  journal: JHEP
+  volume: '04'
+  pages: 029
+  year: 2020
+  published_date: '2019-11-11'
+  inspire_recid: 1764340
+  citation_count: 32
+  abstract: The Reactor Experiment for Neutrino Oscillation (RENO) experiment has been taking data using
+    two identical liquid scintillator detectors of 44.5 tons since August 2011. The experiment has observed
+    the disappearance of reactor neutrinos in their interactions with free protons, followed by neutron
+    capture on hydrogen. Based on 1500 live days of data taken with 16.8 GW$_{th}$ reactors at the Hanbit
+    Nuclear Power Plant in Korea, the near (far) detector observes 567690 (90747) electron antineutrino
+    candidate events with a delayed neutron capture on hydrogen. This provides an independent measurement
+    of $\theta_{13}$ and a consistency check on the validity of the result from n-Gd data. Furthermore,
+    it provides an important cross-check on the systematic uncertainties of the n-Gd measurement. Based
+    on a rate-only analysis, we obtain sin$^{2}$2$\theta _{13}$= 0.087 $\pm$ 0.008 (stat.) $\pm$ 0.014
+    (syst.).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1911.04601
+    doi: https://doi.org/10.1007/JHEP04(2020)029
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2019otc
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: RENO:2020uip
+  title: Search for Sub-eV Sterile Neutrinos at RENO
+  collaboration: RENO
+  arxiv: '2006.07782'
+  doi: 10.1103/PhysRevLett.125.191801
+  journal: Phys.Rev.Lett.
+  volume: '125'
+  pages: '191801'
+  year: 2020
+  published_date: '2020-06-13'
+  inspire_recid: 1801124
+  citation_count: 36
+  abstract: We report a search result for a light sterile neutrino oscillation with roughly 2200 live
+    days of data in the RENO experiment. The search is performed by electron antineutrino ($\overline{\nu}_e$)
+    disappearance taking place between six 2.8 GW$_{\text{th}}$ reactors and two identical detectors located
+    at 294 m (near) and 1383 m (far) from the center of reactor array. A spectral comparison between near
+    and far detectors can explore reactor $\overline{\nu}_e$ oscillations to a light sterile neutrino.
+    An observed spectral difference is found to be consistent with that of the three-flavor oscillation
+    model. This yields limits on $\sin^{2} 2\theta_{14}$ in the $10^{-4} \lesssim |\Delta m_{41}^2| \lesssim
+    0.5$ eV$^2$ region, free from reactor $\overline{\nu}_e$ flux and spectrum uncertainties. The RENO
+    result provides the most stringent limits on sterile neutrino mixing at $|\Delta m^2_{41}| \lesssim
+    0.002$ eV$^2$ using the $\overline{\nu}_e$ disappearance channel.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2006.07782
+    doi: https://doi.org/10.1103/PhysRevLett.125.191801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2020uip
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: RENO:2016ujo
+  title: Spectral Measurement of the Electron Antineutrino Oscillation Amplitude and Frequency using 500
+    Live Days of RENO Data
+  collaboration: RENO
+  arxiv: '1610.04326'
+  doi: 10.1103/PhysRevD.98.012002
+  journal: Phys.Rev.D
+  volume: '98'
+  pages: '012002'
+  year: 2018
+  published_date: '2016-10-14'
+  inspire_recid: 1492100
+  citation_count: 124
+  abstract: The Reactor Experiment for Neutrino Oscillation (RENO) has been taking electron antineutrino
+    ($\overline{\nu}_{e}$) data from the reactors in Yonggwang, Korea, using two identical detectors since
+    August 2011. Using roughly 500 live days of data through January 2013 we observe 290,775 (31,514)
+    reactor $\overline{\nu}_{e}$ candidate events with 2.8 (4.9)% background in the near (far) detector.
+    The observed visible positron spectra from the reactor $\overline{\nu}_{e}$ events in both detectors
+    show discrepancy around 5 MeV with regard to the prediction from the current reactor $\overline{\nu}_{e}$
+    model. Based on a far-to-near ratio measurement using the spectral and rate information we have obtained
+    $\sin^2 2 \theta_{13} = 0.082 \pm 0.009({\rm stat.}) \pm 0.006({\rm syst.})$ and $|\Delta m_{ee}^2|
+    =[2.62_{-0.23}^{+0.21}({\rm stat.})_{-0.13}^{+0.12}({\rm syst.})]\times 10^{-3}$eV$^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1610.04326
+    doi: https://doi.org/10.1103/PhysRevD.98.012002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2016ujo
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: RENO:2018dro
+  title: Measurement of Reactor Antineutrino Oscillation Amplitude and Frequency at RENO
+  collaboration: RENO
+  arxiv: '1806.00248'
+  doi: 10.1103/PhysRevLett.121.201801
+  journal: Phys.Rev.Lett.
+  volume: '121'
+  pages: '201801'
+  year: 2018
+  published_date: '2018-06-01'
+  inspire_recid: 1676077
+  citation_count: 276
+  abstract: The RENO experiment reports more precisely measured values of $\theta_{13}$ and $|\Delta m_{ee}^2|$
+    using $\sim$2\,200 live days of data. The amplitude and frequency of reactor electron antineutrino
+    ($\overline{\nu}_e$) oscillation are measured by comparing the prompt signal spectra obtained from
+    two identical near and far detectors. In the period between August 2011 and February 2018, the far
+    (near) detector observed 103\,212 (850\,666) electron antineutrino candidate events with a background
+    fraction of 4.7\% (2.0\%). A clear energy and baseline dependent disappearance of reactor $\overline{\nu}_e$
+    is observed in the deficit of the measured number of $\overline{\nu}_e$. Based on the measured far-to-near
+    ratio of prompt spectra, we obtain $\sin^2 2 \theta_{13} = 0.0896 \pm 0.0048({\rm stat}) \pm 0.0048({\rm
+    syst})$ and $|\Delta m_{ee}^2| =[2.68 \pm 0.12({\rm stat}) \pm 0.07({\rm syst})]\times 10^{-3}$~eV$^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1806.00248
+    doi: https://doi.org/10.1103/PhysRevLett.121.201801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2018dro
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: RENO:2015ksa
+  title: Observation of Energy and Baseline Dependent Reactor Antineutrino Disappearance in the RENO Experiment
+  collaboration: RENO
+  arxiv: '1511.05849'
+  doi: 10.1103/PhysRevLett.116.211801
+  journal: Phys.Rev.Lett.
+  volume: '116'
+  pages: '211801'
+  year: 2016
+  published_date: '2015-11-18'
+  inspire_recid: 1405297
+  citation_count: 322
+  abstract: The RENO experiment has analyzed about 500 live days of data to observe an energy dependent
+    disappearance of reactor $\overline{\nu}_e$ by comparison of their prompt signal spectra measured
+    in two identical near and far detectors. In the period between August 2011 and January 2013, the far
+    (near) detector observed 31541 (290775) electron antineutrino candidate events with a background fraction
+    of 4.9\% (2.8\%). The measured prompt spectra show an excess of reactor $\overline{\nu}_e$ around
+    5 MeV relative to the prediction from a most commonly used model. A clear energy and baseline dependent
+    disappearance of reactor $\overline{\nu}_e$ is observed in the deficit of the observed number of $\overline{\nu}_e$.
+    Based on the measured far-to-near ratio of prompt spectra, we obtain $\sin^2 2 \theta_{13} = 0.082
+    \pm 0.009({\rm stat.}) \pm 0.006({\rm syst.})$ and $|\Delta m_{ee}^2| =[2.62_{-0.23}^{+0.21}({\rm
+    stat.}) _{-0.13}^{+0.12}({\rm syst.})]\times 10^{-3}$~eV$^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1511.05849
+    doi: https://doi.org/10.1103/PhysRevLett.116.211801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2015ksa
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
 - inspire_recid: 1102875
   title: Observation of Reactor Electron Antineutrino Disappearance in the RENO Experiment
   abstract: The RENO experiment has observed the disappearance of reactor electron antineutrinos, consistent

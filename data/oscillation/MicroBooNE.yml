@@ -1,0 +1,198 @@
+- bibtag: MicroBooNE:2025nll
+  title: Search for light sterile neutrinos with two neutrino beams at MicroBooNE
+  collaboration: MicroBooNE
+  arxiv: '2512.07159'
+  doi: 10.1038/s41586-025-09757-7
+  journal: Nature
+  volume: '648'
+  pages: '64'
+  year: 2025
+  published_date: '2025-12-03'
+  inspire_recid: 3088922
+  citation_count: 26
+  abstract: The existence of three distinct neutrino flavours, $ν_{e}$, $ν_μ$, and $ν_τ$, is a central
+    tenet of the Standard Model of particle physics. Quantum-mechanical interference can allow a neutrino
+    of one initial flavour to be detected some time later as a different flavour, a process called neutrino
+    oscillation. Several anomalous observations inconsistent with this three-flavour picture have motivated
+    the hypothesis that an additional neutrino state exists which does not interact directly with matter,
+    termed a "sterile" neutrino, $ν_s$. This includes anomalous observations from the LSND and MiniBooNE
+    experiments, consistent with $ν_μ\rightarrowν_{e}$ transitions at a distance inconsistent with the
+    three-neutrino picture. Here, we use data obtained from the MicroBooNE liquid-argon time projection
+    chamber in two accelerator neutrino beams to exclude the single light sterile neutrino interpretation
+    of the LSND and MiniBooNE anomalies at the 95% confidence level (CL). Additionally, we rule out a
+    significant portion of the parameter space that could explain the gallium anomaly. This is the first
+    measurement to use two accelerator neutrino beams to break a degeneracy between $ν_{e}$ appearance
+    and disappearance that would otherwise weaken the sensitivity to the sterile neutrino hypothesis.
+    We find no evidence for either $ν_μ\rightarrowν_{e}$ flavour transitions or $ν_{e}$ disappearance
+    that would indicate non-standard flavour oscillations. Our results show that previous anomalous observations
+    consistent with $ν_μ\rightarrowν_{e}$ transitions cannot be explained by introducing a single sterile
+    neutrino state.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2512.07159
+    doi: https://doi.org/10.1038/s41586-025-09757-7
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2025nll
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MicroBooNE:2022sdp
+  title: First Constraints on Light Sterile Neutrino Oscillations from Combined Appearance and Disappearance
+    Searches with the MicroBooNE Detector
+  collaboration: MicroBooNE
+  arxiv: '2210.10216'
+  doi: 10.1103/PhysRevLett.130.011801
+  journal: Phys.Rev.Lett.
+  volume: '130'
+  pages: 011801
+  year: 2023
+  published_date: '2022-10-18'
+  inspire_recid: 2167334
+  citation_count: 87
+  abstract: We present a search for eV-scale sterile neutrino oscillations in the MicroBooNE liquid argon
+    detector, simultaneously considering all possible appearance and disappearance effects within the
+    $3+1$ active-to-sterile neutrino oscillation framework. We analyze the neutrino candidate events for
+    the recent measurements of charged-current $\nu_e$ and $\nu_{\mu}$ interactions in the MicroBooNE
+    detector, using data corresponding to an exposure of 6.37$\times$10$^{20}$ protons on target from
+    the Fermilab booster neutrino beam. We observe no evidence of light sterile neutrino oscillations
+    and derive exclusion contours at the $95\%$ confidence level in the plane of the mass-squared splitting
+    $\Delta m^2_{41}$ and the sterile neutrino mixing angles $\theta_{\mu e}$ and $\theta_{ee}$, excluding
+    part of the parameter space allowed by experimental anomalies. Cancellation of $\nu_e$ appearance
+    and $\nu_e$ disappearance effects due to the full $3+1$ treatment of the analysis leads to a degeneracy
+    when determining the oscillation parameters, which is discussed in this paper and will be addressed
+    by future analyses.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2210.10216
+    doi: https://doi.org/10.1103/PhysRevLett.130.011801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2022sdp
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+    - from: nue
+      to: nue
+    - from: numu
+      to: numu
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MicroBooNE:2022ubh
+  title: $\nu_mu$ Disappearance in MicroBooNE using the Deep Learning 1$\mu$1$p$ Selection
+  collaboration: MicroBooNE
+  arxiv: null
+  doi: 10.2172/2406202
+  journal: null
+  volume: null
+  pages: null
+  year: 2022
+  published_date: '2022-05-30'
+  inspire_recid: 2806724
+  citation_count: 0
+  abstract: We test a 3+1 model with the MicroBooNE data using a 1µ1p selection developed using Deep-Learning-based
+    reconstruction. In order to test this model we apply a muon neutrino disappearance effect to the selection,
+    and search across a grid of oscillation model parameters using a Feldman Cousins technique. We determine
+    MicroBooNE’s sensitivity across this model parameter space, and perform several validation studies
+    to test this study’s robustness. Finally, we examine the allowed and excluded regions per MicroBooNE’s
+    data at 90% confidence, using a data set corresponding to 6.67 × 1020 protons on target. The null
+    model remains allowed, and several of the high-disappearance models are excluded.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.2172/2406202
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2022ubh
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MicroBooNE:2022xhq
+  title: Search for a Sterile Neutrino in a 3+1 Framework using the Wire-Cell Inclusive Charged-Current
+    νe Selection from MicroBooNE
+  collaboration: MicroBooNE
+  arxiv: null
+  doi: 10.2172/2397226
+  journal: null
+  volume: null
+  pages: null
+  year: 2022
+  published_date: '2022-05-30'
+  inspire_recid: 2806696
+  citation_count: 0
+  abstract: A search for a sterile neutrino is being carried out in the MicroBooNE experiment within the
+    3+1 (three flavors of active neutrinos + one flavor of sterile neutrino) framework using neutrinos
+    from the Booster Neutrino Beam (BNB) at a baseline of about 470 m with an average neutrino energy
+    of 800 MeV. The sensitivity of this search is built upon high performance inclusive charged-current
+    electron neutrino (νe ) and muon neutrino (νµ ) event selections, which were utilized in the previous
+    search for a low-energy excess (LEE) in the νe energy spectrum at MicroBooNE. In this note, we present
+    the results of a 3+1 oscillation fit considering both νe appearance and νe /νµ disappearance. Using
+    the first three years’ BNB data, no evidence of a light sterile neutrino was found and 95% C.L. exclusion
+    limits were calculated in the 3+1 neutrino oscillation parameter space. Notably, the cancellation
+    between νe disappearance and νe appearance oscillations leads to a reduced oscillation effect in the
+    νe energy spectrum resulting in a degeneracy of the oscillation parameters. Such a degeneracy is expected
+    to be mitigated by including the neutrino events from the off-axis Neutrino from the Main Injector
+    (NuMI) beam. The prospect of a 3+1 oscillation analysis using both BNB and NuMI is reported and it
+    is expected to considerably improve the sensitivity to 3+1 neutrino oscillations.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.2172/2397226
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MicroBooNE:2022xhq
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    - from: nue
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null

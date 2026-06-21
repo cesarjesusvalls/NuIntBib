@@ -1,0 +1,41 @@
+- bibtag: GALLEX:1992jnx
+  title: Implications of the GALLEX determination of the solar neutrino flux.
+  collaboration: GALLEX
+  arxiv: null
+  doi: 10.1016/0370-2693(92)91522-B
+  journal: Phys.Lett.B
+  volume: '285'
+  pages: '390'
+  year: 1992
+  published_date: '1992'
+  inspire_recid: 339922
+  citation_count: 293
+  abstract: The GALLEX result 83 ± 19 (stat.) ± 8 (syst.) SNU is two standard deviations below the predictions
+    of stellar model calculations (124–132 SNU). To fit this result together with those of the chlorine
+    and Kamiokande experiments requires severe stretching of solar models but does not rule out such a
+    procedure, leaving the possibility of massless neutrinos. It clearly implies that the pp neutrinos
+    have been detected. The Mikheyev-Smirnov-Wolfenstein (MSW) mechanism provides a good fit, and the
+    GALLEX result fixes the Δm 2 and sin 2 2 θ parameters in two very confined ranges (around Δm 2 = 6
+    × 10 −6 eV 2 and sin 2 2 θ = 7 × 10 −3 and around Δm 2 = 8 × 10 −6 eV 2 and sin 2 2 θ = 0.6). Explanations
+    of the solar neutrino problems based on the decay or magnetic interactions of neutrinos are disfavoured.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(92)91522-B
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:GALLEX:1992jnx
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null

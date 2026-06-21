@@ -1,3 +1,1049 @@
+- bibtag: Super-Kamiokande:2025hvx
+  title: Measurement of the solar neutrino interaction rate below 3.49 MeV in Super-Kamiokande-IV
+  collaboration: Super-Kamiokande
+  arxiv: '2512.19887'
+  doi: 10.1103/yz79-h758
+  journal: Phys.Rev.D
+  volume: '113'
+  pages: '112001'
+  year: 2026
+  published_date: '2025-12-22'
+  inspire_recid: 3095276
+  citation_count: 0
+  abstract: Super-Kamiokande has observed $^{8}\text{B}$ solar neutrino elastic scattering at recoil electron
+    kinetic energies ($E_{kin}$) as low as 3.49 MeV to study neutrino flavor conversion within the sun.
+    At SK-observable energies, these conversions are dominated by the Mikheyev-Smirnov-Wolfenstein effect.
+    An upturn in the electron neutrino survival probability in which vacuum neutrino oscillations become
+    dominant is predicted to occur at lower energies, but radioactive background increases exponentially
+    with decreasing energy. New machine learning approaches provide substantial background reduction below
+    3.49 MeV such that statistical extraction of solar neutrino interactions becomes feasible. This article
+    presents an analysis of the solar neutrino interaction rate at $E_{kin}$ < 3.49 MeV with the full
+    SK-IV period, using data from a wideband intelligent trigger when available and with a boosted decision
+    tree for event selection. A solar neutrino signal is observed between 2.99 MeV < $E_{kin}$ < 3.49
+    MeV with $2.76σ$ significance and a data to unoscillated MC ratio of $0.307^{+0.112}_{-0.111}$. This
+    additional low energy data has a negligible effect on the $1σ$ intervals of the fits to the solar
+    neutrino energy spectrum but has a noticeable effect on the best fit when using the exponential parameterization.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2512.19887
+    doi: https://doi.org/10.1103/yz79-h758
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2025hvx
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2023ahc
+  title: Atmospheric neutrino oscillation analysis with neutron tagging and an expanded fiducial volume
+    in Super-Kamiokande I–V
+  collaboration: Super-Kamiokande
+  arxiv: '2311.05105'
+  doi: 10.1103/PhysRevD.109.072014
+  journal: Phys.Rev.D
+  volume: '109'
+  pages: '072014'
+  year: 2024
+  published_date: '2023-11-08'
+  inspire_recid: 2720510
+  citation_count: 99
+  abstract: We present a measurement of neutrino oscillation parameters with the Super-Kamiokande detector
+    using atmospheric neutrinos from the complete pure-water SK I-V (April 1996-July 2020) data set, including
+    events from an expanded fiducial volume. The data set corresponds to 6511.3 live days and an exposure
+    of 484.2 kiloton-years. Measurements of the neutrino oscillation parameters $\Delta m^2_{32}$, $\sin^2\theta_{23}$,
+    $\sin^2 \theta_{13}$, $\delta_{CP}$, and the preference for the neutrino mass ordering are presented
+    with atmospheric neutrino data alone, and with constraints on $\sin^2 \theta_{13}$ from reactor neutrino
+    experiments. Our analysis including constraints on $\sin^2 \theta_{13}$ favors the normal mass ordering
+    at the 92.3% level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2311.05105
+    doi: https://doi.org/10.1103/PhysRevD.109.072014
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2023ahc
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    - from: numu
+      to: nue
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - θ₁₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2022lyl
+  title: Testing Non-Standard Interactions Between Solar Neutrinos and Quarks with Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: '2203.11772'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2022
+  published_date: '2022-03-22'
+  inspire_recid: 2056888
+  citation_count: 8
+  abstract: Non-Standard Interactions (NSI) between neutrinos and matter affect the neutrino flavor oscillations.
+    Due to the high matter density in the core of the Sun, solar neutrinos are suited to probe these interactions.
+    Using the $277$ kton-yr exposure of Super-Kamiokande to $^{8}$B solar neutrinos, we search for the
+    presence of NSI. Our data favors the presence of NSI with down quarks at 1.8$\sigma$, and with up
+    quarks at 1.6$\sigma$, with the best fit NSI parameters being ($\epsilon_{11}^{d},\epsilon_{12}^{d}$)
+    = (-3.3, -3.1) for $d$-quarks and ($\epsilon_{11}^{u},\epsilon_{12}^{u}$) = (-2.5, -3.1) for $u$-quarks.
+    After combining with data from the Sudbury Neutrino Observatory and Borexino, the significance increases
+    by 0.1$\sigma$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2203.11772
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2022lyl
+  measurements:
+  - source: solar
+    framework: Exotic
+    bsm_type: NSI
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2017yvm
+  title: Atmospheric neutrino oscillation analysis with external constraints in Super-Kamiokande I-IV
+  collaboration: Super-Kamiokande
+  arxiv: '1710.09126'
+  doi: 10.1103/PhysRevD.97.072001
+  journal: Phys.Rev.D
+  volume: '97'
+  pages: '072001'
+  year: 2018
+  published_date: '2017-10-25'
+  inspire_recid: 1632446
+  citation_count: 390
+  abstract: An analysis of atmospheric neutrino data from all four run periods of \superk optimized for
+    sensitivity to the neutrino mass hierarchy is presented. Confidence intervals for $\Delta m^2_{32}$,
+    $\sin^2 \theta_{23}$, $\sin^2 \theta_{13}$ and $\delta_{CP}$ are presented for normal neutrino mass
+    hierarchy and inverted neutrino mass hierarchy hypotheses based on atmospheric neutrino data alone.
+    Additional constraints from reactor data on $\theta_{13}$ and from published binned T2K data on muon
+    neutrino disappearance and electron neutrino appearance are added to the atmospheric neutrino fit
+    to give enhanced constraints on the above parameters. Over the range of parameters allowed at 90%
+    confidence level, the normal mass hierarchy is favored by between 91.5% and 94.5% based on the combined
+    result.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1710.09126
+    doi: https://doi.org/10.1103/PhysRevD.97.072001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2017yvm
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    - from: numu
+      to: nue
+    mode:
+    - disappearance
+    - appearance
+    parameters:
+    - θ₂₃
+    - θ₁₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2016yck
+  title: Solar Neutrino Measurements in Super-Kamiokande-IV
+  collaboration: Super-Kamiokande
+  arxiv: '1606.07538'
+  doi: 10.1103/PhysRevD.94.052010
+  journal: Phys.Rev.D
+  volume: '94'
+  pages: '052010'
+  year: 2016
+  published_date: '2016-06-23'
+  inspire_recid: 1472086
+  citation_count: 498
+  abstract: Upgraded electronics, improved water system dynamics, better calibration and analysis techniques
+    allowed Super-Kamiokande-IV to clearly observe very low-energy 8B solar neutrino interactions, with
+    recoil electron kinetic energies as low as 3.49 MeV. Super-Kamiokande-IV data-taking began in September
+    of 2008; this paper includes data until February 2014, a total livetime of 1664 days. The measured
+    solar neutrino flux is (2.308+-0.020(stat.) + 0.039-0.040(syst.)) x 106/(cm2sec) assuming no oscillations.
+    The observed recoil electron energy spectrum is consistent with no distortions due to neutrino oscillations.
+    An extended maximum likelihood fit to the amplitude of the expected solar zenith angle variation of
+    the neutrino-electron elastic scattering rate in SK-IV results in a day/night asymmetry of (-3.6+-1.6(stat.)+-0.6(syst.))%.
+    The SK-IV solar neutrino data determine the solar mixing angle as sin2 theta_12 = 0.327+0.026-0.031,
+    all SK solar data (SK-I, SK-II, SK III and SKIV) measures this angle to be sin2 theta_12 = 0.334+0.027-0.023,
+    the determined mass-squared splitting is Delta m2_21 = 4.8+1.5-0.8 x10-5 eV2.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1606.07538
+    doi: https://doi.org/10.1103/PhysRevD.94.052010
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2016yck
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2014exs
+  title: Test of Lorentz invariance with atmospheric neutrinos
+  collaboration: Super-Kamiokande
+  arxiv: '1410.4267'
+  doi: 10.1103/PhysRevD.91.052003
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '052003'
+  year: 2015
+  published_date: '2014-10-15'
+  inspire_recid: 1322564
+  citation_count: 129
+  abstract: A search for neutrino oscillations induced by Lorentz violation has been performed using 4,438
+    live-days of Super-Kamiokande atmospheric neutrino data. The Lorentz violation is included in addition
+    to standard three-flavor oscillations using the non-perturbative Standard Model Extension (SME), allowing
+    the use of the full range of neutrino path lengths, ranging from 15 to 12,800 km, and energies ranging
+    from 100 MeV to more than 100 TeV in the search. No evidence of Lorentz violation was observed, so
+    limits are set on the renormalizable isotropic SME coefficients in the $e\mu$, $\mu\tau$, and $e\tau$
+    sectors, improving the existing limits by up to seven orders of magnitude and setting limits for the
+    first time in the neutrino $\mu\tau$ sector of the SME.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1410.4267
+    doi: https://doi.org/10.1103/PhysRevD.91.052003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2014exs
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: LIV
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters: []
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2014ndf
+  title: Limits on sterile neutrino mixing using atmospheric neutrinos in Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: '1410.2008'
+  doi: 10.1103/PhysRevD.91.052019
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: 052019
+  year: 2015
+  published_date: '2014-10-08'
+  inspire_recid: 1320988
+  citation_count: 223
+  abstract: We present limits on sterile neutrino mixing using 4,438 live-days of atmospheric neutrino
+    data from the Super-Kamiokande experiment. We search for fast oscillations driven by an eV$^2$-scale
+    mass splitting and for oscillations into sterile neutrinos instead of tau neutrinos at the atmospheric
+    mass splitting. When performing both these searches we assume that the sterile mass splitting is large,
+    allowing $\sin^2(\Delta m^2 L/4E)$ to be approximated as $0.5$, and we assume that there is no mixing
+    between electron neutrinos and sterile neutrinos ($|U_{e4}|^2 = 0$). No evidence of sterile oscillations
+    is seen and we limit $|U_{\mu4}|^2$ to less than 0.041 and $|U_{\tau4}|^2$ to less than 0.18 for $\Delta
+    m^2 > 0.8$ eV$^2$ at the 90% C.L. in a 3+1 framework. The approximations that can be made with atmospheric
+    neutrinos allow these limits to be easily applied to 3+N models, and we provide our results in a generic
+    format to allow comparisons with other sterile neutrino models.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1410.2008
+    doi: https://doi.org/10.1103/PhysRevD.91.052019
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2014ndf
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nus
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₄
+    - θ₃₄
+    - Δm²₄₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2013mie
+  title: First Indication of Terrestrial Matter Effects on Solar Neutrino Oscillation
+  collaboration: Super-Kamiokande
+  arxiv: '1312.5176'
+  doi: 10.1103/PhysRevLett.112.091805
+  journal: Phys.Rev.Lett.
+  volume: '112'
+  pages: 091805
+  year: 2014
+  published_date: '2013-12-18'
+  inspire_recid: 1272683
+  citation_count: 147
+  abstract: We report an indication that the elastic scattering rate of solar $^8$B neutrinos with electrons
+    in the Super-Kamiokande detector is larger when the neutrinos pass through the Earth during nighttime.
+    We determine the day/night asymmetry, defined as the difference of the average day rate and average
+    night rate divided by the average of those two rates, to be $(-3.2\pm1.1(\text{stat})\pm0.5(\text{syst}))\%$,
+    which deviates from zero by 2.7 $\sigma$. Since the elastic scattering process is mostly sensitive
+    to electron-flavored solar neutrinos, a non-zero day/night asymmetry implies that the flavor oscillations
+    of solar neutrinos are affected by the presence of matter within the neutrinos' flight path. Super-Kamiokande's
+    day/night asymmetry is consistent with neutrino oscillations for $4\times10^{-5}$eV$^2\leq\Delta m^2_{21}\leq7\times10^{-5}$eV$^2$
+    and large mixing values of $\theta_{12}$, at the $68\%$ C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1312.5176
+    doi: https://doi.org/10.1103/PhysRevLett.112.091805
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2013mie
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2012xtd
+  title: Evidence for the Appearance of Atmospheric Tau Neutrinos in Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: '1206.0328'
+  doi: 10.1103/PhysRevLett.110.181802
+  journal: Phys.Rev.Lett.
+  volume: '110'
+  pages: '181802'
+  year: 2013
+  published_date: 2012-06
+  inspire_recid: 1117010
+  citation_count: 185
+  abstract: Super-Kamiokande atmospheric neutrino data were fit with an unbinned maximum likelihood method
+    to search for the appearance of tau leptons resulting from the interactions of oscillation-generated
+    tau neutrinos in the detector. Relative to the expectation of unity, the tau normalization is found
+    to be $1.42 \pm 0.35 \ (stat) {\}^{+0.14}_{-0.12}\ (syst) $ excluding the no-tau-appearance hypothesis,
+    for which the normalization would be zero, at the 3.8$\sigma$ level. We estimate that $180.1 \pm 44.3\
+    (stat) {\}^{+17.8}_{-15.2}\ (syst)$ tau leptons were produced in the 22.5 kton fiducial volume of
+    the detector by tau neutrinos during the 2806 day running period. In future analyses, this large sample
+    of selected tau events will allow the study of charged current tau neutrino interaction physics with
+    oscillation produced tau neutrinos.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1206.0328
+    doi: https://doi.org/10.1103/PhysRevLett.110.181802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2012xtd
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2010tar
+  title: Solar neutrino results in Super-Kamiokande-III
+  collaboration: Super-Kamiokande
+  arxiv: '1010.0118'
+  doi: 10.1103/PhysRevD.83.052010
+  journal: Phys.Rev.D
+  volume: '83'
+  pages: '052010'
+  year: 2011
+  published_date: 2010-10
+  inspire_recid: 871569
+  citation_count: 623
+  abstract: The results of the third phase of the Super-Kamiokande solar neutrino measurement are presented
+    and compared to the first and second phase results. With improved detector calibrations, a full detector
+    simulation, and improved analysis methods, the systematic uncertainty on the total neutrino flux is
+    estimated to be ?2.1%, which is about two thirds of the systematic uncertainty for the first phase
+    of Super-Kamiokande. The observed 8B solar flux in the 5.0 to 20 MeV total electron energy region
+    is 2.32+/-0.04 (stat.)+/-0.05 (sys.) *10^6 cm^-2sec^-1, in agreement with previous measurements. A
+    combined oscillation analysis is carried out using SK-I, II, and III data, and the results are also
+    combined with the results of other solar neutrino experiments. The best-fit oscillation parameters
+    are obtained to be sin^2 {\theta}12 = 0.30+0.02-0.01(tan^2 {\theta}12 = 0.42+0.04 -0.02) and {\Delta}m2_21
+    = 6.2+1.1-1.9 *10^-5eV^2. Combined with KamLAND results, the best-fit oscillation parameters are found
+    to be sin^2 {\theta}12 = 0.31+/-0.01(tan^2 {\theta}12 = 0.44+/-0.03) and {\Delta}m2_21 = 7.6?0.2*10^-5eV^2
+    . The 8B neutrino flux obtained from global solar neutrino experiments is 5.3+/-0.2(stat.+sys.)*10^6cm^-2s^-1,
+    while the 8B flux becomes 5.1+/-0.1(stat.+sys.)*10^6cm^-2s^-1 by adding KamLAND result. In a three-flavor
+    analysis combining all solar neutrino experiments, the upper limit of sin^2 {\theta}13 is 0.060 at
+    95% C.L.. After combination with KamLAND results, the upper limit of sin^2 {\theta}13 is found to
+    be 0.059 at 95% C.L..
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1010.0118
+    doi: https://doi.org/10.1103/PhysRevD.83.052010
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2010tar
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2011dam
+  title: Study of Non-Standard Neutrino Interactions with Atmospheric Neutrino Data in Super-Kamiokande
+    I and II
+  collaboration: Super-Kamiokande
+  arxiv: '1109.1889'
+  doi: 10.1103/PhysRevD.84.113008
+  journal: Phys.Rev.D
+  volume: '84'
+  pages: '113008'
+  year: 2011
+  published_date: 2011-09
+  inspire_recid: 927006
+  citation_count: 167
+  abstract: In this paper we study non-standard neutrino interactions as an example of physics beyond
+    the standard model using atmospheric neutrino data collected during the Super-Kamiokande I(1996-2001)
+    and II(2003-2005) periods. We focus on flavor-changing-neutral-currents (FCNC), which allow neutrino
+    flavor transitions via neutral current interactions, and effects which violate lepton non-universality
+    (NU) and give rise to different neutral-current interaction-amplitudes for different neutrino flavors.
+    We obtain a limit on the FCNC coupling parameter, varepsilon_{mu tau}, |varepsilon_{mu tau}|<1.1 x
+    10^{-2} at 90%C.L. and various constraints on other FCNC parameters as a function of the NU coupling,
+    varepsilon_{e e}. We find no evidence of non-standard neutrino interactions in the Super-Kamiokande
+    atmospheric data.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1109.1889
+    doi: https://doi.org/10.1103/PhysRevD.84.113008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2011dam
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: NSI
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters: []
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2011dgc
+  title: Search for Differences in Oscillation Parameters for Atmospheric Neutrinos and Antineutrinos
+    at Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: '1109.1621'
+  doi: 10.1103/PhysRevLett.107.241801
+  journal: Phys.Rev.Lett.
+  volume: '107'
+  pages: '241801'
+  year: 2011
+  published_date: 2011-09
+  inspire_recid: 926801
+  citation_count: 128
+  abstract: We present a search for differences in the oscillations of antineutrinos and neutrinos in
+    the Super-Kamiokande -I, -II, and -III atmospheric neutrino sample. Under a two-flavor disappearance
+    model with separate mixing parameters between neutrinos and antineutrinos, we find no evidence for
+    a difference in oscillation parameters. Best fit antineutrino mixing is found to be at (dm2bar, sin2
+    2 thetabar) = (2.0x10^-3 eV^2, 1.0) and is consistent with the overall Super-K measurement.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1109.1621
+    doi: https://doi.org/10.1103/PhysRevLett.107.241801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2011dgc
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2010orq
+  title: Atmospheric neutrino oscillation analysis with sub-leading effects in Super-Kamiokande I, II,
+    and III
+  collaboration: Super-Kamiokande
+  arxiv: '1002.3471'
+  doi: 10.1103/PhysRevD.81.092004
+  journal: Phys.Rev.D
+  volume: '81'
+  pages: 092004
+  year: 2010
+  published_date: 2010-02
+  inspire_recid: 846085
+  citation_count: 426
+  abstract: We present a search for non-zero theta_{13} and deviations of sin^2 theta_{23} from 0.5 in
+    the oscillations of atmospheric neutrino data from Super-Kamiokande -I, -II, and -III. No distortions
+    of the neutrino flux consistent with non-zero theta_{13} are found and both neutrino mass hierarchy
+    hypotheses are in agreement with the data. The data are best fit at Delta m^2 = 2.1 x 10^-3 eV^2,
+    sin^2 theta_{13} = 0.0, and sin^2 theta_{23} =0.5. In the normal (inverted) hierarchy theta_{13} and
+    Delta m^2 are constrained at the one-dimensional 90% C.L. to sin^2 theta_{13} &lt; 0.04 (0.09) and
+    1.9 (1.7) x 10^-3 &lt; Delta m^2 &lt; 2.6 (2.7) x 10^-3 eV^2. The atmospheric mixing angle is within
+    0.407 &lt;= sin^2 theta_{23} &lt;= 0.583 at 90% C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1002.3471
+    doi: https://doi.org/10.1103/PhysRevD.81.092004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2010orq
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - θ₁₃
+    - Δm²₃₂
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2008ecj
+  title: Solar neutrino measurements in Super-Kamiokande-II
+  collaboration: Super-Kamiokande
+  arxiv: '0803.4312'
+  doi: 10.1103/PhysRevD.78.032002
+  journal: Phys.Rev.D
+  volume: '78'
+  pages: '032002'
+  year: 2008
+  published_date: 2008-03
+  inspire_recid: 782360
+  citation_count: 469
+  abstract: The results of the second phase of the Super-Kamiokande solar neutrino measurement are presented
+    and compared to the first phase. The solar neutrino flux spectrum and time-variation as well as oscillation
+    results are statistically consistent with the first phase and do not show spectral distortion. The
+    time-dependent flux measurement of the combined first and second phases coincides with the full period
+    of solar cycle 23 and shows no correlation with solar activity. The measured boron 8 total flux is
+    2.38 +/-0.05(stat.) +0.16-0.15(sys.) X 10^6 cm^-2 sec^-1 and the day-night difference is found to
+    be -6.3 +/-4.2(stat.) +/-3.7(sys.) %. There is no evidence of systematic tendencies between the first
+    and second phases.
+  added: '2026-06-21'
+  notes: needs full-text check
+  links:
+    arxiv: https://arxiv.org/abs/0803.4312
+    doi: https://doi.org/10.1103/PhysRevD.78.032002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2008ecj
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2008nzt
+  title: Search for Matter-Dependent Atmospheric Neutrino Oscillations in Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: '0801.0776'
+  doi: 10.1103/PhysRevD.77.052001
+  journal: Phys.Rev.D
+  volume: '77'
+  pages: '052001'
+  year: 2008
+  published_date: 2008-01
+  inspire_recid: 776837
+  citation_count: 31
+  abstract: We consider muon neutrino to tau neutrino oscillations in the context of the Mass Varying
+    Neutrino (MaVaN) model, where the neutrino mass can vary depending on the electron density along the
+    flight path of the neutrino. Our analysis assumes a mechanism with dependence only upon the electron
+    density, hence ordinary matter density, of the medium through which the neutrino travels. Fully-contained,
+    partially-contained and upward-going muon atmospheric neutrino data from the Super--Kamiokande detector,
+    taken from the entire SK--I period of 1489 live days, are compared to MaVaN model predictions. We
+    find that, for the case of 2-flavor oscillations, and for the specific models tested, oscillation
+    independent of electron density is favored over density dependence. Assuming maximal mixing, the best-fit
+    case and the density-independent case do not differ significantly.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0801.0776
+    doi: https://doi.org/10.1103/PhysRevD.77.052001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2008nzt
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: NSI
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters: []
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2005wtt
+  title: Solar neutrino measurements in super-Kamiokande-I
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0508053
+  doi: 10.1103/PhysRevD.73.112001
+  journal: Phys.Rev.D
+  volume: '73'
+  pages: '112001'
+  year: 2006
+  published_date: 2005-08
+  inspire_recid: 690937
+  citation_count: 817
+  abstract: The details of Super--Kamiokande--I's solar neutrino analysis are given. Solar neutrino measurement
+    in Super--Kamiokande is a high statistics collection of $^8$B solar neutrinos via neutrino-electron
+    scattering. The analysis method and results of the 1496 day data sample are presented. The final oscillation
+    results for the data are also presented.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0508053
+    doi: https://doi.org/10.1103/PhysRevD.73.112001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2005wtt
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2006jvq
+  title: Three flavor neutrino oscillation analysis of atmospheric neutrinos in Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0604011
+  doi: 10.1103/PhysRevD.74.032002
+  journal: Phys.Rev.D
+  volume: '74'
+  pages: '032002'
+  year: 2006
+  published_date: 2006-04
+  inspire_recid: 713864
+  citation_count: 294
+  abstract: 'We report on the results of a three-flavor oscillation analysis using Super-Kamiokande~I
+    atmospheric neutrino data, with the assumption of one mass scale dominance ($\Delta m_{12}^2$$=$0).
+    No significant flux change due to matter effect, which occurs when neutrinos propagate inside the
+    Earth for $\theta_{13}$$\neq$0, has been seen either in a multi-GeV $\nu_e$-rich sample or in a $\nu_\mu$-rich
+    sample. Both normal and inverted mass hierarchy hypotheses are tested and both are consistent with
+    observation. Using Super-Kamiokande data only, 2-dimensional 90 % confidence allowed regions are obtained:
+    mixing angles are constrained to $\sin^2\theta_{13} < 0.14$ and $0.37 < \sin^2\theta_{23} < 0.65$
+    for the normal mass hierarchy. Weaker constraints, $\sin^2\theta_{13} < 0.27$ and $0.37 < \sin^2\theta_{23}
+    < 0.69$, are obtained for the inverted mass hierarchy case.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0604011
+    doi: https://doi.org/10.1103/PhysRevD.74.032002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2006jvq
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - disappearance
+    - appearance
+    parameters:
+    - θ₁₃
+    - θ₂₃
+    - Δm²₃₂
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2006yyp
+  title: A Measurement of atmospheric neutrino flux consistent with tau neutrino appearance
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0607059
+  doi: 10.1103/PhysRevLett.97.171801
+  journal: Phys.Rev.Lett.
+  volume: '97'
+  pages: '171801'
+  year: 2006
+  published_date: 2006-07
+  inspire_recid: 722423
+  citation_count: 191
+  abstract: A search for the appearance of tau neutrinos from \mutau oscillations in the atmospheric neutrinos
+    has been performed using 1489.2 days of atmospheric neutrino data from the Super-Kamiokande-I experiment.
+    A best fit tau neutrino appearance signal of 138 $\pm$ 48 (stat.) $^{+15}_{-32}$ (sys.) events is
+    obtained with an expectation of 78 $\pm$ 26 (sys.). The hypothesis of no tau neutrino appearance is
+    disfavored by 2.4 sigma.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0607059
+    doi: https://doi.org/10.1103/PhysRevLett.97.171801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2006yyp
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2005mbp
+  title: A Measurement of atmospheric neutrino oscillation parameters by SUPER-KAMIOKANDE I
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0501064
+  doi: 10.1103/PhysRevD.71.112005
+  journal: Phys.Rev.D
+  volume: '71'
+  pages: '112005'
+  year: 2005
+  published_date: 2005-01
+  inspire_recid: 675543
+  citation_count: 1304
+  abstract: We present a combined analysis of fully-contained, partially-contained and upward-going muon
+    atmospheric neutrino data from a 1489 day exposure of the Super--Kamiokande detector. The data samples
+    span roughly five decades in neutrino energy, from 100 MeV to 10 TeV. A detailed Monte Carlo comparison
+    is described and presented. The data is fit to the Monte Carlo expectation, and is found to be consistent
+    with neutrino oscillations of $\nu_\mu \leftrightarrow \nu_\tau$ with $\sin^22\theta > 0.92$ and $1.5\times
+    10^{-3} < \Delta m^2 < 3.4\times 10^{-3}{\rm eV}^2$ at 90% confidence level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0501064
+    doi: https://doi.org/10.1103/PhysRevD.71.112005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2005mbp
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2003yed
+  title: Precise measurement of the solar neutrino day / night and seasonal variation in Super-Kamiokande-1
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0309011
+  doi: 10.1103/PhysRevD.69.011104
+  journal: Phys.Rev.D
+  volume: '69'
+  pages: '011104'
+  year: 2004
+  published_date: 2003-09
+  inspire_recid: 627209
+  citation_count: 323
+  abstract: The time variation of the elastic scattering rate of solar neutrinos with electrons in Super-Kamiokande-I
+    was fit to the variations expected from active two-neutrino oscillations. The best fit in the Large
+    Mixing Angle solution has a mixing angle of tan^2theta=0.55 and a mass squared difference of Deltam^2=6.3times10^-5eV^2
+    between the two neutrino mass eigenstates. The fitted day/night asymmetry of -1.8+-1.6(stat)+1.3-1.2(syst)%
+    has improved statistical precision over previous measurements and agrees well with the expected asymmetry
+    of -2.1%.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0309011
+    doi: https://doi.org/10.1103/PhysRevD.69.011104
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2003yed
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2004orf
+  title: Evidence for an oscillatory signature in atmospheric neutrino oscillation
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0404034
+  doi: 10.1103/PhysRevLett.93.101801
+  journal: Phys.Rev.Lett.
+  volume: '93'
+  pages: '101801'
+  year: 2004
+  published_date: 2004-04
+  inspire_recid: 649129
+  citation_count: 1126
+  abstract: Muon neutrino disappearance probability as a function of neutrino flight length L over neutrino
+    energy E was studied. A dip in the L/E distribution was observed in the data, as predicted from the
+    sinusoidal flavor transition probability of neutrino oscillation. The observed L/E distribution constrained
+    nu_mu &lt;-> nu_tau neutrino oscillation parameters; 1.9x10^-3 &lt; Delta m^2 &lt; 3.0x10^-3 eV^2
+    and \sin^2(2theta) > 0.90 at 90% confidence level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0404034
+    doi: https://doi.org/10.1103/PhysRevLett.93.101801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2004orf
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2002ujc
+  title: Determination of solar neutrino oscillation parameters using 1496 days of Super-Kamiokande I
+    data
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0205075
+  doi: 10.1016/S0370-2693(02)02090-7
+  journal: Phys.Lett.B
+  volume: '539'
+  pages: '179'
+  year: 2002
+  published_date: 2002-05
+  inspire_recid: 587157
+  citation_count: 1173
+  abstract: A number of different fits to solar neutrino mixing and mass square difference were performed
+    using 1496 days of Super-Kamiokande-I's solar neutrino data. These data select two allowed areas at
+    large neutrino mixing when combined with either the solar $^8$B flux prediction of the standard solar
+    model or the SNO interaction rate measurements. A global fit combining SK data with the solar neutrino
+    interaction rates measured by Homestake, SNO, Gallex/GNO and SAGE prefers a single allowed area, the
+    Large Mixing Angle solution, at the 98.9% confidence level. The mass square difference $\Delta m^2$
+    between the two mass eigenstates ranges from about 3 to $19\times10^{-5}$eV$^2$, while the mixing
+    angle $\theta$ is in the range of $\tan^2\theta\approx$0.25--0.65.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0205075
+    doi: https://doi.org/10.1016/S0370-2693(02)02090-7
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2002ujc
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2001bfk
+  title: Constraints on neutrino oscillations using 1258 days of Super-Kamiokande solar neutrino data
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0103033
+  doi: 10.1103/PhysRevLett.86.5656
+  journal: Phys.Rev.Lett.
+  volume: '86'
+  pages: '5656'
+  year: 2001
+  published_date: 2001-03
+  inspire_recid: 554318
+  citation_count: 940
+  abstract: We report the result of a search for neutrino oscillations using precise measurements of the
+    recoil electron energy spectrum and zenith angle variations of the solar neutrino flux from 1258 days
+    of neutrino-electron scattering data in Super-Kamiokande. The absence of significant zenith angle
+    variation and spectrum distortion places strong constraints on neutrino mixing and mass difference
+    in a flux-independent way. Using the Super-Kamiokande flux measurement in addition, two allowed regions
+    at large mixing are found.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0103033
+    doi: https://doi.org/10.1103/PhysRevLett.86.5656
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2001bfk
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:2000ywb
+  title: Tau neutrinos favored over sterile neutrinos in atmospheric muon-neutrino oscillations
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/0009001
+  doi: 10.1103/PhysRevLett.85.3999
+  journal: Phys.Rev.Lett.
+  volume: '85'
+  pages: '3999'
+  year: 2000
+  published_date: 2000-09
+  inspire_recid: 532783
+  citation_count: 1005
+  abstract: The previously published atmospheric neutrino data did not distinguish whether muon neutrinos
+    were oscillating into tau neutrinos or sterile neutrinos, as both hypotheses fit the data. Using data
+    recorded in 1100 live-days of the Super-Kamiokande detector, we use three complementary data samples
+    to study the difference in zenith angle distribution due to neutral currents and matter effects. We
+    find no evidence favoring sterile neutrinos, and reject the hypothesis at the 99% confidence level.
+    On the other hand, we find that oscillation between muon and tau neutrinos suffices to explain all
+    the results in hand.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0009001
+    doi: https://doi.org/10.1103/PhysRevLett.85.3999
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2000ywb
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    - from: numu
+      to: nus
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: Super-Kamiokande:1998oic
+  title: Constraints on neutrino oscillation parameters from the measurement of day night solar neutrino
+    fluxes at Super-Kamiokande
+  collaboration: Super-Kamiokande
+  arxiv: hep-ex/9812009
+  doi: 10.1103/PhysRevLett.82.1810
+  journal: Phys.Rev.Lett.
+  volume: '82'
+  pages: '1810'
+  year: 1999
+  published_date: 1998-12
+  inspire_recid: 480589
+  citation_count: 537
+  abstract: A search for day-night variations in the solar neutrino flux resulting from neutrino oscillations
+    has been carried out using the 504 day sample of solar neutrino data obtained at Super-Kamiokande.
+    The absence of a significant day-night variation has set an absolute flux independent exclusion region
+    in the two neutrino oscillation parameter space.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/9812009
+    doi: https://doi.org/10.1103/PhysRevLett.82.1810
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:1998oic
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
 - inspire_recid: 472711
   title: Evidence for oscillation of atmospheric neutrinos
   abstract: We present an analysis of atmospheric neutrino data from a 33.0 kiloton-year (535-day) exposure

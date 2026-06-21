@@ -1,0 +1,644 @@
+- bibtag: IceCube:2024dlz
+  title: Search for a light sterile neutrino with 7.5 years of IceCube DeepCore data
+  collaboration: IceCube
+  arxiv: '2407.01314'
+  doi: 10.1103/PhysRevD.110.072007
+  journal: Phys.Rev.D
+  volume: '110'
+  pages: '072007'
+  year: 2024
+  published_date: '2024-07-01'
+  inspire_recid: 2803514
+  citation_count: 21
+  abstract: We present a search for an eV-scale sterile neutrino using 7.5 years of data from the IceCube
+    DeepCore detector. The analysis uses a sample of 21,914 events with energies between 5 and 150 GeV
+    to search for sterile neutrinos through atmospheric muon neutrino disappearance. Improvements in event
+    selection and treatment of systematic uncertainties provide greater statistical power compared to
+    previous DeepCore sterile neutrino searches. Our results are compatible with the absence of mixing
+    between active and sterile neutrino states, and we place constraints on the mixing matrix elements
+    $|U_{\mu 4}|^2 < 0.0534$ and $|U_{\tau 4}|^2 < 0.0574$ at 90% CL under the assumption that $\Delta
+    m^2_{41}\geq 1\;\mathrm{eV^2}$. These null results add to the growing tension between anomalous appearance
+    results and constraints from disappearance searches in the 3+1 sterile neutrino landscape.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2407.01314
+    doi: https://doi.org/10.1103/PhysRevD.110.072007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2024dlz
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: IceCube:2024pky
+  title: Exploration of mass splitting and muon/tau mixing parameters for an eV-scale sterile neutrino
+    with IceCube
+  collaboration: IceCube
+  arxiv: '2406.00905'
+  doi: 10.1016/j.physletb.2024.139077
+  journal: Phys.Lett.B
+  volume: '858'
+  pages: '139077'
+  year: 2024
+  published_date: '2024-06-02'
+  inspire_recid: 2793702
+  citation_count: 12
+  abstract: 'We present the first three-parameter fit to a 3+1 sterile neutrino model using 7.634 years
+    of data from the IceCube Neutrino Observatory on $\nu_\mu+\overline{\nu}_\mu$ charged-current interactions
+    in the energy range 500--9976 GeV. Our analysis is sensitive to the mass-squared splitting between
+    the heaviest and lightest mass state ($\Delta m_{41}^2$), the mixing matrix element connecting muon
+    flavor to the fourth mass state ($|U_{\mu4}|^2$), and the element connecting tau flavor to the fourth
+    mass state ($|U_{\tau4}|^2$). Predicted propagation effects in matter enhance the signature through
+    a resonance as atmospheric neutrinos from the Northern Hemisphere traverse the Earth to the IceCube
+    detector at the South Pole. The remaining sterile neutrino matrix elements are left fixed, with $|U_{e4}|^2=
+    0$ and $\delta_{14}=0$, as they have a negligible effect, and $\delta_{24}=\pi$ is set to give the
+    most conservative limits. The result is consistent with the no-sterile neutrino hypothesis with a
+    probability of 4.3%. Profiling the likelihood of each parameter yields the 90\% confidence levels:
+    $ 2.4\,\mathrm{eV}^{2} < \Delta m_{41}^2 <9.6\,\mathrm{eV}^{2} $ , $0.0081 < |U_{\mu4}|^2 < 0.10$
+    , and $|U_{\tau4}|^2< 0.035$, which narrows the allowed parameter-space for $|U_{\tau4}|^2$. However,
+    the primary result of this analysis is the first map of the 3+1 parameter space exploring the interdependence
+    of $\Delta m_{41}^2$, $|U_{\mu4}|^2$, and $|U_{\tau4}|^2$.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2406.00905
+    doi: https://doi.org/10.1016/j.physletb.2024.139077
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2024pky
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: IceCube:2023krs
+  title: Recent neutrino oscillation results with the IceCube experiment
+  collaboration: IceCube
+  arxiv: null
+  doi: 10.22323/1.444.1143
+  journal: PoS
+  volume: ICRC2023
+  pages: '1143'
+  year: 2023
+  published_date: '2023-07-25'
+  inspire_recid: 2683012
+  citation_count: 2
+  abstract: The IceCube South Pole Neutrino Observatory is a Cherenkov detector instrumented in a cubic
+    kilometer of ice at the South Pole. IceCube’s primary scientific goal is the detection of TeV neutrino
+    emissions from astrophysical sources. At the lower center of the IceCube array, there is a subdetector
+    called DeepCore, which has a denser configuration that makes it possible to lower the energy threshold
+    of IceCube and observe GeV-scale neutrinos, opening the window to atmospheric neutrino oscillations
+    studies. Advances in physics sensitivity have recently been achieved by employing Convolutional Neural
+    Networks to reconstruct neutrino interactions in the DeepCore detector. In this contribution, the
+    recent IceCube result from the atmospheric muon neutrino disappearance analysis using the CNN-reconstructed
+    neutrino sample are presented and compared to the existing worldwide measurements.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.22323/1.444.1143
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2023krs
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: IceCube:2022ubv
+  title: Strong Constraints on Neutrino Nonstandard Interactions from TeV-Scale $\nu_u$ Disappearance
+    at IceCube
+  collaboration: IceCube
+  arxiv: '2201.03566'
+  doi: 10.1103/PhysRevLett.129.011804
+  journal: Phys.Rev.Lett.
+  volume: '129'
+  pages: '1'
+  year: 2022
+  published_date: '2022-01-10'
+  inspire_recid: 2009345
+  citation_count: 41
+  abstract: We report a search for nonstandard neutrino interactions (NSI) using eight years of TeV-scale
+    atmospheric muon neutrino data from the IceCube Neutrino Observatory. By reconstructing incident energies
+    and zenith angles for atmospheric neutrino events, this analysis presents unified confidence intervals
+    for the NSI parameter $\epsilon_{\mu \tau}$. The best-fit value is consistent with no NSI at a p-value
+    of 25.2%. With a 90% confidence interval of $-0.0041 \leq \epsilon_{\mu \tau} \leq 0.0031$ along the
+    real axis and similar strength in the complex plane, this result is the strongest constraint on any
+    NSI parameter from any oscillation channel to date.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2201.03566
+    doi: https://doi.org/10.1103/PhysRevLett.129.011804
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2022ubv
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: NSI
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters: []
+    observables: null
+    notes: null
+- bibtag: IceCube:2019dyb
+  title: Development of an analysis to probe the neutrino mass ordering with atmospheric neutrinos using
+    three years of IceCube DeepCore data
+  collaboration: IceCube
+  arxiv: '1902.07771'
+  doi: 10.1140/epjc/s10052-019-7555-0
+  journal: Eur.Phys.J.C
+  volume: '80'
+  pages: '9'
+  year: 2020
+  published_date: '2019-02-20'
+  inspire_recid: 1721422
+  citation_count: 55
+  abstract: The Neutrino Mass Ordering (NMO) remains one of the outstanding questions in the field of
+    neutrino physics. One strategy to measure the NMO is to observe matter effects in the oscillation
+    pattern of atmospheric neutrinos above $\sim 1\,\mathrm{GeV}$, as proposed for several next-generation
+    neutrino experiments. Moreover, the existing IceCube DeepCore detector can already explore this type
+    of measurement. We present results of a first search for the signature of the NMO with three years
+    of DeepCore data based on two independent analyses. These analyses include a full treatment of systematic
+    uncertainties and a statistically-rigorous method to determine the significance for the NMO from a
+    fit to the data. For the more sensitive analysis, we observe a preference for Normal Ordering with
+    a $p$-value of $p_\mathrm{IO} = 15.3\%$ and $\mathrm{CL}_\mathrm{s}=53.3\%$ for the Inverted Ordering
+    hypothesis, while the experimental results from both analyses are consistent within their uncertainties.
+    Since the result is independent of the value of $\delta_\mathrm{CP}$ and obtained from energies $E_\nu
+    \gtrsim 5\,\mathrm{GeV}$, it is complementary to recent results from long-baseline experiments. These
+    analyses set the groundwork for the future of this measurement with more capable detectors, such as
+    the IceCube Upgrade and the proposed PINGU detector.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1902.07771
+    doi: https://doi.org/10.1140/epjc/s10052-019-7555-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2019dyb
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: IceCube:2020phf
+  title: eV-Scale Sterile Neutrino Search Using Eight Years of Atmospheric Muon Neutrino Data from the
+    IceCube Neutrino Observatory
+  collaboration: IceCube
+  arxiv: '2005.12942'
+  doi: 10.1103/PhysRevLett.125.141801
+  journal: Phys.Rev.Lett.
+  volume: '125'
+  pages: '141801'
+  year: 2020
+  published_date: '2020-05-26'
+  inspire_recid: 1798039
+  citation_count: 125
+  abstract: The results of a 3+1 sterile neutrino search using eight years of data from the IceCube Neutrino
+    Observatory are presented. A total of 305,735 muon neutrino events are analyzed in reconstructed energy-zenith
+    space to test for signatures of a matter-enhanced oscillation that would occur given a sterile neutrino
+    state with a mass-squared differences between 0.01 eV$^2$ and 100 eV$^2$. The best-fit point is found
+    to be at $\sin^2(2\theta_{24})=0.10$ and $\Delta m_{41}^2 = 4.5{\rm eV}^2$, which is consistent with
+    the no sterile neutrino hypothesis with a p-value of 8.0%.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2005.12942
+    doi: https://doi.org/10.1103/PhysRevLett.125.141801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2020phf
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: IceCube:2020tka
+  title: Searching for eV-scale sterile neutrinos with eight years of atmospheric neutrinos at the IceCube
+    Neutrino Telescope
+  collaboration: IceCube
+  arxiv: '2005.12943'
+  doi: 10.1103/PhysRevD.102.052009
+  journal: Phys.Rev.D
+  volume: '102'
+  pages: 052009
+  year: 2020
+  published_date: '2020-05-26'
+  inspire_recid: 1798037
+  citation_count: 103
+  abstract: 'We report in detail on searches for eV-scale sterile neutrinos, in the context of a 3+1 model,
+    using eight years of data from the IceCube neutrino telescope. By analyzing the reconstructed energies
+    and zenith angles of 305,735 atmospheric $\nu_\mu$ and $\bar{\nu}_\mu$ events we construct confidence
+    intervals in two analysis spaces: $\sin^2 (2\theta_{24})$ vs. $\Delta m^2_{41}$ under the conservative
+    assumption $\theta_{34}=0$; and $\sin^2(2\theta_{24})$ vs. $\sin^2 (2\theta_{34})$ given sufficiently
+    large $\Delta m^2_{41}$ that fast oscillation features are unresolvable. Detailed discussions of the
+    event selection, systematic uncertainties, and fitting procedures are presented. No strong evidence
+    for sterile neutrinos is found, and the best-fit likelihood is consistent with the no sterile neutrino
+    hypothesis with a p-value of 8\% in the first analysis space and 19\% in the second.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2005.12943
+    doi: https://doi.org/10.1103/PhysRevD.102.052009
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2020tka
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    - θ₃₄
+    observables: null
+    notes: null
+- bibtag: IceCube:2019dqi
+  title: Measurement of Atmospheric Tau Neutrino Appearance with IceCube DeepCore
+  collaboration: IceCube
+  arxiv: '1901.05366'
+  doi: 10.1103/PhysRevD.99.032007
+  journal: Phys.Rev.D
+  volume: '99'
+  pages: '032007'
+  year: 2019
+  published_date: '2019-01-16'
+  inspire_recid: 1714067
+  citation_count: 202
+  abstract: We present a measurement of atmospheric tau neutrino appearance from oscillations with three
+    years of data from the DeepCore sub-array of the IceCube Neutrino Observatory. This analysis uses
+    atmospheric neutrinos from the full sky with reconstructed energies between 5.6 GeV and 56 GeV to
+    search for a statistical excess of cascade-like neutrino events which are the signature of nutau interactions.
+    For CC+NC (CC-only) interactions, we measure the tau neutrino normalization to be 0.73 +0.30 -0.24
+    (0.57 +0.36 -0.30) and exclude the absence of tau neutrino oscillations at a significance of 3.2 sigma
+    (2.0 sigma) These results are consistent with, and of similar precision to, a confirmatory IceCube
+    analysis also presented, as well as measurements performed by other experiments.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1901.05366
+    doi: https://doi.org/10.1103/PhysRevD.99.032007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2019dqi
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: IceCube:2017lak
+  title: Measurement of Atmospheric Neutrino Oscillations at 6–56 GeV with IceCube DeepCore
+  collaboration: IceCube
+  arxiv: '1707.07081'
+  doi: 10.1103/PhysRevLett.120.071801
+  journal: Phys.Rev.Lett.
+  volume: '120'
+  pages: 071801
+  year: 2018
+  published_date: '2017-07-21'
+  inspire_recid: 1611292
+  citation_count: 327
+  abstract: We present a measurement of the atmospheric neutrino oscillation parameters using three years
+    of data from the IceCube Neutrino Observatory. The DeepCore infill array in the center of IceCube
+    enables detection and reconstruction of neutrinos produced by the interaction of cosmic rays in the
+    Earth's atmosphere at energies as low as $\sim5$ GeV. That energy threshold permits measurements of
+    muon neutrino disappearance, over a range of baselines up to the diameter of the Earth, probing the
+    same range of $L/E_\nu$ as long-baseline experiments but with substantially higher energy neutrinos.
+    This analysis uses neutrinos from the full sky with reconstructed energies from $5.6$ - $56$ GeV.
+    We measure $\Delta m^2_{32}=2.31^{+0.11}_{-0.13} \times 10^{-3}$ eV$^2$ and $\sin^2 \theta_{23}=0.51^{+0.07}_{-0.09}$,
+    assuming normal neutrino mass ordering. These results are consistent with, and of similar precision
+    to, those from accelerator and reactor-based experiments.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1707.07081
+    doi: https://doi.org/10.1103/PhysRevLett.120.071801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2017lak
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: IceCube:2017ivd
+  title: Search for sterile neutrino mixing using three years of IceCube DeepCore data
+  collaboration: IceCube
+  arxiv: '1702.05160'
+  doi: 10.1103/PhysRevD.95.112002
+  journal: Phys.Rev.D
+  volume: '95'
+  pages: '112002'
+  year: 2017
+  published_date: '2017-02-16'
+  inspire_recid: 1514029
+  citation_count: 171
+  abstract: We present a search for a light sterile neutrino using three years of atmospheric neutrino
+    data from the DeepCore detector in the energy range of approximately $10-60~$GeV. DeepCore is the
+    low-energy sub-array of the IceCube Neutrino Observatory. The standard three-neutrino paradigm can
+    be probed by adding an additional light ($\Delta m_{41}^2 \sim 1 \mathrm{\ eV^2}$) sterile neutrino.
+    Sterile neutrinos do not interact through the standard weak interaction, and therefore cannot be directly
+    detected. However, their mixing with the three active neutrino states leaves an imprint on the standard
+    atmospheric neutrino oscillations for energies below 100 GeV. A search for such mixing via muon neutrino
+    disappearance is presented here. The data are found to be consistent with the standard three neutrino
+    hypothesis. Therefore we derive limits on the mixing matrix elements at the level of $|U_{\mu4}|^2
+    < 0.11 $ and $|U_{\tau4}|^2 < 0.15 $ (90% C.L.) for the sterile neutrino mass splitting $\Delta m_{41}^2
+    = 1.0$ eV$^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1702.05160
+    doi: https://doi.org/10.1103/PhysRevD.95.112002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2017ivd
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: IceCube:2016rnb
+  title: Searches for Sterile Neutrinos with the IceCube Detector
+  collaboration: IceCube
+  arxiv: '1605.01990'
+  doi: 10.1103/PhysRevLett.117.071801
+  journal: Phys.Rev.Lett.
+  volume: '117'
+  pages: 071801
+  year: 2016
+  published_date: '2016-05-06'
+  inspire_recid: 1456121
+  citation_count: 347
+  abstract: The IceCube neutrino telescope at the South Pole has measured the atmospheric muon neutrino
+    spectrum as a function of zenith angle and energy in the approximate 320 GeV to 20 TeV range, to search
+    for the oscillation signatures of light sterile neutrinos. No evidence for anomalous $\nu_\mu$ or
+    $\bar{\nu}_\mu$ disappearance is observed in either of two independently developed analyses, each
+    using one year of atmospheric neutrino data. New exclusion limits are placed on the parameter space
+    of the 3+1 model, in which muon antineutrinos would experience a strong MSW-resonant oscillation.
+    The exclusion limits extend to $\mathrm{sin}^2 2\theta_{24} \leq$ 0.02 at $\Delta m^2 \sim$ 0.3 $\mathrm{eV}^2$
+    at the 90\% confidence level. The allowed region from global analysis of appearance experiments, including
+    LSND and MiniBooNE, is excluded at approximately the 99\% confidence level for the global best fit
+    value of $|$U$_{e4}|^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1605.01990
+    doi: https://doi.org/10.1103/PhysRevLett.117.071801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2016rnb
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₄
+    - Δm²₄₁
+    observables: null
+    notes: null
+- bibtag: IceCube:2014flw
+  title: Determining neutrino oscillation parameters from atmospheric muon neutrino disappearance with
+    three years of IceCube DeepCore data
+  collaboration: IceCube
+  arxiv: '1410.7227'
+  doi: 10.1103/PhysRevD.91.072004
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '072004'
+  year: 2015
+  published_date: '2014-10-27'
+  inspire_recid: 1324373
+  citation_count: 285
+  abstract: We present a measurement of neutrino oscillations via atmospheric muon neutrino disappearance
+    with three years of data of the completed IceCube neutrino detector. DeepCore, a region of denser
+    instrumentation, enables the detection and reconstruction of atmospheric muon neutrinos between 10
+    GeV and 100 GeV, where a strong disappearance signal is expected. The detector volume surrounding
+    DeepCore is used as a veto region to suppress the atmospheric muon background. Neutrino events are
+    selected where the detected Cherenkov photons of the secondary particles minimally scatter, and the
+    neutrino energy and arrival direction are reconstructed. Both variables are used to obtain the neutrino
+    oscillation parameters from the data, with the best fit given by $\Delta m^2_{32}=2.72^{+0.19}_{-0.20}\times
+    10^{-3}\,\mathrm{eV}^2$ and $\sin^2\theta_{23} = 0.53^{+0.09}_{-0.12}$ (normal mass hierarchy assumed).
+    The results are compatible and comparable in precision to those of dedicated oscillation experiments.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1410.7227
+    doi: https://doi.org/10.1103/PhysRevD.91.072004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2014flw
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: IceCube:2013pav
+  title: Measurement of Atmospheric Neutrino Oscillations with IceCube
+  collaboration: IceCube
+  arxiv: '1305.3909'
+  doi: 10.1103/PhysRevLett.111.081801
+  journal: Phys.Rev.Lett.
+  volume: '111'
+  pages: 081801
+  year: 2013
+  published_date: '2013-05-16'
+  inspire_recid: 1233683
+  citation_count: 117
+  abstract: We present the first statistically significant detection of neutrino oscillations in the high-energy
+    regime ($>$ 20 GeV) from an analysis of IceCube Neutrino Observatory data collected in 2010-2011.
+    This measurement is made possible by the low energy threshold of the DeepCore detector ($\sim 20$
+    GeV) and benefits from the use of the IceCube detector as a veto against cosmic ray-induced muon background.
+    The oscillation signal was detected within a low-energy muon neutrino sample (20 -- 100 GeV) extracted
+    from data collected by DeepCore. A high-energy muon neutrino sample (100 GeV -- 10 TeV) was extracted
+    from IceCube data to constrain systematic uncertainties. Disappearance of low-energy upward-going
+    muon neutrinos was observed, and the non-oscillation hypothesis is rejected with more than $5\sigma$
+    significance. In a two-neutrino flavor formalism, our data are best described by the atmospheric neutrino
+    oscillation parameters $\Delta m^2_{23}= (2.3^{+0.6}_{-0.5})\cdot 10^{-3}$ eV$^2$ and $\sin^2(2 \theta_{23})>0.93$,
+    and maximum mixing is favored.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1305.3909
+    doi: https://doi.org/10.1103/PhysRevLett.111.081801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2013pav
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: IceCube:2010fyu
+  title: Search for a Lorentz-violating sidereal signal with atmospheric neutrinos in IceCube
+  collaboration: IceCube
+  arxiv: '1010.4096'
+  doi: 10.1103/PhysRevD.82.112003
+  journal: Phys.Rev.D
+  volume: '82'
+  pages: '112003'
+  year: 2010
+  published_date: 2010-10
+  inspire_recid: 873535
+  citation_count: 133
+  abstract: A search for sidereal modulation in the flux of atmospheric muon neutrinos in IceCube was
+    performed. Such a signal could be an indication of Lorentz-violating physics. Neutrino oscillation
+    models, derivable from extensions to the Standard Model, allow for neutrino oscillations that depend
+    on the neutrino's direction of propagation. No such direction-dependent variation was found. A discrete
+    Fourier transform method was used to constrain the Lorentz and CPT-violating coefficients in one of
+    these models. Due to the unique high energy reach of IceCube, it was possible to improve constraints
+    on certain Lorentz-violating oscillations by three orders of magnitude with respect to limits set
+    by other experiments.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1010.4096
+    doi: https://doi.org/10.1103/PhysRevD.82.112003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2010fyu
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: LIV
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters: []
+    observables: null
+    notes: null
+- bibtag: IceCube:2009ckd
+  title: Determination of the Atmospheric Neutrino Flux and Searches for New Physics with AMANDA-II
+  collaboration: IceCube
+  arxiv: '0902.0675'
+  doi: 10.1103/PhysRevD.79.102005
+  journal: Phys.Rev.D
+  volume: '79'
+  pages: '102005'
+  year: 2009
+  published_date: 2009-02
+  inspire_recid: 812524
+  citation_count: 133
+  abstract: The AMANDA-II detector, operating since 2000 in the deep ice at the geographic South Pole,
+    has accumulated a large sample of atmospheric muon neutrinos in the 100 GeV to 10 TeV energy range.
+    The zenith angle and energy distribution of these events can be used to search for various phenomenological
+    signatures of quantum gravity in the neutrino sector, such as violation of Lorentz invariance (VLI)
+    or quantum decoherence (QD). Analyzing a set of 5511 candidate neutrino events collected during 1387
+    days of livetime from 2000 to 2006, we find no evidence for such effects and set upper limits on VLI
+    and QD parameters using a maximum likelihood method. Given the absence of evidence for new flavor-changing
+    physics, we use the same methodology to determine the conventional atmospheric muon neutrino flux
+    above 100 GeV.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0902.0675
+    doi: https://doi.org/10.1103/PhysRevD.79.102005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:IceCube:2009ckd
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: LIV
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters: []
+    observables: null
+    notes: null

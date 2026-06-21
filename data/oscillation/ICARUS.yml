@@ -1,0 +1,89 @@
+- bibtag: ICARUS:2026lvh
+  title: First search for sterile neutrino oscillation leading to $ν_μ$ disappearance in the Booster Neutrino
+    Beam at ICARUS
+  collaboration: ICARUS
+  arxiv: '2603.22557'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-03-23'
+  inspire_recid: 3133995
+  citation_count: 1
+  abstract: We present a search for muon neutrino disappearance in the Booster Neutrino Beam (BNB) at
+    Fermilab using the ICARUS detector. Neutrino interactions identified as muon neutrinos interacting
+    with argon nuclei via the charged current interaction and having only a muon and at least one proton
+    in the final state (1$μ$Np) have been selected from data collected in 2022-2023 (ICARUS Run 2) and
+    compared with a simulation-based expectation. In the context of a fit to a two-neutrino approximation
+    of the sterile 3+1 model, including the impact of systematic uncertainty from the flux, neutrino interaction,
+    and detector models, we find no statistically significant muon neutrino disappearance at the ICARUS
+    baseline of 600 meters from the BNB target. Corresponding 90% C.L. exclusion contours in $Δm^2_{41}$
+    - sin$^22θ_{μμ}$ space are presented. This is the first oscillation analysis produced by ICARUS exposed
+    to the BNB. We note that the analysis is systematics limited due to large unconstrained uncertainties
+    from the flux and interaction models. In future joint analyses, data from ICARUS and the SBND detector,
+    exposed to the BNB at 110 meters from target, will be combined to provide significant constraint of
+    these uncertainties, enabling a robust, world-leading two-detector analysis.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2603.22557
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ICARUS:2026lvh
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: ICARUS:2013cwr
+  title: Search for anomalies in the ${\nu}_e$ appearance from a ${\nu}_{\mu}$ beam
+  collaboration: ICARUS
+  arxiv: '1307.4699'
+  doi: 10.1140/epjc/s10052-013-2599-z
+  journal: Eur.Phys.J.C
+  volume: '73'
+  pages: '2599'
+  year: 2013
+  published_date: '2013-07-17'
+  inspire_recid: 1243162
+  citation_count: 142
+  abstract: We report an updated result from the ICARUS experiment on the search for {\nu}{\mu} ->{\nu}e
+    anomalies with the CNGS beam, produced at CERN with an average energy of 20 GeV and travelling 730
+    km to the Gran Sasso Laboratory. The present analysis is based on a total sample of 1995 events of
+    CNGS neutrino interactions, which corresponds to an almost doubled sample with respect to the previously
+    published result. Four clear {\nu}e events have been visually identified over the full sample, compared
+    with an expectation of 6.4 +- 0.9 events from conventional sources. The result is compatible with
+    the absence of additional anomalous contributions. At 90% and 99% confidence levels the limits to
+    possible oscillated events are 3.7 and 8.3 respectively. The corresponding limit to oscillation probability
+    becomes consequently 3.4 x 10-3 and 7.6 x 10-3 respectively. The present result confirms, with an
+    improved sensitivity, the early result already published by the ICARUS collaboration.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1307.4699
+    doi: https://doi.org/10.1140/epjc/s10052-013-2599-z
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:ICARUS:2013cwr
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null

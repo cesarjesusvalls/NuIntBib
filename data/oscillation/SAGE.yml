@@ -1,0 +1,73 @@
+- bibtag: SAGE:2001yit
+  title: Solar neutrino results from SAGE
+  collaboration: SAGE
+  arxiv: null
+  doi: null
+  journal: Part.Nucl.Lett.
+  volume: '108'
+  pages: '18'
+  year: 2001
+  published_date: '2001'
+  inspire_recid: 571906
+  citation_count: 3
+  abstract: null
+  added: '2026-06-21'
+  notes: needs full-text check
+  links:
+    arxiv: null
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SAGE:2001yit
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: SAGE:1999uje
+  title: Measurement of the solar neutrino capture rate by SAGE and implications for neutrino oscillations
+    in vacuum
+  collaboration: SAGE
+  arxiv: astro-ph/9907131
+  doi: 10.1103/PhysRevLett.83.4686
+  journal: Phys.Rev.Lett.
+  volume: '83'
+  pages: '4686'
+  year: 1999
+  published_date: 1999-07
+  inspire_recid: 503474
+  citation_count: 263
+  abstract: The Russian-American solar neutrino experiment has measured the capture rate of neutrinos
+    on metallic gallium in a radiochemical experiment at the Baksan Neutrino Observatory. Eight years
+    of measurement give the result 67.2 (+7.2,-7.0) (+3.5,-3.0) solar neutrino units, where the uncertainties
+    are statistical and systematic, respectively. The restrictions these results impose on vacuum neutrino
+    oscillation parameters are given.
+  added: '2026-06-21'
+  notes: needs full-text check
+  links:
+    arxiv: https://arxiv.org/abs/astro-ph/9907131
+    doi: https://doi.org/10.1103/PhysRevLett.83.4686
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SAGE:1999uje
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null

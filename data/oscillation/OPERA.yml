@@ -1,3 +1,222 @@
+- bibtag: OPERA:2022svg
+  title: Updated constraints on sterile neutrino mixing in the OPERA experiment using a new νe identification
+    method
+  collaboration: OPERA
+  arxiv: '2211.04636'
+  doi: 10.1093/ptep/ptad012
+  journal: PTEP
+  volume: '2023'
+  pages: 033C01
+  year: 2023
+  published_date: '2022-11-08'
+  inspire_recid: 2178428
+  citation_count: 1
+  abstract: This paper describes a new $\nu_e$ identification method specifically designed to improve
+    the low-energy ($< 30\,\mathrm{GeV}$) $\nu_e$ identification efficiency attained by enlarging the
+    emulsion film scanning volume with the next generation emulsion readout system. A relative increase
+    of 25-70% in the $\nu_e$ low-energy region is expected, leading to improvements in the OPERA sensitivity
+    to neutrino oscillations in the framework of the 3 + 1 model. The method is applied to a subset of
+    data where the detection efficiency increase is expected to be more relevant, and one additional $\nu_e$
+    candidate is found. The analysis combined with the $\nu_\tau$ appearance results improves the upper
+    limit on $\sin^2 2\theta_{\mu e}$ to 0.016 at 90% C.L. in the MiniBooNE allowed region $\Delta m^2_{41}
+    \sim 0.3\,\mathrm{eV}^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2211.04636
+    doi: https://doi.org/10.1093/ptep/ptad012
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2022svg
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: OPERA:2018fsq
+  title: Latest results of the OPERA experiment on nu-tau appearance in the CNGS neutrino beam
+  collaboration: OPERA
+  arxiv: '1811.00095'
+  doi: 10.21468/SciPostPhysProc.1.028
+  journal: SciPost Phys.Proc.
+  volume: '1'
+  pages: 028
+  year: 2019
+  published_date: '2018-10-31'
+  inspire_recid: 1701542
+  citation_count: 2
+  abstract: OPERA is a long-baseline experiment designed to search for $\nu_{\mu}\to\nu_{\tau}$ oscillations
+    in appearance mode. It was based at the INFN Gran Sasso laboratory (LNGS) and took data from 2008
+    to 2012 with the CNGS neutrino beam from CERN. After the discovery of $\nu_\tau$ appearance in 2015,
+    with $5.1\sigma$ significance, the criteria to select $\nu_\tau$ candidates have been extended and
+    a multivariate approach has been used for events identification. In this way the statistical uncertainty
+    in the measurement of the oscillation parameters and of $\nu_\tau$ properties has been improved. Results
+    are reported.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1811.00095
+    doi: https://doi.org/10.21468/SciPostPhysProc.1.028
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2018fsq
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: OPERA:2019kzo
+  title: Final results on neutrino oscillation parameters from the OPERA experiment in the CNGS beam
+  collaboration: OPERA
+  arxiv: '1904.05686'
+  doi: 10.1103/PhysRevD.100.051301
+  journal: Phys.Rev.D
+  volume: '100'
+  pages: '051301'
+  year: 2019
+  published_date: '2019-04-11'
+  inspire_recid: 1729310
+  citation_count: 24
+  abstract: The OPERA experiment has conclusively observed the appearance of tau neutrinos in the muon
+    neutrino CNGS beam. Exploiting the OPERA detector capabilities, it was possible to isolate high purity
+    samples of $\nu_{e}$, $\nu_{\mu}$ and $\nu_{\tau}$ charged current weak neutrino interactions, as
+    well as neutral current weak interactions. In this Letter, the full dataset is used for the first
+    time to test the three-flavor neutrino oscillation model and to derive constraints on the existence
+    of a light sterile neutrino within the framework of the $3+1$ neutrino model. For the first time,
+    tau and electron neutrino appearance channels are jointly used to test the sterile neutrino hypothesis.
+    A significant fraction of the sterile neutrino parameter space allowed by LSND and MiniBooNE experiments
+    is excluded at 90% C.L. In particular, the best-fit values obtained by MiniBooNE combining neutrino
+    and antineutrino data are excluded at 3.3 $\sigma$ significance.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1904.05686
+    doi: https://doi.org/10.1103/PhysRevD.100.051301
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2019kzo
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: OPERA:2018ksq
+  title: Final results of the search for $\nu_{\mu} \to \nu_{e}$ oscillations with the OPERA detector
+    in the CNGS beam
+  collaboration: OPERA
+  arxiv: '1803.11400'
+  doi: 10.1007/JHEP06(2018)151
+  journal: JHEP
+  volume: '06'
+  pages: '151'
+  year: 2018
+  published_date: '2018-03-30'
+  inspire_recid: 1665458
+  citation_count: 45
+  abstract: The OPERA experiment has discovered the tau neutrino appearance in the CNGS muon neutrino
+    beam, in agreement with the 3 neutrino flavour oscillation hypothesis. The OPERA neutrino interaction
+    target, made of Emulsion Cloud Chamber, was particularly efficient in the reconstruction of electromagnetic
+    showers. Moreover, thanks to the very high granularity of the emulsion films, showers induced by electrons
+    can be distinguished from those induced by $\pi^0$s, thus allowing the detection of charged current
+    interactions of electron neutrinos. In this paper the results of the search for electron neutrino
+    events using the full dataset are reported. An improved method for the electron neutrino energy estimation
+    is exploited. Data are compatible with the 3 neutrino flavour mixing model expectations and are used
+    to set limits on the oscillation parameters of the 3+1 neutrino mixing model, in which an additional
+    mass eigenstate $m_{4}$ is introduced. At high $\Delta m^{2}_{41}$ $( \gtrsim 0.1~\textrm{eV}^{2})$,
+    an upper limit on $\sin^2 2\theta_{\mu e}$ is set to 0.021 at 90% C.L. and $\Delta m^2_{41} \gtrsim
+    4 \times 10^{-3}~\textrm{eV}^{2}$ is excluded for maximal mixing in appearance mode.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1803.11400
+    doi: https://doi.org/10.1007/JHEP06(2018)151
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2018ksq
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: OPERA:2018nar
+  title: Final Results of the OPERA Experiment on $\nu_\tau$ Appearance in the CNGS Neutrino Beam
+  collaboration: OPERA
+  arxiv: '1804.04912'
+  doi: 10.1103/PhysRevLett.120.211801
+  journal: Phys.Rev.Lett.
+  volume: '120'
+  pages: '211801'
+  year: 2018
+  published_date: '2018-04-13'
+  inspire_recid: 1667682
+  citation_count: 233
+  abstract: The OPERA experiment was designed to study $\nu_\mu\to\nu_\tau$ oscillations in appearance
+    mode in the CNGS neutrino beam. In this letter we report the final analysis of the full data sample
+    collected between 2008 and 2012, corresponding to $17.97\cdot 10^{19}$ protons on target. Selection
+    criteria looser than in previous analyses have produced ten $\nu_\tau$ candidate events, thus reducing
+    the statistical uncertainty in the measurement of the oscillation parameters and of $\nu_\tau$ properties.
+    A multivariate approach for event identification has been applied to the candidate events and the
+    discovery of $\nu_\tau$ appearance is confirmed with an improved significance level of 6.1 $\sigma$.
+    $\Delta m^2_{23}$ has been measured, in appearance mode, with an accuracy of 20%. The measurement
+    of $\nu_\tau$ CC cross-section, for the first time with a negligible contamination from $\bar{\nu}_\tau$,
+    and the first direct observation of the $\nu_\tau$ lepton number are also reported.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1804.04912
+    doi: https://doi.org/10.1103/PhysRevLett.120.211801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2018nar
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₃₂
+    observables: null
+    notes: null
 - inspire_recid: 1381524
   title: Discovery of $\tau$ Neutrino Appearance in the CNGS Neutrino Beam with the OPERA Experiment
   abstract: The OPERA experiment was designed to search for $\nu_{\mu} \rightarrow \nu_{\tau}$ oscillations
@@ -36,4 +255,295 @@
     parameters:
     - Δm²₃₂
     observables: nutau appearance (discovery) in CNGS beam over 730 km
+    notes: null
+- bibtag: OPERA:2015zci
+  title: Limits on muon-neutrino to tau-neutrino oscillations induced by a sterile neutrino state obtained
+    by OPERA at the CNGS beam
+  collaboration: OPERA
+  arxiv: '1503.01876'
+  doi: 10.1007/JHEP06(2015)069
+  journal: JHEP
+  volume: '06'
+  pages: 069
+  year: 2015
+  published_date: '2015-03-06'
+  inspire_recid: 1348540
+  citation_count: 41
+  abstract: The OPERA experiment, exposed to the CERN to Gran Sasso $\nu_\mu$ beam, collected data from
+    2008 to 2012. Four oscillated $\nu_\tau$ Charged Current interaction candidates have been detected
+    in appearance mode, which are consistent with $\nu_\mu \to \nu_\tau$ oscillations at the atmospheric
+    $\Delta m^2$ within the "standard" three-neutrino framework. In this paper, the OPERA $\nu_\tau$ appearance
+    results are used to derive limits on the mixing parameters of a massive sterile neutrino.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1503.01876
+    doi: https://doi.org/10.1007/JHEP06(2015)069
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2015zci
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    - θ₃₄
+    observables: null
+    notes: null
+- bibtag: OPERA:2014fax
+  title: Evidence for $\nu_\mu \to \nu_\tau$ appearance in the CNGS neutrino beam with the OPERA experiment
+  collaboration: OPERA
+  arxiv: '1401.2079'
+  doi: 10.1103/PhysRevD.89.051102
+  journal: Phys.Rev.D
+  volume: '89'
+  pages: '051102'
+  year: 2014
+  published_date: '2014-01-09'
+  inspire_recid: 1276512
+  citation_count: 141
+  abstract: The OPERA experiment is designed to search for $\nu_{\mu} \rightarrow \nu_{\tau}$ oscillations
+    in appearance mode i.e. through the direct observation of the $\tau$ lepton in $\nu_{\tau}$ charged
+    current interactions. The experiment has taken data for five years, since 2008, with the CERN Neutrino
+    to Gran Sasso beam. Previously, two $\nu_{\tau}$ candidates with a $\tau$ decaying into hadrons were
+    observed in a sub-sample of data of the 2008-2011 runs. Here we report the observation of a third
+    $\nu_\tau$ candidate in the $\tau^-\to\mu^-$ decay channel coming from the analysis of a sub-sample
+    of the 2012 run. Taking into account the estimated background, the absence of $\nu_{\mu} \rightarrow
+    \nu_{\tau}$ oscillations is excluded at the 3.4 $\sigma$ level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1401.2079
+    doi: https://doi.org/10.1103/PhysRevD.89.051102
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2014fax
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: OPERA:2014nnd
+  title: Observation of tau neutrino appearance in the CNGS beam with the OPERA experiment
+  collaboration: OPERA
+  arxiv: '1407.3513'
+  doi: 10.1093/ptep/ptu132
+  journal: PTEP
+  volume: '2014'
+  pages: 101C01
+  year: 2014
+  published_date: '2014-07-13'
+  inspire_recid: 1306291
+  citation_count: 102
+  abstract: The OPERA experiment is searching for nu_mu -> nu_tau oscillations in appearance mode i.e.
+    via the direct detection of tau leptons in nu_tau charged current interactions. The evidence of nu_mu
+    -> nu_tau appearance has been previously reported with three nu_tau candidate events using a sub-sample
+    of data from the 2008-2012 runs. We report here a fourth nu_tau candidate event, with the tau decaying
+    into a hadron, found after adding the 2012 run events without any muon in the final state to the data
+    sample. Given the number of analysed events and the low background, nu_mu -> nu_tau oscillations are
+    established with a significance of 4.2sigma.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1407.3513
+    doi: https://doi.org/10.1093/ptep/ptu132
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2014nnd
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: OPERA:2013tlg
+  title: New results on $\nu_\mu \to \nu_\tau$ appearance with the OPERA experiment in the CNGS beam
+  collaboration: OPERA
+  arxiv: '1308.2553'
+  doi: 10.1007/JHEP11(2013)036
+  journal: JHEP
+  volume: '11'
+  pages: '036'
+  year: 2013
+  published_date: '2013-08-12'
+  inspire_recid: 1247457
+  citation_count: 142
+  abstract: The OPERA neutrino experiment is designed to perform the first observation of neutrino oscillations
+    in direct appearance mode in the $\nu_\mu \to \nu_\tau$ channel, via the detection of the $\tau$-leptons
+    created in charged current $\nu_\tau$ interactions. The detector, located in the underground Gran
+    Sasso Laboratory, consists of an emulsion/lead target with an average mass of about 1.2 kt, complemented
+    by electronic detectors. It is exposed to the CERN Neutrinos to Gran Sasso beam, with a baseline of
+    730 km and a mean energy of 17 GeV. The observation of the first $\nu_\tau$ candidate event and the
+    analysis of the 2008-2009 neutrino sample have been reported in previous publications. This work describes
+    substantial improvements in the analysis and in the evaluation of the detection efficiencies and backgrounds
+    using new simulation tools. The analysis is extended to a sub-sample of 2010 and 2011 data, resulting
+    from an electronic detector-based pre-selection, in which an additional $\nu_\tau$ candidate has been
+    observed. The significance of the two events in terms of a $\nu_\mu \to \nu_\tau$ oscillation signal
+    is of 2.40 $\sigma$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1308.2553
+    doi: https://doi.org/10.1007/JHEP11(2013)036
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2013tlg
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: OPERA:2013wvp
+  title: Search for $\nu_\mu \rightarrow \nu_e$  oscillations with the OPERA experiment in the CNGS beam
+  collaboration: OPERA
+  arxiv: '1303.3953'
+  doi: 10.1007/JHEP07(2013)004
+  journal: JHEP
+  volume: '07'
+  pages: '004'
+  year: 2013
+  published_date: '2013-03-16'
+  inspire_recid: 1224257
+  citation_count: 175
+  abstract: A first result of the search for \numu $\rightarrow$ \nue oscillations in the OPERA experiment,
+    located at the Gran Sasso Underground Laboratory, is presented. The experiment looked for the appearance
+    of \nue in the CNGS neutrino beam using the data collected in 2008 and 2009. Data are compatible with
+    the non-oscillation hypothesis in the three-flavour mixing model. A further analysis of the same data
+    constrains the non-standard oscillation parameters $\theta_{new}$ and $\Delta m^2_{new}$ suggested
+    by the LSND and MiniBooNE experiments. For large $\Delta m^{2}_{new}$ values ($>$0.1 eV$^{2}$), the
+    OPERA 90% C.L. upper limit on sin$^{2}(2\theta_{new})$ based on a Bayesian statistical method reaches
+    the value $7.2 \times 10^{-3}$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1303.3953
+    doi: https://doi.org/10.1007/JHEP07(2013)004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2013wvp
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: OPERA:2012tdd
+  title: Search for $\nu_{\mu} \to \nu_{\tau}$ oscillation with the OPERA experiment in the CNGS beam
+  collaboration: OPERA
+  arxiv: null
+  doi: 10.1088/1367-2630/14/3/033017
+  journal: New J.Phys.
+  volume: '14'
+  pages: '033017'
+  year: 2012
+  published_date: '2012'
+  inspire_recid: 1112318
+  citation_count: 38
+  abstract: The OPERA neutrino experiment in the underground Gran Sasso Laboratory (LNGS) was designed
+    to perform the first detection of neutrino oscillations in direct appearance mode in the mu -> tau
+    channel, the tau signature being the identification of the tau-lepton created in its charged current
+    interaction. The hybrid apparatus consists of a large mass emulsion film/lead target complemented
+    by electronic detectors. Placed in the LNGS, it is exposed to the high-energy long-baseline CERN Neutrino
+    beam to Gran Sasso (CNGS) 730km away from the neutrino source. The observation of a first tau candidate
+    event was reported in 2010. In this paper, we discuss the result of the analysis of the data taken
+    during the first two years of operation (2008-2009) underlining the major improvements brought to
+    the analysis chain and to the Monte Carlo simulations. The statistical significance of the one event
+    observed so far is then evaluated to 95%.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1088/1367-2630/14/3/033017
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2012tdd
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: OPERA:2011oja
+  title: Search for $\nu_\mu\rightarrow\nu_\tau$ oscillation with the OPERA experiment in the CNGS beam
+  collaboration: OPERA
+  arxiv: '1107.2594'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2011
+  published_date: 2011-07
+  inspire_recid: 918256
+  citation_count: 17
+  abstract: The OPERA neutrino experiment in the underground Gran Sasso Laboratory (LNGS) was designed
+    to perform the first detection of neutrino oscillations in direct appearance mode in the $\nu_\mu\rightarrow\nu_\tau$
+    channel, the $\nu_\tau$ signature being the identification of the $\tau$-lepton created in its charged
+    current interaction. The hybrid apparatus consists of a large mass emulsion film/lead target complemented
+    by electronic detectors. It is placed in the high energy long-baseline CERN to LNGS neutrino beam
+    (CNGS) 730 km away from the neutrino source. The observation of a first $\nu_\tau$ candidate event
+    was reported in 2010. In this paper, we present the status of the experiment based on the analysis
+    of the data taken during the first two years of operation (2008-2009). The statistical significance
+    of the one event observed so far is then assessed.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1107.2594
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2011oja
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
     notes: null

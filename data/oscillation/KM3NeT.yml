@@ -1,0 +1,219 @@
+- bibtag: KM3NeT:2025iar
+  title: Search for an eV-scale sterile neutrino with the first six detection units of KM3NeT/ORCA
+  collaboration: KM3NeT
+  arxiv: '2510.07360'
+  doi: 10.1007/JHEP02(2026)080
+  journal: JHEP
+  volume: '02'
+  pages: 080
+  year: 2026
+  published_date: '2025-10-08'
+  inspire_recid: 3065776
+  citation_count: 1
+  abstract: The existence of an eV-scale sterile neutrino has been proposed to explain several anomalous
+    experimental results obtained over the course of the past 25 years. The first search for such a sterile
+    neutrino conducted with data from KM3NeT/ORCA -- a water Cherenkov neutrino telescope under construction
+    at the bottom of the Mediterranean Sea -- is reported in this paper. GeV-scale atmospheric neutrino
+    oscillations are measured by reconstructing the energy and arrival direction of up-going neutrinos
+    that have traversed the Earth. This study is based on a data sample containing 5828 neutrino candidates
+    collected with 6 detection units ($5\%$ of the complete detector), corresponding to an exposure of
+    433 kton-years. From the expected effect of an eV-scale sterile neutrino on the first $ν_μ\rightarrow
+    ν_τ$ standard oscillation maximum, simultaneous constraints are put on the magnitude of the $U_{μ4}$
+    and $U_{τ4}$ mixing elements assuming $Δm^2_{41} \geq 1$ eV$^2$. The results are compatible with the
+    absence of mixing between active neutrinos and a sterile state, with $|U_{μ4}|^2 < 0.138$ and $|U_{τ4}|^2
+    < 0.076$ at a $90\%$ confidence level. Such constraints are compatible with the results reported by
+    other long-baseline experiments, and indicate that with KM3NeT/ORCA it is possible to bring crucial
+    contributions to sterile neutrino searches in the coming years.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2510.07360
+    doi: https://doi.org/10.1007/JHEP02(2026)080
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KM3NeT:2025iar
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nutau
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    - θ₃₄
+    observables: null
+    notes: null
+- bibtag: KM3NeT:2026kuj
+  title: Atmospheric neutrino constraints on Lorentz invariance violation with the first six detection
+    units of KM3NeT/ORCA
+  collaboration: KM3NeT
+  arxiv: '2603.04264'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2026
+  published_date: '2026-03-04'
+  inspire_recid: 3125675
+  citation_count: 1
+  abstract: Lorentz invariance is a fundamental symmetry underlying both the Standard Model of particle
+    physics and General Relativity. Testing its validity provides a direct means of searching for new
+    physics emerging near the Planck scale. A search for isotropic Lorentz invariance violation with 1.4
+    years of atmospheric neutrino data collected by a partial configuration of the KM3NeT/ORCA detector
+    comprising six detection units is presented. No evidence for such violation is found; thus, competitive
+    limits are set on a subset of isotropic Lorentz invariance violating coefficients, which complement
+    and extend existing experimental constraints.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2603.04264
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KM3NeT:2026kuj
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: LIV
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters: []
+    observables: null
+    notes: null
+- bibtag: KM3NeT:2024jji
+  title: Search for quantum decoherence in neutrino oscillations with six detection units of KM3NeT/ORCA
+  collaboration: KM3NeT
+  arxiv: '2410.01388'
+  doi: 10.1088/1475-7516/2025/03/039
+  journal: JCAP
+  volume: '03'
+  pages: 039
+  year: 2025
+  published_date: '2024-10-02'
+  inspire_recid: 2836603
+  citation_count: 14
+  abstract: Neutrinos described as an open quantum system may interact with the environment which introduces
+    stochastic perturbations to their quantum phase. This mechanism leads to a loss of coherence along
+    the propagation of the neutrino $-$ a phenomenon commonly referred to as decoherence $-$ and ultimately,
+    to a modification of the oscillation probabilities. Fluctuations in space-time, as envisaged by various
+    theories of quantum gravity, are a potential candidate for a decoherence-inducing environment. Consequently,
+    the search for decoherence provides a rare opportunity to investigate quantum gravitational effects
+    which are usually beyond the reach of current experiments. In this work, quantum decoherence effects
+    are searched for in neutrino data collected by the KM3NeT/ORCA detector from January 2020 to November
+    2021. The analysis focuses on atmospheric neutrinos within the energy range of a few GeV to $100\,\mathrm{GeV}$.
+    Adopting the open quantum system framework, decoherence is described in a phenomenological manner
+    with the strength of the effect given by the parameters $\Gamma_{21}$ and $\Gamma_{31}$. Following
+    previous studies, a dependence of the type $\Gamma_{ij} \propto (E/E_0)^n$ on the neutrino energy
+    is assumed and the cases $n = -2,-1$ are explored. No significant deviation with respect to the standard
+    oscillation hypothesis is observed. Therefore, $90\,\%$ CL upper limits are estimated as $\Gamma_{21}
+    < 4.6\cdot 10^{-21}\,$GeV and $\Gamma_{31} < 8.4\cdot 10^{-21}\,$GeV for $n = -2$, and $\Gamma_{21}
+    < 1.9\cdot 10^{-22}\,$GeV and $\Gamma_{31} < 2.7\cdot 10^{-22}\,$GeV for $n = -1$, respectively.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2410.01388
+    doi: https://doi.org/10.1088/1475-7516/2025/03/039
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KM3NeT:2024jji
+  measurements:
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: decoherence
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters: []
+    observables: null
+    notes: null
+- bibtag: KM3NeT:2024ecf
+  title: Measurement of neutrino oscillation parameters with the first six detection units of KM3NeT/ORCA
+  collaboration: KM3NeT
+  arxiv: '2408.07015'
+  doi: 10.1007/JHEP10(2024)206
+  journal: JHEP
+  volume: '10'
+  pages: '206'
+  year: 2024
+  published_date: '2024-08-13'
+  inspire_recid: 2817709
+  citation_count: 44
+  abstract: KM3NeT/ORCA is a water Cherenkov neutrino detector under construction and anchored at the
+    bottom of the Mediterranean Sea. The detector is designed to study oscillations of atmospheric neutrinos
+    and determine the neutrino mass ordering. This paper focuses on an initial configuration of ORCA,
+    referred to as ORCA6, which comprises six out of the foreseen 115 detection units of photo-sensors.
+    A high-purity neutrino sample was extracted, corresponding to an exposure of 433 kton-years. The sample
+    of 5828 neutrino candidates is analysed following a binned log-likelihood method in the reconstructed
+    energy and cosine of the zenith angle. The atmospheric oscillation parameters are measured to be $\sin^2\theta_{23}=
+    0.51^{+0.04}_{-0.05}$, and $ \Delta m^2_{31} = 2.14^{+0.25}_{-0.35}\times 10^{-3}~\mathrm{eV^2} \cup
+    \{-2.25,-1.76\}\times 10^{-3}~\mathrm{eV^2}$ at 68% CL. The inverted neutrino mass ordering hypothesis
+    is disfavoured with a p-value of 0.25.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2408.07015
+    doi: https://doi.org/10.1007/JHEP10(2024)206
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KM3NeT:2024ecf
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₁
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: KM3NeT:2021hkj
+  title: First neutrino oscillation measurement in KM3NeT/ORCA
+  collaboration: KM3NeT
+  arxiv: null
+  doi: 10.22323/1.395.1123
+  journal: PoS
+  volume: ICRC2021
+  pages: '1123'
+  year: 2021
+  published_date: '2021'
+  inspire_recid: 1930102
+  citation_count: 23
+  abstract: The KM3NeT/ORCA is a next-generation neutrino detector currently under construction in the
+    Mediterranean Sea. There are currently 6 Detection Units deployed, and in the past year the detector
+    has been steadily taking data. Here the first neutrino oscillation measurement is presented using
+    data taken with the ORCA detector 6 Detection Units, containing 354.6 days of exposure. Selection
+    criteria are discussed, followed by a neutrino oscillation analysis. In the analysis it is found that
+    oscillations are preferred with a confidence level of 5.9 $\sigma$ over "no oscillations". Likelihood
+    scans of the $\Delta m_{31}^2$ and $\sin^2 \theta_{23}$ parameter also show a strong exclusion of
+    the no oscillation hypothesis. The sensitivity contour in $(\sin^2\theta_{23}, \Delta m_{31}^2)$ is
+    presented, showing results that are approaching to being being competitive with other experiments.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.22323/1.395.1123
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KM3NeT:2021hkj
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₁
+    observables: null
+    notes: null

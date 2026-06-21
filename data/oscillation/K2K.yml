@@ -1,3 +1,40 @@
+- bibtag: K2K:2006wtf
+  title: An Improved search for nu(mu) ---> nu(e) oscillation in a long-baseline accelerator experiment
+  collaboration: K2K
+  arxiv: hep-ex/0603004
+  doi: 10.1103/PhysRevLett.96.181801
+  journal: Phys.Rev.Lett.
+  volume: '96'
+  pages: '181801'
+  year: 2006
+  published_date: 2006-03
+  inspire_recid: 711599
+  citation_count: 107
+  abstract: We performed an improved search for $\nu_\mu \to \nu_e$ oscillation with the KEK to Kamioka
+    (K2K) long-baseline neutrino oscillation experiment, using the full data sample of $9.2 \times 10^{19}$\xspace
+    protons on target. No evidence for a $\nu_e$ appearance signal was found, and we set bounds on the
+    $\nu_\mu \to \nu_e$ oscillation parameters. At $\Delta m^2$ = $2.8 \times 10^{-3} \mathrm{eV}^2$,
+    the best fit value of the K2K $\nu_\mu$ disappearance analysis, we set an upper limit of $\sin^2 2\theta_{\mu
+    e}$ $<$ 0.13 at 90% confidence level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0603004
+    doi: https://doi.org/10.1103/PhysRevLett.96.181801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2006wtf
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+    mode:
+    - appearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
 - inspire_recid: 719389
   title: Measurement of Neutrino Oscillation by the K2K Experiment
   abstract: We present measurements of nu_mu disappearance in K2K, the KEK to Kamioka long-baseline neutrino
@@ -36,4 +73,121 @@
     - θ₂₃
     - Δm²₃₂
     observables: numu disappearance over 250 km
+    notes: null
+- bibtag: K2K:2004iot
+  title: Evidence for muon neutrino oscillation in an accelerator-based experiment
+  collaboration: K2K
+  arxiv: hep-ex/0411038
+  doi: 10.1103/PhysRevLett.94.081802
+  journal: Phys.Rev.Lett.
+  volume: '94'
+  pages: 081802
+  year: 2005
+  published_date: 2004-11
+  inspire_recid: 664193
+  citation_count: 656
+  abstract: We present results for muon neutrino oscillation in the KEK to Kamioka (K2K) long-baseline
+    neutrino oscillation experiment. K2K uses an accelerator-produced muon neutrino beam with a mean energy
+    of 1.3 GeV directed at the Super-Kamiokande detector. We observed the energy dependent disappearance
+    of muon neutrino, which we presume have oscillated to tau neutrino. The probability that we would
+    observe these results if there is no neutrino oscillation is 0.0050% (4.0 sigma).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0411038
+    doi: https://doi.org/10.1103/PhysRevLett.94.081802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2004iot
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: K2K:2004tri
+  title: Search for electron neutrino appearance in a 250 km long baseline experiment
+  collaboration: K2K
+  arxiv: hep-ex/0402017
+  doi: 10.1103/PhysRevLett.93.051801
+  journal: Phys.Rev.Lett.
+  volume: '93'
+  pages: 051801
+  year: 2004
+  published_date: 2004-02
+  inspire_recid: 644208
+  citation_count: 103
+  abstract: We present a search for electron neutrino appearance from accelerator produced muon neutrinos
+    in the K2K long baseline neutrino experiment. One candidate event is found in the data corresponding
+    to an exposure of 4.8*10^19 protons on target. The expected background in the absence of neutrino
+    oscillations is estimated to be 2.4+-0.6 events and is dominated by mis-identification of events from
+    neutral current pi^0 production. We exclude the \nu_\mu to \nu_e oscillations at 90% C.L. for the
+    effective mixing angle in 2-flavor approximation of sin^2(2theta_\mu_e) (~= 1/2 sin^2 2 th_13) > 0.15
+    at Delta m^2_\mu_e = 2.8*10^{-3} eV^2, the best fit value of the \nu_\mu disappearance analysis in
+    K2K. The most stringent limit of sin^2(2theta_\mu_e) < 0.09 is obtained at Delta m^2_\mu_e = 6*10^{-3}
+    eV^2.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0402017
+    doi: https://doi.org/10.1103/PhysRevLett.93.051801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2004tri
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+    mode:
+    - appearance
+    parameters:
+    - θ₁₃
+    observables: null
+    notes: null
+- bibtag: K2K:2002icj
+  title: Indications of neutrino oscillation in a 250 km long baseline experiment
+  collaboration: K2K
+  arxiv: hep-ex/0212007
+  doi: 10.1103/PhysRevLett.90.041801
+  journal: Phys.Rev.Lett.
+  volume: '90'
+  pages: 041801
+  year: 2003
+  published_date: 2002-12
+  inspire_recid: 603717
+  citation_count: 1377
+  abstract: 'The K2K experiment observes indications of neutrino oscillation: a reduction of $\nu_\mu$
+    flux together with a distortion of the energy spectrum. Fifty-six beam neutrino events are observed
+    in Super-Kamiokande (SK), 250 km from the neutrino production point, with an expectation of $80.1^{+6.2}_{-5.4}$.
+    Twenty-nine one ring $\mu$-like events are used to reconstruct the neutrino energy spectrum, which
+    is better matched to the expected spectrum with neutrino oscillation than without. The probability
+    that the observed flux at SK is explained by statistical fluctuation without neutrino oscillation
+    is less than 1%.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0212007
+    doi: https://doi.org/10.1103/PhysRevLett.90.041801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2002icj
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
     notes: null

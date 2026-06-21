@@ -1,0 +1,82 @@
+- bibtag: Borexino:2011bhn
+  title: Absence of day--night asymmetry of 862 keV $^7$Be solar neutrino rate in Borexino and MSW oscillation
+    parameters
+  collaboration: Borexino
+  arxiv: '1104.2150'
+  doi: 10.1016/j.physletb.2011.11.025
+  journal: Phys.Lett.B
+  volume: '707'
+  pages: '22'
+  year: 2012
+  published_date: 2011-04
+  inspire_recid: 895826
+  citation_count: 149
+  abstract: We report on a search for the day-night asymmetry of the Be-7 solar neutrino rate measured
+    by Borexino at the Laboratori Nazionali del Gran Sasso (LNGS), Italy. The measured value, Adn=0.001
+    +- 0.012 (stat) +- 0.007 (syst), shows the absence of a significant asymmetry. This result alone rejects
+    the so-called LOW solution at more than 8.5 sigma. Combined with the other solar neutrino data, it
+    isolates the Large Mixing Angle (LMA) -- MSW solution at DeltaChi2 > 190 without relying on the assumption
+    of CPT symmetry in the neutrino sector. We also show that including the day-night asymmetry, data
+    from Borexino alone restricts the MSW neutrino oscillations to the LMA solution at 90% confidence
+    level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1104.2150
+    doi: https://doi.org/10.1016/j.physletb.2011.11.025
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Borexino:2011bhn
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: Borexino:2008dzn
+  title: Direct Measurement of the Be-7 Solar Neutrino Flux with 192 Days of Borexino Data
+  collaboration: Borexino
+  arxiv: '0805.3843'
+  doi: 10.1103/PhysRevLett.101.091302
+  journal: Phys.Rev.Lett.
+  volume: '101'
+  pages: 091302
+  year: 2008
+  published_date: 2008-05
+  inspire_recid: 786577
+  citation_count: 564
+  abstract: We report the direct measurement of the ^7Be solar neutrino signal rate performed with the
+    Borexino detector at the Laboratori Nazionali del Gran Sasso. The interaction rate of the 0.862 MeV
+    ^7Be neutrinos is 49+-3(stat)+-4(syst) counts/(day * 100ton). The hypothesis of no oscillation for
+    ^7Be solar neutrinos is inconsistent with our measurement at the 4sigma level. Our result is the first
+    direct measurement of the survival probability for solar nu_e in the transition region between matter-enhanced
+    and vacuum-driven oscillations. The measurement improves the experimental determination of the flux
+    of ^7Be, pp, and CNO solar nu_e, and the limit on the magnetic moment of neutrinos.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0805.3843
+    doi: https://doi.org/10.1103/PhysRevLett.101.091302
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Borexino:2008dzn
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null

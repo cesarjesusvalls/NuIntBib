@@ -1,3 +1,137 @@
+- bibtag: KamLAND:2010fvi
+  title: Constraints on $\theta_{13}$ from A Three-Flavor Oscillation Analysis of Reactor Antineutrinos
+    at KamLAND
+  collaboration: KamLAND
+  arxiv: '1009.4771'
+  doi: 10.1103/PhysRevD.83.052002
+  journal: Phys.Rev.D
+  volume: '83'
+  pages: '052002'
+  year: 2011
+  published_date: 2010-09
+  inspire_recid: 870962
+  citation_count: 502
+  abstract: We present new constraints on the neutrino oscillation parameters $/textyen Delta m^{2}_{21}$,
+    $/textyen theta_{12}$, and $/textyen theta_{13}$ from a three-flavor analysis of solar and KamLAND
+    data. The KamLAND data set includes data acquired following a radiopurity upgrade and amounts to a
+    total exposure of $3.49 \textyen times 10^{32}$ target-proton-year. Under the assumption of {\textyen
+    it CPT} invariance, a two-flavor analysis (/textyen mbox{$\textyen theta_{13} = 0$}) of the KamLAND
+    and solar data yields the best-fit values $\textyen tan^{2} \textyen theta_{12} = 0.444^{+0.036}_{-0.030}$
+    and $\textyen Delta m^{2}_{21} = 7.50^{+0.19}_{-0.20} \textyen times 10^{-5} ~ {\textyen rm eV}^{2}$;
+    a three-flavor analysis with $\textyen theta_{13}$ as a free parameter yields the best-fit values
+    $\textyen tan^{2} \textyen theta_{12} = 0.452^{+0.035}_{-0.033}$, $\textyen Delta m^{2}_{21} = 7.50^{+0.19}_{-0.20}
+    \textyen times 10^{-5} ~ {\textyen rm eV}^{2}$, and $\textyen sin^{2} \textyen theta_{13} = 0.020^{+0.016}_{-0.016}$.
+    This $\textyen theta_{13}$ interval is consistent with other recent work combining the CHOOZ, atmospheric
+    and long-baseline accelerator experiments. We also present a new global $\textyen theta_{13}$ analysis,
+    incorporating the CHOOZ, atmospheric and accelerator data, which indicates $\textyen sin^{2} \textyen
+    theta_{13} = 0.009^{+0.013}_{-0.007}$. A nonzero value is suggested, but only at the 79\textyen% C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1009.4771
+    doi: https://doi.org/10.1103/PhysRevD.83.052002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KamLAND:2010fvi
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - θ₁₃
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: KamLAND:2008dgz
+  title: Precision Measurement of Neutrino Oscillation Parameters with KamLAND
+  collaboration: KamLAND
+  arxiv: '0801.4589'
+  doi: 10.1103/PhysRevLett.100.221803
+  journal: Phys.Rev.Lett.
+  volume: '100'
+  pages: '221803'
+  year: 2008
+  published_date: 2008-02
+  inspire_recid: 778426
+  citation_count: 1341
+  abstract: The KamLAND experiment has determined a precise value for the neutrino oscillation parameter
+    $\Delta m^{2}_{21}$ and stringent constraints on $\theta_{12}$. The exposure to nuclear reactor anti-neutrinos
+    is increased almost fourfold over previous results to 2.44$\times10^{32}$ proton-yr due to longer
+    livetime and an enlarged fiducial volume. An undistorted reactor $\bar{\nu}_{e}$ energy spectrum is
+    now rejected at >5$\sigma$. Extending the analysis down to the inverse beta decay energy threshold,
+    and incorporating geo-neutrinos, gives a best-fit at $\Delta m^{2}_{21}$= $7.58^{+0.14}_{-0.13}(stat)^{+0.15}_{-0.15}(syst)\times10^{-5}$
+    eV$^{2}$ and $\tan^2 \theta_{12}$=$0.56^{+0.10}_{0.07}(stat)^{+0.10}_{-0.06}(syst)$. Local $\Delta
+    \chi^2$-minima at higher and lower $\Delta m^{2}_{21}$ are disfavored at >4$\sigma$. Combining with
+    solar neutrino data, we obtain $\Delta m^{2}_{21}$= $7.59^{+0.21}_{-0.21}\times10^{-5}$ eV$^{2}$ and
+    $\tan^2 \theta_{12}$=$0.47^{+0.06}_{-0.05}$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0801.4589
+    doi: https://doi.org/10.1103/PhysRevLett.100.221803
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KamLAND:2008dgz
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
+- bibtag: KamLAND:2004mhv
+  title: 'Measurement of neutrino oscillation with KamLAND: Evidence of spectral distortion'
+  collaboration: KamLAND
+  arxiv: hep-ex/0406035
+  doi: 10.1103/PhysRevLett.94.081801
+  journal: Phys.Rev.Lett.
+  volume: '94'
+  pages: 081801
+  year: 2005
+  published_date: 2004-06
+  inspire_recid: 652319
+  citation_count: 1801
+  abstract: We present results of a study of neutrino oscillation based on a 766 ton-year exposure of
+    KamLAND to reactor anti-neutrinos. We observe 258 \nuebar\ candidate events with energies above 3.4
+    MeV compared to 365.2 events expected in the absence of neutrino oscillation. Accounting for 17.8
+    expected background events, the statistical significance for reactor \nuebar disappearance is 99.998%.
+    The observed energy spectrum disagrees with the expected spectral shape in the absence of neutrino
+    oscillation at 99.6% significance and prefers the distortion expected from \nuebar oscillation effects.
+    A two-neutrino oscillation analysis of the KamLAND data gives \DeltaMSq = 7.9$^{+0.6}_{-0.5}\times10^{-5}$
+    eV$^2$. A global analysis of data from KamLAND and solar neutrino experiments yields \DeltaMSq = 7.9$^{+0.6}_{-0.5}\times10^{-5}$
+    eV$^2$ and \ThetaParam = 0.40$^{+0.10}_{-0.07}$, the most precise determination to date.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0406035
+    doi: https://doi.org/10.1103/PhysRevLett.94.081801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KamLAND:2004mhv
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: null
+    notes: null
 - inspire_recid: 604286
   title: 'First results from KamLAND: Evidence for reactor anti-neutrino disappearance'
   abstract: KamLAND has been used to measure the flux of $\bar{\nu}_e$'s from distant nuclear reactors.

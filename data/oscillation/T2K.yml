@@ -1,3 +1,391 @@
+- bibtag: T2K:2024wfn
+  title: First Joint Oscillation Analysis of Super-Kamiokande Atmospheric and T2K Accelerator Neutrino
+    Data
+  collaboration: T2K
+  arxiv: '2405.12488'
+  doi: 10.1103/PhysRevLett.134.011801
+  journal: Phys.Rev.Lett.
+  volume: '134'
+  pages: 011801
+  year: 2025
+  published_date: '2024-05-21'
+  inspire_recid: 2788741
+  citation_count: 52
+  abstract: The Super-Kamiokande and T2K collaborations present a joint measurement of neutrino oscillation
+    parameters from their atmospheric and beam neutrino data. It uses a common interaction model for events
+    overlapping in neutrino energy and correlated detector systematic uncertainties between the two datasets,
+    which are found to be compatible. Using 3244.4 days of atmospheric data and a beam exposure of $19.7(16.3)
+    \times 10^{20}$ protons on target in (anti)neutrino mode, the analysis finds a 1.9$\sigma$ exclusion
+    of CP-conservation (defined as $J_{CP}=0$) and a preference for the normal mass ordering.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2405.12488
+    doi: https://doi.org/10.1103/PhysRevLett.134.011801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2024wfn
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - θ₁₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: T2K:2025wet
+  title: Joint neutrino oscillation analysis from the T2K and NOvA experiments
+  collaboration: T2K
+  arxiv: '2510.19888'
+  doi: 10.1038/s41586-025-09599-3
+  journal: Nature
+  volume: '646'
+  pages: '818'
+  year: 2025
+  published_date: '2025-10-22'
+  inspire_recid: 3072534
+  citation_count: 44
+  abstract: The landmark discovery that neutrinos have mass and can change type (or "flavor") as they
+    propagate -- a process called neutrino oscillation -- has opened up a rich array of theoretical and
+    experimental questions being actively pursued today. Neutrino oscillation remains the most powerful
+    experimental tool for addressing many of these questions, including whether neutrinos violate charge-parity
+    (CP) symmetry, which has possible connections to the unexplained preponderance of matter over antimatter
+    in the universe. Oscillation measurements also probe the mass-squared differences between the different
+    neutrino mass states ($Δm^2$), whether there are two light states and a heavier one (normal ordering)
+    or vice versa (inverted ordering), and the structure of neutrino mass and flavor mixing. Here, we
+    carry out the first joint analysis of data sets from NOvA and T2K, the two currently operating long-baseline
+    neutrino oscillation experiments (hundreds of kilometers of neutrino travel distance), taking advantage
+    of our complementary experimental designs and setting new constraints on several neutrino sector parameters.
+    This analysis provides new precision on the $Δm^2_{32}$ mass difference, finding $2.43^{+0.04}_{-0.03}\
+    \left(-2.48^{+0.03}_{-0.04}\right)\times 10^{-3}~\mathrm{eV}^2$ in the normal (inverted) ordering,
+    as well as a $3σ$ interval on $δ_{\rm CP}$ of $[-1.38π,\ 0.30π]$$\left([-0.92π,\ -0.04π]\right)$ in
+    the normal (inverted) ordering. The data show no strong preference for either mass ordering, but notably
+    if inverted ordering were assumed true within the three-flavor mixing paradigm, then our results would
+    provide evidence of CP symmetry violation in the lepton sector.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2510.19888
+    doi: https://doi.org/10.1038/s41586-025-09599-3
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2025wet
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - θ₁₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: T2K:2025yoy
+  title: Results from the T2K Experiment on Neutrino Mixing Including a New Far Detector <math display="inline"><mrow><mi>μ</mi></mrow></math>-like
+    Sample
+  collaboration: T2K
+  arxiv: '2506.05889'
+  doi: 10.1103/gh5j-5cwv
+  journal: Phys.Rev.Lett.
+  volume: '135'
+  pages: '261801'
+  year: 2025
+  published_date: '2025-06-06'
+  inspire_recid: 2931390
+  citation_count: 16
+  abstract: We have made improved measurements of three-flavor neutrino mixing with 19.7(16.3)$\times
+    10^{20}$ protons on target in (anti-)neutrino-enhanced beam modes. A new sample of muon-neutrino events
+    with tagged pions has been added at the far detector, as well as new proton and photon-tagged samples
+    at the near detector. Significant improvements have been made to the flux and neutrino interaction
+    modeling. T2K data continue to prefer the normal mass ordering and upper octant of $\sin^2θ_{23}$
+    with a near-maximal value of the charge-parity violating phase with best-fit values in the normal
+    ordering of $δ_{\scriptscriptstyle\mathrm{CP}}=-2.18\substack{+1.22 \\ -0.47}$, $\sin^2θ_{23}=0.559\substack{+0.018
+    \\ -0.078}$ and $Δm^2_{32}=(+2.506\substack{+0.039 \\ -0.052})\times 10^{-3}$ eV$^{2}$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2506.05889
+    doi: https://doi.org/10.1103/gh5j-5cwv
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2025yoy
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: T2K:2023mcm
+  title: Updated T2K measurements of muon neutrino and antineutrino disappearance using <math display="inline"><mrow><mn>3.6</mn><mo>×</mo><mrow><msup><mrow><mn>10</mn></mrow><mrow><mn>21</mn></mrow></msup></mrow></mrow></math>
+    protons on target
+  collaboration: T2K
+  arxiv: '2305.09916'
+  doi: 10.1103/PhysRevD.108.072011
+  journal: Phys.Rev.D
+  volume: '108'
+  pages: '072011'
+  year: 2023
+  published_date: '2023-05-16'
+  inspire_recid: 2660513
+  citation_count: 48
+  abstract: Muon neutrino and antineutrino disappearance probabilities are identical in the standard three-flavor
+    neutrino oscillation framework, but CPT violation and non-standard interactions can violate this symmetry.
+    In this work we report the measurements of $\sin^{2} \theta_{23}$ and $\Delta m_{32}^2$ independently
+    for neutrinos and antineutrinos. The aforementioned symmetry violation would manifest as an inconsistency
+    in the neutrino and antineutrino oscillation parameters. The analysis discussed here uses a total
+    of 1.97$\times$10$^{21}$ and 1.63$\times$10$^{21}$ protons on target taken with a neutrino and antineutrino
+    beam respectively, and benefits from improved flux and cross-section models, new near detector samples
+    and more than double the data reducing the overall uncertainty of the result. No significant deviation
+    is observed, consistent with the standard neutrino oscillation picture.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2305.09916
+    doi: https://doi.org/10.1103/PhysRevD.108.072011
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2023mcm
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: T2K:2023smv
+  title: Measurements of neutrino oscillation parameters from the T2K experiment using $3.6\times 10^{21}$
+    protons on target
+  collaboration: T2K
+  arxiv: '2303.03222'
+  doi: 10.1140/epjc/s10052-023-11819-x
+  journal: Eur.Phys.J.C
+  volume: '83'
+  pages: '782'
+  year: 2023
+  published_date: '2023-03-06'
+  inspire_recid: 2638628
+  citation_count: 263
+  abstract: The T2K experiment presents new measurements of neutrino oscillation parameters using $19.7(16.3)\times10^{20}$
+    protons on target (POT) in (anti-)neutrino mode at the far detector (FD). Compared to the previous
+    analysis, an additional $4.7\times10^{20}$ POT neutrino data was collected at the FD. Significant
+    improvements were made to the analysis methodology, with the near-detector analysis introducing new
+    selections and using more than double the data. Additionally, this is the first T2K oscillation analysis
+    to use NA61/SHINE data on a replica of the T2K target to tune the neutrino flux model, and the neutrino
+    interaction model was improved to include new nuclear effects and calculations. Frequentist and Bayesian
+    analyses are presented, including results on $\sin^2\theta_{13}$ and the impact of priors on the $\delta_\mathrm{CP}$
+    measurement. Both analyses prefer the normal mass ordering and upper octant of $\sin^2\theta_{23}$
+    with a nearly maximally CP-violating phase. Assuming the normal ordering and using the constraint
+    on $\sin^2\theta_{13}$ from reactors, $\sin^2\theta_{23}=0.561^{+0.021}_{-0.032}$ using Feldman--Cousins
+    corrected intervals, and $\Delta{}m^2_{32}=2.494_{-0.058}^{+0.041}\times10^{-3}~\mathrm{eV^2}$ using
+    constant $\Delta\chi^{2}$ intervals. The CP-violating phase is constrained to $\delta_\mathrm{CP}=-1.97_{-0.70}^{+0.97}$
+    using Feldman--Cousins corrected intervals, and $\delta_\mathrm{CP}=0,\pi$ is excluded at more than
+    90% confidence level. A Jarlskog invariant of zero is excluded at more than $2\sigma$ credible level
+    using a flat prior in $\delta_\mathrm{CP}$, and just below $2\sigma$ using a flat prior in $\sin\delta_\mathrm{CP}$.
+    When the external constraint on $\sin^2\theta_{13}$ is removed, $\sin^2\theta_{13}=28.0^{+2.8}_{-6.5}\times10^{-3}$,
+    in agreement with measurements from reactor experiments. These results are consistent with previous
+    T2K analyses.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2303.03222
+    doi: https://doi.org/10.1140/epjc/s10052-023-11819-x
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2023smv
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₁₃
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: T2K:2020nqo
+  title: T2K measurements of muon neutrino and antineutrino disappearance using $3.13\times 10^{21}$ protons
+    on target
+  collaboration: T2K
+  arxiv: '2008.07921'
+  doi: 10.1103/PhysRevD.103.L011101
+  journal: Phys.Rev.D
+  volume: '103'
+  pages: L011101
+  year: 2021
+  published_date: '2020-08-18'
+  inspire_recid: 1812203
+  citation_count: 27
+  abstract: We report measurements by the T2K experiment of the parameters $\theta_{23}$ and $\Delta m^2_{32}$
+    which govern the disappearance of muon neutrinos and antineutrinos in the three-flavor PMNS neutrino
+    oscillation model at T2K's neutrino energy and propagation distance. Utilizing the ability of the
+    experiment to run with either a mainly neutrino or a mainly antineutrino beam, muon-like events from
+    each beam mode are used to measure these parameters separately for neutrino and antineutrino oscillations.
+    Data taken from $1.49 \times 10^{21}$ protons on target (POT) in neutrino mode and $1.64 \times 10^{21}$
+    POT in antineutrino mode are used. The best-fit values obtained by T2K were $\sin^2\left(\theta_{23}\right)=0.51^{+0.06}_{-0.07}
+    \left(0.43^{+0.21}_{-0.05}\right)$ and $\Delta m^2_{32}=2.47^{+0.08}_{-0.09} \left(2.50^{+0.18}_{-0.13}\right)$\evmass
+    for neutrinos (antineutrinos). No significant differences between the values of the parameters describing
+    the disappearance of muon neutrinos and antineutrinos were observed. An analysis using an effective
+    two-flavor neutrino oscillation model where the sine of the mixing angle is allowed to take non-physical
+    values larger than 1 is also performed to check the consistency of our data with the three-flavor
+    model. Our data were found to be consistent with a physical value for the mixing angle.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2008.07921
+    doi: https://doi.org/10.1103/PhysRevD.103.L011101
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2020nqo
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: T2K:2021xwb
+  title: Improved constraints on neutrino mixing from the T2K experiment with $\mathbf{3.13\times10^{21}}$
+    protons on target
+  collaboration: T2K
+  arxiv: '2101.03779'
+  doi: 10.1103/PhysRevD.103.112008
+  journal: Phys.Rev.D
+  volume: '103'
+  pages: '112008'
+  year: 2021
+  published_date: '2021-01-11'
+  inspire_recid: 1840450
+  citation_count: 236
+  abstract: The T2K experiment reports updated measurements of neutrino and antineutrino oscillations
+    using both appearance and disappearance channels. This result comes from an exposure of $14.9~(16.4)
+    \times 10^{20}$ protons on target in neutrino (antineutrino) mode. Significant improvements have been
+    made to the neutrino interaction model and far detector reconstruction. An extensive set of simulated
+    data studies have also been performed to quantify the effect interaction model uncertainties have
+    on the T2K oscillation parameter sensitivity. T2K performs multiple oscillation analyses that present
+    both frequentist and Bayesian intervals for the PMNS parameters. For fits including a constraint on
+    \ssqthonethree from reactor data and assuming normal mass ordering T2K measures $\sin^2\theta_{23}
+    = 0.53^{+0.03}_{-0.04}$ and $\Delta{}m^2_{32} = (2.45 \pm 0.07) \times 10^{-3}$ eV$^{2}$c$^{-4}$.
+    The Bayesian analyses show a weak preference for normal mass ordering (89% posterior probability)
+    and the upper $\sin^2\theta_{23}$ octant (80% posterior probability), with a uniform prior probability
+    assumed in both cases. The T2K data exclude CP conservation in neutrino oscillations at the $2\sigma$
+    level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2101.03779
+    doi: https://doi.org/10.1103/PhysRevD.103.112008
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2021xwb
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
 - inspire_recid: 1758272
   title: Constraint on the matter–antimatter symmetry-violating phase in neutrino oscillations
   abstract: The current laws of physics do not explain the observed imbalance of matter and antimatter
@@ -59,6 +447,617 @@
     - Δm²₃₂
     - mass ordering
     observables: joint nu/nubar appearance+disappearance; constraint on dCP
+    notes: null
+- bibtag: T2K:2019ird
+  title: Search for Electron Antineutrino Appearance in a Long-baseline Muon Antineutrino Beam
+  collaboration: T2K
+  arxiv: '1911.07283'
+  doi: 10.1103/PhysRevLett.124.161802
+  journal: Phys.Rev.Lett.
+  volume: '124'
+  pages: '161802'
+  year: 2020
+  published_date: '2019-11-14'
+  inspire_recid: 1765742
+  citation_count: 25
+  abstract: Electron antineutrino appearance is measured by the T2K experiment in an accelerator-produced
+    antineutrino beam, using additional neutrino beam operation to constrain parameters of the PMNS mixing
+    matrix. T2K observes 15 candidate electron antineutrino events with a background expectation of 9.3
+    events. Including information from the kinematic distribution of observed events, the hypothesis of
+    no electron antineutrino appearance is disfavored with a significance of 2.40{\sigma} and no discrepancy
+    between data and PMNS predictions is found. A complementary analysis that introduces an additional
+    free parameter which allows non-PMNS values of electron neutrino and antineutrino appearance also
+    finds no discrepancy between data and PMNS predictions.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1911.07283
+    doi: https://doi.org/10.1103/PhysRevLett.124.161802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019ird
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - θ₁₃
+    - δCP
+    observables: null
+    notes: null
+- bibtag: T2K:2019efw
+  title: Search for light sterile neutrinos with the T2K far detector Super-Kamiokande at a baseline of
+    295 km
+  collaboration: T2K
+  arxiv: '1902.06529'
+  doi: 10.1103/PhysRevD.99.071103
+  journal: Phys.Rev.D
+  volume: '99'
+  pages: '071103'
+  year: 2019
+  published_date: '2019-02-18'
+  inspire_recid: 1720591
+  citation_count: 66
+  abstract: We perform a search for light sterile neutrinos using the data from the T2K far detector at
+    a baseline of 295 km, with an exposure of 14.7 (7.6)$\times 10^{20}$ protons on target in neutrino
+    (antineutrino) mode. A selection of neutral current interaction samples are also used to enhance the
+    sensitivity to sterile mixing. No evidence of sterile neutrino mixing in the 3+1 model was found from
+    a simultaneous fit to the charged-current muon, electron and neutral current neutrino samples. We
+    set the most stringent limit on the sterile oscillation amplitude $\sin^2\theta_{24}$ for the sterile
+    neutrino mass splitting $\Delta m^2_{41}<3\times 10^{-3}$ eV$^2/c^4$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1902.06529
+    doi: https://doi.org/10.1103/PhysRevD.99.071103
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019efw
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+    - from: nue
+      to: nue
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: T2K:2018rhz
+  title: Search for CP Violation in Neutrino and Antineutrino Oscillations by the T2K Experiment with
+    $2.2\times10^{21}$ Protons on Target
+  collaboration: T2K
+  arxiv: '1807.07891'
+  doi: 10.1103/PhysRevLett.121.171802
+  journal: Phys.Rev.Lett.
+  volume: '121'
+  pages: '171802'
+  year: 2018
+  published_date: '2018-07-20'
+  inspire_recid: 1683307
+  citation_count: 314
+  abstract: The T2K experiment measures muon neutrino disappearance and electron neutrino appearance in
+    accelerator-produced neutrino and antineutrino beams. With an exposure of $14.7(7.6)\times 10^{20}$
+    protons on target in neutrino (antineutrino) mode, 89 $\nu_e$ candidates and 7 anti-$\nu_e$ candidates
+    were observed while 67.5 and 9.0 are expected for $\delta_{CP}=0$ and normal mass ordering. The obtained
+    $2\sigma$ confidence interval for the $CP$ violating phase, $\delta_{CP}$, does not include the $CP$-conserving
+    cases ($\delta_{CP}=0,\pi$). The best-fit values of other parameters are $\sin^2\theta_{23} = 0.526^{+0.032}_{-0.036}$
+    and $\Delta m^2_{32}=2.463^{+0.071}_{-0.070}\times10^{-3} \mathrm{eV}^2/c^4$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1807.07891
+    doi: https://doi.org/10.1103/PhysRevLett.121.171802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2018rhz
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: T2K:2017hed
+  title: Combined Analysis of Neutrino and Antineutrino Oscillations at T2K
+  collaboration: T2K
+  arxiv: '1701.00432'
+  doi: 10.1103/PhysRevLett.118.151801
+  journal: Phys.Rev.Lett.
+  volume: '118'
+  pages: '151801'
+  year: 2017
+  published_date: '2017-01-02'
+  inspire_recid: 1507465
+  citation_count: 286
+  abstract: T2K reports its first results in the search for CP violation in neutrino oscillations using
+    appearance and disappearance channels for neutrino- and antineutrino-mode beam. The data include all
+    runs from Jan 2010 to May 2016 and comprise $7.482\times10^{20}$,protons on target in neutrino mode,
+    which yielded in the far detector 32 e-like and 135 $\mu$-like events, and $7.471\times10^{20}$,protons
+    on target in antineutrino mode which yielded 4 e-like and 66 $\mu$-like events. Reactor measurements
+    of $\sin^{2}2\theta_{13}$ have been used as an additional constraint. The one-dimensional confidence
+    interval at 90% for $\delta_{CP}$ spans the range ($-3.13$, $-0.39$) for normal mass ordering. The
+    CP conservation hypothesis ($\delta_{CP}=0,\pi$) is excluded at 90% C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1701.00432
+    doi: https://doi.org/10.1103/PhysRevLett.118.151801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2017hed
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: T2K:2017krm
+  title: Updated T2K measurements of muon neutrino and antineutrino disappearance using 1.5$\times$10$^{21}$
+    protons on target
+  collaboration: T2K
+  arxiv: '1704.06409'
+  doi: 10.1103/PhysRevD.96.011102
+  journal: Phys.Rev.D
+  volume: '96'
+  pages: '011102'
+  year: 2017
+  published_date: '2017-04-21'
+  inspire_recid: 1593925
+  citation_count: 60
+  abstract: We report measurements by the T2K experiment of the parameters $\theta_{23}$ and $\Delta m^{2}_{32}$
+    governing the disappearance of muon neutrinos and antineutrinos in the three flavor neutrino oscillation
+    model. Utilizing the ability of the experiment to run with either a mainly neutrino or a mainly antineutrino
+    beam, the parameters are measured separately for neutrinos and antineutrinos. Using $7.482 \times
+    10^{20}$ POT in neutrino running mode and $7.471 \times 10^{20}$ POT in antineutrino mode, T2K obtained,
+    $\sin^{2}(\theta_{23})=0.51^{+0.08}_{-0.07}$ and $\Delta m^{2}_{32} = 2.53^{+0.15}_{-0.13} \times
+    10^{-3}$eV$^{2}$/c$^{4}$ for neutrinos, and $\sin^{2}({\overline{\theta}}_{23})=0.42^{+0.25}_{-0.07}$
+    and ${\Delta\overline{m}^2}_{32} = 2.55^{+0.33}_{-0.27} \times 10^{-3}$eV$^{2}$/c$^{4}$ for antineutrinos
+    (assuming normal mass ordering). No significant differences between the values of the parameters describing
+    the disappearance of muon neutrinos and antineutrinos were observed.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1704.06409
+    doi: https://doi.org/10.1103/PhysRevD.96.011102
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2017krm
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: T2K:2017rgv
+  title: Measurement of neutrino and antineutrino oscillations by the T2K experiment including a new additional
+    sample of $\nu_e$ interactions at the far detector
+  collaboration: T2K
+  arxiv: '1707.01048'
+  doi: 10.1103/PhysRevD.96.092006
+  journal: Phys.Rev.D
+  volume: '96'
+  pages: 092006
+  year: 2017
+  published_date: '2017-07-04'
+  inspire_recid: 1608615
+  citation_count: 267
+  abstract: The T2K experiment reports an updated analysis of neutrino and antineutrino oscillations in
+    appearance and disappearance channels. A sample of electron neutrino candidates at Super-Kamiokande
+    in which a pion decay has been tagged is added to the four single-ring samples used in previous T2K
+    oscillation analyses. Through combined analyses of these five samples, simultaneous measurements of
+    four oscillation parameters, $|\Delta m^2_{32}|$, $\sin^2(\theta_{23})$, $\sin^2(\theta_{13})$, and
+    $\delta_{CP}$ and of the mass ordering are made. A set of studies of simulated data indicates that
+    the sensitivity to the oscillation parameters is not limited by neutrino interaction model uncertainty.
+    Multiple oscillation analyses are performed, and frequentist and Bayesian intervals are presented
+    for combinations of the oscillation parameters with and without the inclusion of reactor constraints
+    on $\sin^2(\theta_{13})$. When combined with reactor measurements, the hypothesis of CP conservation
+    ($\delta_{CP}$$=0$ or $\pi$) is excluded at 90% confidence level. The 90% confidence region for $\delta_{CP}$
+    is [-2.95,-0.44] ([-1.47, -1.27]) for normal (inverted) ordering. The central values and 68\% confidence
+    intervals for the other oscillation parameters for normal (inverted) ordering are $\Delta m^{2}_{32}=2.54\pm0.08$
+    ($2.51\pm0.08$) $\times 10^{-3}$ eV$^2 / c^4$ and $\sin^2(\theta_{23}) = 0.55^{+0.05}_{-0.09}$ ($0.55^{+0.05}_{-0.08}$),
+    compatible with maximal mixing. In the Bayesian analysis, the data weakly prefer normal ordering (Bayes
+    factor 3.7) and the upper octant for $\sin^2(\theta_{23})$ (Bayes factor 2.4).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1707.01048
+    doi: https://doi.org/10.1103/PhysRevD.96.092006
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2017rgv
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₁₃
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: T2K:2015gcs
+  title: Measurement of Muon Antineutrino Oscillations with an Accelerator-Produced Off-Axis Beam
+  collaboration: T2K
+  arxiv: '1512.02495'
+  doi: 10.1103/PhysRevLett.116.181801
+  journal: Phys.Rev.Lett.
+  volume: '116'
+  pages: '181801'
+  year: 2016
+  published_date: '2015-12-08'
+  inspire_recid: 1408741
+  citation_count: 64
+  abstract: T2K reports its first measurements of the parameters governing the disappearance of $\bar{\nu}_\mu$
+    in an off-axis beam due to flavor change induced by neutrino oscillations. The quasimonochromatic
+    $\bar{\nu}_\mu$ beam, produced with a peak energy of 0.6 GeV at J-PARC, is observed at the far detector
+    Super-Kamiokande, 295 km away, where the $\bar{\nu}_\mu$ survival probability is expected to be minimal.
+    Using a dataset corresponding to $4.01 \times 10^{20}$ protons on target, $34$ fully contained $\mu$-like
+    events were observed. The best-fit oscillation parameters are $\sin^2 (\bar{\theta}_{23}) = 0.45$
+    and $|\Delta\bar{m}^2_{32}| = 2.51 \times 10^{-3}$ eV$^2$ with 68% confidence intervals of 0.38 -
+    0.64 and 2.26 - 2.80 $\times 10^{-3}$ eV$^2$ respectively. These results are in agreement with existing
+    antineutrino parameter measurements and also with the $\nu_\mu$ disappearance parameters measured
+    by T2K.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1512.02495
+    doi: https://doi.org/10.1103/PhysRevLett.116.181801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2015gcs
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: T2K:2014xvp
+  title: Search for short baseline $\nu_e$ disappearance with the T2K near detector
+  collaboration: T2K
+  arxiv: '1410.8811'
+  doi: 10.1103/PhysRevD.91.051102
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '051102'
+  year: 2015
+  published_date: '2014-10-31'
+  inspire_recid: 1325548
+  citation_count: 52
+  abstract: The T2K experiment has performed a search for $\nu_e$ disappearance due to sterile neutrinos
+    using $5.9 \times 10^{20}$ protons on target for a baseline of $280 m$ in a neutrino beam peaked at
+    about $500 MeV$. A sample of \nu_e CC interactions in the off-axis near detector has been selected
+    with a purity of 63\% and an efficiency of 26\%. The p-value for the null hypothesis is 0.085 and
+    the excluded region at 95\% CL is approximately $sin^2 2 \theta_{ee} > 0.3$ for $\Delta m^2_{eff}
+    > 7 eV^2 / c^4$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1410.8811
+    doi: https://doi.org/10.1103/PhysRevD.91.051102
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2014xvp
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: T2K:2015sqm
+  title: Measurements of neutrino oscillation in appearance and disappearance channels by the T2K experiment
+    with 6.6×10$^{20}$ protons on target
+  collaboration: T2K
+  arxiv: '1502.01550'
+  doi: 10.1103/PhysRevD.91.072010
+  journal: Phys.Rev.D
+  volume: '91'
+  pages: '072010'
+  year: 2015
+  published_date: '2015-02-05'
+  inspire_recid: 1343108
+  citation_count: 455
+  abstract: 'We report on measurements of neutrino oscillation using data from the T2K long-baseline neutrino
+    experiment collected between 2010 and 2013. In an analysis of muon neutrino disappearance alone, we
+    find the following estimates and 68% confidence intervals for the two possible mass hierarchies: Normal
+    Hierarchy: $\sin^2\theta_{23}=0.514^{+0.055}_{-0.056}$ and $\Delta m^2_{32}=(2.51\pm0.10)\times 10^{-3}$
+    eV$^2$/c$^4$ Inverted Hierarchy: $\sin^2\theta_{23}=0.511\pm0.055$ and $\Delta m^2_{13}=(2.48\pm0.10)\times
+    10^{-3}$ eV$^2$/c$^4$ The analysis accounts for multi-nucleon mechanisms in neutrino interactions
+    which were found to introduce negligible bias. We describe our first analyses that combine measurements
+    of muon neutrino disappearance and electron neutrino appearance to estimate four oscillation parameters
+    and the mass hierarchy. Frequentist and Bayesian intervals are presented for combinations of these
+    parameters, with and without including recent reactor measurements. At 90% confidence level and including
+    reactor measurements, we exclude the region: $\delta_{CP}=[0.15,0.83]\pi$ for normal hierarchy and
+    $\delta_{CP}=[-0.08,1.09]\pi$ for inverted hierarchy. The T2K and reactor data weakly favor the normal
+    hierarchy with a Bayes Factor of 2.2. The most probable values and 68% 1D credible intervals for the
+    other oscillation parameters, when reactor data are included, are: $\sin^2\theta_{23}=0.528^{+0.055}_{-0.038}$
+    and $|\Delta m^2_{32}|=(2.51\pm0.11)\times 10^{-3}$ eV$^2$/c$^4$.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1502.01550
+    doi: https://doi.org/10.1103/PhysRevD.91.072010
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2015sqm
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - θ₁₃
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: T2K:2013ppw
+  title: Observation of Electron Neutrino Appearance in a Muon Neutrino Beam
+  collaboration: T2K
+  arxiv: '1311.4750'
+  doi: 10.1103/PhysRevLett.112.061802
+  journal: Phys.Rev.Lett.
+  volume: '112'
+  pages: 061802
+  year: 2014
+  published_date: '2013-11-19'
+  inspire_recid: 1265069
+  citation_count: 792
+  abstract: The T2K experiment has observed electron neutrino appearance in a muon neutrino beam produced
+    295 km from the Super-Kamiokande detector with a peak energy of 0.6 GeV. A total of 28 electron neutrino
+    events were detected with an energy distribution consistent with an appearance signal, corresponding
+    to a significance of 7.3$\sigma$ when compared to 4.92 $\pm$ 0.55 expected background events. In the
+    PMNS mixing model, the electron neutrino appearance signal depends on several parameters including
+    three mixing angles $\theta_{12}$, $\theta_{23}$, $\theta_{13}$, a mass difference $\Delta m^2_{32}$
+    and a CP violating phase $\delta_{\mathrm{CP}}$. In this neutrino oscillation scenario, assuming $|\Delta
+    m^2_{32}| = 2.4 \times 10^{-3}$ $\rm eV^2$, $\sin^2 \theta_{23} = 0.5$, and $\Delta m^2_{32} >0$ ($\Delta
+    m^2_{32} <0$), a best-fit value of $\sin^2 2 \theta_{13}$ = $0.140^{+0.038}_{-0.032}$ ($0.170^{+0.045}_{-0.037}$)
+    is obtained at $\delta_{\mathrm{CP}}=0$. When combining the result with the current best knowledge
+    of oscillation parameters including the world average value of $\theta_{13}$ from reactor experiments,
+    some values of $\delta_{\mathrm{CP}}$ are disfavored at the 90% CL.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1311.4750
+    doi: https://doi.org/10.1103/PhysRevLett.112.061802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2013ppw
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+    mode:
+    - appearance
+    parameters:
+    - θ₁₃
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    observables: null
+    notes: null
+- bibtag: T2K:2014ghj
+  title: Precise Measurement of the Neutrino Mixing Parameter $\theta_{23}$ from Muon Neutrino Disappearance
+    in an Off-Axis Beam
+  collaboration: T2K
+  arxiv: '1403.1532'
+  doi: 10.1103/PhysRevLett.112.181801
+  journal: Phys.Rev.Lett.
+  volume: '112'
+  pages: '181801'
+  year: 2014
+  published_date: '2014-03-06'
+  inspire_recid: 1283852
+  citation_count: 376
+  abstract: 'New data from the T2K neutrino oscillation experiment produce the most precise measurement
+    of the neutrino mixing parameter theta_{23}. Using an off-axis neutrino beam with a peak energy of
+    0.6 GeV and a data set corresponding to 6.57 x 10^{20} protons on target, T2K has fit the energy-dependent
+    nu_mu oscillation probability to determine oscillation parameters. Marginalizing over the values of
+    other oscillation parameters yields sin^2 (theta_{23}) = 0.514 +0.055/-0.056 (0.511 +- 0.055), assuming
+    normal (inverted) mass hierarchy. The best-fit mass-squared splitting for normal hierarchy is Delta
+    m^2_{32} = (2.51 +- 0.10) x 10^{-3} eV^2/c^4 (inverted hierarchy: Delta m^2_{13} = (2.48 +- 0.10)
+    x 10^{-3} eV^2/c^4). Adding a model of multinucleon interactions that affect neutrino energy reconstruction
+    is found to produce only small biases in neutrino oscillation parameter extraction at current levels
+    of statistical uncertainty.'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1403.1532
+    doi: https://doi.org/10.1103/PhysRevLett.112.181801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2014ghj
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: T2K:2013bqz
+  title: Evidence of Electron Neutrino Appearance in a Muon Neutrino Beam
+  collaboration: T2K
+  arxiv: '1304.0841'
+  doi: 10.1103/PhysRevD.88.032002
+  journal: Phys.Rev.D
+  volume: '88'
+  pages: '032002'
+  year: 2013
+  published_date: '2013-04-03'
+  inspire_recid: 1226807
+  citation_count: 303
+  abstract: 'The T2K collaboration: reports evidence for electron neutrino appearance at the atmospheric
+    mass splitting, |\Delta m_{32}^2|=2.4x10^{-3} eV^2. An excess of electron neutrino interactions over
+    background is observed from a muon neutrino beam with a peak energy of 0.6 GeV at the Super-Kamiokande
+    (SK) detector 295 km from the beam''s origin. Signal and background predictions are constrained by
+    data from near detectors located 280 m from the neutrino production target. We observe 11 electron
+    neutrino candidate events at the SK detector when a background of 3.3\pm0.4(syst.) events is expected.
+    The background-only hypothesis is rejected with a p-value of 0.0009 (3.1\sigma), and a fit assuming
+    \nu_{\mu}->\nu_e oscillations with sin^2(2\theta_{23})=1, \delta_{CP}=0 and |\Delta m_{32}^2|=2.4x10^{-3}
+    eV^2 yields sin^2(2\theta_{13})=0.088^{+0.049}_{-0.039}(stat.+syst.).'
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1304.0841
+    doi: https://doi.org/10.1103/PhysRevD.88.032002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2013bqz
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₁₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: T2K:2013bzi
+  title: Measurement of Neutrino Oscillation Parameters from Muon Neutrino Disappearance with an Off-axis
+    Beam
+  collaboration: T2K
+  arxiv: '1308.0465'
+  doi: 10.1103/PhysRevLett.111.211803
+  journal: Phys.Rev.Lett.
+  volume: '111'
+  pages: '211803'
+  year: 2013
+  published_date: '2013-08-02'
+  inspire_recid: 1246143
+  citation_count: 193
+  abstract: The T2K collaboration reports a precision measurement of muon neutrino disappearance with
+    an off-axis neutrino beam with a peak energy of 0.6 GeV. Near detector measurements are used to constrain
+    the neutrino flux and cross section parameters. The Super-Kamiokande far detector, which is 295 km
+    downstream of the neutrino production target, collected data corresponding to $3.01 \times 10^{20}$
+    protons on target. In the absence of neutrino oscillations, $205 \pm 17$ (syst.) events are expected
+    to be detected and only 58 muon neutrino event candidates are observed. A fit to the neutrino rate
+    and energy spectrum assuming three neutrino flavors, normal mass hierarchy and $\theta_{23}\leq \pi/4$
+    yields a best-fit mixing angle $\sin^2(2\theta_{23})=1.000$ and mass splitting $|\Delta m^2_{32}|
+    =2.44 \times 10^{-3}$ eV$^2$/c$^4$. If $\theta_{23}\geq \pi/4$ is assumed, the best-fit mixing angle
+    changes to $\sin^2(2\theta_{23})=0.999$ and the mass splitting remains unchanged.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1308.0465
+    doi: https://doi.org/10.1103/PhysRevLett.111.211803
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2013bzi
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
     notes: null
 - inspire_recid: 913765
   title: Indication of Electron Neutrino Appearance from an Accelerator-produced Off-axis Muon Neutrino

@@ -1,3 +1,779 @@
+- bibtag: MINOS:2020iqj
+  title: Improved Constraints on Sterile Neutrino Mixing from Disappearance Searches in the MINOS, MINOS+,
+    Daya Bay, and Bugey-3 Experiments
+  collaboration: MINOS
+  arxiv: '2002.00301'
+  doi: 10.1103/PhysRevLett.125.071801
+  journal: Phys.Rev.Lett.
+  volume: '125'
+  pages: 071801
+  year: 2020
+  published_date: '2020-02-01'
+  inspire_recid: 1778415
+  citation_count: 110
+  abstract: Searches for electron antineutrino, muon neutrino, and muon antineutrino disappearance driven
+    by sterile neutrino mixing have been carried out by the Daya Bay and MINOS+ collaborations. This Letter
+    presents the combined results of these searches, along with exclusion results from the Bugey-3 reactor
+    experiment, framed in a minimally extended four-neutrino scenario. Significantly improved constraints
+    on the $\theta_{\mu e}$ mixing angle are derived that constitute the most stringent limits to date
+    over five orders of magnitude in the sterile mass-squared splitting $\Delta m^2_{41}$, excluding the
+    90% C.L. sterile-neutrino parameter space allowed by the LSND and MiniBooNE observations at 90% CL$_s$
+    for $\Delta m^2_{41}<5\,$eV$^2$.Furthermore, the LSND and MiniBooNE 99% C.L. allowed regions are excluded
+    at 99% CL$_s$ for $\Delta m^2_{41}$ $<$ 1.2 eV$^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2002.00301
+    doi: https://doi.org/10.1103/PhysRevLett.125.071801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2020iqj
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: MINOS:2020llm
+  title: Precision Constraints for Three-Flavor Neutrino Oscillations from the Full MINOS+ and MINOS Dataset
+  collaboration: MINOS
+  arxiv: '2006.15208'
+  doi: 10.1103/PhysRevLett.125.131802
+  journal: Phys.Rev.Lett.
+  volume: '125'
+  pages: '131802'
+  year: 2020
+  published_date: '2020-06-30'
+  inspire_recid: 1803577
+  citation_count: 136
+  abstract: We report the final measurement of the neutrino oscillation parameters $\Delta m^2_{32}$ and
+    $\sin^2\theta_{23}$ using all data from the MINOS and MINOS+ experiments. These data were collected
+    using a total exposure of $23.76 \times 10^{20}$ protons on target producing $\nu_{mu}$ and $\overline{\nu_\mu}$
+    beams and 60.75 kt$\cdot$yr exposure to atmospheric neutrinos. The measurement of the disappearance
+    of $\nu_{\mu}$ and the appearance of $\nu_e$ events between the Near and Far detectors yields $|\Delta
+    m^2_{32}|=2.40^{+0.08}_{-0.09}~(2.45^{+0.07}_{-0.08}) \times 10^{-3}$ eV$^2$ and $\sin^2\theta_{23}
+    = 0.43^{+0.20}_{-0.04} ~(0.42^{+0.07}_{-0.03})$ at 68% C.L. for Normal (Inverted) Hierarchy.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2006.15208
+    doi: https://doi.org/10.1103/PhysRevLett.125.131802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2020llm
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - disappearance
+    - appearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2017cae
+  title: Search for sterile neutrinos in MINOS and MINOS+ using a two-detector fit
+  collaboration: MINOS
+  arxiv: '1710.06488'
+  doi: 10.1103/PhysRevLett.122.091803
+  journal: Phys.Rev.Lett.
+  volume: '122'
+  pages: 091803
+  year: 2019
+  published_date: '2017-10-17'
+  inspire_recid: 1631327
+  citation_count: 249
+  abstract: A search for mixing between active neutrinos and light sterile neutrinos has been performed
+    by looking for muon neutrino disappearance in two detectors at baselines of 1.04 km and 735 km, using
+    a combined MINOS and MINOS+ exposure of $16.36\times10^{20}$ protons-on-target. A simultaneous fit
+    to the charged-current muon neutrino and neutral-current neutrino energy spectra in the two detectors
+    yields no evidence for sterile neutrino mixing using a 3+1 model. The most stringent limit to date
+    is set on the mixing parameter $\sin^2\theta_{24}$ for most values of the sterile neutrino mass-splitting
+    $\Delta m^2_{41} > 10^{-4}$ eV$^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1710.06488
+    doi: https://doi.org/10.1103/PhysRevLett.122.091803
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2017cae
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₄
+    - Δm²₄₁
+    observables: null
+    notes: null
+- bibtag: MINOS:2016sbv
+  title: Search for flavor-changing nonstandard neutrino interactions using $\nu_{e}$ appearance in MINOS
+  collaboration: MINOS
+  arxiv: '1605.06169'
+  doi: 10.1103/PhysRevD.95.012005
+  journal: Phys.Rev.D
+  volume: '95'
+  pages: '012005'
+  year: 2017
+  published_date: '2016-05-19'
+  inspire_recid: 1463282
+  citation_count: 15
+  abstract: We report new constraints on flavor-changing non-standard neutrino interactions from the MINOS
+    long-baseline experiment using $\nu_{e}$ and $\bar{\nu}_{e}$ appearance candidate events from predominantly
+    $\nu_{\mu}$ and $\bar{\nu}_{\mu}$ beams. We used a statistical selection algorithm to separate $\nu_{e}$
+    candidates from background events, enabling an analysis of the combined MINOS neutrino and antineutrino
+    data. We observe no deviations from standard neutrino mixing, and thus place constraints on the non-standard
+    interaction matter effect, $|\varepsilon_{e\tau}|$, and phase, $(\delta_{CP}+\delta_{e\tau})$, using
+    a thirty-bin likelihood fit.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1605.06169
+    doi: https://doi.org/10.1103/PhysRevD.95.012005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2016sbv
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: NSI
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - δCP
+    observables: null
+    notes: null
+- bibtag: MINOS:2016viw
+  title: Search for Sterile Neutrinos Mixing with Muon Neutrinos in MINOS
+  collaboration: MINOS
+  arxiv: '1607.01176'
+  doi: 10.1103/PhysRevLett.117.151803
+  journal: Phys.Rev.Lett.
+  volume: '117'
+  pages: '151803'
+  year: 2016
+  published_date: '2016-07-05'
+  inspire_recid: 1473825
+  citation_count: 143
+  abstract: We report results of a search for oscillations involving a light sterile neutrino over distances
+    of 1.04 and $735\,\mathrm{km}$ in a $\nu_{\mu}$-dominated beam with a peak energy of $3\,\mathrm{GeV}$.
+    The data, from an exposure of $10.56\times 10^{20}\,\textrm{protons on target}$, are analyzed using
+    a phenomenological model with one sterile neutrino. We constrain the mixing parameters $\theta_{24}$
+    and $\Delta m^{2}_{41}$ and set limits on parameters of the four-dimensional Pontecorvo-Maki-Nakagawa-Sakata
+    matrix, $|U_{\mu 4}|^{2}$ and $|U_{\tau 4}|^{2}$, under the assumption that mixing between $\nu_{e}$
+    and $\nu_{s}$ is negligible ($|U_{e4}|^{2}=0$). No evidence for $\nu_{\mu} \to \nu_{s}$ transitions
+    is found and we set a world-leading limit on $\theta_{24}$ for values of $\Delta m^{2}_{41} \lesssim
+    1\,\mathrm{eV}^{2}$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1607.01176
+    doi: https://doi.org/10.1103/PhysRevLett.117.151803
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2016viw
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MINOS:2014rjg
+  title: Combined Analysis of $\nu_{\mu}$ Disappearance and $\nu_{\mu} \rightarrow \nu_{e}$ Appearance
+    in MINOS Using Accelerator and Atmospheric Neutrinos
+  collaboration: MINOS
+  arxiv: '1403.0867'
+  doi: 10.1103/PhysRevLett.112.191801
+  journal: Phys.Rev.Lett.
+  volume: '112'
+  pages: '191801'
+  year: 2014
+  published_date: '2014-03-04'
+  inspire_recid: 1283612
+  citation_count: 429
+  abstract: We report on a new analysis of neutrino oscillations in MINOS using the complete set of accelerator
+    and atmospheric data. The analysis combines the $\nu_{\mu}$ disappearance and $\nu_{e}$ appearance
+    data using the three-flavor formalism. We measure $|\Delta m^{2}_{32}|=[2.28-2.46]\times10^{-3}\mbox{\,eV}^{2}$
+    (68% C.L.) and $\sin^{2}\theta_{23}=0.35-0.65$ (90% C.L.) in the normal hierarchy, and $|\Delta m^{2}_{32}|=[2.32-2.53]\times10^{-3}\mbox{\,eV}^{2}$
+    (68% C.L.) and $\sin^{2}\theta_{23}=0.34-0.67$ (90% C.L.) in the inverted hierarchy. The data also
+    constrain $\delta_{CP}$, the $\theta_{23}$ octant degeneracy and the mass hierarchy; we disfavor 36%
+    (11%) of this three-parameter space at 68% (90%) C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1403.0867
+    doi: https://doi.org/10.1103/PhysRevLett.112.191801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2014rjg
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: MINOS:2013utc
+  title: Measurement of Neutrino and Antineutrino Oscillations Using Beam and Atmospheric Data in MINOS
+  collaboration: MINOS
+  arxiv: '1304.6335'
+  doi: 10.1103/PhysRevLett.110.251801
+  journal: Phys.Rev.Lett.
+  volume: '110'
+  pages: '251801'
+  year: 2013
+  published_date: '2013-04-23'
+  inspire_recid: 1229505
+  citation_count: 447
+  abstract: We report measurements of oscillation parameters from $\nu_{mu}$ and $\bar{\nu}_{\mu}$ disappearance
+    using beam and atmospheric data from MINOS. The data comprise exposures of \unit[$10.71 \times 10^{20}$]{protons
+    on target (POT)} in the $\nu_{\mu}$-dominated beam, $\unit[3.36\times10^{20}]{POT}}$ in the $\bar{\nu}_{\mu}$-enhanced
+    beam, and 37.88 kton-years of atmospheric neutrinos. Assuming identical $\nu$ and $\bar{\nu}$ oscillation
+    parameters, we measure \mbox{$|\Delta m^2}| = \unit[2.41^{+0.09}_{-0.10}) \times 10^{-3}]{eV^{2}}$}
+    and $\sin^{2}/!/left(2\theta \right) = 0.950^{+0.035}_{-0.036}$. Allowing independent $\nu$ and $\bar{\nu}$
+    oscillations, we measure antineutrino parameters of $|\Delta \bar{m}^2| = \unit[(2.50 ^{+0.23}_{-0.25})
+    \times 10^{-3}]{eV^{2}}$ and $\sin^{2}/!/left(2\bar{\theta} \right) = 0.97^{+0.03}_{-0.08}$, with
+    minimal change to the neutrino parameters.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1304.6335
+    doi: https://doi.org/10.1103/PhysRevLett.110.251801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2013utc
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2013xrl
+  title: Electron Neutrino and Antineutrino Appearance in the Full MINOS Data Sample
+  collaboration: MINOS
+  arxiv: '1301.4581'
+  doi: 10.1103/PhysRevLett.110.171801
+  journal: Phys.Rev.Lett.
+  volume: '110'
+  pages: '171801'
+  year: 2013
+  published_date: 2013-01
+  inspire_recid: 1215308
+  citation_count: 303
+  abstract: We report on $\nu_e$ and $\bar{\nu}_e$ appearance in $\nu_\mu$ and $\bar{\nu}_\mu$ beams using
+    the full MINOS data sample. The comparison of these $\nu_e$ and $\bar{\nu}_e$ appearance data at a
+    735 km baseline with $\theta_{13}$ measurements by reactor experiments probes $\delta$, the $\theta_{23}$
+    octant degeneracy, and the mass hierarchy. This analysis is the first use of this technique and includes
+    the first accelerator long-baseline search for $\bar{\nu}_\mu\rightarrow\bar{\nu}_e$. Our data disfavor
+    31% (5%) of the three-parameter space defined by $\delta$, the octant of the $\theta_{23}$, and the
+    mass hierarchy at the 68% (90%) C.L. We measure a value of 2sin$^2(2\theta_{13})$sin$^2(\theta_{23})$
+    that is consistent with reactor experiments.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1301.4581
+    doi: https://doi.org/10.1103/PhysRevLett.110.171801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2013xrl
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - θ₁₃
+    - θ₂₃
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: MINOS:2012dbe
+  title: An improved measurement of muon antineutrino disappearance in MINOS
+  collaboration: MINOS
+  arxiv: '1202.2772'
+  doi: 10.1103/PhysRevLett.108.191801
+  journal: Phys.Rev.Lett.
+  volume: '108'
+  pages: '191801'
+  year: 2012
+  published_date: 2012-02
+  inspire_recid: 1088832
+  citation_count: 149
+  abstract: We report an improved measurement of muon anti-neutrino disappearance over a distance of 735km
+    using the MINOS detectors and the Fermilab Main Injector neutrino beam in a muon anti-neutrino enhanced
+    configuration. From a total exposure of 2.95e20 protons on target, of which 42% have not been previously
+    analyzed, we make the most precise measurement of the anti-neutrino "atmospheric" delta-m squared
+    = 2.62 +0.31/-0.28 (stat.) +/- 0.09 (syst.) and constrain the anti-neutrino atmospheric mixing angle
+    >0.75 (90%CL). These values are in agreement with those measured for muon neutrinos, removing the
+    tension reported previously.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1202.2772
+    doi: https://doi.org/10.1103/PhysRevLett.108.191801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2012dbe
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2012wcj
+  title: Measurements of atmospheric neutrinos and antineutrinos in the MINOS Far Detector
+  collaboration: MINOS
+  arxiv: '1208.2915'
+  doi: 10.1103/PhysRevD.86.052007
+  journal: Phys.Rev.D
+  volume: '86'
+  pages: '052007'
+  year: 2012
+  published_date: 2012-08
+  inspire_recid: 1127509
+  citation_count: 89
+  abstract: This paper reports measurements of atmospheric neutrino and antineutrino interactions in the
+    MINOS Far Detector, based on 2553 live-days (37.9 kton-years) of data. A total of 2072 candidate events
+    are observed. These are separated into 905 contained-vertex muons and 466 neutrino-induced rock-muons,
+    both produced by charged-current $\nu_{\mu}$ and $\bar{\nu}_{\mu}$ interactions, and 701 contained-vertex
+    showers, composed mainly of charged-current $\nu_{e}$ and $\bar{\nu}_{e}$ interactions and neutral-current
+    interactions. The curvature of muon tracks in the magnetic field of the MINOS Far Detector is used
+    to select separate samples of $\nu_{\mu}$ and $\bar{\nu}_{\mu}$ events. The observed ratio of $\bar{\nu}_{\mu}$
+    to $\nu_{\mu}$ events is compared with the Monte Carlo simulation, giving a double ratio of $R^{data}_{\bar{\nu}/\nu}/R^{MC}_{\bar{\nu}/\nu}
+    = 1.03 \pm 0.08 (stat.) \pm 0.08 (syst.)$. The $\nu_{\mu}$ and $\bar{\nu}_{\mu}$ data are separated
+    into bins of $L/E$ resolution, based on the reconstructed energy and direction of each event, and
+    a maximum likelihood fit to the observed $L/E$ distributions is used to determine the atmospheric
+    neutrino oscillation parameters. This fit returns 90% confidence limits of $|\Delta m^{2}| = (1.9
+    \pm 0.4) \times 10^{-3} eV^{2}$ and $sin^{2} 2\theta > 0.86$. The fit is extended to incorporate separate
+    $\nu_{\mu}$ and $\bar{\nu}_{\mu}$ oscillation parameters, returning 90% confidence limits of $|\Delta
+    m^{2}|-|\Delta \bar{m}^{2}| = 0.6^{+2.4}_{-0.8} \times 10^{-3} eV^{2}$ on the difference between the
+    squared-mass splittings for neutrinos and antineutrinos.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1208.2915
+    doi: https://doi.org/10.1103/PhysRevD.86.052007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2012wcj
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2011amj
+  title: Improved search for muon-neutrino to electron-neutrino oscillations in MINOS
+  collaboration: MINOS
+  arxiv: '1108.0015'
+  doi: 10.1103/PhysRevLett.107.181802
+  journal: Phys.Rev.Lett.
+  volume: '107'
+  pages: '181802'
+  year: 2011
+  published_date: 2011-08
+  inspire_recid: 921557
+  citation_count: 957
+  abstract: We report the results of a search for $\nu_{e}$ appearance in a $\nu_{\mu}$ beam in the MINOS
+    long-baseline neutrino experiment. With an improved analysis and an increased exposure of $8.2\times10^{20}$
+    protons on the NuMI target at Fermilab, we find that $2\sin^2(\theta_{23})\sin^2(2\theta_{13})<0.12\
+    (0.20)$ at 90% confidence level for $\delta\mathord{=}0$ and the normal (inverted) neutrino mass hierarchy,
+    with a best fit of $2\sin^2(\theta_{23})\sin^2(2\theta_{13})\,\mathord{=}\,0.041^{+0.047}_{-0.031}\
+    (0.079^{+0.071}_{-0.053})$. The $\theta_{13}\mathord{=}0$ hypothesis is disfavored by the MINOS data
+    at the 89% confidence level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1108.0015
+    doi: https://doi.org/10.1103/PhysRevLett.107.181802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2011amj
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - θ₁₃
+    - θ₂₃
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: MINOS:2011neo
+  title: Measurement of the Neutrino Mass Splitting and Flavor Mixing by MINOS
+  collaboration: MINOS
+  arxiv: '1103.0340'
+  doi: 10.1103/PhysRevLett.106.181801
+  journal: Phys.Rev.Lett.
+  volume: '106'
+  pages: '181801'
+  year: 2011
+  published_date: 2011-03
+  inspire_recid: 891258
+  citation_count: 416
+  abstract: Measurements of neutrino oscillations using the disappearance of muon neutrinos from the Fermilab
+    NuMI neutrino beam as observed by the two MINOS detectors are reported. New analysis methods have
+    been applied to an enlarged data sample from an exposure of $7.25 \times 10^{20}$ protons on target.
+    A fit to neutrino oscillations yields values of $|\Delta m^2| = (2.32^{+0.12}_{-0.08})\times10^{-3}$\,eV$^2$
+    for the atmospheric mass splitting and $\rm \sin^2\!(2\theta) > 0.90$ (90%\,C.L.) for the mixing angle.
+    Pure neutrino decay and quantum decoherence hypotheses are excluded at 7 and 9 standard deviations,
+    respectively.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1103.0340
+    doi: https://doi.org/10.1103/PhysRevLett.106.181801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2011neo
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2011qho
+  title: First Direct Observation of Muon Antineutrino Disappearance
+  collaboration: MINOS
+  arxiv: '1104.0344'
+  doi: 10.1103/PhysRevLett.107.021801
+  journal: Phys.Rev.Lett.
+  volume: '107'
+  pages: 021801
+  year: 2011
+  published_date: 2011-04
+  inspire_recid: 894861
+  citation_count: 125
+  abstract: This letter reports the first direct observation of muon antineutrino disappearance. The MINOS
+    experiment has taken data with an accelerator beam optimized for muon antineutrino production, accumulating
+    an exposure of $1.71\times 10^{20}$ protons on target. In the Far Detector, 97 charged current muon
+    antineutrino events are observed. The no-oscillation hypothesis predicts 156 events and is excluded
+    at $6.3\sigma$. The best fit to oscillation yields $\Delta \bar{m}^{2}=(3.36^{+0.46}_{-0.40}\textrm{(stat.)}\pm0.06\textrm{(syst.)})\times
+    10^{-3}\,\eV^{2}$, $\sin^{2}(2\bar{\theta})=0.86^{+0.11}_{-0.12}\textrm{(stat.)}\pm0.01\textrm{(syst.)}$.
+    The MINOS muon neutrino and muon antineutrino measurements are consistent at the 2.0% confidence level,
+    assuming identical underlying oscillation parameters.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1104.0344
+    doi: https://doi.org/10.1103/PhysRevLett.107.021801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2011qho
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2011xqg
+  title: Search for the disappearance of muon antineutrinos in the NuMI neutrino beam
+  collaboration: MINOS
+  arxiv: '1108.1509'
+  doi: 10.1103/PhysRevD.84.071103
+  journal: Phys.Rev.D
+  volume: '84'
+  pages: '071103'
+  year: 2011
+  published_date: 2011-08
+  inspire_recid: 922409
+  citation_count: 49
+  abstract: We report constraints on antineutrino oscillation parameters that were obtained by using the
+    two MINOS detectors to measure the 7% muon antineutrino component of the NuMI neutrino beam. In the
+    Far Detector, we select 130 events in the charged-current muon antineutrino sample, compared to a
+    prediction of 136.4 +/- 11.7(stat) ^{+10.2}_{-8.9}(syst) events under the assumption |dm2bar|=2.32x10^-3
+    eV^2, snthetabar=1.0. Assuming no oscillations occur at the Near Detector baseline, a fit to the two-flavor
+    oscillation approximation constrains |dm2bar|<3.37x10^-3 eV^2 at the 90% confidence level with snthetabar=1.0.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1108.1509
+    doi: https://doi.org/10.1103/PhysRevD.84.071103
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2011xqg
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2011ysd
+  title: Active to sterile neutrino mixing limits from neutral-current interactions in MINOS
+  collaboration: MINOS
+  arxiv: '1104.3922'
+  doi: 10.1103/PhysRevLett.107.011802
+  journal: Phys.Rev.Lett.
+  volume: '107'
+  pages: 011802
+  year: 2011
+  published_date: 2011-04
+  inspire_recid: 896855
+  citation_count: 197
+  abstract: Results are reported from a search for active to sterile neutrino oscillations in the MINOS
+    long-baseline experiment, based on the observation of neutral-current neutrino interactions, from
+    an exposure to the NuMI neutrino beam of $7.07\times10^{20}$ protons on target. A total of 802 neutral-current
+    event candidates is observed in the Far Detector, compared to an expected number of $754\pm28\rm{(stat.)}\pm{37}\rm{(syst.)}$
+    for oscillations among three active flavors. The fraction $f_s$ of disappearing \numu that may transition
+    to $\nu_s$ is found to be less than 22% at the 90% C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1104.3922
+    doi: https://doi.org/10.1103/PhysRevLett.107.011802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2011ysd
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nus
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₄
+    - Δm²₄₁
+    observables: null
+    notes: null
+- bibtag: MINOS:2010fgd
+  title: Search for sterile neutrino mixing in the MINOS long baseline experiment
+  collaboration: MINOS
+  arxiv: '1001.0336'
+  doi: 10.1103/PhysRevD.81.052004
+  journal: Phys.Rev.D
+  volume: '81'
+  pages: '052004'
+  year: 2010
+  published_date: 2010-01
+  inspire_recid: 841696
+  citation_count: 122
+  abstract: A search for depletion of the combined flux of active neutrino species over a 735 km baseline
+    is reported using neutral-current interaction data recorded by the MINOS detectors in the NuMI neutrino
+    beam. Such a depletion is not expected according to conventional interpretations of neutrino oscillation
+    data involving the three known neutrino flavors. A depletion would be a signature of oscillations
+    or decay to postulated non-interacting "sterile" neutrinos, scenarios not ruled out by existing data.
+    From an exposure of 3.18x10^{20} protons on target in which neutrinos of energies between ~500 MeV
+    and 120 GeV are produced predominantly as nu_mu, the visible energy spectrum of candidate neutral-current
+    reactions in the MINOS far detector is reconstructed. Comparison of this spectrum to that inferred
+    from a similarly selected near detector sample shows that of the portion of the nu_mu flux observed
+    to disappear in charged-current interaction data, the fraction that could be converting to a sterile
+    state is less than 52% at 90% confidence level (C.L.). The hypothesis that active neutrinos mix with
+    a single sterile neutrino via oscillations is tested by fitting the data to various models. In the
+    particular four-neutrino models considered, the mixing angles theta_{24} and theta_{34} are constrained
+    to be less than 11 degrees and 56 degrees at 90% C.L., respectively. The possibility that active neutrinos
+    may decay to sterile neutrinos is also investigated. Pure neutrino decay without oscillations is ruled
+    out at 5.4 standard deviations. For the scenario in which active neutrinos decay into sterile states
+    concurrently with neutrino oscillations, a lower limit is established for the neutrino decay lifetime
+    tau_3/m_3 > 2.1x10^{-12} s/eV at 90% C.L..
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1001.0336
+    doi: https://doi.org/10.1103/PhysRevD.81.052004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2010fgd
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nus
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: MINOS:2007ixr
+  title: A Study of Muon Neutrino Disappearance Using the Fermilab Main Injector Neutrino Beam
+  collaboration: MINOS
+  arxiv: '0711.0769'
+  doi: 10.1103/PhysRevD.77.072002
+  journal: Phys.Rev.D
+  volume: '77'
+  pages: '072002'
+  year: 2008
+  published_date: 2007-11
+  inspire_recid: 766803
+  citation_count: 305
+  abstract: We report the results of a search for muon-neutrino disappearance by the Main Injector Neutrino
+    Oscillation Search. The experiment uses two detectors separated by 734 km to observe a beam of neutrinos
+    created by the Neutrinos at the Main Injector facility at Fermi National Accelerator Laboratory. The
+    data were collected in the first 282 days of beam operations and correspond to an exposure of 1.27e20
+    protons on target. Based on measurements in the Near Detector, in the absence of neutrino oscillations
+    we expected 336 +/- 14 muon-neutrino charged-current interactions at the Far Detector but observed
+    215. This deficit of events corresponds to a significance of 5.2 standard deviations. The deficit
+    is energy dependent and is consistent with two-flavor neutrino oscillations according to delta m-squared
+    = 2.74e-3 +0.44/-0.26e-3 eV^2 and sin^2(2 theta) > 0.87 at 68% confidence level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0711.0769
+    doi: https://doi.org/10.1103/PhysRevD.77.072002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2007ixr
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2008ccf
+  title: Search for active neutrino disappearance using neutral-current interactions in the MINOS long-baseline
+    experiment
+  collaboration: MINOS
+  arxiv: '0807.2424'
+  doi: 10.1103/PhysRevLett.101.221804
+  journal: Phys.Rev.Lett.
+  volume: '101'
+  pages: '221804'
+  year: 2008
+  published_date: 2008-07
+  inspire_recid: 790795
+  citation_count: 89
+  abstract: We have measured the rates and spectra of neutral-current neutrino interactions in the MINOS
+    detectors, which are separated by 734 km. A depletion in the rate at the far site would indicate mixing
+    between muon neutrinos and a sterile particle. The depletion of the total neutral-current event rate
+    at the far site is limited to be below 17% at 90% confidence level without electron neutrino appearance.
+    Assuming oscillations occur at a single mass-squared splitting, a fit to the neutral- and charged-current
+    energy spectra shows the fraction of muon neutrinos oscillating to a sterile neutino is 0.28^{+0.25}_{-0.28}
+    (stat.+syst.). Including electron neutrino appearance at the current experimental upper bound limits
+    the depletion to be below 21% at 90% confidence level and the fit fraction of muon neutrinos oscillating
+    to a sterile neutrino is 0.43^{+0.23}_{-0.27} (stat.+syst.).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0807.2424
+    doi: https://doi.org/10.1103/PhysRevLett.101.221804
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2008ccf
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nus
+    mode:
+    - disappearance
+    parameters: []
+    observables: null
+    notes: null
 - inspire_recid: 788212
   title: Measurement of Neutrino Oscillations with the MINOS Detectors in the NuMI Beam
   abstract: This letter reports new results from the MINOS experiment based on a two-year exposure to
@@ -35,4 +811,129 @@
     - θ₂₃
     - Δm²₃₂
     observables: numu disappearance over 735 km in NuMI
+    notes: null
+- bibtag: MINOS:2007aa
+  title: Preliminary Results from MINOS on Muon Neutrino Disappearance Based on an Exposure of 2.5 x $10^{20}$
+    120-GeV Protons on the NuMI Target
+  collaboration: MINOS
+  arxiv: '0708.1495'
+  doi: null
+  journal: null
+  volume: null
+  pages: null
+  year: 2007
+  published_date: 2007-08
+  inspire_recid: 757999
+  citation_count: 62
+  abstract: Updating our previous measurements with new data and analysis modifications, we report preliminary
+    results on the energy-dependent deficit of muon neutrinos from the Fermilab NuMI beam as observed
+    with the MINOS Far Detector located 735 km away in the Soudan Underground Laboratory. From an exposure
+    of 2.50x10^20 protons on target, we observe 563 charged-current nu_mu interaction candidates in the
+    Far Detector, where 738+/-30 events are expected in the absence of neutrino oscillations. We have
+    analyzed these data assuming two-flavor nu_mu to nu_tau oscillations. From a simultaneous fit to the
+    reconstructed nu_mu energy spectra obtained during two running periods we obtain the neutrino squared-mass
+    difference Delta m_{32}^2 = (2.38 +0.20/-0.16) x 10^-3 eV^2/c^4 with errors at 68% confidence level
+    (CL), and mixing angle sin^2(2 theta_23) > 0.84 at 90% CL. The uncertainties and confidence intervals
+    include both statistical and systematic errors. All results and plots presented here are preliminary.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/0708.1495
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2007aa
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2007pwq
+  title: Charge-Separated Atmospheric Neutrino-Induced Muons in the MINOS Far Detector
+  collaboration: MINOS
+  arxiv: hep-ex/0701045
+  doi: 10.1103/PhysRevD.75.092003
+  journal: Phys.Rev.D
+  volume: '75'
+  pages: 092003
+  year: 2007
+  published_date: 2007-01
+  inspire_recid: 743147
+  citation_count: 38
+  abstract: We found 140 neutrino-induced muons in 854.24 live days in the MINOS far detector. We looked
+    for evidence of neutrino disappearance in this data set by computing the ratio of the number of low
+    momentum muons to the sum of the number of high momentum and unknown momentum muons for both data
+    and Monte Carlo expectation in the absence of neutrino oscillations. The ratio of data and Monte Carlo
+    ratios is consistent with an oscillation signal. A fit to the data for the oscillation parameters
+    excludes the null oscillation hypothesis at the 94% confidence level. We separated the muons by charge
+    sign in both the data and Monte Carlo events and found the ratio of the total number of negative to
+    positive muons in both samples. The ratio of those ratios is a test of CPT conservation. The result
+    is consistent with CPT conservation.
+  added: '2026-06-21'
+  notes: needs full-text check
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0701045
+    doi: https://doi.org/10.1103/PhysRevD.75.092003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2007pwq
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: MINOS:2006foh
+  title: Observation of Muon Neutrino Disappearance with the MINOS Detectors and the NuMI Neutrino Beam
+  collaboration: MINOS
+  arxiv: hep-ex/0607088
+  doi: 10.1103/PhysRevLett.97.191801
+  journal: Phys.Rev.Lett.
+  volume: '97'
+  pages: '191801'
+  year: 2006
+  published_date: 2006-07
+  inspire_recid: 722624
+  citation_count: 955
+  abstract: This letter reports results from the MINOS experiment based on its initial exposure to neutrinos
+    from the Fermilab NuMI beam. The rate and energy spectra of charged current muon neutrino interactions
+    are compared in two detectors located along the beam axis at distances of 1 km and 735 km. With 1.27
+    x 10^{20} 120 GeV protons incident on the NuMI target, 215 events with energies below 30 GeV are observed
+    at the Far Detector, compared to an expectation of 336 \pm 14.4 events. The data are consistent with
+    muon neutrino disappearance via oscillation with |\Delta m^2_{23}| = 2.74^{+0.44}_{-0.26} x 10^{-3}
+    eV^2/c^4 and sin^2(2\theta_{23}) > 0.87 (at 60% C.L.).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0607088
+    doi: https://doi.org/10.1103/PhysRevLett.97.191801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2006foh
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
     notes: null

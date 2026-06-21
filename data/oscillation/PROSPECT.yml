@@ -1,0 +1,140 @@
+- bibtag: PROSPECT:2024gps
+  title: Final Search for Short-Baseline Neutrino Oscillations with the PROSPECT-I Detector at HFIR
+  collaboration: PROSPECT
+  arxiv: '2406.10408'
+  doi: 10.1103/PhysRevLett.134.151802
+  journal: Phys.Rev.Lett.
+  volume: '134'
+  pages: '151802'
+  year: 2025
+  published_date: '2024-06-14'
+  inspire_recid: 2799207
+  citation_count: 29
+  abstract: The PROSPECT experiment is designed to perform precise searches for antineutrino disappearance
+    at short distances (7 - 9~m) from compact nuclear reactor cores. This Letter reports results from
+    a new neutrino oscillation analysis performed using the complete data sample from the PROSPECT-I detector
+    operated at the High Flux Isotope Reactor in 2018. The analysis uses a multi-period selection of inverse
+    beta decay neutrino interactions with reduced backgrounds and enhanced statistical power to set limits
+    on electron-flavor disappearance caused by mixing with sterile neutrinos with 0.2 - 20 eV$^2$ mass
+    splittings. Inverse beta decay positron energy spectra from six different reactor-detector distance
+    ranges are found to be statistically consistent with one another, as would be expected in the absence
+    of sterile neutrino oscillations. The data excludes at 95% confidence level the existence of sterile
+    neutrinos in regions above 3~eV$^2$ previously unexplored by terrestrial experiments, including all
+    space below 10~eV$^2$ suggested by the recently strengthened Gallium Anomaly. The best-fit point of
+    the Neutrino-4 reactor experiment's claimed observation of short-baseline oscillation is ruled out
+    at more than five standard deviations.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2406.10408
+    doi: https://doi.org/10.1103/PhysRevLett.134.151802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:PROSPECT:2024gps
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: PROSPECT:2020sxr
+  title: Improved short-baseline neutrino oscillation search and energy spectrum measurement with the
+    PROSPECT experiment at HFIR
+  collaboration: PROSPECT
+  arxiv: '2006.11210'
+  doi: 10.1103/PhysRevD.103.032001
+  journal: Phys.Rev.D
+  volume: '103'
+  pages: '032001'
+  year: 2021
+  published_date: '2020-06-19'
+  inspire_recid: 1802101
+  citation_count: 188
+  abstract: We present a detailed report on sterile neutrino oscillation and U-235 antineutrino energy
+    spectrum measurement results from the PROSPECT experiment at the highly enriched High Flux Isotope
+    Reactor (HFIR) at Oak Ridge National Laboratory. In 96 calendar days of data taken at an average baseline
+    distance of 7.9 m from the center of the 85 MW HFIR core, the PROSPECT detector has observed more
+    than 50,000 interactions of antineutrinos produced in beta decays of U-235 fission products. New limits
+    on the oscillation of antineutrinos to light sterile neutrinos have been set by comparing the detected
+    energy spectra of ten reactor-detector baselines between 6.7 and 9.2 meters. Measured differences
+    in energy spectra between baselines show no statistically significant indication of antineutrinos
+    to sterile neutrino oscillation and disfavor the Reactor Antineutrino Anomaly best-fit point at the
+    2.5$\sigma$ confidence level. The reported U-235 antineutrino energy spectrum measurement shows excellent
+    agreement with energy spectrum models generated via conversion of the measured U-235 beta spectrum,
+    with a $\chi^2$/DOF of 31/31. PROSPECT is able to disfavor at 2.4$\sigma$ confidence level the hypothesis
+    that U-235 antineutrinos are solely responsible for spectrum discrepancies between model and data
+    obtained at commercial reactor cores. A data-model deviation in PROSPECT similar to that observed
+    by commercial core experiments is preferred with respect to no observed deviation, at a 2.2$\sigma$
+    confidence level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2006.11210
+    doi: https://doi.org/10.1103/PhysRevD.103.032001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:PROSPECT:2020sxr
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: PROSPECT:2018dtt
+  title: First search for short-baseline neutrino oscillations at HFIR with PROSPECT
+  collaboration: PROSPECT
+  arxiv: '1806.02784'
+  doi: 10.1103/PhysRevLett.121.251802
+  journal: Phys.Rev.Lett.
+  volume: '121'
+  pages: '251802'
+  year: 2018
+  published_date: '2018-06-07'
+  inspire_recid: 1676812
+  citation_count: 184
+  abstract: This Letter reports the first scientific results from the observation of antineutrinos emitted
+    by fission products of $^{235}$U at the High Flux Isotope Reactor. PROSPECT, the Precision Reactor
+    Oscillation and Spectrum Experiment, consists of a segmented 4 ton $^6$Li-doped liquid scintillator
+    detector covering a baseline range of 7-9 m from the reactor and operating under less than 1 meter
+    water equivalent overburden. Data collected during 33 live-days of reactor operation at a nominal
+    power of 85 MW yields a detection of 25461 $\pm$ 283 (stat.) inverse beta decays. Observation of reactor
+    antineutrinos can be achieved in PROSPECT at 5$\sigma$ statistical significance within two hours of
+    on-surface reactor-on data-taking. A reactor-model independent analysis of the inverse beta decay
+    prompt energy spectrum as a function of baseline constrains significant portions of the previously
+    allowed sterile neutrino oscillation parameter space at 95% confidence level and disfavors the best
+    fit of the Reactor Antineutrino Anomaly at 2.2$\sigma$ confidence level.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1806.02784
+    doi: https://doi.org/10.1103/PhysRevLett.121.251802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:PROSPECT:2018dtt
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null

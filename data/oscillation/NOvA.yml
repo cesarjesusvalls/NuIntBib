@@ -1,0 +1,576 @@
+- bibtag: NOvA:2025tmb
+  title: Precision Measurement of Neutrino Oscillation Parameters with 10 Years of Data from the NOvA
+    Experiment
+  collaboration: NOvA
+  arxiv: '2509.04361'
+  doi: 10.1103/x53y-2b86
+  journal: Phys.Rev.Lett.
+  volume: '136'
+  pages: 011802
+  year: 2026
+  published_date: '2025-09-04'
+  inspire_recid: 2966613
+  citation_count: 27
+  abstract: This Letter reports measurements of muon-neutrino disappearance and electron-neutrino appearance
+    and the corresponding antineutrino processes between the two NOvA detectors in the NuMI neutrino beam.
+    These measurements use a dataset with double the neutrino mode beam exposure that was previously analyzed,
+    along with improved simulation and analysis techniques. A joint fit to these samples in the three-flavor
+    paradigm results in the most precise single-experiment constraint on the atmospheric neutrino mass
+    splitting, $Δm^2_{32}= 2.431^{+0.036}_{-0.034} (-2.479^{+0.036}_{-0.036}) \times 10^{-3}~\mathrm{eV}^2$
+    if the mass ordering is normal (inverted). In both orderings, a region close to maximal mixing with
+    $\sin^2 θ_{23}=0.55^{+0.02}_{-0.06}$ is preferred. The NOvA data show a mild preference for the normal
+    mass ordering with a Bayes factor of 2.4 (corresponding to 70% of the posterior probability), indicating
+    that the normal ordering is 2.4 times more probable than the inverted ordering. When incorporating
+    a 2D $Δm^2_{32}\text{--}\sin^2 2θ_{13}$ constraint based on Daya Bay data, this preference strengthens
+    to a Bayes factor of 6.6 (87%).
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2509.04361
+    doi: https://doi.org/10.1103/x53y-2b86
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2025tmb
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: NOvA:2024imi
+  title: Dual-Baseline Search for Active-to-Sterile Neutrino Oscillations in NOvA
+  collaboration: NOvA
+  arxiv: '2409.04553'
+  doi: 10.1103/PhysRevLett.134.081804
+  journal: Phys.Rev.Lett.
+  volume: '134'
+  pages: 081804
+  year: 2025
+  published_date: '2024-09-06'
+  inspire_recid: 2826226
+  citation_count: 20
+  abstract: We report a search for neutrino oscillations to sterile neutrinos under a model with three
+    active and one sterile neutrinos (3+1 model). This analysis uses the NOvA detectors exposed to the
+    NuMI beam, running in neutrino mode. The data exposure, 13.6e20 protons on target, doubles that previously
+    analyzed by NOvA, and the analysis is the first to use $\nu_{\mu}$ charged-current interactions in
+    conjunction with neutral-current interactions. Neutrino samples in the Near and Far detectors are
+    fitted simultaneously, enabling the search to be carried out over a $\Delta m^2_{41}$ range extending
+    2 (3) orders of magnitude above (below) 1 eV$^2$. NOvA finds no evidence for active-to-sterile neutrino
+    oscillations under the 3+1 model at 90% confidence level. New limits are reported in multiple regions
+    of parameter space, excluding some regions currently allowed by IceCube at 90% confidence level. We
+    additionally set the most stringent limits for anomalous $\nu_{\tau}$ appearance for $\Delta m^{2}_{41}
+    \le 3$ eV$^2$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2409.04553
+    doi: https://doi.org/10.1103/PhysRevLett.134.081804
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2024imi
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - disappearance
+    - appearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    observables: null
+    notes: null
+- bibtag: NOvA:2023iam
+  title: Expanding neutrino oscillation parameter measurements in NOvA using a Bayesian approach
+  collaboration: NOvA
+  arxiv: '2311.07835'
+  doi: 10.1103/PhysRevD.110.012005
+  journal: Phys.Rev.D
+  volume: '110'
+  pages: '1'
+  year: 2024
+  published_date: '2023-11-13'
+  inspire_recid: 2722502
+  citation_count: 49
+  abstract: NOvA is a long-baseline neutrino oscillation experiment that measures oscillations in charged-current
+    $\nu_{\mu} \rightarrow \nu_{\mu}$ (disappearance) and $\nu_{\mu} \rightarrow \nu_{e}$ (appearance)
+    channels, and their antineutrino counterparts, using neutrinos of energies around 2 GeV over a distance
+    of 810 km. In this work we reanalyze the dataset first examined in our previous paper [Phys. Rev.
+    D 106, 032004 (2022)] using an alternative statistical approach based on Bayesian Markov Chain Monte
+    Carlo. We measure oscillation parameters consistent with the previous results. We also extend our
+    inferences to include the first NOvA measurements of the reactor mixing angle $\theta_{13}$ and the
+    Jarlskog invariant. We use these results to quantify the strength of our inferences about CP violation,
+    as well as to examine the effects of constraints from short-baseline measurements of $\theta_{13}$
+    using antineutrinos from nuclear reactors when making NOvA measurements of $\theta_{23}$. Our long-baseline
+    measurement of $\theta_{13}$ is also shown to be consistent with the reactor measurements, supporting
+    the general applicability and robustness of the PMNS framework for neutrino oscillations.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2311.07835
+    doi: https://doi.org/10.1103/PhysRevD.110.012005
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2023iam
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - θ₁₃
+    - Δm²₃₂
+    - δCP
+    observables: null
+    notes: null
+- bibtag: NOvA:2021nfi
+  title: Improved measurement of neutrino oscillation parameters by the NOvA experiment
+  collaboration: NOvA
+  arxiv: '2108.08219'
+  doi: 10.1103/PhysRevD.106.032004
+  journal: Phys.Rev.D
+  volume: '106'
+  pages: '032004'
+  year: 2022
+  published_date: '2021-08-18'
+  inspire_recid: 1907127
+  citation_count: 412
+  abstract: We present new $\nu_\mu\rightarrow\nu_e$, $\nu_\mu\rightarrow\nu_\mu$, $\overline{\nu}_\mu\rightarrow\overline{\nu}_e$,
+    and $\overline{\nu}_\mu\rightarrow\overline{\nu}_\mu$ oscillation measurements by the NOvA experiment,
+    with a 50% increase in neutrino-mode beam exposure over the previously reported results. The additional
+    data, combined with previously published neutrino and antineutrino data, are all analyzed using improved
+    techniques and simulations. A joint fit to the $\nu_e$, $\nu_\mu$, $\overline{\nu}_e$, and $\overline{\nu}_\mu$
+    candidate samples within the 3-flavor neutrino oscillation framework continues to yield a best-fit
+    point in the normal mass ordering and the upper octant of the $\theta_{23}$ mixing angle, with $\Delta
+    m^{2}_{32} = (2.41\pm0.07)\times 10^{-3}$ eV$^2$ and $\sin^2\theta_{23} = 0.57^{+0.03}_{-0.04}$. The
+    data disfavor combinations of oscillation parameters that give rise to a large asymmetry in the rates
+    of $\nu_e$ and $\overline{\nu}_e$ appearance. This includes values of the CP-violating phase in the
+    vicinity of $\delta_\text{CP} = \pi/2$ which are excluded by $>3\sigma$ for the inverted mass ordering,
+    and values around $\delta_\text{CP} = 3\pi/2$ in the normal ordering which are disfavored at 2$\sigma$
+    confidence.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2108.08219
+    doi: https://doi.org/10.1103/PhysRevD.106.032004
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2021nfi
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+    - from: numu
+      to: numu
+    - from: numu
+      to: nue
+      nubar: true
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - θ₁₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: NOvA:2021smv
+  title: Search for Active-Sterile Antineutrino Mixing Using Neutral-Current Interactions with the NOvA
+    Experiment
+  collaboration: NOvA
+  arxiv: '2106.04673'
+  doi: 10.1103/PhysRevLett.127.201801
+  journal: Phys.Rev.Lett.
+  volume: '127'
+  pages: '201801'
+  year: 2021
+  published_date: '2021-06-08'
+  inspire_recid: 1867930
+  citation_count: 35
+  abstract: This Letter reports results from the first long-baseline search for sterile antineutrinos
+    mixing in an accelerator-based antineutrino-dominated beam. The rate of neutral-current interactions
+    in the two NOvA detectors, at distances of 1 km and 810 km from the beam source, is analyzed using
+    an exposure of $12.51\times10^{20}$ protons-on-target from the NuMI beam at Fermilab running in antineutrino
+    mode. A total of $121$ of neutral-current candidates are observed at the Far Detector, compared to
+    a prediction of $122\pm11$(stat.)$\pm15$(syst.) assuming mixing between three active flavors. No evidence
+    for $\bar{\nu}_{\mu}\rightarrow\bar{\nu}_{s}$ oscillation is observed. Interpreting this result within
+    a 3+1 model, constraints are placed on the mixing angles ${\theta}_{24} < 25^{\circ}$ and ${\theta}_{34}
+    < 32^{\circ}$ at the 90% C.L. for $0.05$eV$^{2} \leq \Delta m^{2}_{41} \leq 0.5$eV$^{2}$, the range
+    of mass splittings that produces no significant oscillations at the Near Detector. These are the first
+    3+1 confidence limits set using long-baseline accelerator antineutrinos.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2106.04673
+    doi: https://doi.org/10.1103/PhysRevLett.127.201801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2021smv
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nus
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    - θ₃₄
+    observables: null
+    notes: null
+- bibtag: NOvA:2019cyt
+  title: First Measurement of Neutrino Oscillation Parameters using Neutrinos and Antineutrinos by NOvA
+  collaboration: NOvA
+  arxiv: '1906.04907'
+  doi: 10.1103/PhysRevLett.123.151803
+  journal: Phys.Rev.Lett.
+  volume: '123'
+  pages: '151803'
+  year: 2019
+  published_date: '2019-06-11'
+  inspire_recid: 1739571
+  citation_count: 457
+  abstract: The NOvA experiment has made a $4.4\sigma$-significant observation of $\bar\nu_{e}$ appearance
+    in a 2 GeV $\bar\nu_{\mu}$ beam at a distance of 810 km. Using $12.33\times10^{20}$ protons on target
+    delivered to the Fermilab NuMI neutrino beamline, the experiment recorded 27 $\bar\nu_{\mu} \rightarrow
+    \bar\nu_{e}$ candidates with a background of 10.3 and 102 $\bar\nu_{\mu} \rightarrow \bar\nu_{\mu}$
+    candidates. This new antineutrino data is combined with neutrino data to measure the oscillation parameters
+    $|\Delta m^2_{32}| = 2.48^{+0.11}_{-0.06}\times10^{-3}$ eV$^2/c^4$, $\sin^2 \theta_{23} = 0.56^{+0.04}_{-0.03}$
+    in the normal neutrino mass hierarchy and upper octant and excludes most values near $\delta_{\rm
+    CP}=\pi/2$ for the inverted mass hierarchy by more than 3$\sigma$. The data favor the normal neutrino
+    mass hierarchy by 1.9$\sigma$ and $\theta_{23}$ values in the upper octant by 1.6$\sigma$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1906.04907
+    doi: https://doi.org/10.1103/PhysRevLett.123.151803
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2019cyt
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: NOvA:2018gge
+  title: New constraints on oscillation parameters from $\nu_e$ appearance and $\nu_\mu$ disappearance
+    in the NOvA experiment
+  collaboration: NOvA
+  arxiv: '1806.00096'
+  doi: 10.1103/PhysRevD.98.032012
+  journal: Phys.Rev.D
+  volume: '98'
+  pages: '032012'
+  year: 2018
+  published_date: '2018-05-31'
+  inspire_recid: 1676101
+  citation_count: 282
+  abstract: We present updated results from the NOvA experiment for $\nu_\mu\rightarrow\nu_\mu$ and $\nu_\mu\rightarrow\nu_e$
+    oscillations from an exposure of $8.85\times10^{20}$ protons on target, which represents an increase
+    of 46% compared to our previous publication. The results utilize significant improvements in both
+    the simulations and analysis of the data. A joint fit to the data for $\nu_\mu$ disappearance and
+    $\nu_e$ appearance gives the best fit point as normal mass hierarchy, $\Delta m^2_{32} = 2.44\times
+    10^{-3}{{\rm eV}^2}/c^4$, $\sin^2\theta_{23} = 0.56$, and $\delta_{CP} = 1.21\pi$. The 68.3% confidence
+    intervals in the normal mass hierarchy are $\Delta m^2_{32} \in [2.37,2.52]\times 10^{-3}{{\rm eV}^2}/c^4$,
+    $\sin^2\theta_{23} \in [0.43,0.51] \cup [0.52,0.60]$, and $\delta_{CP} \in [0,0.12\pi] \cup [0.91\pi,2\pi]$.
+    The inverted mass hierarchy is disfavored at the 95% confidence level for all choices of the other
+    oscillation parameters.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1806.00096
+    doi: https://doi.org/10.1103/PhysRevD.98.032012
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2018gge
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: NOvA:2017abs
+  title: Constraints on Oscillation Parameters from $\nu_e$ Appearance and $\nu_\mu$ Disappearance in
+    NOvA
+  collaboration: NOvA
+  arxiv: '1703.03328'
+  doi: 10.1103/PhysRevLett.118.231801
+  journal: Phys.Rev.Lett.
+  volume: '118'
+  pages: '231801'
+  year: 2017
+  published_date: '2017-03-09'
+  inspire_recid: 1516801
+  citation_count: 269
+  abstract: Results are reported from an improved measurement of $\nu_\mu \rightarrow \nu_e$ transitions
+    by the NOvA experiment. Using an exposure equivalent to $6.05\times10^{20}$ protons-on-target 33 $\nu_e$
+    candidates were observed with a background of $8.2\pm0.8$ (syst.). Combined with the latest NOvA $\nu_\mu$
+    disappearance data and external constraints from reactor experiments on $\sin^22\theta_{13}$, the
+    hypothesis of inverted mass hierarchy with $\theta_{23}$ in the lower octant is disfavored at greater
+    than $93\%$ C.L. for all values of $\delta_{CP}$.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1703.03328
+    doi: https://doi.org/10.1103/PhysRevLett.118.231801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2017abs
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: false
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: NOvA:2017geg
+  title: Search for active-sterile neutrino mixing using neutral-current interactions in NOvA
+  collaboration: NOvA
+  arxiv: '1706.04592'
+  doi: 10.1103/PhysRevD.96.072006
+  journal: Phys.Rev.D
+  volume: '96'
+  pages: '072006'
+  year: 2017
+  published_date: '2017-06-14'
+  inspire_recid: 1605130
+  citation_count: 128
+  abstract: We report results from the first search for sterile neutrinos mixing with active neutrinos
+    through a reduction in the rate of neutral-current interactions over a baseline of 810\,km between
+    the NOvA detectors. Analyzing a 14-kton detector equivalent exposure of 6.05$\times$10$^{20}$ protons-on-target
+    in the NuMI beam at Fermilab, we observe 95 neutral-current candidates at the Far Detector compared
+    with $83.5 \pm 9.7 \mbox{(stat.)} \pm 9.4 \mbox{(syst.)}$ events predicted assuming mixing only occurs
+    between active neutrino species. No evidence for $\nu_{\mu} \rightarrow \nu_{s}$ transitions is found.
+    Interpreting these results within a 3+1 model, we place constraints on the mixing angles $\theta_{24}<20.8^{\circ}$
+    and $\theta_{34}<31.2^{\circ}$ at the 90% C.L. for $0.05~eV^2\leq \Delta m^2_{41}\leq 0.5~eV^2$, the
+    range of mass splittings that produce no significant oscillations over the Near Detector baseline.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1706.04592
+    doi: https://doi.org/10.1103/PhysRevD.96.072006
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2017geg
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nus
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₂₄
+    - θ₃₄
+    observables: null
+    notes: null
+- bibtag: NOvA:2017ohq
+  title: Measurement of the neutrino mixing angle $\theta_{23}$ in NOvA
+  collaboration: NOvA
+  arxiv: '1701.05891'
+  doi: 10.1103/PhysRevLett.118.151802
+  journal: Phys.Rev.Lett.
+  volume: '118'
+  pages: '151802'
+  year: 2017
+  published_date: '2017-01-20'
+  inspire_recid: 1510066
+  citation_count: 206
+  abstract: This Letter reports new results on muon neutrino disappearance from NOvA, using a 14 kton
+    detector equivalent exposure of $6.05\times10^{20}$ protons-on-target from the NuMI beam at the Fermi
+    National Accelerator Laboratory. The measurement probes the muon-tau symmetry hypothesis that requires
+    maximal mixing ($\theta_{23} = \pi/4$). Assuming the normal mass hierarchy, we find $\Delta m^2 =
+    (2.67 \pm 0.11)\times 10^{-3}$ eV$^2$ and $\sin^2 \theta_{23}$ at the two statistically degenerate
+    values $0.404^{+0.030}_{-0.022}$ and $0.624^{+0.022}_{-0.030}$, both at the 68% confidence level.
+    Our data disfavor the maximal mixing scenario with 2.6 $\sigma$ significance.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1701.05891
+    doi: https://doi.org/10.1103/PhysRevLett.118.151802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2017ohq
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null
+- bibtag: NOvA:2016kwd
+  title: First measurement of electron neutrino appearance in NOvA
+  collaboration: NOvA
+  arxiv: '1601.05022'
+  doi: 10.1103/PhysRevLett.116.151806
+  journal: Phys.Rev.Lett.
+  volume: '116'
+  pages: '151806'
+  year: 2016
+  published_date: '2016-01-19'
+  inspire_recid: 1415951
+  citation_count: 345
+  abstract: We report results from the first search for $\nu_\mu\to\nu_e$ transitions by the NOvA experiment.
+    In an exposure equivalent to $2.74\times10^{20}$ protons-on-target in the upgraded NuMI beam at Fermilab,
+    we observe 6 events in the Far Detector, compared to a background expectation of $0.99\pm0.11$ (syst.)
+    events based on the Near Detector measurement. A secondary analysis observes 11 events with a background
+    of $1.07\pm0.14$ (syst.). The $3.3\sigma$ excess of events observed in the primary analysis disfavors
+    $0.1\pi < \delta_{CP} < 0.5\pi$ in the inverted mass hierarchy at the 90% C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1601.05022
+    doi: https://doi.org/10.1103/PhysRevLett.116.151806
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2016kwd
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+    mode:
+    - appearance
+    parameters:
+    - δCP
+    - mass ordering
+    observables: null
+    notes: null
+- bibtag: NOvA:2016vij
+  title: First measurement of muon-neutrino disappearance in NOvA
+  collaboration: NOvA
+  arxiv: '1601.05037'
+  doi: 10.1103/PhysRevD.93.051104
+  journal: Phys.Rev.D
+  volume: '93'
+  pages: '051104'
+  year: 2016
+  published_date: '2016-01-19'
+  inspire_recid: 1415953
+  citation_count: 229
+  abstract: This paper reports the first measurement using the NOvA detectors of $\nu_\mu$ disappearance
+    in a $\nu_\mu$ beam. The analysis uses a 14 kton-equivalent exposure of $2.74 \times 10^{20}$ protons-on-target
+    from the Fermilab NuMI beam. Assuming the normal neutrino mass hierarchy, we measure $\Delta m^{2}_{32}=(2.52^{+0.20}_{-0.18})\times
+    10^{-3}$ eV$^{2}$ and $\sin^2\theta_{23}$ in the range 0.38-0.65, both at the 68% confidence level,
+    with two statistically-degenerate best fit points at $\sin^2\theta_{23} = $ 0.43 and 0.60. Results
+    for the inverted mass hierarchy are also presented.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1601.05037
+    doi: https://doi.org/10.1103/PhysRevD.93.051104
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOvA:2016vij
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+      nubar: false
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: null
+    notes: null

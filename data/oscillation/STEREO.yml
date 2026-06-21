@@ -1,0 +1,178 @@
+- bibtag: STEREO:2022nzk
+  title: STEREO neutrino spectrum of $^{235}$U fission rejects sterile neutrino hypothesis
+  collaboration: STEREO
+  arxiv: '2210.07664'
+  doi: 10.1038/s41586-022-05568-2
+  journal: Nature
+  volume: '613'
+  pages: '257'
+  year: 2023
+  published_date: '2022-10-14'
+  inspire_recid: 2165649
+  citation_count: 91
+  abstract: Anomalies in past neutrino measurements have led to the discovery that these particles have
+    non-zero mass and oscillate between their three flavors when they propagate. In the 2010's, similar
+    anomalies observed in the antineutrino spectra emitted by nuclear reactors have triggered the hypothesis
+    of the existence of a supplementary neutrino state that would be sterile i.e. not interacting via
+    the weak interaction. The STEREO experiment was designed to study this scientific case that would
+    potentially extend the Standard Model of Particle Physics. Here we present a complete study based
+    on our full set of data with significantly improved sensitivity. Installed at the ILL (Institut Laue
+    Langevin) research reactor, STEREO has accurately measured the antineutrino energy spectrum associated
+    to the fission of 235U. This measurement confirms the anomalies whereas, thanks to the segmentation
+    of the STEREO detector and its very short mean distance to the core (10~m), the same data reject the
+    hypothesis of a light sterile neutrino. Such a direct measurement of the antineutrino energy spectrum
+    suggests instead that biases in the nuclear experimental data used for the predictions are at the
+    origin of the anomalies. Our result supports the neutrino content of the Standard Model and establishes
+    a new reference for the 235U antineutrino energy spectrum. We anticipate that this result will allow
+    to progress towards finer tests of the fundamental properties of neutrinos but also to benchmark models
+    and nuclear data of interest for reactor physics and for observations of astrophysical or geo-neutrinos.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/2210.07664
+    doi: https://doi.org/10.1038/s41586-022-05568-2
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:STEREO:2022nzk
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: STEREO:2019ztb
+  title: Improved sterile neutrino constraints from the STEREO experiment with 179 days of reactor-on
+    data
+  collaboration: STEREO
+  arxiv: '1912.06582'
+  doi: 10.1103/PhysRevD.102.052002
+  journal: Phys.Rev.D
+  volume: '102'
+  pages: '052002'
+  year: 2020
+  published_date: '2019-12-13'
+  inspire_recid: 1770821
+  citation_count: 173
+  abstract: The STEREO experiment is a very short baseline reactor antineutrino experiment. It is designed
+    to test the hypothesis of light sterile neutrinos being the cause of a deficit of the observed antineutrino
+    interaction rate at short baselines with respect to the predicted rate, known as the reactor antineutrino
+    anomaly. The STEREO experiment measures the antineutrino energy spectrum in six identical detector
+    cells covering baselines between 9 and 11 m from the compact core of the ILL research reactor. In
+    this article, results from 179 days of reactor turned on and 235 days of reactor turned off are reported
+    at a high degree of detail. The current results include improvements in the modelling of detector
+    optical properties and the gamma-cascade after neutron captures by gadolinium, the treatment of backgrounds,
+    and the statistical method of the oscillation analysis. Using a direct comparison between antineutrino
+    spectra of all cells, largely independent of any flux prediction, we find the data compatible with
+    the null oscillation hypothesis. The best-fit point of the reactor antineutrino anomaly is rejected
+    at more than 99.9% C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1912.06582
+    doi: https://doi.org/10.1103/PhysRevD.102.052002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:STEREO:2019ztb
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: STEREO:2019lwz
+  title: Search for light sterile neutrinos with the STEREO experiment
+  collaboration: STEREO
+  arxiv: null
+  doi: 10.1051/epjconf/201921908001
+  journal: EPJ Web Conf.
+  volume: '219'
+  pages: 08001
+  year: 2019
+  published_date: '2019'
+  inspire_recid: 1770580
+  citation_count: 2
+  abstract: The stereo experiment is searching for a non-standard oscillation in the propagation of anti-neutrinos
+    produced by a nuclear reactor which could be the sign for the existence of a sterile state of eV mass
+    and the origin of the reactor anti-neutrino anomaly. In this paper, results from 66 days of reactor
+    turned on and 138 days of reactor turned off are reported excluding large amplitude oscillations.
+    A special focus is put on the data analysis and studies of correlated backgrounds. In particular the
+    origin of the correlated background measured in reactor turned off periods is discussed. This background
+    mainly originates from neutrons produced by cosmic radiation.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1051/epjconf/201921908001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:STEREO:2019lwz
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
+- bibtag: STEREO:2018rfh
+  title: Sterile Neutrino Constraints from the STEREO Experiment with 66 Days of Reactor-On Data
+  collaboration: STEREO
+  arxiv: '1806.02096'
+  doi: 10.1103/PhysRevLett.121.161801
+  journal: Phys.Rev.Lett.
+  volume: '121'
+  pages: '161801'
+  year: 2018
+  published_date: '2018-06-06'
+  inspire_recid: 1676545
+  citation_count: 133
+  abstract: The reactor antineutrino anomaly might be explained by the oscillation of reactor antineutrinos
+    toward a sterile neutrino of eV mass. In order to explore this hypothesis, the STEREO experiment measures
+    the antineutrino energy spectrum in six different detector cells covering baselines between 9 and
+    11 m from the compact core of the ILL research reactor. In this Letter, results from 66 days of reactor
+    turned on and 138 days of reactor turned off are reported. A novel method to extract the antineutrino
+    rates has been developed based on the distribution of the pulse shape discrimination parameter. The
+    test of a new oscillation toward a sterile neutrino is performed by comparing ratios of cells, independent
+    of absolute normalization and of the prediction of the reactor spectrum. The results are found to
+    be compatible with the null oscillation hypothesis and the best fit of the reactor antineutrino anomaly
+    is excluded at 97.5\% C.L.
+  added: '2026-06-21'
+  notes: null
+  links:
+    arxiv: https://arxiv.org/abs/1806.02096
+    doi: https://doi.org/10.1103/PhysRevLett.121.161801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:STEREO:2018rfh
+  measurements:
+  - source: reactor
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - Δm²₄₁
+    - θ₁₄
+    observables: null
+    notes: null
