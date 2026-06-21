@@ -555,8 +555,11 @@
     channels:
     - from: numu
       to: numu
+    - from: numu
+      to: nue
     mode:
     - disappearance
+    - appearance
     parameters:
     - θ₂₃
     - θ₁₃
@@ -718,6 +721,9 @@
       nubar: false
     - from: numu
       to: nutau
+      nubar: false
+    - from: numu
+      to: nue
       nubar: false
     mode:
     - disappearance
