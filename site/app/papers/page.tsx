@@ -65,7 +65,7 @@ export default function PapersPage() {
       bibtag: p.bibtag,
       title: stripTex(p.title),
       titleHtml: texToHtml(p.title),
-      collaboration: p.collaboration,
+      collaboration: fv.experiment.join(' + '),
       year: p.year,
       citation_count: p.citation_count ?? null,
       arxiv: p.arxiv ?? null,
@@ -82,7 +82,7 @@ export default function PapersPage() {
       searchText: [
         stripTex(p.title),
         p.bibtag,
-        p.collaboration,
+        ...fv.experiment,
         p.year,
         ...fv.source,
         ...fv.channel,

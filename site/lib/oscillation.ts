@@ -23,6 +23,7 @@ export type OscPaper = {
   bibtag: string;
   title: string;
   collaboration: string;
+  collaborations?: string[];
   arxiv?: string | null;
   doi?: string | null;
   journal?: string | null;
@@ -126,9 +127,14 @@ function countBy(values: string[]): [string, number][] {
 }
 
 /** Flatten facet membership for an oscillation paper. */
+/** All experiments for a paper (the joint-analysis list, or the single primary). */
+export function paperExperiments(p: OscPaper): string[] {
+  return p.collaborations && p.collaborations.length ? p.collaborations : [p.collaboration];
+}
+
 export function oscFacetValues(p: OscPaper): Record<string, string[]> {
   return {
-    experiment: [p.collaboration],
+    experiment: paperExperiments(p),
     source: uniqueSorted(p.measurements.map((m) => m.source)),
     framework: uniqueSorted(p.measurements.map((m) => m.framework)),
     mode: uniqueSorted(p.measurements.flatMap((m) => m.mode ?? [])),
@@ -138,7 +144,7 @@ export function oscFacetValues(p: OscPaper): Record<string, string[]> {
 }
 
 export function getOscFacets(papers: OscPaper[]): Facet[] {
-  const experiments = uniqueSorted(papers.map((p) => p.collaboration));
+  const experiments = uniqueSorted(papers.flatMap(paperExperiments));
   const sources = countBy(papers.flatMap((p) => p.measurements.map((m) => m.source))).map(([v]) => v);
   const frameworks = ['PMNS', 'Exotic'];
   const modes = countBy(papers.flatMap((p) => p.measurements.flatMap((m) => m.mode ?? []))).map(

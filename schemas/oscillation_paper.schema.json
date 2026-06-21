@@ -11,7 +11,16 @@
       "pattern": "^[A-Za-z0-9.-]+:[0-9a-z]+$"
     },
     "title": { "type": "string", "minLength": 1 },
-    "collaboration": { "type": "string", "minLength": 1 },
+    "collaboration": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary collaboration (matches the file name). For a joint analysis, see `collaborations`."
+    },
+    "collaborations": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "All collaborations on a joint analysis, e.g. [T2K, Super-Kamiokande]. Absent for single-collaboration papers (use `collaboration`)."
+    },
     "arxiv": { "type": ["string", "null"] },
     "doi": { "type": ["string", "null"] },
     "journal": { "type": ["string", "null"] },

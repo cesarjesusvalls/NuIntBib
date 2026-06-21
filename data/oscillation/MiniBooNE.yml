@@ -328,6 +328,9 @@
     - θ₂₄
     observables: null
     notes: null
+  collaborations:
+  - MiniBooNE
+  - SciBooNE
 - bibtag: MiniBooNE:2010idf
   title: Event Excess in the MiniBooNE Search for $\bar \nu_\mu \rightarrow \bar \nu_e$ Oscillations
   collaboration: MiniBooNE

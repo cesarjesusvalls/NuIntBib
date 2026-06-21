@@ -145,6 +145,9 @@
     - θ₁₄
     observables: null
     notes: null
+  collaborations:
+  - RENO
+  - NEOS
 - bibtag: RENO:2019otc
   title: Observation of reactor antineutrino disappearance using delayed neutron capture on hydrogen at
     RENO

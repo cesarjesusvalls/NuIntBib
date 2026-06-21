@@ -51,6 +51,9 @@
     - mass ordering
     observables: null
     notes: null
+  collaborations:
+  - T2K
+  - Super-Kamiokande
 - bibtag: T2K:2025wet
   title: Joint neutrino oscillation analysis from the T2K and NOvA experiments
   collaboration: T2K
@@ -114,6 +117,9 @@
     - mass ordering
     observables: null
     notes: null
+  collaborations:
+  - T2K
+  - NOvA
 - bibtag: T2K:2025yoy
   title: Results from the T2K Experiment on Neutrino Mixing Including a New Far Detector <math display="inline"><mrow><mi>μ</mi></mrow></math>-like
     Sample

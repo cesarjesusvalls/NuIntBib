@@ -44,6 +44,9 @@
     - θ₁₄
     observables: null
     notes: null
+  collaborations:
+  - MINOS+
+  - Daya Bay
 - bibtag: MINOS:2020llm
   title: Precision Constraints for Three-Flavor Neutrino Oscillations from the Full MINOS+ and MINOS Dataset
   collaboration: MINOS
