@@ -1,0 +1,41 @@
+- inspire_recid: 555937
+  title: "Evidence for neutrino oscillations from the observation of $\\bar{\\nu}_e$ appearance in a $\\\
+    bar{\\nu}_\\mu$\n beam"
+  abstract: A search for muon anti-neutrino to electron anti-neutrino oscillations was conducted by the
+    Liquid Scintillator Neutrino Detector at the Los Alamos Neutron Science Center using muon anti-neutrinos
+    from positive muon decay at rest. A total excess of 87.9 +/- 22.4 +/- 6.0 events consistent with electron
+    anti-neutrino plus proton scattering to positron plus neutron was observed above the expected background.
+    This excess corresponds to an oscillation probability of (0.264 +/- 0.067 +/- 0.045), which is consistent
+    with an earlier analysis. In conjunction with other known limits on neutrino oscillations, the LSND
+    data suggest that neutrino oscillations occur in the 0.2-10 eV^2/c^4 Delta-m^2 range, indicating a
+    neutrino mass greater than 0.4 eV/c^2.
+  arxiv: hep-ex/0104049
+  doi: 10.1103/PhysRevD.64.112007
+  journal: Phys.Rev.D
+  volume: '64'
+  pages: '112007'
+  year: 2001
+  published_date: 2001-04
+  citation_count: 2730
+  collaboration: LSND
+  bibtag: LSND:2001aii
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevD.64.112007
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:2001aii
+    arxiv: https://arxiv.org/abs/hep-ex/0104049
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    observables: nuebar appearance excess at 30 m
+    notes: null

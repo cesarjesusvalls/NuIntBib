@@ -1,0 +1,101 @@
+- inspire_recid: 1758272
+  title: Constraint on the matter–antimatter symmetry-violating phase in neutrino oscillations
+  abstract: The current laws of physics do not explain the observed imbalance of matter and antimatter
+    in the universe. Sakharov proposed that an explanation would require the violation of CP symmetry
+    between matter and antimatter. The only CP violation observed so far is in the weak interactions of
+    quarks, and it is too small to explain the matter-antimatter imbalance of the universe. It has been
+    shown that CP violation in the lepton sector could generate the matter-antimatter disparity through
+    the process called leptogenesis. The quantum mixing of neutrinos, the neutral leptons in the Standard
+    Model, provides a potential source of CP violation through a complex phase dCP, which may have consequences
+    for theoretical models of leptogenesis. This CP violation can be measured in muon neutrino to electron
+    neutrino oscillations and the corresponding antineutrino oscillations, which are experimentally accessible
+    with accelerator-produced beams as established by the T2K experiment. Until now, the value of dCP
+    has not been significantly constrained by neutrino oscillation experiments. Here the T2K collaboration
+    reports a measurement that favors large enhancement of the neutrino oscillation probability, excluding
+    values of dCP which result in a large enhancement of the observed anti-neutrino oscillation probability
+    at three standard deviations (3 sigma). The 3 sigma confidence level interval for dCP, which is cyclic
+    and repeats every 2pi, is [-3.41,-0.03] for the so-called normal mass ordering, and [-2.54,-0.32]
+    for the inverted mass ordering. Our results show an indication of CP violation in the lepton sector.
+    Herein we establish methods for sensitive searches for matter-antimatter asymmetry in neutrino oscillations
+    using accelerator-produced neutrino beams. Future measurements with larger data samples will determine
+    whether the leptonic CP violation is larger than the quark sector CP violation.
+  arxiv: '1910.03887'
+  doi: 10.1038/s41586-020-2177-0
+  journal: Nature
+  volume: '580'
+  pages: '339'
+  year: 2020
+  published_date: '2019-10-09'
+  citation_count: 731
+  collaboration: T2K
+  bibtag: T2K:2019bcf
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1038/s41586-020-2177-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2019bcf
+    arxiv: https://arxiv.org/abs/1910.03887
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+    - from: numu
+      to: nue
+      nubar: true
+    - from: numu
+      to: numu
+    - from: numu
+      to: numu
+      nubar: true
+    mode:
+    - appearance
+    - disappearance
+    parameters:
+    - δCP
+    - θ₂₃
+    - Δm²₃₂
+    - mass ordering
+    observables: joint nu/nubar appearance+disappearance; constraint on dCP
+    notes: null
+- inspire_recid: 913765
+  title: Indication of Electron Neutrino Appearance from an Accelerator-produced Off-axis Muon Neutrino
+    Beam
+  abstract: The T2K experiment observes indications of $\nu_\mu\rightarrow \nu_e$ appearance in data accumulated
+    with $1.43\times10^{20}$ protons on target. Six events pass all selection criteria at the far detector.
+    In a three-flavor neutrino oscillation scenario with $|\Delta m_{23}^2|=2.4\times10^{-3}$ eV$^2$,
+    $\sin^2 2\theta_{23}=1$ and $\sin^2 2\theta_{13}=0$, the expected number of such events is 1.5$\pm$0.3(syst.).
+    Under this hypothesis, the probability to observe six or more candidate events is 7$\times10^{-3}$,
+    equivalent to 2.5$\sigma$ significance. At 90% C.L., the data are consistent with 0.03(0.04)$<\sin^2
+    2\theta_{13}<$ 0.28(0.34) for $\delta_{\rm CP}=0$ and normal (inverted) hierarchy.
+  arxiv: '1106.2822'
+  doi: 10.1103/PhysRevLett.107.041801
+  journal: Phys.Rev.Lett.
+  volume: '107'
+  pages: 041801
+  year: 2011
+  published_date: 2011-06
+  citation_count: 1910
+  collaboration: T2K
+  bibtag: T2K:2011ypd
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevLett.107.041801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:T2K:2011ypd
+    arxiv: https://arxiv.org/abs/1106.2822
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nue
+    mode:
+    - appearance
+    parameters:
+    - θ₁₃
+    observables: indication of nue appearance over 295 km
+    notes: null

@@ -1,0 +1,38 @@
+- inspire_recid: 788212
+  title: Measurement of Neutrino Oscillations with the MINOS Detectors in the NuMI Beam
+  abstract: This letter reports new results from the MINOS experiment based on a two-year exposure to
+    muon neutrinos from the Fermilab NuMI beam. Our data are consistent with quantum mechanical oscillations
+    of neutrino flavor with mass splitting $|\Delta m^2|=(2.43\pm 0.13)\times10^{-3}$ eV$^2$ (68% confidence
+    level) and mixing angle $\sin^2(2\theta)>0.90$ (90% confidence level). Our data disfavor two alternative
+    explanations for the disappearance of neutrinos in flight, namely neutrino decays into lighter particles
+    and quantum decoherence of neutrinos, at the 3.7 and 5.7 standard deviation levels, respectively.
+  arxiv: '0806.2237'
+  doi: 10.1103/PhysRevLett.101.131802
+  journal: Phys.Rev.Lett.
+  volume: '101'
+  pages: '131802'
+  year: 2008
+  published_date: 2008-06
+  citation_count: 583
+  collaboration: MINOS
+  bibtag: MINOS:2008kxu
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevLett.101.131802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MINOS:2008kxu
+    arxiv: https://arxiv.org/abs/0806.2237
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: numu disappearance over 735 km in NuMI
+    notes: null

@@ -1,0 +1,39 @@
+- inspire_recid: 1381524
+  title: Discovery of $\tau$ Neutrino Appearance in the CNGS Neutrino Beam with the OPERA Experiment
+  abstract: The OPERA experiment was designed to search for $\nu_{\mu} \rightarrow \nu_{\tau}$ oscillations
+    in appearance mode, i.e. by detecting the $\tau$-leptons produced in charged current $\nu_{\tau}$
+    interactions. The experiment took data from 2008 to 2012 in the CERN Neutrinos to Gran Sasso beam.
+    The observation of $\nu_{\mu} \rightarrow \nu_{\tau}$ appearance, achieved with four candidate events
+    in a sub-sample of the data, was previously reported. In this paper, a fifth $\nu_{\tau}$ candidate
+    event, found in an enlarged data sample, is described. Together with a further reduction of the expected
+    background, the candidate events detected so far allow assessing the discovery of $\nu_{\mu}\rightarrow
+    \nu_{\tau}$ oscillations in appearance mode with a significance larger than 5 $\sigma$.
+  arxiv: '1507.01417'
+  doi: 10.1103/PhysRevLett.115.121802
+  journal: Phys.Rev.Lett.
+  volume: '115'
+  pages: '121802'
+  year: 2015
+  published_date: '2015-07-06'
+  citation_count: 257
+  collaboration: OPERA
+  bibtag: OPERA:2015wbl
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevLett.115.121802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2015wbl
+    arxiv: https://arxiv.org/abs/1507.01417
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+    mode:
+    - appearance
+    parameters:
+    - Δm²₃₂
+    observables: nutau appearance (discovery) in CNGS beam over 730 km
+    notes: null

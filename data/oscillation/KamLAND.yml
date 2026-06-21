@@ -1,0 +1,41 @@
+- inspire_recid: 604286
+  title: 'First results from KamLAND: Evidence for reactor anti-neutrino disappearance'
+  abstract: KamLAND has been used to measure the flux of $\bar{\nu}_e$'s from distant nuclear reactors.
+    In an exposure of 162 ton$\cdot$yr (145.1 days) the ratio of the number of observed inverse $\beta$-decay
+    events to the expected number of events without disappearance is $0.611\pm 0.085 {\rm (stat)} \pm
+    0.041 {\rm (syst)} $ for $\bar{\nu}_e$ energies $>$ 3.4 MeV. The deficit of events is inconsistent
+    with the expected rate for standard $\bar{\nu}_e$ propagation at the 99.95% confidence level. In the
+    context of two-flavor neutrino oscillations with CPT invariance, these results exclude all oscillation
+    solutions but the `Large Mixing Angle' solution to the solar neutrino problem using reactor $\bar{\nu}_e$
+    sources.
+  arxiv: hep-ex/0212021
+  doi: 10.1103/PhysRevLett.90.021802
+  journal: Phys.Rev.Lett.
+  volume: '90'
+  pages: 021802
+  year: 2003
+  published_date: 2002-12
+  citation_count: 3806
+  collaboration: KamLAND
+  bibtag: KamLAND:2002uet
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevLett.90.021802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KamLAND:2002uet
+    arxiv: https://arxiv.org/abs/hep-ex/0212021
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: reactor antineutrino flux deficit at ~180 km
+    notes: null

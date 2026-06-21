@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NuBib Oscillation Paper Record",
+  "description": "One published experimental neutrino-oscillation measurement paper tracked by NuBib (oscillation cluster).",
+  "type": "object",
+  "required": ["bibtag", "title", "collaboration", "year", "measurements"],
+  "properties": {
+    "bibtag": {
+      "type": "string",
+      "description": "INSPIRE-HEP texkey, e.g. T2K:2011ypd. Primary key.",
+      "pattern": "^[A-Za-z0-9.-]+:[0-9a-z]+$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "collaboration": { "type": "string", "minLength": 1 },
+    "arxiv": { "type": ["string", "null"] },
+    "doi": { "type": ["string", "null"] },
+    "journal": { "type": ["string", "null"] },
+    "volume": { "type": ["string", "null"] },
+    "pages": { "type": ["string", "null"] },
+    "year": { "type": "integer", "minimum": 1960, "maximum": 2100 },
+    "published_date": { "type": ["string", "null"] },
+    "inspire_recid": { "type": ["integer", "null"] },
+    "citation_count": { "type": ["integer", "null"] },
+    "abstract": { "type": ["string", "null"] },
+    "added": { "type": ["string", "null"] },
+    "notes": { "type": ["string", "null"] },
+    "links": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "null"] }
+    },
+    "measurements": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One or more distinct oscillation results reported in the paper.",
+      "items": {
+        "type": "object",
+        "required": ["source", "framework", "channels"],
+        "properties": {
+          "source": {
+            "type": "string",
+            "enum": ["solar", "atmospheric", "reactor", "accelerator"],
+            "description": "Neutrino source / flux."
+          },
+          "framework": {
+            "type": "string",
+            "enum": ["PMNS", "Exotic"],
+            "description": "Standard 3-flavor PMNS, or beyond-standard."
+          },
+          "bsm_type": {
+            "type": ["string", "null"],
+            "enum": ["sterile", "NSI", "LIV", "decay", "decoherence", "non-unitarity", null],
+            "description": "Beyond-standard mechanism, when framework is Exotic."
+          },
+          "channels": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Oscillation transition(s) probed, initial->final flavor.",
+            "items": {
+              "type": "object",
+              "required": ["from", "to"],
+              "properties": {
+                "from": { "type": "string", "enum": ["nue", "numu", "nutau", "nus"] },
+                "to": { "type": "string", "enum": ["nue", "numu", "nutau", "nus"] },
+                "nubar": { "type": "boolean" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "mode": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["appearance", "disappearance"] },
+            "description": "Derived from channels (same-flavor -> disappearance, cross-flavor -> appearance)."
+          },
+          "parameters": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "description": "Oscillation parameters measured/constrained, in Greek/Unicode notation, e.g. θ₁₂, θ₁₃, θ₂₃, Δm²₂₁, Δm²₃₁, Δm²₃₂, δCP, mass ordering, Δm²₄₁, θ₁₄, θ₂₄."
+          },
+          "observables": { "type": ["string", "null"] },
+          "notes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

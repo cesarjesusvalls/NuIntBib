@@ -1,0 +1,49 @@
+- inspire_recid: 1675670
+  title: Significant Excess of ElectronLike Events in the MiniBooNE Short-Baseline Neutrino Experiment
+  abstract: The MiniBooNE experiment at Fermilab reports results from an analysis of $\nu_e$ appearance
+    data from $12.84 \times 10^{20}$ protons on target in neutrino mode, an increase of approximately
+    a factor of two over previously reported results. A $\nu_e$ charged-current quasielastic event excess
+    of $381.2 \pm 85.2$ events ($4.5 \sigma$) is observed in the energy range $200<E_\nu^{QE}<1250$~MeV.
+    Combining these data with the $\bar \nu_e$ appearance data from $11.27 \times 10^{20}$ protons on
+    target in antineutrino mode, a total $\nu_e$ plus $\bar \nu_e$ charged-current quasielastic event
+    excess of $460.5 \pm 99.0$ events ($4.7 \sigma$) is observed. If interpreted in a two-neutrino oscillation
+    model, ${\nu}_{\mu} \rightarrow {\nu}_e$, the best oscillation fit to the excess has a probability
+    of $21.1\%$, while the background-only fit has a $\chi^2$ probability of $6 \times 10^{-7}$ relative
+    to the best fit. The MiniBooNE data are consistent in energy and magnitude with the excess of events
+    reported by the Liquid Scintillator Neutrino Detector (LSND), and the significance of the combined
+    LSND and MiniBooNE excesses is $6.0 \sigma$. A two-neutrino oscillation interpretation of the data
+    would require at least four neutrino types and indicate physics beyond the three neutrino paradigm.Although
+    the data are fit with a two-neutrino oscillation model, other models may provide better fits to the
+    data.
+  arxiv: '1805.12028'
+  doi: 10.1103/PhysRevLett.121.221801
+  journal: Phys.Rev.Lett.
+  volume: '121'
+  pages: '221801'
+  year: 2018
+  published_date: '2018-05-30'
+  citation_count: 740
+  collaboration: MiniBooNE
+  bibtag: MiniBooNE:2018esg
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevLett.121.221801
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:MiniBooNE:2018esg
+    arxiv: https://arxiv.org/abs/1805.12028
+  measurements:
+  - source: accelerator
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: nue
+    - from: numu
+      to: nue
+      nubar: true
+    mode:
+    - appearance
+    parameters:
+    - Δm²₄₁
+    observables: electron-like event excess at 541 m
+    notes: null

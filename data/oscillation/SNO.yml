@@ -1,0 +1,40 @@
+- inspire_recid: 585723
+  title: Direct evidence for neutrino flavor transformation from neutral current interactions in the Sudbury
+    Neutrino Observatory
+  abstract: Observations of neutral current neutrino interactions on deuterium in the Sudbury Neutrino
+    Observatory are reported. Using the neutral current, elastic scattering, and charged current reactions
+    and assuming the standard 8B shape, the electron-neutrino component of the 8B solar flux is 1.76 +/-0.05(stat.)+/-0.09(syst.)
+    x10^6/(cm^2 s), for a kinetic energy threshold of 5 MeV. The non-electron neutrino component is 3.41+/-0.45(stat.)+0.48,-0.45(syst.)
+    x10^6/(cm^2 s), 5.3 standard deviations greater than zero, providing strong evidence for solar electron
+    neutrino flavor transformation. The total flux measured with the NC reaction is 5.09 +0.44,-0.43(stat.)+0.46,-0.43(syst.)x10^6/(cm^2
+    s), consistent with solar models.
+  arxiv: nucl-ex/0204008
+  doi: 10.1103/PhysRevLett.89.011301
+  journal: Phys.Rev.Lett.
+  volume: '89'
+  pages: '011301'
+  year: 2002
+  published_date: 2002-04
+  citation_count: 5223
+  collaboration: SNO
+  bibtag: SNO:2002tuh
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevLett.89.011301
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:SNO:2002tuh
+    arxiv: https://arxiv.org/abs/nucl-ex/0204008
+  measurements:
+  - source: solar
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₂
+    - Δm²₂₁
+    observables: NC/CC/ES solar 8B flux; direct evidence of flavor transformation
+    notes: null

@@ -1,0 +1,39 @@
+- inspire_recid: 719389
+  title: Measurement of Neutrino Oscillation by the K2K Experiment
+  abstract: We present measurements of nu_mu disappearance in K2K, the KEK to Kamioka long-baseline neutrino
+    oscillation experiment. One hundred and twelve beam-originated neutrino events are observed in the
+    fiducial volume of Super-Kamiokande with an expectation of 158.1^{+9.2}_{-8.6} events without oscillation.
+    A distortion of the energy spectrum is also seen in 58 single-ring muon-like events with reconstructed
+    energies. The probability that the observations are explained by the expectation for no neutrino oscillation
+    is 0.0015% (4.3sigma). In a two flavor oscillation scenario, the allowed Delta m^2 region at sin^2(2theta)
+    is between 1.9 and 3.5 x 10^{-3} eV^2 at the 90% C.L. with a best-fit value of 2.8 x 10^{-3} eV^2.
+  arxiv: hep-ex/0606032
+  doi: 10.1103/PhysRevD.74.072003
+  journal: Phys.Rev.D
+  volume: '74'
+  pages: '072003'
+  year: 2006
+  published_date: 2006-06
+  citation_count: 1379
+  collaboration: K2K
+  bibtag: K2K:2006yov
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevD.74.072003
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:K2K:2006yov
+    arxiv: https://arxiv.org/abs/hep-ex/0606032
+  measurements:
+  - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: numu disappearance over 250 km
+    notes: null

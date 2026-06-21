@@ -1,0 +1,38 @@
+- inspire_recid: 472711
+  title: Evidence for oscillation of atmospheric neutrinos
+  abstract: We present an analysis of atmospheric neutrino data from a 33.0 kiloton-year (535-day) exposure
+    of the Super-Kamiokande detector. The data exhibit a zenith angle dependent deficit of muon neutrinos
+    which is inconsistent with expectations based on calculations of the atmospheric neutrino flux. Experimental
+    biases and uncertainties in the prediction of neutrino fluxes and cross sections are unable to explain
+    our observation. The data are consistent, however, with two-flavor nu_mu <-> nu_tau oscillations with
+    sin^2(2theta)>0.82 and 5x10^-4 < delta m^2 < 6x10^-3 eV^2 at 90% confidence level.
+  arxiv: hep-ex/9807003
+  doi: 10.1103/PhysRevLett.81.1562
+  journal: Phys.Rev.Lett.
+  volume: '81'
+  pages: '1562'
+  year: 1998
+  published_date: 1998-07
+  citation_count: 9121
+  collaboration: Super-Kamiokande
+  bibtag: Super-Kamiokande:1998kpq
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevLett.81.1562
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:1998kpq
+    arxiv: https://arxiv.org/abs/hep-ex/9807003
+  measurements:
+  - source: atmospheric
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₃
+    - Δm²₃₂
+    observables: zenith-angle dependence of atmospheric numu deficit
+    notes: null

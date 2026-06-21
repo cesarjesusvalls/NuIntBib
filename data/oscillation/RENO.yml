@@ -1,0 +1,41 @@
+- inspire_recid: 1102875
+  title: Observation of Reactor Electron Antineutrino Disappearance in the RENO Experiment
+  abstract: The RENO experiment has observed the disappearance of reactor electron antineutrinos, consistent
+    with neutrino oscillations, with a significance of 4.9 standard deviations. Antineutrinos from six
+    2.8 GW$_{th}$ reactors at the Yonggwang Nuclear Power Plant in Korea, are detected by two identical
+    detectors located at 294 m and 1383 m, respectively, from the reactor array center. In the 229 day
+    data-taking period between 11 August 2011 and 26 March 2012, the far (near) detector observed 17102
+    (154088) electron antineutrino candidate events with a background fraction of 5.5% (2.7%). The ratio
+    of observed to expected numbers of antineutrinos in the far detector is $0.920 \pm 0.009({\rm stat.})
+    \pm 0.014({\rm syst.})$. From this deficit, we determine $\sin^2 2 \theta_{13} = 0.113 \pm 0.013({\rm
+    stat.}) \pm 0.019({\rm syst.})$ based on a rate-only analysis.
+  arxiv: '1204.0626'
+  doi: 10.1103/PhysRevLett.108.191802
+  journal: Phys.Rev.Lett.
+  volume: '108'
+  pages: '191802'
+  year: 2012
+  published_date: 2012-04
+  citation_count: 2671
+  collaboration: RENO
+  bibtag: RENO:2012mkc
+  added: '2026-06-21'
+  notes: null
+  links:
+    doi: https://doi.org/10.1103/PhysRevLett.108.191802
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:RENO:2012mkc
+    arxiv: https://arxiv.org/abs/1204.0626
+  measurements:
+  - source: reactor
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: nue
+      to: nue
+      nubar: true
+    mode:
+    - disappearance
+    parameters:
+    - θ₁₃
+    observables: reactor antineutrino disappearance at ~1.4 km
+    notes: null
