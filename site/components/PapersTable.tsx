@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Icon } from '@/components/Icon';
 import { downloadText, fileSlug } from '@/lib/download';
 
@@ -17,16 +17,14 @@ export type PaperRow = {
   doi: string | null;
   inspire: string | null;
   bibtex: string;
-  experiment: string[];
-  current: string[];
-  flavor: string[];
-  target: string[];
-  topology: string[];
-  measurement_type: string[];
   searchText: string;
+  // cluster-specific facet arrays + display fields (interaction: current/flavor/target/topology…)
+  [key: string]: unknown;
 };
 
 export type RowFacet = { key: string; label: string; allLabel: string; values: string[] };
+
+const PAGE = 25;
 
 const ALL = 'All';
 type SortKey = 'year-desc' | 'year-asc' | 'cites-desc' | 'title-asc';
@@ -40,6 +38,39 @@ const FLAVOR_LABEL: Record<string, string> = {
 
 function flavorLabel(f: string) {
   return FLAVOR_LABEL[f] ?? f;
+}
+
+function defaultInteractionTags(r: PaperRow): ReactNode {
+  const arr = (k: string) => (r[k] as string[] | undefined) ?? [];
+  return (
+    <>
+      {arr('current').map((c) => (
+        <span className={`tag tag-${c.toLowerCase()}`} key={c}>
+          {c}
+        </span>
+      ))}
+      {arr('flavor').map((f) => (
+        <span className="tag tag-flavor" key={f}>
+          {flavorLabel(f)}
+        </span>
+      ))}
+      {arr('target').map((t) => (
+        <span className="tag tag-target" key={t}>
+          {t}
+        </span>
+      ))}
+      {arr('topology').map((t) => (
+        <span className="tag tag-topo" key={t}>
+          {t}
+        </span>
+      ))}
+      {arr('measurement_type').map((t) => (
+        <span className="tag tag-type" key={t}>
+          {t}
+        </span>
+      ))}
+    </>
+  );
 }
 
 function CopyCite({ bibtex, bibtag }: { bibtex: string; bibtag: string }) {
@@ -122,10 +153,23 @@ function LinkCluster({ row }: { row: PaperRow }) {
   );
 }
 
-export function PapersTable({ rows, facets }: { rows: PaperRow[]; facets: RowFacet[] }) {
+export function PapersTable({
+  rows,
+  facets,
+  renderTags,
+  searchPlaceholder = 'Search title, experiment, topology, bibtag…',
+  detailBase = '/papers',
+}: {
+  rows: PaperRow[];
+  facets: RowFacet[];
+  renderTags?: (row: PaperRow) => ReactNode;
+  searchPlaceholder?: string;
+  detailBase?: string | null;
+}) {
   const [active, setActive] = useState<Record<string, string>>({});
   const [query, setQuery] = useState('');
   const [sort, setSort] = useState<SortKey>('year-desc');
+  const [shown, setShown] = useState(PAGE);
 
   // Pre-select filters from the URL query string (e.g. /papers?experiment=MINERvA),
   // so deep links from the home page land on the right subset.
@@ -139,6 +183,11 @@ export function PapersTable({ rows, facets }: { rows: PaperRow[]; facets: RowFac
     if (Object.keys(next).length) setActive((c) => ({ ...c, ...next }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Reset pagination whenever the result set changes.
+  useEffect(() => {
+    setShown(PAGE);
+  }, [active, query, sort]);
 
   const topFacet = facets.find((f) => f.key === 'experiment')!;
   const sidebarFacets = facets.filter((f) => f.key !== 'experiment');
@@ -271,7 +320,7 @@ export function PapersTable({ rows, facets }: { rows: PaperRow[]; facets: RowFac
                 aria-label="Search papers"
                 autoComplete="off"
                 onChange={(e) => setQuery(e.currentTarget.value)}
-                placeholder="Search title, experiment, topology, bibtag…"
+                placeholder={searchPlaceholder}
                 type="search"
                 value={query}
               />
@@ -325,46 +374,39 @@ export function PapersTable({ rows, facets }: { rows: PaperRow[]; facets: RowFac
           </div>
 
           <ul className="papers-list">
-            {visible.map((r) => (
+            {visible.slice(0, shown).map((r) => (
               <li className="panel paper-row" key={r.slug}>
                 <div className="paper-row-main">
-                  <Link className="paper-title" href={`/papers/${r.slug}/`}>
-                    <span dangerouslySetInnerHTML={{ __html: r.titleHtml }} />
-                  </Link>
+                  {detailBase ? (
+                    <Link className="paper-title" href={`${detailBase}/${r.slug}/`}>
+                      <span dangerouslySetInnerHTML={{ __html: r.titleHtml }} />
+                    </Link>
+                  ) : (
+                    <span
+                      className="paper-title paper-title-plain"
+                      dangerouslySetInnerHTML={{ __html: r.titleHtml }}
+                    />
+                  )}
                   <div className="paper-meta">
                     <span className="tag tag-exp">{r.collaboration}</span>
                     <span className="tag">{r.year ?? '—'}</span>
-                    {r.current.map((c) => (
-                      <span className={`tag tag-${c.toLowerCase()}`} key={c}>
-                        {c}
-                      </span>
-                    ))}
-                    {r.flavor.map((f) => (
-                      <span className="tag tag-flavor" key={f}>
-                        {flavorLabel(f)}
-                      </span>
-                    ))}
-                    {r.target.map((t) => (
-                      <span className="tag tag-target" key={t}>
-                        {t}
-                      </span>
-                    ))}
-                    {r.topology.map((t) => (
-                      <span className="tag tag-topo" key={t}>
-                        {t}
-                      </span>
-                    ))}
-                    {r.measurement_type.map((t) => (
-                      <span className="tag tag-type" key={t}>
-                        {t}
-                      </span>
-                    ))}
+                    {(renderTags ?? defaultInteractionTags)(r)}
                   </div>
                 </div>
                 <LinkCluster row={r} />
               </li>
             ))}
           </ul>
+          {visible.length > shown ? (
+            <div className="papers-more">
+              <button onClick={() => setShown((n) => n + PAGE)} type="button">
+                Show {Math.min(PAGE, visible.length - shown)} more
+                <small>
+                  {shown} / {visible.length}
+                </small>
+              </button>
+            </div>
+          ) : null}
           {visible.length === 0 ? (
             <p className="papers-empty">No papers match these filters. Try clearing some.</p>
           ) : null}

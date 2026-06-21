@@ -1,4 +1,4 @@
-/* ---- NuIntBib: papers table, link cluster, stats ---- */
+/* ---- NuBib: papers table, link cluster, stats ---- */
 
 /* Hero titles: our pages have no hero visual, so use the full width and a
    generous title cap instead of doraemon's narrow 12ch column. */
@@ -229,6 +229,116 @@
 .tag-type {
   color: var(--muted);
   background: transparent;
+}
+
+/* oscillation-cluster tags */
+.tag-source {
+  background: #eef3f1;
+  border-color: #cfe0da;
+  color: var(--palo-alto-dark);
+  font-weight: 600;
+}
+.tag-framework {
+  background: #eef6ef;
+  border-color: #cfe4d0;
+  color: #2f7a3a;
+}
+.tag-framework.tag-exotic {
+  background: #fbeeef;
+  border-color: #efccd0;
+  color: var(--cardinal);
+}
+.tag-bsm {
+  background: #f6ece1;
+  border-color: #e6cfb6;
+  color: #92531a;
+}
+.tag-channel {
+  background: #f0eef6;
+  border-color: #d8d2e8;
+  color: var(--plum);
+}
+.tag-param {
+  background: #fff;
+}
+
+/* plain (non-link) title for clusters without detail pages yet */
+.paper-title-plain {
+  cursor: default;
+}
+.paper-title-plain:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* cluster toggle: interactions vs oscillations */
+.cluster-toggle {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+.cluster-toggle button {
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 650;
+  padding: 0.5rem 1.1rem;
+  background: var(--white);
+  color: var(--black-80);
+  border: none;
+  border-right: 1px solid var(--line);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: background-color 0.15s, color 0.15s;
+}
+.cluster-toggle button:last-child {
+  border-right: none;
+}
+.cluster-toggle button small {
+  font-family: var(--font-roboto-mono), monospace;
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+.cluster-toggle button.is-on {
+  background: var(--cardinal);
+  color: var(--white);
+}
+.cluster-toggle button.is-on small {
+  opacity: 0.85;
+}
+
+/* pagination "show more" */
+.papers-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+.papers-more button {
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 650;
+  padding: 0.55rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: var(--white);
+  color: var(--ink);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: border-color 0.15s, color 0.15s;
+}
+.papers-more button:hover {
+  border-color: var(--cardinal);
+  color: var(--cardinal);
+}
+.papers-more button small {
+  font-family: var(--font-roboto-mono), monospace;
+  font-size: 0.7rem;
+  color: var(--muted);
 }
 
 /* Link cluster (arXiv / DOI / INSPIRE / Cite / citations) */

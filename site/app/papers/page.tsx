@@ -1,20 +1,22 @@
 import type { Metadata } from 'next';
 import { PageHero } from '@/components/UI';
-import { PapersTable, type PaperRow, type RowFacet } from '@/components/PapersTable';
+import { ClusteredPapers } from '@/components/ClusteredPapers';
+import type { PaperRow, RowFacet } from '@/components/PapersTable';
 import { getAllPapers, getFacets, paperFacetValues } from '@/lib/papers';
+import { getAllOscPapers, getOscFacets, oscFacetValues, paramSearchAliases } from '@/lib/oscillation';
 import { stripTex, texToHtml } from '@/lib/tex';
 
 export const metadata: Metadata = {
   title: 'Papers',
   description:
-    'Browse and filter every tracked neutrino interaction measurement by experiment, current, flavor, target, and interaction topology.',
+    'Browse and filter neutrino interaction and oscillation measurements by experiment, channel, and more.',
 };
 
 export default function PapersPage() {
+  // --- interactions cluster ---
   const papers = getAllPapers();
-  const facets = getFacets(papers) as RowFacet[];
-
-  const rows: PaperRow[] = papers.map((p) => {
+  const intFacets = getFacets(papers) as RowFacet[];
+  const intRows: PaperRow[] = papers.map((p) => {
     const fv = paperFacetValues(p);
     return {
       slug: p.slug,
@@ -50,17 +52,64 @@ export default function PapersPage() {
     };
   });
 
+  // --- oscillations cluster ---
+  const oscPapers = getAllOscPapers();
+  const oscFacets = getOscFacets(oscPapers) as RowFacet[];
+  const oscRows: PaperRow[] = oscPapers.map((p) => {
+    const fv = oscFacetValues(p);
+    const bsm = Array.from(
+      new Set(p.measurements.map((m) => m.bsm_type).filter((x): x is string => Boolean(x))),
+    );
+    return {
+      slug: p.slug,
+      bibtag: p.bibtag,
+      title: stripTex(p.title),
+      titleHtml: texToHtml(p.title),
+      collaboration: p.collaboration,
+      year: p.year,
+      citation_count: p.citation_count ?? null,
+      arxiv: p.arxiv ?? null,
+      doi: p.doi ?? null,
+      inspire: p.links?.inspire ?? null,
+      bibtex: p.bibtex,
+      experiment: fv.experiment,
+      source: fv.source,
+      framework: fv.framework,
+      mode: fv.mode,
+      channel: fv.channel,
+      parameter: fv.parameter,
+      bsm,
+      searchText: [
+        stripTex(p.title),
+        p.bibtag,
+        p.collaboration,
+        p.year,
+        ...fv.source,
+        ...fv.channel,
+        ...fv.parameter,
+        ...paramSearchAliases(fv.parameter),
+        ...fv.framework,
+      ]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase(),
+    };
+  });
+
   return (
     <>
       <PageHero
-        eyebrow={`${papers.length} measurements`}
-        title="Neutrino interaction measurements"
-        body="Up-to-date, labeled neutrino-interaction measurements."
+        eyebrow={`${intRows.length + oscRows.length} measurements`}
+        title="Neutrino measurements"
+        body="Up-to-date, labeled neutrino interaction and oscillation measurements."
         className="page-hero-flush"
       />
       <section className="section section-papers">
         <div className="container">
-          <PapersTable rows={rows} facets={facets} />
+          <ClusteredPapers
+            interactions={{ rows: intRows, facets: intFacets, count: intRows.length }}
+            oscillations={{ rows: oscRows, facets: oscFacets, count: oscRows.length }}
+          />
         </div>
       </section>
     </>
