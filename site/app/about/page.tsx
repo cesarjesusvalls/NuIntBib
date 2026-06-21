@@ -4,7 +4,7 @@ import { site } from '@/lib/site-data';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'What NuIntBib keeps track of, and how to contribute.',
+  description: 'What NuBib keeps track of, and how to contribute.',
 };
 
 export default function AboutPage() {
@@ -12,7 +12,7 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About"
-        title="A living index of neutrino interaction measurements"
+        title="A living index of neutrino measurements"
         body="A structured, validated database that anyone can browse, cite, and help grow."
         className="page-hero-flush"
       />
@@ -20,7 +20,7 @@ export default function AboutPage() {
         <Container className="prose">
           <h2 className="type-h3">What we keep track of</h2>
           <p>
-            NuIntBib indexes published, peer-reviewed measurements of neutrino interactions.
+            NuBib indexes published, peer-reviewed measurements of neutrino interactions.
             Qualifying measurements include both cross section results (inclusive or exclusive) and
             related interaction observables (e.g. production yields).
           </p>
@@ -33,7 +33,7 @@ export default function AboutPage() {
             How to contribute
           </h2>
           <p>
-            NuIntBib is developed and managed by {site.maintainer} ({site.maintainerAffiliation}).
+            NuBib is developed and managed by {site.maintainer} ({site.maintainerAffiliation}).
             Corrections, additions, and suggestions are welcome by email (
             <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>) or on{' '}
             <a href={`${site.githubUrl}/issues`} target="_blank" rel="noreferrer">

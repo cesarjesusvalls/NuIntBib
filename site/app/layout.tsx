@@ -29,7 +29,7 @@ const robotoMono = Roboto_Mono({
 export const metadata: Metadata = {
   title: {
     default: site.title,
-    template: '%s | NuIntBib',
+    template: '%s | NuBib',
   },
   description: site.description,
   icons: {

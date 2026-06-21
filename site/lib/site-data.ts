@@ -1,10 +1,9 @@
 export const site = {
-  name: 'NuIntBib',
-  fullName: 'Neutrino Interaction Measurements',
-  tagline: 'Neutrino interaction measurements, in one place.',
-  title: 'NuIntBib | Neutrino Interaction Measurements',
-  description:
-    'A continuously updated index of published neutrino-interaction measurements.',
+  name: 'NuBib',
+  fullName: 'Neutrino Measurements',
+  tagline: 'Neutrino measurements, in one place.',
+  title: 'NuBib | Neutrino Measurements',
+  description: 'A continuously updated index of published neutrino measurements.',
   url: 'https://nubib.org',
   githubUrl: 'https://github.com/cesarjesusvalls/NuIntBib',
   maintainer: 'César Jesús Valls',
