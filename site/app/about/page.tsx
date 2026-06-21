@@ -20,13 +20,21 @@ export default function AboutPage() {
         <Container className="prose">
           <h2 className="type-h3">What we keep track of</h2>
           <p>
-            NuBib indexes published, peer-reviewed measurements of neutrino interactions.
-            Qualifying measurements include both cross section results (inclusive or exclusive) and
-            related interaction observables (e.g. production yields).
+            NuBib indexes published, peer-reviewed neutrino measurements from experiments, organized
+            into topical clusters.
           </p>
           <p>
-            Not included: theory/generator papers, pure flux measurements, detector- or method-only
-            papers, and conference proceedings whose result also appears as a journal article.
+            Interactions: cross section results (inclusive or exclusive) and related interaction
+            observables such as production yields.
+          </p>
+          <p>
+            Oscillations: measurements of oscillation parameters and flavor transitions, such as
+            mixing angles, mass splittings, δCP, and appearance or disappearance results.
+          </p>
+          <p>
+            Not included: theory, generator, and phenomenology papers, global fits, sensitivity or
+            projection studies, pure flux measurements, detector or method-only papers, and
+            conference proceedings whose result also appears as a journal article.
           </p>
 
           <h2 className="type-h3" id="contribute">
