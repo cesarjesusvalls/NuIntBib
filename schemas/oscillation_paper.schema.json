@@ -69,7 +69,7 @@
           "mode": {
             "type": "array",
             "items": { "type": "string", "enum": ["appearance", "disappearance"] },
-            "description": "Derived from channels (same-flavor -> disappearance, cross-flavor -> appearance)."
+            "description": "Derived from the channels: same-flavor -> disappearance, cross-flavor -> appearance. A joint fit carries both. Parameter-level goals (δCP, mass ordering, …) live in `parameters`, not here."
           },
           "parameters": {
             "type": "array",
