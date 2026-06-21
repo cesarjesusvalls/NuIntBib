@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Dev-only: allow the Cloudflare quick-tunnel origin so client interactivity
+  // (hydration/HMR) works when previewing through the tunnel. Ignored in `next build`.
+  allowedDevOrigins: ['*.trycloudflare.com'],
 };
 
 export default nextConfig;
