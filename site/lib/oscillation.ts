@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
+import type { Timeline } from './papers';
 
 // Oscillation cluster — parallel to lib/papers.ts but reads data/oscillation/*.yml.
 const REPO_ROOT = path.join(process.cwd(), '..');
@@ -141,6 +142,63 @@ export function oscFacetValues(p: OscPaper): Record<string, string[]> {
     channel: uniqueSorted(p.measurements.flatMap((m) => (m.channels ?? []).map(channelLabel))),
     parameter: uniqueSorted(p.measurements.flatMap((m) => m.parameters ?? [])),
   };
+}
+
+// ---- timeline (papers/citations per year, broken down by dimension) --------
+
+const TL_DIMS: { key: string; label: string; values: (p: OscPaper) => string[] }[] = [
+  { key: 'experiment', label: 'Experiment', values: (p) => paperExperiments(p) },
+  { key: 'source', label: 'Source', values: (p) => uniqueSorted(p.measurements.map((m) => m.source)) },
+  { key: 'framework', label: 'Framework', values: (p) => uniqueSorted(p.measurements.map((m) => m.framework)) },
+  { key: 'mode', label: 'Mode', values: (p) => uniqueSorted(p.measurements.flatMap((m) => m.mode ?? [])) },
+  {
+    key: 'channel',
+    label: 'Channel',
+    values: (p) => uniqueSorted(p.measurements.flatMap((m) => (m.channels ?? []).map(channelLabel))),
+  },
+  {
+    key: 'parameter',
+    label: 'Parameter',
+    values: (p) => uniqueSorted(p.measurements.flatMap((m) => m.parameters ?? [])),
+  },
+];
+
+/** Per-year paper counts and citation sums for the oscillation cluster, by dimension. */
+export function getOscTimeline(papers: OscPaper[]): Timeline {
+  const ys = papers.map((p) => p.year).filter((y): y is number => Boolean(y));
+  if (!ys.length) return { years: [], total: { papers: [], citations: [] }, dims: [] };
+  const min = Math.min(...ys);
+  const max = Math.max(...ys);
+  const years = Array.from({ length: max - min + 1 }, (_, i) => min + i);
+  const idx = new Map(years.map((y, i) => [y, i]));
+  const zeros = () => years.map(() => 0);
+  const total = { papers: zeros(), citations: zeros() };
+  const dims = TL_DIMS.map((s) => ({
+    key: s.key,
+    label: s.label,
+    values: [] as string[],
+    series: {} as Record<string, { papers: number[]; citations: number[] }>,
+  }));
+  for (const p of papers) {
+    if (p.year == null) continue;
+    const i = idx.get(p.year);
+    if (i == null) continue;
+    const c = p.citation_count ?? 0;
+    total.papers[i] += 1;
+    total.citations[i] += c;
+    TL_DIMS.forEach((s, di) => {
+      for (const v of s.values(p)) {
+        const ser = (dims[di].series[v] ??= { papers: zeros(), citations: zeros() });
+        ser.papers[i] += 1;
+        ser.citations[i] += c;
+      }
+    });
+  }
+  const sum = (a: number[]) => a.reduce((x, y) => x + y, 0);
+  for (const d of dims) {
+    d.values = Object.keys(d.series).sort((a, b) => sum(d.series[b].papers) - sum(d.series[a].papers));
+  }
+  return { years, total, dims };
 }
 
 export function getOscFacets(papers: OscPaper[]): Facet[] {
