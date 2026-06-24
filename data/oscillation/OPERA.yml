@@ -112,6 +112,19 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:OPERA:2019kzo
   measurements:
   - source: accelerator
+    framework: PMNS
+    bsm_type: null
+    channels:
+    - from: numu
+      to: nutau
+      nubar: false
+    mode:
+    - appearance
+    parameters:
+    - Δm²₃₂
+    observables: null
+    notes: three-flavor nutau-appearance result
+  - source: accelerator
     framework: Exotic
     bsm_type: sterile
     channels:
@@ -127,7 +140,7 @@
     - Δm²₄₁
     - θ₂₄
     observables: null
-    notes: null
+    notes: 3+1 sterile search (joint nutau + nue appearance)
 - bibtag: OPERA:2018ksq
   title: Final results of the search for $\nu_{\mu} \to \nu_{e}$ oscillations with the OPERA detector
     in the CNGS beam

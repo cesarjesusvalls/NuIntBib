@@ -37,6 +37,19 @@
     - Δm²₃₂
     observables: null
     notes: null
+  - source: atmospheric
+    framework: Exotic
+    bsm_type: sterile
+    channels:
+    - from: numu
+      to: numu
+    mode:
+    - disappearance
+    parameters:
+    - θ₂₄
+    - Δm²₄₁
+    observables: null
+    notes: 3+1 sterile constraint reported alongside the standard fit
 - bibtag: ANTARES:2012tem
   title: Measurement of Atmospheric Neutrino Oscillations with the ANTARES Neutrino Telescope
   collaboration: ANTARES
