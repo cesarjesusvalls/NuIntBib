@@ -113,9 +113,9 @@ def candidate_from_meta(meta: dict) -> dict:
         return {}
     arxiv = n.get("arxiv")
     triage = (
-        "PROCEEDING/thesis — include ONLY if no journal article covers it"
+        "PROCEEDING/thesis, include ONLY if no journal article covers it"
         if is_proceeding(meta)
-        else "article — verify it is an EXPERIMENTAL oscillation MEASUREMENT "
+        else "article, verify it is an EXPERIMENTAL oscillation MEASUREMENT "
         "(not sensitivity/projection, not phenomenology/global-fit)"
     )
     return {

@@ -3,7 +3,7 @@ import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import type { Timeline } from './papers';
 
-// Oscillation cluster — parallel to lib/papers.ts but reads data/oscillation/*.yml.
+// Oscillation cluster: parallel to lib/papers.ts but reads data/oscillation/*.yml.
 const REPO_ROOT = path.join(process.cwd(), '..');
 const OSC_DIR = path.join(REPO_ROOT, 'data', 'oscillation');
 

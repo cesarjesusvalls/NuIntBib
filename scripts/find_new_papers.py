@@ -69,7 +69,7 @@ def candidate_from_meta(meta: dict) -> dict:
     dtype = n.get("document_type") or []
     if is_proceeding(meta):
         triage = (
-            "PROCEEDING/thesis — include ONLY if no journal article covers the same "
+            "PROCEEDING/thesis, include ONLY if no journal article covers the same "
             "result (see UPDATE.md). Check for a matching article first."
         )
     elif prefix in COLLABORATIONS:

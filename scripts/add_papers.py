@@ -4,7 +4,7 @@
 Reads a candidates file (default data/candidates.yml) whose records each have a
 non-empty `measurements` list, appends new ones to data/papers/<exp>.yml, and
 re-runs schema validation. Candidates with no measurements are skipped (they
-still need classification — see UPDATE.md).
+still need classification, see UPDATE.md).
 
 A measurement may be given either as a structured object or as a legacy 6-tuple
 [topology, target, current, flavor, observables, energy]; tuples are normalized.
@@ -72,7 +72,7 @@ def main() -> int:
         print(f"  + {rec['bibtag']:22} {rec.get('year')}  [{ms}]")
 
     if args.dry_run:
-        print("\n(dry run — nothing written)")
+        print("\n(dry run, nothing written)")
         return 0
 
     added = db.append_records(ready)

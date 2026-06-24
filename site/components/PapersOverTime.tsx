@@ -194,12 +194,12 @@ export function PapersOverTime({ data }: { data: Timeline }) {
         {value ? (
           <>
             {' '}
-            — <span className="tl-legend-sel" /> {value} highlighted within the total
+            · <span className="tl-legend-sel" /> {value} highlighted within the total
           </>
         ) : (
           <>
             {' '}
-            — pick a {dim?.label.toLowerCase()} to highlight its share within the total.
+            · pick a {dim?.label.toLowerCase()} to highlight its share within the total.
           </>
         )}
       </p>

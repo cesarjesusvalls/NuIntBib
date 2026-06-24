@@ -54,7 +54,7 @@ export default async function PaperDetailPage({ params }: PageProps) {
         <Container className="page-hero-inner">
           <div className="page-hero-copy">
             <p className="eyebrow">
-              {expLabel} · {paper.year ?? '—'}
+              {expLabel} · {paper.year ?? '–'}
             </p>
             <h1 className="type-h1">
               <Tex text={paper.title} />
@@ -100,15 +100,15 @@ export default async function PaperDetailPage({ params }: PageProps) {
               <dl>
                 <div>
                   <dt>Year</dt>
-                  <dd>{paper.year ?? '—'}</dd>
+                  <dd>{paper.year ?? '–'}</dd>
                 </div>
                 <div>
                   <dt>Published</dt>
-                  <dd>{paper.published_date ?? '—'}</dd>
+                  <dd>{paper.published_date ?? '–'}</dd>
                 </div>
                 <div>
                   <dt>Citations</dt>
-                  <dd>{paper.citation_count ?? '—'}</dd>
+                  <dd>{paper.citation_count ?? '–'}</dd>
                 </div>
                 <div>
                   <dt>BibTeX key</dt>
@@ -147,10 +147,10 @@ export default async function PaperDetailPage({ params }: PageProps) {
                         <tr key={i}>
                           <td>{m.source}</td>
                           <td>{m.framework + (m.bsm_type ? ` (${m.bsm_type})` : '')}</td>
-                          <td>{(m.channels ?? []).map(channelLabel).join(', ') || '—'}</td>
-                          <td>{(m.mode ?? []).join(', ') || '—'}</td>
-                          <td>{(m.parameters ?? []).join(', ') || '—'}</td>
-                          <td>{m.observables ?? '—'}</td>
+                          <td>{(m.channels ?? []).map(channelLabel).join(', ') || '–'}</td>
+                          <td>{(m.mode ?? []).join(', ') || '–'}</td>
+                          <td>{(m.parameters ?? []).join(', ') || '–'}</td>
+                          <td>{m.observables ?? '–'}</td>
                         </tr>
                       ))}
                     </tbody>
@@ -175,13 +175,13 @@ export default async function PaperDetailPage({ params }: PageProps) {
                           <td>
                             {m.flavor.map((f) => FLAVOR_LABEL[f] ?? f).join(', ') ||
                               m.flavor_note ||
-                              '—'}
+                              '–'}
                           </td>
-                          <td>{m.target.join(', ') || '—'}</td>
+                          <td>{m.target.join(', ') || '–'}</td>
                           <td>{m.topology}</td>
-                          <td>{m.measurement_type ?? '—'}</td>
-                          <td>{m.observables ?? '—'}</td>
-                          <td>{m.energy_notes ?? '—'}</td>
+                          <td>{m.measurement_type ?? '–'}</td>
+                          <td>{m.observables ?? '–'}</td>
+                          <td>{m.energy_notes ?? '–'}</td>
                         </tr>
                       ))}
                     </tbody>

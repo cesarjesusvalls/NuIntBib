@@ -5,8 +5,10 @@
 .page-hero-inner {
   grid-template-columns: 1fr;
 }
+/* No hero visual, so let titles use the full container width and stay on one
+   line on desktop. They still wrap on narrow screens as the container shrinks. */
 .page-hero .type-h1 {
-  max-width: 30ch;
+  max-width: none;
 }
 .detail-hero .type-h1 {
   max-width: 46ch;
@@ -640,6 +642,13 @@
 }
 .prose p {
   margin-top: 0.75rem;
+  line-height: 1.7;
+}
+.about-clusters {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.35rem;
   line-height: 1.7;
 }
 .prose a {

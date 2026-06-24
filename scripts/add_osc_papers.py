@@ -137,7 +137,7 @@ def main() -> int:
     for e, n in sorted(added.items(), key=lambda x: -x[1]):
         print(f"  +{n:2d}  {e}")
     if args.dry_run:
-        print("\n(dry run — nothing written)")
+        print("\n(dry run, nothing written)")
         return 0
 
     for exp, recs in existing.items():

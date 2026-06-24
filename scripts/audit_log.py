@@ -56,7 +56,7 @@ def record(bibtag: str, method: str, status: str, notes: str = "",
 
 
 def audited_closed(log: dict | None = None) -> set:
-    """Bibtags whose audit is settled (clean/fixed) — skip these next pass."""
+    """Bibtags whose audit is settled (clean/fixed), skip these next pass."""
     log = log if log is not None else load()
     return {k for k, v in log.items() if v.get("status") in CLOSED}
 

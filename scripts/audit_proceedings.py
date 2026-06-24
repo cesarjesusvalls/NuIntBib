@@ -96,7 +96,7 @@ def main() -> int:
             print(f"              {(rec.get('title') or '')[:78]}")
         else:
             standalone.append(rec)
-            print(f"  STANDALONE  {rec['bibtag']:26} {rec.get('year')}  (no matching article — keep)")
+            print(f"  STANDALONE  {rec['bibtag']:26} {rec.get('year')}  (no matching article, keep)")
 
     print(f"\n{len(superseded)} superseded, {len(standalone)} standalone "
           f"proceeding(s) among {len(records)} records")

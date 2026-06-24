@@ -1,7 +1,7 @@
 # NuIntBib
 
 A community-maintained, continuously updated index of published **neutrino
-cross-section measurements** — searchable and filterable by experiment, current,
+cross-section measurements**, searchable and filterable by experiment, current,
 flavor, target, and interaction topology, with one-click links to arXiv, the
 journal, INSPIRE, and BibTeX.
 
@@ -12,7 +12,7 @@ and enriched from INSPIRE-HEP. The website is a static render of that database.
 
 | Path | What |
 | --- | --- |
-| `data/papers/*.yml` | **Canonical database** — one file per experiment, one record per paper |
+| `data/papers/*.yml` | **Canonical database** (one file per experiment, one record per paper) |
 | `schemas/paper.schema.json` | Record contract (validated in CI and on every update) |
 | `data/legacy_classification.json` | Frozen hand-classification from `PaperFeatures.ipynb` |
 | `scripts/` | Python tooling (migrate, validate, update workflow) |

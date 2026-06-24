@@ -56,7 +56,7 @@ export function latexToUnicode(input: string): string {
 
 /**
  * Render a string that mixes plain text with inline `$...$` LaTeX into HTML.
- * Runs at build time (server) via katex.renderToString — no client JS needed.
+ * Runs at build time (server) via katex.renderToString; no client JS needed.
  * Unknown/broken math falls back to the escaped source rather than throwing.
  */
 function renderInlineTex(text: string): string {

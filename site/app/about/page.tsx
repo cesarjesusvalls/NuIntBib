@@ -23,19 +23,22 @@ export default function AboutPage() {
             NuBib indexes published, peer-reviewed neutrino measurements from experiments, organized
             into topical clusters.
           </p>
-          <p>
-            Interactions: cross section results (inclusive or exclusive) and related interaction
-            observables such as production yields.
-          </p>
-          <p>
-            Oscillations: measurements of oscillation parameters and flavor transitions, such as
-            mixing angles, mass splittings, δCP, and appearance or disappearance results.
-          </p>
-          <p>
-            Not included: theory, generator, and phenomenology papers, global fits, sensitivity or
-            projection studies, pure flux measurements, detector or method-only papers, and
-            conference proceedings whose result also appears as a journal article.
-          </p>
+          <ul className="about-clusters">
+            <li>
+              <strong>Interactions:</strong> cross section results (inclusive or exclusive) and
+              related interaction observables such as production yields.
+            </li>
+            <li>
+              <strong>Oscillations:</strong> measurements of the standard PMNS parameters, or tests
+              of exotic physics (sterile neutrinos, etc.).
+            </li>
+            <li>
+              <strong>Not included:</strong> theory, generator, and phenomenology papers, global
+              fits, sensitivity or projection studies, pure flux measurements, detector or
+              method-only papers, and conference proceedings whose result also appears as a journal
+              article.
+            </li>
+          </ul>
 
           <h2 className="type-h3" id="contribute">
             How to contribute

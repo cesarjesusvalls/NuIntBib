@@ -37,12 +37,11 @@ export default function HomePage() {
     }))
     .sort((a, b) => b.total - a.total);
 
-  const highlights = [
-    { value: totalPapers, label: 'Papers tracked' },
-    { value: expCount.size, label: 'Experiments' },
-    { value: `${yearRange[0]}–${yearRange[1]}`, label: 'Years covered' },
-    { value: totalCitations.toLocaleString(), label: 'Citations (INSPIRE)' },
-  ];
+  // Coverage summary folded into the "by experiment" section intro.
+  const coverageBody =
+    `Spanning ${yearRange[0]} to ${yearRange[1]}, the database tracks ${totalPapers} interaction ` +
+    `and oscillation papers across ${expCount.size} experiments, with ` +
+    `${totalCitations.toLocaleString()} INSPIRE citations in total.`;
 
   // latest additions across both clusters, newest first
   const dateOf = (d: string | null | undefined, y: number | null) =>
@@ -76,9 +75,9 @@ export default function HomePage() {
             <p className="eyebrow">Neutrino measurements literature resource</p>
             <h1 className="type-h1">Neutrino measurements, in one place.</h1>
             <p>
-              NuBib is a continuously updated index of published neutrino measurements — interaction
-              and oscillation results — searchable and filterable by experiment, channel, and more,
-              with one-click links to arXiv, the journal, INSPIRE, and BibTeX.
+              NuBib is a continuously updated index of published neutrino measurements, covering
+              both interaction and oscillation results. Search and filter by experiment, channel,
+              and more, with one-click links to arXiv, the journal, INSPIRE, and BibTeX.
             </p>
             <div className="hero-actions">
               <ButtonLink href="/papers">
@@ -102,23 +101,10 @@ export default function HomePage() {
 
       <section className="section">
         <Container>
-          <div className="stat-strip">
-            {highlights.map((h) => (
-              <div className="stat-cell" key={h.label}>
-                <strong>{h.value}</strong>
-                <span>{h.label}</span>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="section">
-        <Container>
           <SectionHeader
             eyebrow="By experiment"
             title="Coverage across the field"
-            body="Every collaboration in the database — interactions and oscillations — ordered by number of tracked papers."
+            body={coverageBody}
           />
           <div className="exp-grid">
             {experiments.map(({ exp, total, cluster }) => (

@@ -9,7 +9,7 @@ import { stripTex, texToHtml } from '@/lib/tex';
 export const metadata: Metadata = {
   title: 'Table builder',
   description:
-    'Assemble a custom table of neutrino interaction or oscillation papers — pick columns and filters, preview it, and export a ready-to-paste LaTeX (booktabs) table.',
+    'Assemble a custom table of neutrino interaction or oscillation papers: pick columns and filters, preview it, and export a ready-to-paste LaTeX (booktabs) table.',
 };
 
 export default function TablePage() {

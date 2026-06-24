@@ -43,6 +43,15 @@
   min-height: 14rem;
 }
 
+/* Home: trim the stacked section padding so the hero, experiment grid, and
+   latest-additions sections sit at a consistent, tight rhythm. */
+.page-hero + .section:has(.exp-grid) {
+  padding-block: 0.75rem 2rem;
+}
+.section:has(.exp-grid) + .section:has(.latest-list) {
+  padding-block-start: 2rem;
+}
+
 .home-hero-copy > p:not(.eyebrow),
 .page-hero-copy > p:not(.eyebrow) {
   margin: 1.5rem 0 0;
@@ -75,15 +84,17 @@
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  line-height: 1.2;
+  gap: 0.15rem;
+  line-height: 1.25;
 }
 .hero-cta strong {
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .hero-cta small {
-  font-size: 0.72rem;
+  font-size: 0.95rem;
   font-weight: 400;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .home-hero-visual,

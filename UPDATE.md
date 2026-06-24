@@ -1,4 +1,4 @@
-# Update runbook — adding new papers to NuIntBib
+# Update runbook: adding new papers to NuIntBib
 
 This is the procedure for the recurring **update session**: find neutrino
 cross-section papers published since our last update, classify them, and add the
@@ -16,7 +16,7 @@ uv venv .venv && uv pip install --python .venv pyyaml requests jsonschema
 .venv/bin/python scripts/find_new_papers.py            # writes data/candidates.yml
 
 # 2. classify each candidate's `measurements` (see "Classifying" below)
-#    — agent proposes, human approves —
+#    (agent proposes, human approves)
 
 # 3. ingest the classified, relevant candidates
 .venv/bin/python scripts/add_papers.py --from data/candidates.yml   # validates on write
@@ -50,7 +50,7 @@ publishes the final journal article. The rule:
 - If a **journal article reports the same result**, keep the **article** and drop
   the proceeding (the article is the citable, final version).
 - If **no matching article exists** (the result was only ever shown in a
-  proceeding), **keep the proceeding** — it is the only record of that measurement.
+  proceeding), **keep the proceeding**; it is the only record of that measurement.
 
 The discovery script (`find_new_papers.py`) tags proceedings in `_triage` and
 records their `_document_type`, so each can be checked during review. The audit
@@ -76,7 +76,7 @@ is the primary signal; proceedings venues (PoS, J.Phys.Conf.Ser., …) are a bac
 - Default `--since` is `(latest tracked published_date − 180 days)`, so late
   arrivals are not missed. De-duplication is against **all** known bibtags and
   arXiv ids, so re-scanning earlier dates is safe (nothing is added twice).
-- Output: `data/candidates.yml` — one record per new paper, already enriched
+- Output: `data/candidates.yml`, one record per new paper, already enriched
   from INSPIRE (title, journal, arXiv, date, citations, abstract), with an empty
   `measurements: []` list and a `_triage` hint.
 
@@ -86,8 +86,8 @@ For each candidate worth keeping, fill its `measurements` list. A paper may hold
 several measurements (different channel/target); add one entry each. Either:
 
 - write a structured object matching `schemas/paper.schema.json`, **or**
-- write a legacy 6-tuple `[topology, target, current, flavor, observables, energy]`
-  — `add_papers.py` normalizes tuples via `scripts/classify.py`.
+- write a legacy 6-tuple `[topology, target, current, flavor, observables, energy]`;
+  `add_papers.py` normalizes tuples via `scripts/classify.py`.
 
 ### Controlled vocabulary
 
@@ -129,14 +129,14 @@ GitHub Actions rebuilds and deploys the site (see `.github/workflows/`).
 ## Auditing classifications
 
 The classification of each paper (current/flavor/target/topology/measurement
-type) is periodically re-validated against its abstract — and, when the abstract
+type) is periodically re-validated against its abstract, and, when the abstract
 is ambiguous, its full text. To avoid repeating work, every audited paper is
 recorded in `data/audit_log.yml` (keyed by bibtag) with a status:
 
-- `clean` — classification matches the abstract, no change;
-- `fix-proposed` — a discrepancy was found, correction proposed;
-- `fixed` — correction applied;
-- `needs-fulltext` — abstract insufficient; flagged for body inspection.
+- `clean`: classification matches the abstract, no change;
+- `fix-proposed`: a discrepancy was found, correction proposed;
+- `fixed`: correction applied;
+- `needs-fulltext`: abstract insufficient; flagged for body inspection.
 
 `clean` and `fixed` are **closed** and skipped on future passes. Drive audits off
 the ledger:
@@ -150,7 +150,7 @@ scripts/audit_log.py open       # audited but unresolved (fix-proposed / needs-f
 Audit in batches (e.g. 20 at a time) so token spend stays visible. Common error
 patterns found so far: thesis-imported bubble-chamber rows where the coarse table
 columns mis-assigned current (CC vs NC), flavor (neutrino vs antineutrino), or
-target — always cross-check the abstract's reaction (e.g. a `μ+` final state is
+target. Always cross-check the abstract's reaction (e.g. a `μ+` final state is
 charged current; "in propane" means C3H8 only).
 
 ## Notes

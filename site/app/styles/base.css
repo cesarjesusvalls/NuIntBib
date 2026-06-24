@@ -370,7 +370,6 @@ html[data-scroll-reveal="ready"] [data-reveal][data-reveal-visible="true"] {
 }
 
 .section-header {
-  max-width: 44rem;
   margin-bottom: 2rem;
 }
 

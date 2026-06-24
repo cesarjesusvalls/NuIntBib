@@ -33,7 +33,7 @@ export default function StatsPage() {
       <PageHero
         eyebrow="Database statistics"
         title="What the collection covers"
-        body={`${totalPapers} papers — interaction and oscillation — across ${allExperiments.size} experiments, ${yearRange[0]}–${yearRange[1]}.`}
+        body={`${totalPapers} interaction and oscillation papers across ${allExperiments.size} experiments, from ${yearRange[0]} to ${yearRange[1]}.`}
         className="page-hero-flush"
       />
       <section className="section section-timeline">

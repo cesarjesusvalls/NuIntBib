@@ -336,7 +336,7 @@ export function PapersTable({
                 <option value="year-desc">Newest first</option>
                 <option value="year-asc">Oldest first</option>
                 <option value="cites-desc">Most cited</option>
-                <option value="title-asc">Title A–Z</option>
+                <option value="title-asc">Title A-Z</option>
               </select>
             </label>
             <button
@@ -389,7 +389,7 @@ export function PapersTable({
                   )}
                   <div className="paper-meta">
                     <span className="tag tag-exp">{r.collaboration}</span>
-                    <span className="tag">{r.year ?? '—'}</span>
+                    <span className="tag">{r.year ?? '–'}</span>
                     {(renderTags ?? defaultInteractionTags)(r)}
                   </div>
                 </div>
