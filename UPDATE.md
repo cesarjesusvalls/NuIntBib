@@ -1,10 +1,20 @@
-# Update runbook: adding new papers to NuIntBib
+# Update runbook: adding new papers to NuBib
 
-This is the procedure for the recurring **update session**: find neutrino
-cross-section papers published since our last update, classify them, and add the
-relevant ones to the database. It is designed to be driven by an agent (Claude
-Code) with a human approving classifications, but every step is a plain script
-you can also run by hand.
+This is the procedure for the recurring **update session**: find neutrino papers
+published since our last update, classify them, and add the relevant ones to the
+database. It is designed to be driven by an agent (Claude Code) with a human
+approving classifications, but every step is a plain script you can also run by
+hand.
+
+NuBib has two independent clusters, each with its own discovery + add pipeline:
+
+- **Interactions** — cross-section measurements (the bulk of this runbook, below).
+- **Oscillations** — PMNS-parameter / exotic-physics measurements (see the
+  [Oscillation cluster](#oscillation-cluster) section near the end).
+
+The two pipelines are parallel and never touch each other's data, schema, or
+scripts; the workflow (discover → classify → add → rebuild) is the same shape.
+The sections below describe the **interaction** pipeline unless noted.
 
 ## TL;DR
 
@@ -153,10 +163,71 @@ columns mis-assigned current (CC vs NC), flavor (neutrino vs antineutrino), or
 target. Always cross-check the abstract's reaction (e.g. a `μ+` final state is
 charged current; "in propane" means C3H8 only).
 
+## Oscillation cluster
+
+A fully parallel pipeline maintains `data/oscillation/<Experiment>.yml` (schema:
+`schemas/oscillation_paper.schema.json`). It is independent of everything above:
+separate scripts, separate schema, separate data directory.
+
+```bash
+# 1. discover oscillation candidates (queries INSPIRE per collaboration, dedups
+#    against data/oscillation/, writes data/osc_candidates.yml — gitignored)
+.venv/bin/python scripts/find_osc_papers.py [--since YYYY-MM-DD] [--collaborations T2K NOvA ...]
+
+# 2. classify each candidate (agent proposes, human approves) into JSON files —
+#    arrays of {bibtag, decision, source, framework, bsm_type, channels, mode,
+#    parameters, needs_fulltext}
+
+# 3. ingest the "keep" classifications (one measurement per record, normalized
+#    collaboration, validated on write)
+.venv/bin/python scripts/add_osc_papers.py <classification.json> [more.json ...] [--dry-run]
+
+# 4. rebuild the site
+cd site && yarn build
+```
+
+### What "relevant" means (oscillations)
+
+Published **experimental** measurements that constrain oscillation physics: PMNS
+mixing angles, mass splittings, δ_CP, mass ordering, or tests of exotic physics
+(sterile neutrinos, NSI, LIV, decay, decoherence, non-unitarity). Exclude theory,
+phenomenology, global fits, sensitivity/projection studies, flux-only or
+detector/method-only papers. As with interactions, a real measurement is almost
+always **collaboration-keyed** (`T2K:2023smm`, `NOvA:2021nfi`); author-keyed
+texkeys are usually proceedings/theses to drop (`find_osc_papers.py` already
+filters most of these).
+
+### Controlled vocabulary (per measurement)
+
+| Field | Values |
+| --- | --- |
+| `source` | `solar`, `atmospheric`, `reactor`, `accelerator` |
+| `framework` | `PMNS`, or `Exotic` |
+| `bsm_type` | (Exotic only) `sterile`, `NSI`, `LIV`, `decay`, `decoherence`, `non-unitarity`, or null |
+| `channels` | list of `{from, to, nubar}`; `from`/`to` ∈ `nue`, `numu`, `nutau`, `nus` |
+| `mode` | `appearance`, `disappearance` (list) |
+| `parameters` | Greek tokens, e.g. `θ₁₃`, `θ₂₃`, `Δm²₃₂`, `δCP` |
+
+Required per measurement: `source`, `framework`, `channels`. `observables` and
+`notes` are free text. A paper may carry several measurements — one per distinct
+framework (a single paper measuring PMNS **and** setting a sterile limit gets two
+entries). Joint analyses set the optional top-level `collaborations` list (e.g.
+`[T2K, Super-Kamiokande]`); otherwise the single `collaboration` is used.
+
+### Auditing oscillation classifications
+
+The oscillation set was scaled via INSPIRE discovery + parallel agent
+classification, so spot-check it the same way as interactions: confirm the
+`source`/`framework`/`channels`/`parameters` match each abstract, and watch for
+the recurring slips (disappearance mode paired with a cross-flavor channel;
+3-flavor atmospheric θ₁₃ analyses missing the `numu→nue` appearance channel;
+Exotic-vs-PMNS framework mix-ups).
+
 ## Notes
 
 - INSPIRE responses are cached under `.cache/` (gitignored); delete it to force
   refresh.
-- To widen coverage, add collaborations to `COLLABORATIONS` in
+- To widen interaction coverage, add collaborations to `COLLABORATIONS` in
   `scripts/find_new_papers.py` (it already includes forward-looking experiments
-  like SBND, ICARUS, DUNE, SND).
+  like SBND, ICARUS, DUNE, SND). The oscillation collaboration list lives in
+  `scripts/find_osc_papers.py`.
