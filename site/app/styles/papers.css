@@ -282,6 +282,10 @@
 .tag-param {
   background: #fff;
 }
+/* KaTeX-rendered channel/parameter chips: keep the math close to the tag size. */
+.tag .katex {
+  font-size: 1.05em;
+}
 
 /* plain (non-link) title for clusters without detail pages yet */
 .paper-title-plain {

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
+import { texToHtml } from './tex';
 
 // The canonical database lives one level up from the site/ app, in data/papers/*.yml.
 const REPO_ROOT = path.join(process.cwd(), '..');
@@ -115,7 +116,13 @@ export function getPaperBySlug(slug: string): Paper | undefined {
 
 // ---- facets & stats --------------------------------------------------------
 
-export type Facet = { key: string; label: string; allLabel: string; values: string[] };
+export type Facet = {
+  key: string;
+  label: string;
+  allLabel: string;
+  values: string[];
+  valueHtml?: Record<string, string>;
+};
 
 function uniqueSorted(values: string[]): string[] {
   return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b));
@@ -145,7 +152,13 @@ export function getFacets(papers: Paper[]): Facet[] {
   return [
     { key: 'experiment', label: 'Experiment', allLabel: 'All experiments', values: experiments },
     { key: 'current', label: 'Current', allLabel: 'CC + NC', values: currents },
-    { key: 'flavor', label: 'Flavor', allLabel: 'All flavors', values: flavors },
+    {
+      key: 'flavor',
+      label: 'Flavor',
+      allLabel: 'All flavors',
+      values: flavors,
+      valueHtml: Object.fromEntries(flavors.map((f) => [f, flavorHtml(f)])),
+    },
     { key: 'target', label: 'Target', allLabel: 'All targets', values: targets },
     { key: 'topology', label: 'Topology', allLabel: 'All topologies', values: topologies },
     { key: 'measurement_type', label: 'Measurement', allLabel: 'All types', values: types },
@@ -203,6 +216,22 @@ const FLAVOR_DISPLAY: Record<string, string> = {
   nue: 'νe',
   nuebar: 'ν̄e',
 };
+
+// LaTeX (KaTeX) rendering for neutrino flavors, matching the oscillation cluster.
+const FLAVOR_TEX: Record<string, string> = {
+  numu: '\\nu_\\mu',
+  numubar: '\\bar\\nu_\\mu',
+  nue: '\\nu_e',
+  nuebar: '\\bar\\nu_e',
+};
+/** A `$...$` math segment for a flavor code, or the raw code if unknown. */
+export function flavorTexSegment(f: string): string {
+  return FLAVOR_TEX[f] ? `$${FLAVOR_TEX[f]}$` : f;
+}
+/** Pre-rendered KaTeX HTML for a flavor code. */
+export function flavorHtml(f: string): string {
+  return texToHtml(flavorTexSegment(f));
+}
 
 // Condensed target groupings for the timeline breakdown. Anything not listed
 // (Ge, CsI, CaCO3, rock, SiO2, …) falls into "Other".

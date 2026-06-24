@@ -8,6 +8,10 @@ type ClusterData = { rows: PaperRow[]; facets: RowFacet[]; count: number };
 
 function oscTags(r: PaperRow): ReactNode {
   const arr = (k: string) => (r[k] as string[] | undefined) ?? [];
+  const channel = arr('channel');
+  const channelHtml = arr('channelHtml');
+  const parameter = arr('parameter');
+  const parameterHtml = arr('parameterHtml');
   return (
     <>
       {arr('source').map((s) => (
@@ -25,15 +29,19 @@ function oscTags(r: PaperRow): ReactNode {
           {b}
         </span>
       ))}
-      {arr('channel').map((c) => (
-        <span className="tag tag-channel" key={c}>
-          {c}
-        </span>
+      {channel.map((c, i) => (
+        <span
+          className="tag tag-channel"
+          key={c}
+          dangerouslySetInnerHTML={{ __html: channelHtml[i] ?? c }}
+        />
       ))}
-      {arr('parameter').map((p) => (
-        <span className="tag tag-param" key={p}>
-          {p}
-        </span>
+      {parameter.map((p, i) => (
+        <span
+          className="tag tag-param"
+          key={p}
+          dangerouslySetInnerHTML={{ __html: parameterHtml[i] ?? p }}
+        />
       ))}
     </>
   );

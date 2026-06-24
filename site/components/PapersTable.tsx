@@ -22,7 +22,14 @@ export type PaperRow = {
   [key: string]: unknown;
 };
 
-export type RowFacet = { key: string; label: string; allLabel: string; values: string[] };
+export type RowFacet = {
+  key: string;
+  label: string;
+  allLabel: string;
+  values: string[];
+  // Optional pre-rendered (KaTeX) HTML per value, e.g. for channel/parameter chips.
+  valueHtml?: Record<string, string>;
+};
 
 const PAGE = 25;
 
@@ -42,6 +49,8 @@ function flavorLabel(f: string) {
 
 function defaultInteractionTags(r: PaperRow): ReactNode {
   const arr = (k: string) => (r[k] as string[] | undefined) ?? [];
+  const flavor = arr('flavor');
+  const flavorHtmlArr = arr('flavorHtml');
   return (
     <>
       {arr('current').map((c) => (
@@ -49,11 +58,19 @@ function defaultInteractionTags(r: PaperRow): ReactNode {
           {c}
         </span>
       ))}
-      {arr('flavor').map((f) => (
-        <span className="tag tag-flavor" key={f}>
-          {flavorLabel(f)}
-        </span>
-      ))}
+      {flavor.map((f, i) =>
+        flavorHtmlArr[i] ? (
+          <span
+            className="tag tag-flavor"
+            key={f}
+            dangerouslySetInnerHTML={{ __html: flavorHtmlArr[i] }}
+          />
+        ) : (
+          <span className="tag tag-flavor" key={f}>
+            {flavorLabel(f)}
+          </span>
+        ),
+      )}
       {arr('target').map((t) => (
         <span className="tag tag-target" key={t}>
           {t}
@@ -291,6 +308,7 @@ export function PapersTable({
                       : facet.key === 'flavor'
                         ? flavorLabel(value)
                         : value;
+                  const html = value === ALL ? undefined : facet.valueHtml?.[value];
                   const isActive = (active[facet.key] ?? ALL) === value;
                   const n = count(facet, value);
                   const disabled = value !== ALL && n === 0 && !isActive;
@@ -303,7 +321,7 @@ export function PapersTable({
                       onClick={() => setActive((c) => ({ ...c, [facet.key]: value }))}
                       type="button"
                     >
-                      <span>{label}</span>
+                      {html ? <span dangerouslySetInnerHTML={{ __html: html }} /> : <span>{label}</span>}
                       <small>{n}</small>
                     </button>
                   );
@@ -359,16 +377,25 @@ export function PapersTable({
             </p>
             {activeChips.length ? (
               <div className="challenge-active-filters" aria-label="Active filters">
-                {activeChips.map(({ f, value }) => (
-                  <button
-                    key={f.key}
-                    onClick={() => setActive((c) => ({ ...c, [f.key]: ALL }))}
-                    type="button"
-                  >
-                    {f.key === 'flavor' ? flavorLabel(value) : value}
-                    <span aria-hidden="true">x</span>
-                  </button>
-                ))}
+                {activeChips.map(({ f, value }) => {
+                  const html = f.valueHtml?.[value];
+                  return (
+                    <button
+                      key={f.key}
+                      onClick={() => setActive((c) => ({ ...c, [f.key]: ALL }))}
+                      type="button"
+                    >
+                      {html ? (
+                        <span dangerouslySetInnerHTML={{ __html: html }} />
+                      ) : f.key === 'flavor' ? (
+                        flavorLabel(value)
+                      ) : (
+                        value
+                      )}
+                      <span aria-hidden="true">x</span>
+                    </button>
+                  );
+                })}
               </div>
             ) : null}
           </div>

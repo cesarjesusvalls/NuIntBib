@@ -5,22 +5,16 @@ import { Icon } from '@/components/Icon';
 import { CiteBlock } from '@/components/CiteBlock';
 import { Tex } from '@/components/Tex';
 import { stripTex } from '@/lib/tex';
-import { getAllPapers, getPaperBySlug } from '@/lib/papers';
+import { getAllPapers, getPaperBySlug, flavorTexSegment } from '@/lib/papers';
 import {
   getAllOscPapers,
   getOscPaperBySlug,
-  channelLabel,
+  channelTexSegment,
+  paramTexSegment,
   paperExperiments,
 } from '@/lib/oscillation';
 
 type PageProps = { params: Promise<{ slug: string }> };
-
-const FLAVOR_LABEL: Record<string, string> = {
-  numu: 'νμ',
-  numubar: 'ν̄μ',
-  nue: 'νe',
-  nuebar: 'ν̄e',
-};
 
 export function generateStaticParams() {
   return [
@@ -147,9 +141,21 @@ export default async function PaperDetailPage({ params }: PageProps) {
                         <tr key={i}>
                           <td>{m.source}</td>
                           <td>{m.framework + (m.bsm_type ? ` (${m.bsm_type})` : '')}</td>
-                          <td>{(m.channels ?? []).map(channelLabel).join(', ') || '–'}</td>
+                          <td>
+                            {m.channels?.length ? (
+                              <Tex text={m.channels.map(channelTexSegment).join(', ')} />
+                            ) : (
+                              '–'
+                            )}
+                          </td>
                           <td>{(m.mode ?? []).join(', ') || '–'}</td>
-                          <td>{(m.parameters ?? []).join(', ') || '–'}</td>
+                          <td>
+                            {m.parameters?.length ? (
+                              <Tex text={m.parameters.map(paramTexSegment).join(', ')} />
+                            ) : (
+                              '–'
+                            )}
+                          </td>
                           <td>{m.observables ?? '–'}</td>
                         </tr>
                       ))}
@@ -173,9 +179,11 @@ export default async function PaperDetailPage({ params }: PageProps) {
                         <tr key={i}>
                           <td>{m.current}</td>
                           <td>
-                            {m.flavor.map((f) => FLAVOR_LABEL[f] ?? f).join(', ') ||
-                              m.flavor_note ||
-                              '–'}
+                            {m.flavor.length ? (
+                              <Tex text={m.flavor.map(flavorTexSegment).join(', ')} />
+                            ) : (
+                              m.flavor_note || '–'
+                            )}
                           </td>
                           <td>{m.target.join(', ') || '–'}</td>
                           <td>{m.topology}</td>

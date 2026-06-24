@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import type { Timeline } from './papers';
+import { texToHtml } from './tex';
 
 // Oscillation cluster: parallel to lib/papers.ts but reads data/oscillation/*.yml.
 const REPO_ROOT = path.join(process.cwd(), '..');
@@ -58,6 +59,71 @@ export function channelLabel(c: OscChannel): string {
     return c.nubar ? `ν${bar}${s.slice(1)}` : s;
   };
   return `${f(c.from)}→${f(c.to)}`;
+}
+
+// ---- LaTeX (KaTeX) rendering for channels and parameters -------------------
+// Inline math reads far better than the combining-overbar Unicode (ν̄) and
+// subscript glyphs, so we render these tokens through the build-time KaTeX path.
+
+const FLAVOR_TEX: Record<string, string> = {
+  nue: '\\nu_e',
+  numu: '\\nu_\\mu',
+  nutau: '\\nu_\\tau',
+  nus: '\\nu_s',
+};
+function flavorTex(k: string, nubar?: boolean): string {
+  const base = FLAVOR_TEX[k] ?? k;
+  return nubar ? `\\bar${base}` : base;
+}
+/** Inline LaTeX (no `$`) for a transition, e.g. "\bar\nu_\mu \to \bar\nu_e". */
+export function channelTex(c: OscChannel): string {
+  return `${flavorTex(c.from, c.nubar)} \\to ${flavorTex(c.to, c.nubar)}`;
+}
+/** A `$...$` math segment for a channel, ready to drop into <Tex>. */
+export function channelTexSegment(c: OscChannel): string {
+  return `$${channelTex(c)}$`;
+}
+
+// oscillation parameter tokens -> LaTeX
+const PARAM_TEX: Record<string, string> = {
+  'θ₁₂': '\\theta_{12}',
+  'θ₁₃': '\\theta_{13}',
+  'θ₂₃': '\\theta_{23}',
+  'θ₁₄': '\\theta_{14}',
+  'θ₂₄': '\\theta_{24}',
+  'θ₃₄': '\\theta_{34}',
+  'Δm²₂₁': '\\Delta m^2_{21}',
+  'Δm²₃₁': '\\Delta m^2_{31}',
+  'Δm²₃₂': '\\Delta m^2_{32}',
+  'Δm²₄₁': '\\Delta m^2_{41}',
+  δCP: '\\delta_{CP}',
+};
+/** A `$...$` math segment for a parameter token, or the raw token if non-math. */
+export function paramTexSegment(token: string): string {
+  return PARAM_TEX[token] ? `$${PARAM_TEX[token]}$` : token;
+}
+
+/** Pre-rendered KaTeX HTML for a channel (for use in client components). */
+export function channelHtml(c: OscChannel): string {
+  return texToHtml(channelTexSegment(c));
+}
+/** Pre-rendered KaTeX HTML for a parameter token. */
+export function paramHtml(token: string): string {
+  return texToHtml(paramTexSegment(token));
+}
+
+/** Unique channel tags for a paper: display HTML plus the plain label (for keys). */
+export function oscChannelTags(p: OscPaper): { label: string; html: string }[] {
+  const seen = new Map<string, OscChannel>();
+  for (const m of p.measurements) {
+    for (const c of m.channels ?? []) {
+      const label = channelLabel(c);
+      if (!seen.has(label)) seen.set(label, c);
+    }
+  }
+  return [...seen.keys()]
+    .sort((a, b) => a.localeCompare(b))
+    .map((label) => ({ label, html: channelHtml(seen.get(label)!) }));
 }
 
 // ASCII aliases so the free-text search still matches typed forms like "theta13" / "dm2_32" / "dcp".
@@ -120,7 +186,13 @@ export function getOscPaperBySlug(slug: string): OscPaper | undefined {
 
 // ---- facets --------------------------------------------------------------
 
-export type Facet = { key: string; label: string; allLabel: string; values: string[] };
+export type Facet = {
+  key: string;
+  label: string;
+  allLabel: string;
+  values: string[];
+  valueHtml?: Record<string, string>;
+};
 
 function uniqueSorted(values: string[]): string[] {
   return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b));
@@ -218,12 +290,38 @@ export function getOscFacets(papers: OscPaper[]): Facet[] {
   const parameters = countBy(
     papers.flatMap((p) => p.measurements.flatMap((m) => m.parameters ?? [])),
   ).map(([v]) => v);
+
+  // Pre-render KaTeX HTML for the channel/parameter filter chips.
+  const channelHtmlMap: Record<string, string> = {};
+  for (const p of papers) {
+    for (const m of p.measurements) {
+      for (const c of m.channels ?? []) {
+        const l = channelLabel(c);
+        if (!channelHtmlMap[l]) channelHtmlMap[l] = channelHtml(c);
+      }
+    }
+  }
+  const paramHtmlMap: Record<string, string> = {};
+  for (const v of parameters) paramHtmlMap[v] = paramHtml(v);
+
   return [
     { key: 'experiment', label: 'Experiment', allLabel: 'All experiments', values: experiments },
     { key: 'source', label: 'Source', allLabel: 'All sources', values: sources },
     { key: 'framework', label: 'Framework', allLabel: 'PMNS + Exotic', values: frameworks },
     { key: 'mode', label: 'Mode', allLabel: 'All modes', values: modes },
-    { key: 'channel', label: 'Channel', allLabel: 'All channels', values: channels },
-    { key: 'parameter', label: 'Parameter', allLabel: 'All parameters', values: parameters },
+    {
+      key: 'channel',
+      label: 'Channel',
+      allLabel: 'All channels',
+      values: channels,
+      valueHtml: channelHtmlMap,
+    },
+    {
+      key: 'parameter',
+      label: 'Parameter',
+      allLabel: 'All parameters',
+      values: parameters,
+      valueHtml: paramHtmlMap,
+    },
   ];
 }

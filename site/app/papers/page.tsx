@@ -2,8 +2,15 @@ import type { Metadata } from 'next';
 import { PageHero } from '@/components/UI';
 import { ClusteredPapers } from '@/components/ClusteredPapers';
 import type { PaperRow, RowFacet } from '@/components/PapersTable';
-import { getAllPapers, getFacets, paperFacetValues } from '@/lib/papers';
-import { getAllOscPapers, getOscFacets, oscFacetValues, paramSearchAliases } from '@/lib/oscillation';
+import { getAllPapers, getFacets, paperFacetValues, flavorHtml } from '@/lib/papers';
+import {
+  getAllOscPapers,
+  getOscFacets,
+  oscFacetValues,
+  oscChannelTags,
+  paramHtml,
+  paramSearchAliases,
+} from '@/lib/oscillation';
 import { stripTex, texToHtml } from '@/lib/tex';
 
 export const metadata: Metadata = {
@@ -33,6 +40,7 @@ export default function PapersPage() {
       experiment: fv.experiment,
       current: fv.current,
       flavor: fv.flavor,
+      flavorHtml: fv.flavor.map(flavorHtml),
       target: fv.target,
       topology: fv.topology,
       measurement_type: fv.measurement_type,
@@ -57,6 +65,7 @@ export default function PapersPage() {
   const oscFacets = getOscFacets(oscPapers) as RowFacet[];
   const oscRows: PaperRow[] = oscPapers.map((p) => {
     const fv = oscFacetValues(p);
+    const chanTags = oscChannelTags(p);
     const bsm = Array.from(
       new Set(p.measurements.map((m) => m.bsm_type).filter((x): x is string => Boolean(x))),
     );
@@ -76,8 +85,10 @@ export default function PapersPage() {
       source: fv.source,
       framework: fv.framework,
       mode: fv.mode,
-      channel: fv.channel,
+      channel: chanTags.map((t) => t.label),
+      channelHtml: chanTags.map((t) => t.html),
       parameter: fv.parameter,
+      parameterHtml: fv.parameter.map(paramHtml),
       bsm,
       searchText: [
         stripTex(p.title),
