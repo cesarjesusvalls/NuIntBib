@@ -116,7 +116,7 @@ export default async function PaperDetailPage({ params }: PageProps) {
 
           <div className="detail-main section-stack">
             <div>
-              <h2 className="type-h3">Measurements</h2>
+              <h2 className="type-h3">Results</h2>
               <div className="data-table-wrap">
                 <table className="data-table">
                   <thead>

@@ -99,9 +99,9 @@ export default function PapersPage() {
   return (
     <>
       <PageHero
-        eyebrow={`${intRows.length + oscRows.length} measurements`}
+        eyebrow={`${intRows.length + oscRows.length} papers`}
         title="Neutrino measurements"
-        body="Up-to-date, labeled neutrino interaction and oscillation measurements."
+        body="Up-to-date, labeled neutrino interaction and oscillation papers."
         className="page-hero-flush"
       />
       <section className="section section-papers">

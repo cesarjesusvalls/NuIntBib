@@ -1,24 +1,26 @@
 import type { Metadata } from 'next';
 import { PageHero } from '@/components/UI';
-import { TableBuilder, type TBPaper, type RowFacet } from '@/components/TableBuilder';
+import { ClusteredTable } from '@/components/ClusteredTable';
+import type { TBPaper, RowFacet } from '@/components/TableBuilder';
 import { getAllPapers, getFacets } from '@/lib/papers';
+import { getAllOscPapers, getOscFacets, channelLabel, paperExperiments } from '@/lib/oscillation';
 import { stripTex, texToHtml } from '@/lib/tex';
 
 export const metadata: Metadata = {
   title: 'Table builder',
   description:
-    'Assemble a custom table of neutrino interaction measurements — pick columns and filters, preview it, and export a ready-to-paste LaTeX (booktabs) table.',
+    'Assemble a custom table of neutrino interaction or oscillation papers — pick columns and filters, preview it, and export a ready-to-paste LaTeX (booktabs) table.',
 };
 
 export default function TablePage() {
   const papers = getAllPapers();
-  const facets = getFacets(papers) as RowFacet[];
-
-  const data: TBPaper[] = papers.map((p) => ({
+  const intFacets = getFacets(papers) as RowFacet[];
+  const intData: TBPaper[] = papers.map((p) => ({
     citekey: p.bibtag,
     title: stripTex(p.title),
     titleHtml: texToHtml(p.title),
     experiment: p.collaboration,
+    experiments: [p.collaboration],
     year: p.year,
     journal: p.journal ?? null,
     arxiv: p.arxiv ?? null,
@@ -35,6 +37,32 @@ export default function TablePage() {
     })),
   }));
 
+  const oscPapers = getAllOscPapers();
+  const oscFacets = getOscFacets(oscPapers) as RowFacet[];
+  const oscData: TBPaper[] = oscPapers.map((p) => {
+    const exps = paperExperiments(p);
+    return {
+      citekey: p.bibtag,
+      title: stripTex(p.title),
+      titleHtml: texToHtml(p.title),
+      experiment: exps.join(' + '),
+      experiments: exps,
+      year: p.year,
+      journal: p.journal ?? null,
+      arxiv: p.arxiv ?? null,
+      doi: p.doi ?? null,
+      citations: p.citation_count ?? null,
+      measurements: p.measurements.map((m) => ({
+        source: m.source,
+        framework: m.framework,
+        bsm_type: m.bsm_type ?? null,
+        channel: (m.channels ?? []).map(channelLabel),
+        mode: m.mode ?? [],
+        parameters: m.parameters ?? [],
+      })),
+    };
+  });
+
   return (
     <>
       <PageHero
@@ -45,7 +73,10 @@ export default function TablePage() {
       />
       <section className="section section-papers">
         <div className="container">
-          <TableBuilder data={data} facets={facets} />
+          <ClusteredTable
+            interactions={{ data: intData, facets: intFacets, count: intData.length }}
+            oscillations={{ data: oscData, facets: oscFacets, count: oscData.length }}
+          />
         </div>
       </section>
     </>
