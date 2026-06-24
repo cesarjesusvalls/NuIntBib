@@ -635,8 +635,7 @@
     bsm_type: sterile
     channels:
     - from: numu
-      to: nus
-      nubar: false
+      to: numu
     mode:
     - disappearance
     parameters:
@@ -686,8 +685,7 @@
     bsm_type: sterile
     channels:
     - from: numu
-      to: nus
-      nubar: false
+      to: numu
     mode:
     - disappearance
     parameters:
@@ -771,10 +769,12 @@
     bsm_type: sterile
     channels:
     - from: numu
-      to: nus
+      to: numu
     mode:
     - disappearance
-    parameters: []
+    parameters:
+    - θ₂₄
+    - θ₃₄
     observables: null
     notes: null
 - inspire_recid: 788212
@@ -880,7 +880,7 @@
     positive muons in both samples. The ratio of those ratios is a test of CPT conservation. The result
     is consistent with CPT conservation.
   added: '2026-06-21'
-  notes: needs full-text check
+  notes: null
   links:
     arxiv: https://arxiv.org/abs/hep-ex/0701045
     doi: https://doi.org/10.1103/PhysRevD.75.092003

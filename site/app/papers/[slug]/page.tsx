@@ -6,6 +6,12 @@ import { CiteBlock } from '@/components/CiteBlock';
 import { Tex } from '@/components/Tex';
 import { stripTex } from '@/lib/tex';
 import { getAllPapers, getPaperBySlug } from '@/lib/papers';
+import {
+  getAllOscPapers,
+  getOscPaperBySlug,
+  channelLabel,
+  paperExperiments,
+} from '@/lib/oscillation';
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -17,12 +23,15 @@ const FLAVOR_LABEL: Record<string, string> = {
 };
 
 export function generateStaticParams() {
-  return getAllPapers().map((p) => ({ slug: p.slug }));
+  return [
+    ...getAllPapers().map((p) => ({ slug: p.slug })),
+    ...getAllOscPapers().map((p) => ({ slug: p.slug })),
+  ];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const paper = getPaperBySlug(slug);
+  const paper = getPaperBySlug(slug) ?? getOscPaperBySlug(slug);
   return {
     title: paper ? stripTex(paper.title) : 'Paper',
     description: paper?.abstract ? stripTex(paper.abstract).slice(0, 200) : undefined,
@@ -31,8 +40,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function PaperDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const paper = getPaperBySlug(slug);
-  if (!paper) notFound();
+  const intPaper = getPaperBySlug(slug);
+  const oscPaper = intPaper ? undefined : getOscPaperBySlug(slug);
+  if (!intPaper && !oscPaper) notFound();
+  const paper = (intPaper ?? oscPaper)!;
+  const expLabel = oscPaper ? paperExperiments(oscPaper).join(' + ') : intPaper!.collaboration;
 
   const citation = [paper.journal, paper.volume, paper.pages].filter(Boolean).join(' ');
 
@@ -42,7 +54,7 @@ export default async function PaperDetailPage({ params }: PageProps) {
         <Container className="page-hero-inner">
           <div className="page-hero-copy">
             <p className="eyebrow">
-              {paper.collaboration} · {paper.year ?? '—'}
+              {expLabel} · {paper.year ?? '—'}
             </p>
             <h1 className="type-h1">
               <Tex text={paper.title} />
@@ -84,7 +96,7 @@ export default async function PaperDetailPage({ params }: PageProps) {
         <Container className="detail-layout">
           <aside className="detail-sidebar">
             <div className="panel detail-summary">
-              <span className="status-pill">{paper.collaboration}</span>
+              <span className="status-pill">{expLabel}</span>
               <dl>
                 <div>
                   <dt>Year</dt>
@@ -118,36 +130,63 @@ export default async function PaperDetailPage({ params }: PageProps) {
             <div>
               <h2 className="type-h3">Results</h2>
               <div className="data-table-wrap">
-                <table className="data-table">
-                  <thead>
-                    <tr>
-                      <th>Current</th>
-                      <th>Flavor</th>
-                      <th>Target</th>
-                      <th>Topology</th>
-                      <th>Type</th>
-                      <th>Observables</th>
-                      <th>Energy</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {paper.measurements.map((m, i) => (
-                      <tr key={i}>
-                        <td>{m.current}</td>
-                        <td>
-                          {m.flavor.map((f) => FLAVOR_LABEL[f] ?? f).join(', ') ||
-                            m.flavor_note ||
-                            '—'}
-                        </td>
-                        <td>{m.target.join(', ') || '—'}</td>
-                        <td>{m.topology}</td>
-                        <td>{m.measurement_type ?? '—'}</td>
-                        <td>{m.observables ?? '—'}</td>
-                        <td>{m.energy_notes ?? '—'}</td>
+                {oscPaper ? (
+                  <table className="data-table">
+                    <thead>
+                      <tr>
+                        <th>Source</th>
+                        <th>Framework</th>
+                        <th>Channel</th>
+                        <th>Mode</th>
+                        <th>Parameters</th>
+                        <th>Observables</th>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
+                    </thead>
+                    <tbody>
+                      {oscPaper.measurements.map((m, i) => (
+                        <tr key={i}>
+                          <td>{m.source}</td>
+                          <td>{m.framework + (m.bsm_type ? ` (${m.bsm_type})` : '')}</td>
+                          <td>{(m.channels ?? []).map(channelLabel).join(', ') || '—'}</td>
+                          <td>{(m.mode ?? []).join(', ') || '—'}</td>
+                          <td>{(m.parameters ?? []).join(', ') || '—'}</td>
+                          <td>{m.observables ?? '—'}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                ) : (
+                  <table className="data-table">
+                    <thead>
+                      <tr>
+                        <th>Current</th>
+                        <th>Flavor</th>
+                        <th>Target</th>
+                        <th>Topology</th>
+                        <th>Type</th>
+                        <th>Observables</th>
+                        <th>Energy</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {intPaper!.measurements.map((m, i) => (
+                        <tr key={i}>
+                          <td>{m.current}</td>
+                          <td>
+                            {m.flavor.map((f) => FLAVOR_LABEL[f] ?? f).join(', ') ||
+                              m.flavor_note ||
+                              '—'}
+                          </td>
+                          <td>{m.target.join(', ') || '—'}</td>
+                          <td>{m.topology}</td>
+                          <td>{m.measurement_type ?? '—'}</td>
+                          <td>{m.observables ?? '—'}</td>
+                          <td>{m.energy_notes ?? '—'}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                )}
               </div>
             </div>
 

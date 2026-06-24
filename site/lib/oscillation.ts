@@ -114,6 +114,10 @@ export function getAllOscPapers(): OscPaper[] {
   return papers;
 }
 
+export function getOscPaperBySlug(slug: string): OscPaper | undefined {
+  return getAllOscPapers().find((p) => p.slug === slug);
+}
+
 // ---- facets --------------------------------------------------------------
 
 export type Facet = { key: string; label: string; allLabel: string; values: string[] };

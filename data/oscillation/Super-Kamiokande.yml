@@ -296,8 +296,7 @@
     bsm_type: sterile
     channels:
     - from: numu
-      to: nus
-      nubar: false
+      to: numu
     mode:
     - disappearance
     parameters:
@@ -588,7 +587,7 @@
     be -6.3 +/-4.2(stat.) +/-3.7(sys.) %. There is no evidence of systematic tendencies between the first
     and second phases.
   added: '2026-06-21'
-  notes: needs full-text check
+  notes: null
   links:
     arxiv: https://arxiv.org/abs/0803.4312
     doi: https://doi.org/10.1103/PhysRevD.78.032002
@@ -803,8 +802,7 @@
     bsm_type: null
     channels:
     - from: numu
-      to: nutau
-      nubar: false
+      to: numu
     mode:
     - disappearance
     parameters:
@@ -880,8 +878,7 @@
     bsm_type: null
     channels:
     - from: numu
-      to: nutau
-      nubar: false
+      to: numu
     mode:
     - disappearance
     parameters:
@@ -996,15 +993,11 @@
     inspire: https://inspirehep.net/literature?q=texkeys.raw:Super-Kamiokande:2000ywb
   measurements:
   - source: atmospheric
-    framework: Exotic
-    bsm_type: sterile
+    framework: PMNS
+    bsm_type: null
     channels:
     - from: numu
-      to: nutau
-      nubar: false
-    - from: numu
-      to: nus
-      nubar: false
+      to: numu
     mode:
     - disappearance
     parameters:

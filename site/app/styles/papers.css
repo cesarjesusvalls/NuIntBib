@@ -100,6 +100,25 @@
   margin-top: 0.2rem;
   font-weight: 600;
 }
+/* Cluster pill prefixing each latest-additions row. */
+.latest-cluster {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  vertical-align: 0.05em;
+}
+.latest-cluster.cluster-interaction {
+  background: color-mix(in srgb, var(--digital-blue) 14%, transparent);
+  color: var(--digital-blue);
+}
+.latest-cluster.cluster-oscillation {
+  background: color-mix(in srgb, var(--cardinal) 14%, transparent);
+  color: var(--cardinal);
+}
 
 /* Papers list (the table) */
 .papers-sort {

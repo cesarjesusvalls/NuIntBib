@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { PapersTable, type PaperRow, type RowFacet } from '@/components/PapersTable';
 
 type Cluster = 'interactions' | 'oscillations';
@@ -48,6 +48,12 @@ export function ClusteredPapers({
 }) {
   const [cluster, setCluster] = useState<Cluster>('interactions');
 
+  // Honor a ?cluster=oscillations URL param on first mount (home-page deep links).
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('cluster') === 'oscillations') setCluster('oscillations');
+  }, []);
+
   return (
     <>
       <div className="cluster-toggle" role="group" aria-label="Topic cluster">
@@ -77,7 +83,6 @@ export function ClusteredPapers({
           rows={oscillations.rows}
           facets={oscillations.facets}
           renderTags={oscTags}
-          detailBase={null}
           searchPlaceholder="Search title, experiment, channel, parameter, bibtag…"
         />
       )}

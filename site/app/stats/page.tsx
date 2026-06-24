@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Container, PageHero, SectionHeader } from '@/components/UI';
 import { ClusteredTimeline } from '@/components/ClusteredTimeline';
 import { getAllPapers, getStats, getTimeline } from '@/lib/papers';
-import { getAllOscPapers, getOscTimeline } from '@/lib/oscillation';
+import { getAllOscPapers, getOscTimeline, paperExperiments } from '@/lib/oscillation';
 
 export const metadata: Metadata = {
   title: 'Statistics',
@@ -12,16 +12,28 @@ export const metadata: Metadata = {
 
 export default function StatsPage() {
   const papers = getAllPapers();
+  const oscPapers = getAllOscPapers();
   const stats = getStats(papers);
   const timeline = getTimeline(papers);
-  const oscTimeline = getOscTimeline(getAllOscPapers());
+  const oscTimeline = getOscTimeline(oscPapers);
+
+  // Combined coverage across both clusters for the hero line.
+  const totalPapers = papers.length + oscPapers.length;
+  const allExperiments = new Set<string>([
+    ...stats.experiments.map(([e]) => e),
+    ...oscPapers.flatMap(paperExperiments),
+  ]);
+  const allYears = [...papers, ...oscPapers]
+    .map((p) => p.year)
+    .filter((y): y is number => Boolean(y));
+  const yearRange: [number, number] = [Math.min(...allYears), Math.max(...allYears)];
 
   return (
     <>
       <PageHero
         eyebrow="Database statistics"
         title="What the collection covers"
-        body={`${stats.papers} interaction papers across ${stats.experiments.length} experiments, ${stats.yearRange[0]}–${stats.yearRange[1]}, plus a growing oscillation cluster.`}
+        body={`${totalPapers} papers — interaction and oscillation — across ${allExperiments.size} experiments, ${yearRange[0]}–${yearRange[1]}.`}
         className="page-hero-flush"
       />
       <section className="section section-timeline">

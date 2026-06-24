@@ -254,7 +254,7 @@
     bsm_type: sterile
     channels:
     - from: numu
-      to: nus
+      to: numu
       nubar: true
     mode:
     - disappearance
@@ -447,8 +447,7 @@
     bsm_type: sterile
     channels:
     - from: numu
-      to: nus
-      nubar: false
+      to: numu
     mode:
     - disappearance
     parameters:

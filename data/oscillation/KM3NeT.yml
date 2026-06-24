@@ -36,9 +36,8 @@
     bsm_type: sterile
     channels:
     - from: numu
-      to: nutau
+      to: numu
     mode:
-    - appearance
     - disappearance
     parameters:
     - Δm²₄₁
