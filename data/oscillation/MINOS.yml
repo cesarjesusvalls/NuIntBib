@@ -434,6 +434,7 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
     - from: numu
       to: numu
       nubar: true
@@ -893,6 +894,9 @@
     - from: numu
       to: numu
       nubar: false
+    - from: numu
+      to: numu
+      nubar: true
     mode:
     - disappearance
     parameters:

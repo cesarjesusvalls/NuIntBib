@@ -78,8 +78,16 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
     - from: numu
       to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
     mode:
     - appearance
     - disappearance
@@ -166,8 +174,16 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
     - from: numu
       to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
     mode:
     - disappearance
     - appearance
@@ -257,6 +273,15 @@
     - from: numu
       to: numu
       nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
     mode:
     - disappearance
     parameters: []
@@ -297,6 +322,16 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
     mode:
     - disappearance
     parameters:
@@ -382,6 +417,9 @@
     - from: numu
       to: nutau
       nubar: false
+    - from: numu
+      to: nutau
+      nubar: true
     mode:
     - appearance
     parameters:
@@ -473,6 +511,15 @@
     - from: numu
       to: numu
       nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
     mode:
     - disappearance
     parameters: []
@@ -554,8 +601,16 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
     - from: numu
       to: nue
+      nubar: false
+    - from: numu
+      to: nue
+      nubar: true
     mode:
     - disappearance
     - appearance
@@ -640,8 +695,11 @@
     bsm_type: NSI
     channels:
     - from: numu
-      to: nutau
+      to: numu
       nubar: false
+    - from: numu
+      to: numu
+      nubar: true
     mode:
     - appearance
     parameters: []
@@ -719,11 +777,14 @@
       to: numu
       nubar: false
     - from: numu
-      to: nutau
-      nubar: false
+      to: numu
+      nubar: true
     - from: numu
       to: nue
       nubar: false
+    - from: numu
+      to: nue
+      nubar: true
     mode:
     - disappearance
     - appearance
@@ -765,6 +826,9 @@
     - from: numu
       to: nutau
       nubar: false
+    - from: numu
+      to: nutau
+      nubar: true
     mode:
     - appearance
     parameters:
@@ -803,6 +867,10 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
     mode:
     - disappearance
     parameters:
@@ -879,6 +947,10 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
     mode:
     - disappearance
     parameters:
@@ -998,6 +1070,16 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
+    - from: numu
+      to: nutau
+      nubar: false
+    - from: numu
+      to: nutau
+      nubar: true
     mode:
     - disappearance
     parameters:
@@ -1074,6 +1156,10 @@
     channels:
     - from: numu
       to: numu
+      nubar: false
+    - from: numu
+      to: numu
+      nubar: true
     mode:
     - disappearance
     parameters:
