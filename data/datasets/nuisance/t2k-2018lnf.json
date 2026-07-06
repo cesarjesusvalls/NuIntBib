@@ -1,0 +1,722 @@
+{
+ "bibtag": "T2K:2018lnf",
+ "slug": "t2k-2018lnf",
+ "source": "NUISANCE",
+ "arxiv": "1801.05148",
+ "cite": "Phys.Rev.D 98 012004",
+ "note": "Cross sections taken directly from the NUISANCE data release.",
+ "distributions": [
+  {
+   "key": "d2xsec",
+   "slug": "d2xsec",
+   "name": "d\u00b2\u03c3/dcos\u03b8_\u03bcdp_\u03bc",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}p_\\mu$",
+   "xlabel": "p_\u03bc",
+   "xunit": "GeV/c",
+   "ylabel": "d\u00b2\u03c3/dcos\u03b8_\u03bcdp_\u03bc",
+   "ylabel_plot": "d\u00b2\u03c3/dcos\u03b8_\u03bcdp_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}p_\\mu$",
+   "yunit": "10^{-39}\\ cm^2/(GeV/c)/nucleon",
+   "yunit_tex": "$10^{-39}\\ cm^2/(GeV/c)/nucleon$",
+   "nbins": 71,
+   "is2d": true,
+   "slicevar_tex": "$cos theta_mu$",
+   "slices": [
+    {
+     "label_tex": "$-1 < \\cos\\theta_\\mu < -0.25$",
+     "label": "-1 < cos\u03b8_\u03bc < -0.25",
+     "lo": -1.0,
+     "hi": -0.25,
+     "nbins": 1,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 30.0,
+       "center": 15.0,
+       "val": 0.03971,
+       "err": 0.00685818
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$-0.25 < \\cos\\theta_\\mu < 0.25$",
+     "label": "-0.25 < cos\u03b8_\u03bc < 0.25",
+     "lo": -0.25,
+     "hi": 0.25,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 3.78186,
+       "err": 2.10694
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.4,
+       "center": 0.35,
+       "val": 6.66734,
+       "err": 1.51919
+      },
+      {
+       "i": 2,
+       "lo": 0.4,
+       "hi": 0.7,
+       "center": 0.55,
+       "val": 0.0114099,
+       "err": 0.00251812,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.25 < \\cos\\theta_\\mu < 0.45$",
+     "label": "0.25 < cos\u03b8_\u03bc < 0.45",
+     "lo": 0.25,
+     "hi": 0.45,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 3.84102,
+       "err": 0.830698
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.4,
+       "center": 0.35,
+       "val": 9.07158,
+       "err": 1.19849
+      },
+      {
+       "i": 2,
+       "lo": 0.4,
+       "hi": 0.5,
+       "center": 0.45,
+       "val": 6.00649,
+       "err": 0.999779
+      },
+      {
+       "i": 3,
+       "lo": 0.5,
+       "hi": 0.6,
+       "center": 0.55,
+       "val": 3.78936,
+       "err": 0.763445
+      },
+      {
+       "i": 4,
+       "lo": 0.6,
+       "hi": 0.7,
+       "center": 0.6499999999999999,
+       "val": 0.00545759,
+       "err": 0.00169262,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.45 < \\cos\\theta_\\mu < 0.6$",
+     "label": "0.45 < cos\u03b8_\u03bc < 0.6",
+     "lo": 0.45,
+     "hi": 0.6,
+     "nbins": 6,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 2.67121,
+       "err": 0.642015
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.4,
+       "center": 0.35,
+       "val": 9.26987,
+       "err": 1.21623
+      },
+      {
+       "i": 2,
+       "lo": 0.4,
+       "hi": 0.5,
+       "center": 0.45,
+       "val": 10.9994,
+       "err": 1.34667
+      },
+      {
+       "i": 3,
+       "lo": 0.5,
+       "hi": 0.6,
+       "center": 0.55,
+       "val": 6.69046,
+       "err": 1.1212
+      },
+      {
+       "i": 4,
+       "lo": 0.6,
+       "hi": 0.8,
+       "center": 0.7,
+       "val": 1.91641,
+       "err": 0.471915
+      },
+      {
+       "i": 5,
+       "lo": 0.8,
+       "hi": 0.95,
+       "center": 0.875,
+       "val": 0.00601827,
+       "err": 0.001393,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.6 < \\cos\\theta_\\mu < 0.71$",
+     "label": "0.6 < cos\u03b8_\u03bc < 0.71",
+     "lo": 0.6,
+     "hi": 0.71,
+     "nbins": 7,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 3.23074,
+       "err": 0.710877
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.4,
+       "center": 0.35,
+       "val": 7.88876,
+       "err": 1.14154
+      },
+      {
+       "i": 2,
+       "lo": 0.4,
+       "hi": 0.5,
+       "center": 0.45,
+       "val": 9.75301,
+       "err": 1.28612
+      },
+      {
+       "i": 3,
+       "lo": 0.5,
+       "hi": 0.6,
+       "center": 0.55,
+       "val": 11.9995,
+       "err": 1.48397
+      },
+      {
+       "i": 4,
+       "lo": 0.6,
+       "hi": 0.75,
+       "center": 0.675,
+       "val": 5.14069,
+       "err": 1.06722
+      },
+      {
+       "i": 5,
+       "lo": 0.75,
+       "hi": 1.0,
+       "center": 0.875,
+       "val": 1.60541,
+       "err": 0.306318
+      },
+      {
+       "i": 6,
+       "lo": 1.0,
+       "hi": 1.15,
+       "center": 1.075,
+       "val": 0.0115155,
+       "err": 0.00214116,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.71 < \\cos\\theta_\\mu < 0.8$",
+     "label": "0.71 < cos\u03b8_\u03bc < 0.8",
+     "lo": 0.71,
+     "hi": 0.8,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 2.80265,
+       "err": 0.614087
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.4,
+       "center": 0.35,
+       "val": 7.94004,
+       "err": 1.16002
+      },
+      {
+       "i": 2,
+       "lo": 0.4,
+       "hi": 0.5,
+       "center": 0.45,
+       "val": 9.79004,
+       "err": 1.30006
+      },
+      {
+       "i": 3,
+       "lo": 0.5,
+       "hi": 0.6,
+       "center": 0.55,
+       "val": 12.275,
+       "err": 1.56405
+      },
+      {
+       "i": 4,
+       "lo": 0.6,
+       "hi": 0.7,
+       "center": 0.6499999999999999,
+       "val": 9.29842,
+       "err": 1.47066
+      },
+      {
+       "i": 5,
+       "lo": 0.7,
+       "hi": 0.85,
+       "center": 0.7749999999999999,
+       "val": 4.66199,
+       "err": 0.788824
+      },
+      {
+       "i": 6,
+       "lo": 0.85,
+       "hi": 1.1,
+       "center": 0.9750000000000001,
+       "val": 2.71372,
+       "err": 0.423495
+      },
+      {
+       "i": 7,
+       "lo": 1.1,
+       "hi": 1.225,
+       "center": 1.1625,
+       "val": 0.0229022,
+       "err": 0.00312707,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.87$",
+     "label": "0.8 < cos\u03b8_\u03bc < 0.87",
+     "lo": 0.8,
+     "hi": 0.87,
+     "nbins": 9,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 1.99984,
+       "err": 0.535316
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.4,
+       "center": 0.35,
+       "val": 6.95769,
+       "err": 1.11019
+      },
+      {
+       "i": 2,
+       "lo": 0.4,
+       "hi": 0.5,
+       "center": 0.45,
+       "val": 9.59015,
+       "err": 1.26153
+      },
+      {
+       "i": 3,
+       "lo": 0.5,
+       "hi": 0.6,
+       "center": 0.55,
+       "val": 12.3235,
+       "err": 1.51478
+      },
+      {
+       "i": 4,
+       "lo": 0.6,
+       "hi": 0.7,
+       "center": 0.6499999999999999,
+       "val": 9.13004,
+       "err": 1.40551
+      },
+      {
+       "i": 5,
+       "lo": 0.7,
+       "hi": 0.85,
+       "center": 0.7749999999999999,
+       "val": 6.74136,
+       "err": 0.997751
+      },
+      {
+       "i": 6,
+       "lo": 0.85,
+       "hi": 1.1,
+       "center": 0.9750000000000001,
+       "val": 4.78431,
+       "err": 0.617185
+      },
+      {
+       "i": 7,
+       "lo": 1.1,
+       "hi": 1.5,
+       "center": 1.3,
+       "val": 2.21493,
+       "err": 0.311701
+      },
+      {
+       "i": 8,
+       "lo": 1.5,
+       "hi": 1.65,
+       "center": 1.575,
+       "val": 0.0295273,
+       "err": 0.00393169,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.87 < \\cos\\theta_\\mu < 0.92$",
+     "label": "0.87 < cos\u03b8_\u03bc < 0.92",
+     "lo": 0.87,
+     "hi": 0.92,
+     "nbins": 9,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.4,
+       "center": 0.2,
+       "val": 2.91164,
+       "err": 0.533594
+      },
+      {
+       "i": 1,
+       "lo": 0.4,
+       "hi": 0.5,
+       "center": 0.45,
+       "val": 9.48271,
+       "err": 1.44356
+      },
+      {
+       "i": 2,
+       "lo": 0.5,
+       "hi": 0.6,
+       "center": 0.55,
+       "val": 12.3603,
+       "err": 1.68357
+      },
+      {
+       "i": 3,
+       "lo": 0.6,
+       "hi": 0.7,
+       "center": 0.6499999999999999,
+       "val": 9.30535,
+       "err": 1.42655
+      },
+      {
+       "i": 4,
+       "lo": 0.7,
+       "hi": 0.85,
+       "center": 0.7749999999999999,
+       "val": 7.20432,
+       "err": 1.05883
+      },
+      {
+       "i": 5,
+       "lo": 0.85,
+       "hi": 1.1,
+       "center": 0.9750000000000001,
+       "val": 5.67818,
+       "err": 0.723904
+      },
+      {
+       "i": 6,
+       "lo": 1.1,
+       "hi": 1.5,
+       "center": 1.3,
+       "val": 3.4174,
+       "err": 0.429016
+      },
+      {
+       "i": 7,
+       "lo": 1.5,
+       "hi": 2.1,
+       "center": 1.8,
+       "val": 1.92086,
+       "err": 0.279028
+      },
+      {
+       "i": 8,
+       "lo": 2.1,
+       "hi": 2.35,
+       "center": 2.225,
+       "val": 0.035794,
+       "err": 0.00502372,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.92 < \\cos\\theta_\\mu < 0.96$",
+     "label": "0.92 < cos\u03b8_\u03bc < 0.96",
+     "lo": 0.92,
+     "hi": 0.96,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.4,
+       "center": 0.2,
+       "val": 2.55158,
+       "err": 0.520626
+      },
+      {
+       "i": 1,
+       "lo": 0.4,
+       "hi": 0.5,
+       "center": 0.45,
+       "val": 6.45383,
+       "err": 1.06492
+      },
+      {
+       "i": 2,
+       "lo": 0.5,
+       "hi": 0.6,
+       "center": 0.55,
+       "val": 8.76484,
+       "err": 1.42796
+      },
+      {
+       "i": 3,
+       "lo": 0.6,
+       "hi": 0.7,
+       "center": 0.6499999999999999,
+       "val": 10.6736,
+       "err": 1.63772
+      },
+      {
+       "i": 4,
+       "lo": 0.7,
+       "hi": 0.85,
+       "center": 0.7749999999999999,
+       "val": 8.23641,
+       "err": 1.17706
+      },
+      {
+       "i": 5,
+       "lo": 0.85,
+       "hi": 1.1,
+       "center": 0.9750000000000001,
+       "val": 6.02577,
+       "err": 0.775227
+      },
+      {
+       "i": 6,
+       "lo": 1.1,
+       "hi": 1.5,
+       "center": 1.3,
+       "val": 6.35601,
+       "err": 0.733801
+      },
+      {
+       "i": 7,
+       "lo": 1.5,
+       "hi": 2.1,
+       "center": 1.8,
+       "val": 5.49596,
+       "err": 0.577153
+      },
+      {
+       "i": 8,
+       "lo": 2.1,
+       "hi": 3.0,
+       "center": 2.55,
+       "val": 2.81387,
+       "err": 0.364758
+      },
+      {
+       "i": 9,
+       "lo": 3.0,
+       "hi": 3.325,
+       "center": 3.1625,
+       "val": 0.0486601,
+       "err": 0.00774024,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.96 < \\cos\\theta_\\mu < 0.985$",
+     "label": "0.96 < cos\u03b8_\u03bc < 0.985",
+     "lo": 0.96,
+     "hi": 0.985,
+     "nbins": 7,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.5,
+       "center": 0.25,
+       "val": 2.66383,
+       "err": 0.537689
+      },
+      {
+       "i": 1,
+       "lo": 0.5,
+       "hi": 0.7,
+       "center": 0.6,
+       "val": 8.14266,
+       "err": 1.05091
+      },
+      {
+       "i": 2,
+       "lo": 0.7,
+       "hi": 1.0,
+       "center": 0.85,
+       "val": 5.88077,
+       "err": 0.790741
+      },
+      {
+       "i": 3,
+       "lo": 1.0,
+       "hi": 1.5,
+       "center": 1.25,
+       "val": 5.34064,
+       "err": 0.628643
+      },
+      {
+       "i": 4,
+       "lo": 1.5,
+       "hi": 2.3,
+       "center": 1.9,
+       "val": 6.26895,
+       "err": 0.681613
+      },
+      {
+       "i": 5,
+       "lo": 2.3,
+       "hi": 3.5,
+       "center": 2.9,
+       "val": 5.17203,
+       "err": 0.540008
+      },
+      {
+       "i": 6,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 0.172481,
+       "err": 0.0195465,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$0.985 < \\cos\\theta_\\mu < 1$",
+     "label": "0.985 < cos\u03b8_\u03bc < 1",
+     "lo": 0.985,
+     "hi": 1.0,
+     "nbins": 6,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.7,
+       "center": 0.35,
+       "val": 3.19323,
+       "err": 0.546154
+      },
+      {
+       "i": 1,
+       "lo": 0.7,
+       "hi": 1.5,
+       "center": 1.1,
+       "val": 3.8091,
+       "err": 0.514872
+      },
+      {
+       "i": 2,
+       "lo": 1.5,
+       "hi": 2.5,
+       "center": 2.0,
+       "val": 6.02472,
+       "err": 0.71269
+      },
+      {
+       "i": 3,
+       "lo": 2.5,
+       "hi": 3.5,
+       "center": 3.0,
+       "val": 7.07211,
+       "err": 1.04968
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.8,
+       "center": 4.15,
+       "val": 7.14409,
+       "err": 1.06479
+      },
+      {
+       "i": 5,
+       "lo": 4.8,
+       "hi": 5.8,
+       "center": 5.3,
+       "val": 0.444701,
+       "err": 0.0505046,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last bin is an integration overflow (shown truncated)"
+    }
+   ],
+   "bins": [],
+   "nuisance_file": "data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/data_unfold_with_neut.txt",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/data_unfold_with_neut.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/data_unfold_with_neut.txt \u00b7 from arXiv:1801.05148 (Phys.Rev.D 98 012004) \u00b7 per-bin error = sqrt(diag(covariance))"
+  }
+ ]
+}

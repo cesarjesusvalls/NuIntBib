@@ -195,6 +195,27 @@ def build_2d_slices(spec):
     grouped = {}
     for (b, clo, chi, plo, phi, val), e in zip(rows, err):
         grouped.setdefault((clo, chi), []).append((plo, phi, val, e))
+    return _assemble_2d(grouped, spec)
+
+
+_ROW2D_BR = re.compile(
+    r'\s*\d+\s+\[\s*([-\d.]+)\s*,\s*([-\d.]+)\s*\]\s+\[\s*([-\d.]+)\s*,\s*([-\d.]+)\s*\]'
+    r'\s+([-\d.eE]+)\s+([-\d.eE]+)')
+def build_2d_text(spec):
+    """2-D release from an inline-error bracketed text table:
+    'bin  [cos_lo,cos_hi]  [p_lo,p_hi]  value  error'."""
+    grouped = {}
+    for ln in open(fetch(spec['text'])):
+        m = _ROW2D_BR.match(ln)
+        if m:
+            clo, chi, plo, phi, val, err = (float(x) for x in m.groups())
+            grouped.setdefault((clo, chi), []).append((plo, phi, val, err))
+    return _assemble_2d(grouped, spec)
+
+
+def _assemble_2d(grouped, spec):
+    """Turn {(cos_lo,cos_hi): [(p_lo,p_hi,val,err),...]} into a single 2-D
+    distribution presented as sliced 1-D panels (overflow last bins truncated)."""
     xl, yl = spec['xlabel'], spec['ylabel']       # yl = the 2-D observable itself
     slices, total = [], 0
     for (clo, chi), pts in grouped.items():
@@ -304,6 +325,12 @@ REGISTRY = [
          'xlabel': r'p_\mu', 'xunit': 'GeV',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
          'yunit': r'10^{-38}\ cm^2/GeV/nucleon'}}]},
+    {'bibtag': 'T2K:2018lnf', 'slug': 't2k-2018lnf',
+     'sources': [{'slices2d_txt': {
+         'text': 'data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/data_unfold_with_neut.txt',
+         'xlabel': r'p_\mu', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}\cos\theta_\mu\mathrm{d}p_\mu',
+         'yunit': r'10^{-39}\ cm^2/(GeV/c)/nucleon'}}]},
 ]
 
 
@@ -323,6 +350,8 @@ def build(entry):
                 dists.append(d)
         elif 'slices2d' in src:
             dists.extend(build_2d_slices(src['slices2d']))
+        elif 'slices2d_txt' in src:
+            dists.extend(build_2d_text(src['slices2d_txt']))
     for d in dists:
         d['source'] = 'NUISANCE'
         d['source_url'] = BLOB + d['nuisance_file']
@@ -347,5 +376,9 @@ if __name__ == '__main__':
         print(f"{e['bibtag']:<15} -> {os.path.relpath(path, ROOT_DIR)}  "
               f"({len(dists)} distributions, {sum(d['nbins'] for d in dists)} pts)")
         for d in dists:
-            print(f"    {d['key']:<14} {d['nbins']:>2} bins  x[{d['xunit']}]  "
-                  f"y[{d['yunit'][:34]}]  err/val~{np.median([b['err']/abs(b['val']) for b in d['bins'] if b['val']]):.2f}")
+            allbins = d['bins'] or [b for s in d.get('slices', []) for b in s['bins']]
+            ratios = [b['err'] / abs(b['val']) for b in allbins if b['val']]
+            rr = f"{np.median(ratios):.2f}" if ratios else "-"
+            kind = f"{len(d['slices'])} slices" if d.get('is2d') else f"{d['nbins']} bins"
+            print(f"    {d['key']:<26} {kind:<12} x[{d['xunit']}]  "
+                  f"y[{d['yunit'][:30]}]  err/val~{rr}")
