@@ -101,11 +101,6 @@ function plotSVG(bins: DataBin[], xlab: string, ylab: string, logy: boolean): st
   return s;
 }
 
-function csv(d: Distribution): string {
-  const head = 'bin,x_low,x_high,x_center,value,error';
-  const rows = d.bins.map((b) => [b.i, b.lo, b.hi, b.center, b.val, b.err.toPrecision(6)].join(','));
-  return head + '\n' + rows.join('\n') + '\n';
-}
 function triggerDownload(uri: string, filename: string) {
   const a = document.createElement('a');
   a.href = uri;
@@ -114,56 +109,92 @@ function triggerDownload(uri: string, filename: string) {
   a.click();
   a.remove();
 }
-function download(d: Distribution, bibtag: string) {
-  const uri = 'data:text/csv;charset=utf-8,' +
-    encodeURIComponent(`# ${bibtag} ${strip(d.name)}  (${d.yunit})\n# source: ${d.provenance}\n` + csv(d));
-  triggerDownload(uri, `${bibtag.replace(':', '_')}_${d.slug}.csv`);
-}
-function downloadAll(release: Release) {
-  const lines = [
-    `# ${release.bibtag} — ${release.source} data release`,
-    `# ${release.cite ?? ''} · arXiv:${release.arxiv ?? ''}`,
-    `# ${release.distributions.length} distributions · taken directly from NUISANCE (values + covariance diagonal); nothing digitized`,
-    `distribution,slice,x_label,x_low,x_high,x_center,value,error,y_unit`,
-  ];
-  for (const d of release.distributions) {
-    const rows = d.is2d && d.slices
-      ? d.slices.flatMap((s) => s.bins.map((b) => ({ slice: s.label, b })))
-      : d.bins.map((b) => ({ slice: '', b }));
-    for (const { slice, b } of rows) {
-      lines.push([d.key, `"${slice}"`, strip(d.xlabel), b.lo, b.hi_true ?? b.hi,
-        b.center, b.val, b.err.toPrecision(6), `"${d.yunit}"`].join(','));
-    }
-  }
-  const uri = 'data:text/csv;charset=utf-8,' + encodeURIComponent(lines.join('\n') + '\n');
-  triggerDownload(uri, `${release.bibtag.replace(':', '_')}_${release.source}_all.csv`);
-}
 
-function downloadSlices(d: Distribution, bibtag: string) {
-  const lines = [`# ${bibtag} ${strip(d.name)}  (${d.yunit})`,
-    `# source: ${d.provenance}`,
-    `slice,x_low,x_high,x_center,value,error`];
-  for (const s of d.slices ?? []) {
-    for (const b of s.bins) {
-      lines.push([`"${s.label}"`, b.lo, b.hi_true ?? b.hi, b.center, b.val, b.err.toPrecision(6)].join(','));
-    }
-  }
-  const uri = 'data:text/csv;charset=utf-8,' + encodeURIComponent(lines.join('\n') + '\n');
-  triggerDownload(uri, `${bibtag.replace(':', '_')}_${d.slug}.csv`);
+// --- CSV bodies bundled into the ZIP ---
+function distCsv(d: Distribution): string {
+  const head = d.is2d ? 'slice,x_low,x_high,x_center,value,error'
+                      : 'x_low,x_high,x_center,value,error';
+  const rows: string[] = [];
+  const push = (slice: string, b: DataBin) =>
+    rows.push([...(d.is2d ? [`"${slice}"`] : []),
+      b.lo, b.hi_true ?? b.hi, b.center, b.val, b.err.toPrecision(6)].join(','));
+  if (d.is2d && d.slices) for (const s of d.slices) for (const b of s.bins) push(s.label, b);
+  else for (const b of d.bins) push('', b);
+  return `# ${strip(d.name)}  [${d.yunit}]\n# ${d.provenance}\n${head}\n${rows.join('\n')}\n`;
 }
-
-function downloadCov(release: Release) {
-  const c = release.covariance;
-  if (!c) return;
-  const lines = [
+function covCsv(release: Release): string {
+  const c = release.covariance!;
+  return [
     `# ${release.bibtag} — covariance matrix (${c.matrix.length}x${c.matrix.length})`,
-    `# ${release.cite ?? ''} · arXiv:${release.arxiv ?? ''}`,
     `# ${c.note ?? ''}`,
     ...c.order.map((o, i) => `# bin ${i}: ${o}`),
     ...c.matrix.map((row) => row.join(',')),
-  ];
-  const uri = 'data:text/csv;charset=utf-8,' + encodeURIComponent(lines.join('\n') + '\n');
-  triggerDownload(uri, `${release.bibtag.replace(':', '_')}_covariance.csv`);
+  ].join('\n') + '\n';
+}
+function readme(release: Release): string {
+  const n = release.distributions.length;
+  const cov = release.covariance;
+  return [
+    `${release.bibtag} — ${release.source} data release`,
+    `${release.cite ?? ''}   arXiv:${release.arxiv ?? ''}`,
+    '',
+    release.note ?? '',
+    '',
+    'Contents:',
+    `  ${n} distribution CSV file(s): x bins, value, error (2-D files have a "slice" column).`,
+    cov ? `  covariance.csv: full ${cov.matrix.length}x${cov.matrix.length} matrix; bin order in its header.`
+        : '  (no full covariance matrix in this release; per-bin errors are in the CSVs.)',
+    '',
+    'Nothing is digitized — values and covariance come directly from the release.',
+  ].join('\n') + '\n';
+}
+
+// --- minimal store (uncompressed) ZIP builder, no dependency ---
+function crc32(buf: Uint8Array): number {
+  let c = ~0;
+  for (let i = 0; i < buf.length; i++) {
+    c ^= buf[i];
+    for (let k = 0; k < 8; k++) c = (c >>> 1) ^ (0xedb88320 & -(c & 1));
+  }
+  return (~c) >>> 0;
+}
+function makeZip(files: Record<string, string>): Uint8Array {
+  const enc = new TextEncoder();
+  const u16 = (n: number) => [n & 255, (n >>> 8) & 255];
+  const u32 = (n: number) => [n & 255, (n >>> 8) & 255, (n >>> 16) & 255, (n >>> 24) & 255];
+  const chunks: Uint8Array[] = [];
+  const central: Uint8Array[] = [];
+  let offset = 0;
+  for (const [name, content] of Object.entries(files)) {
+    const data = enc.encode(content);
+    const nb = enc.encode(name);
+    const crc = crc32(data);
+    const lfh = new Uint8Array([0x50, 0x4b, 0x03, 0x04, ...u16(20), ...u16(0), ...u16(0),
+      ...u16(0), ...u16(0), ...u32(crc), ...u32(data.length), ...u32(data.length),
+      ...u16(nb.length), ...u16(0)]);
+    chunks.push(lfh, nb, data);
+    central.push(new Uint8Array([0x50, 0x4b, 0x01, 0x02, ...u16(20), ...u16(20), ...u16(0),
+      ...u16(0), ...u16(0), ...u16(0), ...u32(crc), ...u32(data.length), ...u32(data.length),
+      ...u16(nb.length), ...u16(0), ...u16(0), ...u16(0), ...u16(0), ...u32(0), ...u32(offset)]), nb);
+    offset += lfh.length + nb.length + data.length;
+  }
+  const cdSize = central.reduce((s, a) => s + a.length, 0);
+  const n = Object.keys(files).length;
+  const eocd = new Uint8Array([0x50, 0x4b, 0x05, 0x06, ...u16(0), ...u16(0), ...u16(n),
+    ...u16(n), ...u32(cdSize), ...u32(offset), ...u16(0)]);
+  const all = [...chunks, ...central, eocd];
+  const out = new Uint8Array(all.reduce((s, a) => s + a.length, 0));
+  let p = 0;
+  for (const a of all) { out.set(a, p); p += a.length; }
+  return out;
+}
+function downloadZip(release: Release) {
+  const files: Record<string, string> = { 'README.txt': readme(release) };
+  for (const d of release.distributions) files[`${d.slug || d.key}.csv`] = distCsv(d);
+  if (release.covariance) files['covariance.csv'] = covCsv(release);
+  const url = URL.createObjectURL(new Blob([makeZip(files) as BlobPart], { type: 'application/zip' }));
+  triggerDownload(url, `${release.bibtag.replace(':', '_')}_${release.source}.zip`);
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
 }
 
 // index of the slice with the most bins — the representative one for a sparkline
@@ -202,14 +233,9 @@ export function DataRelease({ release }: { release: Release }) {
     <section className="dr">
       <div className="dr-head">
         <h2 className="type-h3" style={{ margin: 0 }}>Data release</h2>
-        <button className="dr-btn primary dr-downloadall" onClick={() => downloadAll(release)}>
-          ↓ Download all (CSV)
+        <button className="dr-btn primary dr-downloadall" onClick={() => downloadZip(release)}>
+          ↓ Download bundle (ZIP)
         </button>
-        {release.covariance ? (
-          <button className="dr-btn" onClick={() => downloadCov(release)}>
-            ↓ Covariance (CSV)
-          </button>
-        ) : null}
       </div>
       <p className="dr-sub">
         Release from{' '}
@@ -320,12 +346,6 @@ export function DataRelease({ release }: { release: Release }) {
                         </table>
                       </div>
                       <div className="dr-actions">
-                        <button
-                          className="dr-btn primary"
-                          onClick={() => (is2d ? downloadSlices(d, release.bibtag) : download(d, release.bibtag))}
-                        >
-                          ↓ Download CSV{is2d ? ' (all slices)' : ''}
-                        </button>
                         <a className="dr-btn" href={d.source_url} target="_blank" rel="noopener noreferrer">
                           View on NUISANCE {EXT}
                         </a>
