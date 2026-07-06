@@ -36,10 +36,12 @@ def cite_of(bibtag):
 
 
 def fetch(relpath):
-    """Cache a file from the NUISANCE repo, return local path."""
-    local = os.path.join(CACHE, relpath.replace('/', '__'))
+    """Cache a file and return its local path. `relpath` is a NUISANCE-repo path,
+    or a full https URL (e.g. a neutrino_data release file)."""
+    url = relpath if relpath.startswith('http') else RAW + relpath
+    local = os.path.join(CACHE, url.split('://', 1)[-1].replace('/', '__'))
     if not os.path.exists(local):
-        urllib.request.urlretrieve(RAW + relpath, local)
+        urllib.request.urlretrieve(url, local)
     return local
 
 
@@ -244,6 +246,42 @@ def build_2d_binned(spec):
     return _assemble_2d(grouped, spec)
 
 
+def build_2d_joint(spec):
+    """A joint multi-detector 2-D release: one flattened bin array over >=1
+    detectors, each with its own cos-p binning.  Values from a CSV (bin,data,..),
+    errors from the diagonal of a covariance CSV, binning + detector split from
+    per-detector binning CSVs (global 1-based bin index).  One 2-D item per
+    detector."""
+    vals = {}
+    for ln in open(fetch(spec['data'])):
+        p = [x.strip() for x in ln.split(',')]
+        try:
+            vals[int(p[0])] = float(p[spec.get('vcol', 1)])
+        except (ValueError, IndexError):
+            pass
+    diag = {}
+    for i, l in enumerate(l for l in open(fetch(spec['cov'])) if l.strip()):
+        try:
+            diag[i + 1] = math.sqrt(max(float(l.split(',')[i]), 0.0))
+        except (ValueError, IndexError):
+            pass
+    pdiv = spec.get('pdiv', 1.0)
+    out = []
+    for det in spec['detectors']:
+        grouped = {}
+        for ln in open(fetch(det['file'])):
+            p = [x.strip() for x in ln.split(',')]
+            try:
+                b = int(p[0]); alo, ahi, plo, phi = (float(p[i]) for i in (1, 2, 3, 4))
+            except (ValueError, IndexError):
+                continue
+            if b in vals and b in diag:
+                grouped.setdefault((alo, ahi), []).append(
+                    (plo / pdiv, phi / pdiv, vals[b], diag[b]))
+        out += _assemble_2d(grouped, {**spec, 'detector': det['name']})
+    return out
+
+
 def _assemble_2d(grouped, spec):
     """Turn {(cos_lo,cos_hi): [(p_lo,p_hi,val,err),...]} into a single 2-D
     distribution presented as sliced 1-D panels (overflow last bins truncated)."""
@@ -270,16 +308,25 @@ def _assemble_2d(grouped, spec):
             'lo': clo, 'hi': chi, 'nbins': len(bins), 'bins': bins,
             'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
         })
-    return [{
-        'key': spec.get('key', 'd2xsec'), 'slug': spec.get('slug', 'd2xsec'),
-        'name': plotify(yl), 'name_tex': f'${yl}$',
+    det = spec.get('detector')                    # optional group label (ND280/INGRID)
+    suf_tex = rf'\ (\mathrm{{{det}}})' if det else ''
+    suf = f' ({det})' if det else ''
+    dkey = (f"_{det.lower()}" if det else '')
+    dist = {
+        'key': spec.get('key', 'd2xsec') + dkey, 'slug': spec.get('slug', 'd2xsec') + dkey,
+        'name': plotify(yl) + suf, 'name_tex': f'${yl}{suf_tex}$',
         'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''),
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': spec.get('yunit', ''), 'yunit_tex': f"${tl(spec.get('yunit',''))}$" if spec.get('yunit') else '',
         'nbins': total, 'is2d': True, 'slicevar_tex': f"${spec.get('slicevar', r'cos theta_mu')}$",
         'slices': slices, 'bins': [],
-        'nuisance_file': spec.get('text') or spec.get('data') or '', 'scale_note': None,
-    }]
+        'nuisance_file': spec.get('nuisance_file') or spec.get('text') or spec.get('data') or '',
+        'scale_note': None,
+    }
+    for k in ('source', 'source_url', 'provenance'):   # let a builder pre-set these
+        if spec.get(k):
+            dist[k] = spec[k]
+    return [dist]
 
 
 def extract_root(relfile, want=None,
@@ -315,6 +362,9 @@ def extract_root(relfile, want=None,
 # Each entry: bibtag, slug, list of sources. arXiv + citation come from the DB.
 # A source is {'root': path[, 'name']} or {'txt': path, 'labels': {...}}.
 NUE = 'data/T2K/CCinc/nue_2019/'
+# neutrino_data repo (HEPData-homogenised) release dir for T2K:2023qjb
+_ND = ('https://raw.githubusercontent.com/NUISANCEMC/neutrino_data/main/data/T2K/'
+       'CrossSection/PRD.108.112009/onoffaxis_data_release/')
 def _nue(f, name, x, xu, y, yu):
     return {'txt': NUE + f, 'labels': {'key': name, 'xlabel': x, 'xunit': xu,
                                        'ylabel': y, 'yunit': yu}}
@@ -371,6 +421,19 @@ REGISTRY = [
          'key': 'oc_ratio', 'slug': 'oc_ratio',
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\sigma(\mathrm{O})/\sigma(\mathrm{C})', 'yunit': ''}}]},
+    {'bibtag': 'T2K:2023qjb', 'slug': 't2k-2023qjb',
+     'sources': [{'joint2d': {
+         'data': _ND + 'xsec_data_mc.csv', 'cov': _ND + 'cov_matrix.csv',
+         'vcol': 1, 'pdiv': 1000.0,        # data column; p MeV/c -> GeV/c
+         'detectors': [{'name': 'ND280', 'file': _ND + 'nd280_analysis_binning.csv'},
+                       {'name': 'INGRID', 'file': _ND + 'ingrid_analysis_binning.csv'}],
+         'xlabel': r'p_\mu', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
+         'yunit': r'cm^2/GeV',
+         'nuisance_file': 'neutrino_data/…/PRD.108.112009/onoffaxis_data_release/',
+         'source': 'NUISANCE neutrino_data',
+         'source_url': 'https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/'
+                       'CrossSection/PRD.108.112009/onoffaxis_data_release'}}]},
 ]
 
 
@@ -394,12 +457,14 @@ def build(entry):
             dists.extend(build_2d_text(src['slices2d_txt']))
         elif 'slices2d_binned' in src:
             dists.extend(build_2d_binned(src['slices2d_binned']))
+        elif 'joint2d' in src:
+            dists.extend(build_2d_joint(src['joint2d']))
     for d in dists:
-        d['source'] = 'NUISANCE'
-        d['source_url'] = BLOB + d['nuisance_file']
-        d['provenance'] = (f"NUISANCE · {d['nuisance_file']} · from arXiv:{arxiv} "
-                           f"({cite}) · per-bin error = sqrt(diag(covariance))"
-                           + (f" · {d['scale_note']}" if d.get('scale_note') else ''))
+        d.setdefault('source', 'NUISANCE')
+        d.setdefault('source_url', BLOB + d['nuisance_file'])
+        d.setdefault('provenance', f"{d['source']} · {d['nuisance_file']} · from "
+                     f"arXiv:{arxiv} ({cite}) · per-bin error = sqrt(diag(covariance))"
+                     + (f" · {d['scale_note']}" if d.get('scale_note') else ''))
     out = {'bibtag': entry['bibtag'], 'slug': entry['slug'], 'source': 'NUISANCE',
            'arxiv': arxiv, 'cite': cite,
            'note': 'Cross sections taken directly from the NUISANCE data release.',
