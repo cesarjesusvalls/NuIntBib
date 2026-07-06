@@ -213,6 +213,37 @@ def build_2d_text(spec):
     return _assemble_2d(grouped, spec)
 
 
+def build_2d_binned(spec):
+    """2-D release where the (cos,p) binning is in a separate 'min_cos max_cos
+    min_p max_p' file and the values+errors are columns of a data file (same row
+    order) -- e.g. an O/C cross-section ratio with the ratio + error inline."""
+    binning = []
+    for ln in open(fetch(spec['binning'])):
+        ln = ln.strip()
+        if not ln or ln.startswith(('//', '#')):
+            continue
+        p = ln.split()
+        if len(p) >= 4:
+            try:
+                binning.append(tuple(float(x) for x in p[:4]))
+            except ValueError:
+                pass
+    vc, ec = spec['vcol'], spec['ecol']
+    vals = []
+    for ln in open(fetch(spec['data'])):
+        p = ln.split()
+        try:
+            vals.append((float(p[vc]), float(p[ec])))
+        except (ValueError, IndexError):
+            vals.append(None)
+    grouped = {}
+    for (clo, chi, plo, phi), ve in zip(binning, vals):
+        if ve is None:
+            continue
+        grouped.setdefault((clo, chi), []).append((plo, phi, ve[0], ve[1]))
+    return _assemble_2d(grouped, spec)
+
+
 def _assemble_2d(grouped, spec):
     """Turn {(cos_lo,cos_hi): [(p_lo,p_hi,val,err),...]} into a single 2-D
     distribution presented as sliced 1-D panels (overflow last bins truncated)."""
@@ -246,7 +277,8 @@ def _assemble_2d(grouped, spec):
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': spec.get('yunit', ''), 'yunit_tex': f"${tl(spec.get('yunit',''))}$" if spec.get('yunit') else '',
         'nbins': total, 'is2d': True, 'slicevar_tex': f"${spec.get('slicevar', r'cos theta_mu')}$",
-        'slices': slices, 'bins': [], 'nuisance_file': spec['text'], 'scale_note': None,
+        'slices': slices, 'bins': [],
+        'nuisance_file': spec.get('text') or spec.get('data') or '', 'scale_note': None,
     }]
 
 
@@ -331,6 +363,14 @@ REGISTRY = [
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}\cos\theta_\mu\mathrm{d}p_\mu',
          'yunit': r'10^{-39}\ cm^2/(GeV/c)/nucleon'}}]},
+    {'bibtag': 'T2K:2020jav', 'slug': 't2k-2020jav',
+     'sources': [{'slices2d_binned': {
+         'binning': 'data/T2K/CC0pi/JointO-C/Binning.txt',
+         'data': 'data/T2K/CC0pi/JointO-C/cc0pi_xsec_O-C-ratio_reg.txt',
+         'vcol': 5, 'ecol': 6,          # ratio value, ratio error
+         'key': 'oc_ratio', 'slug': 'oc_ratio',
+         'xlabel': r'p_\mu', 'xunit': 'GeV/c',
+         'ylabel': r'\sigma(\mathrm{O})/\sigma(\mathrm{C})', 'yunit': ''}}]},
 ]
 
 
@@ -352,6 +392,8 @@ def build(entry):
             dists.extend(build_2d_slices(src['slices2d']))
         elif 'slices2d_txt' in src:
             dists.extend(build_2d_text(src['slices2d_txt']))
+        elif 'slices2d_binned' in src:
+            dists.extend(build_2d_binned(src['slices2d_binned']))
     for d in dists:
         d['source'] = 'NUISANCE'
         d['source_url'] = BLOB + d['nuisance_file']
