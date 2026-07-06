@@ -234,7 +234,7 @@ export function DataRelease({ release }: { release: Release }) {
       <div className="dr-head">
         <h2 className="type-h3" style={{ margin: 0 }}>Data release</h2>
         <button className="dr-btn primary dr-downloadall" onClick={() => downloadZip(release)}>
-          ↓ Download bundle (ZIP)
+          ↓ Download files (ZIP)
         </button>
       </div>
       <p className="dr-sub">
