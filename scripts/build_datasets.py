@@ -316,6 +316,29 @@ def build_2d_rootslices(spec):
     return out
 
 
+def build_2d_root_explicit(spec):
+    """2-D release from a flattened result TH1 + covariance TH2 with an EXPLICIT
+    slice binning (slice_edges + per-slice x-edges) taken from the sample class.
+    cov_fractional=True: the stored covariance is relative, so the absolute per-bin
+    error is value * sqrt(diag).  Slice var and x axis are whatever the spec says
+    (this release slices by p_mu and plots vs cos_theta)."""
+    f = uproot.open(fetch(spec['root']))
+    vals = f[spec['result']].values()
+    covd = np.diag(f[spec['cov']].values())
+    frac = spec.get('cov_fractional', False)
+    sedges, xbins, sdiv = spec['slice_edges'], spec['xbins'], spec.get('sdiv', 1.0)
+    grouped, b = {}, 0
+    for i in range(len(sedges) - 1):
+        slo, shi = sedges[i] / sdiv, sedges[i + 1] / sdiv
+        edges = xbins[i]
+        for j in range(len(edges) - 1):
+            v = float(vals[b])
+            e = v * math.sqrt(max(covd[b], 0.0)) if frac else math.sqrt(max(covd[b], 0.0))
+            grouped.setdefault((slo, shi), []).append((edges[j], edges[j + 1], v, float(e)))
+            b += 1
+    return _assemble_2d(grouped, spec)
+
+
 def _assemble_2d(grouped, spec):
     """Turn {(cos_lo,cos_hi): [(p_lo,p_hi,val,err),...]} into a single 2-D
     distribution presented as sliced 1-D panels (overflow last bins truncated)."""
@@ -486,6 +509,17 @@ REGISTRY = [
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
          'yunit': r'cm^2/GeV'}}]},
+    {'bibtag': 'T2K:2019ddy', 'slug': 't2k-2019ddy',
+     'sources': [{'root_explicit': {
+         'root': 'data/T2K/CC0pi/AntiNuMuH2O/AntiNuMuOnH2O_unreg.root',
+         'result': 'xsecDataRelease', 'cov': 'covDataRelease', 'cov_fractional': True,
+         'slice_edges': [400, 530, 670, 800, 1000, 1380, 2010, 3410], 'sdiv': 1000.0,
+         'xbins': [[0.84, 0.94, 1.0], [0.85, 0.92, 0.96, 1.0], [0.88, 0.93, 0.97, 1.0],
+                   [0.90, 0.94, 0.97, 1.0], [0.91, 0.95, 0.97, 1.0],
+                   [0.92, 0.96, 0.98, 1.0], [0.95, 0.98, 1.0]],
+         'slicevar': r'p_\mu', 'xlabel': r'\cos\theta_\mu', 'xunit': '',
+         'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
+         'yunit': r'cm^2/GeV'}}]},
 ]
 
 
@@ -513,6 +547,8 @@ def build(entry):
             dists.extend(build_2d_joint(src['joint2d']))
         elif 'rootslices' in src:
             dists.extend(build_2d_rootslices(src['rootslices']))
+        elif 'root_explicit' in src:
+            dists.extend(build_2d_root_explicit(src['root_explicit']))
     for d in dists:
         d.setdefault('source', 'NUISANCE')
         d.setdefault('source_url', BLOB + d['nuisance_file'])

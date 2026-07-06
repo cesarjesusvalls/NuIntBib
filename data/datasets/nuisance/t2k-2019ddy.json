@@ -1,0 +1,256 @@
+{
+ "bibtag": "T2K:2019ddy",
+ "slug": "t2k-2019ddy",
+ "source": "NUISANCE",
+ "arxiv": "1908.10249",
+ "cite": "Phys.Rev.D 102 012007",
+ "note": "Cross sections taken directly from the NUISANCE data release.",
+ "distributions": [
+  {
+   "key": "d2xsec",
+   "slug": "d2xsec",
+   "name": "d\u00b2\u03c3/dp_\u03bcdcos\u03b8_\u03bc",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\mathrm{d}\\cos\\theta_\\mu$",
+   "xlabel": "cos\u03b8_\u03bc",
+   "xunit": "",
+   "ylabel": "d\u00b2\u03c3/dp_\u03bcdcos\u03b8_\u03bc",
+   "ylabel_plot": "d\u00b2\u03c3/dp_\u03bcdcos\u03b8_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\mathrm{d}\\cos\\theta_\\mu$",
+   "yunit": "cm^2/GeV",
+   "yunit_tex": "$cm^2/GeV$",
+   "nbins": 19,
+   "is2d": true,
+   "slicevar_tex": "$p_\\mu$",
+   "slices": [
+    {
+     "label_tex": "$0.4 < p_\\mu < 0.53$",
+     "label": "0.4 < p_\u03bc < 0.53",
+     "lo": 0.4,
+     "hi": 0.53,
+     "nbins": 2,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.84,
+       "hi": 0.94,
+       "center": 0.8899999999999999,
+       "val": 1.0832037129230836e-40,
+       "err": 3.9384983622923865e-41
+      },
+      {
+       "i": 1,
+       "lo": 0.94,
+       "hi": 1.0,
+       "center": 0.97,
+       "val": 1.2373745699681e-40,
+       "err": 4.966475689755108e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.53 < p_\\mu < 0.67$",
+     "label": "0.53 < p_\u03bc < 0.67",
+     "lo": 0.53,
+     "hi": 0.67,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.85,
+       "hi": 0.92,
+       "center": 0.885,
+       "val": 1.2946176122357687e-40,
+       "err": 4.435971603511955e-41
+      },
+      {
+       "i": 1,
+       "lo": 0.92,
+       "hi": 0.96,
+       "center": 0.94,
+       "val": 1.5620974631060898e-40,
+       "err": 5.023550928389355e-41
+      },
+      {
+       "i": 2,
+       "lo": 0.96,
+       "hi": 1.0,
+       "center": 0.98,
+       "val": 1.53133896181416e-40,
+       "err": 4.4521033157665727e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.67 < p_\\mu < 0.8$",
+     "label": "0.67 < p_\u03bc < 0.8",
+     "lo": 0.67,
+     "hi": 0.8,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.88,
+       "hi": 0.93,
+       "center": 0.905,
+       "val": 4.750682053753995e-41,
+       "err": 1.591739307845975e-41
+      },
+      {
+       "i": 1,
+       "lo": 0.93,
+       "hi": 0.97,
+       "center": 0.95,
+       "val": 7.220890986665782e-41,
+       "err": 2.1595876551449254e-41
+      },
+      {
+       "i": 2,
+       "lo": 0.97,
+       "hi": 1.0,
+       "center": 0.985,
+       "val": 1.4732411274832532e-40,
+       "err": 4.2837099800629424e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.8 < p_\\mu < 1$",
+     "label": "0.8 < p_\u03bc < 1",
+     "lo": 0.8,
+     "hi": 1.0,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.9,
+       "hi": 0.94,
+       "center": 0.9199999999999999,
+       "val": 5.537371011625947e-41,
+       "err": 2.3765931130183303e-41
+      },
+      {
+       "i": 1,
+       "lo": 0.94,
+       "hi": 0.97,
+       "center": 0.955,
+       "val": 7.780009073931384e-41,
+       "err": 3.1287801321428376e-41
+      },
+      {
+       "i": 2,
+       "lo": 0.97,
+       "hi": 1.0,
+       "center": 0.985,
+       "val": 3.7152626184643875e-41,
+       "err": 9.612308263051152e-42
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$1 < p_\\mu < 1.38$",
+     "label": "1 < p_\u03bc < 1.38",
+     "lo": 1.0,
+     "hi": 1.38,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.91,
+       "hi": 0.95,
+       "center": 0.9299999999999999,
+       "val": 3.5514508279848164e-41,
+       "err": 1.580783807230582e-41
+      },
+      {
+       "i": 1,
+       "lo": 0.95,
+       "hi": 0.97,
+       "center": 0.96,
+       "val": 4.417032889398256e-41,
+       "err": 2.160161679799275e-41
+      },
+      {
+       "i": 2,
+       "lo": 0.97,
+       "hi": 1.0,
+       "center": 0.985,
+       "val": 5.839911350073675e-41,
+       "err": 1.8784430166485898e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$1.38 < p_\\mu < 2.01$",
+     "label": "1.38 < p_\u03bc < 2.01",
+     "lo": 1.38,
+     "hi": 2.01,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.92,
+       "hi": 0.96,
+       "center": 0.94,
+       "val": 2.458157766118594e-41,
+       "err": 1.0711726309971797e-41
+      },
+      {
+       "i": 1,
+       "lo": 0.96,
+       "hi": 0.98,
+       "center": 0.97,
+       "val": 3.192017771885501e-41,
+       "err": 1.270372968289596e-41
+      },
+      {
+       "i": 2,
+       "lo": 0.98,
+       "hi": 1.0,
+       "center": 0.99,
+       "val": 3.161189205670355e-41,
+       "err": 8.970915800096563e-42
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2.01 < p_\\mu < 3.41$",
+     "label": "2.01 < p_\u03bc < 3.41",
+     "lo": 2.01,
+     "hi": 3.41,
+     "nbins": 2,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.95,
+       "hi": 0.98,
+       "center": 0.965,
+       "val": 1.3267493860227368e-41,
+       "err": 5.807483837855127e-42
+      },
+      {
+       "i": 1,
+       "lo": 0.98,
+       "hi": 1.0,
+       "center": 0.99,
+       "val": 2.943987943700008e-41,
+       "err": 8.355510657609358e-42
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "bins": [],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/",
+   "provenance": "NUISANCE \u00b7  \u00b7 from arXiv:1908.10249 (Phys.Rev.D 102 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+  }
+ ]
+}
