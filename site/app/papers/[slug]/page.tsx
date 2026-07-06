@@ -6,6 +6,8 @@ import { CiteBlock } from '@/components/CiteBlock';
 import { Tex } from '@/components/Tex';
 import { stripTex } from '@/lib/tex';
 import { getAllPapers, getPaperBySlug, flavorTexSegment } from '@/lib/papers';
+import { getDataRelease } from '@/lib/datasets';
+import { DataRelease } from '@/components/DataRelease';
 import {
   getAllOscPapers,
   getOscPaperBySlug,
@@ -39,6 +41,7 @@ export default async function PaperDetailPage({ params }: PageProps) {
   if (!intPaper && !oscPaper) notFound();
   const paper = (intPaper ?? oscPaper)!;
   const expLabel = oscPaper ? paperExperiments(oscPaper).join(' + ') : intPaper!.collaboration;
+  const dataRelease = intPaper ? getDataRelease(slug) : null;
 
   const citation = [paper.journal, paper.volume, paper.pages].filter(Boolean).join(' ');
 
@@ -121,6 +124,15 @@ export default async function PaperDetailPage({ params }: PageProps) {
           </aside>
 
           <div className="detail-main section-stack">
+            {paper.abstract ? (
+              <div className="text-panel">
+                <h2 className="type-h3">Abstract</h2>
+                <p>
+                  <Tex text={paper.abstract} />
+                </p>
+              </div>
+            ) : null}
+
             <div>
               <h2 className="type-h3">Results</h2>
               <div className="data-table-wrap">
@@ -198,14 +210,7 @@ export default async function PaperDetailPage({ params }: PageProps) {
               </div>
             </div>
 
-            {paper.abstract ? (
-              <div className="text-panel">
-                <h2 className="type-h3">Abstract</h2>
-                <p>
-                  <Tex text={paper.abstract} />
-                </p>
-              </div>
-            ) : null}
+            {dataRelease ? <DataRelease release={dataRelease} /> : null}
 
             <div>
               <h2 className="type-h3">Citation</h2>

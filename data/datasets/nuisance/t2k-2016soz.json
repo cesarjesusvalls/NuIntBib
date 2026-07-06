@@ -1,0 +1,39 @@
+{
+ "bibtag": "T2K:2016soz",
+ "slug": "t2k-2016soz",
+ "source": "NUISANCE",
+ "arxiv": "1604.04406",
+ "cite": "Phys.Rev.Lett. 117 192501",
+ "note": "Cross sections taken directly from the NUISANCE data release.",
+ "distributions": [
+  {
+   "key": "Enu",
+   "slug": "enu",
+   "name": "E_\u03bd",
+   "name_tex": "$E_\\nu$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "ylabel": "\u03c3_coh",
+   "ylabel_plot": "\u03c3_coh",
+   "ylabel_tex": "$\\sigma_{\\mathrm{coh}}$",
+   "yunit": "cm^2/{}^{12}C",
+   "yunit_tex": "$cm^2/{}^{12}C$",
+   "nbins": 1,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.5,
+     "hi": 1.5,
+     "center": 1.0,
+     "val": 2.9e-40,
+     "err": 1.304e-40
+    }
+   ],
+   "nuisance_file": "data/T2K/CCCOH/C12_Enu_1bin.txt",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCCOH/C12_Enu_1bin.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CCCOH/C12_Enu_1bin.txt \u00b7 from arXiv:1604.04406 (Phys.Rev.Lett. 117 192501) \u00b7 per-bin error = sqrt(diag(covariance))"
+  }
+ ]
+}

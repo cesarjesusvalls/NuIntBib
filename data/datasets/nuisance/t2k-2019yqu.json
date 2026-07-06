@@ -1,0 +1,914 @@
+{
+ "bibtag": "T2K:2019yqu",
+ "slug": "t2k-2019yqu",
+ "source": "NUISANCE",
+ "arxiv": "1909.03936",
+ "cite": "Phys.Rev.D 101 012007",
+ "note": "Cross sections taken directly from the NUISANCE data release (values + covariance); nothing digitized.",
+ "distributions": [
+  {
+   "key": "Q2",
+   "name": "Q$^2$",
+   "slug": "Q^2",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV\u00b2",
+   "ylabel": "d\u03c3/dQ$^2$",
+   "yunit": "10^{-38}cm2/GeV2/Nucleon",
+   "nbins": 16,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "val": 0.0654,
+     "err": 0.01463659796537433,
+     "center": 0.05
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "val": 0.0693,
+     "err": 0.01555313473226539,
+     "center": 0.15000000000000002
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "val": 0.0643,
+     "err": 0.013701459776242821,
+     "center": 0.25
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "val": 0.0511,
+     "err": 0.011257886124845996,
+     "center": 0.35
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.5,
+     "val": 0.038,
+     "err": 0.008509994124557314,
+     "center": 0.45
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 0.6,
+     "val": 0.0331,
+     "err": 0.007430343195303969,
+     "center": 0.55
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 0.7,
+     "val": 0.0257,
+     "err": 0.005983310120660636,
+     "center": 0.6499999999999999
+    },
+    {
+     "i": 7,
+     "lo": 0.7,
+     "hi": 0.8,
+     "val": 0.0169,
+     "err": 0.004527692569068709,
+     "center": 0.75
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 0.9,
+     "val": 0.0118,
+     "err": 0.0034539832078341087,
+     "center": 0.8500000000000001
+    },
+    {
+     "i": 9,
+     "lo": 0.9,
+     "hi": 1.0,
+     "val": 0.0091,
+     "err": 0.00295296461204668,
+     "center": 0.95
+    },
+    {
+     "i": 10,
+     "lo": 1.0,
+     "hi": 1.2,
+     "val": 0.0067,
+     "err": 0.002387467277262664,
+     "center": 1.1
+    },
+    {
+     "i": 11,
+     "lo": 1.2,
+     "hi": 1.4,
+     "val": 0.0053,
+     "err": 0.0020542638584174137,
+     "center": 1.2999999999999998
+    },
+    {
+     "i": 12,
+     "lo": 1.4,
+     "hi": 1.6,
+     "val": 0.0038,
+     "err": 0.0015968719422671312,
+     "center": 1.5
+    },
+    {
+     "i": 13,
+     "lo": 1.6,
+     "hi": 1.8,
+     "val": 0.003,
+     "err": 0.0015394804318340652,
+     "center": 1.7000000000000002
+    },
+    {
+     "i": 14,
+     "lo": 1.8,
+     "hi": 2.0,
+     "val": 0.0022,
+     "err": 0.0012649110640673518,
+     "center": 1.9
+    },
+    {
+     "i": 15,
+     "lo": 2.0,
+     "hi": 3.3,
+     "val": 0.0008,
+     "err": 0.0007483314773547883,
+     "center": 2.65
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pip/CH/Q2.txt",
+   "name_tex": "$Q^2$",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
+   "yunit_tex": "$10^{-38}\\ \\mathrm{cm^2/GeV^2/nucleon}$",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/Q2.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Q2.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "MomentumPion",
+   "name": "p$_\u03c0$",
+   "slug": "p_pi",
+   "xlabel": "p_\u03c0",
+   "xunit": "GeV/c",
+   "ylabel": "d\u03c3/dp$_\u03c0$",
+   "yunit": "10^{-38}cm2/GeV/Nucleon",
+   "nbins": 17,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.2,
+     "val": 0.0322,
+     "err": 0.01604431363443136,
+     "center": 0.1
+    },
+    {
+     "i": 1,
+     "lo": 0.2,
+     "hi": 0.3,
+     "val": 0.1133,
+     "err": 0.03312114128468402,
+     "center": 0.25
+    },
+    {
+     "i": 2,
+     "lo": 0.3,
+     "hi": 0.4,
+     "val": 0.0979,
+     "err": 0.01951281630108786,
+     "center": 0.35
+    },
+    {
+     "i": 3,
+     "lo": 0.4,
+     "hi": 0.5,
+     "val": 0.0552,
+     "err": 0.012099173525493384,
+     "center": 0.45
+    },
+    {
+     "i": 4,
+     "lo": 0.5,
+     "hi": 0.6,
+     "val": 0.0329,
+     "err": 0.008592438536294572,
+     "center": 0.55
+    },
+    {
+     "i": 5,
+     "lo": 0.6,
+     "hi": 0.7,
+     "val": 0.0182,
+     "err": 0.0057463031594234566,
+     "center": 0.6499999999999999
+    },
+    {
+     "i": 6,
+     "lo": 0.7,
+     "hi": 0.8,
+     "val": 0.0164,
+     "err": 0.005241183072551464,
+     "center": 0.75
+    },
+    {
+     "i": 7,
+     "lo": 0.8,
+     "hi": 0.9,
+     "val": 0.0146,
+     "err": 0.004418144406874904,
+     "center": 0.8500000000000001
+    },
+    {
+     "i": 8,
+     "lo": 0.9,
+     "hi": 1.0,
+     "val": 0.0107,
+     "err": 0.0034088121098118625,
+     "center": 0.95
+    },
+    {
+     "i": 9,
+     "lo": 1.0,
+     "hi": 1.1,
+     "val": 0.0103,
+     "err": 0.0031606961258558216,
+     "center": 1.05
+    },
+    {
+     "i": 10,
+     "lo": 1.1,
+     "hi": 1.2,
+     "val": 0.0102,
+     "err": 0.0031432467291003423,
+     "center": 1.15
+    },
+    {
+     "i": 11,
+     "lo": 1.2,
+     "hi": 1.3,
+     "val": 0.0082,
+     "err": 0.002776688675382964,
+     "center": 1.25
+    },
+    {
+     "i": 12,
+     "lo": 1.3,
+     "hi": 1.4,
+     "val": 0.005,
+     "err": 0.00206881608655772,
+     "center": 1.35
+    },
+    {
+     "i": 13,
+     "lo": 1.4,
+     "hi": 1.6,
+     "val": 0.0043,
+     "err": 0.002209072203437452,
+     "center": 1.5
+    },
+    {
+     "i": 14,
+     "lo": 1.6,
+     "hi": 2.0,
+     "val": 0.0021,
+     "err": 0.0017464249196572981,
+     "center": 1.8
+    },
+    {
+     "i": 15,
+     "lo": 2.0,
+     "hi": 3.0,
+     "val": 0.0013,
+     "err": 0.000714142842854285,
+     "center": 2.5
+    },
+    {
+     "i": 16,
+     "lo": 3.0,
+     "hi": 15.0,
+     "val": 0.0001,
+     "err": 0.0,
+     "center": 9.0
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pip/CH/MomentumPion.txt",
+   "name_tex": "$p_\\pi$",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\pi$",
+   "yunit_tex": "$10^{-38}\\ \\mathrm{cm^2/(GeV/}c\\mathrm{)/nucleon}$",
+   "ylabel_plot": "d\u03c3/dp_\u03c0",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/MomentumPion.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/MomentumPion.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "Thetapion",
+   "name": "\u03b8$_\u03c0$",
+   "slug": "theta_pi",
+   "xlabel": "\u03b8_\u03c0",
+   "xunit": "rad",
+   "ylabel": "d\u03c3/d\u03b8$_\u03c0$",
+   "yunit": "10^{-38}cm2/rad/Nucleon",
+   "nbins": 13,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "val": 0.0111,
+     "err": 0.004660472079092417,
+     "center": 0.05
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "val": 0.0187,
+     "err": 0.007656369897020389,
+     "center": 0.15000000000000002
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "val": 0.0338,
+     "err": 0.009356281312572854,
+     "center": 0.25
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "val": 0.048,
+     "err": 0.011636150566231086,
+     "center": 0.35
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.5,
+     "val": 0.0431,
+     "err": 0.01092520022699813,
+     "center": 0.45
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 0.6,
+     "val": 0.0517,
+     "err": 0.011908400396358865,
+     "center": 0.55
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 0.7,
+     "val": 0.0473,
+     "err": 0.011115304764152893,
+     "center": 0.6499999999999999
+    },
+    {
+     "i": 7,
+     "lo": 0.7,
+     "hi": 0.8,
+     "val": 0.034,
+     "err": 0.009064215354899728,
+     "center": 0.75
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 0.9,
+     "val": 0.0333,
+     "err": 0.00915204895091804,
+     "center": 0.8500000000000001
+    },
+    {
+     "i": 9,
+     "lo": 0.9,
+     "hi": 1.0,
+     "val": 0.0312,
+     "err": 0.008494704232638121,
+     "center": 0.95
+    },
+    {
+     "i": 10,
+     "lo": 1.0,
+     "hi": 1.2,
+     "val": 0.0216,
+     "err": 0.006427285585688565,
+     "center": 1.1
+    },
+    {
+     "i": 11,
+     "lo": 1.2,
+     "hi": 1.4,
+     "val": 0.0178,
+     "err": 0.00608276253029822,
+     "center": 1.2999999999999998
+    },
+    {
+     "i": 12,
+     "lo": 1.4,
+     "hi": 3.1415,
+     "val": 0.0013,
+     "err": 0.0004,
+     "center": 2.27075
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pip/CH/Thetapion.txt",
+   "name_tex": "$\\theta_\\pi$",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\pi$",
+   "yunit_tex": "$10^{-38}\\ \\mathrm{cm^2/rad/nucleon}$",
+   "ylabel_plot": "d\u03c3/d\u03b8_\u03c0",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/Thetapion.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Thetapion.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "Thetapimu",
+   "name": "\u03b8$_{\u03bc\u03c0}$",
+   "slug": "theta_mupi",
+   "xlabel": "\u03b8_\u03bc\u03c0",
+   "xunit": "rad",
+   "ylabel": "d\u03c3/d\u03b8$_{\u03bc\u03c0}$",
+   "yunit": "10^{-38}cm2/rad/Nucleon",
+   "nbins": 16,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "val": 0.0039,
+     "err": 0.0,
+     "center": 0.05
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "val": 0.0096,
+     "err": 0.0017320508075688774,
+     "center": 0.15000000000000002
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "val": 0.016,
+     "err": 0.00338673884437522,
+     "center": 0.25
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "val": 0.0223,
+     "err": 0.004892851929090027,
+     "center": 0.35
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.5,
+     "val": 0.0259,
+     "err": 0.006110646446980876,
+     "center": 0.45
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 0.6,
+     "val": 0.0295,
+     "err": 0.007195137246779939,
+     "center": 0.55
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 0.7,
+     "val": 0.0313,
+     "err": 0.00768505042273634,
+     "center": 0.6499999999999999
+    },
+    {
+     "i": 7,
+     "lo": 0.7,
+     "hi": 0.8,
+     "val": 0.0351,
+     "err": 0.008478207357690658,
+     "center": 0.75
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 0.9,
+     "val": 0.0321,
+     "err": 0.00910768905925098,
+     "center": 0.8500000000000001
+    },
+    {
+     "i": 9,
+     "lo": 0.9,
+     "hi": 1.0,
+     "val": 0.0298,
+     "err": 0.00873842090998139,
+     "center": 0.95
+    },
+    {
+     "i": 10,
+     "lo": 1.0,
+     "hi": 1.2,
+     "val": 0.0299,
+     "err": 0.008356434646426669,
+     "center": 1.1
+    },
+    {
+     "i": 11,
+     "lo": 1.2,
+     "hi": 1.4,
+     "val": 0.0318,
+     "err": 0.008181075723888638,
+     "center": 1.2999999999999998
+    },
+    {
+     "i": 12,
+     "lo": 1.4,
+     "hi": 1.6,
+     "val": 0.0194,
+     "err": 0.00821462111116514,
+     "center": 1.5
+    },
+    {
+     "i": 13,
+     "lo": 1.6,
+     "hi": 1.8,
+     "val": 0.0104,
+     "err": 0.005766281297335398,
+     "center": 1.7000000000000002
+    },
+    {
+     "i": 14,
+     "lo": 1.8,
+     "hi": 2.0,
+     "val": 0.0041,
+     "err": 0.0036414282912066247,
+     "center": 1.9
+    },
+    {
+     "i": 15,
+     "lo": 2.0,
+     "hi": 3.1415,
+     "val": 0.0014,
+     "err": 0.002244994432064365,
+     "center": 2.5707500000000003
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pip/CH/Thetapimu.txt",
+   "name_tex": "$\\theta_{\\mu\\pi}$",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_{\\mu\\pi}$",
+   "yunit_tex": "$10^{-38}\\ \\mathrm{cm^2/rad/nucleon}$",
+   "ylabel_plot": "d\u03c3/d\u03b8_\u03bc\u03c0",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/Thetapimu.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Thetapimu.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "phi_adler",
+   "name": "\u03c6$_{Adler}$",
+   "slug": "phi_adler",
+   "xlabel": "\u03c6_Adler",
+   "xunit": "rad",
+   "ylabel": "d\u03c3/d\u03c6",
+   "yunit": "10^{-38}cm2/rad/Nucleon",
+   "nbins": 16,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -3.1415,
+     "hi": -2.8,
+     "val": 0.007,
+     "err": 0.0020493901531919195,
+     "center": -2.97075
+    },
+    {
+     "i": 1,
+     "lo": -2.8,
+     "hi": -2.4,
+     "val": 0.006,
+     "err": 0.0017175564037317668,
+     "center": -2.5999999999999996
+    },
+    {
+     "i": 2,
+     "lo": -2.4,
+     "hi": -2.0,
+     "val": 0.0071,
+     "err": 0.0018894443627691185,
+     "center": -2.2
+    },
+    {
+     "i": 3,
+     "lo": -2.0,
+     "hi": -1.6,
+     "val": 0.0063,
+     "err": 0.001841195263952197,
+     "center": -1.8
+    },
+    {
+     "i": 4,
+     "lo": -1.6,
+     "hi": -1.2,
+     "val": 0.0071,
+     "err": 0.0019595917942265423,
+     "center": -1.4
+    },
+    {
+     "i": 5,
+     "lo": -1.2,
+     "hi": -0.8,
+     "val": 0.0079,
+     "err": 0.002046948949045872,
+     "center": -1.0
+    },
+    {
+     "i": 6,
+     "lo": -0.8,
+     "hi": -0.4,
+     "val": 0.0077,
+     "err": 0.0021656407827707713,
+     "center": -0.6000000000000001
+    },
+    {
+     "i": 7,
+     "lo": -0.4,
+     "hi": 0.0,
+     "val": 0.0084,
+     "err": 0.002364318083507378,
+     "center": -0.2
+    },
+    {
+     "i": 8,
+     "lo": 0.0,
+     "hi": 0.4,
+     "val": 0.0085,
+     "err": 0.0023853720883753125,
+     "center": 0.2
+    },
+    {
+     "i": 9,
+     "lo": 0.4,
+     "hi": 0.8,
+     "val": 0.0094,
+     "err": 0.0024494897427831783,
+     "center": 0.6000000000000001
+    },
+    {
+     "i": 10,
+     "lo": 0.8,
+     "hi": 1.2,
+     "val": 0.007,
+     "err": 0.0019261360284258222,
+     "center": 1.0
+    },
+    {
+     "i": 11,
+     "lo": 1.2,
+     "hi": 1.6,
+     "val": 0.0055,
+     "err": 0.001630950643030009,
+     "center": 1.4
+    },
+    {
+     "i": 12,
+     "lo": 1.6,
+     "hi": 2.0,
+     "val": 0.006,
+     "err": 0.0017233687939614086,
+     "center": 1.8
+    },
+    {
+     "i": 13,
+     "lo": 2.0,
+     "hi": 2.4,
+     "val": 0.004,
+     "err": 0.0012884098726725125,
+     "center": 2.2
+    },
+    {
+     "i": 14,
+     "lo": 2.4,
+     "hi": 2.8,
+     "val": 0.0046,
+     "err": 0.0014866068747318507,
+     "center": 2.5999999999999996
+    },
+    {
+     "i": 15,
+     "lo": 2.8,
+     "hi": 3.1415,
+     "val": 0.0081,
+     "err": 0.002395829710142188,
+     "center": 2.97075
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pip/CH/phi_adler.txt",
+   "name_tex": "$\\phi_{\\mathrm{Adler}}$",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\phi_{\\mathrm{Adler}}$",
+   "yunit_tex": "$10^{-38}\\ \\mathrm{cm^2/rad/nucleon}$",
+   "ylabel_plot": "d\u03c3/d\u03c6_Adler",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/phi_adler.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/phi_adler.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "theta_adler",
+   "name": "cos\u03b8$_{Adler}$",
+   "slug": "costheta_adler",
+   "xlabel": "cos\u03b8_Adler",
+   "xunit": "",
+   "ylabel": "d\u03c3/dcos\u03b8",
+   "yunit": "10^{-38}cm2/rad/Nucleon",
+   "nbins": 20,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.9,
+     "val": 0.0003,
+     "err": 0.00017320508075688773,
+     "center": -0.95
+    },
+    {
+     "i": 1,
+     "lo": -0.9,
+     "hi": -0.8,
+     "val": -0.0008,
+     "err": 0.001014889156509222,
+     "center": -0.8500000000000001
+    },
+    {
+     "i": 2,
+     "lo": -0.8,
+     "hi": -0.7,
+     "val": -0.0004,
+     "err": 0.0011874342087037917,
+     "center": -0.75
+    },
+    {
+     "i": 3,
+     "lo": -0.7,
+     "hi": -0.6,
+     "val": 0.0007,
+     "err": 0.004497777228809804,
+     "center": -0.6499999999999999
+    },
+    {
+     "i": 4,
+     "lo": -0.6,
+     "hi": -0.5,
+     "val": -0.0003,
+     "err": 0.0021260291625469297,
+     "center": -0.55
+    },
+    {
+     "i": 5,
+     "lo": -0.5,
+     "hi": -0.4,
+     "val": 0.0048,
+     "err": 0.003304542328371661,
+     "center": -0.45
+    },
+    {
+     "i": 6,
+     "lo": -0.4,
+     "hi": -0.3,
+     "val": 0.0133,
+     "err": 0.005177837386399847,
+     "center": -0.35
+    },
+    {
+     "i": 7,
+     "lo": -0.3,
+     "hi": -0.2,
+     "val": 0.0152,
+     "err": 0.005360970061472084,
+     "center": -0.25
+    },
+    {
+     "i": 8,
+     "lo": -0.2,
+     "hi": -0.1,
+     "val": 0.0155,
+     "err": 0.005319774431308154,
+     "center": -0.15000000000000002
+    },
+    {
+     "i": 9,
+     "lo": -0.1,
+     "hi": 0.0,
+     "val": 0.0177,
+     "err": 0.005447017532558529,
+     "center": -0.05
+    },
+    {
+     "i": 10,
+     "lo": 0.0,
+     "hi": 0.1,
+     "val": 0.0248,
+     "err": 0.0066813172353960264,
+     "center": 0.05
+    },
+    {
+     "i": 11,
+     "lo": 0.1,
+     "hi": 0.2,
+     "val": 0.026,
+     "err": 0.006298412498399894,
+     "center": 0.15000000000000002
+    },
+    {
+     "i": 12,
+     "lo": 0.2,
+     "hi": 0.3,
+     "val": 0.029,
+     "err": 0.006609841147864296,
+     "center": 0.25
+    },
+    {
+     "i": 13,
+     "lo": 0.3,
+     "hi": 0.4,
+     "val": 0.0284,
+     "err": 0.006321392251711643,
+     "center": 0.35
+    },
+    {
+     "i": 14,
+     "lo": 0.4,
+     "hi": 0.5,
+     "val": 0.0355,
+     "err": 0.007502666192761077,
+     "center": 0.45
+    },
+    {
+     "i": 15,
+     "lo": 0.5,
+     "hi": 0.6,
+     "val": 0.0379,
+     "err": 0.00810987052917616,
+     "center": 0.55
+    },
+    {
+     "i": 16,
+     "lo": 0.6,
+     "hi": 0.7,
+     "val": 0.0374,
+     "err": 0.008129575634681063,
+     "center": 0.6499999999999999
+    },
+    {
+     "i": 17,
+     "lo": 0.7,
+     "hi": 0.8,
+     "val": 0.0358,
+     "err": 0.008237718130647588,
+     "center": 0.75
+    },
+    {
+     "i": 18,
+     "lo": 0.8,
+     "hi": 0.9,
+     "val": 0.0331,
+     "err": 0.008515280382935139,
+     "center": 0.8500000000000001
+    },
+    {
+     "i": 19,
+     "lo": 0.9,
+     "hi": 1.0,
+     "val": 0.0607,
+     "err": 0.013785862323409443,
+     "center": 0.95
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pip/CH/theta_adler.txt",
+   "name_tex": "$\\cos\\theta_{\\mathrm{Adler}}$",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\mathrm{Adler}}$",
+   "yunit_tex": "$10^{-38}\\ \\mathrm{cm^2/nucleon}$",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_Adler",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/theta_adler.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/theta_adler.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+  }
+ ]
+}

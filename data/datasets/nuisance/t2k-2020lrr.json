@@ -1,0 +1,240 @@
+{
+ "bibtag": "T2K:2020lrr",
+ "slug": "t2k-2020lrr",
+ "source": "NUISANCE",
+ "arxiv": "2002.11986",
+ "cite": "JHEP 10 114",
+ "note": "Cross sections taken directly from the NUISANCE data release.",
+ "distributions": [
+  {
+   "key": "nue_FHC_pe",
+   "slug": "nue_fhc_pe",
+   "name": "p_e (\u03bd_e, FHC)",
+   "name_tex": "$p_e\\ (\\nu_e,\\ \\mathrm{FHC})$",
+   "xlabel": "p_e (\u03bd_e, FHC)",
+   "xunit": "GeV",
+   "ylabel": "d\u03c3/dp_e",
+   "ylabel_plot": "d\u03c3/dp_e",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_e$",
+   "yunit": "cm^2/GeV/nucleon",
+   "yunit_tex": "$cm^2/GeV/nucleon$",
+   "nbins": 3,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 1.6,
+     "center": 0.9500000000000001,
+     "val": 3.1e-39,
+     "err": 8.32e-40
+    },
+    {
+     "i": 1,
+     "lo": 1.6,
+     "hi": 3.2,
+     "center": 2.4000000000000004,
+     "val": 2.42e-39,
+     "err": 7.42e-40
+    },
+    {
+     "i": 2,
+     "lo": 3.2,
+     "hi": 30.0,
+     "center": 16.6,
+     "val": 1.09e-39,
+     "err": 5.24e-40
+    }
+   ],
+   "nuisance_file": "data/T2K/CCinc/nue_2019/FHC_nue_pe.txt",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/FHC_nue_pe.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/FHC_nue_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "nue_FHC_costhetae",
+   "slug": "nue_fhc_costhetae",
+   "name": "cos\u03b8_e (\u03bd_e, FHC)",
+   "name_tex": "$\\cos\\theta_e\\ (\\nu_e,\\ \\mathrm{FHC})$",
+   "xlabel": "cos\u03b8_e (\u03bd_e, FHC)",
+   "xunit": "",
+   "ylabel": "d\u03c3/dcos\u03b8_e",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_e",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_e$",
+   "yunit": "cm^2/nucleon",
+   "yunit_tex": "$cm^2/nucleon$",
+   "nbins": 2,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.7071,
+     "hi": 0.88,
+     "center": 0.79355,
+     "val": 1.75e-39,
+     "err": 5.56e-40
+    },
+    {
+     "i": 1,
+     "lo": 0.88,
+     "hi": 1.0,
+     "center": 0.94,
+     "val": 4.86e-39,
+     "err": 1.21e-39
+    }
+   ],
+   "nuisance_file": "data/T2K/CCinc/nue_2019/FHC_nue_thetae.txt",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/FHC_nue_thetae.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/FHC_nue_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "nue_RHC_pe",
+   "slug": "nue_rhc_pe",
+   "name": "p_e (\u03bd_e, RHC)",
+   "name_tex": "$p_e\\ (\\nu_e,\\ \\mathrm{RHC})$",
+   "xlabel": "p_e (\u03bd_e, RHC)",
+   "xunit": "GeV",
+   "ylabel": "d\u03c3/dp_e",
+   "ylabel_plot": "d\u03c3/dp_e",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_e$",
+   "yunit": "cm^2/GeV/nucleon",
+   "yunit_tex": "$cm^2/GeV/nucleon$",
+   "nbins": 2,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 1.6,
+     "center": 0.9500000000000001,
+     "val": 3.98e-39,
+     "err": 1.96e-39
+    },
+    {
+     "i": 1,
+     "lo": 1.6,
+     "hi": 30.0,
+     "center": 15.8,
+     "val": 1.059e-38,
+     "err": 3.05e-39
+    }
+   ],
+   "nuisance_file": "data/T2K/CCinc/nue_2019/RHC_nue_pe.txt",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/RHC_nue_pe.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nue_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "nue_RHC_costhetae",
+   "slug": "nue_rhc_costhetae",
+   "name": "cos\u03b8_e (\u03bd_e, RHC)",
+   "name_tex": "$\\cos\\theta_e\\ (\\nu_e,\\ \\mathrm{RHC})$",
+   "xlabel": "cos\u03b8_e (\u03bd_e, RHC)",
+   "xunit": "",
+   "ylabel": "d\u03c3/dcos\u03b8_e",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_e",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_e$",
+   "yunit": "cm^2/nucleon",
+   "yunit_tex": "$cm^2/nucleon$",
+   "nbins": 2,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.7071,
+     "hi": 0.95,
+     "center": 0.8285499999999999,
+     "val": 5.03e-39,
+     "err": 1.95e-39
+    },
+    {
+     "i": 1,
+     "lo": 0.95,
+     "hi": 1.0,
+     "center": 0.975,
+     "val": 9.54e-39,
+     "err": 2.72e-39
+    }
+   ],
+   "nuisance_file": "data/T2K/CCinc/nue_2019/RHC_nue_thetae.txt",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/RHC_nue_thetae.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nue_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "nuebar_RHC_pe",
+   "slug": "nuebar_rhc_pe",
+   "name": "p_e (bar\u03bd_e, RHC)",
+   "name_tex": "$p_e\\ (\\bar\\nu_e,\\ \\mathrm{RHC})$",
+   "xlabel": "p_e (bar\u03bd_e, RHC)",
+   "xunit": "GeV",
+   "ylabel": "d\u03c3/dp_e",
+   "ylabel_plot": "d\u03c3/dp_e",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_e$",
+   "yunit": "cm^2/GeV/nucleon",
+   "yunit_tex": "$cm^2/GeV/nucleon$",
+   "nbins": 2,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 1.6,
+     "center": 0.9500000000000001,
+     "val": 1.01e-39,
+     "err": 5.47e-40
+    },
+    {
+     "i": 1,
+     "lo": 1.6,
+     "hi": 30.0,
+     "center": 15.8,
+     "val": 1.99e-39,
+     "err": 7.73e-40
+    }
+   ],
+   "nuisance_file": "data/T2K/CCinc/nue_2019/RHC_nuebar_pe.txt",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/RHC_nuebar_pe.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nuebar_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "nuebar_RHC_costhetae",
+   "slug": "nuebar_rhc_costhetae",
+   "name": "cos\u03b8_e (bar\u03bd_e, RHC)",
+   "name_tex": "$\\cos\\theta_e\\ (\\bar\\nu_e,\\ \\mathrm{RHC})$",
+   "xlabel": "cos\u03b8_e (bar\u03bd_e, RHC)",
+   "xunit": "",
+   "ylabel": "d\u03c3/dcos\u03b8_e",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_e",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_e$",
+   "yunit": "cm^2/nucleon",
+   "yunit_tex": "$cm^2/nucleon$",
+   "nbins": 2,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.7071,
+     "hi": 0.92,
+     "center": 0.81355,
+     "val": 7e-40,
+     "err": 4.09e-40
+    },
+    {
+     "i": 1,
+     "lo": 0.92,
+     "hi": 1.0,
+     "center": 0.96,
+     "val": 2.31e-39,
+     "err": 7.73e-40
+    }
+   ],
+   "nuisance_file": "data/T2K/CCinc/nue_2019/RHC_nuebar_thetae.txt",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/RHC_nuebar_thetae.txt",
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nuebar_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+  }
+ ]
+}

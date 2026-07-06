@@ -1,0 +1,169 @@
+{
+ "bibtag": "T2K:2021naz",
+ "slug": "t2k-2021naz",
+ "source": "NUISANCE",
+ "arxiv": "2102.03346",
+ "cite": "Phys.Rev.D 103 112009",
+ "note": "Cross sections taken directly from the NUISANCE data release.",
+ "distributions": [
+  {
+   "key": "dpTT",
+   "slug": "dptt",
+   "name": "\u03b4 p_TT",
+   "name_tex": "$\\delta p_{TT}$",
+   "xlabel": "\u03b4 p_TT",
+   "xunit": "MeV/c",
+   "ylabel": "fracd\u03c3d\u03b4 p_TT",
+   "ylabel_plot": "fracd\u03c3d\u03b4 p_TT",
+   "ylabel_tex": "$\\frac{d\\sigma}{d\\delta p_{TT}}$",
+   "yunit": "Nucleon^{-1}cm^{2}(MeV/c)^{-1}",
+   "yunit_tex": "$Nucleon^{-1}cm^{2}(MeV/c)^{-1}$",
+   "nbins": 5,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -700.0,
+     "hi": -300.0,
+     "center": -500.0,
+     "val": 3.2393533697582236e-44,
+     "err": 1.4340189238904468e-44
+    },
+    {
+     "i": 1,
+     "lo": -300.0,
+     "hi": -100.0,
+     "center": -200.0,
+     "val": 7.759561502352726e-44,
+     "err": 3.7665859058724943e-44
+    },
+    {
+     "i": 2,
+     "lo": -100.0,
+     "hi": 100.0,
+     "center": 0.0,
+     "val": 4.168798008206518e-43,
+     "err": 7.943033904594529e-44
+    },
+    {
+     "i": 3,
+     "lo": 100.0,
+     "hi": 300.0,
+     "center": 200.0,
+     "val": 6.885654834192592e-44,
+     "err": 3.664957380886913e-44
+    },
+    {
+     "i": 4,
+     "lo": 300.0,
+     "hi": 700.0,
+     "center": 500.0,
+     "val": 2.999731963699484e-44,
+     "err": 1.48073469198784e-44
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pipNp_STV/xsec_dpTT.root",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pipNp_STV/xsec_dpTT.root",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_dpTT.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "daT",
+   "slug": "dat",
+   "name": "\u03b4 alpha_T",
+   "name_tex": "$\\delta \\alpha_{T}$",
+   "xlabel": "\u03b4 alpha_T",
+   "xunit": "deg",
+   "ylabel": "fracd\u03c3d\u03b4 alpha_T",
+   "ylabel_plot": "fracd\u03c3d\u03b4 alpha_T",
+   "ylabel_tex": "$\\frac{d\\sigma}{d\\delta \\alpha_{T}}$",
+   "yunit": "Nucleon^{-1}cm^{2}deg^{-1}",
+   "yunit_tex": "$Nucleon^{-1}cm^{2}deg^{-1}$",
+   "nbins": 3,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 60.0,
+     "center": 30.0,
+     "val": 7.779843869558929e-43,
+     "err": 1.5847641529967631e-43
+    },
+    {
+     "i": 1,
+     "lo": 60.0,
+     "hi": 120.0,
+     "center": 90.0,
+     "val": 7.348778401365462e-43,
+     "err": 1.5831493002485424e-43
+    },
+    {
+     "i": 2,
+     "lo": 120.0,
+     "hi": 180.0,
+     "center": 150.0,
+     "val": 8.187963267394711e-43,
+     "err": 1.9004944418003535e-43
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pipNp_STV/xsec_daT.root",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pipNp_STV/xsec_daT.root",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_daT.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))"
+  },
+  {
+   "key": "pN",
+   "slug": "pn",
+   "name": "p_N",
+   "name_tex": "$p_{N}$",
+   "xlabel": "p_N",
+   "xunit": "MeV/c",
+   "ylabel": "fracd\u03c3dp_N",
+   "ylabel_plot": "fracd\u03c3dp_N",
+   "ylabel_tex": "$\\frac{d\\sigma}{dp_{N}}$",
+   "yunit": "Nucleon^{-1}cm^{2}(MeV/c)^{-1}",
+   "yunit_tex": "$Nucleon^{-1}cm^{2}(MeV/c)^{-1}$",
+   "nbins": 4,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 120.0,
+     "center": 60.0,
+     "val": 3.574216199728504e-43,
+     "err": 7.847432080925136e-44
+    },
+    {
+     "i": 1,
+     "lo": 120.0,
+     "hi": 240.0,
+     "center": 180.0,
+     "val": 3.2903493125147573e-43,
+     "err": 1.1225574349273282e-43
+    },
+    {
+     "i": 2,
+     "lo": 240.0,
+     "hi": 600.0,
+     "center": 420.0,
+     "val": 9.70797751259329e-44,
+     "err": 3.148899162790458e-44
+    },
+    {
+     "i": 3,
+     "lo": 600.0,
+     "hi": 1500.0,
+     "center": 1050.0,
+     "val": 6.089490093268195e-45,
+     "err": 4.009675636498785e-45
+    }
+   ],
+   "nuisance_file": "data/T2K/CC1pipNp_STV/xsec_pN.root",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pipNp_STV/xsec_pN.root",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_pN.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))"
+  }
+ ]
+}

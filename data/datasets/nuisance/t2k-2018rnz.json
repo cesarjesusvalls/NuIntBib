@@ -1,0 +1,265 @@
+{
+ "bibtag": "T2K:2018rnz",
+ "slug": "t2k-2018rnz",
+ "source": "NUISANCE",
+ "arxiv": "1802.05078",
+ "cite": "Phys.Rev.D 98 032003",
+ "note": "Cross sections taken directly from the NUISANCE data release.",
+ "distributions": [
+  {
+   "key": "dpt",
+   "slug": "dpt",
+   "name": "\u03b4 p_T",
+   "name_tex": "$\\delta p_{T}$",
+   "xlabel": "\u03b4 p_T",
+   "xunit": "GeV/c",
+   "ylabel": "fracd\u03c3d\u03b4 p_T",
+   "ylabel_plot": "fracd\u03c3d\u03b4 p_T",
+   "ylabel_tex": "$\\frac{d\\sigma}{d\\delta p_{T}}$",
+   "yunit": "Nucleon^{-1} cm^{2} GeV^{-1}",
+   "yunit_tex": "$Nucleon^{-1} cm^{2} GeV^{-1}$",
+   "nbins": 8,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1e-07,
+     "hi": 0.08,
+     "center": 0.04000005,
+     "val": 3.44534128210222e-39,
+     "err": 4.568268984720344e-40
+    },
+    {
+     "i": 1,
+     "lo": 0.08,
+     "hi": 0.12,
+     "center": 0.1,
+     "val": 6.126042549227499e-39,
+     "err": 1.2336994185879245e-39
+    },
+    {
+     "i": 2,
+     "lo": 0.12,
+     "hi": 0.155,
+     "center": 0.1375,
+     "val": 3.930214202417175e-39,
+     "err": 1.2609433271088153e-39
+    },
+    {
+     "i": 3,
+     "lo": 0.155,
+     "hi": 0.2,
+     "center": 0.1775,
+     "val": 3.7096375159315186e-39,
+     "err": 8.799915710125178e-40
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.26,
+     "center": 0.23,
+     "val": 2.728855148549087e-39,
+     "err": 5.018164787662303e-40
+    },
+    {
+     "i": 5,
+     "lo": 0.26,
+     "hi": 0.36,
+     "center": 0.31,
+     "val": 1.1033972883247538e-39,
+     "err": 2.2004107508803134e-40
+    },
+    {
+     "i": 6,
+     "lo": 0.36,
+     "hi": 0.51,
+     "center": 0.435,
+     "val": 7.394850123784312e-40,
+     "err": 1.2067312250859341e-40
+    },
+    {
+     "i": 7,
+     "lo": 0.51,
+     "hi": 1.1,
+     "center": 0.805,
+     "val": 1.5847977821337316e-40,
+     "err": 3.131420248468016e-41
+    }
+   ],
+   "nuisance_file": "data/T2K/CC0pi/STV/dptResults.root",
+   "scale_note": "covariance rescaled by 1e-38 to match cross-section units",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/STV/dptResults.root",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/dptResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units"
+  },
+  {
+   "key": "dphit",
+   "slug": "dphit",
+   "name": "\u03b4 \u03c6_T",
+   "name_tex": "$\\delta \\phi_{T}$",
+   "xlabel": "\u03b4 \u03c6_T",
+   "xunit": "rads",
+   "ylabel": "fracd\u03c3d\u03b4 \u03c6_T",
+   "ylabel_plot": "fracd\u03c3d\u03b4 \u03c6_T",
+   "ylabel_tex": "$\\frac{d\\sigma}{d\\delta \\phi_{T}}$",
+   "yunit": "Nucleon^{-1} cm^{2} rads^{-1}",
+   "yunit_tex": "$Nucleon^{-1} cm^{2} rads^{-1}$",
+   "nbins": 8,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1e-07,
+     "hi": 0.067,
+     "center": 0.03350005,
+     "val": 2.7796526108730067e-39,
+     "err": 3.781519207029493e-40
+    },
+    {
+     "i": 1,
+     "lo": 0.067,
+     "hi": 0.14,
+     "center": 0.10350000000000001,
+     "val": 3.173144418720323e-39,
+     "err": 4.48999456751636e-40
+    },
+    {
+     "i": 2,
+     "lo": 0.14,
+     "hi": 0.225,
+     "center": 0.1825,
+     "val": 2.241334817006516e-39,
+     "err": 3.5186144988432317e-40
+    },
+    {
+     "i": 3,
+     "lo": 0.225,
+     "hi": 0.34,
+     "center": 0.28250000000000003,
+     "val": 1.6977971954482013e-39,
+     "err": 2.436112292693927e-40
+    },
+    {
+     "i": 4,
+     "lo": 0.34,
+     "hi": 0.52,
+     "center": 0.43000000000000005,
+     "val": 9.285808309541294e-40,
+     "err": 1.3086809904274531e-40
+    },
+    {
+     "i": 5,
+     "lo": 0.52,
+     "hi": 0.85,
+     "center": 0.685,
+     "val": 4.532946695309256e-40,
+     "err": 6.548476303340851e-41
+    },
+    {
+     "i": 6,
+     "lo": 0.85,
+     "hi": 1.5,
+     "center": 1.175,
+     "val": 1.782369797730897e-40,
+     "err": 2.7444060849985304e-41
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 3.1416,
+     "center": 2.3208,
+     "val": 5.445145184987832e-41,
+     "err": 7.950672968221844e-42
+    }
+   ],
+   "nuisance_file": "data/T2K/CC0pi/STV/dphitResults.root",
+   "scale_note": "covariance rescaled by 1e-38 to match cross-section units",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/STV/dphitResults.root",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/dphitResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units"
+  },
+  {
+   "key": "dat",
+   "slug": "dat",
+   "name": "\u03b4 alpha_T",
+   "name_tex": "$\\delta \\alpha_{T}$",
+   "xlabel": "\u03b4 alpha_T",
+   "xunit": "rads",
+   "ylabel": "fracd\u03c3d\u03b4 alpha_T",
+   "ylabel_plot": "fracd\u03c3d\u03b4 alpha_T",
+   "ylabel_tex": "$\\frac{d\\sigma}{d\\delta \\alpha_{T}}$",
+   "yunit": "Nucleon^{-1} cm^{2} rads^{-1}",
+   "yunit_tex": "$Nucleon^{-1} cm^{2} rads^{-1}$",
+   "nbins": 8,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1e-07,
+     "hi": 0.47,
+     "center": 0.23500005,
+     "val": 2.9729024366291594e-40,
+     "err": 4.473664146159472e-41
+    },
+    {
+     "i": 1,
+     "lo": 0.47,
+     "hi": 1.02,
+     "center": 0.745,
+     "val": 4.002166646411423e-40,
+     "err": 5.84061862162091e-41
+    },
+    {
+     "i": 2,
+     "lo": 1.02,
+     "hi": 1.54,
+     "center": 1.28,
+     "val": 5.107918624432312e-40,
+     "err": 7.022003167457463e-41
+    },
+    {
+     "i": 3,
+     "lo": 1.54,
+     "hi": 1.98,
+     "center": 1.76,
+     "val": 4.524447236938011e-40,
+     "err": 7.372021902179401e-41
+    },
+    {
+     "i": 4,
+     "lo": 1.98,
+     "hi": 2.34,
+     "center": 2.16,
+     "val": 4.030541957169122e-40,
+     "err": 7.618841174652638e-41
+    },
+    {
+     "i": 5,
+     "lo": 2.34,
+     "hi": 2.64,
+     "center": 2.49,
+     "val": 4.536319048157587e-40,
+     "err": 8.820130085196247e-41
+    },
+    {
+     "i": 6,
+     "lo": 2.64,
+     "hi": 2.89,
+     "center": 2.765,
+     "val": 4.6366800804019455e-40,
+     "err": 8.48379122660935e-41
+    },
+    {
+     "i": 7,
+     "lo": 2.89,
+     "hi": 3.1416,
+     "center": 3.0158,
+     "val": 6.114411714707337e-40,
+     "err": 8.183999882645881e-41
+    }
+   ],
+   "nuisance_file": "data/T2K/CC0pi/STV/datResults.root",
+   "scale_note": "covariance rescaled by 1e-38 to match cross-section units",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/STV/datResults.root",
+   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/datResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units"
+  }
+ ]
+}
