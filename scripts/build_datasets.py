@@ -117,6 +117,7 @@ def _distr_from(name, hres, hcov, relfile):
     # some NUISANCE result files store the covariance on a different power of ten
     # than the cross section. A relative error should sit near ~15%; if it's many
     # orders off, snap the covariance to the power of ten that lands it there.
+    cov_scale = 1.0
     good = (np.abs(vals) > 0) & (err > 0)
     if good.any():
         ratio = np.median(err[good] / np.abs(vals[good]))
@@ -124,6 +125,7 @@ def _distr_from(name, hres, hcov, relfile):
             m = round(math.log10(0.15 / ratio))
             if abs(m) >= 2:                 # gross unit mismatch, not a real error
                 err = err * (10.0 ** m)
+                cov_scale = 10.0 ** (2 * m)
                 scale_note = f'covariance rescaled by 1e{m} to match cross-section units'
     xlab, xunit = split_axis(hres.member('fXaxis').member('fTitle'))
     ylab, yunit = split_axis(hres.member('fYaxis').member('fTitle'))
@@ -141,6 +143,9 @@ def _distr_from(name, hres, hcov, relfile):
         'yunit': yunit, 'yunit_tex': f'${tl(yunit)}$' if yunit else '',
         'nbins': len(bins), 'bins': bins,
         'nuisance_file': relfile, 'scale_note': scale_note,
+        '_cov': (np.asarray(cov) * cov_scale,
+                 [f"{name} [{float(edges[i]):g},{float(edges[i + 1]):g}]"
+                  for i in range(len(vals))]),
     }
 
 
@@ -191,13 +196,19 @@ def build_2d_slices(spec):
         m = _ROW2D.match(ln)
         if m:
             rows.append(tuple(float(x) for x in m.groups()))
-    err = np.sqrt(np.clip(np.diag(uproot.open(fetch(spec['cov']))[spec['cov_key']].values()), 0, None))
+    Mfull = np.asarray(uproot.open(fetch(spec['cov']))[spec['cov_key']].values())
+    err = np.sqrt(np.clip(np.diag(Mfull), 0, None))
     if len(err) != len(rows):
         raise ValueError(f"{spec['text']}: {len(rows)} rows vs {len(err)} cov bins")
-    grouped = {}
+    grouped, order = {}, []
     for (b, clo, chi, plo, phi, val), e in zip(rows, err):
         grouped.setdefault((clo, chi), []).append((plo, phi, val, e))
-    return _assemble_2d(grouped, spec)
+        order.append(f"cos[{clo:g},{chi:g}] p[{plo:g},{phi:g}]")
+    out = _assemble_2d(grouped, spec)
+    if out:
+        out[0]['_release_cov'] = _cov_obj(Mfull, order, spec.get(
+            'cov_note', 'covariance in the released cross-section units^2, row/col order below'))
+    return out
 
 
 _ROW2D_BR = re.compile(
@@ -259,14 +270,11 @@ def build_2d_joint(spec):
             vals[int(p[0])] = float(p[spec.get('vcol', 1)])
         except (ValueError, IndexError):
             pass
-    diag = {}
-    for i, l in enumerate(l for l in open(fetch(spec['cov'])) if l.strip()):
-        try:
-            diag[i + 1] = math.sqrt(max(float(l.split(',')[i]), 0.0))
-        except (ValueError, IndexError):
-            pass
+    Mfull = np.array([[float(x) for x in l.split(',')]
+                      for l in open(fetch(spec['cov'])) if l.strip()])
+    diag = {i + 1: math.sqrt(max(Mfull[i, i], 0.0)) for i in range(len(Mfull))}
     pdiv = spec.get('pdiv', 1.0)
-    out = []
+    out, order = [], {}
     for det in spec['detectors']:
         grouped = {}
         for ln in open(fetch(det['file'])):
@@ -278,8 +286,14 @@ def build_2d_joint(spec):
             if b in vals and b in diag:
                 grouped.setdefault((alo, ahi), []).append(
                     (plo / pdiv, phi / pdiv, vals[b], diag[b]))
+                order[b] = (f"{det['name']} cos[{alo:g},{ahi:g}] "
+                            f"p[{plo / pdiv:g},{phi / pdiv:g}]")
         out += _assemble_2d(grouped, {**spec, 'det_tex': rf"\mathrm{{{det['name']}}}",
                                       'det_slug': det['name'].lower()})
+    if out:
+        order_list = [order[k] for k in sorted(order)]
+        out[0]['_release_cov'] = _cov_obj(Mfull, order_list, spec.get(
+            'cov_note', 'covariance in (cm^2/GeV)^2, row/col order below'))
     return out
 
 
@@ -340,19 +354,29 @@ def build_2d_root_explicit(spec):
     (this release slices by p_mu and plots vs cos_theta)."""
     f = uproot.open(fetch(spec['root']))
     vals = f[spec['result']].values()
-    covd = np.diag(f[spec['cov']].values())
-    frac = spec.get('cov_fractional', False)
+    Mraw = np.asarray(f[spec['cov']].values())
+    # if the release covariance is fractional (relative), the absolute covariance
+    # is cov_ij * value_i * value_j (so error_i = value_i * sqrt(cov_ii)).
+    if spec.get('cov_fractional'):
+        v = np.asarray(vals[:len(Mraw)], dtype=float)
+        Mabs = Mraw * np.outer(v, v)
+    else:
+        Mabs = Mraw
     sedges, xbins, sdiv = spec['slice_edges'], spec['xbins'], spec.get('sdiv', 1.0)
-    grouped, b = {}, 0
+    grouped, order, b = {}, [], 0
     for i in range(len(sedges) - 1):
         slo, shi = sedges[i] / sdiv, sedges[i + 1] / sdiv
         edges = xbins[i]
         for j in range(len(edges) - 1):
-            v = float(vals[b])
-            e = v * math.sqrt(max(covd[b], 0.0)) if frac else math.sqrt(max(covd[b], 0.0))
-            grouped.setdefault((slo, shi), []).append((edges[j], edges[j + 1], v, float(e)))
+            grouped.setdefault((slo, shi), []).append(
+                (edges[j], edges[j + 1], float(vals[b]), math.sqrt(max(Mabs[b, b], 0.0))))
+            order.append(f"p[{slo:g},{shi:g}] cos[{edges[j]:g},{edges[j + 1]:g}]")
             b += 1
-    return _assemble_2d(grouped, spec)
+    out = _assemble_2d(grouped, spec)
+    if out:
+        out[0]['_release_cov'] = _cov_obj(Mabs, order, spec.get(
+            'cov_note', 'covariance in (cm^2/GeV)^2, row/col order below'))
+    return out
 
 
 def _assemble_2d(grouped, spec):
@@ -575,6 +599,21 @@ def build(entry):
     for d in dists:
         if '_release_cov' in d:
             release_cov = d.pop('_release_cov')
+    # per-observable ROOT releases: assemble a block-diagonal matrix from each
+    # distribution's own covariance (NUISANCE gives no inter-observable terms).
+    blocks = [d.pop('_cov') for d in dists if '_cov' in d]
+    if release_cov is None and blocks:
+        mats = [np.asarray(b[0]) for b in blocks]
+        labels = [lab for b in blocks for lab in b[1]]
+        total = sum(m.shape[0] for m in mats)
+        M = np.zeros((total, total))
+        off = 0
+        for m in mats:
+            n = m.shape[0]
+            M[off:off + n, off:off + n] = m
+            off += n
+        release_cov = _cov_obj(M, labels, 'block-diagonal per-observable covariance '
+                               '(NUISANCE provides no inter-observable correlations)')
     out = {'bibtag': entry['bibtag'], 'slug': entry['slug'], 'source': 'NUISANCE',
            'arxiv': arxiv, 'cite': cite,
            'note': 'Cross sections taken directly from the NUISANCE data release.',
