@@ -56,6 +56,12 @@ export type Distribution = {
   nuisance_file: string;
 };
 
+export type Covariance = {
+  order: string[];      // human label for each matrix row/column
+  matrix: number[][];
+  note?: string;
+};
+
 export type DataRelease = {
   bibtag: string;
   slug: string;
@@ -63,6 +69,7 @@ export type DataRelease = {
   arxiv?: string;
   cite?: string;
   note?: string;
+  covariance?: Covariance;
   distributions: Distribution[];
 };
 

@@ -283,24 +283,35 @@ def build_2d_joint(spec):
     return out
 
 
+def _sym_from_packed(m):
+    """Unpack a ROOT TMatrixTSym (upper-triangle fElements) into a full matrix."""
+    N = m.member('fNrows'); el = np.asarray(m.member('fElements'))
+    M = np.zeros((N, N)); idx = 0
+    for i in range(N):
+        for j in range(i, N):
+            M[i, j] = M[j, i] = el[idx]; idx += 1
+    return M
+
+
+def _cov_obj(M, order, note):
+    """Package a full covariance matrix for the release JSON (5 sig figs)."""
+    return {'order': order, 'note': note,
+            'matrix': [[float(f'{v:.5g}') for v in row] for row in np.asarray(M)]}
+
+
 def build_2d_rootslices(spec):
     """Reconstruct a 2-D release from a NUISANCE ROOT file whose DataSlice hists
     are empty binning templates: values from a flattened LinearResult TH1D, p-edges
     per cos-slice from the DataSlice hists, cos edges supplied, errors from the
     diagonal of summed TMatrixTSym covariances (block-offset per beam)."""
     f = uproot.open(fetch(spec['root']))
-    diag = None
+    Mfull = None
     for ck in spec['cov_keys']:
-        m = f[ck]; N = m.member('fNrows'); el = np.asarray(m.member('fElements'))
-        M = np.zeros((N, N)); idx = 0
-        for i in range(N):
-            for j in range(i, N):
-                M[i, j] = M[j, i] = el[idx]; idx += 1
-        d = np.diag(M)
-        diag = d if diag is None else diag + d
-    err_all = np.sqrt(np.clip(diag, 0, None))
+        M = _sym_from_packed(f[ck])
+        Mfull = M if Mfull is None else Mfull + M
+    err_all = np.sqrt(np.clip(np.diag(Mfull), 0, None))
     cos = spec['cos_edges']
-    out = []
+    out, order = [], []
     for beam in spec['beams']:
         vals = f[beam['result']].values()
         off, b, grouped = beam['offset'], 0, {}
@@ -310,9 +321,14 @@ def build_2d_rootslices(spec):
                 grouped.setdefault((cos[s], cos[s + 1]), []).append(
                     (float(edges[pi]), float(edges[pi + 1]),
                      float(vals[b]), float(err_all[off + b])))
+                order.append(f"{beam['slug']} cos[{cos[s]:g},{cos[s + 1]:g}] "
+                             f"p[{edges[pi]:g},{edges[pi + 1]:g}]")
                 b += 1
         out += _assemble_2d(grouped, {**spec, 'det_tex': beam['tex'],
                                       'det_slug': beam['slug'], 'nuisance_file': spec['root']})
+    if out:
+        out[0]['_release_cov'] = _cov_obj(
+            Mfull, order, 'total (stat+syst) covariance in (cm^2/GeV)^2, row/col order below')
     return out
 
 
@@ -555,10 +571,16 @@ def build(entry):
         d.setdefault('provenance', f"{d['source']} · {d['nuisance_file']} · from "
                      f"arXiv:{arxiv} ({cite}) · per-bin error = sqrt(diag(covariance))"
                      + (f" · {d['scale_note']}" if d.get('scale_note') else ''))
+    release_cov = None
+    for d in dists:
+        if '_release_cov' in d:
+            release_cov = d.pop('_release_cov')
     out = {'bibtag': entry['bibtag'], 'slug': entry['slug'], 'source': 'NUISANCE',
            'arxiv': arxiv, 'cite': cite,
            'note': 'Cross sections taken directly from the NUISANCE data release.',
            'distributions': dists}
+    if release_cov:
+        out['covariance'] = release_cov
     path = os.path.join(OUT_DIR, f"{entry['slug']}.json")
     json.dump(out, open(path, 'w'), indent=1)
     return path, dists

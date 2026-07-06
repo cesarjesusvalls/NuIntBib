@@ -152,6 +152,20 @@ function downloadSlices(d: Distribution, bibtag: string) {
   triggerDownload(uri, `${bibtag.replace(':', '_')}_${d.slug}.csv`);
 }
 
+function downloadCov(release: Release) {
+  const c = release.covariance;
+  if (!c) return;
+  const lines = [
+    `# ${release.bibtag} — covariance matrix (${c.matrix.length}x${c.matrix.length})`,
+    `# ${release.cite ?? ''} · arXiv:${release.arxiv ?? ''}`,
+    `# ${c.note ?? ''}`,
+    ...c.order.map((o, i) => `# bin ${i}: ${o}`),
+    ...c.matrix.map((row) => row.join(',')),
+  ];
+  const uri = 'data:text/csv;charset=utf-8,' + encodeURIComponent(lines.join('\n') + '\n');
+  triggerDownload(uri, `${release.bibtag.replace(':', '_')}_covariance.csv`);
+}
+
 // index of the slice with the most bins — the representative one for a sparkline
 function fatSlice(d: Distribution): number {
   const sl = d.slices ?? [];
@@ -191,6 +205,11 @@ export function DataRelease({ release }: { release: Release }) {
         <button className="dr-btn primary dr-downloadall" onClick={() => downloadAll(release)}>
           ↓ Download all (CSV)
         </button>
+        {release.covariance ? (
+          <button className="dr-btn" onClick={() => downloadCov(release)}>
+            ↓ Covariance (CSV)
+          </button>
+        ) : null}
       </div>
       <p className="dr-sub">
         Release from{' '}
