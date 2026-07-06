@@ -47,7 +47,7 @@ export function bibtagToSlug(bibtag: string): string {
 }
 
 /** Split raw .bib text into { texkey: rawEntry } via brace matching. */
-function indexBibtex(): Record<string, string> {
+export function indexBibtex(): Record<string, string> {
   const out: Record<string, string> = {};
   for (const file of fs.readdirSync(REPO_ROOT)) {
     if (!file.endsWith('.bib')) continue;
@@ -92,6 +92,25 @@ export function getAllPapers(): Paper[] {
   papers.sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || a.bibtag.localeCompare(b.bibtag));
   _cache = papers;
   return papers;
+}
+
+/** Author names from a BibTeX entry, as a lowercase search string with LaTeX
+ * accents flattened (so "Klustov{\'a}" is findable as "klustova", "McGivern" as
+ * "mcgivern"). Returns '' when there's no author field. */
+export function searchableAuthors(bibtex: string | undefined): string {
+  if (!bibtex) return '';
+  const m = bibtex.match(/author\s*=\s*"([\s\S]*?)"\s*,/i);
+  if (!m) return '';
+  return m[1]
+    .replace(/\\[`'"^~=.vuHc]\s*\{?(\w)\}?/g, '$1') // \'a, {\'a}, \"o -> a, a, o
+    .replace(/\{\\[a-zA-Z]+\s*/g, '')                // drop other latex commands
+    .replace(/[{}\\]/g, ' ')
+    .replace(/\b(and|others|collaboration)\b/gi, ' ')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')                 // strip any unicode diacritics
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
 }
 
 function synthBibtex(p: Paper): string {

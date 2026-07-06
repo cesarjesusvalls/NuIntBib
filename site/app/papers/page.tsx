@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { PageHero } from '@/components/UI';
 import { ClusteredPapers } from '@/components/ClusteredPapers';
 import type { PaperRow, RowFacet } from '@/components/PapersTable';
-import { getAllPapers, getFacets, paperFacetValues, flavorHtml } from '@/lib/papers';
+import { getAllPapers, getFacets, paperFacetValues, flavorHtml, searchableAuthors } from '@/lib/papers';
 import {
   getAllOscPapers,
   getOscFacets,
@@ -53,6 +53,7 @@ export default function PapersPage() {
         ...fv.target,
         ...fv.flavor,
         ...fv.current,
+        searchableAuthors(p.bibtex),
       ]
         .filter(Boolean)
         .join(' ')
@@ -100,6 +101,7 @@ export default function PapersPage() {
         ...fv.parameter,
         ...paramSearchAliases(fv.parameter),
         ...fv.framework,
+        searchableAuthors(p.bibtex),
       ]
         .filter(Boolean)
         .join(' ')

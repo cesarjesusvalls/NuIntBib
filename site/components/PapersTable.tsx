@@ -174,7 +174,7 @@ export function PapersTable({
   rows,
   facets,
   renderTags,
-  searchPlaceholder = 'Search title, experiment, topology, bibtag…',
+  searchPlaceholder = 'Search title, author, experiment, topology, bibtag…',
   detailBase = '/papers',
 }: {
   rows: PaperRow[];
@@ -392,7 +392,7 @@ export function PapersTable({
                       ) : (
                         value
                       )}
-                      <span aria-hidden="true">x</span>
+                      <span className="challenge-x" aria-hidden="true">x</span>
                     </button>
                   );
                 })}

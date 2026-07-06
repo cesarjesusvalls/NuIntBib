@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import type { Timeline } from './papers';
+import { indexBibtex } from './papers';
 import { texToHtml } from './tex';
 
 // Oscillation cluster: parallel to lib/papers.ts but reads data/oscillation/*.yml.
@@ -166,12 +167,13 @@ export function getAllOscPapers(): OscPaper[] {
   if (_cache) return _cache;
   const papers: OscPaper[] = [];
   if (!fs.existsSync(OSC_DIR)) return papers;
+  const bib = indexBibtex();
   for (const file of fs.readdirSync(OSC_DIR)) {
     if (!file.endsWith('.yml') && !file.endsWith('.yaml')) continue;
     const records = parseYaml(fs.readFileSync(path.join(OSC_DIR, file), 'utf8')) as OscPaper[];
     for (const rec of records ?? []) {
       rec.slug = bibtagToSlug(rec.bibtag);
-      rec.bibtex = synthBibtex(rec);
+      rec.bibtex = bib[rec.bibtag] ?? synthBibtex(rec);
       papers.push(rec);
     }
   }

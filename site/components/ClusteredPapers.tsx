@@ -91,7 +91,7 @@ export function ClusteredPapers({
           rows={oscillations.rows}
           facets={oscillations.facets}
           renderTags={oscTags}
-          searchPlaceholder="Search title, experiment, channel, parameter, bibtag…"
+          searchPlaceholder="Search title, author, experiment, channel, parameter, bibtag…"
         />
       )}
     </>

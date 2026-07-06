@@ -370,7 +370,7 @@
   font-weight: 650;
 }
 
-.challenge-active-filters span {
+.challenge-active-filters .challenge-x {
   display: inline-flex;
   width: 1rem;
   height: 1rem;
