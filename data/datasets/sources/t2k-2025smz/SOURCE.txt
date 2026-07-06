@@ -1,0 +1,4 @@
+T2K nu_e CC1pi+ (arXiv:2505.00516, PRL) data release
+Zenodo DOI 10.5281/zenodo.15316318  https://zenodo.org/records/15316318
+Vendored via a real-browser download (Zenodo rate-limits scripted fetches).
+xsec.csv = 3D (p_e x cos_e x p_pi) bins; covariance.csv = (bin1 bin2 cov).

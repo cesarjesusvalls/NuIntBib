@@ -1,0 +1,237 @@
+{
+ "bibtag": "T2K:2025smz",
+ "slug": "t2k-2025smz",
+ "source": "Zenodo",
+ "arxiv": "2505.00516",
+ "cite": "Phys.Rev.Lett. 135 151802",
+ "note": "Flux-integrated triple-differential cross section, taken directly from the T2K Zenodo data release (values + full covariance; nothing digitized).",
+ "distributions": [
+  {
+   "key": "d3xsec",
+   "slug": "d3xsec",
+   "name": "d\u00b3\u03c3/dp_e dcos\u03b8_e dp_\u03c0",
+   "name_tex": "$\\mathrm{d}^3\\sigma/\\mathrm{d}p_e\\,\\mathrm{d}\\cos\\theta_e\\,\\mathrm{d}p_\\pi$",
+   "xlabel": "p_e",
+   "xunit": "GeV/c",
+   "ylabel": "d\u00b3\u03c3/dp_e dcos\u03b8_e dp_\u03c0",
+   "ylabel_plot": "d\u00b3\u03c3/dp_e dcos\u03b8_e dp_\u03c0",
+   "ylabel_tex": "$\\mathrm{d}^3\\sigma/\\mathrm{d}p_e\\,\\mathrm{d}\\cos\\theta_e\\,\\mathrm{d}p_\\pi$",
+   "yunit": "cm^2/nucleon/(GeV/c)^2",
+   "yunit_tex": "$cm^2/nucleon/(GeV/c)^2$",
+   "nbins": 8,
+   "is2d": true,
+   "slicevar_tex": "$\\cos\\theta_e \\times p_\\pi$",
+   "slices": [
+    {
+     "label_tex": "$\\cos\\theta_e\\in[0.7,0.94],\\ p_\\pi\\in[0,0.45]$",
+     "label": "cos\u03b8_e\u2208[0.7,0.94], p_\u03c0\u2208[0,0.45]",
+     "lo": 0.0,
+     "hi": 0.45,
+     "nbins": 2,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.35,
+       "hi": 1.7,
+       "center": 1.025,
+       "val": 5.9049e-39,
+       "err": 2.967723032899128e-39
+      },
+      {
+       "i": 1,
+       "lo": 1.7,
+       "hi": 3.05,
+       "center": 2.375,
+       "val": 7.98358e-41,
+       "err": 9.028670998546796e-41,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last p_e bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$\\cos\\theta_e\\in[0.94,1],\\ p_\\pi\\in[0,0.45]$",
+     "label": "cos\u03b8_e\u2208[0.94,1], p_\u03c0\u2208[0,0.45]",
+     "lo": 0.0,
+     "hi": 0.45,
+     "nbins": 2,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.35,
+       "hi": 1.7,
+       "center": 1.025,
+       "val": 1.04249e-38,
+       "err": 9.401739200807477e-39
+      },
+      {
+       "i": 1,
+       "lo": 1.7,
+       "hi": 3.05,
+       "center": 2.375,
+       "val": 9.58734e-40,
+       "err": 5.331585130146568e-40,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last p_e bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$\\cos\\theta_e\\in[0.7,0.94],\\ p_\\pi\\in[0.45,1.5]$",
+     "label": "cos\u03b8_e\u2208[0.7,0.94], p_\u03c0\u2208[0.45,1.5]",
+     "lo": 0.45,
+     "hi": 1.5,
+     "nbins": 2,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.35,
+       "hi": 1.7,
+       "center": 1.025,
+       "val": 2.52719e-40,
+       "err": 5.520652135391253e-40
+      },
+      {
+       "i": 1,
+       "lo": 1.7,
+       "hi": 3.05,
+       "center": 2.375,
+       "val": 1.45727e-42,
+       "err": 1.7940401333303555e-41,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last p_e bin is an integration overflow (shown truncated)"
+    },
+    {
+     "label_tex": "$\\cos\\theta_e\\in[0.94,1],\\ p_\\pi\\in[0.45,1.5]$",
+     "label": "cos\u03b8_e\u2208[0.94,1], p_\u03c0\u2208[0.45,1.5]",
+     "lo": 0.45,
+     "hi": 1.5,
+     "nbins": 2,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.35,
+       "hi": 1.7,
+       "center": 1.025,
+       "val": -6.38978e-40,
+       "err": 1.920643121456977e-39
+      },
+      {
+       "i": 1,
+       "lo": 1.7,
+       "hi": 3.05,
+       "center": 2.375,
+       "val": 1.4554e-40,
+       "err": 1.5840012626257594e-40,
+       "hi_true": 30.0
+      }
+     ],
+     "scale_note": "last p_e bin is an integration overflow (shown truncated)"
+    }
+   ],
+   "bins": [],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "Zenodo (T2K)",
+   "source_url": "https://zenodo.org/records/15316318",
+   "provenance": "T2K nu_e CC1pi+ triple-differential cross section on carbon (Zenodo 10.5281/zenodo.15316318, arXiv:2505.00516) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 nothing digitized"
+  }
+ ],
+ "covariance": {
+  "order": [
+   "cos_e[0.7,0.94] p_pi[0,0.45] p_e[0.35,1.7]",
+   "cos_e[0.7,0.94] p_pi[0,0.45] p_e[1.7,30]",
+   "cos_e[0.94,1] p_pi[0,0.45] p_e[0.35,1.7]",
+   "cos_e[0.94,1] p_pi[0,0.45] p_e[1.7,30]",
+   "cos_e[0.7,0.94] p_pi[0.45,1.5] p_e[0.35,1.7]",
+   "cos_e[0.7,0.94] p_pi[0.45,1.5] p_e[1.7,30]",
+   "cos_e[0.94,1] p_pi[0.45,1.5] p_e[0.35,1.7]",
+   "cos_e[0.94,1] p_pi[0.45,1.5] p_e[1.7,30]"
+  ],
+  "note": "covariance in (cm^2/nucleon/(GeV/c)^2)^2, row/col order below",
+  "matrix": [
+   [
+    8.8074e-78,
+    -1.4022e-79,
+    -2.6244e-78,
+    1.3404e-79,
+    -4.7746e-79,
+    -1.4372e-81,
+    -8.4113e-79,
+    2.9043e-80
+   ],
+   [
+    -1.4022e-79,
+    8.1517e-81,
+    9.2455e-81,
+    -2.3122e-81,
+    4.473e-81,
+    -2.2683e-82,
+    2.7666e-80,
+    1.1292e-82
+   ],
+   [
+    -2.6244e-78,
+    9.2455e-81,
+    8.8393e-77,
+    -2.4784e-78,
+    3.0742e-79,
+    9.7349e-81,
+    -7.7193e-79,
+    -2.4089e-80
+   ],
+   [
+    1.3404e-79,
+    -2.3122e-81,
+    -2.4784e-78,
+    2.8426e-79,
+    -8.5158e-81,
+    -4.262e-82,
+    -3.6112e-80,
+    -2.4967e-80
+   ],
+   [
+    -4.7746e-79,
+    4.473e-81,
+    3.0742e-79,
+    -8.5158e-81,
+    3.0478e-79,
+    8.7892e-82,
+    2.8679e-79,
+    3.111e-81
+   ],
+   [
+    -1.4372e-81,
+    -2.2683e-82,
+    9.7349e-81,
+    -4.262e-82,
+    8.7892e-82,
+    3.2186e-82,
+    1.2774e-80,
+    4.2114e-82
+   ],
+   [
+    -8.4113e-79,
+    2.7666e-80,
+    -7.7193e-79,
+    -3.6112e-80,
+    2.8679e-79,
+    1.2774e-80,
+    3.6889e-78,
+    -8.3618e-81
+   ],
+   [
+    2.9043e-80,
+    1.1292e-82,
+    -2.4089e-80,
+    -2.4967e-80,
+    3.111e-81,
+    4.2114e-82,
+    -8.3618e-81,
+    2.5091e-80
+   ]
+  ]
+ }
+}

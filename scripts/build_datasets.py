@@ -98,8 +98,10 @@ def plotify(tex):
     return (tex.replace('\\mathrm', '').replace('{', '').replace('}', '')
             .replace('\\pi', 'π').replace('\\mu', 'μ').replace('\\nu', 'ν')
             .replace('\\theta', 'θ').replace('\\phi', 'φ').replace('\\delta', 'δ')
-            .replace('\\sigma', 'σ').replace('\\cos', 'cos').replace('\\', '')
-            .replace('^2', '²').replace('^{2}', '²'))
+            .replace('\\sigma', 'σ').replace('\\cos', 'cos').replace('\\sin', 'sin')
+            .replace('\\in', '∈').replace('\\times', '×').replace('\\,', ' ')
+            .replace('\\', '')
+            .replace('^2', '²').replace('^{2}', '²').replace('^3', '³').replace('^{3}', '³'))
 
 
 # --- extract distributions from a ROOT file ---------------------------------
@@ -295,6 +297,68 @@ def build_2d_joint(spec):
         out[0]['_release_cov'] = _cov_obj(Mfull, order_list, spec.get(
             'cov_note', 'covariance in (cm^2/GeV)^2, row/col order below'))
     return out
+
+
+def build_3d_zenodo(spec):
+    """T2K nu_e CC1pi+ (2025smz): a flux-integrated TRIPLE-differential
+    (p_e x cos_e x p_pi) cross section vendored from Zenodo.  xsec.csv gives each
+    bin's 3-D edges + value; covariance.csv is (bin1 bin2 cov).  Presented as one
+    item: p_e panels sliced by (cos_e, p_pi).  Files are local (Zenodo rate-limits
+    scripted fetches), so paths are read directly, not via fetch()."""
+    base = spec['dir']
+    rows = []
+    for ln in open(os.path.join(ROOT_DIR, base, 'xsec.csv')):
+        p = ln.split()
+        if len(p) < 8 or not p[0].isdigit():
+            continue
+        rows.append((int(p[0]), *(float(x) for x in p[1:8])))
+    N = len(rows)
+    M = np.zeros((N, N))
+    for ln in open(os.path.join(ROOT_DIR, base, 'covariance.csv')):
+        p = ln.split()
+        if len(p) < 3 or not p[0].isdigit():
+            continue
+        M[int(p[0]) - 1, int(p[1]) - 1] = float(p[2])
+    err = np.sqrt(np.clip(np.diag(M), 0, None))
+    OV = spec.get('overflow_hi', 10.0)                 # p_e cap bin (e.g. [1.7, 30])
+    grouped, order = {}, []
+    for (b, pe1, pe2, ce1, ce2, pp1, pp2, val) in rows:
+        grouped.setdefault((ce1, ce2, pp1, pp2), []).append((pe1, pe2, val, float(err[b - 1])))
+        order.append(f"cos_e[{ce1:g},{ce2:g}] p_pi[{pp1:g},{pp2:g}] p_e[{pe1:g},{pe2:g}]")
+    yl, xl = spec['ylabel'], spec['xlabel']
+    slices, total = [], 0
+    for (ce1, ce2, pp1, pp2), pts in grouped.items():
+        bins = [{'i': i, 'lo': plo, 'hi': phi, 'center': 0.5 * (plo + phi), 'val': v, 'err': e}
+                for i, (plo, phi, v, e) in enumerate(sorted(pts))]
+        normal = [b['hi'] - b['lo'] for b in bins if b['hi'] < OV]
+        med = float(np.median(normal)) if normal else float(np.median([b['hi'] - b['lo'] for b in bins]))
+        clipped = False
+        for b in bins:
+            if b['hi'] >= OV:                          # overflow p_e bin: truncate for display
+                b['hi_true'] = b['hi']
+                b['hi'] = round(b['lo'] + med, 4)
+                b['center'] = 0.5 * (b['lo'] + b['hi'])
+                clipped = True
+        total += len(bins)
+        lab = rf'\cos\theta_e\in[{ce1:g},{ce2:g}],\ p_\pi\in[{pp1:g},{pp2:g}]'
+        slices.append({'label_tex': f'${lab}$', 'label': plotify(lab),
+                       'lo': pp1, 'hi': pp2, 'nbins': len(bins), 'bins': bins,
+                       'scale_note': 'last p_e bin is an integration overflow (shown truncated)'
+                       if clipped else None})
+    dist = {
+        'key': 'd3xsec', 'slug': 'd3xsec',
+        'name': plotify(yl), 'name_tex': f'${yl}$',
+        'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''),
+        'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+        'yunit': spec.get('yunit', ''),
+        'yunit_tex': f"${tl(spec.get('yunit', ''))}$" if spec.get('yunit') else '',
+        'nbins': total, 'is2d': True, 'slicevar_tex': r'$\cos\theta_e \times p_\pi$',
+        'slices': slices, 'bins': [], 'nuisance_file': '', 'scale_note': None,
+        'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+    }
+    dist['_release_cov'] = _cov_obj(M, order, spec.get(
+        'cov_note', 'covariance in (cm^2/nucleon/(GeV/c)^2)^2, row/col order below'))
+    return [dist]
 
 
 def _sym_from_packed(m):
@@ -560,6 +624,19 @@ REGISTRY = [
          'slicevar': r'p_\mu', 'xlabel': r'\cos\theta_\mu', 'xunit': '',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
          'yunit': r'cm^2/GeV'}}]},
+    {'bibtag': 'T2K:2025smz', 'slug': 't2k-2025smz', 'source': 'Zenodo',
+     'note': 'Flux-integrated triple-differential cross section, taken directly from '
+             'the T2K Zenodo data release (values + full covariance; nothing digitized).',
+     'sources': [{'zenodo3d': {
+         'dir': 'data/datasets/sources/t2k-2025smz',
+         'xlabel': r'p_e', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}^3\sigma/\mathrm{d}p_e\,\mathrm{d}\cos\theta_e\,\mathrm{d}p_\pi',
+         'yunit': r'cm^2/nucleon/(GeV/c)^2',
+         'source': 'Zenodo (T2K)',
+         'source_url': 'https://zenodo.org/records/15316318',
+         'provenance': 'T2K nu_e CC1pi+ triple-differential cross section on carbon '
+                       '(Zenodo 10.5281/zenodo.15316318, arXiv:2505.00516) · '
+                       'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
 ]
 
 
@@ -589,6 +666,8 @@ def build(entry):
             dists.extend(build_2d_rootslices(src['rootslices']))
         elif 'root_explicit' in src:
             dists.extend(build_2d_root_explicit(src['root_explicit']))
+        elif 'zenodo3d' in src:
+            dists.extend(build_3d_zenodo(src['zenodo3d']))
     for d in dists:
         d.setdefault('source', 'NUISANCE')
         d.setdefault('source_url', BLOB + d['nuisance_file'])
@@ -614,9 +693,10 @@ def build(entry):
             off += n
         release_cov = _cov_obj(M, labels, 'block-diagonal per-observable covariance '
                                '(NUISANCE provides no inter-observable correlations)')
-    out = {'bibtag': entry['bibtag'], 'slug': entry['slug'], 'source': 'NUISANCE',
+    out = {'bibtag': entry['bibtag'], 'slug': entry['slug'],
+           'source': entry.get('source', 'NUISANCE'),
            'arxiv': arxiv, 'cite': cite,
-           'note': 'Cross sections taken directly from the NUISANCE data release.',
+           'note': entry.get('note', 'Cross sections taken directly from the NUISANCE data release.'),
            'distributions': dists}
     if release_cov:
         out['covariance'] = release_cov
