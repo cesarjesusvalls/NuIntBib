@@ -278,7 +278,41 @@ def build_2d_joint(spec):
             if b in vals and b in diag:
                 grouped.setdefault((alo, ahi), []).append(
                     (plo / pdiv, phi / pdiv, vals[b], diag[b]))
-        out += _assemble_2d(grouped, {**spec, 'detector': det['name']})
+        out += _assemble_2d(grouped, {**spec, 'det_tex': rf"\mathrm{{{det['name']}}}",
+                                      'det_slug': det['name'].lower()})
+    return out
+
+
+def build_2d_rootslices(spec):
+    """Reconstruct a 2-D release from a NUISANCE ROOT file whose DataSlice hists
+    are empty binning templates: values from a flattened LinearResult TH1D, p-edges
+    per cos-slice from the DataSlice hists, cos edges supplied, errors from the
+    diagonal of summed TMatrixTSym covariances (block-offset per beam)."""
+    f = uproot.open(fetch(spec['root']))
+    diag = None
+    for ck in spec['cov_keys']:
+        m = f[ck]; N = m.member('fNrows'); el = np.asarray(m.member('fElements'))
+        M = np.zeros((N, N)); idx = 0
+        for i in range(N):
+            for j in range(i, N):
+                M[i, j] = M[j, i] = el[idx]; idx += 1
+        d = np.diag(M)
+        diag = d if diag is None else diag + d
+    err_all = np.sqrt(np.clip(diag, 0, None))
+    cos = spec['cos_edges']
+    out = []
+    for beam in spec['beams']:
+        vals = f[beam['result']].values()
+        off, b, grouped = beam['offset'], 0, {}
+        for s in range(len(cos) - 1):
+            edges = f[f"{beam['slice_prefix']}{s}"].axis().edges()
+            for pi in range(len(edges) - 1):
+                grouped.setdefault((cos[s], cos[s + 1]), []).append(
+                    (float(edges[pi]), float(edges[pi + 1]),
+                     float(vals[b]), float(err_all[off + b])))
+                b += 1
+        out += _assemble_2d(grouped, {**spec, 'det_tex': beam['tex'],
+                                      'det_slug': beam['slug'], 'nuisance_file': spec['root']})
     return out
 
 
@@ -308,10 +342,12 @@ def _assemble_2d(grouped, spec):
             'lo': clo, 'hi': chi, 'nbins': len(bins), 'bins': bins,
             'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
         })
-    det = spec.get('detector')                    # optional group label (ND280/INGRID)
-    suf_tex = rf'\ (\mathrm{{{det}}})' if det else ''
-    suf = f' ({det})' if det else ''
-    dkey = (f"_{det.lower()}" if det else '')
+    # optional group label (a detector like ND280, or a beam like \nu_\mu):
+    # det_tex is the LaTeX to show, det_slug the ascii key/name suffix.
+    det_tex, det_slug = spec.get('det_tex'), spec.get('det_slug')
+    suf_tex = rf'\ ({det_tex})' if det_tex else ''
+    suf = f' ({det_slug})' if det_slug else ''
+    dkey = (f"_{det_slug}" if det_slug else '')
     dist = {
         'key': spec.get('key', 'd2xsec') + dkey, 'slug': spec.get('slug', 'd2xsec') + dkey,
         'name': plotify(yl) + suf, 'name_tex': f'${yl}{suf_tex}$',
@@ -434,6 +470,22 @@ REGISTRY = [
          'source': 'NUISANCE neutrino_data',
          'source_url': 'https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/'
                        'CrossSection/PRD.108.112009/onoffaxis_data_release'}}]},
+    {'bibtag': 'T2K:2020sbd', 'slug': 't2k-2020sbd',
+     'sources': [{'rootslices': {
+         'root': 'data/T2K/CC0pi/JointNuMu-AntiNuMu/JointNuMuAntiNuMuCC0piXsecDataRelease.root',
+         'cov_keys': ['JointNuMuAntiNuMuCC0piXsecCovMatrixStat',
+                      'JointNuMuAntiNuMuCC0piXsecCovMatrixSyst'],
+         'cos_edges': [-1, 0.2, 0.6, 0.7, 0.8, 0.85, 0.9, 0.94, 0.98, 1],
+         'beams': [
+             {'tex': r'\nu_\mu', 'slug': 'numu', 'offset': 0,
+              'result': 'hNuMuCC0piXsecLinearResult',
+              'slice_prefix': 'hXsecNuMuCC0piDataSlice_'},
+             {'tex': r'\bar\nu_\mu', 'slug': 'antinumu', 'offset': 58,
+              'result': 'hAntiNuMuCC0piXsecLinearResult',
+              'slice_prefix': 'hXsecAntiNuMuCC0piDataSlice_'}],
+         'xlabel': r'p_\mu', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
+         'yunit': r'cm^2/GeV'}}]},
 ]
 
 
@@ -459,6 +511,8 @@ def build(entry):
             dists.extend(build_2d_binned(src['slices2d_binned']))
         elif 'joint2d' in src:
             dists.extend(build_2d_joint(src['joint2d']))
+        elif 'rootslices' in src:
+            dists.extend(build_2d_rootslices(src['rootslices']))
     for d in dists:
         d.setdefault('source', 'NUISANCE')
         d.setdefault('source_url', BLOB + d['nuisance_file'])
