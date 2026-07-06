@@ -54,7 +54,7 @@
 }
 .dr-item-head {
   display: grid;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
   align-items: center;
   gap: 1rem;
   width: 100%;
@@ -88,11 +88,15 @@
 .dr-item-title .t {
   font-size: 1.02rem;
   font-weight: 600;
+  max-width: 100%;
+  overflow-x: auto;
 }
 .dr-item-title .s {
   font-family: var(--dr-mono);
   font-size: 0.74rem;
   color: var(--muted);
+  max-width: 100%;
+  overflow-x: auto;
 }
 .dr-spark-wrap {
   display: inline-flex;
@@ -159,7 +163,7 @@
 }
 .dr-bodygrid {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
   gap: 1.4rem;
 }
 @media (max-width: 720px) {
