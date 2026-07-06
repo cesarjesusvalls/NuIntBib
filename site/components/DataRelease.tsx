@@ -124,12 +124,15 @@ function downloadAll(release: Release) {
     `# ${release.bibtag} — ${release.source} data release`,
     `# ${release.cite ?? ''} · arXiv:${release.arxiv ?? ''}`,
     `# ${release.distributions.length} distributions · taken directly from NUISANCE (values + covariance diagonal); nothing digitized`,
-    `distribution,x_label,x_low,x_high,x_center,value,error,y_unit`,
+    `distribution,slice,x_label,x_low,x_high,x_center,value,error,y_unit`,
   ];
   for (const d of release.distributions) {
-    for (const b of d.bins) {
-      lines.push([d.key, strip(d.xlabel), b.lo, b.hi, b.center, b.val, b.err.toPrecision(6),
-        `"${d.yunit}"`].join(','));
+    const rows = d.is2d && d.slices
+      ? d.slices.flatMap((s) => s.bins.map((b) => ({ slice: s.label, b })))
+      : d.bins.map((b) => ({ slice: '', b }));
+    for (const { slice, b } of rows) {
+      lines.push([d.key, `"${slice}"`, strip(d.xlabel), b.lo, b.hi_true ?? b.hi,
+        b.center, b.val, b.err.toPrecision(6), `"${d.yunit}"`].join(','));
     }
   }
   const uri = 'data:text/csv;charset=utf-8,' + encodeURIComponent(lines.join('\n') + '\n');
@@ -142,7 +145,7 @@ function downloadSlices(d: Distribution, bibtag: string) {
     `slice,x_low,x_high,x_center,value,error`];
   for (const s of d.slices ?? []) {
     for (const b of s.bins) {
-      lines.push([`"${s.label}"`, b.lo, b.hi, b.center, b.val, b.err.toPrecision(6)].join(','));
+      lines.push([`"${s.label}"`, b.lo, b.hi_true ?? b.hi, b.center, b.val, b.err.toPrecision(6)].join(','));
     }
   }
   const uri = 'data:text/csv;charset=utf-8,' + encodeURIComponent(lines.join('\n') + '\n');
