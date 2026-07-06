@@ -132,6 +132,7 @@
 .detail-main,
 .section-stack {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
 }
 
@@ -362,7 +363,7 @@
 }
 
 .data-table-wrap {
-  overflow: hidden;
+  overflow-x: auto;
   margin-top: 1rem;
 }
 
