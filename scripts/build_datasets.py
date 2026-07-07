@@ -967,7 +967,7 @@ REGISTRY = [
          'yunit': r'cm^2/GeV',
          'nuisance_file': 'neutrino_data/data/T2K/CrossSection/PRD.108.112009/'
                           'onoffaxis_data_release/',
-         'source': 'NUISANCE neutrino_data',
+         'source': 'NUISANCE',
          'source_url': 'https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/'
                        'CrossSection/PRD.108.112009/onoffaxis_data_release'}}]},
     {'bibtag': 'T2K:2020sbd', 'slug': 't2k-2020sbd', 'flux': _FLUX_BOTH,

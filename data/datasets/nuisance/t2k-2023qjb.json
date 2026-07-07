@@ -1,7 +1,7 @@
 {
  "bibtag": "T2K:2023qjb",
  "slug": "t2k-2023qjb",
- "source": "NUISANCE neutrino_data",
+ "source": "NUISANCE",
  "source_url": "https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release",
  "arxiv": "2303.14228",
  "cite": "Phys.Rev.D 108 112009",
@@ -590,9 +590,9 @@
    "bins": [],
    "nuisance_file": "neutrino_data/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release/",
    "scale_note": null,
-   "source": "NUISANCE neutrino_data",
+   "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release",
-   "provenance": "NUISANCE neutrino_data \u00b7 neutrino_data/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release/ \u00b7 from arXiv:2303.14228 (Phys.Rev.D 108 112009) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "provenance": "NUISANCE \u00b7 neutrino_data/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release/ \u00b7 from arXiv:2303.14228 (Phys.Rev.D 108 112009) \u00b7 per-bin error = sqrt(diag(covariance))",
    "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
@@ -745,9 +745,9 @@
    "bins": [],
    "nuisance_file": "neutrino_data/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release/",
    "scale_note": null,
-   "source": "NUISANCE neutrino_data",
+   "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release",
-   "provenance": "NUISANCE neutrino_data \u00b7 neutrino_data/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release/ \u00b7 from arXiv:2303.14228 (Phys.Rev.D 108 112009) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "provenance": "NUISANCE \u00b7 neutrino_data/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release/ \u00b7 from arXiv:2303.14228 (Phys.Rev.D 108 112009) \u00b7 per-bin error = sqrt(diag(covariance))",
    "notes": "Per-bin error = sqrt(diag(covariance))."
   }
  ],
