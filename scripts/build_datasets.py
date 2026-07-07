@@ -628,6 +628,59 @@ def _cov_obj(M, order, note):
             'matrix': [[float(f'{v:.5g}') for v in row] for row in np.asarray(M)]}
 
 
+def _read_matrix_txt(path, fmt=None):
+    """Read a covariance matrix from text: fmt='pipe' -> '<idx> | v | v | ...'
+    (skip header/separator); else whitespace-separated rows."""
+    rows = []
+    for ln in open(_flux_open(path)):
+        if not ln.strip():
+            continue
+        if fmt == 'pipe':
+            parts = ln.split('|')
+            if not parts[0].strip().isdigit():
+                continue
+            cells = [c for c in parts[1:] if c.strip()]   # drop trailing empty from final '|'
+        else:
+            cells = ln.split()
+        try:
+            vals = [float(x) for x in cells]
+        except ValueError:
+            continue
+        if vals:
+            rows.append(vals)
+    return np.asarray(rows)
+
+
+def build_release_cov(spec, dists):
+    """Attach a release-level covariance whose bin order matches the flattened
+    distribution values (dist -> slices -> bins).  Source is a ROOT TMatrixTSym/TH2
+    ('root'+'key') or a text matrix ('txt').  'fractional' -> multiply by value_i*value_j;
+    'scale' -> constant factor.  sqrt(diag) is checked against the per-bin errors."""
+    flat = []
+    for d in dists:
+        bins = d['bins'] if not d.get('is2d') else [b for s in d['slices'] for b in s['bins']]
+        for b in bins:
+            flat.append((d, b))
+    if 'root' in spec:
+        o = uproot.open(_flux_open(spec['root']))[spec['key']]
+        M = _sym_from_packed(o) if 'TMatrix' in o.classname else np.asarray(o.values())
+    else:
+        M = _read_matrix_txt(spec['txt'], spec.get('txt_format'))
+    M = M * spec.get('scale', 1.0)
+    if spec.get('fractional'):
+        v = np.array([b['val'] for _, b in flat])
+        M = M * np.outer(v, v)
+    if M.shape[0] != len(flat):
+        raise ValueError(f"cov {M.shape} vs {len(flat)} flattened bins")
+    err = np.array([b['err'] for _, b in flat])
+    good = err > 0
+    ratio = np.median(np.sqrt(np.clip(np.diag(M), 0, None))[good] / err[good]) if good.any() else 0
+    if not 0.9 < ratio < 1.1:
+        print(f"    !! cov sqrt(diag)/err median = {ratio:.3f} (expected ~1)")
+    order = [f"{d['key']} [{b['lo']:g},{b.get('hi_true', b['hi']):g}]" for d, b in flat]
+    return _cov_obj(M, order, spec['note'])
+
+
 def build_2d_rootslices(spec):
     """Reconstruct a 2-D release from a NUISANCE ROOT file whose DataSlice hists
     are empty binning templates: values from a flattened LinearResult TH1D, p-edges
@@ -809,6 +862,10 @@ REGISTRY = [
                   'labels': {'key': 'Enu', 'xlabel': r'E_\nu', 'xunit': 'GeV',
                              'ylabel': r'\sigma_{\mathrm{coh}}', 'yunit': r'cm^2/{}^{12}C'}}]},
     {'bibtag': 'T2K:2020lrr', 'slug': 't2k-2020lrr', 'flux': _FLUX_BOTH,
+     'covariance': {'txt': 'data/T2K/CCinc/nue_2019/fract_covar_both.txt', 'fractional': True,
+                    'note': 'fractional covariance across all reported bins, from the NUISANCE '
+                            'release fract_covar_both.txt (converted to absolute via '
+                            'value_i*value_j); row/col order below'},
      'sources': [
          _nue('FHC_nue_pe.txt', 'nue_FHC_pe', r'p_e\ (\nu_e,\ \mathrm{FHC})', 'GeV',
               r'\mathrm{d}\sigma/\mathrm{d}p_e', r'cm^2/GeV/nucleon'),
@@ -834,12 +891,21 @@ REGISTRY = [
               'hists': [('hflux', 'numu')],
               'note': "T2K ND280 numu flux prediction, from this measurement's own data "
                       "release (hflux) via NUISANCE"},
+     'covariance': {'txt': 'data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/'
+                           'covariance_matrix_neut.txt', 'txt_format': 'pipe', 'scale': 1e78,
+                    'note': 'covariance matrix from the NUISANCE release '
+                            'covariance_matrix_neut.txt (in (10^-39)^2 units to match the '
+                            'reported values); row/col order below'},
      'sources': [{'slices2d_txt': {
          'text': 'data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/data_unfold_with_neut.txt',
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}\cos\theta_\mu\mathrm{d}p_\mu',
          'yunit': r'10^{-39}\ cm^2/(GeV/c)/nucleon'}}]},
     {'bibtag': 'T2K:2020jav', 'slug': 't2k-2020jav', 'flux': _FLUX_FHC,
+     'covariance': {'root': 'data/T2K/CC0pi/JointO-C/covmatrix_reg.root',
+                    'key': 'covmatrixOCratio',
+                    'note': 'covariance of the O/C cross-section ratio (regularised), from the '
+                            'NUISANCE release covmatrix_reg.root; row/col order below'},
      'sources': [{'slices2d_binned': {
          'binning': 'data/T2K/CC0pi/JointO-C/Binning.txt',
          'data': 'data/T2K/CC0pi/JointO-C/cc0pi_xsec_O-C-ratio_reg.txt',
@@ -1127,6 +1193,8 @@ def build(entry):
             off += n
         release_cov = _cov_obj(M, labels, 'block-diagonal per-observable covariance '
                                '(NUISANCE provides no inter-observable correlations)')
+    if release_cov is None and entry.get('covariance'):   # release-level covariance spec
+        release_cov = build_release_cov(entry['covariance'], dists)
     out = {'bibtag': entry['bibtag'], 'slug': entry['slug'],
            'source': entry.get('source', 'NUISANCE'),
            'arxiv': arxiv, 'cite': cite,
