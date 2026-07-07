@@ -208,7 +208,6 @@
 .dr-plot-xlab {
   grid-row: 2;
   grid-column: 2;
-  overflow-x: auto;
   padding-top: 0.2rem;
   text-align: center;
   white-space: nowrap;
