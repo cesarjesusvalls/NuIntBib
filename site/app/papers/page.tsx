@@ -25,14 +25,19 @@ export default function PapersPage() {
   const papers = getAllPapers();
   const releaseSlugs = getDataReleaseSlugs();
   const intFacets = getFacets(papers) as RowFacet[];
-  // Papers that ship a data release in NuBib get a selectable "Dataset" facet.
-  const IN_NUBIB = 'In NuBib';
-  intFacets.push({ key: 'dataset', label: 'Dataset', allLabel: 'All papers', values: [IN_NUBIB] });
+  // Papers that ship a downloadable data release get a selectable "Dataset" facet.
+  const DATA_AVAILABLE = 'Available';
+  intFacets.push({
+    key: 'dataset',
+    label: 'Dataset',
+    allLabel: 'All papers',
+    values: [DATA_AVAILABLE],
+  });
   const intRows: PaperRow[] = papers.map((p) => {
     const fv = paperFacetValues(p);
     const hasData = releaseSlugs.has(p.slug);
     return {
-      dataset: hasData ? [IN_NUBIB] : [],
+      dataset: hasData ? [DATA_AVAILABLE] : [],
       slug: p.slug,
       bibtag: p.bibtag,
       title: stripTex(p.title),
