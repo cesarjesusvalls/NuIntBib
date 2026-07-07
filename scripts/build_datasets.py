@@ -300,6 +300,41 @@ def build_2d_joint(spec):
     return out
 
 
+def build_2d_t2korg(spec):
+    """t2k.org data release (only place this measurement lives): a global-binned
+    TH1D result over a cos-p grid, with the total covariance = sum of per-source
+    TMatrixT 'cvm_*' matrices.  Global bin 0 is out-of-range (dropped); some bins
+    have no sensitivity (drop_bins) and are removed so the covariance is usable."""
+    f = uproot.open(os.path.join(ROOT_DIR, spec['root']))
+    vals = f[spec['result']].values()
+    M = None
+    for s in spec['cov_sources']:
+        m = f[s]
+        N = m.member('fNrows')
+        el = np.asarray(m.member('fElements')).reshape(N, N)
+        M = el.copy() if M is None else M + el
+    Mreal = M[1:1 + len(vals), 1:1 + len(vals)]        # drop the out-of-range bin 0
+    cos, ped = spec['cos_edges'], spec['p_edges']
+    npb = len(ped) - 1
+    drop = set(spec.get('drop_bins', []))              # 1-based global bins w/ no sensitivity
+    grouped, order, keep = {}, [], []
+    for g in range(1, len(vals) + 1):
+        if g in drop:
+            continue
+        s, pb = (g - 1) // npb, (g - 1) % npb
+        grouped.setdefault((cos[s], cos[s + 1]), []).append(
+            (ped[pb], ped[pb + 1], float(vals[g - 1]),
+             float(math.sqrt(max(Mreal[g - 1, g - 1], 0.0)))))
+        order.append(f"cos[{cos[s]:g},{cos[s + 1]:g}] p[{ped[pb]:g},{ped[pb + 1]:g}]")
+        keep.append(g - 1)
+    out = _assemble_2d(grouped, spec)
+    if out:
+        out[0]['_release_cov'] = _cov_obj(Mreal[np.ix_(keep, keep)], order, spec.get(
+            'cov_note', 'total covariance = sum of the per-source cvm_* matrices '
+            '(no-sensitivity bins removed), row/col order below'))
+    return out
+
+
 def build_2d_bracket(spec):
     """2-D release from a bracketed-text result ('cos theta [a,b], momentum [c,d]
     GeV/c  <result> <error>') plus a covariance matrix stored WITHOUT the per-bin
@@ -777,6 +812,26 @@ REGISTRY = [
          'provenance': 'T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O '
                        '(Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) · quoted per-bin '
                        'errors · nothing digitized'}}]},
+    {'bibtag': 'T2K:2017qxv', 'slug': 't2k-2017qxv', 'source': 'T2K',
+     'note': 'nu_mu CC0pi double-differential cross section on water, taken directly from '
+             'the T2K data release (values + covariance; nothing digitized). This release '
+             'lives only on t2k.org (it was never migrated to Zenodo).',
+     'sources': [{'t2korg2d': {
+         'root': 'data/datasets/sources/t2k-2017qxv/release.root',
+         'result': 'xsnominal',
+         'cov_sources': ['cvm_statistics_data', 'cvm_statistics_mc', 'cvm_fsi', 'cvm_xs',
+                         'cvm_flux', 'cvm_mass', 'cvm_detector'],
+         'cos_edges': [0.0, 0.6, 0.7, 0.8, 0.85, 0.9, 0.925, 0.975, 1.0],
+         'p_edges': [0.0, 0.4, 0.5, 0.7, 0.9, 2.5, 5.0],
+         'drop_bins': [6, 12, 18],
+         'slicevar': r'\cos\theta_\mu', 'xlabel': r'p_\mu', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
+         'yunit': r'10^{-38}cm^2/GeV/neutron',
+         'source': 'T2K (t2k.org)',
+         'source_url': 'https://t2k-experiment.org/results/2017-cc0pi-water-xsec/',
+         'provenance': 'T2K nu_mu CC0pi on H2O double-differential cross section '
+                       '(t2k.org data release, arXiv:1708.06771, Phys.Rev.D 97 012001) · '
+                       'total covariance = sum of per-source cvm_* · nothing digitized'}}]},
 ]
 
 
@@ -810,6 +865,8 @@ def build(entry):
             dists.extend(build_3d_zenodo(src['zenodo3d']))
         elif 'bracket2d' in src:
             dists.extend(build_2d_bracket(src['bracket2d']))
+        elif 't2korg2d' in src:
+            dists.extend(build_2d_t2korg(src['t2korg2d']))
         elif 'csv1d_targets' in src:
             dists.extend(build_1d_csv_targets(src['csv1d_targets']))
     for d in dists:

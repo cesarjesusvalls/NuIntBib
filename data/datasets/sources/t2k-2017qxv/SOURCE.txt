@@ -1,0 +1,9 @@
+T2K nu_mu CC0pi double-differential cross section on WATER (H2O)
+t2k.org data release: https://t2k-experiment.org/results/2017-cc0pi-water-xsec/
+Paper: arXiv:1708.06771, Phys.Rev.D 97 (2018) 012001
+Downloaded via a real-browser download (t2k.org serves a redirect stub to scripts).
+This is the ONLY T2K interaction release still on t2k.org (never migrated to Zenodo).
+release.root: xsnominal (48-bin global TH1D) + per-source cvm_* covariances
+(sum for total). Global bin 0 out-of-range; bins 6/12/18 have no sensitivity.
+binning.pdf: the cos-p global-bin map (hardcoded in build_datasets.py).
+Units: 10^-38 cm^2/GeV/neutron.

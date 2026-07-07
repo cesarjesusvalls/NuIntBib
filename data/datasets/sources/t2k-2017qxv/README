@@ -1,0 +1,11 @@
+The data release is in a ROOT file with several objects inside. The term "error source" used below means a source of statistical or systematic uncertainty. They are 'statistics_data', 'statistics_mc', 'fsi' (FSI), 'xs' (cross section modeling), 'flux' (flux), 'mass' (water mass), and 'detector.' Unless otherwise mentioned, the units on the cross section central value and errors are '[10^-38 cm^2/GeV/neutron]'. In order to get the full covariance, add the covariances from each source.
+
+- 'xsnominal' is a 'TH1D' that contains the central values of the final cross section result. The bins are in a global binning scheme that steps through the muon momentum in slices of cosine theta, starting from the highest angle slice. Bin 0 is an out-of-range bin that corresponds to everything outside the defined 2D binning. A visualization of the mapping from global binning to the 2D binning is provided in 'binning.pdf'.
+
+- 'xsnominal_total' is a TVector that contains the reduced phase-space total cross section result.
+
+- 'cvm_*' are a set of 'TMatrixs', one for each error source, that contains the bin-by-bin covariance as calculated in the paper for that error source. To evaluate a total cvm, simply take the sum over all sources. The result has no sensitivity in global bins 6, 12, and 18, which means these should be ignored in the cvm and when inverting the cvm.
+
+- 'variance_*' are a set of single-element 'TVectors' containing the variance on the reduced phase-space, total cross section for the specified source.
+
+- 'NuMuFlux' contains the numu flux used for this analysis, corresponding to the T2K P0D water-in POT during runs 2-4. The bin contents gives the flux over the bin width (most bins are 50 MeV).
