@@ -11,6 +11,7 @@ import {
   paramHtml,
   paramSearchAliases,
 } from '@/lib/oscillation';
+import { getDataReleaseSlugs } from '@/lib/datasets';
 import { stripTex, texToHtml } from '@/lib/tex';
 
 export const metadata: Metadata = {
@@ -22,10 +23,16 @@ export const metadata: Metadata = {
 export default function PapersPage() {
   // --- interactions cluster ---
   const papers = getAllPapers();
+  const releaseSlugs = getDataReleaseSlugs();
   const intFacets = getFacets(papers) as RowFacet[];
+  // Papers that ship a data release in NuBib get a selectable "Dataset" facet.
+  const IN_NUBIB = 'In NuBib';
+  intFacets.push({ key: 'dataset', label: 'Dataset', allLabel: 'All papers', values: [IN_NUBIB] });
   const intRows: PaperRow[] = papers.map((p) => {
     const fv = paperFacetValues(p);
+    const hasData = releaseSlugs.has(p.slug);
     return {
+      dataset: hasData ? [IN_NUBIB] : [],
       slug: p.slug,
       bibtag: p.bibtag,
       title: stripTex(p.title),
@@ -53,6 +60,7 @@ export default function PapersPage() {
         ...fv.target,
         ...fv.flavor,
         ...fv.current,
+        hasData ? 'dataset data release nubib' : '',
         searchableAuthors(p.bibtex),
       ]
         .filter(Boolean)

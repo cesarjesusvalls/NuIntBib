@@ -86,6 +86,11 @@ function defaultInteractionTags(r: PaperRow): ReactNode {
           {t}
         </span>
       ))}
+      {arr('dataset').length > 0 ? (
+        <span className="tag tag-data" title="A data release is available in NuBib">
+          dataset
+        </span>
+      ) : null}
     </>
   );
 }

@@ -251,6 +251,14 @@
   color: var(--muted);
   background: transparent;
 }
+/* "dataset" badge — papers with a data release in NuBib; filled accent so the
+   (currently rare) papers with downloadable data stand out at a glance */
+.tag-data {
+  background: var(--palo-alto);
+  border-color: var(--palo-alto);
+  color: #fff;
+  font-weight: 600;
+}
 
 /* oscillation-cluster tags */
 .tag-source {
