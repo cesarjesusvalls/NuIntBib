@@ -484,7 +484,7 @@
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross sections (e momentum/angle)
-    energy_notes: p>300MeV/c, θ≤45°
+    energy_notes: peak energy ~0.6GeV (T2K ND280)
 - bibtag: T2K:2020sbd
   title: First combined measurement of the muon neutrino and antineutrino charged-current cross section
     without pions in the final state at T2K
@@ -853,7 +853,7 @@
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections
-    energy_notes: restricted phase space
+    energy_notes: peak energy ~0.6GeV (T2K ND280)
 - bibtag: T2K:2017bvo
   title: Measurement of $\bar{\nu}_{\mu}$ and $\nu_{\mu}$ charged current inclusive cross sections and
     their ratio with the T2K off-axis near detector

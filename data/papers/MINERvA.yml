@@ -669,7 +669,7 @@
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections of muon-proton momentum imbalance
-    energy_notes: focus on nuclear effects
+    energy_notes: mean energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2020anu
   title: Probing nuclear effects with neutrino-induced charged-current neutral pion production
   collaboration: MINERvA
@@ -709,7 +709,7 @@
     pion_bucket: pi0
     measurement_type: null
     observables: final-state correlations and momentum imbalance
-    energy_notes: focus on nuclear effects and FSI
+    energy_notes: mean energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2020zzv
   title: Double-differential inclusive charged-current $\nu_\mu$ cross sections on hydrocarbon in MINERvA
     at $\langle E_{\nu} \rangle \sim$ 3.5 GeV
@@ -952,7 +952,7 @@
     pion_bucket: 0pi
     measurement_type: null
     observables: kinematic imbalance measurements
-    energy_notes: focus on nuclear effects
+    energy_notes: mean energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2018nab
   title: Antineutrino Charged-Current Reactions on Hydrocarbon with Low Momentum Transfer
   collaboration: MINERvA
@@ -989,7 +989,7 @@
     pion_bucket: null
     measurement_type: double-diff
     observables: double-differential cross section
-    energy_notes: Q < 0.8GeV/c, focus on multinucleon effects
+    energy_notes: peak energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2018vjb
   title: Measurement of the Muon Antineutrino Double-Differential Cross Section for Quasielastic-like
     Scattering on Hydrocarbon at $E_\nu \sim 3.5$GeV
@@ -1068,7 +1068,7 @@
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross sections
-    energy_notes: proton decay background study
+    energy_notes: peak energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2017dzh
   title: Direct Measurement of Nuclear Dependence of Charged Current Quasielasticlike Neutrino Interactions
     Using MINER$\nu$A
@@ -1111,7 +1111,7 @@
     pion_bucket: 0pi
     measurement_type: ratio
     observables: differential cross sections and nuclear ratios
-    energy_notes: focus on nuclear effects
+    energy_notes: peak energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2017okh
   title: Measurement of $\nu_{\mu}$ charged-current single $\pi^{0}$ production on hydrocarbon in the
     few-GeV region using MINERvA
@@ -1277,7 +1277,7 @@
     pion_bucket: null
     measurement_type: double-diff
     observables: double-differential cross section
-    energy_notes: low Q2, focus on nuclear effects
+    energy_notes: peak energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2016cun
   title: First evidence of coherent $K^{+}$ meson production in neutrino-nucleus scattering
   collaboration: MINERvA
@@ -1441,7 +1441,7 @@
     pion_bucket: pi0
     measurement_type: single-diff
     observables: differential cross sections
-    energy_notes: focus on resonance production
+    energy_notes: peak energy ~3GeV (NuMI LE)
   - current: CC
     flavor: *id001
     target: *id002
@@ -1449,7 +1449,7 @@
     pion_bucket: pi0
     measurement_type: single-diff
     observables: differential cross sections
-    energy_notes: focus on resonance production
+    energy_notes: peak energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2016uck
   title: Evidence for Neutral-Current Diffractive $\pi^0$ Production from Hydrogen in Neutrino Interactions
     on Hydrocarbon
@@ -1489,7 +1489,7 @@
     pion_bucket: pi0
     measurement_type: total
     observables: total cross section
-    energy_notes: 'E: ~4.5GeV, focus on diffractive production'
+    energy_notes: 'E: ~4.5GeV (NuMI LE)'
 - bibtag: MINERvA:2016zyp
   title: Measurement of $K^{+}$ production in charged-current $\nu_{\mu}$ interactions
   collaboration: MINERvA
@@ -1605,7 +1605,7 @@
     pion_bucket: 0pi
     measurement_type: total
     observables: cross section vs hadronic kinematics
-    energy_notes: muon angle <70deg, proton KE >110MeV
+    energy_notes: peak energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2015slz
   title: Single Neutral Pion Production by Charged-Current $\bar{\nu}_\mu$ Interactions on Hydrocarbon
     at $\langle E_\nu \rangle = $3.6 GeV
@@ -1682,7 +1682,7 @@
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross section vs |t|
-    energy_notes: focus on low |t| region
+    energy_notes: peak energy ~3GeV (NuMI LE)
 - bibtag: MINERvA:2014rdw
   title: Measurement of Ratios of $\nu_{\mu}$ Charged-Current Cross Sections on C, Fe, and Pb to CH at
     Neutrino Energies 2-20 GeV
@@ -1727,7 +1727,7 @@
     pion_bucket: null
     measurement_type: ratio
     observables: cross section ratios vs E and x
-    energy_notes: 'E: 2-20GeV, muon angle <17deg'
+    energy_notes: 'E: 2-20GeV, mean ~8GeV'
 - bibtag: MINERvA:2013bcy
   title: Measurement of Muon Antineutrino Quasielastic Scattering on a Hydrocarbon Target at Eν∼3.5  GeV
   collaboration: MINERvA
@@ -1801,4 +1801,4 @@
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross section vs Q2
-    energy_notes: focus on low recoil energy
+    energy_notes: peak energy ~3GeV (NuMI LE)

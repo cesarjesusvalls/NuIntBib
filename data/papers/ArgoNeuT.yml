@@ -75,7 +75,7 @@
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections (muon momentum, muon angle, pion angle, muon-pion angle)
-    energy_notes: 'pion momentum > 100 MeV/c, mean energies: numu=9.6GeV, numubar=3.6GeV'
+    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV'
   - current: CC
     flavor: *id001
     target: *id002
@@ -83,7 +83,7 @@
     pion_bucket: pi_charged
     measurement_type: single-diff
     observables: differential cross sections (muon momentum, muon angle, pion angle, muon-pion angle)
-    energy_notes: 'pion momentum > 100 MeV/c, mean energies: numu=9.6GeV, numubar=3.6GeV'
+    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV'
 - bibtag: ArgoNeuT:2015ldo
   title: Measurement of $\nu_{\mu}$ and $\bar{\nu}_{\mu}$ neutral current $\pi^{0} \rightarrow \gamma\gamma$
     production in the ArgoNeuT detector
@@ -167,7 +167,7 @@
     pion_bucket: null
     measurement_type: null
     observables: two-proton topology study focusing on back-to-back configurations
-    energy_notes: Focus on SRC events
+    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV'
     flavor_note: unspecified (likely numu)
 - bibtag: ArgoNeuT:2014rlj
   title: Measurements of Inclusive Muon Neutrino and Antineutrino Charged Current Differential Cross Sections
@@ -204,7 +204,7 @@
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross sections (muon angle and momentum)
-    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV, angles 0-36deg, momentum 0-25GeV'
+    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV'
 - bibtag: ArgoNeuT:2014uwh
   title: First Measurement of Neutrino and Antineutrino Coherent Charged Pion Production on Argon
   collaboration: ArgoNeuT
@@ -277,4 +277,4 @@
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross sections (muon angle and momentum)
-    energy_notes: angles 0-36deg, momentum 0-25GeV
+    energy_notes: 'mean energies: numu=9.6GeV, numubar=3.6GeV'

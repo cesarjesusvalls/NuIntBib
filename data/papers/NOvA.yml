@@ -161,7 +161,7 @@
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross sections (muon kinematics)
-    energy_notes: hadron KE < 250MeV
+    energy_notes: ~2 GeV (NuMI off-axis)
 - bibtag: NOvA:2021eqi
   title: Measurement of the double-differential muon-neutrino charged-current inclusive cross section
     in the NOvA near detector

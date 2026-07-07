@@ -208,7 +208,7 @@
     pion_bucket: null
     measurement_type: null
     observables: strange particle yields
-    energy_notes: K0s,Lambda,Lambdabar production
+    energy_notes: 'E: 3-100GeV (CERN SPS WBB)'
 - bibtag: NOMAD:2001kdr
   title: A Study of strange particle production in muon-neutrino charged current interactions in the NOMAD
     experiment
@@ -245,7 +245,7 @@
     pion_bucket: null
     measurement_type: null
     observables: strange particle yields
-    energy_notes: K0s,Lambda,Lambdabar production
+    energy_notes: 'E: 3-100GeV (CERN SPS WBB)'
 - bibtag: NOMAD:2001kpt
   title: Study of D*+ production in nu/mu charged current interactions in the NOMAD experiment
   collaboration: NOMAD
@@ -354,7 +354,7 @@
     pion_bucket: null
     measurement_type: null
     observables: resonance production
-    energy_notes: ρ0,f0,f2 multiplicities
+    energy_notes: 'E: 3-100GeV (CERN SPS WBB)'
 - bibtag: NOMAD:2001vdk
   title: A Study of backward going p and pi in neutrino(muon) CC interactions with the NOMAD detector
   collaboration: NOMAD

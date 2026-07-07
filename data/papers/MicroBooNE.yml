@@ -36,7 +36,7 @@
     pion_bucket: null
     measurement_type: single-diff
     observables: differential cross sections
-    energy_notes: 1μ2p0π topology
+    energy_notes: mean energy ~0.8GeV (BNB)
 - bibtag: MicroBooNE:2025rch
   title: Measurement of single charged pion production in charged-current <math display="inline"><msub><mi>ν</mi><mi>μ</mi></msub></math>-Ar
     interactions with the MicroBooNE detector
@@ -297,7 +297,7 @@
     pion_bucket: 0pi
     measurement_type: double-diff
     observables: double-differential cross section
-    energy_notes: proton momentum > 0.25GeV/c
+    energy_notes: mean energy ~0.8GeV (BNB)
 - bibtag: MicroBooNE:2025aiw
   title: Measurements of differential charged-current cross sections on argon for electron neutrinos with
     final-state protons in MicroBooNE
@@ -592,7 +592,7 @@
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections vs kinematic imbalance
-    energy_notes: 1μ1p topology
+    energy_notes: mean energy ~0.8GeV (BNB)
 - bibtag: MicroBooNE:2023ubu
   title: First Measurement of <math display="inline"><mi>η</mi></math> Meson Production in Neutrino Interactions
     on Argon with MicroBooNE
@@ -632,7 +632,7 @@
     pion_bucket: null
     measurement_type: total
     observables: total cross section
-    energy_notes: first measurement of η production
+    energy_notes: mean energy ~0.8GeV (BNB)
 - bibtag: MicroBooNE:2024bnl
   title: Measurement of the differential cross section for neutral pion production in charged-current
     muon neutrino interactions on argon with the MicroBooNE detector
@@ -806,7 +806,7 @@
     pion_bucket: null
     measurement_type: total
     observables: total cross section
-    energy_notes: Cabibbo-suppressed production
+    energy_notes: NuMI off-axis beam
 - bibtag: MicroBooNE:2022zhr
   title: Measurement of neutral current single <math display="inline"><msup><mi>π</mi><mn>0</mn></msup></math>
     production on argon with the MicroBooNE detector
@@ -886,7 +886,7 @@
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: multi-differential cross section
-    energy_notes: 1μ1p topology
+    energy_notes: mean energy ~0.8GeV (BNB)
 - bibtag: MicroBooNE:2023tzj
   title: First Double-Differential Measurement of Kinematic Imbalance in Neutrino Interactions with the
     MicroBooNE Detector
@@ -1138,7 +1138,7 @@
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross sections
-    energy_notes: proton momentum > 300MeV/c
+    energy_notes: mean energy ~0.8GeV (BNB)
 - bibtag: MicroBooNE:2020fxd
   title: First Measurement of Differential Charged Current Quasielastic-like $\nu_\mu$-Argon Scattering
     Cross Sections with the MicroBooNE Detector
@@ -1180,7 +1180,7 @@
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: total and differential cross sections
-    energy_notes: 1μ1p topology
+    energy_notes: mean energy ~0.8GeV (BNB)
 - bibtag: MicroBooNE:2018neo
   title: First measurement of $\nu_{\mu}$ charged-current $\pi^{0}$ production on argon with the MicroBooNE
     detector

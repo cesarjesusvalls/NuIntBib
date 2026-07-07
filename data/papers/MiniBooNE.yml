@@ -304,7 +304,7 @@
     pion_bucket: 0pi
     measurement_type: single-diff
     observables: differential cross section dσ/dQ2
-    energy_notes: nucleon KE > 50MeV
+    energy_notes: mean energy ~0.8GeV (BNB)
 - bibtag: MiniBooNE:2009koj
   title: Measurement of the $\nu_\mu$ charged current $\pi^+$ to quasi-elastic cross section ratio on
     mineral oil in a 0.8-GeV neutrino beam
