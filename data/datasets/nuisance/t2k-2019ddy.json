@@ -2,6 +2,7 @@
  "bibtag": "T2K:2019ddy",
  "slug": "t2k-2019ddy",
  "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/",
  "arxiv": "1908.10249",
  "cite": "Phys.Rev.D 102 012007",
  "note": "Values taken directly from the release; nothing digitized.",

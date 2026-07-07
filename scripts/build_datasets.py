@@ -651,6 +651,23 @@ def _read_matrix_txt(path, fmt=None):
     return np.asarray(rows)
 
 
+def _release_source_url(dists):
+    """The URL for the whole release: the shared record when all distributions point
+    at one file (Zenodo/arXiv), else the common parent directory (NUISANCE multi-file)."""
+    urls = [x['source_url'] for x in dists if x.get('source_url')]
+    if not urls:
+        return ''
+    if len(set(urls)) == 1:
+        return urls[0]
+    common = []
+    for parts in zip(*(u.split('/') for u in urls)):
+        if len(set(parts)) == 1:
+            common.append(parts[0])
+        else:
+            break
+    return '/'.join(common).replace('/blob/', '/tree/')   # github: a dir uses /tree/
+
+
 def build_release_cov(spec, dists):
     """Attach a release-level covariance whose bin order matches the flattened
     distribution values (dist -> slices -> bins).  Source is a ROOT TMatrixTSym/TH2
@@ -930,7 +947,8 @@ REGISTRY = [
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
          'yunit': r'cm^2/GeV',
-         'nuisance_file': 'neutrino_data/…/PRD.108.112009/onoffaxis_data_release/',
+         'nuisance_file': 'neutrino_data/data/T2K/CrossSection/PRD.108.112009/'
+                          'onoffaxis_data_release/',
          'source': 'NUISANCE neutrino_data',
          'source_url': 'https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/'
                        'CrossSection/PRD.108.112009/onoffaxis_data_release'}}]},
@@ -1187,8 +1205,15 @@ def build(entry):
                                '(NUISANCE provides no inter-observable correlations)')
     if release_cov is None and entry.get('covariance'):   # release-level covariance spec
         release_cov = build_release_cov(entry['covariance'], dists)
+    # Release-level source + link come from the distributions (builder-set), so the
+    # "Release from X" label and its href always agree and point at the real host
+    # (Zenodo / t2k.org / arXiv / NUISANCE) — never a reconstructed guess. When a
+    # release spans several files (NUISANCE, one per observable), link the common
+    # parent directory instead of an arbitrary single file.
+    src = dists[0]['source'] if dists else entry.get('source', 'NUISANCE')
+    src_url = _release_source_url(dists)
     out = {'bibtag': entry['bibtag'], 'slug': entry['slug'],
-           'source': entry.get('source', 'NUISANCE'),
+           'source': src, 'source_url': src_url,
            'arxiv': arxiv, 'cite': cite,
            'note': entry.get('note', 'Values taken directly from the release; nothing digitized.'),
            'distributions': dists}
@@ -1265,5 +1290,12 @@ if __name__ == '__main__':
                 '(Q2Cov etc.; no inter-observable correlations), scaled to the reported '
                 'values; row/col order below')
             d['note'] = 'Values taken directly from the release; nothing digitized.'
+            d['source'] = d['distributions'][0].get('source', d.get('source', 'NUISANCE'))
+            d['source_url'] = _release_source_url(d['distributions'])
             json.dump(d, open(path, 'w'), indent=1)
             print(f"t2k-2019yqu     -> injected covariance ({N}x{N}, scale 1e{np.log10(scale):.0f})")
+
+    # Validate everything we just built; a broken release fails the build loudly.
+    print()
+    import validate_datasets
+    validate_datasets.main()

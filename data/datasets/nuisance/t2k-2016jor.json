@@ -2,6 +2,7 @@
  "bibtag": "T2K:2016jor",
  "slug": "t2k-2016jor",
  "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/cross-section_analysisI.txt",
  "arxiv": "1602.03652",
  "cite": "Phys.Rev.D 93 112012",
  "note": "Values taken directly from the release; nothing digitized.",

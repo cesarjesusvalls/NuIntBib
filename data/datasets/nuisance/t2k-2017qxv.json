@@ -1,7 +1,8 @@
 {
  "bibtag": "T2K:2017qxv",
  "slug": "t2k-2017qxv",
- "source": "T2K",
+ "source": "T2K (t2k.org)",
+ "source_url": "https://t2k-experiment.org/results/2017-cc0pi-water-xsec/",
  "arxiv": "1708.06771",
  "cite": "Phys.Rev.D 97 012001",
  "note": "This release lives only on t2k.org; it was never migrated to Zenodo.",

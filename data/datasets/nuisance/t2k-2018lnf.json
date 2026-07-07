@@ -2,6 +2,7 @@
  "bibtag": "T2K:2018lnf",
  "slug": "t2k-2018lnf",
  "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/data_unfold_with_neut.txt",
  "arxiv": "1801.05148",
  "cite": "Phys.Rev.D 98 012004",
  "note": "Values taken directly from the release; nothing digitized.",

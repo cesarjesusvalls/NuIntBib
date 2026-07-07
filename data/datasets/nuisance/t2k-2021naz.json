@@ -2,6 +2,7 @@
  "bibtag": "T2K:2021naz",
  "slug": "t2k-2021naz",
  "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/T2K/CC1pipNp_STV",
  "arxiv": "2102.03346",
  "cite": "Phys.Rev.D 103 112009",
  "note": "Values taken directly from the release; nothing digitized.",

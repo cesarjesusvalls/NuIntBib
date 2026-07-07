@@ -1,7 +1,8 @@
 {
  "bibtag": "T2K:2023xlh",
  "slug": "t2k-2023xlh",
- "source": "T2K",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2308.16606",
  "arxiv": "2308.16606",
  "cite": "Phys.Rev.D 108 9",
  "note": "Taken directly from the paper (no data release).",

@@ -257,11 +257,9 @@ export function DataRelease({ release }: { release: Release }) {
       return n;
     });
 
-  // release-level source: the NUISANCE directory the distributions live in
-  const dir = release.distributions[0]?.nuisance_file.split('/').slice(0, -1).join('/') ?? '';
-  const releaseUrl = dir
-    ? `https://github.com/NUISANCEMC/nuisance/tree/main/${dir}`
-    : 'https://github.com/NUISANCEMC/nuisance';
+  // Release-level source link comes straight from the data (the real host: Zenodo /
+  // t2k.org / arXiv / NUISANCE). If it's ever missing, render plain text, not a guess.
+  const releaseUrl = release.source_url ?? '';
 
   return (
     <section className="dr">
@@ -273,12 +271,16 @@ export function DataRelease({ release }: { release: Release }) {
       </div>
       <p className="dr-sub">
         Release from{' '}
-        <a className="dr-src-link" href={releaseUrl} target="_blank" rel="noopener noreferrer">
-          {release.source}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="11" height="11" aria-hidden="true">
-            <path d="M14 5h5v5M19 5l-8 8M18 13v6H5V6h6" />
-          </svg>
-        </a>
+        {releaseUrl ? (
+          <a className="dr-src-link" href={releaseUrl} target="_blank" rel="noopener noreferrer">
+            {release.source}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="11" height="11" aria-hidden="true">
+              <path d="M14 5h5v5M19 5l-8 8M18 13v6H5V6h6" />
+            </svg>
+          </a>
+        ) : (
+          <span className="dr-src-link">{release.source}</span>
+        )}
         {release.note ? <>{'. '}{release.note}</> : '.'}
       </p>
 

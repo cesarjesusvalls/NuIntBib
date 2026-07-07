@@ -1,7 +1,8 @@
 {
  "bibtag": "T2K:2025smz",
  "slug": "t2k-2025smz",
- "source": "Zenodo",
+ "source": "Zenodo (T2K)",
+ "source_url": "https://zenodo.org/records/15316318",
  "arxiv": "2505.00516",
  "cite": "Phys.Rev.Lett. 135 151802",
  "note": "Values taken directly from the release; nothing digitized.",

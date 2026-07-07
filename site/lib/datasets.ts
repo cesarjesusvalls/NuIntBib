@@ -82,6 +82,7 @@ export type DataRelease = {
   bibtag: string;
   slug: string;
   source: string;
+  source_url?: string;
   arxiv?: string;
   cite?: string;
   note?: string;

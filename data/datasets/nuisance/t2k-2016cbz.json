@@ -2,6 +2,7 @@
  "bibtag": "T2K:2016cbz",
  "slug": "t2k-2016cbz",
  "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root",
  "arxiv": "1605.07964",
  "cite": "Phys.Rev.D 95 012010",
  "note": "Values taken directly from the release; nothing digitized.",

@@ -2,6 +2,7 @@
  "bibtag": "T2K:2020sbd",
  "slug": "t2k-2020sbd",
  "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/JointNuMu-AntiNuMu/JointNuMuAntiNuMuCC0piXsecDataRelease.root",
  "arxiv": "2002.09323",
  "cite": "Phys.Rev.D 101 112001",
  "note": "Values taken directly from the release; nothing digitized.",
