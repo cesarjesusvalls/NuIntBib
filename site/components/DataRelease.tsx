@@ -54,7 +54,7 @@ function sparkline(bins: DataBin[]): string {
 function plotSVG(bins: DataBin[], logy: boolean): string {
   // Axis labels are laid out as HTML around the SVG (see the grid in the render);
   // the SVG carries only ticks + data, so margins just cover the tick numbers.
-  const W = 560, H = 360, mL = 48, mR = 14, mT = 14, mB = 30;
+  const W = 560, H = 360, mL = 58, mR = 14, mT = 14, mB = 38;
   const xmin = Math.min(...bins.map((b) => b.lo));
   const xmax = Math.max(...bins.map((b) => b.hi));
   const vmax = Math.max(...bins.map((b) => b.val + b.err));
@@ -81,12 +81,12 @@ function plotSVG(bins: DataBin[], logy: boolean): string {
   for (const t of yticks) {
     const y = Y(t);
     s += `<line x1="${mL}" y1="${y.toFixed(1)}" x2="${mL + iw}" y2="${y.toFixed(1)}" stroke="var(--line-soft)"/>`;
-    s += `<text x="${mL - 8}" y="${(y + 3).toFixed(1)}" text-anchor="end" font-family="var(--dr-mono)" font-size="10" fill="var(--muted)">${fmt(t)}</text>`;
+    s += `<text x="${mL - 8}" y="${(y + 4).toFixed(1)}" text-anchor="end" font-family="var(--dr-mono)" font-size="13" fill="var(--muted)">${fmt(t)}</text>`;
   }
   for (const t of xticks) {
     const x = X(t);
     s += `<line x1="${x.toFixed(1)}" y1="${mT + ih}" x2="${x.toFixed(1)}" y2="${mT + ih + 4}" stroke="var(--muted)"/>`;
-    s += `<text x="${x.toFixed(1)}" y="${mT + ih + 16}" text-anchor="middle" font-family="var(--dr-mono)" font-size="10" fill="var(--muted)">${fmt(t)}</text>`;
+    s += `<text x="${x.toFixed(1)}" y="${mT + ih + 18}" text-anchor="middle" font-family="var(--dr-mono)" font-size="13" fill="var(--muted)">${fmt(t)}</text>`;
   }
   for (const b of bins) {
     const x = X(b.center), yv = Y(b.val);
