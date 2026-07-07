@@ -1,0 +1,72 @@
+{
+ "bibtag": "T2K:2023xlh",
+ "slug": "t2k-2023xlh",
+ "source": "T2K",
+ "arxiv": "2308.16606",
+ "cite": "Phys.Rev.D 108 9",
+ "note": "Flux-averaged CC coherent charged-pion cross sections on 12C \u2014 two single values (no differential binning), taken directly from the paper.",
+ "distributions": [
+  {
+   "key": "sigma_numu",
+   "slug": "sigma_numu",
+   "name": "\u03c3_CCcoh (numu)",
+   "name_tex": "$\\sigma_\\mathrm{CCcoh}\\ (\\nu_\\mu)$",
+   "xlabel": "Averaged T2K flux",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3_CCcoh",
+   "ylabel_plot": "\u03c3_CCcoh",
+   "ylabel_tex": "$\\sigma_\\mathrm{CCcoh}$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 2.98,
+     "err": 0.48
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": "Q^2-model uncertainty +0.49 (one-sided) not included in the error bar",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2308.16606",
+   "provenance": "T2K CC coherent charged-pion cross section on 12C (arXiv:2308.16606) \u00b7 flux-averaged total cross section, stat+syst error in quadrature \u00b7 nothing digitized \u00b7 Q^2-model uncertainty +0.49 (one-sided) not included in the error bar"
+  },
+  {
+   "key": "sigma_antinumu",
+   "slug": "sigma_antinumu",
+   "name": "\u03c3_CCcoh (antinumu)",
+   "name_tex": "$\\sigma_\\mathrm{CCcoh}\\ (\\bar\\nu_\\mu)$",
+   "xlabel": "Averaged T2K flux",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3_CCcoh",
+   "ylabel_plot": "\u03c3_CCcoh",
+   "ylabel_tex": "$\\sigma_\\mathrm{CCcoh}$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 3.05,
+     "err": 0.81
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": "Q^2-model uncertainty +0.74 (one-sided) not included in the error bar",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2308.16606",
+   "provenance": "T2K CC coherent charged-pion cross section on 12C (arXiv:2308.16606) \u00b7 flux-averaged total cross section, stat+syst error in quadrature \u00b7 nothing digitized \u00b7 Q^2-model uncertainty +0.74 (one-sided) not included in the error bar"
+  }
+ ]
+}

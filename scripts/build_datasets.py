@@ -425,6 +425,35 @@ def build_1d_csv_targets(spec):
     return out
 
 
+def build_values(spec):
+    """A release of standalone flux-averaged VALUES with no differential binning
+    (e.g. a coherent total cross section).  One 1-point distribution per value; the
+    x-axis is a single category label (spec['xcat'], e.g. 'Averaged T2K flux') with
+    no numeric ticks (xcat flag consumed by the front-end)."""
+    yl = spec['ylabel']
+    out = []
+    for pt in spec['points']:
+        nu = pt.get('name')
+        suf_tex = rf'\ ({nu})' if nu else ''
+        key = spec.get('key', 'sigma') + (f"_{pt['slug']}" if pt.get('slug') else '')
+        out.append({
+            'key': key, 'slug': key,
+            'name': plotify(yl) + (f" ({pt['slug']})" if pt.get('slug') else ''),
+            'name_tex': f'${yl}{suf_tex}$',
+            'xlabel': spec['xcat'], 'xunit': '', 'xcat': True,
+            'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+            'yunit': spec.get('yunit', ''),
+            'yunit_tex': f"${tl(spec.get('yunit', ''))}$" if spec.get('yunit') else '',
+            'nbins': 1, 'is2d': False,
+            'bins': [{'i': 0, 'lo': 0.0, 'hi': 1.0, 'center': 0.5,
+                      'val': float(pt['val']), 'err': float(pt['err'])}],
+            'nuisance_file': '', 'scale_note': pt.get('note'),
+            'source': spec['source'], 'source_url': spec['source_url'],
+            'provenance': spec['provenance'] + (f" · {pt['note']}" if pt.get('note') else ''),
+        })
+    return out
+
+
 def build_3d_zenodo(spec):
     """T2K nu_e CC1pi+ (2025smz): a flux-integrated TRIPLE-differential
     (p_e x cos_e x p_pi) cross section vendored from Zenodo.  xsec.csv gives each
@@ -832,6 +861,23 @@ REGISTRY = [
          'provenance': 'T2K nu_mu CC0pi on H2O double-differential cross section '
                        '(t2k.org data release, arXiv:1708.06771, Phys.Rev.D 97 012001) · '
                        'total covariance = sum of per-source cvm_* · nothing digitized'}}]},
+    # Flux-averaged coherent CC 1pi cross sections: two single values (nu_mu + antinu_mu),
+    # no differential binning, so x is a single category "Averaged T2K flux".
+    {'bibtag': 'T2K:2023xlh', 'slug': 't2k-2023xlh', 'source': 'T2K',
+     'note': 'Flux-averaged CC coherent charged-pion cross sections on 12C — two single '
+             'values (no differential binning), taken directly from the paper.',
+     'sources': [{'values': {
+         'key': 'sigma', 'xcat': 'Averaged T2K flux',
+         'ylabel': r'\sigma_\mathrm{CCcoh}', 'yunit': r'10^{-40}cm^2',
+         'points': [
+             {'name': r'\nu_\mu', 'slug': 'numu', 'val': 2.98, 'err': 0.48,
+              'note': 'Q^2-model uncertainty +0.49 (one-sided) not included in the error bar'},
+             {'name': r'\bar\nu_\mu', 'slug': 'antinumu', 'val': 3.05, 'err': 0.81,
+              'note': 'Q^2-model uncertainty +0.74 (one-sided) not included in the error bar'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2308.16606',
+         'provenance': 'T2K CC coherent charged-pion cross section on 12C '
+                       '(arXiv:2308.16606) · flux-averaged total cross section, '
+                       'stat+syst error in quadrature · nothing digitized'}}]},
 ]
 
 
@@ -863,6 +909,8 @@ def build(entry):
             dists.extend(build_2d_root_explicit(src['root_explicit']))
         elif 'zenodo3d' in src:
             dists.extend(build_3d_zenodo(src['zenodo3d']))
+        elif 'values' in src:
+            dists.extend(build_values(src['values']))
         elif 'bracket2d' in src:
             dists.extend(build_2d_bracket(src['bracket2d']))
         elif 't2korg2d' in src:

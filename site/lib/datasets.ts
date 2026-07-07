@@ -53,6 +53,8 @@ export type Distribution = {
   is2d?: boolean;
   slicevar_tex?: string;
   slices?: Slice[];
+  // single flux-averaged value(s): x is a category label (xlabel), no numeric axis
+  xcat?: boolean;
   source: string;
   source_url: string;
   provenance: string;

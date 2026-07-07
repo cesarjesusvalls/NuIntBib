@@ -55,7 +55,7 @@ function sparkline(bins: DataBin[]): string {
   return `<svg class="dr-spark" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="var(--dr-accent)" stroke-width="1.5" stroke-linejoin="round"/></svg>`;
 }
 
-function plotSVG(bins: DataBin[], logy: boolean): string {
+function plotSVG(bins: DataBin[], logy: boolean, xcat = false): string {
   // Axis labels are laid out as HTML around the SVG (see the grid in the render);
   // the SVG carries only ticks + data, so margins just cover the tick numbers.
   const W = 560, H = 360, mL = 58, mR = 14, mT = 14, mB = 38;
@@ -87,7 +87,8 @@ function plotSVG(bins: DataBin[], logy: boolean): string {
     s += `<line x1="${mL}" y1="${y.toFixed(1)}" x2="${mL + iw}" y2="${y.toFixed(1)}" stroke="var(--line-soft)"/>`;
     s += `<text x="${mL - 8}" y="${(y + 4).toFixed(1)}" text-anchor="end" font-family="var(--dr-mono)" font-size="13" fill="var(--muted)">${fmt(t)}</text>`;
   }
-  for (const t of xticks) {
+  // categorical x (single flux-averaged value): no numeric ticks
+  if (!xcat) for (const t of xticks) {
     const x = X(t);
     s += `<line x1="${x.toFixed(1)}" y1="${mT + ih}" x2="${x.toFixed(1)}" y2="${mT + ih + 4}" stroke="var(--muted)"/>`;
     s += `<text x="${x.toFixed(1)}" y="${mT + ih + 18}" text-anchor="middle" font-family="var(--dr-mono)" font-size="13" fill="var(--muted)">${fmt(t)}</text>`;
@@ -95,7 +96,8 @@ function plotSVG(bins: DataBin[], logy: boolean): string {
   for (const b of bins) {
     const x = X(b.center), yv = Y(b.val);
     const yhi = Y(b.val + b.err), ylo = Y(Math.max(b.val - b.err, logy ? 1e-9 : 0));
-    s += `<line x1="${X(b.lo).toFixed(1)}" y1="${yv.toFixed(1)}" x2="${X(b.hi).toFixed(1)}" y2="${yv.toFixed(1)}" stroke="var(--dr-accent)" stroke-opacity=".4" stroke-width="1"/>`;
+    // horizontal marker = bin width, but for a categorical single value draw nothing
+    if (!xcat) s += `<line x1="${X(b.lo).toFixed(1)}" y1="${yv.toFixed(1)}" x2="${X(b.hi).toFixed(1)}" y2="${yv.toFixed(1)}" stroke="var(--dr-accent)" stroke-opacity=".4" stroke-width="1"/>`;
     s += `<line x1="${x.toFixed(1)}" y1="${yhi.toFixed(1)}" x2="${x.toFixed(1)}" y2="${ylo.toFixed(1)}" stroke="var(--dr-accent)" stroke-width="1.3"/>`;
     s += `<line x1="${(x - 3).toFixed(1)}" y1="${yhi.toFixed(1)}" x2="${(x + 3).toFixed(1)}" y2="${yhi.toFixed(1)}" stroke="var(--dr-accent)" stroke-width="1.3"/>`;
     s += `<line x1="${(x - 3).toFixed(1)}" y1="${ylo.toFixed(1)}" x2="${(x + 3).toFixed(1)}" y2="${ylo.toFixed(1)}" stroke="var(--dr-accent)" stroke-width="1.3"/>`;
@@ -116,6 +118,11 @@ function triggerDownload(uri: string, filename: string) {
 
 // --- CSV bodies bundled into the ZIP ---
 function distCsv(d: Distribution): string {
+  // single flux-averaged value(s): x is a category label, not a numeric range
+  if (d.xcat) {
+    const rows = d.bins.map((b) => `"${d.xlabel}",${b.val},${b.err.toPrecision(6)}`);
+    return `# ${strip(d.name)}  [${d.yunit}]\n# ${d.provenance}\nx,value,error\n${rows.join('\n')}\n`;
+  }
   const head = d.is2d ? 'slice,x_low,x_high,x_center,value,error'
                       : 'x_low,x_high,x_center,value,error';
   const rows: string[] = [];
@@ -326,7 +333,7 @@ export function DataRelease({ release }: { release: Release }) {
                         </div>
                         <div
                           className="dr-plot-canvas"
-                          dangerouslySetInnerHTML={{ __html: plotSVG(activeBins, logy) }}
+                          dangerouslySetInnerHTML={{ __html: plotSVG(activeBins, logy, d.xcat) }}
                         />
                         <div
                           className="dr-plot-xlab"
@@ -351,7 +358,7 @@ export function DataRelease({ release }: { release: Release }) {
                             {activeBins.map((b) => (
                               <tr key={b.i}>
                                 <td>{b.i}</td>
-                                <td>{sig(b.lo, 6)}, {sig(b.hi_true ?? b.hi, 6)}</td>
+                                <td>{d.xcat ? d.xlabel : `${sig(b.lo, 6)}, ${sig(b.hi_true ?? b.hi, 6)}`}</td>
                                 <td>{sig(b.val, 4)}</td>
                                 <td>{sig(b.err, 3)}</td>
                               </tr>
