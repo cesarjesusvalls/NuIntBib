@@ -4,7 +4,7 @@
  "source": "Zenodo",
  "arxiv": "2503.06849",
  "cite": "Phys.Rev.Lett. 135 171803",
- "note": "Double-differential NC1pi+ cross section, taken directly from the T2K Zenodo data release (values + covariance; nothing digitized).",
+ "note": "Values taken directly from the release; nothing digitized.",
  "distributions": [
   {
    "key": "d2xsec",

@@ -4,7 +4,7 @@
  "source": "T2K",
  "arxiv": "1708.06771",
  "cite": "Phys.Rev.D 97 012001",
- "note": "nu_mu CC0pi double-differential cross section on water, taken directly from the T2K data release (values + covariance; nothing digitized). This release lives only on t2k.org (it was never migrated to Zenodo).",
+ "note": "This release lives only on t2k.org; it was never migrated to Zenodo.",
  "distributions": [
   {
    "key": "d2xsec",

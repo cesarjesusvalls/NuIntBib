@@ -962,8 +962,6 @@ REGISTRY = [
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
          'yunit': r'cm^2/GeV'}}]},
     {'bibtag': 'T2K:2025smz', 'slug': 't2k-2025smz', 'source': 'Zenodo',
-     'note': 'Flux-integrated triple-differential cross section, taken directly from '
-             'the T2K Zenodo data release (values + full covariance; nothing digitized).',
      'flux': {'csv': 'data/datasets/sources/t2k-2025smz/flux.csv', 'ecol': (1, 2),
               'fcol': [(3, 'nue_best_fit'), (4, 'nue_nominal')],
               'note': 'T2K nu_e flux prediction (best-fit and nominal) for the nue CC1pi+ '
@@ -979,8 +977,6 @@ REGISTRY = [
                        '(Zenodo 10.5281/zenodo.15316318, arXiv:2505.00516) · '
                        'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
     {'bibtag': 'T2K:2025wde', 'slug': 't2k-2025wde', 'source': 'Zenodo',
-     'note': 'Double-differential NC1pi+ cross section, taken directly from the T2K '
-             'Zenodo data release (values + covariance; nothing digitized).',
      'flux': {'root': 'data/datasets/sources/t2k-2025wde/flux_release.root',
               'hists': [('enu_numu', 'numu'), ('enu_numub', 'numubar'),
                         ('enu_nue', 'nue'), ('enu_nueb', 'nueb')],
@@ -1000,9 +996,7 @@ REGISTRY = [
     # NC1pi+ was published as a joint PRL+PRD (2503.06849 = 2025wde, 2503.06843 =
     # 2025kdk); both papers front the same shared data release.
     {'bibtag': 'T2K:2025kdk', 'slug': 't2k-2025kdk', 'source': 'Zenodo',
-     'note': 'Double-differential NC1pi+ cross section, taken directly from the T2K '
-             'Zenodo data release (values + covariance; nothing digitized). Shared with '
-             'the companion paper arXiv:2503.06849.',
+     'note': 'Shared with the companion paper arXiv:2503.06849.',
      'flux': {'root': 'data/datasets/sources/t2k-2025wde/flux_release.root',
               'hists': [('enu_numu', 'numu'), ('enu_numub', 'numubar'),
                         ('enu_nue', 'nue'), ('enu_nueb', 'nueb')],
@@ -1021,9 +1015,7 @@ REGISTRY = [
                        '(Zenodo 10.5281/zenodo.15776045, arXiv:2503.06843 & 2503.06849) · '
                        'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
     {'bibtag': 'T2K:2025kda', 'slug': 't2k-2025kda', 'source': 'Zenodo',
-     'note': 'WAGASCI-BabyMIND numu CC0pi differential cross sections on CH and H2O, '
-             'taken directly from the T2K Zenodo data release (values + quoted errors). '
-             'The Zenodo release includes momentum and cosine covariance matrices; not '
+     'note': 'The Zenodo release includes momentum and cosine covariance matrices; not '
              'included here because their diagonals do not reproduce the reported per-bin '
              'errors. Will try to contact the authors.',
      'flux': {'root': 'data/datasets/sources/t2k-2025kda/flux_release.root',
@@ -1048,9 +1040,7 @@ REGISTRY = [
                        '(Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) · quoted per-bin '
                        'errors · nothing digitized'}}]},
     {'bibtag': 'T2K:2017qxv', 'slug': 't2k-2017qxv', 'source': 'T2K',
-     'note': 'nu_mu CC0pi double-differential cross section on water, taken directly from '
-             'the T2K data release (values + covariance; nothing digitized). This release '
-             'lives only on t2k.org (it was never migrated to Zenodo).',
+     'note': 'This release lives only on t2k.org; it was never migrated to Zenodo.',
      'flux': {'root': 'data/datasets/sources/t2k-2017qxv/release.root',
               'hists': [('NuMuFlux', 'numu')],
               'note': 'T2K numu flux prediction (P0D water-in POT, runs 2-4), from the '
@@ -1074,8 +1064,7 @@ REGISTRY = [
     # Flux-averaged coherent CC 1pi cross sections: two single values (nu_mu + antinu_mu),
     # no differential binning, so x is a single category "Averaged T2K flux".
     {'bibtag': 'T2K:2023xlh', 'slug': 't2k-2023xlh', 'source': 'T2K', 'flux': _FLUX_BOTH,
-     'note': 'Flux-averaged CC coherent charged-pion cross sections on 12C — two single '
-             'values (no differential binning), taken directly from the paper.',
+     'note': 'Taken directly from the paper (no data release).',
      'sources': [{'values': {
          'key': 'sigma', 'ylabel': r'\sigma_\mathrm{CCcoh}', 'yunit': r'10^{-40}cm^2',
          'items': [
@@ -1092,9 +1081,7 @@ REGISTRY = [
     # WAGASCI-INGRID first CC0pi0p measurement: integrated cross sections on H2O and
     # CH (no differential binning). One 4-point sigma figure + one 2-point ratio figure.
     {'bibtag': 'T2K:2020txr', 'slug': 't2k-2020txr', 'source': 'Zenodo',
-     'note': 'WAGASCI-INGRID first CC0pi0p integrated cross sections on H2O and CH '
-             '(single values, no differential binning), from the T2K Zenodo data release. '
-             'The Zenodo release includes a 16x16 covariance over the analysis (fit) bins; '
+     'note': 'The Zenodo release includes a 16x16 covariance over the analysis (fit) bins; '
              'not included here because its mapping to the reported integrated cross sections '
              'is not understood. Will try to contact the authors.',
      'flux': {'root': 'data/datasets/sources/t2k-2020txr/histograms.root',
@@ -1277,5 +1264,6 @@ if __name__ == '__main__':
                 'block-diagonal per-observable covariance from the NUISANCE CH data release '
                 '(Q2Cov etc.; no inter-observable correlations), scaled to the reported '
                 'values; row/col order below')
+            d['note'] = 'Values taken directly from the release; nothing digitized.'
             json.dump(d, open(path, 'w'), indent=1)
             print(f"t2k-2019yqu     -> injected covariance ({N}x{N}, scale 1e{np.log10(scale):.0f})")

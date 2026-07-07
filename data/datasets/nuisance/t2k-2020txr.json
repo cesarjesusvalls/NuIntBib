@@ -4,7 +4,7 @@
  "source": "Zenodo",
  "arxiv": "2004.13989",
  "cite": "PTEP 2021 043C01",
- "note": "WAGASCI-INGRID first CC0pi0p integrated cross sections on H2O and CH (single values, no differential binning), from the T2K Zenodo data release. The Zenodo release includes a 16x16 covariance over the analysis (fit) bins; not included here because its mapping to the reported integrated cross sections is not understood. Will try to contact the authors.",
+ "note": "The Zenodo release includes a 16x16 covariance over the analysis (fit) bins; not included here because its mapping to the reported integrated cross sections is not understood. Will try to contact the authors.",
  "distributions": [
   {
    "key": "sigma_xsec",

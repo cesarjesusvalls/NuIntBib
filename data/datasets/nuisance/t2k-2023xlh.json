@@ -4,7 +4,7 @@
  "source": "T2K",
  "arxiv": "2308.16606",
  "cite": "Phys.Rev.D 108 9",
- "note": "Flux-averaged CC coherent charged-pion cross sections on 12C \u2014 two single values (no differential binning), taken directly from the paper.",
+ "note": "Taken directly from the paper (no data release).",
  "distributions": [
   {
    "key": "sigma_numu",

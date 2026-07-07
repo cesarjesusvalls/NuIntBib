@@ -4,7 +4,7 @@
  "source": "Zenodo",
  "arxiv": "2509.07814",
  "cite": "Phys.Rev.D 112 112020",
- "note": "WAGASCI-BabyMIND numu CC0pi differential cross sections on CH and H2O, taken directly from the T2K Zenodo data release (values + quoted errors). The Zenodo release includes momentum and cosine covariance matrices; not included here because their diagonals do not reproduce the reported per-bin errors. Will try to contact the authors.",
+ "note": "The Zenodo release includes momentum and cosine covariance matrices; not included here because their diagonals do not reproduce the reported per-bin errors. Will try to contact the authors.",
  "distributions": [
   {
    "key": "dsdp_ch",

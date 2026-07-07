@@ -4,7 +4,7 @@
  "source": "Zenodo",
  "arxiv": "2505.00516",
  "cite": "Phys.Rev.Lett. 135 151802",
- "note": "Flux-integrated triple-differential cross section, taken directly from the T2K Zenodo data release (values + full covariance; nothing digitized).",
+ "note": "Values taken directly from the release; nothing digitized.",
  "distributions": [
   {
    "key": "d3xsec",
