@@ -1,0 +1,294 @@
+{
+ "bibtag": "T2K:2025kda",
+ "slug": "t2k-2025kda",
+ "source": "Zenodo",
+ "arxiv": "2509.07814",
+ "cite": "Phys.Rev.D 112 112020",
+ "note": "WAGASCI-BabyMIND numu CC0pi differential cross sections on CH and H2O, taken directly from the T2K Zenodo data release (values + quoted errors; the release also provides covariance matrices).",
+ "distributions": [
+  {
+   "key": "dsdp_ch",
+   "slug": "dsdp_ch",
+   "name": "d\u03c3/dp_\u03bc (CH)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu\\ (\\mathrm{CH})$",
+   "xlabel": "p_\u03bc",
+   "xunit": "GeV/c",
+   "ylabel": "d\u03c3/dp_\u03bc",
+   "ylabel_plot": "d\u03c3/dp_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu$",
+   "yunit": "cm^2/nucleon/(GeV/c)",
+   "yunit_tex": "$cm^2/nucleon/(GeV/c)$",
+   "nbins": 6,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 0.5,
+     "center": 0.4,
+     "val": 1.3089999999999998e-39,
+     "err": 3.73e-40
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.7,
+     "center": 0.6,
+     "val": 1.5889999999999997e-39,
+     "err": 3.5899999999999998e-40
+    },
+    {
+     "i": 2,
+     "lo": 0.7,
+     "hi": 0.9,
+     "center": 0.8,
+     "val": 1.0129999999999999e-39,
+     "err": 2.8299999999999997e-40
+    },
+    {
+     "i": 3,
+     "lo": 0.9,
+     "hi": 1.1,
+     "center": 1.0,
+     "val": 5.809999999999999e-40,
+     "err": 1.6799999999999999e-40
+    },
+    {
+     "i": 4,
+     "lo": 1.1,
+     "hi": 1.5,
+     "center": 1.3,
+     "val": 2.44e-40,
+     "err": 7.7e-41
+    },
+    {
+     "i": 5,
+     "lo": 1.5,
+     "hi": 1.7,
+     "center": 1.6,
+     "val": 8.999999999999999e-42,
+     "err": 1.9999999999999998e-42,
+     "hi_true": 30.0
+    }
+   ],
+   "is2d": false,
+   "nuisance_file": "",
+   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "source": "Zenodo (T2K)",
+   "source_url": "https://zenodo.org/records/16949979",
+   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
+  },
+  {
+   "key": "dsdp_h2o",
+   "slug": "dsdp_h2o",
+   "name": "d\u03c3/dp_\u03bc (H2O)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu\\ (\\mathrm{H2O})$",
+   "xlabel": "p_\u03bc",
+   "xunit": "GeV/c",
+   "ylabel": "d\u03c3/dp_\u03bc",
+   "ylabel_plot": "d\u03c3/dp_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu$",
+   "yunit": "cm^2/nucleon/(GeV/c)",
+   "yunit_tex": "$cm^2/nucleon/(GeV/c)$",
+   "nbins": 6,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 0.5,
+     "center": 0.4,
+     "val": 1.794e-39,
+     "err": 7.069999999999999e-40
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.7,
+     "center": 0.6,
+     "val": 1.867e-39,
+     "err": 3.88e-40
+    },
+    {
+     "i": 2,
+     "lo": 0.7,
+     "hi": 0.9,
+     "center": 0.8,
+     "val": 1.099e-39,
+     "err": 3.6499999999999996e-40
+    },
+    {
+     "i": 3,
+     "lo": 0.9,
+     "hi": 1.1,
+     "center": 1.0,
+     "val": 4.04e-40,
+     "err": 5.13e-40
+    },
+    {
+     "i": 4,
+     "lo": 1.1,
+     "hi": 1.5,
+     "center": 1.3,
+     "val": 1.33e-40,
+     "err": 1.38e-40
+    },
+    {
+     "i": 5,
+     "lo": 1.5,
+     "hi": 1.7,
+     "center": 1.6,
+     "val": 1.0999999999999999e-41,
+     "err": 2.9999999999999996e-42,
+     "hi_true": 30.0
+    }
+   ],
+   "is2d": false,
+   "nuisance_file": "",
+   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "source": "Zenodo (T2K)",
+   "source_url": "https://zenodo.org/records/16949979",
+   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
+  },
+  {
+   "key": "dsdcos_ch",
+   "slug": "dsdcos_ch",
+   "name": "d\u03c3/dcos\u03b8_\u03bc (CH)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\ (\\mathrm{CH})$",
+   "xlabel": "cos\u03b8_\u03bc",
+   "xunit": "",
+   "ylabel": "d\u03c3/dcos\u03b8_\u03bc",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu$",
+   "yunit": "cm^2/nucleon",
+   "yunit_tex": "$cm^2/nucleon$",
+   "nbins": 6,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.34,
+     "hi": 0.385,
+     "center": 0.36250000000000004,
+     "val": 9.11e-40,
+     "err": 1.8399999999999997e-40,
+     "hi_true": 0.71
+    },
+    {
+     "i": 1,
+     "lo": 0.71,
+     "hi": 0.77,
+     "center": 0.74,
+     "val": 2.176e-39,
+     "err": 7.1799999999999995e-40
+    },
+    {
+     "i": 2,
+     "lo": 0.77,
+     "hi": 0.91,
+     "center": 0.8400000000000001,
+     "val": 2.6389999999999995e-39,
+     "err": 4.02e-40
+    },
+    {
+     "i": 3,
+     "lo": 0.91,
+     "hi": 0.94,
+     "center": 0.925,
+     "val": 3.724e-39,
+     "err": 8.189999999999999e-40
+    },
+    {
+     "i": 4,
+     "lo": 0.94,
+     "hi": 0.97,
+     "center": 0.955,
+     "val": 4.881999999999999e-39,
+     "err": 1.0869999999999999e-39
+    },
+    {
+     "i": 5,
+     "lo": 0.97,
+     "hi": 1.0,
+     "center": 0.985,
+     "val": 5.5989999999999995e-39,
+     "err": 9.469999999999998e-40
+    }
+   ],
+   "is2d": false,
+   "nuisance_file": "",
+   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "source": "Zenodo (T2K)",
+   "source_url": "https://zenodo.org/records/16949979",
+   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
+  },
+  {
+   "key": "dsdcos_h2o",
+   "slug": "dsdcos_h2o",
+   "name": "d\u03c3/dcos\u03b8_\u03bc (H2O)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\ (\\mathrm{H2O})$",
+   "xlabel": "cos\u03b8_\u03bc",
+   "xunit": "",
+   "ylabel": "d\u03c3/dcos\u03b8_\u03bc",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu$",
+   "yunit": "cm^2/nucleon",
+   "yunit_tex": "$cm^2/nucleon$",
+   "nbins": 6,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.34,
+     "hi": 0.385,
+     "center": 0.36250000000000004,
+     "val": 1.097e-39,
+     "err": 3.1099999999999996e-40,
+     "hi_true": 0.71
+    },
+    {
+     "i": 1,
+     "lo": 0.71,
+     "hi": 0.77,
+     "center": 0.74,
+     "val": 2.358e-39,
+     "err": 9.06e-40
+    },
+    {
+     "i": 2,
+     "lo": 0.77,
+     "hi": 0.91,
+     "center": 0.8400000000000001,
+     "val": 2.326e-39,
+     "err": 4.399999999999999e-40
+    },
+    {
+     "i": 3,
+     "lo": 0.91,
+     "hi": 0.94,
+     "center": 0.925,
+     "val": 5.1029999999999994e-39,
+     "err": 1.095e-39
+    },
+    {
+     "i": 4,
+     "lo": 0.94,
+     "hi": 0.97,
+     "center": 0.955,
+     "val": 5.921999999999999e-39,
+     "err": 1.519e-39
+    },
+    {
+     "i": 5,
+     "lo": 0.97,
+     "hi": 1.0,
+     "center": 0.985,
+     "val": 7.775999999999999e-39,
+     "err": 1.496e-39
+    }
+   ],
+   "is2d": false,
+   "nuisance_file": "",
+   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "source": "Zenodo (T2K)",
+   "source_url": "https://zenodo.org/records/16949979",
+   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
+  }
+ ]
+}

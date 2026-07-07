@@ -340,6 +340,54 @@ def build_2d_bracket(spec):
     return out
 
 
+def build_1d_csv_targets(spec):
+    """Several 1-D differential results in one CSV (target,bin_low,bin_high,<value>,
+    error), split into one distribution per (observable, target).  Quoted errors are
+    used directly; an overflow last bin (e.g. p in [1.5, 30]) is shown truncated."""
+    base = os.path.join(ROOT_DIR, spec['dir'])
+    out = []
+    for res in spec['results']:
+        lines = [ln.rstrip('\n') for ln in open(os.path.join(base, res['file'])) if ln.strip()]
+        hdr = [h.strip() for h in lines[0].split(',')]
+        rows = [dict(zip(hdr, [c.strip() for c in ln.split(',')])) for ln in lines[1:]]
+        sc = res.get('scale', 1.0)
+        targets, by = [], {}
+        for r in rows:
+            t = r['target']
+            if t not in by:
+                by[t] = []
+                targets.append(t)
+            by[t].append(r)
+        for t in targets:
+            bins = []
+            for i, r in enumerate(by[t]):
+                lo, hi = float(r['bin_low']), float(r['bin_high'])
+                bins.append({'i': i, 'lo': lo, 'hi': hi, 'center': 0.5 * (lo + hi),
+                             'val': float(r[res['vcol']]) * sc, 'err': float(r['error']) * sc})
+            med = float(np.median([b['hi'] - b['lo'] for b in bins]))
+            clipped = False
+            for b in bins:
+                if b['hi'] - b['lo'] > 4 * med:
+                    b['hi_true'] = b['hi']
+                    b['hi'] = round(b['lo'] + med, 4)
+                    b['center'] = 0.5 * (b['lo'] + b['hi'])
+                    clipped = True
+            yl, key = res['ylabel'], f"{res['key']}_{t.lower()}"
+            out.append({
+                'key': key, 'slug': key, 'name': plotify(yl) + f' ({t})',
+                'name_tex': rf'${yl}\ (\mathrm{{{t}}})$',
+                'xlabel': plotify(res['xlabel']), 'xunit': res.get('xunit', ''),
+                'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+                'yunit': res.get('yunit', ''),
+                'yunit_tex': f"${tl(res.get('yunit', ''))}$" if res.get('yunit') else '',
+                'nbins': len(bins), 'bins': bins, 'is2d': False, 'nuisance_file': '',
+                'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+                'source': spec['source'], 'source_url': spec['source_url'],
+                'provenance': spec['provenance'],
+            })
+    return out
+
+
 def build_3d_zenodo(spec):
     """T2K nu_e CC1pi+ (2025smz): a flux-integrated TRIPLE-differential
     (p_e x cos_e x p_pi) cross section vendored from Zenodo.  xsec.csv gives each
@@ -692,6 +740,24 @@ REGISTRY = [
          'provenance': 'T2K NC1pi+ double-differential cross section '
                        '(Zenodo 10.5281/zenodo.15776045, arXiv:2503.06849 & 2503.06843) · '
                        'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
+    {'bibtag': 'T2K:2025kda', 'slug': 't2k-2025kda', 'source': 'Zenodo',
+     'note': 'WAGASCI-BabyMIND numu CC0pi differential cross sections on CH and H2O, '
+             'taken directly from the T2K Zenodo data release (values + quoted errors; '
+             'the release also provides covariance matrices).',
+     'sources': [{'csv1d_targets': {
+         'dir': 'data/datasets/sources/t2k-2025kda',
+         'results': [
+             {'file': 'result_1d_diff_momentum.csv', 'key': 'dsdp', 'vcol': 'dsigma/dp',
+              'xlabel': r'p_\mu', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_\mu',
+              'yunit': r'cm^2/nucleon/(GeV/c)', 'scale': 1e-39},
+             {'file': 'result_1d_diff_cosine.csv', 'key': 'dsdcos', 'vcol': 'dsigma/dcos',
+              'xlabel': r'\cos\theta_\mu', 'xunit': '',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_\mu', 'yunit': r'cm^2/nucleon',
+              'scale': 1e-39}],
+         'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/16949979',
+         'provenance': 'T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O '
+                       '(Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) · quoted per-bin '
+                       'errors · nothing digitized'}}]},
 ]
 
 
@@ -725,6 +791,8 @@ def build(entry):
             dists.extend(build_3d_zenodo(src['zenodo3d']))
         elif 'bracket2d' in src:
             dists.extend(build_2d_bracket(src['bracket2d']))
+        elif 'csv1d_targets' in src:
+            dists.extend(build_1d_csv_targets(src['csv1d_targets']))
     for d in dists:
         d.setdefault('source', 'NUISANCE')
         d.setdefault('source_url', BLOB + d['nuisance_file'])

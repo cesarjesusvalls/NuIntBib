@@ -1,0 +1,7 @@
+T2K WAGASCI-BabyMIND numu CC0pi differential cross sections on CH and H2O
+Zenodo DOI 10.5281/zenodo.16949979  https://zenodo.org/records/16949979  (arXiv:2509.07814)
+Vendored via a real-browser download (Zenodo rate-limits scripted fetches).
+result_1d_diff_{momentum,cosine}.csv = dsigma/d{p,cos} for [CH,H2O], unit 1e-39.
+covariance_matrix_{momentum,cosine}.csv = 12x12 joint (CH+H2O). NOTE: covariance
+handling deferred (momentum sqrt(diag)~1.5x quoted error; cosine README unit 1e-81
+looks like a typo for 1e-78). flux_release.root omitted (unused binary).
