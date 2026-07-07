@@ -134,77 +134,66 @@ export default async function PaperDetailPage({ params }: PageProps) {
             ) : null}
 
             <div>
-              <h2 className="type-h3">Results</h2>
-              <div className="data-table-wrap">
-                {oscPaper ? (
-                  <table className="data-table">
-                    <thead>
-                      <tr>
-                        <th>Source</th>
-                        <th>Framework</th>
-                        <th>Channel</th>
-                        <th>Mode</th>
-                        <th>Parameters</th>
-                        <th>Observables</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {oscPaper.measurements.map((m, i) => (
-                        <tr key={i}>
-                          <td>{m.source}</td>
-                          <td>{m.framework + (m.bsm_type ? ` (${m.bsm_type})` : '')}</td>
-                          <td>
-                            {m.channels?.length ? (
-                              <Tex text={m.channels.map(channelTexSegment).join(', ')} />
-                            ) : (
-                              '–'
-                            )}
-                          </td>
-                          <td>{(m.mode ?? []).join(', ') || '–'}</td>
-                          <td>
-                            {m.parameters?.length ? (
-                              <Tex text={m.parameters.map(paramTexSegment).join(', ')} />
-                            ) : (
-                              '–'
-                            )}
-                          </td>
-                          <td>{m.observables ?? '–'}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                ) : (
-                  <table className="data-table">
-                    <thead>
-                      <tr>
-                        <th>Current</th>
-                        <th>Flavor</th>
-                        <th>Target</th>
-                        <th>Topology</th>
-                        <th>Type</th>
-                        <th>Observables</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {intPaper!.measurements.map((m, i) => (
-                        <tr key={i}>
-                          <td>{m.current}</td>
-                          <td>
-                            {m.flavor.length ? (
-                              <Tex text={m.flavor.map(flavorTexSegment).join(', ')} />
-                            ) : (
-                              m.flavor_note || '–'
-                            )}
-                          </td>
-                          <td>{m.target.join(', ') || '–'}</td>
-                          <td>{m.topology}</td>
-                          <td>{m.measurement_type ?? '–'}</td>
-                          <td>{m.observables ?? '–'}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                )}
+              <h2 className="type-h3">Labels</h2>
+              <div className="labels-list">
+                {oscPaper
+                  ? oscPaper.measurements.map((m, i) => (
+                      <div className="paper-meta" key={i}>
+                        {m.source ? <span className="tag tag-source">{m.source}</span> : null}
+                        {m.framework ? (
+                          <span
+                            className={`tag tag-framework${m.framework === 'Exotic' ? ' tag-exotic' : ''}`}
+                          >
+                            {m.framework}
+                          </span>
+                        ) : null}
+                        {m.bsm_type ? <span className="tag tag-bsm">{m.bsm_type}</span> : null}
+                        {m.channels?.map((c, ci) => (
+                          <span className="tag tag-channel" key={ci}>
+                            <Tex text={channelTexSegment(c)} />
+                          </span>
+                        ))}
+                        {(m.mode ?? []).map((md) => (
+                          <span className="tag" key={md}>
+                            {md}
+                          </span>
+                        ))}
+                        {m.parameters?.map((p) => (
+                          <span className="tag tag-param" key={p}>
+                            <Tex text={paramTexSegment(p)} />
+                          </span>
+                        ))}
+                        {m.observables ? (
+                          <span className="tag tag-obs">{m.observables}</span>
+                        ) : null}
+                      </div>
+                    ))
+                  : intPaper!.measurements.map((m, i) => (
+                      <div className="paper-meta" key={i}>
+                        <span className={`tag tag-${m.current.toLowerCase()}`}>{m.current}</span>
+                        {m.flavor.length ? (
+                          m.flavor.map((f) => (
+                            <span className="tag tag-flavor" key={f}>
+                              <Tex text={flavorTexSegment(f)} />
+                            </span>
+                          ))
+                        ) : m.flavor_note ? (
+                          <span className="tag tag-flavor">{m.flavor_note}</span>
+                        ) : null}
+                        {m.target.map((t) => (
+                          <span className="tag tag-target" key={t}>
+                            {t}
+                          </span>
+                        ))}
+                        {m.topology ? <span className="tag tag-topo">{m.topology}</span> : null}
+                        {m.measurement_type ? (
+                          <span className="tag tag-type">{m.measurement_type}</span>
+                        ) : null}
+                        {m.observables ? (
+                          <span className="tag tag-obs">{m.observables}</span>
+                        ) : null}
+                      </div>
+                    ))}
               </div>
             </div>
 

@@ -251,6 +251,25 @@
   color: var(--muted);
   background: transparent;
 }
+/* observables descriptor in the Labels section: a phrase, not a short label —
+   render it as soft muted text within the tag flow (borderless, wrappable) */
+.tag-obs {
+  color: var(--muted);
+  background: transparent;
+  border-color: transparent;
+  white-space: normal;
+  padding-left: 0.1rem;
+}
+/* stack one tag row per measurement in the Labels section */
+.labels-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+.labels-list .paper-meta {
+  margin-top: 0;
+}
 /* "dataset" badge — papers with a data release in NuBib; filled accent so the
    (currently rare) papers with downloadable data stand out at a glance */
 .tag-data {
