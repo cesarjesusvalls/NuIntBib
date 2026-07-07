@@ -4,7 +4,7 @@
  "source": "NUISANCE",
  "arxiv": "2002.11986",
  "cite": "JHEP 10 114",
- "note": "Cross sections taken directly from the NUISANCE data release.",
+ "note": "Values taken directly from the release; nothing digitized.",
  "distributions": [
   {
    "key": "nue_FHC_pe",

@@ -278,8 +278,8 @@ export function DataRelease({ release }: { release: Release }) {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="11" height="11" aria-hidden="true">
             <path d="M14 5h5v5M19 5l-8 8M18 13v6H5V6h6" />
           </svg>
-        </a>{' '}
-        (values + covariance); nothing digitized.
+        </a>
+        {release.note ? <>{'. '}{release.note}</> : '.'}
       </p>
 
       <div className="dr-items">

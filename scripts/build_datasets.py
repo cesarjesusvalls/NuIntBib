@@ -1203,7 +1203,7 @@ def build(entry):
     out = {'bibtag': entry['bibtag'], 'slug': entry['slug'],
            'source': entry.get('source', 'NUISANCE'),
            'arxiv': arxiv, 'cite': cite,
-           'note': entry.get('note', 'Cross sections taken directly from the NUISANCE data release.'),
+           'note': entry.get('note', 'Values taken directly from the release; nothing digitized.'),
            'distributions': dists}
     if release_cov:
         out['covariance'] = release_cov

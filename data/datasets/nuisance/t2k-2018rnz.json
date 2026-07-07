@@ -4,7 +4,7 @@
  "source": "NUISANCE",
  "arxiv": "1802.05078",
  "cite": "Phys.Rev.D 98 032003",
- "note": "Cross sections taken directly from the NUISANCE data release.",
+ "note": "Values taken directly from the release; nothing digitized.",
  "distributions": [
   {
    "key": "dpt",
