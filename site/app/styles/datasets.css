@@ -89,14 +89,18 @@
   font-size: 1.02rem;
   font-weight: 600;
   max-width: 100%;
-  overflow-x: auto;
+  /* clip long titles horizontally without a scrollbar; overflow-x:auto used to
+     force overflow-y:auto and show a stray vertical bar on tall KaTeX. */
+  overflow-x: clip;
 }
 .dr-item-title .s {
   font-family: var(--dr-mono);
   font-size: 0.74rem;
   color: var(--muted);
   max-width: 100%;
-  overflow-x: auto;
+  /* clip long titles horizontally without a scrollbar; overflow-x:auto used to
+     force overflow-y:auto and show a stray vertical bar on tall KaTeX. */
+  overflow-x: clip;
 }
 .dr-spark-wrap {
   display: inline-flex;
