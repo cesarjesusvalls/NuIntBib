@@ -425,6 +425,23 @@ def build_1d_csv_targets(spec):
     return out
 
 
+def extract_flux(spec):
+    """Read flux-prediction histograms into a table (E_low, E_high + one column per
+    flux) for the release download bundle.  Flux is download-only, not displayed."""
+    f = uproot.open(os.path.join(ROOT_DIR, spec['root']))
+    hists = spec['hists']                       # [(hist_name, column_label), ...]
+    vals = {c: f[h].values() for h, c in hists}
+    edges = f[hists[0][0]].axis().edges()
+    rows = []
+    for i in range(len(edges) - 1):
+        row = [round(float(edges[i]), 4), round(float(edges[i + 1]), 4)]
+        row += [float(f'{vals[c][i]:.6g}') for _, c in hists]
+        rows.append(row)
+    return {'note': spec['note'],
+            'columns': ['E_low_GeV', 'E_high_GeV'] + [c for _, c in hists],
+            'rows': rows}
+
+
 def _cat_plain(tex):
     """A readable ASCII form of a category label for CSV downloads."""
     s = tex.strip('$')
@@ -908,6 +925,13 @@ REGISTRY = [
     {'bibtag': 'T2K:2020txr', 'slug': 't2k-2020txr', 'source': 'Zenodo',
      'note': 'WAGASCI-INGRID first CC0pi0p integrated cross sections on H2O and CH '
              '(single values, no differential binning), from the T2K Zenodo data release.',
+     'flux': {'root': 'data/datasets/sources/t2k-2020txr/histograms.root',
+              'hists': [('flux_numu_wagasci', 'numu_wagasci'),
+                        ('flux_numubar_wagasci', 'numubar_wagasci'),
+                        ('flux_numu_pm', 'numu_pm'),
+                        ('flux_numubar_pm', 'numubar_pm')],
+              'note': 'T2K flux prediction Phi(E_nu) [cm^-2] at the WAGASCI module and the '
+                      'Proton Module (runs 2-4, RHC), from the data release histograms.root'},
      'sources': [
          {'values': {
              'key': 'sigma', 'ylabel': r'\sigma', 'yunit': r'10^{-39}cm^2/nucleon',
@@ -1008,6 +1032,8 @@ def build(entry):
            'distributions': dists}
     if release_cov:
         out['covariance'] = release_cov
+    if entry.get('flux'):                        # flux prediction (download-only)
+        out['flux'] = extract_flux(entry['flux'])
     path = os.path.join(OUT_DIR, f"{entry['slug']}.json")
     json.dump(out, open(path, 'w'), indent=1)
     return path, dists

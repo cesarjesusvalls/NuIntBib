@@ -153,6 +153,15 @@ function covCsv(release: Release): string {
     ...c.matrix.map((row) => row.join(',')),
   ].join('\n') + '\n';
 }
+function fluxCsv(release: Release): string {
+  const fx = release.flux!;
+  return [
+    `# ${release.bibtag} — neutrino flux prediction`,
+    `# ${fx.note ?? ''}`,
+    fx.columns.join(','),
+    ...fx.rows.map((r) => r.join(',')),
+  ].join('\n') + '\n';
+}
 function readme(release: Release): string {
   const n = release.distributions.length;
   const cov = release.covariance;
@@ -166,9 +175,11 @@ function readme(release: Release): string {
     `  ${n} distribution CSV file(s): x bins, value, error (2-D files have a "slice" column).`,
     cov ? `  covariance.csv: full ${cov.matrix.length}x${cov.matrix.length} matrix; bin order in its header.`
         : '  (no full covariance matrix in this release; per-bin errors are in the CSVs.)',
+    release.flux ? '  flux.csv: neutrino flux prediction Phi(E) — needed to fold a model for comparison.'
+        : '',
     '',
-    'Nothing is digitized — values and covariance come directly from the release.',
-  ].join('\n') + '\n';
+    'Nothing is digitized — values, covariance and flux come directly from the release.',
+  ].filter((l) => l !== null).join('\n') + '\n';
 }
 
 // --- minimal store (uncompressed) ZIP builder, no dependency ---
@@ -214,6 +225,7 @@ function downloadZip(release: Release) {
   const files: Record<string, string> = { 'README.txt': readme(release) };
   for (const d of release.distributions) files[`${d.slug || d.key}.csv`] = distCsv(d);
   if (release.covariance) files['covariance.csv'] = covCsv(release);
+  if (release.flux) files['flux.csv'] = fluxCsv(release);
   const url = URL.createObjectURL(new Blob([makeZip(files) as BlobPart], { type: 'application/zip' }));
   triggerDownload(url, `${release.bibtag.replace(':', '_')}_${release.source}.zip`);
   setTimeout(() => URL.revokeObjectURL(url), 2000);

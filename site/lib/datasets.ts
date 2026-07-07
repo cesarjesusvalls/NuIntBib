@@ -72,6 +72,12 @@ export type Covariance = {
   note?: string;
 };
 
+export type Flux = {
+  note?: string;
+  columns: string[];
+  rows: number[][];
+};
+
 export type DataRelease = {
   bibtag: string;
   slug: string;
@@ -80,6 +86,7 @@ export type DataRelease = {
   cite?: string;
   note?: string;
   covariance?: Covariance;
+  flux?: Flux;
   distributions: Distribution[];
 };
 
