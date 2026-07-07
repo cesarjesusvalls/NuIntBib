@@ -51,8 +51,10 @@ function sparkline(bins: DataBin[]): string {
   return `<svg class="dr-spark" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="var(--dr-accent)" stroke-width="1.5" stroke-linejoin="round"/></svg>`;
 }
 
-function plotSVG(bins: DataBin[], xlabHtml: string, ylabHtml: string, logy: boolean): string {
-  const W = 560, H = 360, mL = 66, mR = 14, mT = 14, mB = 52;
+function plotSVG(bins: DataBin[], logy: boolean): string {
+  // Axis labels are laid out as HTML around the SVG (see the grid in the render);
+  // the SVG carries only ticks + data, so margins just cover the tick numbers.
+  const W = 560, H = 360, mL = 48, mR = 14, mT = 14, mB = 30;
   const xmin = Math.min(...bins.map((b) => b.lo));
   const xmax = Math.max(...bins.map((b) => b.hi));
   const vmax = Math.max(...bins.map((b) => b.val + b.err));
@@ -95,13 +97,6 @@ function plotSVG(bins: DataBin[], xlabHtml: string, ylabHtml: string, logy: bool
     s += `<line x1="${(x - 3).toFixed(1)}" y1="${ylo.toFixed(1)}" x2="${(x + 3).toFixed(1)}" y2="${ylo.toFixed(1)}" stroke="var(--dr-accent)" stroke-width="1.3"/>`;
     s += `<circle cx="${x.toFixed(1)}" cy="${yv.toFixed(1)}" r="2.6" fill="var(--dr-accent)"/>`;
   }
-  // KaTeX axis labels via foreignObject (math renders properly, not cramped unicode)
-  const cy = mT + ih / 2;
-  s += `<foreignObject x="${mL}" y="${H - 28}" width="${iw}" height="26">` +
-    `<div xmlns="http://www.w3.org/1999/xhtml" class="dr-axlabel">${xlabHtml}</div></foreignObject>`;
-  s += `<g transform="rotate(-90 13 ${cy})">` +
-    `<foreignObject x="${13 - ih / 2}" y="${cy - 13}" width="${ih}" height="26">` +
-    `<div xmlns="http://www.w3.org/1999/xhtml" class="dr-axlabel">${ylabHtml}</div></foreignObject></g>`;
   s += `</svg>`;
   return s;
 }
@@ -321,10 +316,19 @@ export function DataRelease({ release }: { release: Release }) {
                           log y
                         </button>
                       </div>
-                      <div
-                        className="dr-plot"
-                        dangerouslySetInnerHTML={{ __html: plotSVG(activeBins, xlabHtml, ylabHtml, logy) }}
-                      />
+                      <div className="dr-plot">
+                        <div className="dr-plot-ylab">
+                          <span dangerouslySetInnerHTML={{ __html: ylabHtml }} />
+                        </div>
+                        <div
+                          className="dr-plot-canvas"
+                          dangerouslySetInnerHTML={{ __html: plotSVG(activeBins, logy) }}
+                        />
+                        <div
+                          className="dr-plot-xlab"
+                          dangerouslySetInnerHTML={{ __html: xlabHtml }}
+                        />
+                      </div>
                       {activeNote ? <p className="dr-note">{activeNote}</p> : null}
                     </div>
 
