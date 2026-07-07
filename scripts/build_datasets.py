@@ -1237,3 +1237,40 @@ if __name__ == '__main__':
             d['flux'] = extract_flux(fspec)
             json.dump(d, open(path, 'w'), indent=1)
             print(f"{slug:<15} -> injected flux ({len(d['flux']['columns']) - 2} cols)")
+
+    # 2019yqu (one-off): block-diagonal covariance from its per-observable CH ROOTs.
+    if not only or only == 't2k-2019yqu':
+        path = os.path.join(OUT_DIR, 't2k-2019yqu.json')
+        if os.path.exists(path):
+            d = json.load(open(path))
+            covfiles = {'Q2': ('Q2.root', 'Q2Cov'),
+                        'MomentumPion': ('MomentumPion.root', 'Momentum_pionCov'),
+                        'Thetapion': ('Thetapion.root', 'Theta_pionCov'),
+                        'Thetapimu': ('Thetapimu.root', 'Theta(pi,mu)(rads)Cov'),
+                        'phi_adler': ('phi_adler.root', 'Phi_AdlerCov'),
+                        'theta_adler': ('theta_adler.root', 'Theta_AdlerCov')}
+            mats, order, errs = [], [], []
+            for dist in d['distributions']:
+                fn, ck = covfiles[dist['key']]
+                M = np.asarray(uproot.open(fetch('data/T2K/CC1pip/CH/' + fn))[ck].values())
+                mats.append(M)
+                for b in dist['bins']:
+                    order.append(f"{dist['key']} [{b['lo']:g},{b['hi']:g}]")
+                    errs.append(b['err'])
+            N = sum(m.shape[0] for m in mats)
+            big = np.zeros((N, N)); off = 0
+            for m in mats:
+                n = m.shape[0]; big[off:off + n, off:off + n] = m; off += n
+            errs = np.array(errs); dg = np.diag(big)
+            g = (dg > 0) & (errs > 0)
+            scale = float(np.median(errs[g] ** 2 / dg[g]))     # cov units -> value units
+            big = big * scale
+            r = np.median(np.sqrt(np.diag(big))[g] / errs[g])
+            if not 0.9 < r < 1.1:
+                print(f"    !! 2019yqu cov sqrt(diag)/err = {r:.3f}")
+            d['covariance'] = _cov_obj(big, order,
+                'block-diagonal per-observable covariance from the NUISANCE CH data release '
+                '(Q2Cov etc.; no inter-observable correlations), scaled to the reported '
+                'values; row/col order below')
+            json.dump(d, open(path, 'w'), indent=1)
+            print(f"t2k-2019yqu     -> injected covariance ({N}x{N}, scale 1e{np.log10(scale):.0f})")
