@@ -1,0 +1,7 @@
+T2K NC1pi+ double-differential cross section data release
+Zenodo DOI 10.5281/zenodo.15776045  https://zenodo.org/records/15776045
+Papers: arXiv:2503.06849 (2025wde) & arXiv:2503.06843 (2025kdk)
+Vendored via a real-browser download (Zenodo rate-limits scripted fetches).
+result_with_bins.csv = d2sigma/dp dcos (density); covariance_matrix.csv is
+bin-integrated (un-normalized) -> the builder divides by bin areas so
+sqrt(diag)=quoted error. flux_release.root omitted (unused, binary).

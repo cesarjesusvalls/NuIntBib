@@ -299,6 +299,47 @@ def build_2d_joint(spec):
     return out
 
 
+def build_2d_bracket(spec):
+    """2-D release from a bracketed-text result ('cos theta [a,b], momentum [c,d]
+    GeV/c  <result> <error>') plus a covariance matrix stored WITHOUT the per-bin
+    normalization.  The result is a density d2sigma/dp dcos; the covariance is
+    bin-integrated, so we divide it by the bin areas (Dcos*Dp) so sqrt(diag) equals
+    the quoted per-bin error.  Everything stored in absolute units via *_scale."""
+    base = os.path.join(ROOT_DIR, spec['dir'])
+    rx = re.compile(r'cos\s*theta\s*\[([-\d.]+),\s*([-\d.]+)\].*?momentum\s*\[([-\d.]+),'
+                    r'\s*([-\d.]+)\].*?([-\d.eE+]+)\s+([-\d.eE+]+)\s*$', re.I)
+    rs = spec.get('result_scale', 1.0)
+    bins = []                                          # (clo,chi,plo,phi,val,err,area) file order
+    for ln in open(os.path.join(base, spec['result'])):
+        if ln.startswith('#') or not ln.strip():
+            continue
+        m = rx.search(ln.strip())
+        if not m:
+            continue
+        clo, chi, plo, phi, val, err = (float(x) for x in m.groups())
+        bins.append((clo, chi, plo, phi, val * rs, err * rs, (chi - clo) * (phi - plo)))
+    raw = []
+    for ln in open(os.path.join(base, spec['cov'])):
+        try:
+            row = [float(x) for x in ln.split()]
+        except ValueError:
+            continue
+        if row:
+            raw.append(row)
+    areas = np.array([b[6] for b in bins])
+    Mnorm = np.array(raw) * spec.get('cov_scale', 1.0) / np.outer(areas, areas)
+    order = [f"cos[{b[0]:g},{b[1]:g}] p[{b[2]:g},{b[3]:g}]" for b in bins]
+    grouped = {}
+    for (clo, chi, plo, phi, val, err, _a) in bins:
+        grouped.setdefault((clo, chi), []).append((plo, phi, val, err))
+    out = _assemble_2d(grouped, spec)
+    if out:
+        out[0]['_release_cov'] = _cov_obj(Mnorm, order, spec.get(
+            'cov_note', 'covariance normalized to the reported density '
+            '(sqrt(diag) = per-bin error), row/col order below'))
+    return out
+
+
 def build_3d_zenodo(spec):
     """T2K nu_e CC1pi+ (2025smz): a flux-integrated TRIPLE-differential
     (p_e x cos_e x p_pi) cross section vendored from Zenodo.  xsec.csv gives each
@@ -637,6 +678,20 @@ REGISTRY = [
          'provenance': 'T2K nu_e CC1pi+ triple-differential cross section on carbon '
                        '(Zenodo 10.5281/zenodo.15316318, arXiv:2505.00516) · '
                        'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
+    {'bibtag': 'T2K:2025wde', 'slug': 't2k-2025wde', 'source': 'Zenodo',
+     'note': 'Double-differential NC1pi+ cross section, taken directly from the T2K '
+             'Zenodo data release (values + covariance; nothing digitized).',
+     'sources': [{'bracket2d': {
+         'dir': 'data/datasets/sources/t2k-2025wde',
+         'result': 'result_with_bins.csv', 'cov': 'covariance_matrix.csv',
+         'result_scale': 1e-40, 'cov_scale': 1e-82,
+         'xlabel': r'p_\pi', 'xunit': 'GeV/c', 'slicevar': r'\cos\theta_\pi',
+         'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\pi\,\mathrm{d}\cos\theta_\pi',
+         'yunit': r'cm^2/nucleon/(GeV/c)',
+         'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/15776045',
+         'provenance': 'T2K NC1pi+ double-differential cross section '
+                       '(Zenodo 10.5281/zenodo.15776045, arXiv:2503.06849 & 2503.06843) · '
+                       'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
 ]
 
 
@@ -668,6 +723,8 @@ def build(entry):
             dists.extend(build_2d_root_explicit(src['root_explicit']))
         elif 'zenodo3d' in src:
             dists.extend(build_3d_zenodo(src['zenodo3d']))
+        elif 'bracket2d' in src:
+            dists.extend(build_2d_bracket(src['bracket2d']))
     for d in dists:
         d.setdefault('source', 'NUISANCE')
         d.setdefault('source_url', BLOB + d['nuisance_file'])
