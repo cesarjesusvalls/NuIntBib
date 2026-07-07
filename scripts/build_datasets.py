@@ -139,7 +139,7 @@ def _distr_from(name, hres, hcov, relfile):
     return {
         'key': name, 'slug': re.sub(r'[^a-z0-9]+', '_', name.lower()).strip('_'),
         'name': plotify(xlab), 'name_tex': f'${xlab}$',
-        'xlabel': plotify(xlab), 'xunit': xunit,
+        'xlabel': plotify(xlab), 'xunit': xunit, 'xlabel_tex': f'${xlab}$',
         'ylabel': plotify(ylab), 'ylabel_plot': plotify(ylab),
         'ylabel_tex': f'${ylab}$' if ylab else '$\\mathrm{d}\\sigma$',
         'yunit': yunit, 'yunit_tex': f'${tl(yunit)}$' if yunit else '',
@@ -180,6 +180,7 @@ def parse_edge_txt(relfile, labels):
     return {
         'key': labels['key'], 'slug': re.sub(r'[^a-z0-9]+', '_', labels['key'].lower()).strip('_'),
         'name': plotify(xl), 'name_tex': f'${xl}$', 'xlabel': plotify(xl), 'xunit': xu,
+        'xlabel_tex': f'${xl}$',
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
         'nbins': len(bins), 'bins': bins, 'nuisance_file': relfile, 'scale_note': None,
@@ -377,6 +378,7 @@ def build_1d_csv_targets(spec):
                 'key': key, 'slug': key, 'name': plotify(yl) + f' ({t})',
                 'name_tex': rf'${yl}\ (\mathrm{{{t}}})$',
                 'xlabel': plotify(res['xlabel']), 'xunit': res.get('xunit', ''),
+                'xlabel_tex': f"${res['xlabel']}$",
                 'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
                 'yunit': res.get('yunit', ''),
                 'yunit_tex': f"${tl(res.get('yunit', ''))}$" if res.get('yunit') else '',
@@ -437,7 +439,7 @@ def build_3d_zenodo(spec):
     dist = {
         'key': 'd3xsec', 'slug': 'd3xsec',
         'name': plotify(yl), 'name_tex': f'${yl}$',
-        'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''),
+        'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''), 'xlabel_tex': f'${xl}$',
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': spec.get('yunit', ''),
         'yunit_tex': f"${tl(spec.get('yunit', ''))}$" if spec.get('yunit') else '',
@@ -567,7 +569,7 @@ def _assemble_2d(grouped, spec):
     dist = {
         'key': spec.get('key', 'd2xsec') + dkey, 'slug': spec.get('slug', 'd2xsec') + dkey,
         'name': plotify(yl) + suf, 'name_tex': f'${yl}{suf_tex}$',
-        'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''),
+        'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''), 'xlabel_tex': f'${xl}$',
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': spec.get('yunit', ''), 'yunit_tex': f"${tl(spec.get('yunit',''))}$" if spec.get('yunit') else '',
         'nbins': total, 'is2d': True, 'slicevar_tex': f"${spec.get('slicevar', r'cos theta_mu')}$",

@@ -13,6 +13,7 @@
    "name_tex": "$E_\\nu$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
    "ylabel": "\u03c3_coh",
    "ylabel_plot": "\u03c3_coh",
    "ylabel_tex": "$\\sigma_{\\mathrm{coh}}$",

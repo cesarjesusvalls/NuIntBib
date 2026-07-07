@@ -13,6 +13,7 @@
    "name_tex": "$\\mathrm{d}^3\\sigma/\\mathrm{d}p_e\\,\\mathrm{d}\\cos\\theta_e\\,\\mathrm{d}p_\\pi$",
    "xlabel": "p_e",
    "xunit": "GeV/c",
+   "xlabel_tex": "$p_e$",
    "ylabel": "d\u00b3\u03c3/dp_e dcos\u03b8_e dp_\u03c0",
    "ylabel_plot": "d\u00b3\u03c3/dp_e dcos\u03b8_e dp_\u03c0",
    "ylabel_tex": "$\\mathrm{d}^3\\sigma/\\mathrm{d}p_e\\,\\mathrm{d}\\cos\\theta_e\\,\\mathrm{d}p_\\pi$",

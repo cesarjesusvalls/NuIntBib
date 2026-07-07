@@ -38,10 +38,12 @@ export type Distribution = {
   yunit: string;
   // LaTeX source for the card title/subtitle
   name_tex: string;
+  xlabel_tex?: string;
   ylabel_tex: string;
   yunit_tex: string;
   // KaTeX-rendered HTML (added at build time by getDataRelease)
   nameHtml: string;
+  xlabelHtml: string;
   ylabelHtml: string;
   yunitHtml: string;
   nbins: number;
@@ -82,6 +84,11 @@ export function getDataRelease(slug: string): DataRelease | null {
       // render LaTeX labels to HTML once, at build time (KaTeX, server-side)
       for (const d of release.distributions) {
         d.nameHtml = texToHtml(d.name_tex);
+        // KaTeX x-label when we have the LaTeX; else fall back to the plain unicode
+        // label (e.g. legacy releases with no xlabel_tex) so the axis is never blank.
+        d.xlabelHtml = d.xlabel_tex
+          ? texToHtml(d.xlabel_tex)
+          : `<span>${(d.xlabel ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</span>`;
         d.ylabelHtml = texToHtml(d.ylabel_tex);
         d.yunitHtml = texToHtml(d.yunit_tex);
         if (d.slices) for (const s of d.slices) s.labelHtml = texToHtml(s.label_tex);

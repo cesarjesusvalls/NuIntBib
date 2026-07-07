@@ -13,6 +13,7 @@
    "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\mathrm{d}\\cos\\theta_\\mu$",
    "xlabel": "cos\u03b8_\u03bc",
    "xunit": "",
+   "xlabel_tex": "$\\cos\\theta_\\mu$",
    "ylabel": "d\u00b2\u03c3/dp_\u03bcdcos\u03b8_\u03bc",
    "ylabel_plot": "d\u00b2\u03c3/dp_\u03bcdcos\u03b8_\u03bc",
    "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\mathrm{d}\\cos\\theta_\\mu$",

@@ -51,7 +51,7 @@ function sparkline(bins: DataBin[]): string {
   return `<svg class="dr-spark" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="var(--dr-accent)" stroke-width="1.5" stroke-linejoin="round"/></svg>`;
 }
 
-function plotSVG(bins: DataBin[], xlab: string, ylab: string, logy: boolean): string {
+function plotSVG(bins: DataBin[], xlabHtml: string, ylabHtml: string, logy: boolean): string {
   const W = 560, H = 360, mL = 66, mR = 14, mT = 14, mB = 52;
   const xmin = Math.min(...bins.map((b) => b.lo));
   const xmax = Math.max(...bins.map((b) => b.hi));
@@ -95,8 +95,13 @@ function plotSVG(bins: DataBin[], xlab: string, ylab: string, logy: boolean): st
     s += `<line x1="${(x - 3).toFixed(1)}" y1="${ylo.toFixed(1)}" x2="${(x + 3).toFixed(1)}" y2="${ylo.toFixed(1)}" stroke="var(--dr-accent)" stroke-width="1.3"/>`;
     s += `<circle cx="${x.toFixed(1)}" cy="${yv.toFixed(1)}" r="2.6" fill="var(--dr-accent)"/>`;
   }
-  s += `<text x="${mL + iw / 2}" y="${H - 6}" text-anchor="middle" font-family="var(--dr-mono)" font-size="11" fill="var(--ink)">${xlab}</text>`;
-  s += `<text x="14" y="${mT + ih / 2}" text-anchor="middle" font-family="var(--dr-mono)" font-size="11" fill="var(--ink)" transform="rotate(-90 14 ${mT + ih / 2})">${ylab}</text>`;
+  // KaTeX axis labels via foreignObject (math renders properly, not cramped unicode)
+  const cy = mT + ih / 2;
+  s += `<foreignObject x="${mL}" y="${H - 28}" width="${iw}" height="26">` +
+    `<div xmlns="http://www.w3.org/1999/xhtml" class="dr-axlabel">${xlabHtml}</div></foreignObject>`;
+  s += `<g transform="rotate(-90 13 ${cy})">` +
+    `<foreignObject x="${13 - ih / 2}" y="${cy - 13}" width="${ih}" height="26">` +
+    `<div xmlns="http://www.w3.org/1999/xhtml" class="dr-axlabel">${ylabHtml}</div></foreignObject></g>`;
   s += `</svg>`;
   return s;
 }
@@ -256,8 +261,9 @@ export function DataRelease({ release }: { release: Release }) {
           const si = is2d ? (slice[d.key] ?? fatSlice(d)) : 0;
           const activeBins = is2d ? d.slices![si].bins : d.bins;
           const activeNote = is2d ? d.slices![si].scale_note : null;
-          const xlab = `${strip(d.xlabel)}${d.xunit ? ` [${d.xunit}]` : ''}`;
-          const ylab = strip(d.ylabel_plot);
+          const axunit = (u: string) => (u ? ` <span class="dr-axunit">[${u}]</span>` : '');
+          const xlabHtml = d.xlabelHtml + axunit(d.xunit);
+          const ylabHtml = d.ylabelHtml + axunit(d.yunit);
           return (
             <div className={`dr-item${isOpen ? ' open' : ''}`} key={d.key}>
               <button
@@ -317,7 +323,7 @@ export function DataRelease({ release }: { release: Release }) {
                       </div>
                       <div
                         className="dr-plot"
-                        dangerouslySetInnerHTML={{ __html: plotSVG(activeBins, xlab, ylab, logy) }}
+                        dangerouslySetInnerHTML={{ __html: plotSVG(activeBins, xlabHtml, ylabHtml, logy) }}
                       />
                       {activeNote ? <p className="dr-note">{activeNote}</p> : null}
                     </div>
