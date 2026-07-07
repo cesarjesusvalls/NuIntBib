@@ -67,7 +67,14 @@ function plotSVG(bins: DataBin[], logy: boolean, xcat = false): string {
   const X = (v: number) => mL + ((v - xmin) / (xmax - xmin || 1)) * iw;
   let Y: (v: number) => number;
   let yticks: number[] = [];
-  if (logy) {
+  if (xcat) {
+    // single value: centre the point vertically (range symmetric about the value)
+    const v0 = bins[0].val, e0 = bins[0].err;
+    const S = Math.max(e0 * 2.5, Math.abs(v0) * 0.4) || 1;
+    const ylo = v0 - S, yhi = v0 + S;
+    Y = (v) => mT + ih - ((v - ylo) / (yhi - ylo || 1)) * ih;
+    for (let i = 0; i <= 5; i++) yticks.push(ylo + ((yhi - ylo) * i) / 5);
+  } else if (logy) {
     const lo = Math.max(vmin, vmax / 1e4) || 1e-4, hi = vmax * 1.3;
     const l = Math.log10(lo), u = Math.log10(hi);
     Y = (v) => { v = Math.max(v, lo); return mT + ih - ((Math.log10(v) - l) / (u - l || 1)) * ih; };
@@ -313,20 +320,22 @@ export function DataRelease({ release }: { release: Release }) {
                   )}
                   <div className="dr-bodygrid">
                     <div>
-                      <div className="dr-toolbar">
-                        <button
-                          className={`dr-toggle${!logy ? ' on' : ''}`}
-                          onClick={() => setMode((m) => ({ ...m, [d.key]: 'lin' }))}
-                        >
-                          linear y
-                        </button>
-                        <button
-                          className={`dr-toggle${logy ? ' on' : ''}`}
-                          onClick={() => setMode((m) => ({ ...m, [d.key]: 'log' }))}
-                        >
-                          log y
-                        </button>
-                      </div>
+                      {d.xcat ? null : (
+                        <div className="dr-toolbar">
+                          <button
+                            className={`dr-toggle${!logy ? ' on' : ''}`}
+                            onClick={() => setMode((m) => ({ ...m, [d.key]: 'lin' }))}
+                          >
+                            linear y
+                          </button>
+                          <button
+                            className={`dr-toggle${logy ? ' on' : ''}`}
+                            onClick={() => setMode((m) => ({ ...m, [d.key]: 'log' }))}
+                          >
+                            log y
+                          </button>
+                        </div>
+                      )}
                       <div className="dr-plot">
                         <div className="dr-plot-ylab">
                           <span dangerouslySetInnerHTML={{ __html: ylabHtml }} />
