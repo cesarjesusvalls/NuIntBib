@@ -930,8 +930,9 @@ REGISTRY = [
                         ('flux_numubar_wagasci', 'numubar_wagasci'),
                         ('flux_numu_pm', 'numu_pm'),
                         ('flux_numubar_pm', 'numubar_pm')],
-              'note': 'T2K flux prediction Phi(E_nu) [cm^-2] at the WAGASCI module and the '
-                      'Proton Module (runs 2-4, RHC), from the data release histograms.root'},
+              'note': 'T2K flux prediction Phi(E_nu) [/cm^2/50MeV/10^21 POT] for numu and '
+                      'numubar at the WAGASCI module and the Proton Module (runs 2-4, RHC), '
+                      'from the data release histograms.root (verified against ROOT)'},
      'sources': [
          {'values': {
              'key': 'sigma', 'ylabel': r'\sigma', 'yunit': r'10^{-39}cm^2/nucleon',

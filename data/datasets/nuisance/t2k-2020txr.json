@@ -126,7 +126,7 @@
   }
  ],
  "flux": {
-  "note": "T2K flux prediction Phi(E_nu) [cm^-2] at the WAGASCI module and the Proton Module (runs 2-4, RHC), from the data release histograms.root",
+  "note": "T2K flux prediction Phi(E_nu) [/cm^2/50MeV/10^21 POT] for numu and numubar at the WAGASCI module and the Proton Module (runs 2-4, RHC), from the data release histograms.root (verified against ROOT)",
   "columns": [
    "E_low_GeV",
    "E_high_GeV",
