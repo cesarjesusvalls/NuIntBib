@@ -265,8 +265,9 @@
 table.dr-data {
   width: 100%;
   border-collapse: collapse;
-  font-family: var(--dr-mono);
-  font-size: 0.76rem;
+  /* match the page's body text (not mono) — tabular-nums keeps columns aligned */
+  font-family: inherit;
+  font-size: 0.82rem;
   font-variant-numeric: tabular-nums;
 }
 table.dr-data th {

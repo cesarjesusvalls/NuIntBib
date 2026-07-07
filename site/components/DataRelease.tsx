@@ -40,6 +40,10 @@ const fmt = (v: number): string => {
   return String(+v.toPrecision(3));
 };
 
+// Round for DISPLAY only (downloads keep full precision); also strips float noise
+// like 3.2952999999999997e-40 -> 3.295e-40.
+const sig = (v: number, p: number): number => +v.toPrecision(p);
+
 function sparkline(bins: DataBin[]): string {
   const w = 84, h = 28, pad = 3;
   const xs = bins.map((b) => b.center);
@@ -347,9 +351,9 @@ export function DataRelease({ release }: { release: Release }) {
                             {activeBins.map((b) => (
                               <tr key={b.i}>
                                 <td>{b.i}</td>
-                                <td>{b.lo}, {b.hi_true ?? b.hi}</td>
-                                <td>{b.val}</td>
-                                <td>{+b.err.toPrecision(3)}</td>
+                                <td>{sig(b.lo, 6)}, {sig(b.hi_true ?? b.hi, 6)}</td>
+                                <td>{sig(b.val, 4)}</td>
+                                <td>{sig(b.err, 3)}</td>
                               </tr>
                             ))}
                           </tbody>
@@ -357,7 +361,7 @@ export function DataRelease({ release }: { release: Release }) {
                       </div>
                       <div className="dr-actions">
                         <a className="dr-btn" href={d.source_url} target="_blank" rel="noopener noreferrer">
-                          View on NUISANCE {EXT}
+                          View on {d.source.replace(/\s*\(.*\)\s*/, '').trim() || 'source'} {EXT}
                         </a>
                       </div>
                     </div>
