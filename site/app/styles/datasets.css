@@ -298,6 +298,13 @@ table.dr-data td:first-child {
   text-align: left;
   color: var(--muted);
 }
+/* single-value (xcat) label cell: left-aligned and wrappable so a phrase like
+   "Averaged T2K flux" never forces a horizontal scrollbar in a narrow column */
+table.dr-data td.dr-xcat-x {
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
 .dr-actions {
   display: flex;
   gap: 0.5rem;

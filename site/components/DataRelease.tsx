@@ -348,8 +348,8 @@ export function DataRelease({ release }: { release: Release }) {
                         <table className="dr-data">
                           <thead>
                             <tr>
-                              <th>bin</th>
-                              <th>x range</th>
+                              {!d.xcat && <th>bin</th>}
+                              <th>{d.xcat ? 'x' : 'x range'}</th>
                               <th>value</th>
                               <th>± err</th>
                             </tr>
@@ -357,8 +357,10 @@ export function DataRelease({ release }: { release: Release }) {
                           <tbody>
                             {activeBins.map((b) => (
                               <tr key={b.i}>
-                                <td>{b.i}</td>
-                                <td>{d.xcat ? d.xlabel : `${sig(b.lo, 6)}, ${sig(b.hi_true ?? b.hi, 6)}`}</td>
+                                {!d.xcat && <td>{b.i}</td>}
+                                <td className={d.xcat ? 'dr-xcat-x' : undefined}>
+                                  {d.xcat ? d.xlabel : `${sig(b.lo, 6)}, ${sig(b.hi_true ?? b.hi, 6)}`}
+                                </td>
                                 <td>{sig(b.val, 4)}</td>
                                 <td>{sig(b.err, 3)}</td>
                               </tr>
