@@ -14,6 +14,11 @@ export type DataBin = {
   center: number;
   val: number;
   err: number;
+  err_up?: number;    // asymmetric errors (default to err)
+  err_down?: number;
+  cat_tex?: string;   // categorical x-axis label (xcat items), LaTeX
+  cat?: string;       // plain-text category (for CSV)
+  catHtml?: string;   // rendered at build time
 };
 
 export type Slice = {
@@ -99,6 +104,7 @@ export function getDataRelease(slug: string): DataRelease | null {
         d.xunitHtml = unitHtml(d.xunit);
         d.yunitHtml = unitHtml(d.yunit);
         if (d.slices) for (const s of d.slices) s.labelHtml = texToHtml(s.label_tex);
+        if (d.xcat) for (const b of d.bins) b.catHtml = texToHtml(b.cat_tex ?? '');
       }
       return release;
     }

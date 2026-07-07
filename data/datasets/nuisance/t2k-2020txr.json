@@ -1,0 +1,128 @@
+{
+ "bibtag": "T2K:2020txr",
+ "slug": "t2k-2020txr",
+ "source": "Zenodo",
+ "arxiv": "2004.13989",
+ "cite": "PTEP 2021 043C01",
+ "note": "WAGASCI-INGRID first CC0pi0p integrated cross sections on H2O and CH (single values, no differential binning), from the T2K Zenodo data release.",
+ "distributions": [
+  {
+   "key": "sigma_xsec",
+   "slug": "sigma_xsec",
+   "name": "\u03c3 (xsec)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 1.082,
+     "err": 0.1601530517973354,
+     "err_up": 0.1601530517973354,
+     "err_down": 0.14494136745594752,
+     "cat_tex": "$\\bar\\nu_\\mu\\ \\mathrm{H_2O}$",
+     "cat": "antinumu H2O"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 1.096,
+     "err": 0.14261837188805657,
+     "err_up": 0.14261837188805657,
+     "err_down": 0.12886038956948717,
+     "cat_tex": "$\\bar\\nu_\\mu\\ \\mathrm{CH}$",
+     "cat": "antinumu CH"
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 1.155,
+     "err": 0.161245154965971,
+     "err_up": 0.161245154965971,
+     "err_down": 0.144003472180361,
+     "cat_tex": "$\\nu_\\mu\\!+\\!\\bar\\nu_\\mu\\ \\mathrm{H_2O}$",
+     "cat": "numu+antinumu H2O"
+    },
+    {
+     "i": 3,
+     "lo": 3.0,
+     "hi": 4.0,
+     "center": 3.5,
+     "val": 1.159,
+     "err": 0.1379927534329249,
+     "err_up": 0.1379927534329249,
+     "err_down": 0.12500399993600206,
+     "cat_tex": "$\\nu_\\mu\\!+\\!\\bar\\nu_\\mu\\ \\mathrm{CH}$",
+     "cat": "numu+antinumu CH"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "Zenodo (T2K)",
+   "source_url": "https://zenodo.org/records/7065210",
+   "provenance": "T2K WAGASCI-INGRID CC0pi0p integrated cross sections on H2O/CH (Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) \u00b7 stat+syst (asymmetric) added in quadrature \u00b7 NOTE: the release file lists the antinu_mu-CH systematic lower error as -0.017, which is a typo for -0.117 (the paper value, used here) \u00b7 nothing digitized"
+  },
+  {
+   "key": "ratio_ratio",
+   "slug": "ratio_ratio",
+   "name": "\u03c3_H_2O/\u03c3_CH (ratio)",
+   "name_tex": "$\\sigma_\\mathrm{H_2O}/\\sigma_\\mathrm{CH}$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3_H_2O/\u03c3_CH",
+   "ylabel_plot": "\u03c3_H_2O/\u03c3_CH",
+   "ylabel_tex": "$\\sigma_\\mathrm{H_2O}/\\sigma_\\mathrm{CH}$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.987,
+     "err": 0.12137956994486346,
+     "err_up": 0.12137956994486346,
+     "err_down": 0.11909659944767524,
+     "cat_tex": "$\\bar\\nu_\\mu$",
+     "cat": "antinumu"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.997,
+     "err": 0.10793516572461452,
+     "err_up": 0.10793516572461452,
+     "err_down": 0.1041393297462587,
+     "cat_tex": "$\\nu_\\mu\\!+\\!\\bar\\nu_\\mu$",
+     "cat": "numu+antinumu"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "Zenodo (T2K)",
+   "source_url": "https://zenodo.org/records/7065210",
+   "provenance": "T2K WAGASCI-INGRID CC0pi0p H2O/CH cross-section ratio (Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) \u00b7 stat+syst (asymmetric) added in quadrature \u00b7 nothing digitized"
+  }
+ ]
+}

@@ -11,7 +11,7 @@
    "slug": "sigma_numu",
    "name": "\u03c3_CCcoh (numu)",
    "name_tex": "$\\sigma_\\mathrm{CCcoh}\\ (\\nu_\\mu)$",
-   "xlabel": "Averaged T2K flux",
+   "xlabel": "",
    "xunit": "",
    "xcat": true,
    "ylabel": "\u03c3_CCcoh",
@@ -28,7 +28,11 @@
      "hi": 1.0,
      "center": 0.5,
      "val": 2.98,
-     "err": 0.48
+     "err": 0.48,
+     "err_up": 0.48,
+     "err_down": 0.48,
+     "cat_tex": "Averaged T2K flux",
+     "cat": "Averaged T2K flux"
     }
    ],
    "nuisance_file": "",
@@ -42,7 +46,7 @@
    "slug": "sigma_antinumu",
    "name": "\u03c3_CCcoh (antinumu)",
    "name_tex": "$\\sigma_\\mathrm{CCcoh}\\ (\\bar\\nu_\\mu)$",
-   "xlabel": "Averaged T2K flux",
+   "xlabel": "",
    "xunit": "",
    "xcat": true,
    "ylabel": "\u03c3_CCcoh",
@@ -59,7 +63,11 @@
      "hi": 1.0,
      "center": 0.5,
      "val": 3.05,
-     "err": 0.81
+     "err": 0.81,
+     "err_up": 0.81,
+     "err_down": 0.81,
+     "cat_tex": "Averaged T2K flux",
+     "cat": "Averaged T2K flux"
     }
    ],
    "nuisance_file": "",

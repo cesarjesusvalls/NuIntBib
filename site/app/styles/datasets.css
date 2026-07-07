@@ -216,6 +216,21 @@
   text-align: center;
   white-space: nowrap;
 }
+/* categorical x-axis tick labels, one per point; padded to match the SVG plot area
+   (mL=58/560, mR=14/560) so each 1fr column centres under its point */
+.dr-plot-cats {
+  grid-row: 2;
+  grid-column: 2;
+  display: grid;
+  padding: 0.25rem 2.5% 0 10.36%;
+}
+.dr-plot-cats > span {
+  min-width: 0;
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+}
 .dr-plot-ylab > span,
 .dr-plot-xlab {
   color: var(--ink);

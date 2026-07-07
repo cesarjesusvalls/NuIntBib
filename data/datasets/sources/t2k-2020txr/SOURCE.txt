@@ -1,0 +1,8 @@
+T2K WAGASCI-INGRID first CC0pi0p integrated cross sections on H2O and CH
+Zenodo DOI 10.5281/zenodo.7065210  https://zenodo.org/records/7065210  (arXiv:2004.13989)
+Downloaded via a real-browser download (Zenodo rate-limits scripted fetches).
+Values are integrated (total) cross sections only -- no kinematic differential
+(the histograms.root histograms/graphs are empty templates; the numbers are in
+cross_section). Values hardcoded in build_datasets.py.
+NOTE: cross_section lists the antinu_mu-CH systematic lower error as -0.017, a typo
+for -0.117 (the paper value, used in nubib).

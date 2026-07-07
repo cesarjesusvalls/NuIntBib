@@ -1,0 +1,22 @@
+This data release contains information from the following publication:
+
+"Measurement of charged-current cross-sections on water and hydrocarbon without detected pions nor protons using the T2K anti-neutrino beam at an off-axis angle 1.5 degrees"
+
++ The "histograms.root" file contains several histograms related to the cross-sections.
+  - flux_numubar_* -> 1D histogram with the flux prediction at the WAGASCI module or the Proton Module of the T2K experiment.
+
+  - flux_numu_* -> 1D histogram with the flux prediction at the WAGASCI module or the Proton Module of the T2K experiment.
+
+  - Err_numubar_* -> 1D TGraphAsymmErrors with the measured flux-integrated numubar cross-sections and their uncertainties.
+
+  - Err_numu_numubar_* -> 1D TGraphAsymmErrors with the measured flux-integrated numu+numubar cross-sections and their uncertainties.
+
+  - xsec_numubar_* -> 1D histogram with the predicted flux-integrated numubar cross-sections by NEUT (5.3.3).
+
+  - xsec_numu_numubar_* -> 1D histogram with the predicted flux-integrated numu+numubar cross-sections by NEUT (5.3.3).
+
++ The "Covariance_Matrix_Numubar.root" file contains the covariance matrix for the flux-integrated numubar cross-sections, considering all the uncertainties.
+
++ The "Covariance_Matrix_Numu+Numubar.root" file contains the covariance matrix for the flux-integrated numu+numubar cross-sections, considering all the uncertainties.
+
++ The "flux" file contains the (anti-)muon neutrino flux prediction at the WAGASCI module or the Proton Module of the T2K experiment

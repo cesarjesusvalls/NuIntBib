@@ -425,31 +425,55 @@ def build_1d_csv_targets(spec):
     return out
 
 
+def _cat_plain(tex):
+    """A readable ASCII form of a category label for CSV downloads."""
+    s = tex.strip('$')
+    for a, b in ((r'\bar\nu_\mu', 'antinumu'), (r'\nu_\mu', 'numu'),
+                 (r'\mathrm{H_2O}', 'H2O'), (r'\mathrm{CH}', 'CH')):
+        s = s.replace(a, b)
+    s = s.replace(r'\!', '').replace(r'\,', ' ').replace('\\ ', ' ')
+    s = re.sub(r'\\mathrm\{([^}]*)\}', r'\1', s)
+    s = re.sub(r'[\\{}]', '', s)
+    return re.sub(r'\s+', ' ', s).strip()
+
+
 def build_values(spec):
-    """A release of standalone flux-averaged VALUES with no differential binning
-    (e.g. a coherent total cross section).  One 1-point distribution per value; the
-    x-axis is a single category label (spec['xcat'], e.g. 'Averaged T2K flux') with
-    no numeric ticks (xcat flag consumed by the front-end)."""
+    """A release of standalone measured VALUES with no differential binning: each
+    item is a set of points on a CATEGORICAL x-axis (e.g. 'Averaged T2K flux', or
+    targets H2O/CH, or beams).  A point carries a category label (cat, LaTeX) and a
+    value with a symmetric ('err') or asymmetric (stat + syst_up/syst_down, added in
+    quadrature) uncertainty.  Consumed by the front-end via the xcat flag plus each
+    bin's cat_tex / err_up / err_down."""
     yl = spec['ylabel']
     out = []
-    for pt in spec['points']:
-        nu = pt.get('name')
+    for it in spec['items']:
+        bins = []
+        for i, pt in enumerate(it['points']):
+            if 'err' in pt:
+                eu = ed = float(pt['err'])
+            else:
+                st = float(pt.get('stat', 0.0))
+                eu = math.hypot(st, float(pt.get('syst_up', 0.0)))
+                ed = math.hypot(st, float(pt.get('syst_down', 0.0)))
+            bins.append({'i': i, 'lo': float(i), 'hi': float(i + 1), 'center': i + 0.5,
+                         'val': float(pt['val']), 'err': max(eu, ed),
+                         'err_up': eu, 'err_down': ed,
+                         'cat_tex': pt['cat'], 'cat': _cat_plain(pt['cat'])})
+        nu = it.get('name')
         suf_tex = rf'\ ({nu})' if nu else ''
-        key = spec.get('key', 'sigma') + (f"_{pt['slug']}" if pt.get('slug') else '')
+        key = spec.get('key', 'val') + (f"_{it['slug']}" if it.get('slug') else '')
         out.append({
             'key': key, 'slug': key,
-            'name': plotify(yl) + (f" ({pt['slug']})" if pt.get('slug') else ''),
+            'name': plotify(yl) + (f" ({it['slug']})" if it.get('slug') else ''),
             'name_tex': f'${yl}{suf_tex}$',
-            'xlabel': spec['xcat'], 'xunit': '', 'xcat': True,
+            'xlabel': '', 'xunit': '', 'xcat': True,
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': spec.get('yunit', ''),
             'yunit_tex': f"${tl(spec.get('yunit', ''))}$" if spec.get('yunit') else '',
-            'nbins': 1, 'is2d': False,
-            'bins': [{'i': 0, 'lo': 0.0, 'hi': 1.0, 'center': 0.5,
-                      'val': float(pt['val']), 'err': float(pt['err'])}],
-            'nuisance_file': '', 'scale_note': pt.get('note'),
+            'nbins': len(bins), 'is2d': False, 'bins': bins,
+            'nuisance_file': '', 'scale_note': it.get('note'),
             'source': spec['source'], 'source_url': spec['source_url'],
-            'provenance': spec['provenance'] + (f" · {pt['note']}" if pt.get('note') else ''),
+            'provenance': spec['provenance'] + (f" · {it['note']}" if it.get('note') else ''),
         })
     return out
 
@@ -867,17 +891,52 @@ REGISTRY = [
      'note': 'Flux-averaged CC coherent charged-pion cross sections on 12C — two single '
              'values (no differential binning), taken directly from the paper.',
      'sources': [{'values': {
-         'key': 'sigma', 'xcat': 'Averaged T2K flux',
-         'ylabel': r'\sigma_\mathrm{CCcoh}', 'yunit': r'10^{-40}cm^2',
-         'points': [
-             {'name': r'\nu_\mu', 'slug': 'numu', 'val': 2.98, 'err': 0.48,
-              'note': 'Q^2-model uncertainty +0.49 (one-sided) not included in the error bar'},
-             {'name': r'\bar\nu_\mu', 'slug': 'antinumu', 'val': 3.05, 'err': 0.81,
-              'note': 'Q^2-model uncertainty +0.74 (one-sided) not included in the error bar'}],
+         'key': 'sigma', 'ylabel': r'\sigma_\mathrm{CCcoh}', 'yunit': r'10^{-40}cm^2',
+         'items': [
+             {'name': r'\nu_\mu', 'slug': 'numu',
+              'note': 'Q^2-model uncertainty +0.49 (one-sided) not included in the error bar',
+              'points': [{'cat': 'Averaged T2K flux', 'val': 2.98, 'err': 0.48}]},
+             {'name': r'\bar\nu_\mu', 'slug': 'antinumu',
+              'note': 'Q^2-model uncertainty +0.74 (one-sided) not included in the error bar',
+              'points': [{'cat': 'Averaged T2K flux', 'val': 3.05, 'err': 0.81}]}],
          'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2308.16606',
          'provenance': 'T2K CC coherent charged-pion cross section on 12C '
                        '(arXiv:2308.16606) · flux-averaged total cross section, '
                        'stat+syst error in quadrature · nothing digitized'}}]},
+    # WAGASCI-INGRID first CC0pi0p measurement: integrated cross sections on H2O and
+    # CH (no differential binning). One 4-point sigma figure + one 2-point ratio figure.
+    {'bibtag': 'T2K:2020txr', 'slug': 't2k-2020txr', 'source': 'Zenodo',
+     'note': 'WAGASCI-INGRID first CC0pi0p integrated cross sections on H2O and CH '
+             '(single values, no differential binning), from the T2K Zenodo data release.',
+     'sources': [
+         {'values': {
+             'key': 'sigma', 'ylabel': r'\sigma', 'yunit': r'10^{-39}cm^2/nucleon',
+             'items': [{'slug': 'xsec', 'points': [
+                 {'cat': r'$\bar\nu_\mu\ \mathrm{H_2O}$', 'val': 1.082,
+                  'stat': 0.068, 'syst_up': 0.145, 'syst_down': 0.128},
+                 {'cat': r'$\bar\nu_\mu\ \mathrm{CH}$', 'val': 1.096,
+                  'stat': 0.054, 'syst_up': 0.132, 'syst_down': 0.117},
+                 {'cat': r'$\nu_\mu\!+\!\bar\nu_\mu\ \mathrm{H_2O}$', 'val': 1.155,
+                  'stat': 0.064, 'syst_up': 0.148, 'syst_down': 0.129},
+                 {'cat': r'$\nu_\mu\!+\!\bar\nu_\mu\ \mathrm{CH}$', 'val': 1.159,
+                  'stat': 0.049, 'syst_up': 0.129, 'syst_down': 0.115}]}],
+             'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/7065210',
+             'provenance': 'T2K WAGASCI-INGRID CC0pi0p integrated cross sections on H2O/CH '
+                           '(Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) · stat+syst '
+                           '(asymmetric) added in quadrature · NOTE: the release file lists '
+                           'the antinu_mu-CH systematic lower error as -0.017, which is a '
+                           'typo for -0.117 (the paper value, used here) · nothing digitized'}},
+         {'values': {
+             'key': 'ratio', 'ylabel': r'\sigma_\mathrm{H_2O}/\sigma_\mathrm{CH}', 'yunit': '',
+             'items': [{'slug': 'ratio', 'points': [
+                 {'cat': r'$\bar\nu_\mu$', 'val': 0.987,
+                  'stat': 0.078, 'syst_up': 0.093, 'syst_down': 0.090},
+                 {'cat': r'$\nu_\mu\!+\!\bar\nu_\mu$', 'val': 0.997,
+                  'stat': 0.069, 'syst_up': 0.083, 'syst_down': 0.078}]}],
+             'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/7065210',
+             'provenance': 'T2K WAGASCI-INGRID CC0pi0p H2O/CH cross-section ratio '
+                           '(Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) · stat+syst '
+                           '(asymmetric) added in quadrature · nothing digitized'}}]},
 ]
 
 
