@@ -199,8 +199,11 @@
   font-size: 1.05em;
 }
 .dr-axunit {
-  font-family: var(--dr-mono);
-  font-size: 0.78em;
+  font-size: 0.82em;
+  color: var(--muted);
+}
+.dr-axunit .katex {
+  font-size: 0.95em;
   color: var(--muted);
 }
 .dr-toolbar {

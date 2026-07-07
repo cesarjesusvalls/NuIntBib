@@ -261,9 +261,9 @@ export function DataRelease({ release }: { release: Release }) {
           const si = is2d ? (slice[d.key] ?? fatSlice(d)) : 0;
           const activeBins = is2d ? d.slices![si].bins : d.bins;
           const activeNote = is2d ? d.slices![si].scale_note : null;
-          const axunit = (u: string) => (u ? ` <span class="dr-axunit">[${u}]</span>` : '');
-          const xlabHtml = d.xlabelHtml + axunit(d.xunit);
-          const ylabHtml = d.ylabelHtml + axunit(d.yunit);
+          const axunit = (h: string) => (h ? ` <span class="dr-axunit">[${h}]</span>` : '');
+          const xlabHtml = d.xlabelHtml + axunit(d.xunitHtml);
+          const ylabHtml = d.ylabelHtml + axunit(d.yunitHtml);
           return (
             <div className={`dr-item${isOpen ? ' open' : ''}`} key={d.key}>
               <button

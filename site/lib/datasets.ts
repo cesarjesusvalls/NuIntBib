@@ -44,6 +44,7 @@ export type Distribution = {
   // KaTeX-rendered HTML (added at build time by getDataRelease)
   nameHtml: string;
   xlabelHtml: string;
+  xunitHtml: string;
   ylabelHtml: string;
   yunitHtml: string;
   nbins: number;
@@ -90,7 +91,11 @@ export function getDataRelease(slug: string): DataRelease | null {
           ? texToHtml(d.xlabel_tex)
           : `<span>${(d.xlabel ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</span>`;
         d.ylabelHtml = texToHtml(d.ylabel_tex);
-        d.yunitHtml = texToHtml(d.yunit_tex);
+        // Units as upright math (\mathrm) so "cm^2/(GeV/c)" renders as cm²/(GeV/c),
+        // not literal carets. texToHtml swallows any KaTeX error to the escaped source.
+        const unitHtml = (u?: string) => (u ? texToHtml(`$\\mathrm{${u}}$`) : '');
+        d.xunitHtml = unitHtml(d.xunit);
+        d.yunitHtml = unitHtml(d.yunit);
         if (d.slices) for (const s of d.slices) s.labelHtml = texToHtml(s.label_tex);
       }
       return release;
