@@ -145,7 +145,6 @@ const INT_MEAS_COLS: Col[] = [
   { id: 'topology', label: 'Topology', scope: 'meas', align: 'l', text: (r) => ss(r, 'topology'), tex: (r) => uni2tex(ss(r, 'topology')) },
   { id: 'measurement_type', label: 'Type', scope: 'meas', align: 'l', text: (r) => ss(r, 'measurement_type'), tex: (r) => texEscape(ss(r, 'measurement_type')) },
   { id: 'observables', label: 'Observable', scope: 'meas', align: 'l', text: (r) => ss(r, 'observables'), tex: (r) => uni2tex(ss(r, 'observables')) },
-  { id: 'energy', label: 'Energy', scope: 'meas', align: 'l', text: (r) => ss(r, 'energy_notes'), tex: (r) => uni2tex(ss(r, 'energy_notes')) },
 ];
 
 const OSC_MEAS_COLS: Col[] = [
@@ -183,7 +182,6 @@ function measRowFields(cluster: Cluster, m: TBMeas): Record<string, unknown> {
       topology: m.topology,
       measurement_type: m.measurement_type,
       observables: m.observables,
-      energy_notes: m.energy_notes,
     };
   }
   return {

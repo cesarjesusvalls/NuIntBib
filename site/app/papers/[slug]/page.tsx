@@ -183,7 +183,6 @@ export default async function PaperDetailPage({ params }: PageProps) {
                         <th>Topology</th>
                         <th>Type</th>
                         <th>Observables</th>
-                        <th>Energy</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -201,7 +200,6 @@ export default async function PaperDetailPage({ params }: PageProps) {
                           <td>{m.topology}</td>
                           <td>{m.measurement_type ?? '–'}</td>
                           <td>{m.observables ?? '–'}</td>
-                          <td>{m.energy_notes ?? '–'}</td>
                         </tr>
                       ))}
                     </tbody>
