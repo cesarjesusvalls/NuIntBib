@@ -5,7 +5,7 @@
  "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/T2K/CCinc/nue_2019",
  "arxiv": "2002.11986",
  "cite": "JHEP 10 114",
- "note": "Values taken directly from the release; nothing digitized.",
+ "note": "",
  "distributions": [
   {
    "key": "nue_FHC_pe",

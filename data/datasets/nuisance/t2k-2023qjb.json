@@ -5,7 +5,7 @@
  "source_url": "https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/CrossSection/PRD.108.112009/onoffaxis_data_release",
  "arxiv": "2303.14228",
  "cite": "Phys.Rev.D 108 112009",
- "note": "Values taken directly from the release; nothing digitized.",
+ "note": "",
  "distributions": [
   {
    "key": "d2xsec_nd280",

@@ -67,8 +67,6 @@ def validate(path):
         dom = _expected_domain(source)
         if dom and dom not in url.lower():
             errs.append(f'source "{source}" links to {url!r} (expected a {dom} URL)')
-    if not d.get('note'):
-        errs.append('missing note')
 
     dists = d.get('distributions', [])
     if not dists:

@@ -5,7 +5,7 @@
  "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/JointO-C/cc0pi_xsec_O-C-ratio_reg.txt",
  "arxiv": "2004.05434",
  "cite": "Phys.Rev.D 101 112004",
- "note": "Values taken directly from the release; nothing digitized.",
+ "note": "",
  "distributions": [
   {
    "key": "oc_ratio",

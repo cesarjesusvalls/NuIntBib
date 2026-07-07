@@ -1215,7 +1215,7 @@ def build(entry):
     out = {'bibtag': entry['bibtag'], 'slug': entry['slug'],
            'source': src, 'source_url': src_url,
            'arxiv': arxiv, 'cite': cite,
-           'note': entry.get('note', 'Values taken directly from the release; nothing digitized.'),
+           'note': entry.get('note', ''),
            'distributions': dists}
     if release_cov:
         out['covariance'] = release_cov
@@ -1289,7 +1289,7 @@ if __name__ == '__main__':
                 'block-diagonal per-observable covariance from the NUISANCE CH data release '
                 '(Q2Cov etc.; no inter-observable correlations), scaled to the reported '
                 'values; row/col order below')
-            d['note'] = 'Values taken directly from the release; nothing digitized.'
+            d['note'] = ''
             d['source'] = d['distributions'][0].get('source', d.get('source', 'NUISANCE'))
             d['source_url'] = _release_source_url(d['distributions'])
             json.dump(d, open(path, 'w'), indent=1)

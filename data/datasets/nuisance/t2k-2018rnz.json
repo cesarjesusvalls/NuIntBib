@@ -5,7 +5,7 @@
  "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/T2K/CC0pi/STV",
  "arxiv": "1802.05078",
  "cite": "Phys.Rev.D 98 032003",
- "note": "Values taken directly from the release; nothing digitized.",
+ "note": "",
  "distributions": [
   {
    "key": "dpt",
