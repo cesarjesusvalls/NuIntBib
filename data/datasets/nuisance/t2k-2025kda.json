@@ -1,7 +1,7 @@
 {
  "bibtag": "T2K:2025kda",
  "slug": "t2k-2025kda",
- "source": "Zenodo (T2K)",
+ "source": "Zenodo",
  "source_url": "https://zenodo.org/records/16949979",
  "arxiv": "2509.07814",
  "cite": "Phys.Rev.D 112 112020",
@@ -75,7 +75,7 @@
    "is2d": false,
    "nuisance_file": "",
    "scale_note": "last bin is an integration overflow (shown truncated)",
-   "source": "Zenodo (T2K)",
+   "source": "Zenodo",
    "source_url": "https://zenodo.org/records/16949979",
    "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
   },
@@ -147,7 +147,7 @@
    "is2d": false,
    "nuisance_file": "",
    "scale_note": "last bin is an integration overflow (shown truncated)",
-   "source": "Zenodo (T2K)",
+   "source": "Zenodo",
    "source_url": "https://zenodo.org/records/16949979",
    "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
   },
@@ -219,7 +219,7 @@
    "is2d": false,
    "nuisance_file": "",
    "scale_note": "last bin is an integration overflow (shown truncated)",
-   "source": "Zenodo (T2K)",
+   "source": "Zenodo",
    "source_url": "https://zenodo.org/records/16949979",
    "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
   },
@@ -291,7 +291,7 @@
    "is2d": false,
    "nuisance_file": "",
    "scale_note": "last bin is an integration overflow (shown truncated)",
-   "source": "Zenodo (T2K)",
+   "source": "Zenodo",
    "source_url": "https://zenodo.org/records/16949979",
    "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
   }

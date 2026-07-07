@@ -1,7 +1,7 @@
 {
  "bibtag": "T2K:2020txr",
  "slug": "t2k-2020txr",
- "source": "Zenodo (T2K)",
+ "source": "Zenodo",
  "source_url": "https://zenodo.org/records/7065210",
  "arxiv": "2004.13989",
  "cite": "PTEP 2021 043C01",
@@ -74,7 +74,7 @@
    ],
    "nuisance_file": "",
    "scale_note": null,
-   "source": "Zenodo (T2K)",
+   "source": "Zenodo",
    "source_url": "https://zenodo.org/records/7065210",
    "provenance": "T2K WAGASCI-INGRID CC0pi0p integrated cross sections on H2O/CH (Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) \u00b7 stat+syst (asymmetric) added in quadrature \u00b7 NOTE: the release file lists the antinu_mu-CH systematic lower error as -0.017, which is a typo for -0.117 (the paper value, used here) \u00b7 nothing digitized"
   },
@@ -121,7 +121,7 @@
    ],
    "nuisance_file": "",
    "scale_note": null,
-   "source": "Zenodo (T2K)",
+   "source": "Zenodo",
    "source_url": "https://zenodo.org/records/7065210",
    "provenance": "T2K WAGASCI-INGRID CC0pi0p H2O/CH cross-section ratio (Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) \u00b7 stat+syst (asymmetric) added in quadrature \u00b7 nothing digitized"
   }

@@ -1,7 +1,7 @@
 {
  "bibtag": "T2K:2025smz",
  "slug": "t2k-2025smz",
- "source": "Zenodo (T2K)",
+ "source": "Zenodo",
  "source_url": "https://zenodo.org/records/15316318",
  "arxiv": "2505.00516",
  "cite": "Phys.Rev.Lett. 135 151802",
@@ -136,7 +136,7 @@
    "bins": [],
    "nuisance_file": "",
    "scale_note": null,
-   "source": "Zenodo (T2K)",
+   "source": "Zenodo",
    "source_url": "https://zenodo.org/records/15316318",
    "provenance": "T2K nu_e CC1pi+ triple-differential cross section on carbon (Zenodo 10.5281/zenodo.15316318, arXiv:2505.00516) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 nothing digitized"
   }

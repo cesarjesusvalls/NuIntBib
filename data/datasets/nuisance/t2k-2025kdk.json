@@ -1,7 +1,7 @@
 {
  "bibtag": "T2K:2025kdk",
  "slug": "t2k-2025kdk",
- "source": "Zenodo (T2K)",
+ "source": "Zenodo",
  "source_url": "https://zenodo.org/records/15776045",
  "arxiv": "2503.06843",
  "cite": "Phys.Rev.D 112 072008",
@@ -150,7 +150,7 @@
    "bins": [],
    "nuisance_file": "",
    "scale_note": null,
-   "source": "Zenodo (T2K)",
+   "source": "Zenodo",
    "source_url": "https://zenodo.org/records/15776045",
    "provenance": "T2K NC1pi+ double-differential cross section (Zenodo 10.5281/zenodo.15776045, arXiv:2503.06843 & 2503.06849) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 nothing digitized"
   }

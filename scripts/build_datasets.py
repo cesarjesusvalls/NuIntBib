@@ -989,7 +989,7 @@ REGISTRY = [
          'xlabel': r'p_e', 'xunit': 'GeV/c',
          'ylabel': r'\mathrm{d}^3\sigma/\mathrm{d}p_e\,\mathrm{d}\cos\theta_e\,\mathrm{d}p_\pi',
          'yunit': r'cm^2/nucleon/(GeV/c)^2',
-         'source': 'Zenodo (T2K)',
+         'source': 'Zenodo',
          'source_url': 'https://zenodo.org/records/15316318',
          'provenance': 'T2K nu_e CC1pi+ triple-differential cross section on carbon '
                        '(Zenodo 10.5281/zenodo.15316318, arXiv:2505.00516) · '
@@ -1007,7 +1007,7 @@ REGISTRY = [
          'xlabel': r'p_\pi', 'xunit': 'GeV/c', 'slicevar': r'\cos\theta_\pi',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\pi\,\mathrm{d}\cos\theta_\pi',
          'yunit': r'cm^2/nucleon/(GeV/c)',
-         'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/15776045',
+         'source': 'Zenodo', 'source_url': 'https://zenodo.org/records/15776045',
          'provenance': 'T2K NC1pi+ double-differential cross section '
                        '(Zenodo 10.5281/zenodo.15776045, arXiv:2503.06849 & 2503.06843) · '
                        'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
@@ -1028,7 +1028,7 @@ REGISTRY = [
          'xlabel': r'p_\pi', 'xunit': 'GeV/c', 'slicevar': r'\cos\theta_\pi',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\pi\,\mathrm{d}\cos\theta_\pi',
          'yunit': r'cm^2/nucleon/(GeV/c)',
-         'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/15776045',
+         'source': 'Zenodo', 'source_url': 'https://zenodo.org/records/15776045',
          'provenance': 'T2K NC1pi+ double-differential cross section '
                        '(Zenodo 10.5281/zenodo.15776045, arXiv:2503.06843 & 2503.06849) · '
                        'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
@@ -1053,7 +1053,7 @@ REGISTRY = [
               'xlabel': r'\cos\theta_\mu', 'xunit': '',
               'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_\mu', 'yunit': r'cm^2/nucleon',
               'scale': 1e-39}],
-         'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/16949979',
+         'source': 'Zenodo', 'source_url': 'https://zenodo.org/records/16949979',
          'provenance': 'T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O '
                        '(Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) · quoted per-bin '
                        'errors · nothing digitized'}}]},
@@ -1122,7 +1122,7 @@ REGISTRY = [
                   'stat': 0.064, 'syst_up': 0.148, 'syst_down': 0.129},
                  {'cat': r'$\nu_\mu\!+\!\bar\nu_\mu\ \mathrm{CH}$', 'val': 1.159,
                   'stat': 0.049, 'syst_up': 0.129, 'syst_down': 0.115}]}],
-             'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/7065210',
+             'source': 'Zenodo', 'source_url': 'https://zenodo.org/records/7065210',
              'provenance': 'T2K WAGASCI-INGRID CC0pi0p integrated cross sections on H2O/CH '
                            '(Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) · stat+syst '
                            '(asymmetric) added in quadrature · NOTE: the release file lists '
@@ -1135,7 +1135,7 @@ REGISTRY = [
                   'stat': 0.078, 'syst_up': 0.093, 'syst_down': 0.090},
                  {'cat': r'$\nu_\mu\!+\!\bar\nu_\mu$', 'val': 0.997,
                   'stat': 0.069, 'syst_up': 0.083, 'syst_down': 0.078}]}],
-             'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/7065210',
+             'source': 'Zenodo', 'source_url': 'https://zenodo.org/records/7065210',
              'provenance': 'T2K WAGASCI-INGRID CC0pi0p H2O/CH cross-section ratio '
                            '(Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) · stat+syst '
                            '(asymmetric) added in quadrature · nothing digitized'}}]},
