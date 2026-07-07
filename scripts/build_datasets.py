@@ -425,10 +425,17 @@ def build_1d_csv_targets(spec):
     return out
 
 
+def _flux_open(path):
+    """Return an openable local path for a flux source: the vendored file if it
+    exists, otherwise fetch it from NUISANCE (cached)."""
+    local = os.path.join(ROOT_DIR, path)
+    return local if os.path.exists(local) else fetch(path)
+
+
 def _flux_from_csv(spec):
     """Flux table from a text file: ecol=(i_lo,i_hi) energy-edge column indices,
     fcol=[(col_idx, label), ...] flux columns.  sep=None -> whitespace-split."""
-    path = os.path.join(ROOT_DIR, spec['csv'])
+    path = _flux_open(spec['csv'])
     sep = spec.get('sep')
     lines = [(l.split(sep) if sep else l.split()) for l in open(path)
              if l.strip() and not l.lstrip().startswith('#')]
@@ -457,7 +464,7 @@ def extract_flux(spec):
     blocks = spec.get('blocks') or [{'root': spec['root'], 'hists': spec['hists']}]
     cols, vals, edges = [], {}, None
     for blk in blocks:
-        f = uproot.open(os.path.join(ROOT_DIR, blk['root']))
+        f = uproot.open(_flux_open(blk['root']))
         for name, label in blk['hists']:
             h = f[name]
             vals[label] = h.values()
@@ -777,14 +784,22 @@ def _nue(f, name, x, xu, y, yu):
                                        'ylabel': y, 'yunit': yu}}
 
 REGISTRY = [
-    {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz', 'flux': _FLUX_FHC,
+    {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz',
+     'flux': {'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root',
+              'hists': [('numu_flux', 'numu')],
+              'note': "T2K ND280 numu flux prediction, from this measurement's own data "
+                      "release (numu_flux) via NUISANCE"},
      'sources': [{'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root'}]},
     {'bibtag': 'T2K:2018rnz', 'slug': 't2k-2018rnz', 'flux': _FLUX_FHC,
      'sources': [
          {'root': 'data/T2K/CC0pi/STV/dptResults.root', 'name': 'dpt'},
          {'root': 'data/T2K/CC0pi/STV/dphitResults.root', 'name': 'dphit'},
          {'root': 'data/T2K/CC0pi/STV/datResults.root', 'name': 'dat'}]},
-    {'bibtag': 'T2K:2021naz', 'slug': 't2k-2021naz', 'flux': _FLUX_FHC,
+    {'bibtag': 'T2K:2021naz', 'slug': 't2k-2021naz',
+     'flux': {'root': 'data/T2K/CC1pipNp_STV/xsec_dpTT.root',
+              'hists': [('flux_best_fit', 'numu_bestfit')],
+              'note': "T2K ND280 numu flux prediction (best fit), from this measurement's own "
+                      "data release (flux_best_fit) via NUISANCE"},
      'sources': [
          {'root': 'data/T2K/CC1pipNp_STV/xsec_dpTT.root', 'name': 'dpTT'},
          {'root': 'data/T2K/CC1pipNp_STV/xsec_daT.root', 'name': 'daT'},
@@ -814,7 +829,11 @@ REGISTRY = [
          'xlabel': r'p_\mu', 'xunit': 'GeV',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
          'yunit': r'10^{-38}\ cm^2/GeV/nucleon'}}]},
-    {'bibtag': 'T2K:2018lnf', 'slug': 't2k-2018lnf', 'flux': _FLUX_FHC,
+    {'bibtag': 'T2K:2018lnf', 'slug': 't2k-2018lnf',
+     'flux': {'root': 'data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/histograms.root',
+              'hists': [('hflux', 'numu')],
+              'note': "T2K ND280 numu flux prediction, from this measurement's own data "
+                      "release (hflux) via NUISANCE"},
      'sources': [{'slices2d_txt': {
          'text': 'data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/data_unfold_with_neut.txt',
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
