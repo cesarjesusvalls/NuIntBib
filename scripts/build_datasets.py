@@ -425,9 +425,34 @@ def build_1d_csv_targets(spec):
     return out
 
 
+def _flux_from_csv(spec):
+    """Flux table from a text file: ecol=(i_lo,i_hi) energy-edge column indices,
+    fcol=[(col_idx, label), ...] flux columns.  sep=None -> whitespace-split."""
+    path = os.path.join(ROOT_DIR, spec['csv'])
+    sep = spec.get('sep')
+    lines = [(l.split(sep) if sep else l.split()) for l in open(path)
+             if l.strip() and not l.lstrip().startswith('#')]
+    data = lines[1:] if spec.get('header', True) else lines
+    elo, ehi = spec['ecol']
+    rows = []
+    for p in data:
+        try:
+            row = [round(float(p[elo]), 4), round(float(p[ehi]), 4)]
+            row += [float(f'{float(p[ci]):.6g}') for ci, _ in spec['fcol']]
+            rows.append(row)
+        except (ValueError, IndexError):
+            continue
+    return {'note': spec['note'],
+            'columns': ['E_low_GeV', 'E_high_GeV'] + [lbl for _, lbl in spec['fcol']],
+            'rows': rows}
+
+
 def extract_flux(spec):
-    """Read flux-prediction histograms into a table (E_low, E_high + one column per
-    flux) for the release download bundle.  Flux is download-only, not displayed."""
+    """Read a flux prediction into a table (E_low, E_high + one column per flux) for
+    the release download bundle.  Flux is download-only, not displayed.  Source is a
+    ROOT file ('root'+'hists') or a text file ('csv')."""
+    if 'csv' in spec:
+        return _flux_from_csv(spec)
     f = uproot.open(os.path.join(ROOT_DIR, spec['root']))
     hists = spec['hists']                       # [(hist_name, column_label), ...]
     vals = {c: f[h].values() for h, c in hists}
@@ -823,6 +848,10 @@ REGISTRY = [
     {'bibtag': 'T2K:2025smz', 'slug': 't2k-2025smz', 'source': 'Zenodo',
      'note': 'Flux-integrated triple-differential cross section, taken directly from '
              'the T2K Zenodo data release (values + full covariance; nothing digitized).',
+     'flux': {'csv': 'data/datasets/sources/t2k-2025smz/flux.csv', 'ecol': (1, 2),
+              'fcol': [(3, 'nue_best_fit'), (4, 'nue_nominal')],
+              'note': 'T2K nu_e flux prediction (best-fit and nominal) for the nue CC1pi+ '
+                      'measurement, from the Zenodo data release flux.csv'},
      'sources': [{'zenodo3d': {
          'dir': 'data/datasets/sources/t2k-2025smz',
          'xlabel': r'p_e', 'xunit': 'GeV/c',
@@ -836,6 +865,11 @@ REGISTRY = [
     {'bibtag': 'T2K:2025wde', 'slug': 't2k-2025wde', 'source': 'Zenodo',
      'note': 'Double-differential NC1pi+ cross section, taken directly from the T2K '
              'Zenodo data release (values + covariance; nothing digitized).',
+     'flux': {'root': 'data/datasets/sources/t2k-2025wde/flux_release.root',
+              'hists': [('enu_numu', 'numu'), ('enu_numub', 'numubar'),
+                        ('enu_nue', 'nue'), ('enu_nueb', 'nueb')],
+              'note': 'T2K postfit flux prediction for all flavours (numu, numubar, nue, '
+                      'nueb) for the NC1pi+ measurement, from the Zenodo flux_release.root'},
      'sources': [{'bracket2d': {
          'dir': 'data/datasets/sources/t2k-2025wde',
          'result': 'result_with_bins.csv', 'cov': 'covariance_matrix.csv',
@@ -853,6 +887,12 @@ REGISTRY = [
      'note': 'Double-differential NC1pi+ cross section, taken directly from the T2K '
              'Zenodo data release (values + covariance; nothing digitized). Shared with '
              'the companion paper arXiv:2503.06849.',
+     'flux': {'root': 'data/datasets/sources/t2k-2025wde/flux_release.root',
+              'hists': [('enu_numu', 'numu'), ('enu_numub', 'numubar'),
+                        ('enu_nue', 'nue'), ('enu_nueb', 'nueb')],
+              'note': 'T2K postfit flux prediction for all flavours (numu, numubar, nue, '
+                      'nueb) for the NC1pi+ measurement, from the shared Zenodo '
+                      'flux_release.root (10.5281/zenodo.15776045)'},
      'sources': [{'bracket2d': {
          'dir': 'data/datasets/sources/t2k-2025wde',
          'result': 'result_with_bins.csv', 'cov': 'covariance_matrix.csv',
@@ -868,6 +908,13 @@ REGISTRY = [
      'note': 'WAGASCI-BabyMIND numu CC0pi differential cross sections on CH and H2O, '
              'taken directly from the T2K Zenodo data release (values + quoted errors; '
              'the release also provides covariance matrices).',
+     'flux': {'root': 'data/datasets/sources/t2k-2025kda/flux_release.root',
+              'hists': [('nominal_flux_numu;1', 'numu'), ('nominal_flux_numu;2', 'numubar'),
+                        ('nominal_flux_numu;3', 'nue'), ('nominal_flux_numu;4', 'nueb')],
+              'note': 'T2K nominal flux prediction for all flavours (numu, numubar, nue, '
+                      'nueb) at the WAGASCI-BabyMIND setup, from the Zenodo flux_release.root '
+                      '(the 4 histograms are all named nominal_flux_numu in the release; '
+                      'read here by write-order cycle = numu/numubar/nue/nueb)'},
      'sources': [{'csv1d_targets': {
          'dir': 'data/datasets/sources/t2k-2025kda',
          'results': [
@@ -886,6 +933,10 @@ REGISTRY = [
      'note': 'nu_mu CC0pi double-differential cross section on water, taken directly from '
              'the T2K data release (values + covariance; nothing digitized). This release '
              'lives only on t2k.org (it was never migrated to Zenodo).',
+     'flux': {'root': 'data/datasets/sources/t2k-2017qxv/release.root',
+              'hists': [('NuMuFlux', 'numu')],
+              'note': 'T2K numu flux prediction (P0D water-in POT, runs 2-4), from the '
+                      'release NuMuFlux histogram; bin content = flux over the bin width'},
      'sources': [{'t2korg2d': {
          'root': 'data/datasets/sources/t2k-2017qxv/release.root',
          'result': 'xsnominal',
