@@ -1,0 +1,271 @@
+{
+ "bibtag": "T2K:2025kdk",
+ "slug": "t2k-2025kdk",
+ "source": "Zenodo",
+ "arxiv": "2503.06843",
+ "cite": "Phys.Rev.D 112 072008",
+ "note": "Double-differential NC1pi+ cross section, taken directly from the T2K Zenodo data release (values + covariance; nothing digitized). Shared with the companion paper arXiv:2503.06849.",
+ "distributions": [
+  {
+   "key": "d2xsec",
+   "slug": "d2xsec",
+   "name": "d\u00b2\u03c3/dp_\u03c0 dcos\u03b8_\u03c0",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\pi\\,\\mathrm{d}\\cos\\theta_\\pi$",
+   "xlabel": "p_\u03c0",
+   "xunit": "GeV/c",
+   "ylabel": "d\u00b2\u03c3/dp_\u03c0 dcos\u03b8_\u03c0",
+   "ylabel_plot": "d\u00b2\u03c3/dp_\u03c0 dcos\u03b8_\u03c0",
+   "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\pi\\,\\mathrm{d}\\cos\\theta_\\pi$",
+   "yunit": "cm^2/nucleon/(GeV/c)",
+   "yunit_tex": "$cm^2/nucleon/(GeV/c)$",
+   "nbins": 9,
+   "is2d": true,
+   "slicevar_tex": "$\\cos\\theta_\\pi$",
+   "slices": [
+    {
+     "label_tex": "$0.5 < \\cos\\theta_\\pi < 0.7$",
+     "label": "0.5 < cos\u03b8_\u03c0 < 0.7",
+     "lo": 0.5,
+     "hi": 0.7,
+     "nbins": 1,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.2,
+       "hi": 0.6,
+       "center": 0.4,
+       "val": 1.9944999999999998e-40,
+       "err": 7.12e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.7 < \\cos\\theta_\\pi < 0.8$",
+     "label": "0.7 < cos\u03b8_\u03c0 < 0.8",
+     "lo": 0.7,
+     "hi": 0.8,
+     "nbins": 1,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.2,
+       "hi": 0.6,
+       "center": 0.4,
+       "val": 1.3081e-40,
+       "err": 6.574e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.5 < \\cos\\theta_\\pi < 0.8$",
+     "label": "0.5 < cos\u03b8_\u03c0 < 0.8",
+     "lo": 0.5,
+     "hi": 0.8,
+     "nbins": 1,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.6,
+       "hi": 1.0,
+       "center": 0.8,
+       "val": 6.329e-41,
+       "err": 2.7089999999999995e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_\\pi < 0.9$",
+     "label": "0.8 < cos\u03b8_\u03c0 < 0.9",
+     "lo": 0.8,
+     "hi": 0.9,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 3.2952999999999997e-40,
+       "err": 1.4047e-40
+      },
+      {
+       "i": 1,
+       "lo": 0.4,
+       "hi": 0.6,
+       "center": 0.5,
+       "val": 2.4492999999999998e-40,
+       "err": 1.1324e-40
+      },
+      {
+       "i": 2,
+       "lo": 0.6,
+       "hi": 1.0,
+       "center": 0.8,
+       "val": 2.871e-41,
+       "err": 4.142e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.9 < \\cos\\theta_\\pi < 1$",
+     "label": "0.9 < cos\u03b8_\u03c0 < 1",
+     "lo": 0.9,
+     "hi": 1.0,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 3.4037999999999996e-40,
+       "err": 1.1813999999999999e-40
+      },
+      {
+       "i": 1,
+       "lo": 0.4,
+       "hi": 0.6,
+       "center": 0.5,
+       "val": 3.7053999999999995e-40,
+       "err": 1.3119e-40
+      },
+      {
+       "i": 2,
+       "lo": 0.6,
+       "hi": 1.0,
+       "center": 0.8,
+       "val": 1.2583999999999999e-40,
+       "err": 7.013e-41
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "bins": [],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "Zenodo (T2K)",
+   "source_url": "https://zenodo.org/records/15776045",
+   "provenance": "T2K NC1pi+ double-differential cross section (Zenodo 10.5281/zenodo.15776045, arXiv:2503.06843 & 2503.06849) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 nothing digitized"
+  }
+ ],
+ "covariance": {
+  "order": [
+   "cos[0.5,0.7] p[0.2,0.6]",
+   "cos[0.7,0.8] p[0.2,0.6]",
+   "cos[0.5,0.8] p[0.6,1]",
+   "cos[0.8,0.9] p[0.2,0.4]",
+   "cos[0.8,0.9] p[0.4,0.6]",
+   "cos[0.8,0.9] p[0.6,1]",
+   "cos[0.9,1] p[0.2,0.4]",
+   "cos[0.9,1] p[0.4,0.6]",
+   "cos[0.9,1] p[0.6,1]"
+  ],
+  "note": "covariance normalized to the reported density (sqrt(diag) = per-bin error), row/col order below",
+  "matrix": [
+   [
+    5.0694e-81,
+    1.8203e-82,
+    1.0685e-82,
+    1.6434e-81,
+    1.1431e-81,
+    7.1491e-83,
+    1.6736e-81,
+    1.467e-81,
+    7.3251e-82
+   ],
+   [
+    1.8203e-82,
+    4.3214e-81,
+    8.5648e-83,
+    8.9072e-82,
+    8.3969e-82,
+    1.5021e-82,
+    1.3874e-81,
+    1.5952e-81,
+    5.4535e-82
+   ],
+   [
+    1.0685e-82,
+    8.5648e-83,
+    7.3414e-82,
+    3.914e-82,
+    4.5991e-82,
+    2.5765e-83,
+    1.5259e-82,
+    5.3654e-82,
+    1.4689e-82
+   ],
+   [
+    1.6434e-81,
+    8.9072e-82,
+    3.914e-82,
+    1.9733e-80,
+    -5.6641e-82,
+    9.0173e-83,
+    3.0716e-81,
+    4.0923e-81,
+    1.1882e-81
+   ],
+   [
+    1.1431e-81,
+    8.3969e-82,
+    4.5991e-82,
+    -5.6641e-82,
+    1.2823e-80,
+    -5.9644e-82,
+    1.8013e-81,
+    2.9673e-82,
+    1.5112e-81
+   ],
+   [
+    7.1491e-83,
+    1.5021e-82,
+    2.5765e-83,
+    9.0173e-83,
+    -5.9644e-82,
+    1.7158e-81,
+    2.459e-82,
+    -3.1654e-83,
+    -1.03e-82
+   ],
+   [
+    1.6736e-81,
+    1.3874e-81,
+    1.5259e-82,
+    3.0716e-81,
+    1.8013e-81,
+    2.459e-82,
+    1.3956e-80,
+    1.7149e-81,
+    1.1325e-81
+   ],
+   [
+    1.467e-81,
+    1.5952e-81,
+    5.3654e-82,
+    4.0923e-81,
+    2.9673e-82,
+    -3.1654e-83,
+    1.7149e-81,
+    1.7211e-80,
+    9.6844e-82
+   ],
+   [
+    7.3251e-82,
+    5.4535e-82,
+    1.4689e-82,
+    1.1882e-81,
+    1.5112e-81,
+    -1.03e-82,
+    1.1325e-81,
+    9.6844e-82,
+    4.9181e-81
+   ]
+  ]
+ }
+}

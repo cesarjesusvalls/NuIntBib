@@ -740,6 +740,23 @@ REGISTRY = [
          'provenance': 'T2K NC1pi+ double-differential cross section '
                        '(Zenodo 10.5281/zenodo.15776045, arXiv:2503.06849 & 2503.06843) · '
                        'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
+    # NC1pi+ was published as a joint PRL+PRD (2503.06849 = 2025wde, 2503.06843 =
+    # 2025kdk); both papers front the same shared data release.
+    {'bibtag': 'T2K:2025kdk', 'slug': 't2k-2025kdk', 'source': 'Zenodo',
+     'note': 'Double-differential NC1pi+ cross section, taken directly from the T2K '
+             'Zenodo data release (values + covariance; nothing digitized). Shared with '
+             'the companion paper arXiv:2503.06849.',
+     'sources': [{'bracket2d': {
+         'dir': 'data/datasets/sources/t2k-2025wde',
+         'result': 'result_with_bins.csv', 'cov': 'covariance_matrix.csv',
+         'result_scale': 1e-40, 'cov_scale': 1e-82,
+         'xlabel': r'p_\pi', 'xunit': 'GeV/c', 'slicevar': r'\cos\theta_\pi',
+         'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\pi\,\mathrm{d}\cos\theta_\pi',
+         'yunit': r'cm^2/nucleon/(GeV/c)',
+         'source': 'Zenodo (T2K)', 'source_url': 'https://zenodo.org/records/15776045',
+         'provenance': 'T2K NC1pi+ double-differential cross section '
+                       '(Zenodo 10.5281/zenodo.15776045, arXiv:2503.06843 & 2503.06849) · '
+                       'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
     {'bibtag': 'T2K:2025kda', 'slug': 't2k-2025kda', 'source': 'Zenodo',
      'note': 'WAGASCI-BabyMIND numu CC0pi differential cross sections on CH and H2O, '
              'taken directly from the T2K Zenodo data release (values + quoted errors; '
