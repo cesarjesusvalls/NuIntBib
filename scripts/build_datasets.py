@@ -450,21 +450,44 @@ def _flux_from_csv(spec):
 def extract_flux(spec):
     """Read a flux prediction into a table (E_low, E_high + one column per flux) for
     the release download bundle.  Flux is download-only, not displayed.  Source is a
-    ROOT file ('root'+'hists') or a text file ('csv')."""
+    text file ('csv'), a ROOT file ('root'+'hists'), or several ROOT files ('blocks'
+    = [{root, hists}, ...], merged column-wise assuming a common binning)."""
     if 'csv' in spec:
         return _flux_from_csv(spec)
-    f = uproot.open(os.path.join(ROOT_DIR, spec['root']))
-    hists = spec['hists']                       # [(hist_name, column_label), ...]
-    vals = {c: f[h].values() for h, c in hists}
-    edges = f[hists[0][0]].axis().edges()
+    blocks = spec.get('blocks') or [{'root': spec['root'], 'hists': spec['hists']}]
+    cols, vals, edges = [], {}, None
+    for blk in blocks:
+        f = uproot.open(os.path.join(ROOT_DIR, blk['root']))
+        for name, label in blk['hists']:
+            h = f[name]
+            vals[label] = h.values()
+            cols.append(label)
+            if edges is None:
+                edges = h.axis().edges()
     rows = []
     for i in range(len(edges) - 1):
         row = [round(float(edges[i]), 4), round(float(edges[i + 1]), 4)]
-        row += [float(f'{vals[c][i]:.6g}') for _, c in hists]
+        row += [float(f'{vals[c][i]:.6g}') for c in cols]
         rows.append(row)
-    return {'note': spec['note'],
-            'columns': ['E_low_GeV', 'E_high_GeV'] + [c for _, c in hists],
-            'rows': rows}
+    return {'note': spec['note'], 'columns': ['E_low_GeV', 'E_high_GeV'] + cols, 'rows': rows}
+
+
+# Shared NUISANCE T2K ND280 flux (2016 tuning) — FHC (nu-mode) and RHC (nubar-mode).
+_FLUX_NUM = [('enu_nd280_numu', 'numu'), ('enu_nd280_numub', 'numubar'),
+             ('enu_nd280_nue', 'nue'), ('enu_nd280_nueb', 'nueb')]
+_FLUX_FHC = {'root': 'data/datasets/sources/_t2kflux/t2kflux_2016_plus250kA.root',
+             'hists': _FLUX_NUM,
+             'note': 'T2K ND280 FHC (nu-mode) flux prediction, all flavours — provided by '
+                     'NUISANCE (t2kflux_2016_plus250kA.root, 2016 tuning)'}
+_FLUX_RHC = {'root': 'data/datasets/sources/_t2kflux/t2kflux_2016_minus250kA.root',
+             'hists': _FLUX_NUM,
+             'note': 'T2K ND280 RHC (nubar-mode) flux prediction, all flavours — provided by '
+                     'NUISANCE (t2kflux_2016_minus250kA.root, 2016 tuning)'}
+_FLUX_BOTH = {'blocks': [
+    {'root': _FLUX_FHC['root'], 'hists': [(n, l + '_fhc') for n, l in _FLUX_NUM]},
+    {'root': _FLUX_RHC['root'], 'hists': [(n, l + '_rhc') for n, l in _FLUX_NUM]}],
+    'note': 'T2K ND280 flux prediction for both beam modes (FHC nu-mode + RHC nubar-mode), '
+            'all flavours — provided by NUISANCE (t2kflux_2016_plus/minus250kA.root, 2016 tuning)'}
 
 
 def _cat_plain(tex):
@@ -754,23 +777,23 @@ def _nue(f, name, x, xu, y, yu):
                                        'ylabel': y, 'yunit': yu}}
 
 REGISTRY = [
-    {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz',
+    {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz', 'flux': _FLUX_FHC,
      'sources': [{'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root'}]},
-    {'bibtag': 'T2K:2018rnz', 'slug': 't2k-2018rnz',
+    {'bibtag': 'T2K:2018rnz', 'slug': 't2k-2018rnz', 'flux': _FLUX_FHC,
      'sources': [
          {'root': 'data/T2K/CC0pi/STV/dptResults.root', 'name': 'dpt'},
          {'root': 'data/T2K/CC0pi/STV/dphitResults.root', 'name': 'dphit'},
          {'root': 'data/T2K/CC0pi/STV/datResults.root', 'name': 'dat'}]},
-    {'bibtag': 'T2K:2021naz', 'slug': 't2k-2021naz',
+    {'bibtag': 'T2K:2021naz', 'slug': 't2k-2021naz', 'flux': _FLUX_FHC,
      'sources': [
          {'root': 'data/T2K/CC1pipNp_STV/xsec_dpTT.root', 'name': 'dpTT'},
          {'root': 'data/T2K/CC1pipNp_STV/xsec_daT.root', 'name': 'daT'},
          {'root': 'data/T2K/CC1pipNp_STV/xsec_pN.root', 'name': 'pN'}]},
-    {'bibtag': 'T2K:2016soz', 'slug': 't2k-2016soz',
+    {'bibtag': 'T2K:2016soz', 'slug': 't2k-2016soz', 'flux': _FLUX_FHC,
      'sources': [{'txt': 'data/T2K/CCCOH/C12_Enu_1bin.txt',
                   'labels': {'key': 'Enu', 'xlabel': r'E_\nu', 'xunit': 'GeV',
                              'ylabel': r'\sigma_{\mathrm{coh}}', 'yunit': r'cm^2/{}^{12}C'}}]},
-    {'bibtag': 'T2K:2020lrr', 'slug': 't2k-2020lrr',
+    {'bibtag': 'T2K:2020lrr', 'slug': 't2k-2020lrr', 'flux': _FLUX_BOTH,
      'sources': [
          _nue('FHC_nue_pe.txt', 'nue_FHC_pe', r'p_e\ (\nu_e,\ \mathrm{FHC})', 'GeV',
               r'\mathrm{d}\sigma/\mathrm{d}p_e', r'cm^2/GeV/nucleon'),
@@ -784,20 +807,20 @@ REGISTRY = [
               r'\mathrm{d}\sigma/\mathrm{d}p_e', r'cm^2/GeV/nucleon'),
          _nue('RHC_nuebar_thetae.txt', 'nuebar_RHC_costhetae', r'\cos\theta_e\ (\bar\nu_e,\ \mathrm{RHC})', '',
               r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_e', r'cm^2/nucleon')]},
-    {'bibtag': 'T2K:2016jor', 'slug': 't2k-2016jor',
+    {'bibtag': 'T2K:2016jor', 'slug': 't2k-2016jor', 'flux': _FLUX_FHC,
      'sources': [{'slices2d': {
          'text': 'data/T2K/CC0pi/cross-section_analysisI.txt',
          'cov': 'data/T2K/CC0pi/T2K_CC0PI_2DPmuCosmu_Data.root', 'cov_key': 'analysis1_totcov',
          'xlabel': r'p_\mu', 'xunit': 'GeV',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
          'yunit': r'10^{-38}\ cm^2/GeV/nucleon'}}]},
-    {'bibtag': 'T2K:2018lnf', 'slug': 't2k-2018lnf',
+    {'bibtag': 'T2K:2018lnf', 'slug': 't2k-2018lnf', 'flux': _FLUX_FHC,
      'sources': [{'slices2d_txt': {
          'text': 'data/T2K/CCinc/nd280data-numu-cc-inc-xs-on-c-2018/data_unfold_with_neut.txt',
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}\cos\theta_\mu\mathrm{d}p_\mu',
          'yunit': r'10^{-39}\ cm^2/(GeV/c)/nucleon'}}]},
-    {'bibtag': 'T2K:2020jav', 'slug': 't2k-2020jav',
+    {'bibtag': 'T2K:2020jav', 'slug': 't2k-2020jav', 'flux': _FLUX_FHC,
      'sources': [{'slices2d_binned': {
          'binning': 'data/T2K/CC0pi/JointO-C/Binning.txt',
          'data': 'data/T2K/CC0pi/JointO-C/cc0pi_xsec_O-C-ratio_reg.txt',
@@ -805,7 +828,7 @@ REGISTRY = [
          'key': 'oc_ratio', 'slug': 'oc_ratio',
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\sigma(\mathrm{O})/\sigma(\mathrm{C})', 'yunit': ''}}]},
-    {'bibtag': 'T2K:2023qjb', 'slug': 't2k-2023qjb',
+    {'bibtag': 'T2K:2023qjb', 'slug': 't2k-2023qjb', 'flux': _FLUX_FHC,
      'sources': [{'joint2d': {
          'data': _ND + 'xsec_data_mc.csv', 'cov': _ND + 'cov_matrix.csv',
          'vcol': 1, 'pdiv': 1000.0,        # data column; p MeV/c -> GeV/c
@@ -818,7 +841,7 @@ REGISTRY = [
          'source': 'NUISANCE neutrino_data',
          'source_url': 'https://github.com/NUISANCEMC/neutrino_data/tree/main/data/T2K/'
                        'CrossSection/PRD.108.112009/onoffaxis_data_release'}}]},
-    {'bibtag': 'T2K:2020sbd', 'slug': 't2k-2020sbd',
+    {'bibtag': 'T2K:2020sbd', 'slug': 't2k-2020sbd', 'flux': _FLUX_BOTH,
      'sources': [{'rootslices': {
          'root': 'data/T2K/CC0pi/JointNuMu-AntiNuMu/JointNuMuAntiNuMuCC0piXsecDataRelease.root',
          'cov_keys': ['JointNuMuAntiNuMuCC0piXsecCovMatrixStat',
@@ -834,7 +857,7 @@ REGISTRY = [
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
          'yunit': r'cm^2/GeV'}}]},
-    {'bibtag': 'T2K:2019ddy', 'slug': 't2k-2019ddy',
+    {'bibtag': 'T2K:2019ddy', 'slug': 't2k-2019ddy', 'flux': _FLUX_RHC,
      'sources': [{'root_explicit': {
          'root': 'data/T2K/CC0pi/AntiNuMuH2O/AntiNuMuOnH2O_unreg.root',
          'result': 'xsecDataRelease', 'cov': 'covDataRelease', 'cov_fractional': True,
@@ -955,7 +978,7 @@ REGISTRY = [
                        'total covariance = sum of per-source cvm_* · nothing digitized'}}]},
     # Flux-averaged coherent CC 1pi cross sections: two single values (nu_mu + antinu_mu),
     # no differential binning, so x is a single category "Averaged T2K flux".
-    {'bibtag': 'T2K:2023xlh', 'slug': 't2k-2023xlh', 'source': 'T2K',
+    {'bibtag': 'T2K:2023xlh', 'slug': 't2k-2023xlh', 'source': 'T2K', 'flux': _FLUX_BOTH,
      'note': 'Flux-averaged CC coherent charged-pion cross sections on 12C — two single '
              'values (no differential binning), taken directly from the paper.',
      'sources': [{'values': {
@@ -1106,3 +1129,16 @@ if __name__ == '__main__':
             kind = f"{len(d['slices'])} slices" if d.get('is2d') else f"{d['nbins']} bins"
             print(f"    {d['key']:<26} {kind:<12} x[{d['xunit']}]  "
                   f"y[{d['yunit'][:30]}]  err/val~{rr}")
+
+    # Legacy one-off JSONs not built from REGISTRY above: inject their flux so the
+    # completeness principle holds (values + covariance + flux).
+    EXTRA_FLUX = {'t2k-2019yqu': _FLUX_FHC}   # CC1pi+ CH, FHC (nu-mode)
+    for slug, fspec in EXTRA_FLUX.items():
+        if only and only != slug:
+            continue
+        path = os.path.join(OUT_DIR, f'{slug}.json')
+        if os.path.exists(path):
+            d = json.load(open(path))
+            d['flux'] = extract_flux(fspec)
+            json.dump(d, open(path, 'w'), indent=1)
+            print(f"{slug:<15} -> injected flux ({len(d['flux']['columns']) - 2} cols)")
