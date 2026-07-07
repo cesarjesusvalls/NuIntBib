@@ -1022,8 +1022,10 @@ REGISTRY = [
                        'per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
     {'bibtag': 'T2K:2025kda', 'slug': 't2k-2025kda', 'source': 'Zenodo',
      'note': 'WAGASCI-BabyMIND numu CC0pi differential cross sections on CH and H2O, '
-             'taken directly from the T2K Zenodo data release (values + quoted errors; '
-             'the release also provides covariance matrices).',
+             'taken directly from the T2K Zenodo data release (values + quoted errors). '
+             'The Zenodo release includes momentum and cosine covariance matrices; not '
+             'included here because their diagonals do not reproduce the reported per-bin '
+             'errors. Will try to contact the authors.',
      'flux': {'root': 'data/datasets/sources/t2k-2025kda/flux_release.root',
               'hists': [('nominal_flux_numu;1', 'numu'), ('nominal_flux_numu;2', 'numubar'),
                         ('nominal_flux_numu;3', 'nue'), ('nominal_flux_numu;4', 'nueb')],
@@ -1091,7 +1093,10 @@ REGISTRY = [
     # CH (no differential binning). One 4-point sigma figure + one 2-point ratio figure.
     {'bibtag': 'T2K:2020txr', 'slug': 't2k-2020txr', 'source': 'Zenodo',
      'note': 'WAGASCI-INGRID first CC0pi0p integrated cross sections on H2O and CH '
-             '(single values, no differential binning), from the T2K Zenodo data release.',
+             '(single values, no differential binning), from the T2K Zenodo data release. '
+             'The Zenodo release includes a 16x16 covariance over the analysis (fit) bins; '
+             'not included here because its mapping to the reported integrated cross sections '
+             'is not understood. Will try to contact the authors.',
      'flux': {'root': 'data/datasets/sources/t2k-2020txr/histograms.root',
               'hists': [('flux_numu_wagasci', 'numu_wagasci'),
                         ('flux_numubar_wagasci', 'numubar_wagasci'),
