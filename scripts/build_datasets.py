@@ -828,7 +828,15 @@ REGISTRY = [
          'key': 'oc_ratio', 'slug': 'oc_ratio',
          'xlabel': r'p_\mu', 'xunit': 'GeV/c',
          'ylabel': r'\sigma(\mathrm{O})/\sigma(\mathrm{C})', 'yunit': ''}}]},
-    {'bibtag': 'T2K:2023qjb', 'slug': 't2k-2023qjb', 'flux': _FLUX_FHC,
+    {'bibtag': 'T2K:2023qjb', 'slug': 't2k-2023qjb',
+     'flux': {'root': 'data/datasets/sources/t2k-2023qjb/analysis_flux.root',
+              'hists': [('nd280_flux_fine_nominal', 'nd280_nominal'),
+                        ('nd280_flux_fine_postfit', 'nd280_postfit'),
+                        ('ingrid_flux_fine_nominal', 'ingrid_nominal'),
+                        ('ingrid_flux_fine_postfit', 'ingrid_postfit')],
+              'note': 'T2K ND280 (2.5deg off-axis) and INGRID (on-axis) flux predictions '
+                      '(nominal + postfit) for this joint on/off-axis measurement, from the '
+                      'neutrino_data release analysis_flux.root'},
      'sources': [{'joint2d': {
          'data': _ND + 'xsec_data_mc.csv', 'cov': _ND + 'cov_matrix.csv',
          'vcol': 1, 'pdiv': 1000.0,        # data column; p MeV/c -> GeV/c
