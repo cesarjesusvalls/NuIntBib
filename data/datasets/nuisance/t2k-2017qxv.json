@@ -483,7 +483,8 @@
    "scale_note": null,
    "source": "T2K (t2k.org)",
    "source_url": "https://t2k-experiment.org/results/2017-cc0pi-water-xsec/",
-   "provenance": "T2K nu_mu CC0pi on H2O double-differential cross section (t2k.org data release, arXiv:1708.06771, Phys.Rev.D 97 012001) \u00b7 total covariance = sum of per-source cvm_* \u00b7 nothing digitized"
+   "provenance": "T2K nu_mu CC0pi on H2O double-differential cross section (t2k.org data release, arXiv:1708.06771, Phys.Rev.D 97 012001) \u00b7 total covariance = sum of per-source cvm_* \u00b7 nothing digitized",
+   "notes": "Total covariance = sum of per-source cvm_*. Nothing digitized."
   }
  ],
  "covariance": {

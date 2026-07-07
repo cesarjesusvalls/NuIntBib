@@ -152,7 +152,8 @@
    "ylabel_plot": "d\u03c3/dQ\u00b2",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/Q2.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Q2.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Q2.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "MomentumPion",
@@ -308,7 +309,8 @@
    "ylabel_plot": "d\u03c3/dp_\u03c0",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/MomentumPion.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/MomentumPion.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/MomentumPion.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "Thetapion",
@@ -432,7 +434,8 @@
    "ylabel_plot": "d\u03c3/d\u03b8_\u03c0",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/Thetapion.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Thetapion.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Thetapion.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "Thetapimu",
@@ -580,7 +583,8 @@
    "ylabel_plot": "d\u03c3/d\u03b8_\u03bc\u03c0",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/Thetapimu.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Thetapimu.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/Thetapimu.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "phi_adler",
@@ -728,7 +732,8 @@
    "ylabel_plot": "d\u03c3/d\u03c6_Adler",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/phi_adler.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/phi_adler.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/phi_adler.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "theta_adler",
@@ -908,7 +913,8 @@
    "ylabel_plot": "d\u03c3/dcos\u03b8_Adler",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/CH/theta_adler.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/theta_adler.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/CH/theta_adler.txt \u00b7 from arXiv:1909.03936 (Phys.Rev.D 101 012007) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   }
  ],
  "flux": {

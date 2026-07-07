@@ -115,7 +115,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "EnuRec_MB",
@@ -225,7 +226,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "MuCos",
@@ -343,7 +345,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "MuMom",
@@ -485,7 +488,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "MuPiCos",
@@ -579,7 +583,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "PosPionCos",
@@ -713,7 +718,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "PosPionMom",
@@ -823,7 +829,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root \u00b7 from arXiv:1605.07964 (Phys.Rev.D 95 012010) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   }
  ],
  "covariance": {

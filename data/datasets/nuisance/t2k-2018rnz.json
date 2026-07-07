@@ -91,7 +91,8 @@
    "scale_note": "covariance rescaled by 1e-38 to match cross-section units",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/STV/dptResults.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/dptResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/dptResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units",
+   "notes": "Per-bin error = sqrt(diag(covariance)). Covariance rescaled by 1e-38 to match cross-section units."
   },
   {
    "key": "dphit",
@@ -177,7 +178,8 @@
    "scale_note": "covariance rescaled by 1e-38 to match cross-section units",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/STV/dphitResults.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/dphitResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/dphitResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units",
+   "notes": "Per-bin error = sqrt(diag(covariance)). Covariance rescaled by 1e-38 to match cross-section units."
   },
   {
    "key": "dat",
@@ -263,7 +265,8 @@
    "scale_note": "covariance rescaled by 1e-38 to match cross-section units",
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC0pi/STV/datResults.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/datResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC0pi/STV/datResults.root \u00b7 from arXiv:1802.05078 (Phys.Rev.D 98 032003) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 covariance rescaled by 1e-38 to match cross-section units",
+   "notes": "Per-bin error = sqrt(diag(covariance)). Covariance rescaled by 1e-38 to match cross-section units."
   }
  ],
  "covariance": {

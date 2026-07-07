@@ -51,7 +51,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/FHC_nue_pe.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/FHC_nue_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/FHC_nue_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "nue_FHC_costhetae",
@@ -89,7 +90,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/FHC_nue_thetae.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/FHC_nue_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/FHC_nue_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "nue_RHC_pe",
@@ -127,7 +129,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/RHC_nue_pe.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nue_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nue_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "nue_RHC_costhetae",
@@ -165,7 +168,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/RHC_nue_thetae.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nue_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nue_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "nuebar_RHC_pe",
@@ -203,7 +207,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/RHC_nuebar_pe.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nuebar_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nuebar_pe.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "nuebar_RHC_costhetae",
@@ -241,7 +246,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCinc/nue_2019/RHC_nuebar_thetae.txt",
-   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nuebar_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CCinc/nue_2019/RHC_nuebar_thetae.txt \u00b7 from arXiv:2002.11986 (JHEP 10 114) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   }
  ],
  "covariance": {

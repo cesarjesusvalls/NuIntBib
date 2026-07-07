@@ -77,7 +77,8 @@
    "scale_note": "last bin is an integration overflow (shown truncated)",
    "source": "Zenodo",
    "source_url": "https://zenodo.org/records/16949979",
-   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
+   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized",
+   "notes": "Quoted per-bin errors. Nothing digitized."
   },
   {
    "key": "dsdp_h2o",
@@ -149,7 +150,8 @@
    "scale_note": "last bin is an integration overflow (shown truncated)",
    "source": "Zenodo",
    "source_url": "https://zenodo.org/records/16949979",
-   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
+   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized",
+   "notes": "Quoted per-bin errors. Nothing digitized."
   },
   {
    "key": "dsdcos_ch",
@@ -221,7 +223,8 @@
    "scale_note": "last bin is an integration overflow (shown truncated)",
    "source": "Zenodo",
    "source_url": "https://zenodo.org/records/16949979",
-   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
+   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized",
+   "notes": "Quoted per-bin errors. Nothing digitized."
   },
   {
    "key": "dsdcos_h2o",
@@ -293,7 +296,8 @@
    "scale_note": "last bin is an integration overflow (shown truncated)",
    "source": "Zenodo",
    "source_url": "https://zenodo.org/records/16949979",
-   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized"
+   "provenance": "T2K WAGASCI-BabyMIND numu CC0pi differential cross section on CH/H2O (Zenodo 10.5281/zenodo.16949979, arXiv:2509.07814) \u00b7 quoted per-bin errors \u00b7 nothing digitized",
+   "notes": "Quoted per-bin errors. Nothing digitized."
   }
  ],
  "flux": {

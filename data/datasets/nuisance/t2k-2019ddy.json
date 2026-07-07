@@ -252,7 +252,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/",
-   "provenance": "NUISANCE \u00b7  \u00b7 from arXiv:1908.10249 (Phys.Rev.D 102 012007) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7  \u00b7 from arXiv:1908.10249 (Phys.Rev.D 102 012007) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   }
  ],
  "covariance": {

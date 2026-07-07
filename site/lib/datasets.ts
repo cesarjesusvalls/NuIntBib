@@ -62,7 +62,8 @@ export type Distribution = {
   xcat?: boolean;
   source: string;
   source_url: string;
-  provenance: string;
+  provenance: string;   // full: source · path · citation · notes (kept for CSV/README)
+  notes: string;        // display subset: the technical caveats only
   nuisance_file: string;
 };
 

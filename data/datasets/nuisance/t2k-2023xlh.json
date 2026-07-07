@@ -40,7 +40,8 @@
    "scale_note": "Q^2-model uncertainty +0.49 (one-sided) not included in the error bar",
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2308.16606",
-   "provenance": "T2K CC coherent charged-pion cross section on 12C (arXiv:2308.16606) \u00b7 flux-averaged total cross section, stat+syst error in quadrature \u00b7 nothing digitized \u00b7 Q^2-model uncertainty +0.49 (one-sided) not included in the error bar"
+   "provenance": "T2K CC coherent charged-pion cross section on 12C (arXiv:2308.16606) \u00b7 flux-averaged total cross section, stat+syst error in quadrature \u00b7 nothing digitized \u00b7 Q^2-model uncertainty +0.49 (one-sided) not included in the error bar",
+   "notes": "Flux-averaged total cross section, stat+syst error in quadrature. Nothing digitized. Q^2-model uncertainty +0.49 (one-sided) not included in the error bar."
   },
   {
    "key": "sigma_antinumu",
@@ -75,7 +76,8 @@
    "scale_note": "Q^2-model uncertainty +0.74 (one-sided) not included in the error bar",
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2308.16606",
-   "provenance": "T2K CC coherent charged-pion cross section on 12C (arXiv:2308.16606) \u00b7 flux-averaged total cross section, stat+syst error in quadrature \u00b7 nothing digitized \u00b7 Q^2-model uncertainty +0.74 (one-sided) not included in the error bar"
+   "provenance": "T2K CC coherent charged-pion cross section on 12C (arXiv:2308.16606) \u00b7 flux-averaged total cross section, stat+syst error in quadrature \u00b7 nothing digitized \u00b7 Q^2-model uncertainty +0.74 (one-sided) not included in the error bar",
+   "notes": "Flux-averaged total cross section, stat+syst error in quadrature. Nothing digitized. Q^2-model uncertainty +0.74 (one-sided) not included in the error bar."
   }
  ],
  "flux": {

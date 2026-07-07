@@ -419,22 +419,24 @@ export function DataRelease({ release }: { release: Release }) {
                     </div>
                   </div>
 
-                  <div className="dr-prov">
-                    <div className="dr-prov-lbl">Provenance</div>
-                    <div className="dr-prov-val">
-                      <span>{d.provenance}</span>{' '}
-                      <button
-                        className="dr-copy"
-                        onClick={() => {
-                          navigator.clipboard?.writeText(d.provenance);
-                          setCopied(d.key);
-                          setTimeout(() => setCopied(null), 1200);
-                        }}
-                      >
-                        {copied === d.key ? 'copied' : 'copy'}
-                      </button>
+                  {d.notes ? (
+                    <div className="dr-prov">
+                      <div className="dr-prov-lbl">Notes</div>
+                      <div className="dr-prov-val">
+                        <span>{d.notes}</span>{' '}
+                        <button
+                          className="dr-copy"
+                          onClick={() => {
+                            navigator.clipboard?.writeText(d.notes);
+                            setCopied(d.key);
+                            setTimeout(() => setCopied(null), 1200);
+                          }}
+                        >
+                          {copied === d.key ? 'copied' : 'copy'}
+                        </button>
+                      </div>
                     </div>
-                  </div>
+                  ) : null}
                 </div>
               )}
             </div>

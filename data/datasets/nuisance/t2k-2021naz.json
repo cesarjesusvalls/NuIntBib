@@ -67,7 +67,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pipNp_STV/xsec_dpTT.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_dpTT.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_dpTT.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "daT",
@@ -113,7 +114,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pipNp_STV/xsec_daT.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_daT.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_daT.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   },
   {
    "key": "pN",
@@ -167,7 +169,8 @@
    "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CC1pipNp_STV/xsec_pN.root",
-   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_pN.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))"
+   "provenance": "NUISANCE \u00b7 data/T2K/CC1pipNp_STV/xsec_pN.root \u00b7 from arXiv:2102.03346 (Phys.Rev.D 103 112009) \u00b7 per-bin error = sqrt(diag(covariance))",
+   "notes": "Per-bin error = sqrt(diag(covariance))."
   }
  ],
  "covariance": {

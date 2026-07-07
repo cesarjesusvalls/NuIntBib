@@ -152,7 +152,8 @@
    "scale_note": null,
    "source": "Zenodo",
    "source_url": "https://zenodo.org/records/15776045",
-   "provenance": "T2K NC1pi+ double-differential cross section (Zenodo 10.5281/zenodo.15776045, arXiv:2503.06843 & 2503.06849) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 nothing digitized"
+   "provenance": "T2K NC1pi+ double-differential cross section (Zenodo 10.5281/zenodo.15776045, arXiv:2503.06843 & 2503.06849) \u00b7 per-bin error = sqrt(diag(covariance)) \u00b7 nothing digitized",
+   "notes": "Per-bin error = sqrt(diag(covariance)). Nothing digitized."
   }
  ],
  "covariance": {
