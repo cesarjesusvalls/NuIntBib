@@ -1,0 +1,6 @@
+T2K numu CCQE(-like) on carbon (ND280/FGD1), PRD 92 112003 (2015), arXiv:1411.6264
+sigma_enu.csv: E_nu bin [lo,hi] GeV, measured sigma (DIGITIZED from Fig 7 cross markers),
+  pre-fit NEUT-binned nominal (DIGITIZED from the solid magenta step curve), x10^-38 cm^2/neutron.
+frac_cov.csv: 5x5 fractional covariance from the paper (Table), relative to the pre-fit NEUT nominal.
+Absolute covariance = frac_ij * nom_i * nom_j; per-bin error = sqrt(frac_ii)*nom_i.
+Digitized with the analytical plot-digitizer (verified overlay); flux-integral of the 5 points = 0.855 vs paper 0.83.

@@ -677,6 +677,48 @@ def _notes_from_provenance(prov):
     return '. '.join(keep) + ('.' if keep else '')
 
 
+def build_sigma_enu(spec):
+    """1-D sigma(E_nu) release from explicit rows 'lo hi value nominal' plus a
+    fractional covariance defined RELATIVE TO THE PRE-FIT NOMINAL. The absolute
+    covariance is cov_ij = frac_ij * nom_i * nom_j and the per-bin error is
+    sqrt(frac_ii)*nom_i (nom = the pre-fit model, e.g. digitized NEUT-binned)."""
+    rows = []
+    for ln in open(_flux_open(spec['data'])):
+        p = ln.replace(',', ' ').split()
+        try:
+            rows.append(tuple(float(x) for x in p[:4]))
+        except (ValueError, IndexError):
+            continue
+    frac = _read_matrix_txt(spec['cov'])
+    nom = np.array([r[3] for r in rows])
+    errs = np.sqrt(np.clip(np.diag(frac), 0, None)) * nom
+    bins, order = [], []
+    for i, (lo, hi, val, _n) in enumerate(rows):
+        bins.append({'i': i, 'lo': lo, 'hi': hi, 'center': 0.5 * (lo + hi),
+                     'val': val, 'err': float(errs[i])})
+        order.append(f"E[{lo:g},{hi:g}]")
+    med = float(np.median([b['hi'] - b['lo'] for b in bins]))     # clip overflow last bin
+    clipped = False
+    for b in bins:
+        if b['hi'] - b['lo'] > 4 * med:
+            b['hi_true'] = b['hi']; b['hi'] = round(b['lo'] + med, 4)
+            b['center'] = 0.5 * (b['lo'] + b['hi']); clipped = True
+    xl, yl, yu = spec['xlabel'], spec['ylabel'], spec.get('yunit', '')
+    dist = {
+        'key': spec['key'], 'slug': spec['key'],
+        'name': plotify(yl), 'name_tex': f'${yl}$',
+        'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''), 'xlabel_tex': f'${xl}$',
+        'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+        'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+        'nbins': len(bins), 'is2d': False, 'bins': bins, 'nuisance_file': '',
+        'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+        'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+    }
+    dist['_release_cov'] = _cov_obj(frac * np.outer(nom, nom), order, spec.get(
+        'cov_note', 'covariance = fractional covariance x nominal_i*nominal_j; row/col order below'))
+    return [dist]
+
+
 def _release_source_url(dists):
     """The URL for the whole release: the shared record when all distributions point
     at one file (Zenodo/arXiv), else the common parent directory (NUISANCE multi-file)."""
@@ -989,19 +1031,26 @@ REGISTRY = [
                            'INGRID complex, arXiv:1904.09611, PTEP 2019 093C02) · stat + syst '
                            '(quadrature) · nothing digitized'}}]},
     {'bibtag': 'T2K:2014hih', 'slug': 't2k-2014hih', 'source': 'arXiv',
-     'note': 'Flux-integrated value taken from the paper. The energy-dependent sigma(Enu) '
-             'and its 5x5 covariance are not machine-readable (central values appear only in '
-             'a figure) and are not included here.',
+     'note': 'sigma(E_nu) central values digitized from Fig 7 (analytical digitizer, overlay '
+             'verified; the 5 points flux-integrate to 0.855 vs the paper flux-integrated '
+             '0.83). The paper prints a fractional covariance (relative to the pre-fit NEUT '
+             'nominal); it is made absolute with the digitized pre-fit NEUT-binned curve, so '
+             'the covariance and correlations are exact. CCQE-like, model-dependent '
+             '(Smith-Moniz) extraction.',
      'flux': _FLUX_FHC,
-     'sources': [{'values': {
-         'key': 'sigma', 'ylabel': r'\langle\sigma_\mathrm{CCQE}\rangle',
-         'yunit': r'10^{-38}cm^2/\mathrm{neutron}',
+     'sources': [{'sigma_enu': {
+         'data': 'data/datasets/sources/t2k-2014hih/sigma_enu.csv',
+         'cov': 'data/datasets/sources/t2k-2014hih/frac_cov.csv',
+         'key': 'sigma_enu', 'xlabel': r'E_\nu', 'xunit': 'GeV',
+         'ylabel': r'\sigma_\mathrm{CCQE}(E_\nu)', 'yunit': r'10^{-38}cm^2/\mathrm{neutron}',
          'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1411.6264',
-         'provenance': 'T2K numu CCQE(-like) on carbon (ND280/FGD1, arXiv:1411.6264, Phys.Rev.D '
-                       '92 112003) · flux-integrated cross section per target neutron · total '
-                       'error · nothing digitized',
-         'items': [{'points': [
-             {'cat': r'\mathrm{Averaged\ T2K\ flux}', 'val': 0.83, 'err': 0.12}]}]}}]},
+         'provenance': 'T2K numu CCQE(-like) on carbon (ND280/FGD1, arXiv:1411.6264, '
+                       'Phys.Rev.D 92 112003) · sigma(E_nu) per target neutron · central '
+                       'values DIGITIZED from Fig 7 (analytical digitizer) · covariance = '
+                       'fractional covariance (Table) x pre-fit NEUT nominal_i*nominal_j',
+         'cov_note': 'covariance in (10^-38 cm^2/neutron)^2, from the paper fractional '
+                     'covariance (relative to the pre-fit NEUT nominal) times the digitized '
+                     'nominal_i*nominal_j; row/col order below'}}]},
     {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz',
      'flux': {'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root',
               'hists': [('numu_flux', 'numu')],
@@ -1318,6 +1367,8 @@ def build(entry):
             dists.extend(build_2d_root_explicit(src['root_explicit']))
         elif '2013nor' in src:
             dists.extend(build_2013nor(src['2013nor']))
+        elif 'sigma_enu' in src:
+            dists.extend(build_sigma_enu(src['sigma_enu']))
         elif 'zenodo3d' in src:
             dists.extend(build_3d_zenodo(src['zenodo3d']))
         elif 'values' in src:

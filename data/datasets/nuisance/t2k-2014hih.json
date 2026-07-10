@@ -5,45 +5,120 @@
  "source_url": "https://arxiv.org/abs/1411.6264",
  "arxiv": "1411.6264",
  "cite": "Phys.Rev.D 92 112003",
- "note": "Flux-integrated value taken from the paper. The energy-dependent sigma(Enu) and its 5x5 covariance are not machine-readable (central values appear only in a figure) and are not included here.",
+ "note": "sigma(E_nu) central values digitized from Fig 7 (analytical digitizer, overlay verified; the 5 points flux-integrate to 0.855 vs the paper flux-integrated 0.83). The paper prints a fractional covariance (relative to the pre-fit NEUT nominal); it is made absolute with the digitized pre-fit NEUT-binned curve, so the covariance and correlations are exact. CCQE-like, model-dependent (Smith-Moniz) extraction.",
  "distributions": [
   {
-   "key": "sigma",
-   "slug": "sigma",
-   "name": "langle\u03c3_CCQErangle",
-   "name_tex": "$\\langle\\sigma_\\mathrm{CCQE}\\rangle$",
-   "xlabel": "",
-   "xunit": "",
-   "xcat": true,
-   "ylabel": "langle\u03c3_CCQErangle",
-   "ylabel_plot": "langle\u03c3_CCQErangle",
-   "ylabel_tex": "$\\langle\\sigma_\\mathrm{CCQE}\\rangle$",
+   "key": "sigma_enu",
+   "slug": "sigma_enu",
+   "name": "\u03c3_CCQE(E_\u03bd)",
+   "name_tex": "$\\sigma_\\mathrm{CCQE}(E_\\nu)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_CCQE(E_\u03bd)",
+   "ylabel_plot": "\u03c3_CCQE(E_\u03bd)",
+   "ylabel_tex": "$\\sigma_\\mathrm{CCQE}(E_\\nu)$",
    "yunit": "10^{-38}cm^2/\\mathrm{neutron}",
    "yunit_tex": "$10^{-38}cm^2/\\mathrm{neutron}$",
-   "nbins": 1,
+   "nbins": 5,
    "is2d": false,
    "bins": [
     {
      "i": 0,
      "lo": 0.0,
+     "hi": 0.6,
+     "center": 0.3,
+     "val": 0.694,
+     "err": 0.1221651136781692
+    },
+    {
+     "i": 1,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 0.783,
+     "err": 0.1900624897237748
+    },
+    {
+     "i": 2,
+     "lo": 0.7,
      "hi": 1.0,
-     "center": 0.5,
-     "val": 0.83,
-     "err": 0.12,
-     "err_up": 0.12,
-     "err_down": 0.12,
-     "cat_tex": "\\mathrm{Averaged\\ T2K\\ flux}",
-     "cat": "Averaged T2K flux"
+     "center": 0.85,
+     "val": 1.1,
+     "err": 0.2111105847654257
+    },
+    {
+     "i": 3,
+     "lo": 1.0,
+     "hi": 1.5,
+     "center": 1.25,
+     "val": 0.379,
+     "err": 0.30979249829522987
+    },
+    {
+     "i": 4,
+     "lo": 1.5,
+     "hi": 3.5,
+     "center": 2.5,
+     "val": 1.388,
+     "err": 0.3749455320443224
     }
    ],
    "nuisance_file": "",
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1411.6264",
-   "provenance": "T2K numu CCQE(-like) on carbon (ND280/FGD1, arXiv:1411.6264, Phys.Rev.D 92 112003) \u00b7 flux-integrated cross section per target neutron \u00b7 total error \u00b7 nothing digitized",
-   "notes": "Flux-integrated cross section per target neutron. Total error. Nothing digitized."
+   "provenance": "T2K numu CCQE(-like) on carbon (ND280/FGD1, arXiv:1411.6264, Phys.Rev.D 92 112003) \u00b7 sigma(E_nu) per target neutron \u00b7 central values DIGITIZED from Fig 7 (analytical digitizer) \u00b7 covariance = fractional covariance (Table) x pre-fit NEUT nominal_i*nominal_j",
+   "notes": "Sigma(E_nu) per target neutron. Central values DIGITIZED from Fig 7 (analytical digitizer). Covariance = fractional covariance (Table) x pre-fit NEUT nominal_i*nominal_j."
   }
  ],
+ "covariance": {
+  "order": [
+   "E[0,0.6]",
+   "E[0.6,0.7]",
+   "E[0.7,1]",
+   "E[1,1.5]",
+   "E[1.5,3.5]"
+  ],
+  "note": "covariance in (10^-38 cm^2/neutron)^2, from the paper fractional covariance (relative to the pre-fit NEUT nominal) times the digitized nominal_i*nominal_j; row/col order below",
+  "matrix": [
+   [
+    0.014924,
+    0.0012733,
+    0.016753,
+    0.0046546,
+    0.019166
+   ],
+   [
+    0.0012733,
+    0.036124,
+    -0.0041691,
+    0.026641,
+    0.0
+   ],
+   [
+    0.016753,
+    -0.0041691,
+    0.044568,
+    -0.0076198,
+    0.043925
+   ],
+   [
+    0.0046546,
+    0.026641,
+    -0.0076198,
+    0.095971,
+    -0.029289
+   ],
+   [
+    0.019166,
+    0.0,
+    0.043925,
+    -0.029289,
+    0.14058
+   ]
+  ]
+ },
  "flux": {
   "note": "T2K ND280 FHC (nu-mode) flux prediction, all flavours \u2014 provided by NUISANCE (t2kflux_2016_plus250kA.root, 2016 tuning)",
   "columns": [
