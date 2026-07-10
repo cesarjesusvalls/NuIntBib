@@ -954,10 +954,14 @@ REGISTRY = [
              {'cat': r'\nu\ \mathrm{(FHC)}', 'val': 1.70, 'stat': 0.17, 'syst_up': 0.51, 'syst_down': 0.38},
              {'cat': r'\bar\nu\ \mathrm{(RHC)}', 'val': 0.98, 'stat': 0.16, 'syst_up': 0.26, 'syst_down': 0.19}]}]}}]},
     {'bibtag': 'T2K:2019dgm', 'slug': 't2k-2019dgm', 'source': 'T2K',
-     'note': 'On-axis measurement (INGRID complex, mean E ~1.5 GeV, restricted phase space '
-             'theta_mu<45 deg, p_mu>0.4 GeV/c). The on-axis flux is in the t2k.org release '
-             '(text+ROOT), which is not machine-accessible via the Web Archive, so it is not '
-             'shipped here; the values are taken from the paper.',
+     'note': 'On-axis measurement (INGRID complex, restricted phase space theta_mu<45 deg, '
+             'p_mu>0.4 GeV/c); values taken from the paper.',
+     'flux': {'root': 'data/datasets/sources/t2k-2023qjb/analysis_flux.root',
+              'hists': [('ingrid_flux_fine_nominal', 'numu_nominal'),
+                        ('ingrid_flux_fine_postfit', 'numu_postfit')],
+              'note': 'T2K on-axis INGRID numu flux (nominal + postfit) — the shared T2K '
+                      'on-axis flux, from the on/off-axis data release (2023qjb '
+                      'analysis_flux.root)'},
      'sources': [
          {'values': {
              'key': 'sigma', 'ylabel': r'\sigma_\mathrm{CC}', 'yunit': r'10^{-38}cm^2/nucleon',
