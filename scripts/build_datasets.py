@@ -953,6 +953,20 @@ REGISTRY = [
          'items': [{'points': [
              {'cat': r'\nu\ \mathrm{(FHC)}', 'val': 1.70, 'stat': 0.17, 'syst_up': 0.51, 'syst_down': 0.38},
              {'cat': r'\bar\nu\ \mathrm{(RHC)}', 'val': 0.98, 'stat': 0.16, 'syst_up': 0.26, 'syst_down': 0.19}]}]}}]},
+    {'bibtag': 'T2K:2014hih', 'slug': 't2k-2014hih', 'source': 'arXiv',
+     'note': 'Flux-integrated value taken from the paper. The energy-dependent sigma(Enu) '
+             'and its 5x5 covariance are not machine-readable (central values appear only in '
+             'a figure) and are not included here.',
+     'flux': _FLUX_FHC,
+     'sources': [{'values': {
+         'key': 'sigma', 'ylabel': r'\langle\sigma_\mathrm{CCQE}\rangle',
+         'yunit': r'10^{-38}cm^2/\mathrm{neutron}',
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1411.6264',
+         'provenance': 'T2K numu CCQE(-like) on carbon (ND280/FGD1, arXiv:1411.6264, Phys.Rev.D '
+                       '92 112003) · flux-integrated cross section per target neutron · total '
+                       'error · nothing digitized',
+         'items': [{'points': [
+             {'cat': r'\mathrm{Averaged\ T2K\ flux}', 'val': 0.83, 'err': 0.12}]}]}}]},
     {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz',
      'flux': {'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root',
               'hists': [('numu_flux', 'numu')],
