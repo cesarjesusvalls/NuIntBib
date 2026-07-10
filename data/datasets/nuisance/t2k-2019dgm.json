@@ -1,0 +1,131 @@
+{
+ "bibtag": "T2K:2019dgm",
+ "slug": "t2k-2019dgm",
+ "source": "T2K",
+ "source_url": "http://web.archive.org/web/2020/http://t2k-experiment.org/results/ingriddata-numu-cc-inc-xs-on-h2o-2018",
+ "arxiv": "1904.09611",
+ "cite": "PTEP 2019 093C02",
+ "note": "On-axis measurement (INGRID complex, mean E ~1.5 GeV, restricted phase space theta_mu<45 deg, p_mu>0.4 GeV/c). The on-axis flux is in the t2k.org release (text+ROOT), which is not machine-accessible via the Web Archive, so it is not shipped here; the values are taken from the paper.",
+ "distributions": [
+  {
+   "key": "sigma_xsec",
+   "slug": "sigma_xsec",
+   "name": "\u03c3_CC (xsec)",
+   "name_tex": "$\\sigma_\\mathrm{CC}$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3_CC",
+   "ylabel_plot": "\u03c3_CC",
+   "ylabel_tex": "$\\sigma_\\mathrm{CC}$",
+   "yunit": "10^{-38}cm^2/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/nucleon$",
+   "nbins": 3,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.84,
+     "err": 0.1004987562112089,
+     "err_up": 0.1004987562112089,
+     "err_down": 0.0806225774829855,
+     "cat_tex": "$\\mathrm{H_2O}$",
+     "cat": "H2O"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.817,
+     "err": 0.11022250223978768,
+     "err_up": 0.11022250223978768,
+     "err_down": 0.08030566605165541,
+     "cat_tex": "$\\mathrm{CH}$",
+     "cat": "CH"
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 0.859,
+     "err": 0.12003749414245533,
+     "err_up": 0.12003749414245533,
+     "err_down": 0.1000449898795537,
+     "cat_tex": "$\\mathrm{Fe}$",
+     "cat": "Fe"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "T2K",
+   "source_url": "http://web.archive.org/web/2020/http://t2k-experiment.org/results/ingriddata-numu-cc-inc-xs-on-h2o-2018",
+   "provenance": "T2K numu CC-inclusive on H2O/CH/Fe (on-axis INGRID complex, arXiv:1904.09611, PTEP 2019 093C02) \u00b7 flux-integrated per-nucleon cross sections, restricted PS theta_mu<45 deg, p_mu>0.4 GeV/c \u00b7 stat + asymmetric syst \u00b7 nothing digitized",
+   "notes": "Flux-integrated per-nucleon cross sections, restricted PS theta_mu<45 deg, p_mu>0.4 GeV/c. Stat + asymmetric syst. Nothing digitized."
+  },
+  {
+   "key": "ratio_ratio",
+   "slug": "ratio_ratio",
+   "name": "\u03c3 ratio (ratio)",
+   "name_tex": "$\\sigma\\ \\mathrm{ratio}$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3 ratio",
+   "ylabel_plot": "\u03c3 ratio",
+   "ylabel_tex": "$\\sigma\\ \\mathrm{ratio}$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 3,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 1.028,
+     "err": 0.055362442142665634,
+     "err_up": 0.055362442142665634,
+     "err_down": 0.055362442142665634,
+     "cat_tex": "$\\sigma_\\mathrm{H_2O}/\\sigma_\\mathrm{CH}$",
+     "cat": "sigma_H2O/sigma_CH"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 1.023,
+     "err": 0.05922837157984339,
+     "err_up": 0.05922837157984339,
+     "err_down": 0.05922837157984339,
+     "cat_tex": "$\\sigma_\\mathrm{Fe}/\\sigma_\\mathrm{H_2O}$",
+     "cat": "sigma_Fe/sigma_H2O"
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 1.049,
+     "err": 0.04414748010928823,
+     "err_up": 0.04414748010928823,
+     "err_down": 0.04414748010928823,
+     "cat_tex": "$\\sigma_\\mathrm{Fe}/\\sigma_\\mathrm{CH}$",
+     "cat": "sigma_Fe/sigma_CH"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "T2K",
+   "source_url": "http://web.archive.org/web/2020/http://t2k-experiment.org/results/ingriddata-numu-cc-inc-xs-on-h2o-2018",
+   "provenance": "T2K numu CC-inclusive cross-section ratios among H2O/CH/Fe (on-axis INGRID complex, arXiv:1904.09611, PTEP 2019 093C02) \u00b7 stat + syst (quadrature) \u00b7 nothing digitized",
+   "notes": "Stat + syst (quadrature). Nothing digitized."
+  }
+ ]
+}

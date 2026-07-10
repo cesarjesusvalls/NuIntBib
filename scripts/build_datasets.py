@@ -953,6 +953,37 @@ REGISTRY = [
          'items': [{'points': [
              {'cat': r'\nu\ \mathrm{(FHC)}', 'val': 1.70, 'stat': 0.17, 'syst_up': 0.51, 'syst_down': 0.38},
              {'cat': r'\bar\nu\ \mathrm{(RHC)}', 'val': 0.98, 'stat': 0.16, 'syst_up': 0.26, 'syst_down': 0.19}]}]}}]},
+    {'bibtag': 'T2K:2019dgm', 'slug': 't2k-2019dgm', 'source': 'T2K',
+     'note': 'On-axis measurement (INGRID complex, mean E ~1.5 GeV, restricted phase space '
+             'theta_mu<45 deg, p_mu>0.4 GeV/c). The on-axis flux is in the t2k.org release '
+             '(text+ROOT), which is not machine-accessible via the Web Archive, so it is not '
+             'shipped here; the values are taken from the paper.',
+     'sources': [
+         {'values': {
+             'key': 'sigma', 'ylabel': r'\sigma_\mathrm{CC}', 'yunit': r'10^{-38}cm^2/nucleon',
+             'items': [{'slug': 'xsec', 'points': [
+                 {'cat': r'$\mathrm{H_2O}$', 'val': 0.840, 'stat': 0.010, 'syst_up': 0.10, 'syst_down': 0.08},
+                 {'cat': r'$\mathrm{CH}$', 'val': 0.817, 'stat': 0.007, 'syst_up': 0.11, 'syst_down': 0.08},
+                 {'cat': r'$\mathrm{Fe}$', 'val': 0.859, 'stat': 0.003, 'syst_up': 0.12, 'syst_down': 0.10}]}],
+             'source': 'T2K',
+             'source_url': 'http://web.archive.org/web/2020/http://t2k-experiment.org/results/'
+                           'ingriddata-numu-cc-inc-xs-on-h2o-2018',
+             'provenance': 'T2K numu CC-inclusive on H2O/CH/Fe (on-axis INGRID complex, '
+                           'arXiv:1904.09611, PTEP 2019 093C02) · flux-integrated per-nucleon '
+                           'cross sections, restricted PS theta_mu<45 deg, p_mu>0.4 GeV/c · '
+                           'stat + asymmetric syst · nothing digitized'}},
+         {'values': {
+             'key': 'ratio', 'ylabel': r'\sigma\ \mathrm{ratio}', 'yunit': '',
+             'items': [{'slug': 'ratio', 'points': [
+                 {'cat': r'$\sigma_\mathrm{H_2O}/\sigma_\mathrm{CH}$', 'val': 1.028, 'stat': 0.016, 'syst_up': 0.053, 'syst_down': 0.053},
+                 {'cat': r'$\sigma_\mathrm{Fe}/\sigma_\mathrm{H_2O}$', 'val': 1.023, 'stat': 0.012, 'syst_up': 0.058, 'syst_down': 0.058},
+                 {'cat': r'$\sigma_\mathrm{Fe}/\sigma_\mathrm{CH}$', 'val': 1.049, 'stat': 0.010, 'syst_up': 0.043, 'syst_down': 0.043}]}],
+             'source': 'T2K',
+             'source_url': 'http://web.archive.org/web/2020/http://t2k-experiment.org/results/'
+                           'ingriddata-numu-cc-inc-xs-on-h2o-2018',
+             'provenance': 'T2K numu CC-inclusive cross-section ratios among H2O/CH/Fe (on-axis '
+                           'INGRID complex, arXiv:1904.09611, PTEP 2019 093C02) · stat + syst '
+                           '(quadrature) · nothing digitized'}}]},
     {'bibtag': 'T2K:2014hih', 'slug': 't2k-2014hih', 'source': 'arXiv',
      'note': 'Flux-integrated value taken from the paper. The energy-dependent sigma(Enu) '
              'and its 5x5 covariance are not machine-readable (central values appear only in '
