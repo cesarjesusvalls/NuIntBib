@@ -1,0 +1,3 @@
+T2K numu/numubar NCQE-like on oxygen (Super-K), PRD 100 112009 (2019), arXiv:1910.09439
+covariance.csv: 2x2 total (stat+syst) covariance of [sigma_nu, sigma_nubar] in (1e-38 cm^2/oxygen)^2, from Table III (stat [[0.030,-0.005],[-0.005,0.025]] + syst [[0.227,0.095],[0.095,0.058]]).
+Values + covariance transcribed from the paper; the legacy release page (t2k-experiment.org/results/2019-NCQE-nuclear-gamma) ships no data files.

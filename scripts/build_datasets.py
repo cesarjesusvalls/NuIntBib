@@ -495,6 +495,14 @@ _FLUX_BOTH = {'blocks': [
     {'root': _FLUX_RHC['root'], 'hists': [(n, l + '_rhc') for n, l in _FLUX_NUM]}],
     'note': 'T2K ND280 flux prediction for both beam modes (FHC nu-mode + RHC nubar-mode), '
             'all flavours — provided by NUISANCE (t2kflux_2016_plus/minus250kA.root, 2016 tuning)'}
+# Super-K (far-detector) unoscillated flux — for T2K SK cross-section measurements.
+_FLUX_SK_NUM = [('enu_sk_numu', 'numu'), ('enu_sk_numub', 'numubar'),
+                ('enu_sk_nue', 'nue'), ('enu_sk_nueb', 'nueb')]
+_FLUX_SK_BOTH = {'blocks': [
+    {'root': _FLUX_FHC['root'], 'hists': [(n, l + '_fhc') for n, l in _FLUX_SK_NUM]},
+    {'root': _FLUX_RHC['root'], 'hists': [(n, l + '_rhc') for n, l in _FLUX_SK_NUM]}],
+    'note': 'T2K Super-K (far detector) unoscillated flux for both beam modes (FHC+RHC), all '
+            'flavours — provided by NUISANCE (t2kflux_2016_plus/minus250kA.root, enu_sk_*)'}
 
 
 def _cat_plain(tex):
@@ -712,7 +720,8 @@ def build_release_cov(spec, dists):
     ratio = np.median(np.sqrt(np.clip(np.diag(M), 0, None))[good] / err[good]) if good.any() else 0
     if not 0.9 < ratio < 1.1:
         print(f"    !! cov sqrt(diag)/err median = {ratio:.3f} (expected ~1)")
-    order = [f"{d['key']} [{b['lo']:g},{b.get('hi_true', b['hi']):g}]" for d, b in flat]
+    order = [(b['cat'] if b.get('cat') else f"{d['key']} [{b['lo']:g},{b.get('hi_true', b['hi']):g}]")
+             for d, b in flat]
     return _cov_obj(M, order, spec['note'])
 
 
@@ -926,6 +935,24 @@ REGISTRY = [
          'provenance': 'T2K numu CC-inclusive on carbon (ND280/FGD1, arXiv:1302.4908, '
                        'Phys.Rev.D 87 092003) · forward bins only (backward bin is model '
                        'extrapolation) · per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
+    {'bibtag': 'T2K:2019zqh', 'slug': 't2k-2019zqh', 'source': 'T2K',
+     'note': 'Values + 2x2 covariance transcribed from the paper (Table III); the legacy '
+             'release page ships no data files.',
+     'flux': _FLUX_SK_BOTH,
+     'covariance': {'txt': 'data/datasets/sources/t2k-2019zqh/covariance.csv',
+                    'note': 'total (stat+syst) covariance of the nu and nubar NCQE-like cross '
+                            'sections in (10^-38 cm^2/oxygen)^2, from Table III; row/col order below'},
+     'sources': [{'values': {
+         'key': 'sigma', 'ylabel': r'\sigma_\mathrm{NCQE}', 'yunit': r'10^{-38}cm^2/{}^{16}\mathrm{O}',
+         'source': 'T2K',
+         'source_url': 'http://web.archive.org/web/2020/http://t2k-experiment.org/results/'
+                       '2019-NCQE-nuclear-gamma',
+         'provenance': 'T2K NCQE-like on oxygen (Super-K, arXiv:1910.09439, Phys.Rev.D 100 '
+                       '112009) · flux-averaged single values · 2x2 stat+syst covariance from '
+                       'Table III · nothing digitized',
+         'items': [{'points': [
+             {'cat': r'\nu\ \mathrm{(FHC)}', 'val': 1.70, 'stat': 0.17, 'syst_up': 0.51, 'syst_down': 0.38},
+             {'cat': r'\bar\nu\ \mathrm{(RHC)}', 'val': 0.98, 'stat': 0.16, 'syst_up': 0.26, 'syst_down': 0.19}]}]}}]},
     {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz',
      'flux': {'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root',
               'hists': [('numu_flux', 'numu')],
