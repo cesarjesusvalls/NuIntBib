@@ -716,6 +716,8 @@ def build_sigma_enu(spec):
     }
     dist['_release_cov'] = _cov_obj(frac * np.outer(nom, nom), order, spec.get(
         'cov_note', 'covariance = fractional covariance x nominal_i*nominal_j; row/col order below'))
+    if spec.get('digitization'):
+        dist['digitization'] = spec['digitization']
     return [dist]
 
 
@@ -1050,7 +1052,13 @@ REGISTRY = [
                        'fractional covariance (Table) x pre-fit NEUT nominal_i*nominal_j',
          'cov_note': 'covariance in (10^-38 cm^2/neutron)^2, from the paper fractional '
                      'covariance (relative to the pre-fit NEUT nominal) times the digitized '
-                     'nominal_i*nominal_j; row/col order below'}}]},
+                     'nominal_i*nominal_j; row/col order below',
+         'digitization': {
+             'original': '/digitize/t2k-2014hih/original.png',
+             'overlay': '/digitize/t2k-2014hih/overlay.png',
+             'note': 'Fig 7 of the paper (left); our extracted points + errors overlaid in '
+                     'cyan (right); the digitized data below. Values are the black cross '
+                     'markers; error bars are sqrt(frac_ii) x the pre-fit NEUT nominal.'}}}]},
     {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz',
      'flux': {'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root',
               'hists': [('numu_flux', 'numu')],

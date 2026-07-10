@@ -69,6 +69,11 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1411.6264",
    "provenance": "T2K numu CCQE(-like) on carbon (ND280/FGD1, arXiv:1411.6264, Phys.Rev.D 92 112003) \u00b7 sigma(E_nu) per target neutron \u00b7 central values DIGITIZED from Fig 7 (analytical digitizer) \u00b7 covariance = fractional covariance (Table) x pre-fit NEUT nominal_i*nominal_j",
+   "digitization": {
+    "original": "/digitize/t2k-2014hih/original.png",
+    "overlay": "/digitize/t2k-2014hih/overlay.png",
+    "note": "Fig 7 of the paper (left); our extracted points + errors overlaid in cyan (right); the digitized data below. Values are the black cross markers; error bars are sqrt(frac_ii) x the pre-fit NEUT nominal."
+   },
    "notes": "Sigma(E_nu) per target neutron. Central values DIGITIZED from Fig 7 (analytical digitizer). Covariance = fractional covariance (Table) x pre-fit NEUT nominal_i*nominal_j."
   }
  ],

@@ -126,6 +126,55 @@
   border-top: 1px solid var(--line);
   padding: 1.2rem 1.1rem 1.3rem;
 }
+/* digitization provenance: original paper figure + our overlay, shown above the
+   digitized-data plot so the extraction is auditable at a glance */
+.dr-digi {
+  margin-bottom: 1.2rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px dashed var(--line);
+}
+.dr-digi-lbl {
+  font-family: var(--dr-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+.dr-digi-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+@media (max-width: 620px) {
+  .dr-digi-imgs {
+    grid-template-columns: 1fr;
+  }
+}
+.dr-digi-imgs figure {
+  margin: 0;
+}
+.dr-digi-imgs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line-soft);
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.dr-digi-imgs figcaption {
+  font-family: var(--dr-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.dr-digi-note {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 0.6rem 0 0;
+  line-height: 1.5;
+}
 .dr-slices {
   display: flex;
   flex-wrap: wrap;

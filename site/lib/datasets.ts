@@ -65,6 +65,8 @@ export type Distribution = {
   provenance: string;   // full: source · path · citation · notes (kept for CSV/README)
   notes: string;        // display subset: the technical caveats only
   nuisance_file: string;
+  // digitized releases: the original paper figure + our overlay, for provenance display
+  digitization?: { original: string; overlay: string; note?: string };
 };
 
 export type Covariance = {

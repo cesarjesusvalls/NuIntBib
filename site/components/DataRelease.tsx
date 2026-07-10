@@ -323,6 +323,22 @@ export function DataRelease({ release }: { release: Release }) {
 
               {isOpen && (
                 <div className="dr-body">
+                  {d.digitization && (
+                    <div className="dr-digi">
+                      <div className="dr-digi-lbl">Digitized from the paper figure</div>
+                      <div className="dr-digi-imgs">
+                        <figure>
+                          <img src={d.digitization.original} alt="Original paper figure" loading="lazy" />
+                          <figcaption>Paper figure</figcaption>
+                        </figure>
+                        <figure>
+                          <img src={d.digitization.overlay} alt="Our extracted points and errors overlaid on the paper figure" loading="lazy" />
+                          <figcaption>Our extraction overlaid (cyan)</figcaption>
+                        </figure>
+                      </div>
+                      {d.digitization.note && <p className="dr-digi-note">{d.digitization.note}</p>}
+                    </div>
+                  )}
                   {is2d && (
                     <div className="dr-slices">
                       <span className="dr-slices-lbl">{d.slicevar_tex ? `${strip(d.slicevar_tex)} slice:` : 'slice:'}</span>
