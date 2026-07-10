@@ -1,0 +1,4 @@
+T2K numu CC-inclusive on carbon (ND280/FGD1), PRD 87 092003 (2013), arXiv:1302.4908
+Official data release recovered from the Web Archive of the defunct t2k-experiment.org:
+http://web.archive.org/web/20190929033629/http://t2k-experiment.org/wp-content/uploads/T2K-nd280data-numu-cc-inc-xs-on-c-2013.tar
+data_release.root: dxs_th1..4 (4 cos-theta slices x 5 p_mu bins), xs_stat/syst/flux_cov (25x25 fractional), flux_numu/numubar/nue/nueb (200 bins).

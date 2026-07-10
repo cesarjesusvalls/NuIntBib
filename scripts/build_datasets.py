@@ -782,6 +782,42 @@ def build_2d_root_explicit(spec):
     return out
 
 
+# forward-bin indices (cos>0) into the 25-bin true binning of T2K:2013nor, in the
+# order cos-slice (th1..th4) x p_mu-ascending — matches the assembled distribution.
+_2013NOR_FWD = [1, 6, 11, 16, 21, 2, 7, 12, 17, 22, 3, 8, 13, 18, 23, 4, 9, 14, 19, 24]
+
+
+def build_2013nor(spec):
+    """T2K 2013 numu CC-inclusive on carbon (ND280): four cos-theta slices
+    (dxs_th1..4, 5 p_mu bins each) carrying values + errors, plus the released
+    25x25 fractional covariance (stat+syst) restricted to the 20 forward bins and
+    converted to absolute via value_i*value_j."""
+    f = uproot.open(_flux_open(spec['root']))
+    cos = [(0.0, 0.84), (0.84, 0.90), (0.90, 0.94), (0.94, 1.0)]
+    ths = ['dxs_th1', 'dxs_th2', 'dxs_th3', 'dxs_th4']
+    grouped, vflat, order = {}, [], []
+    for (clo, chi), thk in zip(cos, ths):
+        h = f[thk]; edges = h.axis().edges() / 1000.0        # MeV -> GeV/c
+        vv, ee = h.values(), h.errors()
+        grouped[(clo, chi)] = [(float(edges[i]), float(edges[i + 1]), float(vv[i]), float(ee[i]))
+                               for i in range(len(vv))]
+        for i in range(len(vv)):
+            vflat.append(float(vv[i]))
+            order.append(f"cos[{clo:g},{chi:g}] p[{edges[i]:g},{edges[i + 1]:g}]")
+    out = _assemble_2d(grouped, {**spec, 'nuisance_file': spec['root']})
+
+    def _m(key):
+        o = f[key]; N = o.member('fNrows'); return np.array(o.member('fElements')).reshape(N, N)
+    frac = _m('xs_stat_cov') + _m('xs_syst_cov')             # released fractional total
+    v = np.array(vflat)
+    cov = frac[np.ix_(_2013NOR_FWD, _2013NOR_FWD)] * np.outer(v, v)
+    if out:
+        out[0]['_release_cov'] = _cov_obj(cov, order,
+            'total (stat+syst) covariance in (cm^2/nucleon/MeV)^2, from the released '
+            'fractional covariance (forward bins) times value_i*value_j; row/col order below')
+    return out
+
+
 def _assemble_2d(grouped, spec):
     """Turn {(cos_lo,cos_hi): [(p_lo,p_hi,val,err),...]} into a single 2-D
     distribution presented as sliced 1-D panels (overflow last bins truncated)."""
@@ -872,6 +908,24 @@ def _nue(f, name, x, xu, y, yu):
                                        'ylabel': y, 'yunit': yu}}
 
 REGISTRY = [
+    {'bibtag': 'T2K:2013nor', 'slug': 't2k-2013nor', 'source': 'T2K',
+     'note': 'Data release recovered from the Web Archive of the (defunct) t2k-experiment.org.',
+     'flux': {'root': 'data/datasets/sources/t2k-2013nor/data_release.root',
+              'hists': [('flux_numu', 'numu'), ('flux_numubar', 'numubar'),
+                        ('flux_nue', 'nue'), ('flux_nueb', 'nueb')],
+              'note': 'T2K ND280 flux for this measurement (all flavours), from the data '
+                      'release data_release.root'},
+     'sources': [{'2013nor': {
+         'root': 'data/datasets/sources/t2k-2013nor/data_release.root',
+         'xlabel': r'p_\mu', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}^2\sigma/\mathrm{d}p_\mu\mathrm{d}\cos\theta_\mu',
+         'yunit': r'cm^2/nucleon/MeV', 'slicevar': r'\cos\theta_\mu',
+         'source': 'T2K',
+         'source_url': 'http://web.archive.org/web/20190929033629/http://t2k-experiment.org/'
+                       'results/nd280data-numu-cc-inc-xs-on-c-2013/',
+         'provenance': 'T2K numu CC-inclusive on carbon (ND280/FGD1, arXiv:1302.4908, '
+                       'Phys.Rev.D 87 092003) · forward bins only (backward bin is model '
+                       'extrapolation) · per-bin error = sqrt(diag(covariance)) · nothing digitized'}}]},
     {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz',
      'flux': {'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root',
               'hists': [('numu_flux', 'numu')],
@@ -1186,6 +1240,8 @@ def build(entry):
             dists.extend(build_2d_rootslices(src['rootslices']))
         elif 'root_explicit' in src:
             dists.extend(build_2d_root_explicit(src['root_explicit']))
+        elif '2013nor' in src:
+            dists.extend(build_2013nor(src['2013nor']))
         elif 'zenodo3d' in src:
             dists.extend(build_3d_zenodo(src['zenodo3d']))
         elif 'values' in src:
