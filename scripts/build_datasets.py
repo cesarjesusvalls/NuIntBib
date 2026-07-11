@@ -855,6 +855,59 @@ def build_minerva_csv(spec):
     return [dist]
 
 
+def build_minerva_csv2(spec):
+    """MINERvA CSV release with one 'Xsec_<obs>.csv' + 'Cov_<obs>.csv' per observable
+    (e.g. the nu_e CCQE-like release 1509.05729). Xsec rows are 'lo - hi, value, stat, sys';
+    the covariance CSV is an upper-triangular matrix ($-wrapped) with 'lo - hi' row/col labels
+    (total covariance in the scaled cross-section units^2). Per-bin error = sqrt(diag); the
+    covariances are block-diagonal across observables."""
+    dists, blocks, order = [], [], []
+    for it in spec['items']:
+        edges, vals = [], []
+        rows = [l.rstrip('\n') for l in open(_flux_open(it['xsec'])) if l.strip()]
+        for l in rows[1:]:                                              # row 0 is the header
+            p = [c.strip() for c in l.split(',')]
+            lo, hi = (float(x) for x in p[0].split(' - '))
+            if not edges:
+                edges.append(lo)
+            edges.append(hi); vals.append(float(p[1]))
+        n = len(vals)
+        M = np.zeros((n, n))
+        crows = [l.rstrip('\n') for l in open(_flux_open(it['cov'])) if l.strip()]
+        for i, l in enumerate(crows[1:]):                              # row 0 is the column labels
+            cells = [c.strip().strip('$') for c in l.split(',')][1:]   # drop the row label
+            for j, c in enumerate(cells):
+                if c:
+                    M[i][j] = float(c)
+        M = M + M.T - np.diag(np.diag(M))                              # upper triangle -> symmetric
+        err = np.sqrt(np.clip(np.diag(M), 0, None))
+        bins = [{'i': i, 'lo': edges[i], 'hi': edges[i + 1], 'center': 0.5 * (edges[i] + edges[i + 1]),
+                 'val': vals[i], 'err': float(err[i])} for i in range(n)]
+        xl, yl = it['xlabel'], it['ylabel']
+        yu = it.get('yunit', ''); xu = it.get('xunit', '')
+        key = spec.get('key', 'dsigma') + '_' + it['slug']
+        dists.append({
+            'key': key, 'slug': key, 'name': plotify(yl), 'name_tex': f'${yl}$',
+            'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
+            'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+            'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+            'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': it['xsec'],
+            'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+        })
+        blocks.append(M)
+        for i in range(n):
+            order.append(f"{it['slug']} [{edges[i]:g},{edges[i + 1]:g}]")
+    total = sum(b.shape[0] for b in blocks)
+    cov_out = np.zeros((total, total)); off = 0
+    for b in blocks:
+        k = b.shape[0]; cov_out[off:off + k, off:off + k] = b; off += k
+    if dists:
+        dists[0]['_release_cov'] = _cov_obj(cov_out, order, spec.get(
+            'cov_note', 'block-diagonal total covariance per observable (scaled cross-section '
+            'units^2); row/col order below'))
+    return dists
+
+
 def build_uboone_concat(spec):
     """MicroBooNE Wiener-SVD release where several 1D differential cross sections are
     CONCATENATED into one long vector: a TMatrix of unfolded values WITHOUT bin-width
@@ -1177,6 +1230,36 @@ def _tki_items(slugs):
 
 
 REGISTRY = [
+    {'bibtag': 'MINERvA:2015jih', 'slug': 'minerva-2015jih', 'source': 'arXiv',
+     'note': 'nu_e CC quasi-elastic-like differential cross sections (electron energy, electron '
+             'angle, Q^2_QE) and the (nu_e+nubar_e)/nu_mu ratio in Q^2_QE, on hydrocarbon '
+             '(per nucleon), NuMI LE. Values + total covariance per observable from the arXiv '
+             'ancillary CSVs.',
+     'sources': [{'minerva_csv2': {
+         'key': 'dsigma',
+         'items': [
+             {'slug': 'Ee', 'xsec': 'data/datasets/sources/minerva-2015jih/Xsec_ElectronEnergy.csv',
+              'cov': 'data/datasets/sources/minerva-2015jih/Cov_ElectronEnergy.csv',
+              'xlabel': r'E_e', 'xunit': 'GeV',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_e', 'yunit': r'10^{-39}cm^2/GeV/nucleon'},
+             {'slug': 'theta_e', 'xsec': 'data/datasets/sources/minerva-2015jih/Xsec_ElectronAngle.csv',
+              'cov': 'data/datasets/sources/minerva-2015jih/Cov_ElectronAngle.csv',
+              'xlabel': r'\theta_e', 'xunit': 'deg',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\theta_e', 'yunit': r'10^{-39}cm^2/\mathrm{deg}/nucleon'},
+             {'slug': 'Q2QE', 'xsec': 'data/datasets/sources/minerva-2015jih/Xsec_NeutrinoQ2.csv',
+              'cov': 'data/datasets/sources/minerva-2015jih/Cov_NeutrinoQ2.csv',
+              'xlabel': r'Q^2_{QE}', 'xunit': 'GeV^2',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}Q^2_{QE}', 'yunit': r'10^{-39}cm^2/GeV^2/nucleon'},
+             {'slug': 'ratio_Q2QE', 'xsec': 'data/datasets/sources/minerva-2015jih/Xsec_NueNumuRatio.csv',
+              'cov': 'data/datasets/sources/minerva-2015jih/Cov_NueNumuRatio.csv',
+              'xlabel': r'Q^2_{QE}', 'xunit': 'GeV^2',
+              'ylabel': r'(\mathrm{d}\sigma^{\nu_e+\bar\nu_e}/\mathrm{d}Q^2_{QE})/(\mathrm{d}\sigma^{\nu_\mu}/\mathrm{d}Q^2_{QE})',
+              'yunit': ''}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1509.05729',
+         'provenance': 'MINERvA nu_e CCQE-like dsigma/d{E_e, theta_e, Q^2_QE} and the nu_e/nu_mu '
+                       'ratio on hydrocarbon (NuMI LE, arXiv:1509.05729) · per nucleon · total '
+                       'covariance per observable (block-diagonal) · from the arXiv ancillary CSVs '
+                       '· nothing digitized'}}]},
     {'bibtag': 'MINERvA:2018hba', 'slug': 'minerva-2018hba', 'source': 'arXiv',
      'note': 'numu CCQE-like (muon + proton, mesonless) transverse-kinematic-imbalance and '
              'lepton/proton kinematic differential cross sections on hydrocarbon (per nucleon), '
@@ -1919,6 +2002,8 @@ def build(entry):
             dists.extend(build_minerva_csv(src['minerva_csv']))
         elif 'uboone_concat' in src:
             dists.extend(build_uboone_concat(src['uboone_concat']))
+        elif 'minerva_csv2' in src:
+            dists.extend(build_minerva_csv2(src['minerva_csv2']))
         elif 'zenodo3d' in src:
             dists.extend(build_3d_zenodo(src['zenodo3d']))
         elif 'values' in src:
