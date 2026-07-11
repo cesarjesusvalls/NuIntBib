@@ -147,7 +147,7 @@ def validate(path):
 
 
 def main():
-    files = sorted(glob.glob(os.path.join(OUT_DIR, 't2k-*.json')))
+    files = sorted(glob.glob(os.path.join(OUT_DIR, '*.json')))
     total_err = 0
     for f in files:
         slug, errs = validate(f)
