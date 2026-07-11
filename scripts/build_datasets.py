@@ -452,11 +452,15 @@ def _flux_from_csv(spec):
     lines = [(l.split(sep) if sep else l.split()) for l in open(path)
              if l.strip() and not l.lstrip().startswith('#')]
     data = lines[1:] if spec.get('header', True) else lines
-    elo, ehi = spec['ecol']
+    erange = spec.get('erange')                 # single 'lo - hi' column, else ecol=(i_lo,i_hi)
     rows = []
     for p in data:
         try:
-            row = [round(float(p[elo]), 4), round(float(p[ehi]), 4)]
+            if erange is not None:
+                lo, hi = (float(x) for x in p[erange].split(' - '))
+            else:
+                lo, hi = float(p[spec['ecol'][0]]), float(p[spec['ecol'][1]])
+            row = [round(lo, 4), round(hi, 4)]
             row += [float(f'{float(p[ci]):.6g}') for ci, _ in spec['fcol']]
             rows.append(row)
         except (ValueError, IndexError):
@@ -1303,6 +1307,10 @@ REGISTRY = [
              'angle, Q^2_QE) and the (nu_e+nubar_e)/nu_mu ratio in Q^2_QE, on hydrocarbon '
              '(per nucleon), NuMI LE. Values + total covariance per observable from the arXiv '
              'ancillary CSVs.',
+     'flux': {'csv': 'data/datasets/sources/minerva-2015jih/Flux.csv', 'sep': ',', 'erange': 0,
+              'fcol': [(1, 'nue+nuebar (x1e-10 /cm^2/GeV/POT)'), (2, 'nuebar_fraction')],
+              'note': 'MINERvA NuMI LE nu_e + nubar_e flux (x10^-10 neutrinos/cm^2/GeV/POT) with the '
+                      'nubar_e fraction, from the release Flux.csv'},
      'sources': [{'minerva_csv2': {
          'key': 'dsigma',
          'items': [
@@ -1432,7 +1440,8 @@ REGISTRY = [
      'note': 'numu CC inclusive differential cross sections d(sigma)/dpT and d(sigma)/dp_parallel '
              'on hydrocarbon (per nucleon), NuMI LE <Enu>~3.5 GeV. Muon-angle < 20 deg phase space. '
              'Values + total covariance from the arXiv ancillary release; each 1D projection '
-             'carries its own covariance (the 2D d2sigma/dpTdp_par is in the release too).',
+             'carries its own covariance. The release also ships the 2D d2sigma/dpTdp_par '
+             '(144 bins + 156x156 covariance); only the two 1D projections are ingested here.',
      'sources': [{'minerva_root': {
          'key': 'dsigma',
          'xlabel': r'p_{T\mu}', 'xunit': 'GeV/c',
@@ -1626,7 +1635,9 @@ REGISTRY = [
                        'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2026apf', 'slug': 'minerva-2026apf', 'source': 'arXiv',
      'note': 'CC-inclusive antineutrino dsigma/dpT per nucleon on C, CH, Fe, Pb; from the '
-             'arXiv ancillary ROOT release.',
+             'arXiv ancillary ROOT release. The release also ships the three cross-section '
+             'ratios to hydrocarbon (C/CH, Fe/CH, Pb/CH) with their own covariances; only the '
+             'four absolute cross sections are ingested here.',
      'flux': {'root': 'data/datasets/sources/minerva-2026apf/release.root',
               'hists': [('flux_ptmu_carbon', 'numubar_C'), ('flux_ptmu_hydrocarbon', 'numubar_CH'),
                         ('flux_ptmu_iron', 'numubar_Fe'), ('flux_ptmu_lead', 'numubar_Pb')],
