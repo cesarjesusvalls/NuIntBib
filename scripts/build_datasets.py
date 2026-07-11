@@ -748,11 +748,21 @@ def build_minerva_root(spec):
     soff = 0
     for it in spec['items']:
         r = _open(it.get('root', droot))
-        h = r[it['hist']]; edges = h.axis().edges(); vv = h.values(); n = len(vv)
+        icov = None
+        if it.get('tlist'):                                            # MINERvA "TList per observable":
+            tlst = r[it['tlist']]                                      # xsec TH1D(s) + a covariance TMatrix
+            h = next(x for x in tlst if 'TH1' in x.classname
+                     and 'total' in (x.member('fName') or '').lower())  # xsec_with_total_errors
+            cm = next(x for x in tlst if 'TMatrix' in x.classname)
+            Kc = cm.member('fNrows')
+            icov = np.array(cm.member('fElements')).reshape(Kc, Kc)
+        else:
+            h = r[it['hist']]
+        edges = h.axis().edges(); vv = h.values(); n = len(vv)
         if shared is not None:
             M = shared[soff:soff + n, soff:soff + n]; soff += n         # this item's diagonal block
         else:
-            cov = _cov(r, it['cov']); K = cov.shape[0]
+            cov = icov if icov is not None else _cov(r, it['cov']); K = cov.shape[0]
             M = cov if K == n else cov[1:n + 1, 1:n + 1]                # NxN or drop under/overflow
         err = np.sqrt(np.clip(np.diag(M), 0, None))                    # total per-bin error
         bins = [{'i': i, 'lo': float(edges[i]), 'hi': float(edges[i + 1]),
@@ -1184,6 +1194,32 @@ REGISTRY = [
                        'per argon nucleus · Wiener-SVD unfolded, apply A_C to predictions · full '
                        '34-bin cross-observable covariance (bin-width normalized) · from the arXiv '
                        'ancillary release · nothing digitized'}}]},
+    {'bibtag': 'MINERvA:2020anu', 'slug': 'minerva-2020anu', 'source': 'arXiv',
+     'note': 'numu CC pi0-production transverse-kinematic-imbalance differential cross sections '
+             '(nucleon momentum pn, boosting angle delta-alphaT, double-transverse imbalance '
+             'delta-pTT) on hydrocarbon (per nucleon), NuMI LE <Enu>~3 GeV. Values + total '
+             'covariance per observable from the arXiv ancillary release.',
+     'sources': [{'minerva_root': {
+         'root': 'data/datasets/sources/minerva-2020anu/SupplementalMaterial2.root',
+         'key': 'dsigma',
+         'xlabel': r'p_n', 'xunit': 'MeV/c',
+         'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_n', 'yunit': r'cm^2/(MeV/c)/nucleon',
+         'items': [
+             {'slug': 'pn', 'label': '', 'tlist': 'neutronmomentum',
+              'xlabel': r'p_n', 'xunit': 'MeV/c',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_n', 'yunit': r'cm^2/(MeV/c)/nucleon'},
+             {'slug': 'dalphat', 'label': '', 'tlist': 'dalphat',
+              'xlabel': r'\delta\alpha_T', 'xunit': 'deg',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta\alpha_T', 'yunit': r'cm^2/\mathrm{deg}/nucleon'},
+             {'slug': 'dpTT', 'label': '', 'tlist': 'dpTT',
+              'xlabel': r'\delta p_{TT}', 'xunit': 'MeV/c',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta p_{TT}', 'yunit': r'cm^2/(MeV/c)/nucleon'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2002.05812',
+         'provenance': 'MINERvA numu CC pi0-production TKI dsigma/d{pn, delta-alphaT, delta-pTT} on '
+                       'hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:2002.05812) · per nucleon · total '
+                       'covariance per observable (block-diagonal) · from the arXiv ancillary '
+                       'release (xsec_with_total_errors TH1D + covariance TMatrix per TList) · '
+                       'nothing digitized'}}]},
     {'bibtag': 'MINERvA:2020zzv', 'slug': 'minerva-2020zzv', 'source': 'arXiv',
      'note': 'numu CC inclusive differential cross sections d(sigma)/dpT and d(sigma)/dp_parallel '
              'on hydrocarbon (per nucleon), NuMI LE <Enu>~3.5 GeV. Muon-angle < 20 deg phase space. '
