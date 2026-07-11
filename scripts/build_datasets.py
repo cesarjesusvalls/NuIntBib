@@ -1152,7 +1152,64 @@ def _mbar(var, xl, xu, ang=False, denom=None):
             'xlabel': xl, 'xunit': xu, 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}' + xl, 'yunit': yu}
 
 
+_MNV_TKI = {  # slug -> (xlabel, xunit, ylabel, yunit) for the MINERvA CCQE-like TKI observables
+    'muonmomentum':    (r'p_\mu', 'GeV/c', r'\mathrm{d}\sigma/\mathrm{d}p_\mu', r'cm^2/(GeV/c)/nucleon'),
+    'muontheta':       (r'\theta_\mu', 'deg', r'\mathrm{d}\sigma/\mathrm{d}\theta_\mu', r'cm^2/\mathrm{deg}/nucleon'),
+    'protonmomentum':  (r'p_p', 'GeV/c', r'\mathrm{d}\sigma/\mathrm{d}p_p', r'cm^2/(GeV/c)/nucleon'),
+    'protontheta':     (r'\theta_p', 'deg', r'\mathrm{d}\sigma/\mathrm{d}\theta_p', r'cm^2/\mathrm{deg}/nucleon'),
+    'neutronmomentum': (r'p_n', 'GeV/c', r'\mathrm{d}\sigma/\mathrm{d}p_n', r'cm^2/(GeV/c)/nucleon'),
+    'dalphat':         (r'\delta\alpha_T', 'deg', r'\mathrm{d}\sigma/\mathrm{d}\delta\alpha_T', r'cm^2/\mathrm{deg}/nucleon'),
+    'dpt':             (r'\delta p_T', 'GeV/c', r'\mathrm{d}\sigma/\mathrm{d}\delta p_T', r'cm^2/(GeV/c)/nucleon'),
+    'dphit':           (r'\delta\phi_T', 'deg', r'\mathrm{d}\sigma/\mathrm{d}\delta\phi_T', r'cm^2/\mathrm{deg}/nucleon'),
+    'dpTx':            (r'\delta p_{Tx}', 'GeV/c', r'\mathrm{d}\sigma/\mathrm{d}\delta p_{Tx}', r'cm^2/(GeV/c)/nucleon'),
+    'dpTy':            (r'\delta p_{Ty}', 'GeV/c', r'\mathrm{d}\sigma/\mathrm{d}\delta p_{Ty}', r'cm^2/(GeV/c)/nucleon'),
+}
+
+
+def _tki_items(slugs):
+    """Build minerva_root item dicts (TList-backed) for a list of MINERvA TKI observables."""
+    out = []
+    for s in slugs:
+        xl, xu, yl, yu = _MNV_TKI[s]
+        out.append({'slug': s, 'label': '', 'tlist': s,
+                    'xlabel': xl, 'xunit': xu, 'ylabel': yl, 'yunit': yu})
+    return out
+
+
 REGISTRY = [
+    {'bibtag': 'MINERvA:2018hba', 'slug': 'minerva-2018hba', 'source': 'arXiv',
+     'note': 'numu CCQE-like (muon + proton, mesonless) transverse-kinematic-imbalance and '
+             'lepton/proton kinematic differential cross sections on hydrocarbon (per nucleon), '
+             'NuMI LE <Enu>~3 GeV. Values + total covariance per observable from the arXiv '
+             'ancillary release.',
+     'sources': [{'minerva_root': {
+         'root': 'data/datasets/sources/minerva-2018hba/MINERvA_1805.05486.root', 'key': 'dsigma',
+         'xlabel': r'\delta\alpha_T', 'xunit': 'deg',
+         'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta\alpha_T', 'yunit': r'cm^2/\mathrm{deg}/nucleon',
+         'items': _tki_items(['muonmomentum', 'muontheta', 'protonmomentum', 'protontheta',
+                              'neutronmomentum', 'dalphat', 'dpt', 'dphit']),
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1805.05486',
+         'provenance': 'MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon '
+                       '(NuMI LE <Enu>~3 GeV, arXiv:1805.05486) · per nucleon · total covariance '
+                       'per observable (block-diagonal) · from the arXiv ancillary release '
+                       '(xsec_with_total_errors TH1D + covariance TMatrix per TList) · nothing digitized'}}]},
+    {'bibtag': 'MINERvA:2019ope', 'slug': 'minerva-2019ope', 'source': 'arXiv',
+     'note': 'numu CCQE-like (muon + proton, mesonless) single-transverse-kinematic-imbalance '
+             'differential cross sections on hydrocarbon (per nucleon), NuMI LE <Enu>~3 GeV. Adds '
+             'the delta-pTx and delta-pTy projections (sensitive to nucleon binding energy) to the '
+             'eight legacy observables, all re-extracted with corrected elastic-FSI weighting. '
+             'Values + total covariance per observable from the arXiv ancillary release.',
+     'sources': [{'minerva_root': {
+         'root': 'data/datasets/sources/minerva-2019ope/MINERvA_DataRelease_Updated.root', 'key': 'dsigma',
+         'xlabel': r'\delta p_{Ty}', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta p_{Ty}', 'yunit': r'cm^2/(GeV/c)/nucleon',
+         'items': _tki_items(['muonmomentum', 'muontheta', 'protonmomentum', 'protontheta',
+                              'neutronmomentum', 'dalphat', 'dpt', 'dphit', 'dpTx', 'dpTy']),
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1910.08658',
+         'provenance': 'MINERvA numu CCQE-like single-TKI (incl. delta-pTx, delta-pTy) on '
+                       'hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1910.08658) · per nucleon · total '
+                       'covariance per observable (block-diagonal) · from the arXiv ancillary release '
+                       '(xsec_with_total_errors TH1D + covariance TMatrix per TList) · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2025rch', 'slug': 'microboone-2025rch', 'source': 'arXiv',
      'note': 'numu CC single-charged-pion production on argon (per argon nucleus), BNB '
              '<Enu>~0.8 GeV. Five differential cross sections (muon cos-theta and momentum, pion '
