@@ -1016,6 +1016,31 @@ def _nue(f, name, x, xu, y, yu):
                                        'ylabel': y, 'yunit': yu}}
 
 REGISTRY = [
+    {'bibtag': 'MicroBooNE:2023tzj', 'slug': 'microboone-2023tzj', 'source': 'arXiv',
+     'note': 'numu CC1p0pi single-transverse-kinematic-imbalance cross sections on argon '
+             '(per Ar), BNB. Values + covariance from the arXiv ancillary release; a smearing '
+             'matrix Ac (in the release) must be applied to a model before comparison, and the '
+             'BNB flux is the standard MicroBooNE product (not in this release).',
+     'sources': [{'minerva_root': {
+         'root': 'data/datasets/sources/microboone-2023tzj/release.root',
+         'xlabel': r'\delta p_T', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta p_T', 'yunit': r'10^{-38}cm^2/{}^{40}\mathrm{Ar}/(GeV/c)',
+         'key': 'dsigma',
+         'items': [
+             {'slug': 'dpT', 'label': '', 'hist': 'TotalUnc_DeltaPT', 'cov': 'Cov_DeltaPT',
+              'xlabel': r'\delta p_T', 'xunit': 'GeV/c',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta p_T', 'yunit': r'10^{-38}cm^2/{}^{40}\mathrm{Ar}/(GeV/c)'},
+             {'slug': 'dalphaT', 'label': '', 'hist': 'TotalUnc_DeltaAlphaT', 'cov': 'Cov_DeltaAlphaT',
+              'xlabel': r'\delta\alpha_T', 'xunit': 'deg',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta\alpha_T', 'yunit': r'10^{-38}cm^2/{}^{40}\mathrm{Ar}/\mathrm{deg}'},
+             {'slug': 'dpTx', 'label': '', 'hist': 'TotalUnc_DeltaPtx', 'cov': 'Cov_DeltaPtx',
+              'xlabel': r'\delta p_{Tx}', 'xunit': 'GeV/c',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta p_{Tx}', 'yunit': r'10^{-38}cm^2/{}^{40}\mathrm{Ar}/(GeV/c)'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2301.03706',
+         'provenance': 'MicroBooNE numu CC1p0pi transverse-kinematic-imbalance cross sections on '
+                       'argon (BNB, arXiv:2301.03706) · per 40Ar · total covariance per observable '
+                       '(block-diagonal); apply the release smearing matrix Ac to a model before '
+                       'comparison · from the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2025aiw', 'slug': 'microboone-2025aiw', 'source': 'arXiv',
      'note': 'nu_e CC differential cross sections on argon (per nucleon) with final-state '
              'protons; NuMI off-axis, FHC+RHC combined. Values + covariance from the arXiv '
