@@ -728,9 +728,16 @@ def build_minerva_root(spec):
     Per-bin error = sqrt(diag(total covariance)); covariances block-diagonal across items.
     Each item may override xlabel/xunit/ylabel/yunit (defaults from spec)."""
     f = uproot.open(_flux_open(spec['root']))
+
+    def _cov(key):                                                     # TH2D or TMatrixT/Sym
+        o = f[key]
+        if 'TH2' in o.classname:
+            return np.asarray(o.values())
+        N = o.member('fNrows')
+        return np.array(o.member('fElements')).reshape(N, N)
     # 'cov' at spec level = one SHARED covariance over all items concatenated (keeps
     # cross-observable correlations); else each item carries its own 'cov' (block-diagonal).
-    shared = np.asarray(f[spec['cov']].values()) if spec.get('cov') else None
+    shared = _cov(spec['cov']) if spec.get('cov') else None
     dists, blocks, order = [], [], []
     soff = 0
     for it in spec['items']:
@@ -738,7 +745,7 @@ def build_minerva_root(spec):
         if shared is not None:
             M = shared[soff:soff + n, soff:soff + n]; soff += n         # this item's diagonal block
         else:
-            cov = np.asarray(f[it['cov']].values()); K = cov.shape[0]
+            cov = _cov(it['cov']); K = cov.shape[0]
             M = cov if K == n else cov[1:n + 1, 1:n + 1]                # NxN or drop under/overflow
         err = np.sqrt(np.clip(np.diag(M), 0, None))                    # total per-bin error
         bins = [{'i': i, 'lo': float(edges[i]), 'hi': float(edges[i + 1]),
