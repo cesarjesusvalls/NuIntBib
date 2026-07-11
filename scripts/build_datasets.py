@@ -1015,7 +1015,37 @@ def _nue(f, name, x, xu, y, yu):
     return {'txt': NUE + f, 'labels': {'key': name, 'xlabel': x, 'xunit': xu,
                                        'ylabel': y, 'yunit': yu}}
 
+def _mbar(var, xl, xu, ang=False):
+    """A MicroBooNE per-40Ar differential item for build_minerva_root: values in
+    TotalUnc_<var> (bin content = xsec), covariance Cov_<var>."""
+    yu = r'10^{-38}cm^2/{}^{40}\mathrm{Ar}/' + (r'\mathrm{deg}' if ang else '(GeV/c)')
+    return {'slug': var, 'label': '', 'hist': 'TotalUnc_' + var, 'cov': 'Cov_' + var,
+            'xlabel': xl, 'xunit': xu, 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}' + xl, 'yunit': yu}
+
+
 REGISTRY = [
+    {'bibtag': 'MicroBooNE:2023krv', 'slug': 'microboone-2023krv', 'source': 'arXiv',
+     'note': 'numu CC1p0pi generalized (3D) kinematic-imbalance cross sections on argon '
+             '(per Ar), BNB. Values + covariance from the arXiv ancillary release; apply the '
+             'release smearing matrix Ac to a model before comparison; BNB flux is the standard '
+             'MicroBooNE product (not in this release).',
+     'sources': [{'minerva_root': {
+         'root': 'data/datasets/sources/microboone-2023krv/release.root',
+         'xlabel': r'\delta p_n', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta p_n',
+         'yunit': r'10^{-38}cm^2/{}^{40}\mathrm{Ar}/(GeV/c)', 'key': 'dsigma',
+         'items': [
+             _mbar('DeltaPn', r'\delta p_n', 'GeV/c'),
+             _mbar('DeltaAlpha3Dq', r'\delta\alpha_{3D,q}', 'deg', ang=True),
+             _mbar('DeltaPhi3D', r'\delta\phi_{3D}', 'deg', ang=True),
+             _mbar('DeltaPnPar', r'\delta p_{n,\parallel}', 'GeV/c'),
+             _mbar('DeltaPnPerp', r'\delta p_{n,\perp}', 'GeV/c'),
+             _mbar('DeltaPnPerpx', r'\delta p_{n,\perp x}', 'GeV/c'),
+             _mbar('DeltaPnPerpy', r'\delta p_{n,\perp y}', 'GeV/c')],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2310.06082',
+         'provenance': 'MicroBooNE numu CC1p0pi generalized kinematic-imbalance cross sections on '
+                       'argon (BNB, arXiv:2310.06082) · per 40Ar · total covariance per observable '
+                       '(block-diagonal); apply the release smearing matrix Ac before comparison · '
+                       'from the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2023tzj', 'slug': 'microboone-2023tzj', 'source': 'arXiv',
      'note': 'numu CC1p0pi single-transverse-kinematic-imbalance cross sections on argon '
              '(per Ar), BNB. Values + covariance from the arXiv ancillary release; a smearing '
