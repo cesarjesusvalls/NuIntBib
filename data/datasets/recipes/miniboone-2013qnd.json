@@ -1,0 +1,45 @@
+{
+ "bibtag": "MiniBooNE:2013qnd",
+ "slug": "miniboone-2013qnd",
+ "source_url": "https://arxiv.org/abs/1301.7067",
+ "note": "MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^QE,RFG, and single-differential d\u03c3/dQ\u00b2_QE, each reported both on mineral oil (CH2, including the free-proton/hydrogen scattering component) and on carbon-12 (with the hydrogen CCQE component subtracted, RFG model with M_A=1.026 GeV). The paper's headline result \u2014 the (T_\u03bc, cos\u03b8_\u03bc) double-differential cross section \u2014 is 2D and excluded from these 1D CSVs (see caveats). Target: per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label.. No covariance is published (per-bin total uncertainty only).",
+ "provenance": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^ \u00b7 target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label. \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "items": [
+  {
+   "slug": "abs_xsec_ch2",
+   "label": "CH2 (mineral oil, incl. H)",
+   "csv": "data/datasets/sources/miniboone-2013qnd/abs_xsec_ch2.csv",
+   "xlabel": "E_{\\bar\\nu}^{QE,RFG}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "cm^2"
+  },
+  {
+   "slug": "abs_xsec_c",
+   "label": "12C (H subtracted)",
+   "csv": "data/datasets/sources/miniboone-2013qnd/abs_xsec_c.csv",
+   "xlabel": "E_{\\bar\\nu}^{QE,RFG}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "cm^2"
+  },
+  {
+   "slug": "dsigma_dq2_ch2",
+   "label": "CH2 (mineral oil, incl. H)",
+   "csv": "data/datasets/sources/miniboone-2013qnd/dsigma_dq2_ch2.csv",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2_{QE}",
+   "yunit": "cm^2/GeV^2"
+  },
+  {
+   "slug": "dsigma_dq2_c",
+   "label": "12C (H subtracted)",
+   "csv": "data/datasets/sources/miniboone-2013qnd/dsigma_dq2_c.csv",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2_{QE}",
+   "yunit": "cm^2/GeV^2"
+  }
+ ]
+}

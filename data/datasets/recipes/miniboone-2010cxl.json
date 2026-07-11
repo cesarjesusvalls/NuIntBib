@@ -1,0 +1,63 @@
+{
+ "bibtag": "MiniBooNE:2010cxl",
+ "slug": "miniboone-2010cxl",
+ "source_url": "https://arxiv.org/abs/1010.3264",
+ "note": "Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) cross sections: total \u03c3(E\u03bd), and d\u03c3/dQ2, d\u03c3/dT\u03bc, d\u03c3/dcos\u03b8\u03bc, d\u03c3/d|p_\u03c00|, d\u03c3/dcos\u03b8_\u03c00, all flux-averaged over 0.5<E\u03bd<2.0 GeV; MiniBooNE mineral-oil (CH2) Cherenkov detector, \u03bd\u03bc beam. Target: per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\"). Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+ "provenance": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c \u00b7 target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+ "items": [
+  {
+   "slug": "dsdEnu_ccpi0",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010cxl/dsdEnu_ccpi0.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2/CH2"
+  },
+  {
+   "slug": "dsdQ2_ccpi0",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010cxl/dsdQ2_ccpi0.csv",
+   "xlabel": "Q^2",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
+   "yunit": "10^{-39}cm^2/GeV^2/CH2"
+  },
+  {
+   "slug": "dsdTmu_ccpi0",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010cxl/dsdTmu_ccpi0.csv",
+   "xlabel": "T_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}T_\\mu",
+   "yunit": "10^{-39}cm^2/GeV/CH2"
+  },
+  {
+   "slug": "dsdcosthetamu_ccpi0",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010cxl/dsdcosthetamu_ccpi0.csv",
+   "xlabel": "\\cos\\theta_\\mu",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu",
+   "yunit": "10^{-39}cm^2/CH2"
+  },
+  {
+   "slug": "dsdppi0_ccpi0",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010cxl/dsdppi0_ccpi0.csv",
+   "xlabel": "|\\mathbf{p}_{\\pi^0}|",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}|\\mathbf{p}_{\\pi^0}|",
+   "yunit": "10^{-39}cm^2/(GeV/c)/CH2"
+  },
+  {
+   "slug": "dsdcosthetapi0_ccpi0",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010cxl/dsdcosthetapi0_ccpi0.csv",
+   "xlabel": "\\cos\\theta_{\\pi^0}",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\pi^0}",
+   "yunit": "10^{-39}cm^2/CH2"
+  }
+ ]
+}

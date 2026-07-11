@@ -1,0 +1,748 @@
+{
+ "bibtag": "MiniBooNE:2010cxl",
+ "slug": "miniboone-2010cxl",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1010.3264",
+ "arxiv": "1010.3264",
+ "cite": "Phys.Rev.D 83 052009",
+ "note": "Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) cross sections: total \u03c3(E\u03bd), and d\u03c3/dQ2, d\u03c3/dT\u03bc, d\u03c3/dcos\u03b8\u03bc, d\u03c3/d|p_\u03c00|, d\u03c3/dcos\u03b8_\u03c00, all flux-averaged over 0.5<E\u03bd<2.0 GeV; MiniBooNE mineral-oil (CH2) Cherenkov detector, \u03bd\u03bc beam. Target: per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\"). Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+ "distributions": [
+  {
+   "key": "dsigma_dsdEnu_ccpi0",
+   "slug": "dsigma_dsdEnu_ccpi0",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/CH2",
+   "yunit_tex": "$10^{-39}cm^2/CH2$",
+   "nbins": 14,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 1.76,
+     "err": 0.522
+    },
+    {
+     "i": 1,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 3.83,
+     "err": 0.8132
+    },
+    {
+     "i": 2,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 5.68,
+     "err": 1.0042
+    },
+    {
+     "i": 3,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 7.31,
+     "err": 1.2054
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 9.2,
+     "err": 1.5381
+    },
+    {
+     "i": 5,
+     "lo": 1.0,
+     "hi": 1.1,
+     "center": 1.05,
+     "val": 11.06,
+     "err": 1.8949
+    },
+    {
+     "i": 6,
+     "lo": 1.1,
+     "hi": 1.2,
+     "center": 1.15,
+     "val": 12.42,
+     "err": 2.2149
+    },
+    {
+     "i": 7,
+     "lo": 1.2,
+     "hi": 1.3,
+     "center": 1.25,
+     "val": 13.89,
+     "err": 2.5321
+    },
+    {
+     "i": 8,
+     "lo": 1.3,
+     "hi": 1.4,
+     "center": 1.35,
+     "val": 15.23,
+     "err": 2.9155
+    },
+    {
+     "i": 9,
+     "lo": 1.4,
+     "hi": 1.5,
+     "center": 1.45,
+     "val": 16.38,
+     "err": 3.3008
+    },
+    {
+     "i": 10,
+     "lo": 1.5,
+     "hi": 1.6,
+     "center": 1.55,
+     "val": 18.2,
+     "err": 3.8171
+    },
+    {
+     "i": 11,
+     "lo": 1.6,
+     "hi": 1.7,
+     "center": 1.65,
+     "val": 19.37,
+     "err": 4.455
+    },
+    {
+     "i": 12,
+     "lo": 1.7,
+     "hi": 1.8,
+     "center": 1.75,
+     "val": 20.8,
+     "err": 4.9825
+    },
+    {
+     "i": 13,
+     "lo": 1.8,
+     "hi": 2.0,
+     "center": 1.9,
+     "val": 21.92,
+     "err": 5.7171
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2010cxl/dsdEnu_ccpi0.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1010.3264",
+   "provenance": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c \u00b7 target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+   "notes": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c. Target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\")."
+  },
+  {
+   "key": "dsigma_dsdQ2_ccpi0",
+   "slug": "dsigma_dsdQ2_ccpi0",
+   "name": "d\u03c3/dQ\u00b2",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
+   "xlabel": "Q\u00b2",
+   "xunit": "(GeV/c)^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
+   "yunit": "10^{-39}cm^2/GeV^2/CH2",
+   "yunit_tex": "$10^{-39}cm^2/GeV^2/CH2$",
+   "nbins": 12,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 9.12,
+     "err": 2.3624
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 16.41,
+     "err": 2.9463
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 14.72,
+     "err": 2.3614
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 12.32,
+     "err": 2.011
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 9.82,
+     "err": 1.7293
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 7.7,
+     "err": 1.3778
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 5.97,
+     "err": 1.0531
+    },
+    {
+     "i": 7,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 4.48,
+     "err": 0.8078
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 3.07,
+     "err": 0.5757
+    },
+    {
+     "i": 9,
+     "lo": 1.0,
+     "hi": 1.2,
+     "center": 1.1,
+     "val": 1.55,
+     "err": 0.3795
+    },
+    {
+     "i": 10,
+     "lo": 1.2,
+     "hi": 1.5,
+     "center": 1.35,
+     "val": 0.7,
+     "err": 0.1932
+    },
+    {
+     "i": 11,
+     "lo": 1.5,
+     "hi": 1.6,
+     "center": 1.55,
+     "val": 0.18,
+     "err": 0.0728,
+     "hi_true": 2.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2010cxl/dsdQ2_ccpi0.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1010.3264",
+   "provenance": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c \u00b7 target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+   "notes": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c. Target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\")."
+  },
+  {
+   "key": "dsigma_dsdTmu_ccpi0",
+   "slug": "dsigma_dsdTmu_ccpi0",
+   "name": "d\u03c3/dT_\u03bc",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}T_\\mu$",
+   "xlabel": "T_\u03bc",
+   "xunit": "GeV",
+   "xlabel_tex": "$T_\\mu$",
+   "ylabel": "d\u03c3/dT_\u03bc",
+   "ylabel_plot": "d\u03c3/dT_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}T_\\mu$",
+   "yunit": "10^{-39}cm^2/GeV/CH2",
+   "yunit_tex": "$10^{-39}cm^2/GeV/CH2$",
+   "nbins": 13,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.05,
+     "center": 0.025,
+     "val": 10.31,
+     "err": 2.0665
+    },
+    {
+     "i": 1,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 15.6,
+     "err": 2.7224
+    },
+    {
+     "i": 2,
+     "lo": 0.1,
+     "hi": 0.15,
+     "center": 0.125,
+     "val": 17.0,
+     "err": 2.8311
+    },
+    {
+     "i": 3,
+     "lo": 0.15,
+     "hi": 0.2,
+     "center": 0.175,
+     "val": 16.58,
+     "err": 3.0654
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.28,
+     "center": 0.24000000000000002,
+     "val": 15.33,
+     "err": 2.5653
+    },
+    {
+     "i": 5,
+     "lo": 0.28,
+     "hi": 0.35,
+     "center": 0.315,
+     "val": 13.57,
+     "err": 2.2594
+    },
+    {
+     "i": 6,
+     "lo": 0.35,
+     "hi": 0.42,
+     "center": 0.385,
+     "val": 11.38,
+     "err": 1.9623
+    },
+    {
+     "i": 7,
+     "lo": 0.42,
+     "hi": 0.5,
+     "center": 0.45999999999999996,
+     "val": 9.76,
+     "err": 1.6568
+    },
+    {
+     "i": 8,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 6.97,
+     "err": 1.4166
+    },
+    {
+     "i": 9,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 5.82,
+     "err": 1.1648
+    },
+    {
+     "i": 10,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 4.03,
+     "err": 0.8099
+    },
+    {
+     "i": 11,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 2.55,
+     "err": 0.6103
+    },
+    {
+     "i": 12,
+     "lo": 1.0,
+     "hi": 1.2,
+     "center": 1.1,
+     "val": 1.38,
+     "err": 0.4168
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2010cxl/dsdTmu_ccpi0.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1010.3264",
+   "provenance": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c \u00b7 target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+   "notes": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c. Target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\")."
+  },
+  {
+   "key": "dsigma_dsdcosthetamu_ccpi0",
+   "slug": "dsigma_dsdcosthetamu_ccpi0",
+   "name": "d\u03c3/dcos\u03b8_\u03bc",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu$",
+   "xlabel": "cos\u03b8_\u03bc",
+   "xunit": "",
+   "xlabel_tex": "$\\cos\\theta_\\mu$",
+   "ylabel": "d\u03c3/dcos\u03b8_\u03bc",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu$",
+   "yunit": "10^{-39}cm^2/CH2",
+   "yunit_tex": "$10^{-39}cm^2/CH2$",
+   "nbins": 9,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.6,
+     "center": -0.8,
+     "val": 1.01,
+     "err": 0.2625
+    },
+    {
+     "i": 1,
+     "lo": -0.6,
+     "hi": -0.3,
+     "center": -0.44999999999999996,
+     "val": 1.55,
+     "err": 0.3384
+    },
+    {
+     "i": 2,
+     "lo": -0.3,
+     "hi": 0.0,
+     "center": -0.15,
+     "val": 2.46,
+     "err": 0.4206
+    },
+    {
+     "i": 3,
+     "lo": 0.0,
+     "hi": 0.2,
+     "center": 0.1,
+     "val": 3.6,
+     "err": 0.5692
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.4,
+     "center": 0.30000000000000004,
+     "val": 4.65,
+     "err": 0.7834
+    },
+    {
+     "i": 5,
+     "lo": 0.4,
+     "hi": 0.6,
+     "center": 0.5,
+     "val": 6.58,
+     "err": 1.2415
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 0.8,
+     "center": 0.7,
+     "val": 10.32,
+     "err": 1.6144
+    },
+    {
+     "i": 7,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 13.11,
+     "err": 2.3378
+    },
+    {
+     "i": 8,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 11.51,
+     "err": 2.956
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2010cxl/dsdcosthetamu_ccpi0.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1010.3264",
+   "provenance": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c \u00b7 target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+   "notes": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c. Target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\")."
+  },
+  {
+   "key": "dsigma_dsdppi0_ccpi0",
+   "slug": "dsigma_dsdppi0_ccpi0",
+   "name": "d\u03c3/d|mathbfp_\u03c0^0|",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}|\\mathbf{p}_{\\pi^0}|$",
+   "xlabel": "|mathbfp_\u03c0^0|",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$|\\mathbf{p}_{\\pi^0}|$",
+   "ylabel": "d\u03c3/d|mathbfp_\u03c0^0|",
+   "ylabel_plot": "d\u03c3/d|mathbfp_\u03c0^0|",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}|\\mathbf{p}_{\\pi^0}|$",
+   "yunit": "10^{-39}cm^2/(GeV/c)/CH2",
+   "yunit_tex": "$10^{-39}cm^2/(GeV/c)/CH2$",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 4.92,
+     "err": 1.3901
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.15,
+     "center": 0.125,
+     "val": 26.65,
+     "err": 5.061
+    },
+    {
+     "i": 2,
+     "lo": 0.15,
+     "hi": 0.2,
+     "center": 0.175,
+     "val": 32.9,
+     "err": 5.109
+    },
+    {
+     "i": 3,
+     "lo": 0.2,
+     "hi": 0.25,
+     "center": 0.225,
+     "val": 28.99,
+     "err": 4.3969
+    },
+    {
+     "i": 4,
+     "lo": 0.25,
+     "hi": 0.3,
+     "center": 0.275,
+     "val": 19.02,
+     "err": 3.1497
+    },
+    {
+     "i": 5,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 13.65,
+     "err": 2.5173
+    },
+    {
+     "i": 6,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 7.41,
+     "err": 2.0338
+    },
+    {
+     "i": 7,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 4.27,
+     "err": 1.1868
+    },
+    {
+     "i": 8,
+     "lo": 0.6,
+     "hi": 0.8,
+     "center": 0.7,
+     "val": 1.9,
+     "err": 0.6778
+    },
+    {
+     "i": 9,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 0.87,
+     "err": 0.5315
+    },
+    {
+     "i": 10,
+     "lo": 1.0,
+     "hi": 1.4,
+     "center": 1.2,
+     "val": 0.19,
+     "err": 0.8174
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2010cxl/dsdppi0_ccpi0.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1010.3264",
+   "provenance": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c \u00b7 target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+   "notes": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c. Target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\")."
+  },
+  {
+   "key": "dsigma_dsdcosthetapi0_ccpi0",
+   "slug": "dsigma_dsdcosthetapi0_ccpi0",
+   "name": "d\u03c3/dcos\u03b8_\u03c0^0",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\pi^0}$",
+   "xlabel": "cos\u03b8_\u03c0^0",
+   "xunit": "",
+   "xlabel_tex": "$\\cos\\theta_{\\pi^0}$",
+   "ylabel": "d\u03c3/dcos\u03b8_\u03c0^0",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_\u03c0^0",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\pi^0}$",
+   "yunit": "10^{-39}cm^2/CH2",
+   "yunit_tex": "$10^{-39}cm^2/CH2$",
+   "nbins": 15,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.7,
+     "center": -0.85,
+     "val": 2.34,
+     "err": 0.4682
+    },
+    {
+     "i": 1,
+     "lo": -0.7,
+     "hi": -0.4,
+     "center": -0.55,
+     "val": 2.45,
+     "err": 0.4657
+    },
+    {
+     "i": 2,
+     "lo": -0.4,
+     "hi": -0.2,
+     "center": -0.30000000000000004,
+     "val": 2.83,
+     "err": 0.5192
+    },
+    {
+     "i": 3,
+     "lo": -0.2,
+     "hi": -0.1,
+     "center": -0.15000000000000002,
+     "val": 2.76,
+     "err": 0.494
+    },
+    {
+     "i": 4,
+     "lo": -0.1,
+     "hi": 0.0,
+     "center": -0.05,
+     "val": 2.77,
+     "err": 0.5187
+    },
+    {
+     "i": 5,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 3.06,
+     "err": 0.6169
+    },
+    {
+     "i": 6,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 3.55,
+     "err": 0.6294
+    },
+    {
+     "i": 7,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 4.01,
+     "err": 0.7213
+    },
+    {
+     "i": 8,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 4.57,
+     "err": 0.7912
+    },
+    {
+     "i": 9,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 5.47,
+     "err": 0.9849
+    },
+    {
+     "i": 10,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 6.44,
+     "err": 1.0893
+    },
+    {
+     "i": 11,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 7.66,
+     "err": 1.3025
+    },
+    {
+     "i": 12,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 9.14,
+     "err": 1.5306
+    },
+    {
+     "i": 13,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 11.36,
+     "err": 2.137
+    },
+    {
+     "i": 14,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 14.59,
+     "err": 2.906
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2010cxl/dsdcosthetapi0_ccpi0.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1010.3264",
+   "provenance": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c \u00b7 target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Tables (each of the 6 cross-section tables in the appendix \"Tables\" section also tabulates the full bin-to-bin correlation matrix for the total systematic uncertainty; not extracted here, only stat+syst combined per-bin error was ingested).",
+   "notes": "MiniBooNE:2010cxl \u2014 Flux-averaged CC single-\u03c00 (numu CH2 -> mu- pi0 X, \"observable\" i.e. exactly one pi0 + no other mesons in final state) c. Target per CH2 (mineral-oil molecule) \u2014 paper states explicitly \"cm^2/CH2\" (line: \"\u27e8\u03c3\u0304\u27e9_\u03a6=(9.20\u00b10.3stat\u00b11.51syst)\u00d710^-39 cm^2/CH2\")."
+  }
+ ]
+}

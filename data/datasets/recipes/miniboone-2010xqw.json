@@ -1,0 +1,18 @@
+{
+ "bibtag": "MiniBooNE:2010xqw",
+ "slug": "miniboone-2010xqw",
+ "source_url": "https://arxiv.org/abs/1007.4730",
+ "note": "Flux-averaged NC elastic (\u03bdN\u2192\u03bdN) differential cross section d\u03c3/dQ\u00b2_QE on mineral oil (CH2), muon-neutrino beam (BNB neutrino running mode, 6.46e20 POT), MiniBooNE Cherenkov detector. Target: per nucleon (flux-averaged over free H protons, bound C protons, bound C neutrons in CH2, weighted 1/7 : 3/7 : 3/7 per Eq. B.2, i.e. divided by the 14 nucleons in CH2 \u2014 see Appendix B.2, eq. \\ref{eq:NCE_xs_expression}). No covariance is published (per-bin total uncertainty only).",
+ "provenance": "MiniBooNE:2010xqw \u2014 Flux-averaged NC elastic (\u03bdN\u2192\u03bdN) differential cross section d\u03c3/dQ\u00b2_QE on mineral oil (CH2), muon-neutrino beam (BNB neut \u00b7 target per nucleon (flux-averaged over free H protons, bound C protons, bound C neutrons in CH2, weighted 1/7 : 3/7 : 3/7 per Eq. B.2, i.e. divided by the 14 nucleons in CH2 \u2014 see Appendix B.2, eq. \\ref{eq:NCE_xs_expression}) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "items": [
+  {
+   "slug": "dsdq2_nce",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010xqw/dsigma_dQ2_nce.csv",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma_{\\nu N\\to\\nu N}/dQ^2",
+   "yunit": "10^{-39}cm^2/GeV^2/nucleon"
+  }
+ ]
+}

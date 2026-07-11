@@ -1,0 +1,227 @@
+{
+ "bibtag": "MiniBooNE:2013dds",
+ "slug": "miniboone-2013dds",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1309.7257",
+ "arxiv": "1309.7257",
+ "cite": "Phys.Rev.D 91 012004",
+ "note": "Flux-averaged antineutrino NC elastic (\u03bdbar N -> \u03bdbar N) differential cross section d\u03c3/dQ\u00b2_QE on CH2 (mineral oil), MiniBooNE antineutrino-mode beam, \u03bdbar_\u03bc/\u03bdbar_e flux 0-10 GeV. Target: per nucleon (flux-averaged mixture of free H protons + bound C protons/neutrons in CH2, per Eq. in Appendix A; verified numerically \u2014 see caveats). No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_dsdq2_ncebar",
+   "slug": "dsigma_dsdq2_ncebar",
+   "name": "d\u03c3/dQ\u00b2",
+   "name_tex": "$d\\sigma/dQ^2$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^2$",
+   "yunit": "cm^2/GeV^2",
+   "yunit_tex": "$cm^2/GeV^2$",
+   "nbins": 24,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.033,
+     "hi": 0.1,
+     "center": 0.0665,
+     "val": 1.009e-39,
+     "err": 6.8e-41
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.168,
+     "center": 0.134,
+     "val": 1.74e-39,
+     "err": 1.06e-40
+    },
+    {
+     "i": 2,
+     "lo": 0.168,
+     "hi": 0.235,
+     "center": 0.2015,
+     "val": 1.268e-39,
+     "err": 8.3e-41
+    },
+    {
+     "i": 3,
+     "lo": 0.235,
+     "hi": 0.303,
+     "center": 0.269,
+     "val": 9.175e-40,
+     "err": 7.19e-41
+    },
+    {
+     "i": 4,
+     "lo": 0.303,
+     "hi": 0.37,
+     "center": 0.3365,
+     "val": 6.766e-40,
+     "err": 6.33e-41
+    },
+    {
+     "i": 5,
+     "lo": 0.37,
+     "hi": 0.438,
+     "center": 0.404,
+     "val": 4.903e-40,
+     "err": 5.51e-41
+    },
+    {
+     "i": 6,
+     "lo": 0.438,
+     "hi": 0.506,
+     "center": 0.472,
+     "val": 3.531e-40,
+     "err": 4.57e-41
+    },
+    {
+     "i": 7,
+     "lo": 0.506,
+     "hi": 0.573,
+     "center": 0.5395,
+     "val": 2.51e-40,
+     "err": 4.06e-41
+    },
+    {
+     "i": 8,
+     "lo": 0.573,
+     "hi": 0.641,
+     "center": 0.607,
+     "val": 1.82e-40,
+     "err": 3.46e-41
+    },
+    {
+     "i": 9,
+     "lo": 0.641,
+     "hi": 0.708,
+     "center": 0.6745,
+     "val": 1.337e-40,
+     "err": 2.94e-41
+    },
+    {
+     "i": 10,
+     "lo": 0.708,
+     "hi": 0.776,
+     "center": 0.742,
+     "val": 9.926e-41,
+     "err": 2.511e-41
+    },
+    {
+     "i": 11,
+     "lo": 0.776,
+     "hi": 0.844,
+     "center": 0.81,
+     "val": 7.597e-41,
+     "err": 2.117e-41
+    },
+    {
+     "i": 12,
+     "lo": 0.844,
+     "hi": 0.911,
+     "center": 0.8775,
+     "val": 5.853e-41,
+     "err": 1.828e-41
+    },
+    {
+     "i": 13,
+     "lo": 0.911,
+     "hi": 0.979,
+     "center": 0.9450000000000001,
+     "val": 4.733e-41,
+     "err": 1.481e-41
+    },
+    {
+     "i": 14,
+     "lo": 0.979,
+     "hi": 1.046,
+     "center": 1.0125,
+     "val": 4.133e-41,
+     "err": 1.051e-41
+    },
+    {
+     "i": 15,
+     "lo": 1.046,
+     "hi": 1.114,
+     "center": 1.08,
+     "val": 3.516e-41,
+     "err": 9.12e-42
+    },
+    {
+     "i": 16,
+     "lo": 1.114,
+     "hi": 1.181,
+     "center": 1.1475,
+     "val": 3.01e-41,
+     "err": 9.23e-42
+    },
+    {
+     "i": 17,
+     "lo": 1.181,
+     "hi": 1.249,
+     "center": 1.215,
+     "val": 2.367e-41,
+     "err": 6.37e-42
+    },
+    {
+     "i": 18,
+     "lo": 1.249,
+     "hi": 1.317,
+     "center": 1.283,
+     "val": 1.885e-41,
+     "err": 4.54e-42
+    },
+    {
+     "i": 19,
+     "lo": 1.317,
+     "hi": 1.384,
+     "center": 1.3504999999999998,
+     "val": 1.531e-41,
+     "err": 3.75e-42
+    },
+    {
+     "i": 20,
+     "lo": 1.384,
+     "hi": 1.452,
+     "center": 1.418,
+     "val": 1.282e-41,
+     "err": 2.85e-42
+    },
+    {
+     "i": 21,
+     "lo": 1.452,
+     "hi": 1.519,
+     "center": 1.4855,
+     "val": 1.037e-41,
+     "err": 2.68e-42
+    },
+    {
+     "i": 22,
+     "lo": 1.519,
+     "hi": 1.587,
+     "center": 1.553,
+     "val": 8.989e-42,
+     "err": 2.698e-42
+    },
+    {
+     "i": 23,
+     "lo": 1.587,
+     "hi": 1.655,
+     "center": 1.621,
+     "val": 8.142e-42,
+     "err": 2.982e-42
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2013dds/dsdq2_ncebar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1309.7257",
+   "provenance": "MiniBooNE:2013dds \u2014 Flux-averaged antineutrino NC elastic (\u03bdbar N -> \u03bdbar N) differential cross section d\u03c3/dQ\u00b2_QE on CH2 (mineral oil), Mini \u00b7 target per nucleon (flux-averaged mixture of free H protons + bound C protons/neutrons in CH2, per Eq. in Appendix A; verified numerically \u2014 see caveats) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MiniBooNE:2013dds \u2014 Flux-averaged antineutrino NC elastic (\u03bdbar N -> \u03bdbar N) differential cross section d\u03c3/dQ\u00b2_QE on CH2 (mineral oil), Mini. Target per nucleon (flux-averaged mixture of free H protons + bound C protons/neutrons in CH2, per Eq. in Appendix A; verified numerically \u2014 see caveats)."
+  }
+ ]
+}

@@ -2379,6 +2379,19 @@ def build(entry):
     return path, dists
 
 
+# Transcribed CSV releases: recipes (one JSON per paper) generated from the arXiv-table
+# extraction. Each has ready-to-use csv_simple items pointing at vendored lo,hi,val,err CSVs.
+for _rp in sorted(glob.glob(os.path.join(ROOT_DIR, 'data', 'datasets', 'recipes', '*.json'))):
+    _r = json.load(open(_rp))
+    REGISTRY.append({
+        'bibtag': _r['bibtag'], 'slug': _r['slug'], 'source': 'arXiv', 'note': _r['note'],
+        'sources': [{'csv_simple': {
+            'key': _r.get('key', 'dsigma'), 'items': _r['items'],
+            'source': 'arXiv', 'source_url': _r['source_url'], 'provenance': _r['provenance'],
+        }}],
+    })
+
+
 if __name__ == '__main__':
     only = sys.argv[1] if len(sys.argv) > 1 else None
     for e in REGISTRY:

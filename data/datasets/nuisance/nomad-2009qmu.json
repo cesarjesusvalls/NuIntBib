@@ -1,0 +1,367 @@
+{
+ "bibtag": "NOMAD:2009qmu",
+ "slug": "nomad-2009qmu",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/0812.4543",
+ "arxiv": "0812.4543",
+ "cite": "Eur.Phys.J.C 63 355",
+ "note": "Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per energy bin, NOMAD experiment (CERN SPS wide-band \u03bd/\u03bd\u0304 beam, mainly on Carbon target). Target: per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g. No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_qel_numu_nucl",
+   "slug": "dsigma_sigma_qel_numu_nucl",
+   "name": "\u03c3_qel",
+   "name_tex": "$\\sigma_{qel}$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_qel",
+   "ylabel_plot": "\u03c3_qel",
+   "ylabel_tex": "$\\sigma_{qel}$",
+   "yunit": "10^{-38}cm^2 per neutron (nuclear target)",
+   "yunit_tex": "$10^{-38}cm^2 per neutron (nuclear target)$",
+   "nbins": 10,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 6.0,
+     "center": 4.5,
+     "val": 0.994,
+     "err": 0.1473
+    },
+    {
+     "i": 1,
+     "lo": 6.0,
+     "hi": 9.0,
+     "center": 7.5,
+     "val": 0.942,
+     "err": 0.1062
+    },
+    {
+     "i": 2,
+     "lo": 9.0,
+     "hi": 12.0,
+     "center": 10.5,
+     "val": 1.014,
+     "err": 0.0967
+    },
+    {
+     "i": 3,
+     "lo": 12.0,
+     "hi": 15.0,
+     "center": 13.5,
+     "val": 0.859,
+     "err": 0.0903
+    },
+    {
+     "i": 4,
+     "lo": 15.0,
+     "hi": 21.0,
+     "center": 18.0,
+     "val": 0.843,
+     "err": 0.078
+    },
+    {
+     "i": 5,
+     "lo": 21.0,
+     "hi": 27.0,
+     "center": 24.0,
+     "val": 0.991,
+     "err": 0.0872
+    },
+    {
+     "i": 6,
+     "lo": 27.0,
+     "hi": 33.0,
+     "center": 30.0,
+     "val": 0.888,
+     "err": 0.0971
+    },
+    {
+     "i": 7,
+     "lo": 33.0,
+     "hi": 39.0,
+     "center": 36.0,
+     "val": 0.97,
+     "err": 0.1161
+    },
+    {
+     "i": 8,
+     "lo": 39.0,
+     "hi": 54.0,
+     "center": 46.5,
+     "val": 0.896,
+     "err": 0.1019
+    },
+    {
+     "i": 9,
+     "lo": 54.0,
+     "hi": 60.0,
+     "center": 57.0,
+     "val": 0.911,
+     "err": 0.1061,
+     "hi_true": 100.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nomad-2009qmu/sigma_qel_numu_nucl.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/0812.4543",
+   "provenance": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene \u00b7 target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene. Target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g."
+  },
+  {
+   "key": "dsigma_sigma_qel_numu_free",
+   "slug": "dsigma_sigma_qel_numu_free",
+   "name": "\u03c3_qel",
+   "name_tex": "$\\sigma_{qel}$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_qel",
+   "ylabel_plot": "\u03c3_qel",
+   "ylabel_tex": "$\\sigma_{qel}$",
+   "yunit": "10^{-38}cm^2 per free neutron",
+   "yunit_tex": "$10^{-38}cm^2 per free neutron$",
+   "nbins": 10,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 6.0,
+     "center": 4.5,
+     "val": 1.057,
+     "err": 0.1568
+    },
+    {
+     "i": 1,
+     "lo": 6.0,
+     "hi": 9.0,
+     "center": 7.5,
+     "val": 1.001,
+     "err": 0.1132
+    },
+    {
+     "i": 2,
+     "lo": 9.0,
+     "hi": 12.0,
+     "center": 10.5,
+     "val": 1.077,
+     "err": 0.1031
+    },
+    {
+     "i": 3,
+     "lo": 12.0,
+     "hi": 15.0,
+     "center": 13.5,
+     "val": 0.913,
+     "err": 0.096
+    },
+    {
+     "i": 4,
+     "lo": 15.0,
+     "hi": 21.0,
+     "center": 18.0,
+     "val": 0.896,
+     "err": 0.083
+    },
+    {
+     "i": 5,
+     "lo": 21.0,
+     "hi": 27.0,
+     "center": 24.0,
+     "val": 1.053,
+     "err": 0.093
+    },
+    {
+     "i": 6,
+     "lo": 27.0,
+     "hi": 33.0,
+     "center": 30.0,
+     "val": 0.943,
+     "err": 0.1027
+    },
+    {
+     "i": 7,
+     "lo": 33.0,
+     "hi": 39.0,
+     "center": 36.0,
+     "val": 1.03,
+     "err": 0.1232
+    },
+    {
+     "i": 8,
+     "lo": 39.0,
+     "hi": 54.0,
+     "center": 46.5,
+     "val": 0.951,
+     "err": 0.1075
+    },
+    {
+     "i": 9,
+     "lo": 54.0,
+     "hi": 60.0,
+     "center": 57.0,
+     "val": 0.967,
+     "err": 0.1132,
+     "hi_true": 100.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nomad-2009qmu/sigma_qel_numu_free.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/0812.4543",
+   "provenance": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene \u00b7 target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene. Target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g."
+  },
+  {
+   "key": "dsigma_sigma_qel_antinumu_nucl",
+   "slug": "dsigma_sigma_qel_antinumu_nucl",
+   "name": "\u03c3_qel",
+   "name_tex": "$\\sigma_{qel}$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_qel",
+   "ylabel_plot": "\u03c3_qel",
+   "ylabel_tex": "$\\sigma_{qel}$",
+   "yunit": "10^{-38}cm^2 per neutron (nuclear target)",
+   "yunit_tex": "$10^{-38}cm^2 per neutron (nuclear target)$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 6.0,
+     "center": 4.5,
+     "val": 0.585,
+     "err": 0.1251
+    },
+    {
+     "i": 1,
+     "lo": 6.0,
+     "hi": 9.0,
+     "center": 7.5,
+     "val": 0.71,
+     "err": 0.1558
+    },
+    {
+     "i": 2,
+     "lo": 9.0,
+     "hi": 15.0,
+     "center": 12.0,
+     "val": 0.851,
+     "err": 0.149
+    },
+    {
+     "i": 3,
+     "lo": 15.0,
+     "hi": 24.0,
+     "center": 19.5,
+     "val": 0.822,
+     "err": 0.157
+    },
+    {
+     "i": 4,
+     "lo": 24.0,
+     "hi": 42.0,
+     "center": 33.0,
+     "val": 1.009,
+     "err": 0.1717
+    },
+    {
+     "i": 5,
+     "lo": 42.0,
+     "hi": 49.5,
+     "center": 45.75,
+     "val": 0.993,
+     "err": 0.1993,
+     "hi_true": 100.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nomad-2009qmu/sigma_qel_antinumu_nucl.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/0812.4543",
+   "provenance": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene \u00b7 target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene. Target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g."
+  },
+  {
+   "key": "dsigma_sigma_qel_antinumu_free",
+   "slug": "dsigma_sigma_qel_antinumu_free",
+   "name": "\u03c3_qel",
+   "name_tex": "$\\sigma_{qel}$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_qel",
+   "ylabel_plot": "\u03c3_qel",
+   "ylabel_tex": "$\\sigma_{qel}$",
+   "yunit": "10^{-38}cm^2 per free neutron",
+   "yunit_tex": "$10^{-38}cm^2 per free neutron$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 6.0,
+     "center": 4.5,
+     "val": 0.639,
+     "err": 0.1365
+    },
+    {
+     "i": 1,
+     "lo": 6.0,
+     "hi": 9.0,
+     "center": 7.5,
+     "val": 0.767,
+     "err": 0.168
+    },
+    {
+     "i": 2,
+     "lo": 9.0,
+     "hi": 15.0,
+     "center": 12.0,
+     "val": 0.913,
+     "err": 0.1597
+    },
+    {
+     "i": 3,
+     "lo": 15.0,
+     "hi": 24.0,
+     "center": 19.5,
+     "val": 0.878,
+     "err": 0.1684
+    },
+    {
+     "i": 4,
+     "lo": 24.0,
+     "hi": 42.0,
+     "center": 33.0,
+     "val": 1.075,
+     "err": 0.1825
+    },
+    {
+     "i": 5,
+     "lo": 42.0,
+     "hi": 49.5,
+     "center": 45.75,
+     "val": 1.056,
+     "err": 0.2119,
+     "hi_true": 100.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nomad-2009qmu/sigma_qel_antinumu_free.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/0812.4543",
+   "provenance": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene \u00b7 target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene. Target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g."
+  }
+ ]
+}

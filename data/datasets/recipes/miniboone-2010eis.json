@@ -1,0 +1,45 @@
+{
+ "bibtag": "MiniBooNE:2010eis",
+ "slug": "miniboone-2010eis",
+ "source_url": "https://arxiv.org/abs/1011.3572",
+ "note": "MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flux-averaged over the MiniBooNE \u03bd\u03bc beam. Target: per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron). No covariance is published (per-bin total uncertainty only).",
+ "provenance": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu \u00b7 target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "items": [
+  {
+   "slug": "sigma_enu",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010eis/sigma_enu.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "MeV",
+   "ylabel": "\\sigma(E_\\nu)",
+   "yunit": "10^{-39}cm^2"
+  },
+  {
+   "slug": "dsigma_dke_pi",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010eis/dsigma_dke_pi.csv",
+   "xlabel": "KE_\\pi",
+   "xunit": "MeV",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}KE_\\pi",
+   "yunit": "10^{-41}cm^2/MeV"
+  },
+  {
+   "slug": "dsigma_dq2",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010eis/dsigma_dq2.csv",
+   "xlabel": "Q^2",
+   "xunit": "GeV^2/c^4",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
+   "yunit": "10^{-45}cm^2 c^4/MeV^2"
+  },
+  {
+   "slug": "dsigma_dke_mu",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2010eis/dsigma_dke_mu.csv",
+   "xlabel": "KE_\\mu",
+   "xunit": "MeV",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}KE_\\mu",
+   "yunit": "10^{-42}cm^2/MeV"
+  }
+ ]
+}

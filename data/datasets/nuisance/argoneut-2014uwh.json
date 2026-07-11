@@ -1,0 +1,75 @@
+{
+ "bibtag": "ArgoNeuT:2014uwh",
+ "slug": "argoneut-2014uwh",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1408.0598",
+ "arxiv": "1408.0598",
+ "cite": "Phys.Rev.Lett. 113 261801",
+ "note": "Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI antineutrino-enhanced beam, ArgoNeuT LArTPC. Single flux-integrated \u03c3 values (no differential binning) for each flavor. Target: per Ar nucleus. No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_numu",
+   "slug": "dsigma_sigma_numu",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.1,
+     "hi": 16.1,
+     "center": 9.600000000000001,
+     "val": 2.6,
+     "err": 1.16
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2014uwh/sigma_numu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1408.0598",
+   "provenance": "ArgoNeuT:2014uwh \u2014 Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI anti \u00b7 target per Ar nucleus \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "ArgoNeuT:2014uwh \u2014 Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI anti. Target per Ar nucleus."
+  },
+  {
+   "key": "dsigma_sigma_numubar",
+   "slug": "dsigma_sigma_numubar",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2",
+   "yunit_tex": "$10^{-39}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 2.1,
+     "hi": 5.1,
+     "center": 3.5999999999999996,
+     "val": 5.5,
+     "err": 2.44
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2014uwh/sigma_numubar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1408.0598",
+   "provenance": "ArgoNeuT:2014uwh \u2014 Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI anti \u00b7 target per Ar nucleus \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "ArgoNeuT:2014uwh \u2014 Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI anti. Target per Ar nucleus."
+  }
+ ]
+}

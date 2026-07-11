@@ -1,0 +1,203 @@
+{
+ "bibtag": "SciBooNE:2010slc",
+ "slug": "sciboone-2010slc",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1011.2131",
+ "arxiv": "1011.2131",
+ "cite": "Phys.Rev.D 83 012005",
+ "note": "\u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciBar+MRD-stopped+MRD-penetrated samples in the Fermilab Booster Neutrino Beam (mean E\u03bd\u22480.8 GeV); reported both as an energy-dependent (6-bin, quasi-differential) flux-averaged cross section and as a single flux(E\u03bd>0.25 GeV)-integrated total cross section, each separately extracted using NEUT and NUANCE MC-based efficiency/purity predictions. Target: per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8). No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_cc_inclusive_edep_xsec_neut",
+   "slug": "dsigma_cc_inclusive_edep_xsec_neut",
+   "name": "\u03c3(E_\u03bd bin) (NEUT-based)",
+   "name_tex": "$\\sigma(E_\\nu\\ \\mathrm{bin})\\ (NEUT-based)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(E_\u03bd bin)",
+   "ylabel_plot": "\u03c3(E_\u03bd bin)",
+   "ylabel_tex": "$\\sigma(E_\\nu\\ \\mathrm{bin})$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 2.76,
+     "err": 0.75
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 5.8,
+     "err": 0.75
+    },
+    {
+     "i": 2,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 10.3,
+     "err": 1.0
+    },
+    {
+     "i": 3,
+     "lo": 1.0,
+     "hi": 1.25,
+     "center": 1.125,
+     "val": 13.8,
+     "err": 1.7
+    },
+    {
+     "i": 4,
+     "lo": 1.25,
+     "hi": 1.75,
+     "center": 1.5,
+     "val": 16.2,
+     "err": 2.9
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/sciboone-2010slc/cc_inclusive_edep_xsec_neut.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1011.2131",
+   "provenance": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB \u00b7 target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB. Target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8)."
+  },
+  {
+   "key": "dsigma_cc_inclusive_edep_xsec_nuance",
+   "slug": "dsigma_cc_inclusive_edep_xsec_nuance",
+   "name": "\u03c3(E_\u03bd bin) (NUANCE-based)",
+   "name_tex": "$\\sigma(E_\\nu\\ \\mathrm{bin})\\ (NUANCE-based)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(E_\u03bd bin)",
+   "ylabel_plot": "\u03c3(E_\u03bd bin)",
+   "ylabel_tex": "$\\sigma(E_\\nu\\ \\mathrm{bin})$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 3.4,
+     "err": 0.96
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 6.39,
+     "err": 0.81
+    },
+    {
+     "i": 2,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 10.1,
+     "err": 0.9
+    },
+    {
+     "i": 3,
+     "lo": 1.0,
+     "hi": 1.25,
+     "center": 1.125,
+     "val": 12.9,
+     "err": 1.5
+    },
+    {
+     "i": 4,
+     "lo": 1.25,
+     "hi": 1.75,
+     "center": 1.5,
+     "val": 15.6,
+     "err": 2.8
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/sciboone-2010slc/cc_inclusive_edep_xsec_nuance.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1011.2131",
+   "provenance": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB \u00b7 target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB. Target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8)."
+  },
+  {
+   "key": "dsigma_cc_inclusive_total_xsec_neut",
+   "slug": "dsigma_cc_inclusive_total_xsec_neut",
+   "name": "\u03c3 (NEUT-based, flux-integrated (E_nu>0.25 GeV))",
+   "name_tex": "$\\sigma\\ (NEUT-based, flux-integrated (E_nu>0.25 GeV))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.83,
+     "hi": 0.83,
+     "center": 0.83,
+     "val": 8.51,
+     "err": 0.72
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/sciboone-2010slc/cc_inclusive_total_xsec_neut.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1011.2131",
+   "provenance": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB \u00b7 target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB. Target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8)."
+  },
+  {
+   "key": "dsigma_cc_inclusive_total_xsec_nuance",
+   "slug": "dsigma_cc_inclusive_total_xsec_nuance",
+   "name": "\u03c3 (NUANCE-based, flux-integrated (E_nu>0.25 GeV))",
+   "name_tex": "$\\sigma\\ (NUANCE-based, flux-integrated (E_nu>0.25 GeV))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.83,
+     "hi": 0.83,
+     "center": 0.83,
+     "val": 8.45,
+     "err": 0.71
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/sciboone-2010slc/cc_inclusive_total_xsec_nuance.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1011.2131",
+   "provenance": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB \u00b7 target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB. Target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8)."
+  }
+ ]
+}

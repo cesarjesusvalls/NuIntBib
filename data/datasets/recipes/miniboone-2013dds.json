@@ -1,0 +1,18 @@
+{
+ "bibtag": "MiniBooNE:2013dds",
+ "slug": "miniboone-2013dds",
+ "source_url": "https://arxiv.org/abs/1309.7257",
+ "note": "Flux-averaged antineutrino NC elastic (\u03bdbar N -> \u03bdbar N) differential cross section d\u03c3/dQ\u00b2_QE on CH2 (mineral oil), MiniBooNE antineutrino-mode beam, \u03bdbar_\u03bc/\u03bdbar_e flux 0-10 GeV. Target: per nucleon (flux-averaged mixture of free H protons + bound C protons/neutrons in CH2, per Eq. in Appendix A; verified numerically \u2014 see caveats). No covariance is published (per-bin total uncertainty only).",
+ "provenance": "MiniBooNE:2013dds \u2014 Flux-averaged antineutrino NC elastic (\u03bdbar N -> \u03bdbar N) differential cross section d\u03c3/dQ\u00b2_QE on CH2 (mineral oil), Mini \u00b7 target per nucleon (flux-averaged mixture of free H protons + bound C protons/neutrons in CH2, per Eq. in Appendix A; verified numerically \u2014 see caveats) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "items": [
+  {
+   "slug": "dsdq2_ncebar",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2013dds/dsdq2_ncebar.csv",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2",
+   "yunit": "cm^2/GeV^2"
+  }
+ ]
+}

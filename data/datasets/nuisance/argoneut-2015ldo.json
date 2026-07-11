@@ -1,0 +1,75 @@
+{
+ "bibtag": "ArgoNeuT:2015ldo",
+ "slug": "argoneut-2015ldo",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1511.00941",
+ "arxiv": "1511.00941",
+ "cite": "Phys.Rev.D 96 012006",
+ "note": "Flux-averaged total cross section for NC \u03c00 \u2192 \u03b3\u03b3 production on argon, separately for the neutrino and antineutrino components of the ArgoNeuT NuMI-LE antineutrino-mode beam (no differential/binned distribution reported). Target: per nucleon (argon nucleus; text says \"per argon nucleon\"). No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_ncpi0_numu",
+   "slug": "dsigma_sigma_ncpi0_numu",
+   "name": "\u03c3(NC\u03c0^0) (numu)",
+   "name_tex": "$\\sigma(NC\\pi^0)\\ (numu)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(NC\u03c0^0)",
+   "ylabel_plot": "\u03c3(NC\u03c0^0)",
+   "ylabel_tex": "$\\sigma(NC\\pi^0)$",
+   "yunit": "10^{-40}cm^2/nucleon",
+   "yunit_tex": "$10^{-40}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 9.6,
+     "hi": 9.6,
+     "center": 9.6,
+     "val": 7.1,
+     "err": 2.14
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2015ldo/sigma_ncpi0_numu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1511.00941",
+   "provenance": "ArgoNeuT:2015ldo \u2014 Flux-averaged total cross section for NC \u03c00 \u2192 \u03b3\u03b3 production on argon, separately for the neutrino and antineutrino compo \u00b7 target per nucleon (argon nucleus; text says \"per argon nucleon\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "ArgoNeuT:2015ldo \u2014 Flux-averaged total cross section for NC \u03c00 \u2192 \u03b3\u03b3 production on argon, separately for the neutrino and antineutrino compo. Target per nucleon (argon nucleus; text says \"per argon nucleon\")."
+  },
+  {
+   "key": "dsigma_sigma_ncpi0_numubar",
+   "slug": "dsigma_sigma_ncpi0_numubar",
+   "name": "\u03c3(NC\u03c0^0) (numubar)",
+   "name_tex": "$\\sigma(NC\\pi^0)\\ (numubar)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(NC\u03c0^0)",
+   "ylabel_plot": "\u03c3(NC\u03c0^0)",
+   "ylabel_tex": "$\\sigma(NC\\pi^0)$",
+   "yunit": "10^{-40}cm^2/nucleon",
+   "yunit_tex": "$10^{-40}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.6,
+     "hi": 3.6,
+     "center": 3.6,
+     "val": 0.5,
+     "err": 0.224
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2015ldo/sigma_ncpi0_numubar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1511.00941",
+   "provenance": "ArgoNeuT:2015ldo \u2014 Flux-averaged total cross section for NC \u03c00 \u2192 \u03b3\u03b3 production on argon, separately for the neutrino and antineutrino compo \u00b7 target per nucleon (argon nucleus; text says \"per argon nucleon\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "ArgoNeuT:2015ldo \u2014 Flux-averaged total cross section for NC \u03c00 \u2192 \u03b3\u03b3 production on argon, separately for the neutrino and antineutrino compo. Target per nucleon (argon nucleus; text says \"per argon nucleon\")."
+  }
+ ]
+}

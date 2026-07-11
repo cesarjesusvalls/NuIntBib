@@ -1,0 +1,607 @@
+{
+ "bibtag": "MiniBooNE:2013qnd",
+ "slug": "miniboone-2013qnd",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1301.7067",
+ "arxiv": "1301.7067",
+ "cite": "Phys.Rev.D 88 032001",
+ "note": "MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^QE,RFG, and single-differential d\u03c3/dQ\u00b2_QE, each reported both on mineral oil (CH2, including the free-proton/hydrogen scattering component) and on carbon-12 (with the hydrogen CCQE component subtracted, RFG model with M_A=1.026 GeV). The paper's headline result \u2014 the (T_\u03bc, cos\u03b8_\u03bc) double-differential cross section \u2014 is 2D and excluded from these 1D CSVs (see caveats). Target: per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label.. No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_abs_xsec_ch2",
+   "slug": "dsigma_abs_xsec_ch2",
+   "name": "\u03c3 (CH2 (mineral oil, incl. H))",
+   "name_tex": "$\\sigma\\ (CH2 (mineral oil, incl. H))$",
+   "xlabel": "E_bar\u03bd^QE,RFG",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}^{QE,RFG}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "cm^2",
+   "yunit_tex": "$cm^2$",
+   "nbins": 14,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.4,
+     "hi": 0.45,
+     "center": 0.42500000000000004,
+     "val": 1.738e-39,
+     "err": 3.433e-40
+    },
+    {
+     "i": 1,
+     "lo": 0.45,
+     "hi": 0.5,
+     "center": 0.475,
+     "val": 1.881e-39,
+     "err": 3.097e-40
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.55,
+     "center": 0.525,
+     "val": 2.078e-39,
+     "err": 3.178e-40
+    },
+    {
+     "i": 3,
+     "lo": 0.55,
+     "hi": 0.6,
+     "center": 0.575,
+     "val": 2.308e-39,
+     "err": 3.213e-40
+    },
+    {
+     "i": 4,
+     "lo": 0.6,
+     "hi": 0.65,
+     "center": 0.625,
+     "val": 2.542e-39,
+     "err": 3.155e-40
+    },
+    {
+     "i": 5,
+     "lo": 0.65,
+     "hi": 0.7,
+     "center": 0.675,
+     "val": 2.753e-39,
+     "err": 3.411e-40
+    },
+    {
+     "i": 6,
+     "lo": 0.7,
+     "hi": 0.75,
+     "center": 0.725,
+     "val": 2.932e-39,
+     "err": 3.247e-40
+    },
+    {
+     "i": 7,
+     "lo": 0.75,
+     "hi": 0.8,
+     "center": 0.775,
+     "val": 3.098e-39,
+     "err": 3.419e-40
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 3.374e-39,
+     "err": 3.604e-40
+    },
+    {
+     "i": 9,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 3.78e-39,
+     "err": 4.167e-40
+    },
+    {
+     "i": 10,
+     "lo": 1.0,
+     "hi": 1.1,
+     "center": 1.05,
+     "val": 4.171e-39,
+     "err": 4.972e-40
+    },
+    {
+     "i": 11,
+     "lo": 1.1,
+     "hi": 1.3,
+     "center": 1.2000000000000002,
+     "val": 4.631e-39,
+     "err": 7.34e-40
+    },
+    {
+     "i": 12,
+     "lo": 1.3,
+     "hi": 1.5,
+     "center": 1.4,
+     "val": 5.51e-39,
+     "err": 1.297e-40
+    },
+    {
+     "i": 13,
+     "lo": 1.5,
+     "hi": 1.55,
+     "center": 1.525,
+     "val": 6.654e-39,
+     "err": 2.407e-40,
+     "hi_true": 2.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2013qnd/abs_xsec_ch2.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1301.7067",
+   "provenance": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^ \u00b7 target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label. \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^. Target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label.."
+  },
+  {
+   "key": "dsigma_abs_xsec_c",
+   "slug": "dsigma_abs_xsec_c",
+   "name": "\u03c3 (12C (H subtracted))",
+   "name_tex": "$\\sigma\\ (12C (H subtracted))$",
+   "xlabel": "E_bar\u03bd^QE,RFG",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}^{QE,RFG}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "cm^2",
+   "yunit_tex": "$cm^2$",
+   "nbins": 14,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.4,
+     "hi": 0.45,
+     "center": 0.42500000000000004,
+     "val": 1.808e-39,
+     "err": 6.267e-40
+    },
+    {
+     "i": 1,
+     "lo": 0.45,
+     "hi": 0.5,
+     "center": 0.475,
+     "val": 1.89e-39,
+     "err": 4.471e-40
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.55,
+     "center": 0.525,
+     "val": 2.019e-39,
+     "err": 4.433e-40
+    },
+    {
+     "i": 3,
+     "lo": 0.55,
+     "hi": 0.6,
+     "center": 0.575,
+     "val": 2.258e-39,
+     "err": 4.384e-40
+    },
+    {
+     "i": 4,
+     "lo": 0.6,
+     "hi": 0.65,
+     "center": 0.625,
+     "val": 2.501e-39,
+     "err": 4.335e-40
+    },
+    {
+     "i": 5,
+     "lo": 0.65,
+     "hi": 0.7,
+     "center": 0.675,
+     "val": 2.728e-39,
+     "err": 4.559e-40
+    },
+    {
+     "i": 6,
+     "lo": 0.7,
+     "hi": 0.75,
+     "center": 0.725,
+     "val": 2.932e-39,
+     "err": 4.39e-40
+    },
+    {
+     "i": 7,
+     "lo": 0.75,
+     "hi": 0.8,
+     "center": 0.775,
+     "val": 3.091e-39,
+     "err": 4.56e-40
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 3.372e-39,
+     "err": 4.821e-40
+    },
+    {
+     "i": 9,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 3.815e-39,
+     "err": 5.663e-40
+    },
+    {
+     "i": 10,
+     "lo": 1.0,
+     "hi": 1.1,
+     "center": 1.05,
+     "val": 4.254e-39,
+     "err": 6.704e-40
+    },
+    {
+     "i": 11,
+     "lo": 1.1,
+     "hi": 1.3,
+     "center": 1.2000000000000002,
+     "val": 4.789e-39,
+     "err": 9.831e-40
+    },
+    {
+     "i": 12,
+     "lo": 1.3,
+     "hi": 1.5,
+     "center": 1.4,
+     "val": 5.784e-39,
+     "err": 1.742e-39
+    },
+    {
+     "i": 13,
+     "lo": 1.5,
+     "hi": 1.55,
+     "center": 1.525,
+     "val": 7.086e-39,
+     "err": 3.126e-39,
+     "hi_true": 2.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2013qnd/abs_xsec_c.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1301.7067",
+   "provenance": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^ \u00b7 target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label. \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^. Target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label.."
+  },
+  {
+   "key": "dsigma_dsigma_dq2_ch2",
+   "slug": "dsigma_dsigma_dq2_ch2",
+   "name": "d\u03c3/dQ\u00b2_QE (CH2 (mineral oil, incl. H))",
+   "name_tex": "$d\\sigma/dQ^2_{QE}\\ (CH2 (mineral oil, incl. H))$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$d\\sigma/dQ^2_{QE}$",
+   "yunit": "cm^2/GeV^2",
+   "yunit_tex": "$cm^2/GeV^2$",
+   "nbins": 17,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.05,
+     "center": 0.025,
+     "val": 8.262e-39,
+     "err": 1.2906e-39
+    },
+    {
+     "i": 1,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 9.075e-39,
+     "err": 1.2449e-39
+    },
+    {
+     "i": 2,
+     "lo": 0.1,
+     "hi": 0.15,
+     "center": 0.125,
+     "val": 7.343e-39,
+     "err": 9.7373e-40
+    },
+    {
+     "i": 3,
+     "lo": 0.15,
+     "hi": 0.2,
+     "center": 0.175,
+     "val": 5.867e-39,
+     "err": 7.7728e-40
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.25,
+     "center": 0.225,
+     "val": 4.569e-39,
+     "err": 6.1601e-40
+    },
+    {
+     "i": 5,
+     "lo": 0.25,
+     "hi": 0.3,
+     "center": 0.275,
+     "val": 3.4e-39,
+     "err": 4.7051e-40
+    },
+    {
+     "i": 6,
+     "lo": 0.3,
+     "hi": 0.35,
+     "center": 0.32499999999999996,
+     "val": 2.61e-39,
+     "err": 3.6716e-40
+    },
+    {
+     "i": 7,
+     "lo": 0.35,
+     "hi": 0.4,
+     "center": 0.375,
+     "val": 2.083e-39,
+     "err": 3.1412e-40
+    },
+    {
+     "i": 8,
+     "lo": 0.4,
+     "hi": 0.45,
+     "center": 0.42500000000000004,
+     "val": 1.617e-39,
+     "err": 2.7073e-40
+    },
+    {
+     "i": 9,
+     "lo": 0.45,
+     "hi": 0.5,
+     "center": 0.475,
+     "val": 1.276e-39,
+     "err": 2.2012e-40
+    },
+    {
+     "i": 10,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 8.978e-40,
+     "err": 1.6769e-40
+    },
+    {
+     "i": 11,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 5.394e-40,
+     "err": 1.256e-40
+    },
+    {
+     "i": 12,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 3.416e-40,
+     "err": 9.8481e-41
+    },
+    {
+     "i": 13,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 1.901e-40,
+     "err": 6.7851e-41
+    },
+    {
+     "i": 14,
+     "lo": 1.0,
+     "hi": 1.2,
+     "center": 1.1,
+     "val": 8.276e-41,
+     "err": 4.2388e-41
+    },
+    {
+     "i": 15,
+     "lo": 1.2,
+     "hi": 1.5,
+     "center": 1.35,
+     "val": 2.87e-41,
+     "err": 2.1191e-41
+    },
+    {
+     "i": 16,
+     "lo": 1.5,
+     "hi": 1.55,
+     "center": 1.525,
+     "val": 7.225e-42,
+     "err": 9.6001e-42,
+     "hi_true": 2.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2013qnd/dsigma_dq2_ch2.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1301.7067",
+   "provenance": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^ \u00b7 target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label. \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^. Target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label.."
+  },
+  {
+   "key": "dsigma_dsigma_dq2_c",
+   "slug": "dsigma_dsigma_dq2_c",
+   "name": "d\u03c3/dQ\u00b2_QE (12C (H subtracted))",
+   "name_tex": "$d\\sigma/dQ^2_{QE}\\ (12C (H subtracted))$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$d\\sigma/dQ^2_{QE}$",
+   "yunit": "cm^2/GeV^2",
+   "yunit_tex": "$cm^2/GeV^2$",
+   "nbins": 17,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.05,
+     "center": 0.025,
+     "val": 6.076e-39,
+     "err": 1.4566e-39
+    },
+    {
+     "i": 1,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 8.769e-39,
+     "err": 1.6159e-39
+    },
+    {
+     "i": 2,
+     "lo": 0.1,
+     "hi": 0.15,
+     "center": 0.125,
+     "val": 7.495e-39,
+     "err": 1.3348e-39
+    },
+    {
+     "i": 3,
+     "lo": 0.15,
+     "hi": 0.2,
+     "center": 0.175,
+     "val": 6.202e-39,
+     "err": 1.1052e-39
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.25,
+     "center": 0.225,
+     "val": 4.921e-39,
+     "err": 8.9428e-40
+    },
+    {
+     "i": 5,
+     "lo": 0.25,
+     "hi": 0.3,
+     "center": 0.275,
+     "val": 3.691e-39,
+     "err": 6.7762e-40
+    },
+    {
+     "i": 6,
+     "lo": 0.3,
+     "hi": 0.35,
+     "center": 0.32499999999999996,
+     "val": 2.838e-39,
+     "err": 5.2975e-40
+    },
+    {
+     "i": 7,
+     "lo": 0.35,
+     "hi": 0.4,
+     "center": 0.375,
+     "val": 2.297e-39,
+     "err": 4.5075e-40
+    },
+    {
+     "i": 8,
+     "lo": 0.4,
+     "hi": 0.45,
+     "center": 0.42500000000000004,
+     "val": 1.786e-39,
+     "err": 3.8484e-40
+    },
+    {
+     "i": 9,
+     "lo": 0.45,
+     "hi": 0.5,
+     "center": 0.475,
+     "val": 1.418e-39,
+     "err": 3.1233e-40
+    },
+    {
+     "i": 10,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 9.995e-40,
+     "err": 2.3216e-40
+    },
+    {
+     "i": 11,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 5.981e-40,
+     "err": 1.7646e-40
+    },
+    {
+     "i": 12,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 3.757e-40,
+     "err": 1.3841e-40
+    },
+    {
+     "i": 13,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 2.104e-40,
+     "err": 9.4831e-41
+    },
+    {
+     "i": 14,
+     "lo": 1.0,
+     "hi": 1.2,
+     "center": 1.1,
+     "val": 9.186e-41,
+     "err": 7.1811e-41
+    },
+    {
+     "i": 15,
+     "lo": 1.2,
+     "hi": 1.5,
+     "center": 1.35,
+     "val": 3.099e-41,
+     "err": 2.719e-41
+    },
+    {
+     "i": 16,
+     "lo": 1.5,
+     "hi": 1.55,
+     "center": 1.525,
+     "val": 7.414e-42,
+     "err": 1.2736e-41,
+     "hi_true": 2.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2013qnd/dsigma_dq2_c.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1301.7067",
+   "provenance": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^ \u00b7 target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label. \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MiniBooNE:2013qnd \u2014 MiniBooNE \u03bd\u0304\u03bc CCQE cross sections in antineutrino-mode beam (10.1e20 POT): total flux-integrated \u03c3 vs reconstructed E_\u03bd^. Target per proton target (paper eq. for d\u03c3\u00b2/dT\u03bcd[cos\u03b8\u03bc], line ~479: \"N the number of proton targets in the volume studied\"; text at appendix intro, line ~1338: \"these measurements are normalized to the total number of proton targets in the detector\"). For the CH2/mineral-oil results this is free H protons + bound-in-carbon protons combined; for the \"on carbon\" results the free-hydrogen CCQE component has been statistically subtracted, so normalization is to bound protons in \u00b9\u00b2C only. Figure captions loosely call these \"per-nucleon\" but the paper's own equations and appendix text are explicit that N = proton targets, not all nucleons \u2014 I used \"per proton\" as the precise label.."
+  }
+ ]
+}
