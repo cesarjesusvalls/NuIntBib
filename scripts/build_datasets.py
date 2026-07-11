@@ -1073,6 +1073,36 @@ def build_uboone_datarelease(spec):
     return dists
 
 
+def build_csv_simple(spec):
+    """Simple per-observable CSV with a 'lo,hi,val,err' header + rows — a transcribed or
+    tabulated cross section where only a per-bin total uncertainty is available (no covariance).
+    Each item -> one distribution."""
+    dists = []
+    for it in spec['items']:
+        rows = [l.strip().split(',') for l in open(_flux_open(it['csv'])) if l.strip()][1:]
+        bins = []
+        for r in rows:
+            lo, hi, val, err = float(r[0]), float(r[1]), float(r[2]), float(r[3])
+            bins.append({'i': len(bins), 'lo': lo, 'hi': hi, 'center': 0.5 * (lo + hi),
+                         'val': val, 'err': err})
+        clipped = _clip_wide_ends(bins)
+        xl, yl = it['xlabel'], it['ylabel']
+        yu = it.get('yunit', ''); xu = it.get('xunit', ''); lab = it.get('label', '')
+        key = spec.get('key', 'dsigma') + '_' + it['slug']
+        dists.append({
+            'key': key, 'slug': key,
+            'name': plotify(yl) + (f' ({lab})' if lab else ''),
+            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
+            'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+            'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+            'nbins': len(bins), 'is2d': False, 'bins': bins, 'nuisance_file': it['csv'],
+            'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
+            'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+        })
+    return dists
+
+
 def build_uboone_concat(spec):
     """MicroBooNE Wiener-SVD release where several 1D differential cross sections are
     CONCATENATED into one long vector: a TMatrix of unfolded values WITHOUT bin-width
@@ -1388,6 +1418,36 @@ def _tki_items(slugs):
 
 
 REGISTRY = [
+    {'bibtag': 'ArgoNeuT:2014rlj', 'slug': 'argoneut-2014rlj', 'source': 'arXiv',
+     'note': 'Inclusive numu and antinumu CC differential cross sections on argon (per argon '
+             'nucleus), Fermilab NuMI low-energy antineutrino mode: dsigma/dtheta_mu and '
+             'dsigma/dp_mu, at <Enu>=9.6 GeV (numu) / 3.6 GeV (antinumu). Per-bin total '
+             'uncertainty (stat + syst in quadrature); no covariance is published. Values '
+             'transcribed from the paper tables (arXiv LaTeX source).',
+     'sources': [{'csv_simple': {
+         'key': 'dsigma',
+         'items': [
+             {'slug': 'theta_numu', 'label': 'numu',
+              'csv': 'data/datasets/sources/argoneut-2014rlj/theta_numu.csv',
+              'xlabel': r'\theta_\mu', 'xunit': 'deg', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\theta_\mu',
+              'yunit': r'10^{-38}cm^2/\mathrm{deg}/\mathrm{Ar}'},
+             {'slug': 'theta_numubar', 'label': 'antinumu',
+              'csv': 'data/datasets/sources/argoneut-2014rlj/theta_numubar.csv',
+              'xlabel': r'\theta_\mu', 'xunit': 'deg', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\theta_\mu',
+              'yunit': r'10^{-38}cm^2/\mathrm{deg}/\mathrm{Ar}'},
+             {'slug': 'pmu_numu', 'label': 'numu',
+              'csv': 'data/datasets/sources/argoneut-2014rlj/pmu_numu.csv',
+              'xlabel': r'p_\mu', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_\mu',
+              'yunit': r'10^{-38}cm^2/(GeV/c)/\mathrm{Ar}'},
+             {'slug': 'pmu_numubar', 'label': 'antinumu',
+              'csv': 'data/datasets/sources/argoneut-2014rlj/pmu_numubar.csv',
+              'xlabel': r'p_\mu', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_\mu',
+              'yunit': r'10^{-38}cm^2/(GeV/c)/\mathrm{Ar}'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1404.4809',
+         'provenance': 'ArgoNeuT inclusive numu/antinumu CC dsigma/dtheta_mu and dsigma/dp_mu on '
+                       'argon (NuMI LE antineutrino mode, arXiv:1404.4809) · per argon nucleus · '
+                       'per-bin total uncertainty only (no covariance published) · values '
+                       'transcribed from the paper tables'}}]},
     {'bibtag': 'MicroBooNE:2024sec', 'slug': 'microboone-2024sec', 'source': 'arXiv',
      'note': 'NC pi0 production on argon (per nucleon), Fermilab BNB. Flux-averaged differential '
              'cross sections in pi0 momentum and cos(theta_pi0), split by hadronic final state '
@@ -2253,6 +2313,8 @@ def build(entry):
             dists.extend(build_uboone_txt(src['uboone_txt']))
         elif 'uboone_files' in src:
             dists.extend(build_uboone_files(src['uboone_files']))
+        elif 'csv_simple' in src:
+            dists.extend(build_csv_simple(src['csv_simple']))
         elif 'uboone_datarelease' in src:
             dists.extend(build_uboone_datarelease(src['uboone_datarelease']))
         elif 'minerva_csv2' in src:

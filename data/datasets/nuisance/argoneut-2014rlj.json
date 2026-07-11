@@ -1,0 +1,715 @@
+{
+ "bibtag": "ArgoNeuT:2014rlj",
+ "slug": "argoneut-2014rlj",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1404.4809",
+ "arxiv": "1404.4809",
+ "cite": "Phys.Rev.D 89 112003",
+ "note": "Inclusive numu and antinumu CC differential cross sections on argon (per argon nucleus), Fermilab NuMI low-energy antineutrino mode: dsigma/dtheta_mu and dsigma/dp_mu, at <Enu>=9.6 GeV (numu) / 3.6 GeV (antinumu). Per-bin total uncertainty (stat + syst in quadrature); no covariance is published. Values transcribed from the paper tables (arXiv LaTeX source).",
+ "distributions": [
+  {
+   "key": "dsigma_theta_numu",
+   "slug": "dsigma_theta_numu",
+   "name": "d\u03c3/d\u03b8_\u03bc (numu)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu\\ (numu)$",
+   "xlabel": "\u03b8_\u03bc",
+   "xunit": "deg",
+   "xlabel_tex": "$\\theta_\\mu$",
+   "ylabel": "d\u03c3/d\u03b8_\u03bc",
+   "ylabel_plot": "d\u03c3/d\u03b8_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu$",
+   "yunit": "10^{-38}cm^2/\\mathrm{deg}/\\mathrm{Ar}",
+   "yunit_tex": "$10^{-38}cm^2/\\mathrm{deg}/\\mathrm{Ar}$",
+   "nbins": 18,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 2.0,
+     "center": 1.0,
+     "val": 7.31,
+     "err": 3.0019
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 4.0,
+     "center": 3.0,
+     "val": 16.7,
+     "err": 3.7336
+    },
+    {
+     "i": 2,
+     "lo": 4.0,
+     "hi": 6.0,
+     "center": 5.0,
+     "val": 15.7,
+     "err": 2.9547
+    },
+    {
+     "i": 3,
+     "lo": 6.0,
+     "hi": 8.0,
+     "center": 7.0,
+     "val": 16.0,
+     "err": 3.1385
+    },
+    {
+     "i": 4,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 11.2,
+     "err": 2.6926
+    },
+    {
+     "i": 5,
+     "lo": 10.0,
+     "hi": 12.0,
+     "center": 11.0,
+     "val": 8.86,
+     "err": 1.9946
+    },
+    {
+     "i": 6,
+     "lo": 12.0,
+     "hi": 14.0,
+     "center": 13.0,
+     "val": 8.32,
+     "err": 2.2454
+    },
+    {
+     "i": 7,
+     "lo": 14.0,
+     "hi": 16.0,
+     "center": 15.0,
+     "val": 6.74,
+     "err": 1.6362
+    },
+    {
+     "i": 8,
+     "lo": 16.0,
+     "hi": 18.0,
+     "center": 17.0,
+     "val": 5.32,
+     "err": 1.5483
+    },
+    {
+     "i": 9,
+     "lo": 18.0,
+     "hi": 20.0,
+     "center": 19.0,
+     "val": 4.49,
+     "err": 1.3
+    },
+    {
+     "i": 10,
+     "lo": 20.0,
+     "hi": 22.0,
+     "center": 21.0,
+     "val": 4.29,
+     "err": 1.2703
+    },
+    {
+     "i": 11,
+     "lo": 22.0,
+     "hi": 24.0,
+     "center": 23.0,
+     "val": 3.96,
+     "err": 1.2927
+    },
+    {
+     "i": 12,
+     "lo": 24.0,
+     "hi": 26.0,
+     "center": 25.0,
+     "val": 2.67,
+     "err": 1.058
+    },
+    {
+     "i": 13,
+     "lo": 26.0,
+     "hi": 28.0,
+     "center": 27.0,
+     "val": 1.23,
+     "err": 0.6903
+    },
+    {
+     "i": 14,
+     "lo": 28.0,
+     "hi": 30.0,
+     "center": 29.0,
+     "val": 2.35,
+     "err": 1.094
+    },
+    {
+     "i": 15,
+     "lo": 30.0,
+     "hi": 32.0,
+     "center": 31.0,
+     "val": 1.04,
+     "err": 0.7122
+    },
+    {
+     "i": 16,
+     "lo": 32.0,
+     "hi": 34.0,
+     "center": 33.0,
+     "val": 0.61,
+     "err": 0.7762
+    },
+    {
+     "i": 17,
+     "lo": 34.0,
+     "hi": 36.0,
+     "center": 35.0,
+     "val": 1.38,
+     "err": 1.0012
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2014rlj/theta_numu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1404.4809",
+   "provenance": "ArgoNeuT inclusive numu/antinumu CC dsigma/dtheta_mu and dsigma/dp_mu on argon (NuMI LE antineutrino mode, arXiv:1404.4809) \u00b7 per argon nucleus \u00b7 per-bin total uncertainty only (no covariance published) \u00b7 values transcribed from the paper tables",
+   "notes": "Per argon nucleus. Per-bin total uncertainty only (no covariance published). Values transcribed from the paper tables."
+  },
+  {
+   "key": "dsigma_theta_numubar",
+   "slug": "dsigma_theta_numubar",
+   "name": "d\u03c3/d\u03b8_\u03bc (antinumu)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu\\ (antinumu)$",
+   "xlabel": "\u03b8_\u03bc",
+   "xunit": "deg",
+   "xlabel_tex": "$\\theta_\\mu$",
+   "ylabel": "d\u03c3/d\u03b8_\u03bc",
+   "ylabel_plot": "d\u03c3/d\u03b8_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu$",
+   "yunit": "10^{-38}cm^2/\\mathrm{deg}/\\mathrm{Ar}",
+   "yunit_tex": "$10^{-38}cm^2/\\mathrm{deg}/\\mathrm{Ar}$",
+   "nbins": 18,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 2.0,
+     "center": 1.0,
+     "val": 0.76,
+     "err": 0.211
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 4.0,
+     "center": 3.0,
+     "val": 1.7,
+     "err": 0.3606
+    },
+    {
+     "i": 2,
+     "lo": 4.0,
+     "hi": 6.0,
+     "center": 5.0,
+     "val": 2.3,
+     "err": 0.4472
+    },
+    {
+     "i": 3,
+     "lo": 6.0,
+     "hi": 8.0,
+     "center": 7.0,
+     "val": 1.8,
+     "err": 0.3606
+    },
+    {
+     "i": 4,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 2.1,
+     "err": 0.3606
+    },
+    {
+     "i": 5,
+     "lo": 10.0,
+     "hi": 12.0,
+     "center": 11.0,
+     "val": 1.93,
+     "err": 0.3362
+    },
+    {
+     "i": 6,
+     "lo": 12.0,
+     "hi": 14.0,
+     "center": 13.0,
+     "val": 1.7,
+     "err": 0.3312
+    },
+    {
+     "i": 7,
+     "lo": 14.0,
+     "hi": 16.0,
+     "center": 15.0,
+     "val": 1.38,
+     "err": 0.2778
+    },
+    {
+     "i": 8,
+     "lo": 16.0,
+     "hi": 18.0,
+     "center": 17.0,
+     "val": 0.95,
+     "err": 0.2163
+    },
+    {
+     "i": 9,
+     "lo": 18.0,
+     "hi": 20.0,
+     "center": 19.0,
+     "val": 0.68,
+     "err": 0.172
+    },
+    {
+     "i": 10,
+     "lo": 20.0,
+     "hi": 22.0,
+     "center": 21.0,
+     "val": 0.77,
+     "err": 0.2
+    },
+    {
+     "i": 11,
+     "lo": 22.0,
+     "hi": 24.0,
+     "center": 23.0,
+     "val": 0.49,
+     "err": 0.1562
+    },
+    {
+     "i": 12,
+     "lo": 24.0,
+     "hi": 26.0,
+     "center": 25.0,
+     "val": 0.48,
+     "err": 0.1562
+    },
+    {
+     "i": 13,
+     "lo": 26.0,
+     "hi": 28.0,
+     "center": 27.0,
+     "val": 0.44,
+     "err": 0.1421
+    },
+    {
+     "i": 14,
+     "lo": 28.0,
+     "hi": 30.0,
+     "center": 29.0,
+     "val": 0.42,
+     "err": 0.1703
+    },
+    {
+     "i": 15,
+     "lo": 30.0,
+     "hi": 32.0,
+     "center": 31.0,
+     "val": 0.08,
+     "err": 0.0781
+    },
+    {
+     "i": 16,
+     "lo": 32.0,
+     "hi": 34.0,
+     "center": 33.0,
+     "val": 0.12,
+     "err": 0.0922
+    },
+    {
+     "i": 17,
+     "lo": 34.0,
+     "hi": 36.0,
+     "center": 35.0,
+     "val": 0.17,
+     "err": 0.1281
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2014rlj/theta_numubar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1404.4809",
+   "provenance": "ArgoNeuT inclusive numu/antinumu CC dsigma/dtheta_mu and dsigma/dp_mu on argon (NuMI LE antineutrino mode, arXiv:1404.4809) \u00b7 per argon nucleus \u00b7 per-bin total uncertainty only (no covariance published) \u00b7 values transcribed from the paper tables",
+   "notes": "Per argon nucleus. Per-bin total uncertainty only (no covariance published). Values transcribed from the paper tables."
+  },
+  {
+   "key": "dsigma_pmu_numu",
+   "slug": "dsigma_pmu_numu",
+   "name": "d\u03c3/dp_\u03bc (numu)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu\\ (numu)$",
+   "xlabel": "p_\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_\\mu$",
+   "ylabel": "d\u03c3/dp_\u03bc",
+   "ylabel_plot": "d\u03c3/dp_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu$",
+   "yunit": "10^{-38}cm^2/(GeV/c)/\\mathrm{Ar}",
+   "yunit_tex": "$10^{-38}cm^2/(GeV/c)/\\mathrm{Ar}$",
+   "nbins": 20,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.25,
+     "center": 0.625,
+     "val": 20.3,
+     "err": 8.792
+    },
+    {
+     "i": 1,
+     "lo": 1.25,
+     "hi": 2.5,
+     "center": 1.875,
+     "val": 27.1,
+     "err": 5.2326
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.75,
+     "center": 3.125,
+     "val": 18.9,
+     "err": 4.0512
+    },
+    {
+     "i": 3,
+     "lo": 3.75,
+     "hi": 5.0,
+     "center": 4.375,
+     "val": 22.5,
+     "err": 4.2953
+    },
+    {
+     "i": 4,
+     "lo": 5.0,
+     "hi": 6.25,
+     "center": 5.625,
+     "val": 17.3,
+     "err": 3.4438
+    },
+    {
+     "i": 5,
+     "lo": 6.25,
+     "hi": 7.5,
+     "center": 6.875,
+     "val": 15.1,
+     "err": 3.265
+    },
+    {
+     "i": 6,
+     "lo": 7.5,
+     "hi": 8.75,
+     "center": 8.125,
+     "val": 10.8,
+     "err": 2.4187
+    },
+    {
+     "i": 7,
+     "lo": 8.75,
+     "hi": 10.0,
+     "center": 9.375,
+     "val": 12.0,
+     "err": 3.3106
+    },
+    {
+     "i": 8,
+     "lo": 10.0,
+     "hi": 11.2,
+     "center": 10.6,
+     "val": 7.64,
+     "err": 2.0374
+    },
+    {
+     "i": 9,
+     "lo": 11.2,
+     "hi": 12.5,
+     "center": 11.85,
+     "val": 7.43,
+     "err": 1.9642
+    },
+    {
+     "i": 10,
+     "lo": 12.5,
+     "hi": 13.8,
+     "center": 13.15,
+     "val": 6.36,
+     "err": 2.0357
+    },
+    {
+     "i": 11,
+     "lo": 13.8,
+     "hi": 15.0,
+     "center": 14.4,
+     "val": 3.8,
+     "err": 1.3485
+    },
+    {
+     "i": 12,
+     "lo": 15.0,
+     "hi": 16.2,
+     "center": 15.6,
+     "val": 3.75,
+     "err": 1.2927
+    },
+    {
+     "i": 13,
+     "lo": 16.2,
+     "hi": 17.5,
+     "center": 16.85,
+     "val": 2.84,
+     "err": 1.0962
+    },
+    {
+     "i": 14,
+     "lo": 17.5,
+     "hi": 18.8,
+     "center": 18.15,
+     "val": 2.01,
+     "err": 1.0595
+    },
+    {
+     "i": 15,
+     "lo": 18.8,
+     "hi": 20.0,
+     "center": 19.4,
+     "val": 3.96,
+     "err": 1.4509
+    },
+    {
+     "i": 16,
+     "lo": 20.0,
+     "hi": 21.2,
+     "center": 20.6,
+     "val": 2.83,
+     "err": 1.3396
+    },
+    {
+     "i": 17,
+     "lo": 21.2,
+     "hi": 22.5,
+     "center": 21.85,
+     "val": 2.65,
+     "err": 1.1822
+    },
+    {
+     "i": 18,
+     "lo": 22.5,
+     "hi": 23.8,
+     "center": 23.15,
+     "val": 1.63,
+     "err": 0.9021
+    },
+    {
+     "i": 19,
+     "lo": 23.8,
+     "hi": 25.0,
+     "center": 24.4,
+     "val": 1.4,
+     "err": 0.836
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2014rlj/pmu_numu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1404.4809",
+   "provenance": "ArgoNeuT inclusive numu/antinumu CC dsigma/dtheta_mu and dsigma/dp_mu on argon (NuMI LE antineutrino mode, arXiv:1404.4809) \u00b7 per argon nucleus \u00b7 per-bin total uncertainty only (no covariance published) \u00b7 values transcribed from the paper tables",
+   "notes": "Per argon nucleus. Per-bin total uncertainty only (no covariance published). Values transcribed from the paper tables."
+  },
+  {
+   "key": "dsigma_pmu_numubar",
+   "slug": "dsigma_pmu_numubar",
+   "name": "d\u03c3/dp_\u03bc (antinumu)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu\\ (antinumu)$",
+   "xlabel": "p_\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_\\mu$",
+   "ylabel": "d\u03c3/dp_\u03bc",
+   "ylabel_plot": "d\u03c3/dp_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu$",
+   "yunit": "10^{-38}cm^2/(GeV/c)/\\mathrm{Ar}",
+   "yunit_tex": "$10^{-38}cm^2/(GeV/c)/\\mathrm{Ar}$",
+   "nbins": 20,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.25,
+     "center": 0.625,
+     "val": 3.2,
+     "err": 0.8602
+    },
+    {
+     "i": 1,
+     "lo": 1.25,
+     "hi": 2.5,
+     "center": 1.875,
+     "val": 9.0,
+     "err": 1.3
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.75,
+     "center": 3.125,
+     "val": 7.9,
+     "err": 1.077
+    },
+    {
+     "i": 3,
+     "lo": 3.75,
+     "hi": 5.0,
+     "center": 4.375,
+     "val": 2.9,
+     "err": 0.5
+    },
+    {
+     "i": 4,
+     "lo": 5.0,
+     "hi": 6.25,
+     "center": 5.625,
+     "val": 1.6,
+     "err": 0.3606
+    },
+    {
+     "i": 5,
+     "lo": 6.25,
+     "hi": 7.5,
+     "center": 6.875,
+     "val": 1.0,
+     "err": 0.2828
+    },
+    {
+     "i": 6,
+     "lo": 7.5,
+     "hi": 8.75,
+     "center": 8.125,
+     "val": 1.0,
+     "err": 0.2828
+    },
+    {
+     "i": 7,
+     "lo": 8.75,
+     "hi": 10.0,
+     "center": 9.375,
+     "val": 1.0,
+     "err": 0.2828
+    },
+    {
+     "i": 8,
+     "lo": 10.0,
+     "hi": 11.2,
+     "center": 10.6,
+     "val": 0.63,
+     "err": 0.2126
+    },
+    {
+     "i": 9,
+     "lo": 11.2,
+     "hi": 12.5,
+     "center": 11.85,
+     "val": 0.32,
+     "err": 0.1487
+    },
+    {
+     "i": 10,
+     "lo": 12.5,
+     "hi": 13.8,
+     "center": 13.15,
+     "val": 0.24,
+     "err": 0.1221
+    },
+    {
+     "i": 11,
+     "lo": 13.8,
+     "hi": 15.0,
+     "center": 14.4,
+     "val": 0.22,
+     "err": 0.1204
+    },
+    {
+     "i": 12,
+     "lo": 15.0,
+     "hi": 16.2,
+     "center": 15.6,
+     "val": 0.34,
+     "err": 0.1487
+    },
+    {
+     "i": 13,
+     "lo": 16.2,
+     "hi": 17.5,
+     "center": 16.85,
+     "val": 0.2,
+     "err": 0.1063
+    },
+    {
+     "i": 14,
+     "lo": 17.5,
+     "hi": 18.8,
+     "center": 18.15,
+     "val": 0.27,
+     "err": 0.1562
+    },
+    {
+     "i": 15,
+     "lo": 18.8,
+     "hi": 20.0,
+     "center": 19.4,
+     "val": 0.16,
+     "err": 0.1063
+    },
+    {
+     "i": 16,
+     "lo": 20.0,
+     "hi": 21.2,
+     "center": 20.6,
+     "val": 0.08,
+     "err": 0.0781
+    },
+    {
+     "i": 17,
+     "lo": 21.2,
+     "hi": 22.5,
+     "center": 21.85,
+     "val": 0.08,
+     "err": 0.064
+    },
+    {
+     "i": 18,
+     "lo": 22.5,
+     "hi": 23.8,
+     "center": 23.15,
+     "val": 0.08,
+     "err": 0.0781
+    },
+    {
+     "i": 19,
+     "lo": 23.8,
+     "hi": 25.0,
+     "center": 24.4,
+     "val": 0.02,
+     "err": 0.0283
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2014rlj/pmu_numubar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1404.4809",
+   "provenance": "ArgoNeuT inclusive numu/antinumu CC dsigma/dtheta_mu and dsigma/dp_mu on argon (NuMI LE antineutrino mode, arXiv:1404.4809) \u00b7 per argon nucleus \u00b7 per-bin total uncertainty only (no covariance published) \u00b7 values transcribed from the paper tables",
+   "notes": "Per argon nucleus. Per-bin total uncertainty only (no covariance published). Values transcribed from the paper tables."
+  }
+ ]
+}
