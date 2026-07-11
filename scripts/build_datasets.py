@@ -908,6 +908,63 @@ def build_minerva_csv2(spec):
     return dists
 
 
+def _isfloat(s):
+    try:
+        float(s); return True
+    except ValueError:
+        return False
+
+
+def build_uboone_txt(spec):
+    """MicroBooNE text release where a values file holds several measurement blocks (each
+    started by a '##' header, rows 'idx lo hi center value total_unc') and a covariance file
+    holds one full NxN matrix per block (each started by a '#' header). Block k pairs with
+    spec['items'][k] (slug/labels/units). Per-bin error = total_unc (= sqrt(diag(cov)));
+    covariances are block-diagonal across measurements."""
+    def _blocks(path, header):
+        blocks, cur = [], None
+        for ln in open(_flux_open(path)):
+            s = ln.strip()
+            if s.startswith(header):
+                cur = []; blocks.append(cur); continue
+            p = s.split()
+            if cur is not None and p and _isfloat(p[0]):
+                cur.append([float(x) for x in p])
+        return blocks
+    vblocks = _blocks(spec['values'], '##')
+    cblocks = _blocks(spec['cov'], '#')                                 # '#' also matches '##'; values uses '##'
+    dists, blocks, order = [], [], []
+    for k, it in enumerate(spec['items']):
+        rows = vblocks[k]; M = np.array(cblocks[k])
+        n = len(rows)
+        edges = [rows[0][1]] + [r[2] for r in rows]                    # lo of first, then every hi
+        vals = [r[4] for r in rows]; unc = [r[5] for r in rows]
+        bins = [{'i': i, 'lo': rows[i][1], 'hi': rows[i][2], 'center': rows[i][3],
+                 'val': vals[i], 'err': unc[i]} for i in range(n)]
+        xl, yl = it['xlabel'], it['ylabel']
+        yu = it.get('yunit', ''); xu = it.get('xunit', '')
+        key = spec.get('key', 'dsigma') + '_' + it['slug']
+        dists.append({
+            'key': key, 'slug': key, 'name': plotify(yl), 'name_tex': f'${yl}$',
+            'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
+            'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+            'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+            'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': spec['values'],
+            'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+        })
+        blocks.append(M)
+        for i in range(n):
+            order.append(f"{it['slug']} [{edges[i]:g},{edges[i + 1]:g}]")
+    total = sum(b.shape[0] for b in blocks)
+    cov_out = np.zeros((total, total)); off = 0
+    for b in blocks:
+        kk = b.shape[0]; cov_out[off:off + kk, off:off + kk] = b; off += kk
+    if dists:
+        dists[0]['_release_cov'] = _cov_obj(cov_out, order, spec.get(
+            'cov_note', 'block-diagonal total covariance per measurement; row/col order below'))
+    return dists
+
+
 def build_uboone_concat(spec):
     """MicroBooNE Wiener-SVD release where several 1D differential cross sections are
     CONCATENATED into one long vector: a TMatrix of unfolded values WITHOUT bin-width
@@ -1230,6 +1287,27 @@ def _tki_items(slugs):
 
 
 REGISTRY = [
+    {'bibtag': 'MicroBooNE:2021sfa', 'slug': 'microboone-2021sfa', 'source': 'arXiv',
+     'note': 'First energy-dependent numu CC inclusive cross sections on argon (per nucleon), '
+             'Fermilab BNB nu-mode <Enu>~0.8 GeV: total sigma(Enu), plus flux-averaged dsigma/dEmu '
+             'and the first dsigma/dnu (energy transfer). Values + total covariance per measurement '
+             'from the arXiv ancillary text release.',
+     'sources': [{'uboone_txt': {
+         'values': 'data/datasets/sources/microboone-2021sfa/microboone_cc_inclusive_cross_section.txt',
+         'cov': 'data/datasets/sources/microboone-2021sfa/microboone_cc_inclusive_cov_mat.txt',
+         'key': 'xsec',
+         'items': [
+             {'slug': 'Enu', 'xlabel': r'E_\nu', 'xunit': 'GeV',
+              'ylabel': r'\sigma(E_\nu)', 'yunit': r'10^{-38}cm^2/nucleon'},
+             {'slug': 'Emu', 'xlabel': r'E_\mu', 'xunit': 'GeV',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_\mu', 'yunit': r'10^{-38}cm^2/GeV/nucleon'},
+             {'slug': 'nu', 'xlabel': r'\nu', 'xunit': 'GeV',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\nu', 'yunit': r'10^{-38}cm^2/GeV/nucleon'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2110.14023',
+         'provenance': 'MicroBooNE numu CC inclusive sigma(Enu), dsigma/dEmu, dsigma/dnu on argon '
+                       '(BNB nu-mode <Enu>~0.8 GeV, arXiv:2110.14023) · per nucleon · total '
+                       'covariance per measurement (block-diagonal) · from the arXiv ancillary text '
+                       'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2015jih', 'slug': 'minerva-2015jih', 'source': 'arXiv',
      'note': 'nu_e CC quasi-elastic-like differential cross sections (electron energy, electron '
              'angle, Q^2_QE) and the (nu_e+nubar_e)/nu_mu ratio in Q^2_QE, on hydrocarbon '
@@ -2002,6 +2080,8 @@ def build(entry):
             dists.extend(build_minerva_csv(src['minerva_csv']))
         elif 'uboone_concat' in src:
             dists.extend(build_uboone_concat(src['uboone_concat']))
+        elif 'uboone_txt' in src:
+            dists.extend(build_uboone_txt(src['uboone_txt']))
         elif 'minerva_csv2' in src:
             dists.extend(build_minerva_csv2(src['minerva_csv2']))
         elif 'zenodo3d' in src:
