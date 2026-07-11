@@ -1018,6 +1018,61 @@ def build_uboone_files(spec):
     return dists
 
 
+def build_uboone_datarelease(spec):
+    """MicroBooNE 'DataRelease/' triplet: xs.txt (GlobalBin -> value, already differential),
+    real_bins.txt (GlobalBin -> element_lo/element_hi edges; row_lo/hi = -1000 for 1D bins), and
+    cov.txt (GlobalXbin GlobalYbin Z triplets = one cross-observable total covariance). Each item
+    selects a contiguous global-bin range 'gb'=[a,b) forming a 1D distribution; the release
+    covariance is the sub-matrix over the ingested bins (cross-observable correlations kept)."""
+    xs, rb = {}, {}
+    for l in open(_flux_open(spec['xs'])):
+        p = l.split()
+        if len(p) == 2 and p[0].lstrip('-').isdigit():
+            xs[int(p[0])] = float(p[1])
+    for l in open(_flux_open(spec['bins'])):
+        p = l.split()
+        if len(p) >= 6 and p[0].lstrip('-').isdigit():
+            rb[int(p[0])] = (float(p[4]), float(p[5]))
+    N = max(xs) + 1
+    Mfull = np.zeros((N, N))
+    for l in open(_flux_open(spec['cov'])):
+        p = l.split()
+        if len(p) == 3 and p[0].lstrip('-').isdigit():
+            Mfull[int(p[0]), int(p[1])] = float(p[2])
+    dists, ix, order = [], [], []
+    for it in spec['items']:
+        a, b = it['gb']; gbs = list(range(a, b)); n = len(gbs)
+        edges = [rb[gbs[0]][0]] + [rb[g][1] for g in gbs]
+        vals = [xs[g] for g in gbs]
+        err = [float(np.sqrt(max(Mfull[g, g], 0.0))) for g in gbs]
+        bins = [{'i': i, 'lo': edges[i], 'hi': edges[i + 1], 'center': 0.5 * (edges[i] + edges[i + 1]),
+                 'val': vals[i], 'err': err[i]} for i in range(n)]
+        clipped = _clip_wide_ends(bins)
+        xl, yl = it['xlabel'], it['ylabel']
+        yu = it.get('yunit', ''); xu = it.get('xunit', ''); lab = it.get('label', '')
+        key = spec.get('key', 'dsigma') + '_' + it['slug']
+        dists.append({
+            'key': key, 'slug': key,
+            'name': plotify(yl) + (f' ({lab})' if lab else ''),
+            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
+            'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+            'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+            'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': spec['xs'],
+            'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
+            'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+        })
+        ix += gbs
+        for i in range(n):
+            order.append(f"{it['slug']} [{edges[i]:g},{edges[i + 1]:g}]")
+    if dists:
+        Msub = Mfull[np.ix_(ix, ix)]
+        dists[0]['_release_cov'] = _cov_obj(Msub, order, spec.get(
+            'cov_note', 'cross-observable total (stat+syst) covariance over the ingested bins '
+            '(sub-matrix of the release covariance); row/col order below'))
+    return dists
+
+
 def build_uboone_concat(spec):
     """MicroBooNE Wiener-SVD release where several 1D differential cross sections are
     CONCATENATED into one long vector: a TMatrix of unfolded values WITHOUT bin-width
@@ -1333,6 +1388,41 @@ def _tki_items(slugs):
 
 
 REGISTRY = [
+    {'bibtag': 'MicroBooNE:2024sec', 'slug': 'microboone-2024sec', 'source': 'arXiv',
+     'note': 'NC pi0 production on argon (per nucleon), Fermilab BNB. Flux-averaged differential '
+             'cross sections in pi0 momentum and cos(theta_pi0), split by hadronic final state '
+             '(0 protons / N protons / any protons Xp). The release also ships an Xp double-'
+             'differential [cos(theta_pi0), P_pi0] (24 bins) which is not ingested here. Values + '
+             'the cross-observable total covariance (Wiener-SVD) from the arXiv ancillary release.',
+     'sources': [{'uboone_datarelease': {
+         'xs': 'data/datasets/sources/microboone-2024sec/xs.txt',
+         'bins': 'data/datasets/sources/microboone-2024sec/real_bins.txt',
+         'cov': 'data/datasets/sources/microboone-2024sec/cov.txt',
+         'key': 'dsigma',
+         'items': [
+             {'slug': 'Ppi_0p', 'gb': [0, 6], 'label': '0p',
+              'xlabel': r'p_{\pi^0}', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{\pi^0}',
+              'yunit': r'10^{-39}cm^2/(GeV/c)/nucleon'},
+             {'slug': 'Ppi_Np', 'gb': [6, 12], 'label': 'Np',
+              'xlabel': r'p_{\pi^0}', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{\pi^0}',
+              'yunit': r'10^{-39}cm^2/(GeV/c)/nucleon'},
+             {'slug': 'Ppi_Xp', 'gb': [12, 21], 'label': 'Xp',
+              'xlabel': r'p_{\pi^0}', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{\pi^0}',
+              'yunit': r'10^{-39}cm^2/(GeV/c)/nucleon'},
+             {'slug': 'cospi_0p', 'gb': [21, 29], 'label': '0p',
+              'xlabel': r'\cos\theta_{\pi^0}', 'xunit': '', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_{\pi^0}',
+              'yunit': r'10^{-39}cm^2/nucleon'},
+             {'slug': 'cospi_Np', 'gb': [29, 44], 'label': 'Np',
+              'xlabel': r'\cos\theta_{\pi^0}', 'xunit': '', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_{\pi^0}',
+              'yunit': r'10^{-39}cm^2/nucleon'},
+             {'slug': 'cospi_Xp', 'gb': [44, 61], 'label': 'Xp',
+              'xlabel': r'\cos\theta_{\pi^0}', 'xunit': '', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_{\pi^0}',
+              'yunit': r'10^{-39}cm^2/nucleon'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2404.10948',
+         'provenance': 'MicroBooNE NC pi0 production dsigma/dp_pi0 and dsigma/dcos(theta_pi0) on '
+                       'argon, split by 0p/Np/Xp final state (BNB, arXiv:2404.10948) · per nucleon '
+                       '· cross-observable total Wiener-SVD covariance (sub-matrix over ingested '
+                       'bins) · from the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2025ooi', 'slug': 'microboone-2025ooi', 'source': 'arXiv',
      'note': 'numu CC0pi flux-integrated differential cross sections on argon (per argon nucleus), '
              'Fermilab BNB nu-mode <Enu>~0.8 GeV: dsigma/dpmu and dsigma/dcos(theta_mu). The release '
@@ -2163,6 +2253,8 @@ def build(entry):
             dists.extend(build_uboone_txt(src['uboone_txt']))
         elif 'uboone_files' in src:
             dists.extend(build_uboone_files(src['uboone_files']))
+        elif 'uboone_datarelease' in src:
+            dists.extend(build_uboone_datarelease(src['uboone_datarelease']))
         elif 'minerva_csv2' in src:
             dists.extend(build_minerva_csv2(src['minerva_csv2']))
         elif 'zenodo3d' in src:
