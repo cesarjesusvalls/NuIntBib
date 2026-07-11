@@ -728,16 +728,18 @@ def build_minerva_root(spec):
     Per-bin error = sqrt(diag(total covariance)); covariances block-diagonal across items.
     Each item may override xlabel/xunit/ylabel/yunit (defaults from spec)."""
     f = uproot.open(_flux_open(spec['root']))
+    # 'cov' at spec level = one SHARED covariance over all items concatenated (keeps
+    # cross-observable correlations); else each item carries its own 'cov' (block-diagonal).
+    shared = np.asarray(f[spec['cov']].values()) if spec.get('cov') else None
     dists, blocks, order = [], [], []
+    soff = 0
     for it in spec['items']:
         h = f[it['hist']]; edges = h.axis().edges(); vv = h.values(); n = len(vv)
-        cov = np.asarray(f[it['cov']].values()); K = cov.shape[0]
-        if K == n:
-            M = cov
-        elif K == n + 2:
-            M = cov[1:n + 1, 1:n + 1]                                   # drop under/overflow
+        if shared is not None:
+            M = shared[soff:soff + n, soff:soff + n]; soff += n         # this item's diagonal block
         else:
-            raise ValueError(f"{it['cov']} is {K}x{K} for {n} bins")
+            cov = np.asarray(f[it['cov']].values()); K = cov.shape[0]
+            M = cov if K == n else cov[1:n + 1, 1:n + 1]                # NxN or drop under/overflow
         err = np.sqrt(np.clip(np.diag(M), 0, None))                    # total per-bin error
         bins = [{'i': i, 'lo': float(edges[i]), 'hi': float(edges[i + 1]),
                  'center': 0.5 * (edges[i] + edges[i + 1]), 'val': float(vv[i]), 'err': float(err[i])}
@@ -763,16 +765,21 @@ def build_minerva_root(spec):
             'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
             'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
         })
-        blocks.append(M)
+        if shared is None:
+            blocks.append(M)
         for i in range(n):
             order.append(f"{it['slug']} [{edges[i]:g},{edges[i + 1]:g}]")
-    total = sum(b.shape[0] for b in blocks)
-    big = np.zeros((total, total)); off = 0
-    for b in blocks:
-        k = b.shape[0]; big[off:off + k, off:off + k] = b; off += k
+    if shared is not None:
+        cov_out = shared                                               # full cross-observable matrix
+        note = 'total (stat+syst) covariance over all observables (concatenated); row/col order below'
+    else:
+        total = sum(b.shape[0] for b in blocks)
+        cov_out = np.zeros((total, total)); off = 0
+        for b in blocks:
+            k = b.shape[0]; cov_out[off:off + k, off:off + k] = b; off += k
+        note = 'block-diagonal total (stat+syst) covariance per item; row/col order below'
     if dists:
-        dists[0]['_release_cov'] = _cov_obj(big, order, spec.get(
-            'cov_note', 'block-diagonal total (stat+syst) covariance per target; row/col order below'))
+        dists[0]['_release_cov'] = _cov_obj(cov_out, order, spec.get('cov_note', note))
     return dists
 
 
@@ -1027,6 +1034,37 @@ def _mbar(var, xl, xu, ang=False, denom=None):
 
 
 REGISTRY = [
+    {'bibtag': 'MicroBooNE:2025pvb', 'slug': 'microboone-2025pvb', 'source': 'arXiv',
+     'note': 'nu_e + nubar_e CC single-charged-pion differential cross sections on argon '
+             '(per nucleon), NuMI off-axis (FHC+RHC combined). Values + full covariance from the '
+             'arXiv ancillary release; apply the release smearing matrix A_C before model '
+             'comparison.',
+     'flux': {'blocks': [
+         {'root': 'data/datasets/sources/microboone-2025pvb/nue_flux.root',
+          'hists': [('nue_CV_AV_TPC_5MeV_bin', 'nue')]},
+         {'root': 'data/datasets/sources/microboone-2025pvb/nuebar_flux.root',
+          'hists': [('nuebar_CV_AV_TPC_5MeV_bin', 'nuebar')]}],
+         'note': 'MicroBooNE NuMI nu_e and nubar_e flux (POT-weighted FHC+RHC), from the '
+                 'release nue_flux.root / nuebar_flux.root'},
+     'sources': [{'minerva_root': {
+         'root': 'data/datasets/sources/microboone-2025pvb/release.root', 'cov': 'h_total_covmat',
+         'xlabel': r'E_e', 'xunit': 'GeV', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_e',
+         'yunit': r'10^{-39}cm^2/GeV/nucleon', 'key': 'dsigma',
+         'items': [
+             {'slug': 'Ee', 'label': '', 'hist': 'hSlice_E_{e}', 'xlabel': r'E_e', 'xunit': 'GeV',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_e', 'yunit': r'10^{-39}cm^2/GeV/nucleon'},
+             {'slug': 'cos_e', 'label': '', 'hist': 'hSlice_cos(#theta_{e})', 'xlabel': r'\cos\theta_e',
+              'xunit': '', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_e', 'yunit': r'10^{-39}cm^2/nucleon'},
+             {'slug': 'cos_pi', 'label': '', 'hist': 'hSlice_cos(#theta_{#pi})', 'xlabel': r'\cos\theta_\pi',
+              'xunit': '', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_\pi', 'yunit': r'10^{-39}cm^2/nucleon'},
+             {'slug': 'cos_epi', 'label': '', 'hist': 'hSlice_cos(#theta_{e#pi})',
+              'xlabel': r'\cos\theta_{e\pi}', 'xunit': '',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_{e\pi}', 'yunit': r'10^{-39}cm^2/nucleon'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2503.23384',
+         'provenance': 'MicroBooNE nu_e+nubar_e CC1pi differential cross sections on argon (NuMI '
+                       'off-axis FHC+RHC, arXiv:2503.23384) · per nucleon · full covariance over all '
+                       'observables; apply the release smearing matrix A_C before comparison · from '
+                       'the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2023cmw', 'slug': 'microboone-2023cmw', 'source': 'arXiv',
      'note': 'numu CC1p0pi multidifferential cross sections on argon (per Ar), BNB. Values + '
              'covariance from the arXiv ancillary release; apply the release smearing matrix Ac '
