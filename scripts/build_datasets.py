@@ -790,6 +790,53 @@ def build_minerva_root(spec):
     return dists
 
 
+def build_minerva_csv(spec):
+    """MINERvA anc CSV release: a values file with a 'Bin Low Edge...' row and a
+    'Cross Section' row, plus a covariance CSV (first NxN numeric block). Per-bin
+    error = sqrt(diag(covariance)); the last bin's high edge is spec['last_edge']."""
+    named = {}
+    for ln in open(_flux_open(spec['data'])):
+        p = [x.strip() for x in ln.rstrip().split(',')]
+        if p:
+            named[p[0]] = p[1:]
+    edrow = next(v for k, v in named.items() if k.lower().startswith('bin low edge'))
+    lo = [float(x) for x in edrow if x]
+    vals = [float(x) for x in named['Cross Section'] if x]
+    n = len(vals)
+    edges = lo + [spec['last_edge']]
+    covrows = []
+    for ln in open(_flux_open(spec['cov'])):
+        p = [x.strip() for x in ln.rstrip().split(',')]
+        if p and p[0].lstrip('-').isdigit():
+            covrows.append([float(x) for x in p[1:1 + n]])
+        if len(covrows) == n:
+            break
+    M = np.array(covrows)
+    err = np.sqrt(np.clip(np.diag(M), 0, None))
+    bins = [{'i': i, 'lo': edges[i], 'hi': edges[i + 1], 'center': 0.5 * (edges[i] + edges[i + 1]),
+             'val': vals[i], 'err': float(err[i])} for i in range(n)]
+    med = float(np.median([b['hi'] - b['lo'] for b in bins]))
+    clipped = False
+    for b in bins:
+        if b['hi'] - b['lo'] > 4 * med:
+            b['hi_true'] = b['hi']; b['hi'] = round(b['lo'] + med, 4)
+            b['center'] = 0.5 * (b['lo'] + b['hi']); clipped = True
+    xl, yl, yu = spec['xlabel'], spec['ylabel'], spec.get('yunit', '')
+    dist = {
+        'key': spec.get('key', 'dsigma'), 'slug': spec.get('key', 'dsigma'),
+        'name': plotify(yl), 'name_tex': f'${yl}$',
+        'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''), 'xlabel_tex': f'${xl}$',
+        'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+        'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+        'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': '',
+        'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+        'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+    }
+    dist['_release_cov'] = _cov_obj(M, [f"[{edges[i]:g},{edges[i + 1]:g}]" for i in range(n)],
+                                    spec.get('cov_note', 'total covariance; row/col order below'))
+    return [dist]
+
+
 def _release_source_url(dists):
     """The URL for the whole release: the shared record when all distributions point
     at one file (Zenodo/arXiv), else the common parent directory (NUISANCE multi-file)."""
@@ -1041,6 +1088,20 @@ def _mbar(var, xl, xu, ang=False, denom=None):
 
 
 REGISTRY = [
+    {'bibtag': 'MINERvA:2023ikp', 'slug': 'minerva-2023ikp', 'source': 'arXiv',
+     'note': 'antinumu CC multi-neutron (>=2 neutrons, low available energy) dsigma/dpT on '
+             'hydrocarbon (per nucleon), NuMI. Values + covariance from the arXiv ancillary CSV.',
+     'sources': [{'minerva_csv': {
+         'data': 'data/datasets/sources/minerva-2023ikp/crossSection.csv',
+         'cov': 'data/datasets/sources/minerva-2023ikp/crossSectionCovariance.csv',
+         'last_edge': 1.5, 'key': 'dsdpt',
+         'xlabel': r'p_{T\mu}', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{T\mu}', 'yunit': r'10^{-39}cm^2/(GeV/c)/nucleon',
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2310.17014',
+         'cov_note': 'total covariance in (10^-39 cm^2 c/GeV/nucleon)^2; row/col order below',
+         'provenance': 'MINERvA antinumu CC multi-neutron dsigma/dpT_mu on hydrocarbon (NuMI, '
+                       'arXiv:2310.17014) · per nucleon · total covariance · from the arXiv '
+                       'ancillary CSV · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2025pvb', 'slug': 'microboone-2025pvb', 'source': 'arXiv',
      'note': 'nu_e + nubar_e CC single-charged-pion differential cross sections on argon '
              '(per nucleon), NuMI off-axis (FHC+RHC combined). Values + full covariance from the '
@@ -1606,6 +1667,8 @@ def build(entry):
             dists.extend(build_sigma_enu(src['sigma_enu']))
         elif 'minerva_root' in src:
             dists.extend(build_minerva_root(src['minerva_root']))
+        elif 'minerva_csv' in src:
+            dists.extend(build_minerva_csv(src['minerva_csv']))
         elif 'zenodo3d' in src:
             dists.extend(build_3d_zenodo(src['zenodo3d']))
         elif 'values' in src:
