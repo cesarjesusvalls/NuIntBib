@@ -1096,6 +1096,31 @@ def _mbar(var, xl, xu, ang=False, denom=None):
 
 
 REGISTRY = [
+    {'bibtag': 'MINERvA:2020zzv', 'slug': 'minerva-2020zzv', 'source': 'arXiv',
+     'note': 'numu CC inclusive differential cross sections d(sigma)/dpT and d(sigma)/dp_parallel '
+             'on hydrocarbon (per nucleon), NuMI LE <Enu>~3.5 GeV. Muon-angle < 20 deg phase space. '
+             'Values + total covariance from the arXiv ancillary release; each 1D projection '
+             'carries its own covariance (the 2D d2sigma/dpTdp_par is in the release too).',
+     'sources': [{'minerva_root': {
+         'key': 'dsigma',
+         'xlabel': r'p_{T\mu}', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{T\mu}', 'yunit': r'cm^2/(GeV/c)/nucleon',
+         'items': [
+             {'slug': 'ptmu', 'label': '',
+              'root': 'data/datasets/sources/minerva-2020zzv/cov_fullUncertainty_ptmu_CCInclusive.root',
+              'hist': 'ptmu_cross_section', 'cov': 'TotalCovariance',
+              'xlabel': r'p_{T\mu}', 'xunit': 'GeV/c',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{T\mu}', 'yunit': r'cm^2/(GeV/c)/nucleon'},
+             {'slug': 'pzmu', 'label': '',
+              'root': 'data/datasets/sources/minerva-2020zzv/cov_fullUncertainty_pzmu_CCInclusive.root',
+              'hist': 'pzmu_cross_section', 'cov': 'TotalCovariance',
+              'xlabel': r'p_{\parallel\mu}', 'xunit': 'GeV/c',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{\parallel\mu}', 'yunit': r'cm^2/(GeV/c)/nucleon'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2002.12496',
+         'provenance': 'MINERvA numu CC inclusive dsigma/dpT and dsigma/dp_parallel on hydrocarbon '
+                       '(NuMI LE <Enu>~3.5 GeV, arXiv:2002.12496) · per nucleon · muon angle < 20 deg '
+                       '· total covariance per projection (block-diagonal) · from the arXiv ancillary '
+                       'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2018hqn', 'slug': 'minerva-2018hqn', 'source': 'arXiv',
      'note': 'numu CC quasielastic-like differential cross sections on hydrocarbon (per nucleon), '
              'NuMI LE. Values + total covariance from the arXiv ancillary release (QE-like signal '
