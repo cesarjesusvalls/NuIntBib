@@ -522,11 +522,10 @@
     {
      "i": 1,
      "lo": 0.45,
-     "hi": 0.475,
-     "center": 0.4625,
+     "hi": 0.6,
+     "center": 0.525,
      "val": 3.593833899206212e-39,
-     "err": 6.355765695488213e-40,
-     "hi_true": 0.6
+     "err": 6.355765695488213e-40
     },
     {
      "i": 2,
@@ -730,7 +729,7 @@
     }
    ],
    "nuisance_file": "data/datasets/sources/minerva-2018hba/MINERvA_1805.05486.root",
-   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
@@ -1179,29 +1178,26 @@
     {
      "i": 22,
      "lo": 0.8,
-     "hi": 0.825,
-     "center": 0.8125,
+     "hi": 1.0,
+     "center": 0.9,
      "val": 4.59892646342326e-40,
-     "err": 8.485713646847379e-41,
-     "hi_true": 1.0
+     "err": 8.485713646847379e-41
     },
     {
      "i": 23,
      "lo": 1.0,
-     "hi": 1.025,
-     "center": 1.0125,
+     "hi": 1.2,
+     "center": 1.1,
      "val": 1.616276489434026e-40,
-     "err": 4.594132683792032e-41,
-     "hi_true": 1.2
+     "err": 4.594132683792032e-41
     },
     {
      "i": 24,
      "lo": 1.2,
-     "hi": 1.225,
-     "center": 1.2125,
+     "hi": 2.0,
+     "center": 1.6,
      "val": 1.5880670117025035e-41,
-     "err": 8.792119267431091e-42,
-     "hi_true": 2.0
+     "err": 8.792119267431091e-42
     },
     {
      "i": 25,
@@ -1213,7 +1209,7 @@
     }
    ],
    "nuisance_file": "data/datasets/sources/minerva-2018hba/MINERvA_1805.05486.root",
-   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
@@ -1222,13 +1218,13 @@
   {
    "key": "dsigma_dalphat",
    "slug": "dsigma_dalphat",
-   "name": "d\u03c3/d\u03b4alpha_T",
+   "name": "d\u03c3/d\u03b4\u03b1_T",
    "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta\\alpha_T$",
-   "xlabel": "\u03b4alpha_T",
+   "xlabel": "\u03b4\u03b1_T",
    "xunit": "deg",
    "xlabel_tex": "$\\delta\\alpha_T$",
-   "ylabel": "d\u03c3/d\u03b4alpha_T",
-   "ylabel_plot": "d\u03c3/d\u03b4alpha_T",
+   "ylabel": "d\u03c3/d\u03b4\u03b1_T",
+   "ylabel_plot": "d\u03c3/d\u03b4\u03b1_T",
    "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta\\alpha_T$",
    "yunit": "cm^2/\\mathrm{deg}/nucleon",
    "yunit_tex": "$cm^2/\\mathrm{deg}/nucleon$",
@@ -1542,29 +1538,26 @@
     {
      "i": 22,
      "lo": 0.8,
-     "hi": 0.825,
-     "center": 0.8125,
+     "hi": 1.0,
+     "center": 0.9,
      "val": 4.159688599313624e-40,
-     "err": 7.31545659384501e-41,
-     "hi_true": 1.0
+     "err": 7.31545659384501e-41
     },
     {
      "i": 23,
      "lo": 1.0,
-     "hi": 1.025,
-     "center": 1.0125,
+     "hi": 1.2,
+     "center": 1.1,
      "val": 1.386755872901483e-40,
-     "err": 4.679080089014396e-41,
-     "hi_true": 1.2
+     "err": 4.679080089014396e-41
     },
     {
      "i": 24,
      "lo": 1.2,
-     "hi": 1.225,
-     "center": 1.2125,
+     "hi": 2.0,
+     "center": 1.6,
      "val": 1.6100876872866878e-41,
-     "err": 8.783299706098581e-42,
-     "hi_true": 2.0
+     "err": 8.783299706098581e-42
     },
     {
      "i": 25,
@@ -1576,7 +1569,7 @@
     }
    ],
    "nuisance_file": "data/datasets/sources/minerva-2018hba/MINERvA_1805.05486.root",
-   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
@@ -1761,29 +1754,26 @@
     {
      "i": 20,
      "lo": 70.0,
-     "hi": 72.5,
-     "center": 71.25,
+     "hi": 85.0,
+     "center": 77.5,
      "val": 4.417141767513036e-42,
-     "err": 8.371205438395737e-43,
-     "hi_true": 85.0
+     "err": 8.371205438395737e-43
     },
     {
      "i": 21,
      "lo": 85.0,
-     "hi": 87.5,
-     "center": 86.25,
+     "hi": 105.0,
+     "center": 95.0,
      "val": 3.024272460149185e-42,
-     "err": 5.050184510610203e-43,
-     "hi_true": 105.0
+     "err": 5.050184510610203e-43
     },
     {
      "i": 22,
      "lo": 105.0,
-     "hi": 107.5,
-     "center": 106.25,
+     "hi": 130.0,
+     "center": 117.5,
      "val": 2.968398257545418e-42,
-     "err": 4.837523165803464e-43,
-     "hi_true": 130.0
+     "err": 4.837523165803464e-43
     },
     {
      "i": 23,
@@ -1796,7 +1786,7 @@
     }
    ],
    "nuisance_file": "data/datasets/sources/minerva-2018hba/MINERvA_1805.05486.root",
-   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",

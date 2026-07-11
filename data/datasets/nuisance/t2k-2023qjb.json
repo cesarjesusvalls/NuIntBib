@@ -91,7 +91,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.6 < \\cos\\theta_\\mu < 0.7$",
@@ -150,7 +150,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
@@ -209,7 +209,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.85$",
@@ -276,7 +276,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.85 < \\cos\\theta_\\mu < 0.9$",
@@ -351,7 +351,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.9 < \\cos\\theta_\\mu < 0.94$",
@@ -418,7 +418,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.94 < \\cos\\theta_\\mu < 0.98$",
@@ -509,7 +509,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.98 < \\cos\\theta_\\mu < 1$",
@@ -584,7 +584,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     }
    ],
    "bins": [],
@@ -653,7 +653,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.82 < \\cos\\theta_\\mu < 0.94$",
@@ -696,7 +696,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     },
     {
      "label_tex": "$0.94 < \\cos\\theta_\\mu < 1$",
@@ -739,7 +739,7 @@
        "hi_true": 30.0
       }
      ],
-     "scale_note": "last bin is an integration overflow (shown truncated)"
+     "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)"
     }
    ],
    "bins": [],

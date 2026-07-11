@@ -138,13 +138,13 @@
   {
    "key": "dsigma_dalphaT",
    "slug": "dsigma_dalphaT",
-   "name": "d\u03c3/d\u03b4alpha_T",
+   "name": "d\u03c3/d\u03b4\u03b1_T",
    "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta\\alpha_T$",
-   "xlabel": "\u03b4alpha_T",
+   "xlabel": "\u03b4\u03b1_T",
    "xunit": "deg",
    "xlabel_tex": "$\\delta\\alpha_T$",
-   "ylabel": "d\u03c3/d\u03b4alpha_T",
-   "ylabel_plot": "d\u03c3/d\u03b4alpha_T",
+   "ylabel": "d\u03c3/d\u03b4\u03b1_T",
+   "ylabel_plot": "d\u03c3/d\u03b4\u03b1_T",
    "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta\\alpha_T$",
    "yunit": "10^{-38}cm^2/{}^{40}\\mathrm{Ar}/\\mathrm{deg}",
    "yunit_tex": "$10^{-38}cm^2/{}^{40}\\mathrm{Ar}/\\mathrm{deg}$",
@@ -362,7 +362,7 @@
    "dpTx [0.35,0.45]",
    "dpTx [0.45,0.55]"
   ],
-  "note": "block-diagonal total (stat+syst) covariance per target; row/col order below",
+  "note": "block-diagonal total (stat+syst) covariance per item; row/col order below",
   "matrix": [
    [
     6.7155,

@@ -306,13 +306,13 @@
   {
    "key": "dsigma_DeltaAlphaT",
    "slug": "dsigma_DeltaAlphaT",
-   "name": "d\u03c3/d\u03b4alpha_T",
+   "name": "d\u03c3/d\u03b4\u03b1_T",
    "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta\\alpha_T$",
-   "xlabel": "\u03b4alpha_T",
+   "xlabel": "\u03b4\u03b1_T",
    "xunit": "deg",
    "xlabel_tex": "$\\delta\\alpha_T$",
-   "ylabel": "d\u03c3/d\u03b4alpha_T",
-   "ylabel_plot": "d\u03c3/d\u03b4alpha_T",
+   "ylabel": "d\u03c3/d\u03b4\u03b1_T",
+   "ylabel_plot": "d\u03c3/d\u03b4\u03b1_T",
    "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta\\alpha_T$",
    "yunit": "10^{-38}cm^2/{}^{40}\\mathrm{Ar}/\\mathrm{deg}",
    "yunit_tex": "$10^{-38}cm^2/{}^{40}\\mathrm{Ar}/\\mathrm{deg}$",
@@ -785,7 +785,7 @@
    "ECal [1.25,1.4]",
    "ECal [1.4,1.6]"
   ],
-  "note": "block-diagonal total (stat+syst) covariance per target; row/col order below",
+  "note": "block-diagonal total (stat+syst) covariance per item; row/col order below",
   "matrix": [
    [
     0.0496,

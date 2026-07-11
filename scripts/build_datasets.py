@@ -98,10 +98,29 @@ def plotify(tex):
     return (tex.replace('\\mathrm', '').replace('{', '').replace('}', '')
             .replace('\\pi', 'π').replace('\\mu', 'μ').replace('\\nu', 'ν')
             .replace('\\theta', 'θ').replace('\\phi', 'φ').replace('\\delta', 'δ')
+            .replace('\\alpha', 'α').replace('\\beta', 'β').replace('\\gamma', 'γ')
             .replace('\\sigma', 'σ').replace('\\cos', 'cos').replace('\\sin', 'sin')
             .replace('\\in', '∈').replace('\\times', '×').replace('\\,', ' ')
             .replace('\\', '')
             .replace('^2', '²').replace('^{2}', '²').replace('^3', '³').replace('^{3}', '³'))
+
+
+def _clip_wide_ends(bins, factor=4):
+    """Shrink a genuine overflow/underflow CATCH-ALL bin to the median width for display,
+    keeping its true edge in hi_true. Such a catch-all is only ever the FIRST or LAST bin, so
+    only those are considered: interior wide bins are the measurement's real coarse bins (common
+    in MINERvA variable binning) and must be left alone — clipping them opens false gaps in the
+    plotted spectrum. Returns True if any terminal bin was clipped."""
+    if not bins:
+        return False
+    med = float(np.median([b['hi'] - b['lo'] for b in bins]))
+    clipped = False
+    for idx in {0, len(bins) - 1}:
+        b = bins[idx]
+        if b['hi'] - b['lo'] > factor * med:
+            b['hi_true'] = b['hi']; b['hi'] = round(b['lo'] + med, 4)
+            b['center'] = 0.5 * (b['lo'] + b['hi']); clipped = True
+    return clipped
 
 
 # --- extract distributions from a ROOT file ---------------------------------
@@ -400,14 +419,7 @@ def build_1d_csv_targets(spec):
                 lo, hi = float(r['bin_low']), float(r['bin_high'])
                 bins.append({'i': i, 'lo': lo, 'hi': hi, 'center': 0.5 * (lo + hi),
                              'val': float(r[res['vcol']]) * sc, 'err': float(r['error']) * sc})
-            med = float(np.median([b['hi'] - b['lo'] for b in bins]))
-            clipped = False
-            for b in bins:
-                if b['hi'] - b['lo'] > 4 * med:
-                    b['hi_true'] = b['hi']
-                    b['hi'] = round(b['lo'] + med, 4)
-                    b['center'] = 0.5 * (b['lo'] + b['hi'])
-                    clipped = True
+            clipped = _clip_wide_ends(bins)
             yl, key = res['ylabel'], f"{res['key']}_{t.lower()}"
             out.append({
                 'key': key, 'slug': key, 'name': plotify(yl) + f' ({t})',
@@ -418,7 +430,7 @@ def build_1d_csv_targets(spec):
                 'yunit': res.get('yunit', ''),
                 'yunit_tex': f"${tl(res.get('yunit', ''))}$" if res.get('yunit') else '',
                 'nbins': len(bins), 'bins': bins, 'is2d': False, 'nuisance_file': '',
-                'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+                'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
                 'source': spec['source'], 'source_url': spec['source_url'],
                 'provenance': spec['provenance'],
             })
@@ -697,12 +709,7 @@ def build_sigma_enu(spec):
         bins.append({'i': i, 'lo': lo, 'hi': hi, 'center': 0.5 * (lo + hi),
                      'val': val, 'err': float(errs[i])})
         order.append(f"E[{lo:g},{hi:g}]")
-    med = float(np.median([b['hi'] - b['lo'] for b in bins]))     # clip overflow last bin
-    clipped = False
-    for b in bins:
-        if b['hi'] - b['lo'] > 4 * med:
-            b['hi_true'] = b['hi']; b['hi'] = round(b['lo'] + med, 4)
-            b['center'] = 0.5 * (b['lo'] + b['hi']); clipped = True
+    clipped = _clip_wide_ends(bins)
     xl, yl, yu = spec['xlabel'], spec['ylabel'], spec.get('yunit', '')
     dist = {
         'key': spec['key'], 'slug': spec['key'],
@@ -711,7 +718,7 @@ def build_sigma_enu(spec):
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
         'nbins': len(bins), 'is2d': False, 'bins': bins, 'nuisance_file': '',
-        'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+        'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
         'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
     }
     dist['_release_cov'] = _cov_obj(frac * np.outer(nom, nom), order, spec.get(
@@ -768,12 +775,7 @@ def build_minerva_root(spec):
         bins = [{'i': i, 'lo': float(edges[i]), 'hi': float(edges[i + 1]),
                  'center': 0.5 * (edges[i] + edges[i + 1]), 'val': float(vv[i]), 'err': float(err[i])}
                 for i in range(n)]
-        med = float(np.median([b['hi'] - b['lo'] for b in bins]))       # clip overflow last bin
-        clipped = False
-        for b in bins:
-            if b['hi'] - b['lo'] > 4 * med:
-                b['hi_true'] = b['hi']; b['hi'] = round(b['lo'] + med, 4)
-                b['center'] = 0.5 * (b['lo'] + b['hi']); clipped = True
+        clipped = _clip_wide_ends(bins)
         lab = it.get('label', it['slug'])
         xl = it.get('xlabel', spec['xlabel']); yl = it.get('ylabel', spec['ylabel'])
         yu = it.get('yunit', spec.get('yunit', '')); xu = it.get('xunit', spec.get('xunit', ''))
@@ -787,7 +789,7 @@ def build_minerva_root(spec):
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
             'nbins': n, 'is2d': False, 'bins': bins,
             'nuisance_file': it.get('root', spec.get('root', '')),
-            'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+            'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
             'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
         })
         if shared is None:
@@ -833,12 +835,7 @@ def build_minerva_csv(spec):
     err = np.sqrt(np.clip(np.diag(M), 0, None))
     bins = [{'i': i, 'lo': edges[i], 'hi': edges[i + 1], 'center': 0.5 * (edges[i] + edges[i + 1]),
              'val': vals[i], 'err': float(err[i])} for i in range(n)]
-    med = float(np.median([b['hi'] - b['lo'] for b in bins]))
-    clipped = False
-    for b in bins:
-        if b['hi'] - b['lo'] > 4 * med:
-            b['hi_true'] = b['hi']; b['hi'] = round(b['lo'] + med, 4)
-            b['center'] = 0.5 * (b['lo'] + b['hi']); clipped = True
+    clipped = _clip_wide_ends(bins)
     xl, yl, yu = spec['xlabel'], spec['ylabel'], spec.get('yunit', '')
     dist = {
         'key': spec.get('key', 'dsigma'), 'slug': spec.get('key', 'dsigma'),
@@ -847,7 +844,7 @@ def build_minerva_csv(spec):
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
         'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': '',
-        'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+        'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
         'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
     }
     dist['_release_cov'] = _cov_obj(M, [f"[{edges[i]:g},{edges[i + 1]:g}]" for i in range(n)],
@@ -1172,21 +1169,14 @@ def _assemble_2d(grouped, spec):
                 for i, (plo, phi, v, e) in enumerate(sorted(pts))]
         # clip an integration-overflow last bin (e.g. p in [x, 30]) to a median
         # width so it doesn't dominate the axis; keep the true edge for the table.
-        med = float(np.median([b['hi'] - b['lo'] for b in bins]))
-        clipped = False
-        for b in bins:
-            if b['hi'] - b['lo'] > 4 * med:
-                b['hi_true'] = b['hi']
-                b['hi'] = round(b['lo'] + med, 4)
-                b['center'] = 0.5 * (b['lo'] + b['hi'])
-                clipped = True
+        clipped = _clip_wide_ends(bins)
         total += len(bins)
         sl = spec.get('slicevar', r'\cos\theta_\mu')
         slices.append({
             'label_tex': f'${clo:g} < {sl} < {chi:g}$',
             'label': plotify(f'{clo:g} < {sl} < {chi:g}'),
             'lo': clo, 'hi': chi, 'nbins': len(bins), 'bins': bins,
-            'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+            'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
         })
     # optional group label (a detector like ND280, or a beam like \nu_\mu):
     # det_tex is the LaTeX to show, det_slug the ascii key/name suffix.
@@ -1491,7 +1481,7 @@ REGISTRY = [
               'root': 'data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_enuqe_qelike.root',
               'hist': 'enuqe_cross_section', 'cov': 'TotalCovariance',
               'xlabel': r'E_\nu^{QE}', 'xunit': 'GeV',
-              'ylabel': r'\sigma(E_\nu^{QE})', 'yunit': r'cm^2/nucleon'}],
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_\nu^{QE}', 'yunit': r'cm^2/GeV/nucleon'}],
          'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1811.02774',
          'provenance': 'MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, '
                        'arXiv:1811.02774) · per nucleon · QE-like signal definition · total '

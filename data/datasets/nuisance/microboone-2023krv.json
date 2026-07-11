@@ -114,13 +114,13 @@
   {
    "key": "dsigma_DeltaAlpha3Dq",
    "slug": "dsigma_DeltaAlpha3Dq",
-   "name": "d\u03c3/d\u03b4alpha_3D,q",
+   "name": "d\u03c3/d\u03b4\u03b1_3D,q",
    "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta\\alpha_{3D,q}$",
-   "xlabel": "\u03b4alpha_3D,q",
+   "xlabel": "\u03b4\u03b1_3D,q",
    "xunit": "deg",
    "xlabel_tex": "$\\delta\\alpha_{3D,q}$",
-   "ylabel": "d\u03c3/d\u03b4alpha_3D,q",
-   "ylabel_plot": "d\u03c3/d\u03b4alpha_3D,q",
+   "ylabel": "d\u03c3/d\u03b4\u03b1_3D,q",
+   "ylabel_plot": "d\u03c3/d\u03b4\u03b1_3D,q",
    "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta\\alpha_{3D,q}$",
    "yunit": "10^{-38}cm^2/{}^{40}\\mathrm{Ar}/\\mathrm{deg}",
    "yunit_tex": "$10^{-38}cm^2/{}^{40}\\mathrm{Ar}/\\mathrm{deg}$",
@@ -791,7 +791,7 @@
    "DeltaPnPerpy [0.35,0.45]",
    "DeltaPnPerpy [0.45,0.55]"
   ],
-  "note": "block-diagonal total (stat+syst) covariance per target; row/col order below",
+  "note": "block-diagonal total (stat+syst) covariance per item; row/col order below",
   "matrix": [
    [
     1.3641,

@@ -138,11 +138,10 @@
     {
      "i": 14,
      "lo": 1.2,
-     "hi": 1.275,
-     "center": 1.2374999999999998,
+     "hi": 2.0,
+     "center": 1.6,
      "val": 1.9345564749056495e-40,
-     "err": 3.5327015317190436e-41,
-     "hi_true": 2.0
+     "err": 3.5327015317190436e-41
     },
     {
      "i": 15,
@@ -155,7 +154,7 @@
     }
    ],
    "nuisance_file": "data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_q2qe_qelike.root",
-   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1811.02774",
    "provenance": "MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, arXiv:1811.02774) \u00b7 per nucleon \u00b7 QE-like signal definition \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
@@ -284,7 +283,7 @@
     }
    ],
    "nuisance_file": "data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_ptmu_qelike.root",
-   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1811.02774",
    "provenance": "MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, arXiv:1811.02774) \u00b7 per nucleon \u00b7 QE-like signal definition \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
@@ -389,11 +388,10 @@
     {
      "i": 10,
      "lo": 10.0,
-     "hi": 10.5,
-     "center": 10.25,
+     "hi": 15.0,
+     "center": 12.5,
      "val": 4.668301012836733e-41,
-     "err": 4.5829070767655955e-42,
-     "hi_true": 15.0
+     "err": 4.5829070767655955e-42
     },
     {
      "i": 11,
@@ -406,7 +404,7 @@
     }
    ],
    "nuisance_file": "data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_pzmu_qelike.root",
-   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1811.02774",
    "provenance": "MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, arXiv:1811.02774) \u00b7 per nucleon \u00b7 QE-like signal definition \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
@@ -415,16 +413,16 @@
   {
    "key": "dsigma_enuqe",
    "slug": "dsigma_enuqe",
-   "name": "\u03c3(E_\u03bd^QE)",
-   "name_tex": "$\\sigma(E_\\nu^{QE})$",
+   "name": "d\u03c3/dE_\u03bd^QE",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}E_\\nu^{QE}$",
    "xlabel": "E_\u03bd^QE",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu^{QE}$",
-   "ylabel": "\u03c3(E_\u03bd^QE)",
-   "ylabel_plot": "\u03c3(E_\u03bd^QE)",
-   "ylabel_tex": "$\\sigma(E_\\nu^{QE})$",
-   "yunit": "cm^2/nucleon",
-   "yunit_tex": "$cm^2/nucleon$",
+   "ylabel": "d\u03c3/dE_\u03bd^QE",
+   "ylabel_plot": "d\u03c3/dE_\u03bd^QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}E_\\nu^{QE}$",
+   "yunit": "cm^2/GeV/nucleon",
+   "yunit_tex": "$cm^2/GeV/nucleon$",
    "nbins": 12,
    "is2d": false,
    "bins": [
@@ -511,11 +509,10 @@
     {
      "i": 10,
      "lo": 10.0,
-     "hi": 10.5,
-     "center": 10.25,
+     "hi": 15.0,
+     "center": 12.5,
      "val": 6.737184481570831e-39,
-     "err": 7.623823266615335e-40,
-     "hi_true": 15.0
+     "err": 7.623823266615335e-40
     },
     {
      "i": 11,
@@ -528,7 +525,7 @@
     }
    ],
    "nuisance_file": "data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_enuqe_qelike.root",
-   "scale_note": "last bin is an integration overflow (shown truncated)",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1811.02774",
    "provenance": "MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, arXiv:1811.02774) \u00b7 per nucleon \u00b7 QE-like signal definition \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
