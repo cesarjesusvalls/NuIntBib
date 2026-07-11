@@ -722,16 +722,22 @@ def build_sigma_enu(spec):
 
 
 def build_minerva_root(spec):
-    """MINERvA arXiv-ancillary ROOT release: per item (observable x target) a TH1D of
-    N data-bin values and a matched (N+2)x(N+2) TOTAL covariance TH2D (underflow + N
-    data at idx 1..N + overflow). Per-bin error = sqrt(diag(total[1:N+1,1:N+1]));
-    covariances are assembled block-diagonal across the items."""
+    """Data release from a ROOT file of matched value TH1D + covariance TH2D per item
+    (an observable, or an observable x target). The covariance may be NxN (MicroBooNE)
+    or (N+2)x(N+2) with under/overflow (MINERvA, data at idx 1..N) — auto-detected.
+    Per-bin error = sqrt(diag(total covariance)); covariances block-diagonal across items.
+    Each item may override xlabel/xunit/ylabel/yunit (defaults from spec)."""
     f = uproot.open(_flux_open(spec['root']))
-    xl, yl, yu = spec['xlabel'], spec['ylabel'], spec.get('yunit', '')
     dists, blocks, order = [], [], []
     for it in spec['items']:
         h = f[it['hist']]; edges = h.axis().edges(); vv = h.values(); n = len(vv)
-        M = np.asarray(f[it['cov']].values())[1:n + 1, 1:n + 1]        # drop under/overflow
+        cov = np.asarray(f[it['cov']].values()); K = cov.shape[0]
+        if K == n:
+            M = cov
+        elif K == n + 2:
+            M = cov[1:n + 1, 1:n + 1]                                   # drop under/overflow
+        else:
+            raise ValueError(f"{it['cov']} is {K}x{K} for {n} bins")
         err = np.sqrt(np.clip(np.diag(M), 0, None))                    # total per-bin error
         bins = [{'i': i, 'lo': float(edges[i]), 'hi': float(edges[i + 1]),
                  'center': 0.5 * (edges[i] + edges[i + 1]), 'val': float(vv[i]), 'err': float(err[i])}
@@ -743,11 +749,14 @@ def build_minerva_root(spec):
                 b['hi_true'] = b['hi']; b['hi'] = round(b['lo'] + med, 4)
                 b['center'] = 0.5 * (b['lo'] + b['hi']); clipped = True
         lab = it.get('label', it['slug'])
+        xl = it.get('xlabel', spec['xlabel']); yl = it.get('ylabel', spec['ylabel'])
+        yu = it.get('yunit', spec.get('yunit', '')); xu = it.get('xunit', spec.get('xunit', ''))
         key = spec.get('key', 'xsec') + '_' + it['slug']
         dists.append({
             'key': key, 'slug': key,
-            'name': plotify(yl) + f' ({lab})', 'name_tex': f'${yl}\\ ({lab})$',
-            'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''), 'xlabel_tex': f'${xl}$',
+            'name': plotify(yl) + (f' ({lab})' if lab else ''),
+            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
             'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': spec['root'],
@@ -1007,6 +1016,30 @@ def _nue(f, name, x, xu, y, yu):
                                        'ylabel': y, 'yunit': yu}}
 
 REGISTRY = [
+    {'bibtag': 'MicroBooNE:2025aiw', 'slug': 'microboone-2025aiw', 'source': 'arXiv',
+     'note': 'nu_e CC differential cross sections on argon (per nucleon) with final-state '
+             'protons; NuMI off-axis, FHC+RHC combined. Values + covariance from the arXiv '
+             'ancillary release; the NuMI off-axis flux is not in the release.',
+     'sources': [{'minerva_root': {
+         'root': 'data/datasets/sources/microboone-2025aiw/release.root',
+         'xlabel': r'E_e', 'xunit': 'GeV', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_e',
+         'yunit': r'10^{-39}cm^2/GeV/nucleon', 'key': 'dsigma',
+         'items': [
+             {'slug': 'Ee', 'label': '', 'hist': 'hSlice_E_{e}', 'cov': 'hCov_E_{e}',
+              'xlabel': r'E_e', 'xunit': 'GeV', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_e',
+              'yunit': r'10^{-39}cm^2/GeV/nucleon'},
+             {'slug': 'Evis', 'label': '', 'hist': 'hSlice_E_{vis}', 'cov': 'hCov_E_{vis}',
+              'xlabel': r'E_\mathrm{vis}', 'xunit': 'GeV',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_\mathrm{vis}',
+              'yunit': r'10^{-39}cm^2/GeV/nucleon'},
+             {'slug': 'costheta_ep', 'label': '', 'hist': 'hSlice_cos#theta_{ep}',
+              'cov': 'hCov_cos#theta_{ep}', 'xlabel': r'\cos\theta_{ep}', 'xunit': '',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_{ep}', 'yunit': r'10^{-39}cm^2/nucleon'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2511.17342',
+         'provenance': 'MicroBooNE nu_e CC differential cross sections on argon with final-state '
+                       'protons (NuMI off-axis FHC+RHC, arXiv:2511.17342) · per nucleon · total '
+                       'covariance per observable (block-diagonal) · from the arXiv ancillary '
+                       'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2026apf', 'slug': 'minerva-2026apf', 'source': 'arXiv',
      'note': 'CC-inclusive antineutrino dsigma/dpT per nucleon on C, CH, Fe, Pb; from the '
              'arXiv ancillary ROOT release.',
