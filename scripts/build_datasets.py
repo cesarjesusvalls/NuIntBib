@@ -845,6 +845,53 @@ def build_minerva_csv(spec):
     return [dist]
 
 
+def build_uboone_concat(spec):
+    """MicroBooNE Wiener-SVD release where several 1D differential cross sections are
+    CONCATENATED into one long vector: a TMatrix of unfolded values WITHOUT bin-width
+    normalization ('values'), a matching TMatrix of bin widths ('widths'), and one full
+    cross-observable covariance ('cov') on the un-normalized values. Each item gives the
+    concatenated index 'range' [a,b) and explicit 'edges' (from the paper's tables, since
+    the ROOT carries no per-observable axes). Differential value = raw/width; covariance is
+    normalized by width_i*width_j; per-bin error = sqrt(diag). The full normalized matrix is
+    the release covariance (keeps cross-observable correlations)."""
+    o = uproot.open(_flux_open(spec['root']))
+    vraw = np.array(o[spec['values']].member('fElements'), dtype=float)
+    w = np.array(o[spec['widths']].member('fElements'), dtype=float)
+    C = o[spec['cov']]; N = C.member('fNrows')
+    cov = np.array(C.member('fElements'), dtype=float).reshape(N, N)
+    vals = vraw / w
+    covn = cov / np.outer(w, w)                                    # normalize to differential units
+    err = np.sqrt(np.clip(np.diag(covn), 0, None))
+    dists, order = [], []
+    for it in spec['items']:
+        a, b = it['range']; edges = it['edges']; n = b - a
+        assert len(edges) == n + 1, f"{it['slug']}: {len(edges)} edges for {n} bins"
+        bins = [{'i': i, 'lo': float(edges[i]), 'hi': float(edges[i + 1]),
+                 'center': 0.5 * (edges[i] + edges[i + 1]),
+                 'val': float(vals[a + i]), 'err': float(err[a + i])} for i in range(n)]
+        xl, yl = it['xlabel'], it['ylabel']
+        yu = it.get('yunit', spec.get('yunit', '')); xu = it.get('xunit', spec.get('xunit', ''))
+        lab = it.get('label', '')
+        key = spec.get('key', 'dsigma') + '_' + it['slug']
+        dists.append({
+            'key': key, 'slug': key,
+            'name': plotify(yl) + (f' ({lab})' if lab else ''),
+            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
+            'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+            'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+            'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': spec['root'],
+            'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+        })
+        for i in range(n):
+            order.append(f"{it['slug']} [{edges[i]:g},{edges[i + 1]:g}]")
+    if dists:
+        dists[0]['_release_cov'] = _cov_obj(covn, order, spec.get(
+            'cov_note', 'full covariance over all concatenated differential bins '
+            '(bin-width normalized to the differential cross-section units^2); row/col order below'))
+    return dists
+
+
 def _release_source_url(dists):
     """The URL for the whole release: the shared record when all distributions point
     at one file (Zenodo/arXiv), else the common parent directory (NUISANCE multi-file)."""
@@ -1096,6 +1143,47 @@ def _mbar(var, xl, xu, ang=False, denom=None):
 
 
 REGISTRY = [
+    {'bibtag': 'MicroBooNE:2025rch', 'slug': 'microboone-2025rch', 'source': 'arXiv',
+     'note': 'numu CC single-charged-pion production on argon (per argon nucleus), BNB '
+             '<Enu>~0.8 GeV. Five differential cross sections (muon cos-theta and momentum, pion '
+             'cos-theta and momentum, mu-pi opening angle) unfolded via Wiener-SVD; apply the '
+             'release regularization matrix A_C before comparing predictions. Values + one full '
+             '34-bin cross-observable covariance from the arXiv ancillary release.',
+     'flux': {'blocks': [
+         {'root': 'data/datasets/sources/microboone-2025rch/flux.root',
+          'hists': [('hEnumu_cv', 'numu'), ('hEnumubar_cv', 'numubar')]}],
+         'note': 'MicroBooNE BNB numu and numubar flux (simulated CV), from the release flux.root; '
+                 'combine as flux-weighted per the release README before model comparison'},
+     'sources': [{'uboone_concat': {
+         'root': 'data/datasets/sources/microboone-2025rch/data_release.root',
+         'values': 'unfolded_data_diff', 'widths': 'bin_widths_diff', 'cov': 'cov_unfolded_diff',
+         'key': 'dsigma',
+         'items': [
+             {'slug': 'cos_mu', 'range': [0, 11],
+              'edges': [-1, -0.27, 0.29, 0.46, 0.58, 0.67, 0.77, 0.82, 0.88, 0.93, 0.97, 1],
+              'xlabel': r'\cos\theta_\mu', 'xunit': '',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_\mu', 'yunit': r'10^{-38}cm^2/{}^{40}\mathrm{Ar}'},
+             {'slug': 'p_mu', 'range': [11, 16],
+              'edges': [0.15, 0.23, 0.32, 0.45, 0.66, 1.50],
+              'xlabel': r'p_\mu', 'xunit': 'GeV',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_\mu', 'yunit': r'10^{-38}cm^2/\mathrm{GeV}/{}^{40}\mathrm{Ar}'},
+             {'slug': 'cos_pi', 'range': [16, 23],
+              'edges': [-1, -0.47, 0, 0.39, 0.65, 0.84, 0.93, 1],
+              'xlabel': r'\cos\theta_\pi', 'xunit': '',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\cos\theta_\pi', 'yunit': r'10^{-38}cm^2/{}^{40}\mathrm{Ar}'},
+             {'slug': 'p_pi', 'range': [23, 27],
+              'edges': [0.1, 0.16, 0.19, 0.22, 0.60],
+              'xlabel': r'p_\pi', 'xunit': 'GeV',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_\pi', 'yunit': r'10^{-38}cm^2/\mathrm{GeV}/{}^{40}\mathrm{Ar}'},
+             {'slug': 'theta_mupi', 'range': [27, 34],
+              'edges': [0, 0.49, 0.93, 1.26, 1.57, 1.88, 2.21, 2.65],
+              'xlabel': r'\theta_{\mu\pi}', 'xunit': 'rad',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\theta_{\mu\pi}', 'yunit': r'10^{-38}cm^2/\mathrm{rad}/{}^{40}\mathrm{Ar}'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2509.03628',
+         'provenance': 'MicroBooNE numu CC1pi+ on argon (BNB <Enu>~0.8 GeV, arXiv:2509.03628) · '
+                       'per argon nucleus · Wiener-SVD unfolded, apply A_C to predictions · full '
+                       '34-bin cross-observable covariance (bin-width normalized) · from the arXiv '
+                       'ancillary release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2020zzv', 'slug': 'minerva-2020zzv', 'source': 'arXiv',
      'note': 'numu CC inclusive differential cross sections d(sigma)/dpT and d(sigma)/dp_parallel '
              'on hydrocarbon (per nucleon), NuMI LE <Enu>~3.5 GeV. Muon-angle < 20 deg phase space. '
@@ -1736,6 +1824,8 @@ def build(entry):
             dists.extend(build_minerva_root(src['minerva_root']))
         elif 'minerva_csv' in src:
             dists.extend(build_minerva_csv(src['minerva_csv']))
+        elif 'uboone_concat' in src:
+            dists.extend(build_uboone_concat(src['uboone_concat']))
         elif 'zenodo3d' in src:
             dists.extend(build_3d_zenodo(src['zenodo3d']))
         elif 'values' in src:
