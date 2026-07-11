@@ -721,6 +721,52 @@ def build_sigma_enu(spec):
     return [dist]
 
 
+def build_minerva_root(spec):
+    """MINERvA arXiv-ancillary ROOT release: per item (observable x target) a TH1D of
+    N data-bin values and a matched (N+2)x(N+2) TOTAL covariance TH2D (underflow + N
+    data at idx 1..N + overflow). Per-bin error = sqrt(diag(total[1:N+1,1:N+1]));
+    covariances are assembled block-diagonal across the items."""
+    f = uproot.open(_flux_open(spec['root']))
+    xl, yl, yu = spec['xlabel'], spec['ylabel'], spec.get('yunit', '')
+    dists, blocks, order = [], [], []
+    for it in spec['items']:
+        h = f[it['hist']]; edges = h.axis().edges(); vv = h.values(); n = len(vv)
+        M = np.asarray(f[it['cov']].values())[1:n + 1, 1:n + 1]        # drop under/overflow
+        err = np.sqrt(np.clip(np.diag(M), 0, None))                    # total per-bin error
+        bins = [{'i': i, 'lo': float(edges[i]), 'hi': float(edges[i + 1]),
+                 'center': 0.5 * (edges[i] + edges[i + 1]), 'val': float(vv[i]), 'err': float(err[i])}
+                for i in range(n)]
+        med = float(np.median([b['hi'] - b['lo'] for b in bins]))       # clip overflow last bin
+        clipped = False
+        for b in bins:
+            if b['hi'] - b['lo'] > 4 * med:
+                b['hi_true'] = b['hi']; b['hi'] = round(b['lo'] + med, 4)
+                b['center'] = 0.5 * (b['lo'] + b['hi']); clipped = True
+        lab = it.get('label', it['slug'])
+        key = spec.get('key', 'xsec') + '_' + it['slug']
+        dists.append({
+            'key': key, 'slug': key,
+            'name': plotify(yl) + f' ({lab})', 'name_tex': f'${yl}\\ ({lab})$',
+            'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''), 'xlabel_tex': f'${xl}$',
+            'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+            'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+            'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': spec['root'],
+            'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
+            'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+        })
+        blocks.append(M)
+        for i in range(n):
+            order.append(f"{it['slug']} [{edges[i]:g},{edges[i + 1]:g}]")
+    total = sum(b.shape[0] for b in blocks)
+    big = np.zeros((total, total)); off = 0
+    for b in blocks:
+        k = b.shape[0]; big[off:off + k, off:off + k] = b; off += k
+    if dists:
+        dists[0]['_release_cov'] = _cov_obj(big, order, spec.get(
+            'cov_note', 'block-diagonal total (stat+syst) covariance per target; row/col order below'))
+    return dists
+
+
 def _release_source_url(dists):
     """The URL for the whole release: the shared record when all distributions point
     at one file (Zenodo/arXiv), else the common parent directory (NUISANCE multi-file)."""
@@ -961,6 +1007,30 @@ def _nue(f, name, x, xu, y, yu):
                                        'ylabel': y, 'yunit': yu}}
 
 REGISTRY = [
+    {'bibtag': 'MINERvA:2026apf', 'slug': 'minerva-2026apf', 'source': 'arXiv',
+     'note': 'CC-inclusive antineutrino dsigma/dpT per nucleon on C, CH, Fe, Pb; from the '
+             'arXiv ancillary ROOT release.',
+     'flux': {'root': 'data/datasets/sources/minerva-2026apf/release.root',
+              'hists': [('flux_ptmu_carbon', 'numubar_C'), ('flux_ptmu_hydrocarbon', 'numubar_CH'),
+                        ('flux_ptmu_iron', 'numubar_Fe'), ('flux_ptmu_lead', 'numubar_Pb')],
+              'note': 'NuMI medium-energy antineutrino flux per target, from the release'},
+     'sources': [{'minerva_root': {
+         'root': 'data/datasets/sources/minerva-2026apf/release.root',
+         'xlabel': r'p_T^\mu', 'xunit': 'GeV/c',
+         'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_T^\mu', 'yunit': r'cm^2/nucleon/(GeV/c)',
+         'key': 'dsdpt',
+         'items': [{'slug': 'C', 'label': r'\mathrm{C}', 'hist': 'xsec_ptmu_carbon',
+                    'cov': 'xsec_ptmu_carbon_covariance'},
+                   {'slug': 'CH', 'label': r'\mathrm{CH}', 'hist': 'xsec_ptmu_hydrocarbon',
+                    'cov': 'xsec_ptmu_hydrocarbon_covariance'},
+                   {'slug': 'Fe', 'label': r'\mathrm{Fe}', 'hist': 'xsec_ptmu_iron',
+                    'cov': 'xsec_ptmu_iron_covariance'},
+                   {'slug': 'Pb', 'label': r'\mathrm{Pb}', 'hist': 'xsec_ptmu_lead',
+                    'cov': 'xsec_ptmu_lead_covariance'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2604.07091',
+         'provenance': 'MINERvA CC-inclusive antinumu dsigma/dpT_mu on C/CH/Fe/Pb (NuMI ME RHC, '
+                       'arXiv:2604.07091) · per nucleon · total (stat+syst) covariance per target '
+                       '(block-diagonal) · from the arXiv ancillary ROOT release · nothing digitized'}}]},
     {'bibtag': 'T2K:2013nor', 'slug': 't2k-2013nor', 'source': 'T2K',
      'note': 'Data release recovered from the Web Archive of the (defunct) t2k-experiment.org.',
      'flux': {'root': 'data/datasets/sources/t2k-2013nor/data_release.root',
@@ -1377,6 +1447,8 @@ def build(entry):
             dists.extend(build_2013nor(src['2013nor']))
         elif 'sigma_enu' in src:
             dists.extend(build_sigma_enu(src['sigma_enu']))
+        elif 'minerva_root' in src:
+            dists.extend(build_minerva_root(src['minerva_root']))
         elif 'zenodo3d' in src:
             dists.extend(build_3d_zenodo(src['zenodo3d']))
         elif 'values' in src:
