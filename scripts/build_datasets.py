@@ -727,25 +727,32 @@ def build_minerva_root(spec):
     or (N+2)x(N+2) with under/overflow (MINERvA, data at idx 1..N) — auto-detected.
     Per-bin error = sqrt(diag(total covariance)); covariances block-diagonal across items.
     Each item may override xlabel/xunit/ylabel/yunit (defaults from spec)."""
-    f = uproot.open(_flux_open(spec['root']))
+    _files = {}
 
-    def _cov(key):                                                     # TH2D or TMatrixT/Sym
-        o = f[key]
+    def _open(path):
+        if path not in _files:
+            _files[path] = uproot.open(_flux_open(path))
+        return _files[path]
+
+    def _cov(rr, key):                                                 # TH2D or TMatrixT/Sym
+        o = rr[key]
         if 'TH2' in o.classname:
             return np.asarray(o.values())
         N = o.member('fNrows')
         return np.array(o.member('fElements')).reshape(N, N)
+    droot = spec.get('root')                                           # default; items may override
     # 'cov' at spec level = one SHARED covariance over all items concatenated (keeps
     # cross-observable correlations); else each item carries its own 'cov' (block-diagonal).
-    shared = _cov(spec['cov']) if spec.get('cov') else None
+    shared = _cov(_open(droot), spec['cov']) if spec.get('cov') else None
     dists, blocks, order = [], [], []
     soff = 0
     for it in spec['items']:
-        h = f[it['hist']]; edges = h.axis().edges(); vv = h.values(); n = len(vv)
+        r = _open(it.get('root', droot))
+        h = r[it['hist']]; edges = h.axis().edges(); vv = h.values(); n = len(vv)
         if shared is not None:
             M = shared[soff:soff + n, soff:soff + n]; soff += n         # this item's diagonal block
         else:
-            cov = _cov(it['cov']); K = cov.shape[0]
+            cov = _cov(r, it['cov']); K = cov.shape[0]
             M = cov if K == n else cov[1:n + 1, 1:n + 1]                # NxN or drop under/overflow
         err = np.sqrt(np.clip(np.diag(M), 0, None))                    # total per-bin error
         bins = [{'i': i, 'lo': float(edges[i]), 'hi': float(edges[i + 1]),
@@ -768,7 +775,8 @@ def build_minerva_root(spec):
             'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
-            'nbins': n, 'is2d': False, 'bins': bins, 'nuisance_file': spec['root'],
+            'nbins': n, 'is2d': False, 'bins': bins,
+            'nuisance_file': it.get('root', spec.get('root', '')),
             'scale_note': 'last bin is an integration overflow (shown truncated)' if clipped else None,
             'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
         })
@@ -1088,6 +1096,40 @@ def _mbar(var, xl, xu, ang=False, denom=None):
 
 
 REGISTRY = [
+    {'bibtag': 'MINERvA:2018hqn', 'slug': 'minerva-2018hqn', 'source': 'arXiv',
+     'note': 'numu CC quasielastic-like differential cross sections on hydrocarbon (per nucleon), '
+             'NuMI LE. Values + total covariance from the arXiv ancillary release (QE-like signal '
+             'definition); each observable carries its own covariance.',
+     'sources': [{'minerva_root': {
+         'key': 'dsigma',
+         'xlabel': r'Q^2_{QE}', 'xunit': r'(GeV/c)^2',
+         'ylabel': r'\mathrm{d}\sigma/\mathrm{d}Q^2_{QE}', 'yunit': r'cm^2/(GeV/c)^2/nucleon',
+         'items': [
+             {'slug': 'q2qe', 'label': '',
+              'root': 'data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_q2qe_qelike.root',
+              'hist': 'q2qe_cross_section', 'cov': 'TotalCovariance',
+              'xlabel': r'Q^2_{QE}', 'xunit': r'(GeV/c)^2',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}Q^2_{QE}', 'yunit': r'cm^2/(GeV/c)^2/nucleon'},
+             {'slug': 'ptmu', 'label': '',
+              'root': 'data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_ptmu_qelike.root',
+              'hist': 'ptmu_cross_section', 'cov': 'TotalCovariance',
+              'xlabel': r'p_{T\mu}', 'xunit': 'GeV/c',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{T\mu}', 'yunit': r'cm^2/(GeV/c)/nucleon'},
+             {'slug': 'pzmu', 'label': '',
+              'root': 'data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_pzmu_qelike.root',
+              'hist': 'pzmu_cross_section', 'cov': 'TotalCovariance',
+              'xlabel': r'p_{z\mu}', 'xunit': 'GeV/c',
+              'ylabel': r'\mathrm{d}\sigma/\mathrm{d}p_{z\mu}', 'yunit': r'cm^2/(GeV/c)/nucleon'},
+             {'slug': 'enuqe', 'label': '',
+              'root': 'data/datasets/sources/minerva-2018hqn/cov_fullUncertainty_enuqe_qelike.root',
+              'hist': 'enuqe_cross_section', 'cov': 'TotalCovariance',
+              'xlabel': r'E_\nu^{QE}', 'xunit': 'GeV',
+              'ylabel': r'\sigma(E_\nu^{QE})', 'yunit': r'cm^2/nucleon'}],
+         'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1811.02774',
+         'provenance': 'MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, '
+                       'arXiv:1811.02774) · per nucleon · QE-like signal definition · total '
+                       'covariance per observable (block-diagonal) · from the arXiv ancillary '
+                       'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2023ikp', 'slug': 'minerva-2023ikp', 'source': 'arXiv',
      'note': 'antinumu CC multi-neutron (>=2 neutrons, low available energy) dsigma/dpT on '
              'hydrocarbon (per nucleon), NuMI. Values + covariance from the arXiv ancillary CSV.',
