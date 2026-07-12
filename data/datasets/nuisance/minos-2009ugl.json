@@ -1,0 +1,251 @@
+{
+ "bibtag": "MINOS:2009ugl",
+ "slug": "minos-2009ugl",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/0910.2201",
+ "arxiv": "0910.2201",
+ "cite": "Phys.Rev.D 81 072002",
+ "note": "Flux-integrated CC-inclusive numu-Fe and numubar-Fe cross section divided by neutrino energy (sigma/E) vs neutrino energy E, MINOS near detector, NuMI low-energy beam. Target: per nucleon (isoscalar iron target). No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_numu_sigma_over_e",
+   "slug": "dsigma_numu_sigma_over_e",
+   "name": "\u03c3/E_\u03bd (numu)",
+   "name_tex": "$\\sigma/E_\\nu\\ (numu)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3/E_\u03bd",
+   "ylabel_plot": "\u03c3/E_\u03bd",
+   "ylabel_tex": "$\\sigma/E_\\nu$",
+   "yunit": "10^{-38}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/GeV/nucleon$",
+   "nbins": 13,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 4.0,
+     "center": 3.5,
+     "val": 0.748,
+     "err": 0.061
+    },
+    {
+     "i": 1,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 0.711,
+     "err": 0.033
+    },
+    {
+     "i": 2,
+     "lo": 5.0,
+     "hi": 7.0,
+     "center": 6.0,
+     "val": 0.708,
+     "err": 0.032
+    },
+    {
+     "i": 3,
+     "lo": 7.0,
+     "hi": 9.0,
+     "center": 8.0,
+     "val": 0.722,
+     "err": 0.045
+    },
+    {
+     "i": 4,
+     "lo": 9.0,
+     "hi": 12.0,
+     "center": 10.5,
+     "val": 0.699,
+     "err": 0.043
+    },
+    {
+     "i": 5,
+     "lo": 12.0,
+     "hi": 15.0,
+     "center": 13.5,
+     "val": 0.691,
+     "err": 0.028
+    },
+    {
+     "i": 6,
+     "lo": 15.0,
+     "hi": 18.0,
+     "center": 16.5,
+     "val": 0.708,
+     "err": 0.02
+    },
+    {
+     "i": 7,
+     "lo": 18.0,
+     "hi": 22.0,
+     "center": 20.0,
+     "val": 0.689,
+     "err": 0.016
+    },
+    {
+     "i": 8,
+     "lo": 22.0,
+     "hi": 26.0,
+     "center": 24.0,
+     "val": 0.683,
+     "err": 0.015
+    },
+    {
+     "i": 9,
+     "lo": 26.0,
+     "hi": 30.0,
+     "center": 28.0,
+     "val": 0.686,
+     "err": 0.016
+    },
+    {
+     "i": 10,
+     "lo": 30.0,
+     "hi": 36.0,
+     "center": 33.0,
+     "val": 0.675,
+     "err": 0.016
+    },
+    {
+     "i": 11,
+     "lo": 36.0,
+     "hi": 42.0,
+     "center": 39.0,
+     "val": 0.675,
+     "err": 0.018
+    },
+    {
+     "i": 12,
+     "lo": 42.0,
+     "hi": 50.0,
+     "center": 46.0,
+     "val": 0.676,
+     "err": 0.019
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minos-2009ugl/numu_sigma_over_e.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/0910.2201",
+   "provenance": "MINOS:2009ugl \u2014 Flux-integrated CC-inclusive numu-Fe and numubar-Fe cross section divided by neutrino energy (sigma/E) vs neutrino energ \u00b7 target per nucleon (isoscalar iron target) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MINOS:2009ugl \u2014 Flux-integrated CC-inclusive numu-Fe and numubar-Fe cross section divided by neutrino energy (sigma/E) vs neutrino energ. Target per nucleon (isoscalar iron target)."
+  },
+  {
+   "key": "dsigma_numubar_sigma_over_e",
+   "slug": "dsigma_numubar_sigma_over_e",
+   "name": "\u03c3/E_bar\u03bd (numubar)",
+   "name_tex": "$\\sigma/E_{\\bar\\nu}\\ (numubar)$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3/E_bar\u03bd",
+   "ylabel_plot": "\u03c3/E_bar\u03bd",
+   "ylabel_tex": "$\\sigma/E_{\\bar\\nu}$",
+   "yunit": "10^{-38}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/GeV/nucleon$",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 5.0,
+     "hi": 7.0,
+     "center": 6.0,
+     "val": 0.305,
+     "err": 0.029
+    },
+    {
+     "i": 1,
+     "lo": 7.0,
+     "hi": 9.0,
+     "center": 8.0,
+     "val": 0.3,
+     "err": 0.022
+    },
+    {
+     "i": 2,
+     "lo": 9.0,
+     "hi": 12.0,
+     "center": 10.5,
+     "val": 0.303,
+     "err": 0.019
+    },
+    {
+     "i": 3,
+     "lo": 12.0,
+     "hi": 15.0,
+     "center": 13.5,
+     "val": 0.314,
+     "err": 0.016
+    },
+    {
+     "i": 4,
+     "lo": 15.0,
+     "hi": 18.0,
+     "center": 16.5,
+     "val": 0.304,
+     "err": 0.012
+    },
+    {
+     "i": 5,
+     "lo": 18.0,
+     "hi": 22.0,
+     "center": 20.0,
+     "val": 0.316,
+     "err": 0.013
+    },
+    {
+     "i": 6,
+     "lo": 22.0,
+     "hi": 26.0,
+     "center": 24.0,
+     "val": 0.32,
+     "err": 0.011
+    },
+    {
+     "i": 7,
+     "lo": 26.0,
+     "hi": 30.0,
+     "center": 28.0,
+     "val": 0.332,
+     "err": 0.015
+    },
+    {
+     "i": 8,
+     "lo": 30.0,
+     "hi": 36.0,
+     "center": 33.0,
+     "val": 0.325,
+     "err": 0.016
+    },
+    {
+     "i": 9,
+     "lo": 36.0,
+     "hi": 42.0,
+     "center": 39.0,
+     "val": 0.352,
+     "err": 0.024
+    },
+    {
+     "i": 10,
+     "lo": 42.0,
+     "hi": 50.0,
+     "center": 46.0,
+     "val": 0.324,
+     "err": 0.027
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minos-2009ugl/numubar_sigma_over_e.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/0910.2201",
+   "provenance": "MINOS:2009ugl \u2014 Flux-integrated CC-inclusive numu-Fe and numubar-Fe cross section divided by neutrino energy (sigma/E) vs neutrino energ \u00b7 target per nucleon (isoscalar iron target) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MINOS:2009ugl \u2014 Flux-integrated CC-inclusive numu-Fe and numubar-Fe cross section divided by neutrino energy (sigma/E) vs neutrino energ. Target per nucleon (isoscalar iron target)."
+  }
+ ]
+}

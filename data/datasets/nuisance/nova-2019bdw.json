@@ -1,0 +1,43 @@
+{
+ "bibtag": "NOvA:2019bdw",
+ "slug": "nova-2019bdw",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1902.00558",
+ "arxiv": "1902.00558",
+ "cite": "Phys.Rev.D 102 012004",
+ "note": "Flux-integrated total cross section of NC coherent \u03c00 production (\u03bd\u03bc + \u03bd\u0304\u03bc, dominated by neutrino-induced, NuMI off-axis beam), NOvA near detector, single flux-averaged total \u03c3 (no differential binning in this paper). Target: per nucleus (NOvA's predominantly-carbon scintillator/mineral-oil target, effective atomic number A=13.8 computed via Berger-Sehgal A^(2/3) weighting, excluding hydrogen). No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_xsec_totalNCcohpi0",
+   "slug": "dsigma_xsec_totalNCcohpi0",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2/nucleus",
+   "yunit_tex": "$10^{-40}cm^2/nucleus$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.1,
+     "hi": 2.8,
+     "center": 1.95,
+     "val": 13.8,
+     "err": 2.47
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2019bdw/xsec_totalNCcohpi0.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1902.00558",
+   "provenance": "NOvA:2019bdw \u2014 Flux-integrated total cross section of NC coherent \u03c00 production (\u03bd\u03bc + \u03bd\u0304\u03bc, dominated by neutrino-induced, NuMI off-axis \u00b7 target per nucleus (NOvA's predominantly-carbon scintillator/mineral-oil target, effective atomic number A=13.8 computed via Berger-Sehgal A^(2/3) weighting, excluding hydrogen) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "NOvA:2019bdw \u2014 Flux-integrated total cross section of NC coherent \u03c00 production (\u03bd\u03bc + \u03bd\u0304\u03bc, dominated by neutrino-induced, NuMI off-axis. Target per nucleus (NOvA's predominantly-carbon scintillator/mineral-oil target, effective atomic number A=13.8 computed via Berger-Sehgal A^(2/3) weighting, excluding hydrogen)."
+  }
+ ]
+}

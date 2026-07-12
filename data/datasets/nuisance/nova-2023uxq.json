@@ -1,0 +1,774 @@
+{
+ "bibtag": "NOvA:2023uxq",
+ "slug": "nova-2023uxq",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2306.04028",
+ "arxiv": "2306.04028",
+ "cite": "Phys.Rev.D 107 112008",
+ "note": "Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c00 (CC\u03c00, single \u03c00 + any other pions/nucleons allowed, \"multi-\u03c0\" included) production on the NOvA near-detector target (predominantly CH2), NuMI \u03bd_\u03bc beam, 3.72e20 POT. Target: per nucleon. Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+ "distributions": [
+  {
+   "key": "dsigma_dsdpmu_numu",
+   "slug": "dsigma_dsdpmu_numu",
+   "name": "d\u03c3/dp_\u03bc",
+   "name_tex": "$d\\sigma/dp_\\mu$",
+   "xlabel": "p_\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_\\mu$",
+   "ylabel": "d\u03c3/dp_\u03bc",
+   "ylabel_plot": "d\u03c3/dp_\u03bc",
+   "ylabel_tex": "$d\\sigma/dp_\\mu$",
+   "yunit": "10^{-40}cm^2/(GeV/c)",
+   "yunit_tex": "$10^{-40}cm^2/(GeV/c)$",
+   "nbins": 9,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 27.1,
+     "err": 4.1473
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 25.2,
+     "err": 3.1559
+    },
+    {
+     "i": 2,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 21.6,
+     "err": 2.2181
+    },
+    {
+     "i": 3,
+     "lo": 1.0,
+     "hi": 1.25,
+     "center": 1.125,
+     "val": 16.2,
+     "err": 1.6912
+    },
+    {
+     "i": 4,
+     "lo": 1.25,
+     "hi": 1.5,
+     "center": 1.375,
+     "val": 12.0,
+     "err": 1.6643
+    },
+    {
+     "i": 5,
+     "lo": 1.5,
+     "hi": 1.75,
+     "center": 1.625,
+     "val": 8.68,
+     "err": 1.2166
+    },
+    {
+     "i": 6,
+     "lo": 1.75,
+     "hi": 2.0,
+     "center": 1.875,
+     "val": 5.57,
+     "err": 0.6633
+    },
+    {
+     "i": 7,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 2.13,
+     "err": 0.3873
+    },
+    {
+     "i": 8,
+     "lo": 3.0,
+     "hi": 4.0,
+     "center": 3.5,
+     "val": 0.47,
+     "err": 0.1732
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2023uxq/dsdpmu_numu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2306.04028",
+   "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+   "notes": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0. Target per nucleon."
+  },
+  {
+   "key": "dsigma_dsdcosthetamu_numu",
+   "slug": "dsigma_dsdcosthetamu_numu",
+   "name": "d\u03c3/dcos\u03b8_\u03bc",
+   "name_tex": "$d\\sigma/d\\cos\\theta_\\mu$",
+   "xlabel": "cos\u03b8_\u03bc",
+   "xunit": "",
+   "xlabel_tex": "$\\cos\\theta_\\mu$",
+   "ylabel": "d\u03c3/dcos\u03b8_\u03bc",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_\u03bc",
+   "ylabel_tex": "$d\\sigma/d\\cos\\theta_\\mu$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.9,
+     "center": -0.95,
+     "val": 1.72,
+     "err": 0.4,
+     "hi_true": -0.5
+    },
+    {
+     "i": 1,
+     "lo": -0.5,
+     "hi": 0.0,
+     "center": -0.25,
+     "val": 3.49,
+     "err": 0.6481
+    },
+    {
+     "i": 2,
+     "lo": 0.0,
+     "hi": 0.25,
+     "center": 0.125,
+     "val": 6.64,
+     "err": 1.2288
+    },
+    {
+     "i": 3,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 11.9,
+     "err": 2.6514
+    },
+    {
+     "i": 4,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 19.8,
+     "err": 3.1193
+    },
+    {
+     "i": 5,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 27.9,
+     "err": 5.0794
+    },
+    {
+     "i": 6,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 40.8,
+     "err": 5.7793
+    },
+    {
+     "i": 7,
+     "lo": 0.8,
+     "hi": 0.85,
+     "center": 0.825,
+     "val": 59.6,
+     "err": 6.775
+    },
+    {
+     "i": 8,
+     "lo": 0.85,
+     "hi": 0.9,
+     "center": 0.875,
+     "val": 79.5,
+     "err": 9.2952
+    },
+    {
+     "i": 9,
+     "lo": 0.9,
+     "hi": 0.95,
+     "center": 0.925,
+     "val": 107.0,
+     "err": 12.6886
+    },
+    {
+     "i": 10,
+     "lo": 0.95,
+     "hi": 1.0,
+     "center": 0.975,
+     "val": 136.0,
+     "err": 14.2478
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2023uxq/dsdcosthetamu_numu.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2306.04028",
+   "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+   "notes": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0. Target per nucleon."
+  },
+  {
+   "key": "dsigma_dsdppi_numu",
+   "slug": "dsigma_dsdppi_numu",
+   "name": "d\u03c3/dp_\u03c0",
+   "name_tex": "$d\\sigma/dp_\\pi$",
+   "xlabel": "p_\u03c0",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_\\pi$",
+   "ylabel": "d\u03c3/dp_\u03c0",
+   "ylabel_plot": "d\u03c3/dp_\u03c0",
+   "ylabel_tex": "$d\\sigma/dp_\\pi$",
+   "yunit": "10^{-40}cm^2/(GeV/c)",
+   "yunit_tex": "$10^{-40}cm^2/(GeV/c)$",
+   "nbins": 16,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 20.3,
+     "err": 3.3615
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 55.1,
+     "err": 8.2219
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 48.6,
+     "err": 7.4699
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 46.2,
+     "err": 6.5038
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 40.6,
+     "err": 4.858
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 32.0,
+     "err": 3.3317
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 25.1,
+     "err": 2.5729
+    },
+    {
+     "i": 7,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 19.3,
+     "err": 1.7493
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 15.3,
+     "err": 1.3528
+    },
+    {
+     "i": 9,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 11.2,
+     "err": 0.9055
+    },
+    {
+     "i": 10,
+     "lo": 1.0,
+     "hi": 1.25,
+     "center": 1.125,
+     "val": 7.39,
+     "err": 0.6403
+    },
+    {
+     "i": 11,
+     "lo": 1.25,
+     "hi": 1.5,
+     "center": 1.375,
+     "val": 3.95,
+     "err": 0.4123
+    },
+    {
+     "i": 12,
+     "lo": 1.5,
+     "hi": 1.75,
+     "center": 1.625,
+     "val": 2.07,
+     "err": 0.2828
+    },
+    {
+     "i": 13,
+     "lo": 1.75,
+     "hi": 2.0,
+     "center": 1.875,
+     "val": 1.05,
+     "err": 0.1732
+    },
+    {
+     "i": 14,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 0.41,
+     "err": 0.0707
+    },
+    {
+     "i": 15,
+     "lo": 2.5,
+     "hi": 2.6,
+     "center": 2.55,
+     "val": 0.12,
+     "err": 0.0548,
+     "hi_true": 3.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2023uxq/dsdppi_numu.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2306.04028",
+   "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+   "notes": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0. Target per nucleon."
+  },
+  {
+   "key": "dsigma_dsdcosthetapi_numu",
+   "slug": "dsigma_dsdcosthetapi_numu",
+   "name": "d\u03c3/dcos\u03b8_\u03c0",
+   "name_tex": "$d\\sigma/d\\cos\\theta_\\pi$",
+   "xlabel": "cos\u03b8_\u03c0",
+   "xunit": "",
+   "xlabel_tex": "$\\cos\\theta_\\pi$",
+   "ylabel": "d\u03c3/dcos\u03b8_\u03c0",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_\u03c0",
+   "ylabel_tex": "$d\\sigma/d\\cos\\theta_\\pi$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 14,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.75,
+     "center": -0.875,
+     "val": 4.73,
+     "err": 0.6928
+    },
+    {
+     "i": 1,
+     "lo": -0.75,
+     "hi": -0.5,
+     "center": -0.625,
+     "val": 5.32,
+     "err": 0.8544
+    },
+    {
+     "i": 2,
+     "lo": -0.5,
+     "hi": -0.25,
+     "center": -0.375,
+     "val": 6.39,
+     "err": 1.005
+    },
+    {
+     "i": 3,
+     "lo": -0.25,
+     "hi": 0.0,
+     "center": -0.125,
+     "val": 8.12,
+     "err": 1.0954
+    },
+    {
+     "i": 4,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 10.0,
+     "err": 1.6401
+    },
+    {
+     "i": 5,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 11.5,
+     "err": 1.4177
+    },
+    {
+     "i": 6,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 13.2,
+     "err": 1.7176
+    },
+    {
+     "i": 7,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 15.2,
+     "err": 2.0273
+    },
+    {
+     "i": 8,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 17.8,
+     "err": 1.7378
+    },
+    {
+     "i": 9,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 21.5,
+     "err": 2.51
+    },
+    {
+     "i": 10,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 27.1,
+     "err": 3.3615
+    },
+    {
+     "i": 11,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 35.6,
+     "err": 3.8859
+    },
+    {
+     "i": 12,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 51.3,
+     "err": 6.1725
+    },
+    {
+     "i": 13,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 92.5,
+     "err": 11.7473
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2023uxq/dsdcosthetapi_numu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2306.04028",
+   "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+   "notes": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0. Target per nucleon."
+  },
+  {
+   "key": "dsigma_dsdq2_numu",
+   "slug": "dsigma_dsdq2_numu",
+   "name": "d\u03c3/dQ\u00b2",
+   "name_tex": "$d\\sigma/dQ^2$",
+   "xlabel": "Q\u00b2",
+   "xunit": "(GeV/c)^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^2$",
+   "yunit": "10^{-40}cm^2/(GeV/c)^2",
+   "yunit_tex": "$10^{-40}cm^2/(GeV/c)^2$",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 16.9,
+     "err": 2.2428
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.25,
+     "center": 0.175,
+     "val": 28.7,
+     "err": 3.5777
+    },
+    {
+     "i": 2,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 30.9,
+     "err": 3.5637
+    },
+    {
+     "i": 3,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 25.3,
+     "err": 3.4641
+    },
+    {
+     "i": 4,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 19.2,
+     "err": 2.9343
+    },
+    {
+     "i": 5,
+     "lo": 1.0,
+     "hi": 1.25,
+     "center": 1.125,
+     "val": 14.0,
+     "err": 2.2204
+    },
+    {
+     "i": 6,
+     "lo": 1.25,
+     "hi": 1.5,
+     "center": 1.375,
+     "val": 9.76,
+     "err": 1.634
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.75,
+     "center": 1.625,
+     "val": 6.54,
+     "err": 1.3711
+    },
+    {
+     "i": 8,
+     "lo": 1.75,
+     "hi": 2.0,
+     "center": 1.875,
+     "val": 4.28,
+     "err": 0.9747
+    },
+    {
+     "i": 9,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 1.68,
+     "err": 0.3742
+    },
+    {
+     "i": 10,
+     "lo": 3.0,
+     "hi": 4.0,
+     "center": 3.5,
+     "val": 0.35,
+     "err": 0.0707
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2023uxq/dsdq2_numu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2306.04028",
+   "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+   "notes": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0. Target per nucleon."
+  },
+  {
+   "key": "dsigma_dsdW_numu",
+   "slug": "dsigma_dsdW_numu",
+   "name": "d\u03c3/dW",
+   "name_tex": "$d\\sigma/dW$",
+   "xlabel": "W",
+   "xunit": "GeV/c^2",
+   "xlabel_tex": "$W$",
+   "ylabel": "d\u03c3/dW",
+   "ylabel_plot": "d\u03c3/dW",
+   "ylabel_tex": "$d\\sigma/dW$",
+   "yunit": "10^{-40}cm^2/(GeV/c^2)",
+   "yunit_tex": "$10^{-40}cm^2/(GeV/c^2)$",
+   "nbins": 12,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.0,
+     "hi": 1.1,
+     "center": 1.05,
+     "val": 6.11,
+     "err": 1.9698
+    },
+    {
+     "i": 1,
+     "lo": 1.1,
+     "hi": 1.2,
+     "center": 1.15,
+     "val": 20.4,
+     "err": 5.1284
+    },
+    {
+     "i": 2,
+     "lo": 1.2,
+     "hi": 1.3,
+     "center": 1.25,
+     "val": 35.2,
+     "err": 4.6476
+    },
+    {
+     "i": 3,
+     "lo": 1.3,
+     "hi": 1.4,
+     "center": 1.35,
+     "val": 39.2,
+     "err": 4.4721
+    },
+    {
+     "i": 4,
+     "lo": 1.4,
+     "hi": 1.5,
+     "center": 1.45,
+     "val": 43.5,
+     "err": 5.1381
+    },
+    {
+     "i": 5,
+     "lo": 1.5,
+     "hi": 1.6,
+     "center": 1.55,
+     "val": 48.2,
+     "err": 6.0166
+    },
+    {
+     "i": 6,
+     "lo": 1.6,
+     "hi": 1.7,
+     "center": 1.65,
+     "val": 46.8,
+     "err": 6.1563
+    },
+    {
+     "i": 7,
+     "lo": 1.7,
+     "hi": 1.8,
+     "center": 1.75,
+     "val": 37.8,
+     "err": 5.1575
+    },
+    {
+     "i": 8,
+     "lo": 1.8,
+     "hi": 2.0,
+     "center": 1.9,
+     "val": 25.1,
+     "err": 2.7423
+    },
+    {
+     "i": 9,
+     "lo": 2.0,
+     "hi": 2.25,
+     "center": 2.125,
+     "val": 10.7,
+     "err": 1.7436
+    },
+    {
+     "i": 10,
+     "lo": 2.25,
+     "hi": 2.5,
+     "center": 2.375,
+     "val": 3.81,
+     "err": 1.077
+    },
+    {
+     "i": 11,
+     "lo": 2.5,
+     "hi": 2.6,
+     "center": 2.55,
+     "val": 0.95,
+     "err": 0.6856,
+     "hi_true": 3.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2023uxq/dsdW_numu.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2306.04028",
+   "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+   "notes": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0. Target per nucleon."
+  },
+  {
+   "key": "dsigma_sigma_tot_numu",
+   "slug": "dsigma_sigma_tot_numu",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2",
+   "yunit_tex": "$10^{-39}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.0,
+     "hi": 5.0,
+     "center": 3.0,
+     "val": 3.57,
+     "err": 0.44
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2023uxq/sigma_tot_numu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2306.04028",
+   "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+   "notes": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0. Target per nucleon."
+  }
+ ]
+}

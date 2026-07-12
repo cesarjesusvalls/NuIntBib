@@ -1,0 +1,75 @@
+{
+ "bibtag": "NINJA:2020bvx",
+ "slug": "ninja-2020bvx",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2012.05221",
+ "arxiv": "2012.05221",
+ "cite": "PTEP 2021 033C01",
+ "note": "Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nuclear-emulsion detector exposed to the T2K off-axis-free (J-PARC) neutrino beam; reported both over the full phase space and over a restricted muon phase space (theta_mu < 45 deg, p_mu > 400 MeV/c). Target: per nucleon (iron, Fe). No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_cc_fullps",
+   "slug": "dsigma_sigma_cc_fullps",
+   "name": "\u03c3^Fe_CC",
+   "name_tex": "$\\sigma^{Fe}_{CC}$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3^Fe_CC",
+   "ylabel_plot": "\u03c3^Fe_CC",
+   "ylabel_tex": "$\\sigma^{Fe}_{CC}$",
+   "yunit": "10^{-38}cm^2/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.49,
+     "hi": 1.49,
+     "center": 1.49,
+     "val": 1.281,
+     "err": 0.156
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/ninja-2020bvx/sigma_cc_fullps.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2012.05221",
+   "provenance": "NINJA:2020bvx \u2014 Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nucl \u00b7 target per nucleon (iron, Fe) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "NINJA:2020bvx \u2014 Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nucl. Target per nucleon (iron, Fe)."
+  },
+  {
+   "key": "dsigma_sigma_cc_restricted_ps",
+   "slug": "dsigma_sigma_cc_restricted_ps",
+   "name": "\u03c3^Fe_CC, \u03b8_\u03bc<45^circ, p_\u03bc>400 MeV/c",
+   "name_tex": "$\\sigma^{Fe}_{CC,\\,\\theta_\\mu<45^\\circ,\\,p_\\mu>400\\,MeV/c}$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3^Fe_CC, \u03b8_\u03bc<45^circ, p_\u03bc>400 MeV/c",
+   "ylabel_plot": "\u03c3^Fe_CC, \u03b8_\u03bc<45^circ, p_\u03bc>400 MeV/c",
+   "ylabel_tex": "$\\sigma^{Fe}_{CC,\\,\\theta_\\mu<45^\\circ,\\,p_\\mu>400\\,MeV/c}$",
+   "yunit": "10^{-38}cm^2/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.49,
+     "hi": 1.49,
+     "center": 1.49,
+     "val": 0.84,
+     "err": 0.096
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/ninja-2020bvx/sigma_cc_restricted_ps.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2012.05221",
+   "provenance": "NINJA:2020bvx \u2014 Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nucl \u00b7 target per nucleon (iron, Fe) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "NINJA:2020bvx \u2014 Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nucl. Target per nucleon (iron, Fe)."
+  }
+ ]
+}

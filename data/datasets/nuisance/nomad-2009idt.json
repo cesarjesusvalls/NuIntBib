@@ -1,0 +1,43 @@
+{
+ "bibtag": "NOMAD:2009idt",
+ "slug": "nomad-2009idt",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/0910.0062",
+ "arxiv": "0910.0062",
+ "cite": "Phys.Lett.B 682 177",
+ "note": "Flux-integrated coherent neutral pion production cross section, sigma(nu A -> nu A pi0), muon-neutrino beam (95% numu, small numubar contamination), NOMAD drift-chamber target (Rein-Sehgal-inspired analysis using two-photon final state). Target: per nucleus (effective A = 12.8, NOMAD drift-chamber target: 64% C, 22% O, 6% N, 5% H). No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_cohpi0",
+   "slug": "dsigma_sigma_cohpi0",
+   "name": "\u03c3(\u03bdmathcalAto\u03bdmathcalA\u03c0^0)",
+   "name_tex": "$\\sigma(\\nu\\mathcal{A}\\to\\nu\\mathcal{A}\\pi^0)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(\u03bdmathcalAto\u03bdmathcalA\u03c0^0)",
+   "ylabel_plot": "\u03c3(\u03bdmathcalAto\u03bdmathcalA\u03c0^0)",
+   "ylabel_tex": "$\\sigma(\\nu\\mathcal{A}\\to\\nu\\mathcal{A}\\pi^0)$",
+   "yunit": "10^{-40}cm^2/nucleus",
+   "yunit_tex": "$10^{-40}cm^2/nucleus$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 2.5,
+     "hi": 300.0,
+     "center": 151.25,
+     "val": 72.6,
+     "err": 10.64
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nomad-2009idt/sigma_cohpi0.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/0910.0062",
+   "provenance": "NOMAD:2009idt \u2014 Flux-integrated coherent neutral pion production cross section, sigma(nu A -> nu A pi0), muon-neutrino beam (95% numu, s \u00b7 target per nucleus (effective A = 12.8, NOMAD drift-chamber target: 64% C, 22% O, 6% N, 5% H) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "NOMAD:2009idt \u2014 Flux-integrated coherent neutral pion production cross section, sigma(nu A -> nu A pi0), muon-neutrino beam (95% numu, s. Target per nucleus (effective A = 12.8, NOMAD drift-chamber target: 64% C, 22% O, 6% N, 5% H)."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "bibtag": "MINOS:2009ugl",
+ "slug": "minos-2009ugl",
+ "source_url": "https://arxiv.org/abs/0910.2201",
+ "note": "Flux-integrated CC-inclusive numu-Fe and numubar-Fe cross section divided by neutrino energy (sigma/E) vs neutrino energy E, MINOS near detector, NuMI low-energy beam. Target: per nucleon (isoscalar iron target). No covariance is published (per-bin total uncertainty only).",
+ "provenance": "MINOS:2009ugl \u2014 Flux-integrated CC-inclusive numu-Fe and numubar-Fe cross section divided by neutrino energy (sigma/E) vs neutrino energ \u00b7 target per nucleon (isoscalar iron target) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "items": [
+  {
+   "slug": "numu_sigma_over_e",
+   "label": "numu",
+   "csv": "data/datasets/sources/minos-2009ugl/numu_sigma_over_e.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma/E_\\nu",
+   "yunit": "10^{-38}cm^2/GeV/nucleon"
+  },
+  {
+   "slug": "numubar_sigma_over_e",
+   "label": "numubar",
+   "csv": "data/datasets/sources/minos-2009ugl/numubar_sigma_over_e.csv",
+   "xlabel": "E_{\\bar\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma/E_{\\bar\\nu}",
+   "yunit": "10^{-38}cm^2/GeV/nucleon"
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "bibtag": "MINOS:2016yyz",
+ "slug": "minos-2016yyz",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1608.05702",
+ "arxiv": "1608.05702",
+ "cite": "Phys.Rev.D 94 072006",
+ "note": "Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mode beam (numu-dominated), MINOS Near Detector (Fe:C 80:20 medium). Flux-integrated sigma only, no differential binning tabulated (angular/Evis distributions are figures only). Target: per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon). No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_A48_partial",
+   "slug": "dsigma_sigma_A48_partial",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.9,
+     "hi": 4.9,
+     "center": 4.9,
+     "val": 32.6,
+     "err": 5.55
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minos-2016yyz/sigma_A48_partial.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1608.05702",
+   "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod. Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+  },
+  {
+   "key": "dsigma_sigma_A48_total",
+   "slug": "dsigma_sigma_A48_total",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.9,
+     "hi": 4.9,
+     "center": 4.9,
+     "val": 77.6,
+     "err": 16.65
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minos-2016yyz/sigma_A48_total.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1608.05702",
+   "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod. Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+  },
+  {
+   "key": "dsigma_sigma_A56_partial",
+   "slug": "dsigma_sigma_A56_partial",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.9,
+     "hi": 4.9,
+     "center": 4.9,
+     "val": 37.5,
+     "err": 6.4
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minos-2016yyz/sigma_A56_partial.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1608.05702",
+   "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod. Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+  },
+  {
+   "key": "dsigma_sigma_A56_total",
+   "slug": "dsigma_sigma_A56_total",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.9,
+     "hi": 4.9,
+     "center": 4.9,
+     "val": 89.2,
+     "err": 19.15
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minos-2016yyz/sigma_A56_total.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1608.05702",
+   "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod. Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+  },
+  {
+   "key": "dsigma_sigma_A12_partial",
+   "slug": "dsigma_sigma_A12_partial",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.9,
+     "hi": 4.9,
+     "center": 4.9,
+     "val": 12.4,
+     "err": 3.1
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minos-2016yyz/sigma_A12_partial.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1608.05702",
+   "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod. Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+  },
+  {
+   "key": "dsigma_sigma_A12_total",
+   "slug": "dsigma_sigma_A12_total",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.9,
+     "hi": 4.9,
+     "center": 4.9,
+     "val": 29.5,
+     "err": 8.35
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minos-2016yyz/sigma_A12_total.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1608.05702",
+   "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod. Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "bibtag": "NOvA:2023uxq",
+ "slug": "nova-2023uxq",
+ "source_url": "https://arxiv.org/abs/2306.04028",
+ "note": "Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c00 (CC\u03c00, single \u03c00 + any other pions/nucleons allowed, \"multi-\u03c0\" included) production on the NOvA near-detector target (predominantly CH2), NuMI \u03bd_\u03bc beam, 3.72e20 POT. Target: per nucleon. Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+ "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+ "items": [
+  {
+   "slug": "dsdpmu_numu",
+   "label": "",
+   "csv": "data/datasets/sources/nova-2023uxq/dsdpmu_numu.csv",
+   "xlabel": "p_\\mu",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_\\mu",
+   "yunit": "10^{-40}cm^2/(GeV/c)"
+  },
+  {
+   "slug": "dsdcosthetamu_numu",
+   "label": "",
+   "csv": "data/datasets/sources/nova-2023uxq/dsdcosthetamu_numu.csv",
+   "xlabel": "\\cos\\theta_\\mu",
+   "xunit": "",
+   "ylabel": "d\\sigma/d\\cos\\theta_\\mu",
+   "yunit": "10^{-40}cm^2"
+  },
+  {
+   "slug": "dsdppi_numu",
+   "label": "",
+   "csv": "data/datasets/sources/nova-2023uxq/dsdppi_numu.csv",
+   "xlabel": "p_\\pi",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_\\pi",
+   "yunit": "10^{-40}cm^2/(GeV/c)"
+  },
+  {
+   "slug": "dsdcosthetapi_numu",
+   "label": "",
+   "csv": "data/datasets/sources/nova-2023uxq/dsdcosthetapi_numu.csv",
+   "xlabel": "\\cos\\theta_\\pi",
+   "xunit": "",
+   "ylabel": "d\\sigma/d\\cos\\theta_\\pi",
+   "yunit": "10^{-40}cm^2"
+  },
+  {
+   "slug": "dsdq2_numu",
+   "label": "",
+   "csv": "data/datasets/sources/nova-2023uxq/dsdq2_numu.csv",
+   "xlabel": "Q^2",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^2",
+   "yunit": "10^{-40}cm^2/(GeV/c)^2"
+  },
+  {
+   "slug": "dsdW_numu",
+   "label": "",
+   "csv": "data/datasets/sources/nova-2023uxq/dsdW_numu.csv",
+   "xlabel": "W",
+   "xunit": "GeV/c^2",
+   "ylabel": "d\\sigma/dW",
+   "yunit": "10^{-40}cm^2/(GeV/c^2)"
+  },
+  {
+   "slug": "sigma_tot_numu",
+   "label": "",
+   "csv": "data/datasets/sources/nova-2023uxq/sigma_tot_numu.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2"
+  }
+ ]
+}
