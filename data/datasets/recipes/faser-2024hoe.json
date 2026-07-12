@@ -1,0 +1,27 @@
+{
+ "bibtag": "FASER:2024hoe",
+ "slug": "faser-2024hoe",
+ "source_url": "https://arxiv.org/abs/2403.12520",
+ "note": "Flux-integrated CC interaction cross section per nucleon divided by neutrino energy, sigma_obs/E_nu, for nu_e (combined nu_e+antinu_e) and nu_mu (combined nu_mu+antinu_mu), measured in a single energy bin each on a tungsten target, FASERnu emulsion/tungsten detector at the LHC (13.6 TeV pp collisions, 9.5 fb^-1). Target: per nucleon (tungsten target). No covariance is published (per-bin total uncertainty only).",
+ "provenance": "FASER:2024hoe \u2014 Flux-integrated CC interaction cross section per nucleon divided by neutrino energy, sigma_obs/E_nu, for nu_e (combined  \u00b7 target per nucleon (tungsten target) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "items": [
+  {
+   "slug": "sigma_over_E_nue",
+   "label": "",
+   "csv": "data/datasets/sources/faser-2024hoe/sigma_over_E_nue.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{obs}/E_\\nu",
+   "yunit": "10^{-38}cm^2/GeV/nucleon"
+  },
+  {
+   "slug": "sigma_over_E_numu",
+   "label": "",
+   "csv": "data/datasets/sources/faser-2024hoe/sigma_over_E_numu.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{obs}/E_\\nu",
+   "yunit": "10^{-38}cm^2/GeV/nucleon"
+  }
+ ]
+}

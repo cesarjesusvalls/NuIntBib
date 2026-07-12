@@ -1,0 +1,43 @@
+{
+ "bibtag": "Super-Kamiokande:2019hga",
+ "slug": "super-kamiokande-2019hga",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1901.05281",
+ "arxiv": "1901.05281",
+ "cite": "Phys.Rev.D 99 032005",
+ "note": "Flux-averaged NC quasi-elastic (NCQE) cross section on oxygen, \u03bd+\u03bd\u0304 atmospheric flux (all flavors, 160 MeV-10 GeV), Super-Kamiokande-IV water Cherenkov detector, single flux-integrated total \u03c3 (no differential binning). Target: per \u00b9\u2076O nucleus. No covariance is published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_ncqe_oxygen_atmnu",
+   "slug": "dsigma_sigma_ncqe_oxygen_atmnu",
+   "name": "\u03c3_NCQE",
+   "name_tex": "$\\sigma_{NCQE}$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_NCQE",
+   "ylabel_plot": "\u03c3_NCQE",
+   "ylabel_tex": "$\\sigma_{NCQE}$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.16,
+     "hi": 10.0,
+     "center": 5.08,
+     "val": 1.01,
+     "err": 0.57
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/super-kamiokande-2019hga/sigma_ncqe_oxygen_atmnu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1901.05281",
+   "provenance": "Super-Kamiokande:2019hga \u2014 Flux-averaged NC quasi-elastic (NCQE) cross section on oxygen, \u03bd+\u03bd\u0304 atmospheric flux (all flavors, 160 MeV-10 GeV), Supe \u00b7 target per \u00b9\u2076O nucleus \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+   "notes": "Super-Kamiokande:2019hga \u2014 Flux-averaged NC quasi-elastic (NCQE) cross section on oxygen, \u03bd+\u03bd\u0304 atmospheric flux (all flavors, 160 MeV-10 GeV), Supe. Target per \u00b9\u2076O nucleus."
+  }
+ ]
+}
