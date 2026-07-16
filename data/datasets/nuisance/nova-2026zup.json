@@ -1,0 +1,188 @@
+{
+ "bibtag": "NOvA:2026zup",
+ "slug": "nova-2026zup",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2603.06718",
+ "arxiv": "2603.06718",
+ "cite": "",
+ "note": "Muon-antineutrino CC-inclusive cross sections at NOvA (NuMI, antineutrino mode). This release ingests the two single-differential projections dsigma/dEnu and dsigma/dQ^2 (per nucleon); the paper's primary triple-differential d3sigma/dTmu dcos(theta_mu) dEavail (48 slices) is not ingested here pending 2D/3D support. Per-bin total uncertainty; no covariance published.",
+ "distributions": [
+  {
+   "key": "dsigma_dsigma_denu",
+   "slug": "dsigma_dsigma_denu",
+   "name": "d\u03c3/dE_\u03bd",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}E_\\nu$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "d\u03c3/dE_\u03bd",
+   "ylabel_plot": "d\u03c3/dE_\u03bd",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}E_\\nu$",
+   "yunit": "10^{-39}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/GeV/nucleon$",
+   "nbins": 9,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 0.335854,
+     "err": 0.089072
+    },
+    {
+     "i": 1,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 1.67943,
+     "err": 0.291071
+    },
+    {
+     "i": 2,
+     "lo": 1.0,
+     "hi": 1.25,
+     "center": 1.125,
+     "val": 3.26431,
+     "err": 0.498807
+    },
+    {
+     "i": 3,
+     "lo": 1.25,
+     "hi": 1.5,
+     "center": 1.375,
+     "val": 4.35942,
+     "err": 0.682048
+    },
+    {
+     "i": 4,
+     "lo": 1.5,
+     "hi": 1.75,
+     "center": 1.625,
+     "val": 5.32798,
+     "err": 0.749978
+    },
+    {
+     "i": 5,
+     "lo": 1.75,
+     "hi": 2.0,
+     "center": 1.875,
+     "val": 6.11385,
+     "err": 0.728518
+    },
+    {
+     "i": 6,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 6.88671,
+     "err": 0.842751
+    },
+    {
+     "i": 7,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 6.27042,
+     "err": 1.26634
+    },
+    {
+     "i": 8,
+     "lo": 3.0,
+     "hi": 4.0,
+     "center": 3.5,
+     "val": 1.98654,
+     "err": 0.458447
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2026zup/dsigma_denu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.06718",
+   "provenance": "NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 values transcribed from the paper tables \u00b7 triple-differential deferred \u00b7 no covariance",
+   "notes": "Per nucleon. Values transcribed from the paper tables. Triple-differential deferred. No covariance."
+  },
+  {
+   "key": "dsigma_dsigma_dq2",
+   "slug": "dsigma_dsigma_dq2",
+   "name": "d\u03c3/dQ\u00b2",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
+   "yunit": "10^{-38}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/GeV^2/nucleon$",
+   "nbins": 7,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 1.03712,
+     "err": 0.12259
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 1.03323,
+     "err": 0.117245
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 0.809803,
+     "err": 0.0929639
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 0.601563,
+     "err": 0.0708828
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.6,
+     "center": 0.5,
+     "val": 0.378274,
+     "err": 0.0494154
+    },
+    {
+     "i": 5,
+     "lo": 0.6,
+     "hi": 1.1,
+     "center": 0.8500000000000001,
+     "val": 0.0918223,
+     "err": 0.0129322
+    },
+    {
+     "i": 6,
+     "lo": 1.1,
+     "hi": 1.2,
+     "center": 1.15,
+     "val": 0.00206111,
+     "err": 0.000634539,
+     "hi_true": 2.8
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nova-2026zup/dsigma_dq2.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.06718",
+   "provenance": "NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 values transcribed from the paper tables \u00b7 triple-differential deferred \u00b7 no covariance",
+   "notes": "Per nucleon. Values transcribed from the paper tables. Triple-differential deferred. No covariance."
+  }
+ ]
+}
