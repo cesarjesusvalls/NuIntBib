@@ -1,0 +1,18 @@
+{
+ "bibtag": "MiniBooNE:2018dus",
+ "slug": "miniboone-2018dus",
+ "source_url": "https://arxiv.org/abs/1801.03848",
+ "note": "Flux-integrated total CC cross section for monoenergetic 236 MeV kaon-decay-at-rest (KDAR) muon neutrinos on carbon, measured with the MiniBooNE mineral-oil detector using NuMI-absorber-produced neutrinos (antineutrino-mode running, 2009-2011). Target: per neutron. No covariance published (per-bin total uncertainty only).",
+ "provenance": "MiniBooNE:2018dus - Flux-integrated total CC cross section for monoenergetic 236 MeV kaon-decay-at-rest (KDAR) muon neutrinos on carbon, mea \u00b7 target per neutron \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
+ "items": [
+  {
+   "slug": "total_xsec_numu_C_kdar",
+   "label": "",
+   "csv": "data/datasets/sources/miniboone-2018dus/total_xsec_numu_C_kdar.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2/neutron"
+  }
+ ]
+}

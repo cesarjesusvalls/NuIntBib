@@ -1,0 +1,291 @@
+{
+ "bibtag": "ArgoNeuT:2011bms",
+ "slug": "argoneut-2011bms",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1111.0103",
+ "arxiv": "1111.0103",
+ "cite": "Phys.Rev.Lett. 108 161802",
+ "note": "Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeuT LArTPC), plus a single total \u03c3/E_\u03bd value reported in the text. Target: per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors). No covariance published (per-bin total uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_dsigma_dtheta_mu",
+   "slug": "dsigma_dsigma_dtheta_mu",
+   "name": "d\u03c3/d\u03b8_\u03bc",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu$",
+   "xlabel": "\u03b8_\u03bc",
+   "xunit": "deg",
+   "xlabel_tex": "$\\theta_\\mu$",
+   "ylabel": "d\u03c3/d\u03b8_\u03bc",
+   "ylabel_plot": "d\u03c3/d\u03b8_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu$",
+   "yunit": "10^{-38}cm^2/degree",
+   "yunit_tex": "$10^{-38}cm^2/degree$",
+   "nbins": 14,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 2.0,
+     "center": 1.0,
+     "val": 1.2,
+     "err": 0.7
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 4.0,
+     "center": 3.0,
+     "val": 3.2,
+     "err": 1.3
+    },
+    {
+     "i": 2,
+     "lo": 4.0,
+     "hi": 6.0,
+     "center": 5.0,
+     "val": 4.4,
+     "err": 1.4
+    },
+    {
+     "i": 3,
+     "lo": 6.0,
+     "hi": 8.0,
+     "center": 7.0,
+     "val": 6.9,
+     "err": 1.7
+    },
+    {
+     "i": 4,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 5.8,
+     "err": 1.3
+    },
+    {
+     "i": 5,
+     "lo": 10.0,
+     "hi": 12.0,
+     "center": 11.0,
+     "val": 5.9,
+     "err": 1.4
+    },
+    {
+     "i": 6,
+     "lo": 12.0,
+     "hi": 14.0,
+     "center": 13.0,
+     "val": 4.2,
+     "err": 1.1
+    },
+    {
+     "i": 7,
+     "lo": 14.0,
+     "hi": 16.0,
+     "center": 15.0,
+     "val": 5.2,
+     "err": 1.3
+    },
+    {
+     "i": 8,
+     "lo": 16.0,
+     "hi": 18.0,
+     "center": 17.0,
+     "val": 4.3,
+     "err": 1.1
+    },
+    {
+     "i": 9,
+     "lo": 18.0,
+     "hi": 20.0,
+     "center": 19.0,
+     "val": 2.2,
+     "err": 0.7
+    },
+    {
+     "i": 10,
+     "lo": 20.0,
+     "hi": 22.0,
+     "center": 21.0,
+     "val": 2.9,
+     "err": 0.9
+    },
+    {
+     "i": 11,
+     "lo": 22.0,
+     "hi": 24.0,
+     "center": 23.0,
+     "val": 1.6,
+     "err": 0.7
+    },
+    {
+     "i": 12,
+     "lo": 24.0,
+     "hi": 30.0,
+     "center": 27.0,
+     "val": 1.7,
+     "err": 0.4
+    },
+    {
+     "i": 13,
+     "lo": 30.0,
+     "hi": 36.0,
+     "center": 33.0,
+     "val": 0.9,
+     "err": 0.3
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2011bms/dsigma_dtheta_mu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1111.0103",
+   "provenance": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu \u00b7 target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
+   "notes": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu. Target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors)."
+  },
+  {
+   "key": "dsigma_dsigma_dp_mu",
+   "slug": "dsigma_dsigma_dp_mu",
+   "name": "d\u03c3/dP_\u03bc",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}P_\\mu$",
+   "xlabel": "P_\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$P_\\mu$",
+   "ylabel": "d\u03c3/dP_\u03bc",
+   "ylabel_plot": "d\u03c3/dP_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}P_\\mu$",
+   "yunit": "10^{-38}cm^2/(GeV/c)",
+   "yunit_tex": "$10^{-38}cm^2/(GeV/c)$",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.25,
+     "center": 0.625,
+     "val": 15.4,
+     "err": 5.1
+    },
+    {
+     "i": 1,
+     "lo": 1.25,
+     "hi": 2.5,
+     "center": 1.875,
+     "val": 24.9,
+     "err": 5.0
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.75,
+     "center": 3.125,
+     "val": 17.6,
+     "err": 3.5
+    },
+    {
+     "i": 3,
+     "lo": 3.75,
+     "hi": 5.0,
+     "center": 4.375,
+     "val": 8.0,
+     "err": 2.0
+    },
+    {
+     "i": 4,
+     "lo": 5.0,
+     "hi": 6.25,
+     "center": 5.625,
+     "val": 6.7,
+     "err": 1.8
+    },
+    {
+     "i": 5,
+     "lo": 6.25,
+     "hi": 7.5,
+     "center": 6.875,
+     "val": 4.1,
+     "err": 1.3
+    },
+    {
+     "i": 6,
+     "lo": 7.5,
+     "hi": 8.75,
+     "center": 8.125,
+     "val": 3.5,
+     "err": 1.2
+    },
+    {
+     "i": 7,
+     "lo": 8.75,
+     "hi": 10.0,
+     "center": 9.375,
+     "val": 2.4,
+     "err": 1.0
+    },
+    {
+     "i": 8,
+     "lo": 10.0,
+     "hi": 15.0,
+     "center": 12.5,
+     "val": 1.8,
+     "err": 0.5
+    },
+    {
+     "i": 9,
+     "lo": 15.0,
+     "hi": 20.0,
+     "center": 17.5,
+     "val": 1.0,
+     "err": 0.3
+    },
+    {
+     "i": 10,
+     "lo": 20.0,
+     "hi": 25.0,
+     "center": 22.5,
+     "val": 0.6,
+     "err": 0.2
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2011bms/dsigma_dp_mu.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1111.0103",
+   "provenance": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu \u00b7 target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
+   "notes": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu. Target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors)."
+  },
+  {
+   "key": "dsigma_sigma_over_enu_total",
+   "slug": "dsigma_sigma_over_enu_total",
+   "name": "\u03c3/E_\u03bd",
+   "name_tex": "$\\sigma/E_\\nu$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3/E_\u03bd",
+   "ylabel_plot": "\u03c3/E_\u03bd",
+   "ylabel_tex": "$\\sigma/E_\\nu$",
+   "yunit": "10^{-39}cm^2/GeV",
+   "yunit_tex": "$10^{-39}cm^2/GeV$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.3,
+     "hi": 4.3,
+     "center": 4.3,
+     "val": 7.3,
+     "err": 1.2
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2011bms/sigma_over_enu_total.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1111.0103",
+   "provenance": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu \u00b7 target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
+   "notes": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu. Target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors)."
+  }
+ ]
+}

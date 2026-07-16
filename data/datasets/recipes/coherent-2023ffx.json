@@ -1,0 +1,36 @@
+{
+ "bibtag": "COHERENT:2023ffx",
+ "slug": "coherent-2023ffx",
+ "source_url": "https://arxiv.org/abs/2305.19594",
+ "note": "Flux-averaged (piDAR \u03bde) inclusive and exclusive (0n, \u22651n) charged-current cross sections for \u03bde + 127I, NaIvE detector at SNS/ORNL \u2014 single flux-integrated numbers, no differential binning. Target: per nucleus (127I). No covariance published (per-bin total uncertainty only).",
+ "provenance": "COHERENT:2023ffx - Flux-averaged (piDAR \u03bde) inclusive and exclusive (0n, \u22651n) charged-current cross sections for \u03bde + 127I, NaIvE detector  \u00b7 target per nucleus (127I) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
+ "items": [
+  {
+   "slug": "sigma_incl_nue_I127",
+   "label": "",
+   "csv": "data/datasets/sources/coherent-2023ffx/sigma_incl_nue_I127.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-40}cm^2"
+  },
+  {
+   "slug": "sigma_excl_0n_nue_I127",
+   "label": "",
+   "csv": "data/datasets/sources/coherent-2023ffx/sigma_excl_0n_nue_I127.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(0n)",
+   "yunit": "10^{-40}cm^2"
+  },
+  {
+   "slug": "sigma_excl_ge1n_nue_I127",
+   "label": "",
+   "csv": "data/datasets/sources/coherent-2023ffx/sigma_excl_ge1n_nue_I127.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(\\geq1n)",
+   "yunit": "10^{-40}cm^2"
+  }
+ ]
+}
