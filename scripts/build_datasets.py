@@ -1100,6 +1100,15 @@ def build_csv_simple(spec):
             'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
             'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
         })
+    # optional release covariance: a full NxN matrix (absolute cross-section units^2) whose row/col
+    # order is the concatenation of the items' bins in item order.
+    if spec.get('cov') and dists:
+        M = _txt_matrix(spec['cov'])
+        order = [f"{it['slug']} [{b['lo']:g},{b.get('hi_true', b['hi']):g}]"
+                 for it, d in zip(spec['items'], dists) for b in d['bins']]
+        dists[0]['_release_cov'] = _cov_obj(M, order, spec.get(
+            'cov_note', 'total covariance over all bins (concatenated in distribution order); '
+            'row/col order below'))
     return dists
 
 
@@ -2383,12 +2392,17 @@ def build(entry):
 # extraction. Each has ready-to-use csv_simple items pointing at vendored lo,hi,val,err CSVs.
 for _rp in sorted(glob.glob(os.path.join(ROOT_DIR, 'data', 'datasets', 'recipes', '*.json'))):
     _r = json.load(open(_rp))
+    _spec = {
+        'key': _r.get('key', 'dsigma'), 'items': _r['items'],
+        'source': _r.get('source', 'arXiv'), 'source_url': _r['source_url'], 'provenance': _r['provenance'],
+    }
+    if _r.get('cov'):                       # optional full covariance matrix CSV (absolute units^2)
+        _spec['cov'] = _r['cov']
+        if _r.get('cov_note'):
+            _spec['cov_note'] = _r['cov_note']
     REGISTRY.append({
-        'bibtag': _r['bibtag'], 'slug': _r['slug'], 'source': 'arXiv', 'note': _r['note'],
-        'sources': [{'csv_simple': {
-            'key': _r.get('key', 'dsigma'), 'items': _r['items'],
-            'source': 'arXiv', 'source_url': _r['source_url'], 'provenance': _r['provenance'],
-        }}],
+        'bibtag': _r['bibtag'], 'slug': _r['slug'], 'source': _r.get('source', 'arXiv'),
+        'note': _r['note'], 'sources': [{'csv_simple': _spec}],
     })
 
 
