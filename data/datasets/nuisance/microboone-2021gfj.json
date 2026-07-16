@@ -1,0 +1,43 @@
+{
+ "bibtag": "MicroBooNE:2021gfj",
+ "slug": "microboone-2021gfj",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2101.04228",
+ "arxiv": "2101.04228",
+ "cite": "Phys.Rev.D 104 052002",
+ "note": "Flux-averaged inclusive charged-current total cross section for combined electron-neutrino + electron-antineutrino (\u03bd_e + \u03bd\u0304_e) interactions on argon, using the off-axis NuMI beam at MicroBooNE. This is a single flux-integrated number (not differential) \u2014 the paper's headline result, restated identically 4 times (abstract, results text, Eq. in Sec. V/summary, conclusion). Target: per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus).",
+ "distributions": [
+  {
+   "key": "dsigma_total_nue_nuebar",
+   "slug": "dsigma_total_nue_nuebar",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.905,
+     "hi": 0.905,
+     "center": 0.905,
+     "val": 6.84,
+     "err": 2.777
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2021gfj/total_nue_nuebar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2101.04228",
+   "provenance": "MicroBooNE:2021gfj \u2014 Flux-averaged inclusive charged-current total cross section for combined electron-neutrino + electron-antineutrino (\u03bd_e \u00b7 target per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus) \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2021gfj \u2014 Flux-averaged inclusive charged-current total cross section for combined electron-neutrino + electron-antineutrino (\u03bd_e. Target per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus)."
+  }
+ ]
+}

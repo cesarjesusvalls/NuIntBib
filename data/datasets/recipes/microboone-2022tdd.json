@@ -1,0 +1,47 @@
+{
+ "bibtag": "MicroBooNE:2022tdd",
+ "slug": "microboone-2022tdd",
+ "source_url": "https://arxiv.org/abs/2208.02348",
+ "note": "Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final-state pions (0pi, any number of protons) on argon, in 4 kinematic variables: electron energy E_e, electron angle cos(theta_e) w.r.t. beam, leading proton kinetic energy KE_p, and leading proton angle cos(theta_p) w.r.t. beam. Beam: BNB (Booster Neutrino Beam) intrinsic nu_e component, 6.86e20 POT, 2016-2018 data. Detector: MicroBooNE LArTPC. Target: per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables.",
+ "provenance": "MicroBooNE:2022tdd \u2014 Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final- \u00b7 target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "electron_energy",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2022tdd/electron_energy.csv",
+   "xlabel": "E_{e}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{e}",
+   "yunit": "1e-39 cm^2/GeV/nucleon"
+  },
+  {
+   "slug": "electron_angle",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2022tdd/electron_angle.csv",
+   "xlabel": "\\cos\\theta_{e}",
+   "xunit": "dimensionless",
+   "ylabel": "d\\sigma/d\\cos\\theta_{e}",
+   "yunit": "1e-39 cm^2/nucleon"
+  },
+  {
+   "slug": "proton_energy",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2022tdd/proton_energy.csv",
+   "xlabel": "KE_{p}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dKE_{p}",
+   "yunit": "1e-39 cm^2/GeV/nucleon"
+  },
+  {
+   "slug": "proton_angle",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2022tdd/proton_angle.csv",
+   "xlabel": "\\cos\\theta_{p}",
+   "xunit": "dimensionless",
+   "ylabel": "d\\sigma/d\\cos\\theta_{p}",
+   "yunit": "1e-39 cm^2/nucleon"
+  }
+ ],
+ "cov": "data/datasets/sources/microboone-2022tdd/cov.csv",
+ "cov_note": "17x17 (=4+4+5+4 bins), row/col order = electron_energy, electron_angle, proton_energy, proton_angle (each in file bin order). Source: Supplemental Material Tabl"
+}

@@ -1104,6 +1104,7 @@ def build_csv_simple(spec):
     # order is the concatenation of the items' bins in item order.
     if spec.get('cov') and dists:
         M = _txt_matrix(spec['cov'])
+        M = 0.5 * (M + M.T)                  # tidy rounding-induced asymmetry (diagonal unchanged)
         order = [f"{it['slug']} [{b['lo']:g},{b.get('hi_true', b['hi']):g}]"
                  for it, d in zip(spec['items'], dists) for b in d['bins']]
         dists[0]['_release_cov'] = _cov_obj(M, order, spec.get(

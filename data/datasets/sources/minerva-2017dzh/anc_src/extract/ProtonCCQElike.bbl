@@ -1,0 +1,620 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{55}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Acciarri}\ \emph {et~al.}()\citenamefont {Acciarri}
+  \emph {et~al.}}]{Acciarri:2015uup}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {DUNE Collaboration}),\
+  }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1512.06148}
+  {arXiv:1512.06148 [hep-ex]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abe}\ \emph {et~al.}(2011)\citenamefont {Abe} \emph
+  {et~al.}}]{Abe:2011ks}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Abe}} \emph {et~al.} (\bibinfo {collaboration} {T2K Collaboration}),\ }\href
+  {\doibase 10.1016/j.nima.2011.06.067} {\bibfield  {journal} {\bibinfo
+  {journal} {Nucl.Instrum.Meth.}\ }\textbf {\bibinfo {volume} {A659}},\
+  \bibinfo {pages} {106} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1106.1238;%%
+\bibitem [{\citenamefont {Ayres}\ \emph {et~al.}(2004)\citenamefont {Ayres}
+  \emph {et~al.}}]{Ayres:2004js}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont
+  {Ayres}} \emph {et~al.} (\bibinfo {collaboration} {NOvA Collaboration}),\
+  }\href@noop {} {\  (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+%%CITATION = HEP-EX/0503053;%%
+\bibitem [{\citenamefont {Abe}\ \emph {et~al.}(2016)\citenamefont {Abe} \emph
+  {et~al.}}]{Abe:2015ibe}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Abe}} \emph {et~al.} (\bibinfo {collaboration} {T2K Collaboration}),\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\
+  }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages} {181801} (\bibinfo
+  {year} {2016})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1512.02495;%%
+\bibitem [{\citenamefont {Aguilar-Arevalo}\ \emph {et~al.}(2013)\citenamefont
+  {Aguilar-Arevalo} \emph {et~al.}}]{Aguilar-Arevalo:2013pmq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Aguilar-Arevalo}} \emph {et~al.} (\bibinfo {collaboration} {MiniBooNE
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.110.161801} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {110}},\ \bibinfo {pages} {161801} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adamson}\ \emph
+  {et~al.}(2016{\natexlab{a}})\citenamefont {Adamson} \emph
+  {et~al.}}]{Adamson:2016tbq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Adamson}} \emph {et~al.} (\bibinfo {collaboration} {NOvA Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevLett.116.151806} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\
+  \bibinfo {pages} {151806} (\bibinfo {year} {2016}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1601.05022;%%
+\bibitem [{\citenamefont {Baker}\ \emph {et~al.}(1981)\citenamefont {Baker},
+  \citenamefont {Cnops}, \citenamefont {Connolly}, \citenamefont {Kahn},
+  \citenamefont {Kirk}, \citenamefont {Murtagh}, \citenamefont {Palmer},
+  \citenamefont {Samios},\ and\ \citenamefont {Tanaka}}]{Baker:1981su}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~J.}\ \bibnamefont
+  {Baker}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Cnops}},
+  \bibinfo {author} {\bibfnamefont {P.~L.}\ \bibnamefont {Connolly}}, \bibinfo
+  {author} {\bibfnamefont {S.~A.}\ \bibnamefont {Kahn}}, \bibinfo {author}
+  {\bibfnamefont {H.~G.}\ \bibnamefont {Kirk}}, \bibinfo {author}
+  {\bibfnamefont {M.~J.}\ \bibnamefont {Murtagh}}, \bibinfo {author}
+  {\bibfnamefont {R.~B.}\ \bibnamefont {Palmer}}, \bibinfo {author}
+  {\bibfnamefont {N.~P.}\ \bibnamefont {Samios}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Tanaka}},\ }\href {\doibase
+  10.1103/PhysRevD.23.2499} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. D}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo {pages} {2499}
+  (\bibinfo {year} {1981})}\BibitemShut {NoStop}%
+%%CITATION = PHRVA,D23,2499;%%
+\bibitem [{\citenamefont {Miller}\ \emph {et~al.}(1982)\citenamefont {Miller}
+  \emph {et~al.}}]{Miller:1982qi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~L.}\ \bibnamefont
+  {Miller}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevD.26.537}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {26}},\ \bibinfo {pages} {537} (\bibinfo {year} {1982})}\BibitemShut
+  {NoStop}%
+%%CITATION = PHRVA,D26,537;%%
+\bibitem [{\citenamefont {Kitagaki}\ \emph {et~al.}(1983)\citenamefont
+  {Kitagaki} \emph {et~al.}}]{PhysRevD.28.436}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Kitagaki}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevD.28.436}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {28}},\ \bibinfo {pages} {436} (\bibinfo {year} {1983})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Gran}\ \emph {et~al.}(2006)\citenamefont {Gran} \emph
+  {et~al.}}]{Gran:2006jn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Gran}} \emph {et~al.} (\bibinfo {collaboration} {K2K Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevD.74.052002} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys.Rev.}\ }\textbf {\bibinfo {volume} {D74}},\ \bibinfo {pages}
+  {052002} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+%%CITATION = HEP-EX/0603034;%%
+\bibitem [{\citenamefont {Aguilar-Arevalo}\ \emph {et~al.}(2009)\citenamefont
+  {Aguilar-Arevalo} \emph {et~al.}}]{AguilarArevalo:2008rc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Aguilar-Arevalo}} \emph {et~al.} (\bibinfo {collaboration} {MiniBooNE
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.102.101802} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys.~Rev.~Lett.}\ }\textbf {\bibinfo
+  {volume} {102}},\ \bibinfo {pages} {101802} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0812.2243;%%
+\bibitem [{\citenamefont {Aguilar-Arevalo}\ \emph {et~al.}(2010)\citenamefont
+  {Aguilar-Arevalo} \emph {et~al.}}]{AguilarArevalo:2010wv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Aguilar-Arevalo}} \emph {et~al.} (\bibinfo {collaboration} {MiniBooNE
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.105.181801} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys.~Rev.~Lett.}\ }\textbf {\bibinfo
+  {volume} {105}},\ \bibinfo {pages} {181801} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1007.1150;%%
+\bibitem [{\citenamefont {Fiorentini}\ \emph {et~al.}(2013)\citenamefont
+  {Fiorentini} \emph {et~al.}}]{PhysRevLett.111.022502}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~A.}\ \bibnamefont
+  {Fiorentini}} \emph {et~al.} (\bibinfo {collaboration} {MINERvA
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.111.022502} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {111}},\ \bibinfo {pages} {022502} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fields}\ \emph {et~al.}(2013)\citenamefont {Fields}
+  \emph {et~al.}}]{Fields:2013zhk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Fields}} \emph {et~al.} (\bibinfo {collaboration} {MINERvA Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevLett.111.022501} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.~Rev.~Lett.}\ }\textbf {\bibinfo {volume} {111}},\
+  \bibinfo {pages} {022501} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1305.2234;%%
+\bibitem [{\citenamefont {Adamson}\ \emph {et~al.}(2015)\citenamefont {Adamson}
+  \emph {et~al.}}]{PhysRevD.91.012005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Adamson}} \emph {et~al.} (\bibinfo {collaboration} {MINOS Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevD.91.012005} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo
+  {pages} {012005} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smith}\ and\ \citenamefont
+  {Moniz}(1972)}]{Smith:1972xh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Smith}}\ and\ \bibinfo {author} {\bibfnamefont {E.~J.}\ \bibnamefont
+  {Moniz}},\ }\href {\doibase 10.1016/0550-3213(75)90612-4,
+  10.1016/0550-3213(72)90040-5} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nucl. Phys. B}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo {pages} {605}
+  (\bibinfo {year} {1972})},\ \bibinfo {note} {[Erratum: Nucl.
+  Phys.B101,547(1975)]}\BibitemShut {NoStop}%
+%%CITATION = NUPHA,B43,605;%%
+\bibitem [{\citenamefont {Martini}\ \emph {et~al.}(2009)\citenamefont
+  {Martini}, \citenamefont {Ericson}, \citenamefont {Chanfray},\ and\
+  \citenamefont {Marteau}}]{Martini:2009uj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Martini}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ericson}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Chanfray}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Marteau}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf
+  {\bibinfo {volume} {80}},\ \bibinfo {pages} {065501} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0910.2622;%%
+\bibitem [{\citenamefont {Nieves}\ \emph {et~al.}(2013)\citenamefont {Nieves},
+  \citenamefont {Simo},\ and\ \citenamefont {Vicente~Vacas}}]{Nieves:2013fr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Nieves}}, \bibinfo {author} {\bibfnamefont {I.~R.}\ \bibnamefont {Simo}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Vicente~Vacas}},\ }\href {\doibase 10.1016/j.physletb.2013.03.002}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf
+  {\bibinfo {volume} {721}},\ \bibinfo {pages} {90} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1302.0703;%%
+\bibitem [{\citenamefont {Nieves}\ \emph {et~al.}(2011)\citenamefont {Nieves},
+  \citenamefont {Simo},\ and\ \citenamefont {Vacas}}]{PhysRevC.83.045501}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Nieves}}, \bibinfo {author} {\bibfnamefont {I.~R.}\ \bibnamefont {Simo}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.~J.~V.}\ \bibnamefont {Vacas}},\
+  }\href {\doibase 10.1103/PhysRevC.83.045501} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo
+  {pages} {045501} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{O. Benhar, D. Day, and I.
+  Sick}}(2008)}]{Benhar:2006wy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{O. Benhar, D. Day, and
+  I. Sick}}},\ }\href {\doibase 10.1103/RevModPhys.80.189} {\bibfield
+  {journal} {\bibinfo  {journal} {Rev.~Mod.~Phys.}\ }\textbf {\bibinfo {volume}
+  {80}},\ \bibinfo {pages} {189} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+%%CITATION = NUCL-EX/0603029;%%
+\bibitem [{\citenamefont {Arrington}\ \emph
+  {et~al.}(2012{\natexlab{a}})\citenamefont {Arrington}, \citenamefont
+  {Higinbotham}, \citenamefont {Rosner},\ and\ \citenamefont
+  {Sargsian}}]{Arrington:2011xs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Arrington}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Higinbotham}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Rosner}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sargsian}},\
+  }\href {\doibase 10.1016/j.ppnp.2012.04.002} {\bibfield  {journal} {\bibinfo
+  {journal} {Prog.~Part.~Nucl.~Phys.}\ }\textbf {\bibinfo {volume} {67}},\
+  \bibinfo {pages} {898} (\bibinfo {year} {2012}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1104.1196;%%
+\bibitem [{\citenamefont {Arrington}\ \emph
+  {et~al.}(2012{\natexlab{b}})\citenamefont {Arrington}, \citenamefont
+  {Daniel}, \citenamefont {Day}, \citenamefont {Fomin}, \citenamefont
+  {Gaskell},\ and\ \citenamefont {Solvignon}}]{Arrington:2012ax}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Arrington}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Daniel}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Day}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Fomin}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Gaskell}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Solvignon}},\ }\href {\doibase 10.1103/PhysRevC.86.065204}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
+  {volume} {C86}},\ \bibinfo {pages} {065204} (\bibinfo {year}
+  {2012}{\natexlab{b}})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1206.6343;%%
+\bibitem [{\citenamefont {Graczyk}\ and\ \citenamefont
+  {Sobczyk}(2003)}]{Graczyk:2003ru}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont
+  {Graczyk}}\ and\ \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont
+  {Sobczyk}},\ }\href {\doibase 10.1140/epjc/s2003-01338-6} {\bibfield
+  {journal} {\bibinfo  {journal} {Eur.~Phys.~J.}\ }\textbf {\bibinfo {volume}
+  {C31}},\ \bibinfo {pages} {177} (\bibinfo {year} {2003})}\BibitemShut
+  {NoStop}%
+%%CITATION = NUCL-TH/0303054;%%
+\bibitem [{\citenamefont {Nieves}\ \emph {et~al.}(2004)\citenamefont {Nieves},
+  \citenamefont {Amaro},\ and\ \citenamefont {Valverde}}]{Nieves:2004wx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Nieves}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont {Amaro}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Valverde}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\
+  }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {055503} (\bibinfo
+  {year} {2004})},\ \bibinfo {note} {[Erratum: Phys.
+  Rev.C72,019902(2005)]}\BibitemShut {NoStop}%
+%%CITATION = NUCL-TH/0408005;%%
+\bibitem [{\citenamefont {Valverde}\ \emph {et~al.}(2006)\citenamefont
+  {Valverde}, \citenamefont {Amaro}, \citenamefont {Nieves},\ and\
+  \citenamefont {Maieron}}]{Valverde:2006yi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Valverde}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont {Amaro}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Nieves}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Maieron}},\ }\href {\doibase
+  10.1016/j.physletb.2006.08.087} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {642}},\ \bibinfo {pages} {218}
+  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+%%CITATION = NUCL-TH/0606042;%%
+\bibitem [{\citenamefont {Andreopoulos}\ \emph {et~al.}(2010)\citenamefont
+  {Andreopoulos} \emph {et~al.}}]{Andreopoulos:2009rq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Andreopoulos}} \emph {et~al.},\ }\href {\doibase 10.1016/j.nima.2009.12.009}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl.~Instrum.~Meth.}\ }\textbf
+  {\bibinfo {volume} {A614}},\ \bibinfo {pages} {87} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+%%CITATION = 0905.2517;%%
+\bibitem [{\citenamefont {Nowak}\ and\ \citenamefont
+  {Sobczyk}(2006)}]{Nowak:2006xv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Nowak}}\ and\ \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont
+  {Sobczyk}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{Nuclear
+  effects in neutrino interactions. Proceedings, 20th Max Born Symposium,
+  Wroclaw, Poland, December 7-10, 2005}}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Acta Phys. Polon. B37}\ ,\ \bibinfo {pages}
+  {2371}} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/0608108;%%
+\bibitem [{\citenamefont {Golan}\ \emph {et~al.}(2013)\citenamefont {Golan},
+  \citenamefont {Graczyk}, \citenamefont {Juszczak},\ and\ \citenamefont
+  {Sobczyk}}]{Golan:2013jtj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Golan}}, \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Graczyk}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Juszczak}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont {Sobczyk}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\
+  }\textbf {\bibinfo {volume} {88}},\ \bibinfo {pages} {024612} (\bibinfo
+  {year} {2013})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1302.3890;%%
+\bibitem [{\citenamefont {Walton}\ \emph {et~al.}(2015)\citenamefont {Walton}
+  \emph {et~al.}}]{Walton:2014esl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Walton}} \emph {et~al.} (\bibinfo {collaboration} {MINERvA Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevD.91.071301} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D91}},\ \bibinfo {pages}
+  {071301} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1409.4497;%%
+\bibitem [{\citenamefont {Adamson}\ \emph
+  {et~al.}(2016{\natexlab{b}})\citenamefont {Adamson} \emph
+  {et~al.}}]{Adamson:2015dkw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Adamson}} \emph {et~al.} (\bibinfo {collaboration} {MINOS Collaboration}),\
+  }\href {\doibase 10.1016/j.nima.2015.08.063} {\bibfield  {journal} {\bibinfo
+  {journal} {Nucl. Instrum. and Meth. A}\ }\textbf {\bibinfo {volume} {806}},\
+  \bibinfo {pages} {279 } (\bibinfo {year} {2016}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Alt}\ \emph {et~al.}(2007)\citenamefont {Alt} \emph
+  {et~al.}}]{Alt:2006fr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Alt}} \emph {et~al.} (\bibinfo {collaboration} {NA49 Collaboration}),\
+  }\href {\doibase 10.1140/epjc/s10052-006-0165-7} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur.~Phys.~J. C}\ }\textbf {\bibinfo {volume} {49}},\
+  \bibinfo {pages} {897} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+%%CITATION = HEP-EX/0606028;%%
+\bibitem [{\citenamefont {Agostinelli}\ \emph {et~al.}(2003)\citenamefont
+  {Agostinelli} \emph {et~al.}}]{Agostinelli:2002hh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Agostinelli}} \emph {et~al.} (\bibinfo {collaboration} {Geant4}),\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nucl.~Instrum.~Meth.}\ }\textbf {\bibinfo {volume} {A506}},\ \bibinfo
+  {pages} {250} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A506,250;%%
+\bibitem [{\citenamefont {Aliaga}\ \emph {et~al.}(2016)\citenamefont {Aliaga}
+  \emph {et~al.}}]{Aliaga:2016oaz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Aliaga}} \emph {et~al.} (\bibinfo {collaboration} {MINERvA Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevD.94.092005} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys.~Rev. D}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo
+  {pages} {092005} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1607.00704;%%
+\bibitem [{\citenamefont {Aliaga}\ \emph {et~al.}(2014)\citenamefont {Aliaga}
+  \emph {et~al.}}]{Aliaga:2013uqz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Aliaga}} \emph {et~al.} (\bibinfo {collaboration} {MINERvA Collaboration}),\
+  }\href {\doibase 10.1016/j.nima.2013.12.053} {\bibfield  {journal} {\bibinfo
+  {journal} {Nucl.~Instrum.~Meth.}\ }\textbf {\bibinfo {volume} {A743}},\
+  \bibinfo {pages} {130} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1305.5199;%%
+\bibitem [{\citenamefont {Michael}\ \emph {et~al.}(2008)\citenamefont {Michael}
+  \emph {et~al.}}]{Michael:2008bc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~G.}\ \bibnamefont
+  {Michael}} \emph {et~al.} (\bibinfo {collaboration} {MINOS Collaboration}),\
+  }\href {\doibase 10.1016/j.nima.2008.08.003} {\bibfield  {journal} {\bibinfo
+  {journal} {Nucl.~Instrum.~Meth.}\ }\textbf {\bibinfo {volume} {A596}},\
+  \bibinfo {pages} {190} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0805.3170;%%
+\bibitem [{\citenamefont {Rein}\ and\ \citenamefont
+  {Sehgal}(1981)}]{Rein:1980wg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Rein}}\ and\ \bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Sehgal}},\ }\href {\doibase 10.1016/0003-4916(81)90242-6} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals~Phys.}\ }\textbf {\bibinfo {volume}
+  {133}},\ \bibinfo {pages} {79} (\bibinfo {year} {1981})}\BibitemShut
+  {NoStop}%
+%%CITATION = APNYA,133,79;%%
+\bibitem [{\citenamefont {Bodek}\ and\ \citenamefont
+  {Yang}(2003)}]{Bodek:2002ps}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Bodek}}\ and\ \bibinfo {author} {\bibfnamefont {U.~K.}\ \bibnamefont
+  {Yang}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{Neutrino
+  factories. Proceedings, 4th International Workshop, NuFact'02, London, UK,
+  July 1-6, 2002}}},\ }\href {\doibase 10.1088/0954-3899/29/8/369} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Phys. G29}\ ,\ \bibinfo {pages} {1899}}
+  (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+%%CITATION = HEP-EX/0210024;%%
+\bibitem [{\citenamefont {Z.~Koba}\ and\ \citenamefont {Olesen}(1972)}]{koba}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~B.~N.}\
+  \bibnamefont {Z.~Koba}}\ and\ \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Olesen}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nucl.~Phys.~vol.}\ }\textbf {\bibinfo {volume} {B40}},\ \bibinfo
+  {pages} {317} (\bibinfo {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {T.~Sjostrand}\ and\ \citenamefont
+  {Skands}(2006)}]{pythia}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont
+  {T.~Sjostrand}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Skands}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {JEHP}\
+  }\textbf {\bibinfo {volume} {vol. 05}},\ \bibinfo {pages} {026} (\bibinfo
+  {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nieves}\ \emph {et~al.}(2012)\citenamefont {Nieves},
+  \citenamefont {Ruiz~Simo},\ and\ \citenamefont {V.~Vacas}}]{Nieves:2011yp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Nieves}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Ruiz~Simo}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {V.~Vacas}},\
+  }\href {\doibase 10.1016/j.physletb.2011.11.061} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.~Lett. B}\ }\textbf {\bibinfo {volume} {707}},\
+  \bibinfo {pages} {72} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1106.5374;%%
+\bibitem [{\citenamefont {{R. Gran, J. Nieves, F. Sanchez, and M. Vicente
+  Vacas}}(2013)}]{Gran:2013kda}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{R. Gran, J. Nieves, F.
+  Sanchez, and M. Vicente Vacas}}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.~Rev.~D}\ }\textbf {\bibinfo {volume} {88}},\
+  \bibinfo {pages} {113007} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1307.8105;%%
+\bibitem [{\citenamefont {J.~Schwehr}\ and\ \citenamefont
+  {Gran}()}]{Schwehr:2016pvn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {J.~Schwehr}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Gran}},\ }\href@noop {} {\bibinfo  {journal} {arXiv:1601.02038}\
+  }\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rodrigues}\ \emph {et~al.}(2016)\citenamefont
+  {Rodrigues} \emph {et~al.}}]{Rodrigues:2015hik}%
+  \BibitemOpen
+\bibfield  {journal} {  }\bibfield  {author} {\bibinfo {author} {\bibfnamefont
+  {P.~A.}\ \bibnamefont {Rodrigues}} \emph {et~al.} (\bibinfo {collaboration}
+  {MINERvA Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.116.071802}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {116}},\ \bibinfo {pages} {071802} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1511.05944;%%
+\bibitem [{\citenamefont {Wilkinson}\ \emph {et~al.}(2014)\citenamefont
+  {Wilkinson}, \citenamefont {Rodrigues}, \citenamefont {Cartwright},
+  \citenamefont {Thompson},\ and\ \citenamefont
+  {McFarland}}]{Wilkinson:2014yfa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Wilkinson}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Rodrigues}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Cartwright}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Thompson}}, \ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {McFarland}},\ }\href {\doibase 10.1103/PhysRevD.90.112017} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {90D}},\ \bibinfo {pages} {112017} (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1411.4482;%%
+\bibitem [{\citenamefont {Dytman}\ and\ \citenamefont
+  {Meyer}(2011)}]{Dytman:2011zz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Dytman}}\ and\ \bibinfo {author} {\bibfnamefont {A.~S.}\ \bibnamefont
+  {Meyer}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle}
+  {{Proceedings, 7th International Workshop on Neutrino-nucleus interactions in
+  the few GeV region (NUINT 11): Dehradun, India, March 7-11, 2011}}},\ }\href
+  {\doibase 10.1063/1.3661588} {\bibfield  {journal} {\bibinfo  {journal} {AIP
+  Conf. Proc.}\ }\textbf {\bibinfo {volume} {1405}},\ \bibinfo {pages} {213}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+%%CITATION = APCPC,1405,213;%%
+\bibitem [{\citenamefont {T.~Golan}\ and\ \citenamefont
+  {Sobczyk}(2012)}]{Golan:2012wx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
+  {T.~Golan}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Sobczyk}},\ }\href {\doibase 10.1103/PhysRevC.86.015505} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys.~Rev.}\ }\textbf {\bibinfo {volume}
+  {C86}},\ \bibinfo {pages} {015505} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Salcedo}\ \emph {et~al.}(1988)\citenamefont
+  {Salcedo}, \citenamefont {Oset}, \citenamefont {Vicente-Vacas},\ and\
+  \citenamefont {Garcia-Recio}}]{Salcedo:1987md}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~L.}\ \bibnamefont
+  {Salcedo}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Oset}},
+  \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Vicente-Vacas}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Garcia-Recio}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nucl.\ Phys.\ A}\
+  }\textbf {\bibinfo {volume} {484}},\ \bibinfo {pages} {557} (\bibinfo {year}
+  {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gueye}\ \emph {et~al.}(1999)\citenamefont {Gueye}
+  \emph {et~al.}}]{Coulomb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Gueye}} \emph {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {C60}} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Walton}(2014)}]{Twalton-thesis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Walton}},\ }\emph {\bibinfo {title} {{}}},\ \href@noop {} {\bibinfo {type}
+  {dissertation}},\ \bibinfo  {school} {Hampton University} (\bibinfo {year}
+  {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Moniz}\ \emph {et~al.}(1971)\citenamefont {Moniz},
+  \citenamefont {Sick}, \citenamefont {Whitney}, \citenamefont {Ficenec},
+  \citenamefont {Kephart} \emph {et~al.}}]{Moniz:1971mt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~J.}\ \bibnamefont
+  {Moniz}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Sick}},
+  \bibinfo {author} {\bibfnamefont {R.~R.}\ \bibnamefont {Whitney}}, \bibinfo
+  {author} {\bibfnamefont {J.~R.}\ \bibnamefont {Ficenec}}, \bibinfo {author}
+  {\bibfnamefont {R.~D.}\ \bibnamefont {Kephart}},  \emph {et~al.},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys.~Rev.~Lett.}\
+  }\textbf {\bibinfo {volume} {26}},\ \bibinfo {pages} {445} (\bibinfo {year}
+  {1971})}\BibitemShut {NoStop}%
+%%CITATION = PRLTA,26,445;%%
+\bibitem [{\citenamefont {D'Agostini}(1995)}]{D'Agostini:1994zf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {D'Agostini}},\ }\href {\doibase 10.1016/0168-9002(95)00274-X} {\bibfield
+  {journal} {\bibinfo  {journal} {Nucl.~Instrum.~Meth.}\ }\textbf {\bibinfo
+  {volume} {A362}},\ \bibinfo {pages} {487} (\bibinfo {year}
+  {1995})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A362,487;%%
+\bibitem [{\citenamefont {{T. Lee and R.
+  Redwine}}(2002)}]{doi:10.1146/annurev.nucl.52.050102.090713}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{T. Lee and R.
+  Redwine}}},\ }\href {\doibase 10.1146/annurev.nucl.52.050102.090713}
+  {\bibfield  {journal} {\bibinfo  {journal} {Annual Review of Nuclear and
+  Particle Science}\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo {pages} {23}
+  (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ashery}\ \emph {et~al.}(1981)\citenamefont {Ashery},
+  \citenamefont {Navon}, \citenamefont {Azuelos}, \citenamefont {Walter},
+  \citenamefont {Pfeiffer},\ and\ \citenamefont
+  {Schlep\"utz}}]{PhysRevC.23.2173}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Ashery}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Navon}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Azuelos}}, \bibinfo
+  {author} {\bibfnamefont {H.~K.}\ \bibnamefont {Walter}}, \bibinfo {author}
+  {\bibfnamefont {H.~J.}\ \bibnamefont {Pfeiffer}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {F.~W.}\ \bibnamefont {Schlep\"utz}},\ }\href {\doibase
+  10.1103/PhysRevC.23.2173} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. C}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo {pages} {2173}
+  (\bibinfo {year} {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Allardyce}\ \emph {et~al.}(1973)\citenamefont
+  {Allardyce}, \citenamefont {Batty}, \citenamefont {Baugh}, \citenamefont
+  {Friedman}, \citenamefont {Heymann}, \citenamefont {Cage}, \citenamefont
+  {Pyle}, \citenamefont {Squier}, \citenamefont {Clough}, \citenamefont
+  {Jackson}, \citenamefont {Murugesu},\ and\ \citenamefont
+  {Rajaratnam}}]{ALLARDYCE19731}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Allardyce}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Batty}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Baugh}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Friedman}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Heymann}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Cage}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Pyle}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Squier}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Clough}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Jackson}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Murugesu}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Rajaratnam}},\ }\href {\doibase
+  http://dx.doi.org/10.1016/0375-9474(73)90049-3} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nuclear Physics A}\ }\textbf {\bibinfo {volume}
+  {209}},\ \bibinfo {pages} {1 } (\bibinfo {year} {1973})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Saunders}\ \emph {et~al.}(1996)\citenamefont
+  {Saunders}, \citenamefont {H\o{}ibr\aa{}ten}, \citenamefont {Kraushaar},
+  \citenamefont {Kriss}, \citenamefont {Peterson}, \citenamefont {Ristinen},
+  \citenamefont {Brack}, \citenamefont {Hofman}, \citenamefont {Gibson},\ and\
+  \citenamefont {Morris}}]{PhysRevC.53.1745}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Saunders}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {H\o{}ibr\aa{}ten}}, \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Kraushaar}}, \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {Kriss}}, \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont {Peterson}},
+  \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont {Ristinen}}, \bibinfo
+  {author} {\bibfnamefont {J.~T.}\ \bibnamefont {Brack}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Hofman}}, \bibinfo {author} {\bibfnamefont
+  {E.~F.}\ \bibnamefont {Gibson}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.~L.}\ \bibnamefont {Morris}},\ }\href {\doibase 10.1103/PhysRevC.53.1745}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo
+  {volume} {53}},\ \bibinfo {pages} {1745} (\bibinfo {year}
+  {1996})}\BibitemShut {NoStop}%
+\end{thebibliography}%

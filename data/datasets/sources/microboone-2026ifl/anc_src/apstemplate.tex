@@ -1,0 +1,1286 @@
+\documentclass[amsmath,amssymb,aps,prd,showpacs,twocolumn,superscriptaddress,letterpaper,longbibliography, floatfix]{revtex4-2}
+
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{subfigure}
+\usepackage{orcidlink}
+%\usepackage{subfig}
+\usepackage{bm}% bold math
+\usepackage{hyperref}% add hypertext capabilities
+%\usepackage{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+%\usepackage{natbib} % Reimplementation of the LATEX \cite command, to work with both author–year and numerical citations
+\usepackage{amsmath, amssymb} % Options for displaying equations
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{comment} % Adding comments
+\usepackage{hyperref} % Hyperreferences
+\usepackage{float} % floating figs
+\usepackage{makecell} % moving to next line to tables
+\usepackage{tikz}
+\usepackage{placeins}
+%\usepackage{ulem}
+\usepackage{environ}
+\usepackage{multirow}
+\usepackage[normalem]{ulem}
+%\usepackage[landscape,twocolumn]{geometry}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+%\usepackage[caption=false]{subfig}
+
+\hypersetup{breaklinks = true, colorlinks = true, citecolor = blue, linkcolor = blue, urlcolor = blue}
+%\bibliographystyle{apsrev4-2}
+\newcommand{\crefrangeconjunction}{--}
+\newcommand{\figures}{figures/}
+
+\usepackage[textsize=tiny,%
+    color=orange!25,%
+    linecolor=orange,%
+    bordercolor=lightgray]{todonotes}
+% Draft: Todo margin notes size
+\setlength{\marginparwidth}{0.8in}
+\usepackage[nameinlink,capitalise]{cleveref}
+
+\begin{document}
+
+% Use the \preprint command to place your local institutional report
+% number in the upper righthand corner of the title page in preprint mode.
+% Multiple \preprint commands are allowed.
+% Use the 'preprintnumbers' class option to override journal defaults
+% to display numbers if necessary
+%\preprint{}
+
+\title{Measurements of the electron neutrino-argon differential cross section without pions in the final state in MicroBooNE}
+
+% repeat the \author .. \affiliation  etc. as needed
+% \email, \thanks, \homepage, \altaffiliation all apply to the current
+% author. Explanatory text should go in the []'s, actual e-mail
+% address or url should go in the {}'s for \email and \homepage.
+% Please use the appropriate macro foreach each type of information
+
+% \affiliation command applies to all authors since the last
+% \affiliation command. The \affiliation command should follow the
+% other information
+% \affiliation can be followed by \email, \homepage, \thanks as well.
+%\author{}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\altaffiliation{}
+%\affiliation{}
+
+%Collaboration name if desired (requires use of superscriptaddress
+%option in \documentclass). \noaffiliation is required (may also be
+%used with the \author command).
+%\collaboration can be followed by \email, \homepage, \thanks as well.
+%\collaboration{MicroBooNE collaboration}
+% Add standard list of collaborators + affiliations
+%\noaffiliation
+% List of institutions in command form:
+\newcommand{\ANL}{Argonne National Laboratory (ANL), Lemont, IL, 60439, USA}
+\newcommand{\Bern}{Universit{\"a}t Bern, Bern CH-3012, Switzerland}
+\newcommand{\BNL}{Brookhaven National Laboratory (BNL), Upton, NY, 11973, USA}
+\newcommand{\UCSB}{University of California, Santa Barbara, CA, 93106, USA}
+\newcommand{\Cambridge}{University of Cambridge, Cambridge CB3 0HE, United Kingdom}
+\newcommand{\CIEMAT}{Centro de Investigaciones Energ\'{e}ticas, Medioambientales y Tecnol\'{o}gicas (CIEMAT), Madrid E-28040, Spain}
+\newcommand{\Chicago}{University of Chicago, Chicago, IL, 60637, USA}
+\newcommand{\Cincinnati}{University of Cincinnati, Cincinnati, OH, 45221, USA}
+\newcommand{\CSU}{Colorado State University, Fort Collins, CO, 80523, USA}
+\newcommand{\Columbia}{Columbia University, New York, NY, 10027, USA}
+\newcommand{\Edinburgh}{University of Edinburgh, Edinburgh EH9 3FD, United Kingdom}
+\newcommand{\FNAL}{Fermi National Accelerator Laboratory (FNAL), Batavia, IL 60510, USA}
+\newcommand{\Granada}{Universidad de Granada, Granada E-18071, Spain}
+%\newcommand{\Harvard}{Harvard University, Cambridge, MA 02138, USA}
+\newcommand{\IIT}{Illinois Institute of Technology (IIT), Chicago, IL 60616, USA}
+\newcommand{\ICL}{Imperial College London, London SW7 2AZ, United Kingdom}
+\newcommand{\Indiana}{Indiana University, Bloomington, IN 47405, USA}
+\newcommand{\Kansas}{The University of Kansas, Lawrence, KS, 66045, USA}
+\newcommand{\KSU}{Kansas State University (KSU), Manhattan, KS, 66506, USA}
+\newcommand{\Lancaster}{Lancaster University, Lancaster LA1 4YW, United Kingdom}
+\newcommand{\LANL}{Los Alamos National Laboratory (LANL), Los Alamos, NM, 87545, USA}
+\newcommand{\Louisiana}{Louisiana State University, Baton Rouge, LA, 70803, USA}
+\newcommand{\Manchester}{The University of Manchester, Manchester M13 9PL, United Kingdom}
+\newcommand{\MIT}{Massachusetts Institute of Technology (MIT), Cambridge, MA, 02139, USA}
+\newcommand{\Michigan}{University of Michigan, Ann Arbor, MI, 48109, USA}
+\newcommand{\MSU}{Michigan State University, East Lansing, MI 48824, USA}
+\newcommand{\Minnesota}{University of Minnesota, Minneapolis, MN, 55455, USA}
+\newcommand{\Nankai}{Nankai University, Nankai District, Tianjin 300071, China}
+\newcommand{\NMSU}{New Mexico State University (NMSU), Las Cruces, NM, 88003, USA}
+\newcommand{\Oxford}{University of Oxford, Oxford OX1 3RH, United Kingdom}
+\newcommand{\Pitt}{University of Pittsburgh, Pittsburgh, PA, 15260, USA}
+\newcommand{\QMUL}{Queen Mary University of London, London E1 4NS, United Kingdom}
+\newcommand{\Rutgers}{Rutgers University, Piscataway, NJ, 08854, USA}
+\newcommand{\SLAC}{SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA}
+\newcommand{\SDSMT}{South Dakota School of Mines and Technology (SDSMT), Rapid City, SD, 57701, USA}
+\newcommand{\Maine}{University of Southern Maine, Portland, ME, 04104, USA}
+%\newcommand{\Syracuse}{Syracuse University, Syracuse, NY, 13244, USA}
+\newcommand{\TelAviv}{Tel Aviv University, Tel Aviv, Israel, 69978}
+%\newcommand{\Tennessee}{University of Tennessee, Knoxville, TN, 37996, USA}
+\newcommand{\UTA}{University of Texas, Arlington, TX, 76019, USA}
+\newcommand{\Tufts}{Tufts University, Medford, MA, 02155, USA}
+%\newcommand{\UCL}{University College London, London WC1E 6BT, United Kingdom}
+\newcommand{\VTech}{Center for Neutrino Physics, Virginia Tech, Blacksburg, VA, 24061, USA}
+\newcommand{\Warwick}{University of Warwick, Coventry CV4 7AL, United Kingdom}
+\newcommand{\NotreDame}{University of Notre Dame, Notre Dame, IN, 46556, USA}
+%\newcommand{\Yale}{Wright Laboratory, Department of Physics, Yale University, New Haven, CT, 06520, USA}
+%%\newcommand{\listerThanks}{Now at University of Wisconsin, Madison}
+
+% So that institutions appear in alphabetical order:
+\affiliation{\ANL}
+\affiliation{\Bern}
+\affiliation{\BNL}
+\affiliation{\UCSB}
+\affiliation{\Cambridge}
+\affiliation{\CIEMAT}
+\affiliation{\Chicago}
+\affiliation{\Cincinnati}
+\affiliation{\CSU}
+\affiliation{\Columbia}
+\affiliation{\Edinburgh}
+\affiliation{\FNAL}
+\affiliation{\Granada}
+%\affiliation{\Harvard}
+\affiliation{\IIT}
+\affiliation{\ICL}
+\affiliation{\Indiana}
+\affiliation{\Kansas}
+\affiliation{\KSU}
+\affiliation{\Lancaster}
+\affiliation{\LANL}
+\affiliation{\Louisiana}
+\affiliation{\Manchester}
+\affiliation{\MIT}
+\affiliation{\Michigan}
+\affiliation{\MSU}
+\affiliation{\Minnesota}
+\affiliation{\Nankai}
+\affiliation{\NMSU}
+\affiliation{\Oxford}
+\affiliation{\Pitt}
+\affiliation{\QMUL}
+\affiliation{\Rutgers}
+\affiliation{\SLAC}
+\affiliation{\SDSMT}
+\affiliation{\Maine}
+%\affiliation{\Syracuse}
+\affiliation{\TelAviv}
+%\affiliation{\Tennessee}
+\affiliation{\UTA}
+\affiliation{\Tufts}
+%\affiliation{\UCL}
+\affiliation{\VTech}
+\affiliation{\Warwick}
+\affiliation{\NotreDame}
+
+% Authors in alphabetical order
+\author{P.~Abratenko\,\orcidlink{0000-0001-6945-5941}}\affiliation{\Tufts} 
+%\author{O.~Alterkait} \affiliation{\Tufts}
+\author{D.~Andrade~Aldana\,\orcidlink{0009-0008-3143-3374}} \affiliation{\IIT}
+\author{L.~Arellano\,\orcidlink{0000-0002-1093-1824}} \affiliation{\Manchester}
+\author{J.~Asaadi\,\orcidlink{0000-0001-6915-5279}}   \affiliation{\UTA}
+\author{A.~Ashkenazi\,\orcidlink{0000-0002-1995-3851}}   \affiliation{\TelAviv}
+\author{S.~Balasubramanian} \affiliation{\FNAL}
+\author{B.~Baller\,\orcidlink{0000-0001-8731-9281}}  \affiliation{\FNAL}
+
+
+\author{A.~Barnard\,\orcidlink{0000-0001-6117-1768}} \affiliation{\Oxford}
+
+
+\author{G.~Barr\,\orcidlink{0000-0002-9763-1882}} \affiliation{\Oxford}
+\author{D.~Barrow\,\orcidlink{0000-0001-5844-709X}} \affiliation{\Oxford}
+\author{J.~Barrow\,\orcidlink{0000-0002-3993-1123}} \affiliation{\Minnesota} 
+\author{V.~Basque\,\orcidlink{0000-0002-4600-0984}}\affiliation{\FNAL} 
+\author{J.~Bateman\,\orcidlink{0009-0003-3915-3741}} \affiliation{\ICL} \affiliation{\Manchester}
+
+\author{B.~Behera\,\orcidlink{0000-0002-7381-5898}}  \affiliation{\SDSMT} 
+
+\author{O.~Benevides~Rodrigues\,\orcidlink{0000-0001-9181-6096}}  \affiliation{\IIT}
+\author{S.~Berkman\,\orcidlink{0000-0002-8795-459X}}  \affiliation{\MSU}
+%\author{A.~Bhanderi} \affiliation{\Manchester}
+\author{A.~Bhat\,\orcidlink{0000-0002-7994-0489}} \affiliation{\Chicago}
+\author{V.~Bhelande\,\orcidlink{0000-0002-9443-228X}} \affiliation{\LANL}
+\author{M.~Bhattacharya} \affiliation{\FNAL}
+\author{A.~Binau\,\orcidlink{0009-0004-1192-3254}}\affiliation{\Indiana}
+\author{M.~Bishai\,\orcidlink{0000-0003-1829-0969}} \affiliation{\BNL}
+
+\author{A.~Blake\,\orcidlink{0000-0002-2382-362X}} \affiliation{\Lancaster}
+\author{B.~Bogart\,\orcidlink{0000-0003-0558-8934}} \affiliation{\Michigan}
+\author{T.~Bolton\,\orcidlink{0000-0001-7083-3217}} \affiliation{\KSU}
+%\author{J.~Y.~Book} \affiliation{\Harvard}
+\author{M.~B.~Brunetti\,\orcidlink{0000-0003-1639-3577}} \affiliation{\Kansas}
+\author{L.~Camilleri} \affiliation{\Columbia}
+%\author{Y.~Cao} \affiliation{\Manchester}
+\author{D.~Caratelli\,\orcidlink{0000-0002-1761-6595}} \affiliation{\UCSB}
+\author{F.~Cavanna\,\orcidlink{0000-0002-5586-9964}} \affiliation{\FNAL}
+\author{G.~Cerati\,\orcidlink{0000-0003-3548-0262}} \affiliation{\FNAL}
+\author{A.~Chappell\,\orcidlink{0000-0002-1044-6239}} \affiliation{\Warwick}
+\author{Y.~Chen\,\orcidlink{0000-0002-2742-9718}} \affiliation{\SLAC}
+\author{J.~M.~Conrad\,\orcidlink{0000-0002-6393-0438}} \affiliation{\MIT}
+\author{M.~Convery\,\orcidlink{0000-0001-6824-9257}} \affiliation{\SLAC}
+\author{L.~Cooper-Troendle\,\orcidlink{0000-0003-3212-2603}} \affiliation{\Pitt}
+\author{J.~I.~Crespo-Anad\'{o}n} \affiliation{\CIEMAT}
+\author{R.~Cross\,\orcidlink{0000-0001-9694-5735}} \affiliation{\Warwick}
+\author{M.~Del~Tutto\,\orcidlink{0000-0002-1588-7025}} \affiliation{\FNAL}
+\author{S.~R.~Dennis\,\orcidlink{0000-0001-9099-8895}} \affiliation{\Cambridge}
+\author{P.~Detje\,\orcidlink{0000-0002-5883-0053}} \affiliation{\Cambridge}
+\author{R.~Diurba\,\orcidlink{0000-0002-8228-6377}} \affiliation{\Bern}
+\author{Z.~Djurcic\,\orcidlink{0000-0002-5472-216X}} \affiliation{\ANL}
+%\author{R.~Dorrill} \affiliation{\IIT}
+\author{K.~Duffy\,\orcidlink{0000-0002-7872-5445}} \affiliation{\Oxford}
+\author{S.~Dytman\,\orcidlink{0000-0002-8278-5299}} \affiliation{\Pitt}
+\author{B.~Eberly\,\orcidlink{0000-0003-3721-1058}} \affiliation{\Maine}
+\author{P.~Englezos\,\orcidlink{0000-0001-8024-1805}} \affiliation{\Rutgers}
+\author{A.~Ereditato\,\orcidlink{0000-0002-5423-8079}} \affiliation{\Chicago}\affiliation{\FNAL}
+\author{J.~J.~Evans\,\orcidlink{0000-0003-4697-3337}} \affiliation{\Manchester}
+\author{C.~Fang\,\orcidlink{0009-0000-7259-7211}} \affiliation{\UCSB}
+%\author{R.~Fine} \affiliation{\LANL}
+\author{W.~Foreman\,\orcidlink{0000-0001-6555-6948}}\affiliation{\LANL}
+\author{B.~T.~Fleming\,\orcidlink{0000-0001-9826-8547}} \affiliation{\Chicago}
+\author{D.~Franco\,\orcidlink{0000-0003-1278-9478}} \affiliation{\Chicago}
+\author{A.~P.~Furmanski\,\orcidlink{0000-0003-3608-7454}}\affiliation{\Minnesota}
+\author{F.~Gao\,\orcidlink{0000-0001-7539-3863}}\affiliation{\UCSB}
+\author{D.~Garcia-Gamez\,\orcidlink{0000-0003-3452-3478}} \affiliation{\Granada}
+\author{S.~Gardiner\,\orcidlink{0000-0002-8368-5898}} \affiliation{\FNAL}
+\author{G.~Ge\,\orcidlink{0000-0002-0046-7968}} \affiliation{\Columbia}
+\author{S.~Gollapinni\,\orcidlink{0000-0001-5703-9625}} \affiliation{\LANL}
+\author{E.~Gramellini\,\orcidlink{0000-0003-1776-1941}} \affiliation{\Manchester}
+\author{P.~Green\,\orcidlink{0000-0001-9872-3685}} \affiliation{\Oxford}
+\author{H.~Greenlee\,\orcidlink{0000-0002-5109-1358}} \affiliation{\FNAL}
+\author{L.~Gu} \affiliation{\Lancaster}
+\author{W.~Gu\,\orcidlink{0000-0001-6402-1239}} \affiliation{\BNL}
+\author{R.~Guenette\,\orcidlink{0000-0003-3967-0151}} \affiliation{\Manchester}
+%\author{P.~Guzowski\,\orcidlink{0000-0002-7033-0158}} \affiliation{\Manchester}
+\author{L.~Hagaman\,\orcidlink{0000-0003-4178-9565}} \affiliation{\Columbia}
+\author{M.~D.~Handley\,\orcidlink{0009-0005-1052-6924}} \affiliation{\Cambridge}
+\author{M.~Harrison}\affiliation{\LANL}
+\author{S.~Hawkins\,\orcidlink{0000-0001-9652-6944}}\affiliation{\MSU}
+\author{A. Hergenhan\,\orcidlink{0009-0003-1462-210X}}\affiliation{\ICL}
+\author{O.~Hen\,\orcidlink{0000-0002-4890-6544}} \affiliation{\MIT}
+\author{C.~Hilgenberg\,\orcidlink{0000-0001-7847-487X}}\affiliation{\Minnesota}
+\author{G.~A.~Horton-Smith\,\orcidlink{0000-0001-9677-9167}} \affiliation{\KSU}
+\author{A.~Hussain\,\orcidlink{0000-0001-6216-9002}} \affiliation{\KSU}
+%\author{Z.~Imani} \affiliation{\Tufts}
+\author{B.~Irwin\, \orcidlink{0000-0003-3554-1475}} \affiliation{\Minnesota}
+\author{M.~S.~Ismail\,\orcidlink{0009-0000-9234-7965}} \affiliation{\Pitt}
+\author{C.~James} \affiliation{\FNAL}
+\author{X.~Ji\,\orcidlink{0000-0002-0579-8467}} \affiliation{\Nankai}
+\author{J.~H.~Jo\,\orcidlink{0000-0003-4102-3674}} \affiliation{\BNL}
+\author{A.~Johnson\,\orcidlink{0000-0001-9880-6747}}\affiliation{\Indiana}
+\author{R.~A.~Johnson\,\orcidlink{0000-0002-8816-6317}} \affiliation{\Cincinnati}
+%\author{Y.-J.~Jwa} \affiliation{\Columbia}
+\author{D.~Kalra\,\orcidlink{0000-0002-6124-3941}} \affiliation{\Columbia}
+%\author{N.~Kamp} \affiliation{\MIT}
+\author{G.~Karagiorgi\,\orcidlink{0000-0001-7810-7236}} \affiliation{\Columbia}
+\author{A.~Kelly\,\orcidlink{0000-0002-3899-005X}}\affiliation{\Indiana}
+\author{W.~Ketchum} \affiliation{\FNAL}
+\author{M.~Kirby\,\orcidlink{0000-0002-5234-6308}} \affiliation{\BNL}
+\author{T.~Kobilarcik} \affiliation{\FNAL}
+\author{K. Kumar\,\orcidlink{0000-0002-9132-0346}} \affiliation{\Columbia}
+%\author{I.~Kreslo} \affiliation{\Bern}
+\author{N.~Lane\,\orcidlink{0009-0005-1245-8574}} \affiliation{\ICL} \affiliation{\Manchester}
+\author{J.-Y. Li\,\orcidlink{0000-0003-4025-5377}} \affiliation{\Edinburgh}
+\author{Y.~Li\,\orcidlink{0000-0002-7004-7598}} \affiliation{\BNL}
+\author{K.~Lin\,\orcidlink{0000-0003-4442-8554}} \affiliation{\Rutgers}
+\author{B.~R.~Littlejohn\,\orcidlink{0000-0002-6912-9684}} \affiliation{\IIT}
+\author{L.~Liu\,\orcidlink{0000-0002-6753-925X}} \affiliation{\FNAL}
+\author{S.~Liu} \affiliation{\Nankai}
+\author{W.~C.~Louis} \affiliation{\LANL}
+\author{X.~Luo\,\orcidlink{0000-0001-6464-6992}} \affiliation{\UCSB}
+\author{T.~Mahmud} \affiliation{\Lancaster}
+\author{N. Majeed\,\orcidlink{0009-0005-3370-2687}}\affiliation{\KSU}
+\author{C.~Mariani\,\orcidlink{0000-0003-3284-4681}} \affiliation{\VTech}
+%\author{D.~Marsden} \affiliation{\Manchester}
+\author{J.~Marshall\,\orcidlink{0000-0002-3565-7008}} \affiliation{\Warwick}
+%\author{N.~Martinez} \affiliation{\KSU}
+\author{F.~Martinez~Lopez\,\orcidlink{0000-0002-3711-8403}} \affiliation{\Indiana}
+\author{D.~A.~Martinez~Caicedo\,\orcidlink{0000-0001-8270-8907}} \affiliation{\SDSMT}
+\author{M.~G.~Manuel~Alves\,\orcidlink{0000-0002-1900-6299}}\affiliation{\IIT}
+\author{S.~Martynenko\,\orcidlink{0000-0002-5202-2784}} \affiliation{\BNL}
+\author{A.~Mastbaum\,\orcidlink{0000-0002-1132-2270}} \affiliation{\Rutgers}
+\author{I.~Mawby\,\orcidlink{0000-0002-8055-2635}} \affiliation{\Lancaster}
+\author{N.~McConkey\,\orcidlink{0000-0002-0385-3098}} \affiliation{\QMUL}
+\author{B.~McConnell\,\orcidlink{0009-0004-1138-8722}} \affiliation{\Indiana}
+%\author{V.~Meddage} \affiliation{\KSU}
+\author{L.~Mellet\,\orcidlink{0000-0003-4182-7381}} \affiliation{\MSU}
+\author{J.~Mendez\,\orcidlink{0009-0000-9914-3770}} \affiliation{\Louisiana}
+\author{J.~Micallef\,\orcidlink{0000-0001-7259-9575}} \affiliation{\MIT}\affiliation{\Tufts}
+%\author{K.~Miller} \affiliation{\Chicago}
+\author{A.~Mogan\,\orcidlink{0000-0002-8193-5902}} \affiliation{\CSU}
+\author{T.~Mohayai\,\orcidlink{https://orcid.org/0000-0003-0578-752X}} \affiliation{\Indiana}
+
+\author{M.~Mooney\,\orcidlink{0000-0001-9063-1209}} \affiliation{\CSU}
+\author{A.~F.~Moor\,\orcidlink{0000-0001-6425-8885}} \affiliation{\Cambridge}
+\author{C.~D.~Moore} \affiliation{\FNAL}
+\author{L.~Mora~Lepin\,\orcidlink{0000-0002-6615-2053}} \affiliation{\Manchester}
+\author{M.~A.~Hernandez~Morquecho}\affiliation{\Minnesota}
+\author{M.~M.~Moudgalya\,\orcidlink{0000-0003-2597-2503}} \affiliation{\Manchester}
+\author{S.~Mulleriababu} \affiliation{\Bern}
+\author{D.~Naples\,\orcidlink{0000-0002-8629-7719}} \affiliation{\Pitt}
+\author{A.~Navrer-Agasson\,\orcidlink{0000-0002-4942-1565}} \affiliation{\ICL}
+\author{N.~Nayak\,\orcidlink{0000-0002-9588-3533}} \affiliation{\BNL}
+\author{M.~Nebot-Guinot\,\orcidlink{0000-0002-4784-9867}}\affiliation{\Edinburgh}
+\author{C.~Nguyen\,\orcidlink{0000-0003-4580-6094}}\affiliation{\Rutgers}
+\author{L. Nguyen}\affiliation{\UCSB}
+\author{J.~Nowak\,\orcidlink{0000-0001-8637-5433}} \affiliation{\Lancaster}
+\author{N.~Oza} \affiliation{\Columbia}
+\author{O.~Palamara\,\orcidlink{0000-0002-8735-2433}} \affiliation{\FNAL}
+\author{N.~Pallat\,\orcidlink{0009-0009-9468-6288}} \affiliation{\Minnesota}
+\author{V.~Paolone\,\orcidlink{0000-0003-2162-0957}} \affiliation{\Pitt}
+\author{A.~Papadopoulou\,\orcidlink{0000-0002-4343-3792}} \affiliation{\ANL}\affiliation{\LANL}
+\author{V.~Papavassiliou\,\orcidlink{0000-0001-5014-3809}} \affiliation{\NMSU}
+\author{H.~B.~Parkinson\,\orcidlink{0009-0006-0018-6986}} \affiliation{\Edinburgh}
+\author{S.~F.~Pate\,\orcidlink{0000-0001-8577-3405}} \affiliation{\NMSU}
+\author{N.~Patel\,\orcidlink{0000-0003-2200-2712}} \affiliation{\Lancaster}
+\author{Z.~Pavlovic\,\orcidlink{0000-0002-8220-1767}} \affiliation{\FNAL}
+\author{E.~Piasetzky\,\orcidlink{0000-0001-9058-2590}} \affiliation{\TelAviv}
+\author{K.~Pletcher\,\orcidlink{0009-0003-1360-951X}} \affiliation{\MSU}
+\author{I.~Pophale\,\orcidlink{0000-0002-4106-3599}} \affiliation{\Lancaster}
+\author{X.~Qian\,\orcidlink{0000-0002-7903-7935}} \affiliation{\BNL}
+\author{J.~L.~Raaf\,\orcidlink{0000-0002-4533-929X}} \affiliation{\FNAL}
+\author{V.~Radeka} \affiliation{\BNL}
+\author{A.~Rafique\,\orcidlink{0000-0001-8057-4087}} \affiliation{\ANL}
+\author{M.~Reggiani-Guzzo\,\orcidlink{0000-0002-6169-2982}} \affiliation{\Edinburgh}
+%\author{L.~Rochester} \affiliation{\SLAC}
+\author{J.~Rodriguez Rondon\,\orcidlink{0000-0003-1963-4911}} \affiliation{\SDSMT}
+\author{M.~Rosenberg\,\orcidlink{0000-0003-2035-6672}} \affiliation{\Tufts}
+\author{M.~Ross-Lonergan\,\orcidlink{0000-0001-7012-8163}} \affiliation{\LANL}
+\author{I.~Safa\,\orcidlink{0000-0001-8737-6825}} \affiliation{\Columbia}
+\author{C.~Sauer}\affiliation{\UCSB}
+\author{D.~W.~Schmitz\,\orcidlink{0000-0003-2165-7389}} \affiliation{\Chicago}
+\author{A.~Schukraft\,\orcidlink{0000-0002-9112-5479}} \affiliation{\FNAL}
+\author{W.~Seligman\,\orcidlink{0000-0002-6680-7929}} \affiliation{\Columbia}
+\author{M.~H.~Shaevitz\,\orcidlink{0000-0002-7436-8655}} \affiliation{\Columbia}
+\author{R.~Sharankova\,\orcidlink{0000-0002-7014-593X}} \affiliation{\FNAL}
+\author{J.~Shi\,\orcidlink{0000-0001-5108-6957}} \affiliation{\Cambridge}
+\author{L.~Silva\,\orcidlink{0009-0000-9301-4791}}\affiliation{\LANL}
+\author{E.~L.~Snider\,\orcidlink{0000-0003-1105-5608}} \affiliation{\FNAL}
+%\author{M.~Soderberg} \affiliation{\Syracuse}
+\author{S.~S{\"o}ldner-Rembold\,\orcidlink{0000-0002-9079-6860}} \affiliation{\ICL}
+\author{J.~Spitz\,\orcidlink{0000-0002-6288-7028}} \affiliation{\Michigan}
+\author{M.~Stancari\,\orcidlink{0000-0001-5786-5310}} \affiliation{\FNAL}
+\author{J.~St.~John\,\orcidlink{0000-0001-8110-4108}} \affiliation{\FNAL}
+\author{T.~Strauss\,\orcidlink{0000-0002-2308-4986}} \affiliation{\FNAL}
+\author{A.~M.~Szelc\,\orcidlink{0000-0002-4174-4407}} \affiliation{\Edinburgh}
+%\author{W.~Tang} \affiliation{\Tennessee}
+\author{N.~Taniuchi} \affiliation{\Cambridge}
+\author{K.~Terao\,\orcidlink{0000-0003-1767-8929}} \affiliation{\SLAC}
+\author{C.~Thorpe\,\orcidlink{0000-0003-3980-7023}} \affiliation{\Manchester}
+\author{D.~Torbunov\,\orcidlink{0000-0003-0132-5344}} \affiliation{\BNL}
+\author{D.~Totani\,\orcidlink{0000-0001-9685-1800}} \affiliation{\UCSB}
+\author{M.~Toups\,\orcidlink{0000-0001-6584-9011}} \affiliation{\FNAL}
+\author{A.~Trettin\,\orcidlink{0000-0003-0350-3597}} \affiliation{\Manchester}
+\author{Y.-T.~Tsai\,\orcidlink{0000-0001-7011-3551}} \affiliation{\SLAC}
+\author{J.~Tyler\,\orcidlink{0000-0003-1661-8289}} \affiliation{\KSU}
+\author{M.~A.~Uchida\,\orcidlink{0000-0002-6496-2319}} \affiliation{\Cambridge}
+\author{T.~Usher\,\orcidlink{0000-0003-0627-745X}} \affiliation{\SLAC}
+\author{B.~Viren\,\orcidlink{0000-0002-4880-6308}} \affiliation{\BNL}
+\author{J.~Wang} \affiliation{\Nankai}
+\author{L.~Wang}\affiliation{\Edinburgh}
+\author{M.~Weber\,\orcidlink{0000-0002-2770-9031}} \affiliation{\Bern}
+\author{H.~Wei\,\orcidlink{0000-0003-1973-4912}} \affiliation{\Louisiana}
+\author{A.~J.~White} \affiliation{\Chicago}
+\author{S.~Wolbers\,\orcidlink{0000-0003-2782-7158}} \affiliation{\FNAL}
+\author{T.~Wongjirad\,\orcidlink{0000-0001-7630-5175}} \affiliation{\Tufts}
+%\author{M.~Wospakrik} \affiliation{\FNAL}
+\author{K.~Wresilo\,\orcidlink{0000-0002-3575-2814}} \affiliation{\Cambridge}
+\author{W.~Wu\,\orcidlink{0000-0003-2632-7215}} \affiliation{\Pitt}
+\author{E.~Yandel\,\orcidlink{0000-0002-7712-3709}}\affiliation{\LANL} 
+\author{T.~Yang\,\orcidlink{0000-0002-3190-9941}} \affiliation{\FNAL}
+\author{L.~E.~Yates\,\orcidlink{0000-0001-7495-3224}} \affiliation{\FNAL}\affiliation{\NotreDame}
+\author{H.~W.~Yu\,\orcidlink{0000-0002-2973-4580}} \affiliation{\BNL}
+\author{G.~P.~Zeller\,\orcidlink{0000-0002-2539-1808}} \affiliation{\FNAL}
+\author{J.~Zennamo\,\orcidlink{0000-0002-1268-2470}} \affiliation{\FNAL}
+\author{C.~Zhang\,\orcidlink{0000-0003-2298-6272}} \affiliation{\BNL}
+\author{Y.~Zhang\,\orcidlink{0000-0002-6812-761X}}\affiliation{\BNL}
+
+\collaboration{The MicroBooNE Collaboration}
+\thanks{microboone\_info@fnal.gov}\noaffiliation
+
+%\date{\today}
+
+\begin{abstract}
+
+
+We present a new measurement of the electron neutrino charged current cross section on argon without pions in the final state.  This measurement uses the full MicroBooNE Booster Neutrino Beam dataset of $1.3\times 10^{21}$ protons on target collected at Fermi National Accelerator Laboratory.  Events are considered both with and without protons above the kinetic energy visibility threshold.
+Differential cross sections are extracted in proton and electron kinematics, including energy and angle relative to the neutrino beam direction. The relationship between the hadronic and leptonic systems is explored through the angle between the proton and electron directions.
+The resulting cross sections are compared to a variety of available generator predictions using different models of neutrino interactions. We find good agreement with most models in lepton kinematics and some discrepancies in the hadronic system modeling, particularly in proton angle.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+\subsection{Motivation}
+There are still many open questions about neutrinos~\cite{ATHAR2022103947} that current and future experiments are trying to answer. These include understanding and precisely measuring neutrino oscillations~\cite{ MAK62,GRI69,Giganti:2017fhf}, describing neutrino interactions~\cite{NuSTEC:2017hzk},
+determining the neutrino mass ordering~\cite{massordering}, mass mechanism~\cite{massmodelsreview}~\cite{nunature},
+and explaining previously observed anomalies~\cite{LSND,MiniBooNE} through standard model or beyond the standard model (BSM) processes. Part of the next generation Deep Underground Neutrino Experiment (DUNE)~\cite{DUNE_FD} physics program is to precisely measure neutrino oscillations. This will include measurements of the mixing angles that determine the relationship between the neutrino mass and flavor states, including if one of these parameters, $\theta_{23}$, is maximal, the mass ordering, and if there is charge-parity violation in the neutrino sector~\cite{LowexpDUNEsensi,LBLsensiDUNE}.  An important signature for these measurements is electron neutrino appearance in a muon neutrino beam, which means that a detailed understanding of electron neutrino interactions is critical.  Electron neutrinos are also a potential signature for BSM physics based on previously observed anomalies.  DUNE will leverage the excellent reconstruction capabilities and low detection thresholds of liquid argon time projection chamber (LArTPC) detectors~\cite{DUNE_ND,DUNE_FD}, which makes measurements of electron neutrino interactions on an argon target particularly important.\\
+
+In this paper, we present an electron neutrino cross section measurement on argon without pions in the final state using data from MicroBooNE.  The MicroBooNE experiment is a LArTPC that collected data at Fermi National Accelerator Laboratory (FNAL) between 2015 and 2020 from two beams: the Booster Neutrino Beam~\cite{MiniBooNEFlux} (BNB) and the Neutrinos at the Main Injector~\cite{NuMIbeam} (NuMI) beamline. It provides a dataset of neutrino interactions on argon that covers part of the DUNE energy spectrum~\cite{DUNEuBfluxComp}.\\
+
+Despite the critical role electron neutrinos play in understanding open questions in neutrino physics there are few measurements of this kind in the literature. This is because electron neutrinos form only a small component of a neutrino beam when it is produced. Most previous electron neutrino measurements are on lighter nuclear targets than argon \cite{T2Knuexsec1,T2Knuexsec2,T2Knuexsec3,NOvanueXsec,COHERENTnuexsec,recentxsecT2K,MinervaExcnuexsec}. Those on argon, both inclusive~\cite{argoneutnuexsec,UBnueInc21,UBnueInc22} and exclusive~\cite{UBnueExcpip}, typically combine electron neutrinos and anti-neutrinos into their signal definition. 
+To date, there are two exclusive argon measurements that only use electron neutrinos in their signal definitions. Each of these use only a portion of the MicroBooNE data, one with $\sim30\%$ from NuMI~\cite{nueCCNuMI} and one with $\sim50\%$ from BNB~\cite{MicroBooNEXsec}. 
+
+The measurement presented here 
+builds on the BNB measurement to use the full MicroBooNE dataset and include further exploration of the relationship between the leptonic and hadronic final state systems. Like the earlier BNB measurement~\cite{MicroBooNEXsec} this measurement explores electron neutrinos with and without visible protons, and across a visibility threshold of 50 MeV. 
+In addition, it is complementary to the NuMI measurement as the neutrino flux is different.
+There are similar MicroBooNE measurements of muon neutrinos with visible protons~\cite{MicroBooNE:2025tcm, Stevenpaper} and across the proton visibility threshold \cite{BensAna,BensAnaPRL} of 35 MeV. \\ 
+
+Electron neutrino measurements are also motivated by the fact that most theoretical models in neutrino interaction generators have been tuned primarily to muon neutrinos as there are more available measurements and datasets. However, it has been demonstrated~\cite{Day:2012gb,elecvsMuon2,EvsMuMartini,Ankowski:2017yvm} that the mass difference of the final lepton can have non-trivial effects on the interaction kinematics depending on the allowed phase space in the models, especially at low energy and in the forward region. Electron neutrino measurements can inform the implementation of such effects in the generators and help correct the tuning to better represent data in both flavors. 
+
+
+\subsection{The beamline and detector}
+The MicroBooNE detector \cite{Microboonedetector} is located at FNAL on-axis relative to the BNB and 468.5 m after the neutrino beam source. The BNB delivers an 8 GeV proton beam that collides with a beryllium target to produce a neutrino beam with energy peaked at about 700 MeV. It is mostly a muon neutrino beam with an electron neutrino contribution of only 0.51\% \cite{MiniBooNEFlux}. This small intrinsic electron neutrino contribution is used in this measurement. The electron anti-neutrino component is very small, corresponding to 0.05\% of the beam content. This allows us to make a neutrino-only measurement. MicroBooNE has collected $13.09\times10^{20}$ protons on target (POT) in the BNB over the course of its operation.  This represents a factor of 1.9 increase in data statistics relative to MicroBooNE's earlier measurement with BNB data \cite{MicroBooNEXsec}. \\
+
+The MicroBooNE detector is a 85 metric ton LArTPC. Its dimensions are 2.56~m (drift direction) $\times$ 2.32~m (vertical) $\times$ 10.36~m (beam direction). An electric field of 273~V/cm is applied between the anode and cathode. The anode is composed of three wire planes with 3~mm wire spacing. Two of these planes are induction planes placed at an angle of $\pm$ 60° from the vertical and the third is a vertically oriented collection plane. When a charged particle is produced by a neutrino interaction on argon in the TPC, it will ionize the argon along its trajectory. The ionization electrons drift towards the anode where their detection on the three planes allows a 3D reconstruction of the particle track or electromagnetic shower. Photomultiplier tubes located behind the wire planes detect the argon scintillation signal produced by a neutrino interaction with timing resolution on the order of nanoseconds. This makes it possible to select events in time with the beam bunches. For comparison, the maximum electron drift time in MicroBooNE is 2.3~ms \cite{Drifttime2}. MicroBooNE is a surface detector, so after the first year of operation, a cosmic ray tagger (CRT) \cite{CRT_UB} was installed and commissioned. It consists of plastic scintillator strips placed on each side of the TPC and is used to veto cosmic rays.\\
+
+\section{Methods and inputs}
+\subsection{Simulation and reconstruction}
+\label{sec:F&I}
+Three major elements of the analysis that require modeling are the flux, the cross sections, and the detector response.  These allow us to produce a predicted number of signal events in the experiment. 
+The flux is estimated using tools from the MiniBooNE experiment \cite{MiniBooNEFlux,UBBNBFlux} adapted to the MicroBooNE location 
+since the same beam is used by both experiments.\\
+
+The neutrino interaction model uses a custom MicroBooNE tune~\cite{TuneUB} of the G18\_10a\_02\_11a model in GENIE v3.0.6~\cite{GENIE,Geniev3}.
+This model uses a local Fermi Gas (LFG) nucleon momentum distribution within the argon target \cite{LFG}, and the Valencia charged current (CC) Quasi-Elastic (QE)  \cite{CCNieves} and CC meson exchange current (MEC) \cite{2p2hNieves} models. 
+It also uses the Kuzmin-Lyubushkin-Naumov Berger-Sehgal (BS) resonant (RES) model \cite{4MomMiniBooNE,BergerSehgal2007,LepPOL,QuarkRES}, the BS coherent \cite{BSCOH} scattering model, and the Bodek-Yang (BY) deep inelastic scattering (DIS) model~\cite{BYDIS} with the hadronization derived from PYTHIA~\cite{PYTHIA}. The tune is a fit of T2K CC0$\pi$ data on carbon to CCQE and CC2p2h parameters of importance to MicroBooNE and for which theoretical uncertainties are significant. There are four: the CCQE axial mass, the strength of the random phase approximation (RPA) effect, and the shape and normalization of the CCMEC contribution in the total interaction cross-section. 
+The A scaling from carbon to argon is performed through GENIE, with FSI, binding energy, and medium dependence scaling applied as described in~\cite{TuneUB}.
+This produces a model that agrees with the MicroBooNE muon neutrino data using only external data~\cite{TuneUB}. The simulated particles from this model are propagated through the detector using GEANT4 \cite{GEANT4}. This simulation and the reconstruction described in the next section are performed through the LArSoft framework \cite{LArSoft}.\\ 
+
+As MicroBooNE is a surface detector that relies on the relatively slow drift of electrons, it is essential to correctly predict external sources of charged particles that are inevitable background to neutrino measurements. This background is mainly muons produced by cosmic-rays and it is evaluated using data taken while the beam was off and overlaying it with the neutrino interaction prediction from GENIE.
+This provides a reliable, detector-specific prediction of background that directly incorporates noise and other detector effects without relying on modeling. \\
+
+This analysis uses the pattern recognition toolkit Pandora \cite{Pandora} for reconstruction.  Pandora first eliminates events that cross the detector vertically as those are most likely cosmic rays. It then clusters the remaining charge into regions of interest. The neutrino candidate is the region of interest that provides the best time coincidence with the beam window. Particles that originate from the neutrino interaction are reconstructed as either showers, primarily electrons, photons, and neutral pions, or tracks, primarily protons, muons, and charged pions.  
+The Pandora output is also used to construct additional information about the event.
+For example, electrons and photons are separated by the conversion distance between the vertex and the starting position of the shower, as well as by the energy deposited per unit distance (d$E$/d$x$) at the start of the shower. Photons manifest in the detector after pair production as an $e^+e^-$ pair, which deposit twice as much energy as electrons.  Tools like these that rely on the topology of the selected particles are used to separate remaining cosmic muons from particles produced in the neutrino interaction and showers from tracks.  The identification strategy is the same as has been described in \cite{oldPELEE,PELEEnew,MicroBooNEXsec}.
+ 
+\subsection{Signal definition and selections}
+
+\begin{figure*}
+    \subfigure[]{\includegraphics[width=8cm]{Uboone_1e1p0pi.png} \label{fig:EVTDisNp}} \hspace{2em}
+    \subfigure[]{\includegraphics[width=8cm]{uboone_1e0p0pi.png}\label{fig:EVTDis0p}}
+\caption{Event displays on the collection plane for two of the selected data events: (a) 1eNp0$\pi$ candidate event and (b) 1e0p0$\pi$ candidate event. The x-axis corresponds to wire number and the y-axis corresponds to time. The color scale indicates the amount of deposited charge.}\label{fig:EVTDis}
+\end{figure*}
+
+This analysis presents a differential cross section measurement of charged current electron neutrinos on argon without neutral or visible charged pions in the final state. We have two sets of events, the first with at least one visible proton (1eNp0$\pi$) and the other without any visible protons (1e0p0$\pi$) in the final state. Example events in each topology are shown in Fig.~\ref{fig:EVTDis}.
+The 1eNp0$\pi$ channel offers a clear topology to reliably identify electron neutrinos, while the 1e0p0$\pi$ channel is more sensitive to differences in interaction models
+and complements the 1eNp0$\pi$ measurement to explore data across the phase space of proton kinetic energy (KE). Moreover, these event categories match the ones used for MicroBooNE electron neutrino low energy excess searches, providing additional ability to interpret this dataset~\cite{oldPELEE,PELEEnew}. \\
+
+
+The true signal definition for this measurement requires an electron neutrino charged current event in the fiducial volume with $KE_e >$ 30 MeV, $KE_{\pi^{\pm}} >$ 40 MeV, and no neutral pions.  
+Protons above 50~MeV are considered visible in both the true signal definition and in the selection. 
+Protons with kinetic energy above this threshold can be well reconstructed, with an energy resolution under 9\% based on Monte-Carlo (MC) predictions~\cite{oldPELEE}.
+This is also the proton kinetic energy threshold where the 1eNp0$\pi$ and 1e0p0$\pi$ selection efficiencies overlap, which indicates the threshold at which these orthogonal selections are able to reliably identify protons~\cite{MicroBooNEXsec}. 
+In order to select regions with good signal purity, we apply the following criteria on the interaction phase space in the selection and the true signal definition. In the 1e0p0$\pi$ channel, the electron energy $E_e$ is required to be more than 0.5~GeV and the cosine of the electron angle with respect to the beam direction $\cos\theta_e$ is required to be more than 0.6 as shown in Appendix~\ref{app:cuts}. In the 1eNp0$\pi$ channel, the cosine of the opening angle between the leading proton and the electron is required to be more than -0.9.\\
+
+We report the differential cross section in five kinematic quantities: the electron energy, leading proton kinetic energy, electron and proton angles with respect to the beam direction, and the opening angle between the leading proton and the electron. The 1e0p0$\pi$ channel is presented in the first bin of the leading proton kinetic energy measurement, below 50~MeV. We also provide a measurement across the proton visibility threshold, one bin for 1e0p0$\pi$ events with invisible protons (below 50 MeV) and one bin for all 1eNp0$\pi$ events with visible protons (above 50 MeV). This measurement is analogous to the proton kinetic energy measurement but presented in only two bins.\\
+
+A similar measurement with a partial MicroBooNE dataset, about half of the BNB data, has been published previously \cite{MicroBooNEXsec}. The same selection of events is used in this work, which is adapted from the selections used in \cite{oldPELEE,PELEEnew} in order to increase the electron neutrino efficiency. The same boosted decision trees (BDTs) and training are used here and are described in \cite{oldPELEE}. 
+This measurement also uses the information from the CRT to reject cosmic rays in the 1e0p0$\pi$ channel. This is a new addition relative to the earlier iteration of this analysis~\cite{MicroBooNEXsec}, and matches the CRT implementation in \cite{PELEEnew}.
+We obtain a purity of 57\% (67\%) and a signal efficiency of 14\% (19\%) for the 1e0p0$\pi$ (1eNp0$\pi$) channel.\\
+
+After the event selection, the majority of events originate from QE interactions both for the 1eNp0$\pi$ (47\%) and 1e0p0$\pi$ (53\%) channels. The main subdominant contributions are predicted to come from MEC at 21\% and RES interactions at 27\% for 1eNp0$\pi$. Those proportions are similar for 1e0p0$\pi$ which has 12\% of MEC interactions and 20\% of RES interactions. Other contributions come from DIS and electron scattering. The primary backgrounds come from events with a neutral pion in the final state ($\nu$ with $\pi^0$) representing 40 to 52\% of the background for the 1eNp0$\pi$ and 1e0p0$\pi$ channels respectively. For 1eNp0$\pi$ events, the second main background is muon neutrinos without neutral pions (21\%), while for 1e0p0$\pi$ events it is true 1eNp0$\pi$ events where the proton is missed by the reconstruction (26\%). In~\cref{fig:DistribRes,fig:DistribResEp}, the former muon-like events are combined with other minor neutrino interaction backgrounds in a ``$\nu$ other'' category.
+
+\subsection{Systematic uncertainties}
+%
+\label{sec:systs}
+Several sources of systematic uncertainties are taken into account in this analysis. \\
+
+Flux uncertainties due to beamline hadron production and geometry are computed by reweighting predicted event rates as in~\cite{UbNCDelta,Ubincnumu}. They are found to be around 6\% across all analysis bins.\\ 
+
+Detector systematics are evaluated for a specific set of variations using dedicated MC samples \cite{detsysts}.  These variations include effects such as ion recombination in the argon and space-charge effects, as well as variations in the light yield and wire responses. 
+The distributions, in analysis binning, from these variation samples are smoothed by convolving the event count per bin with a pseudo-Gaussian filter. This minimizes the impact of MC statistical effects from the variation samples in the uncertainty computation. This procedure is described in \cite{PELEEnew}. The fractional detector uncertainties are around 5\% in most bins and can be up to 12\%. \\
+
+Uncertainties on the interaction model are included by reweighting our base model (``MicroBooNE tune'') under different assumptions, as prescribed in~\cite{TuneUB}. Their impact is estimated on the background event rate and on the efficiency and smearing of all events in true space, but not on the number of signal events as this is a quantity of interest in the reported cross section measurement. Uncertainties on the re-interaction of final state particles that exit the nucleus are also taken into account by reweighting their propagation through the detector~\cite{ReINT}. This uncertainty is sub-dominant, except at high proton energy, reaching 8\%, where the probability of proton re-interaction is higher.
+\\
+
+A flat uncertainty of 1\% is attributed to the number of target nucleons and a flat 2\% uncertainty, based on direct flux measurements~\cite{MiniBooNEFlux}, is added to account for uncertainty on the POT counting. A MC statistical uncertainty that covers the size of the samples used to build the predicted distributions is also included.\\
+
+In total, the fractional systematic uncertainties are between 9 and 15\% depending on the analysis bin whereas the data statistical uncertainties are between 6 and 22\%. All analysis bins are statistically limited except the lowest electron energy bin and the 1eNp0$\pi$ proton energy bin in the two-bin configuration. 
+The systematic uncertainty breakdown for each variable in the measurement binning is included in Appendix~\ref{app:Systs}. Covariance matrices encoding both the systematic and statistical uncertainties are used to propagate uncertainties to the final cross section result and are available in Appendix~\ref{app:matrix}.  
+
+
+
+\begin{figure*}
+
+    \subfigure[]    
+    {\includegraphics[width=8cm]{prediction_electron_e_NPXSBDT_withchi2_rateunc.pdf}}
+    \subfigure[]{\includegraphics[width=8cm]{prediction_cos_shr_theta_NPXSBDT_withchi2_rateunc.pdf}}
+    \subfigure[]{\includegraphics[width=8cm]{prediction_cos_trk_theta_NPXSBDT_withchi2_rateunc.pdf}}
+    \subfigure[]{\includegraphics[width=8cm]{prediction_tksh_angle_NPXSBDT_withchi2_rateunc.pdf}}
+\caption{Predicted distribution and data in variables using the 1eNp0$\pi$ channel: (a) electron energy, (b) cosine of electron angle, (c) proton angle, (d) cosine of the electron-proton opening angle. } \label{fig:DistribRes}
+\end{figure*}
+
+
+\begin{figure*}
+    \subfigure[]{\includegraphics[width=8cm]{prediction_protonenergy_corr_XPXSBDT_withchi2_rateunc.pdf}}
+    \subfigure[]{\includegraphics[width=8cm]{prediction_protonenergy_corr_XPXSBDT_withchi2_rateunc_2Bins.pdf}}
+\caption{Predicted distribution and data for proton kinetic energy for the 1eXp0$\pi$ channel (1eNp0$\pi$ + 1e0p0$\pi$). (a) shows this distribution with multiple bins for 1eNp0$\pi$ events, and (b) the same distribution with one bin per channel.} \label{fig:DistribResEp}
+\end{figure*}
+
+
+\subsection{Cross section extraction}
+\label{sec:unfold}
+To extract a differential cross section $\frac{d\sigma}{dx}$ with respect to an analysis observable $x$ in true space, we use the following formula:
+\begin{equation}
+\label{eq:XsecCalc}
+<\frac{d\sigma}{dx}>_i~=~\frac{\Sigma_j R_{ij}^{-1}(N_j-B_j)}{N_{\text{target}}\times \phi \times \Delta x_i} .
+\end{equation}
+The index $i$ denotes a true bin and the index $j$ a reconstructed bin.
+$R$ is the response matrix which encodes the mapping between true and reconstructed spaces (reported in Appendix~\ref{app:matrix}). $N-B$ is the background-subtracted number of events in data where the background is predicted using our base interaction model. $\phi$ is the integrated electron neutrino flux and $N_{\text{target}}$ is the number of target nucleons in the detector's fiducial volume. $\Delta x_i$ is the width of the true bin. The integrated electron neutrino flux is a constant reference value computed from the BNB flux predictions \cite{MiniBooNEFlux} following the nominal flux prescriptions from \cite{FluxPresc} and is scaled to POT. Here, the value is $\phi \simeq 5.21\times 10^9~\nu_e$~cm$^{-2}$. $N_{\text{target}}$ is computed to be $3.9107\times 10^{31}$ using pure argon with density $\rho = 1.3836 ~$g~cm$^{-3}$ and a fiducial volume defined by $x_{\text{min}}$= 10~cm, $x_{\text{max}}$= 246.4~cm, $y_{\text{min}}$= -101.5~cm, $y_{\text{max}}$= 101.5~cm, $z_{\text{min}}$= 986.8~cm, $z_{\text{max}}$= 10~cm. 
+\\
+
+We use the Wiener-SVD (WSVD) unfolding method \cite{WienerSVD} in order to report the final cross section.  The inverted response matrix $R_{ij}^{-1}$ is not well defined as written in Eq.~\ref{eq:XsecCalc}, so therefore requires regularization, given by the WSVD unfolding.  This regularization, along with the analysis binning and cross section extraction method, were determined using simulated data studies with an alternative interaction generator (NuWro).  These studies, described in more detail in Appendix~\ref{sec:fakedata}, demonstrated the robustness of the analysis against model dependence. \\    
+The choice of regularization level in the WSVD method does not impact the overall $\chi^2$ results. However, in order to minimize the impact of the regularization on the final unfolded spectrum shape, we choose the WSVD first derivative regularization. This regularization is also encoded within a matrix that is applied to cross-section predictions to compare them to the unfolded data result.
+
+
+\section{Results}
+
+\subsection{Distributions of events}
+\label{sec:Distribs}
+The distribution of selected events with the MicroBooNE tuned GENIE model and the data are presented in Fig.~\ref{fig:DistribRes} for the four 1e$0\pi$Np analysis observables and in Fig.~\ref{fig:DistribResEp} for proton kinetic energy.  The reported uncertainty on these figures is the total event rate uncertainty including the full cross section uncertainties on the signal event prediction.  
+The data consists of 232 1eNp0$\pi$ candidate events and 31 1e0p0$\pi$ candidate events that pass the selections.
+Good overall agreement between the data and the base model is observed, with $p$-values between 0.12 and 0.90, and with similar features as those observed in the low energy excess (LEE) search analysis \cite{PELEEnew}.
+
+The background model was validated with two sideband data samples.
+The first one addresses the modeling of the $\pi^0$ background and requires at least two reconstructed showers. The other one is designed to check the modeling of any signal-adjacent background by inverting the BDT selection criteria while keeping the rest of the selection the same. Good agreement was found between the data and MC in both sidebands with $p$-values between 0.43 and 0.94. 
+The sideband distributions are shown in Appendix~\ref{app:sidebands}. 
+
+
+\begin{figure*}
+\subfigure[]{
+    \includegraphics[width=8cm]{Unfolding_res_E_e_GeV_UnblindedData_Unblinded.pdf}}
+       \subfigure[]
+       { \includegraphics[width=8cm]{Unfolding_res_costheta_e_UnblindedData_Unblinded.pdf}}
+    \subfigure[]
+    {\includegraphics[width=8cm]{Unfolding_res_costheta_Plead_UnblindedData_Unblinded.pdf}}
+    \subfigure[]
+    {\includegraphics[width=8cm]{Unfolding_res_OpeningAngle_UnblindedData_Unblinded.pdf}}
+
+\caption{Unfolded data compared to the set of models described in section~\ref{sec:models}, for all analysis variables using the 1eNp0$\pi$ channel: (a) electron energy, (b) cosine of electron angle, (c) proton angle, (d) cosine of electron-proton opening angle.} \label{fig:UnfRes}
+\end{figure*}
+
+
+\begin{figure*}
+   \subfigure[]
+   { \includegraphics[width=8.5cm]{Unfolding_res_KE_Plead_UnblindedData_twopanels.pdf}}
+   \subfigure[]
+   { \includegraphics[width=8cm]{Unfolding_res_KE_Plead_UnblindedData_1NpBin_pretty_NOBinWidthDiv_directInv.pdf} 
+      \label{fig:sub:UnfResPetwobin}
+   }
+\caption{Unfolded data compared to the set of models described in section~\ref{sec:models}, for proton kinetic energy for the 1eXp0$\pi$ channel. (a) shows this distribution with multiple bins for 1eNp0$\pi$ events, and (b) the same distribution with one bin per channel such that all 1eNp0$\pi$ events are in a single bin from 50 to 800 MeV.} \label{fig:UnfResPe}
+\end{figure*}
+
+\subsection{Model comparisons}
+\label{sec:models}
+After unfolding the data following the procedure described in Section~\ref{sec:unfold}, the cross section results are compared to a variety of available generator predictions using different combinations of interaction models: 
+\begin{itemize}
+    \item The base model GENIE v3.0.6 G18\_10a\_02\_11a with the MicroBooNE tune (G18T) described in section \ref{sec:F&I}.
+    \item GENIE v3.0.6 G18\_10a\_02\_11a without the tune (G18).
+    \item GENIE v3.6.0 AR23 20i 00 000 (AR23): The AR23 model is similar to G18\_10a\_02\_11a but uses the LFG ground state modeling with a correlated high-momentum nucleon tail; the z-expansion for the CCQE axial form factors (Z-exp) \cite{ZEXP}; the SuSAv2 modeling for MEC interactions \cite{SuSAv2}; emission of de-excitation photons for argon nuclei; and the free nucleon tune \cite{TUNEfreeNuc}. It is currently the base model for other LArTPC experiments, such as DUNE~\cite{DUNEnuscale}, ICARUS~\cite{ICARUSexotics} and SBND~\cite{SBNDPRISM}.
+    \item NuWro v21.09.2 (NuWro) \cite{NuWro} uses the LFG model, the Llewellyn-Smith (LS) model for quasi-elastic events \cite{LLEWELLYNSMITH1972}, the Nieves model for MEC interactions \cite{2p2hNieves} and the Adler-Rarita-Schwinger (ARS) formalism \cite{AdlerRES} for the $\Delta$ resonance. NuWro uses a standard intranuclear cascade (INC) for Final State Interactions (FSI) \cite{NucTransp,FSIEffects}. The DIS prediction is taken from the BY model.
+    \item NEUT v5.7.0 (NEUT) \cite{NEUT} uses the same ground state, CCQE and MEC models as described for this analysis' base model v3.0.6 G18\_10a\_02\_11a. It also uses the BS RES \cite{BergerSehgal2007,QuarkRES,Auchincloss:1990tu} and BS coherent \cite{BSCOH} scattering models. The FSI model is based on intra-nuclear cascades with in-medium pion corrections \cite{SALCEDO1988557}. The DIS model is custom~\cite{Gl_ck_1998} at low hadronic energy with BY corrections, and uses PYTHIA~\cite{PYTHIA} for higher hadronic system energies (above 2~GeV)~\cite{Bronner_2016}.
+    \item GiBUU 2025 \cite{GiBuu} with (GiBUU inmed) or without (GiBUU) in-medium nucleon-nucleon corrections \cite{INMEDIUMGIBUU} uses the LFG model and its own custom MEC and resonant calculations. These are implemented in a consistent way by solving the Boltzmann-Uehling-Uhlenbeck transport equation~\cite{Mosel_2019}. More specifically, it uses a standard CCQE expression \cite{GiBUUCCQE}, an empirical MEC model and a custom spin-dependent resonance calculation through the MAID analysis~\cite{Mosel_2019}. The FSI prediction is obtained through the propagation of hadrons in a nuclear potential. The DIS prediction comes from PYTHIA.
+\end{itemize}
+A summary table of the different models used by these generators is available in Appendix~\ref{app:models} Table~\ref{tbl:models}. Predictions from these generators are obtained using the NUISANCE framework \cite{NUISANCE}.  
+
+
+\subsection{Data unfolded cross section results}
+\label{sec:Results}
+Figures \ref{fig:UnfRes} and \ref{fig:UnfResPe} present the final data cross section results compared to the alternative predictions described above. The regularization from the unfolding process, in the form of an output matrix, is applied to the prediction to allow the comparison. All regularization tables are shown in Appendix~\ref{app:matrix}. \cref{tbl:ResEe,tbl:ResEA,tbl:ResPA,tbl:ResPe,tbl:ResPe2,tbl:ResOpAng} in Appendix~\ref{app:xsecres} summarize the background subtracted data event counts and the unfolded cross section results for all six configurations of variables and binning. Note that the two-bin proton energy measurement is treated slightly differently as we do not apply the division by the bin width in Eq.~\ref{eq:XsecCalc}; this prevents the result from appearing counter-intuitive as the bins representing the two channels have very different widths. Moreover, for this two-bin measurement, we use direct inversion of the response matrix without regularization instead of the Wiener-SVD unfolding method so that the results are more directly comparable to a total cross section. All $p$-values discussed in this section are summarized in Table~\ref{tbl:pvalues}, figures showing the various GENIE comparisons are available in Appendix~\ref{app:GENIE}, and an additional NEUT comparison is shown in Appendix~\ref{app:NEUT}.\\ 
+
+
+The data generally agrees with the models tested here, and the $p$-values are higher than those observed in MicroBooNE's previous result \cite{MicroBooNEXsec}. This is particularly the case in terms of lepton modeling where, in electron energy and angle, the data $p$-values are highest when compared to GENIE v3.0.6 G18\_10a\_02\_11a without the MicroBooNE tune and with GENIE AR23 v3.6.0 with $p$-values above 0.887. Both of these models predict a slightly lower count of events than the tuned GENIE G18T. It is worth noting that the application of the tune results in an enhancement of the quasi-elastic and meson exchange components.\\ 
+
+There are more differences between models and disagreements with the data in terms of the hadronic system modeling. The data strongly disagrees with the GiBUU model without in-medium corrections \cite{INMEDIUMGIBUU} in proton energy with a $p$-value of 0.008 in the two-bin measurement, particularly in the 1e0p0$\pi$ bin. As demonstrated in \cite{INMEDIUMGIBUU}, modifying the GiBUU model by adding in-medium nucleon-nucleon interactions can decrease the 1e0p0$\pi$ prediction and lead to lower cross sections, closer to the other models. In that case we observe better compatibility with our data with $p$-values of, respectively, 0.215 and 0.081 for the full binning and the two-bin measurement. It can also be noted, as shown in Fig.~\ref{fig:sub:UnfResPetwobin} presenting the spread of model comparisons across the proton visibility threshold, that models with the best agreement in the visible proton region are not the same as the models with best agreement in the invisible proton region.
+In proton angle and electron-proton opening angle, all models produce lower $p$-values. The models overpredict the cross section at larger cosines of these angles, closer to the incoming neutrino direction, compared to the data. For these observables GiBUU without in-medium NN corrections produces the highest $p$-values, respectively, 0.228 and 0.639. \\
+
+Within GENIE, we investigate a single model for one interaction type at a time to evaluate the impact of that specific model on the agreement with all other aspects being equal. Those variations are produced without the MicroBooNE tune and are compared to the base model configuration without the tune. Note that these comparisons are done within GENIE v3.6.0, which is a more recent GENIE version than the one used for the MicroBooNE simulation. The base model $p$-values in this newer GENIE version are also reported in Table~\ref{tbl:pvalues} and are consistent with the previous version. %very similar to the previous version, and slightly higher. 
+Our base GENIE model uses the hA18 FSI model. We can also set the FSI model to the hN18. hN is a traditional hadron-nucleon INC model with similar features to NuWro and NEUT. hA is a custom model that has a more empirical approach and relies on data to consider a single interaction instead of the multiple hadron-nucleon interactions in cascade models \cite{CompHAHN}.  We also compare to the G4Bertini \cite{BertiniG4} FSI cascade model. Both alternative models, denoted GENIE v3.6.0 G18\_10b\_02\_11a (G18\_10b) using hN18 and GENIE v3.6.0 G18\_10d\_02\_11a (G18\_10d) using G4Bertini, show consistently lower $p$-values across all variables compared to the base model with hA, especially the G4Bertini model. \\
+
+We also test various ground states, QE, and MEC models within GENIE using v3.6.0 and without the MicroBooNE tune applied. The SuSAv2 \cite{SuSAv2} model for QE events lowers the model $p$-values with respect to the data, such as, for example, the model set G21\_11a\_00\_000 (G21\_11a), but other variations of QE or MEC models do not significantly impact the results and provide similar predictions. Two variations without a particular impact include GENIE AR23 and GENIE G18\_10i\_02\_11b (G18\_10i). These both use the z-expansion QE form factors and AR23 uses SuSAv2 for MEC instead of Nieves. Another model set that provides a similar prediction to the baseline is the G18\_02a\_02\_11a (G18\_02a) model set that uses the relativistic Fermi gas (RFG) ground state and the Dytman MEC model \cite{DytmanMECModel}. \\
+
+\begin{table*}[t]
+\caption{$p$-values of comparisons to the various models tested for all six analysis variables and binnings.}
+\label{tbl:pvalues}
+{\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+Generator & Model& Label on Figs. & $E_e$ &$KE_p$ & $\cos{\theta_{e}}$ & $\cos{\theta_{p}}$&$\cos{\theta_{ep}}$ & 2-bin $KE_p$ \\
+\hline
+\hline
+\multirow{2}{*}{GENIE v3.0.6 } &G18\_10a\_02\_11a Tuned & G18T &0.682& 0.561& 0.327& 0.029&  0.143& 0.326\\
+\cline{2-9}
+& G18\_10a\_02\_11a & G18&0.989& 0.809& 0.921& 0.110& 0.480& 0.832\\
+\hline
+\hline
+\multirow{6}{*}{GENIE v3.6.0 }& G18\_10a\_02\_11a& v3.6 G18& 0.987  & 0.861 & 0.915& 0.122 &0.514 & 0.914 \\
+\cline{2-9}
+&AR23\_20i\_00\_000&AR23 & 0.976 & 0.860 & 0.887& 0.095& 0.489& 0.852\\
+\cline{2-9}
+&G18\_10b\_02\_11a& G18\_10b&  0.934 & 0.799& 0.700 &  0.078& 0.318& 0.667\\
+\cline{2-9}
+&G18\_10d\_02\_11a&G18\_10d & 0.797& 0.558& 0.548& 0.014& 0.096& 0.452\\
+\cline{2-9}
+&G18\_10i\_02\_11b&G18\_10i &  0.993& 0.861& 0.920& 0.112& 0.494& 0.917\\
+\cline{2-9}
+&G18\_02a\_02\_11a& G18\_02a&  0.992& 0.867& 0.813& 0.321& 0.665& 0.907\\
+\cline{2-9}
+&G21\_11a\_00\_000 &G21\_11a & 0.782& 0.608& 0.383& 0.064& 0.245& 0.417\\
+\hline
+\hline
+\multirow{2}{*}{GiBUU 2025} & w/o In-med NN corr& GiBUU&0.942 & 0.049 &0.824 &0.228 & 0.639 &0.008 \\
+\cline{2-9}
+& w In-med NN corr & 
+GiBUU inmed  &0.841& 0.215& 0.607& 0.111& 0.517& 0.081\\
+\hline
+\hline
+\multirow{2}{*}{NEUT } &v5.7.0&NEUT &  0.812& 0.751& 0.536& 0.089& 0.279& 0.506\\
+\cline{2-9}
+& v6.1.4 & NEUT v6.1.4 & 0.832&0.674 &0.547 &0.103 &0.294 &0.481 \\
+\hline
+\hline
+NuWro & v21.09.2&NuWro &0.946& 0.775& 0.697& 0.038& 0.327& 0.730\\
+\hline
+\end{tabular} \end{center}}
+\end{table*}
+
+Within NEUT, we test the impact of using the energy dependent relativistic mean field (EDRMF)~\cite{NEUTEDRMF,EDRMF} ground state model instead of LFG. This model is the one implemented by default in NEUT version 6.1.4. We find a negligible impact on the agreement with data. \\
+
+Finally, our results can be compared to a few relevant previous measurements. The first iteration of this measurement, using half of the MicroBooNE BNB dataset~\cite{MicroBooNEXsec}, found the same hierarchy of agreement between models, but with overall lower $p$-values and more differences between NEUT and the other models. An overprediction was observed at intermediate shower energy in the MicroBooNE search for an anomalous excess of electron-neutrino events \cite{PELEEnew}, but such an effect is not as obvious in the leptonic variable distributions in this measurement's coarser binning. A similar exclusive 1eNp0$\pi$ cross section measurement was performed with MicroBooNE NuMI data~\cite{nueCCNuMI} in electron energy, visible energy and the cosine of the opening angle.  In this measurement, a slight underprediction was observed leading to models with higher cross sections, such as NEUT, being favored.  This measurement uses a different beam and has different dominant systematic uncertainties. However, just like in this measurement, good overall agreement with most models tested was found. We also note that a shape discrepancy in lepton-proton opening angle is emerging as a common feature across MicroBooNE measurements including one in muon flavor~\cite{Stevenpaper} and in the electron neutrinos in NuMI~\cite{nueCCNuMI}. Finally, MicroBooNE has also made a muon neutrino measurement exploring the cross section across the proton visibility threshold in kinetic energy~\cite{BensAna}. It found a preference for a higher prediction of events without a proton above the visibility threshold, and therefore the GiBUU generator, unlike in the measurement presented here.  It is possible that this is driven by differences in the design of these measurements, including the particle kinetic energy thresholds, or the fact that the muon neutrino measurement is inclusive while this measurement does not include visible pions.  
+\\
+
+In the future, new models will be able to provide additional insight on neutrino interactions on argon. An updated Valencia MEC model~\cite{MECValenciaUpdate} that implements a more consistent treatment of the nucleon self-energy and a simplified estimation of the $\Delta$ resonance self energy is being included in the neutrino generators. 
+Moreover, another FSI model will be available for comparisons within GENIE: the Li\`ege Intranuclear Cascade model (INCL$++$)~\cite{INCL,INCL++}. INCL$++$ has a more sophisticated nuclear model and in-medium corrections than GENIE hA and hN, NEUT and NuWro. 
+Future publications will compare to these and other new models.
+\section{Summary and conclusions}
+In conclusion, this paper presents an electron neutrino cross section measurement on argon without pions in the final state in the MicroBooNE detector using $13.09\times10^{20}$ POT of BNB data. The measurement is provided in variables that describe the leptonic and hadronic systems: electron and leading proton kinetic energy and angle with respect to the beam direction as well as the opening angle between the leading proton and the electron directions. In proton kinetic energy, we separate events below and above the proton visibility threshold of 50~MeV. In general, agreement with the different models is good in lepton kinematics and shows some overprediction of the tuned base model (GENIE G18 with MicroBooNE tune) in the hadronic system. This is especially the case in proton angle where the agreement is lower, particularly in the forward region. This is also the case in electron-proton opening angle but to a lesser extent. This measurement did not show any strong sensitivity to different QE or MEC models except for a lower agreement when using the SUSAv2 QE model. Within GENIE, the hA18 FSI model is the preferred model.
+This measurement provides insight for further tuning of generators and understanding of electron neutrino cross sections on argon in view of LArTPC experiments such as the SBN program \cite{SBN} and the future long baseline neutrino oscillation experiment DUNE \cite{DUNE_ND,DUNE_FD}.
+\FloatBarrier
+\section{Acknowledgments}
+This document was prepared by the MicroBooNE collaboration using the resources of the Fermi National Accelerator Laboratory (Fermilab), a U.S. Department of Energy, Office of Science, Office of High Energy Physics HEP User Facility. Fermilab is managed by Fermi Forward Discovery Group, LLC, acting under Contract No. 89243024CSC000002. MicroBooNE is supported by the
+following: 
+the U.S. Department of Energy, Office of Science, Offices of High Energy Physics and Nuclear Physics; 
+the U.S. National Science Foundation; 
+the Swiss National Science Foundation; 
+the Science and Technology Facilities Council (STFC), part of United Kingdom Research and Innovation (UKRI);
+the Royal Society (United Kingdom);
+the UKRI Future Leaders Fellowship;
+the NSF AI Institute for Artificial Intelligence and Fundamental Interactions;
+and the European Union’s Horizon 2020 research and innovation programme under the Marie Sk\l{}odowska-Curie grant agreement No. 101003460 (PROBES).
+
+Additional support for the laser calibration system and cosmic ray tagger was provided by the Albert Einstein Center for Fundamental Physics, Bern, Switzerland. We also acknowledge the contributions of technical and scientific staff to the design, construction, and operation of the MicroBooNE detector as well as the contributions of past collaborators to the development of MicroBooNE analyses, without whom this work would not have been possible. 
+
+For the purpose of open access, the authors have applied a Creative Commons Attribution (CC BY) public copyright license to any Author Accepted Manuscript version arising from this submission.
+
+\FloatBarrier
+\onecolumngrid
+\clearpage
+
+\appendix{}
+\onecolumngrid
+\section{1e0p0$\pi$ phase space distributions}
+\label{app:cuts}
+\FloatBarrier
+The two phase space cuts required for the 1e0p0$\pi$ events are: the electron energy is greater than 0.5~GeV and the cosine of the electron angle is greater than 0.6. Figure \ref{fig:app0pE} shows the predicted 1e0p0$\pi$ candidate  events before and after the phase space cut on electron energy. Similarly, Fig.~\ref{fig:app0pAng} shows the candidate events before and after the electron angle phase space cut. All other selection cuts are applied. This improves the selection purity from 12\% to 57\%.
+\begin{figure}[H]
+  \subfigure[]
+  {
+    \includegraphics[width=8cm]{Appendix_Figures/prediction_electron_e_ZPXSBDT_nophasespace.pdf}}
+  \subfigure[]  
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_electron_e_ZPXSBDT.pdf}}
+\caption{1e0p0$\pi$ selection predicted event rates (a) without and (b) with phase space cuts, as a function of electron energy.} 
+\label{fig:app0pE}
+\end{figure}
+
+\begin{figure}[H]
+  \subfigure[]
+  {
+    \includegraphics[width=8cm]{Appendix_Figures/prediction_cos_shr_theta_ZPXSBDT_nophasespace.pdf}}
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_cos_shr_theta_ZPXSBDT.pdf}}
+\caption{1e0p0$\pi$ selection predicted event rates (a) without and (b) with phase space cuts, as a function of electron angle.} 
+\label{fig:app0pAng}
+\end{figure}
+
+\FloatBarrier
+\section{Breakdown of the fractional systematic uncertainties}
+\label{app:Systs}
+Figure \ref{fig:appsysts} presents the distributions of fractional systematic uncertainties broken down by categories for each variable.
+
+\begin{figure}[H]
+  \subfigure[]
+  {\includegraphics[width=7cm]{Appendix_Figures/electron_e_frac_unc.pdf}}
+  \subfigure[]
+   {\includegraphics[width=7cm]{Appendix_Figures/cos_shr_theta_frac_unc.pdf}}
+     \subfigure[]
+   {\includegraphics[width=7cm]{Appendix_Figures/cos_trk_theta_frac_unc.pdf}}
+     \subfigure[]
+   {\includegraphics[width=7cm]{Appendix_Figures/tksh_angle_frac_unc.pdf}}
+  \subfigure[]
+  {\includegraphics[width=7cm]{Appendix_Figures/protonenergy_corr_frac_unc.pdf}}
+   \hspace*{\fill} 
+  \subfigure[]
+   {\includegraphics[width=7cm]{Appendix_Figures/protonenergy_corr_frac_unc_2Bins.pdf}}
+\caption{Breakdown of the fractional systematic uncertainties for: the 1eNp0$\pi$ channel in (a) electron energy, (b) electron angle, (c) proton angle and (d) opening angle; and for the 1eXp0$\pi$ channel in  proton kinetic energy (e) full binning and (f) measurement across the proton visibility threshold.} 
+\label{fig:appsysts}
+\end{figure}
+
+
+
+
+\FloatBarrier
+\section{Sideband distributions}
+\label{app:sidebands}
+As described in section \ref{sec:Distribs}, we use two sidebands to assess the quality of the background modeling for this measurement. 
+In the first sideband we invert the BDT selection criteria to validate the modeling of the background adjacent to our selection; all of the other selection criteria remain the same.
+This sideband is shown in Fig.~\ref{subfig:0pBDTEp} for the 1e0p0$\pi$ channel. For the 1eNp0$\pi$ channel, Fig.~\ref{subfig:NpBDTEp} shows the sideband for proton energy and Fig.~\ref{fig:sideInvBDT} for other variables. The data-simulation agreement in this sideband, taking into account the total event rate uncertainties, is very good, with $p$-values between 0.63 and 0.94. The other sideband uses the analysis selection, replacing the one contained shower requirement with a requirement that there be at least two showers, to address the main background: events with neutral pions. Figure~\ref{subfig:0p2+Ep} shows this sideband for the 1e0p0$\pi$ channel. Figure~\ref{subfig:Np2+Ep} and Fig.\ref{fig:side2pp} show the distribution of events in this sideband for the different 1eNp0$\pi$ channel variables. The data/MC agreement is also very good with $p$-values between 0.44 and 0.80.
+\begin{figure}[H]
+  \subfigure[]{
+    \includegraphics[width=8cm]{Appendix_Figures/prediction_protonenergy_corr_ZPXSBDTINV_rateUnc_paperstyle.pdf} \label{subfig:0pBDTEp}}
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_protonenergy_corr_ZPXSBDTQ2P_rateUnc_paperstyle.pdf}\label{subfig:0p2+Ep}}
+\caption{Inverted BDT sideband (a) and at least two shower sideband (b) for the 1e0p0$\pi$ bin.} 
+\label{fig:Side0P}
+\end{figure}
+
+\begin{figure}[H]
+  \subfigure[]{
+    \includegraphics[width=8cm]{Appendix_Figures/prediction_protonenergy_corr_NPXSBDTQINV_rateUnc_paperstyle.pdf}\label{subfig:NpBDTEp}}
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_protonenergy_corr_NPXSBDTQ2P_rateUnc_paperstyle.pdf}\label{subfig:Np2+Ep}}
+\caption{Inverted BDT sideband (a) and at least two shower sideband (b) for the 1eNp0$\pi$ channel in proton energy.} 
+\label{fig:sideprotonE}
+\end{figure}
+
+\begin{figure}[H]
+  \subfigure[]{
+    \includegraphics[width=8cm]{Appendix_Figures/prediction_electron_e_NPXSBDTQINV_rateUnc_paperstyle.pdf}}
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_cos_shr_theta_NPXSBDTQINV_rateUnc_paperstyle.pdf}}
+     \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_cos_trk_theta_NPXSBDTQINV_rateUnc_paperstyle.pdf}}
+    \hspace*{\fill} 
+     \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_tksh_angle_NPXSBDTQINV_rateUnc_paperstyle.pdf}}
+\caption{Inverted BDT sideband in the 1eNp0$\pi$ channel for (a) electron energy, (b) electron angle, (c) proton angle and (d) opening angle.} 
+\label{fig:sideInvBDT}
+\end{figure}
+
+\begin{figure}[H]
+  \subfigure[]{
+    \includegraphics[width=8cm]{Appendix_Figures/prediction_electron_e_NPXSBDTQ2P_rateUnc_paperstyle.pdf}}
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_cos_shr_theta_NPXSBDTQ2P_rateUnc_paperstyle.pdf}}
+     \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_cos_trk_theta_NPXSBDTQ2P_rateUnc_paperstyle.pdf}}
+    \hspace*{\fill} 
+     \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/prediction_tksh_angle_NPXSBDTQ2P_rateUnc_paperstyle.pdf}}
+\caption{At least two shower sideband in the 1eNp0$\pi$ channel for (a) electron energy, (b) electron angle, (c) proton angle and (d) opening angle.} 
+\label{fig:side2pp}
+\end{figure}
+\FloatBarrier
+\section{Fake data studies}
+\label{sec:fakedata}
+Before unblinding the data, a number of choices had to be made regarding the analysis binning and the regularization method. Robustness tests of the analysis method were also performed. First, closure tests where we input the predicted signal from the nominal simulation into the unfolding procedure as the background-subtracted data were performed. Perfect ($p$-values = 1) post-unfolding agreement with the truth-level predicted cross section was found for all variables validating the overall procedure. Then, fake data produced using an alternative neutrino interaction generator, NuWro \cite{NuWro}, were analyzed as if they were real data in order to prove the robustness of the procedure against any base GENIE model-dependence. 
+The analysis was found to be robust as better agreement with the NuWro predicted cross section than the base GENIE model was found for all variables when using the NuWro fake data.   
+The NuWro fake data in proton energy was also reweighted in three different ways as additional tests of the analysis robustness: with the normalization decreased by 15\%, increased by 15\%, and normalized to the GiBUU prediction. The GiBUU normalization is obtained using the ratio to the NuWro prediction at truth level. This study was performed because of the large discrepancy in the 1e0p0$\pi$ bin and to ensure that the analysis would be robust if the data were to have a significant disagreement with the GENIE prediction.
+In all cases the unfolded fake data showed better agreement with the input data rather than the base GENIE model. Finally, studies with this fake data were performed in order to optimize the binning in terms of model separation and predicted uncertainty per bin after unfolding as well as to choose a regularization method with the least visual impact on model separation.
+
+\FloatBarrier
+
+\section{Neutrino generator main differences}
+
+This appendix presents a table of the model differences for the generators used to compare to the measurement presented in this paper.
+
+\label{app:models}
+\begin{center}
+
+\begin{table}[H]
+\caption{Summary of the main model differences for the generators used in this paper.}
+\label{tbl:models}
+\begin{center} 
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+Generator & Model& Label on Figs. & Ground state & QE & MEC & FSI & RES & DIS\\
+\hline
+\hline
+GENIE   &G18\_10a\_02\_11a Tuned & G18T &\multirow{2}{*}{LFG }&\multirow{2}{*}{Valencia }&\multirow{2}{*}{Valencia }&\multirow{2}{*}{hA18}&\multirow{2}{*}{BS}& \multirow{2}{*}{BY}\\
+\cline{2-3}
+v3.0.6 & G18\_10a\_02\_11a & G18& & & & & & \\
+\hline
+\hline
+\multirow{2}{*}& G18\_10a\_02\_11a& v3.6 G18&  LFG& Valencia& Valencia& hA18& BS& BY \\
+\cline{2-9}
+&AR23\_20i\_00\_000&AR23 & LFG + tail & Valencia $+$ Z$-$exp &SuSAv2 &hA18 & BS & BY\\
+\cline{2-9}
+GENIE &G18\_10b\_02\_11a& G18\_10b&  LFG& Valencia& Valencia& hN18& BS& BY  \\
+\cline{2-9}
+v3.6.0&G18\_10d\_02\_11a&G18\_10d & LFG& Valencia& Valencia& G4Bertini& BS& BY  \\
+\cline{2-9}
+\multirow{3}{*}&G18\_10i\_02\_11b&G18\_10i & LFG &Valencia$+$ Z$-$exp & Valencia& hN18& BS& BY \\
+\cline{2-9}
+&G18\_02a\_02\_11a& G18\_02a& RFG &LS &Dytman & hA18& BS&BY \\
+\cline{2-9}
+&G21\_11a\_00\_000 &G21\_11a & LFG& SuSAv2& SuSAv2& hA18& BS& BY  \\
+\hline
+\hline
+GiBUU & w/o In-med NN corr& GiBUU& \multirow{2}{*}{LFG} &\multirow{2}{*}{custom} & \multirow{2}{*}{empirical} & \multirow{2}{*}{custom} &\multirow{2}{*}{custom/MAID} & \multirow{2}{*}{PYTHIA}\\
+\cline{2-3}
+2025 & w In-med NN corr &
+GiBUU inmed  & & & & & & \\
+\hline
+\hline
+NEUT   &v5.7.0 & NEUT &LFG&\multirow{2}{*}{Valencia }&\multirow{2}{*}{Valencia }&\multirow{2}{*}{INC}&\multirow{2}{*}{BS}& \multirow{2}{*}{custom}\\
+\cline{2-4}
+ & v6.1.4 & NEUT v6.1.4 &EDRMF & & & & & \\
+\hline
+\hline
+NuWro & v21.09.2&NuWro &LFG&LS & Valencia& INC &ARS &BY \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\end{center}
+
+\FloatBarrier
+\section{Unfolded results compared to various GENIE tunes}
+\label{app:GENIE}
+This appendix presents additional comparisons between the unfolded cross sections and a variety of GENIE tunes, varying CCQE, MEC and FSI models, using GENIE version 3.6.0 as described in \ref{sec:Results}. These comparisons are shown for each variable in Fig.\ref{fig:appcompadd}.
+\FloatBarrier
+
+\begin{figure}[H]
+  \subfigure[]{
+    \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_E_e_GeV_UnblindedData_Unblinded_AR23.pdf}}
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_costheta_e_UnblindedData_Unblinded_AR23.pdf}}
+     \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_costheta_Plead_UnblindedData_Unblinded_AR23.pdf}}
+     \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_OpeningAngle_UnblindedData_Unblinded_AR23.pdf}}
+  \subfigure[]{
+    \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_KE_Plead_GeV_UnblindedData_AddGENIEComp.pdf}}
+     \hspace*{\fill} 
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_KE_Plead_GeV_UnblindedData_1NpBin_pretty_NOBinWidthDiv_directInv_AR23.pdf}}
+\caption{Unfolded cross section comparisons within GENIE v3.6.0 for all analysis variables using the 1eNp0$\pi$ channel: (a) electron energy, (b) electron angle, (c) proton angle, (d) opening angle. 
+Also shown for proton kinetic energy and with 1eXp0$\pi$ events (e) proton energy, (f) measurement across the proton visibility threshold.} 
+
+
+
+
+\label{fig:appcompadd}
+\end{figure}
+
+
+\FloatBarrier
+\section{Unfolded results compared to two NEUT versions}
+\label{app:NEUT}
+This appendix presents an additional comparison between the unfolded cross sections and two NEUT versions: v5.7.0 that uses an LFG ground state and v6.1.4. that uses an EDRMF~\cite{NEUTEDRMF,EDRMF} ground state model. This comparison is shown for each variable in Fig.\ref{fig:appcompaddNeut} and Fig.\ref{fig:appcompaddNeut2} .
+\FloatBarrier
+
+\begin{figure}[H]
+  \subfigure[]{
+    \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_E_e__GeV_UnblindedData_Unblinded_NEUTcomp.pdf}}
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_costheta_e_UnblindedData_Unblinded_NEUTcomp.pdf}}
+     \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_costheta_Plead_UnblindedData_Unblinded_NEUTcomp.pdf}}
+    \hspace*{\fill} 
+     \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_OpeningAngle_UnblindedData_Unblinded_NEUTcomp.pdf}}
+
+\caption{Unfolded cross section comparison between two NEUT versions for all analysis variables using the 1eNp0$\pi$ channel: (a) electron energy, (b) electron angle, (c) proton angle, (d) opening angle. } 
+\label{fig:appcompaddNeut}
+\end{figure}
+\begin{figure}[H]
+  \subfigure[]{
+    \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_KE_PleadGeV_UnblindedData_twopanels_NEUTcomp.pdf}}
+     \hspace*{\fill} 
+  \subfigure[]
+   { \includegraphics[width=8cm]{Appendix_Figures/Unfolding_res_KE_Plead_GeV_UnblindedData_1NpBin_pretty_NOBinWidthDiv_directInv_NEUTcomp.pdf}}
+\caption{Unfolded cross section comparison between two NEUT versions for the pleading proton kinetic energy variable using the 1eXp0$\pi$ and the (a) full proton energy binning, (b) measurement across the proton visibility threshold.} 
+\label{fig:appcompaddNeut2}
+\end{figure}
+\FloatBarrier
+\section{Tables of cross section results}
+\label{app:xsecres}
+\cref{tbl:ResEe,tbl:ResPe,tbl:ResPe2,tbl:ResEA,tbl:ResPA,tbl:ResOpAng} list the extracted cross section results, the corresponding uncertainty, and the background-subtracted number of candidate events per bin, for all six variables and configurations used in this analysis.
+\FloatBarrier
+
+\begin{table}[H]
+\caption{Background-subtracted data events and unfolded cross sections for the electron energy measurement.}
+\label{tbl:ResEe}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Bin \# & $E_e$ low edge & $E_e$ high edge  & Data-background&  cross section  & Uncertainty   \\
+Units& [GeV]&[GeV]&&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{GeV nucleon}}$]&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{GeV nucleon}}$]\\
+&&&&&\\
+0&0.&0.4& 27.267&1.51&0.62\\
+1&0.4&0.65&29.887&2.39&0.79\\
+2&0.65&0.9&28.75&2.76&0.58\\
+3&0.9&1.5&36.568&1.32&0.27\\
+4&1.5&4.5&18.5&0.192&0.054\\
+
+\hline
+\end{tabular} 
+\end{center}
+\end{table}\FloatBarrier
+
+
+
+\begin{table}[H]
+\caption{Background-subtracted data events and unfolded cross sections for the proton kinetic energy measurement.}
+\label{tbl:ResPe}
+\begin{center} 
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Bin \# & $KE_{p}$ low edge & $KE_{p}$ high edge  & Data-background&  cross section  & Uncertainty   \\
+Units& [GeV]&[GeV]&&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{GeV nucleon}}$]&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{GeV nucleon}}$]\\
+&&&&&\\
+0&0.&0.05& 15.468&11.6&4.43\\
+1&0.05&0.1&38.016&13.8&3.82\\
+2&0.1&0.15&25.998&11.2&3.50\\
+3&0.15&0.2&36.843&13.5&3.38\\
+4&0.2&0.3&29.55&6.56&1.57\\
+5&0.3&0.8&13.374&0.965&0.299\\
+\hline
+\end{tabular} \end{center}
+\end{table}\FloatBarrier
+
+\begin{table}[H]
+\caption{Background-subtracted data events and unfolded cross sections for the proton kinetic energy two-bin measurement.}
+\label{tbl:ResPe2}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Bin \# & $KE_{p}$ low edge & $KE_{p}$ high edge  & Data-background&  cross section  & Uncertainty\\
+Units& [GeV]&[GeV]&&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{GeV nucleon}}$]&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{GeV nucleon}}$]\\
+&&&&&\\
+0&0.&0.05& 15.468&0.521&0.294\\
+1&0.05&0.8&143.781&3.52&0.70\\
+\hline
+\end{tabular} \end{center}
+\end{table}
+
+\begin{table}[H]
+\caption{Background-subtracted data events and unfolded cross sections for the cosine of the electron angle measurement.}
+\label{tbl:ResEA}
+\begin{center} 
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Bin \# & $\cos\theta_e$low edge & $\cos\theta_e$ high edge  & Data-background&  cross section  & Uncertainty   \\
+Units& &&&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{nucleon}}$]&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{nucleon}}$]\\
+&&&&&\\
+0&-1&0.2& 17.237&0.593&0.254\\
+1&0.2&0.7&28.138&1.54&0.46\\
+2&0.7&0.9&46.665&5.16&1.11\\
+3&0.9&1.&48.929&9.62&2.13\\
+\hline
+\end{tabular} \end{center}
+\end{table}\FloatBarrier
+
+\begin{table}[H]
+\caption{Background-subtracted data events and unfolded cross sections for the cosine of the proton angle measurement.}
+\label{tbl:ResPA}
+\begin{center} 
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Bin \# & $\cos\theta_p$ low edge & $\cos\theta_p$ high edge  & Data-background&  cross section  & Uncertainty   \\
+Units& &&&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{nucleon}}$]&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{nucleon}}$]\\
+&&&&&\\
+0&-1&0.& 16.899&0.504&0.186\\
+1&0&0.4&42.821&1.60&0.34\\
+2&0.4&0.55&14.304&2.53&0.77\\
+3&0.55&0.7&22.784&2.39&1.07\\
+4&0.7&0.85&19.884&3.45&1.37\\
+5&0.85&1.&24.277&4.67&1.54\\
+\hline
+\end{tabular} \end{center}
+\end{table}\FloatBarrier
+\begin{table}[H]
+\caption{Background-subtracted data events and unfolded cross sections for the cosine of the opening angle measurement.}
+\label{tbl:ResOpAng}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+
+Bin \# & $\cos\theta_{ep}$ low edge & $\cos\theta_{ep}$ high edge  & Data-background&  cross section & Uncertainty  \\
+Units& &&&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{nucleon}}$]&[$10^{-39}\frac{\mathrm{cm^2}}{\mathrm{nucleon}}$]\\
+&&&&&\\
+0&-0.9&-0.5& 25.5&1.77&0.50\\
+1&-0.5&-0.25&22.523&2.71&0.64\\
+2&-0.25&0.&32.731&2.69&0.53\\
+3&0.&0.25&23.465&2.27&0.59\\
+4&0.25&0.5&16.32&1.43&0.57\\
+5&0.5&1.&20.429&0.711&0.278\\
+\hline
+\end{tabular} \end{center}
+\end{table}\FloatBarrier
+
+
+\FloatBarrier
+\section{Matrices for cross section calculation}
+\label{app:matrix}
+\cref{tbl:CovEe,tbl:CovPe,tbl:CovPe2,tbl:CovEA,tbl:CovPA,tbl:CovepA} provide the covariance matrices built as input to the unfolding procedure for each measurement. \cref{tbl:RepEe,tbl:RepPe,tbl:RepPe2,tbl:RepAe,tbl:RepAp,tbl:RepAep} are the response matrices used for the unfolding. \cref{tbl:ACEe,tbl:ACPe,tbl:ACPe2,tbl:ACAe,tbl:ACAp,tbl:ACAep} list the regularization obtained as part of the unfolding procedure output and applied to the generator predictions for comparison with the unfolded data cross sections.
+\FloatBarrier
+%Covariance, response and A_c
+\begin{table}[H]
+\caption{Covariance matrix for the electron energy cross section measurement.}
+\label{tbl:CovEe}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Bins in GeV & [0.,0.4] & [0.4,0.65]& [0.65,0.9]& [0.9,1.5]& [1.5,4.5]\\\hline
+{[0.,0.4]} &235.52 &40.29& 17.23 &9.844& 0.6409 	\\
+{[0.4,0.65]}  &40.29& 79.81& 11.65& 10.85& 4.872  \\
+{[0.65,0.9]}  &17.23& 11.65& 50.65& 12.56& 7.809   \\
+{[0.9,1.5]}  &9.844& 10.85& 12.56& 74.28& 20.34   \\
+{[1.5,4.5]}  & 0.6409& 4.872& 7.809& 20.34& 42.71 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Covariance matrix for the proton kinetic energy full-binning cross section measurement.} \label{tbl:CovPe}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins in GeV & [0.0,0.05] & [0.05,0.1]& [0.1,0.15]& [0.15,0.2]& [0.2,0.3]& [0.3,0.8]\\\hline
+{[0.0,0.05]}  &51.05& 19.03& 15.51& 10.08& 10.07& 4.028 \\
+{[0.05,0.1]}  &19.03& 128.3& 32.05& 20.30& 16.33& 5.248  \\
+{[0.1,0.15]}  &15.51& 32.05& 88.89& 18.29& 16.56& 5.648  \\
+{[0.15,0.2]}  &10.08& 20.30& 18.29& 73.40& 15.13& 6.169 \\
+{[0.2,0.3]}  &10.07& 16.33& 16.56& 15.13& 78.16& 11.07  \\
+{[0.3,0.8]}  &4.028& 5.248& 5.648& 6.169& 11.07& 28.70 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Covariance matrix for the two-bin proton kinetic energy cross section measurement.} \label{tbl:CovPe2}
+\begin{center} \begin{tabular}{|c|c|c|}
+\hline
+Bins in GeV & [0.0,0.05] & [0.05,0.8]\\ \hline
+{[0.0,0.05]} & 51.44& 60.04		\\
+{[0.05,0.8]}  &60.04& 805.2   \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Covariance matrix for the cosine of the electron angle cross section measurement.} \label{tbl:CovEA}
+\begin{center} \begin{tabular}{|c|c|c|c|c|}
+\hline
+Bins & [ -1.,0.2] & [0.2,0.7]& [0.7,0.9]& [0.9,1.]\\\hline
+{[ -1.,0.2]} &  76.36& 19.35& 17.87&13.77 		\\
+{[0.2,0.7]}  &19.35& 98.13& 29.37 &23.90    \\
+{[0.7,0.9]}  &17.87& 29.37& 120.4& 38.51    \\
+{[0.9,1.]}  &13.771 &23.90& 38.51& 128.2  \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Covariance matrix for the cosine of the proton angle cross section measurement.} \label{tbl:CovPA}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins & [-1,0] & [0,0.4]& [0.4,0.55]& [0.55,0.7]& [0.7,0.85]& [0.85,1]\\\hline
+{[-1,0]} &  58.81& 10.75& 6.345& 8.869& 11.26& 13.86 	\\
+{[0,0.4]}  &10.75& 74.10& 6.708& 9.347& 12.39& 14.52 \\
+{[0.4,0.55]}  &6.345& 6.708& 28.51& 7.226& 8.176& 8.883 \\
+{[0.55,0.7]}  &8.869& 9.347& 7.226& 53.33& 13.80& 15.02 \\
+{[0.7,0.85]}  &11.26& 12.39& 8.176& 13.80& 63.83& 21.86 \\
+{[0.85,1]}  &13.86& 14.52& 8.883& 15.02& 21.86& 87.79\\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Covariance matrix for the cosine of the opening angle cross section measurement.} \label{tbl:CovepA}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins & [-0.9,-0.5] & [-0.5,-0.25]& [-0.25,0.]& [0.,0.25]& [0.25,0.5]& [0.5,1.]\\\hline
+{[-0.9,-0.5]} &  72.99& 11.88& 10.89& 11.67& 8.967& 15.95 \\
+{[-0.5,-0.25]}  &11.88& 56.91& 9.714& 10.44& 6.254& 12.40  \\
+{[-0.25,0.]}  &10.89& 9.714& 61.86& 12.94& 8.824& 13.94  \\
+{[0.,0.25]}  &11.67& 10.44& 12.94& 58.35& 11.07& 16.21  \\
+{[0.25,0.5]}  &8.967& 6.254& 8.824& 11.07& 38.15& 13.20  \\
+{[0.5,1.]}  &15.95& 12.40& 13.94& 16.21& 13.20& 75.14 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Response matrix for the electron energy measurement.}
+\label{tbl:RepEe}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Bins in GeV & [0.,0.4] & [0.4,0.65]& [0.65,0.9]& [0.9,1.5]& [1.5,4.5]\\\hline
+{[0.,0.4]} &  0.1171& 0.05126& 0.01161& 0.003379& 0.0004370  	\\
+{[0.4,0.65]}  &0.01134& 0.1343& 0.06994& 0.01692& 0.001655  \\
+{[0.65,0.9]}  &3.383e-05& 0.01448& 0.1264& 0.05174& 0.004976   \\
+{[0.9,1.5]}  &9.657e-06& 0.0001096& 0.01769& 0.1521& 0.05275   \\
+{[1.5,4.5]}  & 9.563e-06& 1.716e-05& 0.0001218& 0.005967& 0.1336 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Response matrix for the proton kinetic energy full-binning measurement.} \label{tbl:RepPe}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins in GeV & [0.0,0.05] & [0.05,0.1]& [0.1,0.15]& [0.15,0.2]& [0.2,0.3]& [0.3,0.8]\\\hline
+{[0.0,0.05]} &  0.1175& 0.01110& 0.004014& 0.001891& 0.001401& 0.0009824 \\
+{[0.05,0.1]}  &0.01751& 0.1669& 0.03891& 0.01185& 0.007343& 0.002402  \\
+{[0.1,0.15]}  &0.0003940& 0.006581& 0.1922& 0.03524& 0.01393& 0.002882  \\
+{[0.15,0.2]}  &0.0002581& 0.0002626&0.008669& 0.1925& 0.02959& 0.004179  \\
+{[0.2,0.3]}  &9.957e-05& 0.0002511& 9.242e-05 &0.007594& 0.1789& 0.02111  \\
+{[0.3,0.8]}  &7.644e-05 &3.100e-05& 4.360e-05 &5.067e-05 &0.0009817& 0.08001 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Response matrix for the two-bin proton kinetic energy measurement.} \label{tbl:RepPe2}
+\begin{center} \begin{tabular}{|c|c|c|}
+\hline
+Bins in GeV & [0.0,0.05] & [0.05,0.8]\\ \hline
+{[0.0,0.05]} &  0.1175 &0.004198		\\
+{[0.05,0.8]}  &0.01834 &0.1978  \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Response matrix for the cosine of the electron angle measurement.} \label{tbl:RepAe}
+\begin{center} \begin{tabular}{|c|c|c|c|c|}
+\hline
+Bins & [ -1.,0.2] & [0.2,0.7]& [0.7,0.9]& [0.9,1.]\\\hline
+{[ -1.,0.2]} &  0.1006& 0.003130& 0.0 &0.0 		\\
+{[0.2,0.7]}  &0.004279& 0.1680& 0.006750& 0.0    \\
+{[0.7,0.9]}  &0.0 &0.009439& 0.2006& 0.009193    \\
+{[0.9,1.]}  &0.0& 0.0 &0.01194& 0.2216 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Response matrix for the cosine of the proton angle measurement.} \label{tbl:RepAp}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins & [-1,0] & [0,0.4]& [0.4,0.55]& [0.55,0.7]& [0.7,0.85]& [0.85,1]\\\hline
+{[-1,0]} &  0.1615& 0.01644& 0.007344& 0.005298& 0.005486& 0.005661 	\\
+{[0,0.4]}  &0.01184& 0.1694& 0.03008& 0.005471& 0.003338& 0.002521 \\
+{[0.4,0.55]}  &0.002412& 0.01802& 0.1743& 0.02315& 0.002453& 0.001199  \\
+{[0.55,0.7]}  &0.003793& 0.003992& 0.02900& 0.1697& 0.01597& 0.002063 \\
+{[0.7,0.85]}  &0.004264& 0.002986& 0.003496& 0.02259& 0.1402& 0.01059 \\
+{[0.85,1]}  &0.005873& 0.004275& 0.002612& 0.002658& 0.01652& 0.1175\\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Response matrix for the cosine of the opening angle measurement.} \label{tbl:RepAep}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins & [-0.9,-0.5] & [-0.5,-0.25]& [-0.25,0.]& [0.,0.25]& [0.25,0.5]& [0.5,1.]\\\hline
+{[-0.9,-0.5]} &  0.1216& 0.02181& 0.004377& 0.003119& 0.003529& 0.008934 \\
+{[-0.5,-0.25]}  &0.01330& 0.1337&0.02174&0.003311& 0.003114& 0.004561  \\
+{[-0.25,0.]}  &0.002263& 0.02362& 0.1528& 0.02425&0.003779& 0.003682  \\
+{[0.,0.25]}  &0.001810& 0.002591& 0.02588& 0.1630&0.02468& 0.003286  \\
+{[0.25,0.5]}  &0.001893& 0.002242& 0.002401& 0.02172&0.1504& 0.01370  \\
+{[0.5,1.]}  &0.003891& 0.004196& 0.003855&0.003808& 0.01811& 0.1531 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Regularization matrix from the Wiener-SVD unfolding procedure for the electron energy measurement.} \label{tbl:ACEe}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Bins in GeV & [0.,0.4] & [0.4,0.65]& [0.65,0.9]& [0.9,1.5]& [1.5,4.5]\\\hline
+{[0.,0.4]} &0.2892 &	0.5694&	0.2073&-0.05049	&-0.06408 	\\
+{[0.4,0.65]}  &0.1455& 0.551& 0.3596& -0.02374&-0.07217 \\
+{[0.65,0.9]}  &-0.01651& 0.2589& 0.5335&0.2568 &-0.03474  \\
+{[0.9,1.5]}  &-0.02614& -0.01178 & 0.2506& 0.5938&0.205  \\
+{[1.5,4.5]}  &-0.009027 & -0.02865&0.02412 & 0.2013&0.636  \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Regularization matrix from the Wiener-SVD unfolding procedure for the proton kinetic energy, full binning measurement.} \label{tbl:ACPe}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins in GeV & [0.0,0.05] & [0.05,0.1]& [0.1,0.15]& [0.15,0.2]& [0.2,0.3]& [0.3,0.8]\\\hline
+{[0.0,0.05]} & 0.7068&0.2011	&0.03124	&	0.09849&-0.01358 	& -0.05892 \\
+{[0.05,0.1]}  &0.2049& 0.5071&0.2653 &  -0.00505& 0.01654& 0.02961\\
+{[0.1,0.15]}  &0.009013&0.1499 & 0.688& 0.0964&0.04788 & 0.02533\\
+{[0.15,0.2]}  &0.04722& -0.01873 &0.09477 &0.7666 &0.1181 & -0.07806  \\
+{[0.2,0.3]}  &-0.01811 &0.01763 & 0.07031&0.1312 &0.6016 &0.1316 \\
+{[0.3,0.8]}  & -0.05332 & 0.05522&0.08472 &-0.09095 & 0.282&0.3788 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Regularization matrix from the direct inversion for the proton kinetic energy two-bin measurement.} \label{tbl:ACPe2}
+\begin{center} \begin{tabular}{|c|c|c|}
+\hline
+Bins in GeV & [0.0,0.05] & [0.05,0.8]\\ \hline
+{[0.0,0.05]} & 1&	6.334e-11 	\\
+{[0.05,0.8]}  &-2.328e-10 &  1 \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Regularization matrix from the Wiener-SVD unfolding procedure for the cosine of the electron angle measurement.} \label{tbl:ACAe}
+\begin{center} \begin{tabular}{|c|c|c|c|c|}
+\hline
+Bins & [ -1.,0.2] & [0.2,0.7]& [0.7,0.9]& [0.9,1.]\\\hline
+{[ -1.,0.2]} & 0.6102&0.4765	&-0.09791	&-0.04398 \\
+{[0.2,0.7]}  &0.1849& 0.6668&0.1735 & -0.06713   \\
+{[0.7,0.9]}  &-0.04991&0.1523 &0.769& 0.138  \\
+{[0.9,1.]}  &-0.01338& -0.03798& 0.1416& 0.829  \\
+\hline
+\end{tabular} \end{center}
+\end{table}
+\FloatBarrier
+\begin{table}[H]
+\caption{Regularization matrix from the Wiener-SVD unfolding procedure for the cosine of the proton angle measurement.} \label{tbl:ACAp}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins & [-1,0] & [0,0.4]& [0.4,0.55]& [0.55,0.7]& [0.7,0.85]& [0.85,1]\\\hline
+{[-1,0]} & 0.774&0.2421	&-0.07663	&0.07954	& -0.01644 	&-0.04892 \\
+{[0,0.4]}   &0.2588&0.4301 &0.386 &-0.1412 &0.02296 & 0.06136 \\
+{[0.4,0.55]}  & -0.06841&0.2021 & 0.7549&0.1215 & -0.01433&-0.04056  \\
+{[0.55,0.7]}  &0.06694& -0.1195& 0.1917& 0.7567& 0.0691&-0.003742  \\
+{[0.7,0.85]}  &-0.0184& 0.04217& 0.001104&0.1082 & 0.738& 0.05083\\
+{[0.85,1]}  &-0.06434& 0.1272& -0.06882&0.04524 &0.1363 &0.5708 \\
+
+\hline
+\end{tabular} \end{center}
+\end{table}
+
+\FloatBarrier
+\begin{table}[H]
+\caption{Regularization matrix from the Wiener-SVD unfolding procedure for the cosine of the opening angle measurement.} \label{tbl:ACAep}
+\begin{center} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Bins & [-0.9,-0.5] & [-0.5,-0.25]& [-0.25,0.]& [0.,0.25]& [0.25,0.5]& [0.5,1.]\\\hline
+{[-0.9,-0.5]} &0.4948 &	0.3469&0.1595	&0.2123	&-0.2505	& -0.0845 \\
+{[-0.5,-0.25]}  & 0.2016&0.4716	&0.3731	&-0.01751  	&0.01182	&   -0.1334 \\
+{[-0.25,0.]} &0.03307&0.301	&0.413	&0.1634	&0.09962&0.01067\\
+{[0.,0.25]}  & 0.07817&-0.04324	&0.1391	&0.5639	&0.2358	&0.08229\\
+{[0.25,0.5]}  & -0.1065 &0.02321	&0.08465	&0.2342	&0.6674	&-0.01191 \\
+{[0.5,1.]}  & -0.02879 &-0.0849	&0.07857	&0.2&	0.05643&0.4485\\
+\hline
+\end{tabular} \end{center}
+\end{table}
+
+
+\FloatBarrier
+\twocolumngrid
+
+\bibliography{apssamp}
+\end{document}
+
+%
+% ****** End of file apstemplate.tex ******
+

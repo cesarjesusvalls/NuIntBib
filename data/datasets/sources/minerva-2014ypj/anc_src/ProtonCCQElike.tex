@@ -1,0 +1,281 @@
+%% TO CHECK LENGTH... go to ``review and submission option'' and set
+%%``sizecheck'' to ``1'' below.  Remember to unset when done!
+
+%% The document must be slightly different for PRL than the arXiV because the
+%% appendix (and references to it) must be "supplemental material" for PRL.
+%% Set the "PRLsupp" option to "1" below. 
+
+\newcommand{\DoPrePrint}{0} % 0 for 2-column submission/review format; 1 for double-spaced, line-numbered preprint
+%% for review and submission
+
+\ifnum\DoPrePrint=1
+  \RequirePackage{lineno} 
+  \documentclass[aps,prl,preprint,showpacs,superscriptaddress,nofootinbib,linenumbers]{revtex4}
+
+%% for double-spaced preprint
+  \usepackage{lineno}
+\else
+  \documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,nofootinbib]{revtex4}
+\fi
+
+\usepackage{amsmath}   % need for subequations
+%\usepackage{amsfonts}   note how statements can be commented out
+%\usepackage{amssymb}
+\usepackage{graphicx}  % for figures
+\usepackage{xspace}
+\usepackage{units}
+
+%\usepackage{natbib}
+%\usepackage{doi}
+\usepackage{hyperref}
+\usepackage{multirow}
+
+\newcommand{\gibuu}{GiBUU\xspace}
+\newcommand{\minerva}{MINERvA\xspace}
+\newcommand{\minos}{MINOS\xspace}
+\newcommand{\miniboone}{MiniBooNE\xspace}
+\newcommand{\nova}{NOvA\xspace}
+\newcommand{\nomad}{NOMAD\xspace}
+\newcommand{\numi}{NuMI\xspace}
+\newcommand{\genie}{GENIE\xspace}
+\newcommand{\nuwro}{NuWro\xspace}
+\newcommand{\geant}{GEANT4\xspace}
+
+\newcommand{\numu}{\ensuremath{\nu_{\mu}}\xspace}
+\newcommand{\numubar}{\ensuremath{\bar{\nu}_{\mu}}\xspace}
+\newcommand{\dsdq}{\ensuremath{\mathrm{d}\sigma/\mathrm{d}Q^2}\xspace}
+\newcommand{\QSq}{\ensuremath{Q^{2}}\xspace}
+\newcommand{\QSqproton}{\ensuremath{Q^{2}_{QE,p}}\xspace}
+\newcommand{\QSqmuon}{\ensuremath{Q^{2}_{QE,\mu}}\xspace}
+\newcommand{\xsecmuon}{\ensuremath{\mathrm{d}\sigma/\mathrm{d}Q^{2}_{QE,\mu}}\xspace}
+\newcommand{\xsecproton}{\ensuremath{\mathrm{d}\sigma/\mathrm{d}Q^{2}_{QE,p}}\xspace}
+\newcommand{\enu}{\ensuremath{E_{\nu}}\xspace}
+%\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+
+\newcommand{\footnoteremember}[2]{\footnote{#2}\newcounter{#1}\setcounter{#1}{\value{footnote}}}
+\newcommand{\footnoterecall}[1]{\footnotemark[\value{#1}]}
+
+\newcommand{\sizecheck}{0} % 0 to do nothing; 1 to check size
+\newcommand{\PRLsupp}{1}   % 0 to do nothing; 1 to put the appendix in a supplement
+
+\ifnum\PRLsupp=0
+  \newcommand{\SuppLocation}{in the Appendix}
+\else
+  \newcommand{\SuppLocation}{at URL}
+\fi
+
+%ability to convert eps to pdf at compile time
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+   \pdffalse
+\else
+   \pdfoutput=1
+   \pdftrue
+\fi
+\ifpdf
+   \usepackage{graphicx}
+   \usepackage{epstopdf}
+   \DeclareGraphicsRule{.eps}{pdf}{.pdf}{`epstopdf #1}
+   \pdfcompresslevel=9
+\else
+   \usepackage{graphicx}
+\fi
+
+\begin{document}
+
+\ifnum\DoPrePrint=1
+\linenumbers
+\fi
+
+\title{Measurement of muon plus proton final states in \numu Interactions on Hydrocarbon at $\langle\enu\rangle$~=~4.2~GeV}
+
+%% THIS IS THE AUTHOR LIST FROM THE CCQE ANTI-NEUTRINO PAPER
+
+%% MANUAL PARTS OF AUTHOR LIST
+
+%% (1) need to add ``\thanks{\deceased}'' after DeMaat, Gobbi, Tzanakos
+\newcommand{\deceased}{Deceased}
+
+%% (2) we offered Jan authorship, so here it is
+%% have to put his author line in by hand
+\newcommand{\wroclaw}{Institute of Theoretical Physics, Wroc\l aw University, Wroc\l aw, Poland}    
+%% \author{J.T.~Sobczyk}                     \affiliation{\wroclaw}  \affiliation{\FNAL}
+
+%% (2b) Also technical authors non in Glaucus who did not sign the communications paper.  Basically the W&M crowd are the only ones who have requested this
+
+%% AUTOMATIC LIST (EDITED AS ABOVE)
+%% List of institution addresses, in command form.
+\newcommand{\Rutgers}{Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, USA}
+\newcommand{\Hampton}{Hampton University, Dept. of Physics, Hampton, VA 23668, USA}
+\newcommand{\Dortmund}{Institute of Physics, Dortmund University, 44221, Germany }
+\newcommand{\Otterbein}{Department of Physics, Otterbein University, 1 South Grove Street, Westerville, OH, 43081 USA}
+\newcommand{\JMU}{James Madison University, Harrisonburg, Virginia 22807, USA}
+\newcommand{\Florida}{University of Florida, Department of Physics, Gainesville, FL 32611}
+\newcommand{\UCIrvine}{Department of Physics and Astronomy, University of California, Irvine, Irvine, California 92697-4575, USA}
+\newcommand{\CBPF}{Centro Brasileiro de Pesquisas F\'{i}sicas, Rua Dr. Xavier Sigaud 150, Urca, Rio de Janeiro, RJ, 22290-180, Brazil}
+\newcommand{\PUCP}{Secci\'{o}n F\'{i}sica, Departamento de Ciencias, Pontificia Universidad Cat\'{o}lica del Per\'{u}, Apartado 1761, Lima, Per\'{u}}
+\newcommand{\INRM}{Institute for Nuclear Research of the Russian Academy of Sciences, 117312 Moscow, Russia}
+\newcommand{\Jlab}{Jefferson Lab, 12000 Jefferson Avenue, Newport News, VA 23606, USA}
+\newcommand{\Pittsburgh}{Department of Physics and Astronomy, University of Pittsburgh, Pittsburgh, Pennsylvania 15260, USA}
+\newcommand{\Guanajuato}{Campus Le\'{o}n y Campus Guanajuato, Universidad de Guanajuato, Lascurain de Retana No. 5, Col. Centro. Guanajuato 36000, Guanajuato M\'{e}xico.}
+\newcommand{\Athens}{Department of Physics, University of Athens, GR-15771 Athens, Greece}
+\newcommand{\Tufts}{Physics Department, Tufts University, Medford, Massachusetts 02155, USA}
+\newcommand{\WM}{Department of Physics, College of William \& Mary, Williamsburg, Virginia 23187, USA}
+\newcommand{\FNAL}{Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA}
+\newcommand{\Purdue}{Department of Chemistry and Physics, Purdue University Calumet, Hammond, Indiana 46323, USA}
+\newcommand{\MCLA}{Massachusetts College of Liberal Arts, 375 Church Street, North Adams, MA 01247}
+\newcommand{\UMD}{Department of Physics, University of Minnesota -- Duluth, Duluth, Minnesota 55812, USA}
+\newcommand{\Northwestern}{Northwestern University, Evanston, Illinois 60208}
+\newcommand{\UNI}{Universidad Nacional de Ingenier\'{i}a, Apartado 31139, Lima, Per\'{u}}
+\newcommand{\Rochester}{University of Rochester, Rochester, New York 14610 USA}
+\newcommand{\Austin}{Department of Physics, University of Texas, 1 University Station, Austin, Texas 78712, USA}
+\newcommand{\USM}{Departamento de F\'{i}sica, Universidad T\'{e}cnica Federico Santa Mar\'{i}a, Avda. Espa\~{n}a 1680 Casilla 110-V, Valpara\'{i}so, Chile}
+\newcommand{\Geneva}{University of Geneva, Geneva, Switzerland}
+\newcommand{\Chicago}{Enrico Fermi Institute, University of Chicago, Chicago, IL 60637 USA}
+\newcommand{\keppelThanks}{\thanks{now at the Thomas Jefferson National Accelerator Facility, Newport News, VA 23606 USA}}
+\newcommand{\giulianoThanks}{\thanks{now at Vrije Universiteit Brussel, Pleinlaan 2, B-1050 Brussels, Belgium}}
+%\newcommand{\lazaThanks}{\thanks{also at University of Antananarivo, Madagascar}}
+\newcommand{\schulteThanks}{\thanks{now at Temple University, Philadelphia, Pennsylvania 19122, USA}}
+\newcommand{\jwaldingThanks}{\thanks{now at Dept. Physics, Royal Holloway, University of London, UK}}
+\newcommand{\ticeThanks}{now at Argonne National Laboratory, Argonne, IL 60439, USA }
+\newcommand{\bmeThanks}{now at SLAC National Accelerator Laboratory, Stanford, California 94309 USA}
+\newcommand{\waltonThanks}{now at Fermi National Accelerator Laboratory, Batavia, IL 60510 USA} 
+\newcommand{\lazaThanks}{also at Department of Physics, University of Antananarivo, Madagascar}
+\newcommand{\janThanks}{also at Institute of Theoretical Physics, Wroc\l aw University, Wroc\l aw, Poland}
+
+% 89 total signatories.
+\author{T.~Walton}\thanks{\waltonThanks}           \affiliation{\Hampton}
+\author{M.~Betancourt}        \affiliation{\FNAL}
+\author{L.~Aliaga}                        \affiliation{\WM}  \affiliation{\PUCP}
+\author{O.~Altinok}                       \affiliation{\Tufts}
+\author{A.~Bodek}                         \affiliation{\Rochester}
+\author{A.~Bravar}                        \affiliation{\Geneva}
+\author{H.~Budd}                          \affiliation{\Rochester}
+\author{M.~J.~Bustamante}                \affiliation{\PUCP}
+\author{A.~Butkevich}                     \affiliation{\INRM}
+\author{D.A.~Martinez~Caicedo}            \affiliation{\CBPF}  \affiliation{\FNAL}
+\author{M.F.~Carneiro}                    \affiliation{\CBPF}
+\author{C.M.~Castromonte}                 \affiliation{\CBPF}
+\author{M.E.~Christy}                     \affiliation{\Hampton}
+\author{J.~Chvojka}                       \affiliation{\Rochester}
+\author{H.~da~Motta}                      \affiliation{\CBPF}
+\author{M.~Datta}                         \affiliation{\Hampton}
+\author{J.~Devan}                         \affiliation{\WM}
+\author{S.A.~Dytman}                      \affiliation{\Pittsburgh}
+\author{G.A.~D\'{i}az~}                   \affiliation{\PUCP}
+\author{B.~Eberly}\thanks{\bmeThanks}   \affiliation{\Pittsburgh}
+\author{J.~Felix}                         \affiliation{\Guanajuato}
+\author{L.~Fields}                        \affiliation{\Northwestern}
+\author{R.~Fine}                          \affiliation{\Rochester}
+\author{G.A.~Fiorentini}                  \affiliation{\CBPF}
+\author{A.M.~Gago}                        \affiliation{\PUCP}
+\author{H.~Gallagher}                     \affiliation{\Tufts}
+\author{R.~Gran}                          \affiliation{\UMD}
+\author{D.A.~Harris}                      \affiliation{\FNAL}
+\author{A.~Higuera}                       \affiliation{\Rochester}  \affiliation{\Guanajuato}
+\author{K.~Hurtado}                       \affiliation{\CBPF}  \affiliation{\UNI}
+\author{J.~Kleykamp}                      \affiliation{\Rochester}
+\author{M.~Kordosky}                      \affiliation{\WM}
+\author{S.A.~Kulagin}                     \affiliation{\INRM}
+\author{T.~Le}                            \affiliation{\Rutgers}
+\author{E.~Maher}                         \affiliation{\MCLA}
+\author{S.~Manly}                         \affiliation{\Rochester}
+\author{W.A.~Mann}                        \affiliation{\Tufts}
+\author{C.M.~Marshall}                    \affiliation{\Rochester}
+\author{C.~Martin~Mari}                   \affiliation{\Geneva}
+\author{K.S.~McFarland}                   \affiliation{\Rochester}  \affiliation{\FNAL}
+\author{C.L.~McGivern}                    \affiliation{\Pittsburgh}
+\author{A.M.~McGowan}                     \affiliation{\Rochester}
+\author{B.~Messerly}                      \affiliation{\Pittsburgh}
+\author{J.~Miller}                        \affiliation{\USM}
+\author{A.~Mislivec}                      \affiliation{\Rochester}
+\author{J.G.~Morf\'{i}n}                  \affiliation{\FNAL}
+\author{J.~Mousseau}                      \affiliation{\Florida}
+\author{T.~Muhlbeier}                     \affiliation{\CBPF}
+\author{D.~Naples}                        \affiliation{\Pittsburgh}
+\author{J.K.~Nelson}                      \affiliation{\WM}
+\author{A.~Norrick}                       \affiliation{\WM}
+\author{J.~Osta}                          \affiliation{\FNAL}
+\author{V.~Paolone}                       \affiliation{\Pittsburgh}
+\author{J.~Park}                          \affiliation{\Rochester}
+\author{C.E.~Patrick}                     \affiliation{\Northwestern}
+\author{G.N.~Perdue}                      \affiliation{\FNAL}  \affiliation{\Rochester}
+\author{L.~Rakotondravohitra}\thanks{\lazaThanks}  \affiliation{\FNAL}
+\author{R.D.~Ransome}                     \affiliation{\Rutgers}
+\author{H.~Ray}                           \affiliation{\Florida}
+\author{L.~Ren}                           \affiliation{\Pittsburgh}
+\author{P.A.~Rodrigues}                   \affiliation{\Rochester}
+\author{D.~Ruterbories}			  \affiliation{\Rochester}
+\author{H.~Schellman}                     \affiliation{\Northwestern}
+\author{D.W.~Schmitz}                     \affiliation{\Chicago}  \affiliation{\FNAL}
+\author{C.~Simon}                         \affiliation{\UCIrvine}
+\author{F.D.~Snider}                      \affiliation{\FNAL}
+\author{J.T.~Sobczyk}\thanks{\janThanks}                     \affiliation{\FNAL}
+\author{C.J.~Solano~Salinas}              \affiliation{\UNI}
+\author{N.~Tagg}                          \affiliation{\Otterbein}
+\author{B.G.~Tice}\thanks{\ticeThanks}    \affiliation{\Rutgers}
+\author{E.~Valencia}                      \affiliation{\Guanajuato}
+\author{J.~Wolcott}                       \affiliation{\Rochester}
+\author{M.Wospakrik}                      \affiliation{\Florida}
+\author{G.~Zavala}                        \affiliation{\Guanajuato}
+\author{D.~Zhang}                         \affiliation{\WM}
+\author{B.P.Ziemer}                       \affiliation{\UCIrvine}
+
+%
+%% END AUTOMATIC PART
+\collaboration{\minerva  Collaboration}\ \noaffiliation
+
+\date{\today}
+
+
+%nubar CCQE paper \pacs{13.15.+g,25.30.Pt,21.10.-k}
+\pacs{13.15.+g,25.80.-e,13.75.Gx}
+
+\begin{abstract}
+A study of charged-current muon neutrino scattering on hydrocarbon
+in which the final state includes a muon, at least one proton, and no pions is presented. 
+Although this signature has the topology of 
+neutrino quasielastic scattering from neutrons, the event sample contains contributions from  
+quasielastic and inelastic processes where pions are absorbed in the nucleus.  
+The analysis accepts events with muon production angles up to 
+70$^{\circ}$ and proton kinetic energies greater than 110~MeV. The cross section, 
+when based completely on 
+hadronic kinematics, is well-described by a relativistic 
+Fermi gas nuclear model including the neutrino event generator modeling 
+for inelastic processes and particle transportation through the nucleus. This is in contrast
+to the quasielastic cross section based on muon kinematics, which is best described by an extended model
+that incorporates multinucleon correlations. This measurement guides the formulation of a complete 
+description of neutrino-nucleus interactions that encompasses the hadronic as
+well as the leptonic aspects of this process.
+
+
+\end{abstract}
+
+\ifnum\sizecheck=0  
+\maketitle
+\fi
+
+\input{intro-QElike.tex}
+
+\input{expt-QElike.tex}
+
+\input{eventreco-QElike.tex}
+
+\input{syst-QElike.tex}
+
+\input{results-QElike.tex}
+
+\ifnum\sizecheck=1
+  \newpage
+  {\Large Content after here does not count against size of PRL}
+  \newpage
+\fi
+\input{acknowledgments.tex}
+\input{biblio-ProtonCCQElike-bibtex.tex}
+
+\ifnum\PRLsupp=0
+  \clearpage
+  \input{appendix-ProtonCCQElike.tex}
+\fi
+
+\end{document}

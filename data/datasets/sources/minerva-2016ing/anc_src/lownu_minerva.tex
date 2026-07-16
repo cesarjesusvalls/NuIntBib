@@ -1,0 +1,300 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.1 distribution.
+%   Version 4.1r of REVTeX, August 2010
+%
+%   Copyright (c) 2009, 2010 The American Physical Society.
+\newcommand{\DoPrePrint}{0} 
+%0 for 2-column submission/review format; 1 for double-spaced, line-numbered preprint
+%% for review and submission
+
+\documentclass[%
+% paper formatting:
+reprint,
+%preprint,
+% 
+superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+showpacs,
+preprintnumbers,
+showkeys,
+nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+ prd,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+floatfix,
+]{revtex4-1}
+
+\usepackage{xspace}
+\usepackage{graphicx}% Include figure files
+\usepackage{array}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{rotating}
+\usepackage{multirow}
+
+\usepackage{hyperref}% add hypertext capabilities 
+
+\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+\ifnum\DoPrePrint=1
+\linenumbers\relax % Commence numbering lines
+\fi
+
+% common strings
+\newcommand\minerva  {MINERvA\xspace}
+\newcommand\numu     {$\nu_{\mu}$\xspace}
+\newcommand\numubar  {$\bar{\nu}_{\mu}$\xspace}
+\newcommand\nue      {$\nu_{e}$\xspace}
+\newcommand\nuebar   {$\bar{\nu}_{e}$\xspace}
+\newcommand\nutau    {$\nu_{\tau}$\xspace}
+\newcommand\nutaubar {$\bar{\nu}_{\tau}$\xspace}
+\newcommand\LowNu    {Low-$\nu$\xspace}
+\newcommand\lownu    {low-$\nu$\xspace}
+\newcommand\thetaair {\theta_{\text{air}}}
+\newcommand\thetaAl  {\theta_{\text{Al}}}
+\newcommand\enu      {$E_\nu$\xspace}
+\newcommand\signu    {$\sigma_\nu$\xspace}
+\newcommand\GENIE  {\textsc{genie}\xspace}
+\newcommand\GEANT  {\textsc{geant4}\xspace}
+\newcommand\FLUKA  {\textsc{fluka}\xspace}
+
+
+\begin{document}
+
+\preprint{FERMILAB-PUB-16-368-ND}
+
+\title{Measurements of the Inclusive Neutrino and Antineutrino Charged Current Cross Sections in MINERvA Using the Low-$\nu$ Flux Method} 
+
+\input{authors}
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+The total cross sections are important ingredients for the current and future neutrino oscillation experiments. We present measurements of the total charged-current neutrino and antineutrino cross sections on scintillator (CH) in the NuMI low-energy beamline using an {\em in situ} prediction of the shape of the flux as a function of neutrino energy from 2--50\,GeV. This flux prediction takes advantage of the fact that neutrino and antineutrino interactions with low nuclear recoil energy ($\nu$) have a nearly constant cross section as a function of incident neutrino energy. This measurement is the lowest energy application of the \lownu flux technique, the first time it has been used in the NuMI antineutrino beam configuration, and demonstrates that the technique is applicable to future neutrino beams operating at multi-GeV energies.  The cross section measurements presented are the most precise measurements to date below 5~GeV.  
+
+\end{abstract}
+
+\pacs{29.27.Fh (beam characteristics) 14.60.Lm (properties of ordinary neutrinos)}
+%\keywords{Suggested keywords}%Use showkeys class option if keyword
+                              %display desired
+\maketitle
+
+Current and future neutrino oscillation experiments that use neutrino energies from 1-10 GeV\,\cite{nova-tdr,NuMI-NIM,T2K-flux,DUNE-CDR} encounter a number of scattering processes that occur with comparable probabilities. Over the last decade, a series of experiments including K2K\,\cite{K2K-QE}, SciBooNE\,\cite{sciboone-inclusive}, MiniBooNE\,\cite{miniboone-quasi}, and T2K\,\cite{T2K-xsec-2,T2K-xsec-1} have explored neutrino cross sections in the sub-GeV to few GeV region and have largely focused on exclusive processes. However, since the NOvA\,\cite{nova-tdr} and DUNE\,\cite{DUNE-CDR} detectors are fully active, those experiments plan to use as much of the total neutrino interaction rate as possible. Therefore precise knowledge of the inclusive charged-current cross section is becoming increasingly important.  
+
+Cross section measurements are challenged by imperfect knowledge of the incoming neutrino and antineutrino fluxes. Fluxes can be predicted using detailed beamline simulations benchmarked with an array of external hadron production data\,\cite{T2K-flux,NOMAD-xsec,Leo-thesis}, constrained using {\em in situ} tertiary muon production measurements\,\cite{Loiacono-thesis}, or measured using well understood processes such as neutrino-electron scattering\,\cite{minerva-nu-e-flux}. Because the flux is the largest uncertainty in most cross section measurements, constraining the flux using multiple independent techniques is important. 
+
+The \lownu method for flux estimation was proposed by Mishra\,\cite{Mishra}, pioneered by the CCFR collaboration\,\cite{CCFR-xsec}, and used by the NuTeV\,\cite{NuTeV-xsec} and MINOS\,\cite{MINOS-xsec} collaborations.  The inclusive charged-current scattering cross section for neutrinos can be expressed in terms of neutrino energy (\enu), the energy transferred to the nucleus (recoil energy or $\nu$), and the Bjorken scaling variable ($x$) as
+\begin{widetext}
+\begin{equation}
+    \frac{\mathrm{d}\sigma}{\mathrm{d}\nu} =
+    \frac{G^2_F M}{\pi}
+    \int_0^1 \bigg(
+        F_2
+        - \frac{\nu}{E_\nu}  \left[F_2 \mp xF_3\right]
+        + \frac{\nu}{2E_\nu^2}  \left[\frac{Mx(1-R_L)}{1+R_L}F_2\right] 
+        + \frac{\nu^2}{2E_\nu^2}  \left[\frac{F_2}{1+R_L} \mp xF_3\right]
+    \bigg)\,\mathrm{d}x,
+    \label{eq:dsigma-dnu}
+\end{equation}
+\end{widetext} 
+where $G_F$ is the Fermi constant, $M$ is the struck nucleon's mass, $F_2$ and $xF_3$ are structure functions, $R_L$ is the structure function ratio $F_2/(2xF_1)$, and the ``$+$'' is for \numu and the ``$-$'' is for \numubar\,\cite{Josh-thesis}.  If one limits the final-state phase space to events with $\nu$ less than some cutoff $\nu_0$ (where $\nu_0 \ll E_\nu$) the terms proportional to $\nu/E_\nu$, $\nu/E_\nu^2$, and $\nu^2/E_\nu^2$ are small, yielding a cross section that is approximately constant as a function of neutrino energy. The \lownu restricted cross section deviates from constant both due to the finite value of $\nu_0$ in practical applications and due to the small $Q^2$ dependence (Bjorken scaling violation) of the structure functions\,\cite{Bodek:2012uu}. While the formulation in Eq.\,\ref{eq:dsigma-dnu} is only strictly true in the DIS regime, the \lownu technique is still applicable at lower momentum transfer since one is restricting the sample to a uniform final-state phase space and a correspondingly small range of $Q^2$. Cross sections for neutrino-nucleon scattering from the quasi-elastic (QE) regime through resonance production do have energy dependencies, especially for \enu = 1\,GeV. Corrections for these effects and the associated systematic uncertainties will be discussed later in this paper. 
+
+The shape of the neutrino charged-current event spectrum for $\nu<\nu_0$ can therefore be used to determine the shape of the neutrino flux as a function of \enu, with the absolute normalization determined by scaling the flux such that the extracted inclusive cross section matches the world average at larger \enu where it is most precisely measured. This paper reports measurements of the shape of the neutrino and antineutrino charged-current inclusive cross sections using neutrino fluxes determined by the \lownu interactions with data from the MINERvA experiment\,\cite{Josh-thesis}. Enabled by the low threshold and good energy resolution of the detector, these measurements cover an energy range that extends to lower energies than previous measurements\,\cite{PDG}, and represent an important demonstration of the \lownu flux technique for future experiments operating in the few-GeV region. 
+
+The MINERvA detector is a finely-segmented solid-scintillator detector consisting of a fully-active tracker region surrounded by electromagnetic and hadronic calorimeters\,\cite{MINERvA-NIM,DAQ-NIM}. The events for this analysis occur in the 5.57-ton fiducial region of the tracker. The tracker is composed, by weight, of 7.5\% hydrogen, 88\% carbon, 3.2\% oxygen, and smaller quantities of more massive nuclei, and has a 15\% excess of protons over neutrons. The magnetized MINOS near detector\,\cite{MINOS-NIM}, located 2~m downstream of the MINERvA detector, serves as a tracking muon spectrometer. 
+
+The detectors are located in the NuMI neutrino beamline at Fermilab\,\cite{NuMI-NIM}. The beam is produced by sending 120\,GeV protons to a two interaction length graphite target. The resulting pions and kaons are focused by a pair of magnetic horns and decay in a 675\,m helium-filled decay pipe to produce neutrinos. The resulting broad-band neutrino energy spectrum peaks at approximately 3~GeV but extends from below 1\,GeV up to 120\,GeV. The horns can be set to focus either positive pions producing a \numu-enhanced beam (forward horn current or FHC) or negative pions producing an \numubar-enhanced beam (reverse horn current or RHC). The analysis reported here includes the dominant FHC \numu and RHC \numubar samples, referred to as the ``focused'' samples, and the minority RHC \numu and FHC \numubar samples, referred to as the ``defocused'' samples. The data in this study were recorded between March 2010 and April 2012 in the ``low-energy'' configuration of the target and horns. The FHC (RHC) data represent $3.175\times10^{20}$ ($1.09\times10^{20}$) protons on target (POT). 
+
+Neutrino interactions in \minerva are reconstructed by first sorting energy deposits into temporally associated groups called ``time slices,'' and then the hits within a time slice are sorted into spatially associated ``clusters" within each scintillator layer. Co-linear clusters within a time slice are used to reconstruct tracks through the tracker and calorimeter regions. Tracks in MINOS are identified in a similar way. Events are required to have one \minerva track matched to a track in MINOS, and that track is identified as coming from a muon. The MINOS-match requirement limits the angular acceptance of muons to within roughly 20$^{\circ}$ of the beam axis and imposes an energy threshold on muon identification of 1.5\,GeV. The momentum of the muon can be determined by either range or curvature in the MINOS detector. To reduce backgrounds, muons are required to have their charge reconstructed with greater than $3.3\sigma$ significance. Each event is assigned a vertex by tracking the muon upstream through the interaction region until no energy is seen in an upstream cone around the track. Events are required to have a reconstructed vertex within the tracker fiducial volume. The recoil energy is reconstructed calorimetrically from clusters in the tracker and downstream calorimeters that are not associated with the muon and are within a 55\,ns window of the muon's clusters. The reconstructed neutrino energy is the sum of the muon and recoil energies\,\cite{MINERvA-NIM}. 
+
+The MINERvA simulation uses the \GENIE package\footnote{\GENIE version 2.6.2 with the GRV98LO parton density functions.} for neutrino interactions\,\cite{GENIE}. The flux is simulated using a \GEANT simulation\footnote{\GEANT version 9.2.p03 with the FTFP physics list.} with corrections to reproduce external hadron production  data\,\cite{NA49a,NA49b,Barton,Denisov,Allaby,Carroll,shine,Lebedev-thesis,tinti-thesis} where the external data are scaled to different incident particle energies using the \FLUKA simulation\,\cite{FLUKA1,FLUKA2}. The version of the flux
+%\footnote{The resulting flux estimate is version ``MINERvA GEN1'' as documented in\,\cite{Leo-thesis}} 
+used in this analysis was released in 2013 and used in early MINERvA publications\,\cite{minerva-nu-e-flux,Leo-thesis}.
+To model the detector reposonse a \GEANT simulation\footnote{Version 9.4.2 with the \textsc{QGSP\_BERT} physics list.} is combined with a model for the readout chain, and the latter is tuned to match the detector response to muons in data.  The statistics of the simulation is a factor of 10 above the data statistics. 
+
+The cross section in bins of \enu is computed as
+\begin{equation}
+    \sigma(E) = \frac{U(D-B)}{\epsilon\Phi T\times\Delta E},
+    \label{eq:cross-section}
+\end{equation}
+where $D$ is the reconstructed inclusive interaction yield, $B$ is the background yield predicted by the simulation, $U$ is an unfolding operation, $\epsilon$ is the acceptance correction, $\Phi$ is the neutrino flux, $T$ is the number of target nucleons in the fiducial volume, and $\Delta E_\nu$ is the width of the neutrino energy bin. The flux is determined using the \lownu sub-sample of the data:
+\begin{equation}
+    \Phi = \eta\frac{U_\nu(D_\nu-B_\nu)}{\epsilon_\nu\sigma_\nu T\times\Delta E},
+    \label{eq:flux}
+\end{equation}
+where the subscript $\nu$ indicates that the data, background, acceptance, unfolding, and cross sections have been restricted to $\nu<\nu_0$, which is known as the ``flux'' sample. The small \enu dependence of the \lownu cross section introduces a shape-dependence to the yield of flux sample events apart from the flux, these variations are corrected for by dividing by the \lownu cross section, $\sigma_\nu=\sigma(\nu<\nu_0,E_\nu)$, as predicted, by the \GENIE simulation. The \lownu flux is then normalized such that the extracted inclusive charged-current cross section matches the world average between 9 and 12~GeV. The \lownu normalization factor, described in more detail below, is denoted by $\eta$. 
+
+The event samples used for the flux determinations reported here utilize a $\nu < \nu_0$ cut, with $\nu_0$ varying based on reconstructed neutrino energy. The $\nu_0$ cut choice is a balance between competing concerns. Selecting a larger $\nu_0$ will select more data and yield smaller statistical uncertainties in the flux. Selecting a smaller $\nu_0$ will reduce the energy dependence of the \lownu cross section, and hence the flux-model dependence. As neutrino energy decreases for a given $\nu_0$ cut, the fraction of the inclusive sample that is also in the \lownu flux sample (the overlap fraction) increases, which increases correlations between the \lownu flux and the inclusive cross section. 
+
+Measurements by MINERvA and other experiments show disagreement with \GENIE predictions for both quasielastic scattering\,\cite{K2K-QE,miniboone-quasi,sciboone-qe,minerva-numubarccqe,minerva-numuccqe,minerva-twotrack,minerva-2p2h} and $\Delta$ resonance production\,\cite{MINERvA-pi,miniboone-pi}, which both are largely contained below $\nu=300$\,MeV suggesting a lower limit on the $\nu_0$ cut to reduce sensitivities to mis-modeling. By selecting $\nu_0\geq 300$\,MeV for all neutrino energy regions, discrepancies between data and simulations at low energy transfer should appear as a nearly constant offset in each neutrino energy bin of the flux sample 
+(due to their identically restricted final-state phase spaces) 
+and are significantly constrained by the normalization technique. Given the competing concerns, the cross section and flux extraction procedure is repeated in parallel for three $\nu_0$ cuts in three energy regions, with the resulting fluxes cross-normalized by independently varying the normalization factors ($\eta$) for the flux in each neutrino energy range. 
+
+The minimum neutrino energy for each $\nu_0$ cut is set to keep the fraction of cross section events that pass the \lownu cut in each bin less than $50\%$: $\nu_0 = 300$\,MeV for $E_\nu > 2$\,GeV, $\nu_0 = 800$\,MeV for $E_\nu > 5$\,GeV, and $\nu_0 = 2$\,GeV for $E_\nu > 9$\,GeV (c.f. Fig.\,\ref{fig:overlap}). In the lowest \numubar bin this condition is not met with the \lownu sample fraction rising to $67\%$. Fig.\,\ref{fig:events} shows the focused \numu and \numubar yields for the inclusive and $\nu_0=300$\,MeV samples. 
+
+\begin{figure}[t]
+\includegraphics[height=0.45\linewidth,clip,trim=0.35in 0.15in 1.35in 1.1in]{47_overlap_nu_color}%
+\includegraphics[height=0.45\linewidth,clip,trim=0.8in 0.15in  1.35in 1.1in]{47_overlap_anti_color}
+\caption{The fraction of events in each bin of the \numu (left) and \numubar (right) samples that are included in the \lownu samples (the sample overlap) in the simulation are plotted with their statistical uncertainties. The vertical lines indicate the minimum neutrino energy for each $\nu_0$ cut. Note the bi-linear horizontal energy scale that will be employed throughout this paper.}
+\label{fig:overlap}
+\end{figure}
+
+The background in the selected samples is dominated by muon charge misreconstruction, and the background fraction is determined from the simulation. This fraction is negligible for the focused samples, but up to 5\% for the defocused samples. The simulated yield (reconstructed signal plus background) is scaled to the data in each energy bin before the background subtraction. 
+
+\begin{figure}[t]
+\includegraphics[height=0.45\linewidth,clip,trim=0 0.1in 1.5in 1.1in]{22_events_nu_0}%
+\includegraphics[height=0.45\linewidth,clip,trim=0.8in 0.1in 1.35in 1.1in]{22_events_anti_0}
+\includegraphics[height=0.45\linewidth,clip,trim=0 0.1in 1.5in 1.1in]{01_events_nu_300}%
+\includegraphics[height=0.45\linewidth,clip,trim=0.8in 0.1in 1.35in 1.1in]{01_events_anti_300}
+\caption{Reconstructed focused event yields for neutrinos in FHC (left) and antineutrinos in RHC (right) for the inclusive sample (top) and the sample restricted to $\nu_0=300$\,MeV (bottom) in data and simulation. Data are plotted with statistical uncertainties, while simulated data are plotted with systematic uncertainties.}
+\label{fig:events}
+\end{figure}
+
+The data after background subtraction are unfolded to true neutrino energy to remove detector resolution and biases in muon and recoil energy reconstruction using two-iteration Bayesian unfolding\,\cite{Bayes-unfold}. The migration probabilities are summarized in matrices of true versus reconstructed neutrino energy that are evaluated independently for each sample using the simulation. The neutrino energy binning is chosen to keep the bin migration well below 50\% to control the bin-to-bin correlations in the unfolded distributions. 
+
+The acceptance correction is derived from simulation and primarily accounts for reconstruction inefficiency due to the MINOS track-matching requirement. The acceptance also corrects for migration into, or out of, the fiducial volume and migration across the $\nu_0$ cut in the flux samples. In the \lownu samples, where most of the neutrino energy is transferred to the muon, the acceptance is greater (rising to 70\% at 5\,GeV and 90\% at 20\,GeV) than in the inclusive samples (rising to 40\% at 5\,GeV and 60\% at 20\,GeV). The energy dependence of \signu arising from both the non-zero value of $\nu_0$ and the small $Q^2$ dependence of the structure functions is evaluated utilizing the \GENIE neutrino interaction simulation (Fig.\,\ref{fig:GENIE-xsec}). 
+
+\begin{figure}[t]
+\includegraphics[height=0.45\linewidth,clip,trim=0 0.15in 1.0in 1.1in]{47_genie_xsec_nu_color}%
+\includegraphics[height=0.45\linewidth,clip,trim=0.8in 0.15in 1.0in 1.1in]{47_genie_xsec_anti_color}
+\caption{\LowNu cross sections for neutrinos and antineutrinos as derived from the \GENIE event generator (version 2.6.2). Vertical lines indicate the minimum neutrino energy for each $\nu_0$ cut.}
+\label{fig:GENIE-xsec}
+\end{figure}
+
+The normalization of the extracted flux (Eq.\,\ref{eq:flux}) is performed successively for each $\nu_0$ cut yielding a set of three normalizations. The $\nu_0=2$\,GeV flux sample is normalized such that the extracted total cross section matches an externally measured value in the 9--12 GeV bin. The normalization energy is selected to be high enough that $\sigma(E_\nu)/E_\nu$ is approximately constant but low enough to mitigate statistical uncertainties. The $\nu_0 = 800$\,MeV result is then cross-normalized to the $\nu_0 = 2$\,GeV result to minimize the $\chi^2$ difference for 9\,GeV $<$ $E_\nu$ $<$ 22\,GeV. The $\nu_0 = 300$\,MeV result is then cross-normalized to the $\nu_0$ = 800\,MeV results for 5\,GeV $<$ $E_\nu$ $<$ 22\,GeV. 
+
+To compare these cross sections to prior measurements, which are on different nuclei, we report isoscalar-corrected cross sections by multiplying by the ratio of the per nucleon cross sections on C$^{12}$ and the mix of materials in \minerva as derived from the \GENIE simulation. The isoscalar correction for neutrinos varies from 0.96 at low energies to 0.98 at high energies, while the correction for antineutrinos is essentially constant at 1.03. 
+
+The systematic uncertainties on the shapes of the flux and cross section measurements originate from a variety of sources. The MINOS collaboration reports a 2\% uncertainty on range-based momentum measurements\,\cite{MINOS-NIM}. The systematic uncertainty of a curvature-based measurement is driven by the uncertainty on the magnetic field model of the detector with uncertainties of 0.6\% for $p_\mu>1$\,GeV/c and 2.5\% for $p_\mu<1$\,GeV/c, which is added in quadrature to the range-based uncertainty\,\cite{MINERvA-NIM}. The simulated efficiency for the muon reconstruction is benchmarked by extrapolating reconstructed tracks in each detector and measuring the rate of failures in the other detector. 
+
+The systematic uncertainty on the calorimetric reconstruction of $\nu$ is estimated by convolving individual particle uncertainties into the \GENIE model's ensemble of final states. The uncertainties on the proton (10\%) and meson (5\%) calorimetric responses are derived from test beam studies.\footnote{Note this analysis uses an older version of the simulation than Ref.\,\cite{TB-NIM} and does not incorporate the improvements derived from the test beam program which would have reduced these uncertainties.} The uncertainty on the electromagnetic ($e^{\pm}, \pi^0, \gamma$) response (3\%) is derived from studies of Michel electrons\,\cite{MINERvA-NIM}, the $\pi^0$ mass peak\,\cite{MINERvA-pi0}, and a test beam study\,\cite{TB-NIM}. The neutron response uncertainty (15\%) is based on comparisons between measured inelastic cross sections of neutrons on carbon and \GEANT simulations of those measurements. At low $\nu$, where QE final states dominate, the uncertainty approaches 10\% (15\%) for neutrinos (antineutrinos). At high $\nu$, where the majority of the recoil energy is carried by charged and neutral pions, the uncertainty approaches 6\% for both neutrinos and antineutrinos. 
+
+Biases in the recoil energy measurement can come from both accidental activity in the detector and from muon bremsstrahlung.  Because the recoil energy measurement comes from summing all the energy in the detector within a 55\,ns time window, energy from other neutrino interactions coincident with the neutrino interaction of interest will be added to the recoil energy.  Furthermore, the primary muon in the event may undergo large energy loss when the muon produces knock-on electrons or emits a photon via bremsstrahlung. These secondary particles travel some distance from the muon's trajectory and may not be associated with the muon during reconstruction, which again leads to an overestimate of the recoil energy. 
+
+Accidental activity is modeled by overlaying a single simulated neutrino interaction onto a randomly selected data spill. Then, we compare the off-track energy for muon tracks between data and a simulation that includes accidental activity. The small data-simulation difference is added as a correction to the recoil energy simulation.  
+
+The \lownu flux shape measurement is largely insensitive to the neutrino flux used in the simulation. Uncertainties in the shape of this simulated flux, however, could subtly affect the unfolding correction. The flux uncertainty is dominated by the uncertainty in the external hadron-production measurements\,\cite{Leo-thesis}. There are also uncertainties in modeling the beamline focusing system\,\cite{zarko-thesis}. For the portion of the flux produced by interactions on nuclei that are not covered by external data (e.g. the aluminum horns and steel decay-pipe walls) the systematic uncertainties are derived from the spread between different hadronic interaction models\,\cite{Leo-thesis}. The effect of these uncertainties in the initial flux are found to be negligible, as verified by a data-driven test described later in the paper. 
+
+%{Models considered include GEANT4's implementation of QGSP, FTFP_BERT, QGSP_BERT, QGSC_BERT, and FTF_BIC.}
+
+The uncertainties in the \GENIE simulation are evaluated based on recommendations from the GENIE Collaboration and incorporate uncertainties in the external data used to tune their models\,\cite{GENIE-PUM}. The most significant uncertainties in the \lownu flux shape measurement, and hence the cross section measurement, are related to QE scattering and resonance production, which dominate the \lownu samples. 
+
+There are two important nuclear effects that have not yet been incorporated into the GENIE version used for this analysis.  The random phase approximation (RPA) model incorporates long-range nucleon-nucleon correlations resulting in a reduced inclusive cross section at low energy transfers. The meson exchange current (MEC) model describes a process in which nucleons within a nucleus exchange momentum via a pion during the interaction resulting in two-nucleon final states and an increased cross section in the kinematics between the QE and $\Delta$ production processes. Since the default \GENIE model does not simulate these processes, a \GENIE implementation\,\cite{genie-velencia} based on the Valencia model~\cite{valencia-model} was employed to evaluate their effects on the QE process, which include a suppression for $\nu$ $<$ 200\,MeV and modest enhancement at higher $\nu$ (Fig.\,\ref{fig:nu-dist}). The agreement between the neutrino data and simulation is significantly improved with the RPA and MEC models\,\cite{minerva-2p2h}. The entire difference between the \GENIE default prediction and the prediction including the RPA and MEC models is taken as the systematic uncertainty for these nuclear effects. The same uncertainty is also applied to the antineutrino analysis. 
+
+The \GENIE Collaboration recommends a large uncertainty on the charged-current quasi-elastic axial mass ($M_A^{CCQE}$) to cover observed discrepancies in experimental data\,\cite{GENIE-PUM}. This large range is intended to cover unmodeled effects like the those in the RPA and MEC models. Since those uncertainties are directly assessed, as described above, the large $M_A^{CCQE}$ variations are not included in the systematic uncertainty of the interaction model. Instead a smaller estimated (2\%) variation, resulting from an analysis of exclusive-state measurements from precision measurements\,\cite{Bodek-ma}, is evaluated and has a negligible effect. 
+
+\begin{figure}[t]
+\includegraphics[height=0.47\linewidth,clip,trim=0in 0.1in 1.45in 1.in]{05_nu_color}%
+\includegraphics[height=0.47\linewidth,clip,trim=0.7in 0.1in 1in 1.in]{10_nu_color}
+\caption{Area-normalized event yields as a function of $\nu$ for \numu events with $3<E_\nu<4$\,GeV (left) and $9<E_\nu<12$\,GeV (right). The square points are data plotted with statistical uncertainties, the red line is the default \GENIE prediction with shape-only systematic uncertainties, and the blue line is the modified prediction including RPA and MEC effects.} 
+\label{fig:nu-dist}
+\end{figure}
+
+This \lownu-flux analysis results in the shape of the neutrino fluxes that are then used to determine the shapes of the charged-current inclusive cross sections for neutrinos and antineutrinos. The fluxes are normalized to reproduce inclusive total cross sections between $9<E_\nu<12$\,GeV. The \numu inclusive cross section normalization is taken from the NOMAD experiment\,\cite{NOMAD-xsec}, which reports a cross section measurement with 3.6\% systematic uncertainty between $9<E_\nu<12$\,GeV. No correspondingly precise single measurement exists for \numubar. The \numubar normalization is instead set to the predictions from the \GENIE simulation, which is tuned to the world's inclusive data. The uncertainty is derived according to the prescribed \GENIE model parameter uncertainties and evaluates to 10.6\%. The normalization process adds a flat uncertainty that is the quadrature sum of the external uncertainty and the statistical uncertainty in the normalization bin. The resulting normalization factors ($\eta$ from Eq.\,\ref{eq:flux}) are listed in Table\,\ref{tbl:norm} for each sample. A value of $\eta < 1$ indicates that data prefer a lower \lownu cross section than modeled in the \GENIE simulation. 
+
+\ifnum\DoPrePrint=1
+\begin{table}[t]
+   \setlength{\tabcolsep}{4pt}
+\begin{tabular}{|c|cc|cc|}
+\hline
+$\nu_0$ cut   &  \multicolumn{2}{|c|}{neutrinos}   & \multicolumn{2}{|c|}{antineutrinos}         \\
+(GeV)     &  $\eta$ & Yield ($10^3$ events)& $\eta$ &  Yields ($10^3$ events)  \\
+\hline
+2.0 & $0.925 \pm 0.009$ & 119.1 & $0.943 \pm 0.021$ & 24.9 \\
+0.8 & $0.958 \pm 0.009$ & 75.4 &$1.085 \pm 0.019$ & 18.2 \\
+0.3 & $0.946 \pm 0.012$ & 29.6 &$1.200 \pm 0.020$ & 10.4 \\
+Incl. &  n/a & 215.2 & n/a & 32.7 \\
+\hline
+\end{tabular}
+\caption{Normalization factors ($\eta$) and their statistical uncertainties for neutrinos and antineutrinos by $\nu_0$ sample and the total event yields. The uniform 3.6\% (10.6\%) external normalization uncertainty for \numu (\numubar), described in the text, are in addition to the uncertainties in this table.}
+\label{tbl:norm}
+\end{table}
+\else
+\begin{table}[t]
+   \setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccr}
+\hline
+&\multirow{ 2}{*}{$\nu_0$ cut (GeV)}  &  \multirow{ 2}{*}{$\eta$} & \multicolumn{1}{c} {Yield} \\
+&   &   &\multicolumn{1}{c}{($10^3$ events)} \\
+\hline
+\multirow{ 4}{*}{Neutrinos}& 2.0 & $0.925 \pm 0.009$ & 119.1~~~~~ \\
+&0.8 & $0.958 \pm 0.009$ & 75.4~~~~~ \\
+&0.3 & $0.946 \pm 0.012$ & 29.6~~~~~ \\
+&Inc. &  n/a & 215.2~~~~~ \\
+\hline
+\multirow{ 4}{*}{Antineutrinos}&2.0 &  $0.943 \pm 0.021$ & 24.9~~~~~ \\
+&0.8 & $1.085 \pm 0.019$ & 18.2~~~~~ \\
+&0.3 & $1.200 \pm 0.020$ & 10.4~~~~~ \\
+&Inc. &  n/a & 32.7~~~~~ \\
+\hline
+\end{tabular}
+\caption{Normalization factors ($\eta$) and their statistical uncertainties for neutrinos and antineutrinos by $\nu_0$ sample and the total event yields. The uniform 3.6\% (10.6\%) external normalization uncertainty for \numu (\numubar), described in the text, are in addition to the uncertainties in this table.}
+\label{tbl:norm}
+\end{table}
+
+\fi
+
+The resulting normalized neutrino and antineutrino fluxes are shown in Fig.\,\ref{fig:flux} for both the FHC and the RHC beam configurations. The external normalization uncertainty dominates over the shape-dependent uncertainties\footnote{Tables with error breakdowns and covariance matrices for the extracted fluxes are included in supplementary materials.}. Muon energy reconstruction also contributes a significant uncertainty at lower neutrino energies as the measured shape of the flux is determined from \lownu events where the majority of the energy goes into the final-state muon. Each of the flux results show a similar deficit in lower energies (\mbox{2--5\,GeV}) and a modest excess at higher energies when compared to {\em a priori} flux estimations. 
+
+\begin{figure}[t]
+\includegraphics[height=1.4in,clip,trim=0.1in 1.15in 1.0in 1in]{60_nomad_flux_FHC_nu}%
+\includegraphics[height=1.4in,clip,trim=1.2in 1.15in 1.0in 1in]{48_flux_RHC_anti}
+\includegraphics[height=1.63in,clip,trim=0.1in 0.10in  1.0in 1in]{60_nomad_flux_RHC_nu}%
+\includegraphics[height=1.63in,clip,trim=1.2in 0.10in  1.0in 1in]{48_flux_FHC_anti}
+\caption{Measured fluxes for neutrinos in the FHC tune (top, left), antineutrinos in the RHC tune (top, right), neutrinos in the RHC tune (lower left), and antineutrinos in the FHC tune (lower right) are shown with combined statistical and systematic uncertainties and are compared to the {\em a priori} flux calculation used in the simulation.}
+\label{fig:flux}
+\end{figure}
+
+An independent {\em in situ} flux constraint can be obtained by measuring neutrino elastic scattering off atomic electrons. A purely leptonic process, the cross section is precisely calculable, allowing a measurement of the integrated neutrino flux based on the observed interaction rate. The MINERvA electron-scattering analysis\,\cite{minerva-nu-e-flux} agrees better (at the 10\% level) with the fluxes measured by this analysis than the version of the flux used in the simulation\,\cite{Leo-thesis}.
+
+Figure \ref{fig:xsec} shows the isoscalar-corrected inclusive charged-current cross sections for both \numu and \numubar with combined statistical and systematic uncertainties\footnote{Tables with error breakdowns and covariance matrices for the extracted cross sections are included in supplementary materials.}. By definition, the systematic uncertainties collapse to the normalization uncertainty in the 9--12\,GeV bin. The \numu cross section uncertainty is dominated by the normalization, except in the lowest energy bin where the \GENIE model and the calorimetric reconstruction each contribute significantly to the uncertainties. The \numubar cross section uncertainty is dominated by the normalization uncertainty, except at high energies where the statistical uncertainty is significant. 
+
+As a cross-check the cross section analysis is also performed using the ``defocused'' samples (neutrinos in RHC and antineutrinos in FHC). The polarity of the MINOS magnet is set to defocus the muons in these samples resulting in a significantly different acceptance correction. In the focused samples the backgrounds are negligible while in the defocused samples there are substantial backgrounds from charge-misidentified muons in MINOS. The extracted cross sections from the defocused and focused samples agree to within their statistical uncertainties. Another cross check is to repeat the analysis starting with the extracted \lownu fluxes instead of the simulated fluxes to check for consistency. The resulting cross sections are consistent to better than 1\% in every bin, which verifies that the extracted cross sections are insensitive to the initially assumed simulated fluxes. 
+
+Figure \ref{fig:xsec} compares the measured isoscalar-corrected charged-current inclusive \numu cross section to the MINOS\,\cite{MINOS-xsec}, T2K\,\cite{T2K-xsec1,T2K-xsec2, T2K-xsec3}, CCFR\,\cite{CCFR-xsec}, Argoneut\,\cite{Argoneut-xsec1,Argoneut-xsec2} IHEP-JINR\,\cite{IHEP-JINR-xsec}, NOMAD\,\cite{NOMAD-xsec},  NuTeV\,\cite{NuTeV-xsec}, CDHS\,\cite{CDHS-xsec}, and IHEP-ITEP\,\cite{IHEP-ITEP-xsec} measurements. MINOS measured inclusive cross sections on iron using the \lownu flux technique. T2K measured the cross sections in the ND280 and INGRID detectors. The T2K flux was determined from a simulation of their beamline constrained by particle production data. For this comparison, the T2K results were isoscalar corrected with a value of 1.043 for the scintillator data point (0.85\,GeV), and a value of 0.98 for the iron data points (1.1, 1.5, 2.0, and 3.3\,GeV) derived from the MINOS correction\,\cite{Debdatta-thesis}. The results of this analysis agree with the NOMAD and MINOS results within uncertainties, but extend to lower energies. 
+
+\begin{figure}[t]
+\centering
+\ifnum\DoPrePrint=1
+\includegraphics[width=.5\textwidth,clip,trim=0.25in 0.7in 1.2in 1.1in]{66_nomad_xsec_nu_color.eps}%
+\includegraphics[width=.46\textwidth,clip,trim=1.0in 0.7in 1.2in 1.1in]{60_iso_xsec_anti_color.eps}
+\else
+\includegraphics[width=.25\textwidth,clip,trim=0.25in 0.0in 1.2in 1.1in]{66_nomad_xsec_nu_color.eps}%
+\includegraphics[width=.227\textwidth,clip,trim=1.0in 0.0in 1.2in 1.1in]{60_iso_xsec_anti_color.eps}
+\fi
+\caption{Measured isoscalar-corrected inclusive charged-current neutrino cross section for neutrinos (left) and antineutrinos (right) plotted with combined statistical and systematic uncertainties and compared to world data and the GENIE simulation.} 
+\label{fig:xsec}
+\end{figure}
+
+Figure\,\,\ref{fig:xsec} also compares the measured isoscalar-corrected charged-current \numubar inclusive cross section to the MINOS\,\cite{MINOS-xsec}, IHEP-ITEP\,\cite{IHEP-ITEP-xsec}, and IHEP-JINR\,\cite{IHEP-JINR-xsec}, CCFR\cite{CCFR-xsec}, Argoneut\,\cite{Argoneut-xsec1,Argoneut-xsec2}, NuTeV\,\cite{NuTeV-xsec}, and CDHS\,\cite{CDHS-xsec} measurements. Not shown are the Gargamelle\,\cite{Gargamelle} and SciBooNE\,\cite{sciboone-inclusive} results, which reported less precise neutrino cross sections within the plotted energy range. This analysis and the IHEP-JINR results are the only measurements of the energy dependence of the charged-current inclusive antineutrino cross section below 5\,GeV. 
+
+In summary, the \lownu flux technique described in this paper yields a total charged-current inclusive cross section shape measurement on CH for both neutrinos and antineutrinos in the 2 through 9~GeV region, which is precisely the region that the current and future oscillation experiments using totally active detectors will occur.  Unlike the measurements of the individual processes (quasi-elastic, pion production) the total cross section measurements agree with the \GENIE simulation and prior data to within their uncertainties but extend to lower neutrino energies than other precision measurements. A byproduct of this analysis is the $\nu_\mu$ and $\bar\nu_\mu$ flux measurements, both for the forward and reverse horn polarities that have been used in the Low Energy NuMI beamline configuration. This is the first time a \lownu-based technique has been used in the NuMI antineutrino-enhanced beam tune. This measurement is the lowest energy application of the \lownu flux technique, and demonstrates that the technique is applicable to future neutrino beams operating at multi-GeV energies. 
+
+\vspace{1mm}
+\begin{acknowledgments}
+\vspace{-1mm}
+\input{Ack} 
+\end{acknowledgments}
+\bibliographystyle{apsrev4-1}
+\bibliography{lownu} 
+
+\clearpage
+
+\input{suppl} % extra tables 
+
+\begin{turnpage}
+\input{covar} % extra wide tables 
+\end{turnpage}
+
+\end{document}

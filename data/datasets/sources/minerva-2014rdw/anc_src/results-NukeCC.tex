@@ -1,0 +1,38 @@
+%%\section{Results}
+
+%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[!htpb]
+\centering
+\includegraphics[trim = 5mm 12mm 18mm 8mm, clip, width=0.48\columnwidth]{RatioResultPlot_CrossSectionRatio_Enu_z06_91_Nu_v19p1}
+\includegraphics[trim = 1mm 12mm 18mm 8mm, clip, width=0.48\columnwidth]{RatioResultPlot_CrossSectionRatio_x_z06_91_Nu_v19p1}
+\includegraphics[trim = 5mm 12mm 18mm 8mm, clip, width=0.48\columnwidth]{RatioResultPlot_CrossSectionRatio_Enu_z26_92_Nu_v19p1}
+\includegraphics[trim = 1mm 12mm 18mm 8mm, clip, width=0.48\columnwidth]{RatioResultPlot_CrossSectionRatio_x_z26_92_Nu_v19p1}
+\includegraphics[trim = 5mm 00mm 18mm 8mm, clip, width=0.48\columnwidth]{RatioResultPlot_CrossSectionRatio_Enu_z82_93_Nu_v19p1}
+\includegraphics[trim = 1mm 00mm 18mm 8mm, clip, width=0.48\columnwidth]{RatioResultPlot_CrossSectionRatio_x_z82_93_Nu_v19p1}
+\caption{Ratios of the charged-current inclusive \numu cross section per nucleon as a function of \Enu (left) and as a function of reconstructed \Xbj (right)
+for C/CH (top), Fe/CH (middle), and Pb/CH (bottom).  Error bars on the data (simulation) show the statistical (systematic) uncertainties.  The $\chi^{2}$ calculation includes correlations among all bins shown.  Events with \Xbj greater than 1.5 are not shown.}
+\label{fig:xsec_ratio_plots}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%
+Ratios of charged-current \numu cross sections per nucleon $\sigma\left(\Enu\right)$ and $\frac{d\sigma}{d\Xbj}$ are shown in Fig.~\ref{fig:xsec_ratio_plots}\SuppNote{See Supplemental Material\SuppLocation for cross section ratio measurements compared to simulation in tabular form and correlations of uncertainties among bins}.
+Simulation reproduces these measurements within roughly 10\%.  
+In contrast, measurements of $\frac{d\sigma^{\A}}{d\Xbj}/\frac{d\sigma^{CH}}{d\Xbj}$ show a suppression of the ratio compared to simulation at low \Xbj and an enhancement at high \Xbj, both of which increase with the size of the nucleus.
+
+Low \Xbj bins are expected to show shadowing, which lowers the cross section for heavier nuclei~\cite{e665,Allport1989417,Kopeliovich:2012kw}.
+Shadowing in these data may be larger than predicted for several reasons.
+First, our data are at low \Qsq in the nonperturbative range (80\% of events below \unit[1.0]{\GeVcsq} and 60\% below \unit[0.5]{\GeVcsq}), while the model is tuned to data at much higher \Qsq where shadowing is well measured.
+Second, shadowing in the model is assumed to be the same for C and Pb and equal to measurements from Fe~\cite{Bodek:2004pc}.
+Finally, the shadowing model used for comparison is based on charged lepton data, which do not have axial-vector contributions.
+The array of nuclear models available to modern neutrino experiments give 
+similar results for these cross section ratios; none of which is confirmed by the data.
+
+Higher \Xbj bins contain mostly ($\textgreater63\%$) quasielastic events, 
+whose rates may be enhanced by meson-exchange currents~\cite{Carlson:2001mp,PhysRevC.80.065501,PhysRevC.81.045502,Bodek:2011ps,Amaro2011151,PhysRevC.83.045501,PhysRevD.88.113007},
+which are not in the simulation.
+The excess observed here may be related to the excess in MINOS Fe data at low inelasticity compared to a simulation with nuclear corrections based on lighter nuclei similar to GENIE's~\cite{PhysRevD.77.072002,arxiv:0708.1495}.
+The failure of nuclear scaling models in this region has profound implications for neutrino oscillation experiments that utilize quasielastic events.
+For example, T2K~\cite{PhysRevLett.111.211803,PhysRevLett.112.061802} must apply a nuclear model to relate the rate in the carbon of a near detector to oxygen in the far detector.  
+LBNE~\cite{lbne_new} must extrapolate existing data on C, Fe, Pb to Ar.
+Until better models exist that cover the relevant kinematic domain, oscillation experiments must 
+incorporate the discrepancies measured here in evaluating systematic uncertainties.
+More theoretical work is needed to correctly model nuclear effects in neutrino interactions, from the quasielastic to the deep inelastic regime.

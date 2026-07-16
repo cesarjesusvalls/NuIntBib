@@ -1,0 +1,128 @@
+{
+ "bibtag": "MINERvA:2017okh",
+ "slug": "minerva-2017okh",
+ "source_url": "https://arxiv.org/abs/1708.03723",
+ "note": "Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive channel \u03bd\u03bc + CH \u2192 \u03bc\u207b + \u03c0\u2070 + nucleon(s) (CC \u03c0\u2070 production), measured by MINERvA in the low-energy NuMI \u03bd\u03bc beam (spectral peak \u22483 GeV). Distributions: muon momentum p\u03bc, muon angle \u03b8\u03bc, \u03c0\u2070 kinetic energy T\u03c0, \u03c0\u2070 angle \u03b8\u03c0, cross section vs E\u03bd (1.5\u201320 GeV), Q\u00b2 (full sample and two E\u03bd sub-ranges 1.5\u20134.0 and 4.0\u201310.0 GeV), hadronic invariant mass W, p\u03c0\u2070 invariant mass M(p\u03c0\u2070) for two subsamples (W&lt;1.8 GeV and \u0394-enriched W&lt;1.4 GeV), and the \u03c0\u2070 decay-angle distributions cos\u03b8 and \u03c6 in the p\u03c0\u2070 rest frame for the \u0394-enriched (W&lt;1.4 GeV) subsample. Antineutrino/other-flavor channels are not part of this paper. Detector: MINERvA tracker (scintillator, CH). Target: per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions).",
+ "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "muon_p",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/muon_p.csv",
+   "xlabel": "p_{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_{\\mu}",
+   "yunit": "1e-40 cm^2/nucleon/(GeV/c)"
+  },
+  {
+   "slug": "muon_theta",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/muon_theta.csv",
+   "xlabel": "\\theta_{\\mu}",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\theta_{\\mu}",
+   "yunit": "1e-40 cm^2/nucleon/degree"
+  },
+  {
+   "slug": "pi0_ke",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/pi0_ke.csv",
+   "xlabel": "T_{\\pi^0}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dT_{\\pi^0}",
+   "yunit": "1e-40 cm^2/nucleon/GeV"
+  },
+  {
+   "slug": "pi0_theta",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/pi0_theta.csv",
+   "xlabel": "\\theta_{\\pi^0}",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\theta_{\\pi^0}",
+   "yunit": "1e-40 cm^2/nucleon/degree"
+  },
+  {
+   "slug": "enu_sigma",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/enu_sigma.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_{\\nu})",
+   "yunit": "1e-40 cm^2/nucleon (per Enu bin, not per-GeV differential)"
+  },
+  {
+   "slug": "q2",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/q2.csv",
+   "xlabel": "Q^2",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^2",
+   "yunit": "1e-40 cm^2/nucleon/(GeV/c)^2"
+  },
+  {
+   "slug": "q2_lowenu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/q2_lowenu.csv",
+   "xlabel": "Q^2 \\,(1.5<E_\\nu<4.0\\,\\mathrm{GeV})",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^2",
+   "yunit": "1e-40 cm^2/nucleon/(GeV/c)^2"
+  },
+  {
+   "slug": "q2_highenu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/q2_highenu.csv",
+   "xlabel": "Q^2 \\,(4.0<E_\\nu<10.0\\,\\mathrm{GeV})",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^2",
+   "yunit": "1e-40 cm^2/nucleon/(GeV/c)^2"
+  },
+  {
+   "slug": "w",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/w.csv",
+   "xlabel": "W",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dW",
+   "yunit": "1e-40 cm^2/nucleon/GeV"
+  },
+  {
+   "slug": "delta_mass",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/delta_mass.csv",
+   "xlabel": "M(p\\pi^{0})\\,(W<1.8\\,\\mathrm{GeV},\\,T_p>100\\,\\mathrm{MeV})",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dM(p\\pi^{0})",
+   "yunit": "1e-40 cm^2/nucleon/GeV"
+  },
+  {
+   "slug": "delta_mass_rich",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/delta_mass_rich.csv",
+   "xlabel": "M(p\\pi^{0})\\,(\\Delta\\text{-enriched},\\,W<1.4\\,\\mathrm{GeV},\\,T_p>100\\,\\mathrm{MeV})",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dM(p\\pi^{0})",
+   "yunit": "1e-40 cm^2/nucleon/GeV"
+  },
+  {
+   "slug": "delta_costheta",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/delta_costheta.csv",
+   "xlabel": "\\cos\\theta\\,(\\pi^0\\text{ zenith in }p\\pi^0\\text{ rest frame},\\,\\Delta\\text{-enriched},\\,W<1.4\\,\\mathrm{GeV})",
+   "xunit": "dimensionless",
+   "ylabel": "d\\sigma/d\\cos\\theta",
+   "yunit": "1e-40 cm^2/nucleon per 0.10 of cos(theta)"
+  },
+  {
+   "slug": "delta_phi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017okh/delta_phi.csv",
+   "xlabel": "\\phi\\,(\\pi^0\\text{ azimuth in }p\\pi^0\\text{ rest frame},\\,\\Delta\\text{-enriched},\\,W<1.4\\,\\mathrm{GeV})",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\phi",
+   "yunit": "1e-40 cm^2/nucleon/degree"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2017okh/cov.csv",
+ "cov_note": "Absolute-covariance units of (1e-40 cm^2/nucleon per respective x-unit)^2. Built as a 113x113 BLOCK-DIAGONAL matrix: each of the 13 published correlation matric"
+}

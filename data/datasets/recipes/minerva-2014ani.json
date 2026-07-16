@@ -1,0 +1,65 @@
+{
+ "bibtag": "MINERvA:2014ani",
+ "slug": "minerva-2014ani",
+ "source_url": "https://arxiv.org/abs/1409.3835",
+ "note": "CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tracker but cross section quoted per carbon-12 nucleus (coherent process, whole-nucleus scattering). Three differential/flux-integrated observables, each measured separately for the neutrino- and antineutrino-mode NuMI low-energy beam: d\u03c3/dE\u03c0 (pion kinetic energy), d\u03c3/d\u03b8\u03c0 (pion angle w.r.t. beam), and \u03c3(E\u03bd) (flux-integrated cross section per E\u03bd bin, i.e. not per-GeV \u2014 an \"event rate vs energy\" style plot, not a true differential in E\u03bd). Target: per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\").",
+ "provenance": "MINERvA:2014ani \u2014 CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tr \u00b7 target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "nu_dsigma_dEpi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ani/nu_dsigma_dEpi.csv",
+   "xlabel": "E_{\\pi}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\pi}",
+   "yunit": "10^{-39} cm^2/GeV/C^{12}"
+  },
+  {
+   "slug": "nubar_dsigma_dEpi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ani/nubar_dsigma_dEpi.csv",
+   "xlabel": "E_{\\pi}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\pi}",
+   "yunit": "10^{-39} cm^2/GeV/C^{12}"
+  },
+  {
+   "slug": "nu_dsigma_dthetapi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ani/nu_dsigma_dthetapi.csv",
+   "xlabel": "\\theta_{\\pi}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\pi}",
+   "yunit": "10^{-39} cm^2/degree/C^{12}"
+  },
+  {
+   "slug": "nubar_dsigma_dthetapi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ani/nubar_dsigma_dthetapi.csv",
+   "xlabel": "\\theta_{\\pi}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\pi}",
+   "yunit": "10^{-39} cm^2/degree/C^{12}"
+  },
+  {
+   "slug": "nu_sigma_Enu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ani/nu_sigma_Enu.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_{\\nu})",
+   "yunit": "10^{-39} cm^2/C^{12} (per E_\\nu bin, not per GeV)"
+  },
+  {
+   "slug": "nubar_sigma_Enu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ani/nubar_sigma_Enu.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_{\\nu})",
+   "yunit": "10^{-39} cm^2/C^{12} (per E_\\nu bin, not per GeV)"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2014ani/cov.csv",
+ "cov_note": "60x60 block-diagonal (6 blocks of 9,9,12,12,9,9 in the exact item order listed above), each item's own bins in file order, cross-item blocks set to 0 (paper pub"
+}

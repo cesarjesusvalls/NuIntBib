@@ -1,0 +1,227 @@
+{
+ "bibtag": "MINERvA:2022esg",
+ "slug": "minerva-2022esg",
+ "source_url": "https://arxiv.org/abs/2210.01285",
+ "note": "Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C, Fe, Pb targets with the NuMI medium-energy \u03bd\u03bc beam (\u27e8E\u03bd\u27e9\u22486 GeV, ~95% \u03bd\u03bc purity), MINERvA detector at FNAL. Six differential distributions per target: d\u03c3/dE\u03bd, d\u03c3/dE\u03c0, d\u03c3/d\u03b8\u03c0, d\u03c3/dQ2, d\u03c3/d\u03b8\u03bc, d\u03c3/dE\u03bc (24 distributions total, all flux-averaged over the 2-20 GeV coherent-\u03c0+ selection). Target: Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit..",
+ "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "dsigma_denu_ch",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_denu_ch.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\nu}",
+   "yunit": "10^{-39} cm^2/GeV/(^{12}CH)"
+  },
+  {
+   "slug": "dsigma_denu_c",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_denu_c.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\nu}",
+   "yunit": "10^{-39} cm^2/GeV/(^{12}C)"
+  },
+  {
+   "slug": "dsigma_denu_fe",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_denu_fe.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\nu}",
+   "yunit": "10^{-39} cm^2/GeV/(^{56}Fe)"
+  },
+  {
+   "slug": "dsigma_denu_pb",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_denu_pb.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\nu}",
+   "yunit": "10^{-39} cm^2/GeV/(^{207}Pb)"
+  },
+  {
+   "slug": "dsigma_depi_ch",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_depi_ch.csv",
+   "xlabel": "E_{\\pi}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\pi}",
+   "yunit": "10^{-39} cm^2/GeV/(^{12}CH)"
+  },
+  {
+   "slug": "dsigma_depi_c",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_depi_c.csv",
+   "xlabel": "E_{\\pi}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\pi}",
+   "yunit": "10^{-39} cm^2/GeV/(^{12}C)"
+  },
+  {
+   "slug": "dsigma_depi_fe",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_depi_fe.csv",
+   "xlabel": "E_{\\pi}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\pi}",
+   "yunit": "10^{-39} cm^2/GeV/(^{56}Fe)"
+  },
+  {
+   "slug": "dsigma_depi_pb",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_depi_pb.csv",
+   "xlabel": "E_{\\pi}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\pi}",
+   "yunit": "10^{-39} cm^2/GeV/(^{207}Pb)"
+  },
+  {
+   "slug": "dsigma_dthetapi_ch",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dthetapi_ch.csv",
+   "xlabel": "\\theta_{\\pi}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\pi}",
+   "yunit": "10^{-41} cm^2/degree/(^{12}CH)"
+  },
+  {
+   "slug": "dsigma_dthetapi_c",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dthetapi_c.csv",
+   "xlabel": "\\theta_{\\pi}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\pi}",
+   "yunit": "10^{-41} cm^2/degree/(^{12}C)"
+  },
+  {
+   "slug": "dsigma_dthetapi_fe",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dthetapi_fe.csv",
+   "xlabel": "\\theta_{\\pi}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\pi}",
+   "yunit": "10^{-41} cm^2/degree/(^{56}Fe)"
+  },
+  {
+   "slug": "dsigma_dthetapi_pb",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dthetapi_pb.csv",
+   "xlabel": "\\theta_{\\pi}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\pi}",
+   "yunit": "10^{-41} cm^2/degree/(^{207}Pb)"
+  },
+  {
+   "slug": "dsigma_dq2_ch",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dq2_ch.csv",
+   "xlabel": "Q^{2}",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^{2}",
+   "yunit": "10^{-39} cm^2/(GeV/c)^2/(^{12}CH)"
+  },
+  {
+   "slug": "dsigma_dq2_c",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dq2_c.csv",
+   "xlabel": "Q^{2}",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^{2}",
+   "yunit": "10^{-39} cm^2/(GeV/c)^2/(^{12}C)"
+  },
+  {
+   "slug": "dsigma_dq2_fe",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dq2_fe.csv",
+   "xlabel": "Q^{2}",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^{2}",
+   "yunit": "10^{-39} cm^2/(GeV/c)^2/(^{56}Fe)"
+  },
+  {
+   "slug": "dsigma_dq2_pb",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dq2_pb.csv",
+   "xlabel": "Q^{2}",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^{2}",
+   "yunit": "10^{-39} cm^2/(GeV/c)^2/(^{207}Pb)"
+  },
+  {
+   "slug": "dsigma_dthetamu_ch",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dthetamu_ch.csv",
+   "xlabel": "\\theta_{\\mu}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\mu}",
+   "yunit": "10^{-41} cm^2/degree/(^{12}CH)"
+  },
+  {
+   "slug": "dsigma_dthetamu_c",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dthetamu_c.csv",
+   "xlabel": "\\theta_{\\mu}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\mu}",
+   "yunit": "10^{-41} cm^2/degree/(^{12}C)"
+  },
+  {
+   "slug": "dsigma_dthetamu_fe",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dthetamu_fe.csv",
+   "xlabel": "\\theta_{\\mu}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\mu}",
+   "yunit": "10^{-41} cm^2/degree/(^{56}Fe)"
+  },
+  {
+   "slug": "dsigma_dthetamu_pb",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_dthetamu_pb.csv",
+   "xlabel": "\\theta_{\\mu}",
+   "xunit": "degrees",
+   "ylabel": "d\\sigma/d\\theta_{\\mu}",
+   "yunit": "10^{-41} cm^2/degree/(^{207}Pb)"
+  },
+  {
+   "slug": "dsigma_demu_ch",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_demu_ch.csv",
+   "xlabel": "E_{\\mu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\mu}",
+   "yunit": "10^{-39} cm^2/GeV/(^{12}CH)"
+  },
+  {
+   "slug": "dsigma_demu_c",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_demu_c.csv",
+   "xlabel": "E_{\\mu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\mu}",
+   "yunit": "10^{-39} cm^2/GeV/(^{12}C)"
+  },
+  {
+   "slug": "dsigma_demu_fe",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_demu_fe.csv",
+   "xlabel": "E_{\\mu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\mu}",
+   "yunit": "10^{-39} cm^2/GeV/(^{56}Fe)"
+  },
+  {
+   "slug": "dsigma_demu_pb",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2022esg/dsigma_demu_pb.csv",
+   "xlabel": "E_{\\mu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\mu}",
+   "yunit": "10^{-39} cm^2/GeV/(^{207}Pb)"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2022esg/cov.csv",
+ "cov_note": "220x220 block-diagonal (24 diagonal blocks, one per item, no published cross-target/cross-variable correlations) covariance in ABSOLUTE cross-section units^2 ma"
+}

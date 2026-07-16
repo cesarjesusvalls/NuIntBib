@@ -1,0 +1,195 @@
+{
+ "bibtag": "MINERvA:2013bcy",
+ "slug": "minerva-2013bcy",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1305.2234",
+ "arxiv": "1305.2234",
+ "cite": "Phys.Rev.Lett. 111 022501",
+ "note": "Flux-integrated differential cross section d\u03c3/dQ\u00b2_QE for muon-antineutrino charged-current quasi-elastic (CCQE) scattering, \u03bd\u0304\u03bc + p \u2192 n + \u03bc+, measured with the MINERvA detector on a plastic scintillator (CH) tracker target, in the NuMI low-energy antineutrino beam (mean E\u03bd \u2248 3.5 GeV, flux spans 1.5-10 GeV). Title: \"Measurement of Muon Antineutrino Quasi-Elastic Scattering on a Hydrocarbon Target at E\u03bd ~ 3.5 GeV\" (Phys.Rev.Lett. 111, 022501 (2013)). Target: per proton (free/bound proton in CH; antineutrino CCQE \u03bd\u0304\u03bc+p\u2192n+\u03bc+, so normalization is per proton, explicitly stated in both the ancillary CSV header and the LaTeX results table as \"cm^2/GeV^2/proton\").",
+ "distributions": [
+  {
+   "key": "dsigma_dsigma_dQ2",
+   "slug": "dsigma_dsigma_dQ2",
+   "name": "d\u03c3/dQ\u00b2_QE",
+   "name_tex": "$d\\sigma/dQ^2_{QE}$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$d\\sigma/dQ^2_{QE}$",
+   "yunit": "10^{-38} cm^2/GeV^2/proton",
+   "yunit_tex": "$10^{-38} cm^2/GeV^2/proton$",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.025,
+     "center": 0.0125,
+     "val": 0.813,
+     "err": 0.108
+    },
+    {
+     "i": 1,
+     "lo": 0.025,
+     "hi": 0.05,
+     "center": 0.037500000000000006,
+     "val": 1.061,
+     "err": 0.142
+    },
+    {
+     "i": 2,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 1.185,
+     "err": 0.154
+    },
+    {
+     "i": 3,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 1.096,
+     "err": 0.137
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.4,
+     "center": 0.30000000000000004,
+     "val": 0.777,
+     "err": 0.103
+    },
+    {
+     "i": 5,
+     "lo": 0.4,
+     "hi": 0.8,
+     "center": 0.6000000000000001,
+     "val": 0.34,
+     "err": 0.051
+    },
+    {
+     "i": 6,
+     "lo": 0.8,
+     "hi": 1.2,
+     "center": 1.0,
+     "val": 0.123,
+     "err": 0.026
+    },
+    {
+     "i": 7,
+     "lo": 1.2,
+     "hi": 1.35,
+     "center": 1.275,
+     "val": 0.041,
+     "err": 0.011,
+     "hi_true": 2.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minerva-2013bcy/dsigma_dQ2.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1305.2234",
+   "provenance": "MINERvA:2013bcy \u2014 Flux-integrated differential cross section d\u03c3/dQ\u00b2_QE for muon-antineutrino charged-current quasi-elastic (CCQE) scatteri \u00b7 target per proton (free/bound proton in CH; antineutrino CCQE \u03bd\u0304\u03bc+p\u2192n+\u03bc+, so normalization is per proton, explicitly stated in both the ancillary CSV header and the LaTeX results table as \"cm^2/GeV^2/proton\") \u00b7 from the arXiv ancillary data release",
+   "notes": "MINERvA:2013bcy \u2014 Flux-integrated differential cross section d\u03c3/dQ\u00b2_QE for muon-antineutrino charged-current quasi-elastic (CCQE) scatteri. Target per proton (free/bound proton in CH; antineutrino CCQE \u03bd\u0304\u03bc+p\u2192n+\u03bc+, so normalization is per proton, explicitly stated in both the ancillary CSV header and the LaTeX results table as \"cm^2/GeV^2/proton\")."
+  }
+ ],
+ "covariance": {
+  "order": [
+   "dsigma_dQ2 [0,0.025]",
+   "dsigma_dQ2 [0.025,0.05]",
+   "dsigma_dQ2 [0.05,0.1]",
+   "dsigma_dQ2 [0.1,0.2]",
+   "dsigma_dQ2 [0.2,0.4]",
+   "dsigma_dQ2 [0.4,0.8]",
+   "dsigma_dQ2 [0.8,1.2]",
+   "dsigma_dQ2 [1.2,2]"
+  ],
+  "note": "Built from the correlation matrix \u03c1 in anc/nubar-crossSection.csv (\"Correlation Matrix\" block, NOT the separate \"Cross-Section Shape Correlation Matrix\" block w",
+  "matrix": [
+   [
+    0.011664,
+    0.013557,
+    0.015152,
+    0.013331,
+    0.0092107,
+    0.0038556,
+    0.0010165,
+    0.00035284
+   ],
+   [
+    0.013557,
+    0.020164,
+    0.019965,
+    0.017586,
+    0.011993,
+    0.0048883,
+    0.0012664,
+    0.00043424
+   ],
+   [
+    0.015152,
+    0.019965,
+    0.023716,
+    0.019874,
+    0.013879,
+    0.005702,
+    0.0014134,
+    0.00054039
+   ],
+   [
+    0.013331,
+    0.017586,
+    0.019874,
+    0.018769,
+    0.013166,
+    0.0057643,
+    0.0015352,
+    0.00062239
+   ],
+   [
+    0.0092107,
+    0.011993,
+    0.013879,
+    0.013166,
+    0.010609,
+    0.0048117,
+    0.0014488,
+    0.00064128
+   ],
+   [
+    0.0038556,
+    0.0048883,
+    0.005702,
+    0.0057643,
+    0.0048117,
+    0.002601,
+    0.00085262,
+    0.00036633
+   ],
+   [
+    0.0010165,
+    0.0012664,
+    0.0014134,
+    0.0015352,
+    0.0014488,
+    0.00085262,
+    0.000676,
+    0.00021507
+   ],
+   [
+    0.00035284,
+    0.00043424,
+    0.00054039,
+    0.00062239,
+    0.00064128,
+    0.00036633,
+    0.00021507,
+    0.000121
+   ]
+  ]
+ }
+}

@@ -1,0 +1,942 @@
+
+
+%% ****** Start of file template.aps ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.0 of REVTeX, August 2001
+%%
+%%
+%%   Copyright (c) 2001 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a temFplate for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%\documentclass[aps,prl,twocolumn,superscriptaddress, floatfix,nofootinbib]{revtex4-2}  % for review and submission
+%\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib]{revtex4-2}
+%\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,linenumbers]{revtex4-2}
+%\documentclass[aps,preprint,superscriptaddress,nofootinbib,linenumbers]{revtex4-2}
+
+%\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,nofootinbib] floatfix]{revtex4-2}  % for review and submission
+%\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress,linenumbers]{revtex4-2}  % for double-spaced preprint
+%\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress,linenumbers]{revtex4-2}  % for double-spaced preprint with linenumbers
+
+% run into some weird problems wiht revtex4-2; not sure why, but can fall back here
+
+%\documentclass[prl,twocolumn,preprintnumbers,floatfix,letterpaper,showpacs,showkeys,superscriptaddress,nofootinbib]{revtex4}
+%\documentclass[aps,preprint,preprintnumbers,floatfix,letterpaper,showpacs,showkeys,superscriptaddress,nofootinbib,linenumbers]{revtex4}  % for double-spaced preprint with linenumbers
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% PRL layout
+%\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,floatfix,linenumbers,nofootinbib]{revtex4-1}
+\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,floatfix,nofootinbib]{revtex4-1}
+%
+% One Column preprint layout with numbering
+%
+%\documentclass[aps,preprint,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,nofootinbib,floatfix,linenumbers]{revtex4-1} 
+%
+% One Column preprint layout without numbering
+%
+%\documentclass[aps,onecolumn,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,nofootinbib,floatfix,prl,10pt,preprint]{revtex4-1} %Include abstract lines number
+
+\usepackage{graphicx}  % needed for figures
+\usepackage{dcolumn}   % needed for some tables
+\usepackage{bm}        % for math
+\usepackage{adjustbox}
+\usepackage{amssymb}   % for math
+\usepackage[caption=false]{subfig}
+\usepackage{xcolor}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{subfiles}
+\usepackage{placeins}
+\usepackage{array}
+\usepackage[normalem]{ulem}
+\usepackage{xspace}
+\usepackage{lipsum}
+\usepackage{lineno}
+\usepackage{float}
+\bibliographystyle{apsrev4-1}
+\renewcommand{\floatpagefraction}{0.9}
+\renewcommand{\dblfloatpagefraction}{0.9}
+\renewcommand{\textfraction}{0.01}
+\usepackage{hyperref}
+
+\newcommand{\phref}[2]{\href{#2}{#1}}
+% avoids incorrect hyphenation, added Nov/08 by SSR
+\hyphenation{ALPGEN}
+\hyphenation{EVTGEN}
+\hyphenation{PYTHIA}
+
+%Two line command size
+\newcommand{\twoplotsnoleg}{0.24\textwidth}
+\newcommand{\twoplotswleg}{0.2\textwidth}
+\newcommand{\plotleg}{0.07\textwidth}
+\newcommand{\errorplot}{0.15\textwidth}
+\newcommand{\errorleg}{0.1\textwidth}
+\newcommand{\threeplots}{0.165\textwidth}
+\newcommand{\oneplot}{0.45\textwidth}
+
+\makeatletter
+\newcommand{\figwidth}{%
+  \ifdim\columnwidth=\textwidth
+    0.35\columnwidth
+  \else
+    0.49\columnwidth
+  \fi
+}
+\makeatother
+
+% switch for sections
+%\newcommand{\showSections}[0]{1}
+\newcommand{\showSections}[0]{0}
+
+% reference to supplemental material
+\newcommand{\supp}{the supplemental material}
+
+% make only the main PRL file (\PRLandSuppfalse) or the a full PRL + Supplemental (\PRLandSupptrue)
+\newif\ifPRLandSupp
+% pick one of these options
+\PRLandSupptrue
+%\PRLandSuppfalse
+
+% color figures?
+\newif\ifColorFigures
+% pick one of these options
+\ColorFigurestrue
+%\ColorFiguresfalse
+
+% try to add section labeling for the supplemental material
+\def\thesubsection{\Alph{subsection}}
+\setcounter{subsection}{0}
+\makeatletter
+\renewcommand{\p@subsection}{}
+\makeatother
+
+\begin{document}
+%\linenumbers
+\include{minerva_preamble}
+\include{affiliations}
+
+% the following line is for submission, including submission to the arXiv!!
+%\hspace{5.2in} \mbox{Fermilab-Pub-04/xxx-E}
+
+\title{High Statistics Measurements of \numu Charged-Current Single \pip Production with Zero Pion Kinetic Energy Threshold in \minerva}
+
+\author{E.~Granados} \thanks
+{\everThanks} \affiliation{\Guanajuato}
+\author{B.~Messerly} \thanks{\bamThanks} \affiliation{\Pittsburgh}
+\author{S.~Akhter}                        \affiliation{\AMU}
+\author{M.~Sajjad~Athar}                  \affiliation{\AMU}
+\author{S.A.~Dytman}                      \affiliation{\Pittsburgh}
+\author{J.~Felix}                         \affiliation{\Guanajuato}
+\author{L.~Fields} \affiliation{\ND}
+\author{P.K.Gaur}                         \affiliation{\AMU}
+\author{S.M.~Gilligan}                    \affiliation{\OregonState}
+\author{R.~Gran}                          \affiliation{\UMD}
+\author{D.A.~Harris}                      \affiliation{\york}  \affiliation{\FNAL}
+\author{A.L.~Hart}                        \affiliation{\qmul}
+\author{J.~Kleykamp}\thanks{\kleykampThanks}  \affiliation{\Rochester}
+\author{A.~Klustov\'{a}}                  \affiliation{\ICL}
+\author{M.~Kordosky}                      \affiliation{\WM}
+\author{D.~Last}                          \affiliation{\Rochester}  \affiliation{\upenn}
+\author{S.~Manly}                         \affiliation{\Rochester}
+\author{W.A.~Mann}                        \affiliation{\Tufts}
+\author{K.S.~McFarland}                   \affiliation{\Rochester}
+\author{O.~Moreno}                        \affiliation{\WM}  \affiliation{\Guanajuato}
+\author{J.G.~Morf\'{i}n}                  \affiliation{\FNAL}
+\author{A.~Olivier}\thanks{\aolivierThanks}  \affiliation{\ND}  \affiliation{\Rochester}
+\author{V.~Paolone}                       \affiliation{\Pittsburgh}
+\author{G.N.~Perdue}                      \affiliation{\FNAL}  \affiliation{\Rochester}
+\author{C.~Pernas}                        \affiliation{\WM}
+\author{M.A.~Ram\'{i}rez}                 \affiliation{\upenn}  \affiliation{\Guanajuato}
+\author{N.~Roy}                           \affiliation{\york}
+\author{D.~Ruterbories}                   \affiliation{\Rochester}
+\author{C.J.~Solano~Salinas}              \affiliation{\UNI}
+\author{M.~Sultana}                       \affiliation{\Rochester}
+\author{N.H.~Vaughan}                     \affiliation{\OregonState}
+\author{A.V.~Waldron}                     \affiliation{\qmul}  \affiliation{\ICL}
+\author{M.O.~Wascko}                      \affiliation{\oxford}  \affiliation{\ICL}
+\author{B.~Yaeggy}\thanks{\byaeggyThanks}  \affiliation{\USM}
+\author{L.~Zazueta}\thanks{\lazazuetareyesThanks}  \affiliation{\WM}
+
+
+
+
+
+
+
+
+\collaboration{The MINERvA Collaboration}\ \noaffiliation
+
+
+\date{\today}
+\begin{abstract}
+%Measurements of charged-current pion production are critical inputs to event generators used by many neutrino experiments, including long-baseline oscillation experiments such as NOvA~\cite{PhysRevD.106.032004}, T2K~\cite{Abe:2011ks}, Hyper-Kamiokande~\cite{Hyper-Kamiokande:2018ofw}, and DUNE~\cite{DUNE:2015lol}.  We present single-differential cross section measurements of \numu-induced charged-current 1\pip production on scintillator using the MINERvA detector at Fermilab.
+This Letter presents measurements of single-differential cross sections of \numu-induced charged-current 1\pip production on scintillator using the MINERvA detector at Fermilab. These  measurements use traditional track-based pion reconstruction as well as pions identified solely via Michel electron decays, allowing measurement of kinetic energies from 0 to 350 \MeV. In total, 91,843 events were selected with \Wexp $<$ 1.4 GeV/c. Differential cross sections as a function of pion and muon kinematic variables are presented and compared with the predictions of several neutrino event generators. Overall, modern pion production models tend to agree with data at the ends of the kinematic regions probed, but are discrepant with the main regions of the phase space probed by up to 15\% in muon observables and up to 20\% in pion observables. No model describes any of the variables well, and this result highlights model areas that require improvement for the next generation of neutrino oscillation experiments. 
+
+\end{abstract}
+
+\maketitle
+
+\if\showSections1 \section{Motivation} \fi
+
+Pion production via resonances dominates the neutrino-induced charged-current (CC) interaction cross section between \Enu $\sim$ 1.5--4.5 \GeV~\cite{Formaggio:2013kya}.   Accurate models of these interactions are necessary in order for experiments such as NOvA \cite{PhysRevD.106.032004}, T2K \cite{Abe:2011ks}, HyperK \cite{Hyper-Kamiokande:2018ofw}, and DUNE \cite{DUNE:2015lol} to extract neutrino oscillation parameters from their datasets.  These models must account for both the primary neutrino-nucleon interactions as well as a variety of effects created by the dense nuclear environment. Their verity hinges on availability of precise measurements and their implementation requires validation and tuning. This Letter presents new measurements of \numu-induced CC 1\pip production on scintillator using the \minerva detector~\cite{Aliaga:2013uqz}. It follows previous measurements of this process by \minerva~\cite{Eberly:2014mra,McGivern:2016bwh,Bercellie.131.011801} but adds pions reconstructed solely via Michel electron decays, which enable a measurement without a pion energy threshold for the first time, and substantially reduces statistical uncertainties.
+
+\if\showSections1 \section{\minerva Detector and Beam} \fi
+
+This measurement uses $1.06\times 10^{21}$ protons on target (POT) collected in the NuMI neutrino beam~\cite{Anderson:1998zza,Adamson:2015dkw}.  The beam was in the ``Medium Energy" configuration, where 120 \GeVc protons strike a 1.2 \m long graphite target, producing a neutrino spectrum peaked at \Enu$\sim$ 6--7 \GeV at the on-axis \minerva detector located ~1 km downstream of the target.  
+
+The \minerva detector~\cite{Aliaga:2013uqz} is composed of 208 hydrocarbon scintillator planes (16.6 mm thick) interspersed with various target materials. This analysis uses interactions produced in the central tracking region which contains only scintillator. Downstream of this region are an electromagnetic and hadronic calorimeter consisting of scintillator planes separated by thin layers of lead and iron, respectively. A target region, located upstream of the central tracking and containing passive helium, carbon, iron, lead, and water targets, is not used for this measurement, but pion production on these targets has been published in \cite{Bercellie.131.011801}. The MINOS near detector~\cite{MINOS:2008hdf} sits 2.1 meters downstream of \minerva. It serves as a spectrometer for muons exiting \minerva, and is used to determine whether the interaction originated from a neutrino or an antineutrino.
+ 
+\if\showSections1 \section{Simulation} \fi
+
+A detailed simulation of the \minerva experiment is used to estimate backgrounds and correct for detector efficiency, acceptance, and smearing. This simulation begins with a Geant4-based simulation~\cite{1610988,Agostinelli2003250} of the NuMI beamline and neutrino flux, which are tuned by external hadron-production data~\cite{Aliaga:2016oaz} and by \minerva measurements of neutrino-electron elastic scattering and inverse muon decay~\cite{MINERvA:2021dhf,PhysRevD.107.012001}.  The \minerva detector simulation is also based on Geant4, and the predicted detector response is constrained by data from a scaled-down version of \minerva operated in the Fermilab Test Beam Facility~\cite{Aliaga:2015aqe}.
+\begin{figure*}[!bhtp]
+    
+%\end{figure*}[bhtp]
+    \centering
+    \includegraphics[width=.90\linewidth]{figures/2D_ratio_DataMnvModelsMnvH1D_mixtpi_vs_q2.pdf}
+    \caption{Ratios of predicted event distributions after background subtraction for data (black) and MnvTune v4.7.1 (red) to MnvTune v4.3.1.  } %In the middle \Qsq region, data closely mirrors the model ratio, indicating alignment of the data and fully tuned model.}
+    \label{fig:tune_impact}
+\end{figure*}
+
+Neutrino interactions are simulated with a GENIE 2.12.6 base model~\cite{Andreopoulos201087,Andreopoulos:2009rq}, then modified with an empirical \minerva tune, MnvTune v4.7.1, which has been tuned to a variety of MINERvA data, including the data analyzed in this paper. The nuclear base model uses a Relativistic Fermi Gas (RFG)~\cite{Hassanabadi:2014kba} representation of the nuclear ground state with the Bodek-Ritchie high-momentum tail \cite{PhysRevD.23.1070,PhysRevD.24.1400}. Intranuclear rescattering is simulated by INTRANUKE-hA~\cite{dytman2008hadronicshowerenergyscale}. The quasielastic (QE) and 2-particle 2-hole (2p2h) scattering models employed are described in~\cite{MINERvA:2023kuz}; these processes produce pions only through Final State Interactions (FSI) and are predicted to constitute $<$ 1\% of the selected sample. The Bodek-Yang model~\cite{Bodek:2004pc} simulates Deep Inelastic Scattering (DIS) for events with invariant mass ($W$) beyond 1.4 GeV, including contributions to low square of the momentum transferred (\Qsq). Coherent pion production constitutes a small portion of this analysis's signal and is simulated using the Rein-Sehgal model~\cite{Rein:1982pf}.
+
+Resonant pion production, the process to which this analysis is primarily sensitive, is simulated by using the Rein-Sehgal~\cite{Rein:1980wg} model with an axial mass of 0.94 \GeVcsq---based on re-analyzed deuterium bubble chamber data~\cite{Rodrigues:2016xjj,Mislivec:2017qfz}. From the same data, non-resonant pion production normalization is reduced to 43\% of the base model value~\cite{Rodrigues:2016xjj}, and resonant pion production normalization is increased by 15\%. A mistake present in GENIE's model of elastic FSI in pions and protons is also bypassed~\cite{Harewood:2019rzy} by removing elastic FSI from the model. The energy and angle distributions of coherent pions are adjusted to match \minerva data~\cite{PhysRevLett.131.051801}. The coherent events in the simulation are weighted up by 43.7\% to account for diffractive charged pion production on hydrogen, based on the Kopeliovich \cite{Kopeliovich:2012tu} model. A weight as a function of the four-momentum transfer squared (\Qsq) is applied to non-coherent pion production on non-hydrogen nuclei to suppress rates in the lowest bins of \Qsq based on the MINERvA data described in~\cite{Bercellie.131.011801}. This weight has the impact of aligning pion production simulation more closely with modern versions of generators such as GENIE 3~\cite{Andreopoulos201087} and NEUT~\cite{Hayato:2009zz}.
+
+The simulation described up to this point specifies MnvTune v4.3.1 and was employed in \minerva's previous CC 1\pip result~\cite{Bercellie.131.011801}. This analysis differs from~\cite{Bercellie.131.011801} by extending the signal pion kinetic energy (\Tpi) region down to \Tpi $\sim$ 0. With the inclusion of these low-\Tpi events, substantial discrepancies between data and MnvTune v4.3.1 were observed, and thus an additional weight is applied that modifies 1 pion production as a function of true \Tpi and \Qsq. The result is MnvTune v4.7.1. Its impact, relative to v4.3.1, is shown in Fig.\ref{fig:tune_impact}.
+
+\if\showSections1 \section{Signal Definition} \fi
+
+The signal process of this analysis is defined as a \numu CC interaction inside of the inner tracking volume, producing a single \muminus, a single \pip, any number of baryons, and no other mesons in the final state. To isolate a primarily $\Delta(1232)$ resonance signal, the invariant mass \Wexp is required to be less than 1.4 \GeVcsq.  This is derived assuming the nucleon is at rest from experimentally observable quantities:
+\begin{eqnarray}
+E_{\nu} &=& \Ehad + E_{\mu}
+    \label{eq:nu}\\
+    Q^2 &=& 2E_\nu\left(E_\mu - \left|\vec{p}_\mu\right|\cos\theta_{\mu\nu}\right) - m_\mu^2 \label{eq:q2} \\
+    \Wexp^2 &=& m_N^2 - \Qsq + 2m_N\Ehad \label{eq:wexp}.
+\end{eqnarray}
+Here, \Enu is the incoming neutrino energy, \Qsq is the square of the momentum transferred from the neutrino to the hadronic system, $m_N$ is the average of the proton and neutron masses, \Ehad is the total energy of final state hadrons, and $E_\mu$, $\vec{p}_\mu$, $\theta_{\mu\nu}$, and $m_\mu$ are the energy, momentum, angle with respect to the neutrino beam, and mass of the final state muon, respectively.
+
+Kinematic constraints corresponding to detector acceptance limitations are further imposed on the signal process. Muon momentum is limited to 1.5 $<$ \pmu $<$ 20 \GeVc and muon angle to \thmu $<$ 20\degs. High energy pions tend to exit or interact in the detector, degrading their energy measurement, and thus \Tpi is required to be less than 350 \MeV.
+
+For the \thpi differential cross section measurement only, an additional signal constraint requiring \Tpi $>$ 20 \MeV is imposed. Below this energy, tracks are too short to be reconstructed, pions are identified from their Michel electron candidate signatures alone, and \thpi cannot be resolved.
+
+\if\showSections1 \section{Event Selection and Reconstruction} \fi
+
+Within a 10 $\mu$s NuMI spill, multiple neutrino interactions may occur in the MINERvA detector, each producing energy deposition (``hits'') in MINERvA scintillator strips from charged particles. Hits within a single spill are grouped into time slices that range from 24 \ns to 100 \ns, corresponding to energy depositions from a single neutrino interaction. Within each time slice, hits on neighboring scintillator strips are grouped into clusters and tracking algorithms are used to reconstruct charged particle tracks. Tracks that are matched to corresponding tracks in the MINOS detector are assumed to be muons.  Muon tracks are required to have reconstructed momentum 1.5 $ < p <$ 20 \GeVc and angle $\theta <$ 20\degs, matching the geometric acceptance of the MINERvA and MINOS detectors. Each event candidate considered in this analysis corresponds to a single time slice containing one muon.
+
+Pion identification and reconstruction begins with a decay Michel electron candidate from the process $\pi^+\rightarrow\mu^+\rightarrow e^+$.  The \minerva detector collects data for approximately 4 \micros after the end of a beam spill, corresponding to two to six muon lifetimes. Michel electron candidates are first identified as groups of hits with appropriate energies that occur in a time slice after the neutrino interaction. The number of planes traversed and the quality of a positional fit of the hits to a straight line are calculated as subsequent reconstruction quality metrics. For events with tracked pion candidates, each Michel electron candidate is paired with its closest track endpoint up to a maximum distance of between 7.5 \cm and 50 \cm, chosen based on the Michel electron candidate quality metrics, and optimized to maximize efficiency and purity and to minimize systematic uncertainties. After a successful track pairing, the track's energy deposition ($dE/dx$) is required to be consistent with that of a stopping pion. Pion energy is reconstructed using a fit to the track $dE/dx$ and the pion angle is reconstructed using a Kalman filter~\cite{Kalman1,Kalman2}.
+
+Michel electron candidates that fail any of the track pairing requirements (or candidates that occur after an event that lacks a reconstructed pion track altogether) are given another opportunity to be paired with any track endpoint with no $dE/dx$ constraints or to the interaction vertex, but with significantly more stringent distance and Michel electron reconstruction quality constraints. Events passing these cuts are considered to contain an untracked pion, and the analysis uses their reconstructed location relative to the paired track endpoint/interaction vertex for kinetic energy and angle determination.  As shown in Fig. \ref{fig:tpi_estimator}, the kinetic energy is extracted from the fitted correlation between Michel-to-endpoint (or Michel-to-vertex) distance (``Pion Range'') and pion kinetic energy \Tpi for simulated pion events. The pion angle \thpi is defined as the angle between the neutrino beam direction and a vector from the neutrino interaction vertex to the Michel electron candidate position. Further detail on this reconstruction method can be found in~\cite{SultanaThesis}, and we note a similar method was employed in recent \nue CC \pip results from T2K~\cite{klhv-7t6h}.
+
+% \begin{figure}[bhtp]
+%     \centering
+%     \includegraphics[width=0.98\linewidth]{figures/UntrackedPionVariableDiagram.png}
+%     \caption{Diagram that shows how the pion range is measured.}
+%     \label{fig:UntrackedPionsVariables}
+% \end{figure}
+
+
+\begin{figure}[bhtp]
+    \centering
+    \includegraphics[width=0.98\linewidth]{figures/tpi_estimator.pdf}
+    \caption{Correlation (black) between true \Tpi and measured Michel electron candidate distance from the interaction vertex or track endpoint for simulated pions and the fit (red) that is used to reconstruct \Tpi based on pion range in data. Error bars are statistics-only.}
+    \label{fig:tpi_estimator}
+\end{figure}
+
+This untracked pion selection method expands \minerva's acceptance of charged pions for the first time to include 0 $<$ \Tpi $<$ 35 \MeV, while also nearly doubling the efficiency (from 6\% to 11\%) across the \Tpi spectrum. Simulation studies indicate that the more stringent match distance and Michel electron candidate quality cuts identify pion endpoints with high reliability. Fig. \ref{fig:pion_reco} shows selected reconstructed pion kinetic energy before background subtraction in data, subdivided by reconstruction method. Relatively few events satisfy both reconstruction methods (``Overlap'' category), which only occurs when a high quality Michel electron candidate was matched to a pion-like track endpoint with the tighter match range requirements. For these events, kinematics from the ``Tracked'' method are used for subsequent analysis.  
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.99\linewidth]{figures/Stacked_Tpi_mixed_tpiweight.pdf}
+    \caption{Selected data events in \Tpi, separated by pion reconstruction method. The new ``Untracked'' Michel-only reconstruction method significantly increases acceptance and efficiency on top of the ``Tracked'' method used in previous \minerva CC$\pipm$ analyses, especially at low \Tpi. In the ``Overlap'' category are events passing selection criteria for both reconstruction techniques, in which case the ``Tracked'' reconstruction is used for subsequent analysis. }
+    \label{fig:pion_reco}
+\end{figure}
+
+After charged pion identification, a cut requiring at most one isolated energy deposition is used to remove events with $\pi^0$s. Simulation predicts that these events constitute $<$ 3\% of the selected sample after all cuts. Finally, an experimental invariant hadronic mass cut \Wexp $<$ 1.4 $\GeV/c^2$ isolates the $\Delta$ (1232) resonance and removes high-multiplicity events which are difficult to resolve. Hadronic energy (\Ehad) in Eq.~\eqref{eq:wexp} is measured as the sum of the reconstructed pion energy and the remaining detector energy, which is corrected by data-driven calorimetry~\cite{Aliaga:2015aqe}.
+
+In all, 45,182 events were selected by the untracked technique, 46,661 events by the tracked technique, for a total of 91,843 total events accounting for overlap.
+
+\if\showSections1 \section{Cross Section Measurement} \fi
+
+A sideband composed of events with reconstructed \Wexp $>$ 1.5 $\GeV/c^2$ is employed to constrain the background model. This region is dominated by events with true \Wexp $>$ 1.4 $\GeV/c^2$,  high pion multiplicity, and unseen neutral pion energy, which constitute this analysis's dominant background. The sideband region is broken up into four samples: (1) signal events with reconstructed \Wexp $>$ 1.5 \GeVcsq, (2) background with true \Wexp $<$ 1.4 \GeVcsq (lower sideband background), (3) background with 1.4 $<$ true \Wexp $<$ 1.8  $\GeV/c^2$ and (4) background with 1.8 $\GeV/c^2$ $<$ true \Wexp. The normalizations for samples (3) and (4) are simultaneously fit to match the data. The fitted weights are 0.99 and 1.03 in the lower and upper sideband backgrounds, respectively. These weights are close to unity, indicating that the model background prediction closely matches the data. This good agreement is in part due to the \Qsq and \Tpi tunes of the signal model, without which the weights are $\sim$10--15\%.
+
+After background subtraction, iterative D'Agostini unfolding~\cite{D'Agostini:1994zf,DAgostini:2010xxxxx,Adye:2011gm} is used to correct for the detector resolution. The number of iterations used for unfolding was determined by the stability of unfolding with fake data from alternate models. Four iterations were used for \pmu, \pzmu, and \thmu, and ten iterations for \Tpi, \thpi, \ptmu, and \Qsq. Uncertainty on the unfolding matrix itself is considered by manually inflating the statistical uncertainty until nominal fake data is unfolded to simulated unsmeared values with $\chi^2$/ndf $\sim$ 1. 
+
+Differential cross sections are obtained by correcting for efficiency and acceptance and normalizing by the integrated neutrino flux (0-100 \GeV) and the number of target nucleons ($\sim 3.47\times10^{30}$). Fig. \ref{fig:body_xsecs} shows differential cross sections as a function of \Tpi, \thpi, \pmu, \pzmu, \ptmu, \thmu, and \Qsq with total (statistical + systematic) uncertainties and various generator predictions.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\figwidth]{figures/CrossSection_mixtpi__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=\figwidth]{figures/CrossSection_mixthetapi_deg__OnePiThetaPi_BWN_Nuisance.pdf}
+    \includegraphics[width=\figwidth]{figures/CrossSection_pmu__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=\figwidth]{figures/CrossSection_pzmu__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=.47\linewidth]{figures/CrossSection_ptmu__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=\figwidth]{figures/CrossSection_thetamu_deg__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=\figwidth]{figures/CrossSection_q2__1Pi_BWN_Nuisance.pdf}
+    \caption{Differential cross sections compared with several generators for \Tpi, \thpi, \pmu, \pzmu, \ptmu, \thmu, and \Qsq with statistical (inner) and total (outer) error bars. Overall, GENIE v3 $hN$ has the best agreement with data, but no model captures the full range of variables and kinematics.}
+    \label{fig:body_xsecs}
+\end{figure}
+
+Systematic uncertainties are estimated by repeating the cross section measurement in many different universes wherein a parameter or group of parameters associated with modeling of the neutrino interaction, beam flux, detector response, or reconstruction method are varied within their tolerances. From these measurements a covariance matrix is constructed for each variable, the diagonal of which contains the standard deviations of universe measurements, which are taken to be the systematic uncertainties. The procedure is further detailed in~\cite{Messerly_2021}. \minerva's procedure for flux uncertainty estimation is described in~\cite{Aliaga:2016oaz}. Uncertainties on the signal model are estimated using GENIE event reweighting functionality as well as additional uncertainties assessed on each of the modifications MINERvA makes to the GENIE model.  To address outstanding disagreement between the data and MnvTune v4.7.1 simulation that is not covered by these signal model uncertainties, a single systematic universe is implemented in which the model is further weighted in true \Tpi-\Qsq space to match the background-subtracted data.   
+
+Total uncertainties are close to 6\% in most regions of phase space. The dominant source of uncertainty varies across the kinematic regions reported. Statistical uncertainties are smaller than systematic uncertainties in most bins. Individual systematic contributions vary around 3\% with largest contributions from neutrino flux and muon energy reconstruction.
+
+MnvTune v4.7.1 weights, sideband distributions, efficiencies, error distributions, cross section tables, data-MC ratios, covariance matrices, and $\chi^2$ scores describing model agreement with data for all variables can be found in \supp.
+
+\if\showSections1 \section{Results and Conclusion} \fi
+
+GENIE v3.0.6 $hN$~\cite{andreopoulos2015genieneutrinomontecarlo} performs best overall, but no model captures the full range of variables and kinematics. In \Tpi, models and data agree in the first bin (0 -- 20 \MeV) and last bin (200 -- 350 \MeV), but agreement is poor elsewhere, with GENIE v3 $hN$ best across the entire spectrum. NEUT 5.4.1~\cite{Hayato_2021} and NuWro  19.02~\cite{Golan:2012wx} do significantly better in \thpi than GENIE and GiBUU 2021~\cite{BUSS20121}. The variable best-described by all models is \Qsq, though all models diverge from data at high \Qsq, strongly underpredicting. All models agree better in muon variables compared to the pion variables, perhaps due to the greater availability of prior data in muon variables, which have informed models.  
+
+In summary, this analysis improves upon previous \minerva CC 1\pip measurements by significantly increasing statistics with untracked pions reconstructed from their Michel electron signature alone. For model comparisons to CH, the new results and signal definition supersede the one in \cite{Bercellie.131.011801}. The previous results remain the best for the A-dependent ratios. This method also extends the measured phase space to \Tpi $\sim$ 0, a region where there is a dearth of published results. The differential cross sections are also compared with several generator predictions.  While some generators perform better than others, none accurately predicts the data across all of phase space, indicating a need for further model development informed by these data.
+
+\begin{acknowledgments}
+
+This document was prepared by members of the MINERvA Collaboration using the resources of the Fermi National Accelerator Laboratory (Fermilab), a U.S. Department of Energy, Office of Science, Office of High Energy Physics HEP User Facility. Fermilab is managed by Fermi Forward Discovery Group, LLC, acting under Contract No. 89243024CSC000002.
+These resources included support for the MINERvA construction project, and support
+for construction also
+was granted by the United States National Science Foundation under
+Award No. PHY-0619727 and by the University of Rochester. Support for
+participating scientists was provided by NSF and DOE (USA); by CAPES
+and CNPq (Brazil); by CoNaCyT (Mexico); by ANID PIA / APOYO AFB180002, CONICYT PIA ACT1413, and Fondecyt 3170845 and 11130133 (Chile); 
+%by CONCYTEC, DGI-PUCP, and IDI/IGI-UNI (Peru); 
+by CONCYTEC (Consejo Nacional de Ciencia, Tecnolog\'ia e Innovaci\'on Tecnol\'ogica), DGI-PUCP (Direcci\'on de Gesti\'on de la Investigaci\'on  - Pontificia Universidad Cat\'olica del Peru), and VRI-UNI (Vice-Rectorate for Research of National University of Engineering) (Peru); NCN Opus Grant No. 2016/21/B/ST2/01092 (Poland); by Science and Technology Facilities Council (UK); by EU Horizon 2020 Marie Skłodowska-Curie Action; by a Cottrell Postdoctoral Fellowship from the Research Corporation for Scientific Advancement; by an Imperial College London President's PhD Scholarship.  We thank the MINOS Collaboration for use of its near detector data. Finally, we thank the staff of
+Fermilab for support of the beam line, the detector, and computing infrastructure.
+
+
+
+%
+%
+% FNAL requirement, 28 August 2017
+%
+%Acknowledgement
+%
+%This must be on all Scientific/Technical Publications:
+%
+%Either:
+%
+%This manuscript has been authored by Fermi Research Alliance, LLC under Contract No. DE-%AC02-07CH11359 with the U.S. Department of Energy, Office of Science, Office of High %Energy Physics.
+%
+%Or:
+%
+%This document was prepared by [COLLABORATION NAME] using the resources of the Fermi %National Accelerator Laboratory (Fermilab), a U.S. Department of Energy, Office of %Science, HEP User Facility. Fermilab is managed by Fermi Research Alliance, LLC (FRA), %acting under Contract No. DE-AC02-07CH11359.
+%
+%Copyright Statement
+%
+%This can be covered when the Fermilab Technical Publications Officer signs the %publisherâ€™s copyright form:
+%
+%The U.S. Government retains and the publisher, by accepting the article for publication, %acknowledges that the U.S. Government retains a non-exclusive, paid-up, irrevocable, %world-wide license to publish or reproduce the published form of this manuscript, or %allow others to do so, for U.S. Government purposes.
+%
+\end{acknowledgments}
+
+\bibliography{MINERvAPion}
+
+\ifPRLandSupp
+
+\clearpage
+
+\onecolumngrid
+\pagebreak
+\section{Supplemental Material}
+% restart figure and table numbering and start with "Supp-*"
+\renewcommand\thefigure{Supp.\arabic{figure}}
+\setcounter{figure}{0}
+
+%\renewcommand\thefigure{Supp.\arabic{figure}}
+%\addtocounter{figure}{-5}
+
+\renewcommand\thetable{Supp.\Roman{table}}
+\setcounter{table}{0}
+
+\FloatBarrier
+
+\subsection{Error Summary Plots}
+\label{sec:error_plots}
+
+\begin{figure}[!h]
+    %\centering
+    \includegraphics[width=0.32\linewidth]{figures/ErrorSummary_CrossSection_mixtpi_Frac__1Pi_.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/ErrorSummary_CrossSection_mixthetapi_deg_Frac__OnePiThetaPi_.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/ErrorSummary_CrossSection_pmu_Frac__1Pi_.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/ErrorSummary_CrossSection_pzmu_Frac__1Pi_.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/ErrorSummary_CrossSection_ptmu_Frac__1Pi_.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/ErrorSummary_CrossSection_thetamu_deg_Frac__1Pi_.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/ErrorSummary_CrossSection_q2_Frac__1Pi_.pdf}
+    \caption{Differential cross section error summaries. The signal model uncertainty (within ``Cross Section Model'') is $\sim$2-4\% and enters via the efficiency correction stage. The ``Others'' category includes primarily hadron response and Geant effects, and the ``Muon'' category includes muon reconstruction effects and is dominated by reconstruction efficiency. }
+    \label{fig:supp:cross_section_errors}
+\end{figure}
+
+\newpage
+\FloatBarrier
+
+\subsection{Cross Section Data-MC Ratio Plots} \label{sec:cross_section_ratio_plots}
+
+\begin{figure}[!h]
+    %\centering
+    \includegraphics[width=0.32\linewidth]{figures/Ratio_CrossSection_mixtpi__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Ratio_CrossSection_mixthetapi_deg__OnePiThetaPi_BWN_Nuisance.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Ratio_CrossSection_pmu__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Ratio_CrossSection_pzmu__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Ratio_CrossSection_ptmu__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Ratio_CrossSection_thetamu_deg__1Pi_BWN_Nuisance.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Ratio_CrossSection_q2__1Pi_BWN_Nuisance.pdf}
+    \caption{Ratios of differential cross section measurements to MnvTune v4.7.1 MC. The ratios for the pion variables show a nonuniform  discrepancy between data and the predictions. For muon variables, the ratios show statistical agreement between data and MnvTune v4.7.1; for other models, shapes are consistent with data. In \Qsq, a large disagreement is observed between data and all the models, particularly in the last bin.}
+    \label{fig:supp:cross_section_ratios}
+\end{figure}
+
+\newpage
+\FloatBarrier
+
+\subsection{Cross Section Tables \label{sec:cross_section_tables}}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Measured cross section as a function of \Tpi on scintillator, in units of $10^{-42}$ \cmsq/\MeV/nucleon with absolute and fractional cross section uncertainties.}
+    \begin{tabular}{c||c|c||c|c|c}
+      Bin edges (\MeV) &  $\sigma$  &  Abs. Unc.  &  Frac. Stat. Unc.  &  Frac. Sys. Unc.  &  Frac. Flux Unc. \\
+      \hline
+      \hline
+        0 -- 20 & 1.67915 & 0.33884 & 0.11 & 0.17 & 0.038\\
+        20 -- 35 & 7.16007 & 0.75347 & 0.048 & 0.093 & 0.037\\
+        35 -- 50 & 9.52944 & 0.93958 & 0.047 & 0.087 & 0.037\\
+        50 -- 65 & 14.0306 & 1.1426 & 0.036 & 0.073 & 0.037\\
+        65 -- 80 & 15.0006 & 1.0772 & 0.033 & 0.064 & 0.037\\
+        80 -- 100 & 12.918 & 0.92088 & 0.03 & 0.065 & 0.037\\
+        100 -- 125 & 12.8516 & 0.92806 & 0.027 & 0.067 & 0.037\\
+        125 -- 165 & 9.98917 & 0.86816 & 0.028 & 0.082 & 0.038\\
+        165 -- 200 & 7.60749 & 0.75796 & 0.043 & 0.09 & 0.036\\
+        200 -- 350 & 4.57352 & 0.65765 & 0.031 & 0.14 & 0.045\\
+    \end{tabular}
+  \label{tbl:CrossSectiontpi}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Measured cross section as a function of \thpi on scintillator, in units of $10^{-42}$ \cmsq/degree/nucleon with absolute and fractional cross section uncertainties.}
+    \begin{tabular}{c||c|c||c|c|c}
+      Bin edges (degree) &  $\sigma$  &  Abs. Unc.  &  Frac. Stat. Unc.  &  Frac. Sys. Unc.  &  Frac. Flux Unc. \\
+      \hline
+      \hline
+        0 -- 15 & 6.22647 & 0.82283 & 0.063 & 0.12 & 0.041\\
+        15 -- 30 & 15.8456 & 1.6399 & 0.034 & 0.098 & 0.039\\
+        30 -- 45 & 19.6293 & 2.0361 & 0.029 & 0.099 & 0.041\\
+        45 -- 60 & 22.0659 & 2.2665 & 0.029 & 0.099 & 0.042\\
+        60 -- 76 & 24.8393 & 2.1157 & 0.03 & 0.08 & 0.039\\
+        76 -- 108 & 22.066 & 1.5699 & 0.025 & 0.067 & 0.038\\
+        108 -- 122 & 13.43 & 1.0057 & 0.039 & 0.064 & 0.035\\
+        122 -- 136 & 9.18089 & 0.84642 & 0.042 & 0.082 & 0.035\\
+        136 -- 150 & 7.43138 & 0.6882 & 0.042 & 0.083 & 0.035\\
+        150 -- 165 & 3.86764 & 0.48325 & 0.074 & 0.1 & 0.037\\
+        165 -- 180 & 1.16235 & 0.19873 & 0.11 & 0.13 & 0.04\\
+    \end{tabular}
+  \label{tbl:CrossSectionthetapi}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Measured cross section as a function of \pmu on scintillator, in units of $10^{-42}$ \cmsq/\GeVc/nucleon with absolute and fractional cross section uncertainties.}
+    \begin{tabular}{c||c|c||c|c|c}
+      Bin edges (\GeVc) &  $\sigma$  &  Abs. Unc.  &  Frac. Stat. Unc.  &  Frac. Sys. Unc.  &  Frac. Flux Unc. \\
+      \hline
+      \hline
+        1.0 -- 2.0 & 48.4454 & 7.47 & 0.084 & 0.13 & 0.042\\
+        2.0 -- 3.0 & 277.849 & 25.611 & 0.027 & 0.088 & 0.042\\
+        3.0 -- 4.0 & 445.459 & 40.699 & 0.02 & 0.089 & 0.043\\
+        4.0 -- 5.5 & 553.657 & 42.644 & 0.014 & 0.076 & 0.042\\
+        5.5 -- 7.5 & 356.419 & 27.245 & 0.014 & 0.075 & 0.039\\
+        7.5 -- 10.0 & 84.199 & 7.5974 & 0.025 & 0.087 & 0.036\\
+        10.0 -- 13.0 & 17.8685 & 2.0062 & 0.054 & 0.098 & 0.041\\
+        13.0 -- 20.0 & 6.4554 & 0.82748 & 0.063 & 0.11 & 0.061\\
+    \end{tabular}
+  \label{tbl:CrossSectionpmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Measured cross section as a function of \pzmu on scintillator, in units of $10^{-42}$ \cmsq/\GeVc/nucleon with absolute and fractional cross section uncertainties.}
+    \begin{tabular}{c||c|c||c|c|c}
+      Bin edges (\GeVc) &  $\sigma$  &  Abs. Unc.  &  Frac. Stat. Unc.  &  Frac. Sys. Unc.  &  Frac. Flux Unc. \\
+      \hline
+      \hline
+        0 -- 1 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+        1 -- 2 & 53.8178 & 8.7435 & 0.084 & 0.14 & 0.045\\
+        2 -- 3 & 291.572 & 27.331 & 0.026 & 0.09 & 0.042\\
+        3 -- 4 & 460.723 & 41.614 & 0.02 & 0.088 & 0.043\\
+        4 -- 5 & 552.913 & 43.328 & 0.017 & 0.076 & 0.042\\
+        5 -- 6 & 493.812 & 37.705 & 0.017 & 0.074 & 0.041\\
+        6 -- 8 & 271.061 & 21.936 & 0.015 & 0.08 & 0.038\\
+        8 -- 10 & 65.2803 & 5.6005 & 0.031 & 0.08 & 0.036\\
+        10 -- 15 & 14.6478 & 1.4167 & 0.046 & 0.085 & 0.041\\
+        15 -- 20 & 4.94936 & 0.92611 & 0.097 & 0.16 & 0.078\\
+    \end{tabular}
+  \label{tbl:CrossSectionpzmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Measured cross section as a function of \ptmu on scintillator, in units of $10^{-42}$ \cmsq/\GeVc/nucleon with absolute and fractional cross section uncertainties.}
+    \begin{tabular}{c||c|c||c|c|c}
+      Bin edges (\GeVc) &  $\sigma$  &  Abs. Unc.  &  Frac. Stat. Unc.  &  Frac. Sys. Unc.  &  Frac. Flux Unc. \\
+      \hline
+      \hline
+        0.0 -- 0.1 & 411.435 & 36.426 & 0.046 & 0.075 & 0.036\\
+        0.1 -- 0.2 & 1326.28 & 91.951 & 0.028 & 0.063 & 0.037\\
+        0.2 -- 0.3 & 2131.18 & 139.3 & 0.026 & 0.06 & 0.037\\
+        0.3 -- 0.4 & 3004.04 & 196.69 & 0.024 & 0.061 & 0.037\\
+        0.4 -- 0.5 & 3394.69 & 243.34 & 0.026 & 0.067 & 0.037\\
+        0.5 -- 0.6 & 3367.63 & 264.77 & 0.03 & 0.072 & 0.038\\
+        0.6 -- 0.8 & 2899.68 & 249.06 & 0.023 & 0.083 & 0.039\\
+        0.8 -- 1.0 & 1745.75 & 214.3 & 0.039 & 0.12 & 0.043\\
+        1.0 -- 1.25 & 811.522 & 152.72 & 0.061 & 0.18 & 0.047\\
+        1.25 -- 1.5 & 341.796 & 116.8 & 0.14 & 0.31 & 0.058\\
+    \end{tabular}
+  \label{tbl:CrossSectionptmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Measured cross section as a function of \thmu on scintillator, in units of $10^{-42}$ \cmsq/degree/nucleon with absolute and fractional cross section uncertainties.}
+    \begin{tabular}{c||c|c||c|c|c}
+      Bin edges (degree) &  $\sigma$  &  Abs. Unc.  &  Frac. Stat. Unc.  &  Frac. Sys. Unc.  &  Frac. Flux Unc. \\
+      \hline
+      \hline
+        0 -- 1 & 45.1395 & 3.7456 & 0.039 & 0.073 & 0.037\\
+        1 -- 2 & 133.403 & 8.8004 & 0.024 & 0.061 & 0.036\\
+        2 -- 3 & 201.782 & 12.739 & 0.021 & 0.059 & 0.036\\
+        3 -- 4 & 243.169 & 15.621 & 0.02 & 0.061 & 0.036\\
+        4 -- 5 & 251.124 & 17.674 & 0.022 & 0.067 & 0.037\\
+        5 -- 6 & 244.781 & 18.993 & 0.024 & 0.074 & 0.038\\
+        6 -- 7 & 219.879 & 18.367 & 0.027 & 0.079 & 0.039\\
+        7 -- 8 & 208.269 & 17.948 & 0.03 & 0.081 & 0.04\\
+        8 -- 9 & 177.382 & 17.169 & 0.034 & 0.091 & 0.041\\
+        9 -- 10 & 151.637 & 16.557 & 0.04 & 0.1 & 0.043\\
+        10 -- 11 & 134.714 & 14.977 & 0.044 & 0.1 & 0.044\\
+        11 -- 12 & 110.783 & 13.459 & 0.053 & 0.11 & 0.045\\
+        12 -- 14 & 96.9158 & 10.776 & 0.041 & 0.1 & 0.046\\
+        14 -- 16 & 71.9116 & 9.6244 & 0.058 & 0.12 & 0.048\\
+        16 -- 20 & 44.9274 & 7.7396 & 0.068 & 0.16 & 0.052\\
+    \end{tabular}
+  \label{tbl:CrossSectionthetamu}
+\end{table}
+
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Measured cross section as a function of \Qsq on scintillator, in units of $10^{-42}$ \cmsq/\GeVsq/nucleon with absolute and fractional cross section uncertainties.}
+    \begin{tabular}{c||c|c||c|c|c}
+      Bin edges (\GeVsq) &  $\sigma$  &  Abs. Unc.  &  Frac. Stat. Unc.  &  Frac. Sys. Unc.  &  Frac. Flux Unc. \\
+      \hline
+      \hline
+        0.0 -- 0.025 & 3733.72 & 273.26 & 0.029 & 0.067 & 0.036\\
+        0.025 -- 0.05 & 4095.02 & 304.4 & 0.039 & 0.063 & 0.037\\
+        0.05 -- 0.1 & 3919.25 & 259.75 & 0.028 & 0.06 & 0.037\\
+        0.1 -- 0.2 & 3709.28 & 237.78 & 0.021 & 0.061 & 0.037\\
+        0.2 -- 0.3 & 3106.79 & 230.52 & 0.028 & 0.069 & 0.038\\
+        0.3 -- 0.4 & 2668.38 & 210.66 & 0.032 & 0.072 & 0.038\\
+        0.4 -- 0.5 & 1978.01 & 178.15 & 0.039 & 0.081 & 0.039\\
+        0.5 -- 0.7 & 1639.55 & 154.3 & 0.034 & 0.088 & 0.04\\
+        0.7 -- 1.0 & 1006.45 & 116.56 & 0.04 & 0.11 & 0.042\\
+        1.0 -- 1.3 & 548.673 & 79.944 & 0.061 & 0.13 & 0.043\\
+        1.3 -- 2.0 & 232.922 & 51.598 & 0.074 & 0.21 & 0.05\\
+        2.0 -- 3.0 & 90.7911 & 29.736 & 0.15 & 0.29 & 0.057\\
+    \end{tabular}
+  \label{tbl:CrossSectionq2}
+\end{table}
+
+
+\FloatBarrier
+
+
+%================Selection tables================================
+
+\subsection{Selection tables}
+\label{sec:selection_tables}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Number of selected events in data before background subtraction versus \Tpi.}
+    \begin{tabular}{c||c|c|c|c||c}
+      Bin edges (\MeV) &  Total Sel. & Sel. Tracked & Sel. Untracked & Sel. Overlap & Frac. Stat. Unc. \\
+      \hline
+      \hline
+        0 -- 20 & 1055 & 0 & 1055 & 0 & 0.031 \\
+        20 -- 35 & 4046 & 6 & 4040 & 0 & 0.016 \\
+        35 -- 50 & 5591 & 230 & 5312 & 49 & 0.013 \\
+        50 -- 65 & 8860 & 2296 & 6183 & 381 & 0.011 \\
+        65 -- 80 & 10957 & 4185 & 6078 & 694 & 0.0096  \\
+        80 -- 100 & 14345 & 6980 & 6348 & 1017 & 0.0083 \\
+        100 -- 125 & 15629 & 8519 & 5734 & 1376 & 0.008  \\
+        125 -- 165 & 15546 & 8866 & 5288 & 1392 & 0.008 \\
+        165 -- 200 & 7176 & 4151 & 2433 & 592 & 0.012 \\
+        200 -- 350 & 8144 & 4899 & 2711 & 534 & 0.011 \\
+    \end{tabular}
+  \label{tbl:DataSelectiontpi}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Number of selected events in data before background subtraction versus \thpi. }
+    \begin{tabular}{c||c|c|c|c||c}
+      Bin edges (degree) &  Total Sel. & Sel. Tracked & Sel. Untracked & Sel. Overlap & Frac. Stat. Unc. \\
+      \hline
+      \hline
+        0 -- 15 & 4563 & 2611 & 1636 & 316 & 0.015  \\
+        15 -- 30 & 12125 & 7222 & 3861 & 1042 & 0.0091  \\
+        30 -- 45 & 16408 & 10011 & 4883 & 1514 & 0.0078  \\
+        45 -- 60 & 16135 & 9206 & 5597 & 1332 & 0.0079 \\
+        60 -- 76 & 10426 & 3576 & 6386 & 464 & 0.0098 \\
+        76 -- 108 & 12772 & 326 & 12421 & 25 & 0.0088  \\
+        108 -- 122 & 5569 & 1306 & 4061 & 202 & 0.013  \\
+        122 -- 136 & 5718 & 2608 & 2635 & 475 & 0.013  \\
+        136 -- 150 & 4569 & 2559 & 1551 & 459 & 0.015 \\
+        150 -- 165 & 2082 & 1060 & 834 & 188 & 0.022 \\
+        165 -- 180 & 421 & 140 & 262 & 19 & 0.049 \\
+    \end{tabular}
+  \label{tbl:DataSelectionthetapi}
+\end{table}
+
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Number of selected events in data before background subtraction versus \pmu.}
+    \begin{tabular}{c||c|c|c|c||c}
+      Bin edges (\MeVc) &  Total Sel. & Sel. Tracked & Sel. Untracked & Sel. Overlap & Frac. Stat. Unc. \\
+      \hline
+      \hline
+        1.0 -- 2.0 & 807 & 350 & 398 & 59 & 0.035 \\
+        2.0 -- 3.0 & 7088 & 3096 & 3516 & 476 & 0.012 \\
+        3.0 -- 4.0 & 14360 & 6088 & 7350 & 922 & 0.0083  \\
+        4.0 -- 5.5 & 29562 & 12814 & 14793 & 1955 & 0.0058 \\
+        5.5 -- 7.5 & 26635 & 11987 & 12834 & 1814 & 0.0061  \\
+        7.5 -- 10 & 8643 & 4060 & 4024 & 559 & 0.011 \\
+        10.0 -- 13.0 & 2665 & 1247 & 1265 & 153 & 0.019 \\
+        13.0 -- 20.0 & 2083 & 981 & 1002 & 100 & 0.022 \\
+    \end{tabular}
+  \label{tbl:DataSelectionpmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Number of selected events in data before background subtraction versus \pzmu.}
+    \begin{tabular}{c||c|c|c|c||c}
+      Bin edges (\MeVc) &  Total Sel. & Sel. Tracked & Sel. Untracked & Sel. Overlap & Frac. Stat. Unc. \\
+      \hline
+      \hline
+        0 -- 1 & 0 & 0 & 0 & 0 & 0 \\
+        1 -- 2 & 947 & 422 & 463 & 62 & 0.032  \\
+        2 -- 3 & 7532 & 3258 & 3764 & 510 & 0.012 \\
+        3 -- 4 & 14742 & 6260 & 7549 & 933 & 0.0082  \\
+        4 -- 5 & 19562 & 8529 & 9715 & 1318 & 0.0071 \\
+        5 -- 6 & 18762 & 8183 & 9333 & 1246 & 0.0073 \\
+        6 -- 8 & 20037 & 9168 & 9511 & 1358 & 0.0071 \\
+        8 -- 10 & 5570 & 2609 & 2600 & 361 & 0.013 \\
+        10 -- 15 & 3524 & 1648 & 1674 & 202 & 0.017 \\
+        15 -- 20 & 1167 & 546 & 573 & 48 & 0.029 \\
+    \end{tabular}
+  \label{tbl:DataSelectionpzmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Number of selected events in data before background subtraction versus \ptmu.}
+    \begin{tabular}{c||c|c|c|c||c}
+      Bin edges (\MeVc) &  Total Sel. & Sel. Tracked & Sel. Untracked & Sel. Overlap & Frac. Stat. Unc. \\
+      \hline
+      \hline
+        0.0 -- 0.1 & 1711 & 888 & 662 & 161 & 0.024 \\
+        0.1 -- 0.2 & 5245 & 2522 & 2293 & 430 & 0.014 \\
+        0.2 -- 0.3 & 8652 & 4132 & 3789 & 731 & 0.011 \\
+        0.3 -- 0.4 & 11071 & 4963 & 5276 & 832 & 0.0095 \\
+        0.4 -- 0.5 & 12002 & 5321 & 5838 & 843 & 0.0091 \\
+        0.5 -- 0.6 & 11486 & 4852 & 5877 & 757 & 0.0093 \\
+        0.6 -- 0.8 & 19370 & 8261 & 9916 & 1193 & 0.0072 \\
+        0.8 -- 1.0 & 12163 & 4944 & 6528 & 691 & 0.0091 \\
+        1.0 -- 1.25 & 7121 & 3004 & 3781 & 336 & 0.012 \\
+        1.25 -- 1.5 & 2060 & 954 & 1046 & 60 & 0.022 \\
+    \end{tabular}
+  \label{tbl:DataSelectionptmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Number of selected events in data before background subtraction versus \thmu.}
+    \begin{tabular}{c||c|c|c|c||c}
+      Bin edges (degree) &  Total Sel. & Sel. Tracked & Sel. Untracked & Sel. Overlap & Frac. Stat. Unc. \\
+      \hline
+      \hline
+        0 -- 1 & 1778 & 923 & 707 & 148 & 0.024 \\
+        1 -- 2 & 5218 & 2479 & 2293 & 446 & 0.014 \\
+        2 -- 3 & 7813 & 3596 & 3605 & 612 & 0.011 \\
+        3 -- 4 & 9432 & 4286 & 4450 & 696 & 0.01 \\
+        4 -- 5 & 9825 & 4424 & 4709 & 692 & 0.01 \\
+        5 -- 6 & 9496 & 4205 & 4611 & 680 & 0.01 \\
+        6 -- 7 & 8664 & 3775 & 4287 & 602 & 0.011 \\
+        7 -- 8 & 7927 & 3468 & 3960 & 499 & 0.011 \\
+        8 -- 9 & 6682 & 2841 & 3431 & 410 & 0.012 \\
+        9 -- 10 & 5647 & 2418 & 2924 & 305 & 0.013 \\
+        10 -- 11 & 4634 & 2047 & 2342 & 245 & 0.015 \\
+        11 -- 12 & 3707 & 1601 & 1914 & 192 & 0.016 \\
+        12 -- 14 & 5245 & 2154 & 2831 & 260 & 0.014 \\
+        14 -- 16 & 3160 & 1343 & 1678 & 139 & 0.018 \\
+        16 -- 20 & 2615 & 1063 & 1440 & 112 & 0.02 \\
+    \end{tabular}
+  \label{tbl:DataSelectionthetamu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{Number of selected events in data before background subtraction versus \Qsq.}
+    \begin{tabular}{c||c|c|c|c||c
+}
+      Bin edges (\GeVsqcsq) &  Total Sel. & Sel. Tracked & Sel. Untracked & Sel. Overlap & Frac. Stat. Unc. \\
+      \hline
+      \hline
+        0.0 -- 0.025 & 3887 & 1905 & 1640 & 342 & 0.016 \\
+        0.025 -- 0.05 & 4026 & 1961 & 1729 & 336 & 0.016 \\
+        0.05 -- 0.1 & 7925 & 3762 & 3501 & 662 & 0.011  \\
+        0.1 -- 0.2 & 13816 & 6163 & 6595 & 1058 & 0.0085 \\
+        0.2 -- 0.3 & 11243 & 4925 & 5571 & 747 & 0.0094 \\
+        0.3 -- 0.4 & 9002 & 3818 & 4586 & 598 & 0.011 \\
+        0.4 -- 0.5 & 7400 & 3181 & 3741 & 478 & 0.012 \\
+        0.5 -- 0.7 & 10956 & 4672 & 5618 & 666 & 0.0096 \\
+        0.7 -- 1.0 & 10157 & 4150 & 5433 & 574 & 0.0099 \\
+        1.0 -- 1.3 & 5715 & 2322 & 3084 & 309 & 0.013 \\
+        1.3 -- 2.0 & 5445 & 2381 & 2829 & 235 & 0.014 \\
+        2.0 -- 3.0 & 1597 & 804 & 760 & 33 & 0.025 \\
+    \end{tabular}
+  \label{tbl:DataSelectionq2}
+\end{table}
+
+\FloatBarrier
+
+% ======================================================================
+% ==================Chi^2 tables =======================================
+% ======================================================================
+
+\subsection{Model $\chi^2$ Values}
+\label{sec:chi2_tables}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{$\chi^2$ for each model for \Tpi (ndf = 10)}
+    \begin{tabular}{c||c|c}
+        Model & Conventional $\chi^2$ & Log-normal $\chi^2$ \\
+        \hline
+        \hline
+        MnvTune v4.7.1 & 9.56547 & 9.95949\\
+        GENIE v2.12.6 & 254.277 & 127.67\\
+        GENIE v3 $hA$  & 72.5972 & 92.5025\\
+        GENIE v3 $hN$  & 45.4694 & 54.4004\\
+        GiBUU & 45.2752 & 65.9332\\
+        NEUT LFG & 56.0228 & 63.851\\
+%        NEUT SF & 54.2357 & 64.7365\\
+        NuWro LFG & 57.6983 & 75.803\\
+%        NuWro SF & 59.2369 & 74.8004\\
+
+    \end{tabular}
+  \label{tbl:chi2_tpi}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{ $\chi^2$ for each model for \thpi (ndf = 11)}
+    \begin{tabular}{c||c|c|c}
+
+      Model & Conventional $\chi^2$ & Log-normal $\chi^2$ \\
+      \hline
+      \hline
+        MnvTune v4.7.1 & 28.9918 & 33.8245\\
+        GENIE v2.12.6 & 59.3826 & 65.6561\\
+        GENIE v3 $hA$  & 38.0883 & 54.3804\\
+        GENIE v3 $hN$  & 26.2851 & 34.8697\\
+        GiBUU & 31.8699 & 43.0243\\
+        NEUT LFG & 24.6153 & 25.144\\
+%        NEUT SF & 23.2801 & 24.2781\\
+        NuWro LFG & 19.0918 & 22.852\\
+%        NuWro SF & 18.796 & 22.4421\\
+        
+    \end{tabular}
+  \label{tbl:chi2_thpi}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{$\chi^2$ for each model for \pmu (ndf = 8)}
+    \begin{tabular}{c||c|c}
+        Model & Conventional $\chi^2$ & Log-normal $\chi^2$ \\
+        \hline
+        \hline
+        MnvTune v4.7.1 & 29.712 & 29.1455\\
+        GENIE v2.12.6 & 33.9112 & 32.4504\\
+        GENIE v3 $hA$  & 24.597 & 38.2269\\
+        GENIE v3 $hN$  & 23.9233 & 33.188\\
+        GiBUU & 25.9 & 38.3365\\
+        NEUT LFG & 31.8742 & 34.7631\\
+%        NEUT SF & 24.7922 & 26.564\\
+        NuWro LFG & 26.223 & 34.5181\\
+%        NuWro SF & 22.6008 & 28.4265\\
+    \end{tabular}
+  \label{tbl:chi2_pmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{$\chi^2$ for each model for \pzmu (ndf = 10)}
+    \begin{tabular}{c||c|c}
+        Model & Conventional $\chi^2$ & Log-normal $\chi^2$ \\
+  	    \hline
+  	    \hline
+        MnvTune v4.7.1 & 38.8537 & 39.3392\\
+        GENIE v2.12.6 & 45.2432 & 44.8812\\
+        GENIE v3 $hA$  & 32.8062 & 53.1369\\
+        GENIE v3 $hN$  & 31.8845 & 45.7788\\
+        GiBUU & 34 & 52.5511\\
+        NEUT LFG & 39.7324 & 45.1796\\
+%        NEUT SF & 32.6643 & 36.2821\\
+        NuWro LFG & 34.2089 & 46.9136\\
+%        NuWro SF & 29.6158 & 38.6284\\
+    \end{tabular}
+  \label{tbl:chi2_pzmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{$\chi^2$ for each model for \ptmu (ndf = 10)}
+    \begin{tabular}{c||c|c}
+        Model & Conventional $\chi^2$ & Log-normal $\chi^2$ \\
+        \hline
+        \hline
+            MnvTune v4.7.1 & 13.5832 & 17.6924\\
+            GENIE v2.12.6 & 28.3886 & 29.4045\\
+            GENIE v3 $hA$  & 17.3331 & 29.3266\\
+            GENIE v3 $hN$  & 14.6532 & 24.3992\\ 
+            GiBUU & 14.4482 & 24.5983\\ 
+            NEUT LFG & 10.6076 & 15.8653\\
+%            NEUT SF & 11.1966 & 13.5717\\
+            NuWro LFG & 20.6059 & 28.4988\\ 
+%            NuWro SF & 24.6899 & 28.8879\\
+    \end{tabular}
+  \label{tbl:chi2_ptmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{$\chi^2$ for each model for \thmu (ndf = 15)}
+    \begin{tabular}{c||c|c}
+        Model & Conventional $\chi^2$ & Log-normal $\chi^2$ \\
+        \hline
+        \hline
+        MnvTune v4.7.1 & 10.9635 & 11.6781\\ 
+        GENIE v2.12.6 & 32.9809 & 32.2083\\
+        GENIE v3 $hA$  & 18.9206 & 26.7965\\
+        GENIE v3 $$hN$$  & 14.3069 & 19.8863\\ 
+        GiBUU & 17.9112 & 27.4868\\ 
+        NEUT LFG & 18.7421 & 24.1093\\ 
+%        NEUT SF & 20.516 & 26.5567\\
+        NuWro LFG & 17.5757 & 24.3697\\
+%        NuWro SF & 18.7233 & 24.645\\
+    \end{tabular}
+  \label{tbl:chi2_thmu}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.15}
+  \caption{$\chi^2$ for each model for \Qsq (ndf = 12)}
+    \begin{tabular}{c||c|c}
+        Model & Conventional $\chi^2$ & Log-normal $\chi^2$ \\
+        \hline
+        \hline
+        MnvTune v4.7.1 & 9.06689 & 11.2707\\
+        GENIE v2.12.6 & 22.9818 & 21.028\\
+        GENIE v3 $hA$  & 23.1635 & 24.2076\\
+        GENIE v3 $hN$  & 18.8989 & 18.6167\\
+        GiBUU & 18.6934 & 21.509\\
+        NEUT LFG & 13.9915 & 17.2119\\
+%        NEUT SF & 14.0103 & 18.1973\\
+        NuWro LFG & 23.4356 & 17.8761\\
+%        NuWro SF & 23.4031 & 17.5485\\
+    \end{tabular}
+  \label{tbl:chi2_q2}
+\end{table}
+
+\subsection{Sideband Background Tune}
+\label{sec:sidebands}
+
+\begin{figure}[!h]
+    %\centering
+    \includegraphics[width=0.45\linewidth]{figures/Breakdown_PreWSideband_wexp_fit_1Pi_PN_.pdf}
+    \includegraphics[width=0.45\linewidth]{figures/Breakdown_PostWSideband_wexp_fit_1Pi_PN_.pdf}
+    \caption{\Wexp distribution of selected events for the \Tpi, \pmu, \pzmu, \ptmu, \thmu, and \Qsq cross section analysis before (left) and after (right) constraining the simulation using background estimates from data. The arrow delineates the high \Wexp sideband region.  Since the fitted background weights are close to unity, the differences between the two distributions are small.  }
+    \label{fig:supp:sidebands}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\linewidth]{figures/Breakdown_PreWSideband_wexp_fit_OnePiThetaPi_PN_.pdf}
+    \includegraphics[width=0.45\linewidth]{figures/Breakdown_PostWSideband_wexp_fit_OnePiThetaPi_PN_.pdf}
+    \caption{\Wexp distribution of selected events for the \thpi cross section analysis before (left) and after (right) constraining the simulation using background estimates from data. The arrow delineates the high \Wexp sideband region.  Since the fitted background weights are close to unity, the differences between the two distributions are small. }
+    \label{fig:supp:sidebands_thpi}
+\end{figure}
+
+\subsection{Efficiencies}
+\label{sec:efficiencies}
+
+\begin{figure}[!h]
+    %\centering
+    \includegraphics[width=0.32\linewidth]{figures/Efficiency_mixtpi_true.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Efficiency_pmu_true.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Efficiency_pzmu_true.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Efficiency_ptmu_true.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Efficiency_thetamu_deg_true.pdf}
+    \includegraphics[width=0.32\linewidth]{figures/Efficiency_q2_true.pdf}
+    \caption{Efficiencies. The shaded error bands show total uncertainties, including systematics and simulated statistics. These plots show the efficiency of many regions above 10\%, compared with the results from \cite{Bercellie.131.011801} where the efficiency for most part of the bins is bellow 8\%. The combination of the two data selection techniques leads to the substantial efficiency improvement.}
+    \label{fig:supp:efficiencies}
+\end{figure}
+
+%\newpage
+%\FloatBarrier
+
+% \begin{figure}[!htbp]
+%     \centering
+%     \includegraphics[width=0.99\linewidth]{Breakdown_PostWSideband_wexp_fit_1Pi_PN_.pdf}
+%     \caption{\Wexp distribution showing the sideband region for the implementation of the background tunning. Depending of the \Wexp true value, the background is categorized, and then these are used as free parameters to fit the reconstructed background to the data points in the sideband region.}
+%     \label{fig:sideband}
+% \end{figure}
+
+
+
+\end{document}
+

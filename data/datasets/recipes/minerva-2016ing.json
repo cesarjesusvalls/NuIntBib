@@ -1,0 +1,29 @@
+{
+ "bibtag": "MINERvA:2016ing",
+ "slug": "minerva-2016ing",
+ "source_url": "https://arxiv.org/abs/1610.04746",
+ "note": "Isoscalar-corrected inclusive charged-current d\u03c3/dE_\u03bd vs E_\u03bd, extracted via the low-\u03bd flux method, for the \"focused\" NuMI samples: \u03bd_\u03bc in FHC beam and \u03bd\u0304_\u03bc in RHC beam (MINERvA tracker, low-energy NuMI beam config). Flux-shape systematics collapse to the external normalization at 9-12 GeV (from NOMAD for \u03bd_\u03bc, from GENIE for \u03bd\u0304_\u03bc). Target: per nucleon (isoscalar-corrected CH scintillator target).",
+ "provenance": "MINERvA:2016ing \u2014 Isoscalar-corrected inclusive charged-current d\u03c3/dE_\u03bd vs E_\u03bd, extracted via the low-\u03bd flux method, for the \"focused\" NuM \u00b7 target per nucleon (isoscalar-corrected CH scintillator target) \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "numu_fhc_ccinclusive_dsigdE",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016ing/numu_fhc_ccinclusive_dsigdE.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\nu}",
+   "yunit": "10^{-38} cm^2/GeV/nucleon"
+  },
+  {
+   "slug": "numubar_rhc_ccinclusive_dsigdE",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016ing/numubar_rhc_ccinclusive_dsigdE.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_{\\nu}",
+   "yunit": "10^{-38} cm^2/GeV/nucleon"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2016ing/cov.csv",
+ "cov_note": "30x30, block-diagonal, absolute units of (1e-38 cm2/GeV/nucleon)^2 matching the val scale. Built directly from the two published 15x15 covariance tables in cova"
+}

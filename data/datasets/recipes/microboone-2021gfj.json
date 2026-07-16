@@ -1,0 +1,18 @@
+{
+ "bibtag": "MicroBooNE:2021gfj",
+ "slug": "microboone-2021gfj",
+ "source_url": "https://arxiv.org/abs/2101.04228",
+ "note": "Flux-averaged inclusive charged-current total cross section for combined electron-neutrino + electron-antineutrino (\u03bd_e + \u03bd\u0304_e) interactions on argon, using the off-axis NuMI beam at MicroBooNE. This is a single flux-integrated number (not differential) \u2014 the paper's headline result, restated identically 4 times (abstract, results text, Eq. in Sec. V/summary, conclusion). Target: per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus).",
+ "provenance": "MicroBooNE:2021gfj \u2014 Flux-averaged inclusive charged-current total cross section for combined electron-neutrino + electron-antineutrino (\u03bd_e \u00b7 target per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus) \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "total_nue_nuebar",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2021gfj/total_nue_nuebar.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2/nucleon"
+  }
+ ]
+}

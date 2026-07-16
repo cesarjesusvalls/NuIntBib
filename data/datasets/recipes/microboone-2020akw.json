@@ -1,0 +1,56 @@
+{
+ "bibtag": "MicroBooNE:2020akw",
+ "slug": "microboone-2020akw",
+ "source_url": "https://arxiv.org/abs/2010.02390",
+ "note": "Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c threshold, no pions) in \u03bd\u03bc-Ar interactions, presented as a function of 5 reconstructed kinematic variables: muon polar angle cos\u03b8\u03bc, proton polar angle cos\u03b8p, muon momentum p\u03bc, proton momentum pp, and \u03bc-p opening angle \u03b8\u03bcp. Beam: Fermilab BNB (mean E\u03bd \u2248 800 MeV), MicroBooNE LArTPC, 1.6e20 POT. Target: per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\").",
+ "provenance": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres \u00b7 target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\") \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "cos_theta_mu",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020akw/cos_theta_mu.csv",
+   "xlabel": "\\cos\\theta_\\mu^{reco}",
+   "xunit": "dimensionless",
+   "ylabel": "d\\sigma/d\\cos\\theta_\\mu",
+   "yunit": "1e-38 cm^2/nucleus"
+  },
+  {
+   "slug": "cos_theta_p",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020akw/cos_theta_p.csv",
+   "xlabel": "\\cos\\theta_p^{reco}",
+   "xunit": "dimensionless",
+   "ylabel": "d\\sigma/d\\cos\\theta_p",
+   "yunit": "1e-38 cm^2/nucleus"
+  },
+  {
+   "slug": "p_mu",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020akw/p_mu.csv",
+   "xlabel": "p_\\mu^{reco}",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_\\mu",
+   "yunit": "1e-38 cm^2/(GeV/c)/nucleus"
+  },
+  {
+   "slug": "p_p",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020akw/p_p.csv",
+   "xlabel": "p_p^{reco}",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_p",
+   "yunit": "1e-38 cm^2/(GeV/c)/nucleus"
+  },
+  {
+   "slug": "theta_mu_p",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020akw/theta_mu_p.csv",
+   "xlabel": "\\theta_{\\mu p}^{reco}",
+   "xunit": "rad",
+   "ylabel": "d\\sigma/d\\theta_{\\mu p}",
+   "yunit": "1e-38 cm^2/rad/nucleus"
+  }
+ ],
+ "cov": "data/datasets/sources/microboone-2020akw/cov.csv",
+ "cov_note": "Absolute cross-section units^2 (1e-38 cm^2/nucleus)^2, published directly by the paper as \"Table of covariances\" (not fractional/correlation, no rescaling neede"
+}

@@ -1,0 +1,274 @@
+%% TO CHECK LENGTH... go to ``review and submission option'' and set
+%%``sizecheck'' to ``1'' below.  Remember to unset when done!
+
+%% The document must be slightly different for PRL than the arXiV because the
+%% appendix (and references to it) must be "supplemental material" for PRL.
+%% Set the "PRLsupp" option to "1" below. 
+
+\newcommand{\DoPrePrint}{0} % 0 for 2-column submission/review format; 1 for double-spaced, line-numbered preprint
+%% for review and submission
+
+\ifnum\DoPrePrint=1
+  \RequirePackage{lineno} 
+  \documentclass[aps,prl,preprint,showpacs,superscriptaddress,nofootinbib,floatfix,linenumbers]{revtex4}
+
+%% for double-spaced preprint
+  \usepackage{lineno}
+\else
+  \documentclass[aps,prd,twocolumn,showpacs,superscriptaddress,nofootinbib]{revtex4}
+\fi
+
+\usepackage{amsmath}   % need for subequations
+%\usepackage{amsfonts}   note how statements can be commented out
+%\usepackage{amssymb}
+\usepackage{graphicx}  % for figures
+\usepackage[caption=false,labelformat=simple]{subfig}
+\usepackage{xspace}
+\usepackage{units}
+\usepackage{gensymb}
+%\usepackage{natbib}
+%\usepackage{doi}
+\usepackage{hyperref}
+
+\renewcommand{\thesubfigure}{\relax}
+
+\newcommand{\gibuu}{GiBUU\xspace}
+\newcommand{\minerva}{MINERvA\xspace}
+\newcommand{\minos}{MINOS\xspace}
+\newcommand{\miniboone}{MiniBooNE\xspace}
+\newcommand{\nova}{NOvA\xspace}
+\newcommand{\numi}{NuMI\xspace}
+\newcommand{\numu}{\ensuremath{\nu_{\mu}}\xspace}
+\newcommand{\numubar}{\ensuremath{\bar{\nu}_{\mu}}\xspace}
+\newcommand{\dsdq}{\ensuremath{d\sigma/dQ^2}\xspace}
+\newcommand{\cconepiplus}{CC1\ensuremath{\pi^{+}}\xspace}
+\newcommand{\cconepi}{CC1\ensuremath{\pi^{\pm}}\xspace}
+\newcommand{\ccpi}{CCN\ensuremath{\pi^{\pm}}\xspace}
+\newcommand{\Tpi}{\ensuremath{T_{\pi}}\xspace}
+\newcommand{\thetapi}{\ensuremath{\theta_{\pi}}\xspace}
+
+\newcommand{\footnoteremember}[2]{\footnote{#2}\newcounter{#1}\setcounter{#1}{\value{footnote}}}
+\newcommand{\footnoterecall}[1]{\footnotemark[\value{#1}]}
+
+\newcommand{\sizecheck}{0} % 0 to do nothing; 1 to check size
+\newcommand{\PRLsupp}{0}   % 0 to leave the appendix at the end of the paper; 1 to put the appendix in a separate supplement
+\ifnum\PRLsupp=0
+  \newcommand{\SuppLocation}{in the Appendix}
+\else
+  \newcommand{\SuppLocation}{} %blank for now, will eventually contain a URL "at URL"
+\fi
+
+%ability to convert eps to pdf at compile time
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+   \pdffalse
+\else
+   \pdfoutput=1
+   \pdftrue
+\fi
+\ifpdf
+   \usepackage{graphicx}
+   \usepackage{epstopdf}
+   \DeclareGraphicsRule{.eps}{pdf}{.pdf}{`epstopdf #1}
+   \pdfcompresslevel=9
+\else
+   \usepackage{graphicx}
+\fi
+
+\begin{document}
+
+\ifnum\DoPrePrint=1
+\linenumbers
+\fi
+\title{Charged pion production in $\nu_\mu$ interactions \\
+on hydrocarbon at $\langle E_{\nu}\rangle$= 4.0~GeV} 
+
+
+%% THIS IS THE AUTHOR LIST FROM THE CCQE ANTI-NEUTRINO PAPER
+
+%% MANUAL PARTS OF AUTHOR LIST
+
+%% (1) need to add ``\thanks{\deceased}'' after DeMaat, Gobbi, Tzanakos
+\newcommand{\deceased}{Deceased}
+
+\newcommand{\wroclaw}{Institute of Theoretical Physics, Wroc\l aw University, Wroc\l aw, Poland}    
+%% \author{J.T.~Sobczyk}                     \affiliation{\wroclaw}  \affiliation{\FNAL}
+
+%% (2b) Also technical authors non in Glaucus who did not sign the communications paper.  Basically the W&M crowd are the only ones who have requested this
+
+%% AUTOMATIC LIST (EDITED AS ABOVE)
+%% List of institution addresses, in command form.
+\newcommand{\Rutgers}{Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA}
+\newcommand{\Hampton}{Hampton University, Dept. of Physics, Hampton, VA 23668, USA}
+\newcommand{\Dortmund}{Institute of Physics, Dortmund University, 44221, Germany }
+\newcommand{\Otterbein}{Department of Physics, Otterbein University, 1 South Grove Street, Westerville, OH 43081, USA}
+\newcommand{\JMU}{James Madison University, Harrisonburg, VA 22807, USA}
+\newcommand{\Florida}{University of Florida, Department of Physics, Gainesville, FL 32611, USA}
+\newcommand{\UCIrvine}{Department of Physics and Astronomy, University of California, Irvine, Irvine, CA 92697-4575, USA}
+\newcommand{\CBPF}{Centro Brasileiro de Pesquisas F\'{i}sicas, Rua Dr. Xavier Sigaud 150, Urca, Rio de Janeiro, Rio de Janeiro, 22290-180, Brazil}
+\newcommand{\PUCP}{Secci\'{o}n F\'{i}sica, Departamento de Ciencias, Pontificia Universidad Cat\'{o}lica del Per\'{u}, Apartado 1761, Lima, Per\'{u}}
+\newcommand{\INRM}{Institute for Nuclear Research of the Russian Academy of Sciences, 117312 Moscow, Russia}
+\newcommand{\Jlab}{Jefferson Lab, 12000 Jefferson Avenue, Newport News, VA 23606, USA}
+\newcommand{\Pittsburgh}{Department of Physics and Astronomy, University of Pittsburgh, Pittsburgh, PA 15260, USA}
+\newcommand{\Guanajuato}{Campus Le\'{o}n y Campus Guanajuato, Universidad de Guanajuato, Lascurain de Retana No. 5, Colonia Centro, Guanajuato 36000, Guanajuato M\'{e}xico.}
+\newcommand{\Athens}{Department of Physics, University of Athens, GR-15771 Athens, Greece}
+\newcommand{\Tufts}{Physics Department, Tufts University, Medford, MA 02155, USA}
+\newcommand{\WM}{Department of Physics, College of William \& Mary, Williamsburg, VA 23187, USA}
+\newcommand{\FNAL}{Fermi National Accelerator Laboratory, Batavia, IL 60510, USA}
+\newcommand{\Purdue}{Department of Chemistry and Physics, Purdue University Calumet, Hammond, IN 46323, USA}
+\newcommand{\MCLA}{Massachusetts College of Liberal Arts, 375 Church Street, North Adams, MA 01247, USA}
+\newcommand{\UMD}{Department of Physics, University of Minnesota -- Duluth, Duluth, MN 55812, USA}
+\newcommand{\Northwestern}{Northwestern University, Evanston, IL 60208, USA}
+\newcommand{\UNI}{Universidad Nacional de Ingenier\'{i}a, Apartado 31139, Lima, Per\'{u}}
+\newcommand{\Rochester}{University of Rochester, Rochester, NY 14627, USA}
+\newcommand{\Austin}{Department of Physics, University of Texas, 1 University Station, Austin, TX 78712, USA}
+\newcommand{\USM}{Departamento de F\'{i}sica, Universidad T\'{e}cnica Federico Santa Mar\'{i}a, Avenida Espa\~{n}a 1680 Casilla 110-V, Valpara\'{i}so, Chile}
+\newcommand{\Geneva}{University of Geneva, 1211 Geneva 4, Switzerland}
+\newcommand{\Chicago}{Enrico Fermi Institute, University of Chicago, Chicago, IL 60637, USA}
+\newcommand{\hired}{}
+\newcommand{\OregonState}{Department of Physics, Oregon State University, Corvallis, OR 97331, USA}
+\newcommand{\bmeThanks}{now at SLAC National Accelerator Laboratory, Stanford, CA 94309, USA}
+\newcommand{\higueraThanks}{University of Houston, Houston, TX 77204, USA}
+\newcommand{\LazaThanks}{also at Department of Physics, University of Antananarivo, Madagascar}
+\newcommand{\ticeThanks}{now at Argonne National Laboratory, Argonne, IL 60439, USA }
+\newcommand{\twaltonThanks}{now at Fermi National Accelerator Laboratory, Batavia, IL 60510, USA}
+\newcommand{\janThanks}{also at Institute of Theoretical Physics, Wroc\l aw University, Wroc\l aw, Poland}
+
+
+% 81 total signatories.
+\author{B.~Eberly}\altaffiliation{\bmeThanks}     \affiliation{\Pittsburgh}
+\author{L.~Aliaga}                        \affiliation{\WM}
+\author{O.~Altinok}                       \affiliation{\Tufts}
+\author{M.G.~Barrios~Sazo}                \affiliation{\Guanajuato}
+\author{L.~Bellantoni}                    \affiliation{\FNAL}
+\author{M.~Betancourt}                    \affiliation{\FNAL}
+\author{A.~Bodek}                         \affiliation{\Rochester}
+\author{A.~Bravar}                        \affiliation{\Geneva}
+\author{H.~Budd}                          \affiliation{\Rochester}
+\author{M.~J.~Bustamante~}                \affiliation{\PUCP}
+\author{A.~Butkevich}                     \affiliation{\INRM}
+\author{D.A.~Martinez~Caicedo}            \affiliation{\CBPF}  \affiliation{\FNAL}
+\author{M.F.~Carneiro}                    \affiliation{\CBPF}
+\author{M.E.~Christy}                     \affiliation{\Hampton}
+\author{J.~Chvojka}                       \affiliation{\Rochester}
+\author{H.~da~Motta}                      \affiliation{\CBPF}
+\author{M.~Datta}                         \affiliation{\Hampton}
+\author{J.~Devan}                         \affiliation{\WM}
+\author{S.A.~Dytman}                      \affiliation{\Pittsburgh}
+\author{G.A.~D\'{i}az~}                   \affiliation{\Rochester}  \affiliation{\PUCP}
+\author{J.~Felix}                         \affiliation{\Guanajuato}
+\author{L.~Fields}                        \affiliation{\Northwestern}
+\author{R.~Fine}                          \affiliation{\Rochester}
+\author{G.A.~Fiorentini}                  \affiliation{\CBPF}
+\author{A.M.~Gago}                        \affiliation{\PUCP}
+\author{R.Galindo}                        \affiliation{\USM}
+\author{H.~Gallagher}                     \affiliation{\Tufts}
+\author{T.~Golan}                         \affiliation{\Rochester}  \affiliation{\FNAL}
+\author{R.~Gran}                          \affiliation{\UMD}
+\author{D.A.~Harris}                      \affiliation{\FNAL}
+\author{A.~Higuera}\altaffiliation{\higueraThanks}  \affiliation{\Rochester}  \affiliation{\Guanajuato}
+\author{K.~Hurtado}                       \affiliation{\CBPF}  \affiliation{\UNI}
+\author{T.~Kafka}                         \affiliation{\Tufts}
+\author{J.~Kleykamp}                      \affiliation{\Rochester}
+\author{M.~Kordosky}                      \affiliation{\WM}
+\author{T.~Le}                            \affiliation{\Tufts}  \affiliation{\Rutgers}
+\author{E.~Maher}                         \affiliation{\MCLA}
+\author{S.~Manly}                         \affiliation{\Rochester}
+\author{W.A.~Mann}                        \affiliation{\Tufts}
+\author{C.M.~Marshall}                    \affiliation{\Rochester}
+\author{K.S.~McFarland}                   \affiliation{\Rochester}  \affiliation{\FNAL}
+\author{C.L.~McGivern}                    \affiliation{\Pittsburgh}
+\author{A.M.~McGowan}                     \affiliation{\Rochester}
+\author{B.~Messerly}                      \affiliation{\Pittsburgh}
+\author{J.~Miller}                        \affiliation{\USM}
+\author{A.~Mislivec}                      \affiliation{\Rochester}
+\author{J.G.~Morf\'{i}n}                  \affiliation{\FNAL}
+\author{J.~Mousseau}                      \affiliation{\Florida}
+\author{T.~Muhlbeier}                     \affiliation{\CBPF}
+\author{D.~Naples}                        \affiliation{\Pittsburgh}
+\author{J.K.~Nelson}                      \affiliation{\WM}
+\author{A.~Norrick}                       \affiliation{\WM}
+\author{J.~Osta}                          \affiliation{\FNAL}
+\author{J.L.~Palomino}                    \affiliation{\CBPF}
+\author{V.~Paolone}                       \affiliation{\Pittsburgh}
+\author{J.~Park}                          \affiliation{\Rochester}
+\author{C.E.~Patrick}                     \affiliation{\Northwestern}
+\author{G.N.~Perdue}                      \affiliation{\FNAL}  \affiliation{\Rochester}
+\author{L.~Rakotondravohitra}\altaffiliation{\LazaThanks}  \affiliation{\FNAL}
+\author{M.A.~Ramirez}                     \affiliation{\Guanajuato}
+\author{R.D.~Ransome}                     \affiliation{\Rutgers}
+\author{H.~Ray}                           \affiliation{\Florida}
+\author{L.~Ren}                           \affiliation{\Pittsburgh}
+\author{P.A.~Rodrigues}                   \affiliation{\Rochester}
+\author{D.~Ruterbories}                   \affiliation{\Rochester}
+\author{G.~Salazar}                       \affiliation{\UNI}
+\author{H.~Schellman}                     \affiliation{\OregonState}  \affiliation{\Northwestern}
+\author{D.W.~Schmitz}                     \affiliation{\Chicago}  \affiliation{\FNAL}
+\author{C.~Simon}                         \affiliation{\UCIrvine}
+\author{J.T.~Sobczyk}\altaffiliation{\janThanks}                     \affiliation{\FNAL}
+\author{C.J.~Solano~Salinas}              \affiliation{\UNI}
+\author{N.~Tagg}                          \affiliation{\Otterbein}
+\author{B.G.~Tice}\altaffiliation{\ticeThanks}    \affiliation{\Rutgers}
+\author{E.~Valencia}                      \affiliation{\Guanajuato}
+\author{T.~Walton}\altaffiliation{\twaltonThanks}  \affiliation{\Hampton}
+\author{J.~Wolcott}                       \affiliation{\Rochester}
+\author{M.Wospakrik}                      \affiliation{\Florida}
+\author{G.~Zavala}                        \affiliation{\Guanajuato}
+\author{A.~Zegarra}                       \affiliation{\UNI}
+\author{D.~Zhang}                         \affiliation{\WM}
+\author{B.P.Ziemer}                       \affiliation{\UCIrvine}
+
+
+
+
+
+%
+%% END AUTOMATIC PART
+\collaboration{ \minerva  Collaboration}\ \noaffiliation
+
+\date{\today}
+
+
+%nubar CCQE paper \pacs{13.15.+g,25.30.Pt,21.10.-k}
+\pacs{13.15.+g, 25.80.-e, 13.75.Gx}
+\begin{abstract}
+
+Charged pion production via charged-current $\nu_{\mu}$ interactions on plastic scintillator (CH)
+is studied using the MINERvA detector exposed to the NuMI wideband neutrino beam at Fermilab. 
+Events with hadronic invariant mass $W<1.4$ GeV and $W<1.8$ GeV are selected in separate analyses:   
+the lower $W$ cut isolates single pion production, which is expected to occur primarily through the $\Delta(1232)$ resonance, while  
+results from the higher cut include the effects of higher resonances.
+Cross sections as functions of pion angle and kinetic energy are compared to predictions from theoretical
+calculations and generator-based models for neutrinos ranging in energy from 1.5--10~GeV. The data are best described by calculations
+which include significant contributions from pion intranuclear rescattering.  These measurements constrain the primary interaction rate and the role of final state 
+interactions in pion production, both of which need to be well understood by neutrino oscillation experiments. 
+
+\end{abstract}
+\ifnum\sizecheck=0  
+\maketitle
+\fi
+
+\input{intro-pi.tex}
+
+\input{expt-pi.tex}
+
+\input{eventreco-pi.tex}
+
+\input{results-pi.tex}
+
+
+\ifnum\sizecheck=1
+  \newpage
+  {\Large Content after here does not count against size of PRL}
+  \newpage
+\fi
+\input{acknowledgments.tex}
+\input{biblio-ChargedPionNeutrino-bibtex.tex}
+
+\ifnum\PRLsupp=0
+  \clearpage
+  \onecolumngrid
+  \input{appendix-ChargedPionNeutrino.tex}
+\fi
+
+\end{document}

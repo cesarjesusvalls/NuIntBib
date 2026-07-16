@@ -1,0 +1,107 @@
+{
+ "bibtag": "MicroBooNE:2022zhr",
+ "slug": "microboone-2022zhr",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2205.07943",
+ "arxiv": "2205.07943",
+ "cite": "Phys.Rev.D 107 012004",
+ "note": "Flux-averaged, flux-summed-over-species (\u03bd\u03bc+\u03bd\u0304\u03bc+\u03bde+\u03bd\u0304e, weighted by BNB flux composition; NC process cannot tag incident flavor) TOTAL (flux-integrated, non-differential) cross sections for NC single-\u03c00 production on argon, MicroBooNE LArTPC (BNB beam, 5.89e20 POT). Three exclusive/semi-inclusive channels reported in Table \"tab:summary_tab\" (sec4_Cross_Sections.tex): (1) NC\u03c00 semi-inclusive (any proton multiplicity, efficiency-corrected for 2+p final states), (2) NC\u03c00+1p exclusive (exactly 1 proton, KE>50 MeV), (3) NC\u03c00+0p exclusive (exactly 0 protons). No kinematic differential variable \u2014 each is a single flux-integrated number, so lo=hi=0.8 GeV (the paper's quoted mean BNB neutrino energy \u27e8E\u03bd\u27e9=0.8 GeV, sec1_Intro.tex) following this project's convention for point/total measurements (matches e.g. microboone-2021gfj, sciboone-2010slc, minos-2016yyz which use lo=hi=mean energy). Target: per Ar (per argon atom/nucleus) \u2014 paper states units explicitly as \"[1e-38 cm^2/Ar]\" in Table tab:summary_tab and abstract (main.tex line ~291); N_targets computed as number of Ar atoms in fiducial volume, confirming per-nucleus (not per-nucleon) normalization..",
+ "distributions": [
+  {
+   "key": "dsigma_nc1pi0_semi_inclusive_ar",
+   "slug": "dsigma_nc1pi0_semi_inclusive_ar",
+   "name": "\u03c3_NC1\u03c0^0 (NC\u03c00 (semi-inclusive))",
+   "name_tex": "$\\sigma_{NC1\\pi^0}\\ (NC\u03c00 (semi-inclusive))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_NC1\u03c0^0",
+   "ylabel_plot": "\u03c3_NC1\u03c0^0",
+   "ylabel_tex": "$\\sigma_{NC1\\pi^0}$",
+   "yunit": "10^{-38} cm^2/Ar",
+   "yunit_tex": "$10^{-38} cm^2/Ar$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.8,
+     "hi": 0.8,
+     "center": 0.8,
+     "val": 1.243,
+     "err": 0.2
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2022zhr/nc1pi0_semi_inclusive_ar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2205.07943",
+   "provenance": "MicroBooNE:2022zhr \u2014 Flux-averaged, flux-summed-over-species (\u03bd\u03bc+\u03bd\u0304\u03bc+\u03bde+\u03bd\u0304e, weighted by BNB flux composition; NC process cannot tag incident \u00b7 target per Ar (per argon atom/nucleus) \u2014 paper states units explicitly as \"[1e-38 cm^2/Ar]\" in Table tab:summary_tab and abstract (main.tex line ~291); N_targets computed as number of Ar atoms in fiducial volume, confirming per-nucleus (not per-nucleon) normalization. \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2022zhr \u2014 Flux-averaged, flux-summed-over-species (\u03bd\u03bc+\u03bd\u0304\u03bc+\u03bde+\u03bd\u0304e, weighted by BNB flux composition; NC process cannot tag incident. Target per Ar (per argon atom/nucleus) \u2014 paper states units explicitly as \"[1e-38 cm^2/Ar]\" in Table tab:summary_tab and abstract (main.tex line ~291); N_targets computed as number of Ar atoms in fiducial volume, confirming per-nucleus (not per-nucleon) normalization.."
+  },
+  {
+   "key": "dsigma_nc1pi0_1p_exclusive_ar",
+   "slug": "dsigma_nc1pi0_1p_exclusive_ar",
+   "name": "\u03c3_NC1\u03c0^0+1p (NC\u03c00+1p (exclusive))",
+   "name_tex": "$\\sigma_{NC1\\pi^0+1p}\\ (NC\u03c00+1p (exclusive))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_NC1\u03c0^0+1p",
+   "ylabel_plot": "\u03c3_NC1\u03c0^0+1p",
+   "ylabel_tex": "$\\sigma_{NC1\\pi^0+1p}$",
+   "yunit": "10^{-38} cm^2/Ar",
+   "yunit_tex": "$10^{-38} cm^2/Ar$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.8,
+     "hi": 0.8,
+     "center": 0.8,
+     "val": 0.444,
+     "err": 0.1087
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2022zhr/nc1pi0_1p_exclusive_ar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2205.07943",
+   "provenance": "MicroBooNE:2022zhr \u2014 Flux-averaged, flux-summed-over-species (\u03bd\u03bc+\u03bd\u0304\u03bc+\u03bde+\u03bd\u0304e, weighted by BNB flux composition; NC process cannot tag incident \u00b7 target per Ar (per argon atom/nucleus) \u2014 paper states units explicitly as \"[1e-38 cm^2/Ar]\" in Table tab:summary_tab and abstract (main.tex line ~291); N_targets computed as number of Ar atoms in fiducial volume, confirming per-nucleus (not per-nucleon) normalization. \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2022zhr \u2014 Flux-averaged, flux-summed-over-species (\u03bd\u03bc+\u03bd\u0304\u03bc+\u03bde+\u03bd\u0304e, weighted by BNB flux composition; NC process cannot tag incident. Target per Ar (per argon atom/nucleus) \u2014 paper states units explicitly as \"[1e-38 cm^2/Ar]\" in Table tab:summary_tab and abstract (main.tex line ~291); N_targets computed as number of Ar atoms in fiducial volume, confirming per-nucleus (not per-nucleon) normalization.."
+  },
+  {
+   "key": "dsigma_nc1pi0_0p_exclusive_ar",
+   "slug": "dsigma_nc1pi0_0p_exclusive_ar",
+   "name": "\u03c3_NC1\u03c0^0+0p (NC\u03c00+0p (exclusive))",
+   "name_tex": "$\\sigma_{NC1\\pi^0+0p}\\ (NC\u03c00+0p (exclusive))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_NC1\u03c0^0+0p",
+   "ylabel_plot": "\u03c3_NC1\u03c0^0+0p",
+   "ylabel_tex": "$\\sigma_{NC1\\pi^0+0p}$",
+   "yunit": "10^{-38} cm^2/Ar",
+   "yunit_tex": "$10^{-38} cm^2/Ar$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.8,
+     "hi": 0.8,
+     "center": 0.8,
+     "val": 0.624,
+     "err": 0.151
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2022zhr/nc1pi0_0p_exclusive_ar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2205.07943",
+   "provenance": "MicroBooNE:2022zhr \u2014 Flux-averaged, flux-summed-over-species (\u03bd\u03bc+\u03bd\u0304\u03bc+\u03bde+\u03bd\u0304e, weighted by BNB flux composition; NC process cannot tag incident \u00b7 target per Ar (per argon atom/nucleus) \u2014 paper states units explicitly as \"[1e-38 cm^2/Ar]\" in Table tab:summary_tab and abstract (main.tex line ~291); N_targets computed as number of Ar atoms in fiducial volume, confirming per-nucleus (not per-nucleon) normalization. \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2022zhr \u2014 Flux-averaged, flux-summed-over-species (\u03bd\u03bc+\u03bd\u0304\u03bc+\u03bde+\u03bd\u0304e, weighted by BNB flux composition; NC process cannot tag incident. Target per Ar (per argon atom/nucleus) \u2014 paper states units explicitly as \"[1e-38 cm^2/Ar]\" in Table tab:summary_tab and abstract (main.tex line ~291); N_targets computed as number of Ar atoms in fiducial volume, confirming per-nucleus (not per-nucleon) normalization.."
+  }
+ ]
+}

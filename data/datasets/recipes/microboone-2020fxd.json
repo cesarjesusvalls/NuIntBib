@@ -1,0 +1,63 @@
+{
+ "bibtag": "MicroBooNE:2020fxd",
+ "slug": "microboone-2020fxd",
+ "source_url": "https://arxiv.org/abs/2006.00108",
+ "note": "First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP_\u03bc, d\u03c3/dcos\u03b8_p, d\u03c3/dP_p, d\u03c3/dQ\u00b2_CCQE, d\u03c3/dE_\u03bd^cal) with the MicroBooNE LArTPC on the Fermilab Booster Neutrino Beam (BNB \u03bd_\u03bc, POT-averaged flux). Signal = events with exactly one muon, one proton, no pions above threshold. Target: per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\". (published covariance not attached: matrix 28x28 vs 42 bins)",
+ "provenance": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP \u00b7 target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\" \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "cos_thetamu",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020fxd/cos_thetamu.csv",
+   "xlabel": "\\cos\\theta_\\mu",
+   "xunit": "unitless",
+   "ylabel": "d\\sigma/d\\cos\\theta_\\mu",
+   "yunit": "1e-38 cm^2 per Ar nucleus"
+  },
+  {
+   "slug": "p_mu",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020fxd/p_mu.csv",
+   "xlabel": "P_\\mu",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dP_\\mu",
+   "yunit": "1e-38 cm^2 per Ar nucleus per (GeV/c)"
+  },
+  {
+   "slug": "cos_thetap",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020fxd/cos_thetap.csv",
+   "xlabel": "\\cos\\theta_p",
+   "xunit": "unitless",
+   "ylabel": "d\\sigma/d\\cos\\theta_p",
+   "yunit": "1e-38 cm^2 per Ar nucleus"
+  },
+  {
+   "slug": "p_p",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020fxd/p_p.csv",
+   "xlabel": "P_p",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dP_p",
+   "yunit": "1e-38 cm^2 per Ar nucleus per (GeV/c)"
+  },
+  {
+   "slug": "q2ccqe",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020fxd/q2ccqe.csv",
+   "xlabel": "Q^2_{CCQE}",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^2_{CCQE}",
+   "yunit": "1e-38 cm^2 per Ar nucleus per (GeV/c)^2"
+  },
+  {
+   "slug": "enu_cal",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2020fxd/enu_cal.csv",
+   "xlabel": "E_\\nu^{cal}",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dE_\\nu^{cal}",
+   "yunit": "1e-38 cm^2 per Ar nucleus per GeV"
+  }
+ ]
+}

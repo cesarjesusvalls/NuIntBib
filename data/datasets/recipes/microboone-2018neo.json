@@ -1,0 +1,18 @@
+{
+ "bibtag": "MicroBooNE:2018neo",
+ "slug": "microboone-2018neo",
+ "source_url": "https://arxiv.org/abs/1811.02700",
+ "note": "Flux-integrated total cross section for \u03bd_\u03bc charged-current single \u03c00 production on argon, measured with the MicroBooNE LArTPC exposed to the Booster Neutrino Beam (BNB) at Fermilab. Single-value (not differential) result; flux integrated over 0-3 GeV neutrino energy. Value found in main.tex line 139: \u27e8\u03c3\u27e9_\u03a6 = 1.9 \u00b1 0.2 (stat) \u00b1 0.6 (syst) \u00d7 10^-38 cm^2/Ar. Flux integration range (0-3 GeV) found at main.tex line 125. Target: per Ar (per argon nucleus) \u2014 paper explicitly quotes units cm^2/Ar and describes FSI scaling as A^(2/3) at the nucleus level.",
+ "provenance": "MicroBooNE:2018neo \u2014 Flux-integrated total cross section for \u03bd_\u03bc charged-current single \u03c00 production on argon, measured with the MicroBooNE \u00b7 target per Ar (per argon nucleus) \u2014 paper explicitly quotes units cm^2/Ar and describes FSI scaling as A^(2/3) at the nucleus level \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "total_xsec_ccpi0_ar",
+   "label": "",
+   "csv": "data/datasets/sources/microboone-2018neo/total_xsec_ccpi0_ar.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\langle\\sigma\\rangle_{\\Phi}(\\nu_\\mu\\,\\mathrm{CC}\\,\\pi^0)",
+   "yunit": "10^-38 cm^2/Ar"
+  }
+ ]
+}

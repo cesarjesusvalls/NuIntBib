@@ -1,0 +1,142 @@
+\section{\minerva Experiment}
+\label{sec:expt}
+The \minerva experiment combines a fine-grained tracking detector with the high-intensity 
+NuMI beam line~\cite{Anderson:1998zza} and the MINOS near detector~\cite{Michael:2008bc}.  
+The neutrino beam is created by directing 120 GeV protons onto a graphite target, producing charged 
+particles (mostly pions and kaons) which are focused into a 
+beam by two magnetic horns.  Downstream of the horns, most of the pions and kaons decay within 
+the 675 m helium-filled decay pipe to produce neutrinos.  Approximately 97\% of the muon neutrinos that enter \minerva 
+are produced by pion decay, with the remainder produced from kaon decay.
+
+The \minerva detector consists of a central tracking volume 
+preceded by nuclear targets, which are not used in this analysis, and surrounded by electromagnetic 
+and hadronic calorimeters.
+In the tracking volume, triangular polystyrene scintillator strips with a 1.7~cm strip-to-strip pitch are arranged into planes
+arrayed perpendicularly to the horizontal axis, which is inclined by 3.4$^\circ$
+relative to the beam direction.  
+Three plane orientations, at $0^\circ$ and $\pm 60^\circ$ relative to the vertical axis, enable 
+unambiguous 3-dimensional reconstruction of the neutrino
+interaction point and charged particle tracks.  Each scintillator strip contains a wavelength-shifting fiber 
+that is read out by a multi-anode photomultiplier tube.  The 3.0 ns timing resolution of the readout electronics is 
+adequate for separating multiple interactions within a single beam spill.   
+The MINOS near detector, located 2~m downstream of the \minerva detector, 
+is used to reconstruct muon momentum and charge.  More information on the design, calibration, and performance of 
+the \minerva detector, including the elemental composition of the tracking volume, is provided in Ref.~\cite{minerva_nim}.
+
+The data for this measurement were collected 
+between March 2010 and April 2012 and correspond to an integrated $3.04\times 10^{20}$ protons on 
+target (POT).  For these data the horn current was configured to produce 
+a muon neutrino beam, and the MINOS detector's magnet polarity was set to focus negative muons.   
+
+\section{Experiment Simulation}
+\label{sec:expt_sim}
+The neutrino beam is simulated by a GEANT4-based model~\cite{Agostinelli2003250,1610988} that is tuned to agree with 
+hadron production measurements on carbon~\cite{Alt:2006fr, Lebedev:2007zz} by the procedure described in Ref.~\cite{MINERVAnubarprl}.  Uncertainty on
+the neutrino flux is determined by the precision in these measurements, uncertainties in the beam line
+focusing system and alignment~\cite{Pavlovic:2008zz}, and comparisons between different hadron production models in regions not
+covered by the hadron production data referenced above.  The integrated neutrino flux over the range 
+$1.5\le E_\nu \le 10$~GeV is estimated to be $\unit[2.77 \times 10^{-8}]{cm^{-2}/POT}$.  Table~\ref{tab:nu_flux} lists the flux as a function of energy.
+
+\begingroup
+\squeezetable
+\begin{table*}[t]
+\centering
+\begin{tabular}{l|ccccccccccccc}
+\hline \hline
+$E_\nu$ (GeV) & 
+$1.5 - 2$ &
+$2 - 2.5$ &
+$2.5 - 3$ &
+$3 - 3.5$ &
+$3.5 - 4$ &
+$4 - 4.5$ &
+$4.5 - 5$ &
+$5 - 5.5$ \\
+Flux ($\nu_{\mu}$/cm$^2$/POT ($\times 10^{-8}$)) &
+$0.291	$ &
+$0.387	$&
+$0.476	$&
+$0.502   $&
+$0.402	$&
+$0.242	$&
+$0.131	$&
+$0.077	$ \\
+\hline
+$E_\nu$ (GeV) & 
+$5.5 - 6$ &
+$6 - 6.5$ &
+$6.5 - 7$ &
+$7 - 7.5$ &
+$7.5 - 8$ &
+$8 - 8.5$ &
+$8.5 - 9$ &
+$9 - 9.5$ &
+$9.5 - 10$ \\
+Flux ($\nu_{\mu}$/cm$^2$/POT ($\times 10^{-8}$)) &
+$0.053   $&
+$0.041	$&
+$0.035	$&
+$0.030	$&
+$0.026	$&
+$0.023	$&
+$0.021	$&
+$0.019	$&
+$0.017	$ \\ \hline \hline
+\end{tabular}
+\caption{The $\nu_\mu$ flux per POT for the data included in this analysis.}
+\label{tab:nu_flux}
+\end{table*}
+\endgroup
+
+The \minerva detector response is also simulated by a GEANT4-based model.  The muon energy loss scale of the detector
+is known to within 2\% by requiring agreement between data and simulation of both the photon statistics and the reconstructed
+energy deposited by momentum-analyzed throughgoing muons. Calorimetric corrections used to reconstruct the
+energy of hadronic showers are determined from the simulation by the procedure described in Ref.~\cite{minerva_nim}.  The 
+uncertainties on the hadron interaction models in GEANT4 are determined to be $\sim$10\% by external 
+data~\cite{Ashery:1981tq,Allardyce:1973ce,Saunders:1996ic,Lee:2002eq}.  The tracking efficiency and 
+energy response of single hadrons, as well as the scintillation Birks constant, are determined from measurements made 
+with a scaled-down replica of the MINERvA detector 
+in a low energy hadron test beam~\cite{mnv_testbeam}. The response of the MINOS near detector to muons is determined by a tuned
+GEANT-based
+simulation~\cite{Michael:2008bc}.
+
+Neutrino interactions are simulated using the GENIE 2.6.2 neutrino event generator~\cite{Andreopoulos201087}.  Non-coherent interactions 
+are treated as neutrino-nucleon scattering within a relativistic Fermi gas.  The nucleon momentum distribution is 
+modified with a high-energy tail to account for nucleon-nucleon interactions, but interactions with correlated 
+nucleon pairs are not included in the simulation.  Pauli-blocking is applied to quasielastic and elastic scattering, but not to 
+resonance baryon production.  The structure functions in the deep inelastic scattering (DIS) model are modified to reproduce 
+the shadowing, anti-shadowing, and EMC effects observed in charged-lepton nuclear scattering data.
+
+Almost all pion-production events observed in \minerva are due to baryon resonance production, nonresonant pion production (including DIS), 
+and coherent pion production.  For baryon resonance production at $W<1.7$~GeV, the formalism of 
+Rein-Sehgal~\cite{Rein:1980wg} is used with modern resonance properties~\cite{pdg} and an axial mass $M_{A}=1.12\pm0.22$~GeV.  
+However, GENIE differs from Rein-Sehgal in a couple ways. Resonance interference and lepton mass terms in the 
+cross section calculation are not included. 
+Most signficantly, the angular spectrum of the $\Delta$ decay is nominally isotropic in GENIE; this analysis instead reweights GENIE such 
+that the $\Delta$ decay angular anisotropy is half that predicted by 
+Rein-Sehgal.  Excursions from isotropic to the full Rein-Sehgal anisotropic prediction are included as a systematic uncertainty.
+Nonresonant pion production is simulated using the Bodek-Yang 
+model~\cite {Bodek:2004pc} and is constrained below $W=1.7$~GeV by 
+neutrino-deuterium bubble chamber data. Coherent pion production is described according to the 
+model of Rein-Sehgal modified with lepton mass terms~\cite{Rein:2007}.  Uncertainties on the components of the neutrino-interaction model are 
+provided by GENIE. 
+
+Pion and nucleon FSI processes are modeled in GENIE using an effective
+intranuclear cascade model~\cite{Dytman:2011zz}, called the ``hA'' model, that simulates the full
+cascade as a single interaction and tunes the overall interaction rate
+to hadron-nucleus total reaction cross section data.  For 
+light nuclei such as carbon, a single interaction happens for a large
+fraction of the events.  The final state particle multiplicity and kinematic 
+distributions are also tuned to data.  
+This model has good agreement with a wide range 
+of data from hadron-nucleus scattering experiments for many 
+targets. 
+Uncertainties in the FSI model are evaluated by varying its parameters
+within measured uncertainties~\cite{Lee:2002eq,Ashery:1981tq}.
+
+
+ 
+
+
+
+

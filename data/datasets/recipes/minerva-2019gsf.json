@@ -1,0 +1,38 @@
+{
+ "bibtag": "MINERvA:2019gsf",
+ "slug": "minerva-2019gsf",
+ "source_url": "https://arxiv.org/abs/1912.09890",
+ "note": "CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"Medium Energy\" neutrino-mode beam (flux peaked ~6 GeV), MINERvA tracker. Three flux-integrated 1D differential cross sections from the official arXiv ancillary data release (anc/tables/, described by anc/tables.html): dsigma/dQ^2_QE (single-differential, the paper's Fig. \"XSec1D\" headline plot), and dsigma/dp_parallel and dsigma/dp_perp (muon longitudinal/transverse momentum), which are the OFFICIAL 1D marginal projections of the paper's headline 2D d^2sigma/dp_perp/dp_parallel result, released with their own independently-tabulated covariances. Target: per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C..",
+ "provenance": "MINERvA:2019gsf \u2014 CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"M \u00b7 target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C. \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "q2",
+   "label": "dsigma/dQ^2_QE (muon quasielastic-hypothesis momentum transfer squared)",
+   "csv": "data/datasets/sources/minerva-2019gsf/q2.csv",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2_{QE}",
+   "yunit": "10^{-41} cm^2/GeV^2 per nucleon (CH)"
+  },
+  {
+   "slug": "ppar",
+   "label": "dsigma/dp_parallel (muon longitudinal momentum, official 1D marginal of the 2D p_perp-p_parallel result)",
+   "csv": "data/datasets/sources/minerva-2019gsf/ppar.csv",
+   "xlabel": "p_{\\mu,\\parallel}",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_{\\mu,\\parallel}",
+   "yunit": "10^{-41} cm^2/(GeV/c) per nucleon (CH)"
+  },
+  {
+   "slug": "pperp",
+   "label": "dsigma/dp_perp (muon transverse momentum, official 1D marginal of the 2D p_perp-p_parallel result)",
+   "csv": "data/datasets/sources/minerva-2019gsf/pperp.csv",
+   "xlabel": "p_{\\mu,\\perp}",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_{\\mu,\\perp}",
+   "yunit": "10^{-41} cm^2/(GeV/c) per nucleon (CH)"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2019gsf/cov.csv",
+ "cov_note": "Absolute cross-section-squared units (10^-41 cm^2 scale, same as val/err), NO rescaling needed: the ancillary covariance files (h_q2_ptmu__px_binwidth_covari"
+}

@@ -1,0 +1,400 @@
+   Differential cross section measurement of charged current νe interactions without
+               final-state pions in MicroBooNE: Supplementary Material
+   P. Abratenko,34 J. Anthony,4 L. Arellano,19 J. Asaadi,33 A. Ashkenazi,31 S. Balasubramanian,11 B. Baller,11
+ C. Barnes,21 G. Barr,24 J. Barrow,20, 31 V. Basque,11 L. Bathe-Peters,13 O. Benevides Rodrigues,30 S. Berkman,11
+ A. Bhanderi,19 M. Bhattacharya,11 M. Bishai,2 A. Blake,16 B. Bogart,21 T. Bolton,15 J. Y. Book,13 L. Camilleri,9
+      D. Caratelli,3 I. Caro Terrazas,8 F. Cavanna,11 G. Cerati,11 Y. Chen,27 J. M. Conrad,20 M. Convery,27
+       L. Cooper-Troendle,37 J. I. Crespo-Anadón,5 M. Del Tutto,11 S. R. Dennis,4 P. Detje,4 A. Devitt,16
+    R. Diurba,1, 22 R. Dorrill,14 K. Duffy,24 S. Dytman,25 B. Eberly,29 A. Ereditato,1 J. J. Evans,19 R. Fine,17
+        O. G. Finnerud,19 W. Foreman,14 B. T. Fleming,37 N. Foppiani,13 D. Franco,37 A. P. Furmanski,22
+    D. Garcia-Gamez,12 S. Gardiner,11 G. Ge,9 S. Gollapinni,32, 17 O. Goodwin,19 E. Gramellini,11 P. Green,19
+   H. Greenlee,11 W. Gu,2 R. Guenette,19 P. Guzowski,19 L. Hagaman,37 O. Hen,20 R. Hicks,17 C. Hilgenberg,22
+     G. A. Horton-Smith,15 B. Irwin,22 R. Itay,27 C. James,11 X. Ji,2 L. Jiang,35 J. H. Jo,37 R. A. Johnson,7
+    Y.-J. Jwa,9 D. Kalra,9 N. Kamp,20 G. Karagiorgi,9 W. Ketchum,11 M. Kirby,11 T. Kobilarcik,11 I. Kreslo,1
+      M. B. Leibovitch,3 I. Lepetic,26 J.-Y. Li,10 K. Li,37 Y. Li,2 K. Lin,26 B. R. Littlejohn,14 W. C. Louis,17
+  X. Luo,3 K. Manivannan,30 C. Mariani,35 D. Marsden,19 J. Marshall,36 D. A. Martinez Caicedo,28 K. Mason,34
+  A. Mastbaum,26 N. McConkey,19 V. Meddage,15 K. Miller,6 J. Mills,34 A. Mogan,8 T. Mohayai,11 M. Mooney,8
+A. F. Moor,4 C. D. Moore,11 L. Mora Lepin,19 J. Mousseau,21 S. Mulleriababu,1 D. Naples,25 A. Navrer-Agasson,19
+N. Nayak,2 M. Nebot-Guinot,10 D. A. Newmark,17 J. Nowak,16 M. Nunes,30 N. Oza,17 O. Palamara,11 N. Pallat,22
+ V. Paolone,25 A. Papadopoulou,20 V. Papavassiliou,23 H. B. Parkinson,10 S. F. Pate,23 N. Patel,16 Z. Pavlovic,11
+    E. Piasetzky,31 I. D. Ponce-Pinto,37 S. Prince,13 X. Qian,2 J. L. Raaf,11 V. Radeka,2 M. Reggiani-Guzzo,19
+ L. Ren,23 L. Rochester,27 J. Rodriguez Rondon,28 M. Rosenberg,34 M. Ross-Lonergan,9, 17 C. Rudolf von Rohr,1
+    G. Scanavini,37 D. W. Schmitz,6 A. Schukraft,11 W. Seligman,9 M. H. Shaevitz,9 R. Sharankova,11 J. Shi,4
+    A. Smith,4 E. L. Snider,11 M. Soderberg,30 S. Söldner-Rembold,19 J. Spitz,21 M. Stancari,11 J. St. John,11
+T. Strauss,11 S. Sword-Fehlberg,23 A. M. Szelc,10 W. Tang,32 N. Taniuchi,4 K. Terao,27 C. Thorpe,16 D. Torbunov,2
+  D. Totani,3 M. Toups,11 Y.-T. Tsai,27 J. Tyler,15 M. A. Uchida,4 T. Usher,27 B. Viren,2 M. Weber,1 H. Wei,18
+      A. J. White,37 Z. Williams,33 S. Wolbers,11 T. Wongjirad,34 M. Wospakrik,11 K. Wresilo,4 N. Wright,20
+     W. Wu,11 E. Yandel,3 T. Yang,11 L. E. Yates,11 H. W. Yu,2 G. P. Zeller,11 J. Zennamo,11 and C. Zhang2
+                                         (The MicroBooNE Collaboration)∗
+                                   1
+                                              Universität Bern, Bern CH-3012, Switzerland
+                          2
+                               Brookhaven National Laboratory (BNL), Upton, NY, 11973, USA
+                                   3
+                                     University of California, Santa Barbara, CA, 93106, USA
+                              4
+                                University of Cambridge, Cambridge CB3 0HE, United Kingdom
+      5
+        Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT), Madrid E-28040, Spain
+                                           6
+                                             University of Chicago, Chicago, IL, 60637, USA
+                                      7
+                                        University of Cincinnati, Cincinnati, OH, 45221, USA
+                                   8
+                                     Colorado State University, Fort Collins, CO, 80523, USA
+                                         9
+                                           Columbia University, New York, NY, 10027, USA
+                              10
+                                 University of Edinburgh, Edinburgh EH9 3FD, United Kingdom
+                        11
+                           Fermi National Accelerator Laboratory (FNAL), Batavia, IL 60510, USA
+                                         12
+                                            Universidad de Granada, Granada E-18071, Spain
+                                         13
+                                             Harvard University, Cambridge, MA 02138, USA
+                               14
+                                  Illinois Institute of Technology (IIT), Chicago, IL 60616, USA
+                                15
+                                   Kansas State University (KSU), Manhattan, KS, 66506, USA
+                                 16
+                                    Lancaster University, Lancaster LA1 4YW, United Kingdom
+                       17
+                           Los Alamos National Laboratory (LANL), Los Alamos, NM, 87545, USA
+                                  18
+                                     Louisiana State University, Baton Rouge, LA, 70803, USA
+                         19
+                            The University of Manchester, Manchester M13 9PL, United Kingdom
+                      20
+                         Massachusetts Institute of Technology (MIT), Cambridge, MA, 02139, USA
+                                      21
+                                         University of Michigan, Ann Arbor, MI, 48109, USA
+                                    22
+                                       University of Minnesota, Minneapolis, MN, 55455, USA
+                          23
+                             New Mexico State University (NMSU), Las Cruces, NM, 88003, USA
+                                   24
+                                      University of Oxford, Oxford OX1 3RH, United Kingdom
+                                      25
+                                         University of Pittsburgh, Pittsburgh, PA, 15260, USA
+                                          26
+                                             Rutgers University, Piscataway, NJ, 08854, USA
+                          27
+                             SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA
+                28
+                   South Dakota School of Mines and Technology (SDSMT), Rapid City, SD, 57701, USA
+                                  29
+                                     University of Southern Maine, Portland, ME, 04104, USA
+                                                                                                                      2
+
+                                                                   30
+                                        Syracuse University, Syracuse, NY, 13244, USA
+                                        31
+                                           Tel Aviv University, Tel Aviv, Israel, 69978
+                                  32
+                                     University of Tennessee, Knoxville, TN, 37996, USA
+                                     33
+                                        University of Texas, Arlington, TX, 76019, USA
+                                        34
+                                           Tufts University, Medford, MA, 02155, USA
+                       35
+                          Center for Neutrino Physics, Virginia Tech, Blacksburg, VA, 24061, USA
+                              36
+                                 University of Warwick, Coventry CV4 7AL, United Kingdom
+               37
+                  Wright Laboratory, Department of Physics, Yale University, New Haven, CT, 06520, USA
+                                                    (Dated: August 3, 2022)
+
+
+
+
+                                                                            I.   PROTON THRESHOLD
+
+   The choice of the proton threshold at 50 MeV is motivated by Fig. 1, where we show the expected number of
+selected signal events as a function of the true leading proton kinetic energy for the 1e0p0π and 1eNp0π selections.
+The choice of 50 MeV corresponds to the energy where the two curves intersect, so below this value most events are
+selected with the 1e0p0π selection, while above this value most events are selected with the 1eNp0π selection.
+
+                                                                                  MicroBooNE Simulation
+                                                                   12                               1e0p0 selection
+                                                                                                    1eNp0 selection
+
+
+
+
+                              Number of events for 6.86×1020 POT
+                                                                   10
+
+                                                                   8
+
+                                                                   6
+
+                                                                   4
+
+                                                                   2
+
+                                                                   0
+                                                                   0.00     0.05 0.10 0.15 0.20 0.25 0.30
+                                                                          True Leading Proton Kinetic Energy [GeV]
+
+FIG. 1. Expected number of signal events for 6.86 × 1020 POT as a function of the leading proton kinetic energy for the
+1e0p0π and 1eNp0π selections.
+
+
+
+
+∗ microboone info@fnal.gov
+                                                                                                                                                               3
+
+                                           II.   INTERACTION MODE OF SELECTED EVENTS
+
+   In addition to true visible final state the selected neutrino events can also be classified by true interaction mode. The
+interaction mode breakdown for the tuned version of GENIE v3 is shown in Fig. 2 for events passing the cross-section
+selection in all four variables in which the cross section is measured.
+
+
+               1eNp0 Selection - Signal only                                    1eNp0 Selection - Signal only
+                MicroBooNE Simulation 6.86 ×1020 POT                       50                             MicroBooNE Simulation 6.86 ×1020 POT
+                     DIS: 1.2            MEC: 28.6                                                               DIS: 1.2                  MEC: 28.6
+          40         QE: 58.6            Uncertainty                                                             QE: 58.6                  Uncertainty
+                     Resonant: 11.0                                        40                                    Resonant: 11.0
+
+          30                                                               30
+Entries                                                          Entries
+          20                                                               20
+
+          10                                                               10
+
+          0                                                                0
+           1.00 0.75 0.50 0.25 0.00 0.25 0.50 0.75 1.00                     0.0     0.5    1.0    1.5     2.0         2.5     3.0    3.5      4.0        4.5
+                                          cos e                                                           Ee [GeV]
+                                          (a)                                                              (b)
+
+
+               1eNp0 Selection - Signal only                                    1eXp0 Selection - Signal only
+                MicroBooNE Simulation 6.86 ×1020 POT                                                      MicroBooNE Simulation 6.86 ×1020 POT
+          40         DIS: 1.2            MEC: 28.6                         50                                    DIS: 1.3                  MEC: 30.6
+                     QE: 58.6            Uncertainty                                                             QE: 68.1                  Uncertainty
+                     Resonant: 11.0                                                                              Resonant: 12.2
+                                                                           40
+          30
+
+Entries                                                          Entries
+                                                                           30
+          20
+                                                                           20
+          10                                                               10
+
+          0                                                                0
+           1.00 0.75 0.50 0.25 0.00 0.25 0.50 0.75 1.00                     0.0      0.1    0.2     0.3         0.4         0.5     0.6      0.7         0.8
+                                          cos P                                                         KEP [GeV]
+                                          (c)                                                              (d)
+
+FIG. 2. Signal prediction using the MicroBooNE tune of GENIE v3 after selection, categorized by interaction mode: quasi-
+elastic (QE), meson exchange current (MEC), resonant, and deep inelastic scattering (DIS). The prediction is shown in (a) the
+angle between the neutrino beam and the electron direction, (b) electron kinetic energy, (c) the angle between the neutrino
+beam and the leading proton direction, and (d) the leading proton kinetic energy. The uncertainty band includes only statistical
+uncertainties of the simulated samples.
+                                                                                                                          4
+
+                                                III.   ELECTRON ENERGY
+
+   The tables in this section provide additional information for the cross-section measurement as a function of the
+electron energy: background-subtracted observation and cross-section values (Table I), χ2 values for the different
+generators tests (Table II), covariance matrices for the extracted cross section (Table III) and for the background-
+subtracted data prediction (Table IV), and response matrix (Table V).
+
+
+                             TABLE I. Unfolded cross section as a function of electron energy.
+                                        Bin [GeV]              [0, 0.4] [0.4, 0.9] [0.9, 1.5] [1.5, 4.5]
+                           Background-subtracted data events    11.86 21.75          15.11      14.80
+                         Cross section [10−39 cm2 /GeV/nucleon] 1.86      1.76        0.99       0.31
+
+
+
+TABLE II. Results of compatibility tests between generators and the measured cross-section as a function of electron energy.
+                                          GENIE v3 uB GENIE v3 GENIE v2 NuWro NEUT
+                                  χ2          6.83       2.75     6.39   4.30  9.12
+                                 d.o.f.        4          4         4      4     4
+                                p-value      0.145      0.600    0.172   0.367 0.058
+
+
+
+TABLE III. Covariance matrix for the cross section measurement as a function of electron energy.                  Units are
+(cm2 /GeV/nucleon)2 .
+                                      Bin [GeV] [0, 0.4] [0.4, 0.9] [0.9, 1.5] [1.5, 4.5]
+                                        [0, 0.4] 2.46e-78 1.07e-79 -5.40e-81 8.67e-81
+                                       [0.4, 0.9] 1.07e-79 6.68e-79 2.04e-80 5.96e-82
+                                       [0.9, 1.5] -5.40e-81 2.04e-80 2.60e-79 4.24e-82
+                                       [1.5, 4.5] 8.67e-81 5.96e-82 4.24e-82 1.21e-80
+
+
+
+               TABLE IV. Covariance matrix for the total event prediction as a function of electron energy.
+                                          Bin [GeV] [0, 0.4] [0.4, 0.9] [0.9, 1.5] [1.5, 4.5]
+                                            [0, 0.4]  63.99 13.57          4.59       2.44
+                                           [0.4, 0.9] 13.57 76.73          7.32       4.17
+                                           [0.9, 1.5] 4.59     7.32       44.73      3.07
+                                           [1.5, 4.5] 2.44     4.17        3.07      29.27
+
+
+
+                       TABLE V. Response matrix for signal events as a function of electron energy.
+                                          Bin [GeV] [0, 0.4] [0.4, 0.9] [0.9, 1.5] [1.5, 4.5]
+                                            [0, 0.4]  0.097 0.026         0.003      0.001
+                                           [0.4, 0.9] 0.012 0.156         0.053      0.005
+                                           [0.9, 1.5] 0.000 0.010         0.144      0.040
+                                           [1.5, 4.5] 0.000 0.000         0.007      0.126
+                                                                                                                          5
+
+                                                IV.     ELECTRON ANGLE
+
+   The tables in this section provide additional information for the cross-section measurement as a function of the
+electron angle: background-subtracted observation and cross-section values (Table VI), χ2 values for the different
+generators tests (Table VII), covariance matrices for the extracted cross section (Table VIII) and for the background-
+subtracted data prediction (Table IX), and response matrix (Table X).
+
+
+                             TABLE VI. Unfolded cross section as a function of electron angle.
+                                           Bin                [−1, 0.2] [0.2, 0.7] [0.7, 0.9] [0.9, 1]
+                           Background-subtracted data events 5.96         13.73      17.98 27.20
+                           Cross section [10−39 cm2 /nucleon]   0.47       1.41      3.71      10.94
+
+
+
+TABLE VII. Results of compatibility tests between generators and the measured cross-section as a function of electron angle.
+                                         GENIE v3 uB GENIE v3 GENIE v2 NuWro NEUT
+                                 χ2          4.67       0.95     4.70   2.14  6.56
+                                d.o.f.        4          4         4      4     4
+                               p-value      0.322      0.917    0.319   0.710 0.161
+
+
+
+
+TABLE VIII. Covariance matrix for the cross section measurement as a function of electron angle. Units are (cm2 /nucleon)2 .
+                                            Bin     [−1, 0.2] [0.2, 0.7] [0.7, 0.9] [0.9, 1]
+                                         [−1, 0.2] 1.99e-79 2.07e-80 8.05e-80 1.14e-79
+                                         [0.2, 0.7] 2.07e-80 4.81e-79 9.68e-80 2.29e-79
+                                         [0.7, 0.9] 8.05e-80 9.68e-80 2.82e-78 3.86e-79
+                                          [0.9, 1] 1.14e-79 2.29e-79 3.86e-79 1.26e-77
+
+
+
+                TABLE IX. Covariance matrix for the total event prediction as a function of electron angle.
+                                             Bin    [−1, 0.2] [0.2, 0.7] [0.7, 0.9] [0.9, 1]
+                                          [−1, 0.2] 29.30       4.24       4.74      3.63
+                                          [0.2, 0.7] 4.24       41.05      8.05      5.83
+                                          [0.7, 0.9] 4.74        8.05      55.58     9.60
+                                           [0.9, 1]   3.63       5.83       9.60     73.74
+
+
+
+                       TABLE X. Response matrix for signal events as a function of electron angle.
+                                             Bin    [−1, 0.2] [0.2, 0.7] [0.7, 0.9] [0.9, 1]
+                                          [−1, 0.2] 0.084       0.003      0.000 0.000
+                                          [0.2, 0.7] 0.003      0.152      0.007 0.000
+                                          [0.7, 0.9] 0.000      0.009      0.182 0.008
+                                           [0.9, 1]  0.000      0.000      0.010 0.201
+                                                                                                                         6
+
+                                                 V.    PROTON ENERGY
+
+   The tables in this section provide additional information for the cross-section measurement as a function of the
+proton kinetic energy: background-subtracted observation and cross-section values (Table XI), χ2 values for the
+different generators tests (Table XII), covariance matrices for the extracted cross section (Table XIII) and for the
+background-subtracted data prediction (Table XIV), and response matrix (Table XV).
+
+
+                             TABLE XI. Unfolded cross section as a function of proton energy.
+                                  Bin [GeV]              [0, 0.05] [0.05, 0.1] [0.1, 0.2] [0.2, 0.3] [0.3, 0.8]
+                     Background-subtracted data events     7.81      13.20       35.03      10.72      7.30
+                   Cross section [10−39 cm2 /GeV/nucleon] 10.15       9.32       13.66      4.49       1.72
+
+
+
+TABLE XII. Results of compatibility tests between generators and the measured cross-section as a function of proton energy.
+                                          GENIE v3 uB GENIE v3 GENIE v2 NuWro NEUT
+                                  χ2          6.35       2.41     7.53   2.73  6.85
+                                 d.o.f.        4          4         4      4     4
+                                p-value      0.273      0.791    0.184   0.742 0.232
+
+
+
+TABLE XIII. Covariance matrix for the cross section measurement as a function of proton energy.                   Units are
+(cm2 /GeV/nucleon)2 .
+                                  Bin [GeV] [0, 0.05] [0.05, 0.1] [0.1, 0.2] [0.2, 0.3] [0.3, 0.8]
+                                    [0, 0.05] 5.64e-77 1.06e-78 1.95e-78 1.16e-78 1.79e-79
+                                  [0.05, 0.1] 1.06e-78 5.82e-77 2.95e-78 1.65e-78 2.55e-79
+                                   [0.1, 0.2] 1.95e-78 2.95e-78 1.46e-77 1.63e-79 5.19e-80
+                                   [0.2, 0.3] 1.16e-78 1.65e-78 1.63e-79 8.33e-78 9.57e-80
+                                   [0.3, 0.8] 1.70e-79 2.55e-79 5.19e-80 9.57e-80 7.11e-79
+
+
+
+               TABLE XIV. Covariance matrix for the total event prediction as a function of proton energy.
+                                  Bin [GeV] [0, 0.05] [0.05, 0.1] [0.1, 0.2] [0.2, 0.3] [0.3, 0.8]
+                                    [0, 0.05] 25.79      4.83        5.87      2.28       0.68
+                                  [0.05, 0.1] 4.83      60.84       13.28      5.46        1.52
+                                   [0.1, 0.2]  5.87     13.28       85.58      7.69        2.20
+                                   [0.2, 0.3]  2.28      5.46        7.69      37.20      2.08
+                                   [0.3, 0.8]  0.68      1.52        2.20       2.08      13.31
+
+
+
+                      TABLE XV. Response matrix for signal events as a function of proton energy.
+                                  Bin [GeV] [0, 0.05] [0.05, 0.1] [0.1, 0.2] [0.2, 0.3] [0.3, 0.8]
+                                    [0, 0.05] 0.108     0.009       0.003      0.001      0.001
+                                  [0.05, 0.1] 0.015     0.150       0.024      0.008      0.002
+                                   [0.1, 0.2] 0.001     0.006       0.192      0.036      0.006
+                                   [0.2, 0.3] 0.000     0.000       0.003      0.163      0.018
+                                   [0.3, 0.8] 0.000     0.000       0.000      0.001      0.068
+                                                                                                                         7
+
+                                                  VI.     PROTON ANGLE
+
+  The tables in this section provide additional information for the cross-section measurement as a function of the
+proton angle: background-subtracted observation and cross-section values (Table XVI), χ2 values for the differ-
+ent generators tests (Table XVII), covariance matrices for the extracted cross section (Table XVIII) and for the
+background-subtracted data prediction (Table XIX), and response matrix (Table XX).
+
+
+                            TABLE XVI. Unfolded cross section as a function of proton angle.
+                                             Bin                [−1, 0] [0, 0.4] [0.4, 0.7] [0.7, 1]
+                             Background subtracted data events 7.09 23.80 16.74 17.22
+                             Cross section [10−39 cm2 /nucleon] 0.26 2.88          2.14      3.25
+
+
+
+TABLE XVII. Results of compatibility tests between generators and the measured cross-section as a function of proton angle.
+                                         GENIE v3 uB GENIE v3 GENIE v2 NuWro NEUT
+                                 χ2         11.86       8.63    12.64   9.98 14.55
+                                d.o.f.        4          4        4       4     4
+                               p-value      0.018      0.071    0.013   0.041 0.006
+
+
+
+
+TABLE XVIII. Covariance matrix for the cross section measurement as a function of proton angle. Units are (cm2 /nucleon)2 .
+                                            Bin      [−1, 0] [0, 0.4] [0.4, 0.7] [0.7, 1]
+                                          [−1, 0] 7.69e-80 1.02e-80 1.11e-80 5.50e-80
+                                          [0, 0.4] 1.02e-80 4.51e-79 -1.89e-80 6.47e-80
+                                         [0.4, 0.7] 1.11e-80 -1.89e-80 1.15e-78 1.25e-79
+                                          [0.7, 1] 5.50e-80 6.47e-80 1.25e-79 3.88e-78
+
+
+
+               TABLE XIX. Covariance matrix for the total event prediction as a function of proton angle.
+                                               Bin    [−1, 0] [0, 0.4] [0.4, 0.7] [0.7, 1]
+                                             [−1, 0] 29.52 3.02          3.80      8.21
+                                             [0, 0.4] 3.02 28.10         3.93      6.81
+                                            [0.4, 0.7] 3.80 3.93         52.33 10.99
+                                             [0.7, 1] 8.21 6.81          10.99 86.76
+
+
+
+                       TABLE XX. Response matrix for signal events as a function of proton angle.
+                                               Bin     [−1, 0] [0, 0.4] [0.4, 0.7] [0.7, 1]
+                                             [−1, 0] 0.140 0.016 0.005 0.005
+                                             [0, 0.4] 0.011 0.152 0.014 0.003
+                                            [0.4, 0.7] 0.006 0.019 0.175 0.010
+                                             [0.7, 1] 0.009 0.005 0.017 0.126
+

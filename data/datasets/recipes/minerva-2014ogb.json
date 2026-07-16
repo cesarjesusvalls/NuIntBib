@@ -1,0 +1,47 @@
+{
+ "bibtag": "MINERvA:2014ogb",
+ "slug": "minerva-2014ogb",
+ "source_url": "https://arxiv.org/abs/1406.6415",
+ "note": "Charged-current single- and multi-pion production by muon neutrinos on CH (NuMI low-energy \u03bd\u03bc beam, \u27e8E\u03bd\u27e9\u22484.0 GeV), MINERvA tracker. Two exclusive/summed samples: CC1\u03c0\u00b1 (exactly one charged pion, W<1.4 GeV) and CCN\u03c0\u00b1 (\u22651 charged pion, \"N-pion\" sample, W<1.8 GeV, sum over all pions in event). Flux-integrated differential cross sections vs pion kinetic energy T\u03c0 and vs pion lab angle \u03b8\u03c0, all per nucleon. Both \"full muon acceptance\" (primary, no muon-angle cut) result sets ingested; the paper's alternative \u03b8\u03bc<20\u00b0 restricted-acceptance duplicates of all four tables exist in the same appendix but were NOT ingested (see caveats). Target: per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table).",
+ "provenance": "MINERvA:2014ogb \u2014 Charged-current single- and multi-pion production by muon neutrinos on CH (NuMI low-energy \u03bd\u03bc beam, \u27e8E\u03bd\u27e9\u22484.0 GeV), MINER \u00b7 target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table) \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "cc1pi_dsigma_dtheta_pi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ogb/cc1pi_dsigma_dtheta_pi.csv",
+   "xlabel": "\\theta_\\pi",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\theta_\\pi",
+   "yunit": "10^{-41} cm^2/degree/nucleon"
+  },
+  {
+   "slug": "cc1pi_dsigma_dT_pi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ogb/cc1pi_dsigma_dT_pi.csv",
+   "xlabel": "T_\\pi",
+   "xunit": "MeV",
+   "ylabel": "d\\sigma/dT_\\pi",
+   "yunit": "10^{-41} cm^2/MeV/nucleon"
+  },
+  {
+   "slug": "ccnpi_dN_dtheta_pi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ogb/ccnpi_dN_dtheta_pi.csv",
+   "xlabel": "\\theta_\\pi",
+   "xunit": "degree",
+   "ylabel": "(1/T\\Phi)\\,dN_\\pi/d\\theta_\\pi",
+   "yunit": "10^{-41} cm^2/degree/nucleon"
+  },
+  {
+   "slug": "ccnpi_dN_dT_pi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2014ogb/ccnpi_dN_dT_pi.csv",
+   "xlabel": "T_\\pi",
+   "xunit": "MeV",
+   "ylabel": "(1/T\\Phi)\\,dN_\\pi/dT_\\pi",
+   "yunit": "10^{-41} cm^2/MeV/nucleon"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2014ogb/cov.csv",
+ "cov_note": "Block-diagonal 40x40 (13+7+13+7 bins, order = items exactly as listed above, each item's bins in file order = increasing bin index as printed). Each item's bloc"
+}

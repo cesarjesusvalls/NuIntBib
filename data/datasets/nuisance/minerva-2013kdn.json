@@ -1,0 +1,195 @@
+{
+ "bibtag": "MINERvA:2013kdn",
+ "slug": "minerva-2013kdn",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1305.2243",
+ "arxiv": "1305.2243",
+ "cite": "Phys.Rev.Lett. 111 022502",
+ "note": "Flux-averaged (integrated over the MINERvA low-energy NuMI \u03bd\u03bc flux, mean E\u03bd~3.5 GeV) differential cross section d\u03c3/dQ\u00b2_QE for \u03bd\u03bc CCQE(-like) scattering, as a function of reconstructed Q\u00b2_QE, on the MINERvA scintillator tracker (LE-NuMI, forward horn current, \u03bd\u03bc beam). Target: per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\").",
+ "distributions": [
+  {
+   "key": "dsigma_dsigma_dQ2QE",
+   "slug": "dsigma_dsigma_dQ2QE",
+   "name": "d\u03c3/dQ\u00b2_QE",
+   "name_tex": "$d\\sigma/dQ^2_{QE}$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$d\\sigma/dQ^2_{QE}$",
+   "yunit": "10^{-38} cm^2/GeV^2/neutron",
+   "yunit_tex": "$10^{-38} cm^2/GeV^2/neutron$",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.025,
+     "center": 0.0125,
+     "val": 0.761,
+     "err": 0.104
+    },
+    {
+     "i": 1,
+     "lo": 0.025,
+     "hi": 0.05,
+     "center": 0.037500000000000006,
+     "val": 1.146,
+     "err": 0.144
+    },
+    {
+     "i": 2,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 1.343,
+     "err": 0.16
+    },
+    {
+     "i": 3,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 1.49,
+     "err": 0.172
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.4,
+     "center": 0.30000000000000004,
+     "val": 1.063,
+     "err": 0.122
+    },
+    {
+     "i": 5,
+     "lo": 0.4,
+     "hi": 0.8,
+     "center": 0.6000000000000001,
+     "val": 0.582,
+     "err": 0.075
+    },
+    {
+     "i": 6,
+     "lo": 0.8,
+     "hi": 1.2,
+     "center": 1.0,
+     "val": 0.242,
+     "err": 0.055
+    },
+    {
+     "i": 7,
+     "lo": 1.2,
+     "hi": 1.35,
+     "center": 1.275,
+     "val": 0.097,
+     "err": 0.025,
+     "hi_true": 2.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minerva-2013kdn/dsigma_dQ2QE.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1305.2243",
+   "provenance": "MINERvA:2013kdn \u2014 Flux-averaged (integrated over the MINERvA low-energy NuMI \u03bd\u03bc flux, mean E\u03bd~3.5 GeV) differential cross section d\u03c3/dQ\u00b2_Q \u00b7 target per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\") \u00b7 from the arXiv ancillary data release",
+   "notes": "MINERvA:2013kdn \u2014 Flux-averaged (integrated over the MINERvA low-energy NuMI \u03bd\u03bc flux, mean E\u03bd~3.5 GeV) differential cross section d\u03c3/dQ\u00b2_Q. Target per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\")."
+  }
+ ],
+ "covariance": {
+  "order": [
+   "dsigma_dQ2QE [0,0.025]",
+   "dsigma_dQ2QE [0.025,0.05]",
+   "dsigma_dQ2QE [0.05,0.1]",
+   "dsigma_dQ2QE [0.1,0.2]",
+   "dsigma_dQ2QE [0.2,0.4]",
+   "dsigma_dQ2QE [0.4,0.8]",
+   "dsigma_dQ2QE [0.8,1.2]",
+   "dsigma_dQ2QE [1.2,2]"
+  ],
+  "note": "Ancillary file anc/nu-crossSection.csv publishes a \"Cross-Section Correlation Matrix\" \u03c1 (8x8, symmetric, unit diagonal) for the 8 Q\u00b2_QE bins. Converted to absol",
+  "matrix": [
+   [
+    0.010816,
+    0.013014,
+    0.014676,
+    0.015616,
+    0.010556,
+    0.005382,
+    0.0023738,
+    0.0008502
+   ],
+   [
+    0.013014,
+    0.020736,
+    0.020851,
+    0.022712,
+    0.015495,
+    0.0078516,
+    0.0036194,
+    0.0012852
+   ],
+   [
+    0.014676,
+    0.020851,
+    0.0256,
+    0.026006,
+    0.018115,
+    0.009012,
+    0.004004,
+    0.001424
+   ],
+   [
+    0.015616,
+    0.022712,
+    0.026006,
+    0.029584,
+    0.019851,
+    0.010165,
+    0.0045503,
+    0.0016555
+   ],
+   [
+    0.010556,
+    0.015495,
+    0.018115,
+    0.019851,
+    0.014884,
+    0.0079147,
+    0.004026,
+    0.0015677
+   ],
+   [
+    0.005382,
+    0.0078516,
+    0.009012,
+    0.010165,
+    0.0079147,
+    0.005625,
+    0.0031185,
+    0.0013894
+   ],
+   [
+    0.0023738,
+    0.0036194,
+    0.004004,
+    0.0045503,
+    0.004026,
+    0.0031185,
+    0.003025,
+    0.001221
+   ],
+   [
+    0.0008502,
+    0.0012852,
+    0.001424,
+    0.0016555,
+    0.0015677,
+    0.0013894,
+    0.001221,
+    0.000625
+   ]
+  ]
+ }
+}

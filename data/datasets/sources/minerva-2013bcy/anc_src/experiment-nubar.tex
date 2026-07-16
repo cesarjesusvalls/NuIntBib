@@ -1,0 +1,44 @@
+%\section{\minerva Experiment and Data} 
+
+The \minerva experiment studies neutrinos produced in the NuMI beamline~\cite{Anderson:1998zza} from \unit[120]{GeV} protons which strike a graphite target.   The mesons produced in $p+C$ interactions are focused by two magnetic horns into a \unit[675]{m} long helium-filled decay pipe.  The horns were set to focus negative mesons, resulting in a muon antineutrino enriched beam with a peak energy of \unit[3]{GeV}.  Muons produced in meson decays are absorbed in \unit[240]{m} of rock downstream of the decay pipe. This analysis uses data taken between November 2010 and February 2011 with $1.014\times 10^{20}$ protons on target.
+
+A Geant4-based~\cite{1610988,Agostinelli2003250} beamline simulation 
+is used to predict the antineutrino flux.  Hadron production in the simulation 
+was tuned to agree with the NA49 measurements of pion production
+from 158~GeV protons on a thin carbon target~\cite{Alt:2006fr}. FLUKA is used to
+translate NA49 measurements to proton energies between 
+12 and \unit[120]{GeV}~\cite{Ferrari:2005zk,Battistoni:2007zzb}.  
+Interactions not constrained by the NA49 data are predicted using the 
+FTFP hadron shower model\footnote{{F}TFP shower model in Geant 4 version 92 patch 03.}.
+
+The \minerva detector consists of a core of scintillator
+strips surrounded by electromagnetic and hadronic calorimeters on the
+sides and downstream end of the detector\footnote{The \minerva scintillator tracking region is 95\% CH and 5\% other materials by weight.}~\cite{minerva_nim}.  The strips are perpendicular to the z-axis (which is very nearly the beam axis) and are arranged in planes with a 1.7~cm strip-to-strip pitch\footnote{The y-axis points along the zenith and the beam is directed downward by \unit[58]{mrad} in the y-z plane.}. Three plane orientations ($0^\circ, \pm 60^\circ$ rotations around the z-axis) enable reconstruction of the neutrino
+interaction point, the tracks of outgoing charged particles, and calorimetric
+reconstruction of other particles in the interaction.  The \unit[3.0]{ns}
+timing resolution is adequate for separating multiple interactions within a
+single beam spill.  
+
+\minerva is located \unit[2]{m} upstream of the MINOS near detector, 
+a magnetized iron spectrometer~\cite{Michael:2008bc}.  
+The \minerva detector's response is simulated by a tuned 
+Geant4-based~\cite{Agostinelli2003250,1610988} program.  
+The energy scale of the detector is set by ensuring
+that both the photostatistics and the reconstructed energy deposited by
+momentum-analyzed through-going muons agree in data and simulation.
+Calorimetric constants used to reconstruct the energy of hadronic showers 
+are determined from the simulation. The uncertainty in the response 
+to single hadrons is constrained by the measurements made with a 
+scaled down version of the \minerva detector in a 
+low energy hadron test beam~\cite{minerva_nim}.
+
+%Event pile-up causes a decrease in the muon track reconstruction efficiency. We studied this in both \minerva and \minos by projecting tracks found in one of the detectors to the other and measuring the misreconstruction rate. This resulted in a -7.8\% (-4.6\%) correction to the simulated efficiency for muons below (above) 3 GeV/c.
+
+%% The minerva matching/tracking efficiency is .980  for nu  .985 for nubar
+%% The MINOS efficiency is .909 lo p  .952 for high p   nu  mode
+%% The MINOS efficiency is .936 lo p  .969 for high p   nubar mode 
+
+%Neutrino interactions are simulated using the GENIE 2.6.2 neutrino event generator~\cite{Andreopoulos201087}.  For quasi-elastic interactions, the cross-section is given by the Llewellyn Smith formalism~\cite{LlewellynSmith:1971zm}.  Vector form factors come from fits to electron scattering data~\cite{Bradford:2006yz}; the axial form factor used is a dipole with an axial mass ($M_A$) of 0.99~GeV$/$c$^2$, consistent with deuterium measurements~\cite{Bodek:2007vi,Kuzmin:2007kr}, and sub-leading form factors are assumed from PCAC or exact G-parity symmetry~\cite{Day:2012gb}.  The nuclear model is the relativistic Fermi gas (RFG) described in the Introduction with a Fermi momentum of $221$~MeV$/$c and an extension to higher nucleon momenta to account for short-range correlations~\cite{Bodek:1980ar,Bodek:1981wr}.Inelastic, low $W$ reactions are based on a tuned model of discrete baryon resonance production~\cite{Rein:1980wg}, and the transition to deep inelastic scattering is simulated using the Bodek-Yang model~\cite{Bodek:2004pc}.   Final state interactions, where hadrons interact within the target nucleus, are modeled using the INTRANUKE package~\cite{Andreopoulos201087}.
+
+
+

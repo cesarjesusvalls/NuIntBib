@@ -1,0 +1,32 @@
+%\section{Cross-Section Extraction Procedure} 
+
+%for $Q_{QE}^2>0.75$~GeV$^2$.
+The background in each $Q^2_{QE}$ bin is estimated from 
+the data by fitting the relative normalizations of signal and background 
+recoil energy distributions whose shapes are taken from the simulation. 
+The fit results in a 10\% reduction in the relative background estimate for 
+ $Q^2_{QE}> \unit[0.8]{GeV^2}$ and no change to $Q^2_{QE} < \unit[0.8]{GeV^2}$.
+We then correct for energy resolution using a Bayesian 
+unfolding method~\cite{D'Agostini:1994zf} with four iterations to 
+produce the event yield as a function of $Q^2_{QE}$, determined via 
+Eq.~\ref{eq:q2def}  with $p_\mu$ and $\theta_\mu$ taken 
+from the GENIE event generator.  
+After unfolding, we use the simulation to correct the yield for efficiency and acceptance, and then divide by the neutrino flux and the number of target nucleons to calculate the bin-averaged cross-section.  We estimate the neutrino flux in the range $1.5\le E_\nu \le \unit[10.0]{GeV}$ to be $\unit[2.43 \times 10^{-8}]{cm^{-2}}$ per proton on target\footnoteremember{footsupp}{See Supplemental Material\ \SuppLocation\ for the flux as a function of energy and for correlations of uncertainties among bins for the cross-section and shape measurement}, and there are  $1.91 \pm 0.03 \times 10^{30}$ protons in the fiducial volume. 
+
+% the error on the number of protons is 1.4%
+
+%After
+%unfolding, we correct the number of events as a function of true
+%$Q^2_{QE}$ for efficiency estimated in the simulation.
+%% There are two effects that may not be correctly modeled in the
+%% simulation: one is the tracking and matching efficiency in \minerva
+%% and the other is the tracking efficiency in MINOS.  These effects were
+%% studied using inclusive antineutrino charged current events in the
+%% data and simulation.  In antineutrino running only the latter effect
+%% effect is underestimated and a correction of 1.5\% is applied.
+%The cross-section is this efficiency corrected $Q^2_{QE}$
+%from true muon kinematics divided by the neutrino flux
+%and by the number of protons in the fiducial volume of the detector.  
+%We estimate the flux integrated between 1.5 and 10~GeV in antineutrino energy %to be $2.429\times 10^{-8}/$cm$^2$ per proton on target\footnote{{A}dd flux in supplemental material to be posted online to accompany paper... note this is also a possibility for the cross-section tables.},  
+%and there are
+%$1.907\times 10^{30}$ protons in the fiducial volume.

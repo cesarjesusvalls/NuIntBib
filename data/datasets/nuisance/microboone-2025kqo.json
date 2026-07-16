@@ -1,0 +1,43 @@
+{
+ "bibtag": "MicroBooNE:2025kqo",
+ "slug": "microboone-2025kqo",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2503.00291",
+ "arxiv": "2503.00291",
+ "cite": "Phys.Rev.Lett. 135 251804",
+ "note": "First-ever flux-integrated cross section for charged-current muon-neutrino induced K+ production on argon: numu + Ar -> mu- + K+ + X (sum of single-kaon and associated-kaon production channels), BNB numu beam (on-axis Booster Neutrino Beam), MicroBooNE LArTPC, 6.88e20 POT. Single-bin (non-differential) flux-integrated total cross section only -- paper states this is the first-ever measurement of this channel and explicitly defers differential measurements to future experiments (SBND/ICARUS/DUNE-ND). Target: per nucleon (paper states units as cm^2/nucleon explicitly, both in text line 391 and Table tab:cross_sections column header).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_ccKplus_ar",
+   "slug": "dsigma_sigma_ccKplus_ar",
+   "name": "\u03c3",
+   "name_tex": "$\\sigma$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-42}cm^2/nucleon",
+   "yunit_tex": "$10^{-42}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.823,
+     "hi": 0.823,
+     "center": 0.823,
+     "val": 7.93,
+     "err": 4.29
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2025kqo/sigma_ccKplus_ar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2503.00291",
+   "provenance": "MicroBooNE:2025kqo \u2014 First-ever flux-integrated cross section for charged-current muon-neutrino induced K+ production on argon: numu + Ar -> \u00b7 target per nucleon (paper states units as cm^2/nucleon explicitly, both in text line 391 and Table tab:cross_sections column header) \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2025kqo \u2014 First-ever flux-integrated cross section for charged-current muon-neutrino induced K+ production on argon: numu + Ar ->. Target per nucleon (paper states units as cm^2/nucleon explicitly, both in text line 391 and Table tab:cross_sections column header)."
+  }
+ ]
+}

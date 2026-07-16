@@ -1,0 +1,20 @@
+{
+ "bibtag": "MINERvA:2013kdn",
+ "slug": "minerva-2013kdn",
+ "source_url": "https://arxiv.org/abs/1305.2243",
+ "note": "Flux-averaged (integrated over the MINERvA low-energy NuMI \u03bd\u03bc flux, mean E\u03bd~3.5 GeV) differential cross section d\u03c3/dQ\u00b2_QE for \u03bd\u03bc CCQE(-like) scattering, as a function of reconstructed Q\u00b2_QE, on the MINERvA scintillator tracker (LE-NuMI, forward horn current, \u03bd\u03bc beam). Target: per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\").",
+ "provenance": "MINERvA:2013kdn \u2014 Flux-averaged (integrated over the MINERvA low-energy NuMI \u03bd\u03bc flux, mean E\u03bd~3.5 GeV) differential cross section d\u03c3/dQ\u00b2_Q \u00b7 target per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\") \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "dsigma_dQ2QE",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2013kdn/dsigma_dQ2QE.csv",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2_{QE}",
+   "yunit": "10^{-38} cm^2/GeV^2/neutron"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2013kdn/cov.csv",
+ "cov_note": "Ancillary file anc/nu-crossSection.csv publishes a \"Cross-Section Correlation Matrix\" \u03c1 (8x8, symmetric, unit diagonal) for the 8 Q\u00b2_QE bins. Converted to absol"
+}

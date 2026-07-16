@@ -1,0 +1,309 @@
+{
+ "bibtag": "MINERvA:2014ypj",
+ "slug": "minerva-2014ypj",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1409.4497",
+ "arxiv": "1409.4497",
+ "cite": "Phys.Rev.D 91 071301",
+ "note": "Flux-integrated differential CC nu_mu QE-like (mu + >=1 proton, no pions) cross section on hydrocarbon, arXiv:1409.4497 \"Measurement of muon plus proton final states in nu_mu interactions on hydrocarbon at <E_nu>=4.2 GeV\" (MINERvA, on-axis NuMI beam, low-energy tune, mean E_nu=4.2 GeV). Two observables released: (1) dsigma/dQ2 vs Q2 reconstructed purely from HADRONIC (proton) kinematics, for the full QE-like sample (>=1 proton w/ KE>110 MeV, no pions, muon angle <70deg); (2) dsigma/dQ2 vs Q2 reconstructed from MUON kinematics (standard QE Q2_QE formula) for the MINOS-matched subsample, used as a cross-check against MINERvA's earlier muon-based QE measurement (Fiorentini:2013ezn). Target: per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule).",
+ "distributions": [
+  {
+   "key": "dsigma_dxsec_dQ2_proton",
+   "slug": "dsigma_dxsec_dQ2_proton",
+   "name": "d\u03c3/dQ\u00b2_p",
+   "name_tex": "$d\\sigma/dQ^2_{p}$",
+   "xlabel": "Q\u00b2_p",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{p}$",
+   "ylabel": "d\u03c3/dQ\u00b2_p",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_p",
+   "ylabel_tex": "$d\\sigma/dQ^2_{p}$",
+   "yunit": "10^-38 cm^2/GeV^2/neutron",
+   "yunit_tex": "$10^-38 cm^2/GeV^2/neutron$",
+   "nbins": 7,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.15,
+     "hi": 0.29,
+     "center": 0.21999999999999997,
+     "val": 0.563,
+     "err": 0.06237
+    },
+    {
+     "i": 1,
+     "lo": 0.29,
+     "hi": 0.36,
+     "center": 0.32499999999999996,
+     "val": 0.654,
+     "err": 0.084345
+    },
+    {
+     "i": 2,
+     "lo": 0.36,
+     "hi": 0.46,
+     "center": 0.41000000000000003,
+     "val": 0.514,
+     "err": 0.082608
+    },
+    {
+     "i": 3,
+     "lo": 0.46,
+     "hi": 0.59,
+     "center": 0.525,
+     "val": 0.393,
+     "err": 0.069354
+    },
+    {
+     "i": 4,
+     "lo": 0.59,
+     "hi": 0.83,
+     "center": 0.71,
+     "val": 0.277,
+     "err": 0.051245
+    },
+    {
+     "i": 5,
+     "lo": 0.83,
+     "hi": 1.33,
+     "center": 1.08,
+     "val": 0.131,
+     "err": 0.02816
+    },
+    {
+     "i": 6,
+     "lo": 1.33,
+     "hi": 1.47,
+     "center": 1.4,
+     "val": 0.059,
+     "err": 0.011402,
+     "hi_true": 2.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minerva-2014ypj/dxsec_dQ2_proton.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1409.4497",
+   "provenance": "MINERvA:2014ypj \u2014 Flux-integrated differential CC nu_mu QE-like (mu + >=1 proton, no pions) cross section on hydrocarbon, arXiv:1409.4497 \u00b7 target per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule) \u00b7 from the arXiv ancillary data release",
+   "notes": "Target per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule)."
+  },
+  {
+   "key": "dsigma_dxsec_dQ2_muon",
+   "slug": "dsigma_dxsec_dQ2_muon",
+   "name": "d\u03c3/dQ\u00b2_QE",
+   "name_tex": "$d\\sigma/dQ^2_{QE}$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$d\\sigma/dQ^2_{QE}$",
+   "yunit": "10^-38 cm^2/GeV^2/neutron",
+   "yunit_tex": "$10^-38 cm^2/GeV^2/neutron$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.2,
+     "hi": 0.4,
+     "center": 0.30000000000000004,
+     "val": 1.164,
+     "err": 0.196148
+    },
+    {
+     "i": 1,
+     "lo": 0.4,
+     "hi": 0.8,
+     "center": 0.6000000000000001,
+     "val": 0.534,
+     "err": 0.07218
+    },
+    {
+     "i": 2,
+     "lo": 0.8,
+     "hi": 1.2,
+     "center": 1.0,
+     "val": 0.222,
+     "err": 0.032894
+    },
+    {
+     "i": 3,
+     "lo": 1.2,
+     "hi": 2.0,
+     "center": 1.6,
+     "val": 0.11,
+     "err": 0.018601
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minerva-2014ypj/dxsec_dQ2_muon.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1409.4497",
+   "provenance": "MINERvA:2014ypj \u2014 Flux-integrated differential CC nu_mu QE-like (mu + >=1 proton, no pions) cross section on hydrocarbon, arXiv:1409.4497 \u00b7 target per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule) \u00b7 from the arXiv ancillary data release",
+   "notes": "Target per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule)."
+  }
+ ],
+ "covariance": {
+  "order": [
+   "dxsec_dQ2_proton [0.15,0.29]",
+   "dxsec_dQ2_proton [0.29,0.36]",
+   "dxsec_dQ2_proton [0.36,0.46]",
+   "dxsec_dQ2_proton [0.46,0.59]",
+   "dxsec_dQ2_proton [0.59,0.83]",
+   "dxsec_dQ2_proton [0.83,1.33]",
+   "dxsec_dQ2_proton [1.33,2]",
+   "dxsec_dQ2_muon [0.2,0.4]",
+   "dxsec_dQ2_muon [0.4,0.8]",
+   "dxsec_dQ2_muon [0.8,1.2]",
+   "dxsec_dQ2_muon [1.2,2]"
+  ],
+  "note": "Absolute-cross-section covariance in (10^-38 cm^2/GeV^2/neutron)^2, ordering = [dxsec_dQ2_proton bins 1-7, dxsec_dQ2_muon bins 1-4] (11x11 total). Proton block",
+  "matrix": [
+   [
+    0.00389,
+    0.0025251,
+    0.0012365,
+    0.00082187,
+    0.00060727,
+    0.00024589,
+    0.0001849,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0025251,
+    0.0071141,
+    0.0059921,
+    0.0050307,
+    0.0036739,
+    0.0015439,
+    0.00066357,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0012365,
+    0.0059921,
+    0.0068241,
+    0.0053854,
+    0.0039369,
+    0.0018145,
+    0.00077236,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.00082187,
+    0.0050307,
+    0.0053854,
+    0.00481,
+    0.003483,
+    0.0017186,
+    0.00063262,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.00060727,
+    0.0036739,
+    0.0039369,
+    0.003483,
+    0.002626,
+    0.0012988,
+    0.00046744,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.00024589,
+    0.0015439,
+    0.0018145,
+    0.0017186,
+    0.0012988,
+    0.00079299,
+    0.00023118,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0001849,
+    0.00066357,
+    0.00077236,
+    0.00063262,
+    0.00046744,
+    0.00023118,
+    0.00013001,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.038474,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.00521,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.001082,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.000346
+   ]
+  ]
+ }
+}

@@ -1,0 +1,674 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (0) dotless jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (0) verbatim
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{57}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Sajjad~Athar}\ \emph {et~al.}(2022)\citenamefont
+  {Sajjad~Athar} \emph {et~al.}}]{NuReview}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Sajjad~Athar}} \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {{Status and perspectives of neutrino physics}},}\ }\href {\doibase
+  10.1016/j.ppnp.2022.103947} {\bibfield  {journal} {\bibinfo  {journal} {Prog.
+  Part. Nucl. Phys.}\ }\textbf {\bibinfo {volume} {124}},\ \bibinfo {pages}
+  {103947} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abi}\ \emph {et~al.}()\citenamefont {Abi} \emph
+  {et~al.}}]{DUNE:2020ypp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abi}} \emph {et~al.} (\bibinfo {collaboration} {DUNE Collaboration}),\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Deep Underground Neutrino
+  Experiment (DUNE), Far Detector Technical Design Report, Volume II: DUNE
+  Physics}},}\ }\Eprint {http://arxiv.org/abs/2002.03005} {arXiv:2002.03005
+  [hep-ex]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Antonello}\ \emph {et~al.}()\citenamefont {Antonello}
+  \emph {et~al.}}]{SBN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Antonello}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE, LAr1-ND,
+  ICARUS-WA104 Collaborations}),\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {{A Proposal for a Three Detector Short-Baseline Neutrino Oscillation
+  Program in the Fermilab Booster Neutrino Beam}},}\ }\Eprint
+  {http://arxiv.org/abs/1503.01520} {arXiv:1503.01520 [physics.ins-det]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stancu}(2001)}]{BNB}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Stancu}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Technical
+  Design Report for the 8 GeV Beam}},}\ }\href {\doibase 10.2172/1212167}
+  {\bibfield  {journal} {\bibinfo  {journal} {FERMILAB-DESIGN-2001-03}\ }
+  (\bibinfo {year} {2001}),\ 10.2172/1212167}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Acciarri}\ \emph {et~al.}(2020)\citenamefont
+  {Acciarri} \emph {et~al.}}]{argoneutnue}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {ArgoNeuT
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {First
+  measurement of electron neutrino scattering cross section on argon},}\ }\href
+  {\doibase 10.1103/PhysRevD.102.011101} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {102}},\ \bibinfo
+  {pages} {011101} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2021{\natexlab{a}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{ubnuminue}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Measurement of the flux-averaged inclusive charged-current electron
+  neutrino and antineutrino cross section on argon using the NuMI beam and the
+  MicroBooNE detector}},}\ }\href {\doibase 10.1103/PhysRevD.104.052002}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {104}},\ \bibinfo {pages} {052002} (\bibinfo {year}
+  {2021}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{a}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{ubnuminueMCC9}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{First
+  measurement of inclusive electron-neutrino and antineutrino charged current
+  differential cross sections in charged lepton energy on argon in
+  MicroBooNE}},}\ }\href {\doibase 10.1103/PhysRevD.105.L051102} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {105}},\ \bibinfo {pages} {L051102} (\bibinfo {year}
+  {2022}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adamson}\ \emph {et~al.}(2016)\citenamefont {Adamson}
+  \emph {et~al.}}]{numibeam}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Adamson}} \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{The NuMI Neutrino Beam}},}\ }\href {\doibase 10.1016/j.nima.2015.08.063}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth. A}\ }\textbf
+  {\bibinfo {volume} {806}},\ \bibinfo {pages} {279--306} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wolcott}\ \emph {et~al.}(2016)\citenamefont {Wolcott}
+  \emph {et~al.}}]{MINERvA:2015jih}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wolcott}} \emph {et~al.} (\bibinfo {collaboration} {MINERvA
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Measurement of electron neutrino quasielastic and quasielasticlike
+  scattering on hydrocarbon at $\langle E_{\nu} \rangle $ = 3.6 GeV}},}\ }\href
+  {\doibase 10.1103/PhysRevLett.116.081802} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo
+  {pages} {081802} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{b}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{eLEEPRL}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Search
+  for an Excess of Electron Neutrino Interactions in MicroBooNE Using Multiple
+  Final-State Topologies}},}\ }\href {\doibase 10.1103/PhysRevLett.128.241801}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {128}},\ \bibinfo {pages} {241801} (\bibinfo {year}
+  {2022}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{c}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{PeLEE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Search
+  for an anomalous excess of charged-current $\nu_{e}$ interactions without
+  pions in the final state with the MicroBooNE experiment}},}\ }\href {\doibase
+  10.1103/PhysRevD.105.112004} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages}
+  {112004} (\bibinfo {year} {2022}{\natexlab{c}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{d}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{DLPRD}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Search
+  for an anomalous excess of charged-current quasielastic $\nu_{e}$
+  interactions with the MicroBooNE experiment using Deep-Learning-based
+  reconstruction}},}\ }\href {\doibase 10.1103/PhysRevD.105.112003} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {105}},\ \bibinfo {pages} {112003} (\bibinfo {year}
+  {2022}{\natexlab{d}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{e}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{WCPRD}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Search
+  for an anomalous excess of inclusive charged-current $\nu_e$ interactions in
+  the MicroBooNE experiment using Wire-Cell reconstruction}},}\ }\href
+  {\doibase 10.1103/PhysRevD.105.112005} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo
+  {pages} {112005} (\bibinfo {year} {2022}{\natexlab{e}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Aguilar-Arevalo}\ \emph {et~al.}(2021)\citenamefont
+  {Aguilar-Arevalo} \emph {et~al.}}]{MiniBooNE2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Aguilar-Arevalo}} \emph {et~al.} (\bibinfo {collaboration} {MiniBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Updated
+  MiniBooNE neutrino oscillation results with increased data and new background
+  studies}},}\ }\href {\doibase 10.1103/PhysRevD.103.052002} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {103}},\ \bibinfo {pages} {052002} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Acciarri}\ \emph {et~al.}(2017)\citenamefont
+  {Acciarri} \emph {et~al.}}]{ubdetector}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Design
+  and Construction of the MicroBooNE Detector}},}\ }\href {\doibase
+  10.1088/1748-0221/12/02/P02017} {\bibfield  {journal} {\bibinfo  {journal}
+  {J. Instrum.}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages} {P02017}
+  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aguilar-Arevalo}\ \emph {et~al.}(2009)\citenamefont
+  {Aguilar-Arevalo} \emph {et~al.}}]{mbflux}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Aguilar-Arevalo}} \emph {et~al.} (\bibinfo {collaboration} {MiniBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The
+  Neutrino Flux prediction at MiniBooNE}},}\ }\href {\doibase
+  10.1103/PhysRevD.79.072002} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. D}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo {pages} {072002}
+  (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Alvarez-Ruso}\ \emph {et~al.}(2021)\citenamefont
+  {Alvarez-Ruso} \emph {et~al.}}]{GENIEv3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Alvarez-Ruso}} \emph {et~al.} (\bibinfo {collaboration} {GENIE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Recent
+  highlights from GENIE v3}},}\ }\href {\doibase
+  10.1140/epjs/s11734-021-00295-7} {\bibfield  {journal} {\bibinfo  {journal}
+  {Eur. Phys. J. ST}\ }\textbf {\bibinfo {volume} {230}},\ \bibinfo {pages}
+  {4449--4467} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{f}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{ubtune}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{New
+  $CC0\pi$ GENIE model tune for MicroBooNE}},}\ }\href {\doibase
+  10.1103/PhysRevD.105.072001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages}
+  {072001} (\bibinfo {year} {2022}{\natexlab{f}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Agostinelli}\ \emph {et~al.}(2003)\citenamefont
+  {Agostinelli} \emph {et~al.}}]{geant4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Agostinelli}} \emph {et~al.} (\bibinfo {collaboration} {Geant4
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{GEANT4--a
+  simulation toolkit}},}\ }\href {\doibase 10.1016/S0168-9002(03)01368-8}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth. A}\ }\textbf
+  {\bibinfo {volume} {506}},\ \bibinfo {pages} {250--303} (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Snider}\ and\ \citenamefont
+  {Petrillo}(2017)}]{LArSoft}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~L.}\ \bibnamefont
+  {Snider}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Petrillo}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{LArSoft:
+  Toolkit for Simulation, Reconstruction and Analysis of Liquid Argon TPC
+  Neutrino Detectors}},}\ }\href {\doibase 10.1088/1742-6596/898/4/042057}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Phys. Conf. Ser.}\ }\textbf
+  {\bibinfo {volume} {898}},\ \bibinfo {pages} {042057} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph
+  {et~al.}(2018{\natexlab{a}})\citenamefont {Adams} \emph {et~al.}}]{ubsig1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Adams}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Ionization electron signal processing in single phase LArTPCs. Part I.
+  Algorithm Description and quantitative evaluation with MicroBooNE
+  simulation}},}\ }\href {\doibase 10.1088/1748-0221/13/07/P07006} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Instrum.}\ }\textbf {\bibinfo {volume}
+  {13}},\ \bibinfo {pages} {P07006} (\bibinfo {year}
+  {2018}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph
+  {et~al.}(2018{\natexlab{b}})\citenamefont {Adams} \emph {et~al.}}]{ubsig2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Adams}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Ionization electron signal processing in single phase LArTPCs. Part II.
+  Data/simulation comparison and performance in MicroBooNE}},}\ }\href
+  {\doibase 10.1088/1748-0221/13/07/P07007} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Instrum.}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages}
+  {P07007} (\bibinfo {year} {2018}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2020)\citenamefont {Adams}
+  \emph {et~al.}}]{ubefield}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Adams}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{A method
+  to determine the electric field of liquid argon time projection chambers
+  using a UV laser system and its application in MicroBooNE}},}\ }\href
+  {\doibase 10.1088/1748-0221/15/07/P07010} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Instrum.}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages}
+  {P07010} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2020{\natexlab{a}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{efieldcosmics}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Measurement of space charge effects in the MicroBooNE LArTPC using cosmic
+  muons}},}\ }\href {\doibase 10.1088/1748-0221/15/12/P12037} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Instrum.}\ }\textbf {\bibinfo {volume}
+  {15}},\ \bibinfo {pages} {P12037} (\bibinfo {year}
+  {2020}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Acciarri}\ \emph {et~al.}(2013)\citenamefont
+  {Acciarri} \emph {et~al.}}]{argoneutrecomb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {ArgoNeuT
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{A Study
+  of Electron Recombination Using Highly Ionizing Particles in the ArgoNeuT
+  Liquid Argon TPC}},}\ }\href {\doibase 10.1088/1748-0221/8/08/P08005}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Instrum.}\ }\textbf {\bibinfo
+  {volume} {8}},\ \bibinfo {pages} {P08005} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Acciarri}\ \emph {et~al.}(2018)\citenamefont
+  {Acciarri} \emph {et~al.}}]{pandora}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The
+  Pandora multi-algorithm approach to automated pattern recognition of
+  cosmic-ray muon and neutrino events in the MicroBooNE detector}},}\ }\href
+  {\doibase 10.1140/epjc/s10052-017-5481-6} {\bibfield  {journal} {\bibinfo
+  {journal} {Eur. Phys. J. C}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo
+  {pages} {82} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{g}})\citenamefont {Abratenko} \emph {et~al.}}]{gLEE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Search
+  for Neutrino-Induced Neutral-Current \ensuremath{\Delta} Radiative Decay in
+  MicroBooNE and a First Test of the MiniBooNE Low Energy Excess under a
+  Single-Photon Hypothesis}},}\ }\href {\doibase
+  10.1103/PhysRevLett.128.111801} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {128}},\ \bibinfo {pages}
+  {111801} (\bibinfo {year} {2022}{\natexlab{g}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2020{\natexlab{b}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{ubnumunp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Measurement of differential cross sections for $\nu_{\mu}$ -Ar
+  charged-current interactions with protons and no pions in the final state
+  with the MicroBooNE detector}},}\ }\href {\doibase
+  10.1103/PhysRevD.102.112013} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {102}},\ \bibinfo {pages}
+  {112013} (\bibinfo {year} {2020}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2020{\natexlab{c}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{ubccqexsec}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{First
+  Measurement of Differential Charged Current Quasielastic-like $\nu_\mu$-Argon
+  Scattering Cross Sections with the MicroBooNE Detector}},}\ }\href {\doibase
+  10.1103/PhysRevLett.125.201803} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {125}},\ \bibinfo {pages}
+  {201803} (\bibinfo {year} {2020}{\natexlab{c}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph {et~al.}(2019)\citenamefont
+  {Abratenko} \emph {et~al.}}]{ubccincl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{First
+  Measurement of Inclusive Muon Neutrino Charged Current Differential Cross
+  Sections on Argon at $E_\nu\sim$0.8 GeV with the MicroBooNE Detector}},}\
+  }\href {\doibase 10.1103/PhysRevLett.123.131801} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {123}},\
+  \bibinfo {pages} {131801} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {Adams} \emph {et~al.}}]{ubccpi0}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Adams}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{First
+  measurement of $\nu_{\mu}$ charged-current $\pi^{0}$ production on argon with
+  the MicroBooNE detector}},}\ }\href {\doibase 10.1103/PhysRevD.99.091102}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {99}},\ \bibinfo {pages} {091102} (\bibinfo {year}
+  {2019}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {Adams} \emph
+  {et~al.}}]{ubtrkmult}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Adams}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Comparison of $\nu_\mu$-Ar multiplicity distributions observed by
+  MicroBooNE to GENIE model predictions}},}\ }\href {\doibase
+  10.1140/epjc/s10052-019-6742-3} {\bibfield  {journal} {\bibinfo  {journal}
+  {Eur. Phys. J. C}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo {pages} {248}
+  (\bibinfo {year} {2019}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2021{\natexlab{b}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{ubhportal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Search
+  for a Higgs Portal Scalar Decaying to Electron-Positron Pairs in the
+  MicroBooNE Detector}},}\ }\href {\doibase 10.1103/PhysRevLett.127.151803}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {127}},\ \bibinfo {pages} {151803} (\bibinfo {year}
+  {2021}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2020{\natexlab{d}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{ubhsl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Search
+  for Heavy Neutral Leptons Decaying into Muon-Pion Pairs in the MicroBooNE
+  Detector}},}\ }\href {\doibase 10.1103/PhysRevD.101.052001} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {101}},\ \bibinfo {pages} {052001} (\bibinfo {year}
+  {2020}{\natexlab{d}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2021{\natexlab{c}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{llrpid}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Calorimetric classification of track-like signatures in liquid argon TPCs
+  using MicroBooNE data}},}\ }\href {\doibase 10.1007/JHEP12(2021)153}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. High Energy Phys.}\ }\textbf
+  {\bibinfo {volume} {12}},\ \bibinfo {pages} {153} (\bibinfo {year}
+  {2021}{\natexlab{c}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berger}\ \emph {et~al.}(1999)\citenamefont {Berger},
+  \citenamefont {Coursey},\ and\ \citenamefont {Zucker}}]{nist}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Berger}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Coursey}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Zucker}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{ESTAR, PSTAR, and ASTAR:
+  Computer Programs for Calculating Stopping-Power and Range Tables for
+  Electrons, Protons, and Helium Ions (version 1.21)}},}\ \ }(\bibinfo {year}
+  {1999})\ \Eprint {http://arxiv.org/abs/http://physics.nist.gov/Star}
+  {http://physics.nist.gov/Star} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph {et~al.}()\citenamefont {Abratenko}
+  \emph {et~al.}}]{Suppl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibinfo {note} {{Supplemental} Material at [URL will be
+  inserted by publisher]}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aguilar-Arevalo}\ \emph {et~al.}(2013)\citenamefont
+  {Aguilar-Arevalo} \emph {et~al.}}]{mbflux2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Aguilar-Arevalo}} \emph {et~al.} (\bibinfo {collaboration} {MiniBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Improved
+  Search for $\bar \nu_\mu \rightarrow \bar \nu_e$ Oscillations in the
+  MiniBooNE Experiment}},}\ }\href {\doibase 10.1103/PhysRevLett.110.161801}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {110}},\ \bibinfo {pages} {161801} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Calcutt}\ \emph {et~al.}(2021)\citenamefont
+  {Calcutt}, \citenamefont {Thorpe}, \citenamefont {Mahn},\ and\ \citenamefont
+  {Fields}}]{G4Reweight}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Calcutt}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Thorpe}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Mahn}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Fields}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Geant4Reweight: a framework for evaluating and
+  propagating hadronic interaction uncertainties in Geant4}},}\ }\href
+  {\doibase 10.1088/1748-0221/16/08/P08042} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Instrum.}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages}
+  {P08042} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{h}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{DetSyst}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Novel
+  approach for evaluating detector-related uncertainties in a LArTPC using
+  MicroBooNE data}},}\ }\href {\doibase 10.1140/epjc/s10052-022-10270-8}
+  {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf
+  {\bibinfo {volume} {82}},\ \bibinfo {pages} {454} (\bibinfo {year}
+  {2022}{\natexlab{h}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {D'Agostini}()}]{DAgUnfold}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {D'Agostini}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Improved
+  iterative bayesian unfolding},}\ }\Eprint {http://arxiv.org/abs/1010.0632}
+  {arXiv:1010.0632} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Koch}\ and\ \citenamefont
+  {Dolan}(2020)}]{Koch:2020oyf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Koch}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Dolan}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Treatment of flux shape
+  uncertainties in unfolded, flux-averaged neutrino cross-section
+  measurements}},}\ }\href {\doibase 10.1103/PhysRevD.102.113012} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {102}},\ \bibinfo {pages} {113012} (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Abratenko}\ \emph
+  {et~al.}(2022{\natexlab{i}})\citenamefont {Abratenko} \emph
+  {et~al.}}]{MicroBooNECollaboration:2021enn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Abratenko}} \emph {et~al.} (\bibinfo {collaboration} {MicroBooNE
+  Collaboration}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{First
+  Measurement of Energy-Dependent Inclusive Muon Neutrino Charged-Current Cross
+  Sections on Argon with the MicroBooNE Detector}},}\ }\href {\doibase
+  10.1103/PhysRevLett.128.151801} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {128}},\ \bibinfo {pages}
+  {151801} (\bibinfo {year} {2022}{\natexlab{i}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bourbeau}\ and\ \citenamefont
+  {Hampel-Arias}(2018)}]{Bourbeau:2018wiw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Bourbeau}}\ and\ \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Hampel-Arias}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{PyUnfold:
+  A Python Package for Iterative Unfolding}},}\ }\href {\doibase
+  10.5281/zenodo.1258211} {\  (\bibinfo {year} {2018}),\
+  10.5281/zenodo.1258211},\ \Eprint {http://arxiv.org/abs/1806.03350}
+  {arXiv:1806.03350 [physics.data-an]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Andreopoulos}\ \emph {et~al.}(2010)\citenamefont
+  {Andreopoulos} \emph {et~al.}}]{Geniev2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Andreopoulos}} \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {{The GENIE Neutrino Monte Carlo Generator}},}\ }\href {\doibase
+  10.1016/j.nima.2009.12.009} {\bibfield  {journal} {\bibinfo  {journal} {Nucl.
+  Instrum. Meth. A}\ }\textbf {\bibinfo {volume} {614}},\ \bibinfo {pages}
+  {87--104} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Andreopoulos}\ \emph {et~al.}()\citenamefont
+  {Andreopoulos}, \citenamefont {Barry}, \citenamefont {Dytman}, \citenamefont
+  {Gallagher}, \citenamefont {Golan}, \citenamefont {Hatcher}, \citenamefont
+  {Perdue},\ and\ \citenamefont {Yarba}}]{Geniev2um}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Andreopoulos}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Barry}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Dytman}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Gallagher}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Golan}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Hatcher}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Perdue}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Yarba}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{The GENIE Neutrino Monte Carlo Generator: Physics and User Manual}},}\
+  }\Eprint {http://arxiv.org/abs/1510.05494} {arXiv:1510.05494 [hep-ph]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Golan}\ \emph
+  {et~al.}(2012{\natexlab{a}})\citenamefont {Golan}, \citenamefont {Sobczyk},\
+  and\ \citenamefont {Zmuda}}]{NuWro1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Golan}}, \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont {Sobczyk}},
+  \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Zmuda}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{NuWro: the Wroclaw Monte
+  Carlo Generator of Neutrino Interactions}},}\ }\href {\doibase
+  10.1016/j.nuclphysbps.2012.09.136} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nucl. Phys. B Proc. Suppl.}\ }\textbf {\bibinfo {volume} {229-232}},\
+  \bibinfo {pages} {499--499} (\bibinfo {year}
+  {2012}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Golan}\ \emph
+  {et~al.}(2012{\natexlab{b}})\citenamefont {Golan}, \citenamefont {Juszczak},\
+  and\ \citenamefont {Sobczyk}}]{NuWro2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Golan}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Juszczak}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont {Sobczyk}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Final State Interactions
+  Effects in Neutrino-Nucleus Interactions}},}\ }\href {\doibase
+  10.1103/PhysRevC.86.015505} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. C}\ }\textbf {\bibinfo {volume} {86}},\ \bibinfo {pages} {015505}
+  (\bibinfo {year} {2012}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hayato}(2009)}]{Hayato:2009zz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Hayato}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{A neutrino
+  interaction simulation program library NEUT}},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Acta Phys. Polon. B}\ }\textbf {\bibinfo
+  {volume} {40}},\ \bibinfo {pages} {2477--2489} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hayato}\ and\ \citenamefont
+  {Pickering}(2021)}]{NEUT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Hayato}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Pickering}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The NEUT
+  neutrino interaction simulation program library}},}\ }\href {\doibase
+  10.1140/epjs/s11734-021-00287-7} {\bibfield  {journal} {\bibinfo  {journal}
+  {Eur. Phys. J. ST}\ }\textbf {\bibinfo {volume} {230}},\ \bibinfo {pages}
+  {4469--4481} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nieves}\ \emph {et~al.}(2011)\citenamefont {Nieves},
+  \citenamefont {Ruiz~Simo},\ and\ \citenamefont
+  {Vicente~Vacas}}]{Nieves:2011pp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Nieves}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Ruiz~Simo}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Vicente~Vacas}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Inclusive Charged--Current Neutrino--Nucleus Reactions}},}\ }\href
+  {\doibase 10.1103/PhysRevC.83.045501} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo
+  {pages} {045501} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schwehr}\ \emph {et~al.}()\citenamefont {Schwehr},
+  \citenamefont {Cherdack},\ and\ \citenamefont {Gran}}]{Schwehr:2016pvn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Schwehr}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Cherdack}}, \
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Gran}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{GENIE implementation of IFIC Valencia
+  model for QE-like 2p2h neutrino-nucleus cross section}},}\ }\Eprint
+  {http://arxiv.org/abs/1601.02038} {arXiv:1601.02038 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Gran}\ \emph {et~al.}(2013)\citenamefont {Gran},
+  \citenamefont {Nieves}, \citenamefont {Sanchez},\ and\ \citenamefont
+  {Vicente~Vacas}}]{Gran:2013kda}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Gran}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Nieves}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Sanchez}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Vicente~Vacas}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Neutrino-nucleus
+  quasi-elastic and 2p2h interactions up to 10 GeV}},}\ }\href {\doibase
+  10.1103/PhysRevD.88.113007} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. D}\ }\textbf {\bibinfo {volume} {88}},\ \bibinfo {pages} {113007}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Llewellyn~Smith}(1972)}]{LlewellynSmith:1971uhs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~H.}\ \bibnamefont
+  {Llewellyn~Smith}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Neutrino Reactions at Accelerator Energies}},}\ }\href {\doibase
+  10.1016/0370-1573(72)90010-5} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rept.}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages} {261--379}
+  (\bibinfo {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Doyle}\ \emph {et~al.}()\citenamefont {Doyle} \emph
+  {et~al.}}]{NOvAccmu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Doyle}} \emph {et~al.} (\bibinfo {collaboration} {NOvA Collaboration}),\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Measurement of the
+  Double-Differential Muon-neutrino Charged-Current Inclusive Cross Section in
+  the NOvA Near Detector}},}\ }\Eprint {http://arxiv.org/abs/2109.12220}
+  {arXiv:2109.12220 [hep-ex]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Katori}(2015)}]{Katori:2013eoa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Katori}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Meson Exchange
+  Current (MEC) Models in Neutrino Interaction Generators}},}\ }\href {\doibase
+  10.1063/1.4919465} {\bibfield  {journal} {\bibinfo  {journal} {AIP Conf.
+  Proc.}\ }\textbf {\bibinfo {volume} {1663}},\ \bibinfo {pages} {030001}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abi}\ \emph {et~al.}(2021)\citenamefont {Abi} \emph
+  {et~al.}}]{DUNE:2020fgq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abi}} \emph {et~al.} (\bibinfo {collaboration} {DUNE Collaboration}),\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Prospects for beyond the
+  Standard Model physics searches at the Deep Underground Neutrino
+  Experiment}},}\ }\href {\doibase 10.1140/epjc/s10052-021-09007-w} {\bibfield
+  {journal} {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf {\bibinfo {volume}
+  {81}},\ \bibinfo {pages} {322} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%

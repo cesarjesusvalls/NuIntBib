@@ -1,0 +1,1173 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.2 distribution.
+%   Version 4.2a of REVTeX, December 2014
+%
+%   Copyright (c) 2014 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.2
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+\documentclass[%
+twocolumn,
+%%KIRBY - uncomment the above line when we want it in the PRD two column format
+%%KIRBY
+ %reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+prd,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+superscriptaddress,showpacs]{revtex4-2}
+
+%PACS Numbers 13.15.+g (neutrino interactions), 14.60.Lm (neutrinos) ,14.20.Dh (proton and neutron), 
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{lineno}
+\usepackage{float}
+\usepackage{xspace}
+\usepackage{placeins}
+%\usepackage{subfig}
+%\usepackage{subcaption}
+\usepackage{gensymb}
+%\usepackage{natbib}
+%\setlength{\bibsep}{0.0pt}
+
+%\usepackage{hyperref}% add hypertext capabilities
+%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+%\usepackage[showframe,%Uncomment any one of the following lines to test 
+%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
+%%text={7in,10in},centering,
+%%margin=1.5in,
+%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
+%%height=10in,a5paper,hmargin={3cm,0.8in},
+%]{geometry}
+
+\begin{document}
+
+\preprint{v3.0}
+
+\newcommand{\numu}{$\nu_\mu$\xspace}
+\newcommand{\nue}{$\nu_e$\xspace}
+\newcommand{\nuebar}{$\overline{\nu}_e$\xspace}
+\newcommand{\dcp}{$\delta_{CP}$\xspace}
+\newcommand{\thtt}{$\theta_{23}$\newcommand}
+\newcommand{\dmsq}{$|\Delta m^2_{32}|$\xspace}
+\newcommand{\nova}{NOvA\xspace}
+\newcommand{\mb}{MiniBooNE\xspace}
+\newcommand{\mub}{MicroBooNE\xspace}
+\newcommand{\nuance}{\textsc{nuance}}
+\newcommand{\minerva}{MINERvA\xspace}
+\newcommand{\addcite}{{\color{red} ADD CITATION}~}
+\newcommand{\tmu}{\ensuremath{T_{\mu}}\xspace}
+\newcommand{\pmu}{\ensuremath{|\textbf{p}_{\mu}|}\xspace}
+\newcommand{\cost}{\ensuremath{\cos{\theta_{\mu}}}\xspace}
+\newcommand{\enu}{\ensuremath{E_{\nu}}\xspace}
+\newcommand{\qq}{\ensuremath{Q^{2}}\xspace}
+\newcommand{\enuqe}{\ensuremath{E_{\nu}^{\textrm{QE}}}\xspace}
+\newcommand{\qqqe}{\ensuremath{Q^{2}_{\textrm{QE}}}\xspace}
+\newcommand{\pf}{\ensuremath{p_{F}}\xspace}
+\newcommand{\eb}{\ensuremath{E_{b}}\xspace}
+\newcommand{\carbon}{C\ensuremath{^{12}}\xspace}
+\newcommand{\oxygen}{O\ensuremath{^{16}}\xspace}
+\newcommand{\ma}{\ensuremath{M_{\textrm{A}}}\xspace}
+ \newcommand{\maeff}{\ensuremath{M^{\mbox{\scriptsize{eff}}}_{\textrm{A}}}\xspace}
+\newcommand{\mares}{\ensuremath{M^{\mbox{\scriptsize{RES}}}_{\textrm{A}}}\xspace}
+\newcommand{\maqe}{\ensuremath{M_{\textrm{A}}^{\mbox{\scriptsize{QE}}}}\xspace}
+\newcommand{\rpm}{\raisebox{.2ex}{$\scriptstyle\pm$}}
+
+%\linenumbers
+
+
+\title{Measurement of Differential Cross Sections for $\nu_\mu$-Ar Charged-Current Interactions with Protons and no Pions in the Final State with the MicroBooNE Detector}
+%\title{MicroBooNE Author List - July 2020 -- special version for CCNp paper (PRD Format)}
+
+% List of institutions in command form:
+\newcommand{\Bern}{Universit{\"a}t Bern, Bern CH-3012, Switzerland}
+\newcommand{\BNL}{Brookhaven National Laboratory (BNL), Upton, NY, 11973, USA}
+\newcommand{\UCSB}{University of California, Santa Barbara, CA, 93106, USA}
+\newcommand{\Cambridge}{University of Cambridge, Cambridge CB3 0HE, United Kingdom}
+\newcommand{\StKates}{St. Catherine University, Saint Paul, MN 55105, USA}
+\newcommand{\CIEMAT}{Centro de Investigaciones Energ\'{e}ticas, Medioambientales y Tecnol\'{o}gicas (CIEMAT), Madrid E-28040, Spain}
+\newcommand{\Chicago}{University of Chicago, Chicago, IL, 60637, USA}
+\newcommand{\Cincinnati}{University of Cincinnati, Cincinnati, OH, 45221, USA}
+\newcommand{\CSU}{Colorado State University, Fort Collins, CO, 80523, USA}
+\newcommand{\Columbia}{Columbia University, New York, NY, 10027, USA}
+\newcommand{\FNAL}{Fermi National Accelerator Laboratory (FNAL), Batavia, IL 60510, USA}
+\newcommand{\Granada}{Universidad de Granada, Granada E-18071, Spain}
+\newcommand{\Harvard}{Harvard University, Cambridge, MA 02138, USA}
+\newcommand{\IIT}{Illinois Institute of Technology (IIT), Chicago, IL 60616, USA}
+\newcommand{\KSU}{Kansas State University (KSU), Manhattan, KS, 66506, USA}
+\newcommand{\Lancaster}{Lancaster University, Lancaster LA1 4YW, United Kingdom}
+\newcommand{\LANL}{Los Alamos National Laboratory (LANL), Los Alamos, NM, 87545, USA}
+\newcommand{\Manchester}{The University of Manchester, Manchester M13 9PL, United Kingdom}
+\newcommand{\MIT}{Massachusetts Institute of Technology (MIT), Cambridge, MA, 02139, USA}
+\newcommand{\Michigan}{University of Michigan, Ann Arbor, MI, 48109, USA}
+\newcommand{\Minnesota}{University of Minnesota, Minneapolis, MN, 55455, USA}
+\newcommand{\NMSU}{New Mexico State University (NMSU), Las Cruces, NM, 88003, USA}
+\newcommand{\Otterbein}{Otterbein University, Westerville, OH, 43081, USA}
+\newcommand{\Oxford}{University of Oxford, Oxford OX1 3RH, United Kingdom}
+\newcommand{\PNNL}{Pacific Northwest National Laboratory (PNNL), Richland, WA, 99352, USA}
+\newcommand{\Pitt}{University of Pittsburgh, Pittsburgh, PA, 15260, USA}
+\newcommand{\Rutgers}{Rutgers University, Piscataway, NJ, 08854, USA}
+\newcommand{\StMarys}{Saint Mary's University of Minnesota, Winona, MN, 55987, USA}
+\newcommand{\SLAC}{SLAC National Accelerator Laboratory, Menlo Park, CA, 94025, USA}
+\newcommand{\SDSMT}{South Dakota School of Mines and Technology (SDSMT), Rapid City, SD, 57701, USA}
+\newcommand{\Maine}{University of Southern Maine, Portland, ME, 04104, USA}
+\newcommand{\Syracuse}{Syracuse University, Syracuse, NY, 13244, USA}
+\newcommand{\TelAviv}{Tel Aviv University, Tel Aviv, Israel, 69978}
+\newcommand{\Tennessee}{University of Tennessee, Knoxville, TN, 37996, USA}
+\newcommand{\UTA}{University of Texas, Arlington, TX, 76019, USA}
+\newcommand{\Tufts}{Tufts University, Medford, MA, 02155, USA}
+\newcommand{\VTech}{Center for Neutrino Physics, Virginia Tech, Blacksburg, VA, 24061, USA}
+\newcommand{\Warwick}{University of Warwick, Coventry CV4 7AL, United Kingdom}
+\newcommand{\Yale}{Wright Laboratory, Department of Physics, Yale University, New Haven, CT, 06520, USA}
+\newcommand{\listerThanks}{Now at University of Wisconsin--Madison}
+
+% So that institutions appear in alphabetical order:
+\affiliation{\Bern}
+\affiliation{\BNL}
+\affiliation{\UCSB}
+\affiliation{\Cambridge}
+\affiliation{\StKates}
+\affiliation{\CIEMAT}
+\affiliation{\Chicago}
+\affiliation{\Cincinnati}
+\affiliation{\CSU}
+\affiliation{\Columbia}
+\affiliation{\FNAL}
+\affiliation{\Granada}
+\affiliation{\Harvard}
+\affiliation{\IIT}
+\affiliation{\KSU}
+\affiliation{\Lancaster}
+\affiliation{\LANL}
+\affiliation{\Manchester}
+\affiliation{\MIT}
+\affiliation{\Michigan}
+\affiliation{\Minnesota}
+\affiliation{\NMSU}
+\affiliation{\Otterbein}
+\affiliation{\Oxford}
+\affiliation{\PNNL}
+\affiliation{\Pitt}
+\affiliation{\Rutgers}
+\affiliation{\StMarys}
+\affiliation{\SLAC}
+\affiliation{\SDSMT}
+\affiliation{\Maine}
+\affiliation{\Syracuse}
+\affiliation{\TelAviv}
+\affiliation{\Tennessee}
+\affiliation{\UTA}
+\affiliation{\Tufts}
+\affiliation{\VTech}
+\affiliation{\Warwick}
+\affiliation{\Yale}
+
+% Authors in alphabetical order
+%\author{P.~Abratenko} \affiliation{\Michigan} % for CC incl and any papers using MCS
+\author{P.~Abratenko} \affiliation{\Tufts} 
+\author{M.~Alrashed} \affiliation{\KSU}
+\author{R.~An} \affiliation{\IIT}
+\author{J.~Anthony} \affiliation{\Cambridge}
+\author{J.~Asaadi} \affiliation{\UTA}
+\author{A.~Ashkenazi} \affiliation{\MIT}
+\author{S.~Balasubramanian} \affiliation{\Yale}
+\author{B.~Baller} \affiliation{\FNAL}
+\author{C.~Barnes} \affiliation{\Michigan}
+\author{G.~Barr} \affiliation{\Oxford}
+\author{V.~Basque} \affiliation{\Manchester}
+\author{L.~Bathe-Peters} \affiliation{\Harvard}
+\author{O.~Benevides~Rodrigues} \affiliation{\Syracuse}
+\author{S.~Berkman} \affiliation{\FNAL}
+\author{A.~Bhanderi} \affiliation{\Manchester}
+\author{A.~Bhat} \affiliation{\Syracuse}
+\author{M.~Bishai} \affiliation{\BNL}
+\author{A.~Blake} \affiliation{\Lancaster}
+\author{T.~Bolton} \affiliation{\KSU}
+\author{L.~Camilleri} \affiliation{\Columbia}
+\author{D.~Caratelli} \affiliation{\FNAL}
+\author{I.~Caro~Terrazas} \affiliation{\CSU}
+\author{R.~Castillo~Fernandez} \affiliation{\FNAL}
+\author{F.~Cavanna} \affiliation{\FNAL}
+\author{G.~Cerati} \affiliation{\FNAL}
+%\author{H.~Chen} \affiliation{\BNL}  % for CC pi0 only
+\author{Y.~Chen} \affiliation{\Bern}
+\author{E.~Church} \affiliation{\PNNL}
+\author{D.~Cianci} \affiliation{\Columbia}
+\author{J.~M.~Conrad} \affiliation{\MIT}
+\author{M.~Convery} \affiliation{\SLAC}
+\author{L.~Cooper-Troendle} \affiliation{\Yale}
+\author{J.~I.~Crespo-Anad\'{o}n} \affiliation{\Columbia}\affiliation{\CIEMAT}
+\author{M.~Del~Tutto} \affiliation{\FNAL}
+\author{D.~Devitt} \affiliation{\Lancaster}
+\author{R.~Diurba}\affiliation{\Minnesota}
+\author{L.~Domine} \affiliation{\SLAC}
+\author{R.~Dorrill} \affiliation{\IIT}
+\author{K.~Duffy} \affiliation{\FNAL}
+\author{S.~Dytman} \affiliation{\Pitt}
+\author{B.~Eberly} \affiliation{\Maine}
+\author{A.~Ereditato} \affiliation{\Bern}
+\author{L.~Escudero~Sanchez} \affiliation{\Cambridge}
+\author{J.~J.~Evans} \affiliation{\Manchester}
+\author{G.~A.~Fiorentini~Aguirre} \affiliation{\SDSMT}
+\author{R.~S.~Fitzpatrick} \affiliation{\Michigan}
+\author{B.~T.~Fleming} \affiliation{\Yale}
+\author{N.~Foppiani} \affiliation{\Harvard}
+\author{D.~Franco} \affiliation{\Yale}
+\author{A.~P.~Furmanski}\affiliation{\Minnesota}
+\author{D.~Garcia-Gamez} \affiliation{\Granada}
+\author{S.~Gardiner} \affiliation{\FNAL}
+\author{G.~Ge} \affiliation{\Columbia}
+\author{S.~Gollapinni} \affiliation{\Tennessee}\affiliation{\LANL}
+\author{O.~Goodwin} \affiliation{\Manchester}
+\author{E.~Gramellini} \affiliation{\FNAL}
+\author{P.~Green} \affiliation{\Manchester}
+\author{H.~Greenlee} \affiliation{\FNAL}
+\author{W.~Gu} \affiliation{\BNL}
+\author{R.~Guenette} \affiliation{\Harvard}
+\author{P.~Guzowski} \affiliation{\Manchester}
+\author{E.~Hall} \affiliation{\MIT}
+\author{P.~Hamilton} \affiliation{\Syracuse}
+\author{O.~Hen} \affiliation{\MIT}
+\author{G.~A.~Horton-Smith} \affiliation{\KSU}
+\author{A.~Hourlier} \affiliation{\MIT}
+\author{E.-C.~Huang} \affiliation{\LANL}
+\author{R.~Itay} \affiliation{\SLAC}
+\author{C.~James} \affiliation{\FNAL}
+\author{J.~Jan~de~Vries} \affiliation{\Cambridge}
+\author{X.~Ji} \affiliation{\BNL}
+\author{L.~Jiang} \affiliation{\VTech}
+\author{J.~H.~Jo} \affiliation{\Yale}
+\author{R.~A.~Johnson} \affiliation{\Cincinnati}
+\author{Y.-J.~Jwa} \affiliation{\Columbia}
+\author{N.~Kamp} \affiliation{\MIT}
+\author{G.~Karagiorgi} \affiliation{\Columbia}
+\author{W.~Ketchum} \affiliation{\FNAL}
+\author{B.~Kirby} \affiliation{\BNL}
+\author{M.~Kirby} \affiliation{\FNAL}
+\author{T.~Kobilarcik} \affiliation{\FNAL}
+\author{I.~Kreslo} \affiliation{\Bern}
+\author{R.~LaZur} \affiliation{\CSU}
+\author{I.~Lepetic} \affiliation{\Rutgers}
+\author{K.~Li} \affiliation{\Yale}
+\author{Y.~Li} \affiliation{\BNL}
+\author{A.~Lister}\thanks{\listerThanks} \affiliation{\Lancaster}  % special for CC Np paper
+\author{B.~R.~Littlejohn} \affiliation{\IIT}
+\author{D.~Lorca} \affiliation{\Bern}
+\author{W.~C.~Louis} \affiliation{\LANL}
+\author{X.~Luo} \affiliation{\UCSB}
+\author{A.~Marchionni} \affiliation{\FNAL}
+\author{S.~Marcocci} \affiliation{\FNAL}
+\author{C.~Mariani} \affiliation{\VTech}
+\author{D.~Marsden} \affiliation{\Manchester}
+\author{J.~Marshall} \affiliation{\Warwick}
+\author{J.~Martin-Albo} \affiliation{\Harvard}
+\author{D.~A.~Martinez~Caicedo} \affiliation{\SDSMT}
+\author{K.~Mason} \affiliation{\Tufts}
+\author{A.~Mastbaum} \affiliation{\Rutgers}
+\author{N.~McConkey} \affiliation{\Manchester}
+\author{V.~Meddage} \affiliation{\KSU}
+\author{T.~Mettler}  \affiliation{\Bern}
+\author{K.~Miller} \affiliation{\Chicago}
+\author{J.~Mills} \affiliation{\Tufts}
+\author{K.~Mistry} \affiliation{\Manchester}
+\author{A.~Mogan} \affiliation{\Tennessee}
+\author{T.~Mohayai} \affiliation{\FNAL}
+\author{J.~Moon} \affiliation{\MIT}
+\author{M.~Mooney} \affiliation{\CSU}
+\author{A.~F.~Moor} \affiliation{\Cambridge}
+\author{C.~D.~Moore} \affiliation{\FNAL}
+\author{J.~Mousseau} \affiliation{\Michigan}
+\author{M.~Murphy} \affiliation{\VTech}
+\author{D.~Naples} \affiliation{\Pitt}
+\author{A.~Navrer-Agasson} \affiliation{\Manchester}
+\author{R.~K.~Neely} \affiliation{\KSU}
+\author{P.~Nienaber} \affiliation{\StMarys}
+\author{J.~Nowak} \affiliation{\Lancaster}
+\author{O.~Palamara} \affiliation{\FNAL}
+\author{V.~Paolone} \affiliation{\Pitt}
+\author{A.~Papadopoulou} \affiliation{\MIT}
+\author{V.~Papavassiliou} \affiliation{\NMSU}
+\author{S.~F.~Pate} \affiliation{\NMSU}
+\author{A.~Paudel} \affiliation{\KSU}
+\author{Z.~Pavlovic} \affiliation{\FNAL}
+\author{E.~Piasetzky} \affiliation{\TelAviv}
+\author{I.~D.~Ponce-Pinto} \affiliation{\Columbia}
+\author{D.~Porzio} \affiliation{\Manchester}
+\author{S.~Prince} \affiliation{\Harvard}
+\author{X.~Qian} \affiliation{\BNL}
+\author{J.~L.~Raaf} \affiliation{\FNAL}
+\author{V.~Radeka} \affiliation{\BNL}
+\author{A.~Rafique} \affiliation{\KSU}
+\author{M.~Reggiani-Guzzo} \affiliation{\Manchester}
+\author{L.~Ren} \affiliation{\NMSU}
+\author{L.~Rochester} \affiliation{\SLAC}
+\author{J.~Rodriguez Rondon} \affiliation{\SDSMT}
+\author{H.~E.~Rogers}\affiliation{\StKates}
+\author{M.~Rosenberg} \affiliation{\Pitt}
+\author{M.~Ross-Lonergan} \affiliation{\Columbia}
+\author{B.~Russell} \affiliation{\Yale}
+\author{G.~Scanavini} \affiliation{\Yale}
+\author{D.~W.~Schmitz} \affiliation{\Chicago}
+\author{A.~Schukraft} \affiliation{\FNAL}
+\author{M.~H.~Shaevitz} \affiliation{\Columbia}
+\author{R.~Sharankova} \affiliation{\Tufts}
+\author{J.~Sinclair} \affiliation{\Bern}
+\author{A.~Smith} \affiliation{\Cambridge}
+\author{E.~L.~Snider} \affiliation{\FNAL}
+\author{M.~Soderberg} \affiliation{\Syracuse}
+\author{S.~S{\"o}ldner-Rembold} \affiliation{\Manchester}
+\author{S.~R.~Soleti} \affiliation{\Oxford}\affiliation{\Harvard}
+\author{P.~Spentzouris} \affiliation{\FNAL}
+\author{J.~Spitz} \affiliation{\Michigan}
+\author{M.~Stancari} \affiliation{\FNAL}
+\author{J.~St.~John} \affiliation{\FNAL}
+\author{T.~Strauss} \affiliation{\FNAL}
+\author{K.~Sutton} \affiliation{\Columbia}
+\author{S.~Sword-Fehlberg} \affiliation{\NMSU}
+\author{A.~M.~Szelc} \affiliation{\Manchester}
+\author{N.~Tagg} \affiliation{\Otterbein}
+\author{W.~Tang} \affiliation{\Tennessee}
+\author{K.~Terao} \affiliation{\SLAC}
+\author{C.~Thorpe} \affiliation{\Lancaster}
+\author{M.~Toups} \affiliation{\FNAL}
+\author{Y.-T.~Tsai} \affiliation{\SLAC}
+\author{S.~Tufanli} \affiliation{\Yale}
+\author{M.~A.~Uchida} \affiliation{\Cambridge}
+\author{T.~Usher} \affiliation{\SLAC}
+\author{W.~Van~De~Pontseele} \affiliation{\Oxford}\affiliation{\Harvard}
+\author{B.~Viren} \affiliation{\BNL}
+\author{M.~Weber} \affiliation{\Bern}
+\author{H.~Wei} \affiliation{\BNL}
+\author{Z.~Williams} \affiliation{\UTA}
+\author{S.~Wolbers} \affiliation{\FNAL}
+\author{T.~Wongjirad} \affiliation{\Tufts}
+\author{M.~Wospakrik} \affiliation{\FNAL}
+\author{W.~Wu} \affiliation{\FNAL}
+\author{T.~Yang} \affiliation{\FNAL}
+\author{G.~Yarbrough} \affiliation{\Tennessee}
+\author{L.~E.~Yates} \affiliation{\MIT}
+\author{G.~P.~Zeller} \affiliation{\FNAL}
+\author{J.~Zennamo} \affiliation{\FNAL}
+\author{C.~Zhang} \affiliation{\BNL}
+
+\collaboration{The MicroBooNE Collaboration}
+\thanks{microboone\_info@fnal.gov}\noaffiliation
+%\author{Libo Jiang, Steve Dytman}
+%\affiliation{Univ. of Pittsburgh}
+%\author{Michael Kirby}
+%\affiliation{Fermi National Accelerator Laboratory}
+%\author{A. P. Furmanski}
+%\affiliation{University of Minnesota}
+%\author{Steve Dytman}
+%\affiliation{Univ. of Pittsburgh}
+%\email{Second.Author@institution.edu}
+
+%\collaboration{MicroBooNE Collaboration}
+%\noaffiliation
+
+
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+We present an analysis of MicroBooNE data with a signature of one muon, no pions, and at least one proton above a momentum threshold of 300~MeV/c (CC0$\pi$Np).
+This is the first differential cross section measurement of this topology in neutrino-argon interactions. %$\nu_\mu$ charged-current interactions on argon with no pions but requiring protons in the final state (CC0$\pi$Np). 
+We achieve a significantly lower proton momentum threshold than previous carbon and scintillator-based experiments. 
+%in what is conventionally known as a CC0$\pi Np$ signal. 
+Using data collected from a total of approximately $1.6 \times 10^{20}$ protons-on-target, we measure the muon neutrino cross section for the CC0$\pi$Np interaction channel in argon at MicroBooNE in the Booster Neutrino Beam which has a mean energy of around 800~MeV.
+%Our addition is to provide data for argon with valuable data on the leading proton.
+%This has recently been measured on a carbon target by both T2K and MINER$\nu$A.
+%We also make the significant change of refitting all showers as tracks which has the effect of reducing systematic uncertainties related to track/shower separation.
+%The goal is to present inclusive results that emphasize the proton capabilities of \mub\ and provide general guidance to model development.
+We present the results from a data sample with estimated efficiency of 29\% and  purity of 76\% as differential cross sections in five reconstructed variables: the muon momentum and polar angle, the leading proton momentum and polar angle, and the muon-proton opening angle. We include smearing matrices that can be used to ``forward-fold'' theoretical predictions for comparison with these data.
+%Theoretical predictions must be ``forward-folded'' using smearing matrices produced by the collaboration to compare to these data.
+We compare the measured differential cross sections to a number of recent theory predictions demonstrating largely good agreement
+with this first-ever data set on argon.
+
+\end{abstract}
+
+%\keywords{Suggested keywords}%Use showkeys class option if keyword
+                              %display desired
+\maketitle
+
+%\tableofcontents
+
+\section{Introduction}
+\label{sec:intro}
+
+A comprehensive understanding of neutrino interactions is one of the core needs of neutrino oscillation experiments~\cite{nustec-review}.  These measurements are %valuable for an error analysis
+an important component of systematic uncertainties in both existing neutrino oscillation experiments, such as T2K~\cite{Abe:2018wpn} and NOvA~\cite{Acero:2019ksn}, and future programs and experiments such as SBN~\cite{Antonello:2015lea}, DUNE~\cite{Abi:2020evt}, and Hyper-Kamiokande~\cite{HyperK_design_report}.
+In many oscillation analyses, for example ~\cite{Abe:2018wpn,Acero:2019ksn}, a lack of understanding of neutrino interactions is limiting the precision of such measurements.  At this time, the interaction information available is predominantly on light targets such as carbon.
+For future experiments, an accurate modeling of neutrino interactions with argon is required; this is a primary goal of the \mub  experiment~\cite{Acciarri:2016smiDET}. We report on the first differential cross-section measurement of CC0$\pi$Np interactions on argon, including measurements of proton kinematics.
+
+The understanding of neutrino interactions comes through cross-section measurements of various channels.
+The charged-current quasielastic (CCQE) interaction~\cite{nustec-review} is considered to be very important because it forms a significant contribution in many accelerator-based neutrino oscillation experiments, and because the final state topology is simple with an easily identifiable lepton.
+Early experiments on deuterium targets, e.g. \cite{Kitagaki:1983px} were able to identify true CCQE interactions by identifying hadrons in the final state.
+These were the first measurements of the axial form factor.
+More recent experiments, K2K~\cite{Gran:2006jn}, used nuclear targets and detection of hadrons in the final state with more advanced detectors.
+They still focused on the goal of measuring the nucleon axial form factor.
+\mb~\cite{miniboone-ccqe} pioneered many of the analysis methods used today.
+It is located along the same neutrino beam as \mub, but with a mineral oil (CH$_2$) target.  
+The interpretation of these data was complicated because of the presence of other interactions such as multinucleon ($2p2h$) interactions~\cite{Martini:2011wp,Nieves:2011ppTHEORY} where the primary interaction is with two nucleons, and pion production where the pion is absorbed in the residual nucleus.
+These data provided evidence for the importance of  the $2p2h$ interaction in neutrino interactions.
+ Events from these alternate mechanisms have different proton multiplicities and kinematic distributions compared with CCQE events. When only the muon is detected, the event can be easily mistaken as a CCQE interaction leading to a bias in neutrino energy estimations.
+
+To avoid this problem, a common signal definition used is CC$0\pi$ or ``CCQE-like'' where the final state has one muon and any number of protons but no pions above the detection threshold of the experiment.
+Components of $2p2h$ and pion production, followed by pion absorption, are then included.
+As a result of using a broader signal definition, backgrounds are easier to handle and the associated model dependence in the result is greatly decreased.
+
+Recent \minerva~\cite{Betancourt:2017uso,Ruterbories:2018gub} and T2K~\cite{Abe:2018pwo} CC$0\pi$ results use this signal definition and include events where protons are required as one component of the signal to better differentiate between models. 
+One \minerva measurement~\cite{Betancourt:2017uso} using a range of targets (carbon, iron, and lead) showed growing problems describing the magnitude of the data with increasing atomic number.
+Along with the CC$0\pi$ cross section measurement, T2K published proton momenta and multiplicity distributions in their most recent paper~\cite{Abe:2018pwo}.
+%, \minerva has chosen not to publish proton kinematics results~\cite{Betancourt:2017uso,Ruterbories:2018gub}.
+Each experiment has a characteristic proton detection threshold: 450 MeV/c (kinetic energy of 102.3 MeV) for \minerva~\cite{Betancourt:2017uso,Ruterbories:2018gub}, and 500 MeV/c (kinetic energy of 124.9 MeV) for T2K~\cite{Abe:2018pwo}.
+A recent MicroBooNE measurement focused on single proton final states in a region of phase space where CCQE is expected to dominate \cite{uB_CCQE_2020}.  The largest differences between data and predictions were seen at forward muon angles.
+
+Pion production interaction events are also included in the event sample for this measurement.  
+Both experimental and theoretical understanding of pion production processes are needed~\cite{nustec-review}.
+%This will include both processes involving nucleon resonances and without resonances (called nonresonant or coherent).
+In addition, the component of these events that satisfy the signal definition of this measurement is not well understood because models of both pion production and pion absorption in the nuclear medium are required.
+%With a signal definition that specifies no pions in the final state, pion production events are mainly considered as background.
+
+Theoretical development has benefited from previous work for electron interactions where many of the same reaction mechanisms are used.
+The $2p2h$ mechanism was developed for electron interaction modeling~\cite{Megias:2016fjk} and then imported to neutrino models~\cite{Martini:2011wp}. 
+Although all event generator Monte Carlo algorithms now include $2p2h$ mechanisms, neutrino data give only indirect evidence for it, in contrast with electron scattering where the evidence is more conclusive. 
+Relevant neutrino data were published by ArgoNeuT including kinematics for a two-proton sample~\cite{Argoneut-2p}. 
+Because their sample size is small, they could select and analyze events through a combined manual and automated analysis that enabled an impressively low threshold of 21 MeV in proton kinetic energy.
+However, there is still a strong need for more detailed information about the protons in the final state of neutrino interactions.
+
+This article presents an analysis of a sample of charged-current events with one muon and at least one proton in the final state in argon.
+Measuring the outgoing proton increases the sensitivity to nuclear effects relative to a measurement of inclusive muon kinematics such as~\cite{Adams:2019iqcINCL} while keeping a more inclusive signal definition than the aforementioned analysis of one-proton final states~\cite{uB_CCQE_2020} retains a higher statistics data sample. According to the signal definition adopted, the highest energy (leading) proton must have a momentum between 300~MeV/c and 1200~MeV/c (
+see Sec.~\ref{sec:event_sel} for details), the muon must have a momentum greater than 100~MeV/c, and there must be no pions or other mesons in the final state.
+Any number of final state neutrons is permitted.
+We refer to this signal definition as CC$0\pi Np$ (where N $\ge$ 1) for the remainder of this article.
+Events from this CC$0\pi Np$ signal definition are primarily populated by CC quasi-elastic interactions, but with significant components from multinucleon interactions ($2p2h$) and events where pions are produced but then absorbed in the nucleus.
+These different components have different signatures in the five kinematic variables we measure, and as such, these data can be used to build and test models in interaction generators.
+
+The cross-sections presented here are measured differentially in the kinematics of the muon and leading proton in each event.  
+In addition to the muon momentum and angle, measured distributions of the leading proton momentum and angle, and opening angle between the muon and leading proton are presented.  
+By presenting these spectra for CC0$\pi$Np events, a broad picture of muon neutrino interactions in argon is provided and model dependence in these results is decreased.
+To best describe these data, comparisons need to include all contributing mechanisms listed in the signal definition (in the preceding paragraph) and should be folded with the smearing matrices provided because the data are not corrected for detector resolution effects.
+A breakdown according to the interactions implemented in the Monte Carlo program used in this data analysis and comparisons with various event generator codes is presented in Sec~\ref{sec:results}.
+
+\section{\mub Experiment} 
+\label{sec:expt}
+The \mub experiment~\cite{Acciarri:2016smiDET} consists of a liquid argon time projection chamber (LArTPC) in the Fermilab Booster Neutrino Beam (BNB). The detector consists of a cylindrical cryostat filled with approxiamately 170 tons of liquid argon.
+Inside this cryostat is a 10.36~m (L) $\times$ 2.56~m (W) $\times$ 2.32~m (H) rectangular TPC, shown in Figure \ref{fig:microboone_TPC}, which is sensitive to charge produced in 85 tons of the liquid.
+The TPC operates at an electric field of 273~V/cm, provided by a cathode held at $-$70~kV and kept uniform by a field cage around the TPC, though the local electric field is modified by up to 15\% by the presence of positive ions in the detector, known as the space charge effect~\cite{uBUVLaser2019, uBcosmicSCE_2020}.
+Ionization electrons drift in this electric field towards three planes of wires forming the anode.
+It takes 2.3~ms for an electron to drift from the cathode to the first anode plane.
+The innermost two planes of wires are angled at $\rpm$60$^{\circ}$ from the vertical and detect induced signals from electrons as they drift past the wire planes.
+The final plane has vertical wires that collect drifting ionization electrons.
+In total there are 8192 wires with a separation of 3~mm between any two adjacent wires and between each wire plane. The detector coordinate system is defined with the TPC electron drift direction oriented in the negative $x$-direction, $y$-direction vertically aligned, and the $z$-direction parallel to the neutrino beam. The coordinate system origin is at the upstream edge of the anode wires and equidistant between the top and bottom field cage, and the axes form a right-handed set. We also define the polar angle from the $z$-axis, $\theta$, and the azimuthal angle around the $z$-axis, $\phi$.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{MicroBooNE_LArTPC_diagram.png}
+  \caption{A schematic drawing of the MicroBooNE LArTPC as installed inside cryostat. }
+  \label{fig:microboone_TPC}
+\end{figure}
+
+Behind the anode plane is an array of 32 8-inch Hamamatsu PMTs.
+In front of each PMT is an acrylic disc coated in tetraphenyl butadiene (TPB).
+The 128~nm scintillation light produced by argon excited by charged particles is shifted to visible wavelengths by this TPB coating, allowing detection by the PMTs.
+The PMTs have a time resolution of a few nanoseconds which is several orders of magnitude smaller than the TPC drift time.
+The timing information from the PMTs is used initially to provide a trigger for data collection, and later the PMT signals are associated with TPC activity to further reject cosmic-ray background.
+
+Data collection begins with a hardware trigger, which comes either from the Fermilab accelerator complex or from a function generator in the detector's electronics racks (known as the ``external trigger'' and used for cosmic background estimation).
+Accelerator signals veto the external triggers so there is a one-to-one match between accelerator spills and MicroBooNE beam triggers during data taking.
+Once a hardware trigger is received, the data acquisition system reads in the PMT data and determines if there is light consistent with the presence of a neutrino interaction during the 1.6~$\mu$s neutrino beam spill, or an equivalent time window for external triggers.
+Data is only saved if sufficient light is observed within this window.
+This PMT trigger algorithm is estimated to be over 99.9\% efficient for the signal definition used in this analysis and reduces cosmic backgrounds by a factor of 10.
+The PMT and TPC data are recorded for 1.6~ms prior to the trigger and 3.2~ms after the trigger, though the TPC data are later truncated to include 400~$\mu$s of time before the neutrino arrival and another 400~$\mu$s after the last possible time drifting electrons from beam interactions can arrive at the anode in order to reduce the data processing time.
+
+The BNB operates at an average repetition rate of 5~Hz with approximately $4 \times 10^{12}$ protons in each 1.6~$\mu$s spill.
+The protons exit the Fermilab Booster accelerator at an energy of 8~GeV where they impinge on an air-cooled beryllium target.
+The resulting mesons are focused by a single magnetic horn and directed into a 50~m long decay pipe.
+Decays of these focused mesons, as well as secondary decays of muons produced in meson decays, produce a neutrino beam with a broad energy spectrum with a mean of around 800~MeV and a long tail at higher energies.
+The beam is over 99\% muon-flavor neutrinos, with around 10\% of the 99\% being muon antineutrinos.
+The data used in this analysis were collected between February and July 2016, totalling 1.6$\times 10^{20}$ protons-on-target.
+A total of 72 million external triggers are used for cosmic background estimation --- approximately double the number of beam triggers collected.
+
+The MicroBooNE detector is 470~m from the beam target and slightly below the surface in the open-cut pit of the LAr Test Facility building.
+There is no substantial shielding above the detector and, for the data used in this analysis, there was no external cosmic tagger though one has since been installed~\cite{Adams:2019bztCOSMICTAGGER}.
+
+
+\section{Experiment Simulation} 
+\label{sec:expt_sim}
+Monte Carlo simulation is essential to provide accurate modeling of efficiency, resolution, backgrounds, and systematic uncertainties.  The \mub collaboration has developed a full suite of simulations for beam, detector, and material surrounding the detector.  The neutrino beam properties are simulated by a GEANT4-based algorithm~\cite{Allison:2016lfl} developed by MiniBooNE~\cite{AAAA_2009_MBflux}, which is valid for all Fermilab experiments on the BNB beam line.  
+Neutrino interactions in the fiducial volume and all surrounding material are simulated by GENIE~\cite{Andreopoulos:2009rq} v2.12.4 (called ``GENIE v2'' in this article).  Propagation of particles through the detector volume are handled by GEANT4~\cite{Wright:2015xia}.
+The software framework, LArSoft~\cite{Snider:2017wjd}, is used to simulate the detector response including light production and propagation, charge production and drift, and wire response, as well as the electronics response and digitization.
+All these software packages are in common use for LArTPC neutrino experiments.
+
+\subsection{Event Generation} 
+\label{sec:evgen}
+The GENIE generator simulates the interaction of all neutrino flavors at a wide variety of energies with all stable nuclei.  
+GENIE is in common use among many neutrino experiments and has been well validated.
+At the neutrino energies applicable to this experiment ($E_{\nu} <2\ \mathrm{GeV}$), the dominant interactions are through quasielastic (QE),  multi-nucleon processes (called by the general term $2p2h$, or two particle-two hole processes here), and pion production processes (with (RES) or without (NONRES) nucleon resonances).  Coherent pion production is included in the generator codes but doesn't contribute to the simulated samples for this measurement.
+Interactions can occur via charged-current (CC) and neutral-current (NC) processes.
+
+Quasielastic interactions are particularly sensitive to the nuclear model used.  The relativistic Fermi gas model with a high momentum nucleon-nucleon correlation tail~\cite{Bodek:1980ar} is used for all nuclei.
+A fixed-value binding energy (29.5 MeV for argon) is applied.
+Interaction with a single nucleon produces a lepton and a single nucleon which is then propagated through the residual nucleus.
+The Llewellyn-Smith model~\cite{LlewellynSmith:1971zm} with \maqe=1.04 $\mathrm{GeV}$ is used for CC and NC interactions.
+$2p2h$ processes involve interactions with two nucleons, producing two nucleons at the initial interaction vertex which are both then subject to final state interactions (FSI).
+A component of these processes is also known as meson exchange currents (MEC).
+The version of GENIE used in simulation uses an empirical $2p2h$ model~\cite{Katori:2013eoa} with parameters fit to \mb data~\cite{miniboone-ccqe}.  Nucleon resonance production is governed by the Rein-Sehgal model~\cite{Rein:1980wg} which includes a wide range of short-lived nucleon excited states.  The $\Delta(1232)$ state is the most important nucleon resonance for this experiment.
+Small contributions from coherent pion production~\cite{Rein:2007}, non-resonant pion production, and deep inelastic scattering (DIS)~\cite{Bodek:2002ps} processes are also relevant.
+%This version and tune of GENIE is herein referred to as GENIE v2.
+
+All hadrons produced during event generation in GENIE are subject to FSI.  GENIE v2 uses a data-driven empirical model that is tuned to hadron-nucleus data~\cite{Dytman:2011zz}.  
+
+Overlaid cosmic rays in the same detector readout as the neutrino interaction are simulated with CORSIKA~\cite{1998cmcc}, but cosmic backgrounds where there is no neutrino interaction in the detector are measured using data collected in between beam spills (``external'' triggers).
+
+Particles produced by either GENIE or CORSIKA are transported through the detector by GEANT4.
+
+\subsection{Detector Simulation}
+\label{sec:detsim}
+
+The simulation of the MicroBooNE detector uses the LArSoft framework.
+This simulates the production of ionization charge and scintillation photons, followed by their transport through the detector.
+Where possible, data-driven techniques are used to constrain the detector response including position-dependent wire responses~\cite{Adams:2018gbiPROCESS}, non-responsive channels\cite{Acciarri:2017sdeNOISE}, and the effect of a non-uniform electric field due to the build up of positive ions in the detector volume~\cite{uBUVLaser2019, uBcosmicSCE_2020}.
+The production of signals on the wires uses a simple model whereby charge is assumed to either induce currents or collect on the nearest wire.  Known deficiencies in this model are considered as part of the uncertainty in detector modeling.
+
+\section{Event Reconstruction} \label{sec:reconstruction}
+
+\subsection{TPC Reconstruction}
+The first step in event reconstruction is noise-filtering~\cite{Acciarri:2017sdeNOISE} and deconvolution~\cite{Adams:2018gbiPROCESS} of wire signals.
+In this step the intrinsic response of the wires and electronics is deconvolved from the raw signals and wire waveforms to become a series of Gaussian peaks.
+A threshold is applied to remove residual noise and the peaks are fit with Gaussian curves to form ``hits''.
+These hits lie in a 2-dimensional plane corresponding to wire location and arrival time, with the position along the wire unknown.
+Based on the known drift velocity and assuming hits originate from a neutrino interaction (which occurs in a known very narrow time window immediately after the event trigger), the position in the $x$-direction (corresponding to the drift direction) can be calculated.
+At this point, hits are allowed to have unphysical x-positions (i.e. outside of the detector boundaries) which will be used later to tag cosmic activity.
+
+The Pandora software package~\cite{Acciarri:2017hatPANDORA} is used for all further steps of the TPC reconstruction.
+Hits are grouped into clusters, separately on each plane, based on proximity in time and space.
+These clusters can be matched across planes using time information and knowledge of wire crossing points.
+
+Once TPC clusters have been matched across planes, it is possible to fit particle trajectories through them, giving each 2D hit a 3D position in the detector.
+Pandora contains distinct algorithms for fitting clusters that it deems track-like and shower-like.
+For this analysis we do not rely on these algorithms, but consider all clusters to be track-like and rely on particle identification methods to remove showering particles such as electrons and photons.
+
+Reconstructed tracks are not perfectly straight, but follow slightly curved paths due to multiple Coulomb scatterings (MCS).
+The fact that particles undergo multiple scattering and that this effect is largest at low momentum is used in two ways in this analysis.
+By comparing the average angular deflection observed as a function of position along the track to a prediction for a given particle momentum and direction, a likelihood can be assigned for that hypothesis.
+By selecting the momentum value with the maximumum likelihood, we achieve a momentum resolution from MCS as low as a few percent for contained muons and up to 15 percent for exiting muons (dependent on the initial momentum and contained length)~\cite{Abratenko:2017nkiMCS}.
+Additionally, by comparing the likelihood for both directions along the track, it is possible to differentiate between tracks that enter from outside and stop in the detector from those produced in the detector and then exit.
+
+For contained tracks, particle identification is applied and the momentum is estimated from the total length of the track path (in general longer than the start-end distance) based on the continuous slowing down approximation (CSDA).
+Using range, the proton momentum resolution is around 60~MeV/c across all measurement bins in this analysis.
+For contained muons, the momentum resolution from range information alone is around 10\% below 0.3~GeV/c, dropping to below 5\% above 1~GeV/c.
+For both protons and muons, the momentum reconstructed from range is more likely to be underestimated than overestimated, as tracking algorithms sometimes stop before the end of a track but rarely continue past the end.
+For exiting muons where the momentum is reconstructed based on MCS, the resolution is more symmetric.
+
+\subsection{Light Reconstruction}
+The waveforms from each PMT are first formed into optical hits using a simple threshold algorithm.
+Hits from many PMTs are combined to form ``flashes'' by integrating over a fixed time window of 8~$\mu$s.
+The integration window is intended to be long enough to capture the both the fast and slow components of argon scintillation light.
+Each flash is primarily characterised by the number of photoelectrons observed by each PMT and a start time.
+As the PMTs form a 2D plane, PMTs each have a z-position and a y-position and flashes have a mean value and width in each of those dimensions calcualted from the PE-weighted mean and RMS position of the PMTs that register a response.
+
+Because the flash time integral is longer than the beam spill, only one flash can be observed within the time window associated with the neutrino beam and this is referred to as the ``beam flash''.
+
+\subsection{Charge-light Matching} \label{subsec:TPCPMTmatching}
+Due to the long drift length, the low drift velocity in liquid argon, and the location of the detector on the Earth's surface, many cosmic-induced muons are observed within any readout of the TPC.
+When a neutrino interaction occurs in the detector, the event activity is seen in conjunction with cosmic muons in the TPC data.
+By using the fast timing information provided by the PMTs, the time of any activity can be reconstructed much more precisely to eliminate these cosmic backgrounds.
+In order to do this, TPC activity must be matched to the PMT signals.
+This matching is used in multiple places in this analysis.
+
+Given a collection of TPC tracks which are believed to have originated from the same initial interaction (and thus were produced at the same time), a prediction can be made for how much light would be observed by each PMT.
+This hypothesis for the number of photoelectrons seen by PMT $i$ is denoted $H_{i}$.
+Although neutrinos all interact at approximately the trigger time, cosmic backgrounds can occur at any time.
+It is therefore not safe to assume that the $x$-position of the tracks is correct. As the $x$-position impacts the predicted flash, such prediction is calculated for several $x$ positions: $H_i = H_i(x)$.
+
+This prediction can be used to produce a ``matching likelihood'' between an observed and predicted flash given by:
+\begin{equation}
+-LL(x) = - \sum_{i=1}^{32} \ln \left (  P(O_i| H_i(x))  \right ),
+\end{equation}
+where $O_i$ is the PE measurement for PMT $i$, and $P$ is a Poisson pdf with parameter $H_i(x)$ evaluated at $O_i$.
+
+
+After the minimization, a minimum point $x_\text{min}$ gives the position of the TPC object along $x$ and the collection with the smaller value of $-LL(x_\text{min})$ is identified as the neutrino candidate.
+
+Figure~\ref{fig:flashmatch} shows the observed flash and two hypotheses from one event.  In this case one hypothesis is clearly a much better match than the other.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{beamflashVsHypos.pdf}
+  \caption{The observed flash photoelectrons (PE) distribution over the 32 PMTs in one data event and two hypothesis distributions from candidate TPC clusters.  The first hypothesis (shown in green) is selected as the best match to the observed flash. The PMT $z$-position generally increases with increasing PMT number.}
+  \label{fig:flashmatch}
+\end{figure}
+
+
+\subsection{Cosmic Rejection}\label{subsec:cosmicrej}
+Pandora operates in two ``passes''.
+The first pass efficiently reconstructs cosmic-induced tracks, then tags the hits in those clusters that are identified as highly likely to be cosmic-induced, such that they can be ignored by the second pass which attempts complete reconstruction of a neutrino interaction.
+A number of algorithms are used for this cosmic tagging.
+
+%\subsubsection{Time and Geometry}
+Firstly, any cluster which contains hits reconstructed outside of the TPC boundaries in the drift direction is assumed to be cosmic-induced as it must have passed through the detector at a different time than the neutrinos.
+Additionally, clusters are tagged as cosmic-induced if they come within 30~cm of both the top and bottom faces of the TPC.
+
+The algorithms in section \ref{subsec:TPCPMTmatching} form the basis for optical-based cosmic rejection.
+Clusters are removed if they are clearly inconsistent with the beam flash.  This means the distance from the hypothesis mean $z$-position to the measured $z$-position must be larger than the flash width, and at least one PMT must have a predicted number of PEs more than 3$\sigma$ above the measured PE response.
+
+Then, a specific search is made for clusters which appear to pierce either the anode or cathode plane and either the top or bottom face of the TPC.
+Clusters are moved in $x$ until one end touches either the anode or cathode, and based on this $x$-position and the known drift velocity we reconstruct the time that the particle must have traversed the TPC.
+If there is a flash observed within 7~$\mu$s of this time that is not the beam flash, the identified flash $z$-position is consistent with the track's $z$-position, and the geometry is consistent with a downwards-going particle, the cluster is tagged as cosmic-induced.
+
+Tracks that enter through the top and stop in the detector are tagged as cosmic-induced by tailored searches for a decay (Michel) electron or a Bragg peak at the contained end of the track.
+
+Finally, for muon candidates that cross one detector boundary, and could therefore be assumed to be either entering or exiting, we perform a multiple-scattering fit for the muon momentum under both the assumption that it originates in the detector and exits, and the assumption that it originates outside the detector but stops in the detector.
+If the likelihood for the incoming case is significantly better than the likelihood for the outgoing case, the track is tagged as cosmic-induced.
+
+
+\subsection{Neutrino Reconstruction} 
+The second reconstruction pass of Pandora is tailored to reconstruct neutrino interaction topologies as precisely as possible.
+This second pass begins again from clustering hits but with a reduced set of hits that have not been tagged as belonging to cosmics in the first pass.
+Clusters are then matched across planes and tracks formed from them.
+Tracks that have a start or end point in close proximity to others are clustered together as neutrino interaction candidates with specific algorithms fitting the exact vertex position close to the point at which the tracks meet.
+
+Shower-like clusters that point back to the initial neutrino vertex and could be from a neutral pion decay are grouped with the neutrino interaction, although then for this analysis they are fit as tracks.
+
+\subsection{Particle Identification}
+
+Particles traversing liquid argon lose energy in characteristic ways.
+Electrons and photons form electromagnetic showers, while muons, charged pions, protons, and kaons all tend to move in approximately straight lines, losing energy primarily through ionization according to the Bethe-Bloch formula.
+Particles that stop in the detector leave a characteristic Bragg peak that allows the identification of the particle species.
+In MicroBooNE, neutrino interactions rarely produce kaons or particles heavier than protons that have ranges above the minimum length for tracking (approximately 6~mm).
+Additionally, the resolution at which the energy loss can be measured is not sufficient to distinguish muons and pions with their very similar masses.
+Because of this, particle identification in this analysis is reduced to determining whether a track is a proton or not.
+
+To calculate the energy loss as a function of track position, we take the hit charge and divide by the 3D distance between hits.
+This charge is calibrated to account for varying wire response, electron attenuation from impurities in the drift region, and the impact of space charge~\cite{Adams:2019ssgCAL}.
+Using the modified Box model - with parameters fit to MicroBooNE data~\cite{Adams:2019ssgCAL} - recovers the energy loss per unit length, $dE/dx$, at that position.
+Using the Bethe-Bloch formula to predict the $dE/dx$ for a proton as a function of the residual range, or distance from the stopping point, we construct a discriminator, $\text{PID}_\text{prot}$, by comparing measurements over the last 30~cm of the track to this prediction (or over the full track, if less than 30~cm in length).
+Low values of $\text{PID}_\text{prot}$ are proton-like.
+In Fig.~\ref{fig:PID_2D}, a scatter plot of $dE/dx$ vs. residual range for selected proton tracks is shown for Monte Carlo events.
+For most hits from proton candidates, good agreement with the expectation is seen for protons.
+Some disagreement is visible at very low residual range.
+This is because $dE/dx$ estimation is unreliable for the last hit on a track due to the uncertainty on the exact stopping point of the particle --- these hits are neglected when computing $\text{PID}_\text{prot}$.
+
+
+Values of $\text{PID}_\text{prot}$ for data and Monte Carlo are shown in Fig.~\ref{fig:pid_prot}.
+Tracks with $\text{PID}_\text{prot}<88$ are accepted as protons.
+The charge response has a wider distribution in data than simulation, due to the impact of induced charge on the collection wires which is not modeled (but is accounted for in detector uncertainties which is discussed in Sec.~\ref{sec:syst}).
+This leads to a wider distribution of $\text{PID}_\text{prot}$ in data at very low values.
+The impact of this effect is small near the cut value.
+
+\begin{figure}[ht!]
+    \includegraphics[width=0.45\textwidth]{PID_Apr27/selproton_dEdx_vs_resrange_pcont_MC.png}
+    \caption{Scatter plot of $dE/dx$ vs. residual range in Monte Carlo events for non-muon tracks after proton identification cuts.  Curves for the mean expectation for protons, muons, and minimum ionizing particles are shown overlaid.}
+   \label{fig:PID_2D}
+\end{figure}
+
+\begin{figure}[ht!]
+       \includegraphics[width=0.45\textwidth]{PID_Apr27/h_chi2_data_vs_MC_Jul27.png}
+    \caption{Values of $\text{PID}_\text{prot}$ for data and Monte Carlo events.  The Monte Carlo events are subdivided according to particle type and have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.} 
+\label{fig:pid_prot}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Particle Thresholds}
+\label{sec:pid_thesholds}
+
+The Pandora reconstruction package is able to form tracks from particles that produce hits on only a few wires, meaning they can have ranges of less than 1~cm.
+In order to ensure accurate particle identification, we require at least 5 hits on the collection plane.
+This leads to an absolute minimum track length of 1.2~cm.
+
+For protons that do not travel parallel to the z-axis, the length required to produce 5 hits increases. Based on this, it is reasonable to expect that a 2~cm proton track can be reconstructed and identified. This leads to an expected momentum threshold of around 300~MeV/c. The efficiency for proton identification as a function of momentum
+and the subsequent signal thresholds are discussed in Section~\ref{sec:event_sel}.
+
+For muons and pions, detection thresholds are significantly lower --- around 30~MeV/c.  For this analysis, the ability to reconstruct and positively identify these particles is primarily driven by choices made in the event selection to reject backgrounds, rather than fundamental limitations of the detector, as discussed in Sec.~\ref{sec:event_sel}.
+
+\section{Event Selection} 
+\subsection{Summary of Event Selection}
+\label{sec:event_sel}
+
+There are three primary classes of background that this event selection strives to eliminate, while retaining efficiency for the  CC0$\pi$Np events of interest.
+The largest two backgrounds are cosmic-induced --- a combination of events where there is a neutrino interaction in the cryostat but cosmic-induced tracks are selected instead (labeled as ``Cosmics (Overlay)'' in the figures) and events where there are only cosmic-induced tracks and no neutrino interaction in the cryostat (labeled as ``Cosmics (Data)'' in the figures).
+The final background class is neutrino-induced backgrounds (labeled as ``$\nu$-induced Background'' in the figures), which consist of neutral current interactions, wrong-sign (antineutrino) interactions, interactions in the active detector but outside of the fiducial volume, and muon neutrino interactions that either do not produce a proton above threshold or that produce additional particles such as pions.
+
+We begin with an inclusive selection of $\nu_{\mu}$ charged-current neutrino interactions~\cite{Adams:2019iqcINCL}.
+This selection searches for interactions in a relatively restrictive fiducial volume (to mitigate the effects of unresponsive wires and space-charge distortions close to boundaries).
+After the cosmic rejection and neutrino reconstruction algorithms described in Sec.~\ref{sec:reconstruction}, there are in general still several neutrino candidates in any event, most of which are of cosmic origin.
+To select the best neutrino candidate from these, we again utilize the TPC-PMT matching.
+The matching likelihood with the beam flash is calculated for all neutrino candidates and the candidate with the highest matching likelihood is selected.
+The beam flash is required to have a magnitude of at least 50~PE, and a veto is placed on the presence of more than 20~PE of optical activity integrated over the 2.0~$\mu$s before the beam spill - a requirement that rejects michel electrons from cosmics immediately before the beam.
+
+The selected neutrino candidate is then verified for additional consistency with the beam flash by requiring that the flash-matching best likelihood doesn't occur far away from the x-position assumed for a neutrino interaction.
+Additionally, the hypothesis flash position in z must be within 75~cm of the measured flash position.
+
+
+This selection then classifies the muon candidate as the longest track in the set of tracks associated with the neutrino interaction candidate and applies additional quality checks on this track candidate, such as requiring that the charge deposition along the track is consistent with a mimimally ionising particle and that the spatial distribution of hits is consistent with a track-like, rather than shower-like, particle.
+Finally, for contained muon candidates, the momentum reconstructed from range and from a multiple scattering fit are required to be within 0.2~GeV/c of one another.
+
+For the further selection of CC$0\pi Np$ events from this inclusive pre-selection, we retain the same muon candidate (the longest track) and then consider all other tracks to be proton candidates.
+All proton candidates must be at least 10~cm from of the edge of the TPC in order to identify them as protons and measure their momenta.
+
+The longest proton-candidate track is required to have at least 5 hits on the collection plane and a proton-like value of $\text{PID}_\text{prot} < 88$. Figure \ref{fig:NhitsBeforeThresh} shows the distribution of the number of collection plane hits for proton candidates before these two requirements. It is then required to be reconstructed with a range-based momentum above the threshold of 300~MeV/c.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.45\textwidth]{h_NHits_contained.pdf}
+  \caption{The number of collection-plane hits on the leading proton candidate, for contained proton candidates after the pre-selection with no PID requirement.  Tracks with no collection plane information are not included. The distribution is truncated at 30 for clarity and the Monte Carlo events have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.}
+  \label{fig:NhitsBeforeThresh}
+\end{figure}
+
+Secondary proton candidates are then considered.
+The PID method employed becomes less reliable with fewer than 5 hits, so any additional proton candidate with fewer than 5 hits on the collection plane cannot be positively identified as a proton. 
+Due to the tiny number of particles that make such short tracks at the vertex, these tracks are overwhelmingly produced by protons.
+For this reason, secondary proton candidates with fewer than 5 collection plane hits are assumed to be protons while those with 5 or more collection plane hits are required to have a proton-like value of $\text{PID}_\text{prot}$.
+
+The efficiency of this event selection as a function of leading proton momentum is shown in Fig.~\ref{fig:protonMomEff}, for a signal definition that has no explicit particle thresholds.
+As expected from particle ID studies discussed in Sec.~\ref{sec:pid_thesholds}, the efficiency drops rapidly below 300~MeV/c. Based on where the efficiency at low proton momentum remains above 5\%, we include a threshold of 300~MeV/c on the leading proton in the signal definition and require the proton candidate to have a reconstructed momentum above 300~MeV/c.
+A complete discussion of the efficiency of this selection is included in Sec.~\ref{sec:efficiency}.
+
+\begin{figure}
+  \centering
+  %\includegraphics[width=0.45\textwidth]{efficiency_protonMom_final_fullPS.eps}
+   \includegraphics[width=0.45\textwidth]{efficiency_protonMom_final_fullPS-eps-converted-to.pdf}
+  \caption{The efficiency of this event selection for simulated CC$0\pi Np$ events with no threshold requirement, as a function of proton momentum.  The efficiency drops significantly for protons below 300~MeV/c or above 1200~MeV/c, so we exclude them from our signal definition.}
+  \label{fig:protonMomEff}
+\end{figure}
+
+Using the same 5\% efficiency requirement, the muon candidate is required to have a reconstructed momentum greater than 100~MeV/c, and the leading proton candidate is required to have a reconstructed momentum less than 1.2~GeV/c.
+These last requirements, along with the leading proton momentum threshold, form part of the definition of the signal for this analysis.
+They are required primarily to avoid a region of phase space where the proton forms a longer track than the muon, leading to the proton being misidentified as the muon candidate, and then failing the muon PID requirements for the longest track.
+Additionally, at high momentum protons are contained less often and have a high probability of re-interacting and not forming a Bragg peak. 
+
+\subsection{Event Selection Performance}
+\label{sec:event_sel_perform}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{BackSep_May26/h_plep_allsel.png}
+    \caption{Momentum distribution of the muon candidate. The Monte Carlo events have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.}
+    \label{fig:mumom}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{BackSep_May26/h_phad_allsel.png}
+    \caption{Momentum distribution of the leading proton candidate. The Monte Carlo events have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.}
+    \label{fig:pmom}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{BackSep_May26/h_costheta_allsel.png}
+    \caption{Cosine of the track polar angle ($\theta$) with respect to the beam for the muon candidate. The Monte Carlo events have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.}
+    \label{fig:muangle}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{BackSep_May26/h_pcostheta_allsel.png}
+    \caption{Cosine of the track polar angle ($\theta$) with respect to the beam for the leading proton candidate. The Monte Carlo events have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.}
+    \label{fig:pangle}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{BackSep_May26/h_phi_allsel.png}
+    \caption{Track azimuthal angle $\phi$ with respect to the beam ($\pi/2$ is upward going) for the muon candidate.  The Monte Carlo events have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.}
+    \label{fig:muanglephi}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{BackSep_May26/h_pphi_allsel.png}
+    \caption{Track azimuthal angle $\phi$ with respect to the beam ($\pi/2$ is upward going) for the leading proton candidate. The Monte Carlo events have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.}
+    \label{fig:panglephi}
+\end{figure}
+
+
+Within the phase space limits of this analysis, the event selection has an average efficiency of 29\% and a purity of 71\% (76\% excluding cosmics measured in data).
+Table \ref{tab:eventRates} shows the number of final selected data events and the predicted backgrounds.
+The neutrino-induced backgrounds make up 57\% of background events and are approximately evenly split between events where the interaction occurred outside of the fiducial volume boundaries and those where a pion was produced but either not reconstructed or misidentified.
+A small number of the selected events are neutral current or wrong-sign (antineutrino) backgrounds.
+The dominant cause of out-of-fiducial neutrino backgrounds is the space-charge effect that distorts reconstructed positions close to detector boundaries.
+All neutrino-induced backgrounds are estimated from simulation, as is the uncertainty associated with subtracting them.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|c|c|} \hline
+         sample & number of events \\ \hline
+         Data & 4736 \\
+         Cosmics (Data) & 393.1 \\
+         Signal & 3773 \\
+         Cosmics (Overlay)  & 416.0  \\
+         $\nu$-induced Background & 750.8 \\ \hline
+    \end{tabular}
+    \caption{The number of selected data events, scaled off-beam data events, and scaled MC signal and background events.}
+    \label{tab:eventRates}
+\end{table}
+
+
+The muon momentum, $p_\mu$, is calculated from range when the track is fully contained and by MCS fitting when it escapes.  
+The proton momentum, $p_p$, is always calculated from range as the proton is always required to be contained in the \mub  detector.
+The cosine of the muon (proton) polar angle $\theta_\mu$ ($\theta_p$) is determined with respect to the neutrino beam direction, and the angle $\phi$ is computed as the angle around the beam direction with $\phi=0$ aligned with the positive $x$-axis and $\phi=\pi/2$ aligned with the positive $y$-axis.
+Finally, we determine the $\mu$-$p$ opening angle, $\theta_{\mu p}$.
+
+Figures~\ref{fig:mumom}-\ref{fig:panglephi} show the event distributions as a function of the reconstructed momentum, polar angle, and azimuthal angle for the muon and leading proton candidates. 
+Figure~\ref{fig:thetamup} shows the reconstructed 3D opening angle between the two tracks.
+There are a few discrepancies between the data and the Monte Carlo simulation prediction (GENIE v2). 
+The most striking of these discrepancies shows up at the most forward muon angles in Fig.~\ref{fig:muangle}.
+This region is dominated by low $Q^2$ events which is an area where older models are known to be deficient.
+A similar discrepancy at low $Q^2$ was also observed in the MicroBooNE CC inclusive sample.~\cite{Adams:2019iqcINCL}
+Additionally, at $\phi$ of 0,$\pi$, and $-\pi$ for both the muon and proton candidates a small data deficit is seen - this is due to the effects of induced charge on neighboring wires, which is not simulated but is accounted for in our detector uncertainties.
+In general, the MC here does a reasonable job at describing the data and as such is adequate for estimating the efficiencies and background rates for this analysis.
+Differences between the data and a variety of predictions are discussed in detail in Sec.~\ref{sec:results}.
+
+Residual cosmic backgrounds appear in a small region of angular phase space with the muon and proton close to back-to-back that corresponds to an approximately upward-going muon and an approximately downward-going proton.
+In these events, a cosmic muon entering the detector from the top is reconstructed as two tracks.  This topology is rare, but the exposure to cosmic muons is large, meaning that a number of these instances remain.
+The same regions show a drop in signal efficiency because tracks at those angles do not cross many collection plane wires making PID challenging.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{BackSep_May26/h_thetamup_allsel.png}
+    \caption{Distribution of angle between the muon candidate and the leading proton candidate. The Monte Carlo events have been scaled to the data exposure of $1.6\times10^{20}$ P.O.T.}
+    \label{fig:thetamup}
+\end{figure}
+
+
+In the final data sample, 72\% of events contain only one reconstructed proton, with 22\% containing two reconstructed protons, 5\% containing three reconstructed protons, and 0.1\% being observed to produce four visible protons.
+
+\section{Cross-Section Extraction}
+\label{sec:xsect_def}
+\input{xsdef}
+
+\label{sec:efficiency}
+\input{efficiencies}
+
+\section{Systematic Uncertainties} 
+\label{sec:syst}
+\input{systematics}
+
+\section{Results}
+\label{sec:results}
+The signal definition for this measurement includes contributions from three processes: CCQE, $2p2h$, and pion production followed by pion absorption in the same nucleus.
+All of these processes can be further modified by Fermi motion and intranuclear rescattering.
+Although there is no attempt to isolate any of them,
+the Monte Carlo events that survive the analysis criteria can provide insight into how these processes are distributed in the interaction variables provided.
+The relative size and shape of these processes is shown in Figs.~\ref{fig:xsec_breakdown_mumom}-\ref{fig:xsec_breakdown_thetamup} for GENIE v2, see Sec.~\ref{sec:evgen} for details), the model used for backgrounds and systematic uncertainty determination.
+True CCQE is predicted to be the largest component, contributing 50\% of the total and it is the largest fraction in most bins.
+There are no contributions from other sources such as coherent pion production or production of other mesons.
+
+The subdivision of simulated events as a function of muon momentum is shown in Fig.~\ref{fig:xsec_breakdown_mumom}.
+GENIE predicts all underlying processes to have a similar shape in this variable.
+At low proton momentum in Fig.~\ref{fig:xsec_breakdown_pmom}, the CCQE contribution is large and growing as $p_p$ decreases.
+Simulations show that events at both low $p_p$ and $\theta_{\mu p}$ are predominantly due to FSI.
+For both muon and proton cos($\theta$) spectra, very forward angle bins have a large component of $2p2h$ events.
+Although CCQE scattering is the dominant reaction mechanism at opening angles of about 90$\degree$ as expected from the 2-body kinematics, the small- and large-angle regions are an interesting combination of interactions which will have to be understood through further theoretical and experimental studies.
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{InteractionBreakdown-5may20/interaction_breakdown_muonMom_jul20II.pdf}
+    \caption{Breakdown of interaction components of cross section as a function of $p_{\mu}$ according to GENIE v2. Interaction types of CCQE, $2p2h$, and pion production are shown; the pion production events are further divided into resonant (RES) and nonresonant (NONRES) channels.  As a result of the signal definition, there are no coherent pion production events in the final simulation sample.  The number of events per bin is shown with arbitrary normalization.}
+    \label{fig:xsec_breakdown_mumom}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{InteractionBreakdown-5may20/interaction_breakdown_protonMom_jul20II.pdf}
+    \caption{Breakdown of interaction components of cross section as a function of $p_{p}$ according to GENIE v2.   The number of events per bin is shown with arbitrary normalization.}
+    \label{fig:xsec_breakdown_pmom}
+\end{figure}
+
+\begin{figure}[th!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{InteractionBreakdown-5may20/interaction_breakdown_muonAngle_jul20II.pdf}
+    \caption{Breakdown of interaction components of cross section as a function of $\cos\,\theta_{\mu}$ according to GENIE v2. The number of events per bin is shown with arbitrary normalization.}
+    \label{fig:xsec_breakdown_muangle}
+\end{figure}
+
+\begin{figure}[th!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{InteractionBreakdown-5may20/interaction_breakdown_protonAngle_jul20II.pdf}
+    \caption{Breakdown of interaction components of cross section as a function of $\cos\,\theta_{p}$ according to GENIE v2. The number of events per bin is shown with arbitrary normalization.}
+    \label{fig:xsec_breakdown_pangle}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{InteractionBreakdown-5may20/interaction_breakdown_thetamup_jul20II.pdf}
+    \caption{Breakdown of interaction components of cross section as a function of $\theta_{\mu, p}$ according to GENIE v2. The number of events per bin is shown with arbitrary normalization.}
+    \label{fig:xsec_breakdown_thetamup}
+\end{figure}
+
+\subsection{Model Comparisons} 
+\label{sec:models}
+\input{models}
+
+\subsection{Cross-Section Results} 
+\label{sec:xsect}
+
+The first set of comparisons between the extracted CC0$\pi$Np cross section to both GENIE v2 and GENIE v3
+is shown in Figs.~\ref{fig:xsec_mumom_genie}-\ref{fig:xsec_thetamup_genie}.  The purpose is to show the evolution of generator models from the time the analysis was started to the time it was finished.  For the muon momentum and polar angle, 
+the overall magnitude in GENIE v3 is about 20\% smaller than v2 and in better agreement with these data even though no tuning to these data was performed.  A significant change is also seen in the shape of these inclusive distributions, particularly for forward muon angles where effects such as $2p2h$ and nucleon-nucleon correlations (e.g. the RPA correction) are important, and at low proton momentum where both FSI effects and the contribution of $2p2h$ are dominant.  These are effects that are widely considered to be at the forefront of interest for modelers and it is clear that the updated models in GENIE provide a better description of these data.
+
+Calculations of $\chi^2$ using the covariance matrices derived for this measurement allow a more quantitative  assessment.  
+There is an improvement of at least 25\% and over 50\% in some cases for the calculated $\chi^2$ when changing from GENIE v2 to GENIE v3.
+The exception is $p_p$ where GENIE v3 is better at low momentum, but the overall $\chi^2$ is lower for GENIE v2.
+
+\begin{figure}[th!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-genie-18Apr20/xsec_pmu_genie_aug20.pdf}
+    \caption{Measured cross section as a function of $p_{\mu}$(GeV) compared with GENIE v2 and v3 (see Sec.~\ref{sec:models} for details) from a data exposure of $1.6\times10^{20}$ P.O.T.  Error bars include all contributions from  statistical and systematic sources in the final analysis.}
+    \label{fig:xsec_mumom_genie}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-genie-18Apr20/xsec_pp_genie_aug20.pdf}
+    \caption{Measured cross section as a function of $p_{p}$ compared with GENIE v2 and v3 (see Sec.~\ref{sec:models} for details).}
+    \label{fig:xsec_pmom_genie}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-genie-18Apr20/xsec_cosmu_genie_aug20.pdf}
+    \caption{Measured cross section as a function of $\cos\,\theta_{\mu}$ compared with GENIE v2 and v3 (see Sec.~\ref{sec:models} for details).}
+    \label{fig:xsec_muangle_genie}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-genie-18Apr20/xsec_cosp_genie_aug20.pdf}
+    \caption{Measured cross section as a function of $\cos\,\theta_{p}$ compared with GENIE v2 and v3 (see Sec.~\ref{sec:models} for details).}
+    \label{fig:xsec_pangle_genie}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-genie-18Apr20/xsec_thetamup_genie_aug20.pdf}
+    \caption{Measured cross section as a function of $\theta_{\mu, p}$ compared with GENIE v2 and v3 (see Sec.~\ref{sec:models} for details).}
+    \label{fig:xsec_thetamup_genie}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-modern-1may20/xsec_pmu_modern_aug20.pdf}
+    \caption{Measured cross section as a function of $p_{\mu}$ compared with GENIE v3, NuWro, NEUT, and GiBUU (see Sec.~\ref{sec:models} for details) from a data exposure of $1.6\times10^{20}$ P.O.T.  Error bars include all contributions from statistical and systematic sources in the final analysis.}
+    \label{fig:xsec_mumom_modern}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-modern-1may20/xsec_pp_modern_aug20.pdf}
+    \caption{Measured cross section as a function of $p_{p}$ of the leading proton candidate compared with various models.  See Fig.~\ref{fig:xsec_mumom_modern} and Sec.~\ref{sec:models} for more details.}
+    \label{fig:xsec_pmom_modern}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-modern-1may20/xsec_cosmu_modern_aug20.pdf}
+    \caption{Measured cross section as a function of $\cos\theta_{\mu}$ compared with various models.  See Fig.~\ref{fig:xsec_mumom_modern} and Sec.~\ref{sec:models} for more details.}
+    \label{fig:xsec_muangle_modern}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-modern-1may20/xsec_cosp_modern_aug20.pdf}
+    \caption{Measured cross section as a function of $\cos\theta_{p}$ of the leading proton candidate compared with various models.  See Fig.~\ref{fig:xsec_mumom_modern} and Sec.~\ref{sec:models} for more details.}
+    \label{fig:xsec_pangle_modern}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.45\textwidth]{xsect-vs-modern-1may20/xsec_thetamup_modern_aug20.pdf}
+    \caption{Measured cross section as a function of $\theta_{\mu, p}$ compared with various models.  See Fig.~\ref{fig:xsec_mumom_modern} and Sec.~\ref{sec:models} for more details.}
+    \label{fig:xsec_thetamup_modern}
+\end{figure}
+
+Figures~\ref{fig:xsec_mumom_modern}-\ref{fig:xsec_thetamup_modern} contain comparisons of the data with GENIE v3, NuWro, NEUT, and GiBUU.  
+These codes had similar evolution in models as was seen in GENIE for Figs.~\ref{fig:xsec_mumom_genie}-\ref{fig:xsec_thetamup_genie}, but here only the most recent results are shown.
+Although agreement between calculations varies widely, the strongest sensitivity appears to be at the most forward muon and proton angles and lowest proton momenta.  
+
+The muon momentum distribution (Fig.~\ref{fig:xsec_mumom_modern}) has the largest $\chi^2$ values in comparison with the calculations, ranging from about 3-7 units of $\chi^2$ per degree of freedom (dof).
+These large $\chi^2$ values are driven by the highest momentum bin, which has a relatively small uncertainty and is in tension with all predictions.
+
+The leading proton momentum distribution (Fig.~\ref{fig:xsec_pmom_modern}) in an inclusive spectrum is seldom seen in the literature for neutrino experiments.
+Data at low leading proton momentum is most sensitive to FSI and nuclear effects and where new sensitivity is shown in this work.
+At the lowest momenta in this measurement ($p_p<500$ MeV/c), the models show considerable variation, with NEUT furthest from the data, followed by GiBUU, GENIE v3, and finally NuWro predicting the lowest bin almost perfectly. 
+For $\chi^2/dof$, all calculations have values of around 1 or lower.
+
+At forward angles, the muon polar angle cross sections (Fig.~\ref{fig:xsec_muangle_modern}) have shown sensitivity in the past~\cite{Abe:2018pwo,Ruterbories:2018gub} because this is where nuclear effects such as nucleon-nucleon correlations are strongest.  
+Model results vary by about 30\% at forward angles.
+It is interesting that none of the calculations have the turnover at the most forward muon angle bin that is seen in the data.
+At the beam energies of this measurement, both muons and protons are dominantly produced at forward angles due to the Lorentz boost.  The data at negative values of $\cos(\theta_\text{proton}^\text{reco})$ are particularly interesting as Monte Carlo simulations show that the protons at backward angles are almost totally due to FSI.  The proton polar angle cross section and comparison with model calculations is shown in Fig.~\ref{fig:xsec_pangle_modern}.  
+According to Monte Carlo simulation, both muons and protons at forward angles are dominated by the CCQE interaction channel.
+GiBUU has the highest $\chi^2$ value for the muon angle and the lowest $\chi^2$ for proton angle.  
+
+The opening angle between the muon and the leading proton (Fig.~\ref{fig:xsec_thetamup_modern}) can show different features for CCQE and other mechanisms because it is more strongly peaked at about 90$\degree$ for CCQE and flatter for the other mechanisms that are expected to contribute to these data (see Fig.~\ref{fig:xsec_breakdown_thetamup}).  
+The measured cross section in the lowest and highest angular bins is approximately 10\% of the cross section at the peak.
+Simulations indicate the small opening angle data is populated entirely by events with FSI.
+All the calculations have the two alternate mechanisms, $2p2h$ and RES, and tend to follow the data.  
+The peak position in the calculations shows large variation.  Simulations with GENIE v3 show the peak position of the data is sensitive to FSI and binding energy effects.
+The largest $\chi^2/dof$ value is for NEUT (2.0) and the smallest value is for GiBUU (0.25).
+
+In general NEUT and GENIE v2 both overpredict the cross section, with the other predictions closer to the measured data.
+However the $\chi^2/dof$ values are sensitive to shape as well as normalization, showing that in some variables NEUT predicts the shape much better than some other generators.
+
+\section{Conclusions}
+
+New muon neutrino cross section data for the CC$0\pi Np$ %$\nu_\mu$ pionless CCQE-like
+interactions on argon from the \mub  experiment are presented.
+The simultaneous presentation of these distributions (covering a wide phase space) in muon and leading proton momentum and angle is a first for neutrino interactions in liquid argon.
+The signal definition was chosen to minimize model dependence and allow straightforward theoretical comparisons.
+We specify that at least one proton above 300 MeV/c momentum must be detected, there are no protons with momentum greater than 1,200 MeV/c, and the muon momentum must be greater than 100 MeV/c.
+No containment requirement is demanded of the muon track; if the muon is not contained, its momentum is determined by MCS~\cite{Abratenko:2017nkiMCS}.
+The signal definition has no limits on proton or muon angle.
+Particle identification cuts ensure that protons in the final selections stop inside the detector volume and very few of them interact in the detector volume.
+We present distributions for the muon momentum and polar angle, leading proton momentum and polar angle, and the angle between the muon and leading proton.
+These data have a low proton threshold compared other neutrino experiments, and the high statistics measurement down to 300~MeV/c allows improved model testing.
+The loose signal requirement increases the statistical precision over a large phase space enabling a more precise measurement of kinematic shapes.
+
+Comparisons between GENIE v2 (used for background determination, efficiencies and systematic uncertainties) and GENIE v3 (Sec.\ref{sec:models}) in Figs.~\ref{fig:xsec_mumom_genie}-\ref{fig:xsec_thetamup_genie} show significant improvement for GENIE v3 in the ability to describe these data.
+
+Further comparisons are made to modern versions of neutrino-interaction models often used in predicting and simulating neutrino events for neutrino experiments.
+While GiBUU has paid more attention to theoretical details of a calculation in a nuclear environment,
+the other event generators have adopted models that are often similar to each other.
+As a result, the differences in their ability to match the data stem primarily from subtle implementation and tuning differences.
+Difficulties for models to describe the muon forward angle spectrum in the MINERvA~\cite{Ruterbories:2018gub} CC0$\pi$ data, the MicroBooNE CCinclusive measurement~\cite{Adams:2019iqcINCL}, and the MicroBooNE CCQE measurement~\cite{uB_CCQE_2020} are now also seen in this measurement (see Fig.~\ref{fig:xsec_muangle_modern}).
+Most of the calculations predict a larger cross section in the two most forward bins by between 1$\sigma$ and 2$\sigma$.
+Although the prediction from GiBUU is closest to the data in these bins than the other predictions, it has the largest overall $\chi^2$ for this distribution when considering the full shape.
+In general the shape is more constrained than the normalization in the covariance matrices for these data.
+
+In addition to difficulties in describing the muon angular spectrum, interaction models are challenged to predict the rate of production of low energy protons from a heavy target.
+A large variation in the calculations of proton momentum below roughly 600~MeV/c (175.4 MeV kinetic energy) is seen with most of the results overpredicting the cross section.
+This is a stringent test of various components of the model, particularly proton FSI.
+While NEUT has the worst agreement below 600 MeV/c, GiBUU has the largest $\chi^2$ for this distribution (1.2 per dof).
+NuWro has the best agreement in the low momentum bins and the lowest $\chi^2$ value (0.7 per dof).
+
+
+The opening angle ($\theta_{\mu p}$) distribution (Fig.~\ref{fig:xsec_thetamup_modern}) tests the underlying reaction mechanism in the most detailed way.  
+Since the spectrum peaks at values of about $\pi/2$ radians, this is a strong indication that CCQE interactions dominate this data set, as expected.
+There is a large variation in $\chi^2$ among the calculations with GiBUU having the best (0.25 per dof) and NEUT the worst (2.0 per dof) values.
+
+
+The largest $\chi^2$ values are seen for $p_\mu$.  
+The largest contribution comes from the highest momentum bin and agreement with data in the peak region is acceptable.
+
+These data significantly enhance the ability to assess understanding of the neutrino interaction in argon at energies of roughly 1 GeV.
+Overall, there is no dramatic disagreement of  calculations with these data.
+However, problems previously seen with calculations for carbon targets that predict larger cross sections than observed in the forward muon angular spectrum are confirmed here for argon.
+This work provides new information about the difficulties in describing the forward scattering region and low energy proton production in argon.
+All calculations describe the overall trend of the distributions with widely varying ability to describe the details accurately. 
+An overarching conclusion is that newer calculations which have shown improved agreement with light target data (CH or CH$_2$) also describe data from a heavier target (Ar) with similar accuracy.
+\FloatBarrier
+
+\begin{acknowledgments}
+This document was prepared by the MicroBooNE collaboration using the resources of the Fermi National Accelerator Laboratory (Fermilab), a U.S. Department of Energy, Office of Science, HEP User Facility. Fermilab is managed by Fermi Research Alliance, LLC (FRA), acting under Contract No. DE-AC02- 07CH11359. MicroBooNE is supported by the following: the U.S. Department of Energy, Office of Science, Offices of High Energy Physics and Nuclear Physics; the U.S. National Science Foundation; the Swiss National Science Foundation; the Science and Technology Facilities Council of the United Kingdom; and The Royal Society (United Kingdom).
+
+\end{acknowledgments}
+
+\appendix
+
+\section{Supplementary Information - Efficiencies, Migration Matrices}
+Sec.~\ref{sec:efficiency} contained the efficiency plot for muon momentum.  
+Efficiency plots for muon polar angle (Fig.~\ref{fig:eff_muangle}), leading proton momentum (Fig.~\ref{fig:eff_pmom}),
+leading proton polar angle (Fig.~\ref{fig:eff_pangle}), and muon-leading proton opening angle (Fig.~\ref{fig:eff_thetamup}) are shown below.
+The Monte Carlo predictions have been smeared with the migration matrices described in Sec.~\ref{sec:xsect_def}.
+Each distribution peaks at roughly 35\% efficiency with no bin having an efficiency less than 10\%.
+
+Plots of migration matrices for muon polar angle (Fig.~\ref{fig:migmat_muangle}), leading proton momentum (Fig.~\ref{fig:migmat_pmom}), leading proton polar angle (Fig.~\ref{fig:migmat_pangle}), and muon-proton opening angle (Fig.~\ref{fig:migmat_thetamup}) are also shown below.
+These matrices are all close to diagonal, showing that the bin choices correspond to the resolutions of the observed quantities.
+
+%muangle
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Efficiency_Reco_Apr27/eff_mucth_4aug.pdf}
+    \caption{Efficiency as a function of reconstructed muon polar angle ($\cos(\theta_\mu)$).  Statistical error bars are too small to be seen.}
+    \label{fig:eff_muangle}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{MigrationMatrix0501/Fractional_MigrationMatrix_trkcostheta.png}
+    \caption{Migration matrix between true and reconstructed bins for $\cos(\theta_\mu)$ in simulated CC$0\pi Np$ events.}
+    \label{fig:migmat_muangle}
+\end{figure}
+
+%pmom
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Efficiency_Reco_Apr27/eff_pmom_4aug.pdf}
+    \caption{Efficiency as a function of reconstructed proton momentum ($p_p$) in simulated CC$0\pi Np$ events.}
+    \label{fig:eff_pmom}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+     \includegraphics[width=0.45\textwidth]{MigrationMatrix0501/Fractional_MigrationMatrix_trkpmom.png}
+    \caption{Migration matrix between true and reconstructed bins as a function of reconstructed proton momentum in simulated CC$0\pi Np$ events.}
+    \label{fig:migmat_pmom}
+\end{figure}
+
+%pangle
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Efficiency_Reco_Apr27/eff_pcth_4aug.pdf} 
+    \caption{Efficiency as a function of reconstructed proton polar angle $\cos(\theta_p)$ in simulated CC$0\pi Np$ events.}
+    \label{fig:eff_pangle}
+\end{figure}
+
+\begin{figure} [h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{MigrationMatrix0501/Fractional_MigrationMatrix_trkpcostheta.png}
+    \caption{Migration matrix between true and reconstructed bins for reconstructed proton polar angle ($\cos(\theta_p)$) in simulated CC$0\pi Np$ events.  }
+    \label{fig:migmat_pangle}
+\end{figure}
+
+%thetamup
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Efficiency_Reco_Apr27/eff_thmup_4aug.pdf}
+    \caption{Efficiency as a function of reconstructed muon-proton opening angle ($\theta_{\mu p}$) in simulated CC$0\pi Np$ events.}
+    \label{fig:eff_thetamup}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{MigrationMatrix0501/Fractional_MigrationMatrix_trkthetamup.png}
+    \caption{Migration matrix between true and reconstructed bins for reconstructed opening angle ($\theta_{\mu p}$) in simulated CC$0\pi Np$ events.}
+    \label{fig:migmat_thetamup}
+\end{figure}
+\FloatBarrier
+\bibliographystyle{apsrev}
+\bibliography{references}% Produces the bibliography via BibTeX.
+
+\end{document}
+

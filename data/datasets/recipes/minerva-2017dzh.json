@@ -1,0 +1,38 @@
+{
+ "bibtag": "MINERvA:2017dzh",
+ "slug": "minerva-2017dzh",
+ "source_url": "https://arxiv.org/abs/1705.03791",
+ "note": "Flux-integrated differential CCQE-like cross section d\u03c3/dQ\u00b2_p (Q\u00b2 reconstructed from the leading proton kinematics, \"proton Q\u00b2\") in bins of Q\u00b2_p [GeV\u00b2], for muon-neutrino CC quasielastic-like (0 mesons, \u22651 proton) interactions, measured separately on three thin nuclear targets (C, Fe, Pb) in the MINERvA passive-target region, NuMI low-energy neutrino beam (mean E_\u03bd \u2248 3.5 GeV). MicroBooNE not involved; this is a MINERvA-only paper despite the prompt heading. Target: per nucleon (paper explicitly labels each cross-section column \"10^-38 cm\u00b2/GeV\u00b2/nucleon\" for C, Fe, and Pb separately).",
+ "provenance": "MINERvA:2017dzh \u2014 Flux-integrated differential CCQE-like cross section d\u03c3/dQ\u00b2_p (Q\u00b2 reconstructed from the leading proton kinematics, \"pro \u00b7 target per nucleon (paper explicitly labels each cross-section column \"10^-38 cm\u00b2/GeV\u00b2/nucleon\" for C, Fe, and Pb separately) \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "qsq_c",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017dzh/qsq_c.csv",
+   "xlabel": "Q^2_p",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2_p",
+   "yunit": "10^{-38} cm^2/GeV^2/nucleon"
+  },
+  {
+   "slug": "qsq_fe",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017dzh/qsq_fe.csv",
+   "xlabel": "Q^2_p",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2_p",
+   "yunit": "10^{-38} cm^2/GeV^2/nucleon"
+  },
+  {
+   "slug": "qsq_pb",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017dzh/qsq_pb.csv",
+   "xlabel": "Q^2_p",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2_p",
+   "yunit": "10^{-38} cm^2/GeV^2/nucleon"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2017dzh/cov.csv",
+ "cov_note": "Absolute covariance in (10^-38 cm^2/GeV^2/nucleon)^2. Block-diagonal 15x15: three independent 5x5 blocks (C, Fe, Pb, in that row/col order, each in bin order 0."
+}

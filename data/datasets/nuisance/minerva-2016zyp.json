@@ -1,0 +1,122 @@
+{
+ "bibtag": "MINERvA:2016zyp",
+ "slug": "minerva-2016zyp",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1604.03920",
+ "arxiv": "1604.03920",
+ "cite": "Phys.Rev.D 94 012002",
+ "note": "Flux-integrated single-differential cross section d\u03c3/dT_K for charged-current K+ production, \u03bd_\u03bc CH \u2192 \u03bc- K+ X (inclusive CC single/associated K+ production), vs kaon kinetic energy T_K, 0-500 MeV, in the NuMI low-energy beam. MINERvA tracker/scintillator detector. Target: per nucleon (plastic scintillator, CH).",
+ "distributions": [
+  {
+   "key": "dsigma_kplus_dsigma_dTK",
+   "slug": "dsigma_kplus_dsigma_dTK",
+   "name": "d\u03c3/dT_K",
+   "name_tex": "$d\\sigma/dT_K$",
+   "xlabel": "T_K",
+   "xunit": "MeV",
+   "xlabel_tex": "$T_K$",
+   "ylabel": "d\u03c3/dT_K",
+   "ylabel_plot": "d\u03c3/dT_K",
+   "ylabel_tex": "$d\\sigma/dT_K$",
+   "yunit": "10^{-39} cm^2 / nucleon / GeV",
+   "yunit_tex": "$10^{-39} cm^2 / nucleon / GeV$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 100.0,
+     "center": 50.0,
+     "val": 0.54,
+     "err": 0.11
+    },
+    {
+     "i": 1,
+     "lo": 100.0,
+     "hi": 200.0,
+     "center": 150.0,
+     "val": 0.52,
+     "err": 0.12
+    },
+    {
+     "i": 2,
+     "lo": 200.0,
+     "hi": 300.0,
+     "center": 250.0,
+     "val": 0.72,
+     "err": 0.15
+    },
+    {
+     "i": 3,
+     "lo": 300.0,
+     "hi": 400.0,
+     "center": 350.0,
+     "val": 0.74,
+     "err": 0.16
+    },
+    {
+     "i": 4,
+     "lo": 400.0,
+     "hi": 500.0,
+     "center": 450.0,
+     "val": 0.56,
+     "err": 0.18
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/minerva-2016zyp/kplus_dsigma_dTK.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1604.03920",
+   "provenance": "MINERvA:2016zyp \u2014 Flux-integrated single-differential cross section d\u03c3/dT_K for charged-current K+ production, \u03bd_\u03bc CH \u2192 \u03bc- K+ X (inclusive \u00b7 target per nucleon (plastic scintillator, CH) \u00b7 from the arXiv ancillary data release",
+   "notes": "MINERvA:2016zyp \u2014 Flux-integrated single-differential cross section d\u03c3/dT_K for charged-current K+ production, \u03bd_\u03bc CH \u2192 \u03bc- K+ X (inclusive. Target per nucleon (plastic scintillator, CH)."
+  }
+ ],
+ "covariance": {
+  "order": [
+   "kplus_dsigma_dTK [0,100]",
+   "kplus_dsigma_dTK [100,200]",
+   "kplus_dsigma_dTK [200,300]",
+   "kplus_dsigma_dTK [300,400]",
+   "kplus_dsigma_dTK [400,500]"
+  ],
+  "note": "Total covariance = flux_covariance_matrix.csv + nonflux_covariance_matrix.csv + stat_covariance_matrix.csv (all three ancillary matrices, each published in unit",
+  "matrix": [
+   [
+    0.01293,
+    0.00653,
+    0.00689,
+    0.00521,
+    0.00294
+   ],
+   [
+    0.00653,
+    0.01521,
+    0.01109,
+    0.00797,
+    0.00603
+   ],
+   [
+    0.00689,
+    0.01109,
+    0.02276,
+    0.01376,
+    0.01148
+   ],
+   [
+    0.00521,
+    0.00797,
+    0.01376,
+    0.02663,
+    0.02005
+   ],
+   [
+    0.00294,
+    0.00603,
+    0.01148,
+    0.02005,
+    0.03303
+   ]
+  ]
+ }
+}

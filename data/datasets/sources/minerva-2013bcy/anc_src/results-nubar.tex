@@ -1,0 +1,52 @@
+%\section{Results} 
+
+The measured differential cross-section $d\sigma/dQ^2_{QE}$ is shown in 
+Fig.~\ref{fig:xsec_q2} and Table~\ref{tab:xsec}. 
+Averaged over the flux from 1.5 to 10~GeV, we find  $\sigma=0.604 \pm 0.008 \mbox{(stat)} \pm 0.075 \mbox{(syst)} \times \unit[10^{-38}]{cm^2/proton}$.  
+As noted above, the systematic uncertainties
+are significantly reduced in the shape of the differential
+cross-section\footnoterecall{footsupp}, which is shown in Fig.~\ref{fig:xsec_q2_shape_ratio}.
+%Figures~\ref{fig:xsec_q2} and \ref{fig:xsec_q2_shape_ratio} 
+
+Table~\ref{tab:chi2} compares the data to the RFG model in the 
+GENIE event generator and a number of different nuclear models 
+and values of $M_A$ in the NuWro generator~\cite{Golan:2012wx}.
+%Models incorporating a low $Q^2_{QE}$ suppression 
+%in the random phase approximation (RPA)~\cite{Singh1992587,Graczyk:2003ru} 
+%underpredict the cross-section at low $Q^2_{QE}$, and 
+There
+is little sensitivity to replacement of the Fermi gas with
+a spectral function (SF) model of the target nucleon energy-momentum
+relationship~\cite{Benhar:1994hw}. The data disfavor $M_A=\unit[1.35]{GeV/c^2}$  as extracted from fits of the MiniBooNE neutrino quasi-elastic data
+in the RFG model~\cite{AguilarArevalo:2007ab}. Our data are consistent with a transverse enhancement model (TEM) which has $M_A=\unit[0.99]{GeV/c^2}$ in agreement with deuterium data and includes an enhancement of the magnetic form factors of bound nucleons that has been observed in electron-carbon scattering~\cite{Bodek:2011ps}. The $M_A=\unit[1.35]{GeV/c^2}$ and TEM models have a similar $Q^{2}_{QE}$ dependence at low $Q^{2}_{QE}$ but are distinguished by the kinematic reach of the data at $Q^{2}_{QE}>\unit[1]{GeV^2}$.
+
+\begin{figure}[tp]
+\centering
+\ifnum\PRLsupp=0
+  \includegraphics[width=\columnwidth]{figures/Figure3_anu_norpa} 
+\else
+  \includegraphics[width=0.8\columnwidth]{figures/Figure3_anu_norpa} 
+\fi
+%    \vspace{-7pt}
+\caption{The anti-neutrino
+  quasi-elastic cross-section as a function of $Q^2_{QE}$ compared
+  with several different models of the interaction described in the
+  text. The inner (outer) error bars correspond to the
+  statistical (total) uncertainties.}
+%    \vspace{-10pt}
+\label{fig:xsec_q2}
+\end{figure}
+\begin{figure}[tp]
+\centering
+\ifnum\PRLsupp=0
+  \includegraphics[width=\columnwidth]{figures/Figure4_anu_norpa} 
+\else
+  \includegraphics[width=0.8\columnwidth]{figures/Figure4_anu_norpa} 
+\fi
+\caption{The data and models of Fig.~\ref{fig:xsec_q2} shown by $Q^2_{QE}$ shape and as a ratio to the reference GENIE prediction.}
+\label{fig:xsec_q2_shape_ratio}
+\end{figure}
+
+\input{results_table_nubar.tex}
+
+\input{chisquare_table_nu.tex}

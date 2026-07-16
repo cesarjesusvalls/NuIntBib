@@ -1,0 +1,29 @@
+{
+ "bibtag": "MINERvA:2017ozn",
+ "slug": "minerva-2017ozn",
+ "source_url": "https://arxiv.org/abs/1701.04857",
+ "note": "Flux-integrated differential cross section per unit neutrino energy, d\u03c3/dE \u2248 \u03c3(E)/E, for muon-neutrino CC-inclusive and muon-antineutrino CC-inclusive interactions vs true neutrino energy E_nu (2-22 GeV), measured with the MINERvA scintillator-tracker in the low-energy NuMI beam (FHC = neutrino mode, RHC = antineutrino mode). The paper also reports the antineutrino/neutrino cross-section ratio R(E) \u2014 a dimensionless ratio, not a cross section, so it was excluded from the ingested items per instructions. Target: per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex).",
+ "provenance": "MINERvA:2017ozn \u2014 Flux-integrated differential cross section per unit neutrino energy, d\u03c3/dE \u2248 \u03c3(E)/E, for muon-neutrino CC-inclusive and \u00b7 target per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex) \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "nu_cc_xsec_over_e",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017ozn/nu_cc_xsec_over_e.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma^{\\nu}_{CC}(E)/E_\\nu",
+   "yunit": "10^-38 cm^2 GeV^-1 (per nucleon, isoscalar-corrected carbon)"
+  },
+  {
+   "slug": "nubar_cc_xsec_over_e",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2017ozn/nubar_cc_xsec_over_e.csv",
+   "xlabel": "E_{\\bar\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma^{\\bar\\nu}_{CC}(E)/E_{\\bar\\nu}",
+   "yunit": "10^-38 cm^2 GeV^-1 (per nucleon, isoscalar-corrected carbon)"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2017ozn/cov.csv",
+ "cov_note": "18x18 (9 neutrino bins + 9 antineutrino bins, in that concatenated order, each block in file order). Source: supple.tex Table (label app:xsec_cov), captioned \"C"
+}

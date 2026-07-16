@@ -1,0 +1,390 @@
+{
+ "bibtag": "MicroBooNE:2026ifl",
+ "slug": "microboone-2026ifl",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2603.13593",
+ "arxiv": "2603.13593",
+ "cite": "",
+ "note": "Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final state (charged or neutral), MicroBooNE BNB (nu_e beam, on-axis, full 13.09x10^20 POT dataset). Six observables: electron energy E_e and cos\u03b8_e, leading-proton kinetic energy KE_p (6-bin \"full binning\" and a coarser 2-bin version split at the 50 MeV proton-visibility threshold), leading-proton angle cos\u03b8_p, and the electron-proton opening angle cos\u03b8_ep. The four lepton/proton-angle/opening-angle variables use only the 1eNp0\u03c0 (\u22651 visible proton) topology; the two KE_p measurements use the combined 1eXp0\u03c0 sample (1eNp0\u03c0 + 1e0p0\u03c0, i.e. include the below-threshold/no-visible-proton bin). Target: per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\").",
+ "distributions": [
+  {
+   "key": "dsigma_electron_energy",
+   "slug": "dsigma_electron_energy",
+   "name": "d\u03c3/dE_e",
+   "name_tex": "$d\\sigma/dE_{e}$",
+   "xlabel": "E_e",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{e}$",
+   "ylabel": "d\u03c3/dE_e",
+   "ylabel_plot": "d\u03c3/dE_e",
+   "ylabel_tex": "$d\\sigma/dE_{e}$",
+   "yunit": "10^{-39} cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-39} cm^2/GeV/nucleon$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.4,
+     "center": 0.2,
+     "val": 1.51,
+     "err": 0.62
+    },
+    {
+     "i": 1,
+     "lo": 0.4,
+     "hi": 0.65,
+     "center": 0.525,
+     "val": 2.39,
+     "err": 0.79
+    },
+    {
+     "i": 2,
+     "lo": 0.65,
+     "hi": 0.9,
+     "center": 0.775,
+     "val": 2.76,
+     "err": 0.58
+    },
+    {
+     "i": 3,
+     "lo": 0.9,
+     "hi": 1.5,
+     "center": 1.2,
+     "val": 1.32,
+     "err": 0.27
+    },
+    {
+     "i": 4,
+     "lo": 1.5,
+     "hi": 1.9,
+     "center": 1.7,
+     "val": 0.192,
+     "err": 0.054,
+     "hi_true": 4.5
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2026ifl/electron_energy.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.13593",
+   "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+  },
+  {
+   "key": "dsigma_proton_ke_full",
+   "slug": "dsigma_proton_ke_full",
+   "name": "d\u03c3/dKE_p",
+   "name_tex": "$d\\sigma/dKE_{p}$",
+   "xlabel": "KE_p",
+   "xunit": "GeV",
+   "xlabel_tex": "$KE_{p}$",
+   "ylabel": "d\u03c3/dKE_p",
+   "ylabel_plot": "d\u03c3/dKE_p",
+   "ylabel_tex": "$d\\sigma/dKE_{p}$",
+   "yunit": "10^{-39} cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-39} cm^2/GeV/nucleon$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.05,
+     "center": 0.025,
+     "val": 11.6,
+     "err": 4.43
+    },
+    {
+     "i": 1,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 13.8,
+     "err": 3.82
+    },
+    {
+     "i": 2,
+     "lo": 0.1,
+     "hi": 0.15,
+     "center": 0.125,
+     "val": 11.2,
+     "err": 3.5
+    },
+    {
+     "i": 3,
+     "lo": 0.15,
+     "hi": 0.2,
+     "center": 0.175,
+     "val": 13.5,
+     "err": 3.38
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 6.56,
+     "err": 1.57
+    },
+    {
+     "i": 5,
+     "lo": 0.3,
+     "hi": 0.35,
+     "center": 0.32499999999999996,
+     "val": 0.965,
+     "err": 0.299,
+     "hi_true": 0.8
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2026ifl/proton_ke_full.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.13593",
+   "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+  },
+  {
+   "key": "dsigma_proton_ke_twobin",
+   "slug": "dsigma_proton_ke_twobin",
+   "name": "\u03c3 (bin-integrated, not divided by bin width)",
+   "name_tex": "$\\sigma (bin-integrated, not divided by bin width)$",
+   "xlabel": "KE_p",
+   "xunit": "GeV",
+   "xlabel_tex": "$KE_{p}$",
+   "ylabel": "\u03c3 (bin-integrated, not divided by bin width)",
+   "ylabel_plot": "\u03c3 (bin-integrated, not divided by bin width)",
+   "ylabel_tex": "$\\sigma (bin-integrated, not divided by bin width)$",
+   "yunit": "10^{-39} cm^2/nucleon",
+   "yunit_tex": "$10^{-39} cm^2/nucleon$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.05,
+     "center": 0.025,
+     "val": 0.521,
+     "err": 0.294
+    },
+    {
+     "i": 1,
+     "lo": 0.05,
+     "hi": 0.8,
+     "center": 0.42500000000000004,
+     "val": 3.52,
+     "err": 0.7
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2026ifl/proton_ke_twobin.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.13593",
+   "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+  },
+  {
+   "key": "dsigma_costheta_e",
+   "slug": "dsigma_costheta_e",
+   "name": "d\u03c3/dcos\u03b8_e",
+   "name_tex": "$d\\sigma/d\\cos\\theta_{e}$",
+   "xlabel": "cos\u03b8_e",
+   "xunit": "dimensionless",
+   "xlabel_tex": "$\\cos\\theta_{e}$",
+   "ylabel": "d\u03c3/dcos\u03b8_e",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_e",
+   "ylabel_tex": "$d\\sigma/d\\cos\\theta_{e}$",
+   "yunit": "10^{-39} cm^2/nucleon",
+   "yunit_tex": "$10^{-39} cm^2/nucleon$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": 0.2,
+     "center": -0.4,
+     "val": 0.593,
+     "err": 0.254
+    },
+    {
+     "i": 1,
+     "lo": 0.2,
+     "hi": 0.7,
+     "center": 0.44999999999999996,
+     "val": 1.54,
+     "err": 0.46
+    },
+    {
+     "i": 2,
+     "lo": 0.7,
+     "hi": 0.9,
+     "center": 0.8,
+     "val": 5.16,
+     "err": 1.11
+    },
+    {
+     "i": 3,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 9.62,
+     "err": 2.13
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2026ifl/costheta_e.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.13593",
+   "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+  },
+  {
+   "key": "dsigma_costheta_p",
+   "slug": "dsigma_costheta_p",
+   "name": "d\u03c3/dcos\u03b8_p",
+   "name_tex": "$d\\sigma/d\\cos\\theta_{p}$",
+   "xlabel": "cos\u03b8_p",
+   "xunit": "dimensionless",
+   "xlabel_tex": "$\\cos\\theta_{p}$",
+   "ylabel": "d\u03c3/dcos\u03b8_p",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_p",
+   "ylabel_tex": "$d\\sigma/d\\cos\\theta_{p}$",
+   "yunit": "10^{-39} cm^2/nucleon",
+   "yunit_tex": "$10^{-39} cm^2/nucleon$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.85,
+     "center": -0.925,
+     "val": 0.504,
+     "err": 0.186,
+     "hi_true": 0.0
+    },
+    {
+     "i": 1,
+     "lo": 0.0,
+     "hi": 0.4,
+     "center": 0.2,
+     "val": 1.6,
+     "err": 0.34
+    },
+    {
+     "i": 2,
+     "lo": 0.4,
+     "hi": 0.55,
+     "center": 0.47500000000000003,
+     "val": 2.53,
+     "err": 0.77
+    },
+    {
+     "i": 3,
+     "lo": 0.55,
+     "hi": 0.7,
+     "center": 0.625,
+     "val": 2.39,
+     "err": 1.07
+    },
+    {
+     "i": 4,
+     "lo": 0.7,
+     "hi": 0.85,
+     "center": 0.7749999999999999,
+     "val": 3.45,
+     "err": 1.37
+    },
+    {
+     "i": 5,
+     "lo": 0.85,
+     "hi": 1.0,
+     "center": 0.925,
+     "val": 4.67,
+     "err": 1.54
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2026ifl/costheta_p.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.13593",
+   "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+  },
+  {
+   "key": "dsigma_opening_angle",
+   "slug": "dsigma_opening_angle",
+   "name": "d\u03c3/dcos\u03b8_ep",
+   "name_tex": "$d\\sigma/d\\cos\\theta_{ep}$",
+   "xlabel": "cos\u03b8_ep",
+   "xunit": "dimensionless",
+   "xlabel_tex": "$\\cos\\theta_{ep}$",
+   "ylabel": "d\u03c3/dcos\u03b8_ep",
+   "ylabel_plot": "d\u03c3/dcos\u03b8_ep",
+   "ylabel_tex": "$d\\sigma/d\\cos\\theta_{ep}$",
+   "yunit": "10^{-39} cm^2/nucleon",
+   "yunit_tex": "$10^{-39} cm^2/nucleon$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -0.9,
+     "hi": -0.5,
+     "center": -0.7,
+     "val": 1.77,
+     "err": 0.5
+    },
+    {
+     "i": 1,
+     "lo": -0.5,
+     "hi": -0.25,
+     "center": -0.375,
+     "val": 2.71,
+     "err": 0.64
+    },
+    {
+     "i": 2,
+     "lo": -0.25,
+     "hi": 0.0,
+     "center": -0.125,
+     "val": 2.69,
+     "err": 0.53
+    },
+    {
+     "i": 3,
+     "lo": 0.0,
+     "hi": 0.25,
+     "center": 0.125,
+     "val": 2.27,
+     "err": 0.59
+    },
+    {
+     "i": 4,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 1.43,
+     "err": 0.57
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 1.0,
+     "center": 0.75,
+     "val": 0.711,
+     "err": 0.278
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2026ifl/opening_angle.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.13593",
+   "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+  }
+ ]
+}

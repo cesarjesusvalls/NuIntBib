@@ -1,0 +1,65 @@
+{
+ "bibtag": "MINERvA:2026ymp",
+ "slug": "minerva-2026ymp",
+ "source_url": "https://arxiv.org/abs/2605.24224",
+ "note": "Single-differential, flux-integrated \u03bd\u03bc CC 1\u03c0+ (resonance-region, W_exp &lt; 1.4 GeV/c\u00b2) production cross sections on MINERvA scintillator, measured vs seven kinematic variables: pion kinetic energy T_\u03c0, pion angle \u03b8_\u03c0, muon momentum p_\u03bc, muon longitudinal momentum p_\u03bc,z, muon transverse momentum p_\u03bc,T, muon angle \u03b8_\u03bc, and Q\u00b2. Michel-electron (\"untracked\") pion reconstruction extends T_\u03c0 acceptance down to 0 (no threshold) for the first time. NuMI Medium-Energy on-axis beam, MINERvA detector, \u03bd\u03bc mode. Target: per nucleon (CH scintillator target, ~3.47\u00d710^30 target nucleons; source: main.tex table captions \"in units of 10^-42 cm\u00b2/X/nucleon\" and main text \"normalizing by the integrated neutrino flux (0-100 GeV) and the number of target nucleons (~3.47\u00d710^30)\").",
+ "provenance": "MINERvA:2026ymp \u2014 Single-differential, flux-integrated \u03bd\u03bc CC 1\u03c0+ (resonance-region, W_exp &lt; 1.4 GeV/c\u00b2) production cross sections on MI \u00b7 target per nucleon (CH scintillator target, ~3.47\u00d710^30 target nucleons; source: main.tex table captions \"in units of 10^-42 cm\u00b2/X/nucleon\" and main text \"normalizing by the integrated neutrino flux (0-100 GeV) and the number of target nucleons (~3.47\u00d710^30)\") \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "tpi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2026ymp/tpi.csv",
+   "xlabel": "T_{\\pi}",
+   "xunit": "MeV",
+   "ylabel": "d\\sigma/dT_{\\pi}",
+   "yunit": "10^{-42} cm^2 MeV^{-1} nucleon^{-1}"
+  },
+  {
+   "slug": "pmu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2026ymp/pmu.csv",
+   "xlabel": "p_{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_{\\mu}",
+   "yunit": "10^{-42} cm^2 (GeV/c)^{-1} nucleon^{-1}"
+  },
+  {
+   "slug": "pzmu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2026ymp/pzmu.csv",
+   "xlabel": "p_{\\mu,\\parallel}",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_{\\mu,\\parallel}",
+   "yunit": "10^{-42} cm^2 (GeV/c)^{-1} nucleon^{-1}"
+  },
+  {
+   "slug": "ptmu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2026ymp/ptmu.csv",
+   "xlabel": "p_{\\mu,T}",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_{\\mu,T}",
+   "yunit": "10^{-42} cm^2 (GeV/c)^{-1} nucleon^{-1}"
+  },
+  {
+   "slug": "thetamu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2026ymp/thetamu.csv",
+   "xlabel": "\\theta_{\\mu}",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\theta_{\\mu}",
+   "yunit": "10^{-42} cm^2 degree^{-1} nucleon^{-1}"
+  },
+  {
+   "slug": "q2",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2026ymp/q2.csv",
+   "xlabel": "Q^{2}",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^{2}",
+   "yunit": "10^{-42} cm^2 (GeV^2)^{-1} nucleon^{-1}"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2026ymp/cov.csv",
+ "cov_note": "Absolute-scale covariance in units of 10^-84 (cm^2/X/nucleon)^2, which matches val's 10^-42 scale squared exactly ((10^-42)^2=10^-84), so entries are used as-pr"
+}

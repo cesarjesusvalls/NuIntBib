@@ -1,0 +1,119 @@
+{
+ "bibtag": "MINERvA:2016sfc",
+ "slug": "minerva-2016sfc",
+ "source_url": "https://arxiv.org/abs/1606.07127",
+ "note": "Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exclusive, single \u03c00, no charged tracks) pion production on hydrocarbon, measured in MINERvA's low-energy NuMI beam. For each channel, differential cross sections d\u03c3/dX are given vs Q\u00b2, muon momentum p_\u03bc, muon angle \u03b8_\u03bc, pion angle \u03b8_\u03c0, pion kinetic energy T_\u03c0, plus the (non-differential) cross section per energy bin \u03c3(E\u03bd) \u2014 6 observables x 2 channels = 12 distributions. Target: per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308.",
+ "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
+ "items": [
+  {
+   "slug": "nu-ccnpiplus-enu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/nu-ccnpiplus-enu.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_\\nu)",
+   "yunit": "1e-40 cm^2/nucleon"
+  },
+  {
+   "slug": "nu-ccnpiplus-q2",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/nu-ccnpiplus-q2.csv",
+   "xlabel": "Q^2",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^2",
+   "yunit": "1e-40 cm^2/nucleon/(GeV/c)^2"
+  },
+  {
+   "slug": "nu-ccnpiplus-pmu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/nu-ccnpiplus-pmu.csv",
+   "xlabel": "p_\\mu",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_\\mu",
+   "yunit": "1e-40 cm^2/nucleon/(GeV/c)"
+  },
+  {
+   "slug": "nu-ccnpiplus-thetamu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/nu-ccnpiplus-thetamu.csv",
+   "xlabel": "\\theta_\\mu",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\theta_\\mu",
+   "yunit": "1e-40 cm^2/nucleon/degree"
+  },
+  {
+   "slug": "nu-ccnpiplus-thetapi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/nu-ccnpiplus-thetapi.csv",
+   "xlabel": "\\theta_\\pi",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\theta_\\pi",
+   "yunit": "1e-40 cm^2/nucleon/degree"
+  },
+  {
+   "slug": "nu-ccnpiplus-tpi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/nu-ccnpiplus-tpi.csv",
+   "xlabel": "T_\\pi",
+   "xunit": "MeV",
+   "ylabel": "d\\sigma/dT_\\pi",
+   "yunit": "1e-40 cm^2/nucleon/MeV"
+  },
+  {
+   "slug": "anu-cc1pi0-enu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/anu-cc1pi0-enu.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_\\nu)",
+   "yunit": "1e-40 cm^2/nucleon"
+  },
+  {
+   "slug": "anu-cc1pi0-q2",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/anu-cc1pi0-q2.csv",
+   "xlabel": "Q^2",
+   "xunit": "(GeV/c)^2",
+   "ylabel": "d\\sigma/dQ^2",
+   "yunit": "1e-40 cm^2/nucleon/(GeV/c)^2"
+  },
+  {
+   "slug": "anu-cc1pi0-pmu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/anu-cc1pi0-pmu.csv",
+   "xlabel": "p_\\mu",
+   "xunit": "GeV/c",
+   "ylabel": "d\\sigma/dp_\\mu",
+   "yunit": "1e-40 cm^2/nucleon/(GeV/c)"
+  },
+  {
+   "slug": "anu-cc1pi0-thetamu",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/anu-cc1pi0-thetamu.csv",
+   "xlabel": "\\theta_\\mu",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\theta_\\mu",
+   "yunit": "1e-40 cm^2/nucleon/degree"
+  },
+  {
+   "slug": "anu-cc1pi0-thetapi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/anu-cc1pi0-thetapi.csv",
+   "xlabel": "\\theta_\\pi",
+   "xunit": "degree",
+   "ylabel": "d\\sigma/d\\theta_\\pi",
+   "yunit": "1e-42 cm^2/nucleon/degree"
+  },
+  {
+   "slug": "anu-cc1pi0-tpi",
+   "label": "",
+   "csv": "data/datasets/sources/minerva-2016sfc/anu-cc1pi0-tpi.csv",
+   "xlabel": "T_\\pi",
+   "xunit": "GeV",
+   "ylabel": "d\\sigma/dT_\\pi",
+   "yunit": "1e-40 cm^2/nucleon/GeV"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2016sfc/cov.csv",
+ "cov_note": "Absolute cross-section units^2, block-diagonal 107x107 matrix. Row/col order = the 12 items in the exact order listed below, each item's bins in file order. Bui"
+}

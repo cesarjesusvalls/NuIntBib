@@ -1,0 +1,43 @@
+{
+ "bibtag": "MicroBooNE:2026sbw",
+ "slug": "microboone-2026sbw",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2606.13613",
+ "arxiv": "2606.13613",
+ "cite": "",
+ "note": "Flux-averaged total charged-current coherent pion production cross section, sigma(nu_mu + Ar -> mu- + pi+ + Ar), on argon, muon-neutrino beam (BNB, predominantly numu: 93.6% numu, 5.86% numubar, 0.57% nue+nuebar; mean neutrino energy 0.8 GeV), MicroBooNE LArTPC. Single flux-integrated total value, no differential binning published. Target: per Ar nucleus (explicit \"cm^2/Ar\" in abstract, Results section, and Table I caption).",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_cccoh_numu_ar",
+   "slug": "dsigma_sigma_cccoh_numu_ar",
+   "name": "\u03c3(\u03bd_\u03bc Arto\u03bc^-\u03c0^+Ar)",
+   "name_tex": "$\\sigma(\\nu_\\mu\\,\\mathrm{Ar}\\to\\mu^-\\pi^+\\mathrm{Ar})$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(\u03bd_\u03bc Arto\u03bc^-\u03c0^+Ar)",
+   "ylabel_plot": "\u03c3(\u03bd_\u03bc Arto\u03bc^-\u03c0^+Ar)",
+   "ylabel_tex": "$\\sigma(\\nu_\\mu\\,\\mathrm{Ar}\\to\\mu^-\\pi^+\\mathrm{Ar})$",
+   "yunit": "10^{-40}cm^2/Ar",
+   "yunit_tex": "$10^{-40}cm^2/Ar$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.8,
+     "hi": 0.8,
+     "center": 0.8,
+     "val": 9.1,
+     "err": 1.6971
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/microboone-2026sbw/sigma_cccoh_numu_ar.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2606.13613",
+   "provenance": "MicroBooNE:2026sbw \u2014 Flux-averaged total charged-current coherent pion production cross section, sigma(nu_mu + Ar -> mu- + pi+ + Ar), on argo \u00b7 target per Ar nucleus (explicit \"cm^2/Ar\" in abstract, Results section, and Table I caption) \u00b7 from the arXiv ancillary data release",
+   "notes": "MicroBooNE:2026sbw \u2014 Flux-averaged total charged-current coherent pion production cross section, sigma(nu_mu + Ar -> mu- + pi+ + Ar), on argo. Target per Ar nucleus (explicit \"cm^2/Ar\" in abstract, Results section, and Table I caption)."
+  }
+ ]
+}

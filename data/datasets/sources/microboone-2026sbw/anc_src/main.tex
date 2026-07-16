@@ -1,0 +1,461 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.2 distribution.
+%   Version 4.2a of REVTeX, December 2014
+%
+%   Copyright (c) 2014 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.2
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+\documentclass[aps,prl,reprint,superscriptaddress,nofootinbib, showpacs]{revtex4-2}
+\preprint{FERMILAB-PUB-26-0335-PPD}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{amsmath}
+\usepackage{bm}% bold math
+%\usepackage{lineno}       % For line numbers
+\usepackage{orcidlink}
+%\linenumbers           % Turn on line numbers
+%\renewcommand\linenumberfont{\normalfont\tiny\sffamily}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\begin{document}
+\begin{textblock*}{5cm}(14.5cm,1.5cm)
+\raggedleft\small FERMILAB-PUB-26-0335-PPD
+\end{textblock*}
+
+
+\title{First Measurement of Sub-GeV $\nu_{\mu}$ Charged-Current Coherent Pion Production on Argon in MicroBooNE}% 
+
+%\date{\today}
+
+\newcommand{\ANL}{Argonne National Laboratory (ANL), Lemont, IL 60439, USA}
+\newcommand{\Bern}{Universit\"{a}t Bern, Bern CH-3012, Switzerland}
+\newcommand{\BNL}{Brookhaven National Laboratory (BNL), Upton, NY 11973, USA}
+\newcommand{\UCSB}{University of California, Santa Barbara, CA 93106, USA}
+\newcommand{\Cambridge}{University of Cambridge, Cambridge CB3 0HE, United Kingdom}
+\newcommand{\CIEMAT}{Centro de Investigaciones Energ\'{e}ticas, Medioambientales y Tecnol\'{o}gicas (CIEMAT), Madrid E-28040, Spain}
+\newcommand{\Chicago}{University of Chicago, Chicago, IL 60637, USA}
+\newcommand{\Cincinnati}{University of Cincinnati, Cincinnati, OH 45221, USA}
+\newcommand{\CSU}{Colorado State University, Fort Collins, CO 80523, USA}
+\newcommand{\Columbia}{Columbia University, New York, NY 10027, USA}
+\newcommand{\Edinburgh}{University of Edinburgh, Edinburgh EH9 3FD, United Kingdom}
+\newcommand{\FNAL}{Fermi National Accelerator Laboratory (FNAL), Batavia, IL 60510, USA}
+\newcommand{\Granada}{Universidad de Granada, Granada E-18071, Spain}
+\newcommand{\IIT}{Illinois Institute of Technology (IIT), Chicago, IL 60616, USA}
+\newcommand{\ICL}{Imperial College London, London SW7 2AZ, United Kingdom}
+\newcommand{\Indiana}{Indiana University, Bloomington, IN 47405, USA}
+\newcommand{\Kansas}{The University of Kansas, Lawrence, KS 66045, USA}
+\newcommand{\KSU}{Kansas State University (KSU), Manhattan, KS 66506, USA}
+\newcommand{\Lancaster}{Lancaster University, Lancaster LA1 4YW, United Kingdom}
+\newcommand{\LANL}{Los Alamos National Laboratory (LANL), Los Alamos, NM 87545, USA}
+\newcommand{\Louisiana}{Louisiana State University, Baton Rouge, LA 70803, USA}
+\newcommand{\Manchester}{The University of Manchester, Manchester M13 9PL, United Kingdom}
+\newcommand{\MIT}{Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA}
+\newcommand{\Michigan}{University of Michigan, Ann Arbor, MI 48109, USA}
+\newcommand{\MSU}{Michigan State University, East Lansing, MI 48824, USA}
+\newcommand{\Minnesota}{University of Minnesota, Minneapolis, MN 55455, USA}
+\newcommand{\Nankai}{Nankai University, Nankai District, Tianjin 300071, China}
+\newcommand{\NMSU}{New Mexico State University (NMSU), Las Cruces, NM 88003, USA}
+\newcommand{\Oxford}{University of Oxford, Oxford OX1 3RH, United Kingdom}
+\newcommand{\Pitt}{University of Pittsburgh, Pittsburgh, PA 15260, USA}
+\newcommand{\QMUL}{Queen Mary University of London, London E1 4NS, United Kingdom}
+\newcommand{\Rutgers}{Rutgers University, Piscataway, NJ 08854, USA}
+\newcommand{\SLAC}{SLAC National Accelerator Laboratory, Menlo Park, CA 94025, USA}
+\newcommand{\SDSMT}{South Dakota School of Mines and Technology (SDSMT), Rapid City, SD 57701, USA}
+\newcommand{\Maine}{University of Southern Maine, Portland, ME 04104, USA}
+\newcommand{\TelAviv}{Tel Aviv University, Tel Aviv 69978, Israel}
+\newcommand{\UTA}{University of Texas, Arlington, TX 76019, USA}
+\newcommand{\Tufts}{Tufts University, Medford, MA 02155, USA}
+\newcommand{\VTech}{Center for Neutrino Physics, Virginia Tech, Blacksburg, VA 24061, USA}
+\newcommand{\Warwick}{University of Warwick, Coventry CV4 7AL, United Kingdom}
+\newcommand{\NotreDame}{University of Notre Dame, Notre Dame, IN 46556, USA}
+
+\affiliation{\ANL}
+\affiliation{\Bern}
+\affiliation{\BNL}
+\affiliation{\UCSB}
+\affiliation{\Cambridge}
+\affiliation{\CIEMAT}
+\affiliation{\Chicago}
+\affiliation{\Cincinnati}
+\affiliation{\CSU}
+\affiliation{\Columbia}
+\affiliation{\Edinburgh}
+\affiliation{\FNAL}
+\affiliation{\Granada}
+\affiliation{\IIT}
+\affiliation{\ICL}
+\affiliation{\Indiana}
+\affiliation{\Kansas}
+\affiliation{\KSU}
+\affiliation{\Lancaster}
+\affiliation{\LANL}
+\affiliation{\Louisiana}
+\affiliation{\Manchester}
+\affiliation{\MIT}
+\affiliation{\Michigan}
+\affiliation{\MSU}
+\affiliation{\Minnesota}
+\affiliation{\Nankai}
+\affiliation{\NMSU}
+\affiliation{\NotreDame}
+\affiliation{\Oxford}
+\affiliation{\Pitt}
+\affiliation{\QMUL}
+\affiliation{\Rutgers}
+\affiliation{\SLAC}
+\affiliation{\SDSMT}
+\affiliation{\Maine}
+\affiliation{\TelAviv}
+\affiliation{\UTA}
+\affiliation{\Tufts}
+\affiliation{\VTech}
+\affiliation{\Warwick}
+
+
+% Authors in alphabetical order:
+\author{P.~Abratenko\,\orcidlink{0000-0001-6945-5941}}\affiliation{\Tufts}
+\author{D.~Andrade~Aldana\,\orcidlink{0009-0008-3143-3374}}\affiliation{\IIT}
+\author{J.~Asaadi\,\orcidlink{0000-0001-6915-5279}}\affiliation{\UTA}
+\author{A.~Ashkenazi\,\orcidlink{0000-0002-1995-3851}}\affiliation{\TelAviv}
+\author{S.~Balasubramanian}\affiliation{\FNAL}
+\author{B.~Baller\,\orcidlink{0000-0001-8731-9281}}\affiliation{\FNAL}
+\author{A.~Barnard\,\orcidlink{0000-0001-6117-1768}}\affiliation{\Oxford}
+\author{G.~Barr\,\orcidlink{0000-0002-9763-1882}}\affiliation{\Oxford}
+\author{D.~Barrow\,\orcidlink{0000-0001-5844-709X}}\affiliation{\Oxford}
+\author{J.~Barrow\,\orcidlink{0000-0002-3993-1123}}\affiliation{\Minnesota}
+\author{V.~Basque\,\orcidlink{0000-0002-4600-0984}}\affiliation{\FNAL}
+\author{J.~Bateman\,\orcidlink{0009-0003-3915-3741}}\affiliation{\ICL}\affiliation{\Manchester}
+\author{B.~Behera\,\orcidlink{0000-0002-7381-5898}}\affiliation{\SDSMT}
+\author{O.~Benevides~Rodrigues\,\orcidlink{0000-0001-9181-6096}}\affiliation{\IIT}
+\author{S.~Berkman\,\orcidlink{0000-0002-8795-459X}}\affiliation{\MSU}
+\author{A.~Bhat\,\orcidlink{0000-0002-7994-0489}}\affiliation{\Chicago}
+\author{M.~Bhattacharya}\affiliation{\FNAL}
+\author{V.~Bhelande\,\orcidlink{0000-0002-9443-228X}}\affiliation{\LANL}
+\author{A.~Binau\,\orcidlink{0009-0004-1192-3254}}\affiliation{\Indiana}
+\author{M.~Bishai\,\orcidlink{0000-0003-1829-0969}}\affiliation{\BNL}
+\author{A.~Blake\,\orcidlink{0000-0002-2382-362X}}\affiliation{\Lancaster}
+\author{B.~Bogart\,\orcidlink{0000-0003-0558-8934}}\affiliation{\Michigan}
+\author{T.~Bolton\,\orcidlink{0000-0001-7083-3217}}\affiliation{\KSU}
+\author{M.~B.~Brunetti\,\orcidlink{0000-0003-1639-3577}}\affiliation{\Kansas}
+\author{L.~Camilleri}\affiliation{\Columbia}
+\author{D.~Caratelli\,\orcidlink{0000-0002-1761-6595}}\affiliation{\UCSB}
+\author{F.~Cavanna\,\orcidlink{0000-0002-5586-9964}}\affiliation{\FNAL}
+\author{G.~Cerati\,\orcidlink{0000-0003-3548-0262}}\affiliation{\FNAL}
+\author{A.~Chappell\,\orcidlink{0000-0002-1044-6239}}\affiliation{\Warwick}
+\author{Y.~Chen\,\orcidlink{0000-0002-2742-9718}}\affiliation{\SLAC}
+\author{J.~M.~Conrad\,\orcidlink{0000-0002-6393-0438}}\affiliation{\MIT}
+\author{M.~Convery\,\orcidlink{0000-0001-6824-9257}}\affiliation{\SLAC}
+\author{L.~Cooper-Troendle\,\orcidlink{0000-0003-3212-2603}}\affiliation{\Pitt}
+\author{J.~I.~Crespo-Anad\'{o}n}\affiliation{\CIEMAT}
+\author{R.~Cross\,\orcidlink{0000-0001-9694-5735}}\affiliation{\Warwick}
+\author{M.~Del~Tutto\,\orcidlink{0000-0002-1588-7025}}\affiliation{\FNAL}
+\author{S.~R.~Dennis\,\orcidlink{0000-0001-9099-8895}}\affiliation{\Cambridge}
+\author{P.~Detje\,\orcidlink{0000-0002-5883-0053}}\affiliation{\Cambridge}
+\author{R.~Diurba\,\orcidlink{0000-0002-8228-6377}}\affiliation{\Bern}
+\author{Z.~Djurcic\,\orcidlink{0000-0002-5472-216X}}\affiliation{\ANL}
+\author{K.~Duffy\,\orcidlink{0000-0002-7872-5445}}\affiliation{\Oxford}
+\author{S.~Dytman\,\orcidlink{0000-0002-8278-5299}}\affiliation{\Pitt}
+\author{B.~Eberly\,\orcidlink{0000-0003-3721-1058}}\affiliation{\Maine}
+\author{P.~Englezos\,\orcidlink{0000-0001-8024-1805}}\affiliation{\Rutgers}
+\author{A.~Ereditato\,\orcidlink{0000-0002-5423-8079}}\affiliation{\Chicago}\affiliation{\FNAL}
+\author{J.~J.~Evans\,\orcidlink{0000-0003-4697-3337}}\affiliation{\Manchester}
+\author{C.~Fang\,\orcidlink{0009-0000-7259-7211}}\affiliation{\UCSB}
+\author{B.~T.~Fleming\,\orcidlink{0000-0001-9826-8547}}\affiliation{\Chicago}
+\author{W.~Foreman\,\orcidlink{0000-0001-6555-6948}}\affiliation{\LANL}
+\author{D.~Franco\,\orcidlink{0000-0003-1278-9478}}\affiliation{\Chicago}
+\author{A.~P.~Furmanski\,\orcidlink{0000-0003-3608-7454}}\affiliation{\Minnesota}
+\author{F.~Gao\,\orcidlink{0000-0001-7539-3863}}\affiliation{\UCSB}
+\author{D.~Garcia-Gamez\,\orcidlink{0000-0003-3452-3478}}\affiliation{\Granada}
+\author{S.~Gardiner\,\orcidlink{0000-0002-8368-5898}}\affiliation{\FNAL}
+\author{G.~Ge\,\orcidlink{0000-0002-0046-7968}}\affiliation{\Columbia}
+\author{S.~Gollapinni\,\orcidlink{0000-0001-5703-9625}}\affiliation{\LANL}
+\author{E.~Gramellini\,\orcidlink{0000-0003-1776-1941}}\affiliation{\Manchester}
+\author{P.~Green\,\orcidlink{0000-0001-9872-3685}}\affiliation{\Oxford}
+\author{H.~Greenlee\,\orcidlink{0000-0002-5109-1358}}\affiliation{\FNAL}
+\author{L.~Gu}\affiliation{\Lancaster}
+\author{W.~Gu\,\orcidlink{0000-0001-6402-1239}}\affiliation{\BNL}
+\author{R.~Guenette\,\orcidlink{0000-0003-3967-0151}}\affiliation{\Manchester}
+\author{L.~Hagaman\,\orcidlink{0000-0003-4178-9565}}\affiliation{\Columbia}
+\author{M.~D.~Handley\,\orcidlink{0009-0005-1052-6924}}\affiliation{\Cambridge}
+\author{O.~Hen\,\orcidlink{0000-0002-4890-6544}}\affiliation{\MIT}
+\author{A.~Hergenhan\,\orcidlink{0009-0003-1462-210X}}\affiliation{\ICL}
+\author{M.~Harrison}\affiliation{\LANL}
+\author{S.~Hawkins\,\orcidlink{0000-0001-9652-6944}}\affiliation{\MSU}
+\author{C.~Hilgenberg\,\orcidlink{0000-0001-7847-487X}}\affiliation{\Minnesota}
+\author{G.~A.~Horton-Smith\,\orcidlink{0000-0001-9677-9167}}\affiliation{\KSU}
+\author{A.~Hussain\,\orcidlink{0000-0001-6216-9002}}\affiliation{\KSU}
+\author{B.~Irwin\,\orcidlink{0000-0003-3554-1475}}\affiliation{\Minnesota}
+\author{M.~S.~Ismail\,\orcidlink{0009-0000-9234-7965}}\affiliation{\Pitt}
+\author{C.~James}\affiliation{\FNAL}
+\author{X.~Ji\,\orcidlink{0000-0002-0579-8467}}\affiliation{\Nankai}
+\author{J.~H.~Jo\,\orcidlink{0000-0003-4102-3674}}\affiliation{\BNL}
+\author{A.~Johnson\,\orcidlink{0000-0001-9880-6747}}\affiliation{\Indiana}
+\author{R.~A.~Johnson\,\orcidlink{0000-0002-8816-6317}}\affiliation{\Cincinnati}
+\author{D.~Kalra\,\orcidlink{0000-0002-6124-3941}}\affiliation{\Columbia}
+\author{G.~Karagiorgi\,\orcidlink{0000-0001-7810-7236}}\affiliation{\Columbia}
+\author{W.~Ketchum}\affiliation{\FNAL}
+\author{A.~Kelly\,\orcidlink{0000-0002-3899-005X}}\affiliation{\Indiana}
+\author{M.~Kirby\,\orcidlink{0000-0002-5234-6308}}\affiliation{\BNL}
+\author{T.~Kobilarcik}\affiliation{\FNAL}
+\author{K.~Kumar\,\orcidlink{0000-0002-9132-0346}}\affiliation{\Columbia}
+\author{N.~Lane\,\orcidlink{0009-0005-1245-8574}}\affiliation{\ICL}\affiliation{\Manchester}
+\author{J.-Y.~Li\,\orcidlink{0000-0003-4025-5377}}\affiliation{\Edinburgh}
+\author{Y.~Li\,\orcidlink{0000-0002-7004-7598}}\affiliation{\BNL}
+\author{K.~Lin\,\orcidlink{0000-0003-4442-8554}}\affiliation{\Rutgers}
+\author{B.~R.~Littlejohn\,\orcidlink{0000-0002-6912-9684}}\affiliation{\IIT}
+\author{L.~Liu\,\orcidlink{0000-0002-6753-925X}}\affiliation{\FNAL}
+\author{S.~Liu}\affiliation{\Nankai}
+\author{W.~C.~Louis}\affiliation{\LANL}
+\author{X.~Luo\,\orcidlink{0000-0001-6464-6992}}\affiliation{\UCSB}
+\author{T.~Mahmud}\affiliation{\Lancaster}
+\author{N.~Majeed\,\orcidlink{0009-0005-3370-2687}}\affiliation{\KSU}
+\author{M.~G.~Manuel~Alves\,\orcidlink{0000-0002-1900-6299}}\affiliation{\IIT}
+\author{C.~Mariani\,\orcidlink{0000-0003-3284-4681}}\affiliation{\VTech}
+\author{J.~Marshall\,\orcidlink{0000-0002-3565-7008}}\affiliation{\Warwick}
+\author{D.~A.~Martinez~Caicedo\,\orcidlink{0000-0001-8270-8907}}\affiliation{\SDSMT}
+\author{F.~Martinez~Lopez\,\orcidlink{0000-0002-3711-8403}}\affiliation{\Indiana}
+\author{S.~Martynenko\,\orcidlink{0000-0002-5202-2784}}\affiliation{\BNL}
+\author{A.~Mastbaum\,\orcidlink{0000-0002-1132-2270}}\affiliation{\Rutgers}
+\author{I.~Mawby\,\orcidlink{0000-0002-8055-2635}}\affiliation{\Lancaster}
+\author{N.~McConkey\,\orcidlink{0000-0002-0385-3098}}\affiliation{\QMUL}
+\author{B.~McConnell\,\orcidlink{0009-0004-1138-8722}}\affiliation{\Indiana}
+\author{L.~Mellet\,\orcidlink{0000-0003-4182-7381}}\affiliation{\MSU}
+\author{J.~Mendez\,\orcidlink{0009-0000-9914-3770}}\affiliation{\Louisiana}
+\author{J.~Micallef\,\orcidlink{0000-0001-7259-9575}}\affiliation{\MIT}\affiliation{\Tufts}
+\author{T.~Mohayai\,\orcidlink{0000-0003-0578-752X}}\affiliation{\Indiana}
+\author{A.~Mogan\,\orcidlink{0000-0002-8193-5902}}\affiliation{\CSU}
+\author{M.~Mooney\,\orcidlink{0000-0001-9063-1209}}\affiliation{\CSU}
+\author{A.~F.~Moor\,\orcidlink{0000-0001-6425-8885}}\affiliation{\Cambridge}
+\author{C.~D.~Moore}\affiliation{\FNAL}
+\author{L.~Mora~Lepin\,\orcidlink{0000-0002-6615-2053}}\affiliation{\Manchester}
+\author{M.~A.~Hernandez~Morquecho}\affiliation{\Minnesota}
+\author{M.~M.~Moudgalya\,\orcidlink{0000-0003-2597-2503}}\affiliation{\Manchester}
+\author{S.~Mulleriababu}\affiliation{\Bern}
+\author{D.~Naples\,\orcidlink{0000-0002-8629-7719}}\affiliation{\Pitt}
+\author{A.~Navrer-Agasson\,\orcidlink{0000-0002-4942-1565}}\affiliation{\ICL}
+\author{N.~Nayak\,\orcidlink{0000-0002-9588-3533}}\affiliation{\BNL}
+\author{M.~Nebot-Guinot\,\orcidlink{0000-0002-4784-9867}}\affiliation{\Edinburgh}
+\author{C.~Nguyen\,\orcidlink{0000-0003-4580-6094}}\affiliation{\Rutgers}
+\author{L.~Nguyen}\affiliation{\UCSB}
+\author{J.~Nowak\,\orcidlink{0000-0001-8637-5433}}\affiliation{\Lancaster}
+\author{N.~Oza}\affiliation{\Columbia}
+\author{O.~Palamara\,\orcidlink{0000-0002-8735-2433}}\affiliation{\FNAL}
+\author{N.~Pallat\,\orcidlink{0009-0009-9468-6288}}\affiliation{\Minnesota}
+\author{V.~Paolone\,\orcidlink{0000-0003-2162-0957}}\affiliation{\Pitt}
+\author{A.~Papadopoulou\,\orcidlink{0000-0002-4343-3792}}\affiliation{\ANL}\affiliation{\LANL}
+\author{V.~Papavassiliou\,\orcidlink{0000-0001-5014-3809}}\affiliation{\NMSU}
+\author{H.~B.~Parkinson\,\orcidlink{0009-0006-0018-6986}}\affiliation{\Edinburgh}
+\author{S.~F.~Pate\,\orcidlink{0000-0001-8577-3405}}\affiliation{\NMSU}
+\author{N.~Patel\,\orcidlink{0000-0003-2200-2712}}\affiliation{\Lancaster}
+\author{Z.~Pavlovic\,\orcidlink{0000-0002-8220-1767}}\affiliation{\FNAL}
+\author{E.~Piasetzky\,\orcidlink{0000-0001-9058-2590}}\affiliation{\TelAviv}
+\author{K.~Pletcher\,\orcidlink{0009-0003-1360-951X}}\affiliation{\MSU}
+\author{I.~Pophale\,\orcidlink{0000-0002-4106-3599}}\affiliation{\Lancaster}
+\author{X.~Qian\,\orcidlink{0000-0002-7903-7935}}\affiliation{\BNL}
+\author{J.~L.~Raaf\,\orcidlink{0000-0002-4533-929X}}\affiliation{\FNAL}
+\author{V.~Radeka}\affiliation{\BNL}
+\author{A.~Rafique\,\orcidlink{0000-0001-8057-4087}}\affiliation{\ANL}
+\author{M.~Reggiani-Guzzo\,\orcidlink{0000-0002-6169-2982}}\affiliation{\Edinburgh}
+\author{J.~Rodriguez~Rondon\,\orcidlink{0000-0003-1963-4911}}\affiliation{\SDSMT}
+\author{M.~Rosenberg\,\orcidlink{0000-0003-2035-6672}}\affiliation{\Tufts}
+\author{M.~Ross-Lonergan\,\orcidlink{0000-0001-7012-8163}}\affiliation{\LANL}
+\author{I.~Safa\,\orcidlink{0000-0001-8737-6825}}\affiliation{\Columbia}
+\author{C.~Sauer}\affiliation{\UCSB}
+\author{D.~W.~Schmitz\,\orcidlink{0000-0003-2165-7389}}\affiliation{\Chicago}
+\author{A.~Schukraft\,\orcidlink{0000-0002-9112-5479}}\affiliation{\FNAL}
+\author{W.~Seligman\,\orcidlink{0000-0002-6680-7929}}\affiliation{\Columbia}
+\author{M.~H.~Shaevitz\,\orcidlink{0000-0002-7436-8655}}\affiliation{\Columbia}
+\author{R.~Sharankova\,\orcidlink{0000-0002-7014-593X}}\affiliation{\FNAL}
+\author{J.~Shi\,\orcidlink{0000-0001-5108-6957}}\affiliation{\Cambridge}
+\author{L.~Silva\,\orcidlink{0009-0000-9301-4791}}\affiliation{\LANL}
+\author{E.~L.~Snider\,\orcidlink{0000-0003-1105-5608}}\affiliation{\FNAL}
+\author{S.~S\"{o}ldner-Rembold\,\orcidlink{0000-0002-9079-6860}}\affiliation{\ICL}
+\author{J.~Spitz\,\orcidlink{0000-0002-6288-7028}}\affiliation{\Michigan}
+\author{M.~Stancari\,\orcidlink{0000-0001-5786-5310}}\affiliation{\FNAL}
+\author{J.~St.~John\,\orcidlink{0000-0001-8110-4108}}\affiliation{\FNAL}
+\author{T.~Strauss\,\orcidlink{0000-0002-2308-4986}}\affiliation{\FNAL}
+\author{A.~M.~Szelc\,\orcidlink{0000-0002-4174-4407}}\affiliation{\Edinburgh}
+\author{N.~Taniuchi}\affiliation{\Cambridge}
+\author{K.~Terao\,\orcidlink{0000-0003-1767-8929}}\affiliation{\SLAC}
+\author{C.~Thorpe\,\orcidlink{0000-0003-3980-7023}}\affiliation{\Manchester}
+\author{D.~Torbunov\,\orcidlink{0000-0003-0132-5344}}\affiliation{\BNL}
+\author{D.~Totani\,\orcidlink{0000-0001-9685-1800}}\affiliation{\UCSB}
+\author{M.~Toups\,\orcidlink{0000-0001-6584-9011}}\affiliation{\FNAL}
+\author{A.~Trettin\,\orcidlink{0000-0003-0350-3597}}\affiliation{\Manchester}
+\author{Y.-T.~Tsai\,\orcidlink{0000-0001-7011-3551}}\affiliation{\SLAC}
+\author{J.~Tyler\,\orcidlink{0000-0003-1661-8289}}\affiliation{\KSU}
+\author{M.~A.~Uchida\,\orcidlink{0000-0002-6496-2319}}\affiliation{\Cambridge}
+\author{T.~Usher\,\orcidlink{0000-0003-0627-745X}}\affiliation{\SLAC}
+\author{B.~Viren\,\orcidlink{0000-0002-4880-6308}}\affiliation{\BNL}
+\author{J.~Wang}\affiliation{\Nankai}
+\author{L.~Wang}\affiliation{\Edinburgh}
+\author{M.~Weber\,\orcidlink{0000-0002-2770-9031}}\affiliation{\Bern}
+\author{H.~Wei\,\orcidlink{0000-0003-1973-4912}}\affiliation{\Louisiana}
+\author{A.~J.~White}\affiliation{\Chicago}
+\author{S.~Wolbers\,\orcidlink{0000-0003-2782-7158}}\affiliation{\FNAL}
+\author{T.~Wongjirad\,\orcidlink{0000-0001-7630-5175}}\affiliation{\Tufts}
+\author{K.~Wresilo\,\orcidlink{0000-0002-3575-2814}}\affiliation{\Cambridge}
+\author{W.~Wu\,\orcidlink{0000-0003-2632-7215}}\affiliation{\Pitt}
+\author{E.~Yandel\,\orcidlink{0000-0002-7712-3709}}\affiliation{\LANL}
+\author{T.~Yang\,\orcidlink{0000-0002-3190-9941}}\affiliation{\FNAL}
+\author{L.~E.~Yates\,\orcidlink{0000-0001-7495-3224}}\affiliation{\NotreDame}
+\author{H.~W.~Yu\,\orcidlink{0000-0002-2973-4580}}\affiliation{\BNL}
+\author{G.~P.~Zeller\,\orcidlink{0000-0002-2539-1808}}\affiliation{\FNAL}
+\author{J.~Zennamo\,\orcidlink{0000-0002-1268-2470}}\affiliation{\FNAL}
+\author{C.~Zhang\,\orcidlink{0000-0003-2298-6272}}\affiliation{\BNL}
+\author{Y.~Zhang\,\orcidlink{0000-0002-6812-761X}}\affiliation{\BNL}
+\collaboration{The MicroBooNE Collaboration}
+\thanks{microboone\_info@fnal.gov}\noaffiliation
+
+\begin{abstract}
+We report a measurement of the charged-current coherent pion production cross section on argon using the MicroBooNE liquid argon time projection chamber exposed to the Booster Neutrino Beam at Fermilab. The measurement uses the MicroBooNE data set corresponding to $1.26 \times 10^{21}$ protons on target with a mean neutrino energy of $0.8$~GeV. The flux-averaged cross section is measured to be $(9.1 \pm 1.2_{\text{stat}} \pm 1.2_\text{syst}) \times 10^{-40}\,\text{cm}^2/\text{Ar}$. This result represents the first measurement of charged-current coherent pion production on argon at sub-GeV neutrino energies. Due to its clean two-body kinematics, where the neutrino interacts coherently with the entire nucleus producing a forward muon and pion with no nuclear breakup, this process provides a useful tool for constraining neutrino flux uncertainties in current and future oscillation experiments such as DUNE.
+\end{abstract}
+
+\maketitle
+
+%\begingroup
+%\collaboration{The MicroBooNE Collaboration}
+%\thanks{microboone_info@fnal.gov}\noaffiliation
+
+%\renewcommand\thefootnote{}
+%\footnotetext{*Contact author: microboone\_info@fnal.gov}
+%\endgroup
+
+\textit{Introduction ---} A precise understanding of the neutrino flux is essential for the next generation of long-baseline oscillation experiments such as the Deep Underground Neutrino Experiment (DUNE), which aims to measure neutrino oscillation parameters with unprecedented precision \cite{Abi2020DUNE}. Achieving this precision requires percent-level control of flux-related systematic uncertainties. $\nu_\mu$-induced charged-current coherent pion ($\nu_\mu$CC$\pi^+_c$) production offers a promising handle on the $\nu_\mu$ component of the neutrino flux. This follows from its simple two-body final-state kinematics, characterized by a forward muon-pion system with the nucleus remaining intact, enabling a precise determination of the neutrino energy. Due to this unique attribute, this process has been proposed as a handle for constraining neutrino fluxes in situ \cite{Jung2025}. The use of this process as a flux constraint, however, depends on an accurate understanding of its cross section motivating precise experimental measurements. Although $\nu_\mu$CC$\pi^+_c$ production is theoretically connected to pion-nucleus elastic scattering via Adler’s relation \cite{Adler}, this connection is exact only in the high-energy limit where lepton-mass effects can be neglected, and additional assumptions are required when extending these models to lower neutrino energies \cite{PhysRevD.79.013002}. Consequently, current generator predictions exhibit significant differences. Measurements of $\nu_\mu$CC$\pi^+_c$ production on argon at current liquid-argon time projection chamber (LArTPC) experiments are, therefore, critical to assess these models and to establish the viability of this channel as a flux constraint for DUNE. 
+
+
+In $\nu_\mu$CC$\pi^+_c$ production, a neutrino scatters on the entire nucleus via the weak interaction, leaving the nucleus intact while producing a muon and a pion in the final state. The reaction
+\[
+\nu_{\mu} + \mathrm{Ar} \;\rightarrow\; \mu^{-} + \pi^{+} + \mathrm{Ar}
+\]
+is characterized by a forward-going lepton and meson and minimal vertex activity, since the target nucleus remains in its ground state. Theoretical descriptions of $\nu_\mu$CC$\pi^+_c$ production are rooted in the partially conserved axial current (PCAC) hypothesis \cite{ReinSehgal1983}. The Rein-Sehgal formalism \cite{ReinSehgal_Update} and later refinements by Berger and Sehgal \cite{BergerSehgal_2009} incorporate lepton-mass effects and improved treatments of pion-nucleus scattering. While alternative microscopic models of $\nu_\mu$CC$\pi^+_c$ production exist, the Berger-Sehgal model is commonly implemented in neutrino event generators and is used as the baseline prediction in this analysis.
+
+Experimentally, CC coherent pion production has been measured on a variety of targets, including carbon, oxygen, lead, and iron, by MINERvA and T2K \cite{MINERvA_CohCC,T2K_CohCC, T2K_CohCC_2023}. Complementary measurements of neutral current coherent $\pi^0$ production have been reported by NOMAD,  MINOS, and NOvA, offering additional constraints on coherent interaction modeling \cite{KULLENBERG2009177, PhysRevD.94.072006, PhysRevD.102.012004}. The ArgoNeuT experiment provided the first measurement on argon at multi-GeV neutrino energies (with a mean of $\sim 4$~GeV) using a small LArTPC exposed to the NuMI beam \cite{ArgoNeuT2014}. Measurements at lower neutrino energies have not yet been reported. 
+
+In this Letter, we present the first measurement of the flux-averaged $\nu_\mu$CC$\pi^+_c$ production cross section on argon at sub-GeV neutrino energies. The measurement is performed with the MicroBooNE  LArTPC \cite{MicroBooNE_Detector} exposed to the Fermilab Booster Neutrino Beam (BNB). The dataset corresponds to an exposure of $1.26\times10^{21}$ protons on target (POT) collected between 2015 and 2020. 
+
+The MicroBooNE detector is a single-phase LArTPC with an active mass of 85\,t (metric tons) enclosed in a 170\,t cryostat, located 470 m downstream of the BNB target. Its active volume ($2.32\times2.56\times10.36 \, \text{m}^3$) is bounded by a cathode plane and three anode wire planes oriented at $0^{\circ}$ and $\pm60^{\circ}$ relative to the vertical \cite{MicroBooNE_Detector}. The fine-grained tracking and calorimetry of the detector, together with the large available statistics, enable isolation of this rare process, predicted to account for only about 0.15\% of neutrino interactions in simulation, and a detailed study of its kinematics providing quantitative input to neutrino-nucleus interaction models.
+
+The BNB delivers a predominantly $\nu_{\mu}$ flux with a mean energy of 0.8~GeV, composed of 93.6\%  $\nu_{\mu}$, 5.86\% $\bar{\nu}_{\mu}$, and 0.57\% $\nu_e + \bar{\nu}_e$. In this energy regime, quasielastic (QE) interactions dominate and are topologically distinct from $\nu_\mu$CC$\pi^+_c$ production, making them relatively easy to reject. At higher neutrino energies, pion-rich resonant (RES) and deep-inelastic scattering (DIS) processes become more common and introduce backgrounds that are harder to reject, with little change in the $\nu_\mu$CC$\pi^+_c$ cross section. MicroBooNE’s millimeter-scale spatial resolution provides angular precision of $\sim$\,$2.4^{\circ}$ for forward muons, a capability essential for isolating the coherent topology from background processes.
+
+\textit{Simulation and Reconstruction ---} The BNB flux is simulated with the MiniBooNE flux model adapted to the MicroBooNE detector location \cite{MiniBooNE_Flux}. The flux prediction is based on the Geant4 framework with external hadron production data providing constraints on $\pi^{\pm}$ and $K^{+}$ production \cite{HARP2007,SciBooNE2011}. Neutrino interactions in liquid argon are simulated using \texttt{GENIE v3.0.6} \cite{GENIE2010}
+with the \texttt{G18\_10a\_02\_11a} model set. The MicroBooNE tune \cite{MicroBooNE_Tune} is applied to this baseline configuration, modifying the CCQE and CC2p2h (MEC) interaction models based on constraints from external data from T2K. The tune does not affect the modeling of RES, coherent, or DIS scattering processes. In \texttt{GENIE}, $\nu_\mu$CC$\pi^+_c$ is modeled using the Berger-Sehgal formalism \cite{BergerSehgal_2009}. Resonant pion production, which constitutes the dominant background to this measurement, is described using the Kuzmin-Lyubushkin-Naumov Berger-Sehgal model \cite{10.1063/1.3274164, doi:10.1142/S0217732304016172, ReinSehgal_Update, PhysRevD.77.053001}. Final-state interactions (FSI) are modeled using the hA2018 intranuclear cascade.
+
+Particle propagation through the detector is simulated with \texttt{Geant4 v4\_10\_3\_p03c} using the \texttt{QGSP\_BERT} physics list, which accounts for hadronic interactions and electromagnetic processes in liquid argon \cite{Agostinelli2003, Allison2006, Allison2016}. The detector response to ionization electrons and scintillation light is modeled including diffusion, attenuation, and recombination effects \cite{Adams2018_SP1, Adams2018_SP2}. Simulated neutrino interactions are overlaid with data collected when the neutrino beam was off to reproduce backgrounds from electronics noise and cosmic rays, the latter being significant for a surface-based detector like MicroBooNE. Additional samples of simulated neutrino interactions outside the cryostat are included to account for “out-of-cryostat” backgrounds from upstream interactions. 
+
+Event reconstruction is carried out using the Pandora multi-algorithm pattern recognition framework \cite{MicroBooNE_Pandora2018}. The same reconstruction chain is applied to both data and simulation. Following signal processing and hit formation from the TPC wires, Pandora clusters hits into candidate tracks and showers, builds three-dimensional topologies, and assigns parent-daughter relationships between reconstructed particles. Cosmic-ray rejection is performed using timing information from the photomultiplier tube system to distinguish beam-related activity from out-of-time cosmic rays. It also relies on topological classification of reconstructed interaction candidates identified by Pandora. Particle identification is applied using calorimetric and topological information including a log-likelihood ratio (LLR PID) method that compares measured $dE/dx$ profiles against particle hypotheses \cite{MicroBooNE_LLRPID2021}. 
+
+\textit{Signal Definition and Event Selection ---} The signal is defined as $\nu_\mu$CC$\pi^+_c$ production on argon corresponding to interactions in which the final state contains exactly one muon and one charged pion, with no additional mesons or nucleons produced and with the nucleus remaining in its ground state. True signal events are identified using the coherent interaction classification provided by the \texttt{GENIE} event generator. The \texttt{GENIE} simulation is employed only to model the expected shapes of the signal and background distributions and to evaluate selection efficiencies. The measured cross section is extracted directly from data rather than taken from the simulation prediction. To ensure efficient reconstruction and selection, the analysis phase space is further restricted by requiring true muon and pion momenta of $p_{\mu},\,p_{\pi} > 150~\mathrm{MeV}/c$ and an opening angle $\theta_{\mu\pi} < 55^{\circ}$. The reconstruction of muon and pion momenta is performed using multiple Coulomb scattering (MCS) \cite{Abratenko_2017}, as range-based momentum estimates are not reliable for tracks that exit the active detector volume.
+
+Candidate events are required to have a reconstructed neutrino interaction vertex within the MicroBooNE fiducial volume ($10.0 \leq x \leq 246.4$~cm, $-106.5 \leq y \leq 106.5$~cm, $10.0 \leq z \leq 1000.0$~cm), where $x$, $y$, and $z$ denote the horizontal drift, vertical, and beam directions, respectively. They are further required to have two well-reconstructed tracks originating within 10\,cm of the vertex, consistent with the muon-pion final state expected from $\nu_\mu$CC$\pi^+_c$ interactions. Tracks are required to be contained in the transverse ($x,y$) directions, while no containment is imposed on the tracks in the downstream beam ($z$) direction. This reflects the strongly forward-going nature of the coherent signal and improves overall selection efficiency and sample statistics. To remove events containing protons and highly ionizing tracks, both selected tracks are required to be consistent with \textit{minimally ionizing particles}, defined by a truncated mean $dE/dx < 2.5~\mathrm{MeV/cm}$ calculated using hits from the first third of the track, well before the Bragg peak \cite{abratenko2025measurementsinglechargedpion}, and to satisfy the LLR PID criterion that quantifies consistency with muon or pion hypotheses relative to a proton. To suppress the backgrounds from low-energy protons and poorly reconstructed tracks, both tracks are, additionally, required to have a reconstructed length greater than 20~cm, which ensures reliable calorimetric measurements and particle identification. These requirements ensure consistency with the expected signatures of a muon and a pion while rejecting tracks consistent with protons.
+
+The forward, collimated topology of the coherent signal is isolated using angular requirements on the muon and pion. The opening angle between the two tracks is required to be less than $55^{\circ}$, which removes 82\% of the large-angle pion production from RES and DIS scattering. In addition, the cone angle ($\theta_{\text{cone}}$), defined as the angle between the direction of the neutrino beam and the momentum vector of the muon+pion system, is used as a discriminating observable between coherent and resonant pion production.
+
+After all selections, the resulting sample achieves a signal purity of 32\% at an efficiency of 14.5\% in the signal-enhanced region, defined by $\theta_{\mathrm{cone}} < 16^\circ$, which is chosen to maximize signal purity while retaining reasonable efficiency. The remaining background is dominated by resonant pion production, which constitutes an irreducible background due to its similar final-state topology, particularly when the recoil nucleon is either below detection threshold or not reconstructed, including channels with final-state neutrons. The complementary region, $16^\circ < \theta_{\mathrm{cone}} < 56^\circ$, defines a background-dominated control region used to validate the background model.
+\begin{figure}[h!]
+\includegraphics[width=0.95\linewidth]{figures/Event_Display.png}
+\caption{\label{fig:eventdisplay}
+Event display of a $\nu_\mu$CC$\pi^+_c$ candidate from BNB data.}
+\end{figure}
+
+Figure~\ref{fig:eventdisplay} shows the event display of a $\nu_\mu$CC$\pi^+_c$ candidate in MicroBooNE from BNB data. The reconstructed topology shows forward-going muon and pion candidates emerging from a common vertex with no visible additional tracks or vertex activity, consistent with the coherent scattering signature. The primary muon produces a visible Michel electron candidate, while the muon from the pion decay is not visible and is inferred from a Michel electron consistent with $\pi^{\pm} \to \mu^{\pm} \to e^{\pm}$.
+
+
+\textit{Signal Extraction ---} The simulated $\nu_\mu$CC$\pi^+_c$ signal and background distributions are both forward-peaked, as shown in Fig.~\ref{fig:coneangle_data}; however, their angular distributions exhibit distinct behaviors. The signal produces a sharp, localized peak at small cone angles; non-coherent backgrounds show a smoothly falling spectrum. This difference in shape enables a data-driven separation of signal and background contributions. A finer binning is used for the simulated signal template to better resolve the coherent peak. The corresponding signal and background templates are modeled as exponential functions, $Y_{\text{Signal}}(\theta)=p_{0}\,e^{p_{1}\theta}$ and $Y_{\text{Background}}(\theta)=q_{0}\,e^{q_{1}\theta}$, where $p_{1}$ and $q_{1}$ describe the shape parameters extracted from simulation. The signal and background templates are first fit to simulated events to determine the shape parameters $p_1$ and $q_1$. The normalization constants $p_{0}$ and $q_{0}$ cancel when constructing the normalized templates used in Eq.~(\ref{eq:fit_model}). In the fit to data, $Y_{\text{Data}}(\theta)$, the shapes ($p_{1}$ and $q_{1}$) are fixed while the signal ($S$) and background ($B$) normalizations are allowed to float according to
+\begin{equation}
+Y_{\text{Data}}(\theta) = S \cdot \frac{Y_{\text{Signal}}(\theta)}{\int Y_{\text{Signal}}\,d\theta} 
+                  + B \cdot \frac{Y_{\text{Background}}(\theta)}{\int Y_{\text{Background}}\,d\theta}.
+\label{eq:fit_model}
+\end{equation}
+This formulation isolates the normalization of the coherent signal while remaining largely insensitive to simulation-dependent rate uncertainties. It is validated using simulated events treated as data, reproducing signal and background normalizations within statistical uncertainties. This strategy exploits the distinct kinematic differences between coherent and non-coherent processes while minimizing reliance on simulated cross sections or event rates enabling a robust, data-driven extraction of the coherent signal yield.
+
+After applying all the $\nu_\mu$CC$\pi^+_c$ selection criteria, a total of 464 events are observed in the data. The simultaneous fit to the data described above, performed using MINUIT \cite{minuit}, estimates $125 \pm 17.2_\mathrm{stat} \pm 13.7_\mathrm{syst}$ coherent signal events and $333 \pm 22.4_\mathrm{stat} \pm 14.6_\mathrm{syst}$ non-coherent background events. The quoted systematic uncertainties on the fitted signal and background yields include only template-shape variations propagated through the fit. The fit decomposes the observed distribution into signal-like and background-like components using template shapes determined from simulation. An excess of events is observed in the forward region ($\theta_{\mathrm{cone}} < 16^{\circ}$), where the coherent signal is expected to dominate. The \texttt{GENIE} simulation predicts $68$ signal events. Fits to the simulated signal and background templates yield $\chi^{2}/\mathrm{ndf}=8.1/7$ and $9.9/9$, respectively. Using these fixed template shapes, the simultaneous fit to the data yields $\chi^{2}/\mathrm{ndf}=8.3/9$. A comparable value of $\chi^{2}/\mathrm{ndf}=8.3/9$ is obtained in the background-dominated control region, indicating good agreement between the fitted model and the observed data. Contributions from cosmic rays and out-of-cryostat interactions are negligible.
+
+\begin{figure}[h]
+\includegraphics[width=1.0\linewidth]{figures/coneangle.pdf}
+\caption{\label{fig:coneangle_data}
+Distribution of $1-\cos\theta_{\rm cone}$ for selected events in data compared with the total MC prediction and the fitted signal-plus-background model. The $\nu_\mu$CC$\pi^+_c$ signal exhibits a pronounced forward peak characteristic of coherent pion production, while non-coherent backgrounds form a smoothly falling spectrum at larger angles. The truth-selected signal prediction (pink) is overlaid with finer binning to illustrate the narrow forward peak and is not included in the stacked background. The $\chi^{2}/\mathrm{ndf}$ values for the signal-template fit, background-template fit, simultaneous fit to data, and control-region validation are reported on the plot.}
+\end{figure}
+
+As an additional validation of $\nu_\mu$CC$\pi^+_c$ production, we consider the squared four-momentum transfer to the argon nucleus, $|t| \equiv |(p_\nu - p_\mu - p_{\pi})^2|$, reconstructed from the measured muon and pion four-momenta. The post-fit $|t|$ distribution shown in Fig.~\ref{fig:q2} is obtained by applying the fitted signal ($S$) and background ($B$) normalizations from the $1-\cos\theta_{\text{cone}}$ fit to the simulated $|t|$ templates. This procedure propagates the fit results without introducing additional degrees of freedom. The resulting distribution exhibits an excess at low $|t|$, as expected for coherent scattering, providing an independent validation of the extracted signal.
+
+\begin{figure}[h]
+\includegraphics[width=1.0\linewidth]{figures/t.pdf}
+\caption{\label{fig:q2}
+Distribution of the squared four-momentum transfer, $|t|$. The blue dashed line shows the post-fit prediction obtained using the fitted signal and background normalizations, while the colored stacked histograms correspond to the nominal \texttt{GENIE} simulation. The selected sample exhibits the expected suppression at large $|t|$, consistent with the presence of a coherent signal.}
+\end{figure}
+
+\textit{Systematic Uncertainties ---} Systematic uncertainties are evaluated by propagating variations in the detector response, neutrino flux, hadronic reinteraction modeling, and neutrino interaction cross-section modeling through the full data-driven fitting procedure. Each category is independently assessed, and the resulting variations in the normalizations of the fitted signal ($S$) and the background ($B$) are combined to form the total systematic uncertainty.
+
+Detector-related uncertainties are evaluated using dedicated simulation samples in which individual detector parameters are varied within their estimated uncertainties. The varied detector response parameters include light attenuation and yield in liquid argon, optical scattering effects \cite{microboonecollaboration2026scintillationlightcalibrationssystematic}, distortions in the electric and wire-field response, variations in the ion-electron recombination model, and space-charge effects that modify the reconstructed charge distribution \cite{Abratenko_2020, Abratenko2022UNISIM}. These variations collectively account for uncertainties in charge and light collection, which impact energy and $dE/dx$ reconstruction.
+
+Uncertainties associated with the BNB flux \cite{MicroBooNE2018BNBFlux}, \texttt{GENIE} cross-section modeling \cite{MicroBooNE_Tune}, and hadronic reinteractions \cite{Calcutt_2021} in the detector are evaluated by varying the relevant parameters and propagating these variations through the analysis. Ensembles of systematically varied simulation samples are generated to capture correlated effects arising from hadron production, neutrino interaction models, and intranuclear transport processes.
+
+The central value (CV) fit to simulation provides the shape parameters $p_{1}^{CV}$ and $q_{1}^{CV}$ for signal and background, respectively, obtained from MINUIT \cite{minuit}. This central value fit is performed once and serves as the reference for all systematic variations. Systematic uncertainties are evaluated by repeating the fits on systematically varied samples. For each variation, new shape parameters for signal and background are obtained, and their shifts relative to the CV fit are defined as $\delta{p}$ and $\delta{q}$. A fit to the data is repeated every time for $p_{1}^{CV} \pm \delta{p}$ and $q_{1}^{CV} \pm \delta{q}$ separately. The resulting change in $S$ and $B$ is recorded as systematic error due to that specific variation.
+
+The total systematic uncertainty on the $\nu_\mu$CC$\pi^+_c$ cross section is 13.1\%, obtained by combining in quadrature the systematic uncertainty on the fitted signal yield with normalization uncertainties from the neutrino flux, POT determination, and number of argon targets. The dominant contributions arise from neutrino flux prediction (8.1\%), cross-section modeling (7.5\%), and detector effects (6.6\%). Subdominant contributions come from the POT determination (2.0\%), hadronic reinteractions (1.2\%), and the number of argon targets (1.0\%).
+
+The cross section extraction procedure is validated using simulated events generated with an alternative interaction model and treated as data. In particular, a NuWro sample, which predicts significantly different $\nu_\mu$CC$\pi^+_c$ production rates compared to \texttt{GENIE}, is used to test the robustness of the method. The extracted signal and background yields are consistent with the corresponding truth values within statistical uncertainties, demonstrating that the largely normalization-independent approach is robust against such model differences.
+
+\textit{Results ---} The total flux-averaged $\nu_\mu$CC$\pi^+_c$ production cross section on argon is measured to be
+\begin{equation*}
+    \sigma_{\text{CC\,Coh}} = (9.1 \pm 1.2 _{\text{stat}} \pm 1.2_\text{syst}) \times 10^{-40}\,\text{cm}^{2}/\text{Ar.}
+\end{equation*}
+
+This result represents the first measurement of the $\nu_\mu$CC$\pi^+_c$ production cross section on an argon target at sub-GeV neutrino energies. The measurement is compared with model predictions implemented in the \texttt{GENIE 3.0.6 G18\_10a\_02\_11a} \cite{MicroBooNE_Tune} (labeled \texttt{GENIE 3.0.6 G18 $\mu B$}), \texttt{NEUT 6.1.4} \cite{Hayato2021NEUT}, and \texttt{NuWro 25.11} \cite{Golan2012FSI} neutrino event generators, all based on the same Berger-Sehgal (BS) formalism. The comparison also includes an alternative \texttt{GENIE 3.6.2 G18\_10a\_02\_11a} configuration based on the Rein-Sehgal (RS) model. The comparison is performed using the \texttt{NUISANCE} framework \cite{Stowell_2017}.
+
+A summary of the measured and predicted cross sections is presented in Table~\ref{tab:coh_results}. The measured cross section is in good agreement with the \texttt{NEUT} and \texttt{GENIE} RS predictions, while the \texttt{GENIE} Berger-Sehgal (BS) and \texttt{NuWro} predictions show increasing tension with the data. Using the combined statistical and systematic uncertainty, a one-bin ($\mathrm{ndf}=1$) $\chi^2$ comparison yields $\chi^2 = 0.3$ for \texttt{GENIE} RS, $\chi^2 = 0.9$ for \texttt{NEUT}, $\chi^2 = 5.8$ for \texttt{GENIE} BS, and $\chi^2 = 8.3$ for \texttt{NuWro}. The spread in predictions reflects differences in the underlying implementations of $\nu_\mu$CC$\pi^+_c$ production across generators. Discrepancies between the data and several generators, as well as among generators themselves, highlight the need for precise cross-section measurements of this process.
+\begin{table}[h]
+\centering
+\caption{Comparison of the measured $\nu_\mu$CC$\pi^+_c$ cross section on argon with model predictions. All values are flux-averaged and expressed in units of $10^{-40}\,\text{cm}^2/\text{Ar}$.}
+\label{tab:coh_results}
+\begin{ruledtabular}
+\begin{tabular}{l c c}
+Model/Measurement & Cross Section & \textbf{$\chi^2/n_{bins}$}\\
+\hline
+Measured (MicroBooNE) & \multicolumn{2}{l}{$9.1 \pm 1.2_{\text{stat}} \pm 1.2_\text{syst}$} \\ \hline
+\scriptsize \texttt{GENIE 3.0.6 G18 $\mu B$} & $5.0$ & $5.8/1$ \\
+\scriptsize \texttt{GENIE 3.6.2 G18\_10a\_02\_11a} (RS) & $10.1$ & $0.3/1$ \\
+\scriptsize \texttt{NEUT 6.1.4}  & $10.7$ & 0.9/1\\
+\scriptsize \texttt{NuWro 25.11}  & $14.0$ & 8.3/1\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\textit{Conclusion ---} We have presented the first measurement of the flux-averaged $\nu_\mu$CC$\pi^+_c$ production cross section on argon at sub-GeV neutrino energies using the MicroBooNE detector exposed to the Fermilab Booster Neutrino Beam.  This analysis isolates the coherent topology by exploiting the fine angular resolution of a liquid-argon time projection chamber and employs a data-driven fit to extract the signal yield with minimal model dependence. The measured cross section is consistent with \texttt{NEUT} and \texttt{GENIE} Rein-Sehgal predictions, while \texttt{GENIE} Berger-Sehgal and \texttt{NuWro} show tension with the data. This result provides the most precise constraint on this process to date at BNB energies and establishes a benchmark for improving neutrino-nucleus interaction models. Such measurements are useful for reducing flux uncertainties in future long-baseline experiments like DUNE, where coherent pion production has been proposed as a standard candle for $\nu_{\mu}$ flux normalization. Future measurements from SBND \cite{SBND} and ICARUS \cite{ICARUS_SBN}, using the same neutrino beam at different baselines, will enable a rigorous multi-detector constraint on coherent pion modeling and further constrain these models.
+
+\textit{Acknowledgements ---} This document was prepared by the MicroBooNE collaboration using the resources of the Fermi National Accelerator Laboratory (Fermilab), a U.S. Department of Energy, Office of Science, Office of High Energy Physics HEP User Facility. Fermilab is managed by Fermi Forward Discovery Group, LLC, acting under Contract No. 89243024CSC000002. MicroBooNE is supported by the
+following: 
+the U.S. Department of Energy, Office of Science, Offices of High Energy Physics and Nuclear Physics; 
+the U.S. National Science Foundation; 
+the Swiss National Science Foundation; 
+the Science and Technology Facilities Council (STFC), part of United Kingdom Research and Innovation (UKRI);
+the Royal Society (United Kingdom);
+the UKRI Future Leaders Fellowship;
+the NSF AI Institute for Artificial Intelligence and Fundamental Interactions;
+and the European Union’s Horizon 2020 research and innovation programme under the Marie Sk\l{}odowska-Curie grant agreement No. 101003460 (PROBES). Additional support for the laser calibration system and cosmic ray tagger was provided by the Albert Einstein Center for Fundamental Physics, Bern, Switzerland. We also acknowledge the contributions of technical and scientific staff to the design, construction, and operation of the MicroBooNE detector as well as the contributions of past collaborators to the development of MicroBooNE analyses, without whom this work would not have been possible.
+
+\bibliography{main}% Produces the bibliography via BibTeX.
+
+\end{document}
+

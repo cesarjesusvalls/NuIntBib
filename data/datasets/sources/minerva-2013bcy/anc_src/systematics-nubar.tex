@@ -1,0 +1,82 @@
+%\section{Systematic Uncertainties} 
+
+\input{systematics_table_nubar.tex}
+
+The main sources of systematic uncertainty in the differential
+cross-section measurement are due to: the reconstruction of the muon;  
+the reconstruction and detector response for hadrons; 
+ the neutrino interaction model; final state interactions; 
+and the neutrino flux.  These uncertainties are evaluated by 
+repeating the cross-section analysis with systematic shifts 
+applied to the simulation and their effect is shown in 
+Tab.~\ref{tab:systematics}.
+
+%The second largest uncertainty comes from the muon momentum scale in MINOS. 
+Uncertainties in the muon energy scale have a direct impact on $Q^{2}_{QE}$ and result in a bin migration of events. The bulk of the uncertainty comes from \minos, which reconstructs muon energy by range (for stopping tracks) and curvature (exiting). There is a 2.0\% uncertainty in the range measurement, due to the material assay and imperfect knowledge of muon energy loss\cite{Michael:2008bc}. Using muon tracks which stop in the detector, we compare the momentum measured by range and curvature to establish an additional uncertainty of 0.6\% (2.6\%) on curvature measurements above (below) \unit[1]{GeV/c}.
+We also account for subdominant uncertainties on the  
+ energy loss in \minerva, systematic offsets in the 
+beam angle, mis-modeling of the angular and position resolution, 
+and tracking efficiencies.
+
+The systematic error on the recoil energy measurement is due to the
+uncertainty in the \minerva detector energy scale set by muons and
+differences between the simulated calorimetric response 
+to single hadrons and the response measured by the test beam program.
+Additional uncertainties are due to differences between the Geant model of
+neutron interactions and thin target data on neutron scattering in
+carbon, iron and copper\cite{Abfalterer:2001gw,Schimmerling:1973bb,Voss:1956,Slypen:1995fm,Franz:1989cf,Tippawan:2008xk,Bevilacqua:2013rfq,Zanelli:1981zz}.   We evaluate further sources of systematic error 
+by loosening analysis cuts on energy near the vertex 
+and on extra isolated energy depositions, repeating the 
+fit to the background and subsequent analysis, and assigning
+ an uncertainty to cover the difference.  
+
+Predictions for $Q^{2}_{QE}$ and recoil energy distributions for neutrino-induced background processes are based upon the GENIE generator. We evaluate the systematic error by varying the underlying model tuning parameters according to their uncertainties~\cite{Andreopoulos201087}. These include parameters governing inelastic interactions of neutrinos with nucleons and those that vary the final state interactions.  
+
+The systematic error on the antineutrino flux arises from uncertainties in hadron production in the NuMI target and beamline, and from imperfect modeling of the beamline focusing and geometry~\cite{Pavlovic:2008zz}.  Where hadron production is constrained by NA49 data\cite{Alt:2006fr}, the NA49 measurement uncertainties dominate.  The uncertainty on other interactions is evaluated from the spread between different Geant4 hadron production models~
+%\cite{Agostinelli2003250}. 
+\cite{Agostinelli2003250,1610988}
+The absolute flux uncertainties are large, with a significant $E_\nu$ dependence, but mostly cancel in a measurement of the shape of $d\sigma /dQ^2_{QE}$.
+
+
+
+
+%The largest uncertainties in this measurement are due to uncertainties in the %flux, which themselves are dominated by those associated with 
+%hadron production.  When hadron production is
+%constrained by the NA49 data, the NA49 measurement uncertainties are
+%the dominant source~\cite{Alt:2006fr}.  For interactions resulting from
+%pions outside the NA49 acceptance or which result from
+%reinteractions of pions or secondary nucleons, the uncertainties are
+%evaluated by taking the differences between different Geant4 hadron
+%production models: FTFP (BERT), QGSP (BERT)
+%and FLUKA.  The flux uncertainty from the beamline geometry and
+%focusing fields is dominated by an imperfect knowlege of the horn current and
+%radial distribution of that current in the horn's inner
+%conductor~\cite{Pavlovic:2008zz}.  The flux uncertainties, although dominant at
+%almost all $Q^2_{QE}$ as
+%shown in Fig.~\ref{fig:syst_err}, are nearly constant with
+%$Q^2_{QE}$ and are negligible in a
+%measurement of the shape of the $Q^2_{QE}$ distribution.
+
+%The second largest uncertainty in the differential cross-section
+%comes from the uncertainty in muon momentum scale in the MINOS
+%spectrometer.  Uncertainties in modeling of muon energy loss
+%processes, in tracking near the track endpoint, 
+%and limitations in a test beam calibration limit the accuracy of the
+%momentum measured by range of the muons in the MINOS spectrometer to
+%2.0\%.  The calibration of momentum measured by track curvature studies %differences between momenta measured by range to that measured by
+%curvature, and comparisons of these differences in data and simulation
+%lead to an additional uncertainty of 0.6\% (2.6\%) for whose curvature momentum %is above (below) 1~GeV; this uncertainty is uncorrelated with that of the range
+%measurement.  
+
+
+%The fit of the
+%recoil distribution to that measured in data to determine the
+%background fraction reduces these uncertainties in the final result.
+
+%\begin{figure}[tp]
+%\centering
+%\includegraphics[width=75mm, trim=2cm 0 2cm 0]{figures/err_summary_total_bayes_variedbackgrounds_fit_sometimesUnsmeared_standard_minerva}
+%\caption{Systematic uncertainty summary for the 
+%cross-section shape measurement as a function of $Q^2_{QE}$.  }
+%\label{fig:syst_err}
+%\end{figure}
