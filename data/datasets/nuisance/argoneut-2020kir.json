@@ -1,0 +1,43 @@
+{
+ "bibtag": "ArgoNeuT:2020kir",
+ "slug": "argoneut-2020kir",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2004.01956",
+ "arxiv": "2004.01956",
+ "cite": "Phys.Rev.D 102 011101",
+ "note": "First combined nu_e + nubar_e charged-current inclusive total cross section on argon (per argon nucleus), ArgoNeuT in the Fermilab NuMI low-energy antineutrino-mode beam. Single flux-integrated value; the bin brackets the nu_e (10.5 GeV) and nubar_e (4.3 GeV) mean energies. A dsigma/dtheta_e is published in a figure only (not ingested). Requires both nu_e and nubar_e fluxes for interpretation. Value transcribed from the paper text; no covariance.",
+ "distributions": [
+  {
+   "key": "dsigma_total",
+   "slug": "dsigma_total",
+   "name": "\u03c3 (nue+nuebar)",
+   "name_tex": "$\\sigma\\ (nue+nuebar)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-36}cm^2/\\mathrm{Ar}",
+   "yunit_tex": "$10^{-36}cm^2/\\mathrm{Ar}$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.3,
+     "hi": 10.5,
+     "center": 7.4,
+     "val": 1.04,
+     "err": 0.4249
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/argoneut-2020kir/total.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2004.01956",
+   "provenance": "ArgoNeuT combined nu_e+nubar_e CC inclusive total cross section on argon (NuMI LE antineutrino mode, arXiv:2004.01956) - per argon nucleus - single flux-integrated value (1.04 +/- 0.38(stat) +0.15/-0.23(syst) x10^-36 cm^2), stat+syst in quadrature - transcribed from the paper text",
+   "notes": ""
+  }
+ ]
+}
