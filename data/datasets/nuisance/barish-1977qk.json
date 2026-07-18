@@ -1,0 +1,99 @@
+{
+ "bibtag": "Barish:1977qk",
+ "slug": "barish-1977qk",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins5566",
+ "arxiv": null,
+ "cite": "Phys.Rev.D 16 3103",
+ "note": "Quasi-elastic total cross section for \u03bd\u03bc n \u2192 \u03bc\u207b p as a function of neutrino lab momentum. Target: neutron (per neutron, free nucleon reaction NUMU N --> MU- P). From the HepData record.",
+ "distributions": [
+  {
+   "key": "dsigma_barish-1977qk-ccqe_sigma_vs_plab",
+   "slug": "dsigma_barish-1977qk-ccqe_sigma_vs_plab",
+   "name": "\u03c3(\u03bd_\u03bc n to \u03bc^- p) (Quasi-elastic total cross section vs neutrino lab momentum)",
+   "name_tex": "$\\sigma(\\nu_\\mu n \\to \\mu^- p)\\ (Quasi-elastic total cross section vs neutrino lab momentum)$",
+   "xlabel": "p_\u03bd,lab",
+   "xunit": "GeV",
+   "xlabel_tex": "$p_{\\nu,\\mathrm{lab}}$",
+   "ylabel": "\u03c3(\u03bd_\u03bc n to \u03bc^- p)",
+   "ylabel_plot": "\u03c3(\u03bd_\u03bc n to \u03bc^- p)",
+   "ylabel_tex": "$\\sigma(\\nu_\\mu n \\to \\mu^- p)$",
+   "yunit": "10^{-38} cm^2/neutron",
+   "yunit_tex": "$10^{-38} cm^2/neutron$",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.23,
+     "hi": 0.23,
+     "center": 0.23,
+     "val": 0.29,
+     "err": 0.08
+    },
+    {
+     "i": 1,
+     "lo": 0.4,
+     "hi": 0.4,
+     "center": 0.4,
+     "val": 0.57,
+     "err": 0.1
+    },
+    {
+     "i": 2,
+     "lo": 0.6,
+     "hi": 0.6,
+     "center": 0.6,
+     "val": 0.77,
+     "err": 0.1
+    },
+    {
+     "i": 3,
+     "lo": 0.8,
+     "hi": 0.8,
+     "center": 0.8,
+     "val": 0.72,
+     "err": 0.14
+    },
+    {
+     "i": 4,
+     "lo": 1.02,
+     "hi": 1.02,
+     "center": 1.02,
+     "val": 0.85,
+     "err": 0.12
+    },
+    {
+     "i": 5,
+     "lo": 1.38,
+     "hi": 1.38,
+     "center": 1.38,
+     "val": 1.15,
+     "err": 0.28
+    },
+    {
+     "i": 6,
+     "lo": 1.76,
+     "hi": 1.76,
+     "center": 1.76,
+     "val": 1.02,
+     "err": 0.21
+    },
+    {
+     "i": 7,
+     "lo": 2.75,
+     "hi": 2.75,
+     "center": 2.75,
+     "val": 1.18,
+     "err": 0.33
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/barish-1977qk/ccqe_sigma_vs_plab.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins5566",
+   "provenance": "Barish:1977qk \u2014 Quasi-elastic total cross section for \u03bd\u03bc n \u2192 \u03bc\u207b p as a function of neutrino lab momentum \u00b7 target neutron (per neutron, free nucleon reaction NUMU N --> MU- P) \u00b7 from the HepData record",
+   "notes": "Barish:1977qk \u2014 Quasi-elastic total cross section for \u03bd\u03bc n \u2192 \u03bc\u207b p as a function of neutrino lab momentum. Target neutron (per neutron, free nucleon reaction NUMU N --> MU- P). From the HepData record."
+  }
+ ]
+}

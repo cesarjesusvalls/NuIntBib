@@ -1,0 +1,2363 @@
+{
+ "bibtag": "Allasia:1990uy",
+ "slug": "allasia-1990uy",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins303953",
+ "arxiv": null,
+ "cite": "Nucl.Phys.B 343 285",
+ "note": "BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elastic-like cross sections on free nucleons (n, p) tagged inside the deuteron: sigma(W) integrated over two W bins, sigma(E_nu) integrated over W<2 GeV, and dsigma/dQ^2(Q^2) in two W bins, for six reaction channels: nu_mu p -> mu- p pi+, nu_mu n -> mu- n pi+, nu_mu n -> mu- p pi0, nu_mu n -> mu- p, nubar_mu n -> mu+ n pi-, nubar_mu p -> mu+ p pi-. Target: D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record.",
+ "distributions": [
+  {
+   "key": "dsigma_sig_w_numup_mumppip",
+   "slug": "dsigma_sig_w_numup_mumppip",
+   "name": "\u03c3 (sigma(W): nu_mu p -> mu- p pi+)",
+   "name_tex": "$\\sigma\\ (sigma(W): nu_mu p -> mu- p pi+)$",
+   "xlabel": "W",
+   "xunit": "GeV",
+   "xlabel_tex": "$W$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per proton)",
+   "yunit_tex": "$1e-38 cm^2 (per proton)$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.1,
+     "hi": 1.4,
+     "center": 1.25,
+     "val": 0.54,
+     "err": 0.11209
+    },
+    {
+     "i": 1,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 0.22,
+     "err": 0.04833
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_w_numup_mumppip.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_w_numubarn_muplusnpim",
+   "slug": "dsigma_sig_w_numubarn_muplusnpim",
+   "name": "\u03c3 (sigma(W): nubar_mu n -> mu+ n pi-)",
+   "name_tex": "$\\sigma\\ (sigma(W): nubar_mu n -> mu+ n pi-)$",
+   "xlabel": "W",
+   "xunit": "GeV",
+   "xlabel_tex": "$W$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per neutron)",
+   "yunit_tex": "$1e-38 cm^2 (per neutron)$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.1,
+     "hi": 1.4,
+     "center": 1.25,
+     "val": 0.53,
+     "err": 0.10787
+    },
+    {
+     "i": 1,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 0.25,
+     "err": 0.05385
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_w_numubarn_muplusnpim.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_w_numubarp_muplusppim",
+   "slug": "dsigma_sig_w_numubarp_muplusppim",
+   "name": "\u03c3 (sigma(W): nubar_mu p -> mu+ p pi-)",
+   "name_tex": "$\\sigma\\ (sigma(W): nubar_mu p -> mu+ p pi-)$",
+   "xlabel": "W",
+   "xunit": "GeV",
+   "xlabel_tex": "$W$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per proton)",
+   "yunit_tex": "$1e-38 cm^2 (per proton)$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.1,
+     "hi": 1.4,
+     "center": 1.25,
+     "val": 0.21,
+     "err": 0.04317
+    },
+    {
+     "i": 1,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 0.32,
+     "err": 0.06705
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_w_numubarp_muplusppim.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_w_numun_mumppi0",
+   "slug": "dsigma_sig_w_numun_mumppi0",
+   "name": "\u03c3 (sigma(W): nu_mu n -> mu- p pi0)",
+   "name_tex": "$\\sigma\\ (sigma(W): nu_mu n -> mu- p pi0)$",
+   "xlabel": "W",
+   "xunit": "GeV",
+   "xlabel_tex": "$W$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per neutron)",
+   "yunit_tex": "$1e-38 cm^2 (per neutron)$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.1,
+     "hi": 1.4,
+     "center": 1.25,
+     "val": 0.19,
+     "err": 0.03929
+    },
+    {
+     "i": 1,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 0.13,
+     "err": 0.02786
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_w_numun_mumppi0.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_w_numun_mumnpip",
+   "slug": "dsigma_sig_w_numun_mumnpip",
+   "name": "\u03c3 (sigma(W): nu_mu n -> mu- n pi+)",
+   "name_tex": "$\\sigma\\ (sigma(W): nu_mu n -> mu- n pi+)$",
+   "xlabel": "W",
+   "xunit": "GeV",
+   "xlabel_tex": "$W$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per neutron)",
+   "yunit_tex": "$1e-38 cm^2 (per neutron)$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.1,
+     "hi": 1.4,
+     "center": 1.25,
+     "val": 0.18,
+     "err": 0.03736
+    },
+    {
+     "i": 1,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 0.2,
+     "err": 0.04123
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_w_numun_mumnpip.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_w_numun_mump",
+   "slug": "dsigma_sig_w_numun_mump",
+   "name": "\u03c3 (sigma(W): nu_mu n -> mu- p (single-nucleon, no pion))",
+   "name_tex": "$\\sigma\\ (sigma(W): nu_mu n -> mu- p (single-nucleon, no pion))$",
+   "xlabel": "W",
+   "xunit": "GeV",
+   "xlabel_tex": "$W$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per neutron)",
+   "yunit_tex": "$1e-38 cm^2 (per neutron)$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 0.71,
+     "err": 0.14513
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_w_numun_mump.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_e_numup_mumppip_w2",
+   "slug": "dsigma_sig_e_numup_mumppip_w2",
+   "name": "\u03c3 (sigma(E_nu, W<2 GeV): nu_mu p -> mu- p pi+)",
+   "name_tex": "$\\sigma\\ (sigma(E_nu, W<2 GeV): nu_mu p -> mu- p pi+)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per proton)",
+   "yunit_tex": "$1e-38 cm^2 (per proton)$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 7.5,
+     "hi": 7.5,
+     "center": 7.5,
+     "val": 0.88,
+     "err": 0.20755
+    },
+    {
+     "i": 1,
+     "lo": 12.5,
+     "hi": 12.5,
+     "center": 12.5,
+     "val": 0.76,
+     "err": 0.17177
+    },
+    {
+     "i": 2,
+     "lo": 17.5,
+     "hi": 17.5,
+     "center": 17.5,
+     "val": 0.82,
+     "err": 0.18247
+    },
+    {
+     "i": 3,
+     "lo": 25.0,
+     "hi": 25.0,
+     "center": 25.0,
+     "val": 0.73,
+     "err": 0.16191
+    },
+    {
+     "i": 4,
+     "lo": 40.0,
+     "hi": 40.0,
+     "center": 40.0,
+     "val": 0.7,
+     "err": 0.16125
+    },
+    {
+     "i": 5,
+     "lo": 100.0,
+     "hi": 100.0,
+     "center": 100.0,
+     "val": 0.67,
+     "err": 0.16142
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_e_numup_mumppip_w2.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_e_numubarn_muplusnpim_w2",
+   "slug": "dsigma_sig_e_numubarn_muplusnpim_w2",
+   "name": "\u03c3 (sigma(E_nu, W<2 GeV): nubar_mu n -> mu+ n pi-)",
+   "name_tex": "$\\sigma\\ (sigma(E_nu, W<2 GeV): nubar_mu n -> mu+ n pi-)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per neutron)",
+   "yunit_tex": "$1e-38 cm^2 (per neutron)$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 7.5,
+     "hi": 7.5,
+     "center": 7.5,
+     "val": 0.73,
+     "err": 0.16191
+    },
+    {
+     "i": 1,
+     "lo": 12.5,
+     "hi": 12.5,
+     "center": 12.5,
+     "val": 0.79,
+     "err": 0.16901
+    },
+    {
+     "i": 2,
+     "lo": 17.5,
+     "hi": 17.5,
+     "center": 17.5,
+     "val": 0.75,
+     "err": 0.16155
+    },
+    {
+     "i": 3,
+     "lo": 25.0,
+     "hi": 25.0,
+     "center": 25.0,
+     "val": 0.84,
+     "err": 0.17839
+    },
+    {
+     "i": 4,
+     "lo": 40.0,
+     "hi": 40.0,
+     "center": 40.0,
+     "val": 0.83,
+     "err": 0.18016
+    },
+    {
+     "i": 5,
+     "lo": 100.0,
+     "hi": 100.0,
+     "center": 100.0,
+     "val": 0.79,
+     "err": 0.18699
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_e_numubarn_muplusnpim_w2.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_e_numubarp_muplusppim_w2",
+   "slug": "dsigma_sig_e_numubarp_muplusppim_w2",
+   "name": "\u03c3 (sigma(E_nu, W<2 GeV): nubar_mu p -> mu+ p pi-)",
+   "name_tex": "$\\sigma\\ (sigma(E_nu, W<2 GeV): nubar_mu p -> mu+ p pi-)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per proton)",
+   "yunit_tex": "$1e-38 cm^2 (per proton)$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 7.5,
+     "hi": 7.5,
+     "center": 7.5,
+     "val": 0.46,
+     "err": 0.10471
+    },
+    {
+     "i": 1,
+     "lo": 12.5,
+     "hi": 12.5,
+     "center": 12.5,
+     "val": 0.59,
+     "err": 0.12816
+    },
+    {
+     "i": 2,
+     "lo": 17.5,
+     "hi": 17.5,
+     "center": 17.5,
+     "val": 0.59,
+     "err": 0.12816
+    },
+    {
+     "i": 3,
+     "lo": 25.0,
+     "hi": 25.0,
+     "center": 25.0,
+     "val": 0.47,
+     "err": 0.10216
+    },
+    {
+     "i": 4,
+     "lo": 40.0,
+     "hi": 40.0,
+     "center": 40.0,
+     "val": 0.58,
+     "err": 0.1306
+    },
+    {
+     "i": 5,
+     "lo": 100.0,
+     "hi": 100.0,
+     "center": 100.0,
+     "val": 0.51,
+     "err": 0.12963
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_e_numubarp_muplusppim_w2.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_e_numun_mumppi0_w2",
+   "slug": "dsigma_sig_e_numun_mumppi0_w2",
+   "name": "\u03c3 (sigma(E_nu, W<2 GeV): nu_mu n -> mu- p pi0)",
+   "name_tex": "$\\sigma\\ (sigma(E_nu, W<2 GeV): nu_mu n -> mu- p pi0)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per neutron)",
+   "yunit_tex": "$1e-38 cm^2 (per neutron)$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 7.5,
+     "hi": 7.5,
+     "center": 7.5,
+     "val": 0.79,
+     "err": 0.16572
+    },
+    {
+     "i": 1,
+     "lo": 12.5,
+     "hi": 12.5,
+     "center": 12.5,
+     "val": 0.68,
+     "err": 0.14176
+    },
+    {
+     "i": 2,
+     "lo": 17.5,
+     "hi": 17.5,
+     "center": 17.5,
+     "val": 0.76,
+     "err": 0.16001
+    },
+    {
+     "i": 3,
+     "lo": 25.0,
+     "hi": 25.0,
+     "center": 25.0,
+     "val": 0.64,
+     "err": 0.1341
+    },
+    {
+     "i": 4,
+     "lo": 40.0,
+     "hi": 40.0,
+     "center": 40.0,
+     "val": 0.69,
+     "err": 0.14678
+    },
+    {
+     "i": 5,
+     "lo": 100.0,
+     "hi": 100.0,
+     "center": 100.0,
+     "val": 0.65,
+     "err": 0.13928
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_e_numun_mumppi0_w2.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_sig_e_numun_mump",
+   "slug": "dsigma_sig_e_numun_mump",
+   "name": "\u03c3 (sigma(E_nu): nu_mu n -> mu- p (single-nucleon, no pion))",
+   "name_tex": "$\\sigma\\ (sigma(E_nu): nu_mu n -> mu- p (single-nucleon, no pion))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "1e-38 cm^2 (per neutron)",
+   "yunit_tex": "$1e-38 cm^2 (per neutron)$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 7.5,
+     "hi": 7.5,
+     "center": 7.5,
+     "val": 0.81,
+     "err": 0.19582
+    },
+    {
+     "i": 1,
+     "lo": 12.5,
+     "hi": 12.5,
+     "center": 12.5,
+     "val": 0.66,
+     "err": 0.15435
+    },
+    {
+     "i": 2,
+     "lo": 17.5,
+     "hi": 17.5,
+     "center": 17.5,
+     "val": 0.67,
+     "err": 0.15606
+    },
+    {
+     "i": 3,
+     "lo": 25.0,
+     "hi": 25.0,
+     "center": 25.0,
+     "val": 0.81,
+     "err": 0.18068
+    },
+    {
+     "i": 4,
+     "lo": 40.0,
+     "hi": 40.0,
+     "center": 40.0,
+     "val": 0.66,
+     "err": 0.15435
+    },
+    {
+     "i": 5,
+     "lo": 100.0,
+     "hi": 100.0,
+     "center": 100.0,
+     "val": 0.58,
+     "err": 0.15315
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/sig_e_numun_mump.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numup_mumppip_w1114",
+   "slug": "dsigma_dsigdq2_numup_mumppip_w1114",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.1<W<1.4 GeV): nu_mu p -> mu- p pi+)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.1<W<1.4 GeV): nu_mu p -> mu- p pi+)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per proton)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per proton)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 68.498,
+     "err": 15.46897
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 52.93,
+     "err": 12.3265
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 33.003,
+     "err": 8.27273
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 30.513,
+     "err": 7.76104
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 23.663,
+     "err": 6.34214
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 12.454,
+     "err": 3.94792
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 14.322,
+     "err": 4.35844
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 14.945,
+     "err": 4.49409
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 6.85,
+     "err": 2.65309
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 4.982,
+     "err": 2.17825
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 1.868,
+     "err": 1.24345
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 3.114,
+     "err": 1.65375
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 1.245,
+     "err": 1.00048
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 1.868,
+     "err": 1.24345
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 0.623,
+     "err": 0.69624
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 3.0,
+     "err": 1.99725
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 3.0,
+     "err": 1.99725
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 1.0,
+     "err": 1.11803
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 1.0,
+     "err": 1.11803
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numup_mumppip_w1114.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numup_mumppip_w1420",
+   "slug": "dsigma_dsigdq2_numup_mumppip_w1420",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.4<W<2.0 GeV): nu_mu p -> mu- p pi+)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.4<W<2.0 GeV): nu_mu p -> mu- p pi+)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per proton)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per proton)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 17.968,
+     "err": 5.28558
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 17.968,
+     "err": 5.28558
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 15.204,
+     "err": 4.68645
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 6.911,
+     "err": 2.77303
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 6.911,
+     "err": 2.77303
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 7.602,
+     "err": 2.94399
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 11.748,
+     "err": 3.91696
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 5.529,
+     "err": 2.4177
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 4.146,
+     "err": 2.03829
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 4.838,
+     "err": 2.23167
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 1.382,
+     "err": 1.10996
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 1.382,
+     "err": 1.10996
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 2.073,
+     "err": 1.38072
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 2.073,
+     "err": 1.38072
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 1.382,
+     "err": 1.10996
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 3.0,
+     "err": 1.99725
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 3.0,
+     "err": 1.99725
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 4.0,
+     "err": 2.34094
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 1.0,
+     "err": 1.11803
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numup_mumppip_w1420.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numubarn_muplusnpim_w1114",
+   "slug": "dsigma_dsigdq2_numubarn_muplusnpim_w1114",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.1<W<1.4 GeV): nubar_mu n -> mu+ n pi-)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.1<W<1.4 GeV): nubar_mu n -> mu+ n pi-)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per neutron)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per neutron)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 61.532,
+     "err": 13.50576
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 51.554,
+     "err": 11.50005
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 45.317,
+     "err": 10.24431
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 28.687,
+     "err": 6.88115
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 22.035,
+     "err": 5.52303
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 16.215,
+     "err": 4.32132
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 9.562,
+     "err": 2.90973
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 8.315,
+     "err": 2.63583
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 5.821,
+     "err": 2.06951
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 4.158,
+     "err": 1.66808
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 2.079,
+     "err": 1.10427
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 0.416,
+     "err": 0.46451
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 4.158,
+     "err": 1.66808
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 1.663,
+     "err": 0.97357
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 2.91,
+     "err": 1.34269
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 2.0,
+     "err": 1.60659
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 2.0,
+     "err": 1.60659
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 0.1,
+     "err": 0.34857
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 1.0,
+     "err": 1.11803
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numubarn_muplusnpim_w1114.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numubarn_muplusnpim_w1420",
+   "slug": "dsigma_dsigdq2_numubarn_muplusnpim_w1420",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.4<W<2.0 GeV): nubar_mu n -> mu+ n pi-)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.4<W<2.0 GeV): nubar_mu n -> mu+ n pi-)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per neutron)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per neutron)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 18.071,
+     "err": 4.71693
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 26.056,
+     "err": 6.35659
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 15.13,
+     "err": 4.10509
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 12.188,
+     "err": 3.48454
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 12.188,
+     "err": 3.48454
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 4.203,
+     "err": 1.68643
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 8.405,
+     "err": 2.66425
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 11.347,
+     "err": 3.30451
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 3.782,
+     "err": 1.57984
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 3.782,
+     "err": 1.57984
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 1.261,
+     "err": 0.83977
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 2.942,
+     "err": 1.35718
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 2.522,
+     "err": 1.23929
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 1.681,
+     "err": 0.9842
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 0.42,
+     "err": 0.46957
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 1.0,
+     "err": 1.11803
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 1.0,
+     "err": 1.11803
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 5.0,
+     "err": 2.65548
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 0.3,
+     "err": 0.60498
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numubarn_muplusnpim_w1420.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numubarp_muplusppim_w1114",
+   "slug": "dsigma_dsigdq2_numubarp_muplusppim_w1114",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.1<W<1.4 GeV): nubar_mu p -> mu+ p pi-)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.1<W<1.4 GeV): nubar_mu p -> mu+ p pi-)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per proton)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per proton)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 29.384,
+     "err": 6.96165
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 16.455,
+     "err": 4.31643
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 12.537,
+     "err": 3.49727
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 10.187,
+     "err": 2.99703
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 6.269,
+     "err": 2.13171
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 5.485,
+     "err": 1.95069
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 5.877,
+     "err": 2.04135
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 3.134,
+     "err": 1.37071
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 5.877,
+     "err": 2.04135
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 2.351,
+     "err": 1.15595
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 1.175,
+     "err": 0.78214
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 1.567,
+     "err": 0.9172
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 2.351,
+     "err": 1.15595
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 1.567,
+     "err": 0.9172
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 0.784,
+     "err": 0.62886
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 2.0,
+     "err": 1.60659
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 3.0,
+     "err": 1.99725
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 2.0,
+     "err": 1.60659
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 0.0,
+     "err": 0.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numubarp_muplusppim_w1114.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numubarp_muplusppim_w1420",
+   "slug": "dsigma_dsigdq2_numubarp_muplusppim_w1420",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.4<W<2.0 GeV): nubar_mu p -> mu+ p pi-)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.4<W<2.0 GeV): nubar_mu p -> mu+ p pi-)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per proton)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per proton)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 12.555,
+     "err": 3.65651
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 17.671,
+     "err": 4.73624
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 21.391,
+     "err": 5.5079
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 14.88,
+     "err": 4.15112
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 18.136,
+     "err": 4.83303
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 13.485,
+     "err": 3.85536
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 11.625,
+     "err": 3.45673
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 8.37,
+     "err": 2.74065
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 7.905,
+     "err": 2.6358
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 9.3,
+     "err": 2.94865
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 6.045,
+     "err": 2.205
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 7.44,
+     "err": 2.52987
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 4.185,
+     "err": 1.74837
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 4.185,
+     "err": 1.74837
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 1.395,
+     "err": 0.90983
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 7.0,
+     "err": 3.22926
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 2.0,
+     "err": 1.60659
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 8.0,
+     "err": 3.49833
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 6.0,
+     "err": 2.94918
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numubarp_muplusppim_w1420.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numun_mumppi0_w1114",
+   "slug": "dsigma_dsigdq2_numun_mumppi0_w1114",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.1<W<1.4 GeV): nu_mu n -> mu- p pi0)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.1<W<1.4 GeV): nu_mu n -> mu- p pi0)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per neutron)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per neutron)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 18.939,
+     "err": 5.41448
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 13.714,
+     "err": 4.28488
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 11.755,
+     "err": 3.84935
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 10.449,
+     "err": 3.55266
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 10.449,
+     "err": 3.55266
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 5.878,
+     "err": 2.4548
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 5.224,
+     "err": 2.28487
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 4.571,
+     "err": 2.1094
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 3.265,
+     "err": 1.73368
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 2.612,
+     "err": 1.52901
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 2.612,
+     "err": 1.52901
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 2.612,
+     "err": 1.52901
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 1.959,
+     "err": 1.30424
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 0.653,
+     "err": 0.72978
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 0.653,
+     "err": 0.72978
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 1.0,
+     "err": 1.11803
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 0.3,
+     "err": 0.60498
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 1.0,
+     "err": 1.11803
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 1.0,
+     "err": 1.11803
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numun_mumppi0_w1114.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numun_mumppi0_w1420",
+   "slug": "dsigma_dsigdq2_numun_mumppi0_w1420",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.4<W<2.0 GeV): nu_mu n -> mu- p pi0)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.4<W<2.0 GeV): nu_mu n -> mu- p pi0)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per neutron)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per neutron)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 13.948,
+     "err": 4.56698
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 15.498,
+     "err": 4.91313
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 4.649,
+     "err": 2.28567
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 7.749,
+     "err": 3.10971
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 2.325,
+     "err": 1.54751
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 5.424,
+     "err": 2.50236
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 0.775,
+     "err": 0.86598
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 4.649,
+     "err": 2.28567
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 1.55,
+     "err": 1.24424
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 3.1,
+     "err": 1.81423
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 0.775,
+     "err": 0.86598
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 0.775,
+     "err": 0.86598
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 0.232,
+     "err": 0.4693
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 0.775,
+     "err": 0.86598
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 0.775,
+     "err": 0.86598
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 1.0,
+     "err": 1.11803
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 1.0,
+     "err": 1.11803
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 1.0,
+     "err": 1.11803
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 0.3,
+     "err": 0.60498
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numun_mumppi0_w1420.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numun_mumnpip_w1114",
+   "slug": "dsigma_dsigdq2_numun_mumnpip_w1114",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.1<W<1.4 GeV): nu_mu n -> mu- n pi+)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.1<W<1.4 GeV): nu_mu n -> mu- n pi+)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per neutron)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per neutron)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 33.815,
+     "err": 8.74558
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 27.052,
+     "err": 7.33989
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 9.769,
+     "err": 3.56339
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 10.52,
+     "err": 3.74078
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 4.509,
+     "err": 2.21672
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 1.503,
+     "err": 1.20703
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 0.075,
+     "err": 0.26143
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 1.503,
+     "err": 1.20703
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 1.503,
+     "err": 1.20703
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 0.0,
+     "err": 0.0
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 0.751,
+     "err": 0.84053
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 0.0,
+     "err": 0.0
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 0.0,
+     "err": 0.0
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 0.0,
+     "err": 0.0
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 0.0,
+     "err": 0.0
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 0.0,
+     "err": 0.0
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 0.0,
+     "err": 0.0
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 0.0,
+     "err": 0.0
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 0.0,
+     "err": 0.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numun_mumnpip_w1114.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  },
+  {
+   "key": "dsigma_dsigdq2_numun_mumnpip_w1420",
+   "slug": "dsigma_dsigdq2_numun_mumnpip_w1420",
+   "name": "d\u03c3/dQ\u00b2 (dsigma/dQ^2 (1.4<W<2.0 GeV): nu_mu n -> mu- n pi+)",
+   "name_tex": "$d\\sigma/dQ^{2}\\ (dsigma/dQ^2 (1.4<W<2.0 GeV): nu_mu n -> mu- n pi+)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^{2}$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^{2}$",
+   "yunit": "1e-40 cm^2/GeV^2 (per neutron)",
+   "yunit_tex": "$1e-40 cm^2/GeV^2 (per neutron)$",
+   "nbins": 19,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.1,
+     "center": 0.1,
+     "val": 18.446,
+     "err": 5.4843
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.3,
+     "center": 0.3,
+     "val": 24.348,
+     "err": 6.74146
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.5,
+     "center": 0.5,
+     "val": 21.397,
+     "err": 6.1171
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 10.33,
+     "err": 3.67311
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 7.378,
+     "err": 2.96089
+    },
+    {
+     "i": 5,
+     "lo": 1.1,
+     "hi": 1.1,
+     "center": 1.1,
+     "val": 2.213,
+     "err": 1.47402
+    },
+    {
+     "i": 6,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 2.213,
+     "err": 1.47402
+    },
+    {
+     "i": 7,
+     "lo": 1.5,
+     "hi": 1.5,
+     "center": 1.5,
+     "val": 3.689,
+     "err": 1.95923
+    },
+    {
+     "i": 8,
+     "lo": 1.7,
+     "hi": 1.7,
+     "center": 1.7,
+     "val": 3.689,
+     "err": 1.95923
+    },
+    {
+     "i": 9,
+     "lo": 1.9,
+     "hi": 1.9,
+     "center": 1.9,
+     "val": 0.738,
+     "err": 0.82531
+    },
+    {
+     "i": 10,
+     "lo": 2.1,
+     "hi": 2.1,
+     "center": 2.1,
+     "val": 2.213,
+     "err": 1.47402
+    },
+    {
+     "i": 11,
+     "lo": 2.3,
+     "hi": 2.3,
+     "center": 2.3,
+     "val": 0.221,
+     "err": 0.44719
+    },
+    {
+     "i": 12,
+     "lo": 2.5,
+     "hi": 2.5,
+     "center": 2.5,
+     "val": 0.148,
+     "err": 0.3642
+    },
+    {
+     "i": 13,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 0.738,
+     "err": 0.82531
+    },
+    {
+     "i": 14,
+     "lo": 2.9,
+     "hi": 2.9,
+     "center": 2.9,
+     "val": 0.738,
+     "err": 0.82531
+    },
+    {
+     "i": 15,
+     "lo": 3.1,
+     "hi": 3.1,
+     "center": 3.1,
+     "val": 0.3,
+     "err": 0.60498
+    },
+    {
+     "i": 16,
+     "lo": 3.3,
+     "hi": 3.3,
+     "center": 3.3,
+     "val": 0.3,
+     "err": 0.60498
+    },
+    {
+     "i": 17,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 0.2,
+     "err": 0.49362
+    },
+    {
+     "i": 18,
+     "lo": 3.7,
+     "hi": 3.7,
+     "center": 3.7,
+     "val": 0.4,
+     "err": 0.70058
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1990uy/dsigdq2_numun_mumnpip_w1420.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins303953",
+   "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
+   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+  }
+ ]
+}

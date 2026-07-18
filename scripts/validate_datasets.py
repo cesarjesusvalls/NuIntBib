@@ -20,6 +20,7 @@ SOURCE_DOMAINS = {
     'zenodo': 'zenodo.org',
     't2k.org': 't2k-experiment.org',
     'arxiv': 'arxiv.org',
+    'hepdata': 'hepdata.net',
 }
 PLACEHOLDERS = ('…', '...', 'TODO', 'FIXME', 'XXX', 'example.com')
 

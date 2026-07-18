@@ -1,0 +1,431 @@
+{
+ "bibtag": "CHARM-II:1993xmz",
+ "slug": "charm-ii-1993xmz",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins358417",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 313 267",
+ "note": "Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (and CC-conjugate for \u03bd\u0304_\u03bc). HepData record ins358417 provides 10 tables: two energy-binned \"total\" cross sections (Tables 9,10, model-corrected from visible to total assuming the acceptance region E\u03c0>5 GeV / P=4 GeV cut, reaction-inclusive over all pion angles), two energy-binned \"visible\" cross sections restricted to E\u03c0>5 GeV (Tables 7,8), and 6 single-point (full-run, flux-averaged) cross sections: visible (Tables 1,2) and total corrected with two different extrapolation models \u2014 Rein-Sehgal (Tables 3,4) and Belkov-Kopeliovich (Tables 5,6) \u2014 one \u03bd_\u03bc/\u03bd\u0304_\u03bc pair each. No covariance or correlation matrix table is present in this HepData release. Target: SiO2. From the HepData record.",
+ "distributions": [
+  {
+   "key": "dsigma_numu-coh1pi-total-sigma-over-e",
+   "slug": "dsigma_numu-coh1pi-total-sigma-over-e",
+   "name": "\u03c3_rm total(\u03bd_\u03bc rm coh \u03c0^+) (CHARM-II Table 9: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, total coherent cross section vs E_\u03bd (energy-binned))",
+   "name_tex": "$\\sigma_{\\rm total}(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)\\ (CHARM-II Table 9: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, total coherent cross section vs E_\u03bd (energy-binned))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\nu}$",
+   "ylabel": "\u03c3_rm total(\u03bd_\u03bc rm coh \u03c0^+)",
+   "ylabel_plot": "\u03c3_rm total(\u03bd_\u03bc rm coh \u03c0^+)",
+   "ylabel_tex": "$\\sigma_{\\rm total}(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 24.0,
+     "center": 13.5,
+     "val": 114.0,
+     "err": 33.0
+    },
+    {
+     "i": 1,
+     "lo": 24.0,
+     "hi": 36.0,
+     "center": 30.0,
+     "val": 155.0,
+     "err": 44.0
+    },
+    {
+     "i": 2,
+     "lo": 36.0,
+     "hi": 66.0,
+     "center": 51.0,
+     "val": 200.0,
+     "err": 57.0
+    },
+    {
+     "i": 3,
+     "lo": 66.0,
+     "hi": 91.5,
+     "center": 78.75,
+     "val": 274.0,
+     "err": 88.0,
+     "hi_true": 300.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-sigma-over-e.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numubar-coh1pi-total-sigma-over-e",
+   "slug": "dsigma_numubar-coh1pi-total-sigma-over-e",
+   "name": "\u03c3_rm total(bar\u03bd_\u03bc rm coh \u03c0^-) (CHARM-II Table 10: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, total coherent cross section vs E_\u03bd (energy-binned))",
+   "name_tex": "$\\sigma_{\\rm total}(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)\\ (CHARM-II Table 10: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, total coherent cross section vs E_\u03bd (energy-binned))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3_rm total(bar\u03bd_\u03bc rm coh \u03c0^-)",
+   "ylabel_plot": "\u03c3_rm total(bar\u03bd_\u03bc rm coh \u03c0^-)",
+   "ylabel_tex": "$\\sigma_{\\rm total}(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 24.0,
+     "center": 13.5,
+     "val": 101.0,
+     "err": 29.0
+    },
+    {
+     "i": 1,
+     "lo": 24.0,
+     "hi": 36.0,
+     "center": 30.0,
+     "val": 178.0,
+     "err": 50.0
+    },
+    {
+     "i": 2,
+     "lo": 36.0,
+     "hi": 66.0,
+     "center": 51.0,
+     "val": 228.0,
+     "err": 68.0
+    },
+    {
+     "i": 3,
+     "lo": 66.0,
+     "hi": 91.5,
+     "center": 78.75,
+     "val": 305.0,
+     "err": 101.0,
+     "hi_true": 300.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-sigma-over-e.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numu-coh1pi-visible-sigma-over-e",
+   "slug": "dsigma_numu-coh1pi-visible-sigma-over-e",
+   "name": "\u03c3_rm vis(\u03bd_\u03bc rm coh \u03c0^+; E_\u03c0>5 rm GeV) (CHARM-II Table 7: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, visible (E_\u03c0>5 GeV) coherent cross section vs E_\u03bd (energy-binned))",
+   "name_tex": "$\\sigma_{\\rm vis}(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+;\\,E_\\pi>5\\,{\\rm GeV})\\ (CHARM-II Table 7: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, visible (E_\u03c0>5 GeV) coherent cross section vs E_\u03bd (energy-binned))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\nu}$",
+   "ylabel": "\u03c3_rm vis(\u03bd_\u03bc rm coh \u03c0^+; E_\u03c0>5 rm GeV)",
+   "ylabel_plot": "\u03c3_rm vis(\u03bd_\u03bc rm coh \u03c0^+; E_\u03c0>5 rm GeV)",
+   "ylabel_tex": "$\\sigma_{\\rm vis}(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+;\\,E_\\pi>5\\,{\\rm GeV})$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 24.0,
+     "center": 13.5,
+     "val": 27.5,
+     "err": 6.8
+    },
+    {
+     "i": 1,
+     "lo": 24.0,
+     "hi": 36.0,
+     "center": 30.0,
+     "val": 68.4,
+     "err": 16.7
+    },
+    {
+     "i": 2,
+     "lo": 36.0,
+     "hi": 66.0,
+     "center": 51.0,
+     "val": 109.9,
+     "err": 26.8
+    },
+    {
+     "i": 3,
+     "lo": 66.0,
+     "hi": 91.5,
+     "center": 78.75,
+     "val": 172.4,
+     "err": 49.1,
+     "hi_true": 300.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-visible-sigma-over-e.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numubar-coh1pi-visible-sigma-over-e",
+   "slug": "dsigma_numubar-coh1pi-visible-sigma-over-e",
+   "name": "\u03c3_rm vis(bar\u03bd_\u03bc rm coh \u03c0^-; E_\u03c0>5 rm GeV) (CHARM-II Table 8: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, visible (E_\u03c0>5 GeV) coherent cross section vs E_\u03bd (energy-binned))",
+   "name_tex": "$\\sigma_{\\rm vis}(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-;\\,E_\\pi>5\\,{\\rm GeV})\\ (CHARM-II Table 8: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, visible (E_\u03c0>5 GeV) coherent cross section vs E_\u03bd (energy-binned))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3_rm vis(bar\u03bd_\u03bc rm coh \u03c0^-; E_\u03c0>5 rm GeV)",
+   "ylabel_plot": "\u03c3_rm vis(bar\u03bd_\u03bc rm coh \u03c0^-; E_\u03c0>5 rm GeV)",
+   "ylabel_tex": "$\\sigma_{\\rm vis}(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-;\\,E_\\pi>5\\,{\\rm GeV})$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 24.0,
+     "center": 13.5,
+     "val": 22.8,
+     "err": 5.6
+    },
+    {
+     "i": 1,
+     "lo": 24.0,
+     "hi": 36.0,
+     "center": 30.0,
+     "val": 78.0,
+     "err": 18.8
+    },
+    {
+     "i": 2,
+     "lo": 36.0,
+     "hi": 66.0,
+     "center": 51.0,
+     "val": 124.4,
+     "err": 32.4
+    },
+    {
+     "i": 3,
+     "lo": 66.0,
+     "hi": 91.5,
+     "center": 78.75,
+     "val": 192.7,
+     "err": 56.8,
+     "hi_true": 300.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-visible-sigma-over-e.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numu-coh1pi-visible-xsec-avg",
+   "slug": "dsigma_numu-coh1pi-visible-xsec-avg",
+   "name": "langle\u03c3_rm visrangle(\u03bd_\u03bc rm coh \u03c0^+) (CHARM-II Table 1: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged visible (E_\u03c0>5 GeV) coherent cross section (single point, full run))",
+   "name_tex": "$\\langle\\sigma_{\\rm vis}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)\\ (CHARM-II Table 1: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged visible (E_\u03c0>5 GeV) coherent cross section (single point, full run))$",
+   "xlabel": "langle E_\u03bdrangle",
+   "xunit": "GeV",
+   "xlabel_tex": "$\\langle E_{\\nu}\\rangle$",
+   "ylabel": "langle\u03c3_rm visrangle(\u03bd_\u03bc rm coh \u03c0^+)",
+   "ylabel_plot": "langle\u03c3_rm visrangle(\u03bd_\u03bc rm coh \u03c0^+)",
+   "ylabel_tex": "$\\langle\\sigma_{\\rm vis}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 23.7,
+     "hi": 23.7,
+     "center": 23.7,
+     "val": 51.4,
+     "err": 10.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-visible-xsec-avg.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numubar-coh1pi-visible-xsec-avg",
+   "slug": "dsigma_numubar-coh1pi-visible-xsec-avg",
+   "name": "langle\u03c3_rm visrangle(bar\u03bd_\u03bc rm coh \u03c0^-) (CHARM-II Table 2: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged visible (E_\u03c0>5 GeV) coherent cross section (single point, full run))",
+   "name_tex": "$\\langle\\sigma_{\\rm vis}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)\\ (CHARM-II Table 2: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged visible (E_\u03c0>5 GeV) coherent cross section (single point, full run))$",
+   "xlabel": "langle E_bar\u03bdrangle",
+   "xunit": "GeV",
+   "xlabel_tex": "$\\langle E_{\\bar\\nu}\\rangle$",
+   "ylabel": "langle\u03c3_rm visrangle(bar\u03bd_\u03bc rm coh \u03c0^-)",
+   "ylabel_plot": "langle\u03c3_rm visrangle(bar\u03bd_\u03bc rm coh \u03c0^-)",
+   "ylabel_tex": "$\\langle\\sigma_{\\rm vis}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 19.1,
+     "hi": 19.1,
+     "center": 19.1,
+     "val": 42.5,
+     "err": 8.5
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-visible-xsec-avg.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numu-coh1pi-total-xsec-avg-reinsehgal",
+   "slug": "dsigma_numu-coh1pi-total-xsec-avg-reinsehgal",
+   "name": "langle\u03c3_rm totalrangle(\u03bd_\u03bc rm coh \u03c0^+)_rm RS (CHARM-II Table 3: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged total coherent cross section, Rein-Sehgal-model-corrected (single point, full run))",
+   "name_tex": "$\\langle\\sigma_{\\rm total}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)_{\\rm RS}\\ (CHARM-II Table 3: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged total coherent cross section, Rein-Sehgal-model-corrected (single point, full run))$",
+   "xlabel": "langle E_\u03bdrangle",
+   "xunit": "GeV",
+   "xlabel_tex": "$\\langle E_{\\nu}\\rangle$",
+   "ylabel": "langle\u03c3_rm totalrangle(\u03bd_\u03bc rm coh \u03c0^+)_rm RS",
+   "ylabel_plot": "langle\u03c3_rm totalrangle(\u03bd_\u03bc rm coh \u03c0^+)_rm RS",
+   "ylabel_tex": "$\\langle\\sigma_{\\rm total}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)_{\\rm RS}$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 23.7,
+     "hi": 23.7,
+     "center": 23.7,
+     "val": 168.0,
+     "err": 41.4
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-xsec-avg-reinsehgal.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numubar-coh1pi-total-xsec-avg-reinsehgal",
+   "slug": "dsigma_numubar-coh1pi-total-xsec-avg-reinsehgal",
+   "name": "langle\u03c3_rm totalrangle(bar\u03bd_\u03bc rm coh \u03c0^-)_rm RS (CHARM-II Table 4: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged total coherent cross section, Rein-Sehgal-model-corrected (single point, full run))",
+   "name_tex": "$\\langle\\sigma_{\\rm total}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)_{\\rm RS}\\ (CHARM-II Table 4: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged total coherent cross section, Rein-Sehgal-model-corrected (single point, full run))$",
+   "xlabel": "langle E_bar\u03bdrangle",
+   "xunit": "GeV",
+   "xlabel_tex": "$\\langle E_{\\bar\\nu}\\rangle$",
+   "ylabel": "langle\u03c3_rm totalrangle(bar\u03bd_\u03bc rm coh \u03c0^-)_rm RS",
+   "ylabel_plot": "langle\u03c3_rm totalrangle(bar\u03bd_\u03bc rm coh \u03c0^-)_rm RS",
+   "ylabel_tex": "$\\langle\\sigma_{\\rm total}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)_{\\rm RS}$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 19.1,
+     "hi": 19.1,
+     "center": 19.1,
+     "val": 161.0,
+     "err": 39.9
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-xsec-avg-reinsehgal.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numu-coh1pi-total-xsec-avg-belkovkopeliovich",
+   "slug": "dsigma_numu-coh1pi-total-xsec-avg-belkovkopeliovich",
+   "name": "langle\u03c3_rm totalrangle(\u03bd_\u03bc rm coh \u03c0^+)_rm BK (CHARM-II Table 5: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged total coherent cross section, Belkov-Kopeliovich-model-corrected (single point, full run))",
+   "name_tex": "$\\langle\\sigma_{\\rm total}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)_{\\rm BK}\\ (CHARM-II Table 5: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged total coherent cross section, Belkov-Kopeliovich-model-corrected (single point, full run))$",
+   "xlabel": "langle E_\u03bdrangle",
+   "xunit": "GeV",
+   "xlabel_tex": "$\\langle E_{\\nu}\\rangle$",
+   "ylabel": "langle\u03c3_rm totalrangle(\u03bd_\u03bc rm coh \u03c0^+)_rm BK",
+   "ylabel_plot": "langle\u03c3_rm totalrangle(\u03bd_\u03bc rm coh \u03c0^+)_rm BK",
+   "ylabel_tex": "$\\langle\\sigma_{\\rm total}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)_{\\rm BK}$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 23.7,
+     "hi": 23.7,
+     "center": 23.7,
+     "val": 139.0,
+     "err": 34.2
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-xsec-avg-belkovkopeliovich.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  },
+  {
+   "key": "dsigma_numubar-coh1pi-total-xsec-avg-belkovkopeliovich",
+   "slug": "dsigma_numubar-coh1pi-total-xsec-avg-belkovkopeliovich",
+   "name": "langle\u03c3_rm totalrangle(bar\u03bd_\u03bc rm coh \u03c0^-)_rm BK (CHARM-II Table 6: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged total coherent cross section, Belkov-Kopeliovich-model-corrected (single point, full run))",
+   "name_tex": "$\\langle\\sigma_{\\rm total}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)_{\\rm BK}\\ (CHARM-II Table 6: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged total coherent cross section, Belkov-Kopeliovich-model-corrected (single point, full run))$",
+   "xlabel": "langle E_bar\u03bdrangle",
+   "xunit": "GeV",
+   "xlabel_tex": "$\\langle E_{\\bar\\nu}\\rangle$",
+   "ylabel": "langle\u03c3_rm totalrangle(bar\u03bd_\u03bc rm coh \u03c0^-)_rm BK",
+   "ylabel_plot": "langle\u03c3_rm totalrangle(bar\u03bd_\u03bc rm coh \u03c0^-)_rm BK",
+   "ylabel_tex": "$\\langle\\sigma_{\\rm total}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)_{\\rm BK}$",
+   "yunit": "10^{-40} cm^2 / SiO2",
+   "yunit_tex": "$10^{-40} cm^2 / SiO2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 19.1,
+     "hi": 19.1,
+     "center": 19.1,
+     "val": 132.0,
+     "err": 32.3
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-xsec-avg-belkovkopeliovich.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins358417",
+   "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+  }
+ ]
+}

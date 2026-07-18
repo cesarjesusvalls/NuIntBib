@@ -1,0 +1,28 @@
+{
+ "bibtag": "CHARM:1980yym",
+ "slug": "charm-1980yym",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins156267",
+ "note": "Total CC cross section per unit energy (sigma/E) for numu-N and numubar-N inclusive DIS, single-bin measurements over the beam energy range 20-200 GeV (mean energy 110 GeV), from the CHARM collaboration. Target: nucleon (isoscalar, per-nucleon normalization \u2014 reaction listed as \"NUMU NUCLEON --> MU- X\"). From the HepData record.",
+ "provenance": "CHARM:1980yym \u2014 Total CC cross section per unit energy (sigma/E) for numu-N and numubar-N inclusive DIS, single-bin measurements over th \u00b7 target nucleon (isoscalar, per-nucleon normalization \u2014 reaction listed as \"NUMU NUCLEON --> MU- X\") \u00b7 from the HepData record",
+ "items": [
+  {
+   "slug": "numu-cc-total-sigma-over-e",
+   "label": "CHARM numu CC sigma/E vs E (Table 1)",
+   "csv": "data/datasets/sources/charm-1980yym/numu-cc-total-sigma-over-e.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{CC}(\\nu_\\mu N)/E_\\nu",
+   "yunit": "10^{-38} cm^2/GeV per nucleon"
+  },
+  {
+   "slug": "numubar-cc-total-sigma-over-e",
+   "label": "CHARM numubar CC sigma/E vs E (Table 2)",
+   "csv": "data/datasets/sources/charm-1980yym/numubar-cc-total-sigma-over-e.csv",
+   "xlabel": "E_{\\bar\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{CC}(\\bar\\nu_\\mu N)/E_{\\bar\\nu}",
+   "yunit": "10^{-38} cm^2/GeV per nucleon"
+  }
+ ]
+}

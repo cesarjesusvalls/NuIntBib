@@ -1,0 +1,19 @@
+{
+ "bibtag": "Barish:1979ny",
+ "slug": "barish-1979ny",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins8430",
+ "note": "Integrated exclusive-channel cross section for numu-bar p -> mu+ p pi- (single-pion production on free protons) with an upper cut on the p-pi- invariant mass, from the HepData record's only table (Table 1). Two data points: sigma(M(p pi-) < 1.32 GeV) and sigma(M(p pi-) < 1.9 GeV), integrated over incident antineutrino energy 5-70 GeV (sqrt(s) 3.2-11.5 GeV). Target: free proton (H); reaction is explicitly on a free proton \"P\", not an average nucleon in a nucleus. From the HepData record.",
+ "provenance": "Barish:1979ny \u2014 Integrated exclusive-channel cross section for numu-bar p -> mu+ p pi- (single-pion production on free protons) with an \u00b7 target free proton (H); reaction is explicitly on a free proton \"P\", not an average nucleon in a nucleus \u00b7 from the HepData record",
+ "items": [
+  {
+   "slug": "sigma_numubarp_muplus_p_piminus_vs_Mcut",
+   "label": "Integrated cross section vs p\u03c0- invariant-mass cut",
+   "csv": "data/datasets/sources/barish-1979ny/sigma_numubarp_muplus_p_piminus_vs_Mcut.csv",
+   "xlabel": "M(p\\pi^-)\\ \\text{upper cut}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(\\bar\\nu_\\mu p \\to \\mu^+ p \\pi^-;\\ M(p\\pi^-)<M_{cut})",
+   "yunit": "cm^2 (per free proton, integrated over E_\\nu = 5-70 GeV)"
+  }
+ ]
+}

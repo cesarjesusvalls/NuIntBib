@@ -1,0 +1,19 @@
+{
+ "bibtag": "Kitagaki:1983px",
+ "slug": "kitagaki-1983px",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins195139",
+ "note": "Total quasi-elastic (CCQE) cross section for numu N -> mu- p, measured at two neutrino lab momenta (12 and 50 GeV), BNL 7-foot bubble chamber wideband beam. Target: Reaction listed as \"NUMU N --> MU- P\" \u2014 cross section is per neutron (free-nucleon target, N = neutron).. From the HepData record.",
+ "provenance": "Kitagaki:1983px \u2014 Total quasi-elastic (CCQE) cross section for numu N -> mu- p, measured at two neutrino lab momenta (12 and 50 GeV), BNL \u00b7 target Reaction listed as \"NUMU N --> MU- P\" \u2014 cross section is per neutron (free-nucleon target, N = neutron). \u00b7 from the HepData record",
+ "items": [
+  {
+   "slug": "sigma_qe_total",
+   "label": "Quasi-elastic total cross section vs neutrino lab momentum",
+   "csv": "data/datasets/sources/kitagaki-1983px/sigma_qe_total.csv",
+   "xlabel": "p_{lab}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{QE}",
+   "yunit": "10^{-38} cm^2 / neutron"
+  }
+ ]
+}

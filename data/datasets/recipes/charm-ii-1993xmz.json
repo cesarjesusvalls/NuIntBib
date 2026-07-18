@@ -1,0 +1,100 @@
+{
+ "bibtag": "CHARM-II:1993xmz",
+ "slug": "charm-ii-1993xmz",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins358417",
+ "note": "Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (and CC-conjugate for \u03bd\u0304_\u03bc). HepData record ins358417 provides 10 tables: two energy-binned \"total\" cross sections (Tables 9,10, model-corrected from visible to total assuming the acceptance region E\u03c0>5 GeV / P=4 GeV cut, reaction-inclusive over all pion angles), two energy-binned \"visible\" cross sections restricted to E\u03c0>5 GeV (Tables 7,8), and 6 single-point (full-run, flux-averaged) cross sections: visible (Tables 1,2) and total corrected with two different extrapolation models \u2014 Rein-Sehgal (Tables 3,4) and Belkov-Kopeliovich (Tables 5,6) \u2014 one \u03bd_\u03bc/\u03bd\u0304_\u03bc pair each. No covariance or correlation matrix table is present in this HepData release. Target: SiO2. From the HepData record.",
+ "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
+ "items": [
+  {
+   "slug": "numu-coh1pi-total-sigma-over-e",
+   "label": "CHARM-II Table 9: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, total coherent cross section vs E_\u03bd (energy-binned)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-sigma-over-e.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{\\rm total}(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numubar-coh1pi-total-sigma-over-e",
+   "label": "CHARM-II Table 10: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, total coherent cross section vs E_\u03bd (energy-binned)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-sigma-over-e.csv",
+   "xlabel": "E_{\\bar\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{\\rm total}(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numu-coh1pi-visible-sigma-over-e",
+   "label": "CHARM-II Table 7: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, visible (E_\u03c0>5 GeV) coherent cross section vs E_\u03bd (energy-binned)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-visible-sigma-over-e.csv",
+   "xlabel": "E_{\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{\\rm vis}(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+;\\,E_\\pi>5\\,{\\rm GeV})",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numubar-coh1pi-visible-sigma-over-e",
+   "label": "CHARM-II Table 8: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, visible (E_\u03c0>5 GeV) coherent cross section vs E_\u03bd (energy-binned)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-visible-sigma-over-e.csv",
+   "xlabel": "E_{\\bar\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{\\rm vis}(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-;\\,E_\\pi>5\\,{\\rm GeV})",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numu-coh1pi-visible-xsec-avg",
+   "label": "CHARM-II Table 1: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged visible (E_\u03c0>5 GeV) coherent cross section (single point, full run)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-visible-xsec-avg.csv",
+   "xlabel": "\\langle E_{\\nu}\\rangle",
+   "xunit": "GeV",
+   "ylabel": "\\langle\\sigma_{\\rm vis}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numubar-coh1pi-visible-xsec-avg",
+   "label": "CHARM-II Table 2: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged visible (E_\u03c0>5 GeV) coherent cross section (single point, full run)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-visible-xsec-avg.csv",
+   "xlabel": "\\langle E_{\\bar\\nu}\\rangle",
+   "xunit": "GeV",
+   "ylabel": "\\langle\\sigma_{\\rm vis}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numu-coh1pi-total-xsec-avg-reinsehgal",
+   "label": "CHARM-II Table 3: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged total coherent cross section, Rein-Sehgal-model-corrected (single point, full run)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-xsec-avg-reinsehgal.csv",
+   "xlabel": "\\langle E_{\\nu}\\rangle",
+   "xunit": "GeV",
+   "ylabel": "\\langle\\sigma_{\\rm total}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)_{\\rm RS}",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numubar-coh1pi-total-xsec-avg-reinsehgal",
+   "label": "CHARM-II Table 4: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged total coherent cross section, Rein-Sehgal-model-corrected (single point, full run)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-xsec-avg-reinsehgal.csv",
+   "xlabel": "\\langle E_{\\bar\\nu}\\rangle",
+   "xunit": "GeV",
+   "ylabel": "\\langle\\sigma_{\\rm total}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)_{\\rm RS}",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numu-coh1pi-total-xsec-avg-belkovkopeliovich",
+   "label": "CHARM-II Table 5: \u03bd_\u03bc SiO2 \u2192 \u03bc- \u03c0+ SiO2, flux-averaged total coherent cross section, Belkov-Kopeliovich-model-corrected (single point, full run)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-xsec-avg-belkovkopeliovich.csv",
+   "xlabel": "\\langle E_{\\nu}\\rangle",
+   "xunit": "GeV",
+   "ylabel": "\\langle\\sigma_{\\rm total}\\rangle(\\nu_\\mu\\,{\\rm coh}\\,\\pi^+)_{\\rm BK}",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  },
+  {
+   "slug": "numubar-coh1pi-total-xsec-avg-belkovkopeliovich",
+   "label": "CHARM-II Table 6: \u03bd\u0304_\u03bc SiO2 \u2192 \u03bc+ \u03c0- SiO2, flux-averaged total coherent cross section, Belkov-Kopeliovich-model-corrected (single point, full run)",
+   "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-xsec-avg-belkovkopeliovich.csv",
+   "xlabel": "\\langle E_{\\bar\\nu}\\rangle",
+   "xunit": "GeV",
+   "ylabel": "\\langle\\sigma_{\\rm total}\\rangle(\\bar\\nu_\\mu\\,{\\rm coh}\\,\\pi^-)_{\\rm BK}",
+   "yunit": "10^{-40} cm^2 / SiO2"
+  }
+ ]
+}
