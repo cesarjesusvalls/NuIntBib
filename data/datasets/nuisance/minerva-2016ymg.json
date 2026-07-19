@@ -1,0 +1,308 @@
+{
+ "bibtag": "MINERvA:2016ymg",
+ "slug": "minerva-2016ymg",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1611.02224",
+ "arxiv": "1611.02224",
+ "cite": "Phys.Rev.Lett. 119 011802",
+ "note": "Flux-integrated differential cross sections for neutral-current K+ production by neutrinos, dsigma/dT_K (K+ kinetic energy) and dsigma/dE_vis (non-K+ visible hadronic energy), per nucleon on the MINERvA CH scintillator tracker (low-energy NuMI numu beam, mean E_nu~3.5 GeV).",
+ "distributions": [
+  {
+   "key": "dsigma_dTK",
+   "slug": "dsigma_dTK",
+   "name": "d\u03c3/dT_K",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}T_K$",
+   "xlabel": "T_K",
+   "xunit": "GeV",
+   "xlabel_tex": "$T_K$",
+   "ylabel": "d\u03c3/dT_K",
+   "ylabel_plot": "d\u03c3/dT_K",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}T_K$",
+   "yunit": "10^{-39}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/GeV/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1611.02224",
+   "provenance": "MINERvA:2016ymg -- values, absolute stat/syst/total uncertainties, and stat/flux/other-systematic covariance matrices taken from the LaTeX supplementary-material tables (Tables I-VII) in the arXiv source (anc e-print, supplement.tex); target is the MINERvA CH scintillator tracker with cross section reported per nucleon (paper Eq. 1), tagged CH per site convention. No machine-readable (CSV/ROOT) data release was found in anc/; digitized from the LaTeX tables directly (not the PDF).",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 0.22,
+     "err": 0.07
+    },
+    {
+     "i": 1,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 0.21,
+     "err": 0.06
+    },
+    {
+     "i": 2,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 0.18,
+     "err": 0.05
+    },
+    {
+     "i": 3,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 0.23,
+     "err": 0.08
+    },
+    {
+     "i": 4,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 0.21,
+     "err": 0.12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dEvis",
+   "slug": "dsigma_dEvis",
+   "name": "d\u03c3/dE_vis",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}E_{vis}$",
+   "xlabel": "E_vis",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{vis}$",
+   "ylabel": "d\u03c3/dE_vis",
+   "ylabel_plot": "d\u03c3/dE_vis",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}E_{vis}$",
+   "yunit": "10^{-42}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-42}cm^2/GeV/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1611.02224",
+   "provenance": "MINERvA:2016ymg -- values, absolute stat/syst/total uncertainties, and stat/flux/other-systematic covariance matrices taken from the LaTeX supplementary-material tables (Tables I-VII) in the arXiv source (anc e-print, supplement.tex); target is the MINERvA CH scintillator tracker with cross section reported per nucleon (paper Eq. 1), tagged CH per site convention. No machine-readable (CSV/ROOT) data release was found in anc/; digitized from the LaTeX tables directly (not the PDF).",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.4,
+     "center": 0.2,
+     "val": 49.5,
+     "err": 10.7
+    },
+    {
+     "i": 1,
+     "lo": 0.4,
+     "hi": 0.8,
+     "center": 0.6000000000000001,
+     "val": 54.4,
+     "err": 9.9
+    },
+    {
+     "i": 2,
+     "lo": 0.8,
+     "hi": 1.2,
+     "center": 1.0,
+     "val": 31.9,
+     "err": 8.4
+    },
+    {
+     "i": 3,
+     "lo": 1.2,
+     "hi": 2.0,
+     "center": 1.6,
+     "val": 15.0,
+     "err": 7.4
+    },
+    {
+     "i": 4,
+     "lo": 2.0,
+     "hi": 2.8,
+     "center": 2.4,
+     "val": 7.8,
+     "err": 5.6
+    },
+    {
+     "i": 5,
+     "lo": 2.8,
+     "hi": 4.0,
+     "center": 3.4,
+     "val": 15.7,
+     "err": 9.3
+    }
+   ],
+   "notes": ""
+  }
+ ],
+ "covariance": {
+  "order": [
+   "dsigma_dTK [0.1,0.2]",
+   "dsigma_dTK [0.2,0.3]",
+   "dsigma_dTK [0.3,0.4]",
+   "dsigma_dTK [0.4,0.5]",
+   "dsigma_dTK [0.5,0.6]",
+   "dsigma_dEvis [0,0.4]",
+   "dsigma_dEvis [0.4,0.8]",
+   "dsigma_dEvis [0.8,1.2]",
+   "dsigma_dEvis [1.2,2]",
+   "dsigma_dEvis [2,2.8]",
+   "dsigma_dEvis [2.8,4]"
+  ],
+  "note": "Block-diagonal 11x11 covariance (5 T_K bins then 6 E_vis bins, matching distribution/row order above). Each block is the sum of the paper's statistical + flux + other-systematic covariance tables (Tables III-IV / VI-VII of the supplement), rescaled from the tables' quoted units (1e-80 (cm^2/nucleon/GeV)^2 for T_K, 1e-82 for E_vis) into the plain numeric scale of the val/err columns (i.e. sqrt(diag) reproduces the 'Total' column of Tables I and V). Off-diagonal cross-terms between the two observables are not given in the paper and are set to 0.",
+  "matrix": [
+   [
+    0.00527,
+    0.00106,
+    0.00036,
+    -0.00068,
+    0.00026,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.00106,
+    0.00369,
+    0.0005,
+    -0.00022,
+    0.00033,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.00036,
+    0.0005,
+    0.00294,
+    0.00096,
+    0.00096,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    -0.00068,
+    -0.00022,
+    0.00096,
+    0.00719,
+    0.00376,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.00026,
+    0.00033,
+    0.00096,
+    0.00376,
+    0.015,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    114.5,
+    68.0,
+    6.5,
+    -8.9,
+    -6.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    68.0,
+    97.9,
+    50.8,
+    15.5,
+    2.6,
+    1.2
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.5,
+    50.8,
+    71.8,
+    43.5,
+    18.7,
+    11.7
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -8.9,
+    15.5,
+    43.5,
+    54.3,
+    34.0,
+    26.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -6.0,
+    2.6,
+    18.7,
+    34.0,
+    30.9,
+    28.4
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.2,
+    11.7,
+    26.0,
+    28.4,
+    86.6
+   ]
+  ]
+ }
+}

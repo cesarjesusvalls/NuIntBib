@@ -1,0 +1,297 @@
+{
+ "bibtag": "MINERvA:2018nab",
+ "slug": "minerva-2018nab",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1803.09377",
+ "arxiv": "1803.09377",
+ "cite": "Phys.Rev.Lett. 120 221805",
+ "note": "Double-differential antineutrino CC cross section d^2\u03c3/dE_avail dq_3 per nucleon on hydrocarbon (CH), MINERvA low-energy antineutrino beam (2-6 GeV, LE horn), muon p>1.5 GeV/c and angle<20 deg.",
+ "distributions": [
+  {
+   "key": "d2sigma_deavail_dq3",
+   "slug": "d2sigma_deavail_dq3",
+   "name": "d\u00b2\u03c3/dE_availdq_3",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}E_{\\mathrm{avail}}\\mathrm{d}q_3$",
+   "xlabel": "E_avail",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\mathrm{avail}}$",
+   "ylabel": "d\u00b2\u03c3/dE_availdq_3",
+   "ylabel_plot": "d\u00b2\u03c3/dE_availdq_3",
+   "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}E_{\\mathrm{avail}}\\mathrm{d}q_3$",
+   "yunit": "10^{-38}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1803.09377",
+   "provenance": "MINERvA:2018nab \u2014 arXiv ancillary Supplemental.txt (anc/) \u2014 double-differential cross section vs available energy E_avail in 6 slices of three-momentum transfer q3, per-nucleon on CH target; total (stat+syst) errors and full 25x25 covariance (via Cholesky factor) as released; unfolded with d'Agostini method, MnvGENIE-v1 migration matrix.",
+   "nbins": 25,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$q_3$",
+   "slices": [
+    {
+     "label_tex": "$0 < q_3 < 0.2$",
+     "label": "0<q3<0.2",
+     "lo": 0.0,
+     "hi": 0.2,
+     "nbins": 1,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.03,
+       "center": 0.015,
+       "val": 2.43,
+       "err": 0.26
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.2 < q_3 < 0.3$",
+     "label": "0.2<q3<0.3",
+     "lo": 0.2,
+     "hi": 0.3,
+     "nbins": 3,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.03,
+       "center": 0.015,
+       "val": 9.25,
+       "err": 0.97
+      },
+      {
+       "i": 1,
+       "lo": 0.03,
+       "hi": 0.07,
+       "center": 0.05,
+       "val": 0.78,
+       "err": 0.16
+      },
+      {
+       "i": 2,
+       "lo": 0.07,
+       "hi": 0.17,
+       "center": 0.12000000000000001,
+       "val": 0.25,
+       "err": 0.09
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.3 < q_3 < 0.4$",
+     "label": "0.3<q3<0.4",
+     "lo": 0.3,
+     "hi": 0.4,
+     "nbins": 4,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.03,
+       "center": 0.015,
+       "val": 14.09,
+       "err": 1.41
+      },
+      {
+       "i": 1,
+       "lo": 0.03,
+       "hi": 0.07,
+       "center": 0.05,
+       "val": 1.75,
+       "err": 0.29
+      },
+      {
+       "i": 2,
+       "lo": 0.07,
+       "hi": 0.17,
+       "center": 0.12000000000000001,
+       "val": 0.99,
+       "err": 0.17
+      },
+      {
+       "i": 3,
+       "lo": 0.17,
+       "hi": 0.27,
+       "center": 0.22000000000000003,
+       "val": 0.28,
+       "err": 0.05
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.4 < q_3 < 0.5$",
+     "label": "0.4<q3<0.5",
+     "lo": 0.4,
+     "hi": 0.5,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.03,
+       "center": 0.015,
+       "val": 15.55,
+       "err": 1.82
+      },
+      {
+       "i": 1,
+       "lo": 0.03,
+       "hi": 0.07,
+       "center": 0.05,
+       "val": 2.28,
+       "err": 0.4
+      },
+      {
+       "i": 2,
+       "lo": 0.07,
+       "hi": 0.17,
+       "center": 0.12000000000000001,
+       "val": 1.4,
+       "err": 0.19
+      },
+      {
+       "i": 3,
+       "lo": 0.17,
+       "hi": 0.27,
+       "center": 0.22000000000000003,
+       "val": 0.75,
+       "err": 0.1
+      },
+      {
+       "i": 4,
+       "lo": 0.27,
+       "hi": 0.35,
+       "center": 0.31,
+       "val": 0.25,
+       "err": 0.03
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.5 < q_3 < 0.6$",
+     "label": "0.5<q3<0.6",
+     "lo": 0.5,
+     "hi": 0.6,
+     "nbins": 6,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.03,
+       "center": 0.015,
+       "val": 16.07,
+       "err": 1.93
+      },
+      {
+       "i": 1,
+       "lo": 0.03,
+       "hi": 0.07,
+       "center": 0.05,
+       "val": 2.15,
+       "err": 0.39
+      },
+      {
+       "i": 2,
+       "lo": 0.07,
+       "hi": 0.17,
+       "center": 0.12000000000000001,
+       "val": 1.47,
+       "err": 0.18
+      },
+      {
+       "i": 3,
+       "lo": 0.17,
+       "hi": 0.27,
+       "center": 0.22000000000000003,
+       "val": 1.03,
+       "err": 0.14
+      },
+      {
+       "i": 4,
+       "lo": 0.27,
+       "hi": 0.35,
+       "center": 0.31,
+       "val": 0.56,
+       "err": 0.07
+      },
+      {
+       "i": 5,
+       "lo": 0.35,
+       "hi": 0.5,
+       "center": 0.425,
+       "val": 0.14,
+       "err": 0.02
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.6 < q_3 < 0.8$",
+     "label": "0.6<q3<0.8",
+     "lo": 0.6,
+     "hi": 0.8,
+     "nbins": 6,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.03,
+       "center": 0.015,
+       "val": 12.96,
+       "err": 1.46
+      },
+      {
+       "i": 1,
+       "lo": 0.03,
+       "hi": 0.07,
+       "center": 0.05,
+       "val": 1.46,
+       "err": 0.2
+      },
+      {
+       "i": 2,
+       "lo": 0.07,
+       "hi": 0.17,
+       "center": 0.12000000000000001,
+       "val": 1.17,
+       "err": 0.12
+      },
+      {
+       "i": 3,
+       "lo": 0.17,
+       "hi": 0.27,
+       "center": 0.22000000000000003,
+       "val": 1.07,
+       "err": 0.1
+      },
+      {
+       "i": 4,
+       "lo": 0.27,
+       "hi": 0.35,
+       "center": 0.31,
+       "val": 0.79,
+       "err": 0.09
+      },
+      {
+       "i": 5,
+       "lo": 0.35,
+       "hi": 0.5,
+       "center": 0.425,
+       "val": 0.43,
+       "err": 0.05
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}

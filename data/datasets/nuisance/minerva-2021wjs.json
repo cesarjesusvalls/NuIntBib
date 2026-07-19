@@ -1,0 +1,450 @@
+{
+ "bibtag": "MINERvA:2021wjs",
+ "slug": "minerva-2021wjs",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2110.13372",
+ "arxiv": "2110.13372",
+ "cite": "Phys.Rev.D 106 032001",
+ "note": "Double-differential cross section d^2\\sigma/dE_{avail}dq_3 for inclusive CC \\nu_\\mu scattering on hydrocarbon (CH), medium-energy NuMI beam, <E_\\nu>~6 GeV; per-nucleon, staircase binning in available energy vs three-momentum transfer.",
+ "distributions": [
+  {
+   "key": "d2sigma_eavail_q3",
+   "slug": "d2sigma_eavail_q3",
+   "name": "d\u00b2\u03c3/dE_availdq_3",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}E_{avail}\\mathrm{d}q_3$",
+   "xlabel": "E_avail",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{avail}$",
+   "ylabel": "d\u00b2\u03c3/dE_availdq_3",
+   "ylabel_plot": "d\u00b2\u03c3/dE_availdq_3",
+   "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}E_{avail}\\mathrm{d}q_3$",
+   "yunit": "cm^2/GeV^2/nucleon",
+   "yunit_tex": "$cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2110.13372",
+   "provenance": "arXiv e-print ancillary file anc/supplementalMELowRecoilData.txt_.txt (Table II: 44-bin d^2\\sigma/dE_{avail}dq_3 values; Table III: 44x44 covariance matrix). Target: hydrocarbon (CH) scintillator tracker, per-nucleon normalization as stated by the release. Errors are sqrt(diag(cov)), total (stat+syst combined in the covariance).",
+   "nbins": 44,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$q_3$",
+   "slices": [
+    {
+     "label_tex": "$0.0 < q_3 < 0.2$ GeV",
+     "label": "0.0<q3<0.2",
+     "lo": 0.0,
+     "hi": 0.2,
+     "nbins": 4,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.04,
+       "center": 0.02,
+       "val": 9.49304e-39,
+       "err": 8.498282e-40
+      },
+      {
+       "i": 1,
+       "lo": 0.04,
+       "hi": 0.08,
+       "center": 0.06,
+       "val": 2.16181e-39,
+       "err": 2.167586e-40
+      },
+      {
+       "i": 2,
+       "lo": 0.08,
+       "hi": 0.12,
+       "center": 0.1,
+       "val": 6.56021e-40,
+       "err": 8.509694e-41
+      },
+      {
+       "i": 3,
+       "lo": 0.12,
+       "hi": 0.24,
+       "center": 0.18,
+       "val": 1.83401e-40,
+       "err": 4.626013e-41
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.2 < q_3 < 0.3$ GeV",
+     "label": "0.2<q3<0.3",
+     "lo": 0.2,
+     "hi": 0.3,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.04,
+       "center": 0.02,
+       "val": 3.22909e-38,
+       "err": 2.298395e-39
+      },
+      {
+       "i": 1,
+       "lo": 0.04,
+       "hi": 0.08,
+       "center": 0.06,
+       "val": 2.05731e-38,
+       "err": 1.554153e-39
+      },
+      {
+       "i": 2,
+       "lo": 0.08,
+       "hi": 0.12,
+       "center": 0.1,
+       "val": 8.65658e-39,
+       "err": 7.792946e-40
+      },
+      {
+       "i": 3,
+       "lo": 0.12,
+       "hi": 0.16,
+       "center": 0.14,
+       "val": 4.54802e-39,
+       "err": 1.14142e-39
+      },
+      {
+       "i": 4,
+       "lo": 0.16,
+       "hi": 0.24,
+       "center": 0.2,
+       "val": 2.14736e-39,
+       "err": 1.317331e-39
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.3 < q_3 < 0.4$ GeV",
+     "label": "0.3<q3<0.4",
+     "lo": 0.3,
+     "hi": 0.4,
+     "nbins": 7,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.04,
+       "center": 0.02,
+       "val": 3.51098e-38,
+       "err": 2.263097e-39
+      },
+      {
+       "i": 1,
+       "lo": 0.04,
+       "hi": 0.08,
+       "center": 0.06,
+       "val": 3.61681e-38,
+       "err": 2.190048e-39
+      },
+      {
+       "i": 2,
+       "lo": 0.08,
+       "hi": 0.12,
+       "center": 0.1,
+       "val": 2.94552e-38,
+       "err": 2.087877e-39
+      },
+      {
+       "i": 3,
+       "lo": 0.12,
+       "hi": 0.16,
+       "center": 0.14,
+       "val": 1.90013e-38,
+       "err": 1.54482e-39
+      },
+      {
+       "i": 4,
+       "lo": 0.16,
+       "hi": 0.24,
+       "center": 0.2,
+       "val": 9.85069e-39,
+       "err": 1.153399e-39
+      },
+      {
+       "i": 5,
+       "lo": 0.24,
+       "hi": 0.34,
+       "center": 0.29000000000000004,
+       "val": 4.11963e-39,
+       "err": 1.500477e-39
+      },
+      {
+       "i": 6,
+       "lo": 0.34,
+       "hi": 0.4,
+       "center": 0.37,
+       "val": 3.78561e-40,
+       "err": 1.657779e-40
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.4 < q_3 < 0.6$ GeV",
+     "label": "0.4<q3<0.6",
+     "lo": 0.4,
+     "hi": 0.6,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.04,
+       "center": 0.02,
+       "val": 2.15874e-38,
+       "err": 1.937408e-39
+      },
+      {
+       "i": 1,
+       "lo": 0.04,
+       "hi": 0.08,
+       "center": 0.06,
+       "val": 3.01358e-38,
+       "err": 2.135783e-39
+      },
+      {
+       "i": 2,
+       "lo": 0.08,
+       "hi": 0.12,
+       "center": 0.1,
+       "val": 3.73264e-38,
+       "err": 2.237704e-39
+      },
+      {
+       "i": 3,
+       "lo": 0.12,
+       "hi": 0.16,
+       "center": 0.14,
+       "val": 3.63802e-38,
+       "err": 2.298578e-39
+      },
+      {
+       "i": 4,
+       "lo": 0.16,
+       "hi": 0.24,
+       "center": 0.2,
+       "val": 2.91741e-38,
+       "err": 2.67652e-39
+      },
+      {
+       "i": 5,
+       "lo": 0.24,
+       "hi": 0.32,
+       "center": 0.28,
+       "val": 1.72369e-38,
+       "err": 1.298499e-39
+      },
+      {
+       "i": 6,
+       "lo": 0.32,
+       "hi": 0.4,
+       "center": 0.36,
+       "val": 8.31046e-39,
+       "err": 8.846779e-40
+      },
+      {
+       "i": 7,
+       "lo": 0.4,
+       "hi": 0.6,
+       "center": 0.5,
+       "val": 1.06095e-39,
+       "err": 2.66649e-40
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.6 < q_3 < 0.9$ GeV",
+     "label": "0.6<q3<0.9",
+     "lo": 0.6,
+     "hi": 0.9,
+     "nbins": 9,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.04,
+       "center": 0.02,
+       "val": 6.97292e-39,
+       "err": 8.832695e-40
+      },
+      {
+       "i": 1,
+       "lo": 0.04,
+       "hi": 0.08,
+       "center": 0.06,
+       "val": 8.20847e-39,
+       "err": 7.949792e-40
+      },
+      {
+       "i": 2,
+       "lo": 0.08,
+       "hi": 0.12,
+       "center": 0.1,
+       "val": 1.31129e-38,
+       "err": 1.084477e-39
+      },
+      {
+       "i": 3,
+       "lo": 0.12,
+       "hi": 0.16,
+       "center": 0.14,
+       "val": 1.86071e-38,
+       "err": 1.342107e-39
+      },
+      {
+       "i": 4,
+       "lo": 0.16,
+       "hi": 0.24,
+       "center": 0.2,
+       "val": 2.53529e-38,
+       "err": 1.603356e-39
+      },
+      {
+       "i": 5,
+       "lo": 0.24,
+       "hi": 0.32,
+       "center": 0.28,
+       "val": 2.81973e-38,
+       "err": 1.547343e-39
+      },
+      {
+       "i": 6,
+       "lo": 0.32,
+       "hi": 0.4,
+       "center": 0.36,
+       "val": 2.35741e-38,
+       "err": 2.299959e-39
+      },
+      {
+       "i": 7,
+       "lo": 0.4,
+       "hi": 0.6,
+       "center": 0.5,
+       "val": 1.10557e-38,
+       "err": 7.293045e-40
+      },
+      {
+       "i": 8,
+       "lo": 0.6,
+       "hi": 0.68,
+       "center": 0.64,
+       "val": 1.90569e-39,
+       "err": 2.272492e-40,
+       "hi_true": 1.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.9 < q_3 < 1.2$ GeV",
+     "label": "0.9<q3<1.2",
+     "lo": 0.9,
+     "hi": 1.2,
+     "nbins": 11,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.04,
+       "center": 0.02,
+       "val": 2.86847e-39,
+       "err": 3.92501e-40
+      },
+      {
+       "i": 1,
+       "lo": 0.04,
+       "hi": 0.08,
+       "center": 0.06,
+       "val": 2.82092e-39,
+       "err": 3.563944e-40
+      },
+      {
+       "i": 2,
+       "lo": 0.08,
+       "hi": 0.12,
+       "center": 0.1,
+       "val": 3.30933e-39,
+       "err": 4.042141e-40
+      },
+      {
+       "i": 3,
+       "lo": 0.12,
+       "hi": 0.16,
+       "center": 0.14,
+       "val": 3.94576e-39,
+       "err": 4.415382e-40
+      },
+      {
+       "i": 4,
+       "lo": 0.16,
+       "hi": 0.24,
+       "center": 0.2,
+       "val": 5.656e-39,
+       "err": 5.437417e-40
+      },
+      {
+       "i": 5,
+       "lo": 0.24,
+       "hi": 0.32,
+       "center": 0.28,
+       "val": 9.46822e-39,
+       "err": 7.329072e-40
+      },
+      {
+       "i": 6,
+       "lo": 0.32,
+       "hi": 0.4,
+       "center": 0.36,
+       "val": 1.34875e-38,
+       "err": 9.469567e-40
+      },
+      {
+       "i": 7,
+       "lo": 0.4,
+       "hi": 0.6,
+       "center": 0.5,
+       "val": 1.70505e-38,
+       "err": 1.389572e-39
+      },
+      {
+       "i": 8,
+       "lo": 0.6,
+       "hi": 0.8,
+       "center": 0.7,
+       "val": 1.06253e-38,
+       "err": 1.0241e-39
+      },
+      {
+       "i": 9,
+       "lo": 0.8,
+       "hi": 1.0,
+       "center": 0.9,
+       "val": 4.19299e-39,
+       "err": 5.454686e-40
+      },
+      {
+       "i": 10,
+       "lo": 1.0,
+       "hi": 1.2,
+       "center": 1.1,
+       "val": 4.54118e-40,
+       "err": 8.090921e-41
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}

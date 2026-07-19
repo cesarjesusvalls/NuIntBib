@@ -1,0 +1,347 @@
+{
+ "bibtag": "MicroBooNE:2024tmp",
+ "slug": "microboone-2024tmp",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2403.19574",
+ "note": "Double-differential and single-differential flux-averaged cross sections for CC mesonless (0-meson) numu interactions on argon with >=1 final-state proton above 0.25 GeV/c threshold (CCNp0pi), MicroBooNE, BNB neutrino-mode beam.",
+ "provenance": "arXiv:2403.19574 e-print ancillary anc/basic_data_release/xsec_summary_table.txt (359 global bins, columns: bin, xsec, stat.err, total.err, in units of 1e-38 cm^2/Ar) and mat_table_cov_total.txt (359x359 covariance). Bin edges for all 14 kinematic blocks taken from the Appendix 'Bin definitions' Table (tab:bin_defs) in main.tex. Per main.tex Sec. 'Impact on integrated cross section' text, the tabulated per-bin values are BIN-INTEGRATED cross sections (obtainable by multiplying the differential cross section by the bin-width product), confirmed by exact numeric match with the supplemental Table I data (data_files/all_unf_slice_047_hist.txt) which is explicitly captioned as such; we DIVIDE by the (multi-dimensional) bin-width product to recover the differential dsigma/dX (or d2sigma/dXdY) values stored in the CSVs. Target is per-Ar-nucleus (not per-nucleon), following the paper's NumTargets = number of Ar nuclei in the fiducial volume. Error column = total (stat+syst combined in quadrature) = sqrt(diag(mat_table_cov_total.txt)), matches the 4th column of xsec_summary_table.txt exactly. Open (semi-infinite) upper/lower bin edges for delta_p_T, delta_p_Tx, delta_p_Ty, p_n were capped at physically reasonable finite values (delta_p_T<1.2, delta_p_Tx/delta_p_Ty in [-1.0,1.0], p_n<1.2 GeV/c) purely for CSV plotting purposes; the true last bin is open-ended in the paper.",
+ "distributions": [
+  {
+   "kind": "2d",
+   "slug": "d2sigma_costhetamu_pmu",
+   "xlabel": "\\cos\\theta_\\mu",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\,\\mathrm{d}\\cos\\theta_\\mu",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "slicevar_tex": "$p_\\mu\\ \\mathrm{(GeV/c)}$",
+   "slices": [
+    {
+     "label_tex": "$0.1 < p_\\mu < 0.24$",
+     "label": "0.1<Y<0.24",
+     "lo": 0.1,
+     "hi": 0.24,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetamu_pmu__y_0p1-0p24.csv"
+    },
+    {
+     "label_tex": "$0.24 < p_\\mu < 0.3$",
+     "label": "0.24<Y<0.3",
+     "lo": 0.24,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetamu_pmu__y_0p24-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < p_\\mu < 0.38$",
+     "label": "0.3<Y<0.38",
+     "lo": 0.3,
+     "hi": 0.38,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetamu_pmu__y_0p3-0p38.csv"
+    },
+    {
+     "label_tex": "$0.38 < p_\\mu < 0.48$",
+     "label": "0.38<Y<0.48",
+     "lo": 0.38,
+     "hi": 0.48,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetamu_pmu__y_0p38-0p48.csv"
+    },
+    {
+     "label_tex": "$0.48 < p_\\mu < 0.7$",
+     "label": "0.48<Y<0.7",
+     "lo": 0.48,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetamu_pmu__y_0p48-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < p_\\mu < 0.85$",
+     "label": "0.7<Y<0.85",
+     "lo": 0.7,
+     "hi": 0.85,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetamu_pmu__y_0p7-0p85.csv"
+    },
+    {
+     "label_tex": "$0.85 < p_\\mu < 1.2$",
+     "label": "0.85<Y<1.2",
+     "lo": 0.85,
+     "hi": 1.2,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetamu_pmu__y_0p85-1p2.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_costhetap_pp",
+   "xlabel": "\\cos\\theta_p",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_p\\,\\mathrm{d}\\cos\\theta_p",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "slicevar_tex": "$p_p\\ \\mathrm{(GeV/c)}$",
+   "slices": [
+    {
+     "label_tex": "$0.25 < p_p < 0.325$",
+     "label": "0.25<Y<0.325",
+     "lo": 0.25,
+     "hi": 0.325,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetap_pp__y_0p25-0p325.csv"
+    },
+    {
+     "label_tex": "$0.325 < p_p < 0.4$",
+     "label": "0.325<Y<0.4",
+     "lo": 0.325,
+     "hi": 0.4,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetap_pp__y_0p325-0p4.csv"
+    },
+    {
+     "label_tex": "$0.4 < p_p < 0.5$",
+     "label": "0.4<Y<0.5",
+     "lo": 0.4,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetap_pp__y_0p4-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < p_p < 0.6$",
+     "label": "0.5<Y<0.6",
+     "lo": 0.5,
+     "hi": 0.6,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetap_pp__y_0p5-0p6.csv"
+    },
+    {
+     "label_tex": "$0.6 < p_p < 0.7$",
+     "label": "0.6<Y<0.7",
+     "lo": 0.6,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetap_pp__y_0p6-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < p_p < 1$",
+     "label": "0.7<Y<1",
+     "lo": 0.7,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_costhetap_pp__y_0p7-1.csv"
+    }
+   ]
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dpT",
+   "label": "",
+   "xlabel": "\\delta p_T",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\delta p_T",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2024tmp/dsigma_dpT.csv"
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dpT_dalphaT",
+   "xlabel": "\\delta p_T",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\delta\\alpha_T\\,\\mathrm{d}\\delta p_T",
+   "yunit": "10^{-38}cm^2/(GeV/c)/deg/Ar",
+   "slicevar_tex": "$\\delta\\alpha_T\\ \\mathrm{(deg)}$",
+   "slices": [
+    {
+     "label_tex": "$0 < \\delta\\alpha_T < 45$",
+     "label": "0<Y<45",
+     "lo": 0.0,
+     "hi": 45.0,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dpT_dalphaT__y_0-45.csv"
+    },
+    {
+     "label_tex": "$45 < \\delta\\alpha_T < 90$",
+     "label": "45<Y<90",
+     "lo": 45.0,
+     "hi": 90.0,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dpT_dalphaT__y_45-90.csv"
+    },
+    {
+     "label_tex": "$90 < \\delta\\alpha_T < 135$",
+     "label": "90<Y<135",
+     "lo": 90.0,
+     "hi": 135.0,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dpT_dalphaT__y_90-135.csv"
+    },
+    {
+     "label_tex": "$135 < \\delta\\alpha_T < 180$",
+     "label": "135<Y<180",
+     "lo": 135.0,
+     "hi": 180.0,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dpT_dalphaT__y_135-180.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dalphaT_dpT",
+   "xlabel": "\\delta\\alpha_T",
+   "xunit": "deg",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\delta p_T\\,\\mathrm{d}\\delta\\alpha_T",
+   "yunit": "10^{-38}cm^2/deg/(GeV/c)/Ar",
+   "slicevar_tex": "$\\delta p_T\\ \\mathrm{(GeV/c)}$",
+   "slices": [
+    {
+     "label_tex": "$0 < \\delta p_T < 0.2$",
+     "label": "0<Y<0.2",
+     "lo": 0.0,
+     "hi": 0.2,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dalphaT_dpT__y_0-0p2.csv"
+    },
+    {
+     "label_tex": "$0.2 < \\delta p_T < 0.3$",
+     "label": "0.2<Y<0.3",
+     "lo": 0.2,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dalphaT_dpT__y_0p2-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < \\delta p_T < 0.4$",
+     "label": "0.3<Y<0.4",
+     "lo": 0.3,
+     "hi": 0.4,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dalphaT_dpT__y_0p3-0p4.csv"
+    },
+    {
+     "label_tex": "$0.4 < \\delta p_T < 1.2$",
+     "label": "0.4<Y<1.2",
+     "lo": 0.4,
+     "hi": 1.2,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dalphaT_dpT__y_0p4-1p2.csv"
+    }
+   ]
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dpTx",
+   "label": "",
+   "xlabel": "\\delta p_{T_x}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\delta p_{T_x}",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2024tmp/dsigma_dpTx.csv"
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dpTx_dpTy",
+   "xlabel": "\\delta p_{T_x}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\delta p_{T_y}\\,\\mathrm{d}\\delta p_{T_x}",
+   "yunit": "10^{-38}cm^2/(GeV/c)^2/Ar",
+   "slicevar_tex": "$\\delta p_{T_y}\\ \\mathrm{(GeV/c)}$",
+   "slices": [
+    {
+     "label_tex": "$-1 < \\delta p_{T_y} < -0.15$",
+     "label": "-1<Y<-0.15",
+     "lo": -1.0,
+     "hi": -0.15,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dpTx_dpTy__y_m1-m0p15.csv"
+    },
+    {
+     "label_tex": "$-0.15 < \\delta p_{T_y} < 0.15$",
+     "label": "-0.15<Y<0.15",
+     "lo": -0.15,
+     "hi": 0.15,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dpTx_dpTy__y_m0p15-0p15.csv"
+    },
+    {
+     "label_tex": "$0.15 < \\delta p_{T_y} < 1$",
+     "label": "0.15<Y<1",
+     "lo": 0.15,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_dpTx_dpTy__y_0p15-1.csv"
+    }
+   ]
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_thetamup",
+   "label": "",
+   "xlabel": "\\theta_{\\mu p}",
+   "xunit": "deg",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\theta_{\\mu p}",
+   "yunit": "10^{-38}cm^2/deg/Ar",
+   "csv": "data/datasets/sources/microboone-2024tmp/dsigma_thetamup.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_pn",
+   "label": "",
+   "xlabel": "p_n",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_n",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2024tmp/dsigma_pn.csv"
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_thetamup_pn",
+   "xlabel": "\\theta_{\\mu p}",
+   "xunit": "deg",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_n\\,\\mathrm{d}\\theta_{\\mu p}",
+   "yunit": "10^{-38}cm^2/deg/(GeV/c)/Ar",
+   "slicevar_tex": "$p_n\\ \\mathrm{(GeV/c)}$",
+   "slices": [
+    {
+     "label_tex": "$0 < p_n < 0.21$",
+     "label": "0<Y<0.21",
+     "lo": 0.0,
+     "hi": 0.21,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_thetamup_pn__y_0-0p21.csv"
+    },
+    {
+     "label_tex": "$0.21 < p_n < 0.45$",
+     "label": "0.21<Y<0.45",
+     "lo": 0.21,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_thetamup_pn__y_0p21-0p45.csv"
+    },
+    {
+     "label_tex": "$0.45 < p_n < 1.2$",
+     "label": "0.45<Y<1.2",
+     "lo": 0.45,
+     "hi": 1.2,
+     "csv": "data/datasets/sources/microboone-2024tmp/d2sigma_thetamup_pn__y_0p45-1p2.csv"
+    }
+   ]
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_costhetamu",
+   "label": "",
+   "xlabel": "\\cos\\theta_\\mu",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu",
+   "yunit": "10^{-38}cm^2/Ar",
+   "csv": "data/datasets/sources/microboone-2024tmp/dsigma_costhetamu.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_costhetap",
+   "label": "",
+   "xlabel": "\\cos\\theta_p",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_p",
+   "yunit": "10^{-38}cm^2/Ar",
+   "csv": "data/datasets/sources/microboone-2024tmp/dsigma_costhetap.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_pp",
+   "label": "",
+   "xlabel": "p_p",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_p",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2024tmp/dsigma_pp.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_pmu",
+   "label": "",
+   "xlabel": "p_\\mu",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2024tmp/dsigma_pmu.csv"
+  }
+ ],
+ "cov": "data/datasets/sources/microboone-2024tmp/cov.csv",
+ "cov_note": "359x359 absolute covariance (units^2 of the differential cross section, i.e. 1e-38 cm^2/Ar per applicable widths), propagated from mat_table_cov_total.txt (bin-integrated cross section covariance) by dividing each element (i,j) by width_i*width_j (same widths used to convert the per-bin values to differential). Row/col order = distributions concatenated in the listed order (each 2d = its slices in order, each slice's bins in file order)."
+}

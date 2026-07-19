@@ -1,0 +1,52 @@
+Data release README. All files are contained in the associated compressed tarball - MINERvA_TripleDiffQELike_DataRelease.tar.gz
+
+Signal definition-
+
+Kinematic windows:
+
+P|| > 1.5 GeV
+Muon Angle w.r.t neutrino < 20 degrees
+
+
+Interaction and final state information:
+
+Charge Current interaction of a muon type neutrino with the following particles allowed in the final state:
+muon, any number of nucleons, gammas <10 MeV (nuclear deexcitation)
+
+
+Files in the release and comments on each:
+
+###
+SumTp vs Muon Pt vs Muon P||
+###
+----
+MINERvA_TripleDiffQELike_ptpzsumtp.root
+	Contains a TH3D with the full result in xyz (sumTp,MuonPt,MuonP||).
+	Contains three covariance matrices - TotalCovariance, FluxCovariance, StatCovariance. These covariance matrices include all under/overflow bins in the TH3D. To invert you have to use a pseudo-inverse method.
+----
+MINERvA_TripleDiffQELike_sumtpptpz_data_cross_section.csv
+	Contains a comma separated list of bins, bin IDs, cross section values and uncertainties. NOTE: ROOTHistBinID refers to the global bin in the MINERvA_TripleDiffQELike_ptpzsumtp.root TH3 object. CovCSVId corresponds to the i or j value in the CSV versions of the covariances.
+----
+MINERvA_TripleDiffQELike_sumtpptpz_RemoveUnderOverFlowCovEntries.root
+	Contains the covariance matrices in ROOT TMatrixD format to ensure no rounding issues associated with numerical inversion techniques. 
+----
+MINERvA_TripleDiffQELike_sumtpptpz_covariances_underoverbinsremoved.csv
+	Contains the covariance matrix for the total,statistical,flux contribution to the total uncertainty in the form i,j,cov_ij,cov_ij,cov_ij
+
+
+###
+SumTp vs q0_qe vs Muon E
+###
+----
+MINERvA_TripleDiffQELike_q0qeemusumtp.root
+	Contains a TH3D with the full result in xyz (sumTp,MuonPt,MuonP||).
+	Contains three covariance matrices - TotalCovariance, FluxCovariance, StatCovariance. These covariance matrices include all under/overflow bins in the TH3D. To invert you have to use a pseudo-inverse method.
+----
+MINERvA_TripleDiffQELike_q0qeemusumtp_data_cross_section.csv
+	Contains a comma separated list of bins, bin IDs, cross section values and uncertainties. NOTE: ROOTHistBinID refers to the global bin in the MINERvA_TripleDiffQELike_q0qeemusumtp.root TH3 object. CovCSVId corresponds to the i or j value in the CSV versions of the covariances.
+----
+MINERvA_TripleDiffQELike_q0qeemusumtp_RemoveUnderOverFlowCovEntries.root
+	Contains the covariance matrices in ROOT TMatrixD format to ensure no rounding issues associated with numerical inversion techniques. 
+----
+MINERvA_TripleDiffQELike_q0qeemusumtp_covariances_underoverbinsremoved.csv
+	Contains the covariance matrix for the total,statistical,flux contribution to the total uncertainty in the form i,j,cov_ij,cov_ij,cov_ij

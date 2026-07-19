@@ -1,0 +1,65 @@
+{
+  "bibtag": "MINERvA:2021wjs",
+  "slug": "minerva-2021wjs",
+  "source": "arXiv",
+  "source_url": "https://arxiv.org/abs/2110.13372",
+  "note": "Double-differential cross section d^2\\sigma/dE_{avail}dq_3 for inclusive CC \\nu_\\mu scattering on hydrocarbon (CH), medium-energy NuMI beam, <E_\\nu>~6 GeV; per-nucleon, staircase binning in available energy vs three-momentum transfer.",
+  "provenance": "arXiv e-print ancillary file anc/supplementalMELowRecoilData.txt_.txt (Table II: 44-bin d^2\\sigma/dE_{avail}dq_3 values; Table III: 44x44 covariance matrix). Target: hydrocarbon (CH) scintillator tracker, per-nucleon normalization as stated by the release. Errors are sqrt(diag(cov)), total (stat+syst combined in the covariance).",
+  "distributions": [
+    {
+      "kind": "2d",
+      "slug": "d2sigma_eavail_q3",
+      "xlabel": "E_{avail}",
+      "xunit": "GeV",
+      "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}E_{avail}\\mathrm{d}q_3",
+      "yunit": "cm^2/GeV^2/nucleon",
+      "slicevar_tex": "$q_3$",
+      "slices": [
+        {
+          "label_tex": "$0.0 < q_3 < 0.2$ GeV",
+          "label": "0.0<q3<0.2",
+          "lo": 0.0,
+          "hi": 0.2,
+          "csv": "data/datasets/sources/minerva-2021wjs/d2sigma_eavail_q3__q3_0-0p2.csv"
+        },
+        {
+          "label_tex": "$0.2 < q_3 < 0.3$ GeV",
+          "label": "0.2<q3<0.3",
+          "lo": 0.2,
+          "hi": 0.3,
+          "csv": "data/datasets/sources/minerva-2021wjs/d2sigma_eavail_q3__q3_0p2-0p3.csv"
+        },
+        {
+          "label_tex": "$0.3 < q_3 < 0.4$ GeV",
+          "label": "0.3<q3<0.4",
+          "lo": 0.3,
+          "hi": 0.4,
+          "csv": "data/datasets/sources/minerva-2021wjs/d2sigma_eavail_q3__q3_0p3-0p4.csv"
+        },
+        {
+          "label_tex": "$0.4 < q_3 < 0.6$ GeV",
+          "label": "0.4<q3<0.6",
+          "lo": 0.4,
+          "hi": 0.6,
+          "csv": "data/datasets/sources/minerva-2021wjs/d2sigma_eavail_q3__q3_0p4-0p6.csv"
+        },
+        {
+          "label_tex": "$0.6 < q_3 < 0.9$ GeV",
+          "label": "0.6<q3<0.9",
+          "lo": 0.6,
+          "hi": 0.9,
+          "csv": "data/datasets/sources/minerva-2021wjs/d2sigma_eavail_q3__q3_0p6-0p9.csv"
+        },
+        {
+          "label_tex": "$0.9 < q_3 < 1.2$ GeV",
+          "label": "0.9<q3<1.2",
+          "lo": 0.9,
+          "hi": 1.2,
+          "csv": "data/datasets/sources/minerva-2021wjs/d2sigma_eavail_q3__q3_0p9-1p2.csv"
+        }
+      ],
+      "cov": "data/datasets/sources/minerva-2021wjs/cov.csv",
+      "cov_note": "44x44 full covariance (Table III of the ancillary release), absolute units of (cm^2/GeV^2/nucleon)^2, reordered from the release's native Eavail-major index order into slice-concatenation order (q3 slices in the order listed above, each slice's Eavail bins in increasing order) to match the CSVs. sqrt(diag(cov)) reproduces the err column of each CSV exactly."
+    }
+  ]
+}

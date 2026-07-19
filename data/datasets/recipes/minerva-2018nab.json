@@ -1,0 +1,66 @@
+{
+ "bibtag": "MINERvA:2018nab",
+ "slug": "minerva-2018nab",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1803.09377",
+ "note": "Double-differential antineutrino CC cross section d^2\u03c3/dE_avail dq_3 per nucleon on hydrocarbon (CH), MINERvA low-energy antineutrino beam (2-6 GeV, LE horn), muon p>1.5 GeV/c and angle<20 deg.",
+ "provenance": "MINERvA:2018nab \u2014 arXiv ancillary Supplemental.txt (anc/) \u2014 double-differential cross section vs available energy E_avail in 6 slices of three-momentum transfer q3, per-nucleon on CH target; total (stat+syst) errors and full 25x25 covariance (via Cholesky factor) as released; unfolded with d'Agostini method, MnvGENIE-v1 migration matrix.",
+ "distributions": [
+  {
+   "kind": "2d",
+   "slug": "d2sigma_deavail_dq3",
+   "label": "",
+   "xlabel": "E_{\\mathrm{avail}}",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}E_{\\mathrm{avail}}\\mathrm{d}q_3",
+   "yunit": "10^{-38}cm^2/GeV^2/nucleon",
+   "slicevar_tex": "$q_3$",
+   "slices": [
+    {
+     "label_tex": "$0 < q_3 < 0.2$",
+     "label": "0<q3<0.2",
+     "lo": 0.0,
+     "hi": 0.2,
+     "csv": "data/datasets/sources/minerva-2018nab/d2sigma_deavail_dq3__q3_0-0p2.csv"
+    },
+    {
+     "label_tex": "$0.2 < q_3 < 0.3$",
+     "label": "0.2<q3<0.3",
+     "lo": 0.2,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/minerva-2018nab/d2sigma_deavail_dq3__q3_0p2-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < q_3 < 0.4$",
+     "label": "0.3<q3<0.4",
+     "lo": 0.3,
+     "hi": 0.4,
+     "csv": "data/datasets/sources/minerva-2018nab/d2sigma_deavail_dq3__q3_0p3-0p4.csv"
+    },
+    {
+     "label_tex": "$0.4 < q_3 < 0.5$",
+     "label": "0.4<q3<0.5",
+     "lo": 0.4,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/minerva-2018nab/d2sigma_deavail_dq3__q3_0p4-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < q_3 < 0.6$",
+     "label": "0.5<q3<0.6",
+     "lo": 0.5,
+     "hi": 0.6,
+     "csv": "data/datasets/sources/minerva-2018nab/d2sigma_deavail_dq3__q3_0p5-0p6.csv"
+    },
+    {
+     "label_tex": "$0.6 < q_3 < 0.8$",
+     "label": "0.6<q3<0.8",
+     "lo": 0.6,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/minerva-2018nab/d2sigma_deavail_dq3__q3_0p6-0p8.csv"
+    }
+   ],
+   "cov": "data/datasets/sources/minerva-2018nab/cov.csv",
+   "cov_note": "Full 25x25 covariance reconstructed from the published upper-triangular Cholesky factor U (C=U^T U, units 10^-42 cm^2/GeV^2/nucleon in the release), rescaled to the same raw-number scale as val/err (i.e. divided by 1e8 so sqrt(diag)=err). Row/col order = slices in listed order (q3 0-0.2,0.2-0.3,...,0.6-0.8), each slice's bins in increasing E_avail order, matching the release's bin-numbering table."
+  }
+ ]
+}

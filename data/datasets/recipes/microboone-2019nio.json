@@ -1,0 +1,86 @@
+{
+  "bibtag": "MicroBooNE:2019nio",
+  "slug": "microboone-2019nio",
+  "source": "arXiv",
+  "source_url": "https://arxiv.org/abs/1905.09694",
+  "note": "Double-differential nu_mu CC-inclusive cross section vs muon momentum p_mu and cos(theta_mu), on argon, BNB neutrino-mode beam",
+  "provenance": "Digitized from ancillary files (anc/cross_section.txt, anc/covariance_matrix.txt) of the arXiv e-print; bin edges from Table I / Fig. 1 of the Supplemental Material (anc/supplemental_material.pdf). Cross section is flux-integrated, per nucleon, on argon. Total uncertainty per bin = sqrt(diagonal of covariance matrix); covariance combines statistical and systematic uncertainties.",
+  "distributions": [
+    {
+      "kind": "2d",
+      "slug": "d2sigma_dpmu_dcostheta",
+      "xlabel": "p_\\mu",
+      "xunit": "GeV",
+      "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\,\\mathrm{d}\\cos\\theta_\\mu",
+      "yunit": "10^{-38}cm^2/GeV/nucleon",
+      "slicevar_tex": "$\\cos\\theta_\\mu$",
+      "slices": [
+        {
+          "label_tex": "$-1.00 \\le \\cos\\theta_\\mu < -0.50$",
+          "label": "-1.00<=costheta<-0.50",
+          "lo": -1.0,
+          "hi": -0.5,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_m1-m0p5.csv"
+        },
+        {
+          "label_tex": "$-0.50 \\le \\cos\\theta_\\mu < 0.00$",
+          "label": "-0.50<=costheta<0.00",
+          "lo": -0.5,
+          "hi": 0.0,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_m0p5-0.csv"
+        },
+        {
+          "label_tex": "$0.00 \\le \\cos\\theta_\\mu < 0.27$",
+          "label": "0.00<=costheta<0.27",
+          "lo": 0.0,
+          "hi": 0.27,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_0-0p27.csv"
+        },
+        {
+          "label_tex": "$0.27 \\le \\cos\\theta_\\mu < 0.45$",
+          "label": "0.27<=costheta<0.45",
+          "lo": 0.27,
+          "hi": 0.45,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_0p27-0p45.csv"
+        },
+        {
+          "label_tex": "$0.45 \\le \\cos\\theta_\\mu < 0.62$",
+          "label": "0.45<=costheta<0.62",
+          "lo": 0.45,
+          "hi": 0.62,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_0p45-0p62.csv"
+        },
+        {
+          "label_tex": "$0.62 \\le \\cos\\theta_\\mu < 0.76$",
+          "label": "0.62<=costheta<0.76",
+          "lo": 0.62,
+          "hi": 0.76,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_0p62-0p76.csv"
+        },
+        {
+          "label_tex": "$0.76 \\le \\cos\\theta_\\mu < 0.86$",
+          "label": "0.76<=costheta<0.86",
+          "lo": 0.76,
+          "hi": 0.86,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_0p76-0p86.csv"
+        },
+        {
+          "label_tex": "$0.86 \\le \\cos\\theta_\\mu < 0.94$",
+          "label": "0.86<=costheta<0.94",
+          "lo": 0.86,
+          "hi": 0.94,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_0p86-0p94.csv"
+        },
+        {
+          "label_tex": "$0.94 \\le \\cos\\theta_\\mu \\le 1.00$",
+          "label": "0.94<=costheta<=1.00",
+          "lo": 0.94,
+          "hi": 1.0,
+          "csv": "data/datasets/sources/microboone-2019nio/d2sigma_pmu_costheta__costheta_0p94-1.csv"
+        }
+      ],
+      "cov": "data/datasets/sources/microboone-2019nio/cov.csv",
+      "cov_note": "Full 42x42 covariance matrix (absolute units, (10^-38 cm^2/GeV/nucleon)^2), stat+syst combined, in global bin order 1-42 = slices concatenated in the order listed above, bins within each slice in increasing p_mu order (matches anc/covariance_matrix.txt and Table I bin numbering)."
+    }
+  ]
+}

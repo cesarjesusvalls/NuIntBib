@@ -1,0 +1,548 @@
+{
+ "bibtag": "MicroBooNE:2024zwf",
+ "slug": "microboone-2024zwf",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2402.19216",
+ "note": "Double- and triple-differential flux-integrated cross sections for CC inclusive numu interactions on argon (0pi topology split by proton multiplicity: 0p, Np, and Xp=inclusive), MicroBooNE, BNB, 6.369e20 POT (Wiener-SVD unfolded).",
+ "provenance": "arXiv:2402.19216 e-print ancillary anc/DataRelease/{xs.txt,real_bins.txt,cov.txt,readme.txt}. GlobalBin blocks 138-192 (0p) and 193-261 (Np) = d2sigma/dcosthetamu dEmu (readme block '138-261: 0pNp [CosThetaMu,Emu]' splits into two separate 8-slice measurements of 55 and 69 bins respectively, confirmed against main.tex Fig. costhetamuEmu_xs chi2 table ndf=55/69/124 and captions). Block 262-357 = d2sigma/dcosthetap dKp (Np-only signal definition, main.tex: 'signal definition used here only includes Np events'). Block 386-454 = d2sigma/dcosthetamu dEmu for Xp (inclusive 0p+Np) selection (Fig. costhetamuEmuXp_xs, ndf=69). Block 455-703 = d3sigma/dEavail dcosthetamu dEmu for Xp selection, 4 Eavail panels (0-0.3,0.3-0.45,0.45-0.65,0.65-2.5 GeV) x 8 costhetamu series (Fig. Eavail[1-4]_costhetamuEmu_xs_nn.png, ndf=249). Values are Z from xs.txt (already in units of 10^-36 cm^2/Ar[/GeV[^2]] per readme.txt); errors are sqrt(diag(cov.txt)) (same 10^-36 scale, since cov Z is expressed as coefficient of 1e-72=(1e-36)^2), i.e. total (stat+syst) uncertainty from the extracted covariance. Target is per-Ar-nucleus (not per-nucleon) per readme.txt explicit units 'cm^2/Ar'.",
+ "distributions": [
+  {
+   "kind": "2d",
+   "slug": "d2sigma_costhetamu_emu_0p",
+   "xlabel": "E_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
+   "yunit": "10^{-36}cm^2/Ar/GeV",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "slices": [
+    {
+     "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+     "label": "-1<costheta<-0.5",
+     "lo": -1.0,
+     "hi": -0.5,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_0p__y_m1-m0p5.csv"
+    },
+    {
+     "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+     "label": "-0.5<costheta<0",
+     "lo": -0.5,
+     "hi": 0.0,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_0p__y_m0p5-0.csv"
+    },
+    {
+     "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+     "label": "0<costheta<0.3",
+     "lo": 0.0,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_0p__y_0-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+     "label": "0.3<costheta<0.5",
+     "lo": 0.3,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_0p__y_0p3-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+     "label": "0.5<costheta<0.7",
+     "lo": 0.5,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_0p__y_0p5-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+     "label": "0.7<costheta<0.8",
+     "lo": 0.7,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_0p__y_0p7-0p8.csv"
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+     "label": "0.8<costheta<0.9",
+     "lo": 0.8,
+     "hi": 0.9,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_0p__y_0p8-0p9.csv"
+    },
+    {
+     "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+     "label": "0.9<costheta<1",
+     "lo": 0.9,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_0p__y_0p9-1.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_costhetamu_emu_np",
+   "xlabel": "E_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
+   "yunit": "10^{-36}cm^2/Ar/GeV",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "slices": [
+    {
+     "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+     "label": "-1<costheta<-0.5",
+     "lo": -1.0,
+     "hi": -0.5,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_np__y_m1-m0p5.csv"
+    },
+    {
+     "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+     "label": "-0.5<costheta<0",
+     "lo": -0.5,
+     "hi": 0.0,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_np__y_m0p5-0.csv"
+    },
+    {
+     "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+     "label": "0<costheta<0.3",
+     "lo": 0.0,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_np__y_0-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+     "label": "0.3<costheta<0.5",
+     "lo": 0.3,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_np__y_0p3-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+     "label": "0.5<costheta<0.7",
+     "lo": 0.5,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_np__y_0p5-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+     "label": "0.7<costheta<0.8",
+     "lo": 0.7,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_np__y_0p7-0p8.csv"
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+     "label": "0.8<costheta<0.9",
+     "lo": 0.8,
+     "hi": 0.9,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_np__y_0p8-0p9.csv"
+    },
+    {
+     "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+     "label": "0.9<costheta<1",
+     "lo": 0.9,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_np__y_0p9-1.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_costhetap_kp_np",
+   "xlabel": "K_p",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_p\\mathrm{d}K_p",
+   "yunit": "10^{-36}cm^2/Ar/GeV",
+   "slicevar_tex": "$\\cos\\theta_p$",
+   "slices": [
+    {
+     "label_tex": "$-1 < \\cos\\theta_p < -0.5$",
+     "label": "-1<costheta<-0.5",
+     "lo": -1.0,
+     "hi": -0.5,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetap_kp_np__y_m1-m0p5.csv"
+    },
+    {
+     "label_tex": "$-0.5 < \\cos\\theta_p < 0$",
+     "label": "-0.5<costheta<0",
+     "lo": -0.5,
+     "hi": 0.0,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetap_kp_np__y_m0p5-0.csv"
+    },
+    {
+     "label_tex": "$0 < \\cos\\theta_p < 0.3$",
+     "label": "0<costheta<0.3",
+     "lo": 0.0,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetap_kp_np__y_0-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < \\cos\\theta_p < 0.5$",
+     "label": "0.3<costheta<0.5",
+     "lo": 0.3,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetap_kp_np__y_0p3-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < \\cos\\theta_p < 0.7$",
+     "label": "0.5<costheta<0.7",
+     "lo": 0.5,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetap_kp_np__y_0p5-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < \\cos\\theta_p < 0.8$",
+     "label": "0.7<costheta<0.8",
+     "lo": 0.7,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetap_kp_np__y_0p7-0p8.csv"
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_p < 0.9$",
+     "label": "0.8<costheta<0.9",
+     "lo": 0.8,
+     "hi": 0.9,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetap_kp_np__y_0p8-0p9.csv"
+    },
+    {
+     "label_tex": "$0.9 < \\cos\\theta_p < 1$",
+     "label": "0.9<costheta<1",
+     "lo": 0.9,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetap_kp_np__y_0p9-1.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_costhetamu_emu_xp",
+   "xlabel": "E_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
+   "yunit": "10^{-36}cm^2/Ar/GeV",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "slices": [
+    {
+     "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+     "label": "-1<costheta<-0.5",
+     "lo": -1.0,
+     "hi": -0.5,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_xp__y_m1-m0p5.csv"
+    },
+    {
+     "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+     "label": "-0.5<costheta<0",
+     "lo": -0.5,
+     "hi": 0.0,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_xp__y_m0p5-0.csv"
+    },
+    {
+     "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+     "label": "0<costheta<0.3",
+     "lo": 0.0,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_xp__y_0-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+     "label": "0.3<costheta<0.5",
+     "lo": 0.3,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_xp__y_0p3-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+     "label": "0.5<costheta<0.7",
+     "lo": 0.5,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_xp__y_0p5-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+     "label": "0.7<costheta<0.8",
+     "lo": 0.7,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_xp__y_0p7-0p8.csv"
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+     "label": "0.8<costheta<0.9",
+     "lo": 0.8,
+     "hi": 0.9,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_xp__y_0p8-0p9.csv"
+    },
+    {
+     "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+     "label": "0.9<costheta<1",
+     "lo": 0.9,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024zwf/d2sigma_costhetamu_emu_xp__y_0p9-1.csv"
+    }
+   ]
+  },
+  {
+   "kind": "3d",
+   "slug": "d3sigma_eavail_costhetamu_emu_xp",
+   "xlabel": "E_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^3\\sigma/\\mathrm{d}E_{avail}\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
+   "yunit": "10^{-36}cm^2/Ar/GeV^2",
+   "panelvar_tex": "$E_{avail}\\ \\mathrm{[GeV]}$",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "panels": [
+    {
+     "label_tex": "$0 < E_{avail} < 0.3\\ \\mathrm{GeV}$",
+     "label": "0<Eavail<0.3",
+     "lo": 0.0,
+     "hi": 0.3,
+     "series": [
+      {
+       "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+       "label": "-1<costheta<-0.5",
+       "lo": -1.0,
+       "hi": -0.5,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0-0p3__y_m1-m0p5.csv"
+      },
+      {
+       "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+       "label": "-0.5<costheta<0",
+       "lo": -0.5,
+       "hi": 0.0,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0-0p3__y_m0p5-0.csv"
+      },
+      {
+       "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+       "label": "0<costheta<0.3",
+       "lo": 0.0,
+       "hi": 0.3,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0-0p3__y_0-0p3.csv"
+      },
+      {
+       "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+       "label": "0.3<costheta<0.5",
+       "lo": 0.3,
+       "hi": 0.5,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0-0p3__y_0p3-0p5.csv"
+      },
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+       "label": "0.5<costheta<0.7",
+       "lo": 0.5,
+       "hi": 0.7,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0-0p3__y_0p5-0p7.csv"
+      },
+      {
+       "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.7<costheta<0.8",
+       "lo": 0.7,
+       "hi": 0.8,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0-0p3__y_0p7-0p8.csv"
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+       "label": "0.8<costheta<0.9",
+       "lo": 0.8,
+       "hi": 0.9,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0-0p3__y_0p8-0p9.csv"
+      },
+      {
+       "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+       "label": "0.9<costheta<1",
+       "lo": 0.9,
+       "hi": 1.0,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0-0p3__y_0p9-1.csv"
+      }
+     ]
+    },
+    {
+     "label_tex": "$0.3 < E_{avail} < 0.45\\ \\mathrm{GeV}$",
+     "label": "0.3<Eavail<0.45",
+     "lo": 0.3,
+     "hi": 0.45,
+     "series": [
+      {
+       "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+       "label": "-1<costheta<-0.5",
+       "lo": -1.0,
+       "hi": -0.5,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p3-0p45__y_m1-m0p5.csv"
+      },
+      {
+       "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+       "label": "-0.5<costheta<0",
+       "lo": -0.5,
+       "hi": 0.0,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p3-0p45__y_m0p5-0.csv"
+      },
+      {
+       "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+       "label": "0<costheta<0.3",
+       "lo": 0.0,
+       "hi": 0.3,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p3-0p45__y_0-0p3.csv"
+      },
+      {
+       "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+       "label": "0.3<costheta<0.5",
+       "lo": 0.3,
+       "hi": 0.5,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p3-0p45__y_0p3-0p5.csv"
+      },
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+       "label": "0.5<costheta<0.7",
+       "lo": 0.5,
+       "hi": 0.7,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p3-0p45__y_0p5-0p7.csv"
+      },
+      {
+       "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.7<costheta<0.8",
+       "lo": 0.7,
+       "hi": 0.8,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p3-0p45__y_0p7-0p8.csv"
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+       "label": "0.8<costheta<0.9",
+       "lo": 0.8,
+       "hi": 0.9,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p3-0p45__y_0p8-0p9.csv"
+      },
+      {
+       "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+       "label": "0.9<costheta<1",
+       "lo": 0.9,
+       "hi": 1.0,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p3-0p45__y_0p9-1.csv"
+      }
+     ]
+    },
+    {
+     "label_tex": "$0.45 < E_{avail} < 0.65\\ \\mathrm{GeV}$",
+     "label": "0.45<Eavail<0.65",
+     "lo": 0.45,
+     "hi": 0.65,
+     "series": [
+      {
+       "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+       "label": "-1<costheta<-0.5",
+       "lo": -1.0,
+       "hi": -0.5,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p45-0p65__y_m1-m0p5.csv"
+      },
+      {
+       "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+       "label": "-0.5<costheta<0",
+       "lo": -0.5,
+       "hi": 0.0,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p45-0p65__y_m0p5-0.csv"
+      },
+      {
+       "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+       "label": "0<costheta<0.3",
+       "lo": 0.0,
+       "hi": 0.3,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p45-0p65__y_0-0p3.csv"
+      },
+      {
+       "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+       "label": "0.3<costheta<0.5",
+       "lo": 0.3,
+       "hi": 0.5,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p45-0p65__y_0p3-0p5.csv"
+      },
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+       "label": "0.5<costheta<0.7",
+       "lo": 0.5,
+       "hi": 0.7,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p45-0p65__y_0p5-0p7.csv"
+      },
+      {
+       "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.7<costheta<0.8",
+       "lo": 0.7,
+       "hi": 0.8,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p45-0p65__y_0p7-0p8.csv"
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+       "label": "0.8<costheta<0.9",
+       "lo": 0.8,
+       "hi": 0.9,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p45-0p65__y_0p8-0p9.csv"
+      },
+      {
+       "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+       "label": "0.9<costheta<1",
+       "lo": 0.9,
+       "hi": 1.0,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p45-0p65__y_0p9-1.csv"
+      }
+     ]
+    },
+    {
+     "label_tex": "$0.65 < E_{avail} < 2.5\\ \\mathrm{GeV}$",
+     "label": "0.65<Eavail<2.5",
+     "lo": 0.65,
+     "hi": 2.5,
+     "series": [
+      {
+       "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+       "label": "-1<costheta<-0.5",
+       "lo": -1.0,
+       "hi": -0.5,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p65-2p5__y_m1-m0p5.csv"
+      },
+      {
+       "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+       "label": "-0.5<costheta<0",
+       "lo": -0.5,
+       "hi": 0.0,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p65-2p5__y_m0p5-0.csv"
+      },
+      {
+       "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+       "label": "0<costheta<0.3",
+       "lo": 0.0,
+       "hi": 0.3,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p65-2p5__y_0-0p3.csv"
+      },
+      {
+       "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+       "label": "0.3<costheta<0.5",
+       "lo": 0.3,
+       "hi": 0.5,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p65-2p5__y_0p3-0p5.csv"
+      },
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+       "label": "0.5<costheta<0.7",
+       "lo": 0.5,
+       "hi": 0.7,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p65-2p5__y_0p5-0p7.csv"
+      },
+      {
+       "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.7<costheta<0.8",
+       "lo": 0.7,
+       "hi": 0.8,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p65-2p5__y_0p7-0p8.csv"
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+       "label": "0.8<costheta<0.9",
+       "lo": 0.8,
+       "hi": 0.9,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p65-2p5__y_0p8-0p9.csv"
+      },
+      {
+       "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+       "label": "0.9<costheta<1",
+       "lo": 0.9,
+       "hi": 1.0,
+       "csv": "data/datasets/sources/microboone-2024zwf/d3sigma_eavail_costhetamu_emu_xp__z_0p65-2p5__y_0p9-1.csv"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cov": "data/datasets/sources/microboone-2024zwf/cov.csv",
+ "cov_note": "538x538 absolute covariance (units^2, coefficient of 1e-72), row/col order = distributions concatenated in listed order (each 2d: slices in order then bins in file order; the 3d: panels then series then bins), extracted from anc/DataRelease/cov.txt submatrix at GlobalBin indices 138-192, 193-261, 262-357, 386-454, 455-703."
+}

@@ -1,0 +1,309 @@
+{
+ "bibtag": "MicroBooNE:2023foc",
+ "slug": "microboone-2023foc",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2307.06413",
+ "note": "Triple-differential (E\u03bd slice x cos\u03b8\u03bc x P\u03bc) inclusive \u03bd\u03bc CC cross section on argon, MicroBooNE, BNB, 6.4e20 POT",
+ "provenance": "arXiv:2307.06413 e-print ancillary files anc/microboone_cc_inclusive_cross_section.txt (+ .root, cross-checked) and anc/microboone_cc_inclusive_cov_matrix.txt; this is the d^2\\sigma(E_\\nu)/d\\cos\\theta_\\mu dP_\\mu three-dimensional result (Fig. 'xs_enu' / 1_numuCC_3D_Enu_uboone.pdf), distinct from the headline d^3\\sigma/dE_vis dcos\\theta dP_\\mu measurement (Evis-based, whose machine-readable files were not included in this e-print's ancillary bundle). Y-axis label and 1e-36 scale read directly from the PDF text layer of Fig. 'xs_enu': 'd^2\\sigma(E_\\nu)/dP_\\mu dcos\\theta_\\mu (cm^2/GeV/Ar)  x10^-36'. Errors are total (stat+syst) from the released covariance diagonal, exactly matching the txt file's 'uncertainty' column.",
+ "distributions": [
+  {
+   "kind": "3d",
+   "slug": "d3sigma_enu_cth_pmu",
+   "label": "",
+   "xlabel": "P_\\mu",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}^2\\sigma(E_\\nu)/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}P_\\mu",
+   "yunit": "10^{-36}cm^2/(GeV/c)/Ar",
+   "panelvar_tex": "$E_\\nu\\ \\mathrm{[GeV]}$",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "panels": [
+    {
+     "label_tex": "$0.2 < E_\\nu < 0.705\\ \\mathrm{GeV}$",
+     "label": "0.2<Enu<0.705",
+     "lo": 0.2,
+     "hi": 0.705,
+     "series": [
+      {
+       "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+       "label": "-1<costheta<-0.5",
+       "lo": -1.0,
+       "hi": -0.5,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_m1-m0p5.csv"
+      },
+      {
+       "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+       "label": "-0.5<costheta<0",
+       "lo": -0.5,
+       "hi": 0.0,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_m0p5-0.csv"
+      },
+      {
+       "label_tex": "$0 < \\cos\\theta_\\mu < 0.27$",
+       "label": "0<costheta<0.27",
+       "lo": 0.0,
+       "hi": 0.27,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_0-0p27.csv"
+      },
+      {
+       "label_tex": "$0.27 < \\cos\\theta_\\mu < 0.45$",
+       "label": "0.27<costheta<0.45",
+       "lo": 0.27,
+       "hi": 0.45,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_0p27-0p45.csv"
+      },
+      {
+       "label_tex": "$0.45 < \\cos\\theta_\\mu < 0.62$",
+       "label": "0.45<costheta<0.62",
+       "lo": 0.45,
+       "hi": 0.62,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_0p45-0p62.csv"
+      },
+      {
+       "label_tex": "$0.62 < \\cos\\theta_\\mu < 0.76$",
+       "label": "0.62<costheta<0.76",
+       "lo": 0.62,
+       "hi": 0.76,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_0p62-0p76.csv"
+      },
+      {
+       "label_tex": "$0.76 < \\cos\\theta_\\mu < 0.86$",
+       "label": "0.76<costheta<0.86",
+       "lo": 0.76,
+       "hi": 0.86,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_0p76-0p86.csv"
+      },
+      {
+       "label_tex": "$0.86 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.86<costheta<0.94",
+       "lo": 0.86,
+       "hi": 0.94,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_0p86-0p94.csv"
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 1$",
+       "label": "0.94<costheta<1",
+       "lo": 0.94,
+       "hi": 1.0,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p2-0p705__cth_0p94-1.csv"
+      }
+     ]
+    },
+    {
+     "label_tex": "$0.705 < E_\\nu < 1.05\\ \\mathrm{GeV}$",
+     "label": "0.705<Enu<1.05",
+     "lo": 0.705,
+     "hi": 1.05,
+     "series": [
+      {
+       "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+       "label": "-1<costheta<-0.5",
+       "lo": -1.0,
+       "hi": -0.5,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_m1-m0p5.csv"
+      },
+      {
+       "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+       "label": "-0.5<costheta<0",
+       "lo": -0.5,
+       "hi": 0.0,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_m0p5-0.csv"
+      },
+      {
+       "label_tex": "$0 < \\cos\\theta_\\mu < 0.27$",
+       "label": "0<costheta<0.27",
+       "lo": 0.0,
+       "hi": 0.27,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_0-0p27.csv"
+      },
+      {
+       "label_tex": "$0.27 < \\cos\\theta_\\mu < 0.45$",
+       "label": "0.27<costheta<0.45",
+       "lo": 0.27,
+       "hi": 0.45,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_0p27-0p45.csv"
+      },
+      {
+       "label_tex": "$0.45 < \\cos\\theta_\\mu < 0.62$",
+       "label": "0.45<costheta<0.62",
+       "lo": 0.45,
+       "hi": 0.62,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_0p45-0p62.csv"
+      },
+      {
+       "label_tex": "$0.62 < \\cos\\theta_\\mu < 0.76$",
+       "label": "0.62<costheta<0.76",
+       "lo": 0.62,
+       "hi": 0.76,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_0p62-0p76.csv"
+      },
+      {
+       "label_tex": "$0.76 < \\cos\\theta_\\mu < 0.86$",
+       "label": "0.76<costheta<0.86",
+       "lo": 0.76,
+       "hi": 0.86,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_0p76-0p86.csv"
+      },
+      {
+       "label_tex": "$0.86 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.86<costheta<0.94",
+       "lo": 0.86,
+       "hi": 0.94,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_0p86-0p94.csv"
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 1$",
+       "label": "0.94<costheta<1",
+       "lo": 0.94,
+       "hi": 1.0,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_0p705-1p05__cth_0p94-1.csv"
+      }
+     ]
+    },
+    {
+     "label_tex": "$1.05 < E_\\nu < 1.57\\ \\mathrm{GeV}$",
+     "label": "1.05<Enu<1.57",
+     "lo": 1.05,
+     "hi": 1.57,
+     "series": [
+      {
+       "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+       "label": "-1<costheta<-0.5",
+       "lo": -1.0,
+       "hi": -0.5,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_m1-m0p5.csv"
+      },
+      {
+       "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+       "label": "-0.5<costheta<0",
+       "lo": -0.5,
+       "hi": 0.0,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_m0p5-0.csv"
+      },
+      {
+       "label_tex": "$0 < \\cos\\theta_\\mu < 0.27$",
+       "label": "0<costheta<0.27",
+       "lo": 0.0,
+       "hi": 0.27,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_0-0p27.csv"
+      },
+      {
+       "label_tex": "$0.27 < \\cos\\theta_\\mu < 0.45$",
+       "label": "0.27<costheta<0.45",
+       "lo": 0.27,
+       "hi": 0.45,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_0p27-0p45.csv"
+      },
+      {
+       "label_tex": "$0.45 < \\cos\\theta_\\mu < 0.62$",
+       "label": "0.45<costheta<0.62",
+       "lo": 0.45,
+       "hi": 0.62,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_0p45-0p62.csv"
+      },
+      {
+       "label_tex": "$0.62 < \\cos\\theta_\\mu < 0.76$",
+       "label": "0.62<costheta<0.76",
+       "lo": 0.62,
+       "hi": 0.76,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_0p62-0p76.csv"
+      },
+      {
+       "label_tex": "$0.76 < \\cos\\theta_\\mu < 0.86$",
+       "label": "0.76<costheta<0.86",
+       "lo": 0.76,
+       "hi": 0.86,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_0p76-0p86.csv"
+      },
+      {
+       "label_tex": "$0.86 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.86<costheta<0.94",
+       "lo": 0.86,
+       "hi": 0.94,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_0p86-0p94.csv"
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 1$",
+       "label": "0.94<costheta<1",
+       "lo": 0.94,
+       "hi": 1.0,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p05-1p57__cth_0p94-1.csv"
+      }
+     ]
+    },
+    {
+     "label_tex": "$1.57 < E_\\nu < 4\\ \\mathrm{GeV}$",
+     "label": "1.57<Enu<4",
+     "lo": 1.57,
+     "hi": 4.0,
+     "series": [
+      {
+       "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+       "label": "-1<costheta<-0.5",
+       "lo": -1.0,
+       "hi": -0.5,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_m1-m0p5.csv"
+      },
+      {
+       "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+       "label": "-0.5<costheta<0",
+       "lo": -0.5,
+       "hi": 0.0,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_m0p5-0.csv"
+      },
+      {
+       "label_tex": "$0 < \\cos\\theta_\\mu < 0.27$",
+       "label": "0<costheta<0.27",
+       "lo": 0.0,
+       "hi": 0.27,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_0-0p27.csv"
+      },
+      {
+       "label_tex": "$0.27 < \\cos\\theta_\\mu < 0.45$",
+       "label": "0.27<costheta<0.45",
+       "lo": 0.27,
+       "hi": 0.45,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_0p27-0p45.csv"
+      },
+      {
+       "label_tex": "$0.45 < \\cos\\theta_\\mu < 0.62$",
+       "label": "0.45<costheta<0.62",
+       "lo": 0.45,
+       "hi": 0.62,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_0p45-0p62.csv"
+      },
+      {
+       "label_tex": "$0.62 < \\cos\\theta_\\mu < 0.76$",
+       "label": "0.62<costheta<0.76",
+       "lo": 0.62,
+       "hi": 0.76,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_0p62-0p76.csv"
+      },
+      {
+       "label_tex": "$0.76 < \\cos\\theta_\\mu < 0.86$",
+       "label": "0.76<costheta<0.86",
+       "lo": 0.76,
+       "hi": 0.86,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_0p76-0p86.csv"
+      },
+      {
+       "label_tex": "$0.86 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.86<costheta<0.94",
+       "lo": 0.86,
+       "hi": 0.94,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_0p86-0p94.csv"
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 1$",
+       "label": "0.94<costheta<1",
+       "lo": 0.94,
+       "hi": 1.0,
+       "csv": "data/datasets/sources/microboone-2023foc/d3sigma_enu_cth_pmu__enu_1p57-4__cth_0p94-1.csv"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cov": "data/datasets/sources/microboone-2023foc/cov.csv",
+ "cov_note": "full 138x138 total (stat+syst) covariance over all bins (E\u03bd panel, then cos\u03b8\u03bc series, then P\u03bc bin, in file order), in raw units matching the CSV values (i.e. (10^-36 cm^2/(GeV/c)/Ar)^2); sqrt(diag) matches the released per-bin uncertainty exactly."
+}

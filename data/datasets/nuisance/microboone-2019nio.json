@@ -1,0 +1,469 @@
+{
+ "bibtag": "MicroBooNE:2019nio",
+ "slug": "microboone-2019nio",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1905.09694",
+ "arxiv": "1905.09694",
+ "cite": "Phys.Rev.Lett. 123 131801",
+ "note": "Double-differential nu_mu CC-inclusive cross section vs muon momentum p_mu and cos(theta_mu), on argon, BNB neutrino-mode beam",
+ "distributions": [
+  {
+   "key": "d2sigma_dpmu_dcostheta",
+   "slug": "d2sigma_dpmu_dcostheta",
+   "name": "d\u00b2\u03c3/dp_\u03bc dcos\u03b8_\u03bc",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\,\\mathrm{d}\\cos\\theta_\\mu$",
+   "xlabel": "p_\u03bc",
+   "xunit": "GeV",
+   "xlabel_tex": "$p_\\mu$",
+   "ylabel": "d\u00b2\u03c3/dp_\u03bc dcos\u03b8_\u03bc",
+   "ylabel_plot": "d\u00b2\u03c3/dp_\u03bc dcos\u03b8_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\,\\mathrm{d}\\cos\\theta_\\mu$",
+   "yunit": "10^{-38}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/GeV/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1905.09694",
+   "provenance": "Digitized from ancillary files (anc/cross_section.txt, anc/covariance_matrix.txt) of the arXiv e-print; bin edges from Table I / Fig. 1 of the Supplemental Material (anc/supplemental_material.pdf). Cross section is flux-integrated, per nucleon, on argon. Total uncertainty per bin = sqrt(diagonal of covariance matrix); covariance combines statistical and systematic uncertainties.",
+   "nbins": 42,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "slices": [
+    {
+     "label_tex": "$-1.00 \\le \\cos\\theta_\\mu < -0.50$",
+     "label": "-1.00<=costheta<-0.50",
+     "lo": -1.0,
+     "hi": -0.5,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.18,
+       "center": 0.09,
+       "val": 0.038435,
+       "err": 0.037710741175426395
+      },
+      {
+       "i": 1,
+       "lo": 0.18,
+       "hi": 0.3,
+       "center": 0.24,
+       "val": 0.25329,
+       "err": 0.1540324641106543
+      },
+      {
+       "i": 2,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 0.22046,
+       "err": 0.13243866504914642
+      },
+      {
+       "i": 3,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 0.041727,
+       "err": 0.03627671429443411
+      },
+      {
+       "i": 4,
+       "lo": 0.77,
+       "hi": 0.95,
+       "center": 0.86,
+       "val": -0.00094794,
+       "err": 0.0029199828766621216,
+       "hi_true": 2.5
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$-0.50 \\le \\cos\\theta_\\mu < 0.00$",
+     "label": "-0.50<=costheta<0.00",
+     "lo": -0.5,
+     "hi": 0.0,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.18,
+       "center": 0.09,
+       "val": 0.013831,
+       "err": 0.03338562564937192
+      },
+      {
+       "i": 1,
+       "lo": 0.18,
+       "hi": 0.3,
+       "center": 0.24,
+       "val": 0.22629,
+       "err": 0.12711805536586845
+      },
+      {
+       "i": 2,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 0.28997,
+       "err": 0.1278710287750904
+      },
+      {
+       "i": 3,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 0.058567,
+       "err": 0.03375796202379522
+      },
+      {
+       "i": 4,
+       "lo": 0.77,
+       "hi": 0.95,
+       "center": 0.86,
+       "val": -0.00023115,
+       "err": 0.0032293962283993583,
+       "hi_true": 2.5
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.00 \\le \\cos\\theta_\\mu < 0.27$",
+     "label": "0.00<=costheta<0.27",
+     "lo": 0.0,
+     "hi": 0.27,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.18,
+       "center": 0.09,
+       "val": -0.030932,
+       "err": 0.0745285180316904
+      },
+      {
+       "i": 1,
+       "lo": 0.18,
+       "hi": 0.3,
+       "center": 0.24,
+       "val": 0.47074,
+       "err": 0.26612027356065904
+      },
+      {
+       "i": 2,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 0.67368,
+       "err": 0.28168067026333204
+      },
+      {
+       "i": 3,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 0.13437,
+       "err": 0.07950723237542608
+      },
+      {
+       "i": 4,
+       "lo": 0.77,
+       "hi": 0.95,
+       "center": 0.86,
+       "val": -0.010986,
+       "err": 0.025167637950352036,
+       "hi_true": 2.5
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.27 \\le \\cos\\theta_\\mu < 0.45$",
+     "label": "0.27<=costheta<0.45",
+     "lo": 0.27,
+     "hi": 0.45,
+     "nbins": 4,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 0.20774,
+       "err": 0.12694880858046678
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 0.78131,
+       "err": 0.32053080975157444
+      },
+      {
+       "i": 2,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 0.35105,
+       "err": 0.10772650555921695
+      },
+      {
+       "i": 3,
+       "lo": 0.77,
+       "hi": 1.08,
+       "center": 0.925,
+       "val": -0.013247,
+       "err": 0.02369177072318572,
+       "hi_true": 2.5
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.45 \\le \\cos\\theta_\\mu < 0.62$",
+     "label": "0.45<=costheta<0.62",
+     "lo": 0.45,
+     "hi": 0.62,
+     "nbins": 4,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 0.23999,
+       "err": 0.12270696801730535
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 1.0173,
+       "err": 0.30933477011160576
+      },
+      {
+       "i": 2,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 0.64028,
+       "err": 0.17113445006777567
+      },
+      {
+       "i": 3,
+       "lo": 0.77,
+       "hi": 1.08,
+       "center": 0.925,
+       "val": 0.018326,
+       "err": 0.01818075906006127,
+       "hi_true": 2.5
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.62 \\le \\cos\\theta_\\mu < 0.76$",
+     "label": "0.62<=costheta<0.76",
+     "lo": 0.62,
+     "hi": 0.76,
+     "nbins": 4,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 0.25033,
+       "err": 0.07930132407469626
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 1.2542,
+       "err": 0.2709483345584542
+      },
+      {
+       "i": 2,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 1.1233,
+       "err": 0.2628193295783246
+      },
+      {
+       "i": 3,
+       "lo": 0.77,
+       "hi": 1.08,
+       "center": 0.925,
+       "val": 0.073739,
+       "err": 0.02184124538573751,
+       "hi_true": 2.5
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.76 \\le \\cos\\theta_\\mu < 0.86$",
+     "label": "0.76<=costheta<0.86",
+     "lo": 0.76,
+     "hi": 0.86,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 0.18104,
+       "err": 0.07499266630811309
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 0.92656,
+       "err": 0.257462618645892
+      },
+      {
+       "i": 2,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 1.5268,
+       "err": 0.27546869150594955
+      },
+      {
+       "i": 3,
+       "lo": 0.77,
+       "hi": 1.28,
+       "center": 1.025,
+       "val": 0.68785,
+       "err": 0.14657080200367328
+      },
+      {
+       "i": 4,
+       "lo": 1.28,
+       "hi": 2.5,
+       "center": 1.8900000000000001,
+       "val": 0.033769,
+       "err": 0.017687566254292873
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.86 \\le \\cos\\theta_\\mu < 0.94$",
+     "label": "0.86<=costheta<0.94",
+     "lo": 0.86,
+     "hi": 0.94,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 0.23066,
+       "err": 0.1092931836849856
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 0.96008,
+       "err": 0.246134109785702
+      },
+      {
+       "i": 2,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 1.8011,
+       "err": 0.2931552489722809
+      },
+      {
+       "i": 3,
+       "lo": 0.77,
+       "hi": 1.28,
+       "center": 1.025,
+       "val": 1.1751,
+       "err": 0.17516563589928247
+      },
+      {
+       "i": 4,
+       "lo": 1.28,
+       "hi": 2.5,
+       "center": 1.8900000000000001,
+       "val": 0.097071,
+       "err": 0.01811767093199344
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.94 \\le \\cos\\theta_\\mu \\le 1.00$",
+     "label": "0.94<=costheta<=1.00",
+     "lo": 0.94,
+     "hi": 1.0,
+     "nbins": 5,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.3,
+       "center": 0.15,
+       "val": 0.17867,
+       "err": 0.13198484761517135
+      },
+      {
+       "i": 1,
+       "lo": 0.3,
+       "hi": 0.45,
+       "center": 0.375,
+       "val": 0.97734,
+       "err": 0.3164964454776704
+      },
+      {
+       "i": 2,
+       "lo": 0.45,
+       "hi": 0.77,
+       "center": 0.61,
+       "val": 1.6936,
+       "err": 0.3286943869310822
+      },
+      {
+       "i": 3,
+       "lo": 0.77,
+       "hi": 1.28,
+       "center": 1.025,
+       "val": 1.3879,
+       "err": 0.2677274733754457
+      },
+      {
+       "i": 4,
+       "lo": 1.28,
+       "hi": 2.5,
+       "center": 1.8900000000000001,
+       "val": 0.19416,
+       "err": 0.044609416046390925
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}
