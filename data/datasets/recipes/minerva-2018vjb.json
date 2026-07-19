@@ -1,0 +1,572 @@
+{
+ "bibtag": "MINERvA:2018vjb",
+ "slug": "minerva-2018vjb",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1801.01197",
+ "note": "Muon antineutrino CCQE-like and true-CCQE double-differential cross sections vs muon (pT,pZ) and vs (Q2_QE, Enu) on CH (scintillator tracker), MINERvA low-energy NuMI beam.",
+ "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+ "distributions": [
+  {
+   "kind": "2d",
+   "slug": "d2sigma_pzpt_qelike",
+   "xlabel": "p_{\\parallel}^{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{\\parallel}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "slicevar_tex": "$p_T$",
+   "slices": [
+    {
+     "label_tex": "$0 < p_T < 0.15$ GeV/c",
+     "label": "0<pT<0.15",
+     "lo": 0.0,
+     "hi": 0.15,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_qelike__pt_0p0-0p15.csv"
+    },
+    {
+     "label_tex": "$0.15 < p_T < 0.25$ GeV/c",
+     "label": "0.15<pT<0.25",
+     "lo": 0.15,
+     "hi": 0.25,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_qelike__pt_0p15-0p25.csv"
+    },
+    {
+     "label_tex": "$0.25 < p_T < 0.4$ GeV/c",
+     "label": "0.25<pT<0.4",
+     "lo": 0.25,
+     "hi": 0.4,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_qelike__pt_0p25-0p4.csv"
+    },
+    {
+     "label_tex": "$0.4 < p_T < 0.7$ GeV/c",
+     "label": "0.4<pT<0.7",
+     "lo": 0.4,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_qelike__pt_0p4-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < p_T < 1$ GeV/c",
+     "label": "0.7<pT<1",
+     "lo": 0.7,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_qelike__pt_0p7-1p0.csv"
+    },
+    {
+     "label_tex": "$1 < p_T < 1.5$ GeV/c",
+     "label": "1<pT<1.5",
+     "lo": 1.0,
+     "hi": 1.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_qelike__pt_1p0-1p5.csv"
+    }
+   ],
+   "cov": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_qelike__cov.csv",
+   "cov_note": "Full 60x60 covariance (stat+syst) over the pT-pz grid, order = pT slices in listed order x pz bins low-to-high within each slice."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_pt_qelike",
+   "label": "CCQE-like $d\\sigma/dp_T$",
+   "xlabel": "p_T^{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_T",
+   "yunit": "10^{-41}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/dsigma_pt_qelike.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_pz_qelike",
+   "label": "CCQE-like $d\\sigma/dp_{\\parallel}$",
+   "xlabel": "p_{\\parallel}^{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\parallel}",
+   "yunit": "10^{-41}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/dsigma_pz_qelike.csv"
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_q2_enuqe_qelike",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "slicevar_tex": "$E_{\\nu}^{QE}$",
+   "slices": [
+    {
+     "label_tex": "$1.5 < E_{\\nu}^{QE} < 2$ GeV",
+     "label": "1.5<EnuQE<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_1p5-2p0.csv"
+    },
+    {
+     "label_tex": "$2 < E_{\\nu}^{QE} < 2.5$ GeV",
+     "label": "2<EnuQE<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_2p0-2p5.csv"
+    },
+    {
+     "label_tex": "$2.5 < E_{\\nu}^{QE} < 3$ GeV",
+     "label": "2.5<EnuQE<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_2p5-3p0.csv"
+    },
+    {
+     "label_tex": "$3 < E_{\\nu}^{QE} < 3.5$ GeV",
+     "label": "3<EnuQE<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_3p0-3p5.csv"
+    },
+    {
+     "label_tex": "$3.5 < E_{\\nu}^{QE} < 4$ GeV",
+     "label": "3.5<EnuQE<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_3p5-4p0.csv"
+    },
+    {
+     "label_tex": "$4 < E_{\\nu}^{QE} < 5$ GeV",
+     "label": "4<EnuQE<5",
+     "lo": 4.0,
+     "hi": 5.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_4p0-5p0.csv"
+    },
+    {
+     "label_tex": "$5 < E_{\\nu}^{QE} < 6$ GeV",
+     "label": "5<EnuQE<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_5p0-6p0.csv"
+    },
+    {
+     "label_tex": "$6 < E_{\\nu}^{QE} < 7$ GeV",
+     "label": "6<EnuQE<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_6p0-7p0.csv"
+    },
+    {
+     "label_tex": "$7 < E_{\\nu}^{QE} < 8$ GeV",
+     "label": "7<EnuQE<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_7p0-8p0.csv"
+    },
+    {
+     "label_tex": "$8 < E_{\\nu}^{QE} < 10$ GeV",
+     "label": "8<EnuQE<10",
+     "lo": 8.0,
+     "hi": 10.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__enu_8p0-10p0.csv"
+    }
+   ],
+   "cov": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_qelike__cov.csv",
+   "cov_note": "Full 80x80 covariance (stat+syst), reordered from the release's Q2-major layout to EnuQE slice x Q2-bin order matching the slices listed here."
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_q2_enutrue_qelike",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "slicevar_tex": "$E_{\\nu}^{true}$",
+   "slices": [
+    {
+     "label_tex": "$1.5 < E_{\\nu}^{true} < 2$ GeV",
+     "label": "1.5<Enutrue<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_1p5-2p0.csv"
+    },
+    {
+     "label_tex": "$2 < E_{\\nu}^{true} < 2.5$ GeV",
+     "label": "2<Enutrue<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_2p0-2p5.csv"
+    },
+    {
+     "label_tex": "$2.5 < E_{\\nu}^{true} < 3$ GeV",
+     "label": "2.5<Enutrue<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_2p5-3p0.csv"
+    },
+    {
+     "label_tex": "$3 < E_{\\nu}^{true} < 3.5$ GeV",
+     "label": "3<Enutrue<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_3p0-3p5.csv"
+    },
+    {
+     "label_tex": "$3.5 < E_{\\nu}^{true} < 4$ GeV",
+     "label": "3.5<Enutrue<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_3p5-4p0.csv"
+    },
+    {
+     "label_tex": "$4 < E_{\\nu}^{true} < 5$ GeV",
+     "label": "4<Enutrue<5",
+     "lo": 4.0,
+     "hi": 5.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_4p0-5p0.csv"
+    },
+    {
+     "label_tex": "$5 < E_{\\nu}^{true} < 6$ GeV",
+     "label": "5<Enutrue<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_5p0-6p0.csv"
+    },
+    {
+     "label_tex": "$6 < E_{\\nu}^{true} < 7$ GeV",
+     "label": "6<Enutrue<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_6p0-7p0.csv"
+    },
+    {
+     "label_tex": "$7 < E_{\\nu}^{true} < 8$ GeV",
+     "label": "7<Enutrue<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_7p0-8p0.csv"
+    },
+    {
+     "label_tex": "$8 < E_{\\nu}^{true} < 10$ GeV",
+     "label": "8<Enutrue<10",
+     "lo": 8.0,
+     "hi": 10.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__enu_8p0-10p0.csv"
+    }
+   ],
+   "cov": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_qelike__cov.csv",
+   "cov_note": "Full 80x80 covariance (stat+syst), reordered from the release's Q2-major layout to Enutrue slice x Q2-bin order matching the slices listed here."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_q2_intenuqe_qelike",
+   "label": "CCQE-like $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{QE}$)",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/dsigma_q2_intenuqe_qelike.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_q2_intenutrue_qelike",
+   "label": "CCQE-like $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{true}$)",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/dsigma_q2_intenutrue_qelike.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "sigma_enuqe_qelike",
+   "label": "CCQE-like $\\sigma(E_\\nu^{QE})$",
+   "xlabel": "E_\\nu^{QE}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_\\nu^{QE})",
+   "yunit": "10^{-41}cm^2/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/sigma_enuqe_qelike.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "sigma_enutrue_qelike",
+   "label": "CCQE-like $\\sigma(E_\\nu^{true})$",
+   "xlabel": "E_\\nu^{true}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_\\nu^{true})",
+   "yunit": "10^{-41}cm^2/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/sigma_enutrue_qelike.csv"
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_pzpt_ccqe",
+   "xlabel": "p_{\\parallel}^{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{\\parallel}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "slicevar_tex": "$p_T$",
+   "slices": [
+    {
+     "label_tex": "$0 < p_T < 0.15$ GeV/c",
+     "label": "0<pT<0.15",
+     "lo": 0.0,
+     "hi": 0.15,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_ccqe__pt_0p0-0p15.csv"
+    },
+    {
+     "label_tex": "$0.15 < p_T < 0.25$ GeV/c",
+     "label": "0.15<pT<0.25",
+     "lo": 0.15,
+     "hi": 0.25,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_ccqe__pt_0p15-0p25.csv"
+    },
+    {
+     "label_tex": "$0.25 < p_T < 0.4$ GeV/c",
+     "label": "0.25<pT<0.4",
+     "lo": 0.25,
+     "hi": 0.4,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_ccqe__pt_0p25-0p4.csv"
+    },
+    {
+     "label_tex": "$0.4 < p_T < 0.7$ GeV/c",
+     "label": "0.4<pT<0.7",
+     "lo": 0.4,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_ccqe__pt_0p4-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < p_T < 1$ GeV/c",
+     "label": "0.7<pT<1",
+     "lo": 0.7,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_ccqe__pt_0p7-1p0.csv"
+    },
+    {
+     "label_tex": "$1 < p_T < 1.5$ GeV/c",
+     "label": "1<pT<1.5",
+     "lo": 1.0,
+     "hi": 1.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_ccqe__pt_1p0-1p5.csv"
+    }
+   ],
+   "cov": "data/datasets/sources/minerva-2018vjb/d2sigma_pzpt_ccqe__cov.csv",
+   "cov_note": "Full 60x60 covariance (stat+syst) over the pT-pz grid, order = pT slices in listed order x pz bins low-to-high within each slice."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_pt_ccqe",
+   "label": "true CCQE $d\\sigma/dp_T$",
+   "xlabel": "p_T^{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_T",
+   "yunit": "10^{-41}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/dsigma_pt_ccqe.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_pz_ccqe",
+   "label": "true CCQE $d\\sigma/dp_{\\parallel}$",
+   "xlabel": "p_{\\parallel}^{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\parallel}",
+   "yunit": "10^{-41}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/dsigma_pz_ccqe.csv"
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_q2_enuqe_ccqe",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "slicevar_tex": "$E_{\\nu}^{QE}$",
+   "slices": [
+    {
+     "label_tex": "$1.5 < E_{\\nu}^{QE} < 2$ GeV",
+     "label": "1.5<EnuQE<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_1p5-2p0.csv"
+    },
+    {
+     "label_tex": "$2 < E_{\\nu}^{QE} < 2.5$ GeV",
+     "label": "2<EnuQE<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_2p0-2p5.csv"
+    },
+    {
+     "label_tex": "$2.5 < E_{\\nu}^{QE} < 3$ GeV",
+     "label": "2.5<EnuQE<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_2p5-3p0.csv"
+    },
+    {
+     "label_tex": "$3 < E_{\\nu}^{QE} < 3.5$ GeV",
+     "label": "3<EnuQE<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_3p0-3p5.csv"
+    },
+    {
+     "label_tex": "$3.5 < E_{\\nu}^{QE} < 4$ GeV",
+     "label": "3.5<EnuQE<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_3p5-4p0.csv"
+    },
+    {
+     "label_tex": "$4 < E_{\\nu}^{QE} < 5$ GeV",
+     "label": "4<EnuQE<5",
+     "lo": 4.0,
+     "hi": 5.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_4p0-5p0.csv"
+    },
+    {
+     "label_tex": "$5 < E_{\\nu}^{QE} < 6$ GeV",
+     "label": "5<EnuQE<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_5p0-6p0.csv"
+    },
+    {
+     "label_tex": "$6 < E_{\\nu}^{QE} < 7$ GeV",
+     "label": "6<EnuQE<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_6p0-7p0.csv"
+    },
+    {
+     "label_tex": "$7 < E_{\\nu}^{QE} < 8$ GeV",
+     "label": "7<EnuQE<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_7p0-8p0.csv"
+    },
+    {
+     "label_tex": "$8 < E_{\\nu}^{QE} < 10$ GeV",
+     "label": "8<EnuQE<10",
+     "lo": 8.0,
+     "hi": 10.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__enu_8p0-10p0.csv"
+    }
+   ],
+   "cov": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enuqe_ccqe__cov.csv",
+   "cov_note": "Full 80x80 covariance (stat+syst), reordered from the release's Q2-major layout to EnuQE slice x Q2-bin order matching the slices listed here."
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_q2_enutrue_ccqe",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "slicevar_tex": "$E_{\\nu}^{true}$",
+   "slices": [
+    {
+     "label_tex": "$1.5 < E_{\\nu}^{true} < 2$ GeV",
+     "label": "1.5<Enutrue<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_1p5-2p0.csv"
+    },
+    {
+     "label_tex": "$2 < E_{\\nu}^{true} < 2.5$ GeV",
+     "label": "2<Enutrue<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_2p0-2p5.csv"
+    },
+    {
+     "label_tex": "$2.5 < E_{\\nu}^{true} < 3$ GeV",
+     "label": "2.5<Enutrue<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_2p5-3p0.csv"
+    },
+    {
+     "label_tex": "$3 < E_{\\nu}^{true} < 3.5$ GeV",
+     "label": "3<Enutrue<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_3p0-3p5.csv"
+    },
+    {
+     "label_tex": "$3.5 < E_{\\nu}^{true} < 4$ GeV",
+     "label": "3.5<Enutrue<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_3p5-4p0.csv"
+    },
+    {
+     "label_tex": "$4 < E_{\\nu}^{true} < 5$ GeV",
+     "label": "4<Enutrue<5",
+     "lo": 4.0,
+     "hi": 5.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_4p0-5p0.csv"
+    },
+    {
+     "label_tex": "$5 < E_{\\nu}^{true} < 6$ GeV",
+     "label": "5<Enutrue<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_5p0-6p0.csv"
+    },
+    {
+     "label_tex": "$6 < E_{\\nu}^{true} < 7$ GeV",
+     "label": "6<Enutrue<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_6p0-7p0.csv"
+    },
+    {
+     "label_tex": "$7 < E_{\\nu}^{true} < 8$ GeV",
+     "label": "7<Enutrue<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_7p0-8p0.csv"
+    },
+    {
+     "label_tex": "$8 < E_{\\nu}^{true} < 10$ GeV",
+     "label": "8<Enutrue<10",
+     "lo": 8.0,
+     "hi": 10.0,
+     "csv": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__enu_8p0-10p0.csv"
+    }
+   ],
+   "cov": "data/datasets/sources/minerva-2018vjb/d2sigma_q2_enutrue_ccqe__cov.csv",
+   "cov_note": "Full 80x80 covariance (stat+syst), reordered from the release's Q2-major layout to Enutrue slice x Q2-bin order matching the slices listed here."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_q2_intenuqe_ccqe",
+   "label": "true CCQE $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{QE}$)",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/dsigma_q2_intenuqe_ccqe.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_q2_intenutrue_ccqe",
+   "label": "true CCQE $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{true}$)",
+   "xlabel": "Q^2_{QE}",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/dsigma_q2_intenutrue_ccqe.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "sigma_enuqe_ccqe",
+   "label": "true CCQE $\\sigma(E_\\nu^{QE})$",
+   "xlabel": "E_\\nu^{QE}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_\\nu^{QE})",
+   "yunit": "10^{-41}cm^2/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/sigma_enuqe_ccqe.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "sigma_enutrue_ccqe",
+   "label": "true CCQE $\\sigma(E_\\nu^{true})$",
+   "xlabel": "E_\\nu^{true}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_\\nu^{true})",
+   "yunit": "10^{-41}cm^2/nucleon",
+   "csv": "data/datasets/sources/minerva-2018vjb/sigma_enutrue_ccqe.csv"
+  }
+ ]
+}

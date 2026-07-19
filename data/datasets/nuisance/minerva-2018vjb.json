@@ -1,0 +1,5385 @@
+{
+ "bibtag": "MINERvA:2018vjb",
+ "slug": "minerva-2018vjb",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1801.01197",
+ "arxiv": "1801.01197",
+ "cite": "Phys.Rev.D 97 052002",
+ "note": "Muon antineutrino CCQE-like and true-CCQE double-differential cross sections vs muon (pT,pZ) and vs (Q2_QE, Enu) on CH (scintillator tracker), MINERvA low-energy NuMI beam.",
+ "distributions": [
+  {
+   "key": "d2sigma_pzpt_qelike",
+   "slug": "d2sigma_pzpt_qelike",
+   "name": "d\u00b2\u03c3/dp_Tdp_parallel",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{\\parallel}$",
+   "xlabel": "p_parallel^\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_{\\parallel}^{\\mu}$",
+   "ylabel": "d\u00b2\u03c3/dp_Tdp_parallel",
+   "ylabel_plot": "d\u00b2\u03c3/dp_Tdp_parallel",
+   "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{\\parallel}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 60,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$p_T$",
+   "slices": [
+    {
+     "label_tex": "$0 < p_T < 0.15$ GeV/c",
+     "label": "0<pT<0.15",
+     "lo": 0.0,
+     "hi": 0.15,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 37.71,
+       "err": 7.80505
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 34.86,
+       "err": 5.79218
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 40.67,
+       "err": 6.23042
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 37.01,
+       "err": 5.45345
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 26.85,
+       "err": 4.06774
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 7.64,
+       "err": 1.51212
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 3.63,
+       "err": 0.962549
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 2.2,
+       "err": 0.555428
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 1.9,
+       "err": 0.573847
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 0.54,
+       "err": 0.183576,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.15 < p_T < 0.25$ GeV/c",
+     "label": "0.15<pT<0.25",
+     "lo": 0.15,
+     "hi": 0.25,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 105.56,
+       "err": 20.1876
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 127.51,
+       "err": 18.0223
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 148.9,
+       "err": 18.7842
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 118.56,
+       "err": 13.74
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 77.89,
+       "err": 9.40504
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 32.55,
+       "err": 4.50627
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 13.65,
+       "err": 2.41499
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 5.64,
+       "err": 1.10639
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 3.36,
+       "err": 0.869253
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 1.56,
+       "err": 0.344384,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.25 < p_T < 0.4$ GeV/c",
+     "label": "0.25<pT<0.4",
+     "lo": 0.25,
+     "hi": 0.4,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 163.89,
+       "err": 25.7372
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 184.54,
+       "err": 24.7008
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 235.21,
+       "err": 26.2054
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 203.85,
+       "err": 19.6579
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 118.78,
+       "err": 12.2594
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 59.6,
+       "err": 6.62507
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 18.91,
+       "err": 2.62528
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 12.73,
+       "err": 1.69918
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 5.89,
+       "err": 1.07415
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 3.01,
+       "err": 0.466154,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.4 < p_T < 0.7$ GeV/c",
+     "label": "0.4<pT<0.7",
+     "lo": 0.4,
+     "hi": 0.7,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 131.76,
+       "err": 18.1782
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 224.95,
+       "err": 24.0002
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 230.56,
+       "err": 22.0311
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 197.59,
+       "err": 19.6189
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 116.54,
+       "err": 14.4745
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 42.21,
+       "err": 5.68623
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 24.43,
+       "err": 2.92617
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 13.19,
+       "err": 1.6225
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 5.69,
+       "err": 0.813449
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 3.07,
+       "err": 0.434166,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.7 < p_T < 1$ GeV/c",
+     "label": "0.7<pT<1",
+     "lo": 0.7,
+     "hi": 1.0,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 0.84,
+       "err": 0.530754
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 42.85,
+       "err": 7.11355
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 100.81,
+       "err": 12.4974
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 62.56,
+       "err": 9.48117
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 38.53,
+       "err": 6.69964
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 16.1,
+       "err": 2.84201
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 8.39,
+       "err": 1.54457
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 5.81,
+       "err": 1.0
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 3.49,
+       "err": 0.67897
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 1.78,
+       "err": 0.334215,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$1 < p_T < 1.5$ GeV/c",
+     "label": "1<pT<1.5",
+     "lo": 1.0,
+     "hi": 1.5,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 1.1,
+       "err": 0.466476
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 4.63,
+       "err": 1.5284
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 4.22,
+       "err": 1.28725
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 2.43,
+       "err": 0.68884
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 1.48,
+       "err": 0.474236
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 0.98,
+       "err": 0.276586
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 1.21,
+       "err": 0.354683
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 0.52,
+       "err": 0.156205,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_pt_qelike",
+   "slug": "dsigma_pt_qelike",
+   "name": "d\u03c3/dp_T (CCQE-like $d\\sigma/dp_T$)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_T\\ (CCQE-like $d\\sigma/dp_T$)$",
+   "xlabel": "p_T^\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_T^{\\mu}$",
+   "ylabel": "d\u03c3/dp_T",
+   "ylabel_plot": "d\u03c3/dp_T",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_T$",
+   "yunit": "10^{-41}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.15,
+     "center": 0.075,
+     "val": 110.74,
+     "err": 17.0292
+    },
+    {
+     "i": 1,
+     "lo": 0.15,
+     "hi": 0.25,
+     "center": 0.2,
+     "val": 361.23,
+     "err": 42.5119
+    },
+    {
+     "i": 2,
+     "lo": 0.25,
+     "hi": 0.4,
+     "center": 0.325,
+     "val": 583.94,
+     "err": 58.5138
+    },
+    {
+     "i": 3,
+     "lo": 0.4,
+     "hi": 0.7,
+     "center": 0.55,
+     "val": 570.42,
+     "err": 53.5289
+    },
+    {
+     "i": 4,
+     "lo": 0.7,
+     "hi": 1.0,
+     "center": 0.85,
+     "val": 174.81,
+     "err": 22.7814
+    },
+    {
+     "i": 5,
+     "lo": 1.0,
+     "hi": 1.5,
+     "center": 1.25,
+     "val": 15.87,
+     "err": 3.53021
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_pz_qelike",
+   "slug": "dsigma_pz_qelike",
+   "name": "d\u03c3/dp_parallel (CCQE-like $d\\sigma/dp_{\\parallel}$)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_{\\parallel}\\ (CCQE-like $d\\sigma/dp_{\\parallel}$)$",
+   "xlabel": "p_parallel^\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_{\\parallel}^{\\mu}$",
+   "ylabel": "d\u03c3/dp_parallel",
+   "ylabel_plot": "d\u03c3/dp_parallel",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_{\\parallel}$",
+   "yunit": "10^{-41}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 10,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.5,
+     "hi": 2.0,
+     "center": 1.75,
+     "val": 80.58,
+     "err": 11.7759
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 126.0,
+     "err": 14.469
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 156.23,
+     "err": 15.8524
+    },
+    {
+     "i": 3,
+     "lo": 3.0,
+     "hi": 3.5,
+     "center": 3.25,
+     "val": 128.35,
+     "err": 12.7865
+    },
+    {
+     "i": 4,
+     "lo": 3.5,
+     "hi": 4.0,
+     "center": 3.75,
+     "val": 78.27,
+     "err": 8.95004
+    },
+    {
+     "i": 5,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 32.05,
+     "err": 3.86695
+    },
+    {
+     "i": 6,
+     "lo": 5.0,
+     "hi": 6.0,
+     "center": 5.5,
+     "val": 15.33,
+     "err": 1.69523
+    },
+    {
+     "i": 7,
+     "lo": 6.0,
+     "hi": 8.0,
+     "center": 7.0,
+     "val": 8.99,
+     "err": 1.00319
+    },
+    {
+     "i": 8,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 4.86,
+     "err": 0.605392
+    },
+    {
+     "i": 9,
+     "lo": 10.0,
+     "hi": 10.75,
+     "center": 10.375,
+     "val": 2.4,
+     "err": 0.308707,
+     "hi_true": 15.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "d2sigma_q2_enuqe_qelike",
+   "slug": "d2sigma_q2_enuqe_qelike",
+   "name": "d\u03c3/dQ\u00b2_QE",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 80,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$E_{\\nu}^{QE}$",
+   "slices": [
+    {
+     "label_tex": "$1.5 < E_{\\nu}^{QE} < 2$ GeV",
+     "label": "1.5<EnuQE<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 1118.91,
+       "err": 252.71
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1219.53,
+       "err": 264.873
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1224.29,
+       "err": 233.762
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 968.17,
+       "err": 198.148
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 404.04,
+       "err": 89.5458
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 1.08,
+       "err": 2.16171
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2 < E_{\\nu}^{QE} < 2.5$ GeV",
+     "label": "2<EnuQE<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 823.22,
+       "err": 140.956
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1304.8,
+       "err": 210.808
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 991.07,
+       "err": 135.124
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 899.36,
+       "err": 116.659
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 650.5,
+       "err": 85.6013
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 129.16,
+       "err": 22.2234
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2.5 < E_{\\nu}^{QE} < 3$ GeV",
+     "label": "2.5<EnuQE<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 924.55,
+       "err": 140.744
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1219.48,
+       "err": 164.37
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1134.01,
+       "err": 137.815
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 968.24,
+       "err": 114.748
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 688.89,
+       "err": 73.1597
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 241.79,
+       "err": 27.56
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 4.44,
+       "err": 1.81135
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$3 < E_{\\nu}^{QE} < 3.5$ GeV",
+     "label": "3<EnuQE<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 805.21,
+       "err": 109.292
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 954.82,
+       "err": 117.58
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1009.61,
+       "err": 106.786
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 976.76,
+       "err": 91.4842
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 670.47,
+       "err": 63.7719
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 296.84,
+       "err": 31.0777
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 63.6,
+       "err": 12.6092
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$3.5 < E_{\\nu}^{QE} < 4$ GeV",
+     "label": "3.5<EnuQE<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 682.27,
+       "err": 101.68
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 810.94,
+       "err": 111.456
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 944.45,
+       "err": 106.945
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 851.43,
+       "err": 88.3041
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 553.8,
+       "err": 67.8926
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 270.56,
+       "err": 34.9552
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 81.75,
+       "err": 18.589
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 8.34,
+       "err": 3.07605,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$4 < E_{\\nu}^{QE} < 5$ GeV",
+     "label": "4<EnuQE<5",
+     "lo": 4.0,
+     "hi": 5.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 562.66,
+       "err": 111.998
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 688.42,
+       "err": 122.037
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 884.91,
+       "err": 133.298
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 914.05,
+       "err": 135.454
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 524.28,
+       "err": 81.1882
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 244.33,
+       "err": 41.9122
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 81.8,
+       "err": 20.506
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 18.68,
+       "err": 5.41244,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$5 < E_{\\nu}^{QE} < 6$ GeV",
+     "label": "5<EnuQE<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 746.09,
+       "err": 184.327
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 964.9,
+       "err": 208.494
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1006.93,
+       "err": 175.711
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 824.64,
+       "err": 130.826
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 662.22,
+       "err": 95.5827
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 301.57,
+       "err": 53.8138
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 77.13,
+       "err": 19.5324
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 26.32,
+       "err": 8.85818,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$6 < E_{\\nu}^{QE} < 7$ GeV",
+     "label": "6<EnuQE<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 885.65,
+       "err": 243.008
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 844.16,
+       "err": 210.552
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1366.6,
+       "err": 257.809
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1055.01,
+       "err": 166.068
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 994.06,
+       "err": 140.889
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 344.99,
+       "err": 57.1979
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 96.9,
+       "err": 26.3905
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 34.75,
+       "err": 12.929,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$7 < E_{\\nu}^{QE} < 8$ GeV",
+     "label": "7<EnuQE<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 536.48,
+       "err": 184.43
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 802.64,
+       "err": 246.108
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1164.94,
+       "err": 257.36
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1159.34,
+       "err": 215.149
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 752.25,
+       "err": 124.298
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 420.73,
+       "err": 74.1087
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 96.69,
+       "err": 28.5177
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 25.83,
+       "err": 9.58862,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$8 < E_{\\nu}^{QE} < 10$ GeV",
+     "label": "8<EnuQE<10",
+     "lo": 8.0,
+     "hi": 10.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 1151.0,
+       "err": 348.567
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 736.27,
+       "err": 229.407
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1064.92,
+       "err": 244.404
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1161.83,
+       "err": 201.741
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 605.77,
+       "err": 99.5895
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 351.78,
+       "err": 60.9757
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 132.23,
+       "err": 43.7165
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 39.22,
+       "err": 15.083,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "d2sigma_q2_enutrue_qelike",
+   "slug": "d2sigma_q2_enutrue_qelike",
+   "name": "d\u03c3/dQ\u00b2_QE",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 80,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$E_{\\nu}^{true}$",
+   "slices": [
+    {
+     "label_tex": "$1.5 < E_{\\nu}^{true} < 2$ GeV",
+     "label": "1.5<Enutrue<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 1056.88,
+       "err": 266.832
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1110.31,
+       "err": 263.961
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1100.17,
+       "err": 225.965
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 815.95,
+       "err": 188.376
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 286.66,
+       "err": 69.3303
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 3.36,
+       "err": 3.91281
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2 < E_{\\nu}^{true} < 2.5$ GeV",
+     "label": "2<Enutrue<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 787.14,
+       "err": 131.394
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1186.74,
+       "err": 198.59
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 933.1,
+       "err": 130.116
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 831.06,
+       "err": 107.087
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 559.99,
+       "err": 73.0111
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 101.43,
+       "err": 17.3097
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 0.14,
+       "err": 0.219317
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2.5 < E_{\\nu}^{true} < 3$ GeV",
+     "label": "2.5<Enutrue<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 899.69,
+       "err": 137.694
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1221.31,
+       "err": 167.152
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1110.77,
+       "err": 138.136
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 935.94,
+       "err": 112.167
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 673.18,
+       "err": 72.8057
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 220.5,
+       "err": 24.1738
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 8.5,
+       "err": 2.47843
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$3 < E_{\\nu}^{true} < 3.5$ GeV",
+     "label": "3<Enutrue<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 895.55,
+       "err": 121.706
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1070.57,
+       "err": 132.508
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1098.91,
+       "err": 118.5
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1051.38,
+       "err": 102.765
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 705.41,
+       "err": 69.7562
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 298.99,
+       "err": 31.2181
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 60.06,
+       "err": 11.4435
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.73,
+       "err": 0.374833,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$3.5 < E_{\\nu}^{true} < 4$ GeV",
+     "label": "3.5<Enutrue<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 810.59,
+       "err": 120.795
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 962.01,
+       "err": 130.568
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1067.4,
+       "err": 123.234
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 966.13,
+       "err": 106.064
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 624.24,
+       "err": 77.0938
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 289.22,
+       "err": 38.33
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 77.76,
+       "err": 17.0561
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 8.42,
+       "err": 3.33138,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$4 < E_{\\nu}^{true} < 5$ GeV",
+     "label": "4<Enutrue<5",
+     "lo": 4.0,
+     "hi": 5.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 674.54,
+       "err": 135.688
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 809.8,
+       "err": 144.075
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1042.99,
+       "err": 157.807
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1042.04,
+       "err": 153.86
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 594.38,
+       "err": 93.9281
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 264.03,
+       "err": 46.3673
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 81.41,
+       "err": 20.6493
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 17.1,
+       "err": 4.87052,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$5 < E_{\\nu}^{true} < 6$ GeV",
+     "label": "5<Enutrue<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 840.97,
+       "err": 201.48
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1057.84,
+       "err": 229.135
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1074.2,
+       "err": 187.588
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 927.61,
+       "err": 145.729
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 696.27,
+       "err": 100.808
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 313.27,
+       "err": 55.5222
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 77.54,
+       "err": 19.9971
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 26.28,
+       "err": 9.00223,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$6 < E_{\\nu}^{true} < 7$ GeV",
+     "label": "6<Enutrue<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 951.7,
+       "err": 252.284
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 891.26,
+       "err": 218.526
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1486.97,
+       "err": 282.186
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1080.46,
+       "err": 168.864
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 1027.38,
+       "err": 145.598
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 358.63,
+       "err": 61.223
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 103.35,
+       "err": 28.0353
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 34.62,
+       "err": 12.9988,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$7 < E_{\\nu}^{true} < 8$ GeV",
+     "label": "7<Enutrue<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 568.51,
+       "err": 191.747
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 859.62,
+       "err": 244.626
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1225.77,
+       "err": 272.138
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1227.45,
+       "err": 230.822
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 822.94,
+       "err": 138.151
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 436.67,
+       "err": 77.7832
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 97.58,
+       "err": 28.1304
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 24.18,
+       "err": 9.4407,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$8 < E_{\\nu}^{true} < 10$ GeV",
+     "label": "8<Enutrue<10",
+     "lo": 8.0,
+     "hi": 10.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 1135.54,
+       "err": 343.353
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 776.0,
+       "err": 243.665
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1115.78,
+       "err": 246.589
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1196.72,
+       "err": 203.068
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 624.22,
+       "err": 102.866
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 363.35,
+       "err": 63.9145
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 132.62,
+       "err": 43.6981
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 39.71,
+       "err": 14.8,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_q2_intenuqe_qelike",
+   "slug": "dsigma_q2_intenuqe_qelike",
+   "name": "d\u03c3/dQ\u00b2_QE (CCQE-like $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{QE}$))",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}\\ (CCQE-like $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{QE}$))$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.025,
+     "center": 0.0125,
+     "val": 697.59,
+     "err": 99.0256
+    },
+    {
+     "i": 1,
+     "lo": 0.025,
+     "hi": 0.05,
+     "center": 0.037500000000000006,
+     "val": 870.26,
+     "err": 110.298
+    },
+    {
+     "i": 2,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 884.93,
+     "err": 92.3558
+    },
+    {
+     "i": 3,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 797.86,
+     "err": 77.8928
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.4,
+     "center": 0.30000000000000004,
+     "val": 520.27,
+     "err": 49.3467
+    },
+    {
+     "i": 5,
+     "lo": 0.4,
+     "hi": 0.8,
+     "center": 0.6000000000000001,
+     "val": 187.98,
+     "err": 20.9745
+    },
+    {
+     "i": 6,
+     "lo": 0.8,
+     "hi": 1.2,
+     "center": 1.0,
+     "val": 37.29,
+     "err": 7.69042
+    },
+    {
+     "i": 7,
+     "lo": 1.2,
+     "hi": 1.35,
+     "center": 1.275,
+     "val": 5.63,
+     "err": 1.48772,
+     "hi_true": 2.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_q2_intenutrue_qelike",
+   "slug": "dsigma_q2_intenutrue_qelike",
+   "name": "d\u03c3/dQ\u00b2_QE (CCQE-like $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{true}$))",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}\\ (CCQE-like $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{true}$))$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.025,
+     "center": 0.0125,
+     "val": 728.99,
+     "err": 106.432
+    },
+    {
+     "i": 1,
+     "lo": 0.025,
+     "hi": 0.05,
+     "center": 0.037500000000000006,
+     "val": 899.15,
+     "err": 116.24
+    },
+    {
+     "i": 2,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 913.31,
+     "err": 97.6017
+    },
+    {
+     "i": 3,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 813.52,
+     "err": 80.6494
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.4,
+     "center": 0.30000000000000004,
+     "val": 519.0,
+     "err": 49.583
+    },
+    {
+     "i": 5,
+     "lo": 0.4,
+     "hi": 0.8,
+     "center": 0.6000000000000001,
+     "val": 187.09,
+     "err": 21.0806
+    },
+    {
+     "i": 6,
+     "lo": 0.8,
+     "hi": 1.2,
+     "center": 1.0,
+     "val": 37.03,
+     "err": 7.58931
+    },
+    {
+     "i": 7,
+     "lo": 1.2,
+     "hi": 1.35,
+     "center": 1.275,
+     "val": 5.57,
+     "err": 1.46328,
+     "hi_true": 2.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "sigma_enuqe_qelike",
+   "slug": "sigma_enuqe_qelike",
+   "name": "\u03c3(E_\u03bd^QE) (CCQE-like $\\sigma(E_\\nu^{QE})$)",
+   "name_tex": "$\\sigma(E_\\nu^{QE})\\ (CCQE-like $\\sigma(E_\\nu^{QE})$)$",
+   "xlabel": "E_\u03bd^QE",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu^{QE}$",
+   "ylabel": "\u03c3(E_\u03bd^QE)",
+   "ylabel_plot": "\u03c3(E_\u03bd^QE)",
+   "ylabel_tex": "$\\sigma(E_\\nu^{QE})$",
+   "yunit": "10^{-41}cm^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 10,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.5,
+     "hi": 2.0,
+     "center": 1.75,
+     "val": 297.73,
+     "err": 54.8974
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 374.45,
+     "err": 45.1934
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 443.4,
+     "err": 46.9362
+    },
+    {
+     "i": 3,
+     "lo": 3.0,
+     "hi": 3.5,
+     "center": 3.25,
+     "val": 470.43,
+     "err": 42.1681
+    },
+    {
+     "i": 4,
+     "lo": 3.5,
+     "hi": 4.0,
+     "center": 3.75,
+     "val": 428.05,
+     "err": 46.9212
+    },
+    {
+     "i": 5,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 417.18,
+     "err": 63.1527
+    },
+    {
+     "i": 6,
+     "lo": 5.0,
+     "hi": 6.0,
+     "center": 5.5,
+     "val": 480.57,
+     "err": 64.6422
+    },
+    {
+     "i": 7,
+     "lo": 6.0,
+     "hi": 7.0,
+     "center": 6.5,
+     "val": 620.44,
+     "err": 76.677
+    },
+    {
+     "i": 8,
+     "lo": 7.0,
+     "hi": 8.0,
+     "center": 7.5,
+     "val": 585.74,
+     "err": 77.4261
+    },
+    {
+     "i": 9,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 562.74,
+     "err": 74.6625
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "sigma_enutrue_qelike",
+   "slug": "sigma_enutrue_qelike",
+   "name": "\u03c3(E_\u03bd^true) (CCQE-like $\\sigma(E_\\nu^{true})$)",
+   "name_tex": "$\\sigma(E_\\nu^{true})\\ (CCQE-like $\\sigma(E_\\nu^{true})$)$",
+   "xlabel": "E_\u03bd^true",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu^{true}$",
+   "ylabel": "\u03c3(E_\u03bd^true)",
+   "ylabel_plot": "\u03c3(E_\u03bd^true)",
+   "ylabel_tex": "$\\sigma(E_\\nu^{true})$",
+   "yunit": "10^{-41}cm^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 10,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.5,
+     "hi": 2.0,
+     "center": 1.75,
+     "val": 249.46,
+     "err": 49.4967
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 331.73,
+     "err": 39.8533
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 428.4,
+     "err": 45.6356
+    },
+    {
+     "i": 3,
+     "lo": 3.0,
+     "hi": 3.5,
+     "center": 3.25,
+     "val": 494.52,
+     "err": 45.604
+    },
+    {
+     "i": 4,
+     "lo": 3.5,
+     "hi": 4.0,
+     "center": 3.75,
+     "val": 472.67,
+     "err": 53.2239
+    },
+    {
+     "i": 5,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 464.19,
+     "err": 71.178
+    },
+    {
+     "i": 6,
+     "lo": 5.0,
+     "hi": 6.0,
+     "center": 5.5,
+     "val": 510.54,
+     "err": 69.6344
+    },
+    {
+     "i": 7,
+     "lo": 6.0,
+     "hi": 7.0,
+     "center": 6.5,
+     "val": 646.43,
+     "err": 80.6911
+    },
+    {
+     "i": 8,
+     "lo": 7.0,
+     "hi": 8.0,
+     "center": 7.5,
+     "val": 617.37,
+     "err": 82.8872
+    },
+    {
+     "i": 9,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 578.25,
+     "err": 77.2297
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "d2sigma_pzpt_ccqe",
+   "slug": "d2sigma_pzpt_ccqe",
+   "name": "d\u00b2\u03c3/dp_Tdp_parallel",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{\\parallel}$",
+   "xlabel": "p_parallel^\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_{\\parallel}^{\\mu}$",
+   "ylabel": "d\u00b2\u03c3/dp_Tdp_parallel",
+   "ylabel_plot": "d\u00b2\u03c3/dp_Tdp_parallel",
+   "ylabel_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{\\parallel}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 60,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$p_T$",
+   "slices": [
+    {
+     "label_tex": "$0 < p_T < 0.15$ GeV/c",
+     "label": "0<pT<0.15",
+     "lo": 0.0,
+     "hi": 0.15,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 31.73,
+       "err": 6.38997
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 27.31,
+       "err": 4.65895
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 32.6,
+       "err": 5.31143
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 33.87,
+       "err": 5.1265
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 22.96,
+       "err": 3.6389
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 6.97,
+       "err": 1.44267
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 2.6,
+       "err": 0.812712
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 2.14,
+       "err": 0.570088
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 1.97,
+       "err": 0.620322
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 0.47,
+       "err": 0.174642,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.15 < p_T < 0.25$ GeV/c",
+     "label": "0.15<pT<0.25",
+     "lo": 0.15,
+     "hi": 0.25,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 85.28,
+       "err": 16.7825
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 106.82,
+       "err": 15.2088
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 128.78,
+       "err": 16.3328
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 105.03,
+       "err": 12.1182
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 65.93,
+       "err": 8.22485
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 30.94,
+       "err": 4.37713
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 11.9,
+       "err": 2.26354
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 5.15,
+       "err": 1.05991
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 3.35,
+       "err": 0.936216
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 1.63,
+       "err": 0.362491,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.25 < p_T < 0.4$ GeV/c",
+     "label": "0.25<pT<0.4",
+     "lo": 0.25,
+     "hi": 0.4,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 150.76,
+       "err": 23.5859
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 169.45,
+       "err": 22.6287
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 218.57,
+       "err": 25.1493
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 195.17,
+       "err": 18.8212
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 110.79,
+       "err": 11.7568
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 55.64,
+       "err": 6.3378
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 17.78,
+       "err": 2.51205
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 12.19,
+       "err": 1.64438
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 5.6,
+       "err": 1.02083
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 2.77,
+       "err": 0.458039,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.4 < p_T < 0.7$ GeV/c",
+     "label": "0.4<pT<0.7",
+     "lo": 0.4,
+     "hi": 0.7,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 120.45,
+       "err": 16.4409
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 211.73,
+       "err": 22.421
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 218.99,
+       "err": 21.1754
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 191.95,
+       "err": 19.4531
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 114.65,
+       "err": 14.3119
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 40.58,
+       "err": 5.45184
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 22.97,
+       "err": 2.73821
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 12.2,
+       "err": 1.53379
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 5.42,
+       "err": 0.778332
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 2.84,
+       "err": 0.382099,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$0.7 < p_T < 1$ GeV/c",
+     "label": "0.7<pT<1",
+     "lo": 0.7,
+     "hi": 1.0,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 0.85,
+       "err": 0.508035
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 40.76,
+       "err": 6.79535
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 102.36,
+       "err": 12.7007
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 60.66,
+       "err": 8.92612
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 38.36,
+       "err": 6.57384
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 16.31,
+       "err": 2.81954
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 8.54,
+       "err": 1.45691
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 5.64,
+       "err": 0.95901
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 2.85,
+       "err": 0.534135
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 1.71,
+       "err": 0.296985,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$1 < p_T < 1.5$ GeV/c",
+     "label": "1<pT<1.5",
+     "lo": 1.0,
+     "hi": 1.5,
+     "nbins": 10,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 1.5,
+       "hi": 2.0,
+       "center": 1.75,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 1,
+       "lo": 2.0,
+       "hi": 2.5,
+       "center": 2.25,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 2,
+       "lo": 2.5,
+       "hi": 3.0,
+       "center": 2.75,
+       "val": 1.08,
+       "err": 0.546443
+      },
+      {
+       "i": 3,
+       "lo": 3.0,
+       "hi": 3.5,
+       "center": 3.25,
+       "val": 4.66,
+       "err": 1.63527
+      },
+      {
+       "i": 4,
+       "lo": 3.5,
+       "hi": 4.0,
+       "center": 3.75,
+       "val": 3.85,
+       "err": 1.29727
+      },
+      {
+       "i": 5,
+       "lo": 4.0,
+       "hi": 5.0,
+       "center": 4.5,
+       "val": 2.33,
+       "err": 0.66468
+      },
+      {
+       "i": 6,
+       "lo": 5.0,
+       "hi": 6.0,
+       "center": 5.5,
+       "val": 1.57,
+       "err": 0.475079
+      },
+      {
+       "i": 7,
+       "lo": 6.0,
+       "hi": 8.0,
+       "center": 7.0,
+       "val": 1.18,
+       "err": 0.311448
+      },
+      {
+       "i": 8,
+       "lo": 8.0,
+       "hi": 10.0,
+       "center": 9.0,
+       "val": 1.17,
+       "err": 0.326497
+      },
+      {
+       "i": 9,
+       "lo": 10.0,
+       "hi": 10.75,
+       "center": 10.375,
+       "val": 0.5,
+       "err": 0.148661,
+       "hi_true": 15.0
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_pt_ccqe",
+   "slug": "dsigma_pt_ccqe",
+   "name": "d\u03c3/dp_T (true CCQE $d\\sigma/dp_T$)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_T\\ (true CCQE $d\\sigma/dp_T$)$",
+   "xlabel": "p_T^\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_T^{\\mu}$",
+   "ylabel": "d\u03c3/dp_T",
+   "ylabel_plot": "d\u03c3/dp_T",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_T$",
+   "yunit": "10^{-41}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.15,
+     "center": 0.075,
+     "val": 94.4,
+     "err": 11.5691
+    },
+    {
+     "i": 1,
+     "lo": 0.15,
+     "hi": 0.25,
+     "center": 0.2,
+     "val": 313.88,
+     "err": 33.1853
+    },
+    {
+     "i": 2,
+     "lo": 0.25,
+     "hi": 0.4,
+     "center": 0.325,
+     "val": 545.21,
+     "err": 55.365
+    },
+    {
+     "i": 3,
+     "lo": 0.4,
+     "hi": 0.7,
+     "center": 0.55,
+     "val": 541.85,
+     "err": 50.2078
+    },
+    {
+     "i": 4,
+     "lo": 0.7,
+     "hi": 1.0,
+     "center": 0.85,
+     "val": 171.87,
+     "err": 21.2258
+    },
+    {
+     "i": 5,
+     "lo": 1.0,
+     "hi": 1.5,
+     "center": 1.25,
+     "val": 15.88,
+     "err": 3.31421
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_pz_ccqe",
+   "slug": "dsigma_pz_ccqe",
+   "name": "d\u03c3/dp_parallel (true CCQE $d\\sigma/dp_{\\parallel}$)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_{\\parallel}\\ (true CCQE $d\\sigma/dp_{\\parallel}$)$",
+   "xlabel": "p_parallel^\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_{\\parallel}^{\\mu}$",
+   "ylabel": "d\u03c3/dp_parallel",
+   "ylabel_plot": "d\u03c3/dp_parallel",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_{\\parallel}$",
+   "yunit": "10^{-41}cm^2/GeV/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 10,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.5,
+     "hi": 2.0,
+     "center": 1.75,
+     "val": 72.29,
+     "err": 10.189
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 115.94,
+     "err": 12.697
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 147.5,
+     "err": 14.2425
+    },
+    {
+     "i": 3,
+     "lo": 3.0,
+     "hi": 3.5,
+     "center": 3.25,
+     "val": 122.97,
+     "err": 11.857
+    },
+    {
+     "i": 4,
+     "lo": 3.5,
+     "hi": 4.0,
+     "center": 3.75,
+     "val": 74.48,
+     "err": 8.33927
+    },
+    {
+     "i": 5,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 30.72,
+     "err": 3.6868
+    },
+    {
+     "i": 6,
+     "lo": 5.0,
+     "hi": 6.0,
+     "center": 5.5,
+     "val": 14.49,
+     "err": 1.53883
+    },
+    {
+     "i": 7,
+     "lo": 6.0,
+     "hi": 8.0,
+     "center": 7.0,
+     "val": 8.6,
+     "err": 0.948472
+    },
+    {
+     "i": 8,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 4.53,
+     "err": 0.524309
+    },
+    {
+     "i": 9,
+     "lo": 10.0,
+     "hi": 10.75,
+     "center": 10.375,
+     "val": 2.26,
+     "err": 0.264197,
+     "hi_true": 15.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "d2sigma_q2_enuqe_ccqe",
+   "slug": "d2sigma_q2_enuqe_ccqe",
+   "name": "d\u03c3/dQ\u00b2_QE",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 80,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$E_{\\nu}^{QE}$",
+   "slices": [
+    {
+     "label_tex": "$1.5 < E_{\\nu}^{QE} < 2$ GeV",
+     "label": "1.5<EnuQE<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 961.93,
+       "err": 201.636
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 921.26,
+       "err": 213.177
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1046.39,
+       "err": 206.126
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 918.71,
+       "err": 191.01
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 360.39,
+       "err": 77.5955
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 0.99,
+       "err": 1.97732
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2 < E_{\\nu}^{QE} < 2.5$ GeV",
+     "label": "2<EnuQE<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 634.9,
+       "err": 114.068
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1024.97,
+       "err": 179.034
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 937.73,
+       "err": 126.422
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 833.29,
+       "err": 108.008
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 597.99,
+       "err": 77.6604
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 122.2,
+       "err": 21.3047
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2.5 < E_{\\nu}^{QE} < 3$ GeV",
+     "label": "2.5<EnuQE<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 777.94,
+       "err": 124.585
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1026.35,
+       "err": 142.677
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1026.84,
+       "err": 122.816
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 909.91,
+       "err": 111.121
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 652.15,
+       "err": 70.3385
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 233.47,
+       "err": 25.8138
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 4.36,
+       "err": 2.1225
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$3 < E_{\\nu}^{QE} < 3.5$ GeV",
+     "label": "3<EnuQE<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 724.08,
+       "err": 102.055
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 824.97,
+       "err": 103.451
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 946.28,
+       "err": 101.523
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 937.99,
+       "err": 88.3394
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 640.87,
+       "err": 62.5679
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 289.32,
+       "err": 29.6916
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 65.24,
+       "err": 14.5004
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$3.5 < E_{\\nu}^{QE} < 4$ GeV",
+     "label": "3.5<EnuQE<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 577.83,
+       "err": 91.6314
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 670.24,
+       "err": 98.2109
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 820.09,
+       "err": 94.5032
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 831.0,
+       "err": 87.4418
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 541.68,
+       "err": 66.6836
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 263.6,
+       "err": 33.5515
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 85.04,
+       "err": 19.82
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 10.51,
+       "err": 4.11214,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$4 < E_{\\nu}^{QE} < 5$ GeV",
+     "label": "4<EnuQE<5",
+     "lo": 4.0,
+     "hi": 5.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 508.34,
+       "err": 103.462
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 657.91,
+       "err": 121.836
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 847.79,
+       "err": 128.378
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 866.39,
+       "err": 131.122
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 508.4,
+       "err": 78.6695
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 242.81,
+       "err": 41.7889
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 81.99,
+       "err": 20.4872
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 18.98,
+       "err": 5.54437,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$5 < E_{\\nu}^{QE} < 6$ GeV",
+     "label": "5<EnuQE<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 602.73,
+       "err": 165.599
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 797.47,
+       "err": 189.206
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 899.49,
+       "err": 161.692
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 766.83,
+       "err": 122.065
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 624.65,
+       "err": 89.6044
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 290.43,
+       "err": 49.5157
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 75.11,
+       "err": 19.0353
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 26.9,
+       "err": 9.06182,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$6 < E_{\\nu}^{QE} < 7$ GeV",
+     "label": "6<EnuQE<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 786.66,
+       "err": 239.547
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 759.65,
+       "err": 204.137
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1269.84,
+       "err": 245.65
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1019.47,
+       "err": 163.254
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 929.67,
+       "err": 135.296
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 339.53,
+       "err": 54.7018
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 92.73,
+       "err": 25.1632
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 34.98,
+       "err": 13.2795,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$7 < E_{\\nu}^{QE} < 8$ GeV",
+     "label": "7<EnuQE<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 554.65,
+       "err": 215.711
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 838.27,
+       "err": 262.223
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1082.64,
+       "err": 253.094
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1085.17,
+       "err": 204.623
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 687.81,
+       "err": 116.121
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 406.85,
+       "err": 72.3268
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 96.63,
+       "err": 28.203
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 28.8,
+       "err": 10.7885,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$8 < E_{\\nu}^{QE} < 10$ GeV",
+     "label": "8<EnuQE<10",
+     "lo": 8.0,
+     "hi": 10.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 1279.92,
+       "err": 397.587
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 747.12,
+       "err": 257.834
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 953.36,
+       "err": 233.712
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1147.95,
+       "err": 197.223
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 566.43,
+       "err": 95.7852
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 304.98,
+       "err": 55.0609
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 114.37,
+       "err": 40.6974
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 38.6,
+       "err": 14.4558,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "d2sigma_q2_enutrue_ccqe",
+   "slug": "d2sigma_q2_enutrue_ccqe",
+   "name": "d\u03c3/dQ\u00b2_QE",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 80,
+   "is2d": true,
+   "bins": [],
+   "slicevar_tex": "$E_{\\nu}^{true}$",
+   "slices": [
+    {
+     "label_tex": "$1.5 < E_{\\nu}^{true} < 2$ GeV",
+     "label": "1.5<Enutrue<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 890.86,
+       "err": 197.322
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 846.55,
+       "err": 203.052
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 961.45,
+       "err": 200.824
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 815.88,
+       "err": 193.199
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 285.51,
+       "err": 66.5004
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 3.45,
+       "err": 4.02016
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 0.0,
+       "err": 0.0
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2 < E_{\\nu}^{true} < 2.5$ GeV",
+     "label": "2<Enutrue<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 617.73,
+       "err": 109.5
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 948.99,
+       "err": 168.671
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 890.74,
+       "err": 120.763
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 806.55,
+       "err": 104.078
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 548.3,
+       "err": 72.7497
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 107.21,
+       "err": 18.555
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 0.14,
+       "err": 0.2
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$2.5 < E_{\\nu}^{true} < 3$ GeV",
+     "label": "2.5<Enutrue<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 760.88,
+       "err": 119.861
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 1040.54,
+       "err": 146.419
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1009.35,
+       "err": 121.044
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 877.58,
+       "err": 106.761
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 640.49,
+       "err": 70.6044
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 227.43,
+       "err": 25.14
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 9.22,
+       "err": 3.539
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.0,
+       "err": 0.0,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$3 < E_{\\nu}^{true} < 3.5$ GeV",
+     "label": "3<Enutrue<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 780.77,
+       "err": 110.17
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 886.12,
+       "err": 110.807
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1010.46,
+       "err": 107.793
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 989.15,
+       "err": 95.8441
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 660.75,
+       "err": 65.0862
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 291.88,
+       "err": 29.7001
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 66.5,
+       "err": 14.0754
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 0.82,
+       "err": 0.390512,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$3.5 < E_{\\nu}^{true} < 4$ GeV",
+     "label": "3.5<Enutrue<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 648.05,
+       "err": 102.066
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 756.86,
+       "err": 109.833
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 902.74,
+       "err": 105.082
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 901.89,
+       "err": 96.8934
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 586.61,
+       "err": 71.7369
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 270.99,
+       "err": 34.6305
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 80.57,
+       "err": 18.1207
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 10.23,
+       "err": 3.98152,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$4 < E_{\\nu}^{true} < 5$ GeV",
+     "label": "4<Enutrue<5",
+     "lo": 4.0,
+     "hi": 5.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 584.32,
+       "err": 118.586
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 736.7,
+       "err": 136.664
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 946.7,
+       "err": 143.444
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 959.07,
+       "err": 143.383
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 552.33,
+       "err": 86.0884
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 249.86,
+       "err": 43.0895
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 77.97,
+       "err": 19.4789
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 18.0,
+       "err": 5.08469,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$5 < E_{\\nu}^{true} < 6$ GeV",
+     "label": "5<Enutrue<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 648.49,
+       "err": 170.01
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 859.86,
+       "err": 201.982
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 957.9,
+       "err": 172.048
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 829.65,
+       "err": 133.074
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 647.02,
+       "err": 93.2108
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 292.48,
+       "err": 49.2001
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 73.34,
+       "err": 18.9338
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 26.18,
+       "err": 8.45007,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$6 < E_{\\nu}^{true} < 7$ GeV",
+     "label": "6<Enutrue<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 826.04,
+       "err": 249.419
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 786.51,
+       "err": 208.179
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1351.17,
+       "err": 258.866
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1050.72,
+       "err": 165.178
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 955.91,
+       "err": 139.707
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 342.25,
+       "err": 55.2699
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 94.24,
+       "err": 25.3762
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 34.43,
+       "err": 13.2126,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$7 < E_{\\nu}^{true} < 8$ GeV",
+     "label": "7<Enutrue<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 579.24,
+       "err": 221.25
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 878.83,
+       "err": 268.381
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 1121.8,
+       "err": 257.154
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1126.58,
+       "err": 221.756
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 718.53,
+       "err": 119.683
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 415.85,
+       "err": 73.7554
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 95.83,
+       "err": 26.9007
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 26.61,
+       "err": 9.93505,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    },
+    {
+     "label_tex": "$8 < E_{\\nu}^{true} < 10$ GeV",
+     "label": "8<Enutrue<10",
+     "lo": 8.0,
+     "hi": 10.0,
+     "nbins": 8,
+     "bins": [
+      {
+       "i": 0,
+       "lo": 0.0,
+       "hi": 0.025,
+       "center": 0.0125,
+       "val": 1267.73,
+       "err": 390.386
+      },
+      {
+       "i": 1,
+       "lo": 0.025,
+       "hi": 0.05,
+       "center": 0.037500000000000006,
+       "val": 773.88,
+       "err": 268.534
+      },
+      {
+       "i": 2,
+       "lo": 0.05,
+       "hi": 0.1,
+       "center": 0.07500000000000001,
+       "val": 985.76,
+       "err": 239.931
+      },
+      {
+       "i": 3,
+       "lo": 0.1,
+       "hi": 0.2,
+       "center": 0.15000000000000002,
+       "val": 1166.76,
+       "err": 195.086
+      },
+      {
+       "i": 4,
+       "lo": 0.2,
+       "hi": 0.4,
+       "center": 0.30000000000000004,
+       "val": 578.91,
+       "err": 97.5979
+      },
+      {
+       "i": 5,
+       "lo": 0.4,
+       "hi": 0.8,
+       "center": 0.6000000000000001,
+       "val": 309.48,
+       "err": 55.476
+      },
+      {
+       "i": 6,
+       "lo": 0.8,
+       "hi": 1.2,
+       "center": 1.0,
+       "val": 114.34,
+       "err": 40.2825
+      },
+      {
+       "i": 7,
+       "lo": 1.2,
+       "hi": 1.35,
+       "center": 1.275,
+       "val": 38.68,
+       "err": 14.0707,
+       "hi_true": 2.0
+      }
+     ],
+     "scale_note": null
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_q2_intenuqe_ccqe",
+   "slug": "dsigma_q2_intenuqe_ccqe",
+   "name": "d\u03c3/dQ\u00b2_QE (true CCQE $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{QE}$))",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}\\ (true CCQE $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{QE}$))$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.025,
+     "center": 0.0125,
+     "val": 599.77,
+     "err": 68.6489
+    },
+    {
+     "i": 1,
+     "lo": 0.025,
+     "hi": 0.05,
+     "center": 0.037500000000000006,
+     "val": 727.63,
+     "err": 82.2431
+    },
+    {
+     "i": 2,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 806.35,
+     "err": 81.6051
+    },
+    {
+     "i": 3,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 757.95,
+     "err": 76.6015
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.4,
+     "center": 0.30000000000000004,
+     "val": 491.6,
+     "err": 46.0866
+    },
+    {
+     "i": 5,
+     "lo": 0.4,
+     "hi": 0.8,
+     "center": 0.6000000000000001,
+     "val": 182.1,
+     "err": 19.3086
+    },
+    {
+     "i": 6,
+     "lo": 0.8,
+     "hi": 1.2,
+     "center": 1.0,
+     "val": 37.48,
+     "err": 8.19481
+    },
+    {
+     "i": 7,
+     "lo": 1.2,
+     "hi": 1.35,
+     "center": 1.275,
+     "val": 5.98,
+     "err": 1.56541,
+     "hi_true": 2.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_q2_intenutrue_ccqe",
+   "slug": "dsigma_q2_intenutrue_ccqe",
+   "name": "d\u03c3/dQ\u00b2_QE (true CCQE $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{true}$))",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}\\ (true CCQE $d\\sigma/dQ^2_{QE}$ (integrated over $E_\\nu^{true}$))$",
+   "xlabel": "Q\u00b2_QE",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2_{QE}$",
+   "ylabel": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_plot": "d\u03c3/dQ\u00b2_QE",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2_{QE}$",
+   "yunit": "10^{-41}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/GeV^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.025,
+     "center": 0.0125,
+     "val": 615.63,
+     "err": 70.9219
+    },
+    {
+     "i": 1,
+     "lo": 0.025,
+     "hi": 0.05,
+     "center": 0.037500000000000006,
+     "val": 744.62,
+     "err": 84.2908
+    },
+    {
+     "i": 2,
+     "lo": 0.05,
+     "hi": 0.1,
+     "center": 0.07500000000000001,
+     "val": 824.27,
+     "err": 83.9913
+    },
+    {
+     "i": 3,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 769.26,
+     "err": 78.7172
+    },
+    {
+     "i": 4,
+     "lo": 0.2,
+     "hi": 0.4,
+     "center": 0.30000000000000004,
+     "val": 491.04,
+     "err": 46.4113
+    },
+    {
+     "i": 5,
+     "lo": 0.4,
+     "hi": 0.8,
+     "center": 0.6000000000000001,
+     "val": 181.83,
+     "err": 19.2842
+    },
+    {
+     "i": 6,
+     "lo": 0.8,
+     "hi": 1.2,
+     "center": 1.0,
+     "val": 37.44,
+     "err": 8.1264
+    },
+    {
+     "i": 7,
+     "lo": 1.2,
+     "hi": 1.35,
+     "center": 1.275,
+     "val": 5.9,
+     "err": 1.53114,
+     "hi_true": 2.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "sigma_enuqe_ccqe",
+   "slug": "sigma_enuqe_ccqe",
+   "name": "\u03c3(E_\u03bd^QE) (true CCQE $\\sigma(E_\\nu^{QE})$)",
+   "name_tex": "$\\sigma(E_\\nu^{QE})\\ (true CCQE $\\sigma(E_\\nu^{QE})$)$",
+   "xlabel": "E_\u03bd^QE",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu^{QE}$",
+   "ylabel": "\u03c3(E_\u03bd^QE)",
+   "ylabel_plot": "\u03c3(E_\u03bd^QE)",
+   "ylabel_tex": "$\\sigma(E_\\nu^{QE})$",
+   "yunit": "10^{-41}cm^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 10,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.5,
+     "hi": 2.0,
+     "center": 1.75,
+     "val": 263.74,
+     "err": 47.172
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 340.19,
+     "err": 39.189
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 413.0,
+     "err": 42.3081
+    },
+    {
+     "i": 3,
+     "lo": 3.0,
+     "hi": 3.5,
+     "center": 3.25,
+     "val": 449.84,
+     "err": 38.8446
+    },
+    {
+     "i": 4,
+     "lo": 3.5,
+     "hi": 4.0,
+     "center": 3.75,
+     "val": 411.51,
+     "err": 44.599
+    },
+    {
+     "i": 5,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 404.97,
+     "err": 60.7842
+    },
+    {
+     "i": 6,
+     "lo": 5.0,
+     "hi": 6.0,
+     "center": 5.5,
+     "val": 449.33,
+     "err": 58.8545
+    },
+    {
+     "i": 7,
+     "lo": 6.0,
+     "hi": 7.0,
+     "center": 6.5,
+     "val": 590.92,
+     "err": 70.3543
+    },
+    {
+     "i": 8,
+     "lo": 7.0,
+     "hi": 8.0,
+     "center": 7.5,
+     "val": 559.46,
+     "err": 73.4622
+    },
+    {
+     "i": 9,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 525.04,
+     "err": 67.753
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "sigma_enutrue_ccqe",
+   "slug": "sigma_enutrue_ccqe",
+   "name": "\u03c3(E_\u03bd^true) (true CCQE $\\sigma(E_\\nu^{true})$)",
+   "name_tex": "$\\sigma(E_\\nu^{true})\\ (true CCQE $\\sigma(E_\\nu^{true})$)$",
+   "xlabel": "E_\u03bd^true",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu^{true}$",
+   "ylabel": "\u03c3(E_\u03bd^true)",
+   "ylabel_plot": "\u03c3(E_\u03bd^true)",
+   "ylabel_tex": "$\\sigma(E_\\nu^{true})$",
+   "yunit": "10^{-41}cm^2/nucleon",
+   "yunit_tex": "$10^{-41}cm^2/nucleon$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1801.01197",
+   "provenance": "arXiv e-print ancillary files (anc/*.csv), cross-checked against the paper's LaTeX appendix tables (PRD-AntiNu-CCQE.tex); errors are stat+syst combined in quadrature; full covariance matrices provided in the release for the pT-pz and Q2-Enu double-differential measurements, reordered to match this recipe's slice/bin ordering.",
+   "nbins": 10,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.5,
+     "hi": 2.0,
+     "center": 1.75,
+     "val": 231.58,
+     "err": 45.0608
+    },
+    {
+     "i": 1,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 316.96,
+     "err": 36.8983
+    },
+    {
+     "i": 2,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 406.02,
+     "err": 41.7006
+    },
+    {
+     "i": 3,
+     "lo": 3.0,
+     "hi": 3.5,
+     "center": 3.25,
+     "val": 467.26,
+     "err": 40.7304
+    },
+    {
+     "i": 4,
+     "lo": 3.5,
+     "hi": 4.0,
+     "center": 3.75,
+     "val": 436.57,
+     "err": 47.5518
+    },
+    {
+     "i": 5,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 432.26,
+     "err": 64.6626
+    },
+    {
+     "i": 6,
+     "lo": 5.0,
+     "hi": 6.0,
+     "center": 5.5,
+     "val": 465.24,
+     "err": 60.9883
+    },
+    {
+     "i": 7,
+     "lo": 6.0,
+     "hi": 7.0,
+     "center": 6.5,
+     "val": 606.27,
+     "err": 71.8576
+    },
+    {
+     "i": 8,
+     "lo": 7.0,
+     "hi": 8.0,
+     "center": 7.5,
+     "val": 574.87,
+     "err": 75.5962
+    },
+    {
+     "i": 9,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 533.25,
+     "err": 67.5798
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}
