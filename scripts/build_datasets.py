@@ -1166,16 +1166,25 @@ def build_grouped(spec):
     covariance CSV over all bins concatenated in distribution order (slice/panel/series order)."""
     dists = [build_grouped_dist(ds, spec['source'], spec['source_url'], spec['provenance'])
              for ds in spec['distributions']]
-    if spec.get('cov') and dists:
-        def flat(d):
-            if d.get('panels'):
-                return [b for p in d['panels'] for s in p['series'] for b in s['bins']]
-            if d.get('slices'):
-                return [b for s in d['slices'] for b in s['bins']]
-            return d['bins']
+
+    def flat(d):
+        if d.get('panels'):
+            return [b for p in d['panels'] for s in p['series'] for b in s['bins']]
+        if d.get('slices'):
+            return [b for s in d['slices'] for b in s['bins']]
+        return d['bins']
+    order = [f"{d['key']} [{b['lo']:g},{b.get('hi_true', b['hi']):g}]" for d in dists for b in flat(d)]
+    if spec.get('cov') and dists:                         # one shared covariance over all bins
         M = _txt_matrix(spec['cov']); M = 0.5 * (M + M.T)
-        order = [f"{d['key']} [{b['lo']:g},{b.get('hi_true', b['hi']):g}]" for d in dists for b in flat(d)]
         dists[0]['_release_cov'] = _cov_obj(M, order, spec.get('cov_note', 'covariance over all bins; row/col order below'))
+    elif dists and all(ds.get('cov') for ds in spec['distributions']):  # per-measurement -> block-diagonal
+        blocks = [0.5 * (_txt_matrix(ds['cov']) + _txt_matrix(ds['cov']).T) for ds in spec['distributions']]
+        total = sum(b.shape[0] for b in blocks)
+        M = np.zeros((total, total)); off = 0
+        for b in blocks:
+            k = b.shape[0]; M[off:off + k, off:off + k] = b; off += k
+        dists[0]['_release_cov'] = _cov_obj(M, order, spec.get(
+            'cov_note', 'block-diagonal covariance (independent per-measurement blocks); row/col order below'))
     return dists
 
 
