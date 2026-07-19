@@ -1,0 +1,72 @@
+{
+  "bibtag": "MINERvA:2014rdw",
+  "slug": "minerva-2014rdw",
+  "source": "arXiv",
+  "source_url": "https://arxiv.org/abs/1403.2103",
+  "note": "Flux-integrated CC-inclusive \\nu_\\mu cross-section ratios (C/CH, Fe/CH, Pb/CH) vs Bjorken x and vs neutrino energy E_\\nu (2-20 GeV, <E_\\nu>=8 GeV), MINERvA nuclear-target passive planes vs the CH scintillator tracker in the NuMI beam.",
+  "provenance": "MINERvA:2014rdw — dimensionless cross-section-ratio measurement (not an absolute cross section): sigma^A/sigma^CH for A=C,Fe,Pb, each vs x_Bjorken and vs E_nu. Values, stat, and sys errors taken from the arXiv ancillary files anc/supp-tab3_xsec-ratio-x.csv and anc/supp-tab4_xsec-ratio-E.csv (identical to PRL-supplement-NukeCC.tex Tables I/II, 'Data' column = measured ratio). Total error = sqrt(stat^2+sys^2). Six independent 1d distributions (one per target x one per kinematic variable) rather than a 2d/3d grouping, since the target-material split is categorical, not a continuous slicing variable, and each is a single-differential ratio in one variable at a time.",
+  "distributions": [
+    {
+      "kind": "1d",
+      "slug": "ratio_C_CH_vs_x",
+      "label": "",
+      "xlabel": "x",
+      "xunit": "",
+      "ylabel": "(\\mathrm{d}\\sigma^{C}/\\mathrm{d}x)/(\\mathrm{d}\\sigma^{CH}/\\mathrm{d}x)",
+      "yunit": "dimensionless",
+      "csv": "data/datasets/sources/minerva-2014rdw/ratio_C_CH_vs_x.csv"
+    },
+    {
+      "kind": "1d",
+      "slug": "ratio_Fe_CH_vs_x",
+      "label": "",
+      "xlabel": "x",
+      "xunit": "",
+      "ylabel": "(\\mathrm{d}\\sigma^{Fe}/\\mathrm{d}x)/(\\mathrm{d}\\sigma^{CH}/\\mathrm{d}x)",
+      "yunit": "dimensionless",
+      "csv": "data/datasets/sources/minerva-2014rdw/ratio_Fe_CH_vs_x.csv"
+    },
+    {
+      "kind": "1d",
+      "slug": "ratio_Pb_CH_vs_x",
+      "label": "",
+      "xlabel": "x",
+      "xunit": "",
+      "ylabel": "(\\mathrm{d}\\sigma^{Pb}/\\mathrm{d}x)/(\\mathrm{d}\\sigma^{CH}/\\mathrm{d}x)",
+      "yunit": "dimensionless",
+      "csv": "data/datasets/sources/minerva-2014rdw/ratio_Pb_CH_vs_x.csv"
+    },
+    {
+      "kind": "1d",
+      "slug": "ratio_C_CH_vs_E",
+      "label": "",
+      "xlabel": "E_\\nu",
+      "xunit": "GeV",
+      "ylabel": "\\sigma^{C}(E_\\nu)/\\sigma^{CH}(E_\\nu)",
+      "yunit": "dimensionless",
+      "csv": "data/datasets/sources/minerva-2014rdw/ratio_C_CH_vs_E.csv"
+    },
+    {
+      "kind": "1d",
+      "slug": "ratio_Fe_CH_vs_E",
+      "label": "",
+      "xlabel": "E_\\nu",
+      "xunit": "GeV",
+      "ylabel": "\\sigma^{Fe}(E_\\nu)/\\sigma^{CH}(E_\\nu)",
+      "yunit": "dimensionless",
+      "csv": "data/datasets/sources/minerva-2014rdw/ratio_Fe_CH_vs_E.csv"
+    },
+    {
+      "kind": "1d",
+      "slug": "ratio_Pb_CH_vs_E",
+      "label": "",
+      "xlabel": "E_\\nu",
+      "xunit": "GeV",
+      "ylabel": "\\sigma^{Pb}(E_\\nu)/\\sigma^{CH}(E_\\nu)",
+      "yunit": "dimensionless",
+      "csv": "data/datasets/sources/minerva-2014rdw/ratio_Pb_CH_vs_E.csv"
+    }
+  ],
+  "cov": "data/datasets/sources/minerva-2014rdw/cov.csv",
+  "cov_note": "42x42 block-diagonal covariance (6 bins x per-x distribution, 8 bins x per-E distribution), row/col order = distributions concatenated in the order listed above (x_C, x_Fe, x_Pb, E_C, E_Fe, E_Pb), each block's bins in file order. Built as corr_ij * err_i * err_j from the per-target bin-to-bin correlation matrices in anc/supp-tabs7-9_xsec-ratio-correlations-x.csv and anc/supp-tabs10-12_xsec-ratio-correlations-E.csv (err = total = sqrt(stat^2+sys^2)); no cross-target or cross-variable correlations are given in the release, so off-diagonal blocks are zero."
+}

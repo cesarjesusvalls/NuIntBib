@@ -1,0 +1,95 @@
+\section{Analysis Methods}
+
+The number of neutrino interactions in the fiducial volume of the P$\emptyset$D, $N_{signal}$,
+can be expressed as the product of the signal cross section per target, $\sigma$, the number of targets, $N_{targets}$, and the integrated flux, $\Phi$, of incident
+neutrinos per unit area, as
+\begin{equation}
+N_{signal}=\sigma N_{targets}\Phi.\label{eq:Analysis:1-1}
+\end{equation}
+Hence the cross section becomes
+\begin{equation}
+\sigma=\frac{N_{signal}}{\Phi N_{targets}}.\label{eq:Analysis:2-1}
+\end{equation}
+Using our event selection on data, we obtain a candidate signal event sample in our fiducial volume.
+This process is not 100\% efficient and also some non-signal (background) events 
+are included.
+To account for this, the MC simulation is used to estimate in our sample
+the number of background events and the number of
+signal events.  The backgrounds from the FHC (RHC) beam samples
+include non-CCINC events from the neutrino (antineutrino) beam as well as
+events created from the antineutrino (neutrino) flux.  
+In addition, the MC simulation generates
+total number of signal events that were produced. 
+If the rate of 
+restricted phase space
+selected data events is $N_{selected}^{data}$
+and the predicted number of selected background events is $B^{MC}$,
+the observed number of signal 
+candidates 
+in our fiducial volume is
+\begin{equation}
+N_{selected\ signal}=N_{selected}^{data}-B^{MC}\label{eq:Analysis:3-1}
+\end{equation}
+which include migration events.
+%If $N^{MC}_{generated\ signal}$ is the number of true signal events generated
+%to have occurred 
+%n the generated kinematic phase space fiducial volume 
+%in our fiducial volume 
+%and  $N_{selected\ signal}^{MC}$
+%is the number of reconstructed restricted phase space MC event candidates, then
+Next we redefine the selection efficiency
+$\epsilon$ as
+\begin{equation}
+\epsilon=\frac{N_{selected\ signal}^{MC}}{N_{generated\ signal}^{MC}}.\label{eq:Analysis:4-1}
+\end{equation}
+where the $N^{MC}_{selected\ signal}$ is the number of signal candidates whose reconstructed kinematics 
+are in the restricted phase space and  $N^{MC}_{generated\ signal}$ is the total number of generated 
+signal events whose true kinematics are in the restricted phase space. We note that
+ $N^{MC}_{selected\ signal}$ includes a small fraction of migration events
+as described at the end of Section IV.B.
+With these definitions, the 
+restricted phase space
+signal event rate is
+\begin{equation}
+N_{signal} = \frac{N_{selected}^{data}-B^{MC}}{\epsilon}.\label{eq:Analysis:5-1}
+\end{equation}
+In Eqn.(\ref{eq:Analysis:5-1}) the numerator
+is the number of signal candidates whose reconstructed kinematics are in the restricted 
+phase space, and this is combined with the
+denominator  $\epsilon$ from Eqn.(\ref{eq:Analysis:4-1})
+to give the proper estimate 
+of $N_{signal}$ that represents the number of signal events 
+whose kinematics are in the true restricted phase space.
+The neutrino cross section is
+\begin{equation}
+\sigma (\nu_{\mu})=\frac{N_{selected}^{data}-B^{MC}}{\epsilon N_{targets}\Phi}.\label{eq:Analysis:6-1}
+\end{equation}
+
+In addition to the cross sections given above, the measured ratio of cross sections $R(\nu,\overline{\nu})$ and rates $r(\nu,\overline{\nu})$
+are defined as
+\begin{equation}
+R (\nu,\overline{\nu}) \equiv \frac{\sigma(\overline{\nu}_{\mu})}{\sigma(\nu_{\mu})}=\frac{\overline{N}_{selected}^{data}-\overline{B}^{MC}}{N_{selected}^{data}-B^{MC}}\times\frac{\overline{\epsilon}}{\epsilon}\times\frac{\varPhi}{\overline{\varPhi}}\label{eq:Analysis:7-1}
+\end{equation}
+and
+\begin{equation}
+r (\nu,\overline{\nu}) \equiv \frac{n(\overline{\nu}_{\mu})}{n(\nu_{\mu})}=\frac{\overline{N}_{selected}^{data}-\overline{B}^{MC}}{N_{selected}^{data}-B^{MC}}\times\frac{\overline{\epsilon}}{\epsilon}.\label{eq:Analysis:7-2}
+\end{equation}
+The overlined quantities are obtained from the antineutrino
+selections as described above and those without overlines represent the
+neutrino mode selection.  Finally, other observables are introduced and defined; 
+the sum $\Sigma(\nu,\overline{\nu})$, 
+difference $\Delta(\nu,\overline{\nu})$, 
+and asymmetry $A(\nu,\overline{\nu})$
+formed from the $\nu_\mu$ and \nubar 
+cross sections, as
+\begin{equation}
+\Sigma(\nu,\overline{\nu}) \equiv \sigma(\nu_{\mu})+\sigma(\overline{\nu}_{\mu}),\label{eq:Analysis:sum}
+\end{equation}
+\begin{equation}
+\Delta(\nu,\overline{\nu}) \equiv \sigma(\nu_{\mu})-\sigma(\overline{\nu}_{\mu})\label{eq:Analysis:diff}
+\end{equation}
+and
+\begin{equation}
+A(\nu,\overline{\nu}) \equiv 
+\frac{\sigma(\nu_{\mu})-\sigma(\overline{\nu}_{\mu})}{\sigma(\nu_{\mu})+\sigma(\overline{\nu}_{\mu})}.\label{eq:Analysis:asym}
+\end{equation}

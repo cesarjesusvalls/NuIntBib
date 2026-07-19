@@ -1,0 +1,237 @@
+{
+ "bibtag": "MINERvA:2015slz",
+ "slug": "minerva-2015slz",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1503.02107",
+ "arxiv": "1503.02107",
+ "cite": "Phys.Lett.B 749 130",
+ "note": "Flux-averaged differential cross sections for single \\pi^0 momentum and angle in CC \\bar\\nu_\\mu single-\\pi^0 production on CH (MINERvA, <E_\\nu>=3.6 GeV)",
+ "distributions": [
+  {
+   "key": "dsigma_dpimom",
+   "slug": "dsigma_dpimom",
+   "name": "d\u03c3/dp_\u03c0^0",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_{\\pi^0}$",
+   "xlabel": "p_\u03c0^0",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$p_{\\pi^0}$",
+   "ylabel": "d\u03c3/dp_\u03c0^0",
+   "ylabel_plot": "d\u03c3/dp_\u03c0^0",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_{\\pi^0}$",
+   "yunit": "10^{-40}cm^2/nucleon/(GeV/c)",
+   "yunit_tex": "$10^{-40}cm^2/nucleon/(GeV/c)$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1503.02107",
+   "provenance": "Digitized from LaTeX appendix tables (tab:xs-pimom, tab:xs-theta) in the arXiv e-print source of 1503.02107; no machine-readable data release or covariance matrix was found in anc/. Total error taken directly from the tot(%) column (verified consistent with sqrt(stat^2+sys^2)) applied to the central value.",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.08,
+     "center": 0.04,
+     "val": 3.75,
+     "err": 1.9875
+    },
+    {
+     "i": 1,
+     "lo": 0.08,
+     "hi": 0.14,
+     "center": 0.11000000000000001,
+     "val": 22.6,
+     "err": 5.65
+    },
+    {
+     "i": 2,
+     "lo": 0.14,
+     "hi": 0.2,
+     "center": 0.17,
+     "val": 27.75,
+     "err": 5.8275
+    },
+    {
+     "i": 3,
+     "lo": 0.2,
+     "hi": 0.28,
+     "center": 0.24000000000000002,
+     "val": 17.92,
+     "err": 4.3008
+    },
+    {
+     "i": 4,
+     "lo": 0.28,
+     "hi": 0.36,
+     "center": 0.32,
+     "val": 14.26,
+     "err": 3.2798
+    },
+    {
+     "i": 5,
+     "lo": 0.36,
+     "hi": 0.45,
+     "center": 0.405,
+     "val": 12.77,
+     "err": 2.8094
+    },
+    {
+     "i": 6,
+     "lo": 0.45,
+     "hi": 0.55,
+     "center": 0.5,
+     "val": 8.65,
+     "err": 1.9895
+    },
+    {
+     "i": 7,
+     "lo": 0.55,
+     "hi": 0.65,
+     "center": 0.6000000000000001,
+     "val": 5.86,
+     "err": 1.5236
+    },
+    {
+     "i": 8,
+     "lo": 0.65,
+     "hi": 0.75,
+     "center": 0.7,
+     "val": 4.67,
+     "err": 1.1208
+    },
+    {
+     "i": 9,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 2.25,
+     "err": 0.4725
+    },
+    {
+     "i": 10,
+     "lo": 1.0,
+     "hi": 1.09,
+     "center": 1.045,
+     "val": 1.27,
+     "err": 0.3302,
+     "hi_true": 1.5
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dtheta",
+   "slug": "dsigma_dtheta",
+   "name": "d\u03c3/d\u03b8_\u03c0^0",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_{\\pi^0}$",
+   "xlabel": "\u03b8_\u03c0^0",
+   "xunit": "deg",
+   "xlabel_tex": "$\\theta_{\\pi^0}$",
+   "ylabel": "d\u03c3/d\u03b8_\u03c0^0",
+   "ylabel_plot": "d\u03c3/d\u03b8_\u03c0^0",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_{\\pi^0}$",
+   "yunit": "10^{-42}cm^2/nucleon/deg",
+   "yunit_tex": "$10^{-42}cm^2/nucleon/deg$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1503.02107",
+   "provenance": "Digitized from LaTeX appendix tables (tab:xs-pimom, tab:xs-theta) in the arXiv e-print source of 1503.02107; no machine-readable data release or covariance matrix was found in anc/. Total error taken directly from the tot(%) column (verified consistent with sqrt(stat^2+sys^2)) applied to the central value.",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 10.0,
+     "center": 5.0,
+     "val": 3.97,
+     "err": 1.588
+    },
+    {
+     "i": 1,
+     "lo": 10.0,
+     "hi": 20.0,
+     "center": 15.0,
+     "val": 14.25,
+     "err": 3.135
+    },
+    {
+     "i": 2,
+     "lo": 20.0,
+     "hi": 30.0,
+     "center": 25.0,
+     "val": 12.88,
+     "err": 2.7048
+    },
+    {
+     "i": 3,
+     "lo": 30.0,
+     "hi": 40.0,
+     "center": 35.0,
+     "val": 14.06,
+     "err": 2.6714
+    },
+    {
+     "i": 4,
+     "lo": 40.0,
+     "hi": 50.0,
+     "center": 45.0,
+     "val": 12.7,
+     "err": 2.413
+    },
+    {
+     "i": 5,
+     "lo": 50.0,
+     "hi": 60.0,
+     "center": 55.0,
+     "val": 10.32,
+     "err": 2.1672
+    },
+    {
+     "i": 6,
+     "lo": 60.0,
+     "hi": 70.0,
+     "center": 65.0,
+     "val": 8.14,
+     "err": 1.8722
+    },
+    {
+     "i": 7,
+     "lo": 70.0,
+     "hi": 80.0,
+     "center": 75.0,
+     "val": 8.95,
+     "err": 2.0585
+    },
+    {
+     "i": 8,
+     "lo": 80.0,
+     "hi": 90.0,
+     "center": 85.0,
+     "val": 5.11,
+     "err": 1.4308
+    },
+    {
+     "i": 9,
+     "lo": 90.0,
+     "hi": 120.0,
+     "center": 105.0,
+     "val": 4.73,
+     "err": 1.1352
+    },
+    {
+     "i": 10,
+     "lo": 120.0,
+     "hi": 130.0,
+     "center": 125.0,
+     "val": 1.75,
+     "err": 0.49,
+     "hi_true": 180.0
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}

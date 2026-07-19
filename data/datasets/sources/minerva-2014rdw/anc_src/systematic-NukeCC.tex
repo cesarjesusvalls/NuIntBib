@@ -1,0 +1,42 @@
+%%\section{Systematic estimates}
+
+The main sources of systematic uncertainty in the 
+cross section ratio measurements are 
+(I) subtraction of CH contamination; 
+(II) detector response to muons and hadrons;
+(III) neutrino interaction models;
+(IV) final state interaction models; 
+and (V) target number.
+%% 
+Uncertainty in flux is considered but negligible.
+All uncertainties are evaluated by repeating the cross section
+analysis with systematic shifts applied to simulation.
+%%%
+\begingroup
+\squeezetable
+\begin{table}
+  \begin{tabular}{cccccccc}
+    \hline \hline
+    \Xbj & I & II & III & IV & V & VI & Total \\
+    \hline
+    0.0--0.1 & 2.0 & 0.7 & 1.1 & 0.8 & 2.1 & 2.8 & 4.3 \\
+    0.1--0.3 & 1.7 & 0.7 & 1.0 & 1.2 & 1.8 & 2.0 & 3.7 \\
+    0.3--0.7 & 1.5 & 0.5 & 1.3 & 1.4 & 1.8 & 2.1 & 3.7 \\
+    0.7--0.9 & 2.0 & 2.3 & 1.3 & 2.6 & 1.7 & 4.8 & 6.7 \\
+    0.9--1.1 & 2.9 & 3.8 & 1.4 & 2.9 & 1.8 & 6.4 & 8.8 \\
+    1.1--1.5 & 2.8 & 3.2 & 1.6 & 3.6 & 2.0 & 7.2 & 9.5 \\
+    \hline \hline
+  \end{tabular}
+  \caption{Systematic uncertainties (expressed as percentages) on the ratio of charged-current inclusive \numu differential cross sections $\frac{d\sigma^{Fe}}{d\Xbj}/\frac{d\sigma^{CH}}{d\Xbj}$ with respect to \Xbj associated with  (I) subtraction of CH contamination, (II) detector response to muons and hadrons, (III) neutrino interaction models, (IV) final state interaction models, (V) flux and target number, and (VI) statistics.  The rightmost column shows the total uncertainty due to all sources.}
+  \label{tab:x_ratio_26_92_sys_errors_example}
+\end{table}
+\endgroup
+%%%
+Muon and recoil energy reconstruction uncertainties are described in Ref.~\cite{nubarprl} and Ref.~\cite{nuprl}, respectively.
+We evaluate systematic error from cross section and final state interaction models 
+by varying underlying model parameters in GENIE 
+within their uncertainties~\cite{Andreopoulos201087}. 
+Since variations in model parameters affect calorimetric scale factors, these are reextracted during systematic error evaluation.  
+Recoil energy and final state interaction model uncertainties increase with \Xbj, because interactions of lower energy hadrons are not as well constrained.  
+An assay of detector components yields an uncertainty in scintillator, carbon, iron, and lead masses of 1.4\%, 0.5\%, 1.0\%, and 0.5\%, respectively.
+The resulting uncertainties on  $\frac{d\sigma^{Fe}}{d\Xbj}/\frac{d\sigma^{CH}}{d\Xbj}$ are shown in Table~\ref{tab:x_ratio_26_92_sys_errors_example}\SuppNote{See Supplemental Material\SuppLocation for uncertainties on all cross section ratios as functions of \Enu and \Xbj}.

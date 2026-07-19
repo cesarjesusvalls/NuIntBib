@@ -1,0 +1,1595 @@
+Supplemental Material: Measurement of the differential cross section for neutral pion
+production in charged-current muon neutrino interactions on argon with the
+MicroBooNE detector
+The supplemental material contains more details about the results presented in the main text for the νµ CC1π 0 differential cross section measurement. The following sections include the ingredients to reproduce the single differential
+cross section for each of the five kinematic variables.
+
+I.
+
+EFFICIENCIES : MUON, CHARGED PION KINETIC ENERGY
+
+Figure 1 shows the reconstruction efficiencies for the νµ CC1π 0 selection as a function of the muon and charged pion
+kinetic energies. Phase space cuts used as signal definition in this analysis are placed in regions without significant
+slope. The lower efficiency at high charged pion kinetic energy implies that our selection is able to veto charged pions
+more effectively in this region.
+
+0.10
+
+0.10
+
+MicroBooNE Simulation
+CC1 0 selection
+
+0.08
+
+Efficiency
+
+0.08
+
+Efficiency
+
+MicroBooNE Simulation
+CC1 0 selection
+
+0.09
+
+0.06
+0.04
+
+0.07
+0.06
+0.05
+0.04
+
+0.02
+0.00
+
+0.03
+0.05
+
+0.10
+
+0.15
+
+0.20
+
+True Muon Kinetic Energy [GeV]
+
+0.25
+
+0.00
+
+(a)
+
+0.02
+
+0.04
+
+0.06
+
+0.08
+
+True Charged pion KE [GeV]
+
+0.10
+
+(b)
+
+FIG. 1. Efficiency as a function of (a) the muon kinetic energy, and (b) the charged pion kinetic energy for the νµ CC1π 0
+selection are shown.
+
+II.
+
+INTERACTION MODES OF SELECTED EVENTS
+
+The distribution of the predicted signal events passing the νµ CC1π 0 selection criteria classified by true interaction
+mode for the tuned version of GENIE v3 is shown in Fig. 2.
+
+III.
+
+NUMBER OF TARGETS USED IN CROSS SECTION EXTRACTION
+
+Calculating the total number of nucleon targets is a matter of counting, and is done by multiplying the number of
+nucleons in one argon nucleus by the number of argon nuclei we expect to be present in the fiducial volume of the
+detector used to conduct the measurement. The fiducial volume coordinates used in this analysis are given below,
+8.45cm ≤ x ≤ 244.8cm
+−100.53cm ≤ y ≤ 102.47cm
+10.1cm ≤ z ≤ 986.9cm
+
+800
+700
+600
+500
+400
+300
+200
+100
+0
+0.0
+
+CC1 Selection - Signal only
+
+CC1 Selection - Signal only
+
+MicroBooNE 6.86 ×1020 POT
+QE: 30.3
+MEC: 0.2
+DIS: 142.5
+Uncertainty
+Resonant: 827.7
+
+MicroBooNE 6.86 ×1020 POT
+QE: 30.3
+MEC: 0.2
+DIS: 142.5
+Uncertainty
+Resonant: 827.7
+
+700
+600
+500
+
+Entries
+
+Entries
+
+2
+
+400
+300
+200
+100
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0 momentum [GeV]
+
+0.6
+
+0
+1.00 0.75 0.50 0.25 0.00 0.25 0.50 0.75 1.00
+
+0.7
+
+cos
+
+(a)
+
+(b)
+
+CC1 Selection - Signal only
+600
+
+600
+500
+
+500
+
+Entries
+
+Entries
+
+CC1 Selection - Signal only
+
+MicroBooNE 6.86 ×1020 POT
+QE: 30.3
+MEC: 0.2
+DIS: 142.5
+Uncertainty
+Resonant: 827.7
+
+700
+
+400
+300
+
+MicroBooNE 6.86 ×1020 POT
+QE: 30.3
+MEC: 0.2
+DIS: 142.5
+Uncertainty
+Resonant: 827.7
+
+400
+300
+200
+
+200
+
+100
+
+100
+0
+0.0
+
+0
+
+0.5
+
+1.0
+
+1.5
+
+Muon Momentum [GeV]
+
+2.0
+
+0
+1.00 0.75 0.50 0.25 0.00 0.25 0.50 0.75 1.00
+
+2.5
+
+cos
+
+(c)
+
+(d)
+
+CC1 Selection - Signal only
+
+Entries
+
+400
+
+MicroBooNE 6.86 ×1020 POT
+QE: 30.3
+MEC: 0.2
+DIS: 142.5
+Uncertainty
+Resonant: 827.7
+
+300
+200
+100
+0
+1.00 0.75 0.50 0.25 0.00 0.25 0.50 0.75 1.00
+
+cos
+
+0
+
+(e)
+
+FIG. 2. The distribution of the signal prediction using the MicroBooNE tune of GENIE v3 after νµ CC1π 0 selection, categorized
+by interaction mode is shown for (a) the π 0 momentum, (b) the scattering angle between the neutrino beam and outgoing π 0
+direction, (c) the muon momentum, (d) the scattering angle between the neutrino beam and outgoing muon direction, and
+(e) the opening angle between the muon and pion. The interaction categories in the legend shows quasielastic (QE), meson
+exchange current (MEC), resonant, and deep inelastic scattering (DIS) contributions.
+
+The coordinates above have 10 cm, 15 cm and 10(50) cm offsets in the x, y and z direction respectively from the
+boundaries of the TPC active volume. Events with a neutrino vertex within the fiducial volume defined above are
+
+3
+considered as signal.
+Ntargets =
+
+ρAr × V × NA × Nnucleons
+= 9.75 × 1029
+mmol
+
+(1)
+
+where ρAr is the density of liquid argon, V is the volume of liquid argon, NA is Avogadro’s number, Nnucleons is the
+number of nucleons in an argon nucleus, and mmol is the molar mass of argon. The flux prediction can be found in
+the supplemental material of [1].
+
+IV.
+
+TOTAL FLUX INTEGRATED CROSS SECTION
+
+We report the flux-integrated total νµ CC1π 0 cross section for this analysis to be σ = (5.42 ± 1.09) × 10−40 cm2 /
+nucleon. This is consistent with the previous MicroBooNE measurement reported in [2].
+CC1 Selection
+
+[×10 39cm2/nucleon]
+
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+
+MicroBooNE 6.86 × 1020 POT
+GENIE v3 uB tune
+BNB Data
+
+FIG. 3. The data extracted total flux integrated νµ CC1π 0 cross section is compared to the tuned version of the GENIE
+prediction. The error bar on the data includes both statistical and systematic uncertainties.
+
+V.
+
+π 0 MOMENTUM
+
+We provide additional information for the cross section measurement as a function of π 0 momentum: the number
+of total selected events, background-subtracted observed events and the total covariance matrix, response matrix,
+unfolded central value cross section values and covariance, and the additional smearing matrix Ac returned by the
+Wiener-SVD method. Comparisons with generators are performed after applying Ac to all predictions. The last bin
+in the π 0 momentum distribution includes all overflow events.
+
+π 0 Momentum [GeV/c]
+[0.0, 0.1] [0.1, 0.15] [0.15, 0.2] [0.2, 0.3] [0.3, 0.4] [0.4, 0.5] [0.5, 0.6] [0.6, 0.799]
+Background-subtracted data events 69.606 116.158 157.998 226.806 152.219 91.121 40.639
+91.219
+Unfolded cross section
+[×10−39 cm2 /GeV/nucleon]
+0.66
+1.92
+2.44
+1.15
+0.73
+0.34
+0.18
+0.09
+TABLE I. Numbers of background-subtracted data events and unfolded cross section as a function of π 0 momentum.
+
+4
+
+Response Matrix
+
+Reconstructed 0 momentum [GeV/c]
+
+0 momentum [GeV/c]
+
+0.799
+0.000 0.000 0.000 0.001 0.002 0.006 0.013 0.055
+0.6
+0.000 0.000 0.001 0.003 0.011 0.030 0.030 0.042
+0.5
+0.000 0.000 0.001 0.007 0.030 0.043 0.021 0.017
+0.4
+0.000 0.001 0.002 0.025 0.046 0.019 0.007 0.004
+0.3
+0.001 0.003 0.013 0.048 0.018 0.004 0.001 0.001
+0.2
+0.002 0.015 0.029 0.018 0.003 0.001 0.000 0.000
+0.15
+0.010 0.028 0.014 0.005 0.001 0.000 0.000 0.000
+0.1
+0.031 0.012 0.004 0.002 0.001 0.000 0.000 0.000
+0.0
+0.0 0.1 0.15 0.2 0.3 0.4 0.5 0.60.799
+True 0 momentum [GeV/c]
+
+0.05
+0.04
+0.03
+0.02
+0.01
+0.00
+
+FIG. 4. The response matrix used as an input to the Wiener-SVD unfolding algorithm as a function of reconstructed and true
+π 0 momentum is constructed using the signal prediction obtained with GENIE v3.0.6 G18 10a 02 11a [3] after applying the
+selection.
+
+Covariance Matrix
+
+0 momentum [GeV/c]
+
+0.799
+
+155.74 256.38 321.89 639.66 584.82 400.32 264.09 1318.19
+
+1400
+
+87.64 139.27 175.96 350.03 322.16 221.32 309.81 264.09
+
+1200
+
+139.21 227.64 282.67 567.00 505.22 618.72 221.32 400.32
+
+1000
+
+0 momentum [GeV/c]
+
+0.6
+0.5
+0.4
+204.50 338.56 425.50 846.04 1440.26 505.22 322.16 584.82
+
+0.3
+230.11 393.94 493.55 1409.03 846.04 567.00 350.03 639.66
+
+0.2
+
+800
+600
+
+117.22 201.71 597.48 493.55 425.50 282.67 175.96 321.89
+
+0.15
+94.29 566.15 201.71 393.94 338.56 227.64 139.27 256.38
+
+0.1
+233.14 94.29 117.22 230.11 204.50 139.21 87.64 155.74
+
+0.0
+0.0
+
+400
+200
+
+0.1 0.15 0.2 0.3 0.4 0.5 0.6 0.799
+0 momentum [GeV/c]
+
+FIG. 5. Covariance matrix for the total event prediction as a function of π 0 momentum.
+
+5
+
+0 momentum [GeV/c]
+
+Unfolded Covariance Matrix
+0 momentum [GeV/c]
+
+0.799
+0.004 0.004 0.005 0.006 -0.000 -0.002 0.009 0.017
+0.6
+0.006 0.007 0.008 0.006 0.003 0.007 0.012 0.009
+0.5
+0.007 0.009 0.009 0.009 0.014 0.016 0.007 -0.002
+0.4
+0.008 0.008 0.013 0.023 0.027 0.014 0.003 -0.000
+0.3
+0.006 0.011 0.024 0.035 0.023 0.009 0.006 0.006
+0.2
+0.005 0.021 0.031 0.024 0.013 0.009 0.008 0.005
+0.15
+0.015 0.023 0.021 0.011 0.008 0.009 0.007 0.004
+0.1
+0.032 0.015 0.005 0.006 0.008 0.007 0.006 0.004
+0.0
+0.0 0.1 0.15 0.2 0.3 0.4 0.5 0.60.799
+0 momentum [GeV/c]
+
+0.030
+0.025
+0.020
+0.015
+0.010
+0.005
+0.000
+
+FIG. 6. Unfolded covariance of the cross section result as a function of π 0 momentum, in units of (10−40 cm2 /GeV/nucleon)2 .
+
+Unfolded 0 momentum [GeV/c]
+
+Additional Smearing Matrix (Ac)
+0 momentum [GeV/c]
+
+0.799
+-0.004 -0.026 -0.057 -0.076 -0.132 -0.058 0.270 0.429
+0.6
+0.014 -0.001 -0.023 -0.070 0.008 0.273 0.455 0.313
+0.5
+0.014 0.011 -0.019 0.006 0.270 0.477 0.287 0.016
+0.4
+-0.030 -0.040 0.026 0.259 0.429 0.239 -0.008 -0.069
+0.3
+-0.061 0.001 0.266 0.525 0.284 -0.019 -0.084 -0.023
+0.2
+0.009 0.282 0.427 0.229 0.024 -0.014 0.003 -0.004
+0.15
+0.273 0.393 0.273 0.025 -0.019 0.012 0.016 0.012
+0.1
+0.750 0.320 0.010 -0.027 -0.002 0.014 0.026 0.024
+0.0
+0.0 0.1 0.15 0.2 0.3 0.4 0.5 0.60.799
+True 0 momentum [GeV/c]
+
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+0.1
+
+FIG. 7. The additional smearing matrix Ac returned by the Wiener-SVD method for unfolded π 0 momentum, which is used
+to smear the generator predictions and to compare with the data extracted cross section into the unfolded space.
+
+6
+VI.
+
+π 0 ANGLE
+
+We provide additional information for the cross section measurement as a function of π 0 angle: the number of total
+selected events, background-subtracted observed events and the total covariance matrix, response matrix, unfolded
+central value cross section values and covariance, and the additional smearing matrix Ac returned by the Wiener-SVD
+method. Comparisons with generators are performed after applying Ac to all predictions.
+
+π 0 angle
+[-1.0, -0.5] [-0.5, -0.25] [-0.25, 0.0] [0.0, 0.25] [0.25, 0.5] [0.5, 0.75] [0.75, 1.0]
+Background-subtracted data events
+48.39
+72.274
+101.453
+110.648 158.815 224.717 229.469
+Unfolded cross section
+[×10−39 cm2 /nucleon]
+0.10
+0.17
+0.20
+0.19
+0.23
+0.40
+0.49
+TABLE II. Numbers of background-subtracted data events and unfolded cross section as a function of π 0 angle.
+
+1.0
+
+Reconstructed cos
+
+0
+
+0.75
+0.5
+0.25
+0.0
+-0.25
+-0.5
+
+Response Matrix
+cos 0
+0.000 0.000 0.000 0.000 0.002 0.022 0.068
+0.000 0.000 0.000 0.003 0.023 0.065 0.006
+0.000 0.000 0.002 0.019 0.053 0.010 0.000
+0.000 0.001 0.014 0.051 0.011 0.001 0.000
+0.001 0.008 0.044 0.017 0.003 0.001 0.000
+0.004 0.039 0.023 0.003 0.001 0.000 0.000
+0.041 0.021 0.005 0.001 0.000 0.000 0.000
+
+-1.0
+-1.0 -0.5 -0.25 0.0 0.25 0.5 0.75 1.0
+True cos 0
+
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+0.00
+
+FIG. 8. The response matrix used as an input to the Wiener-SVD unfolding algorithm as a function of reconstructed and true
+π 0 angle is constructed using the signal prediction obtained with GENIE v3.0.6 G18 10a 02 11a [3] after applying the selection.
+
+7
+
+Covariance Matrix
+cos 0
+
+1.0
+343.19
+
+405.92
+
+487.58
+
+641.04
+
+851.14
+
+1371.10 2767.58
+
+329.19
+
+364.92
+
+432.76
+
+599.44
+
+820.60
+
+1969.86 1371.10
+
+215.99
+
+236.22
+
+277.62
+
+379.69
+
+1181.66
+
+820.60
+
+851.14
+
+166.40
+
+181.45
+
+209.84
+
+586.42
+
+379.69
+
+599.44
+
+641.04
+
+122.09
+
+133.18
+
+404.76
+
+209.84
+
+277.62
+
+432.76
+
+487.58
+
+107.37
+
+282.18
+
+133.18
+
+181.45
+
+236.22
+
+364.92
+
+405.92
+
+0.75
+0.5
+
+2000
+
+0
+
+0.25
+
+cos
+
+2500
+
+1500
+
+0.0
+-0.25
+
+1000
+500
+
+-0.5
+257.54
+
+-1.0
+-1.0
+
+107.37
+
+122.09
+
+-0.5 -0.25
+
+166.40
+
+0.0
+
+cos
+
+215.99
+
+0.25
+0
+
+329.19
+
+0.5
+
+343.19
+
+0.75
+
+1.0
+
+FIG. 9. Covariance matrix for the total event prediction as a function of π 0 angle.
+
+1.0
+0.75
+
+cos
+
+0
+
+0.5
+0.25
+0.0
+-0.25
+-0.5
+
+Unfolded Covariance Matrix
+cos 0
+0.024 0.005 0.013 0.025 0.003 0.030 0.085
+0.019 0.004 0.013 0.006 0.015 0.050 0.030
+
+0.08
+0.06
+
+0.007 0.013 -0.010 0.004 0.035 0.015 0.003
+0.013 -0.002 0.004 0.023 0.004 0.006 0.025
+0.007 -0.006 0.028 0.004 -0.010 0.013 0.013
+
+0.04
+0.02
+
+-0.004 0.026 -0.006 -0.002 0.013 0.004 0.005
+0.031 -0.004 0.007 0.013 0.007 0.019 0.024
+
+-1.0
+-1.0 -0.5 -0.25 0.0 0.25 0.5 0.75 1.0
+cos 0
+
+0.00
+
+FIG. 10. Unfolded covariance of the cross section result as a function of π 0 angle, in units of (10−40 cm2 /nucleon)2 .
+
+8
+
+1.0
+
+Unfolded cos
+
+0
+
+0.75
+0.5
+0.25
+0.0
+-0.25
+-0.5
+
+Additional Smearing Matrix (Ac)
+cos 0
+-0.004 -0.053 -0.017 0.044 -0.135 0.084 0.729
+0.027 -0.020 0.026 -0.096 0.203 0.721 0.147
+
+0.8
+0.6
+
+-0.007 0.061 -0.132 0.135 0.640 0.147 -0.125
+0.047 -0.054 0.185 0.660 0.166 -0.090 0.075
+-0.014 0.118 0.714 0.168 -0.142 0.010 -0.008
+0.047 0.792 0.133 -0.063 0.081 -0.037 -0.061
+0.872 0.064 0.000 0.069 0.036 0.072 0.061
+
+0.4
+0.2
+0.0
+
+-1.0
+-1.0 -0.5 -0.25 0.0 0.25 0.5 0.75 1.0
+True cos 0
+FIG. 11. The additional smearing matrix Ac returned by the Wiener-SVD method for unfolded π 0 angle, which is used to
+smear the generator predictions and to compare with the data extracted cross section into the unfolded space.
+
+VII.
+
+MUON MOMENTUM
+
+We provide additional information for the cross section measurement as a function of muon momentum: the
+number of total selected events, background-subtracted observed events and the total covariance matrix, response
+matrix, unfolded central value cross section values and covariance, and the additional smearing matrix Ac returned
+by the Wiener-SVD method. Comparisons with generators are performed after applying Ac on all predictions. The
+last bin in the muon momentum distribution includes all overflow events.
+
+muon Momentum [GeV/c]
+[0.0, 0.2] [0.2, 0.3] [0.3, 0.44] [0.44, 0.6] [0.6, 0.75] [0.75, 0.95] [0.95, 1.2] [1.2, 2.5]
+Background-subtracted data events 77.254 209.492 286.565 181.499 108.765
+55.109
+17.274
+9.858
+Unfolded cross section
+[×10−39 cm2 /GeV/nucleon]
+0.45
+1.08
+0.79
+0.57
+0.43
+0.16
+0.05
+0.005
+TABLE III. Numbers of background-subtracted data events and unfolded cross section as a function of muon momentum.
+
+Reconstructed Muon Momentum [GeV/c]
+
+9
+
+Response Matrix
+Muon Momentum [GeV/c]
+
+2.5
+
+0.000 0.000 0.001 0.002 0.002 0.004 0.007 0.021
+
+1.2
+
+0.000 0.000 0.001 0.003 0.004 0.012 0.029 0.009
+
+0.95
+
+0.000 0.001 0.002 0.006 0.014 0.042 0.009 0.004
+
+0.75
+
+0.001 0.001 0.003 0.015 0.046 0.013 0.004 0.003
+
+0.6
+
+0.000 0.002 0.015 0.067 0.012 0.004 0.001 0.001
+
+0.44
+
+0.001 0.009 0.084 0.012 0.002 0.001 0.000 0.000
+
+0.3
+
+0.006 0.087 0.008 0.002 0.000 0.000 0.000 0.000
+
+0.2
+
+0.041 0.003 0.002 0.001 0.001 0.000 0.000 0.000
+
+0.0
+0.0 0.2 0.3 0.44 0.6 0.75 0.95 1.2 2.5
+True Muon Momentum [GeV/c]
+
+0.08
+0.07
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+0.00
+
+FIG. 12. The response matrix used as an input to the Wiener-SVD unfolding algorithm as a function of reconstructed and true
+muon momentum is constructed using the signal prediction obtained with GENIE v3.0.6 G18 10a 02 11a [3] after applying the
+selection.
+
+Covariance Matrix
+Muon Momentum [GeV/c]
+
+2.5
+99.38
+
+164.24 214.57 189.94 133.28 104.96
+
+70.00
+
+136.85
+
+115.40 195.22 268.55 248.42 166.18 144.47 217.55
+
+70.00
+
+Muon Momentum [GeV/c]
+
+1.2
+0.95
+192.92 326.41 447.98 419.42 274.15 603.24 144.47 104.96
+
+0.75
+
+1750
+1500
+1250
+
+226.44 385.23 523.34 485.64 841.40 274.15 166.18 133.28
+
+0.6
+
+1000
+396.09 658.00 866.34 1185.80 485.64 419.42 248.42 189.94
+
+0.44
+486.06 780.17 1934.04 866.34 523.34 447.98 268.55 214.57
+
+0.3
+402.14 1179.76 780.17 658.00 385.23 326.41 195.22 164.24
+
+0.2
+532.50 402.14 486.06 396.09 226.44 192.92 115.40
+
+0.0
+0.0
+
+0.2
+
+99.38
+
+0.3 0.44 0.6 0.75 0.95 1.2
+
+Muon Momentum [GeV/c]
+
+750
+500
+250
+
+2.5
+
+FIG. 13. Covariance matrix for the total event prediction as a function of muon momentum.
+
+10
+
+Muon Momentum [GeV/c]
+
+Unfolded Covariance Matrix
+Muon Momentum [GeV/c]
+
+2.5
+0.005 0.003 0.007 0.006 0.004 0.004 0.008 0.009
+1.2
+0.007 0.007 0.009 0.010 0.009 0.010 0.013 0.008
+0.95
+0.009 0.010 0.009 0.012 0.016 0.017 0.010 0.004
+0.75
+0.013 0.013 0.013 0.016 0.020 0.016 0.009 0.004
+0.6
+0.018 0.015 0.019 0.021 0.016 0.012 0.010 0.006
+0.44
+0.019 0.020 0.023 0.019 0.013 0.009 0.009 0.007
+0.3
+0.021 0.024 0.020 0.015 0.013 0.010 0.007 0.003
+0.2
+0.035 0.021 0.019 0.018 0.013 0.009 0.007 0.005
+0.0
+0.0 0.2 0.3 0.44 0.6 0.75 0.95 1.2 2.5
+Muon Momentum [GeV/c]
+
+0.035
+0.030
+0.025
+0.020
+0.015
+0.010
+0.005
+
+FIG. 14.
+Unfolded covariance of the cross section result as a function of muon momentum, in units of (10−40
+cm2 /GeV/nucleon)2 .
+
+Unfolded Muon Momentum [GeV/c]
+
+2.5
+1.2
+0.95
+0.75
+0.6
+0.44
+0.3
+0.2
+
+Additional Smearing Matrix (Ac)
+Muon Momentum [GeV/c]
+-0.092 -0.124 0.010 -0.056 -0.043 0.054 0.198 0.319
+-0.056 -0.045 -0.003 0.029 0.074 0.208 0.427 0.225
+-0.043 0.021 -0.051 0.082 0.253 0.388 0.186 0.070
+0.024 0.033 0.032 0.156 0.388 0.252 0.081 -0.002
+0.094 0.003 0.263 0.446 0.227 0.116 0.043 -0.018
+0.062 0.197 0.379 0.231 0.006 -0.094 0.011 0.106
+0.314 0.707 0.346 0.032 0.069 0.097 -0.011 -0.089
+0.568 0.082 -0.012 0.030 -0.020 -0.061 -0.037 -0.003
+
+0.0
+0.0 0.2 0.3 0.44 0.6 0.75 0.95 1.2 2.5
+True Muon Momentum [GeV/c]
+
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+0.1
+
+FIG. 15. The additional smearing matrix Ac returned by the Wiener-SVD method for unfolded muon momentum, which is
+used to smear the generator predictions and to compare with the data extracted cross section into the unfolded space.
+
+11
+VIII.
+
+MUON ANGLE
+
+We provide additional information for the cross section measurement as a function of muon angle: the number
+of total selected events, background-subtracted observed events and the total covariance matrix, response matrix,
+unfolded central value cross section values and covariance, and the additional smearing matrix Ac returned by the
+Wiener-SVD method. Comparisons with generators are performed after applying Ac on all predictions.
+
+cos(θµ )
+[-1.0, -0.5] [-0.5, 0.0] [0.0, 0.3] [0.3, 0.5] [0.5, 0.65] [0.65, 0.78] [0.78, 0.9] [0.9, 1.0]
+Background-subtracted data events 46.665
+81.967
+92.635 128.674 140.998
+149.282
+170.028 135.515
+Unfolded cross section
+[×10−39 cm2 /nucleon]
+0.06
+0.11
+0.19
+0.29
+0.43
+0.48
+0.66
+0.65
+TABLE IV. Numbers of background-subtracted data events and unfolded cross section as a function of muon angle.
+
+Reconstructed cos
+
+Response Matrix
+cos
+
+1.0
+0.000 0.000 0.000 0.000 0.000 0.000 0.005 0.067
+0.9
+0.000 0.000 0.000 0.000 0.001 0.007 0.073 0.006
+0.78
+0.000 0.000 0.000 0.000 0.007 0.079 0.010 0.001
+0.65
+0.000 0.000 0.000 0.008 0.080 0.011 0.001 0.001
+0.5
+0.000 0.000 0.007 0.078 0.008 0.001 0.001 0.001
+0.3
+0.000 0.004 0.064 0.007 0.000 0.000 0.001 0.002
+0.0
+0.002 0.059 0.003 0.000 0.000 0.000 0.001 0.003
+-0.5
+0.054 0.003 0.000 0.000 0.001 0.001 0.002 0.006
+-1.0
+-1.0 -0.5 0.0 0.3 0.5 0.65 0.78 0.9 1.0
+True cos
+
+0.07
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+0.00
+
+FIG. 16. The response matrix used as an input to the Wiener-SVD unfolding algorithm as a function of reconstructed and
+true muon angle is constructed using the signal prediction obtained with GENIE v3.0.6 G18 10a 02 11a [3] after applying the
+selection.
+
+12
+
+Covariance Matrix
+cos
+
+1.0
+
+199.66 320.32 370.59 485.81 613.74 730.28 1016.18 1752.20
+
+0.9
+180.32 283.58 328.93 426.82 530.87 638.02 1448.92 1016.18
+
+1400
+
+139.20 213.92 248.48 321.26 394.29 928.93 638.02 730.28
+
+1200
+
+123.81 197.69 225.53 292.16 624.25 394.29 530.87 613.74
+
+1000
+
+108.21 170.89 191.53 633.04 292.16 321.26 426.82 485.81
+
+800
+
+84.44
+
+132.12 337.22 191.53 225.53 248.48 328.93 370.59
+
+600
+
+77.52
+
+363.75 132.12 170.89 197.69 213.92 283.58 320.32
+
+400
+
+186.91
+
+77.52
+
+200
+
+0.78
+0.65
+
+cos
+
+1600
+
+0.5
+0.3
+0.0
+-0.5
+84.44
+
+-1.0
+-1.0 -0.5 0.0
+
+108.21 123.81 139.20 180.32 199.66
+
+0.3
+
+0.5 0.65 0.78 0.9
+
+cos
+
+1.0
+
+FIG. 17. Covariance matrix for the total event prediction as a function of muon angle.
+
+cos
+
+Unfolded Covariance Matrix
+cos
+
+1.0
+0.006 0.012 0.013 0.010 0.016 0.016 0.023 0.062
+0.9
+0.003 0.010 0.012 0.006 0.013 0.007 0.039 0.023
+0.78
+0.001 0.007 0.008 0.007 0.004 0.021 0.007 0.016
+0.65
+0.003 0.005 0.008 0.006 0.016 0.004 0.013 0.016
+0.5
+0.004 0.005 0.004 0.014 0.006 0.007 0.006 0.010
+0.3
+0.005 0.006 0.012 0.004 0.008 0.008 0.012 0.013
+0.0
+0.005 0.015 0.006 0.005 0.005 0.007 0.010 0.012
+-0.5
+0.009 0.005 0.005 0.004 0.003 0.001 0.003 0.006
+-1.0
+-1.0 -0.5 0.0 0.3 0.5 0.65 0.78 0.9 1.0
+cos
+
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+
+FIG. 18. Unfolded covariance of the cross section result as a function of muon angle, in units of (10−40 cm2 /nucleon)2 .
+
+13
+
+Unfolded cos
+
+Additional Smearing Matrix (Ac)
+cos
+
+1.0
+0.008 0.002 -0.016 -0.026 0.007 0.001 -0.003 0.858
+0.9
+-0.050 0.015 0.028 -0.053 0.001 -0.044 0.789 -0.037
+0.78
+-0.092 0.012 0.061 0.045 -0.052 0.791 -0.059 -0.031
+0.65
+-0.034 -0.046 0.064 0.142 0.811 -0.037 0.055 0.047
+0.5
+0.036 0.006 -0.034 0.722 0.090 0.049 -0.072 -0.057
+0.3
+0.137 0.109 0.705 0.007 0.107 0.175 0.177 0.084
+0.0
+0.092 0.714 0.055 0.020 -0.026 0.051 0.072 0.042
+-0.5
+0.731 0.087 0.064 0.014 -0.066 -0.158 -0.147 -0.071
+-1.0
+-1.0 -0.5 0.0 0.3 0.5 0.65 0.78 0.9 1.0
+True cos
+
+0.8
+0.6
+0.4
+0.2
+0.0
+
+FIG. 19. The additional smearing matrix Ac returned by the Wiener-SVD method for unfolded muon angle, which is used to
+smear the generator predictions and to compare with the data extracted cross section into the unfolded space.
+
+IX.
+
+MUON PION OPENING ANGLE
+
+We provide additional information for the cross section measurement as a function of the muon pion opening angle:
+the number of total selected events, background-subtracted observed events and the total covariance matrix, response
+matrix, unfolded central value cross section values and covariance, and the additional smearing matrix Ac returned
+by the Wiener-SVD method. Comparisons with generators are performed after applying Ac on all predictions.
+
+cos(θµπ0 )
+[-1.0, -0.75] [-0.75, -0.5] [-0.5, -0.25] [-0.25, 0.0] [0.0, 0.25] [0.25, 0.5] [0.5, 0.75] [0.75, 1.0]
+Background-subtracted data events
+93.519
+88.728
+99.759
+132.945
+139.408 129.693 128.365 133.349
+Unfolded cross section
+[×10−39 cm2 /nucleon]
+0.25
+0.19
+0.22
+0.28
+0.28
+0.24
+0.26
+0.23
+TABLE V. Numbers of background-subtracted data events and unfolded cross section as a function of muon pion opening
+angle.
+
+14
+
+Reconstructed cos
+
+0
+
+Response Matrix
+cos 0
+
+1.0
+0.000 0.000 0.000 0.000 0.001 0.002 0.012 0.066
+0.75
+0.000 0.000 0.001 0.001 0.002 0.014 0.058 0.013
+0.5
+0.000 0.000 0.001 0.002 0.014 0.053 0.016 0.002
+0.25
+0.000 0.001 0.002 0.015 0.052 0.017 0.003 0.001
+0.0
+0.000 0.002 0.014 0.047 0.018 0.003 0.001 0.001
+-0.25
+0.002 0.015 0.046 0.014 0.003 0.001 0.001 0.001
+-0.5
+0.011 0.046 0.014 0.002 0.001 0.001 0.001 0.001
+-0.75
+0.056 0.011 0.002 0.001 0.001 0.001 0.001 0.002
+-1.0
+-1.0-0.75-0.5-0.25 0.0 0.25 0.5 0.75 1.0
+True cos 0
+
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+
+FIG. 20. The response matrix used as an input to the Wiener-SVD unfolding algorithm as a function of reconstructed and
+true muon pion opening angle is constructed using the signal prediction obtained with GENIE v3.0.6 G18 10a 02 11a [3] after
+applying the selection.
+
+1.0
+
+Covariance Matrix
+cos 0
+257.96 295.34 376.97 384.77 537.24 574.86 592.07 1107.23
+
+0.75
+
+1000
+
+245.86 280.66 354.95 365.36 505.51 538.78 1007.15 592.07
+
+0.5
+241.95 275.58 350.69 357.81 494.54 866.33 538.78 574.86
+
+0.25
+237.87 271.60 341.37 352.04 808.21 494.54 505.51 537.24
+
+0
+
+cos
+
+800
+
+0.0
+178.12 204.11 253.88 683.96 352.04 357.81 365.36 384.77
+
+600
+
+-0.25
+174.85 199.00 573.29 253.88 341.37 350.69 354.95 376.97
+
+-0.5
+
+400
+
+141.68 385.48 199.00 204.11 271.60 275.58 280.66 295.34
+
+-0.75
+282.28 141.68 174.85 178.12 237.87 241.95 245.86 257.96
+
+-1.0
+-1.0 -0.75 -0.5 -0.25 0.0 0.25 0.5 0.75 1.0
+
+cos
+
+200
+
+0
+
+FIG. 21. Covariance matrix for the total event prediction as a function of the muon pion opening angle.
+
+15
+
+cos
+
+0
+
+Unfolded Covariance Matrix
+cos 0
+
+1.0
+0.006 0.006 0.008 0.010 0.007 0.009 0.018 0.021
+0.75
+0.007 0.010 0.011 0.009 0.010 0.019 0.026 0.018
+0.5
+0.007 0.009 0.007 0.008 0.014 0.022 0.019 0.009
+0.25
+0.008 0.005 0.007 0.014 0.018 0.014 0.010 0.007
+0.0
+0.006 0.005 0.012 0.018 0.014 0.008 0.009 0.010
+-0.25
+0.003 0.011 0.016 0.012 0.007 0.007 0.011 0.008
+-0.5
+0.005 0.014 0.011 0.005 0.005 0.009 0.010 0.006
+-0.75
+0.015 0.005 0.003 0.006 0.008 0.007 0.007 0.006
+-1.0
+-1.0-0.75-0.5-0.25 0.0 0.25 0.5 0.75 1.0
+cos 0
+
+0.025
+0.020
+0.015
+0.010
+0.005
+
+FIG. 22. Unfolded covariance of the cross section result as a function of the muon pion opening angle, in units of (10−40
+cm2 /nucleon)2 .
+
+Unfolded cos
+
+0
+
+Additional Smearing Matrix (Ac)
+cos 0
+
+1.0
+-0.052 -0.056 -0.051 -0.037 -0.124 -0.154 0.198 0.539
+0.75
+0.004 0.026 0.041 -0.035 -0.022 0.298 0.535 0.272
+0.5
+-0.002 0.026 -0.056 -0.027 0.273 0.522 0.277 -0.052
+0.25
+0.011 -0.083 -0.025 0.294 0.497 0.243 -0.063 -0.060
+0.0
+-0.004 -0.021 0.268 0.463 0.285 -0.008 -0.030 0.035
+-0.25
+-0.055 0.288 0.480 0.278 -0.019 -0.054 0.021 0.006
+-0.5
+0.148 0.558 0.350 -0.009 -0.061 0.038 0.027 0.010
+-0.75
+0.860 0.178 -0.093 -0.021 0.034 -0.006 -0.018 -0.007
+-1.0
+-1.0-0.75-0.5-0.25 0.0 0.25 0.5 0.75 1.0
+True cos 0
+
+0.8
+0.6
+0.4
+0.2
+0.0
+
+FIG. 23. The additional smearing matrix Ac returned by the Wiener-SVD method for the unfolded muon pion opening angle,
+which is used to smear the generator predictions and to compare with the data extracted cross section into the unfolded space.
+
+16
+X.
+
+FSI EFFECTS
+
+In this section we focus on understanding the FSI effects when we compare the data extracted cross section with
+the generator predictions. The plots include generator predictions with FSI effects turned off. The χ2 /ndf for each
+of the cases are included in the legend of the plots.
+
+CC1 Selection
+
+CC1 Selection
+
+d
+39 2
+dp 0 [×10 cm /GeV/nucleon]
+
+2.5
+2.0
+1.5
+1.0
+0.5
+0.00.0
+
+MicroBooNE 6.86 × 1020 POT
+NuWro no FSI ( 2/ndf = 12.11/7)
+NuWro FSI ( 2/ndf = 4.27/7)
+NEUT no FSI ( 2/ndf = 14.49/7)
+NEUT FSI ( 2/ndf = 3.93/7)
+GENIE v2 no FSI ( 2/ndf = 28.98/7)
+GENIE v2 FSI ( 2/ndf = 1.92/7)
+BNB Data
+
+0.6
+d
+39 2
+dcos( 0) [×10 cm /nucleon]
+
+MicroBooNE 6.86 × 1020 POT
+NuWro no FSI ( 2/ndf = 39.84/8)
+NuWro FSI ( 2/ndf = 20.73/8)
+NEUT no FSI ( 2/ndf = 40.96/8)
+NEUT FSI ( 2/ndf = 14.96/8)
+GENIE v2 no FSI ( 2/ndf = 54.8/8)
+GENIE v2 FSI ( 2/ndf = 30.04/8)
+BNB Data
+
+0.5
+0.4
+0.3
+0.2
+0.1
+
+0.1
+
+0.2
+
+0.3
+0.4
+0.5
+0 Momentum [GeV]
+
+0.6
+
+0.01.00
+
+0.7
+
+0.75
+
+0.50
+
+(a)
+
+0.25 0.00 0.25
+cos( 0)
+
+0.50
+
+0.75
+
+1.00
+
+(b)
+
+FIG. 24. Comparing differential cross sections from various generator predictions (with and without FSI effects) and the
+unfolded data for (a) the π 0 momentum, (b) the scattering angle between the neutrino beam and outgoing π 0 direction. We
+quantify the agreement in terms of χ2 values, and list them in the legends.
+
+CC1 Selection
+
+1.0
+0.8
+0.6
+
+1.0
+d
+39 2
+dcos( ) [×10 cm /nucleon]
+
+d
+39 2
+dp 0 [×10 cm /GeV/nucleon]
+
+CC1 Selection
+
+MicroBooNE 6.86 × 1020 POT
+NuWro no FSI ( 2/ndf = 38.32/8)
+NuWro FSI ( 2/ndf = 26.88/8)
+NEUT no FSI ( 2/ndf = 44.24/8)
+NEUT FSI ( 2/ndf = 25.62/8)
+GENIE v2 no FSI ( 2/ndf = 57.45/8)
+GENIE v2 FSI ( 2/ndf = 22.17/8)
+BNB Data
+
+1.2
+
+0.4
+0.2
+0.0
+0.0
+
+0.5
+
+1.0
+1.5
+Muon Momentum [GeV]
+(a)
+
+2.0
+
+2.5
+
+0.8
+0.6
+
+MicroBooNE 6.86 × 1020 POT
+NuWro no FSI ( 2/ndf = 17.6/8)
+NuWro FSI ( 2/ndf = 5.52/8)
+NEUT no FSI ( 2/ndf = 19.44/8)
+NEUT FSI ( 2/ndf = 8.8/8)
+GENIE v2 no FSI ( 2/ndf = 38.64/8)
+GENIE v2 FSI ( 2/ndf = 10.72/8)
+BNB Data
+
+0.4
+0.2
+0.01.00
+
+0.75
+
+0.50
+
+0.25 0.00 0.25
+cos( )
+
+0.50
+
+0.75
+
+1.00
+
+(b)
+
+FIG. 25. Comparing differential cross sections from various generator predictions (with and without FSI effects) and the
+unfolded data for (a) the muon momentum, (b) the scattering angle between the neutrino beam and outgoing muon direction.
+We quantify the agreement in terms of χ2 values, and list them in the legends.
+
+[1] P. Abratenko et al. (MicroBooNE Collaboration), First measurement of inclusive muon neutrino charged current differential
+cross sections on argon at Eν ∼ 0.8 GeV with the microboone detector, Phys. Rev. Lett. 123, 131801 (2019).
+[2] C. Adams et al. (The MicroBooNE Collaboration), First measurement of νµ charged-current π 0 production on argon with
+the microboone detector, Phys. Rev. D 99, 091102 (2019).
+
+17
+[3] P. Abratenko et al. (MicroBooNE Collaboration), New CC0π genie model tune for microboone, Phys. Rev. D 105, 072001
+(2022).
+
+

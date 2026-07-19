@@ -1,0 +1,739 @@
+{
+ "bibtag": "MicroBooNE:2022emb",
+ "slug": "microboone-2022emb",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2211.03734",
+ "arxiv": "2211.03734",
+ "cite": "Phys.Lett.B 872 140052",
+ "note": "First measurement of CC muon-neutrino two-proton (CC2p, mesonless) final-state cross sections on argon, MicroBooNE, Booster Neutrino Beam",
+ "distributions": [
+  {
+   "key": "dsigma_dcos_PLPR",
+   "slug": "dsigma_dcos_PLPR",
+   "name": "d\u03c3/dcos(\u03b8_vecP_LcdotvecP_R) (opening angle between the two protons)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_{\\vec{P}_L\\cdot\\vec{P}_R})\\ (opening angle between the two protons)$",
+   "xlabel": "cos(\u03b8_vecP_LcdotvecP_R)",
+   "xunit": "",
+   "xlabel_tex": "$\\cos(\\theta_{\\vec{P}_L\\cdot\\vec{P}_R})$",
+   "ylabel": "d\u03c3/dcos(\u03b8_vecP_LcdotvecP_R)",
+   "ylabel_plot": "d\u03c3/dcos(\u03b8_vecP_LcdotvecP_R)",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_{\\vec{P}_L\\cdot\\vec{P}_R})$",
+   "yunit": "10^{-38}cm^2/Ar",
+   "yunit_tex": "$10^{-38}cm^2/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.75,
+     "center": -0.875,
+     "val": 1.43,
+     "err": 0.39
+    },
+    {
+     "i": 1,
+     "lo": -0.75,
+     "hi": -0.5,
+     "center": -0.625,
+     "val": 1.43,
+     "err": 0.37
+    },
+    {
+     "i": 2,
+     "lo": -0.5,
+     "hi": -0.25,
+     "center": -0.375,
+     "val": 1.41,
+     "err": 0.34
+    },
+    {
+     "i": 3,
+     "lo": -0.25,
+     "hi": 0.0,
+     "center": -0.125,
+     "val": 1.32,
+     "err": 0.3
+    },
+    {
+     "i": 4,
+     "lo": 0.0,
+     "hi": 0.25,
+     "center": 0.125,
+     "val": 1.18,
+     "err": 0.26
+    },
+    {
+     "i": 5,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 1.0,
+     "err": 0.23
+    },
+    {
+     "i": 6,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 0.82,
+     "err": 0.21
+    },
+    {
+     "i": 7,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 0.71,
+     "err": 0.21
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dcos_muPsum",
+   "slug": "dsigma_dcos_muPsum",
+   "name": "d\u03c3/dcos(\u03b8_vecP_\u03bccdotvecP_sum) (opening angle between muon and total proton momentum)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_{\\vec{P}_\\mu\\cdot\\vec{P}_{\\mathrm{sum}}})\\ (opening angle between muon and total proton momentum)$",
+   "xlabel": "cos(\u03b8_vecP_\u03bccdotvecP_sum)",
+   "xunit": "",
+   "xlabel_tex": "$\\cos(\\theta_{\\vec{P}_\\mu\\cdot\\vec{P}_{\\mathrm{sum}}})$",
+   "ylabel": "d\u03c3/dcos(\u03b8_vecP_\u03bccdotvecP_sum)",
+   "ylabel_plot": "d\u03c3/dcos(\u03b8_vecP_\u03bccdotvecP_sum)",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_{\\vec{P}_\\mu\\cdot\\vec{P}_{\\mathrm{sum}}})$",
+   "yunit": "10^{-38}cm^2/Ar",
+   "yunit_tex": "$10^{-38}cm^2/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.75,
+     "center": -0.875,
+     "val": 0.9,
+     "err": 0.23
+    },
+    {
+     "i": 1,
+     "lo": -0.75,
+     "hi": -0.5,
+     "center": -0.625,
+     "val": 1.12,
+     "err": 0.19
+    },
+    {
+     "i": 2,
+     "lo": -0.5,
+     "hi": -0.25,
+     "center": -0.375,
+     "val": 1.5,
+     "err": 0.22
+    },
+    {
+     "i": 3,
+     "lo": -0.25,
+     "hi": 0.0,
+     "center": -0.125,
+     "val": 1.8,
+     "err": 0.29
+    },
+    {
+     "i": 4,
+     "lo": 0.0,
+     "hi": 0.25,
+     "center": 0.125,
+     "val": 1.87,
+     "err": 0.34
+    },
+    {
+     "i": 5,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 1.71,
+     "err": 0.35
+    },
+    {
+     "i": 6,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 1.47,
+     "err": 0.29
+    },
+    {
+     "i": 7,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 1.28,
+     "err": 0.21
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_ddeltaPT",
+   "slug": "dsigma_ddeltaPT",
+   "name": "d\u03c3/d\u03b4 P_T (transverse momentum imbalance magnitude)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta P_T\\ (transverse momentum imbalance magnitude)$",
+   "xlabel": "\u03b4 P_T",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$\\delta P_T$",
+   "ylabel": "d\u03c3/d\u03b4 P_T",
+   "ylabel_plot": "d\u03c3/d\u03b4 P_T",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\delta P_T$",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "yunit_tex": "$10^{-38}cm^2/(GeV/c)/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 7,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 2.44,
+     "err": 0.8
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 4.21,
+     "err": 0.9
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 5.26,
+     "err": 1.23
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 3.95,
+     "err": 1.08
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 2.22,
+     "err": 0.95
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 2.5,
+     "err": 0.74
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 1.0,
+     "center": 0.8,
+     "val": 0.94,
+     "err": 0.25
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dPmu",
+   "slug": "dsigma_dPmu",
+   "name": "d\u03c3/dP_\u03bc (muon momentum)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}P_\\mu\\ (muon momentum)$",
+   "xlabel": "P_\u03bc",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$P_\\mu$",
+   "ylabel": "d\u03c3/dP_\u03bc",
+   "ylabel_plot": "d\u03c3/dP_\u03bc",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}P_\\mu$",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "yunit_tex": "$10^{-38}cm^2/(GeV/c)/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.1,
+     "hi": 0.3,
+     "center": 0.2,
+     "val": 2.24,
+     "err": 0.46
+    },
+    {
+     "i": 1,
+     "lo": 0.3,
+     "hi": 0.5,
+     "center": 0.4,
+     "val": 2.75,
+     "err": 0.52
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.7,
+     "center": 0.6,
+     "val": 2.78,
+     "err": 0.52
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.9,
+     "center": 0.8,
+     "val": 2.24,
+     "err": 0.45
+    },
+    {
+     "i": 4,
+     "lo": 0.9,
+     "hi": 1.2,
+     "center": 1.05,
+     "val": 1.09,
+     "err": 0.4
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dcos_mu",
+   "slug": "dsigma_dcos_mu",
+   "name": "d\u03c3/dcos(\u03b8_\u03bc) (muon angle relative to neutrino beam)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_\\mu)\\ (muon angle relative to neutrino beam)$",
+   "xlabel": "cos(\u03b8_\u03bc)",
+   "xunit": "",
+   "xlabel_tex": "$\\cos(\\theta_\\mu)$",
+   "ylabel": "d\u03c3/dcos(\u03b8_\u03bc)",
+   "ylabel_plot": "d\u03c3/dcos(\u03b8_\u03bc)",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_\\mu)$",
+   "yunit": "10^{-38}cm^2/Ar",
+   "yunit_tex": "$10^{-38}cm^2/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.75,
+     "center": -0.875,
+     "val": 0.09,
+     "err": 0.16
+    },
+    {
+     "i": 1,
+     "lo": -0.75,
+     "hi": -0.5,
+     "center": -0.625,
+     "val": 0.27,
+     "err": 0.09
+    },
+    {
+     "i": 2,
+     "lo": -0.5,
+     "hi": -0.25,
+     "center": -0.375,
+     "val": 0.45,
+     "err": 0.09
+    },
+    {
+     "i": 3,
+     "lo": -0.25,
+     "hi": 0.0,
+     "center": -0.125,
+     "val": 0.72,
+     "err": 0.11
+    },
+    {
+     "i": 4,
+     "lo": 0.0,
+     "hi": 0.25,
+     "center": 0.125,
+     "val": 1.04,
+     "err": 0.15
+    },
+    {
+     "i": 5,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 1.44,
+     "err": 0.24
+    },
+    {
+     "i": 6,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 1.85,
+     "err": 0.42
+    },
+    {
+     "i": 7,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 2.3,
+     "err": 1.32
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dPL",
+   "slug": "dsigma_dPL",
+   "name": "d\u03c3/dP_L (leading proton momentum)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}P_L\\ (leading proton momentum)$",
+   "xlabel": "P_L",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$P_L$",
+   "ylabel": "d\u03c3/dP_L",
+   "ylabel_plot": "d\u03c3/dP_L",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}P_L$",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "yunit_tex": "$10^{-38}cm^2/(GeV/c)/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 4.05,
+     "err": 0.89
+    },
+    {
+     "i": 1,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 3.96,
+     "err": 0.85
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 4.04,
+     "err": 1.13
+    },
+    {
+     "i": 3,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 3.93,
+     "err": 1.22
+    },
+    {
+     "i": 4,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 3.52,
+     "err": 0.78
+    },
+    {
+     "i": 5,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 1.8,
+     "err": 0.48
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dcos_L",
+   "slug": "dsigma_dcos_L",
+   "name": "d\u03c3/dcos(\u03b8_L) (leading proton angle relative to neutrino beam)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_L)\\ (leading proton angle relative to neutrino beam)$",
+   "xlabel": "cos(\u03b8_L)",
+   "xunit": "",
+   "xlabel_tex": "$\\cos(\\theta_L)$",
+   "ylabel": "d\u03c3/dcos(\u03b8_L)",
+   "ylabel_plot": "d\u03c3/dcos(\u03b8_L)",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_L)$",
+   "yunit": "10^{-38}cm^2/Ar",
+   "yunit_tex": "$10^{-38}cm^2/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.75,
+     "center": -0.875,
+     "val": 0.08,
+     "err": 0.14
+    },
+    {
+     "i": 1,
+     "lo": -0.75,
+     "hi": -0.5,
+     "center": -0.625,
+     "val": 0.17,
+     "err": 0.09
+    },
+    {
+     "i": 2,
+     "lo": -0.5,
+     "hi": -0.25,
+     "center": -0.375,
+     "val": 0.29,
+     "err": 0.15
+    },
+    {
+     "i": 3,
+     "lo": -0.25,
+     "hi": 0.0,
+     "center": -0.125,
+     "val": 0.57,
+     "err": 0.28
+    },
+    {
+     "i": 4,
+     "lo": 0.0,
+     "hi": 0.25,
+     "center": 0.125,
+     "val": 1.1,
+     "err": 0.34
+    },
+    {
+     "i": 5,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 1.56,
+     "err": 0.51
+    },
+    {
+     "i": 6,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 2.18,
+     "err": 0.57
+    },
+    {
+     "i": 7,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 2.86,
+     "err": 0.71
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dPR",
+   "slug": "dsigma_dPR",
+   "name": "d\u03c3/dP_R (recoil proton momentum)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}P_R\\ (recoil proton momentum)$",
+   "xlabel": "P_R",
+   "xunit": "GeV/c",
+   "xlabel_tex": "$P_R$",
+   "ylabel": "d\u03c3/dP_R",
+   "ylabel_plot": "d\u03c3/dP_R",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}P_R$",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "yunit_tex": "$10^{-38}cm^2/(GeV/c)/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 12.77,
+     "err": 3.42
+    },
+    {
+     "i": 1,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 5.23,
+     "err": 1.57
+    },
+    {
+     "i": 2,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 2.49,
+     "err": 0.82
+    },
+    {
+     "i": 3,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 0.82,
+     "err": 0.28
+    },
+    {
+     "i": 4,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 0.3,
+     "err": 0.12
+    },
+    {
+     "i": 5,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 0.1,
+     "err": 0.05
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dsigma_dcos_R",
+   "slug": "dsigma_dcos_R",
+   "name": "d\u03c3/dcos(\u03b8_R) (recoil proton angle relative to neutrino beam)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_R)\\ (recoil proton angle relative to neutrino beam)$",
+   "xlabel": "cos(\u03b8_R)",
+   "xunit": "",
+   "xlabel_tex": "$\\cos(\\theta_R)$",
+   "ylabel": "d\u03c3/dcos(\u03b8_R)",
+   "ylabel_plot": "d\u03c3/dcos(\u03b8_R)",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_R)$",
+   "yunit": "10^{-38}cm^2/Ar",
+   "yunit_tex": "$10^{-38}cm^2/Ar$",
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2211.03734",
+   "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": -1.0,
+     "hi": -0.75,
+     "center": -0.875,
+     "val": 0.46,
+     "err": 0.19
+    },
+    {
+     "i": 1,
+     "lo": -0.75,
+     "hi": -0.5,
+     "center": -0.625,
+     "val": 0.63,
+     "err": 0.19
+    },
+    {
+     "i": 2,
+     "lo": -0.5,
+     "hi": -0.25,
+     "center": -0.375,
+     "val": 0.89,
+     "err": 0.2
+    },
+    {
+     "i": 3,
+     "lo": -0.25,
+     "hi": 0.0,
+     "center": -0.125,
+     "val": 1.21,
+     "err": 0.23
+    },
+    {
+     "i": 4,
+     "lo": 0.0,
+     "hi": 0.25,
+     "center": 0.125,
+     "val": 1.56,
+     "err": 0.29
+    },
+    {
+     "i": 5,
+     "lo": 0.25,
+     "hi": 0.5,
+     "center": 0.375,
+     "val": 1.88,
+     "err": 0.35
+    },
+    {
+     "i": 6,
+     "lo": 0.5,
+     "hi": 0.75,
+     "center": 0.625,
+     "val": 2.15,
+     "err": 0.41
+    },
+    {
+     "i": 7,
+     "lo": 0.75,
+     "hi": 1.0,
+     "center": 0.875,
+     "val": 2.32,
+     "err": 0.44
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}

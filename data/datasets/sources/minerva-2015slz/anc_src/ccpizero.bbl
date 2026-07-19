@@ -1,0 +1,343 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Alvarez-Ruso:2014bla}
+L.~Alvarez-Ruso, Y.~Hayato, J.~Nieves, {Progress and open questions in the
+  physics of neutrino cross sections at intermediate energies}, New J. Phys. 16
+  (2014) 075015.
+\newblock \href {http://arxiv.org/abs/1403.2673} {\path{arXiv:1403.2673}},
+  \href {http://dx.doi.org/10.1088/1367-2630/16/7/075015}
+  {\path{doi:10.1088/1367-2630/16/7/075015}}.
+
+\bibitem{Ayres:2004js}
+D.~S. Ayres, et~al., {NOvA Proposal to Build a 30 Kiloton Off-Axis Detector to
+  Study Neutrino Oscillations in the Fermilab NuMI Beamline, }\href
+  {http://arxiv.org/abs/hep-ex/0503053} {\path{arXiv:hep-ex/0503053}}.
+
+\bibitem{LBNE}
+T.~Akiri, et~al., {The 2010 Interim Report of the Long-Baseline Neutrino
+  Experiment Collaboration Physics Working Groups, }\href
+  {http://arxiv.org/abs/1110.6249} {\path{arXiv:1110.6249}}.
+
+\bibitem{AguilarArevalo:2007ab}
+A.~A. Aguilar-Arevalo, et~al., {Measurement of muon neutrino quasi-elastic
+  scattering on carbon}, Phys. Rev. Lett. 100 (2008) 032301.
+\newblock \href {http://arxiv.org/abs/0706.0926} {\path{arXiv:0706.0926}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.100.032301}
+  {\path{doi:10.1103/PhysRevLett.100.032301}}.
+
+\bibitem{Lyubushkin:2008pe}
+V.~Lyubushkin, et~al., {A Study of quasi-elastic muon neutrino and antineutrino
+  scattering in the NOMAD experiment}, Eur.Phys.J. C63 (2009) 355--381.
+\newblock \href {http://arxiv.org/abs/0812.4543} {\path{arXiv:0812.4543}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-009-1113-0}
+  {\path{doi:10.1140/epjc/s10052-009-1113-0}}.
+
+\bibitem{nubarprl}
+L.~Fields, J.~Chvojka, et~al., {Measurement of Muon Antineutrino Quasi-Elastic
+  Scattering on a Hydrocarbon Target at $E_{\nu} \sim 3.5$ GeV}, Phys. Rev.
+  Lett. 111 (2013) 022501.
+\newblock \href {http://arxiv.org/abs/1305.2234} {\path{arXiv:1305.2234}}.
+
+\bibitem{miniboone_piprod}
+A.~A. Aguilar-Arevalo, et~al., {Measurement of neutrino-induced charged-current
+  charged pion production cross sections on mineral oil at E$_{\nu}\sim
+  1~\textrm{GeV}$}, Phys. Rev. D 83 (2011) 052007.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.83.052007}
+  {\path{doi:10.1103/PhysRevD.83.052007}}.
+
+\bibitem{gibuu-pi}
+{O.~Lalakulich and U.~Mosel}, {Pion production in the MiniBooNE experiment},
+  Phys. Rev. C 87 (2013) 014602.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevC.87.014602}
+  {\path{doi:10.1103/PhysRevC.87.014602}}.
+
+\bibitem{valencia-pi}
+{E.~Hern\'{a}ndez, J.~Nieves, and M.J.~Vicente Vacas}, {Single $\pi$ production
+  in neutrino nucleus scattering}, Phys. Rev. D 87 (2013) 113009.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.87.113009}
+  {\path{doi:10.1103/PhysRevD.87.113009}}.
+
+\bibitem{Rodrigues:2014jfa}
+P.~Rodrigues, {Comparing pion production models to MiniBooNE data}\href
+  {http://arxiv.org/abs/1402.4709} {\path{arXiv:1402.4709}}.
+
+\bibitem{Yu:2014yja}
+J.~Y. Yu, E.~Paschos, I.~Schienbein, {Comparison of the ANP model with the data
+  for neutrino induced single pion production from the MiniBooNE and
+  MINER$\nu$A experiments}, Phys.Rev. D91~(5) (2015) 054038.
+\newblock \href {http://arxiv.org/abs/1411.6637} {\path{arXiv:1411.6637}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.91.054038}
+  {\path{doi:10.1103/PhysRevD.91.054038}}.
+
+\bibitem{Grabosch89}
+H.~J. Grabosch, et~al., Z. Phys. C 41 (1989) 527.
+
+\bibitem{Allasia90}
+D.~Allasia, et~al., Nucl. Phys. B 343 (1990) 285.
+
+\bibitem{Barish79}
+S.~Barish, et~al., Phys. Rev. D 19 (1979) 2521.
+
+\bibitem{Radecky82}
+G.~Radecky, et~al., Phys. Rev. D 25 (1982) 1161.
+
+\bibitem{Kitagaki86}
+T.~Kitagaki, et~al., Phys. Rev. D 34 (1986) 2554.
+
+\bibitem{AguilarArevalo:2008qa}
+A.~A. Aguilar-Arevalo, et~al., {The MiniBooNE Detector}, Nucl. Instrum. Meth. A
+  599 (2009) 28--46.
+\newblock \href {http://arxiv.org/abs/0806.4201} {\path{arXiv:0806.4201}},
+  \href {http://dx.doi.org/10.1016/j.nima.2008.10.028}
+  {\path{doi:10.1016/j.nima.2008.10.028}}.
+
+\bibitem{Mariani:2007}
+C.~Mariani, {Neutral pion cross section measurement at K2K}, AIP Conf.Proc. 967
+  (2007) 174--178.
+\newblock \href {http://dx.doi.org/10.1063/1.2834471}
+  {\path{doi:10.1063/1.2834471}}.
+
+\bibitem{Kurimoto:2009}
+Y.~Kurimoto, et~al., {Measurement of Inclusive Neutral Current Neutral $\pi^0$
+  Production on Carbon in a Few-GeV Neutrino Beam}, Phys.Rev. D81 (2010)
+  033004.
+\newblock \href {http://arxiv.org/abs/0910.5768} {\path{arXiv:0910.5768}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.81.033004}
+  {\path{doi:10.1103/PhysRevD.81.033004}}.
+
+\bibitem{Eberly:2014mra}
+B.~Eberly, et~al., {Charged Pion Production in $\nu_\mu$ Interactions on
+  Hydrocarbon at $\langle E_{\nu}\rangle$= 4.0 GeV}\href
+  {http://arxiv.org/abs/1406.6415} {\path{arXiv:1406.6415}}.
+
+\bibitem{Augil11}
+A.~Aguilar-Arevalo, et~al., Phys. Rev. D 83 (2011) 052009.
+
+\bibitem{Rein:1980wg}
+D.~Rein, L.~M. Sehgal, {Neutrino Excitation of Baryon Resonances and Single
+  Pion Production}, Annals Phys. 133 (1981) 79--153.
+\newblock \href {http://dx.doi.org/10.1016/0003-4916(81)90242-6}
+  {\path{doi:10.1016/0003-4916(81)90242-6}}.
+
+\bibitem{Abe:2011ks}
+K.~Abe, et~al., {The T2K Experiment}, Nucl. Instrum. Meth. A 659 (2011)
+  106--135.
+\newblock \href {http://arxiv.org/abs/1106.1238} {\path{arXiv:1106.1238}},
+  \href {http://dx.doi.org/10.1016/j.nima.2011.06.067}
+  {\path{doi:10.1016/j.nima.2011.06.067}}.
+
+\bibitem{AguilarArevalo:2010wv}
+A.~A. Aguilar-Arevalo, et~al., {Event Excess in the MiniBooNE Search for $\bar
+  \nu_\mu \rightarrow \bar \nu_e$ Oscillations}, Phys. Rev. Lett. 105 (2010)
+  181801.
+\newblock \href {http://arxiv.org/abs/1007.1150} {\path{arXiv:1007.1150}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.105.181801}
+  {\path{doi:10.1103/PhysRevLett.105.181801}}.
+
+\bibitem{Andreopoulos201087}
+C.~Andreopoulos, et~al., {The GENIE neutrino Monte Carlo generator}, Nucl.
+  Instrum. Meth. A 614~(1) (2010) 87 -- 104, {P}rogram version 2.6.2 used here.
+\newblock \href {http://dx.doi.org/10.1016/j.nima.2009.12.009}
+  {\path{doi:10.1016/j.nima.2009.12.009}}.
+
+\bibitem{Juszczak:2005zs}
+C.~Juszczak, J.~A. Nowak, J.~T. Sobczyk, {Simulations from a new neutrino event
+  generator}, Nucl. Phys. Proc. Suppl. 159 (2006) 211--216.
+\newblock \href {http://arxiv.org/abs/hep-ph/0512365}
+  {\path{arXiv:hep-ph/0512365}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysbps.2006.08.069}
+  {\path{doi:10.1016/j.nuclphysbps.2006.08.069}}.
+
+\bibitem{Golan:2012rfa}
+T.~Golan, J.~Sobczyk, J.~Zmuda, {NuWro: the Wroclaw Monte Carlo Generator of
+  Neutrino Interactions}, Nucl. Phys. Proc. Suppl. 229-232 (2012) 499.
+\newblock \href {http://dx.doi.org/10.1016/j.nuclphysbps.2012.09.136}
+  {\path{doi:10.1016/j.nuclphysbps.2012.09.136}}.
+
+\bibitem{Hayato:2009zz}
+Y.~Hayato, {A neutrino interaction simulation program library NEUT}, Acta
+  Phys.Polon. B40 (2009) 2477--2489.
+
+\bibitem{Anderson:1998zza}
+K.~Anderson, et~al., {The NuMI Facility Technical Design Report},
+  Fermilab-design-1998-01 (1998).
+
+\bibitem{Agostinelli2003250}
+S.~Agostinelli, et~al., Geant4â € simulation toolkit, Nucl. Instrum. Meth. A
+  506~(3) (2003) 250 -- 303.
+\newblock \href {http://dx.doi.org/10.1016/S0168-9002(03)01368-8}
+  {\path{doi:10.1016/S0168-9002(03)01368-8}}.
+
+\bibitem{1610988}
+J.~Allison, et~al., Geant4 developments and applications, Nuclear Science, IEEE
+  Transactions on 53~(1) (2006) 270--278.
+\newblock \href {http://dx.doi.org/10.1109/TNS.2006.869826}
+  {\path{doi:10.1109/TNS.2006.869826}}.
+
+\bibitem{Alt:2006fr}
+C.~Alt, et~al., {Inclusive production of charged pions in p+C collisions at
+  158-GeV/c beam momentum}, Eur. Phys. J. C49 (2007) 897--917.
+\newblock \href {http://arxiv.org/abs/hep-ex/0606028}
+  {\path{arXiv:hep-ex/0606028}}, \href
+  {http://dx.doi.org/10.1140/epjc/s10052-006-0165-7}
+  {\path{doi:10.1140/epjc/s10052-006-0165-7}}.
+
+\bibitem{Barton:1982dg}
+D.~Barton, G.~Brandenburg, W.~Busza, T.~Dobrowolski, J.~Friedman, et~al.,
+  {Experimental Study of the a-Dependence of Inclusive Hadron Fragmentation},
+  Phys.Rev. D27 (1983) 2580.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.27.2580}
+  {\path{doi:10.1103/PhysRevD.27.2580}}.
+
+\bibitem{Lebedev:2007zz}
+A.~V. Lebedev, {Ratio of pion kaon production in proton carbon interactions},
+  FERMILAB-THESIS-2007-76.
+
+\bibitem{minerva_nim}
+L.~Aliaga, et~al., {Design, Calibration, and Performance of the MINERvA
+  Detector}, Nucl. Instrum. Meth. A 743 (2013) 130.
+\newblock \href {http://arxiv.org/abs/1305.5199} {\path{arXiv:1305.5199}}.
+
+\bibitem{Michael:2008bc}
+D.~G. Michael, et~al., {The Magnetized steel and scintillator calorimeters of
+  the MINOS experiment}, Nucl. Instrum. Meth. A 596 (2008) 190--228.
+\newblock \href {http://arxiv.org/abs/0805.3170} {\path{arXiv:0805.3170}},
+  \href {http://dx.doi.org/10.1016/j.nima.2008.08.003}
+  {\path{doi:10.1016/j.nima.2008.08.003}}.
+
+\bibitem{Aliaga:2015aqe}
+L.~Aliaga, et~al., {MINERvA neutrino detector response measured with test beam
+  data}, Nucl.Instrum.Meth. A789 (2015) 28--42.
+\newblock \href {http://arxiv.org/abs/1501.06431} {\path{arXiv:1501.06431}},
+  \href {http://dx.doi.org/10.1016/j.nima.2015.04.003}
+  {\path{doi:10.1016/j.nima.2015.04.003}}.
+
+\bibitem{pdg}
+J.~Beringer, et~al., {Review of Particle Physics (RPP)}, Phys. Rev. D 86 (2012)
+  010001.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.86.010001}
+  {\path{doi:10.1103/PhysRevD.86.010001}}.
+
+\bibitem{Bodek:2004pc}
+A.~Bodek, I.~Park, U.-K. Yang, {Improved low $Q^2$ model for neutrino and
+  electron nucleon cross sections in few GeV region}, Nucl. Phys. Proc. Suppl.
+  139 (2005) 113--118.
+\newblock \href {http://arxiv.org/abs/hep-ph/0411202}
+  {\path{arXiv:hep-ph/0411202}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysbps.2004.11.208}
+  {\path{doi:10.1016/j.nuclphysbps.2004.11.208}}.
+
+\bibitem{Radecky:1981fn}
+G.~Radecky, et~al., {Study of Single Pion Production by Weak Charged Currents
+  in Low-energy Neutrino $d$ Interactions}, Phys. Rev. D 25 (1982) 1161--1173.
+
+\bibitem{Kitagaki:1990vs}
+T.~Kitagaki, et~al., {Study of $\nu d\rightarrow \mu^- p p_s$ and $\nu d
+  \rightarrow \mu^- \Delta^{++} (1232) n_s$ using the BNL 7-foot deuterium
+  filled bubble chamber}, Phys. Rev. D 42 (1990) 1331--1338.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.42.1331}
+  {\path{doi:10.1103/PhysRevD.42.1331}}.
+
+\bibitem{Lee:2002eq}
+T.~Lee, R.~Redwine, {Pion nucleus interactions}, Ann. Rev. Nucl. Part. Sci. 52
+  (2002) 23--63.
+
+\bibitem{Ashery:1981tq}
+D.~Ashery, et~al., {True Absorption and Scattering of Pions on Nuclei}, Phys.
+  Rev. C 23 (1981) 2173--2185.
+
+\bibitem{Argoneut}
+C.~Anderson, et~al., {The ArgoNeuT detector in the NuMI low-energy beam line at
+  Fermilab}, Journal of Instrumentation 7 (2012) 10019.
+
+\bibitem{Barlow:1993dm}
+R.~J. Barlow, C.~Beeston, {Fitting using finite Monte Carlo samples},
+  Comput.Phys.Commun. 77 (1993) 219--228, { as implemented in TFractionFitter,
+  ROOT framework}.
+\newblock \href {http://dx.doi.org/10.1016/0010-4655(93)90005-W}
+  {\path{doi:10.1016/0010-4655(93)90005-W}}.
+
+\bibitem{agostini:1995}
+G.~D'Agostini, {A multidimensional unfolding method based on Bayes' theorem},
+  Nucl. Instrum. Meth. A 362 (1995) 487--498.
+\newblock \href {http://dx.doi.org/10.1016/0168-9002(95)00274-X}
+  {\path{doi:10.1016/0168-9002(95)00274-X}}.
+
+\bibitem{Abfalterer:2001gw}
+W.~P. Abfalterer, et~al., {Measurement of neutron total cross-sections up to
+  560-MeV}, Phys. Rev. C 63 (2001) 044608.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevC.63.044608}
+  {\path{doi:10.1103/PhysRevC.63.044608}}.
+
+\bibitem{Schimmerling:1973bb}
+W.~Schimmerling, et~al., {Neutron-nucleus total and inelastic cross-sections -
+  900 to 2600 MeV/c}, Phys. Rev. C 7 (1973) 248--262.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevC.7.248}
+  {\path{doi:10.1103/PhysRevC.7.248}}.
+
+\bibitem{Voss:1956}
+R.~G.~P. Voss, R.~Wilson, Proc. Roy. Soc. A236 (1956) 41.
+
+\bibitem{Slypen:1995fm}
+I.~Slypen, V.~Corcalciuc, J.~P. Meulders, {Proton and deuteron production in
+  neutron-induced reactions on carbon at E(n) = 42.5, 62.7, and 72.8 MeV},
+  Phys. Rev. C 51 (1995) 1303--1311.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevC.51.1303}
+  {\path{doi:10.1103/PhysRevC.51.1303}}.
+
+\bibitem{Franz:1989cf}
+J.~Franz, et~al., {Neutron induced production of protons, deuterons and tritons
+  on copper and bismuth}, Nucl. Phys. A510 (1990) 774--802.
+\newblock \href {http://dx.doi.org/10.1016/0375-9474(90)90360-X}
+  {\path{doi:10.1016/0375-9474(90)90360-X}}.
+
+\bibitem{Tippawan:2008xk}
+U.~Tippawan, et~al., {Light-ion production in the interaction of 96-MeV
+  neutrons with carbon}, Phys. Rev. C 79 (2009) 064611.
+\newblock \href {http://arxiv.org/abs/0812.0701} {\path{arXiv:0812.0701}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.79.064611}
+  {\path{doi:10.1103/PhysRevC.79.064611}}.
+
+\bibitem{Bevilacqua:2013rfq}
+R.~Bevilacqua, et~al., {Light-ion production from O, Si, Fe and Bi induced by
+  175 MeV quasi-monoenergetic neutron}\href {http://arxiv.org/abs/1303.4637}
+  {\path{arXiv:1303.4637}}.
+
+\bibitem{Zanelli:1981zz}
+C.~I. Zanelli, et~al., {Total non-elastic cross sections of neutrons on C, O,
+  Ca, and Fe at 40.3 and 50.4 MeV}, Phys. Rev. C 23 (1981) 1015--1022.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevC.23.1015}
+  {\path{doi:10.1103/PhysRevC.23.1015}}.
+
+\bibitem{Bowles:1981}
+T.~Bowles, D.~Geesaman, R.~Holt, H.~Jackson, J.~Julien, et~al., {Inclusive
+  ($\pi^\pm$, $\pi^0$) Reactions in Nuclei}, Phys.Rev. C23 (1981) 439--447.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevC.23.439}
+  {\path{doi:10.1103/PhysRevC.23.439}}.
+
+\bibitem{Jones:1993}
+M.~Jones, R.~Ransome, V.~Cupps, R.~Fergerson, C.~Morris, et~al., {Pion
+  absorption above the Delta (1232) resonance}, Phys.Rev. C48 (1993)
+  2800--2817.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevC.48.2800}
+  {\path{doi:10.1103/PhysRevC.48.2800}}.
+
+\bibitem{Graczyk:2009qm}
+K.~Graczyk, D.~Kielczewska, P.~Przewlocki, J.~Sobczyk, {$C_5^A$ axial form
+  factor from bubble chamber experiments}, Phys. Rev. D 80 (2009) 093001.
+\newblock \href {http://arxiv.org/abs/0908.2175} {\path{arXiv:0908.2175}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.80.093001}
+  {\path{doi:10.1103/PhysRevD.80.093001}}.
+
+\bibitem{Salcedo:1987md}
+L.~Salcedo, E.~Oset, M.~Vicente-Vacas, C.~Garcia-Recio, {Computer simulation of
+  inclusive pion nuclear reactions}, Nucl. Phys. A484 (1988) 557.
+\newblock \href {http://dx.doi.org/10.1016/0375-9474(88)90310-7}
+  {\path{doi:10.1016/0375-9474(88)90310-7}}.
+
+\end{thebibliography}

@@ -1,0 +1,271 @@
+%% TO CHECK LENGTH... go to ``review and submission option'' and set
+%%``sizecheck'' to ``1'' below.  Remember to unset when done!
+
+%% The document must be slightly different for PhysLett than the arXiV because the
+%% appendix (and references to it) must be "supplemental material" for PhysLett.
+%% Set the "PLsupp" option to "1" below. 
+
+\newcommand{\DoPrePrint}{0} % 0 for 2-column submission format; 1 for double-spaced, line-numbered 
+%% for review and submission
+
+\ifnum\DoPrePrint=1
+  \RequirePackage{lineno} 
+ 
+%  \documentclass[review, twocolumn, 5p, number, sort&compress]{elsarticle}
+  \documentclass[preprint, review, 1p, number, sort&compress]{elsarticle}
+  \linenumbers
+  %% for double-spaced preprint
+  \usepackage{lineno}
+\else
+  %\documentclass[review,twocolumn,showpacs,superscriptaddress,nofootinbib]{elsarticle}
+  \documentclass[preprint, twocolumn, 5p, number, sort&compress]{elsarticle}
+\fi
+
+\usepackage{amsmath}   % need for subequations
+\usepackage{graphicx}  % for figures
+\usepackage{xspace}
+\usepackage{units}
+\usepackage{gensymb}
+\usepackage{hyperref}
+\usepackage{tabularx}
+%\usepackage{ltxgrid}
+
+\newcommand{\gibuu}{GiBUU\xspace}
+\newcommand{\minerva}{MINERvA\xspace}
+\newcommand{\minos}{MINOS\xspace}
+\newcommand{\miniboone}{MiniBooNE\xspace}
+\newcommand{\nova}{NOvA\xspace}
+\newcommand{\numi}{NuMI\xspace}
+\newcommand{\numu}{\ensuremath{\nu_{\mu}}\xspace}
+\newcommand{\numubar}{\ensuremath{\bar{\nu}_{\mu}}\xspace}
+\newcommand{\dsdq}{\ensuremath{d\sigma/dQ^2}\xspace}
+
+\newcommand{\footnoteremember}[2]{\footnote{#2}\newcounter{#1}\setcounter{#1}{\value{footnote}}}
+\newcommand{\footnoterecall}[1]{\footnotemark[\value{#1}]}
+
+\newcommand{\sizecheck}{0} % 0 to do nothing; 1 to check size
+\newcommand{\PLsupp}{0}   % 0 to leave the appendix at the end of the paper; 1 to put the appendix in a separate supplement
+\ifnum\PLsupp=0
+  \newcommand{\SuppLocation}{in the Appendix}
+\else
+  \newcommand{\SuppLocation}{} %blank for now, will eventually contain a URL "at URL"
+\fi
+
+%ability to convert eps to pdf at compile time
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+   \pdffalse
+\else
+   \pdfoutput=1
+   \pdftrue
+\fi
+\ifpdf
+   \usepackage{graphicx}
+   \usepackage{epstopdf}
+   \DeclareGraphicsRule{.eps}{pdf}{.pdf}{`epstopdf #1}
+   \pdfcompresslevel=9
+\else
+   \usepackage{graphicx}
+\fi
+
+\begin{document}
+\begin{frontmatter}
+
+\ifnum\DoPrePrint=1
+\linenumbers
+\fi
+\title{Single neutral pion production by charged-current $\bar{\nu}_\mu$ interactions on hydrocarbon at $\langle E_\nu \rangle = $ 3.6 GeV}
+
+
+
+
+%% List of institution addresses, in command form.
+\newcommand{\Rutgers}{Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, USA}
+\newcommand{\Hampton}{Hampton University, Dept. of Physics, Hampton, Virginia 23668, USA}
+\newcommand{\Dortmund}{Institute of Physics, Dortmund University, 44221, Germany }
+\newcommand{\Otterbein}{Department of Physics, Otterbein University, 1 South Grove Street, Westerville, Ohio, 43081 USA}
+\newcommand{\JMU}{James Madison University, Harrisonburg, Virginia 22807, USA}
+\newcommand{\Florida}{University of Florida, Department of Physics, Gainesville, FL 32611, USA}
+\newcommand{\UCIrvine}{Department of Physics and Astronomy, University of California, Irvine, Irvine, California 92697-4575, USA}
+\newcommand{\CBPF}{Centro Brasileiro de Pesquisas F\'{i}sicas, Rua Dr. Xavier Sigaud 150, Urca, Rio de Janeiro, RJ, 22290-180, Brazil}
+\newcommand{\PUCP}{Secci\'{o}n F\'{i}sica, Departamento de Ciencias, Pontificia Universidad Cat\'{o}lica del Per\'{u}, Apartado 1761, Lima, Per\'{u}}
+\newcommand{\INRM}{Institute for Nuclear Research of the Russian Academy of Sciences, 117312 Moscow, Russia}
+\newcommand{\Jlab}{Jefferson Lab, 12000 Jefferson Avenue, Newport News, Virginia 23606, USA}
+\newcommand{\Pittsburgh}{Department of Physics and Astronomy, University of Pittsburgh, Pittsburgh, Pennsylvania 15260, USA}
+\newcommand{\Guanajuato}{Campus Le\'{o}n y Campus Guanajuato, Universidad de Guanajuato, Lascurain de Retana No. 5, Col. Centro. Guanajuato 36000, Guanajuato M\'{e}xico.}
+\newcommand{\Athens}{Department of Physics, University of Athens, GR-15771 Athens, Greece}
+\newcommand{\Tufts}{Physics Department, Tufts University, Medford, Massachusetts 02155, USA}
+\newcommand{\WM}{Department of Physics, College of William \& Mary, Williamsburg, Virginia 23187, USA}
+\newcommand{\FNAL}{Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA}
+\newcommand{\Purdue}{Department of Chemistry and Physics, Purdue University Calumet, Hammond, Indiana 46323, USA}
+\newcommand{\MCLA}{Massachusetts College of Liberal Arts, 375 Church Street, North Adams, Massachussetts 01247, USA}
+\newcommand{\UMD}{Department of Physics, University of Minnesota -- Duluth, Duluth, Minnesota 55812, USA}
+\newcommand{\Northwestern}{Northwestern University, Evanston, Illinois 60208, USA}
+\newcommand{\UNI}{Universidad Nacional de Ingenier\'{i}a, Apartado 31139, Lima, Per\'{u}}
+\newcommand{\Rochester}{University of Rochester, Rochester, New York 14610 USA}
+\newcommand{\Austin}{Department of Physics, University of Texas, 1 University Station, Austin, Texas 78712, USA}
+\newcommand{\USM}{Departamento de F\'{i}sica, Universidad T\'{e}cnica Federico Santa Mar\'{i}a, Avenida Espa\~{n}a 1680 Casilla 110-V, Valpara\'{i}so, Chile}
+\newcommand{\Geneva}{University of Geneva, Geneva, Switzerland}
+\newcommand{\Chicago}{Enrico Fermi Institute, University of Chicago, Chicago, Illinois 60637 USA}
+\newcommand{\bmeThanks}{Now at SLAC National Accelerator Laboratory, Stanford, California 94309 USA}
+\newcommand{\LazaThanks}{Also at Department of Physics, University of Antananarivo, Madagascar}
+\newcommand{\ticeThanks}{Now at Argonne National Laboratory, Argonne, Illinois 60439, USA }
+\newcommand{\janThanks}{Also at Institute of Theoretical Physics, Wroc\l aw University, Wroc\l aw, Poland}
+
+% 66 total signatories.
+\author[Rutgers]{T.~Le\corref{corrauthor}} 
+\ifnum\PLsupp=1
+  \ead{ltrung@physics.rutgers.edu}  
+\fi
+\author[CBPF]{J.L.~Palomino}                    
+\author[WM,PUCP]{L.~Aliaga}
+\author[Tufts]{O.~Altinok}                       
+\author[Rochester]{A.~Bercellie}  
+%\author[FNAL]{M.~Betancourt}                    
+\author[Rochester]{A.~Bodek} 
+\author[Geneva]{A.~Bravar}                        
+\author[USM]{W.K. Brooks}                        
+%\author[Rochester]{H.~Budd}                          
+\author[INRM]{A.~Butkevich}                     
+\author[CBPF,FNAL]{D.A.~Martinez~Caicedo}                   
+\author[CBPF]{M.F.Carneiro}
+\author[Hampton]{M.E.~Christy}                     
+\author[Rochester]{J.~Chvojka}                       
+\author[CBPF]{H.~da~Motta}                      
+%\author[Hampton]{M.~Datta}                         
+\author[WM]{J.~Devan}                         
+\author[Pittsburgh]{S.A.~Dytman}                      
+\author[PUCP]{G.A.~D\'{i}az~}                   
+\author[Pittsburgh]{B. Eberly\fnref{bmeThanks}}
+\author[Guanajuato]{J.~Felix}                         
+\author[Northwestern]{L.~Fields}                        
+\author[Rochester]{R.~Fine}                          
+%\author[CBPF]{G.A.~Fiorentini}                  
+\author[PUCP]{A.M.~Gago}                        
+\author[Tufts]{H.~Gallagher}                     
+\author[UMD]{R.~Gran}                          
+\author[FNAL]{D.A.~Harris}                      
+\author[Rochester,Guanajuato]{A.~Higuera}
+\author[CBPF,UNI]{K.~Hurtado}
+%\author[Tufts]{T.~Kafka}                         
+\author[WM]{M.~Kordosky}                      
+%\author[Rutgers]{T.~Le}                            
+\author[MCLA]{E.~Maher}                         
+\author[Rochester]{S.~Manly}                         
+\author[Tufts]{W.A.~Mann}                        
+\author[Rochester]{C.M.~Marshall} 
+%\author[Geneva]{C. Martin Mari}
+\author[Rochester,FNAL]{K.S.~McFarland}
+\author[Pittsburgh]{C.L.~McGivern}                    
+\author[Rochester]{A.M.~McGowan}                     
+\author[USM]{J.~Miller}                        
+%\author[Rochester]{A.~Mislivec}                      
+\author[FNAL]{J.G.~Morf\'{i}n}                  
+\author[Florida]{J.~Mousseau}                      
+\author[WM]{J.K.~Nelson}                      
+\author[WM]{A. Norrick}
+%\author[CBPF]{T.~Muhlbeier}                     
+%\author[Pittsburgh]{D.~Naples}                        
+\author[FNAL]{J.~Osta}                          
+\author[Pittsburgh]{V.~Paolone}                       
+\author[Rochester]{J.~Park}                          
+\author[Northwestern]{C.E.~Patrick}                     
+\author[FNAL,Rochester]{G.N.~Perdue}
+\author[FNAL]{L.~Rakotondravohitra\fnref{LazaThanks}} 
+%\author[Guanajuato]{M.A.Ramirez}
+\author[Rutgers]{R.D.~Ransome}                     
+\author[Florida]{H.~Ray}                           
+\author[Pittsburgh]{L.~Ren}                           
+\author[Rochester]{P.A.~Rodrigues}                   
+\author[Rochester]{D. Ruterbories}
+\author[Northwestern]{H.~Schellman}                     
+\author[Chicago,FNAL]{D.W.~Schmitz}
+%\author[UCIrvine]{C.~Simon}                         
+\author[FNAL]{J.T.~Sobczyk\fnref{janThanks}} 
+\author[UNI]{C.J.~Solano~Salinas}              
+\author[Otterbein]{N.~Tagg}                          
+\author[Rutgers]{B.G.~Tice\fnref{ticeThanks}}   
+\author[Guanajuato]{E. Valencia}
+\author[Hampton]{T.~Walton}                        
+\author[Rochester]{J.~Wolcott}                       
+%\author[Florida]{M.Wospakrik}                      
+\author[CBPF]{H. Yepes-Ramirez}
+\author[Guanajuato]{G.~Zavala}                        
+\author[WM]{D.~Zhang}                         
+\author[UCIrvine]{B.P.Ziemer}
+
+\cortext[corrauthor]{Corresponding author\ifnum\PLsupp=1. Phone: +1 631-371-9595\fi}
+
+\address[Rutgers]{\Rutgers}
+\address[CBPF]{\CBPF}
+\address[WM]{\WM}
+\address[Tufts]{\Tufts}
+\address[Rochester]{\Rochester}
+\address[Geneva]{\Geneva}
+\address[USM]{\USM}
+\address[INRM]{\INRM}
+\address[Hampton]{\Hampton}
+\address[Pittsburgh]{\Pittsburgh}
+\address[PUCP]{\PUCP}
+\address[Guanajuato]{\Guanajuato}
+\address[Northwestern]{\Northwestern}
+\address[UMD]{\UMD}
+\address[FNAL]{\FNAL}
+\address[MCLA]{\MCLA}
+\address[Florida]{\Florida}
+\address[Chicago]{\Chicago}
+\address[UNI]{\UNI}
+\address[Otterbein]{\Otterbein}
+\address[UCIrvine]{\UCIrvine}
+
+
+\fntext[bmeThanks]{\bmeThanks} 
+\fntext[LazaThanks]{\LazaThanks} 
+\fntext[janThanks]{\janThanks}  
+\fntext[ticeThanks]{\ticeThanks} 
+
+%This article is registered under preprint number: /hep-ex/1406.6415
+
+\begin{abstract}
+
+Single neutral pion production via muon antineutrino charged-current interactions in
+plastic scintillator (CH) is studied using the \minerva detector 
+exposed to the NuMI low-energy, wideband antineutrino beam at Fermilab.  
+Measurement of this process constrains models of neutral pion 
+production in nuclei, which is important because the
+neutral-current analog is a background
+for $\bar{\nu}_e$ appearance oscillation experiments.  The
+differential cross sections for $\pi^0$ momentum and production angle, 
+for events with a single observed $\pi^0$ and no charged pions, are presented
+and compared to model predictions. These results comprise the first measurement of the
+$\pi^0$ kinematics for this process.
+
+\end{abstract}
+
+\begin{keyword}
+Neutrino-nucleus scattering\sep Final state interaction%\sep arXiv: 1406.6415
+\PACS 13.15.+g \sep 25.80.Hp \sep 13.75.Gx
+\end{keyword}
+
+\end{frontmatter}
+
+
+\input{intro.tex}
+
+\input{experiment.tex}
+
+\input{event-selection.tex}
+
+\input{results.tex}
+
+\input{acknowledgments.tex}
+
+\input{biblio-ccpizero-bibtex.tex}
+
+\ifnum\PLsupp=0
+  \clearpage
+    \input{appendix.tex}
+\fi
+
+
+\end{document}

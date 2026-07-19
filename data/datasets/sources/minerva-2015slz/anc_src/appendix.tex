@@ -1,0 +1,91 @@
+
+\newcommand{\qsq}{\ensuremath{Q^2_{QE}}\xspace}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\dblfloatpagefraction}{0.95}
+\renewcommand{\dbltopfraction}{0.95}
+\setcounter{totalnumber}{5}
+\setcounter{bottomnumber}{3}
+\setcounter{topnumber}{3}
+\setcounter{dbltopnumber}{3}
+
+\ifdefined\PLsupp
+  \ifnum\PLsupp=0
+    \newcommand{\SuppName}{Appendix}
+  \else
+    \newcommand{\SuppName}{supplemental material}
+  \fi
+\else
+  \newcommand{\SuppName}{supplemental material}
+\fi
+
+
+\section{\SuppName}
+This\ \SuppName\ contains additional tables that are referenced in the article.
+
+\begingroup
+%\squeezetable
+\begin{table}[h]
+\centering
+\caption{ Flux-averaged differential cross section in $\pi^0$ momentum, $d\sigma/dp_{\pi^0}(10^{-40}\text{cm}^2/\text{nucleon}/(\text{GeV/c})$, for 1$\pi^0$ production with statistical (stat), systematic (sys), and total (tot) uncertainties. }
+\label{tab:xs-pimom}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{crccccc}
+
+\hline\hline
+~$p_{\pi^0}$ (GeV/c) &~ $d\sigma/dp_{\pi^0}$ ~&~ stat(\%) &~ sys(\%) &~ tot(\%)  \\
+\hline
+0.00 - 0.08  &  3.75    &  41    &  33  &  53\\ 
+0.08 - 0.14  & 22.60    &  14    &  21  &  25\\ 
+0.14 - 0.20  & 27.75    &  10    &  18  &  21\\ 
+0.20 - 0.28  & 17.92    &  11    &  21  &  24\\ 
+0.28 - 0.36  & 14.26    &  11    &  20  &  23\\ 
+0.36 - 0.45  & 12.77    &  10    &  20  &  22\\ 
+0.45 - 0.55  &  8.65    &  11    &  20  &  23\\ 
+0.55 - 0.65  &  5.86    &  13    &  22  &  26\\ 
+0.65 - 0.75  &  4.67    &  12    &  20  &  24\\ 
+0.75 - 1.00  &  2.25    &  11    &  18  &  21\\ 
+1.00 - 1.50  &  1.27    &  15    &  21  &  26\\ 
+\hline
+\hline
+\end{tabular}
+}
+\end{table}
+\endgroup
+
+\begingroup
+%\squeezetable
+\begin{table}[h]
+\centering
+\caption{ Flux-averaged differential cross section in $\pi^0$ angle, 
+$d\sigma/d\theta_{\pi^0}(10^{-42}\text{cm}^2/\text{nucleon}/\text{deg.})$, for 1$\pi^0$ production 
+with statistical (stat), systematic (sys), and total (tot) uncertainties. }
+\label{tab:xs-theta}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{crccccc}
+
+\hline\hline
+~$\theta_{\pi^0}$ (deg.) &~ $d\sigma/d\theta_{\pi^0}$~ &~ stat(\%) &~ sys(\%) &~ tot(\%)  \\
+\hline
+0  - 10  &  3.97   &   34    &  19  & 40 \\ 
+10 - 20  & 14.25   &   15    &  15  & 22 \\ 
+20 - 30  & 12.88   &   13    &  15  & 21 \\ 
+30 - 40  & 14.06   &   12    &  15  & 19 \\ 
+40 - 50  & 12.70   &   12    &  15  & 19 \\ 
+50 - 60  & 10.32   &   14    &  15  & 21 \\ 
+60 - 70  &  8.14   &   17    &  15  & 23 \\ 
+70 - 80  &  8.95   &   17    &  16  & 23 \\ 
+80 - 90  &  5.11   &   21    &  18  & 28 \\ 
+90 - 120 &  4.73   &   16    &  18  & 24 \\ 
+120- 180 &  1.75   &   20    &  20  & 28 \\ 
+\hline
+\hline
+\end{tabular}
+}
+\end{table}
+\endgroup
+
+
+\clearpage

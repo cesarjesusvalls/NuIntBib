@@ -1,0 +1,1086 @@
+
+
+%% ****** Start of file template.aps ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.0 of REVTeX, August 2001
+%%
+%%
+%%   Copyright (c) 2001 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a temFplate for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%\documentclass[aps,prl,twocolumn,superscriptaddress, floatfix,nofootinbib]{revtex4-2}  % for review and submission
+%\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib]{revtex4-2}
+%\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,linenumbers]{revtex4-2}
+%\documentclass[aps,preprint,superscriptaddress,nofootinbib,linenumbers]{revtex4-2}
+
+%\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,nofootinbib] floatfix]{revtex4-2}  % for review and submission
+%\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress,linenumbers]{revtex4-2}  % for double-spaced preprint
+%\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress,linenumbers]{revtex4-2}  % for double-spaced preprint with linenumbers
+
+% run into some weird problems wiht revtex4-2; not sure why, but can fall back here
+
+%\documentclass[prl,twocolumn,preprintnumbers,floatfix,letterpaper,showpacs,showkeys,superscriptaddress,nofootinbib]{revtex4}
+%\documentclass[aps,preprint,preprintnumbers,floatfix,letterpaper,showpacs,showkeys,superscriptaddress,nofootinbib,linenumbers]{revtex4}  % for double-spaced preprint with linenumbers
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% PRL layout
+%\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,nofootinbib,floatfix]{revtex4-1}
+%
+% One Column preprint layout with numbering
+%
+%\documentclass[aps,preprint,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,nofootinbib,floatfix,linenumbers]{revtex4-1} 
+%
+% One Column preprint layout without numbering
+%
+\documentclass[aps,preprint,showpacs,superscriptaddress,letterpaper,showkeys,superscriptaddress,nofootinbib,floatfix]{revtex4-1} 
+
+\usepackage{graphicx}  % needed for figures
+\usepackage{dcolumn}   % needed for some tables
+\usepackage{bm}        % for math
+\usepackage{adjustbox}
+\usepackage{amssymb}   % for math
+\usepackage[caption=false]{subfig}
+\usepackage{xcolor}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{subfiles}
+\usepackage{placeins}
+\usepackage{array}
+\usepackage[normalem]{ulem}
+
+\bibliographystyle{apsrev4-1}
+\renewcommand{\floatpagefraction}{0.9}
+\renewcommand{\dblfloatpagefraction}{0.9}
+\renewcommand{\textfraction}{0.01}
+
+\newcommand{\phref}[2]{\href{#2}{#1}}
+% avoids incorrect hyphenation, added Nov/08 by SSR
+\hyphenation{ALPGEN}
+\hyphenation{EVTGEN}
+\hyphenation{PYTHIA}
+
+%Simple commands for formatting
+\newcommand{\minerva}{MINERvA}
+\newcommand{\qelike}{quasielastic-like}
+\newcommand{\tune}{\minerva~tune v1}
+\newcommand{\ccnopi}{CC0$\pi$}
+\newcommand{\enuqe}{$E_{\nu,QE}$}
+\newcommand{\pt}{$p_{t}$}
+\newcommand{\pz}{$p_{||}$}
+\newcommand{\eavail}{$E_{available}$}
+\newcommand{\sumtp}{$\Sigma T_{p}$}
+\newcommand{\qqqe}{$Q^{2}_{QE}$}
+\newcommand{\addcitation}{[ADD CITATION]}
+\newcommand{\Wexp}{\ensuremath{W_{\rm\scriptstyle exp}}}
+\newcommand{\Ehad}{\ensuremath{E_{\rm\scriptstyle had}}}
+\newcommand{\gevsqcsq}{GeV$^2/c^2$}
+\newcommand{\gevcsq}{GeV$/c^2$}
+
+\newcommand{\pagePmu}{2}
+\newcommand{\pagePmuZ}{8}
+\newcommand{\pagePmuT}{7}
+\newcommand{\pageThmu}{1}
+\newcommand{\pageQ}{3}
+\newcommand{\pageW}{4}
+\newcommand{\pageTpi}{6}
+\newcommand{\pageThpi}{5}
+\newcommand{\errorpage}[2]{\intcalcAdd{\intcalcMul{8}{\intcalcSub{#1}{1}}}{#2}}
+
+%Two line command size
+\newcommand{\twoplotsnoleg}{0.24\textwidth}
+\newcommand{\twoplotswleg}{0.2\textwidth}
+\newcommand{\plotleg}{0.07\textwidth}
+\newcommand{\errorplot}{0.15\textwidth}
+\newcommand{\errorleg}{0.1\textwidth}
+\newcommand{\threeplots}{0.165\textwidth}
+\newcommand{\oneplot}{0.45\textwidth}
+
+% \newcommand{\twoplotsnoleg}{0.48\textwidth}
+% \newcommand{\twoplotswleg}{0.4\textwidth}
+% \newcommand{\plotleg}{0.12\textwidth}
+% \newcommand{\errorplot}{0.3\textwidth}
+% \newcommand{\errorleg}{0.2\textwidth}
+% \newcommand{\threeplots}{0.33\textwidth}
+
+\newcommand{\kevinAdd}[1]{{\bf\color{purple} \protect #1}}
+\newcommand{\kevinStrike}[1]{{\bf\color{purple}\protect \sout{#1}}}
+\newcommand{\kevinComment}[1]{{\noindent \bf\color{purple} \small [KSM: #1]}}
+\newcommand{\aaronAdd}[1]{{\bf\color{orange} \protect #1}}
+\newcommand{\aaronStrike}[1]{{\bf\color{orange}\protect \sout{#1}}}
+\newcommand{\aaronComment}[1]{{\noindent \bf\color{orange} \small [AMB: #1]}}
+
+\newcommand{\lauraAdd}[1]{{\bf\color{teal} \protect #1}}
+\newcommand{\lauraStrike}[1]{{\bf\color{teal}\protect \sout{#1}}}
+\newcommand{\lauraComment}[1]{{\noindent \bf\color{teal} \small [LJF: #1]}}
+
+\newcommand{\firstReviewAdd}[1]{{\bf\color{blue} \protect #1}}
+\newcommand{\firstReviewStrike}[1]{{\bf\color{blue}\protect \sout{#1}}}
+\newcommand{\firstReviewComment}[1]{{\noindent \bf\color{blue} \small [DAH: #1]}}
+
+\newcommand{\secondReviewAdd}[1]{{\bf\color{purple} \protect #1}}
+\newcommand{\secondReviewStrike}[1]{{\bf\color{purple}\protect \sout{#1}}}
+\newcommand{\secondReviewComment}[1]{{\noindent \bf\color{purple} \small [DAH: #1]}}
+
+\newcommand{\firstRefereeAdd}[1]{{\bf\color{green} \protect #1}}
+\newcommand{\firstRefereeStrike}[1]{{\bf\color{green}\protect \sout{#1}}}
+\newcommand{\firstRefereeComment}[1]{{\noindent \bf\color{green} \small [LJF: #1]}}
+
+\newcommand{\paperComment}[1]{{\noindent \bf\color{red}\small [Committee: #1]}}
+\newcommand{\inProgress}[1]{{\noindent \bf\color{red}\small [Work to complete: #1]}}
+
+% switch for sections
+%\newcommand{\showSections}[0]{1}
+\newcommand{\showSections}[0]{0}
+
+% remove comments
+\renewcommand{\kevinComment}[1]{}
+\renewcommand{\lauraComment}[1]{}
+\renewcommand{\aaronComment}[1]{}
+\renewcommand{\paperComment}[1]{}
+\renewcommand{\firstReviewComment}[1]{}
+\renewcommand{\secondReviewComment}[1]{}
+%\renewcommand{\firstRefereeComment}[1]{}
+
+% remove edit details
+\renewcommand{\firstReviewAdd}[1]{\protect #1}
+\renewcommand{\firstReviewStrike}[1]{}
+\renewcommand{\inProgress}[1]{}
+\renewcommand{\secondReviewAdd}[1]{\protect #1}
+\renewcommand{\secondReviewStrike}[1]{}
+\renewcommand{\firstRefereeAdd}[1]{\protect #1}
+\renewcommand{\firstRefereeStrike}[1]{}
+
+% reference to supplemental material
+\newcommand{\supp}{the supplemental material}
+
+% make only the main PRL file (\PRLandSuppfalse) or the a full PRL + Supplemental (\PRLandSupptrue)
+\newif\ifPRLandSupp
+% pick one of these options
+\PRLandSupptrue
+%\PRLandSuppfalse
+
+% color figures?
+\newif\ifColorFigures
+% pick one of these options
+\ColorFigurestrue
+%\ColorFiguresfalse
+
+% try to add section labeling for the supplemental material
+\def\thesubsection{\Alph{subsection}}
+\setcounter{subsection}{0}
+\makeatletter
+\renewcommand{\p@subsection}{}
+\makeatother
+
+\begin{document}
+%\linenumbers
+
+%\centerline{\em D\O\ INTERNAL DOCUMENT -- NOT FOR PUBLIC DISTRIBUTION}
+
+% the following line is for submission, including submission to the arXiv!!
+%\hspace{5.2in} \mbox{Fermilab-Pub-04/xxx-E}
+
+
+%%%
+%%% This file created automagically via Glaucus using this URL:
+%%% //glaucus.crc.nd.edu/web/latex_paper.cgi?paper_id=92
+%%% Options: do_thanks
+%%%
+
+%\topmargin=0mm %% No idea WHY I need this.. but I do.
+
+
+\title{Simultaneous measurement of 
+\firstReviewStrike{muon neutrino}
+\firstReviewAdd{$\nu_\mu$} charged-current 
+\firstReviewAdd{ single} $\pi^+$ production in 
+\firstReviewStrike{carbon, water, iron, lead, and plastic}
+\firstReviewAdd{CH, C, $\mathbf{H_2O}$, Fe, and Pb} targets
+\firstReviewAdd{in MINERvA}}
+\newcommand{\bkgdtype}{_MENU1PI}
+
+% title for arXiv: "Simultaneous measurement of muon neutrino $\nu_\mu$ charged-current single $\pi^+$ production in CH, C, $\mathbf{H_2O}$, Fe, and Pb targets in MINERvA"
+
+%% List of institution addresses, in command form.
+%% List of institution addresses, in command form.
+\newcommand{\Rutgers}{Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, USA}
+\newcommand{\Hampton}{Hampton University, Dept. of Physics, Hampton, VA 23668, USA}
+\newcommand{\Dortmund}{Institute of Physics, Dortmund University, 44221, Germany }
+\newcommand{\Otterbein}{Department of Physics, Otterbein University, 1 South Grove Street, Westerville, OH, 43081 USA}
+\newcommand{\JMU}{James Madison University, Harrisonburg, Virginia 22807, USA}
+\newcommand{\Florida}{University of Florida, Department of Physics, Gainesville, FL 32611}
+\newcommand{\UCIrvine}{Department of Physics and Astronomy, University of California, Irvine, Irvine, California 92697-4575, USA}
+\newcommand{\CBPF}{Centro Brasileiro de Pesquisas F\'{i}sicas, Rua Dr. Xavier Sigaud 150, Urca, Rio de Janeiro, Rio de Janeiro, 22290-180, Brazil}
+\newcommand{\PUCP}{Secci\'{o}n F\'{i}sica, Departamento de Ciencias, Pontificia Universidad Cat\'{o}lica del Per\'{u}, Apartado 1761, Lima, Per\'{u}}
+\newcommand{\INRM}{Institute for Nuclear Research of the Russian Academy of Sciences, 117312 Moscow, Russia}
+\newcommand{\Jlab}{Jefferson Lab, 12000 Jefferson Avenue, Newport News, VA 23606, USA}
+\newcommand{\Pittsburgh}{Department of Physics and Astronomy, University of Pittsburgh, Pittsburgh, Pennsylvania 15260, USA}
+\newcommand{\Guanajuato}{Campus Le\'{o}n y Campus Guanajuato, Universidad de Guanajuato, Lascurain de Retana No. 5, Colonia Centro, Guanajuato 36000, Guanajuato M\'{e}xico.}
+\newcommand{\Athens}{Department of Physics, University of Athens, GR-15771 Athens, Greece}
+\newcommand{\Tufts}{Physics Department, Tufts University, Medford, Massachusetts 02155, USA}
+\newcommand{\WM}{Department of Physics, William \& Mary, Williamsburg, Virginia 23187, USA}
+\newcommand{\FNAL}{Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA}
+\newcommand{\Purdue}{Department of Chemistry and Physics, Purdue University Calumet, Hammond, Indiana 46323, USA}
+\newcommand{\MCLA}{Massachusetts College of Liberal Arts, 375 Church Street, North Adams, MA 01247}
+\newcommand{\UMD}{Department of Physics, University of Minnesota -- Duluth, Duluth, Minnesota 55812, USA}
+\newcommand{\Northwestern}{Northwestern University, Evanston, Illinois 60208}
+\newcommand{\UNI}{Facultad de Ciencias, Universidad Nacional de Ingenier\'{i}a, Apartado 31139, Lima, Per\'{u}}
+\newcommand{\Rochester}{Department of Physics and Astronomy, University of Rochester, Rochester, New York 14627 USA}
+\newcommand{\Austin}{Department of Physics, University of Texas, 1 University Station, Austin, Texas 78712, USA}
+\newcommand{\USM}{Departamento de F\'{i}sica, Universidad T\'{e}cnica Federico Santa Mar\'{i}a, Avenida Espa\~{n}a 1680 Casilla 110-V, Valpara\'{i}so, Chile}
+\newcommand{\Geneva}{University of Geneva, 1211 Geneva 4, Switzerland}
+\newcommand{\Chicago}{Enrico Fermi Institute, University of Chicago, Chicago, IL 60637 USA}
+\newcommand{\hired}{}
+\newcommand{\OregonState}{Department of Physics, Oregon State University, Corvallis, Oregon 97331, USA}
+\newcommand{\oxford}{Oxford University, Department of Physics, Oxford, OX1 3PJ United Kingdom}
+\newcommand{\umiss}{University of Mississippi, Oxford, Mississippi 38677, USA}
+\newcommand{\upenn}{Department of Physics and Astronomy, University of Pennsylvania, Philadelphia, PA 19104}
+\newcommand{\AMU}{AMU Campus, Aligarh, Uttar Pradesh 202001, India}
+\newcommand{\wroclaw}{University of Wroclaw, plac Uniwersytecki 1, 50-137 Wroa\l{}aw, Poland}
+\newcommand{\Mohali}{Department of Physical Sciences, IISER Mohali, Knowledge City, SAS Nagar, Mohali - 140306, Punjab, India}
+\newcommand{\CINVESTAV}{Departamento de Fisica Col. San Pedro Zacatenco, 07360 Mexico, DF, Av. Instituto PolitÃ©cnico Nacional, Mexico}
+\newcommand{\york}{York University, Department of Physics and Astronomy, Toronto, Ontario, M3J 1P3 Canada}
+\newcommand{\ND}{Department of Physics, University of Notre Dame, Notre Dame, Indiana 46556, USA}
+\newcommand{\ICL}{The Blackett Laboratory,  Imperial College London,  London SW7 2BW, United Kingdom}
+\newcommand{\warwick}{Coventry CV4 7AL, UK}
+
+\
+\newcommand{\mascencioThanks}{Now at Iowa State University, Ames, IA 50011, USA}
+\newcommand{\ricfregianThanks}{now at Department of Physics and Astronomy, University of California at Davis, Davis, CA 95616, USA}
+\newcommand{\finerThanks}{Now at Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA}
+\newcommand{\kleykampThanks}{now at Department of Physics and Astronomy, University of Mississippi, Oxford, MS 38677}
+%\newcommand{\emilymaherThanks}{Department of Physics}
+\newcommand{\bamThanks}{Now at University of Minnesota, Minneapolis, Minnesota 55455, USA}
+\newcommand{\byaeggyThanks}{Now at Department of Physics, University of Cincinnati,  Cincinnati, Ohio 45221, USA}
+
+%
+%  this list is from 14Sept2022 7am when there were 72 signers
+%
+\author{A.~Bercellie}                     \affiliation{\Rochester}
+\author{K.A.~Kroma-Wiley}                 \affiliation{\upenn}  \affiliation{\Rochester}
+\author{S.~Akhter}                        \affiliation{\AMU}
+\author{Z.~Ahmad~Dar}                    \affiliation{\WM}  \affiliation{\AMU}
+\author{F.~Akbar}                         \affiliation{\AMU}
+\author{V.~Ansari}                        \affiliation{\AMU}
+\author{M.~V.~Ascencio}\thanks{\mascencioThanks}  \affiliation{\PUCP}
+\author{M.~Sajjad~Athar}                  \affiliation{\AMU}
+\author{L.~Bellantoni}                    \affiliation{\FNAL}
+\author{M.~Betancourt}                    \affiliation{\FNAL}
+\author{A.~Bodek}                         \affiliation{\Rochester}
+\author{J.~L.~Bonilla}                    \affiliation{\Guanajuato}
+\author{A.~Bravar}                        \affiliation{\Geneva}
+\author{H.~Budd}                          \affiliation{\Rochester}
+\author{G.~Caceres}\thanks{\ricfregianThanks}  \affiliation{\CBPF}
+\author{T.~Cai}                           \affiliation{\Rochester}
+\author{G.A.~D\'{i}az~}                   \affiliation{\Rochester}
+\author{H.~da~Motta}                      \affiliation{\CBPF}
+\author{S.A.~Dytman}                      \affiliation{\Pittsburgh}
+\author{J.~Felix}                         \affiliation{\Guanajuato}
+\author{L.~Fields}                        \affiliation{\ND}
+\author{A.~Filkins}                       \affiliation{\WM}
+\author{R.~Fine}\thanks{\finerThanks}     \affiliation{\Rochester}
+\author{A.M.~Gago}                        \affiliation{\PUCP}
+\author{H.~Gallagher}                     \affiliation{\Tufts}
+\author{P.K.Gaur}                         \affiliation{\AMU}
+\author{A.~Ghosh}                         \affiliation{\USM}  \affiliation{\CBPF}
+\author{S.M.~Gilligan}                    \affiliation{\OregonState}
+\author{R.~Gran}                          \affiliation{\UMD}
+\author{E.Granados}                       \affiliation{\Guanajuato}
+\author{D.A.~Harris}                      \affiliation{\york}  \affiliation{\FNAL}
+\author{D.~Jena}                          \affiliation{\FNAL}
+\author{S.~Jena}                          \affiliation{\Mohali}
+\author{J.~Kleykamp}\thanks{\kleykampThanks}  \affiliation{\Rochester}
+\author{A.~Klustov\'{a}}                  \affiliation{\ICL}
+\author{M.~Kordosky}                      \affiliation{\WM}
+\author{D.~Last}                          \affiliation{\upenn}
+\author{T.~Le}                            \affiliation{\Tufts}  \affiliation{\Rutgers}
+\author{A.~Lozano}                        \affiliation{\CBPF}
+\author{X.-G.~Lu}                         \affiliation{\warwick}  \affiliation{\oxford}
+\author{I.~Mahbub}                        \affiliation{\UMD}
+\author{E.~Maher}%\thanks{\emilymaherThanks}  
+\affiliation{\MCLA}
+\author{S.~Manly}                         \affiliation{\Rochester}
+\author{W.A.~Mann}                        \affiliation{\Tufts}
+\author{C.~Mauger}                        \affiliation{\upenn}
+\author{K.S.~McFarland}                   \affiliation{\Rochester}
+\author{B.~Messerly}\thanks{\bamThanks}   \affiliation{\Pittsburgh}
+\author{J.~Miller}                        \affiliation{\USM}
+\author{O.~Moreno}                        \affiliation{\WM}  \affiliation{\Guanajuato}
+\author{J.G.~Morf\'{i}n}                  \affiliation{\FNAL}
+\author{D.~Naples}                        \affiliation{\Pittsburgh}
+\author{J.K.~Nelson}                      \affiliation{\WM}
+\author{C.~Nguyen}                        \affiliation{\Florida}
+\author{A.~Olivier}                       \affiliation{\Rochester}
+\author{V.~Paolone}                       \affiliation{\Pittsburgh}
+\author{G.N.~Perdue}                      \affiliation{\FNAL}  \affiliation{\Rochester}
+\author{K.-J.~Plows}                      \affiliation{\oxford}
+\author{M.A.~Ram\'{i}rez}                 \affiliation{\upenn}  \affiliation{\Guanajuato}
+\author{R.D.~Ransome}                     \affiliation{\Rutgers}
+\author{H.~Ray}                           \affiliation{\Florida}
+\author{D.~Ruterbories}                   \affiliation{\Rochester}
+\author{H.~Schellman}                     \affiliation{\OregonState}
+\author{C.J.~Solano~Salinas}              \affiliation{\UNI}
+\author{H.~Su}                            \affiliation{\Pittsburgh}
+\author{M.~Sultana}                       \affiliation{\Rochester}
+\author{V.S.~Syrotenko}                   \affiliation{\Tufts}
+\author{B.~Utt}                           \affiliation{\UMD}
+\author{E.~Valencia}                      \affiliation{\WM}  \affiliation{\Guanajuato}
+\author{N.H.~Vaughan}                     \affiliation{\OregonState}
+\author{A.V.~Waldron}                     \affiliation{\ICL}
+\author{B.~Yaeggy}\thanks{\byaeggyThanks}  \affiliation{\USM}
+\author{L.~Zazueta}                       \affiliation{\WM}
+
+
+\collaboration{The MINERvA Collaboration}\ \noaffiliation
+
+
+\date{\today}
+\begin{abstract}
+\firstReviewStrike{Single charged pion production is a common interaction at accelerator-based neutrino oscillation experiments.  The MINERvA experiment has measured semi-inclusive differential cross sections $\nu_\mu A\to \mu^- \pi^+ X$ on targets of scintillator, carbon, water, iron, and lead in a neutrino beam with $\left< E_\nu\right> \approx 6$~GeV.  We observe a strong suppression at low $Q^2$ and an enhancement at low $T_\pi$ relative to models in both the light and heavy nuclear targets.  This result has much higher statistics than previous measurements and includes the first comparison of $\pi^+$ production from different nuclei in a single measurement.}
+\firstReviewAdd{
+Neutrino-induced charged-current single $\pi^+$ production in the $\Delta(1232)$ resonance region is of considerable interest to accelerator-based neutrino oscillation experiments.  In this work, high statistics differential cross sections are reported for the semi-exclusive reaction 
+$\nu_\mu A \to \mu^- \pi^+ +$ nucleon(s) on scintillator, carbon, water, iron, and lead targets recorded by MINERvA using a wide-band $\nu_\mu$  beam with $\left< E_\nu \right> \approx 6$~GeV.   Suppression of the cross section at low $Q^2$ and enhancement of low $T_\pi$  are observed in both light and heavy nuclear targets compared to phenomenological models used in current neutrino interaction generators.  The cross-sections per nucleon for iron and lead compared to CH across the kinematic variables probed are 0.8 and 0.5 respectively, a scaling which is also not predicted by current generators. 
+}
+\end{abstract}
+
+\maketitle
+%
+
+\if\showSections1 \kevinComment{Will remove section headings with \textbackslash showSections switch above.  As of first version to the committee the paper looks to be about 1/3 or 1/2 of a column too long.} \fi 
+
+\kevinComment{For Aaron to add to supplemental material: fluxes in all targets}
+
+\if\showSections1 \section{Motivation} \fi
+
+Charged pion production is an important process for accelerator-based oscillation experiments.  For low energy experiments, T2K~\cite{T2K:2011qtm},  T2HK~\cite{Hyper-Kamiokande:2018ofw}, and SBN~\cite{MicroBooNE:2015bmn}, this process is both a significant background to quasielastic scattering and is used as a signal reaction when the pion is identified.  For higher energy experiments, NOvA~\cite{NOvA:2004blv} and DUNE~\cite{DUNE:2015lol}, the process is a large fraction of the signal\firstRefereeStrike{ reactions}.  \firstReviewStrike{Neutrino energy reconstruction in these experiments relies on relating the visible energy from the $\pi^\pm$ in the detector to its larger total energy.}
+\firstReviewAdd{ Neutrino oscillation experiments rely on an accurate model of pion production} \firstReviewStrike{is one of the necessary ingredients }
+to evaluate neutrino energy for events with charged pions. 
+\firstReviewAdd{ Although NOvA, T2K, and T2HK utilize relatively low-A nuclear media such as hydrocarbons or water, SBN and DUNE experiments rely on argon (A = 40) targets.   In order for these 
+\firstRefereeStrike{latter} experiments to make use of the wealth of neutrino interaction data obtained with light nuclei, a knowledge of neutrino cross-section scaling as a function of target A is required. This work \firstRefereeStrike{sheds first light on}\firstRefereeAdd{tests} scaling behavior by simultaneously \firstRefereeStrike{mapping}\firstRefereeAdd{measuring} the differential cross sections of $\nu_\mu + A \to \mu^- + \pi^+ +$ nucleons as the target nucleon number is changed from carbon (A=12) to lead (A= 208).   We also present \firstReviewAdd{cross section} ratios \firstRefereeStrike{of the iron and lead targets} to scintillator, where many systematic uncertainties cancel, allowing a precise measurement of the nuclear dependence.  }
+
+
+%%%MINERVA
+
+
+Previous measurements of charged-current pion production~\cite{AguilarArevalo:2010bm,Adamson:2014pgc, Eberly:2014mra,Aliaga:2015wva,McGivern:2016bwh,Altinok:2017xua} have found disagreements between data and models \firstRefereeStrike{in the event rate} at both low $Q^2$ (the negative of the square of the four momentum
+transfer from the lepton) and in pion kinetic energy.  Simulations of this process must model both the primary neutrino-nucleon interaction \firstRefereeStrike{as well as}\firstRefereeAdd{and} a variety of nuclear effects, including \firstReviewStrike{additional} interactions of produced hadrons within the nucleus. This convolution of primary production and nuclear modification makes it difficult to isolate the \firstRefereeAdd{model} features \firstRefereeStrike{of these models that are }responsible for the disagreements\firstRefereeStrike{ with data}.  Measurements on multiple nuclei can help \firstRefereeStrike{untangle}\firstRefereeAdd{separate} nuclear effects from other aspects of the interaction. 
+\firstReviewStrike{
+In this letter, the MINERvA collaboration presents the first simultaneous measurement of charged-current pion production on many nuclear targets -- scintillator, carbon, water, iron, and lead.  We also present \firstReviewAdd{cross section} ratios of each of the latter targets to scintillator, where many systematic uncertainties cancel, allowing a precise measurement of the nuclear dependence.  }
+
+\if\showSections1 \section{Signal Definition} \fi
+
+Signal reactions for this \firstReviewStrike{result} \firstReviewAdd{measurement} are $\nu_\mu$ charged-current interactions which produce a single negatively charged muon and a single positively charged pion. Any number of baryons may be \secondReviewStrike{ejected from the nucleus}\secondReviewAdd{in the final state}; however, no other mesons may be produced.  \firstRefereeStrike{In order to ensure high reconstruction efficiency} \firstRefereeAdd{To match \minerva's acceptance}, the muon is restricted in momentum ($p_\mu$) and angle with respect to the neutrino beam ($\theta_\mu$), such that $1.5<p_\mu<20$ GeV/c and $\theta_\mu<13^\circ$\firstRefereeAdd{.}\firstRefereeStrike{, while the p}\firstRefereeAdd{  P}ion\firstRefereeStrike{s must have} kinetic energy ($T_\pi$) \firstRefereeStrike{such that}\firstRefereeAdd{is restricted to} $35<T_\pi< 350$ MeV.  
+
+To \firstRefereeStrike{focus on}\firstRefereeAdd{enhance} reactions \firstRefereeStrike{in the}\firstRefereeAdd{involving a} $\Delta$ \firstRefereeAdd{baryon }resonance\firstRefereeStrike{ region}, a selection is \firstRefereeStrike{also} made on the invariant hadronic mass of the final state.  We define $\Wexp=M^2+2M\Ehad-Q^2$, where $\Ehad=E_\nu-E_\mu$, $M$ is the average of the proton and neutron masses.  $\Wexp$ is the invariant mass of the hadronic final state under the assumption that 
+\firstReviewAdd{the} target nucleon is at rest.  \Wexp\ is required to be less than $1.4$ \gevcsq.
+
+This analysis provides measurements in eight kinematic variables: the magnitude of the muon momentum and its longitudinal and transverse components ($p_\mu$, $p_{\mu,||}$, and $p_{\mu,T}$), the angle of the muon ($\theta_\mu$), the kinetic energy and angle of the charged pion with respect to the neutrino beam ($T_\pi$ and $\theta_\pi$),  $Q^2$, and \Wexp\ as defined by the kinematics of the final state particles.
+
+\if\showSections1 \section{Minerva Detector and Beam} \fi
+The\firstReviewAdd{se} measurements \firstReviewStrike{presented in this paper} use event samples collected at the MINERvA detector using the medium energy NuMI beam at \firstRefereeStrike{the Fermi National \firstReviewAdd{Accelerator} Laboratory}\firstRefereeAdd{Fermilab}~\cite{Aliaga:2013uqz}.  To create the neutrino beam, 120~GeV protons impact a \firstReviewStrike{fixed} graphite target and produce pions and kaons.  Two magnetic horns focus \firstRefereeStrike{and direct} these charged particles into a pipe where they decay into primarily muon neutrinos. A GEANT4 simulation of the NuMI beamline~\cite{Aliaga:2016oaz} predicts the neutrino flux using constraints from hadron production data.  Previous MINERvA measurements of \firstRefereeStrike{the} neutrino elastic scattering on atomic electrons, $\nu e^- \rightarrow \nu e^-$, constrain the normalization of the neutrino flux, reducing the uncertainty of the flux between 2 and 20 GeV from 7.8\% to 3.9\%~\cite{Valencia:2019mkf,MINERvA:2022vmb}. Another MINERvA measurement of inverse muon decay, $\nu_\mu e^{-}\rightarrow \mu^-\nu_e$, constrains the flux at higher neutrino energies~\cite{MINERvA:2021dhf}. 
+%ADDRESSED \aaronComment{The flux constraint I'm using is $\nu-e$ FHC and RHC + IMD}
+%\firstReviewComment{You never quoted the number of POT on target for the total exposure, or the water in and water out data, did you want to include that?  Also, it might be relevant for people doing rough estimates of things to say what the masses were of all the nuclear targets and the numbers of events in the final samples.  These data represent a total exposure of $10.6\times 10^{20}$ Protons on target, half of which were taken with the water target full and half with the target empty.} 
+\firstReviewAdd{These data represent an \firstRefereeStrike{total} exposure of $10.6\times 10^{20}$ protons on target, half of which were taken with the water target \firstRefereeStrike{full and half with the target empty}\firstRefereeAdd{filled}.}
+
+The MINERvA detector consists of a central polystyrene-based scintillator tracker with an upstream nuclear target region and downstream electromagnetic and hadronic calorimeters.  The nuclear target region contains five planes of passive material comprised of carbon, water, iron, and lead targets. \firstReviewAdd{The scintillator tracking planes are 95\% CH by weight.} 
+%The nuclear targets also contain a helium cryostat which is not reported in this analysis. 
+The passive targets are interspersed between regions of active tracking volumes. The finely segmented tracking volumes of the MINERvA detector consist of hexagonal planes of \firstReviewAdd{nestled triangular scintillator strips with a pitch of 1.7~cm} \firstReviewStrike{1.7 cm wide scintillator strips}, allowing for spatial reconstruction with a resolution of 3~mm~\cite{Aliaga:2013uqz}.  The MINOS Near Detector, located 2~m downstream of the MINERvA detector\firstRefereeStrike{, serves as a muon spectrometer for exiting muons, allowing for the reconstruction of muon charge and momentum} \firstRefereeAdd{measures charge and momentum of exiting muons}~\cite{MINOS:2008hdf}. 
+
+\if\showSections1 \section{Simulation} \fi
+The simulation of the MINERvA detector utilizes GEANT4 version 4.9.4p2~\cite{Agostinelli:2002hh} with the QGSP\_BERT physics list ~\cite{Bertini:1968,Bertini:1971,Kaidalov:1982} to model the detector response. Calibrations using through-going muons provide the absolute energy scale~\cite{Aliaga:2013uqz}. Measurements on a scaled down version of the MINERvA detector in a charged particle test beam set the hadronic energy response~\cite{Aliaga:2015aqe}.  Overlaying data onto simulated events captures the effects of overlapping activity due to additional beam interactions.  
+%The readout of the hits from the detector is also simulated.
+
+A modified version of the GENIE v2.12.6 event generator, \firstRefereeAdd{denoted ``MnvTune v4.3.1",} supplies the \firstRefereeAdd{neutrino interaction} simulation \firstRefereeStrike{of the signal and background neutrino interactions}~\cite{Andreopoulos:2009rq}. 
+%The Llewellyn-Smith formalism with the BBA2005 parameterization of the electromagnetic form factors prescribes the quasielastic scattering process.  
+For inelastic events with the invariant hadronic mass $W<1.7$ GeV/$c^2$, resonance pion production \firstReviewStrike{uses} \firstReviewAdd{assumes the} Rein-Seghal model~\cite{Rein:1980wg} with an axial mass of $M_{A}^{RES} = 1.12$ GeV/$c^2$~
+\firstReviewAdd{\cite{Kuzmin:2006dh}}.  Deep inelastic scattering \firstRefereeStrike{(DIS)} relies on the Bodek-Yang model~\cite{Bodek:2004pc} tuned to agree with external measurements of pion production and total cross sections.  Coherent pion production is simulated with the Rein-Seghal~\cite{Rein:1982pf,Rein:2006di} model with corrections for \firstReviewStrike{non-zero} muon mass.  The nuclear medium is modeled as a relativistic Fermi gas (\firstReviewAdd{with Fermi momentum} $p_F\sim 250$~MeV/$c$)~\cite{Moniz:1971mt} with an added Bodek-Ritchie high momentum tail~\cite{Bodek:1980ar,Bodek:1981wr}.  Simulation of hadron final state interactions within the nucleus are predicted by the INTRANUKE-hA package~\cite{Andreopoulos:2009rq}.
+
+\if\showSections1 \section{Minerva Tunes} \fi
+% https://cdcvs.fnal.gov/redmine/projects/minerva/wiki/Our_Tunes
+
+The GENIE simulation has been tuned \firstRefereeStrike{in order} to better reproduce MINERvA data and provide more accurate signal and background models\firstRefereeStrike{ resulting in a model known as ``MnvTune v4.3.1"}.  Modifications to the quasielastic process are described in Ref.~\cite{Carneiro:2019jds,Rodrigues:2015hik}. \secondReviewAdd{Pion production through baryon resonances is modified to match the $D_2$ bubble chamber data as in Ref.~\cite{Rodrigues:2016xjj}.}   Coherent pion production is reweighted in both the energy of the pion $E_\pi$ and $\theta_\pi$ to agree with a recent measurement of coherent pion production \firstRefereeStrike{in the medium energy NuMI beam}~\cite{AlexCoherent}.  \firstRefereeStrike{Additionally,} The normalization of coherent pion production is increased by 43.7\% \firstRefereeStrike{in order} to account for coherent interactions on hydrogen\firstRefereeAdd{,} known as diffractive pion production, based on the Kopeliovic  model~\cite{Kopeliovich:2012tu}.  \secondReviewAdd{The changes above comprise ``MnvTune v4.2.1''.}
+
+\secondReviewStrike{Pion production through baryon resonances is modified to match the $D_2$ bubble chamber data as in Ref.~\cite{Rodrigues:2016xjj}.} However, \firstRefereeStrike{the study of events in the scintillator target found a significant disagreement} \firstRefereeAdd{signal events in the scintillator disagree} with the prediction of this model\firstRefereeStrike{; t}.  The model \firstRefereeAdd{for all targets except hydrogen} was corrected \firstRefereeAdd{by matching the simulated cross section versus $Q^2$ to the data.  This results in improved estimates of}\firstRefereeStrike{ to produce accurate} efficiencies and \firstRefereeStrike{subtractions of background distributions}\firstRefereeAdd{backgrounds}.  \firstRefereeStrike{For all targets except hydrogen, this correction was made by matching the reconstructed $Q^2$ distribution in the scintillator tracker to the simulation}.  The correction \firstRefereeStrike{significantly} decreases the single pion production for $Q^2<0.1$~\gevsqcsq~with a slow logarithmic increase for higher $Q^2$.  Details of this tune are given in 
+\ifPRLandSupp
+\supp\firstRefereeStrike{, section \ref{section:LowQ2Tune}}.
+\else
+\supp.
+\fi
+\firstRefereeStrike{\secondReviewAdd{This last tune completes ``MnvTune v4.3.1".}}
+\firstRefereeAdd{This modification, combined with those of MnvTune v4.2.1, 
+ forms MnvTune v4.3.1.}
+
+%% other sentences removed
+%The collection includes modifications previously used in MnvTune v1.2.1 \cite{Ascencio:2021mpq}, with the following additional modifications focused on pion production.  
+%Fits to previous measurements of single pion production in $\nu_\mu$-deuterium scattering increases the normalization of resonant pion production by 15\% and these fits also set the resonant axial mass to $M_A^{RES} = 0.94$ GeV/$c^2$.
+
+\if\showSections1 \section{Event Selection} \fi
+
+
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{labelformat=empty,justification=centering}    %\includegraphics[width=\oneplot,page=1]{Sidebands/PaperSBPlots.pdf}
+    \ifColorFigures
+       \includegraphics[width=\oneplot]{Fig1.pdf}
+    \else
+      \includegraphics[width=\oneplot]{Fig1_Gray.pdf}
+    \fi  
+    \caption{$p_{\mu,T}$ distributions in iron for the signal regions before (top left) and after (top right) the simulation has been constrained with background estimates from data, the high $W$ sideband in $W_{exp}$ in iron (bottom left) and the \firstReviewStrike{plastic} \firstReviewAdd{scintillator} sidebands in vertex z of target 3 (bottom left).  
+    %As described in the text, the categories are scaled to force agreement between data and simulation is applied to high $W$ (upper right) and plastic (lower left) backgrounds.
+    The background in the bottom plots have not been constrained. The solid (dashed) arrows in the lower right plot delineate the signal (sideband) regions.
+    %The black (green) arrows in the lower right delineate the signal (sideband) regions.  
+    \firstRefereeAdd{Events labeled $W_{exp,true}<1.4 GeV$ are those that pass the signal $W_{exp,true}$ selection but fail other elements of the signal definition.  } 
+    \kevinComment{The plot are very small.  Less whitespace; legends to bottom?}
+     \lauraComment{Plot labels could also move to caption if necessary.  Axis labels need to be bigger. }
+     \paperComment{can’t read legend–improve text size and location of the legend; put text inside the figure to enlarge the figure by saving some space}
+     %\inProgress{working to improve legibility of legend and labels and reduce white space}
+    }
+    \label{fig:signalAndSidebands}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    %\includegraphics[width=\oneplot,page=1]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid_Paper.pdf}
+    \ifColorFigures
+       \includegraphics[width=\oneplot]{Fig2.pdf}
+    \else
+      \includegraphics[width=\oneplot]{Fig2_Gray.pdf}
+    \fi  
+    \caption{Differential cross section $\frac{d\sigma}{dp_{\mu,T}}$ \firstReviewAdd{measured on} 
+    \firstReviewStrike{in}  scintillator, iron, and lead 
+    \firstReviewAdd{(solid points) compared to GENIE, GIBUU and NEUT generators, all of which are discrepant with one if not all nuclei}.
+    %\paperComment{They also want Chi2/ndf for all models.  Maybe can add?}
+    %\aaronComment{How are these colors?  Do I need to smooth? Removed the last bin}
+    \inProgress{Will add a table with chi2 for each models in the Supplemental material}  
+    }
+    \label{fig:absolutePtmuXsec}
+\end{figure}
+\begin{figure}
+    \centering
+    %\includegraphics[width=\oneplot,page=2]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid_Paper.pdf}
+    \ifColorFigures
+       \includegraphics[width=\oneplot]{Fig3.pdf}
+    \else
+      \includegraphics[width=\oneplot]{Fig3_Gray.pdf}
+    \fi  
+
+    \caption{Differential cross section $\frac{d\sigma}{dT_\pi}$ in scintillator, iron, and lead \firstReviewAdd{ (solid points) compared to GENIE, GIBUU and NEUT generators, all of which are discrepant}. }    
+    \label{fig:absoluteTpiXsec}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{labelformat=empty,justification=centering}
+      %\includegraphics[width=0.4\textwidth,page=1]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_PaperErrorGrid.pdf}
+     \ifColorFigures
+       \includegraphics[width=\oneplot]{Fig4.pdf}
+    \else
+      \includegraphics[width=\oneplot]{Fig4_Gray.pdf}
+    \fi  
+
+    \caption{Systematic uncertainties on the differential cross section $\frac{d\sigma}{dp_{\mu,T}}$ in lead and scintillator and uncertainties of the ratio of $\left(\frac{d\sigma_{Pb}}{dp_{\mu,T}}\right)/\left(\frac{d\sigma_{CH}}{dp_{\mu,T}}\right)$.}
+    
+    \label{fig:absolutePtmuXsecSystIllustration}
+\end{figure}
+
+%\begin{figure}
+%    \centering
+%     \begin{tabular}{cc}
+%      \subfloat[][Carbon]{\includegraphics[width=\twoplotsnoleg,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_nuc6_DataSys_MCStat.pdf}}&
+%      \subfloat[][Water]{\includegraphics[width=\twoplotsnoleg,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_nuc10_DataSys_MCStat.pdf}}\\
+%      \subfloat[][Iron]{\includegraphics[width=\twoplotsnoleg,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_nuc26_DataSys_MCStat.pdf}}&
+%      \subfloat[][Lead]{\includegraphics[width=\twoplotsnoleg,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_nuc82_DataSys_MCStat.pdf}}
+%     \end{tabular}
+%    \caption{cross section ratios $(\frac{d\sigma_A}{dp_{\mu,T}})/(\frac{d\sigma_{CH}}{dp_{\mu,T}})$ for carbon, water, iron, and lead.}    
+%    \label{fig:PtmuXsecRatios}
+%\end{figure}
+
+%\begin{figure}
+%    \centering
+%    \begin{tabular}{cc}
+%      \subfloat[][Carbon]{\includegraphics[width=\twoplotsnoleg,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_nuc6_DataSys_MCStat.pdf}}&
+%      \subfloat[][Water]{\includegraphics[width=\twoplotsnoleg,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_nuc10_DataSys_MCStat.pdf}}\\
+%      \subfloat[][Iron]{\includegraphics[width=\twoplotsnoleg,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_nuc26_DataSys_MCStat.pdf}}&
+%      \subfloat[][Lead]{\includegraphics[width=\twoplotsnoleg,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh\bkgdtype_Nucleon_MinosMatched_nuc82_DataSys_MCStat.pdf}}
+%     \end{tabular}
+%    \caption{Cross section ratios $(\frac{d\sigma_A}{dT_{\pi^+}})/(\frac{d\sigma_{CH}}{dT_{\pi^+}})$ for carbon, water, iron, and lead.}    
+%    \label{fig:TpiXsecRatios}
+%\end{figure}
+\begin{figure}
+    \centering
+    %\includegraphics[width=\oneplot,page=1]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid_Paper.pdf}
+    \ifColorFigures
+       \includegraphics[width=\oneplot]{Fig5.pdf}
+    \else
+      \includegraphics[width=\oneplot]{Fig5_Gray.pdf}
+    \fi  
+    \caption{Cross section ratios $(\frac{d\sigma_A}{dp_{\mu,T}})/(\frac{d\sigma_{CH}}{dp_{\mu,T}})$ for carbon, water, iron, and lead \firstReviewAdd{ (solid points), as compared to GENIE, NEUT, and GIBUU.}}    
+    \label{fig:PtmuXsecRatios}
+\end{figure}
+% \begin{figure}
+%     \centering
+%      \begin{tabular}{cc}
+%       \subfloat[][Carbon]{\includegraphics[width=\twoplotsnoleg,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_nuc6_DataSys_MultiMCStat.pdf}}&
+%       \subfloat[][Water]{\includegraphics[width=\twoplotsnoleg,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_nuc10_DataSys_MultiMCStat.pdf}}\\
+%       \subfloat[][Iron]{\includegraphics[width=\twoplotsnoleg,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_nuc26_DataSys_MultiMCStat.pdf}}&
+%       \subfloat[][Lead]{\includegraphics[width=\twoplotsnoleg,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_nuc82_DataSys_MultiMCStat.pdf}}
+%      \end{tabular}
+%     \caption{Cross section ratios $(\frac{d\sigma_A}{dp_{\mu,T}})/(\frac{d\sigma_{CH}}{dp_{\mu,T}})$ for carbon, water, iron, and lead.}    
+%     \label{fig:PtmuXsecRatios}
+% \end{figure}
+\begin{figure}
+    \centering
+    %\includegraphics[width=\oneplot,page=2]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid_Paper.pdf}
+    \ifColorFigures
+       \includegraphics[width=\oneplot]{Fig6.pdf}
+    \else
+      \includegraphics[width=\oneplot]{Fig6_Gray.pdf}
+    \fi  
+
+    \caption{Cross section ratios $(\frac{d\sigma_A}{dT_{\pi^+}})/(\frac{d\sigma_{CH}}{dT_{\pi^+}})$ for carbon, water, iron, and lead \firstReviewAdd{ (solid points) compared to predictions from GENIE, NEUT, and GIBUU.  The predictions from GIBUU and NEUT agree better with the measurements than those from GENIE.} }    
+    \label{fig:TpiXsecRatios}
+\end{figure}
+% \begin{figure}
+%     \centering
+%     \begin{tabular}{cc}
+%       \subfloat[][Carbon]{\includegraphics[width=\twoplotsnoleg,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_nuc6_DataSys_MultiMCStat.pdf}}&
+%       \subfloat[][Water]{\includegraphics[width=\twoplotsnoleg,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_nuc10_DataSys_MultiMCStat.pdf}}\\
+%       \subfloat[][Iron]{\includegraphics[width=\twoplotsnoleg,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_nuc26_DataSys_MultiMCStat.pdf}}&
+%       \subfloat[][Lead]{\includegraphics[width=\twoplotsnoleg,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_nuc82_DataSys_MultiMCStat.pdf}}
+%      \end{tabular}
+%     \caption{Cross section ratios $(\frac{d\sigma_A}{dT_{\pi^+}})/(\frac{d\sigma_{CH}}{dT_{\pi^+}})$ for carbon, water, iron, and lead.}    
+%     \label{fig:TpiXsecRatios}
+% \end{figure}
+
+
+\kevinComment{RATIO FIGURES: illustrate "universality" of Q2 fudge, add a model to the ratio where fudge is only applied to C and CH.  Maybe also look into adding the correction to hydrogen as another alternate model (but probably it's the same size and opposite direction as the difference between 4.2.1 and 4.3.1, so not the highest priority).}
+
+Selected event\firstRefereeAdd{s}\firstReviewStrike{in the analysis sample} are required to have at least two tracked particles that start in the correct target.  One track must be identified as a negatively charged muon by the MINOS Near Detector.  One \firstRefereeStrike{of the} remaining track\firstRefereeStrike{s} must be identified as a non-interacting charged pion by matching a Michel electron to the endpoint of the track and having longitudinal energy deposition ($dE/dx$) consistent with a non-interacting pion.  All \firstRefereeStrike{other} remaining tracks must not have \firstRefereeStrike{a} $dE/dx$ consistent with a pion.  
+The charged pion tracking efficiency decreases at lower momentum and at angles perpendicular to the detector axis.  The efficiency to reconstruct the Michel electron from the $\mu^+$ was predicted from the simulation and \firstRefereeStrike{is} validated in the scintillator tracker \firstRefereeStrike{by studies of} \firstRefereeAdd{using} stopping muons produced \firstRefereeStrike{in neutrino interactions} in the \firstReviewAdd{rock upstream of the detector}~\cite{BercellieThesis}. 
+The $\Wexp<1.4$~\gevcsq ~requirement strongly reduces the number of multipion events. Both $\Wexp$ and $Q^2$ are computed using the visible calorimetric energy in the detector to estimate $\Ehad$ \secondReviewAdd{\cite{BercellieThesis}}.  
+\firstReviewAdd{After all cuts there are 33,231 events in the tracker, and 1403 (1033) events in the iron (lead), and 295 (291) events in the carbon (water).  }
+%\firstReviewComment{I got these numbers from Aaron's thesis, table 6.9}
+
+\if\showSections1 \section{Background constraints} \fi
+
+
+The two primary backgrounds \firstRefereeStrike{to this signal} are pion production events with $\Wexp>1.4$~\gevcsq~and pion production events that appear to originate from the passive nuclear targets but are actually produced in the adjacent scintillator.  First, simulated events with reconstructed $\Wexp>1.4$~\gevcsq~ in the scintillator target are weighted to match data using two scale factors, one for events with true $\Wexp$ between $1.4$ and {$1.8$~\gevcsq} and one for events with $\Wexp$ above $1.8$~\gevcsq.  \firstRefereeAdd{True $\Wexp$ is computed in the same manner as reconstructed $\Wexp$ but uses true simulated values.}  \firstRefereeStrike{At this stage, in order t}\firstRefereeAdd{T}o improve the background prediction from events in scintillator adjacent to the passive target, pions with low $T_\pi$ or $\theta_\pi > 90^\circ$ also receive additional weight\firstRefereeStrike{ correction}s to improve \firstRefereeStrike{their} agreement with the scintillator target data.  
+\firstReviewStrike{Second,}
+\firstReviewAdd{ Next,} simulated events in each target are 
+\firstReviewStrike{then} weighted to correct the prediction of adjacent scintillator backgrounds using  events observed in data near the passive targets.  Finally, a weight is applied for events with high reconstructed $\Wexp$, in the same manner as above, for each target material.  Fig.~\ref{fig:signalAndSidebands} shows a sample of data used in the background constraints, before and after constraints.  The full set of weights are given in \ifPRLandSupp
+\supp\firstRefereeStrike{, Sec.\ref{section:SBTune}}.
+\else
+\supp.
+\fi
+
+% ADDRESSED \lauraComment{This section does not mention fits but I think it should.}\kevinComment{responded to Laura by email; not sure how to do interpet this.} 
+% dropped sentences 
+% This [high W] background is present for events on all targets. 
+% A constraint on the latter background [plastic] requires accurately constrained models of signal and background scintillator events.  
+% The constraint on the scintillator $W_{exp}>1.4$ GeV background is comprised [usage error] of normalization weights determined by a $\chi^2$ fit of simulation to data for events with reconstructed $W_{exp}>1.4$ GeV.  
+
+
+\if\showSections1 \section{Differential cross sections and ratios} \fi
+
+
+Kinematic smearing due to the detector in the background-subtracted distributions \firstReviewStrike{are} \firstReviewAdd{is} removed with iterative D'Agostini unfolding~\cite{D'Agostini:1994zf,DAgostini:2010xxxxx} as implemented in the RooUnfold~\cite{Adye:2011gm} framework. The number of iterations was chosen by studying the fidelity of unfolding randomly thrown pseudodata samples generated from alternate physics models. 
+\firstReviewStrike{Corrections for detector acceptance or selection efficiencies are applied to each distribution, which are $\sim4.5\%$ for events on scintillator and $\sim1\%$ for events on passive materials.} 
+\firstReviewAdd{The event distributions are corrected for selection efficiency and acceptance, which is 4.5\% (1\%) on average in the tracker (passive targets).  Efficiencies are available in the supplement.  }
+The differential cross sections are obtained by normalizing the resulting event rates by the integrated neutrino flux and \firstRefereeStrike{the} number of target nucleons.  
+%\firstReviewComment{ do you really mean "The event distributions are corrected for selection efficiency and acceptance, which is 1\% (4.5\%) in the tracker (targets)". ??}
+
+One complication of forming ratios of cross sections between the passive targets and the tracker is that the fluxes have small differences due to the distributions of mass relative to the beam axis, as shown in \firstReviewAdd{\supp}\firstReviewStrike{Fig.~\ref{fig:fluxRatios}}.  This is corrected by measuring the \firstReviewStrike{plastic} cross section \firstReviewAdd{on scintillator} in several regions of the detector, each integrated over a slightly different neutrino energy distribution.  Linear combinations of these regional cross sections are used to form a cross section integrated over a flux\firstReviewStrike{identical to that of} \firstReviewAdd{ that matches \firstRefereeStrike{the one seen by}} the relevant target.  These cross sections are used to form the ratio of target-to-tracker cross-section ratios~\cite{BercellieThesis,KleykampThesis}.
+%\paperComment{Line 136-138: Please consider removing Fig. 2 to the supplemental. Then the text could give the scale of these corrections ($\pm \sim 8\%$ max).}
+%\inProgress{may move Fig. 2 to supplemental to save space and characterize the size of the corrections as $<\pm \sim 8\%$ instead.}
+
+% removed sentences
+% One iteration was chosen for distributions in $p_\mu$ and $p_{\mu,||}$, ten iterations for the $W_{exp}$ distribution, and two iterations for all other distributions.  
+
+
+Figure~\ref{fig:absolutePtmuXsec} shows the differential cross section $\frac{d\sigma}{dp_{\mu,T}}$ \firstReviewAdd{ on} materials with highest statistics (iron, lead, and scintillator). Lower statistics measurements on water and carbon are available in the supplement.  \firstReviewStrike{The masses of all the passive targets are small enough that } 
+\firstReviewAdd{The statistical uncertainty dominates in all measurements, except in the scintillator.  }
+\firstReviewStrike{ The masses of the carbon and water target are smaller than the lead and iron, and thus the cross sections on the former targets have particularly large uncertainties.}  
+\firstReviewStrike{ An illustration of the }
+\firstReviewAdd{ An example of the } uncertainties 
+\firstReviewStrike{in}
+\firstReviewAdd{on} the cross sections 
+\firstReviewStrike{ is} 
+\firstReviewAdd{are} shown in Fig.~\ref{fig:absolutePtmuXsecSystIllustration}; uncertainties in the \firstRefereeStrike{assumed input} cross section models which enter via efficiency and unfolding are the largest, but are \firstReviewAdd{lower than the statistical uncertainties in all targets but the scintillator.} 
+\firstReviewStrike{ typically comparable or less than statistical errors, except in the highest statistics bin of the scintillator. } Statistical uncertainties in the sideband constraints are also significant for the passive targets.  Systematic uncertainties are smaller in the cross section ratios, which benefit from partial cancellation of the flux, cross section model, and reconstruction uncertainties.  
+
+Ratios of cross sections to that in scintillator are shown for $\frac{d\sigma}{dp_{\mu,T}}$ and $\frac{d\sigma}{dT_\pi}$ in Figs.~\ref{fig:PtmuXsecRatios} and \ref{fig:TpiXsecRatios}.  
+\firstReviewStrike{These results show \firstReviewStrike{ nearly universal behavior over the range of nuclei studied: that is,}
+\firstReviewAdd{that} the cross section ratios are reasonably well described by a \firstReviewStrike{ universal } scale factor of unity in the carbon and water, and by a constant 
+% original numbers put in by Kevin "by eye"
+%$\approx 0.7$ in iron and $\approx 0.4$ in lead 
+% numbers from https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=30273
+$\approx 0.8\secondReviewAdd{\pm 0.1}$ in iron and $\approx 0.5\secondReviewAdd{\pm 0.1}$ in lead
+%
+with no large modifications to the shape in $p_{\mu,T}$ or $T_\pi$%\cite{MINERvA:202203ab}\cite{MINERvA:202209ab}.    
+The ratios are largely also consistent with \firstReviewStrike{ this universal scaling observation} the same scaling.
+}
+\firstReviewAdd{The cross-section ratios \firstRefereeAdd{of} carbon or water to scintillator can be characterized by a scale factor of unity, while ratios between iron or lead to scintillator are constant at ~0.8 and ~0.5 respectively, with no large modifications to distribution shapes for either $p_{\mu,T}$ or $T_\pi$.}     
+Cross sections and cross section ratios to scintillator in other kinematic variables are tabulated and shown in 
+\ifPRLandSupp
+\supp\firstRefereeStrike{, sections \ref{section:AbsXsec} and \ref{section:RatioXsec}}.
+\else
+\supp.
+\fi
+\firstReviewAdd{Ratios in the other variables  also exhibit this %\lq universal\rq~ 
+scaling behavior.
+
+None of the six generator models investigated capture the evolution of absolute cross section.  % as the target nucleon number is changed from 12 to 208. 
+The generators NEUT\cite{Hayato:2009zz} and GIBUU\cite{Gallmeister:2016dnq} do correctly predict the cross section ratios between Fe and Pb and scintillator, as shown in Figs.~\ref{fig:PtmuXsecRatios} and \ref{fig:TpiXsecRatios}, while the GENIE predictions do not agree.  The GENIE models use pion- and nucleon-nucleus scattering data to implement single-step absorption and other scattering processes (INTRANUKE-hA)~\cite{Andreopoulos:2009rq}, whereas NEUT, NuWRO and GIBUU employ different microscopic transport algorithms to simulate pion and nucleon intranuclear scattering.}
+%\firstReviewComment{ This part could be moved up to before you start discussing the ratios, and then the sentence that starts "similarly" could be later.}
+
+As previously noted, the scintillator cross section showed a large discrepancy with the MINERvA-tuned GENIE model, which is corrected with a weight as a function of $Q^2$.  In Fig.~\ref{fig:absolutePtmuXsec}, the differential cross section as a function of the related observable $p_{\mu,T}$ $\left(Q^2\approx{p_{\mu,T}}^2\left[ 1+{\cal O}(\frac{\Ehad}{E_\mu})\right] \right)$ shows poor agreement both with untuned GENIE models (GENIEv2.12.6) and with tuned models without this weighting function (GENIEv2 MnvTune v4.2.1).  The \firstRefereeAdd{shape of the} data is in better agreement with the weighted model (GENIEv2 MnvTune v4.3.1) in all targets, even though the weight is derived using only the scintillator measurement.  \firstRefereeAdd{The absolute normalization of the cross section is not well described by MnvTune v4.3.1 in Iron or Lead.}
+% Previous sentence: This is further illustrated in Fig.~\ref{fig:PtmuXsecRatios}, where the $p_{\mu,T}$ distribution is far more consistent with being independent of nucleus than the large weighting correction applied to scintillator might suggest. 
+% KSM rewrite July 13:
+
+Similarly, the ratios of $d\sigma/dp_{\mu,T}$ between the targets and scintillator are consistent with being independent of $p_{\mu,T}$.
+A \firstRefereeStrike{notable} feature of both the GENIE v3 and GiBUU models is that they 
+\firstReviewStrike{do appear to} predict the large suppression \firstRefereeStrike{in the} lead \firstRefereeStrike{target} relative to other targets.  However, as seen in Fig.~\ref{fig:TpiXsecRatios}, these models also predict a larger ratio at low $T_\pi$ in the heavy targets, a feature which is not seen in the data.
+
+In summary, these data on single pion production on a wide variety of nuclei provide\firstReviewStrike{s} a new way to test nuclear models through their \firstRefereeAdd{nuclear }dependence\firstRefereeStrike{ on the size of the target nucleus}.  We observe a large modification to the predicted $Q^2$ distribution of single $\pi^+$ events \firstRefereeStrike{in scintillator, but it appears }that it can be consistently \firstRefereeStrike{applied to}\firstRefereeAdd{seen in} all nuclei.  These results \firstRefereeStrike{can} give guidance in how the \firstRefereeStrike{relative} wealth of data on scintillator targets can be applied to \firstRefereeStrike{reference} models for oxygen and argon for future neutrino experiments.
+
+\begin{acknowledgements}
+
+\paperComment{pulled version dated March 2022, v15, from DocDB.  https://minerva-docdb.fnal.gov/cgi-bin/sso/ShowDocument?docid=13929&version=15  Unclear how it is actually different...}
+
+This document was prepared by members of the MINERvA Collaboration using the resources of the Fermi National Accelerator Laboratory (Fermilab), a U.S. Department of Energy, Office of Science, HEP User Facility. Fermilab is managed by Fermi Research Alliance, LLC (FRA), acting under Contract No. DE-AC02-07CH11359.
+These resources included support for the MINERvA construction project, and support
+for construction also
+was granted by the United States National Science Foundation under
+Award No. PHY-0619727 and by the University of Rochester. Support for
+participating scientists was provided by NSF and DOE (USA); by CAPES
+and CNPq (Brazil); by CoNaCyT (Mexico); by ANID PIA / APOYO AFB180002, CONICYT PIA ACT1413, and Fondecyt 3170845 and 11130133 (Chile); 
+%by CONCYTEC, DGI-PUCP, and IDI/IGI-UNI (Peru); 
+by CONCYTEC (Consejo Nacional de Ciencia, Tecnolog\'ia e Innovaci\'on Tecnol\'ogica), DGI-PUCP (Direcci\'on de Gesti\'on de la Investigaci\'on  - Pontificia Universidad Cat\'olica del Peru), and VRI-UNI (Vice-Rectorate for Research of National University of Engineering) (Peru); NCN Opus Grant No. 2016/21/B/ST2/01092 (Poland); by Science and Technology Facilities Council (UK); by EU Horizon 2020 Marie Skłodowska-Curie Action; by a Cottrell Postdoctoral Fellowship from the Research Corporation for Scientific Advancement; by an Imperial College London President's PhD Scholarship.  We thank the MINOS Collaboration for use of its near detector data. Finally, we thank the staff of
+Fermilab for support of the beam line, the detector, and computing infrastructure.
+
+
+
+% This document was prepared by members of the MINERvA Collaboration using the resources of the Fermi National Accelerator Laboratory (Fermilab), a U.S. Department of Energy, Office of Science, HEP User Facility. Fermilab is managed by Fermi Research Alliance, LLC (FRA), acting under Contract No. DE-AC02-07CH11359.
+% These resources included support for the MINERvA construction project, and support
+% for construction also
+% was granted by the United States National Science Foundation under
+% Award No. PHY-0619727 and by the University of Rochester. Support for
+% participating scientists was provided by NSF and DOE (USA); by CAPES
+% and CNPq (Brazil); by CoNaCyT (Mexico); by ANID PIA / APOYO AFB180002, CONICYT PIA ACT1413, and Fondecyt 3170845 and 11130133 (Chile); 
+% %by CONCYTEC, DGI-PUCP, and IDI/IGI-UNI (Peru); 
+% by CONCYTEC (Consejo Nacional de Ciencia, Tecnolog\'ia e Innovaci\'on Tecnol\'ogica), DGI-PUCP (Direcci\'on de Gesti\'on de la Investigaci\'on  - Pontificia Universidad Cat\'olica del Peru), and VRI-UNI (Vice-Rectorate for Research of National University of Engineering) (Peru); NCN Opus Grant No. 2016/21/B/ST2/01092 (Poland); by Science and Technology Facilities Council (UK); by EU Horizon 2020 Marie Skłodowska-Curie Action; by a Cottrell Postdoctoral Fellowship from the Research Corporation for Scientific Advancement; by an Imperial College London President's PhD Scholarship.  We thank the MINOS Collaboration for use of its near detector data. Finally, we thank the staff of
+% Fermilab for support of the beam line, the detector, and computing infrastructure.
+
+
+\end{acknowledgements}
+
+\bibliography{MINERvATargetPion}
+
+\ifPRLandSupp
+
+\clearpage
+\onecolumngrid
+\pagebreak
+\section{Supplemental Material}
+% restart figure and table numbering and start with "Supp-*"
+\renewcommand\thefigure{Supp.\arabic{figure}}
+\setcounter{figure}{0}
+\renewcommand\thetable{Supp.\Roman{table}}
+\setcounter{table}{0}
+
+
+\subsection{Flux Differences between Targets and Tracker before Reweighting of Tracker}
+\FloatBarrier
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth,page=4]{otherFigures/FluxTest_Rebin.pdf}
+    \caption{Ratio of neutrino fluxes in carbon, water, iron, and lead to scintillator as a function of energy before reweighting of the scintillator sample denominator.}
+    \label{fig:fluxRatios}
+\end{figure}
+\pagebreak\clearpage
+
+\subsection{Single $\pi^+$ $Q^2$ tune function}
+\label{section:LowQ2Tune}
+The disagreement between the initial tuned GENIE model described above and the scintillator data was addressed by applying a weighting function, $w(Q^2)$ to all non-coherent single pion production on nuclei other than hydrogen.   Coherent pion production and production on hydrogen are excluded from the correction because they are independently constrained by the results of Ref.~\cite{AlexCoherent} and Ref.~\cite{Rodrigues:2016xjj}, respectively. The predicted coherent and hydrogen cross section on scintillator in the data was subtracted from the measurement in the data, and compared to the same quantity in the simulation, and the ratio was fit to find $w(Q^2)$. 
+
+This fit has the form shown in equation \ref{eq:LowQ2Eq}, where Erf is the Gaussian error function, and the fitted parameters are given in Tab.~\ref{tbl:LowQ2Fit}.  Figure \ref{fig:LowQ2Function} shows the cross section ratio as well as the fit.
+
+\secondReviewAdd{These suppression at low $Q^2$ relative to high $Q^2$ is a feature that has been observed in different data sets, including MINOS on iron~\cite{MINOS:2014axb} and in other MINERvA pion measurements on scintillator~\cite{Stowell:2019zsh,Eberly:2014mra, McGivern:2016bwh, Altinok:2017xua}.  Models have some differences in prediction, although generally do not predict this large suppression.  The high $Q^2$ shape evolution of different versions and tunes of GENIE goes from GENIE\firstRefereeAdd{v2 MnvTune} v4.2.1 (steepest), to untuned GENIE v2.12.6 to GENIE v3 \firstRefereeAdd{02a\_02\_11a} to GENIE\firstRefereeAdd{v2 MnvTune} v4.3.1 (flattest) via changes to the axial form factor and, in the case of GENIE v3, also the vector form factor and \firstRefereeStrike{well as} FSI processes. Like the tunes of Refs.~\onlinecite{Stowell:2019zsh} and \onlinecite{MINOS:2014axb}, the \firstRefereeAdd{Mnv}Tune v4.3.1 adds the {\em ad hoc} additional shape at low $Q^2$ evident in these data.}
+
+\FloatBarrier
+\begin{align}
+    w(Q^2) &= a+b\times \text{Max}\left[0,\text{Erf}\left[x_3 \ln\left(\frac{Q^2}{x_1}\right)\right]\right]
+    \label{eq:LowQ2Eq}
+\end{align}
+\begin{table}
+\centering
+\begin{tabular}{c|c}
+Parameter & Fitted Value\\  
+\hline
+$a$ & $0.475\pm 0.037$\\
+\hline
+$b$ & $1.837 \pm 0.537$\\
+\hline
+$x_1$ & $0.017\pm 0.003$\\
+\hline
+$x_3$ & $0.171\pm 0.069$\\
+\hline
+\hline
+$\chi^2$/ndf & 1.58/11
+\end{tabular}
+\caption{Fitted parameters of the $Q^2$ model variation}
+  \label{tbl:LowQ2Fit}
+\end{table}
+%%%%PUT IN TABLE
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][\firstRefereeStrike{Hydrogen Subtracted Incoherent Data/Simulation Cross Section Ratio and the $Q^2$ weighting function (FHC nu-e constraint)}]{\includegraphics[width=0.45\textwidth,page=10]{otherFigures/PlotLowQ2Fit_NewCoh_DataMCRatio.pdf}} &
+    \hspace{1.5em}
+    \subfloat[][\firstRefereeStrike{Unweighted and Reweighted Total and Hydrogen Subtracted Incoherent Simulated Cross Section Compared to Data Cross Section}
+    ]
+    {\includegraphics[width=0.45\textwidth,page=11]{otherFigures/PlotLowQ2Fit_NewCoh_DataMCRatio.pdf}} 
+    \end{tabular}
+    \firstRefereeAdd{\caption{(a) Hydrogen Subtracted Incoherent Data/Simulation Cross Section Ratio and the $Q^2$ weighting function (FHC nu-e constraint).  (b) Unweighted and Reweighted Total and Hydrogen Subtracted Incoherent Simulated Cross Section Compared to Data Cross Section.}}
+    \label{fig:LowQ2Function}
+\end{figure}
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=0.7\textwidth,page=7]{PlotLowQ2Fit_DataMCRatio.pdf}
+%    \caption{Hydrogen Subtracted Incoherent Data/Simulation Cross Section Ratio and the $Q^2$ warping function (FHC nu-e constraint)} %   
+%    \label{fig:LowQ2Function}
+%\end{figure}
+\pagebreak
+\clearpage
+
+
+\subsection{Sideband scale factors}
+\label{section:SBTune}
+\FloatBarrier
+\setlength\tabcolsep{0.5em}
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.15}
+\normalsize
+\begin{tabular}{c|c|c|c}
+Target & $1.4<W_\text{exp,true}<1.8$ GeV/$c^2$ & $1.8<W_\text{exp,true}$ GeV/$c^2$ & $\chi^2$/ndf\\
+\hline
+Carbon & $0.58 \pm 0.44$ & $1.71 \pm 0.71$ & 0.147/4\\
+\hline
+Water  & $1.53 \pm 0.30$ & $0.00 \pm 0.90$ & 18.956/4\\
+\hline
+Iron   & $0.48 \pm 0.25$ & $1.05 \pm 0.29$ & 1.705/4\\
+\hline
+Lead   & $0.09 \pm 0.16$ & $1.06 \pm 0.20$ & 0.324/4\\
+\hline
+Scintillator & $0.58 \pm 0.02$ & $0.80 \pm 0.02$ & 3.192/4
+\end{tabular}
+\caption{$W_{exp}$ sideband scales found from the fit in the high $W>1.4$ GeV sideband for all targets.   }
+  \label{tbl:W_Sideband_Scales}
+\end{table}
+
+\begin{figure}
+    \centering
+    \begin{tabular}{cc}
+      \subfloat[][Scintillator]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_NoFit_W_Sideband_MinosMatched_plastic_Data_Stack.pdf}}&
+      \includegraphics[height=0.3\textheight,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_NoFit_Selection_Sideband_MinosMatched_plastic_Data_Stack_Legend.pdf}\\
+      \subfloat[][Carbon]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_NoFit_W_Sideband_MinosMatched_nuc6_Data_Stack.pdf}}&
+      \subfloat[][Water]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_NoFit_W_Sideband_MinosMatched_nuc10_Data_Stack.pdf}}\\
+      \subfloat[][Iron]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_NoFit_W_Sideband_MinosMatched_nuc26_Data_Stack.pdf}}&
+      \subfloat[][Lead]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_NoFit_W_Sideband_MinosMatched_nuc82_Data_Stack.pdf}}
+     \end{tabular}
+    \caption{$W_{exp}$ distribution of selected events before constraining the simulation using background estimates from data.  The dashed arrow delineates the high $W_{exp}$ sideband region. }    
+    \label{fig:WSBBeforeFit}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{tabular}{cc}
+      \subfloat[][Scintillator]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_FullFit_W_Sideband_MinosMatched_plastic_Data_Stack.pdf}}&
+      \includegraphics[height=0.3\textheight,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_FullFit_Selection_Sideband_MinosMatched_plastic_Data_Stack_Legend.pdf}\\
+      \subfloat[][Carbon]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_FullFit_W_Sideband_MinosMatched_nuc6_Data_Stack.pdf}}&
+      \subfloat[][Water]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_FullFit_W_Sideband_MinosMatched_nuc10_Data_Stack.pdf}}\\
+      \subfloat[][Iron]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_FullFit_W_Sideband_MinosMatched_nuc26_Data_Stack.pdf}}&
+      \subfloat[][Lead]{\includegraphics[width=\oneplot,page=1]{Sidebands/GridSidebands1Pi_MENU1PI_FullFit_W_Sideband_MinosMatched_nuc82_Data_Stack.pdf}}
+     \end{tabular}
+    \caption{$W_{exp}$ distribution of selected events after constraining the simulation using background estimates from data.  The dashed arrow delineates the high $W_{exp}$ sideband region. }    
+    \label{fig:WSBAfterFit}
+\end{figure}
+
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.15}
+\normalsize
+\begin{tabular}{c|c|c|c|c}
+Target & Upstream Scale & Upstream $\chi^2$/ndf & Downstream Scale & Downstream $\chi^2$/ndf\\
+\hline
+Target 1 & $0.69 \pm 0.13$ & 1.45/6  & $0.93 \pm 0.07$ & 2.76/6\\
+\hline
+Target 2 & $0.99 \pm 0.05$ & 3.90/7  & $0.88 \pm 0.07$ & 12.00/6\\
+\hline
+Target 3 & $0.92 \pm 0.04$ & 6.93/10 & $0.88 \pm 0.06$ & 4.03/7\\
+\hline
+Target 4 & $0.92 \pm 0.06$ & 4.18/5  & $0.83 \pm 0.05$ & 13.70/7\\
+\hline
+Target 5 & $0.92 \pm 0.05$ & 9.89/7  & $0.86 \pm 0.05$ & 11.89/7
+\end{tabular}
+\caption{Upstream and downstream scintillator target sideband scales for all nuclear targets}
+  \label{tbl:Plas_Sideband_Scales}
+\end{table}
+
+\pagebreak
+\clearpage
+\subsection{Coherent Pion Production Weights}
+\label{section:CohWeight}
+\FloatBarrier
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth,page=1]{otherFigures/CohWeight.pdf}
+    %\caption{}
+    \caption{Plot of weights applied to coherent pion production events, given the kinematics of the coherent $\pi^+$, derived from ME MINERvA data~\cite{AlexCoherent}}
+    \label{fig:CohWeightHist}
+\end{figure}
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{c||c|c|c|c|c|c|c|c}
+$E_\pi$ (GeV) & 0.0-0.25 & 0.25-0.5 & 0.5-0.75 & 0.75-1.0 & 1.0-1.5 & 1.5-2.0 & 2.0-3.0 & 3.0-5.0\\\cline{1-1}
+$\theta_\pi$ (deg) &  & & & & & & \\
+\hline
+\hline
+0-5& 3.372& 1.593& 1.593& 1.369& 1.360& 1.593& 1.593& 1.593\\
+\hline
+5-10& 3.083& 1.456& 1.456& 1.251& 1.243& 1.456& 1.456& 1.456\\
+\hline
+10-15& 2.742& 1.296& 1.296& 1.113& 1.106& 1.296& 1.296& 1.296\\
+\hline
+15-20& 2.577& 1.218& 1.218& 1.046& 1.039& 1.218& 1.218& 1.218\\
+\hline
+20-25& 2.345& 1.108& 1.108& 0.952& 0.945& 1.108& 1.108& 1.108\\
+\hline
+25-30& 2.116& 1.000& 1.000& 0.859& 0.853& 1.000& 1.000& 1.000\\
+\hline
+30-35& 2.116& 1.000& 1.000& 0.859& 0.853& 1.000& 1.000& 1.000\\
+\hline
+35-40& 1.422& 0.672& 0.672& 0.577& 0.573& 0.672& 0.672& 0.672\\
+\hline
+40-45& 1.238& 0.585& 0.585& 0.503& 0.499& 0.585& 0.585& 0.585\\
+\hline
+45-50& 0.713& 0.337& 0.337& 0.289& 0.288& 0.337& 0.337& 0.337\\
+\hline
+50-60& 0.263& 0.124& 0.124& 0.107& 0.106& 0.124& 0.124& 0.124\\
+\hline
+60-70& 0.049& 0.023& 0.023& 0.020& 0.020& 0.023& 0.023& 0.023\\
+\hline
+70-80& 0.049& 0.023& 0.023& 0.020& 0.020& 0.023& 0.023& 0.023\\
+\hline
+80-90& 0.049& 0.023& 0.023& 0.020& 0.020& 0.023& 0.023& 0.023\\
+\end{tabular}
+\caption{Tabulation of weights applied to coherent pion production events, given the kinematics of the coherent $\pi^+$, derived from ME MINERvA data~\cite{AlexCoherent}}
+\end{table}
+
+\pagebreak
+\clearpage
+
+\firstReviewAdd{
+\subsection{Efficiencies}
+\label{section:Efficiencies}
+\FloatBarrier
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Efficiency versus muon momentum]{\includegraphics[width=\oneplot,page=\pagePmu]{Efficiencies/MergeEffMig_MENU1PI_pi_channel_MinervaME1ABCDEFGLMNOP_MC_Tar_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Efficiency versus muon angle]{\includegraphics[width=\oneplot,page=\pageThmu]{Efficiencies/MergeEffMig_MENU1PI_pi_channel_MinervaME1ABCDEFGLMNOP_MC_Tar_Grid.pdf}}\\[4em]
+    \hspace{1.5em}\subfloat[][Efficiency versus longitudinal muon momentum]{\includegraphics[width=\oneplot,page=\pagePmuZ]{Efficiencies/MergeEffMig_MENU1PI_pi_channel_MinervaME1ABCDEFGLMNOP_MC_Tar_Grid.pdf}}&
+    \subfloat[][Efficiency versus transverse muon momentum]{\includegraphics[width=\oneplot,page=\pagePmuT]{Efficiencies/MergeEffMig_MENU1PI_pi_channel_MinervaME1ABCDEFGLMNOP_MC_Tar_Grid.pdf}}
+    \end{tabular}
+    \caption{Efficiencies for scintillator (top left), carbon (middle left), water (middle right), iron (bottom left) and lead (bottom right).  The shaded error bands show total uncertainties, including systematics and simulated statistics.  }
+    \label{fig:SuppEfficiency_muon}
+\end{figure}
+\pagebreak
+\clearpage
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Efficiency versus $Q^2$]{\includegraphics[width=\oneplot,page=\pageQ]{Efficiencies/MergeEffMig_MENU1PI_pi_channel_MinervaME1ABCDEFGLMNOP_MC_Tar_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Efficiency versus $W$]{\includegraphics[width=\oneplot,page=\pageW]{Efficiencies/MergeEffMig_MENU1PI_pi_channel_MinervaME1ABCDEFGLMNOP_MC_Tar_Grid.pdf}}\\[4em]
+    \hspace{1.5em}\subfloat[][Efficiency versus pion kinetic energy]{\includegraphics[width=\oneplot,page=\pageTpi]{Efficiencies/MergeEffMig_MENU1PI_pi_channel_MinervaME1ABCDEFGLMNOP_MC_Tar_Grid.pdf}}&
+    \subfloat[][Efficiency versus pion angle]{\includegraphics[width=\oneplot,page=\pageThpi]{Efficiencies/MergeEffMig_MENU1PI_pi_channel_MinervaME1ABCDEFGLMNOP_MC_Tar_Grid.pdf}}
+    \end{tabular}
+    \caption{Efficiencies for scintillator (top left), carbon (middle left), water (middle right), iron (bottom left) and lead (bottom right).  The shaded error bands show total uncertainties, including systematics and simulated statistics.  }
+    \label{fig:SuppEfficiency_other}
+\end{figure}
+\pagebreak
+\clearpage
+}
+
+\subsection{Absolute Cross Section Plots}
+\label{section:AbsXsec}
+\FloatBarrier
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Differential cross section $\frac{d\sigma}{dp_\mu}$ for \firstRefereeAdd{scintillator,} carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pagePmu]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Differential cross section $\frac{d\sigma}{d\theta_\mu}$ for \firstRefereeAdd{scintillator,} carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageThmu]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}\\[4em]
+    \hspace{1.5em}\subfloat[][Differential cross section $\frac{d\sigma}{dp_{\mu,||}}$ for \firstRefereeAdd{scintillator,} carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pagePmuZ]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}&
+    \subfloat[][Differential cross section $\frac{d\sigma}{dp_{\mu,T}}$ for \firstRefereeAdd{scintillator,} carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pagePmuT]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}
+    \end{tabular}
+           \caption{Differential cross sections versus muon variables.  }
+    \label{fig:SuppAbsoluteMu}
+\end{figure}
+\pagebreak
+\clearpage
+\FloatBarrier
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Differential cross section $\frac{d\sigma}{dQ^2}$ for \firstRefereeAdd{scintillator,} carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageQ]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Differential cross section $\frac{d\sigma}{dW_{exp}}$ for \firstRefereeAdd{scintillator,} carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageW]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}\\[4em]
+    \subfloat[][Differential cross section $\frac{d\sigma}{dT_\pi}$ for \firstRefereeAdd{scintillator,} carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageTpi]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}&
+    \hspace{1.5em}\subfloat[][Differential cross section $\frac{d\sigma}{d\theta_\pi}$ for \firstRefereeAdd{scintillator,} carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageThpi]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}
+    \end{tabular}
+        \caption{Differential cross sections versus other variables.  }
+    \label{fig:SuppAbsoluteRest}
+\end{figure}
+\pagebreak
+\clearpage
+
+\subsection{Absolute Cross Section Error Summaries}
+\label{section:AbsXsecError}
+\FloatBarrier
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Fractional uncertainties of $\frac{d\sigma}{dp_\mu}$.]{\includegraphics[width=\oneplot,page=\pagePmu]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Fractional uncertainties of $\frac{d\sigma}{d\theta_\mu}$.]{\includegraphics[width=\oneplot,page=\pageThmu]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}\\[4em]
+    \hspace{1.5em}\subfloat[][Fractional uncertainties of $\frac{d\sigma}{dp_{\mu,||}}$.]{\includegraphics[width=\oneplot,page=\pagePmuZ]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}&
+    \subfloat[][Fractional uncertainties of $\frac{d\sigma}{dp_{\mu,T}}$ .]{\includegraphics[width=\oneplot,page=\pagePmuT]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}
+    \end{tabular}
+    \caption{Systematic uncertainties of differential cross sections for scintillator (top left), carbon (middle left), water (middle right), iron (bottom left) and lead (bottom right)}
+    \label{fig:SuppAbsoluteMuError}
+\end{figure}
+\pagebreak
+\clearpage
+\FloatBarrier
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Fractional uncertainties of $\frac{d\sigma}{dQ^2}$.]{\includegraphics[width=\oneplot,page=\pageQ]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Fractional Uncertainties $\frac{d\sigma}{dW_{exp}}$.]{\includegraphics[width=\oneplot,page=\pageW]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}\\[4em]
+    \subfloat[][Fractional Uncertainties $\frac{d\sigma}{dT_\pi}$.]{\includegraphics[width=\oneplot,page=\pageTpi]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}&
+    \hspace{1.5em}\subfloat[][Fractional Uncertainties $\frac{d\sigma}{d\theta_\pi}$.]{\includegraphics[width=\oneplot,page=\pageThpi]{XsecAbs/diffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}
+    \end{tabular}
+    \caption{Systematic uncertainties of differential cross sections for scintillator (top left), carbon (middle left), water (middle right), iron (bottom left) and lead (bottom right)}
+    \label{fig:SuppAbsoluteRestError}
+\end{figure}
+\pagebreak
+\clearpage
+
+\subsection{Cross Section Ratio Plots}
+\label{section:RatioXsec}
+\FloatBarrier
+
+\secondReviewAdd{One of the striking features in these comparisons is that there are large difference in the ratios between the GENIEv2 and GENIEv3 models for the iron and lead targets.  These are primarily from different the FSI effects in the generators. The increased pion scattering and absorption rates in heavy nuclei in GENIEv3 appear to better describe our data.}
+
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Cross section ratios $\left(\frac{d\sigma_A}{dp_\mu}\right)/\left(\frac{d\sigma_{CH}}{dp_\mu}\right)$ for carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pagePmu]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Cross section ratios $\left(\frac{d\sigma_A}{d\theta_\mu}\right)/\left(\frac{d\sigma_{CH}}{d\theta_\mu}\right)$ for carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageThmu]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}\\[7em]
+    \hspace{1.5em}\subfloat[][Cross section ratios $\left(\frac{d\sigma_A}{dp_{\mu,||}}\right)/\left(\frac{d\sigma_{CH}}{dp_{\mu,||}}\right)$ for carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pagePmuZ]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}&
+    \subfloat[][Cross section ratios $\left(\frac{d\sigma_A}{dp_{\mu,T}}\right)/\left(\frac{d\sigma_{CH}}{dp_{\mu,T}}\right)$ for carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}
+    \end{tabular}
+        \caption{Cross section ratios versus muon variables.  }
+    \label{fig:SuppRatioMu}
+\end{figure}
+\pagebreak
+\clearpage
+\FloatBarrier
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Cross section ratios $\left(\frac{d\sigma_A}{dQ^2}\right)/\left(\frac{d\sigma_{CH}}{dQ^2}\right)$ for carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageQ]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Cross section ratios $\left(\frac{d\sigma_A}{dW_{exp}}\right)/\left(\frac{d\sigma_{CH}}{dW_{exp}}\right)$ for carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageW]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}\\[7em]
+    \subfloat[][Cross section ratios $\left(\frac{d\sigma_A}{dT_\pi}\right)/\left(\frac{d\sigma_{CH}}{dT_\pi}\right)$ for carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}&
+    \hspace{1.5em}\subfloat[][Cross section ratios $\left(\frac{d\sigma_A}{d\theta_\pi}\right)/\left(\frac{d\sigma_{CH}}{d\theta_\pi}\right)$ for carbon, water, iron, and lead.]{\includegraphics[width=\oneplot,page=\pageThpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Data_Tar_Grid.pdf}}
+    \end{tabular}
+    \caption{Cross section ratios versus other variables.  }
+    
+    \label{fig:SuppRatioRest}
+\end{figure}
+\pagebreak
+\clearpage
+\FloatBarrier
+\subsection{Cross Section Ratio Error Summaries}
+\label{section:RatioXsecError}
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Fractional uncertainties $\left(\frac{d\sigma_A}{dp_\mu}\right)/\left(\frac{d\sigma_{CH}}{dp_\mu}\right)$.]{\includegraphics[width=\oneplot,page=\pagePmu]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Fractional uncertainties $\left(\frac{d\sigma_A}{d\theta_\mu}\right)/\left(\frac{d\sigma_{CH}}{d\theta_\mu}\right)$.]{\includegraphics[width=\oneplot,page=\pageThmu]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}\\[7em]
+    \hspace{1.5em}\subfloat[][Fractional uncertainties $\left(\frac{d\sigma_A}{dp_{\mu,||}}\right)/\left(\frac{d\sigma_{CH}}{dp_{\mu,||}}\right)$.]{\includegraphics[width=\oneplot,page=\pagePmuZ]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}&
+    \subfloat[][Fractional uncertainties $\left(\frac{d\sigma_A}{dp_{\mu,T}}\right)/\left(\frac{d\sigma_{CH}}{dp_{\mu,T}}\right)$.]{\includegraphics[width=\oneplot,page=\pagePmuT]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}
+    \end{tabular}
+    \caption{Systematic uncertainties of cross section ratios for carbon/scintillator (top left), water/scintillator (top right), iron/scintillator (bottom left) and lead/scintillator (bottom right)}
+    \label{fig:SuppRatioMuError}
+\end{figure}
+\pagebreak
+\clearpage
+\FloatBarrier
+\begin{figure}
+    \centering
+    \captionsetup[subfigure]{justification=centering}
+    \begin{tabular}{cc}
+    \subfloat[][Fractional uncertainties $\left(\frac{d\sigma_A}{dQ^2}\right)/\left(\frac{d\sigma_{CH}}{dQ^2}\right)$.]{\includegraphics[width=\oneplot,page=\pageQ]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}} &
+    \hspace{1.5em}\subfloat[][Fractional uncertainties $\left(\frac{d\sigma_A}{dW_{exp}}\right)/\left(\frac{d\sigma_{CH}}{dW_{exp}}\right)$.]{\includegraphics[width=\oneplot,page=\pageW]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}\\[7em]
+    \subfloat[][Fractional uncertainties $\left(\frac{d\sigma_A}{dT_\pi}\right)/\left(\frac{d\sigma_{CH}}{dT_\pi}\right)$.]{\includegraphics[width=\oneplot,page=\pageTpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}&
+    \hspace{1.5em}\subfloat[][Fractional uncertainties $\left(\frac{d\sigma_A}{d\theta_\pi}\right)/\left(\frac{d\sigma_{CH}}{d\theta_\pi}\right)$.]{\includegraphics[width=\oneplot,page=\pageThpi]{XsecRatios/ratioDiffXsec_new_jeffrey_flux_NewCoh_MENU1PI_Nucleon_MinosMatched_pi_channel_MinervaME1ABCDEFGLMNOP_Error_Grid.pdf}}
+    \end{tabular}
+    \caption{Systematic uncertainties of cross section ratios for carbon/scintillator (top left), water/scintillator (top right), iron/scintillator (bottom left) and lead/scintillator (bottom right)}
+    \label{fig:SuppRatioRestError}
+\end{figure}
+\pagebreak
+\clearpage
+\FloatBarrier
+
+\onecolumngrid
+\subsection{Cross Section Tables}
+\FloatBarrier
+%\kevinComment{"resizebox" use below causes some very large fonts.  Is there a bounded version that only shrinks but doesn't expand?}
+
+
+\subfile{includeTex/PRL_Table_Var_Xsec}
+
+\subsection{Tables of Ratios of cross sections}
+\FloatBarrier
+\subfile{includeTex/PRL_Table_Var_Ratio}
+\fi % if \prloOly=0
+
+\end{document}
