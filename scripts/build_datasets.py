@@ -1113,6 +1113,72 @@ def build_csv_simple(spec):
     return dists
 
 
+def _bins_from_csv(path):
+    rows = [l.strip().split(',') for l in open(_flux_open(path)) if l.strip()][1:]
+    return [{'i': i, 'lo': float(r[0]), 'hi': float(r[1]), 'center': 0.5 * (float(r[0]) + float(r[1])),
+             'val': float(r[2]), 'err': float(r[3])} for i, r in enumerate(rows)]
+
+
+def build_grouped_dist(ds, src, url, prov):
+    """Build one distribution from a recipe spec whose 'kind' is 1d / 2d (slices) / 3d (panels).
+    2d: ds['slices']=[{label_tex,label,lo,hi,csv}]; 3d: ds['panels']=[{label_tex,label,lo,hi,
+    series:[{label_tex,label,lo,hi,csv}]}]. Each csv is a lo,hi,val,err file."""
+    xl, yl = ds['xlabel'], ds['ylabel']; yu = ds.get('yunit', ''); xu = ds.get('xunit', '')
+    lab = ds.get('label', '')
+    base = {'key': ds['slug'], 'slug': ds['slug'],
+            'name': plotify(yl) + (f' ({lab})' if lab else ''),
+            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
+            'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+            'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+            'nuisance_file': '', 'scale_note': None, 'source': src, 'source_url': url, 'provenance': prov}
+
+    def mkslice(s):
+        b = _bins_from_csv(s['csv']); _clip_wide_ends(b)
+        return {'label_tex': s['label_tex'], 'label': plotify(s.get('label') or strip_tex(s['label_tex'])),
+                'lo': s['lo'], 'hi': s['hi'], 'nbins': len(b), 'bins': b, 'scale_note': None}
+    kind = ds['kind']
+    if kind == '1d':
+        b = _bins_from_csv(ds['csv']); _clip_wide_ends(b)
+        base.update(nbins=len(b), is2d=False, bins=b)
+    elif kind == '2d':
+        sl = [mkslice(s) for s in ds['slices']]
+        base.update(nbins=sum(s['nbins'] for s in sl), is2d=True, bins=[],
+                    slicevar_tex=ds.get('slicevar_tex', ''), slices=sl)
+    elif kind == '3d':
+        pans = []; tot = 0
+        for p in ds['panels']:
+            sers = [mkslice(s) for s in p['series']]
+            tot += sum(s['nbins'] for s in sers)
+            pans.append({'label_tex': p['label_tex'], 'label': plotify(p.get('label') or strip_tex(p['label_tex'])),
+                         'lo': p['lo'], 'hi': p['hi'], 'series': sers})
+        base.update(nbins=tot, is2d=False, is3d=True, bins=[],
+                    panelvar_tex=ds.get('panelvar_tex', ''), slicevar_tex=ds.get('slicevar_tex', ''), panels=pans)
+    return base
+
+
+def strip_tex(s):
+    return plotify(s.replace('$', ''))
+
+
+def build_grouped(spec):
+    """A release of mixed 1d/2d/3d distributions (recipe-driven). Optional 'cov' = full NxN
+    covariance CSV over all bins concatenated in distribution order (slice/panel/series order)."""
+    dists = [build_grouped_dist(ds, spec['source'], spec['source_url'], spec['provenance'])
+             for ds in spec['distributions']]
+    if spec.get('cov') and dists:
+        def flat(d):
+            if d.get('panels'):
+                return [b for p in d['panels'] for s in p['series'] for b in s['bins']]
+            if d.get('slices'):
+                return [b for s in d['slices'] for b in s['bins']]
+            return d['bins']
+        M = _txt_matrix(spec['cov']); M = 0.5 * (M + M.T)
+        order = [f"{d['key']} [{b['lo']:g},{b.get('hi_true', b['hi']):g}]" for d in dists for b in flat(d)]
+        dists[0]['_release_cov'] = _cov_obj(M, order, spec.get('cov_note', 'covariance over all bins; row/col order below'))
+    return dists
+
+
 def build_3d_panels(spec):
     """Triple-differential cross section shown MINERvA-style: one PANEL per outer-variable
     slice, each panel overlaying several coloured SERIES (the middle variable) vs the x
@@ -2406,6 +2472,8 @@ def build(entry):
             dists.extend(build_csv_simple(src['csv_simple']))
         elif '3d_panels' in src:
             dists.extend(build_3d_panels(src['3d_panels']))
+        elif 'grouped' in src:
+            dists.extend(build_grouped(src['grouped']))
         elif 'uboone_datarelease' in src:
             dists.extend(build_uboone_datarelease(src['uboone_datarelease']))
         elif 'minerva_csv2' in src:
@@ -2474,6 +2542,16 @@ def build(entry):
 # extraction. Each has ready-to-use csv_simple items pointing at vendored lo,hi,val,err CSVs.
 for _rp in sorted(glob.glob(os.path.join(ROOT_DIR, 'data', 'datasets', 'recipes', '*.json'))):
     _r = json.load(open(_rp))
+    if _r.get('distributions'):        # grouped recipe: mixed 1d/2d/3d distributions
+        _g = {'distributions': _r['distributions'], 'source': _r.get('source', 'arXiv'),
+              'source_url': _r['source_url'], 'provenance': _r['provenance']}
+        if _r.get('cov'):
+            _g['cov'] = _r['cov']
+            if _r.get('cov_note'):
+                _g['cov_note'] = _r['cov_note']
+        REGISTRY.append({'bibtag': _r['bibtag'], 'slug': _r['slug'], 'source': _r.get('source', 'arXiv'),
+                         'note': _r['note'], 'sources': [{'grouped': _g}]})
+        continue
     _spec = {
         'key': _r.get('key', 'dsigma'), 'items': _r['items'],
         'source': _r.get('source', 'arXiv'), 'source_url': _r['source_url'], 'provenance': _r['provenance'],
