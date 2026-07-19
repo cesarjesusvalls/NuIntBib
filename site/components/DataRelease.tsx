@@ -117,6 +117,75 @@ function plotSVG(bins: DataBin[], logy: boolean, xcat = false): string {
   return s;
 }
 
+// distinct series colours for the triple-differential overlay (readable on both themes)
+const PALETTE = ['#0ea5e9', '#f97316', '#10b981', '#e11d48', '#8b5cf6', '#eab308', '#06b6d4', '#ec4899', '#84cc16', '#94a3b8'];
+
+// Triple-differential: several coloured SERIES overlaid vs the x variable in one panel.
+function plotSVGMulti(series: { bins: DataBin[] }[], logy: boolean): string {
+  const W = 560, H = 360, mL = 58, mR = 14, mT = 14, mB = 38;
+  const all = series.flatMap((s) => s.bins);
+  if (!all.length) return '';
+  const xmin = Math.min(...all.map((b) => b.lo));
+  const xmax = Math.max(...all.map((b) => b.hi));
+  const vmax = Math.max(...all.map((b) => b.val + b.err));
+  const vmin = Math.min(...all.map((b) => Math.max(b.val - b.err, 0)));
+  const iw = W - mL - mR, ih = H - mT - mB;
+  const X = (v: number) => mL + ((v - xmin) / (xmax - xmin || 1)) * iw;
+  let Y: (v: number) => number;
+  let yticks: number[] = [];
+  if (logy) {
+    const lo = Math.max(vmin, vmax / 1e4) || 1e-4, hi = vmax * 1.3;
+    const l = Math.log10(lo), u = Math.log10(hi);
+    Y = (v) => { v = Math.max(v, lo); return mT + ih - ((Math.log10(v) - l) / (u - l || 1)) * ih; };
+    for (let e = Math.floor(l); e <= Math.ceil(u); e++) yticks.push(Math.pow(10, e));
+    yticks = yticks.filter((t) => t >= lo * 0.999 && t <= hi);
+  } else {
+    const hi = vmax * 1.12;
+    Y = (v) => mT + ih - (v / hi) * ih;
+    for (let i = 0; i <= 5; i++) yticks.push((hi * i) / 5);
+  }
+  const xticks: number[] = [];
+  for (let i = 0; i <= 5; i++) xticks.push(xmin + ((xmax - xmin) * i) / 5);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="triple-differential cross-section plot">`;
+  s += `<rect x="${mL}" y="${mT}" width="${iw}" height="${ih}" fill="none" stroke="var(--line)"/>`;
+  for (const t of yticks) {
+    const y = Y(t);
+    s += `<line x1="${mL}" y1="${y.toFixed(1)}" x2="${mL + iw}" y2="${y.toFixed(1)}" stroke="var(--line-soft)"/>`;
+    s += `<text x="${mL - 8}" y="${(y + 4).toFixed(1)}" text-anchor="end" font-family="var(--dr-mono)" font-size="13" fill="var(--muted)">${fmt(t)}</text>`;
+  }
+  for (const t of xticks) {
+    const x = X(t);
+    s += `<line x1="${x.toFixed(1)}" y1="${mT + ih}" x2="${x.toFixed(1)}" y2="${mT + ih + 4}" stroke="var(--muted)"/>`;
+    s += `<text x="${x.toFixed(1)}" y="${mT + ih + 18}" text-anchor="middle" font-family="var(--dr-mono)" font-size="13" fill="var(--muted)">${fmt(t)}</text>`;
+  }
+  series.forEach((se, si) => {
+    const col = PALETTE[si % PALETTE.length];
+    const bins = se.bins;
+    if (!bins.length) return;
+    const line = bins.map((b) => `${X(b.center).toFixed(1)},${Y(Math.max(b.val, logy ? 1e-9 : 0)).toFixed(1)}`).join(' ');
+    s += `<polyline points="${line}" fill="none" stroke="${col}" stroke-width="1.4" stroke-opacity=".9"/>`;
+    for (const b of bins) {
+      const x = X(b.center), yv = Y(b.val);
+      const yhi = Y(b.val + b.err), ylo = Y(Math.max(b.val - b.err, logy ? 1e-9 : 0));
+      s += `<line x1="${x.toFixed(1)}" y1="${yhi.toFixed(1)}" x2="${x.toFixed(1)}" y2="${ylo.toFixed(1)}" stroke="${col}" stroke-width="1" stroke-opacity=".7"/>`;
+      s += `<circle cx="${x.toFixed(1)}" cy="${yv.toFixed(1)}" r="2.2" fill="${col}"/>`;
+    }
+  });
+  s += `</svg>`;
+  return s;
+}
+
+// index of the panel with the most total bins — the default view / sparkline source
+function fatPanel(d: Distribution): number {
+  const ps = d.panels ?? [];
+  let best = 0, bn = -1;
+  for (let i = 0; i < ps.length; i++) {
+    const n = ps[i].series.reduce((a, s) => a + s.nbins, 0);
+    if (n > bn) { bn = n; best = i; }
+  }
+  return best;
+}
+
 function triggerDownload(uri: string, filename: string) {
   const a = document.createElement('a');
   a.href = uri;
@@ -134,14 +203,16 @@ function distCsv(d: Distribution): string {
       `"${b.cat ?? ''}",${b.val},${(b.err_up ?? b.err).toPrecision(6)},${(b.err_down ?? b.err).toPrecision(6)}`);
     return `# ${strip(d.name)}  [${d.yunit}]\n# ${d.provenance}\ncategory,value,error_up,error_down\n${rows.join('\n')}\n`;
   }
-  const head = d.is2d ? 'slice,x_low,x_high,x_center,value,error'
+  const head = d.is3d ? 'panel,series,x_low,x_high,x_center,value,error'
+             : d.is2d ? 'slice,x_low,x_high,x_center,value,error'
                       : 'x_low,x_high,x_center,value,error';
   const rows: string[] = [];
-  const push = (slice: string, b: DataBin) =>
-    rows.push([...(d.is2d ? [`"${slice}"`] : []),
-      b.lo, b.hi_true ?? b.hi, b.center, b.val, b.err.toPrecision(6)].join(','));
-  if (d.is2d && d.slices) for (const s of d.slices) for (const b of s.bins) push(s.label, b);
-  else for (const b of d.bins) push('', b);
+  const push = (pre: string[], b: DataBin) =>
+    rows.push([...pre, b.lo, b.hi_true ?? b.hi, b.center, b.val, b.err.toPrecision(6)].join(','));
+  if (d.is3d && d.panels)
+    for (const p of d.panels) for (const s of p.series) for (const b of s.bins) push([`"${p.label}"`, `"${s.label}"`], b);
+  else if (d.is2d && d.slices) for (const s of d.slices) for (const b of s.bins) push([`"${s.label}"`], b);
+  else for (const b of d.bins) push([], b);
   return `# ${strip(d.name)}  [${d.yunit}]\n# ${d.provenance}\n${head}\n${rows.join('\n')}\n`;
 }
 function covCsv(release: Release): string {
@@ -248,6 +319,7 @@ export function DataRelease({ release }: { release: Release }) {
   const [open, setOpen] = useState<Set<string>>(new Set());
   const [mode, setMode] = useState<Record<string, 'lin' | 'log'>>({});
   const [slice, setSlice] = useState<Record<string, number>>({});
+  const [panelSel, setPanelSel] = useState<Record<string, number>>({});
   const [copied, setCopied] = useState<string | null>(null);
 
   const toggle = (k: string) =>
@@ -289,9 +361,13 @@ export function DataRelease({ release }: { release: Release }) {
           const isOpen = open.has(d.key);
           const logy = mode[d.key] === 'log';
           const is2d = !!d.is2d && !!d.slices?.length;
+          const is3d = !!d.is3d && !!d.panels?.length;
           const si = is2d ? (slice[d.key] ?? fatSlice(d)) : 0;
+          const pI = is3d ? (panelSel[d.key] ?? fatPanel(d)) : 0;
+          const activePanel = is3d ? d.panels![pI] : null;
           const activeBins = is2d ? d.slices![si].bins : d.bins;
           const activeNote = is2d ? d.slices![si].scale_note : null;
+          const headBins = is3d ? d.panels![fatPanel(d)].series[0].bins : is2d ? d.slices![fatSlice(d)].bins : d.bins;
           const axunit = (h: string) => (h ? ` <span class="dr-axunit">[${h}]</span>` : '');
           const xlabHtml = d.xlabelHtml + axunit(d.xunitHtml);
           const ylabHtml = d.ylabelHtml + axunit(d.yunitHtml);
@@ -306,7 +382,8 @@ export function DataRelease({ release }: { release: Release }) {
                 <span className="dr-item-title">
                   <span className="t" dangerouslySetInnerHTML={{ __html: d.nameHtml }} />
                   <span className="s">
-                    {is2d ? `${d.slices!.length} slices · ${d.nbins} points` : `${d.nbins} bins`} ·{' '}
+                    {is3d ? `${d.panels!.length} panels · ${d.nbins} points`
+                      : is2d ? `${d.slices!.length} slices · ${d.nbins} points` : `${d.nbins} bins`} ·{' '}
                     <span dangerouslySetInnerHTML={{ __html: d.ylabelHtml }} />{' '}
                     <span dangerouslySetInnerHTML={{ __html: d.yunitHtml }} />
                   </span>
@@ -314,7 +391,7 @@ export function DataRelease({ release }: { release: Release }) {
                 <span
                   className="dr-spark-wrap"
                   aria-hidden="true"
-                  dangerouslySetInnerHTML={{ __html: sparkline(is2d ? d.slices![fatSlice(d)].bins : d.bins) }}
+                  dangerouslySetInnerHTML={{ __html: sparkline(headBins) }}
                 />
                 <svg className="dr-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M9 6l6 6-6 6" />
@@ -352,6 +429,30 @@ export function DataRelease({ release }: { release: Release }) {
                       ))}
                     </div>
                   )}
+                  {is3d && (
+                    <>
+                      <div className="dr-slices">
+                        <span className="dr-slices-lbl">{d.panelvar_tex ? `${strip(d.panelvar_tex)} panel:` : 'panel:'}</span>
+                        {d.panels!.map((p, k) => (
+                          <button
+                            key={k}
+                            className={`dr-slice-btn${k === pI ? ' on' : ''}`}
+                            onClick={() => setPanelSel((m) => ({ ...m, [d.key]: k }))}
+                            dangerouslySetInnerHTML={{ __html: p.labelHtml }}
+                          />
+                        ))}
+                      </div>
+                      <div className="dr-legend">
+                        <span className="dr-slices-lbl">{d.slicevar_tex ? strip(d.slicevar_tex) : 'series'}:</span>
+                        {activePanel!.series.map((se, k) => (
+                          <span key={k} className="dr-leg-item">
+                            <span className="dr-leg-swatch" style={{ background: PALETTE[k % PALETTE.length] }} />
+                            <span dangerouslySetInnerHTML={{ __html: se.labelHtml }} />
+                          </span>
+                        ))}
+                      </div>
+                    </>
+                  )}
                   <div className="dr-bodygrid">
                     <div>
                       {d.xcat ? null : (
@@ -376,7 +477,7 @@ export function DataRelease({ release }: { release: Release }) {
                         </div>
                         <div
                           className="dr-plot-canvas"
-                          dangerouslySetInnerHTML={{ __html: plotSVG(activeBins, logy, d.xcat) }}
+                          dangerouslySetInnerHTML={{ __html: is3d ? plotSVGMulti(activePanel!.series, logy) : plotSVG(activeBins, logy, d.xcat) }}
                         />
                         {d.xcat ? (
                           <div
@@ -399,31 +500,44 @@ export function DataRelease({ release }: { release: Release }) {
                         <table className="dr-data">
                           <thead>
                             <tr>
-                              {!d.xcat && <th>bin</th>}
+                              {is3d ? <th>{d.slicevar_tex ? strip(d.slicevar_tex) : 'series'}</th> : (!d.xcat && <th>bin</th>)}
                               <th>{d.xcat ? 'x' : 'x range'}</th>
                               <th>value</th>
                               <th>± err</th>
                             </tr>
                           </thead>
                           <tbody>
-                            {activeBins.map((b) => (
-                              <tr key={b.i}>
-                                {!d.xcat && <td>{b.i}</td>}
-                                <td className={d.xcat ? 'dr-xcat-x' : undefined}>
-                                  {d.xcat ? (
-                                    <span dangerouslySetInnerHTML={{ __html: b.catHtml ?? '' }} />
-                                  ) : (
-                                    `${sig(b.lo, 6)}, ${sig(b.hi_true ?? b.hi, 6)}`
-                                  )}
-                                </td>
-                                <td>{sig(b.val, 4)}</td>
-                                <td>
-                                  {b.err_up != null && b.err_down != null && b.err_up !== b.err_down
-                                    ? `+${sig(b.err_up, 3)} −${sig(b.err_down, 3)}`
-                                    : sig(b.err, 3)}
-                                </td>
-                              </tr>
-                            ))}
+                            {is3d
+                              ? activePanel!.series.flatMap((se, k) =>
+                                  se.bins.map((b) => (
+                                    <tr key={`${k}-${b.i}`}>
+                                      <td className="dr-ser-cell">
+                                        <span className="dr-leg-swatch" style={{ background: PALETTE[k % PALETTE.length] }} />
+                                        <span dangerouslySetInnerHTML={{ __html: se.labelHtml }} />
+                                      </td>
+                                      <td>{`${sig(b.lo, 6)}, ${sig(b.hi_true ?? b.hi, 6)}`}</td>
+                                      <td>{sig(b.val, 4)}</td>
+                                      <td>{sig(b.err, 3)}</td>
+                                    </tr>
+                                  )))
+                              : activeBins.map((b) => (
+                                <tr key={b.i}>
+                                  {!d.xcat && <td>{b.i}</td>}
+                                  <td className={d.xcat ? 'dr-xcat-x' : undefined}>
+                                    {d.xcat ? (
+                                      <span dangerouslySetInnerHTML={{ __html: b.catHtml ?? '' }} />
+                                    ) : (
+                                      `${sig(b.lo, 6)}, ${sig(b.hi_true ?? b.hi, 6)}`
+                                    )}
+                                  </td>
+                                  <td>{sig(b.val, 4)}</td>
+                                  <td>
+                                    {b.err_up != null && b.err_down != null && b.err_up !== b.err_down
+                                      ? `+${sig(b.err_up, 3)} −${sig(b.err_down, 3)}`
+                                      : sig(b.err, 3)}
+                                  </td>
+                                </tr>
+                              ))}
                           </tbody>
                         </table>
                       </div>

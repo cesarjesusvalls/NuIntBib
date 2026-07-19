@@ -36,6 +36,8 @@ def _flatbins(d):
     bins = d.get('bins') or []
     if not bins and d.get('slices'):
         bins = [b for s in d['slices'] for b in s['bins']]
+    if not bins and d.get('panels'):
+        bins = [b for p in d['panels'] for s in p['series'] for b in s['bins']]
     return bins
 
 

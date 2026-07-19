@@ -1113,6 +1113,53 @@ def build_csv_simple(spec):
     return dists
 
 
+def build_3d_panels(spec):
+    """Triple-differential cross section shown MINERvA-style: one PANEL per outer-variable
+    slice, each panel overlaying several coloured SERIES (the middle variable) vs the x
+    variable. Reads a glob of lo,hi,val,err CSVs whose filenames encode the panel and series
+    ranges (panel_re / series_re, each capturing lo,hi with 'p' as the decimal point)."""
+    files = sorted(glob.glob(os.path.join(ROOT_DIR, spec['glob'])))
+    prx, srx = re.compile(spec['panel_re']), re.compile(spec['series_re'])
+
+    def rng(m):
+        return (float(m.group(1).replace('p', '.')), float(m.group(2).replace('p', '.')))
+
+    def read(path):
+        rows = [l.strip().split(',') for l in open(path) if l.strip()][1:]
+        return [{'i': i, 'lo': float(r[0]), 'hi': float(r[1]), 'center': 0.5 * (float(r[0]) + float(r[1])),
+                 'val': float(r[2]), 'err': float(r[3])} for i, r in enumerate(rows)]
+    panels = {}
+    total = 0
+    for f in files:
+        pm, sm = prx.search(f), srx.search(f)
+        if not (pm and sm):
+            continue
+        plo, phi = rng(pm); slo, shi = rng(sm)
+        bins = read(f); total += len(bins)
+        ser = {'label_tex': '$' + spec['series_label'].format(lo=f'{slo:g}', hi=f'{shi:g}') + '$',
+               'label': plotify(spec['series_label'].format(lo=f'{slo:g}', hi=f'{shi:g}')),
+               'lo': slo, 'hi': shi, 'nbins': len(bins), 'bins': bins, 'scale_note': None}
+        panels.setdefault((plo, phi), []).append(ser)
+    plist = []
+    for (plo, phi), sers in sorted(panels.items()):
+        sers.sort(key=lambda s: s['lo'])
+        plist.append({'label_tex': '$' + spec['panel_label'].format(lo=f'{plo:g}', hi=f'{phi:g}') + '$',
+                      'label': plotify(spec['panel_label'].format(lo=f'{plo:g}', hi=f'{phi:g}')),
+                      'lo': plo, 'hi': phi, 'series': sers})
+    xl, yl = spec['xlabel'], spec['ylabel']; yu = spec.get('yunit', ''); xu = spec.get('xunit', '')
+    key = spec.get('key', 'd3sigma')
+    return [{
+        'key': key, 'slug': key, 'name': plotify(yl), 'name_tex': f'${yl}$',
+        'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
+        'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
+        'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
+        'nbins': total, 'is2d': False, 'is3d': True, 'bins': [],
+        'panelvar_tex': spec['panelvar_tex'], 'slicevar_tex': spec['slicevar_tex'], 'panels': plist,
+        'nuisance_file': '', 'scale_note': None,
+        'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+    }]
+
+
 def build_uboone_concat(spec):
     """MicroBooNE Wiener-SVD release where several 1D differential cross sections are
     CONCATENATED into one long vector: a TMatrix of unfolded values WITHOUT bin-width
@@ -1428,6 +1475,38 @@ def _tki_items(slugs):
 
 
 REGISTRY = [
+    {'bibtag': 'NOvA:2026zup', 'slug': 'nova-2026zup', 'source': 'arXiv',
+     'note': 'Muon-antineutrino CC-inclusive cross sections at NOvA (NuMI, antineutrino mode). '
+             'The primary result is the triple-differential d3sigma/dTmu dcos(theta_mu) dEavail '
+             '(shown as E_avail panels, each overlaying the cos(theta_mu) slices as coloured '
+             'lines); the two single-differential projections dsigma/dEnu and dsigma/dQ^2 are '
+             'also included. Per nucleon; per-bin total uncertainty; no covariance published.',
+     'sources': [
+         {'csv_simple': {
+             'key': 'dsigma',
+             'items': [
+                 {'slug': 'denu', 'label': '', 'csv': 'data/datasets/sources/nova-2026zup/dsigma_denu.csv',
+                  'xlabel': r'E_\nu', 'xunit': 'GeV', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_\nu',
+                  'yunit': r'10^{-39}cm^2/GeV/nucleon'},
+                 {'slug': 'dq2', 'label': '', 'csv': 'data/datasets/sources/nova-2026zup/dsigma_dq2.csv',
+                  'xlabel': r'Q^2', 'xunit': 'GeV^2', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}Q^2',
+                  'yunit': r'10^{-38}cm^2/GeV^2/nucleon'}],
+             'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2603.06718',
+             'provenance': 'NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino '
+                           'mode, arXiv:2603.06718) · per nucleon · from the paper tables · no covariance'}},
+         {'3d_panels': {
+             'glob': 'data/datasets/sources/nova-2026zup/d3sigma_*.csv',
+             'panel_re': r'eavail_([0-9p]+)-([0-9p]+)', 'series_re': r'cosmu_([0-9p]+)-([0-9p]+)',
+             'panel_label': r'{lo} < E_\mathrm{{avail}} < {hi}\ \mathrm{{GeV}}',
+             'series_label': r'{lo} < \cos\theta_\mu < {hi}',
+             'panelvar_tex': r'$E_\mathrm{avail}$', 'slicevar_tex': r'$\cos\theta_\mu$',
+             'key': 'd3sigma', 'xlabel': r'T_\mu', 'xunit': 'GeV',
+             'ylabel': r'\mathrm{d}^3\sigma/\mathrm{d}T_\mu\,\mathrm{d}\cos\theta_\mu\,\mathrm{d}E_\mathrm{avail}',
+             'yunit': r'10^{-39}cm^2/GeV^2/nucleon',
+             'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2603.06718',
+             'provenance': 'NOvA numubar CC-inclusive triple-differential d3sigma/dTmu dcos(theta_mu) '
+                           'dEavail (NuMI antineutrino mode, arXiv:2603.06718) · per nucleon · from the '
+                           'paper release · E_avail panels x cos(theta_mu) series'}}]},
     {'bibtag': 'ArgoNeuT:2014rlj', 'slug': 'argoneut-2014rlj', 'source': 'arXiv',
      'note': 'Inclusive numu and antinumu CC differential cross sections on argon (per argon '
              'nucleus), Fermilab NuMI low-energy antineutrino mode: dsigma/dtheta_mu and '
@@ -2325,6 +2404,8 @@ def build(entry):
             dists.extend(build_uboone_files(src['uboone_files']))
         elif 'csv_simple' in src:
             dists.extend(build_csv_simple(src['csv_simple']))
+        elif '3d_panels' in src:
+            dists.extend(build_3d_panels(src['3d_panels']))
         elif 'uboone_datarelease' in src:
             dists.extend(build_uboone_datarelease(src['uboone_datarelease']))
         elif 'minerva_csv2' in src:

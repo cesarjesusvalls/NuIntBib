@@ -32,6 +32,17 @@ export type Slice = {
   scale_note: string | null;
 };
 
+// 3-D (triple-differential) measurements: panels of the outer variable, each holding
+// several series (the middle variable) drawn as overlaid coloured lines vs the x variable.
+export type Panel = {
+  label_tex: string;
+  label: string;
+  labelHtml: string;   // added at build time
+  lo: number;
+  hi: number;
+  series: Slice[];     // the coloured lines in this panel (the middle/3rd variable)
+};
+
 export type Distribution = {
   key: string;
   name: string;
@@ -58,6 +69,10 @@ export type Distribution = {
   is2d?: boolean;
   slicevar_tex?: string;
   slices?: Slice[];
+  // 3-D (triple-differential): panels of the outer variable, each with coloured series
+  is3d?: boolean;
+  panelvar_tex?: string;   // the panel (outer) variable label, e.g. E_avail
+  panels?: Panel[];
   // single flux-averaged value(s): x is a category label (xlabel), no numeric axis
   xcat?: boolean;
   source: string;
@@ -115,6 +130,10 @@ export function getDataRelease(slug: string): DataRelease | null {
         d.xunitHtml = unitHtml(d.xunit);
         d.yunitHtml = unitHtml(d.yunit);
         if (d.slices) for (const s of d.slices) s.labelHtml = texToHtml(s.label_tex);
+        if (d.panels) for (const p of d.panels) {
+          p.labelHtml = texToHtml(p.label_tex);
+          for (const s of p.series) s.labelHtml = texToHtml(s.label_tex);
+        }
         if (d.xcat) for (const b of d.bins) b.catHtml = texToHtml(b.cat_tex ?? '');
       }
       return release;

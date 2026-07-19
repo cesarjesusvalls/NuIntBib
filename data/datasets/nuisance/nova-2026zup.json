@@ -5,11 +5,11 @@
  "source_url": "https://arxiv.org/abs/2603.06718",
  "arxiv": "2603.06718",
  "cite": "",
- "note": "Muon-antineutrino CC-inclusive cross sections at NOvA (NuMI, antineutrino mode). This release ingests the two single-differential projections dsigma/dEnu and dsigma/dQ^2 (per nucleon); the paper's primary triple-differential d3sigma/dTmu dcos(theta_mu) dEavail (48 slices) is not ingested here pending 2D/3D support. Per-bin total uncertainty; no covariance published.",
+ "note": "Muon-antineutrino CC-inclusive cross sections at NOvA (NuMI, antineutrino mode). The primary result is the triple-differential d3sigma/dTmu dcos(theta_mu) dEavail (shown as E_avail panels, each overlaying the cos(theta_mu) slices as coloured lines); the two single-differential projections dsigma/dEnu and dsigma/dQ^2 are also included. Per nucleon; per-bin total uncertainty; no covariance published.",
  "distributions": [
   {
-   "key": "dsigma_dsigma_denu",
-   "slug": "dsigma_dsigma_denu",
+   "key": "dsigma_denu",
+   "slug": "dsigma_denu",
    "name": "d\u03c3/dE_\u03bd",
    "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}E_\\nu$",
    "xlabel": "E_\u03bd",
@@ -100,12 +100,12 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.06718",
-   "provenance": "NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 values transcribed from the paper tables \u00b7 triple-differential deferred \u00b7 no covariance",
-   "notes": "Per nucleon. Values transcribed from the paper tables. Triple-differential deferred. No covariance."
+   "provenance": "NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 from the paper tables \u00b7 no covariance",
+   "notes": "Per nucleon. From the paper tables. No covariance."
   },
   {
-   "key": "dsigma_dsigma_dq2",
-   "slug": "dsigma_dsigma_dq2",
+   "key": "dsigma_dq2",
+   "slug": "dsigma_dq2",
    "name": "d\u03c3/dQ\u00b2",
    "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
    "xlabel": "Q\u00b2",
@@ -181,8 +181,4228 @@
    "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.06718",
-   "provenance": "NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 values transcribed from the paper tables \u00b7 triple-differential deferred \u00b7 no covariance",
-   "notes": "Per nucleon. Values transcribed from the paper tables. Triple-differential deferred. No covariance."
+   "provenance": "NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 from the paper tables \u00b7 no covariance",
+   "notes": "Per nucleon. From the paper tables. No covariance."
+  },
+  {
+   "key": "d3sigma",
+   "slug": "d3sigma",
+   "name": "d\u00b3\u03c3/dT_\u03bc dcos\u03b8_\u03bc dE_avail",
+   "name_tex": "$\\mathrm{d}^3\\sigma/\\mathrm{d}T_\\mu\\,\\mathrm{d}\\cos\\theta_\\mu\\,\\mathrm{d}E_\\mathrm{avail}$",
+   "xlabel": "T_\u03bc",
+   "xunit": "GeV",
+   "xlabel_tex": "$T_\\mu$",
+   "ylabel": "d\u00b3\u03c3/dT_\u03bc dcos\u03b8_\u03bc dE_avail",
+   "ylabel_plot": "d\u00b3\u03c3/dT_\u03bc dcos\u03b8_\u03bc dE_avail",
+   "ylabel_tex": "$\\mathrm{d}^3\\sigma/\\mathrm{d}T_\\mu\\,\\mathrm{d}\\cos\\theta_\\mu\\,\\mathrm{d}E_\\mathrm{avail}$",
+   "yunit": "10^{-39}cm^2/GeV^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/GeV^2/nucleon$",
+   "nbins": 459,
+   "is2d": false,
+   "is3d": true,
+   "bins": [],
+   "panelvar_tex": "$E_\\mathrm{avail}$",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "panels": [
+    {
+     "label_tex": "$0 < E_\\mathrm{avail} < 0.1\\ \\mathrm{GeV}$",
+     "label": "0 < E_avail < 0.1 GeV",
+     "lo": 0.0,
+     "hi": 0.1,
+     "series": [
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.74$",
+       "label": "0.5 < cos\u03b8_\u03bc < 0.74",
+       "lo": 0.5,
+       "hi": 0.74,
+       "nbins": 3,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 3.89619,
+         "err": 0.801289
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 4.3014,
+         "err": 0.909684
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 5.07854,
+         "err": 1.18512
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.74 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.74 < cos\u03b8_\u03bc < 0.8",
+       "lo": 0.74,
+       "hi": 0.8,
+       "nbins": 5,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 6.51137,
+         "err": 1.35837
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 8.92861,
+         "err": 1.75778
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 11.138,
+         "err": 2.8195
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 13.3123,
+         "err": 2.52766
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 14.8141,
+         "err": 3.57159
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.85$",
+       "label": "0.8 < cos\u03b8_\u03bc < 0.85",
+       "lo": 0.8,
+       "hi": 0.85,
+       "nbins": 7,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 8.97952,
+         "err": 1.63859
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 12.7294,
+         "err": 1.88189
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 15.333,
+         "err": 2.14865
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 19.5789,
+         "err": 2.7879
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 23.3484,
+         "err": 4.00241
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 26.9582,
+         "err": 4.51287
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 26.6079,
+         "err": 5.29992
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.85 < \\cos\\theta_\\mu < 0.88$",
+       "label": "0.85 < cos\u03b8_\u03bc < 0.88",
+       "lo": 0.85,
+       "hi": 0.88,
+       "nbins": 9,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 10.108,
+         "err": 1.57434
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 14.0971,
+         "err": 2.67341
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 19.053,
+         "err": 4.97675
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 26.3491,
+         "err": 5.01665
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 32.9679,
+         "err": 5.2701
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 40.7778,
+         "err": 7.32767
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 43.898,
+         "err": 7.06245
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 47.1771,
+         "err": 7.09996
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 39.4107,
+         "err": 7.72452
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.88 < \\cos\\theta_\\mu < 0.91$",
+       "label": "0.88 < cos\u03b8_\u03bc < 0.91",
+       "lo": 0.88,
+       "hi": 0.91,
+       "nbins": 10,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 10.4724,
+         "err": 1.91265
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 15.433,
+         "err": 2.7299
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 22.0424,
+         "err": 2.92589
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 29.6655,
+         "err": 5.48001
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 42.7396,
+         "err": 5.74153
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 57.4999,
+         "err": 7.56484
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 68.3226,
+         "err": 9.05175
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 75.6561,
+         "err": 9.84259
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 69.8594,
+         "err": 9.54587
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 58.2131,
+         "err": 11.7675
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.91 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.91 < cos\u03b8_\u03bc < 0.94",
+       "lo": 0.91,
+       "hi": 0.94,
+       "nbins": 13,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 11.0049,
+         "err": 2.0881
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 17.1612,
+         "err": 2.99599
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 24.6629,
+         "err": 3.50465
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 37.1951,
+         "err": 5.04651
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 49.307,
+         "err": 7.09794
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 70.2564,
+         "err": 10.203
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 93.4993,
+         "err": 13.9904
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 107.171,
+         "err": 12.1052
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 120.185,
+         "err": 14.5509
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 117.036,
+         "err": 16.7635
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 102.494,
+         "err": 13.6075
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 74.1256,
+         "err": 11.4154
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 46.5325,
+         "err": 8.76735
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 0.96$",
+       "label": "0.94 < cos\u03b8_\u03bc < 0.96",
+       "lo": 0.94,
+       "hi": 0.96,
+       "nbins": 14,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 11.0913,
+         "err": 1.99128
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 16.3672,
+         "err": 2.66482
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 28.068,
+         "err": 4.39289
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 41.3313,
+         "err": 6.15994
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 59.9896,
+         "err": 9.30562
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 82.2772,
+         "err": 11.4404
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 111.887,
+         "err": 15.337
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 145.146,
+         "err": 19.3786
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 175.69,
+         "err": 22.7757
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 198.746,
+         "err": 23.6033
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 188.208,
+         "err": 23.6985
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 157.062,
+         "err": 22.1773
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 116.812,
+         "err": 16.5995
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 73.9185,
+         "err": 14.1315
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.96 < \\cos\\theta_\\mu < 0.98$",
+       "label": "0.96 < cos\u03b8_\u03bc < 0.98",
+       "lo": 0.96,
+       "hi": 0.98,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 11.5677,
+         "err": 2.16588
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 17.1379,
+         "err": 2.68431
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 23.9552,
+         "err": 4.0258
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 36.8541,
+         "err": 5.66072
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 64.1444,
+         "err": 8.04089
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 89.8372,
+         "err": 12.925
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 129.284,
+         "err": 16.5539
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 177.005,
+         "err": 21.3694
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 229.752,
+         "err": 26.7504
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 288.794,
+         "err": 32.1594
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 316.782,
+         "err": 34.5934
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 295.604,
+         "err": 35.061
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 244.092,
+         "err": 31.7142
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 196.308,
+         "err": 27.7731
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 143.965,
+         "err": 20.7523
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 92.1027,
+         "err": 15.1959
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.98 < \\cos\\theta_\\mu < 0.99$",
+       "label": "0.98 < cos\u03b8_\u03bc < 0.99",
+       "lo": 0.98,
+       "hi": 0.99,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 9.26258,
+         "err": 1.63748
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 15.2041,
+         "err": 2.77886
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 22.631,
+         "err": 3.58333
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 36.8682,
+         "err": 5.81868
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 57.3692,
+         "err": 8.70242
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 77.6319,
+         "err": 11.0661
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 124.113,
+         "err": 15.222
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 175.246,
+         "err": 21.3951
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 247.628,
+         "err": 31.4426
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 334.023,
+         "err": 39.8223
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 387.954,
+         "err": 45.134
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 424.005,
+         "err": 52.3238
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 392.709,
+         "err": 46.4086
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 345.626,
+         "err": 44.5348
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 267.863,
+         "err": 34.9043
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 209.186,
+         "err": 31.9753
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.99 < \\cos\\theta_\\mu < 1$",
+       "label": "0.99 < cos\u03b8_\u03bc < 1",
+       "lo": 0.99,
+       "hi": 1.0,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 8.02944,
+         "err": 1.50927
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 12.7098,
+         "err": 1.9317
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 19.7443,
+         "err": 2.96989
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 30.3381,
+         "err": 4.77099
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 46.9575,
+         "err": 6.59015
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 68.0891,
+         "err": 9.74977
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 103.5,
+         "err": 13.4701
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 141.797,
+         "err": 19.0282
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 209.989,
+         "err": 25.5771
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 285.398,
+         "err": 33.6225
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 355.024,
+         "err": 44.1363
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 396.222,
+         "err": 48.4308
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 391.794,
+         "err": 46.8604
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 369.326,
+         "err": 43.6032
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 314.124,
+         "err": 40.2671
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 262.949,
+         "err": 34.9419
+        }
+       ],
+       "scale_note": null
+      }
+     ]
+    },
+    {
+     "label_tex": "$0.1 < E_\\mathrm{avail} < 0.3\\ \\mathrm{GeV}$",
+     "label": "0.1 < E_avail < 0.3 GeV",
+     "lo": 0.1,
+     "hi": 0.3,
+     "series": [
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.74$",
+       "label": "0.5 < cos\u03b8_\u03bc < 0.74",
+       "lo": 0.5,
+       "hi": 0.74,
+       "nbins": 4,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 1.18935,
+         "err": 0.294782
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 1.3035,
+         "err": 0.347437
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 1.28102,
+         "err": 0.319077
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 1.09009,
+         "err": 0.304219
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.74 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.74 < cos\u03b8_\u03bc < 0.8",
+       "lo": 0.74,
+       "hi": 0.8,
+       "nbins": 5,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.50832,
+         "err": 0.421165
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.10972,
+         "err": 0.553165
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 3.56981,
+         "err": 0.738053
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 3.70527,
+         "err": 0.69052
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 3.56747,
+         "err": 0.784952
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.85$",
+       "label": "0.8 < cos\u03b8_\u03bc < 0.85",
+       "lo": 0.8,
+       "hi": 0.85,
+       "nbins": 7,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.99037,
+         "err": 0.484546
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 4.03574,
+         "err": 0.631034
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 5.26188,
+         "err": 0.807209
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 6.12227,
+         "err": 0.958421
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 6.73744,
+         "err": 1.11622
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 6.76547,
+         "err": 1.1451
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 5.91768,
+         "err": 1.37792
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.85 < \\cos\\theta_\\mu < 0.88$",
+       "label": "0.85 < cos\u03b8_\u03bc < 0.88",
+       "lo": 0.85,
+       "hi": 0.88,
+       "nbins": 9,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 3.32341,
+         "err": 0.521213
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 4.76675,
+         "err": 0.673862
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 6.61646,
+         "err": 0.863614
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 8.7768,
+         "err": 1.1374
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 10.5681,
+         "err": 1.36951
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 11.0562,
+         "err": 1.66425
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 10.484,
+         "err": 1.57773
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 10.5938,
+         "err": 1.85546
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 8.21161,
+         "err": 2.25419
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.88 < \\cos\\theta_\\mu < 0.91$",
+       "label": "0.88 < cos\u03b8_\u03bc < 0.91",
+       "lo": 0.88,
+       "hi": 0.91,
+       "nbins": 10,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 3.46588,
+         "err": 0.544576
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 5.50477,
+         "err": 0.82033
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 7.71882,
+         "err": 1.10348
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 10.4934,
+         "err": 1.45753
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 13.2399,
+         "err": 1.66141
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 15.7156,
+         "err": 1.98338
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 16.9394,
+         "err": 2.11007
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 16.4349,
+         "err": 2.24637
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 15.475,
+         "err": 2.26626
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 10.6904,
+         "err": 2.32396
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.91 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.91 < cos\u03b8_\u03bc < 0.94",
+       "lo": 0.91,
+       "hi": 0.94,
+       "nbins": 13,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 3.51025,
+         "err": 0.624567
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 5.79671,
+         "err": 0.931779
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 8.71608,
+         "err": 1.33303
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 12.3361,
+         "err": 1.68723
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 16.8296,
+         "err": 2.1393
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 21.5006,
+         "err": 2.5818
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 24.859,
+         "err": 2.78821
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 26.5523,
+         "err": 3.23708
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 25.5363,
+         "err": 3.21915
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 21.6594,
+         "err": 3.00371
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 16.6817,
+         "err": 2.51967
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 11.5638,
+         "err": 1.91251
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 6.71533,
+         "err": 1.43901
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 0.96$",
+       "label": "0.94 < cos\u03b8_\u03bc < 0.96",
+       "lo": 0.94,
+       "hi": 0.96,
+       "nbins": 15,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 3.68541,
+         "err": 0.663368
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 5.51411,
+         "err": 0.985536
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 8.99634,
+         "err": 1.45952
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 14.1426,
+         "err": 2.04328
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 19.1452,
+         "err": 2.6159
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 25.5282,
+         "err": 3.12165
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 31.2384,
+         "err": 3.64858
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 34.4895,
+         "err": 4.24827
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 38.4656,
+         "err": 4.84103
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 37.5618,
+         "err": 4.64283
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 32.725,
+         "err": 4.83113
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 24.9641,
+         "err": 4.14763
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 17.5466,
+         "err": 2.75628
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 12.3595,
+         "err": 2.60981
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 7.56234,
+         "err": 2.30384
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.96 < \\cos\\theta_\\mu < 0.98$",
+       "label": "0.96 < cos\u03b8_\u03bc < 0.98",
+       "lo": 0.96,
+       "hi": 0.98,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 3.63987,
+         "err": 0.656432
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 5.88195,
+         "err": 0.923293
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 8.90525,
+         "err": 1.3802
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 14.2932,
+         "err": 1.9314
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 20.1612,
+         "err": 2.72593
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 27.8018,
+         "err": 3.57458
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 35.1621,
+         "err": 4.37128
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 42.6135,
+         "err": 5.20222
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 49.3584,
+         "err": 5.7758
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 52.7542,
+         "err": 6.21968
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 50.776,
+         "err": 6.16106
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 43.2581,
+         "err": 5.46329
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 36.317,
+         "err": 4.74605
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 27.6056,
+         "err": 4.15676
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 20.473,
+         "err": 3.52438
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 13.6486,
+         "err": 2.52173
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.98 < \\cos\\theta_\\mu < 0.99$",
+       "label": "0.98 < cos\u03b8_\u03bc < 0.99",
+       "lo": 0.98,
+       "hi": 0.99,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 3.3421,
+         "err": 0.738576
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 5.25487,
+         "err": 0.93444
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 8.55493,
+         "err": 1.43086
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 13.0251,
+         "err": 2.01349
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 18.4901,
+         "err": 2.88348
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 27.5075,
+         "err": 3.80384
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 37.4427,
+         "err": 5.0345
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 44.5893,
+         "err": 5.65575
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 54.8795,
+         "err": 6.83239
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 61.1854,
+         "err": 7.77368
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 61.0172,
+         "err": 8.06129
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 57.6401,
+         "err": 8.45284
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 51.3342,
+         "err": 6.42457
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 43.6691,
+         "err": 5.69993
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 35.3734,
+         "err": 4.97335
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 27.4841,
+         "err": 4.2804
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.99 < \\cos\\theta_\\mu < 1$",
+       "label": "0.99 < cos\u03b8_\u03bc < 1",
+       "lo": 0.99,
+       "hi": 1.0,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.71151,
+         "err": 0.5401
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 4.7504,
+         "err": 0.818706
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 7.41287,
+         "err": 1.31537
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 11.82,
+         "err": 2.07279
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 18.7494,
+         "err": 2.93526
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 25.1813,
+         "err": 3.48085
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 33.6662,
+         "err": 4.68375
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 42.9008,
+         "err": 5.9595
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 53.609,
+         "err": 7.01777
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 62.1943,
+         "err": 8.06429
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 65.3566,
+         "err": 8.37736
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 64.8941,
+         "err": 8.10626
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 58.1259,
+         "err": 7.13754
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 50.5915,
+         "err": 6.16601
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 43.5197,
+         "err": 5.68596
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 34.9344,
+         "err": 5.06051
+        }
+       ],
+       "scale_note": null
+      }
+     ]
+    },
+    {
+     "label_tex": "$0.3 < E_\\mathrm{avail} < 0.6\\ \\mathrm{GeV}$",
+     "label": "0.3 < E_avail < 0.6 GeV",
+     "lo": 0.3,
+     "hi": 0.6,
+     "series": [
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.74$",
+       "label": "0.5 < cos\u03b8_\u03bc < 0.74",
+       "lo": 0.5,
+       "hi": 0.74,
+       "nbins": 4,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 1.01088,
+         "err": 0.192292
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 1.04922,
+         "err": 0.216404
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 0.928555,
+         "err": 0.226561
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 0.708045,
+         "err": 0.197775
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.74 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.74 < cos\u03b8_\u03bc < 0.8",
+       "lo": 0.74,
+       "hi": 0.8,
+       "nbins": 5,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.0459,
+         "err": 0.312679
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 2.47096,
+         "err": 0.36679
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 2.85164,
+         "err": 0.442826
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 2.69439,
+         "err": 0.429413
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 2.39856,
+         "err": 0.45055
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.85$",
+       "label": "0.8 < cos\u03b8_\u03bc < 0.85",
+       "lo": 0.8,
+       "hi": 0.85,
+       "nbins": 6,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.53168,
+         "err": 0.404489
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.27063,
+         "err": 0.49157
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 4.15812,
+         "err": 0.574871
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 4.52059,
+         "err": 0.613006
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 4.43651,
+         "err": 0.628289
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 4.1413,
+         "err": 0.63076
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.85 < \\cos\\theta_\\mu < 0.88$",
+       "label": "0.85 < cos\u03b8_\u03bc < 0.88",
+       "lo": 0.85,
+       "hi": 0.88,
+       "nbins": 8,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.86021,
+         "err": 0.471647
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.85824,
+         "err": 0.56191
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 5.08516,
+         "err": 0.709321
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 6.05828,
+         "err": 0.809582
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 6.6406,
+         "err": 0.920605
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 6.69976,
+         "err": 0.933307
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 6.21087,
+         "err": 0.952899
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 5.26265,
+         "err": 0.922133
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.88 < \\cos\\theta_\\mu < 0.91$",
+       "label": "0.88 < cos\u03b8_\u03bc < 0.91",
+       "lo": 0.88,
+       "hi": 0.91,
+       "nbins": 10,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.87733,
+         "err": 0.459281
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 4.29264,
+         "err": 0.645917
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 5.75311,
+         "err": 0.819402
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 7.1762,
+         "err": 1.01963
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 8.43582,
+         "err": 1.11287
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 8.72542,
+         "err": 1.1953
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 9.00101,
+         "err": 1.26338
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 8.50744,
+         "err": 1.21477
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 7.58154,
+         "err": 1.24717
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 5.49205,
+         "err": 1.01175
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.91 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.91 < cos\u03b8_\u03bc < 0.94",
+       "lo": 0.91,
+       "hi": 0.94,
+       "nbins": 12,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.85865,
+         "err": 0.496653
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 4.30821,
+         "err": 0.710618
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 6.01157,
+         "err": 0.909331
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 7.94692,
+         "err": 1.17491
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 10.1563,
+         "err": 1.36833
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 11.9266,
+         "err": 1.65782
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 12.867,
+         "err": 1.76198
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 12.7658,
+         "err": 1.86173
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 11.8872,
+         "err": 1.73282
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 9.53402,
+         "err": 1.4846
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 7.24316,
+         "err": 1.21623
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 5.01146,
+         "err": 0.882975
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 0.96$",
+       "label": "0.94 < cos\u03b8_\u03bc < 0.96",
+       "lo": 0.94,
+       "hi": 0.96,
+       "nbins": 14,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.72553,
+         "err": 0.451986
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 4.08245,
+         "err": 0.678491
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 6.16571,
+         "err": 0.935691
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 8.36342,
+         "err": 1.26791
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 10.7153,
+         "err": 1.60872
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 13.3684,
+         "err": 1.86802
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 15.2041,
+         "err": 2.18757
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 16.4466,
+         "err": 2.39943
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 16.6505,
+         "err": 2.59696
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 15.2975,
+         "err": 2.51711
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 12.4202,
+         "err": 2.23906
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 9.9897,
+         "err": 1.58851
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 7.19645,
+         "err": 1.22172
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 5.01821,
+         "err": 1.11549
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.96 < \\cos\\theta_\\mu < 0.98$",
+       "label": "0.96 < cos\u03b8_\u03bc < 0.98",
+       "lo": 0.96,
+       "hi": 0.98,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.66247,
+         "err": 0.465894
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.99604,
+         "err": 0.631852
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 5.88779,
+         "err": 0.960601
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 8.39611,
+         "err": 1.25441
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 10.7199,
+         "err": 1.56725
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 13.7771,
+         "err": 1.96126
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 16.1803,
+         "err": 2.38767
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 17.8642,
+         "err": 2.68739
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 18.6419,
+         "err": 3.05804
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 18.4769,
+         "err": 3.1752
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 16.6988,
+         "err": 2.86962
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 14.2029,
+         "err": 2.5744
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 11.6713,
+         "err": 2.24031
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 9.06796,
+         "err": 1.73965
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 6.52382,
+         "err": 1.38242
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 4.68968,
+         "err": 0.976392
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.98 < \\cos\\theta_\\mu < 0.99$",
+       "label": "0.98 < cos\u03b8_\u03bc < 0.99",
+       "lo": 0.98,
+       "hi": 0.99,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.29346,
+         "err": 0.407369
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.57798,
+         "err": 0.586389
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 5.18013,
+         "err": 0.883622
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 7.23537,
+         "err": 1.15598
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 9.61291,
+         "err": 1.55536
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 12.9246,
+         "err": 2.06578
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 15.3816,
+         "err": 2.35855
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 17.5956,
+         "err": 2.87711
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 18.9206,
+         "err": 3.16646
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 19.4407,
+         "err": 3.54407
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 18.5781,
+         "err": 3.53606
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 16.6319,
+         "err": 3.22433
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 14.477,
+         "err": 2.68593
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 12.2691,
+         "err": 2.35505
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 10.3354,
+         "err": 2.01116
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 8.23341,
+         "err": 1.60875
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.99 < \\cos\\theta_\\mu < 1$",
+       "label": "0.99 < cos\u03b8_\u03bc < 1",
+       "lo": 0.99,
+       "hi": 1.0,
+       "nbins": 16,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 1.74228,
+         "err": 0.3479
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 2.7699,
+         "err": 0.460783
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 3.98436,
+         "err": 0.70369
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 5.6519,
+         "err": 1.02256
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 7.95003,
+         "err": 1.36415
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 9.93988,
+         "err": 1.71801
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 12.224,
+         "err": 2.17445
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 14.1952,
+         "err": 2.57165
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 15.8129,
+         "err": 3.15977
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 16.6599,
+         "err": 3.562
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 16.062,
+         "err": 3.42689
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 15.1838,
+         "err": 3.23977
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 13.3217,
+         "err": 2.84431
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 11.9951,
+         "err": 2.55888
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 9.9679,
+         "err": 2.17029
+        },
+        {
+         "i": 15,
+         "lo": 2.35,
+         "hi": 2.5,
+         "center": 2.425,
+         "val": 8.05902,
+         "err": 1.70775
+        }
+       ],
+       "scale_note": null
+      }
+     ]
+    },
+    {
+     "label_tex": "$0.6 < E_\\mathrm{avail} < 1\\ \\mathrm{GeV}$",
+     "label": "0.6 < E_avail < 1 GeV",
+     "lo": 0.6,
+     "hi": 1.0,
+     "series": [
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.74$",
+       "label": "0.5 < cos\u03b8_\u03bc < 0.74",
+       "lo": 0.5,
+       "hi": 0.74,
+       "nbins": 3,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.843552,
+         "err": 0.127993
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 0.824869,
+         "err": 0.131316
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 0.607375,
+         "err": 0.120421
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.74 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.74 < cos\u03b8_\u03bc < 0.8",
+       "lo": 0.74,
+       "hi": 0.8,
+       "nbins": 4,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 1.75279,
+         "err": 0.264067
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 1.984,
+         "err": 0.294144
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 2.00386,
+         "err": 0.307084
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 1.68156,
+         "err": 0.302838
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.85$",
+       "label": "0.8 < cos\u03b8_\u03bc < 0.85",
+       "lo": 0.8,
+       "hi": 0.85,
+       "nbins": 5,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.17271,
+         "err": 0.316845
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 2.64845,
+         "err": 0.395721
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 2.84113,
+         "err": 0.426902
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 2.81521,
+         "err": 0.467496
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 2.59801,
+         "err": 0.481307
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.85 < \\cos\\theta_\\mu < 0.88$",
+       "label": "0.85 < cos\u03b8_\u03bc < 0.88",
+       "lo": 0.85,
+       "hi": 0.88,
+       "nbins": 6,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.45461,
+         "err": 0.402819
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.0595,
+         "err": 0.469219
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 3.53127,
+         "err": 0.543863
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 3.82554,
+         "err": 0.627831
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 3.75431,
+         "err": 0.711366
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 3.4869,
+         "err": 0.668492
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.88 < \\cos\\theta_\\mu < 0.91$",
+       "label": "0.88 < cos\u03b8_\u03bc < 0.91",
+       "lo": 0.88,
+       "hi": 0.91,
+       "nbins": 8,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.61692,
+         "err": 0.405263
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.44836,
+         "err": 0.546786
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 3.97735,
+         "err": 0.660591
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 4.44095,
+         "err": 0.777357
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 4.70953,
+         "err": 0.859411
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 4.41175,
+         "err": 0.830831
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 3.97385,
+         "err": 0.832338
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 3.49974,
+         "err": 0.783492
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.91 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.91 < cos\u03b8_\u03bc < 0.94",
+       "lo": 0.91,
+       "hi": 0.94,
+       "nbins": 10,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.50599,
+         "err": 0.415308
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.42851,
+         "err": 0.553959
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 4.2763,
+         "err": 0.711147
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 4.98395,
+         "err": 0.880179
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 5.7208,
+         "err": 0.993159
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 5.83874,
+         "err": 1.09226
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 5.62154,
+         "err": 1.07203
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 5.17079,
+         "err": 1.06878
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 4.34169,
+         "err": 0.902545
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 3.60601,
+         "err": 0.770697
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 0.96$",
+       "label": "0.94 < cos\u03b8_\u03bc < 0.96",
+       "lo": 0.94,
+       "hi": 0.96,
+       "nbins": 12,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.34542,
+         "err": 0.376863
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.33159,
+         "err": 0.570698
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 4.36504,
+         "err": 0.746825
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 5.15678,
+         "err": 1.04484
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 5.73481,
+         "err": 1.14119
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 6.3146,
+         "err": 1.26586
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 6.55457,
+         "err": 1.37095
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 6.44597,
+         "err": 1.39394
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 5.81305,
+         "err": 1.23788
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 4.88353,
+         "err": 1.12377
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 4.03574,
+         "err": 0.903966
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 3.26152,
+         "err": 0.743309
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.96 < \\cos\\theta_\\mu < 0.98$",
+       "label": "0.96 < cos\u03b8_\u03bc < 0.98",
+       "lo": 0.96,
+       "hi": 0.98,
+       "nbins": 14,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 2.29287,
+         "err": 0.345392
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 3.11789,
+         "err": 0.464946
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 3.99896,
+         "err": 0.67976
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 4.73464,
+         "err": 0.922604
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 5.55265,
+         "err": 1.17479
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 6.50553,
+         "err": 1.39375
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 6.73849,
+         "err": 1.49906
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 6.4705,
+         "err": 1.49147
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 6.29417,
+         "err": 1.5333
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 5.78269,
+         "err": 1.33994
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 4.85433,
+         "err": 1.20424
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 4.04158,
+         "err": 1.06069
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 3.25919,
+         "err": 0.885629
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 2.68349,
+         "err": 0.674581
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.98 < \\cos\\theta_\\mu < 0.99$",
+       "label": "0.98 < cos\u03b8_\u03bc < 0.99",
+       "lo": 0.98,
+       "hi": 0.99,
+       "nbins": 14,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 1.79717,
+         "err": 0.306645
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 2.64145,
+         "err": 0.362241
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 3.4542,
+         "err": 0.564419
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 4.24944,
+         "err": 0.792105
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 5.04818,
+         "err": 1.08122
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 5.66825,
+         "err": 1.20961
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 5.94151,
+         "err": 1.43062
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 6.07813,
+         "err": 1.48626
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 5.77101,
+         "err": 1.50209
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 5.73598,
+         "err": 1.41486
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 5.29224,
+         "err": 1.26994
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 4.43978,
+         "err": 1.10818
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 3.79051,
+         "err": 0.981844
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 3.20197,
+         "err": 0.942377
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.99 < \\cos\\theta_\\mu < 1$",
+       "label": "0.99 < cos\u03b8_\u03bc < 1",
+       "lo": 0.99,
+       "hi": 1.0,
+       "nbins": 15,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 1.44334,
+         "err": 0.247747
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 1.70258,
+         "err": 0.303928
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 2.60992,
+         "err": 0.523973
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 3.2405,
+         "err": 0.677009
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 3.98319,
+         "err": 0.763602
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 4.39307,
+         "err": 0.973167
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 4.23192,
+         "err": 1.10898
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 4.71887,
+         "err": 1.15022
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 4.55422,
+         "err": 1.20247
+        },
+        {
+         "i": 9,
+         "lo": 1.45,
+         "hi": 1.6,
+         "center": 1.525,
+         "val": 4.3487,
+         "err": 1.21929
+        },
+        {
+         "i": 10,
+         "lo": 1.6,
+         "hi": 1.75,
+         "center": 1.675,
+         "val": 3.8816,
+         "err": 1.0289
+        },
+        {
+         "i": 11,
+         "lo": 1.75,
+         "hi": 1.9,
+         "center": 1.825,
+         "val": 3.21364,
+         "err": 0.939439
+        },
+        {
+         "i": 12,
+         "lo": 1.9,
+         "hi": 2.05,
+         "center": 1.9749999999999999,
+         "val": 2.75589,
+         "err": 0.836838
+        },
+        {
+         "i": 13,
+         "lo": 2.05,
+         "hi": 2.2,
+         "center": 2.125,
+         "val": 2.36819,
+         "err": 0.736149
+        },
+        {
+         "i": 14,
+         "lo": 2.2,
+         "hi": 2.35,
+         "center": 2.2750000000000004,
+         "val": 2.24441,
+         "err": 0.623094
+        }
+       ],
+       "scale_note": null
+      }
+     ]
+    },
+    {
+     "label_tex": "$1 < E_\\mathrm{avail} < 2\\ \\mathrm{GeV}$",
+     "label": "1 < E_avail < 2 GeV",
+     "lo": 1.0,
+     "hi": 2.0,
+     "series": [
+      {
+       "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.74$",
+       "label": "0.5 < cos\u03b8_\u03bc < 0.74",
+       "lo": 0.5,
+       "hi": 0.74,
+       "nbins": 2,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.322123,
+         "err": 0.0672782
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 0.273137,
+         "err": 0.064553
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.74 < \\cos\\theta_\\mu < 0.8$",
+       "label": "0.74 < cos\u03b8_\u03bc < 0.8",
+       "lo": 0.74,
+       "hi": 0.8,
+       "nbins": 3,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.617739,
+         "err": 0.117281
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 0.635489,
+         "err": 0.125563
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 0.635723,
+         "err": 0.131487
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.85$",
+       "label": "0.8 < cos\u03b8_\u03bc < 0.85",
+       "lo": 0.8,
+       "hi": 0.85,
+       "nbins": 4,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.792014,
+         "err": 0.147923
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 0.832652,
+         "err": 0.165184
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 0.768472,
+         "err": 0.168962
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 0.714102,
+         "err": 0.164272
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.85 < \\cos\\theta_\\mu < 0.88$",
+       "label": "0.85 < cos\u03b8_\u03bc < 0.88",
+       "lo": 0.85,
+       "hi": 0.88,
+       "nbins": 4,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.837976,
+         "err": 0.167406
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 0.900568,
+         "err": 0.188759
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 0.964093,
+         "err": 0.212957
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 0.911779,
+         "err": 0.214067
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.88 < \\cos\\theta_\\mu < 0.91$",
+       "label": "0.88 < cos\u03b8_\u03bc < 0.91",
+       "lo": 0.88,
+       "hi": 0.91,
+       "nbins": 5,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.9001,
+         "err": 0.180494
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 1.00333,
+         "err": 0.198036
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 1.03416,
+         "err": 0.232415
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 1.03229,
+         "err": 0.243077
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 1.0066,
+         "err": 0.248778
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.91 < \\cos\\theta_\\mu < 0.94$",
+       "label": "0.91 < cos\u03b8_\u03bc < 0.94",
+       "lo": 0.91,
+       "hi": 0.94,
+       "nbins": 7,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.893094,
+         "err": 0.165726
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 0.998659,
+         "err": 0.215683
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 1.15887,
+         "err": 0.241937
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 1.12478,
+         "err": 0.26259
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 1.17709,
+         "err": 0.27785
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 1.12291,
+         "err": 0.276915
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 1.00847,
+         "err": 0.278554
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.94 < \\cos\\theta_\\mu < 0.96$",
+       "label": "0.94 < cos\u03b8_\u03bc < 0.96",
+       "lo": 0.94,
+       "hi": 0.96,
+       "nbins": 7,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.758102,
+         "err": 0.139058
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 0.961291,
+         "err": 0.185882
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 1.13435,
+         "err": 0.232304
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 1.05518,
+         "err": 0.240709
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 1.21633,
+         "err": 0.282517
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 1.1911,
+         "err": 0.288165
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 1.09652,
+         "err": 0.289355
+        }
+       ],
+       "scale_note": null
+      },
+      {
+       "label_tex": "$0.96 < \\cos\\theta_\\mu < 0.98$",
+       "label": "0.96 < cos\u03b8_\u03bc < 0.98",
+       "lo": 0.96,
+       "hi": 0.98,
+       "nbins": 9,
+       "bins": [
+        {
+         "i": 0,
+         "lo": 0.5,
+         "hi": 0.6,
+         "center": 0.55,
+         "val": 0.681732,
+         "err": 0.124398
+        },
+        {
+         "i": 1,
+         "lo": 0.6,
+         "hi": 0.7,
+         "center": 0.6499999999999999,
+         "val": 0.816957,
+         "err": 0.151567
+        },
+        {
+         "i": 2,
+         "lo": 0.7,
+         "hi": 0.8,
+         "center": 0.75,
+         "val": 0.954985,
+         "err": 0.174306
+        },
+        {
+         "i": 3,
+         "lo": 0.8,
+         "hi": 0.9,
+         "center": 0.8500000000000001,
+         "val": 1.02505,
+         "err": 0.214079
+        },
+        {
+         "i": 4,
+         "lo": 0.9,
+         "hi": 1.0,
+         "center": 0.95,
+         "val": 1.0832,
+         "err": 0.262416
+        },
+        {
+         "i": 5,
+         "lo": 1.0,
+         "hi": 1.1,
+         "center": 1.05,
+         "val": 1.13295,
+         "err": 0.274166
+        },
+        {
+         "i": 6,
+         "lo": 1.1,
+         "hi": 1.2,
+         "center": 1.15,
+         "val": 1.12034,
+         "err": 0.272271
+        },
+        {
+         "i": 7,
+         "lo": 1.2,
+         "hi": 1.3,
+         "center": 1.25,
+         "val": 1.0804,
+         "err": 0.26845
+        },
+        {
+         "i": 8,
+         "lo": 1.3,
+         "hi": 1.45,
+         "center": 1.375,
+         "val": 1.02061,
+         "err": 0.266719
+        }
+       ],
+       "scale_note": null
+      }
+     ]
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/2603.06718",
+   "provenance": "NOvA numubar CC-inclusive triple-differential d3sigma/dTmu dcos(theta_mu) dEavail (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 from the paper release \u00b7 E_avail panels x cos(theta_mu) series",
+   "notes": "Per nucleon. From the paper release. E_avail panels x cos(theta_mu) series."
   }
  ]
 }

@@ -207,6 +207,38 @@
   border-color: var(--dr-accent);
   color: #fff;
 }
+/* 3-D (triple-differential): coloured-series legend + table swatches */
+.dr-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.7rem;
+  margin: -0.4rem 0 1rem;
+}
+.dr-leg-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  font-family: var(--dr-mono);
+  font-size: 0.72rem;
+  color: var(--ink);
+}
+.dr-leg-swatch {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 0.15rem;
+  flex: none;
+}
+.dr-ser-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+}
+.dr-ser-cell .dr-leg-swatch {
+  width: 0.6rem;
+  height: 0.6rem;
+}
 .dr-note {
   font-family: var(--dr-mono);
   font-size: 0.68rem;
