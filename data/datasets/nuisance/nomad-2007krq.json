@@ -1,0 +1,276 @@
+{
+ "bibtag": "NOMAD:2007krq",
+ "slug": "nomad-2007krq",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins767013",
+ "arxiv": "0711.1183",
+ "cite": "Phys.Lett.B 660 19",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_e",
+   "slug": "dsigma_sigma_e",
+   "name": "\u03c3/E_\u03bd (\\nu_\\mu N \\to \\mu^- X)",
+   "name_tex": "$\\sigma/E_\\nu\\ (\\nu_\\mu N \\to \\mu^- X)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3/E_\u03bd",
+   "ylabel_plot": "\u03c3/E_\u03bd",
+   "ylabel_tex": "$\\sigma/E_\\nu$",
+   "yunit": "10^{-38}cm^2/GeV",
+   "yunit_tex": "$10^{-38}cm^2/GeV$",
+   "nbins": 30,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 2.5,
+     "hi": 6.0,
+     "center": 4.25,
+     "val": 0.786,
+     "err": 0.0366879
+    },
+    {
+     "i": 1,
+     "lo": 6.0,
+     "hi": 7.0,
+     "center": 6.5,
+     "val": 0.763,
+     "err": 0.0376431
+    },
+    {
+     "i": 2,
+     "lo": 7.0,
+     "hi": 8.0,
+     "center": 7.5,
+     "val": 0.722,
+     "err": 0.0361386
+    },
+    {
+     "i": 3,
+     "lo": 8.0,
+     "hi": 9.0,
+     "center": 8.5,
+     "val": 0.701,
+     "err": 0.0337343
+    },
+    {
+     "i": 4,
+     "lo": 9.0,
+     "hi": 10.0,
+     "center": 9.5,
+     "val": 0.716,
+     "err": 0.0337343
+    },
+    {
+     "i": 5,
+     "lo": 10.0,
+     "hi": 11.0,
+     "center": 10.5,
+     "val": 0.706,
+     "err": 0.0264764
+    },
+    {
+     "i": 6,
+     "lo": 11.0,
+     "hi": 12.0,
+     "center": 11.5,
+     "val": 0.705,
+     "err": 0.0245153
+    },
+    {
+     "i": 7,
+     "lo": 12.0,
+     "hi": 13.0,
+     "center": 12.5,
+     "val": 0.697,
+     "err": 0.0245153
+    },
+    {
+     "i": 8,
+     "lo": 13.0,
+     "hi": 14.0,
+     "center": 13.5,
+     "val": 0.7,
+     "err": 0.0245153
+    },
+    {
+     "i": 9,
+     "lo": 14.0,
+     "hi": 15.0,
+     "center": 14.5,
+     "val": 0.698,
+     "err": 0.025318
+    },
+    {
+     "i": 10,
+     "lo": 15.0,
+     "hi": 17.5,
+     "center": 16.25,
+     "val": 0.698,
+     "err": 0.0251794
+    },
+    {
+     "i": 11,
+     "lo": 17.5,
+     "hi": 20.0,
+     "center": 18.75,
+     "val": 0.7,
+     "err": 0.0251794
+    },
+    {
+     "i": 12,
+     "lo": 20.0,
+     "hi": 22.5,
+     "center": 21.25,
+     "val": 0.699,
+     "err": 0.0241868
+    },
+    {
+     "i": 13,
+     "lo": 22.5,
+     "hi": 25.0,
+     "center": 23.75,
+     "val": 0.694,
+     "err": 0.0241868
+    },
+    {
+     "i": 14,
+     "lo": 25.0,
+     "hi": 27.5,
+     "center": 26.25,
+     "val": 0.694,
+     "err": 0.0251794
+    },
+    {
+     "i": 15,
+     "lo": 27.5,
+     "hi": 30.0,
+     "center": 28.75,
+     "val": 0.694,
+     "err": 0.0251794
+    },
+    {
+     "i": 16,
+     "lo": 30.0,
+     "hi": 35.0,
+     "center": 32.5,
+     "val": 0.677,
+     "err": 0.0261725
+    },
+    {
+     "i": 17,
+     "lo": 35.0,
+     "hi": 40.0,
+     "center": 37.5,
+     "val": 0.681,
+     "err": 0.0261725
+    },
+    {
+     "i": 18,
+     "lo": 40.0,
+     "hi": 45.0,
+     "center": 42.5,
+     "val": 0.675,
+     "err": 0.0281603
+    },
+    {
+     "i": 19,
+     "lo": 45.0,
+     "hi": 50.0,
+     "center": 47.5,
+     "val": 0.682,
+     "err": 0.0272947
+    },
+    {
+     "i": 20,
+     "lo": 50.0,
+     "hi": 60.0,
+     "center": 55.0,
+     "val": 0.67,
+     "err": 0.0281603
+    },
+    {
+     "i": 21,
+     "lo": 60.0,
+     "hi": 70.0,
+     "center": 65.0,
+     "val": 0.675,
+     "err": 0.0311448
+    },
+    {
+     "i": 22,
+     "lo": 70.0,
+     "hi": 80.0,
+     "center": 75.0,
+     "val": 0.684,
+     "err": 0.0371214
+    },
+    {
+     "i": 23,
+     "lo": 80.0,
+     "hi": 90.0,
+     "center": 85.0,
+     "val": 0.678,
+     "err": 0.0411947
+    },
+    {
+     "i": 24,
+     "lo": 90.0,
+     "hi": 100.0,
+     "center": 95.0,
+     "val": 0.677,
+     "err": 0.0431856
+    },
+    {
+     "i": 25,
+     "lo": 100.0,
+     "hi": 115.0,
+     "center": 107.5,
+     "val": 0.674,
+     "err": 0.0481664
+    },
+    {
+     "i": 26,
+     "lo": 115.0,
+     "hi": 130.0,
+     "center": 122.5,
+     "val": 0.661,
+     "err": 0.0482597
+    },
+    {
+     "i": 27,
+     "lo": 130.0,
+     "hi": 145.0,
+     "center": 137.5,
+     "val": 0.671,
+     "err": 0.0543323
+    },
+    {
+     "i": 28,
+     "lo": 145.0,
+     "hi": 200.0,
+     "center": 172.5,
+     "val": 0.667,
+     "err": 0.0541479
+    },
+    {
+     "i": 29,
+     "lo": 200.0,
+     "hi": 203.0,
+     "center": 201.5,
+     "val": 0.721,
+     "err": 0.060531,
+     "hi_true": 300.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/nomad-2007krq/sigma_e.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins767013",
+   "provenance": "NOMAD:2007krq \u2014 inclusive \u03bd_\u03bc CC cross section \u03c3/E vs E_\u03bd (per nucleon) \u00b7 err = sqrt(stat^2 + sys^2) \u00b7 from the HepData record",
+   "notes": "Err = sqrt(stat^2 + sys^2)."
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "bibtag": "Belikov:1983kg",
+ "slug": "belikov-1983kg",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins195754",
+ "arxiv": null,
+ "cite": "Z.Phys.A 320 625",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_numu_qe",
+   "slug": "dsigma_numu_qe",
+   "name": "\u03c3 (\\nu_\\mu n \\to \\mu^- p)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu n \\to \\mu^- p)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 7,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 4.0,
+     "center": 3.5,
+     "val": 0.75,
+     "err": 0.1172
+    },
+    {
+     "i": 1,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 0.87,
+     "err": 0.1252
+    },
+    {
+     "i": 2,
+     "lo": 6.0,
+     "hi": 7.0,
+     "center": 6.5,
+     "val": 0.8,
+     "err": 0.1281
+    },
+    {
+     "i": 3,
+     "lo": 7.0,
+     "hi": 8.0,
+     "center": 7.5,
+     "val": 0.76,
+     "err": 0.142
+    },
+    {
+     "i": 4,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 0.74,
+     "err": 0.1244
+    },
+    {
+     "i": 5,
+     "lo": 10.0,
+     "hi": 15.0,
+     "center": 12.5,
+     "val": 0.99,
+     "err": 0.1715
+    },
+    {
+     "i": 6,
+     "lo": 15.0,
+     "hi": 16.0,
+     "center": 15.5,
+     "val": 0.83,
+     "err": 0.1628,
+     "hi_true": 25.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/belikov-1983kg/numu_qe.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins195754",
+   "provenance": "Belikov:1983kg -- quasi-elastic total cross sections nu_mu n -> mu- p and nubar_mu p -> mu+ n vs neutrino energy (Serpukhov/ITEP) - SIG converted from CM**2 to 10^{-38} cm^2; per-bin error = quad-sum of the statistical error and the 10% flux/trigger systematic; axial-mass fit result excluded - from the HepData record",
+   "notes": ""
+  },
+  {
+   "key": "dsigma_numubar_qe",
+   "slug": "dsigma_numubar_qe",
+   "name": "\u03c3 (\\bar\\nu_\\mu p \\to \\mu^+ n)",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu p \\to \\mu^+ n)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 4.0,
+     "center": 3.5,
+     "val": 0.55,
+     "err": 0.08902
+    },
+    {
+     "i": 1,
+     "lo": 4.0,
+     "hi": 5.0,
+     "center": 4.5,
+     "val": 0.57,
+     "err": 0.09823
+    },
+    {
+     "i": 2,
+     "lo": 5.0,
+     "hi": 6.0,
+     "center": 5.5,
+     "val": 0.61,
+     "err": 0.1087
+    },
+    {
+     "i": 3,
+     "lo": 6.0,
+     "hi": 7.0,
+     "center": 6.5,
+     "val": 0.68,
+     "err": 0.1293
+    },
+    {
+     "i": 4,
+     "lo": 7.0,
+     "hi": 8.0,
+     "center": 7.5,
+     "val": 0.67,
+     "err": 0.1374
+    },
+    {
+     "i": 5,
+     "lo": 8.0,
+     "hi": 10.0,
+     "center": 9.0,
+     "val": 0.73,
+     "err": 0.1491
+    },
+    {
+     "i": 6,
+     "lo": 10.0,
+     "hi": 15.0,
+     "center": 12.5,
+     "val": 0.78,
+     "err": 0.187
+    },
+    {
+     "i": 7,
+     "lo": 15.0,
+     "hi": 16.0,
+     "center": 15.5,
+     "val": 0.85,
+     "err": 0.2735,
+     "hi_true": 25.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/belikov-1983kg/numubar_qe.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins195754",
+   "provenance": "Belikov:1983kg -- quasi-elastic total cross sections nu_mu n -> mu- p and nubar_mu p -> mu+ n vs neutrino energy (Serpukhov/ITEP) - SIG converted from CM**2 to 10^{-38} cm^2; per-bin error = quad-sum of the statistical error and the 10% flux/trigger systematic; axial-mass fit result excluded - from the HepData record",
+   "notes": ""
+  }
+ ]
+}

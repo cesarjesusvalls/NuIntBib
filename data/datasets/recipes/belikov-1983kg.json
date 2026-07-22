@@ -1,0 +1,28 @@
+{
+ "bibtag": "Belikov:1983kg",
+ "slug": "belikov-1983kg",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins195754",
+ "note": "",
+ "provenance": "Belikov:1983kg -- quasi-elastic total cross sections nu_mu n -> mu- p and nubar_mu p -> mu+ n vs neutrino energy (Serpukhov/ITEP) - SIG converted from CM**2 to 10^{-38} cm^2; per-bin error = quad-sum of the statistical error and the 10% flux/trigger systematic; axial-mass fit result excluded - from the HepData record",
+ "items": [
+  {
+   "slug": "numu_qe",
+   "label": "\\nu_\\mu n \\to \\mu^- p",
+   "csv": "data/datasets/sources/belikov-1983kg/numu_qe.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2"
+  },
+  {
+   "slug": "numubar_qe",
+   "label": "\\bar\\nu_\\mu p \\to \\mu^+ n",
+   "csv": "data/datasets/sources/belikov-1983kg/numubar_qe.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2"
+  }
+ ]
+}

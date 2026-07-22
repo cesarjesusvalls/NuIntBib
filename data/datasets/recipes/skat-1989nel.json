@@ -1,0 +1,19 @@
+{
+ "bibtag": "SKAT:1989nel",
+ "slug": "skat-1989nel",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins26520",
+ "note": "",
+ "provenance": "SKAT:1989nel -- quasi-elastic total cross section nu_mu n -> mu- p vs neutrino lab momentum (SKAT bubble chamber) - values quoted at single PLAB points (stored lo=hi); uncertainty is the quoted symmetric error - from the HepData record",
+ "items": [
+  {
+   "slug": "numu_qe",
+   "label": "\\nu_\\mu n \\to \\mu^- p",
+   "csv": "data/datasets/sources/skat-1989nel/numu_qe.csv",
+   "xlabel": "p_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2"
+  }
+ ]
+}

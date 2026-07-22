@@ -1,0 +1,28 @@
+{
+ "bibtag": "SciBooNE:2009nlf",
+ "slug": "sciboone-2009nlf",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins835586",
+ "note": "",
+ "provenance": "SciBooNE:2009nlf — inclusive NCπ^0/CC and NC-coherent-π^0/CC ratios on carbon vs mean E_ν · dimensionless · from the HepData record",
+ "items": [
+  {
+   "slug": "ncpi0_cc_ratio",
+   "label": "\\nu_\\mu C \\to \\nu_\\mu \\pi^0 X",
+   "csv": "data/datasets/sources/sciboone-2009nlf/ncpi0_cc_ratio.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(NC\\pi^0)/\\sigma(CC)",
+   "yunit": ""
+  },
+  {
+   "slug": "nccohpi0_cc_ratio",
+   "label": "\\nu_\\mu C \\to \\nu_\\mu \\pi^0 C",
+   "csv": "data/datasets/sources/sciboone-2009nlf/nccohpi0_cc_ratio.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(NC\\,coh\\,\\pi^0)/\\sigma(CC)",
+   "yunit": ""
+  }
+ ]
+}

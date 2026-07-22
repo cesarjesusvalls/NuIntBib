@@ -1,0 +1,88 @@
+{
+ "bibtag": "NOvA:2025vdg",
+ "slug": "nova-2025vdg",
+ "source": "NOvA",
+ "source_url": "https://arxiv.org/abs/2511.05807",
+ "note": "",
+ "provenance": "arXiv:2511.05807 ROOT data release (NOvA_NumubarCCPi0_DataRelease.root). Each of the six TDirectories (pi0p, pi0dir, muonp, muondir, Q2, Wmass) provides xsec (TH1D) plus cov_stat and cov_syst (TH2D). Bin edges/values read from xsec (histogram values carry a 10^-40 factor, converted to absolute cm^2/nucleon/unit). Per-bin error = sqrt(diag(total_cov)) with total_cov = cov_stat + cov_syst (element-wise); covariances already in absolute units. Each distribution carries its own total_cov, assembled block-diagonal (release reports no inter-observable correlations). Matrices symmetrized M=0.5*(M+M.T) against ROOT rounding.",
+ "distributions": [
+  {
+   "kind": "1d",
+   "slug": "dsigma_dp_pi0",
+   "label": "",
+   "xlabel": "p_{\\pi^0}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\pi^0}",
+   "yunit": "cm^2/nucleon/(GeV/c)",
+   "source_url": "https://arxiv.org/abs/2511.05807",
+   "csv": "data/datasets/sources/nova-2025vdg/dsigma_dp_pi0.csv",
+   "cov": "data/datasets/sources/nova-2025vdg/cov_dsigma_dp_pi0.csv",
+   "cov_note": "9x9 total covariance (cov_stat + cov_syst, symmetrized) for the pi0p distribution, in absolute (cm^2/nucleon/unit)^2 matching the val/err columns."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dtheta_pi0",
+   "label": "",
+   "xlabel": "\\theta_{\\pi^0}",
+   "xunit": "deg.",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\theta_{\\pi^0}",
+   "yunit": "cm^2/nucleon/deg.",
+   "source_url": "https://arxiv.org/abs/2511.05807",
+   "csv": "data/datasets/sources/nova-2025vdg/dsigma_dtheta_pi0.csv",
+   "cov": "data/datasets/sources/nova-2025vdg/cov_dsigma_dtheta_pi0.csv",
+   "cov_note": "11x11 total covariance (cov_stat + cov_syst, symmetrized) for the pi0dir distribution, in absolute (cm^2/nucleon/unit)^2 matching the val/err columns."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dp_mu",
+   "label": "",
+   "xlabel": "p_{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\mu}",
+   "yunit": "cm^2/nucleon/(GeV/c)",
+   "source_url": "https://arxiv.org/abs/2511.05807",
+   "csv": "data/datasets/sources/nova-2025vdg/dsigma_dp_mu.csv",
+   "cov": "data/datasets/sources/nova-2025vdg/cov_dsigma_dp_mu.csv",
+   "cov_note": "14x14 total covariance (cov_stat + cov_syst, symmetrized) for the muonp distribution, in absolute (cm^2/nucleon/unit)^2 matching the val/err columns."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dtheta_mu",
+   "label": "",
+   "xlabel": "\\theta_{\\mu}",
+   "xunit": "deg.",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\theta_{\\mu}",
+   "yunit": "cm^2/nucleon/deg.",
+   "source_url": "https://arxiv.org/abs/2511.05807",
+   "csv": "data/datasets/sources/nova-2025vdg/dsigma_dtheta_mu.csv",
+   "cov": "data/datasets/sources/nova-2025vdg/cov_dsigma_dtheta_mu.csv",
+   "cov_note": "12x12 total covariance (cov_stat + cov_syst, symmetrized) for the muondir distribution, in absolute (cm^2/nucleon/unit)^2 matching the val/err columns."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dq2",
+   "label": "",
+   "xlabel": "Q^2",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
+   "yunit": "cm^2/nucleon/GeV^2",
+   "source_url": "https://arxiv.org/abs/2511.05807",
+   "csv": "data/datasets/sources/nova-2025vdg/dsigma_dq2.csv",
+   "cov": "data/datasets/sources/nova-2025vdg/cov_dsigma_dq2.csv",
+   "cov_note": "9x9 total covariance (cov_stat + cov_syst, symmetrized) for the Q2 distribution, in absolute (cm^2/nucleon/unit)^2 matching the val/err columns."
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dw",
+   "label": "",
+   "xlabel": "W_{EXP}",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}W_{EXP}",
+   "yunit": "cm^2/nucleon/GeV",
+   "source_url": "https://arxiv.org/abs/2511.05807",
+   "csv": "data/datasets/sources/nova-2025vdg/dsigma_dw.csv",
+   "cov": "data/datasets/sources/nova-2025vdg/cov_dsigma_dw.csv",
+   "cov_note": "11x11 total covariance (cov_stat + cov_syst, symmetrized) for the Wmass distribution, in absolute (cm^2/nucleon/unit)^2 matching the val/err columns."
+  }
+ ]
+}

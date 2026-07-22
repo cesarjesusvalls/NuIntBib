@@ -1,0 +1,99 @@
+{
+ "bibtag": "SKAT:1989nel",
+ "slug": "skat-1989nel",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins26520",
+ "arxiv": null,
+ "cite": "Z.Phys.C 45 551",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_numu_qe",
+   "slug": "dsigma_numu_qe",
+   "name": "\u03c3 (\\nu_\\mu n \\to \\mu^- p)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu n \\to \\mu^- p)$",
+   "xlabel": "p_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$p_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 3.0,
+     "center": 3.0,
+     "val": 1.05,
+     "err": 0.18
+    },
+    {
+     "i": 1,
+     "lo": 4.3,
+     "hi": 4.3,
+     "center": 4.3,
+     "val": 0.9,
+     "err": 0.16
+    },
+    {
+     "i": 2,
+     "lo": 6.0,
+     "hi": 6.0,
+     "center": 6.0,
+     "val": 0.95,
+     "err": 0.2
+    },
+    {
+     "i": 3,
+     "lo": 7.0,
+     "hi": 7.0,
+     "center": 7.0,
+     "val": 1.2,
+     "err": 0.22
+    },
+    {
+     "i": 4,
+     "lo": 7.8,
+     "hi": 7.8,
+     "center": 7.8,
+     "val": 1.19,
+     "err": 0.25
+    },
+    {
+     "i": 5,
+     "lo": 9.0,
+     "hi": 9.0,
+     "center": 9.0,
+     "val": 0.98,
+     "err": 0.19
+    },
+    {
+     "i": 6,
+     "lo": 12.0,
+     "hi": 12.0,
+     "center": 12.0,
+     "val": 1.13,
+     "err": 0.18
+    },
+    {
+     "i": 7,
+     "lo": 20.5,
+     "hi": 20.5,
+     "center": 20.5,
+     "val": 1.05,
+     "err": 0.3
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/skat-1989nel/numu_qe.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins26520",
+   "provenance": "SKAT:1989nel -- quasi-elastic total cross section nu_mu n -> mu- p vs neutrino lab momentum (SKAT bubble chamber) - values quoted at single PLAB points (stored lo=hi); uncertainty is the quoted symmetric error - from the HepData record",
+   "notes": ""
+  }
+ ]
+}

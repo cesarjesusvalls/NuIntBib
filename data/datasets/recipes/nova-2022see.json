@@ -1,0 +1,76 @@
+{
+ "bibtag": "NOvA:2022see",
+ "slug": "nova-2022see",
+ "source": "NOvA",
+ "source_url": "https://arxiv.org/abs/2206.10585",
+ "note": "",
+ "provenance": "Official NOvA ROOT data release for arXiv:2206.10585 (xsec_{ENu,dQ2,dThdE}.root). For each variable the value TH1D/TH2D is read with uproot and the per-bin error is sqrt(diag(xsec_cov + stat_cov)) (element-wise sum of the systematic and statistical covariance TH2Ds); cross-checked against the release's xsec_*_text.txt quoted sqrt-diagonals. ENu: the covariance omits the first ROOT value bin (1.0-1.5 GeV, below threshold, also absent from the text file) so the covariance is offset by one bin (cov[i]<->value[i+1]); the released 11-bin measurement (1.5-6.0 GeV) uses total_cov[0:11,0:11]. Q2: 9 bins, covariance directly aligned. dThdE: 17 measured (cos theta_e, E) bins represented as 4 cos-theta_e slices of the electron-energy spectrum, ordered cos-outer/E-inner to match the unrolled xsec_proj1D and the 17x17 covariance ordering. Each distribution carries its own total_cov (block-diagonal in the build); values in units of 10^-39 cm^2. Target: NOvA scintillator (per nucleon).",
+ "distributions": [
+  {
+   "kind": "1d",
+   "slug": "sigma_Enu",
+   "label": "\\sigma/E_\\nu",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma/E_\\nu",
+   "yunit": "10^{-39}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/nova-2022see/sigma_Enu.csv",
+   "cov": "data/datasets/sources/nova-2022see/cov_Enu.txt",
+   "source_url": "https://arxiv.org/abs/2206.10585"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dQ2",
+   "label": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
+   "xlabel": "Q^2",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
+   "yunit": "10^{-39}cm^2/GeV^2/nucleon",
+   "csv": "data/datasets/sources/nova-2022see/dsigma_dQ2.csv",
+   "cov": "data/datasets/sources/nova-2022see/cov_Q2.txt",
+   "source_url": "https://arxiv.org/abs/2206.10585"
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dThdE",
+   "label": "d^2\\sigma/d\\theta dE",
+   "xlabel": "E_e",
+   "xunit": "GeV",
+   "ylabel": "d^2\\sigma/d\\theta dE",
+   "yunit": "10^{-39}cm^2/GeV/nucleon",
+   "slicevar_tex": "$\\cos\\theta_e$",
+   "slices": [
+    {
+     "label_tex": "$0.85 < \\cos\\theta_e < 0.90$",
+     "label": "0.85<cos<0.90",
+     "lo": 0.85,
+     "hi": 0.9,
+     "csv": "data/datasets/sources/nova-2022see/d2sigma_dThdE__cos_0p85-0p9.csv"
+    },
+    {
+     "label_tex": "$0.90 < \\cos\\theta_e < 0.94$",
+     "label": "0.90<cos<0.94",
+     "lo": 0.9,
+     "hi": 0.94,
+     "csv": "data/datasets/sources/nova-2022see/d2sigma_dThdE__cos_0p9-0p94.csv"
+    },
+    {
+     "label_tex": "$0.94 < \\cos\\theta_e < 0.97$",
+     "label": "0.94<cos<0.97",
+     "lo": 0.94,
+     "hi": 0.97,
+     "csv": "data/datasets/sources/nova-2022see/d2sigma_dThdE__cos_0p94-0p97.csv"
+    },
+    {
+     "label_tex": "$0.97 < \\cos\\theta_e < 1.00$",
+     "label": "0.97<cos<1.00",
+     "lo": 0.97,
+     "hi": 1.001,
+     "csv": "data/datasets/sources/nova-2022see/d2sigma_dThdE__cos_0p97-1p001.csv"
+    }
+   ],
+   "cov": "data/datasets/sources/nova-2022see/cov_dThdE.txt",
+   "source_url": "https://arxiv.org/abs/2206.10585"
+  }
+ ]
+}

@@ -1,0 +1,3204 @@
+{
+ "bibtag": "NuTeV:2005wsg",
+ "slug": "nutev-2005wsg",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins691719",
+ "note": "",
+ "provenance": "HepData record ins691719 (Phys.Rev.D 74 (2006) 012008, hep-ex/0509010), CSV export Tables 25-159. Tables 25-92 are NUMU FE and 93-159 are NUMUBAR FE double-differential cross sections; each HepData table groups 3 Bjorken-x sub-tables of E^{-1} d^2sigma/dx dy versus inelasticity y at fixed neutrino energy. Regrouped into 34 2D distributions (17 energies x 2 beams), each holding up to 12 x-slices (x=0.015-0.75); within a slice each row is a y bin (standard NuTeV y binning, terminal bin 0.9-0.97). Value is the released (10^38/E) d^2sigma/dx dy column in 10^-38 cm^2/GeV; per-bin err = sqrt(stat^2 + sys^2) from the released stat and combined-systematic columns. The additional 2.1 percent overall normalization uncertainty is a global scale and is not folded into per-bin errors. Bins flagged '-' (no measurement) are omitted. Tables 1-24 (F2 and xF3 structure functions) are not cross sections and are not ingested. No full covariance matrix is released, so none is attached. Target tagged Fe (per-nucleus iron).",
+ "distributions": [
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E35",
+   "label": "\\nu_\\mu, E=35 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E35__x0p65.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E45",
+   "label": "\\nu_\\mu, E=45 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E45__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E55",
+   "label": "\\nu_\\mu, E=55 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E55__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E65",
+   "label": "\\nu_\\mu, E=65 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E65__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E75",
+   "label": "\\nu_\\mu, E=75 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E75__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E85",
+   "label": "\\nu_\\mu, E=85 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E85__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E95",
+   "label": "\\nu_\\mu, E=95 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E95__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E110",
+   "label": "\\nu_\\mu, E=110 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E110__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E130",
+   "label": "\\nu_\\mu, E=130 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E130__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E150",
+   "label": "\\nu_\\mu, E=150 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E150__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E170",
+   "label": "\\nu_\\mu, E=170 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E170__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E190",
+   "label": "\\nu_\\mu, E=190 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E190__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E215",
+   "label": "\\nu_\\mu, E=215 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E215__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E245",
+   "label": "\\nu_\\mu, E=245 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E245__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E275",
+   "label": "\\nu_\\mu, E=275 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E275__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E305",
+   "label": "\\nu_\\mu, E=305 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E305__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numu_E340",
+   "label": "\\nu_\\mu, E=340 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nu__E340__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E35",
+   "label": "\\bar\\nu_\\mu, E=35 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E35__x0p65.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E45",
+   "label": "\\bar\\nu_\\mu, E=45 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E45__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E55",
+   "label": "\\bar\\nu_\\mu, E=55 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E55__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E65",
+   "label": "\\bar\\nu_\\mu, E=65 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E65__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E75",
+   "label": "\\bar\\nu_\\mu, E=75 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E75__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E85",
+   "label": "\\bar\\nu_\\mu, E=85 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E85__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E95",
+   "label": "\\bar\\nu_\\mu, E=95 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E95__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E110",
+   "label": "\\bar\\nu_\\mu, E=110 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E110__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E130",
+   "label": "\\bar\\nu_\\mu, E=130 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E130__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E150",
+   "label": "\\bar\\nu_\\mu, E=150 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E150__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E170",
+   "label": "\\bar\\nu_\\mu, E=170 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E170__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E190",
+   "label": "\\bar\\nu_\\mu, E=190 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E190__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E215",
+   "label": "\\bar\\nu_\\mu, E=215 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E215__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E245",
+   "label": "\\bar\\nu_\\mu, E=245 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E245__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E275",
+   "label": "\\bar\\nu_\\mu, E=275 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p65.csv"
+    },
+    {
+     "label_tex": "$x = 0.75$",
+     "label": "x=0.75",
+     "lo": 0.75,
+     "hi": 0.75,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E275__x0p75.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E305",
+   "label": "\\bar\\nu_\\mu, E=305 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p45.csv"
+    },
+    {
+     "label_tex": "$x = 0.55$",
+     "label": "x=0.55",
+     "lo": 0.55,
+     "hi": 0.55,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p55.csv"
+    },
+    {
+     "label_tex": "$x = 0.65$",
+     "label": "x=0.65",
+     "lo": 0.65,
+     "hi": 0.65,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E305__x0p65.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dxdy__numubar_E340",
+   "label": "\\bar\\nu_\\mu, E=340 GeV",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "E^{-1}\\mathrm{d}^2\\sigma/\\mathrm{d}x\\,\\mathrm{d}y",
+   "yunit": "10^{-38}cm^2/GeV",
+   "slicevar_tex": "$x$",
+   "slices": [
+    {
+     "label_tex": "$x = 0.015$",
+     "label": "x=0.015",
+     "lo": 0.015,
+     "hi": 0.015,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p015.csv"
+    },
+    {
+     "label_tex": "$x = 0.045$",
+     "label": "x=0.045",
+     "lo": 0.045,
+     "hi": 0.045,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p045.csv"
+    },
+    {
+     "label_tex": "$x = 0.08$",
+     "label": "x=0.08",
+     "lo": 0.08,
+     "hi": 0.08,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p08.csv"
+    },
+    {
+     "label_tex": "$x = 0.125$",
+     "label": "x=0.125",
+     "lo": 0.125,
+     "hi": 0.125,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p125.csv"
+    },
+    {
+     "label_tex": "$x = 0.175$",
+     "label": "x=0.175",
+     "lo": 0.175,
+     "hi": 0.175,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p175.csv"
+    },
+    {
+     "label_tex": "$x = 0.225$",
+     "label": "x=0.225",
+     "lo": 0.225,
+     "hi": 0.225,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p225.csv"
+    },
+    {
+     "label_tex": "$x = 0.275$",
+     "label": "x=0.275",
+     "lo": 0.275,
+     "hi": 0.275,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p275.csv"
+    },
+    {
+     "label_tex": "$x = 0.35$",
+     "label": "x=0.35",
+     "lo": 0.35,
+     "hi": 0.35,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p35.csv"
+    },
+    {
+     "label_tex": "$x = 0.45$",
+     "label": "x=0.45",
+     "lo": 0.45,
+     "hi": 0.45,
+     "csv": "data/datasets/sources/nutev-2005wsg/d2sigdxdy__nubar__E340__x0p45.csv"
+    }
+   ]
+  }
+ ]
+}
