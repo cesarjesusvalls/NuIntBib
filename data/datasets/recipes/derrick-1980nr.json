@@ -1,0 +1,13 @@
+{
+ "bibtag": "Derrick:1980nr",
+ "slug": "derrick-1980nr",
+ "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/NC1ppim/ANL_NC1ppim_Enu_xsec.csv",
+ "note": "Neutral-current single-pion production nu N -> nu p pi- off deuterium at the ANL 12-ft bubble chamber (Derrick et al.). Absolute total cross section sigma(E_nu) for the exclusive NC channel nu p -> nu p pi- (proton + pi-). This is the only genuine cross-section table NUISANCE ships for this channel (ANL_NC1ppim_Enu_xsec.csv); the companion ANL_NC1ppim_cosMuStar.csv is a shape distribution with no uncertainties and is excluded. Target: bound nucleon in deuterium; values in 10^-41 cm^2.",
+ "provenance": "Derrick:1980nr - ANL 12-ft NC single-pion production on deuterium; total cross section sigma(E_nu) for nu N -> nu p pi- - from the NUISANCE data release",
+ "items": [
+  {"slug":"sigma_enu","label":"\\nu N \\to \\nu p \\pi^-",
+   "csv":"data/datasets/sources/derrick-1980nr/sigma_enu.csv",
+   "xlabel":"E_\\nu","xunit":"GeV","ylabel":"\\sigma","yunit":"10^{-41}cm^2"}
+ ]
+}

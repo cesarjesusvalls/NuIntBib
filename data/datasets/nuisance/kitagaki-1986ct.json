@@ -1,0 +1,389 @@
+{
+ "bibtag": "Kitagaki:1986ct",
+ "slug": "kitagaki-1986ct",
+ "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/BNL",
+ "arxiv": null,
+ "cite": "Phys.Rev.D 34 2554",
+ "note": "Charged-current exclusive single-pion production cross sections as a function of neutrino energy, measured in the BNL 7-foot deuterium bubble chamber (wide-band beam, mean E_nu ~ 1.6 GeV). Three exclusive channels are given: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+ (all with hadronic mass W < 2 GeV), plus the pi+ p channel restricted to the Delta region W < 1.4 GeV. Values are absolute cross sections in 10^-38 cm^2. Only the raw published cross sections are ingested here; the NUISANCE _corr (Wilkinson/Rodriguez flux-corrected), event-count, W-shape and flux files are excluded.",
+ "distributions": [
+  {
+   "key": "dsigma_cc1pi0_n",
+   "slug": "dsigma_cc1pi0_n",
+   "name": "\u03c3 (\\nu_\\mu n \\to \\mu^- p \\pi^0 (W < 2 GeV))",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu n \\to \\mu^- p \\pi^0 (W < 2 GeV))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 9,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.5,
+     "hi": 0.8,
+     "center": 0.65,
+     "val": 0.132,
+     "err": 0.034
+    },
+    {
+     "i": 1,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 0.194,
+     "err": 0.034
+    },
+    {
+     "i": 2,
+     "lo": 1.0,
+     "hi": 1.2,
+     "center": 1.1,
+     "val": 0.252,
+     "err": 0.039
+    },
+    {
+     "i": 3,
+     "lo": 1.2,
+     "hi": 1.4,
+     "center": 1.2999999999999998,
+     "val": 0.287,
+     "err": 0.048
+    },
+    {
+     "i": 4,
+     "lo": 1.4,
+     "hi": 1.6,
+     "center": 1.5,
+     "val": 0.255,
+     "err": 0.043
+    },
+    {
+     "i": 5,
+     "lo": 1.6,
+     "hi": 1.8,
+     "center": 1.7000000000000002,
+     "val": 0.384,
+     "err": 0.064
+    },
+    {
+     "i": 6,
+     "lo": 1.8,
+     "hi": 2.0,
+     "center": 1.9,
+     "val": 0.317,
+     "err": 0.058
+    },
+    {
+     "i": 7,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 0.508,
+     "err": 0.077
+    },
+    {
+     "i": 8,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 0.499,
+     "err": 0.09
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/kitagaki-1986ct/sigma_cc1pi0_n.csv",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/BNL",
+   "provenance": "Kitagaki:1986ct \u2014 CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+ \u00b7 from the NUISANCE data release",
+   "notes": "Kitagaki:1986ct \u2014 CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+. From the NUISANCE data release."
+  },
+  {
+   "key": "dsigma_cc1pip_n",
+   "slug": "dsigma_cc1pip_n",
+   "name": "\u03c3 (\\nu_\\mu n \\to \\mu^- n \\pi^+ (W < 2 GeV))",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu n \\to \\mu^- n \\pi^+ (W < 2 GeV))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 9,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.5,
+     "hi": 0.8,
+     "center": 0.65,
+     "val": 0.124,
+     "err": 0.024
+    },
+    {
+     "i": 1,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 0.149,
+     "err": 0.023
+    },
+    {
+     "i": 2,
+     "lo": 1.0,
+     "hi": 1.2,
+     "center": 1.1,
+     "val": 0.189,
+     "err": 0.034
+    },
+    {
+     "i": 3,
+     "lo": 1.2,
+     "hi": 1.4,
+     "center": 1.2999999999999998,
+     "val": 0.233,
+     "err": 0.044
+    },
+    {
+     "i": 4,
+     "lo": 1.4,
+     "hi": 1.6,
+     "center": 1.5,
+     "val": 0.171,
+     "err": 0.033
+    },
+    {
+     "i": 5,
+     "lo": 1.6,
+     "hi": 1.8,
+     "center": 1.7000000000000002,
+     "val": 0.206,
+     "err": 0.041
+    },
+    {
+     "i": 6,
+     "lo": 1.8,
+     "hi": 2.0,
+     "center": 1.9,
+     "val": 0.35,
+     "err": 0.061
+    },
+    {
+     "i": 7,
+     "lo": 2.0,
+     "hi": 2.5,
+     "center": 2.25,
+     "val": 0.468,
+     "err": 0.073
+    },
+    {
+     "i": 8,
+     "lo": 2.5,
+     "hi": 3.0,
+     "center": 2.75,
+     "val": 0.329,
+     "err": 0.066
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/kitagaki-1986ct/sigma_cc1pip_n.csv",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/BNL",
+   "provenance": "Kitagaki:1986ct \u2014 CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+ \u00b7 from the NUISANCE data release",
+   "notes": "Kitagaki:1986ct \u2014 CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+. From the NUISANCE data release."
+  },
+  {
+   "key": "dsigma_cc1pip_p",
+   "slug": "dsigma_cc1pip_p",
+   "name": "\u03c3 (\\nu_\\mu p \\to \\mu^- p \\pi^+ (W < 2 GeV))",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu p \\to \\mu^- p \\pi^+ (W < 2 GeV))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 8,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.5,
+     "hi": 0.8,
+     "center": 0.65,
+     "val": 0.205,
+     "err": 0.039
+    },
+    {
+     "i": 1,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 0.486,
+     "err": 0.075
+    },
+    {
+     "i": 2,
+     "lo": 1.0,
+     "hi": 1.2,
+     "center": 1.1,
+     "val": 0.706,
+     "err": 0.091
+    },
+    {
+     "i": 3,
+     "lo": 1.2,
+     "hi": 1.4,
+     "center": 1.2999999999999998,
+     "val": 0.737,
+     "err": 0.1
+    },
+    {
+     "i": 4,
+     "lo": 1.4,
+     "hi": 1.6,
+     "center": 1.5,
+     "val": 0.797,
+     "err": 0.107
+    },
+    {
+     "i": 5,
+     "lo": 1.6,
+     "hi": 1.8,
+     "center": 1.7000000000000002,
+     "val": 0.902,
+     "err": 0.128
+    },
+    {
+     "i": 6,
+     "lo": 1.8,
+     "hi": 2.0,
+     "center": 1.9,
+     "val": 0.854,
+     "err": 0.126
+    },
+    {
+     "i": 7,
+     "lo": 2.0,
+     "hi": 2.2,
+     "center": 2.1,
+     "val": 0.923,
+     "err": 0.117,
+     "hi_true": 3.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/kitagaki-1986ct/sigma_cc1pip_p.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/BNL",
+   "provenance": "Kitagaki:1986ct \u2014 CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+ \u00b7 from the NUISANCE data release",
+   "notes": "Kitagaki:1986ct \u2014 CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+. From the NUISANCE data release."
+  },
+  {
+   "key": "dsigma_cc1pip_p_w14",
+   "slug": "dsigma_cc1pip_p_w14",
+   "name": "\u03c3 (\\nu_\\mu p \\to \\mu^- p \\pi^+ (W < 1.4 GeV))",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu p \\to \\mu^- p \\pi^+ (W < 1.4 GeV))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 9,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.5,
+     "hi": 0.8,
+     "center": 0.65,
+     "val": 0.227,
+     "err": 0.047
+    },
+    {
+     "i": 1,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 0.484,
+     "err": 0.033
+    },
+    {
+     "i": 2,
+     "lo": 1.0,
+     "hi": 1.2,
+     "center": 1.1,
+     "val": 0.605,
+     "err": 0.039
+    },
+    {
+     "i": 3,
+     "lo": 1.2,
+     "hi": 1.4,
+     "center": 1.2999999999999998,
+     "val": 0.64,
+     "err": 0.04
+    },
+    {
+     "i": 4,
+     "lo": 1.4,
+     "hi": 1.6,
+     "center": 1.5,
+     "val": 0.691,
+     "err": 0.0521
+    },
+    {
+     "i": 5,
+     "lo": 1.6,
+     "hi": 1.8,
+     "center": 1.7000000000000002,
+     "val": 0.757,
+     "err": 0.077
+    },
+    {
+     "i": 6,
+     "lo": 1.8,
+     "hi": 2.1,
+     "center": 1.9500000000000002,
+     "val": 0.69,
+     "err": 0.0461
+    },
+    {
+     "i": 7,
+     "lo": 2.1,
+     "hi": 4.0,
+     "center": 3.05,
+     "val": 0.807,
+     "err": 0.051
+    },
+    {
+     "i": 8,
+     "lo": 4.0,
+     "hi": 4.2,
+     "center": 4.1,
+     "val": 0.834,
+     "err": 0.089,
+     "hi_true": 14.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/kitagaki-1986ct/sigma_cc1pip_p_w14.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/BNL",
+   "provenance": "Kitagaki:1986ct \u2014 CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+ \u00b7 from the NUISANCE data release",
+   "notes": "Kitagaki:1986ct \u2014 CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+. From the NUISANCE data release."
+  }
+ ]
+}

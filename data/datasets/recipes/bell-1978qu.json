@@ -1,0 +1,19 @@
+{
+ "bibtag": "Bell:1978qu",
+ "slug": "bell-1978qu",
+ "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/FNAL/CC1pip_on_p/FNAL_cc1ppip_dsigdQ2_W14.txt",
+ "note": "Differential cross section dσ/dQ² for single-pion production ν_μ p → μ⁻ π⁺ p at FNAL (15-foot hydrogen bubble chamber, E_ν > 5 GeV), for events with invariant hadronic mass M(π⁺p) < 1.4 GeV. Absolute published distribution in 10⁻³⁸ cm²/GeV² (Phys. Rev. Lett. 41 (1978) 1008). Integrating dσ/dQ² over the quoted bins gives 0.54×10⁻³⁸ cm², matching the paper's stated σ(M<1.4 GeV) = (0.55±0.08)×10⁻³⁸ cm², confirming this is the genuine absolute cross section (not a shape or event-count histogram). Target: free proton (hydrogen bubble chamber). Only this one absolute distribution ships in NUISANCE for the paper; the accompanying nEvent/_bin/_edit/_edges files are shape-fit intermediates and are excluded.",
+ "provenance": "Bell:1978qu — dσ/dQ² for ν_μ p → μ⁻ π⁺ p, M(π⁺p) < 1.4 GeV, FNAL 15-foot hydrogen bubble chamber · target free proton · absolute cross section validated against the paper's integrated σ · from the NUISANCE data release",
+ "items": [
+  {
+   "slug": "dsigdq2_w14",
+   "label": "M(\\pi^+ p) < 1.4 GeV",
+   "csv": "data/datasets/sources/bell-1978qu/dsigdq2_w14.csv",
+   "xlabel": "Q^2",
+   "xunit": "GeV^2",
+   "ylabel": "d\\sigma/dQ^2",
+   "yunit": "10^{-38}cm^2/GeV^2"
+  }
+ ]
+}

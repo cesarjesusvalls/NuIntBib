@@ -1,0 +1,28 @@
+{
+ "bibtag": "CHARM:1987mvh",
+ "slug": "charm-1987mvh",
+ "source": "published (Z.Phys.C 38 (1988) 403)",
+ "source_url": "https://doi.org/10.1007/BF01584388",
+ "note": "Total charged-current cross section per nucleon divided by energy (sigma/E) for numu and numubar on isoscalar nuclei (marble target), CHARM wide-band beam, flux-averaged over ~10-160 GeV. The two canonical CHARM slopes sigma_numu/E = 0.686 and sigma_numubar/E = 0.335 x10^-38 cm^2/GeV/nucleon. No arXiv (1988 paper); transcribed from the published values. No covariance.",
+ "provenance": "CHARM total CC sigma/E on isoscalar nuclei (Z.Phys.C 38 (1988) 403) - per nucleon - two flux-averaged slopes numu (0.686 +/- 0.020) and numubar (0.335 +/- 0.011) x10^-38 cm^2/GeV over ~10-160 GeV - transcribed from the paper",
+ "items": [
+  {
+   "slug": "numu",
+   "label": "\\nu_\\mu CC total",
+   "csv": "data/datasets/sources/charm-1987mvh/numu-cc-total-sigma-over-e.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma/E_\\nu",
+   "yunit": "10^{-38}cm^2/GeV/nucleon"
+  },
+  {
+   "slug": "numubar",
+   "label": "\\bar\\nu_\\mu CC total",
+   "csv": "data/datasets/sources/charm-1987mvh/numubar-cc-total-sigma-over-e.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma/E_\\nu",
+   "yunit": "10^{-38}cm^2/GeV/nucleon"
+  }
+ ]
+}

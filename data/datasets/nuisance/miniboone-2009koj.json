@@ -1,0 +1,269 @@
+{
+ "bibtag": "MiniBooNE:2009koj",
+ "slug": "miniboone-2009koj",
+ "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/MiniBooNE/CC1piRat/cc1pipccqerat_like_edit.txt",
+ "arxiv": "0904.3159",
+ "cite": "Phys.Rev.Lett. 103 081801",
+ "note": "\u03bd\u03bc charged-current single-\u03c0+ to quasi-elastic cross-section ratio on mineral oil (CH2) in the Fermilab Booster Neutrino Beam (mean E\u03bd\u22480.8 GeV), reported as a function of neutrino energy over 0.4 GeV < E\u03bd < 2.4 GeV (Aguilar-Arevalo et al., Phys. Rev. Lett. 103 (2009) 081801). The paper's headline result is this dimensionless cross-section ratio, published in two forms in Table II: the observed CC1\u03c0+-like/CCQE-like ratio (measured directly, not corrected for hadronic final-state interactions in the target nucleus) and the FSI-corrected CC1\u03c0+/CCQE ratio (unfolded to the initial interaction vertex using MC, for comparison with prior ANL/K2K measurements). Both are genuine published observables and are ingested here as dimensionless ratios. The NUISANCE cc1pipccqerat_like_edit.txt / cc1pipccqerat_corr_edit.txt files reproduce Table II exactly. Target: CH2 (mineral oil). No covariance is published (per-bin total statistical+systematic uncertainty only).",
+ "distributions": [
+  {
+   "key": "dsigma_ratio_observed",
+   "slug": "dsigma_ratio_observed",
+   "name": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE) (observed (CC1\\pi^+-like/CCQE-like))",
+   "name_tex": "$\\sigma(CC1\\pi^+)/\\sigma(CCQE)\\ (observed (CC1\\pi^+-like/CCQE-like))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE)",
+   "ylabel_plot": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE)",
+   "ylabel_tex": "$\\sigma(CC1\\pi^+)/\\sigma(CCQE)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 13,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 0.036,
+     "err": 0.005
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 0.1,
+     "err": 0.011
+    },
+    {
+     "i": 2,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 0.191,
+     "err": 0.019
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 0.278,
+     "err": 0.028
+    },
+    {
+     "i": 4,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 0.371,
+     "err": 0.04
+    },
+    {
+     "i": 5,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 0.465,
+     "err": 0.053
+    },
+    {
+     "i": 6,
+     "lo": 1.0,
+     "hi": 1.1,
+     "center": 1.05,
+     "val": 0.551,
+     "err": 0.066
+    },
+    {
+     "i": 7,
+     "lo": 1.1,
+     "hi": 1.2,
+     "center": 1.15,
+     "val": 0.607,
+     "err": 0.077
+    },
+    {
+     "i": 8,
+     "lo": 1.2,
+     "hi": 1.3,
+     "center": 1.25,
+     "val": 0.677,
+     "err": 0.091
+    },
+    {
+     "i": 9,
+     "lo": 1.3,
+     "hi": 1.4,
+     "center": 1.35,
+     "val": 0.7,
+     "err": 0.097
+    },
+    {
+     "i": 10,
+     "lo": 1.4,
+     "hi": 1.6,
+     "center": 1.5,
+     "val": 0.777,
+     "err": 0.109
+    },
+    {
+     "i": 11,
+     "lo": 1.6,
+     "hi": 1.8,
+     "center": 1.7000000000000002,
+     "val": 0.904,
+     "err": 0.137
+    },
+    {
+     "i": 12,
+     "lo": 1.8,
+     "hi": 1.9,
+     "center": 1.85,
+     "val": 1.022,
+     "err": 0.161,
+     "hi_true": 2.4
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2009koj/ratio_observed.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/MiniBooNE/CC1piRat/cc1pipccqerat_like_edit.txt",
+   "provenance": "MiniBooNE:2009koj \u2014 \u03bd\u03bc CC single-\u03c0+ to quasi-elastic cross-section ratio on mineral oil (CH2), vs neutrino energy 0.4\u20132.4 GeV \u00b7 published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II \u00b7 dimensionless ratio, no covariance published \u00b7 from the NUISANCE data release",
+   "notes": "MiniBooNE:2009koj \u2014 \u03bd\u03bc CC single-\u03c0+ to quasi-elastic cross-section ratio on mineral oil (CH2), vs neutrino energy 0.4\u20132.4 GeV. Published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II. Dimensionless ratio, no covariance published. From the NUISANCE data release."
+  },
+  {
+   "key": "dsigma_ratio_fsi_corrected",
+   "slug": "dsigma_ratio_fsi_corrected",
+   "name": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE) (FSI-corrected (CC1\\pi^+/CCQE))",
+   "name_tex": "$\\sigma(CC1\\pi^+)/\\sigma(CCQE)\\ (FSI-corrected (CC1\\pi^+/CCQE))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE)",
+   "ylabel_plot": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE)",
+   "ylabel_tex": "$\\sigma(CC1\\pi^+)/\\sigma(CCQE)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 13,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 0.045,
+     "err": 0.008
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 0.13,
+     "err": 0.018
+    },
+    {
+     "i": 2,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 0.258,
+     "err": 0.033
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 0.381,
+     "err": 0.047
+    },
+    {
+     "i": 4,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 0.52,
+     "err": 0.064
+    },
+    {
+     "i": 5,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 0.656,
+     "err": 0.082
+    },
+    {
+     "i": 6,
+     "lo": 1.0,
+     "hi": 1.1,
+     "center": 1.05,
+     "val": 0.784,
+     "err": 0.1
+    },
+    {
+     "i": 7,
+     "lo": 1.1,
+     "hi": 1.2,
+     "center": 1.15,
+     "val": 0.855,
+     "err": 0.114
+    },
+    {
+     "i": 8,
+     "lo": 1.2,
+     "hi": 1.3,
+     "center": 1.25,
+     "val": 0.957,
+     "err": 0.132
+    },
+    {
+     "i": 9,
+     "lo": 1.3,
+     "hi": 1.4,
+     "center": 1.35,
+     "val": 0.985,
+     "err": 0.141
+    },
+    {
+     "i": 10,
+     "lo": 1.4,
+     "hi": 1.6,
+     "center": 1.5,
+     "val": 1.073,
+     "err": 0.157
+    },
+    {
+     "i": 11,
+     "lo": 1.6,
+     "hi": 1.8,
+     "center": 1.7000000000000002,
+     "val": 1.233,
+     "err": 0.207
+    },
+    {
+     "i": 12,
+     "lo": 1.8,
+     "hi": 1.9,
+     "center": 1.85,
+     "val": 1.318,
+     "err": 0.247,
+     "hi_true": 2.4
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/miniboone-2009koj/ratio_fsi_corrected.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/MiniBooNE/CC1piRat/cc1pipccqerat_like_edit.txt",
+   "provenance": "MiniBooNE:2009koj \u2014 \u03bd\u03bc CC single-\u03c0+ to quasi-elastic cross-section ratio on mineral oil (CH2), vs neutrino energy 0.4\u20132.4 GeV \u00b7 published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II \u00b7 dimensionless ratio, no covariance published \u00b7 from the NUISANCE data release",
+   "notes": "MiniBooNE:2009koj \u2014 \u03bd\u03bc CC single-\u03c0+ to quasi-elastic cross-section ratio on mineral oil (CH2), vs neutrino energy 0.4\u20132.4 GeV. Published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II. Dimensionless ratio, no covariance published. From the NUISANCE data release."
+  }
+ ]
+}

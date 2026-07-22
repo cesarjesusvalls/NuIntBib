@@ -1,0 +1,19 @@
+{
+ "bibtag": "Day:1983itd",
+ "slug": "day-1983itd",
+ "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
+ "note": "Charged-current two-pion production off deuterium in the threshold region at the ANL 12-ft bubble chamber (Day et al., Phys. Rev. D 28, 2714 (1983)). Absolute total cross sections sigma(E_nu) for the three exclusive CC two-pion channels: nu_mu n -> mu- p pi+ pi-, nu_mu p -> mu- p pi+ pi0, and nu_mu p -> mu- n pi+ pi+. These are the '_xsec' cross-section tables from the NUISANCE ANL/CC2pi directory; the accompanying weighted/unweighted momentum distributions in the same directories are event-shape histograms and are excluded. Target: bound nucleon in deuterium; values in 10^-41 cm^2.",
+ "provenance": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release",
+ "items": [
+  {"slug":"sigma_enu_pippim_p","label":"\\nu_\\mu n \\to \\mu^- p \\pi^+ \\pi^-",
+   "csv":"data/datasets/sources/day-1983itd/sigma_enu_pippim_p.csv",
+   "xlabel":"E_\\nu","xunit":"GeV","ylabel":"\\sigma","yunit":"10^{-41}cm^2"},
+  {"slug":"sigma_enu_pippi0_p","label":"\\nu_\\mu p \\to \\mu^- p \\pi^+ \\pi^0",
+   "csv":"data/datasets/sources/day-1983itd/sigma_enu_pippi0_p.csv",
+   "xlabel":"E_\\nu","xunit":"GeV","ylabel":"\\sigma","yunit":"10^{-41}cm^2"},
+  {"slug":"sigma_enu_pippip_n","label":"\\nu_\\mu p \\to \\mu^- n \\pi^+ \\pi^+",
+   "csv":"data/datasets/sources/day-1983itd/sigma_enu_pippip_n.csv",
+   "xlabel":"E_\\nu","xunit":"GeV","ylabel":"\\sigma","yunit":"10^{-41}cm^2"}
+ ]
+}

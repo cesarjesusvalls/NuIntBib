@@ -1,0 +1,46 @@
+{
+ "bibtag": "Kitagaki:1986ct",
+ "slug": "kitagaki-1986ct",
+ "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/BNL",
+ "note": "Charged-current exclusive single-pion production cross sections as a function of neutrino energy, measured in the BNL 7-foot deuterium bubble chamber (wide-band beam, mean E_nu ~ 1.6 GeV). Three exclusive channels are given: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+ (all with hadronic mass W < 2 GeV), plus the pi+ p channel restricted to the Delta region W < 1.4 GeV. Values are absolute cross sections in 10^-38 cm^2. Only the raw published cross sections are ingested here; the NUISANCE _corr (Wilkinson/Rodriguez flux-corrected), event-count, W-shape and flux files are excluded.",
+ "provenance": "Kitagaki:1986ct — CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+ · from the NUISANCE data release",
+ "items": [
+  {
+   "slug": "cc1pi0_n",
+   "label": "\\nu_\\mu n \\to \\mu^- p \\pi^0 (W < 2 GeV)",
+   "csv": "data/datasets/sources/kitagaki-1986ct/sigma_cc1pi0_n.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2"
+  },
+  {
+   "slug": "cc1pip_n",
+   "label": "\\nu_\\mu n \\to \\mu^- n \\pi^+ (W < 2 GeV)",
+   "csv": "data/datasets/sources/kitagaki-1986ct/sigma_cc1pip_n.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2"
+  },
+  {
+   "slug": "cc1pip_p",
+   "label": "\\nu_\\mu p \\to \\mu^- p \\pi^+ (W < 2 GeV)",
+   "csv": "data/datasets/sources/kitagaki-1986ct/sigma_cc1pip_p.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2"
+  },
+  {
+   "slug": "cc1pip_p_w14",
+   "label": "\\nu_\\mu p \\to \\mu^- p \\pi^+ (W < 1.4 GeV)",
+   "csv": "data/datasets/sources/kitagaki-1986ct/sigma_cc1pip_p_w14.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2"
+  }
+ ]
+}

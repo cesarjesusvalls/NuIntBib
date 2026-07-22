@@ -1,0 +1,203 @@
+{
+ "bibtag": "Day:1983itd",
+ "slug": "day-1983itd",
+ "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
+ "arxiv": null,
+ "cite": "Phys.Rev.D 28 2714",
+ "note": "Charged-current two-pion production off deuterium in the threshold region at the ANL 12-ft bubble chamber (Day et al., Phys. Rev. D 28, 2714 (1983)). Absolute total cross sections sigma(E_nu) for the three exclusive CC two-pion channels: nu_mu n -> mu- p pi+ pi-, nu_mu p -> mu- p pi+ pi0, and nu_mu p -> mu- n pi+ pi+. These are the '_xsec' cross-section tables from the NUISANCE ANL/CC2pi directory; the accompanying weighted/unweighted momentum distributions in the same directories are event-shape histograms and are excluded. Target: bound nucleon in deuterium; values in 10^-41 cm^2.",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_enu_pippim_p",
+   "slug": "dsigma_sigma_enu_pippim_p",
+   "name": "\u03c3 (\\nu_\\mu n \\to \\mu^- p \\pi^+ \\pi^-)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu n \\to \\mu^- p \\pi^+ \\pi^-)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-41}cm^2",
+   "yunit_tex": "$10^{-41}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.8375,
+     "hi": 1.4,
+     "center": 1.11875,
+     "val": 13.7,
+     "err": 5.3
+    },
+    {
+     "i": 1,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 99.0,
+     "err": 30.0
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 2.6,
+     "center": 2.3,
+     "val": 216.0,
+     "err": 81.0
+    },
+    {
+     "i": 3,
+     "lo": 2.6,
+     "hi": 3.4,
+     "center": 3.0,
+     "val": 404.0,
+     "err": 168.0
+    },
+    {
+     "i": 4,
+     "lo": 3.4,
+     "hi": 5.5,
+     "center": 4.45,
+     "val": 352.0,
+     "err": 140.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/day-1983itd/sigma_enu_pippim_p.csv",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
+   "provenance": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release",
+   "notes": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release."
+  },
+  {
+   "key": "dsigma_sigma_enu_pippi0_p",
+   "slug": "dsigma_sigma_enu_pippi0_p",
+   "name": "\u03c3 (\\nu_\\mu p \\to \\mu^- p \\pi^+ \\pi^0)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu p \\to \\mu^- p \\pi^+ \\pi^0)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-41}cm^2",
+   "yunit_tex": "$10^{-41}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.75,
+     "hi": 1.4,
+     "center": 1.075,
+     "val": 14.0,
+     "err": 4.8
+    },
+    {
+     "i": 1,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 66.7,
+     "err": 24.6
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 2.6,
+     "center": 2.3,
+     "val": 125.0,
+     "err": 83.0
+    },
+    {
+     "i": 3,
+     "lo": 2.6,
+     "hi": 3.4,
+     "center": 3.0,
+     "val": 681.0,
+     "err": 276.0
+    },
+    {
+     "i": 4,
+     "lo": 3.4,
+     "hi": 5.05,
+     "center": 4.225,
+     "val": 511.0,
+     "err": 209.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/day-1983itd/sigma_enu_pippi0_p.csv",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
+   "provenance": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release",
+   "notes": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release."
+  },
+  {
+   "key": "dsigma_sigma_enu_pippip_n",
+   "slug": "dsigma_sigma_enu_pippip_n",
+   "name": "\u03c3 (\\nu_\\mu p \\to \\mu^- n \\pi^+ \\pi^+)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu p \\to \\mu^- n \\pi^+ \\pi^+)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-41}cm^2",
+   "yunit_tex": "$10^{-41}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.1,
+     "hi": 1.4,
+     "center": 1.25,
+     "val": 19.3,
+     "err": 10.6
+    },
+    {
+     "i": 1,
+     "lo": 1.4,
+     "hi": 2.0,
+     "center": 1.7,
+     "val": 87.0,
+     "err": 31.1
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 2.6,
+     "center": 2.3,
+     "val": 350.0,
+     "err": 131.0
+    },
+    {
+     "i": 3,
+     "lo": 2.6,
+     "hi": 3.4,
+     "center": 3.0,
+     "val": 690.0,
+     "err": 286.0
+    },
+    {
+     "i": 4,
+     "lo": 3.4,
+     "hi": 5.55,
+     "center": 4.475,
+     "val": 267.0,
+     "err": 137.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/day-1983itd/sigma_enu_pippip_n.csv",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
+   "provenance": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release",
+   "notes": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release."
+  }
+ ]
+}

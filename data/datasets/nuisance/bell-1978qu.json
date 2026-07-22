@@ -1,0 +1,123 @@
+{
+ "bibtag": "Bell:1978qu",
+ "slug": "bell-1978qu",
+ "source": "NUISANCE",
+ "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/FNAL/CC1pip_on_p/FNAL_cc1ppip_dsigdQ2_W14.txt",
+ "arxiv": null,
+ "cite": "Phys.Rev.Lett. 41 1008",
+ "note": "Differential cross section d\u03c3/dQ\u00b2 for single-pion production \u03bd_\u03bc p \u2192 \u03bc\u207b \u03c0\u207a p at FNAL (15-foot hydrogen bubble chamber, E_\u03bd > 5 GeV), for events with invariant hadronic mass M(\u03c0\u207ap) < 1.4 GeV. Absolute published distribution in 10\u207b\u00b3\u2078 cm\u00b2/GeV\u00b2 (Phys. Rev. Lett. 41 (1978) 1008). Integrating d\u03c3/dQ\u00b2 over the quoted bins gives 0.54\u00d710\u207b\u00b3\u2078 cm\u00b2, matching the paper's stated \u03c3(M<1.4 GeV) = (0.55\u00b10.08)\u00d710\u207b\u00b3\u2078 cm\u00b2, confirming this is the genuine absolute cross section (not a shape or event-count histogram). Target: free proton (hydrogen bubble chamber). Only this one absolute distribution ships in NUISANCE for the paper; the accompanying nEvent/_bin/_edit/_edges files are shape-fit intermediates and are excluded.",
+ "distributions": [
+  {
+   "key": "dsigma_dsigdq2_w14",
+   "slug": "dsigma_dsigdq2_w14",
+   "name": "d\u03c3/dQ\u00b2 (M(\\pi^+ p) < 1.4 GeV)",
+   "name_tex": "$d\\sigma/dQ^2\\ (M(\\pi^+ p) < 1.4 GeV)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$d\\sigma/dQ^2$",
+   "yunit": "10^{-38}cm^2/GeV^2",
+   "yunit_tex": "$10^{-38}cm^2/GeV^2$",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 0.948,
+     "err": 0.222
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 0.803,
+     "err": 0.197
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 0.638,
+     "err": 0.165
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.5,
+     "center": 0.4,
+     "val": 0.317,
+     "err": 0.081
+    },
+    {
+     "i": 4,
+     "lo": 0.5,
+     "hi": 0.7,
+     "center": 0.6,
+     "val": 0.298,
+     "err": 0.079
+    },
+    {
+     "i": 5,
+     "lo": 0.7,
+     "hi": 1.0,
+     "center": 0.85,
+     "val": 0.262,
+     "err": 0.057
+    },
+    {
+     "i": 6,
+     "lo": 1.0,
+     "hi": 1.4,
+     "center": 1.2,
+     "val": 0.0696,
+     "err": 0.0239
+    },
+    {
+     "i": 7,
+     "lo": 1.4,
+     "hi": 1.8,
+     "center": 1.6,
+     "val": 0.0497,
+     "err": 0.0226
+    },
+    {
+     "i": 8,
+     "lo": 1.8,
+     "hi": 2.2,
+     "center": 2.0,
+     "val": 0.0693,
+     "err": 0.0237
+    },
+    {
+     "i": 9,
+     "lo": 2.2,
+     "hi": 2.6,
+     "center": 2.4000000000000004,
+     "val": 0.0495,
+     "err": 0.0213
+    },
+    {
+     "i": 10,
+     "lo": 2.6,
+     "hi": 3.0,
+     "center": 2.8,
+     "val": 0.02,
+     "err": 0.0138
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/bell-1978qu/dsigdq2_w14.csv",
+   "scale_note": null,
+   "source": "NUISANCE",
+   "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/FNAL/CC1pip_on_p/FNAL_cc1ppip_dsigdQ2_W14.txt",
+   "provenance": "Bell:1978qu \u2014 d\u03c3/dQ\u00b2 for \u03bd_\u03bc p \u2192 \u03bc\u207b \u03c0\u207a p, M(\u03c0\u207ap) < 1.4 GeV, FNAL 15-foot hydrogen bubble chamber \u00b7 target free proton \u00b7 absolute cross section validated against the paper's integrated \u03c3 \u00b7 from the NUISANCE data release",
+   "notes": "Bell:1978qu \u2014 d\u03c3/dQ\u00b2 for \u03bd_\u03bc p \u2192 \u03bc\u207b \u03c0\u207a p, M(\u03c0\u207ap) < 1.4 GeV, FNAL 15-foot hydrogen bubble chamber. Target free proton. Absolute cross section validated against the paper's integrated \u03c3. From the NUISANCE data release."
+  }
+ ]
+}
