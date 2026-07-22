@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2301.03706",
  "arxiv": "2301.03706",
  "cite": "Phys.Rev.Lett. 131 101802",
- "note": "numu CC1p0pi single-transverse-kinematic-imbalance cross sections on argon (per Ar), BNB. Values + covariance from the arXiv ancillary release; a smearing matrix Ac (in the release) must be applied to a model before comparison, and the BNB flux is the standard MicroBooNE product (not in this release).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dpT",

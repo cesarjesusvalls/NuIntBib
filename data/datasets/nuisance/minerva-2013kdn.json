@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1305.2243",
  "arxiv": "1305.2243",
  "cite": "Phys.Rev.Lett. 111 022502",
- "note": "Flux-averaged (integrated over the MINERvA low-energy NuMI \u03bd\u03bc flux, mean E\u03bd~3.5 GeV) differential cross section d\u03c3/dQ\u00b2_QE for \u03bd\u03bc CCQE(-like) scattering, as a function of reconstructed Q\u00b2_QE, on the MINERvA scintillator tracker (LE-NuMI, forward horn current, \u03bd\u03bc beam). Target: per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\").",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dsigma_dQ2QE",
@@ -94,7 +94,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1305.2243",
    "provenance": "MINERvA:2013kdn \u2014 Flux-averaged (integrated over the MINERvA low-energy NuMI \u03bd\u03bc flux, mean E\u03bd~3.5 GeV) differential cross section d\u03c3/dQ\u00b2_Q \u00b7 target per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2013kdn \u2014 Flux-averaged (integrated over the MINERvA low-energy NuMI \u03bd\u03bc flux, mean E\u03bd~3.5 GeV) differential cross section d\u03c3/dQ\u00b2_Q. Target per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\")."
+   "notes": "Target per neutron (paper explicitly normalizes to \"per neutron\", despite the physical target being the hydrocarbon (CH) scintillator; per site convention this per-neutron normalization is tagged as target material \"C\")."
   }
  ],
  "covariance": {

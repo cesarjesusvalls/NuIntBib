@@ -2,8 +2,8 @@
  "bibtag": "COHERENT:2020iec",
  "slug": "coherent-2020iec",
  "source_url": "https://arxiv.org/abs/2003.10630",
- "note": "Flux-averaged total CEvNS cross section on argon (natural, 99.6% Ar-40), all-flavor SNS stopped-pion beam (prompt numu + delayed numubar/nue), CENNS-10 liquid-argon detector. Target: per nucleus (natural Ar, 99.6% 40Ar). No covariance is published (per-bin total uncertainty only).",
- "provenance": "COHERENT:2020iec \u2014 Flux-averaged total CEvNS cross section on argon (natural, 99.6% Ar-40), all-flavor SNS stopped-pion beam (prompt numu + \u00b7 target per nucleus (natural Ar, 99.6% 40Ar) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "note": "",
+ "provenance": "COHERENT:2020iec — Flux-averaged total CEvNS cross section on argon (natural, 99.6% Ar-40), all-flavor SNS stopped-pion beam (prompt numu + · target per nucleus (natural Ar, 99.6% 40Ar) · values transcribed from the arXiv paper tables ·No covariance is published (per-bin total uncertainty only).",
  "items": [
   {
    "slug": "total_xsec_ar",

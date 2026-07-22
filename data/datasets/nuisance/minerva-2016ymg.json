@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1611.02224",
  "arxiv": "1611.02224",
  "cite": "Phys.Rev.Lett. 119 011802",
- "note": "Flux-integrated differential cross sections for neutral-current K+ production by neutrinos, dsigma/dT_K (K+ kinetic energy) and dsigma/dE_vis (non-K+ visible hadronic energy), per nucleon on the MINERvA CH scintillator tracker (low-energy NuMI numu beam, mean E_nu~3.5 GeV).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dTK",

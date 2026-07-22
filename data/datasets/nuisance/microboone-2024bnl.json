@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2404.09949",
  "arxiv": "2404.09949",
  "cite": "Phys.Rev.D 110 092014",
- "note": "Flux-integrated single-differential nu_mu CC1pi0 (CC neutral-pion) production cross sections on argon, MicroBooNE, BNB (Wiener-SVD unfolded)",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dp_pi0",

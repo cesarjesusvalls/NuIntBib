@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1910.08658",
  "arxiv": "1910.08658",
  "cite": "Phys.Rev.D 101 092001",
- "note": "numu CCQE-like (muon + proton, mesonless) single-transverse-kinematic-imbalance differential cross sections on hydrocarbon (per nucleon), NuMI LE <Enu>~3 GeV. Adds the delta-pTx and delta-pTy projections (sensitive to nucleon binding energy) to the eight legacy observables, all re-extracted with corrected elastic-FSI weighting. Values + total covariance per observable from the arXiv ancillary release.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_muonmomentum",

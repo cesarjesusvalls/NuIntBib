@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1503.02107",
  "arxiv": "1503.02107",
  "cite": "Phys.Lett.B 749 130",
- "note": "Flux-averaged differential cross sections for single \\pi^0 momentum and angle in CC \\bar\\nu_\\mu single-\\pi^0 production on CH (MINERvA, <E_\\nu>=3.6 GeV)",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dpimom",

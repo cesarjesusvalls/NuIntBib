@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1912.09890",
  "arxiv": "1912.09890",
  "cite": "Phys.Rev.Lett. 124 121801",
- "note": "CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"Medium Energy\" neutrino-mode beam (flux peaked ~6 GeV), MINERvA tracker. Three flux-integrated 1D differential cross sections from the official arXiv ancillary data release (anc/tables/, described by anc/tables.html): dsigma/dQ^2_QE (single-differential, the paper's Fig. \"XSec1D\" headline plot), and dsigma/dp_parallel and dsigma/dp_perp (muon longitudinal/transverse momentum), which are the OFFICIAL 1D marginal projections of the paper's headline 2D d^2sigma/dp_perp/dp_parallel result, released with their own independently-tabulated covariances. Target: per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C..",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_q2",
@@ -182,7 +182,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1912.09890",
    "provenance": "MINERvA:2019gsf \u2014 CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"M \u00b7 target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C. \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2019gsf \u2014 CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"M. Target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C.."
+   "notes": "Target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C.."
   },
   {
    "key": "dsigma_ppar",
@@ -327,7 +327,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1912.09890",
    "provenance": "MINERvA:2019gsf \u2014 CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"M \u00b7 target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C. \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2019gsf \u2014 CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"M. Target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C.."
+   "notes": "Target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C.."
   },
   {
    "key": "dsigma_pperp",
@@ -456,7 +456,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1912.09890",
    "provenance": "MINERvA:2019gsf \u2014 CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"M \u00b7 target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C. \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2019gsf \u2014 CC quasielastic-like (CCQE-like, topology: muon + 0-or-more nucleons, no mesons/heavy baryons) nu_mu scattering, NuMI \"M. Target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C.."
+   "notes": "Target per nucleon (CH hydrocarbon tracker: 88.5% C, 8.2% H, 2.5% O by mass in the fiducial region, per paper Sec. \"central scintillator tracker region\"). Paper text: efficiency-corrected distributions \"normalized by the integral of the predicted neutrino flux and by the number of nucleons (3.23e30 in the fiducial region)\" -- i.e. divided by total nucleon count, not just neutrons, so per NuIntBib convention this is tagged CH (per-nucleon), not C.."
   }
  ],
  "covariance": {

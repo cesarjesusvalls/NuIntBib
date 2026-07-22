@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2211.03734",
  "arxiv": "2211.03734",
  "cite": "Phys.Lett.B 872 140052",
- "note": "First measurement of CC muon-neutrino two-proton (CC2p, mesonless) final-state cross sections on argon, MicroBooNE, Booster Neutrino Beam",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dcos_PLPR",

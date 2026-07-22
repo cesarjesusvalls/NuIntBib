@@ -3,8 +3,8 @@
  "slug": "minerva-2018nab",
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/1803.09377",
- "note": "Double-differential antineutrino CC cross section d^2\u03c3/dE_avail dq_3 per nucleon on hydrocarbon (CH), MINERvA low-energy antineutrino beam (2-6 GeV, LE horn), muon p>1.5 GeV/c and angle<20 deg.",
- "provenance": "MINERvA:2018nab \u2014 arXiv ancillary Supplemental.txt (anc/) \u2014 double-differential cross section vs available energy E_avail in 6 slices of three-momentum transfer q3, per-nucleon on CH target; total (stat+syst) errors and full 25x25 covariance (via Cholesky factor) as released; unfolded with d'Agostini method, MnvGENIE-v1 migration matrix.",
+ "note": "",
+ "provenance": "MINERvA:2018nab — arXiv ancillary Supplemental.txt (anc/) — double-differential cross section vs available energy E_avail in 6 slices of three-momentum transfer q3, per-nucleon on CH target; total (stat+syst) errors and full 25x25 covariance (via Cholesky factor) as released; unfolded with d'Agostini method, MnvGENIE-v1 migration matrix.",
  "distributions": [
   {
    "kind": "2d",

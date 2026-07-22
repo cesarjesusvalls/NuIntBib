@@ -3,8 +3,8 @@
  "slug": "barish-1977qk",
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins5566",
- "note": "Quasi-elastic total cross section for \u03bd\u03bc n \u2192 \u03bc\u207b p as a function of neutrino lab momentum. Target: neutron (per neutron, free nucleon reaction NUMU N --> MU- P). From the HepData record.",
- "provenance": "Barish:1977qk \u2014 Quasi-elastic total cross section for \u03bd\u03bc n \u2192 \u03bc\u207b p as a function of neutrino lab momentum \u00b7 target neutron (per neutron, free nucleon reaction NUMU N --> MU- P) \u00b7 from the HepData record",
+ "note": "",
+ "provenance": "Barish:1977qk — Quasi-elastic total cross section for νμ n → μ⁻ p as a function of neutrino lab momentum · target neutron (per neutron, free nucleon reaction NUMU N --> MU- P) · from the HepData record",
  "items": [
   {
    "slug": "barish-1977qk-ccqe_sigma_vs_plab",

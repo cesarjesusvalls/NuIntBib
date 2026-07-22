@@ -2,8 +2,8 @@
  "bibtag": "MINERvA:2019rhx",
  "slug": "minerva-2019rhx",
  "source_url": "https://arxiv.org/abs/1906.08300",
- "note": "Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel \u03bd\u0304\u03bc + CH \u2192 \u03bc+ + \u03c0- + (nucleon(s)), i.e. \u03bd\u0304\u03bc-CC(\u03c0-) production, in the NuMI low-energy antineutrino beam (1.5\u2264E\u03bd\u226410 GeV, \u03b8\u03bc\u226425\u00b0). Six kinematic distributions: muon momentum p\u03bc, muon angle \u03b8\u03bc, pion kinetic energy T\u03c0, pion angle \u03b8\u03c0, \u03bd\u0304\u03bc energy \u03c3(E\u03bd) (bin-integrated, not divided by \u0394E\u03bd), and Q\u00b2. Detector: MINERvA fine-grained scintillator tracker + MINOS muon spectrometer. Target: per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions).",
- "provenance": "MINERvA:2019rhx \u2014 Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel \u03bd\u0304\u03bc + C \u00b7 target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MINERvA:2019rhx — Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel ν̄μ + C · target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "mmom",

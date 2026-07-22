@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1803.09377",
  "arxiv": "1803.09377",
  "cite": "Phys.Rev.Lett. 120 221805",
- "note": "Double-differential antineutrino CC cross section d^2\u03c3/dE_avail dq_3 per nucleon on hydrocarbon (CH), MINERvA low-energy antineutrino beam (2-6 GeV, LE horn), muon p>1.5 GeV/c and angle<20 deg.",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_deavail_dq3",

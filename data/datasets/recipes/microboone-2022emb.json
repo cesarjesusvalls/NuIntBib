@@ -1,100 +1,100 @@
 {
-  "bibtag": "MicroBooNE:2022emb",
-  "slug": "microboone-2022emb",
-  "source": "arXiv",
-  "source_url": "https://arxiv.org/abs/2211.03734",
-  "note": "First measurement of CC muon-neutrino two-proton (CC2p, mesonless) final-state cross sections on argon, MicroBooNE, Booster Neutrino Beam",
-  "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
-  "distributions": [
-    {
-      "kind": "1d",
-      "slug": "dsigma_dcos_PLPR",
-      "label": "opening angle between the two protons",
-      "xlabel": "\\cos(\\theta_{\\vec{P}_L\\cdot\\vec{P}_R})",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_{\\vec{P}_L\\cdot\\vec{P}_R})",
-      "yunit": "10^{-38}cm^2/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_PLPR.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dcos_muPsum",
-      "label": "opening angle between muon and total proton momentum",
-      "xlabel": "\\cos(\\theta_{\\vec{P}_\\mu\\cdot\\vec{P}_{\\mathrm{sum}}})",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_{\\vec{P}_\\mu\\cdot\\vec{P}_{\\mathrm{sum}}})",
-      "yunit": "10^{-38}cm^2/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_muPsum.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_ddeltaPT",
-      "label": "transverse momentum imbalance magnitude",
-      "xlabel": "\\delta P_T",
-      "xunit": "GeV/c",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\delta P_T",
-      "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_ddeltaPT.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dPmu",
-      "label": "muon momentum",
-      "xlabel": "P_\\mu",
-      "xunit": "GeV/c",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}P_\\mu",
-      "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_dPmu.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dcos_mu",
-      "label": "muon angle relative to neutrino beam",
-      "xlabel": "\\cos(\\theta_\\mu)",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_\\mu)",
-      "yunit": "10^{-38}cm^2/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_mu.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dPL",
-      "label": "leading proton momentum",
-      "xlabel": "P_L",
-      "xunit": "GeV/c",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}P_L",
-      "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_dPL.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dcos_L",
-      "label": "leading proton angle relative to neutrino beam",
-      "xlabel": "\\cos(\\theta_L)",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_L)",
-      "yunit": "10^{-38}cm^2/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_L.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dPR",
-      "label": "recoil proton momentum",
-      "xlabel": "P_R",
-      "xunit": "GeV/c",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}P_R",
-      "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_dPR.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dcos_R",
-      "label": "recoil proton angle relative to neutrino beam",
-      "xlabel": "\\cos(\\theta_R)",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_R)",
-      "yunit": "10^{-38}cm^2/Ar",
-      "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_R.csv"
-    }
-  ]
+ "bibtag": "MicroBooNE:2022emb",
+ "slug": "microboone-2022emb",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2211.03734",
+ "note": "",
+ "provenance": "Digitized from numeric tables (Tables 2-10) in the paper's Supplemental Materials PDF (Supp/uBooNE_CC2p_Supplemental_Materials.pdf, arXiv e-print ancillary files); no HEPData or Zenodo release exists for this paper and the tex source contains no machine-readable tables. Only single-differential (1d) cross sections are reported in this paper -- no double- or triple-differential measurements were found in the release. Target is argon nucleus (cross section quoted per-Ar, not per-nucleon).",
+ "distributions": [
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcos_PLPR",
+   "label": "opening angle between the two protons",
+   "xlabel": "\\cos(\\theta_{\\vec{P}_L\\cdot\\vec{P}_R})",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_{\\vec{P}_L\\cdot\\vec{P}_R})",
+   "yunit": "10^{-38}cm^2/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_PLPR.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcos_muPsum",
+   "label": "opening angle between muon and total proton momentum",
+   "xlabel": "\\cos(\\theta_{\\vec{P}_\\mu\\cdot\\vec{P}_{\\mathrm{sum}}})",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_{\\vec{P}_\\mu\\cdot\\vec{P}_{\\mathrm{sum}}})",
+   "yunit": "10^{-38}cm^2/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_muPsum.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_ddeltaPT",
+   "label": "transverse momentum imbalance magnitude",
+   "xlabel": "\\delta P_T",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\delta P_T",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_ddeltaPT.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dPmu",
+   "label": "muon momentum",
+   "xlabel": "P_\\mu",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}P_\\mu",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_dPmu.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcos_mu",
+   "label": "muon angle relative to neutrino beam",
+   "xlabel": "\\cos(\\theta_\\mu)",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_\\mu)",
+   "yunit": "10^{-38}cm^2/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_mu.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dPL",
+   "label": "leading proton momentum",
+   "xlabel": "P_L",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}P_L",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_dPL.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcos_L",
+   "label": "leading proton angle relative to neutrino beam",
+   "xlabel": "\\cos(\\theta_L)",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_L)",
+   "yunit": "10^{-38}cm^2/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_L.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dPR",
+   "label": "recoil proton momentum",
+   "xlabel": "P_R",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}P_R",
+   "yunit": "10^{-38}cm^2/(GeV/c)/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_dPR.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcos_R",
+   "label": "recoil proton angle relative to neutrino beam",
+   "xlabel": "\\cos(\\theta_R)",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos(\\theta_R)",
+   "yunit": "10^{-38}cm^2/Ar",
+   "csv": "data/datasets/sources/microboone-2022emb/dsigma_dcos_R.csv"
+  }
+ ]
 }

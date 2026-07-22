@@ -3,7 +3,7 @@
  "slug": "microboone-2024zwf",
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/2402.19216",
- "note": "Double- and triple-differential flux-integrated cross sections for CC inclusive numu interactions on argon (0pi topology split by proton multiplicity: 0p, Np, and Xp=inclusive), MicroBooNE, BNB, 6.369e20 POT (Wiener-SVD unfolded).",
+ "note": "",
  "provenance": "arXiv:2402.19216 e-print ancillary anc/DataRelease/{xs.txt,real_bins.txt,cov.txt,readme.txt}. GlobalBin blocks 138-192 (0p) and 193-261 (Np) = d2sigma/dcosthetamu dEmu (readme block '138-261: 0pNp [CosThetaMu,Emu]' splits into two separate 8-slice measurements of 55 and 69 bins respectively, confirmed against main.tex Fig. costhetamuEmu_xs chi2 table ndf=55/69/124 and captions). Block 262-357 = d2sigma/dcosthetap dKp (Np-only signal definition, main.tex: 'signal definition used here only includes Np events'). Block 386-454 = d2sigma/dcosthetamu dEmu for Xp (inclusive 0p+Np) selection (Fig. costhetamuEmuXp_xs, ndf=69). Block 455-703 = d3sigma/dEavail dcosthetamu dEmu for Xp selection, 4 Eavail panels (0-0.3,0.3-0.45,0.45-0.65,0.65-2.5 GeV) x 8 costhetamu series (Fig. Eavail[1-4]_costhetamuEmu_xs_nn.png, ndf=249). Values are Z from xs.txt (already in units of 10^-36 cm^2/Ar[/GeV[^2]] per readme.txt); errors are sqrt(diag(cov.txt)) (same 10^-36 scale, since cov Z is expressed as coefficient of 1e-72=(1e-36)^2), i.e. total (stat+syst) uncertainty from the extracted covariance. Target is per-Ar-nucleus (not per-nucleon) per readme.txt explicit units 'cm^2/Ar'.",
  "distributions": [
   {

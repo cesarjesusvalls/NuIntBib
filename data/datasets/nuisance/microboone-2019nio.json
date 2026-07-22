@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1905.09694",
  "arxiv": "1905.09694",
  "cite": "Phys.Rev.Lett. 123 131801",
- "note": "Double-differential nu_mu CC-inclusive cross section vs muon momentum p_mu and cos(theta_mu), on argon, BNB neutrino-mode beam",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_dpmu_dcostheta",

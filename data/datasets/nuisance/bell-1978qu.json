@@ -5,7 +5,7 @@
  "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/FNAL/CC1pip_on_p/FNAL_cc1ppip_dsigdQ2_W14.txt",
  "arxiv": null,
  "cite": "Phys.Rev.Lett. 41 1008",
- "note": "Differential cross section d\u03c3/dQ\u00b2 for single-pion production \u03bd_\u03bc p \u2192 \u03bc\u207b \u03c0\u207a p at FNAL (15-foot hydrogen bubble chamber, E_\u03bd > 5 GeV), for events with invariant hadronic mass M(\u03c0\u207ap) < 1.4 GeV. Absolute published distribution in 10\u207b\u00b3\u2078 cm\u00b2/GeV\u00b2 (Phys. Rev. Lett. 41 (1978) 1008). Integrating d\u03c3/dQ\u00b2 over the quoted bins gives 0.54\u00d710\u207b\u00b3\u2078 cm\u00b2, matching the paper's stated \u03c3(M<1.4 GeV) = (0.55\u00b10.08)\u00d710\u207b\u00b3\u2078 cm\u00b2, confirming this is the genuine absolute cross section (not a shape or event-count histogram). Target: free proton (hydrogen bubble chamber). Only this one absolute distribution ships in NUISANCE for the paper; the accompanying nEvent/_bin/_edit/_edges files are shape-fit intermediates and are excluded.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dsigdq2_w14",
@@ -117,7 +117,7 @@
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/FNAL/CC1pip_on_p/FNAL_cc1ppip_dsigdQ2_W14.txt",
    "provenance": "Bell:1978qu \u2014 d\u03c3/dQ\u00b2 for \u03bd_\u03bc p \u2192 \u03bc\u207b \u03c0\u207a p, M(\u03c0\u207ap) < 1.4 GeV, FNAL 15-foot hydrogen bubble chamber \u00b7 target free proton \u00b7 absolute cross section validated against the paper's integrated \u03c3 \u00b7 from the NUISANCE data release",
-   "notes": "Bell:1978qu \u2014 d\u03c3/dQ\u00b2 for \u03bd_\u03bc p \u2192 \u03bc\u207b \u03c0\u207a p, M(\u03c0\u207ap) < 1.4 GeV, FNAL 15-foot hydrogen bubble chamber. Target free proton. Absolute cross section validated against the paper's integrated \u03c3. From the NUISANCE data release."
+   "notes": "Target free proton. Absolute cross section validated against the paper's integrated \u03c3. From the NUISANCE data release."
   }
  ]
 }

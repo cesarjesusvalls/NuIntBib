@@ -3,8 +3,8 @@
  "slug": "faser-2024ref",
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins2855783",
- "note": "CC muon-neutrino/anti-neutrino cross section vs neutrino energy. Target: nucleon (tungsten/emulsion detector, cross section quoted per nucleon). From the HepData record.",
- "provenance": "FASER:2024ref \u2014 CC muon-neutrino/anti-neutrino cross section vs neutrino energy \u00b7 target nucleon (tungsten/emulsion detector, cross section quoted per nucleon) \u00b7 from the HepData record",
+ "note": "",
+ "provenance": "FASER:2024ref — CC muon-neutrino/anti-neutrino cross section vs neutrino energy · target nucleon (tungsten/emulsion detector, cross section quoted per nucleon) · from the HepData record",
  "items": [
   {
    "slug": "sigma_numu",

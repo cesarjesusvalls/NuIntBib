@@ -1,246 +1,246 @@
 {
-  "bibtag": "MicroBooNE:2024zkh",
-  "slug": "microboone-2024zkh",
-  "source": "arXiv",
-  "source_url": "https://arxiv.org/abs/2402.19281",
-  "note": "Flux-averaged CC-inclusive numu-Ar differential cross sections (leading proton kinetic energy Kp; muon energy Emu and angle costheta_mu; and the double-differential d2sigma/dcostheta_mu dEmu split by final-state proton multiplicity 0p/Np/inclusive Xp), MicroBooNE, BNB.",
-  "provenance": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
-  "distributions": [
+ "bibtag": "MicroBooNE:2024zkh",
+ "slug": "microboone-2024zkh",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2402.19281",
+ "note": "",
+ "provenance": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
+ "distributions": [
+  {
+   "kind": "1d",
+   "slug": "dsigma_dKp",
+   "label": "K_p differential cross section (inclusive Xp)",
+   "xlabel": "K_p",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}K_p",
+   "yunit": "10^{-36}cm^2/GeV/Ar",
+   "csv": "data/datasets/sources/microboone-2024zkh/kp_xs.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dEmu_Xp",
+   "label": "E_\\mu differential cross section (inclusive Xp)",
+   "xlabel": "E_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}E_\\mu",
+   "yunit": "10^{-36}cm^2/GeV/Ar",
+   "csv": "data/datasets/sources/microboone-2024zkh/xp_emu.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcosthetamu_Xp",
+   "label": "\\cos\\theta_\\mu differential cross section (inclusive Xp)",
+   "xlabel": "\\cos\\theta_\\mu",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu",
+   "yunit": "10^{-36}cm^2/Ar",
+   "csv": "data/datasets/sources/microboone-2024zkh/xp_costhetamu.csv"
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dcosthetamu_dEmu_0p",
+   "label": "\\cos\\theta_\\mu, E_\\mu double-differential cross section (0p final state)",
+   "xlabel": "E_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
+   "yunit": "10^{-36}cm^2/GeV/Ar",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "slices": [
     {
-      "kind": "1d",
-      "slug": "dsigma_dKp",
-      "label": "K_p differential cross section (inclusive Xp)",
-      "xlabel": "K_p",
-      "xunit": "GeV",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}K_p",
-      "yunit": "10^{-36}cm^2/GeV/Ar",
-      "csv": "data/datasets/sources/microboone-2024zkh/kp_xs.csv"
+     "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+     "label": "-1<costheta_mu<-0.5",
+     "lo": -1.0,
+     "hi": -0.5,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_m1-m0p5.csv"
     },
     {
-      "kind": "1d",
-      "slug": "dsigma_dEmu_Xp",
-      "label": "E_\\mu differential cross section (inclusive Xp)",
-      "xlabel": "E_\\mu",
-      "xunit": "GeV",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}E_\\mu",
-      "yunit": "10^{-36}cm^2/GeV/Ar",
-      "csv": "data/datasets/sources/microboone-2024zkh/xp_emu.csv"
+     "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+     "label": "-0.5<costheta_mu<0",
+     "lo": -0.5,
+     "hi": 0.0,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_m0p5-0.csv"
     },
     {
-      "kind": "1d",
-      "slug": "dsigma_dcosthetamu_Xp",
-      "label": "\\cos\\theta_\\mu differential cross section (inclusive Xp)",
-      "xlabel": "\\cos\\theta_\\mu",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_\\mu",
-      "yunit": "10^{-36}cm^2/Ar",
-      "csv": "data/datasets/sources/microboone-2024zkh/xp_costhetamu.csv"
+     "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+     "label": "0<costheta_mu<0.3",
+     "lo": 0.0,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0-0p3.csv"
     },
     {
-      "kind": "2d",
-      "slug": "d2sigma_dcosthetamu_dEmu_0p",
-      "label": "\\cos\\theta_\\mu, E_\\mu double-differential cross section (0p final state)",
-      "xlabel": "E_\\mu",
-      "xunit": "GeV",
-      "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
-      "yunit": "10^{-36}cm^2/GeV/Ar",
-      "slicevar_tex": "$\\cos\\theta_\\mu$",
-      "slices": [
-        {
-          "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
-          "label": "-1<costheta_mu<-0.5",
-          "lo": -1.0,
-          "hi": -0.5,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_m1-m0p5.csv"
-        },
-        {
-          "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
-          "label": "-0.5<costheta_mu<0",
-          "lo": -0.5,
-          "hi": 0.0,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_m0p5-0.csv"
-        },
-        {
-          "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
-          "label": "0<costheta_mu<0.3",
-          "lo": 0.0,
-          "hi": 0.3,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0-0p3.csv"
-        },
-        {
-          "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
-          "label": "0.3<costheta_mu<0.5",
-          "lo": 0.3,
-          "hi": 0.5,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p3-0p5.csv"
-        },
-        {
-          "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
-          "label": "0.5<costheta_mu<0.7",
-          "lo": 0.5,
-          "hi": 0.7,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p5-0p7.csv"
-        },
-        {
-          "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
-          "label": "0.7<costheta_mu<0.8",
-          "lo": 0.7,
-          "hi": 0.8,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p7-0p8.csv"
-        },
-        {
-          "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
-          "label": "0.8<costheta_mu<0.9",
-          "lo": 0.8,
-          "hi": 0.9,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p8-0p9.csv"
-        },
-        {
-          "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
-          "label": "0.9<costheta_mu<1",
-          "lo": 0.9,
-          "hi": 1.0,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p9-1.csv"
-        }
-      ]
+     "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+     "label": "0.3<costheta_mu<0.5",
+     "lo": 0.3,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p3-0p5.csv"
     },
     {
-      "kind": "2d",
-      "slug": "d2sigma_dcosthetamu_dEmu_Np",
-      "label": "\\cos\\theta_\\mu, E_\\mu double-differential cross section (Np final state, N\\geq1)",
-      "xlabel": "E_\\mu",
-      "xunit": "GeV",
-      "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
-      "yunit": "10^{-36}cm^2/GeV/Ar",
-      "slicevar_tex": "$\\cos\\theta_\\mu$",
-      "slices": [
-        {
-          "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
-          "label": "-1<costheta_mu<-0.5",
-          "lo": -1.0,
-          "hi": -0.5,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_m1-m0p5.csv"
-        },
-        {
-          "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
-          "label": "-0.5<costheta_mu<0",
-          "lo": -0.5,
-          "hi": 0.0,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_m0p5-0.csv"
-        },
-        {
-          "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
-          "label": "0<costheta_mu<0.3",
-          "lo": 0.0,
-          "hi": 0.3,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0-0p3.csv"
-        },
-        {
-          "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
-          "label": "0.3<costheta_mu<0.5",
-          "lo": 0.3,
-          "hi": 0.5,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p3-0p5.csv"
-        },
-        {
-          "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
-          "label": "0.5<costheta_mu<0.7",
-          "lo": 0.5,
-          "hi": 0.7,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p5-0p7.csv"
-        },
-        {
-          "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
-          "label": "0.7<costheta_mu<0.8",
-          "lo": 0.7,
-          "hi": 0.8,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p7-0p8.csv"
-        },
-        {
-          "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
-          "label": "0.8<costheta_mu<0.9",
-          "lo": 0.8,
-          "hi": 0.9,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p8-0p9.csv"
-        },
-        {
-          "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
-          "label": "0.9<costheta_mu<1",
-          "lo": 0.9,
-          "hi": 1.0,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p9-1.csv"
-        }
-      ]
+     "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+     "label": "0.5<costheta_mu<0.7",
+     "lo": 0.5,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p5-0p7.csv"
     },
     {
-      "kind": "2d",
-      "slug": "d2sigma_dcosthetamu_dEmu_Xp",
-      "label": "\\cos\\theta_\\mu, E_\\mu double-differential cross section (inclusive Xp, X\\geq0)",
-      "xlabel": "E_\\mu",
-      "xunit": "GeV",
-      "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
-      "yunit": "10^{-36}cm^2/GeV/Ar",
-      "slicevar_tex": "$\\cos\\theta_\\mu$",
-      "slices": [
-        {
-          "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
-          "label": "-1<costheta_mu<-0.5",
-          "lo": -1.0,
-          "hi": -0.5,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_m1-m0p5.csv"
-        },
-        {
-          "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
-          "label": "-0.5<costheta_mu<0",
-          "lo": -0.5,
-          "hi": 0.0,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_m0p5-0.csv"
-        },
-        {
-          "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
-          "label": "0<costheta_mu<0.3",
-          "lo": 0.0,
-          "hi": 0.3,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0-0p3.csv"
-        },
-        {
-          "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
-          "label": "0.3<costheta_mu<0.5",
-          "lo": 0.3,
-          "hi": 0.5,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p3-0p5.csv"
-        },
-        {
-          "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
-          "label": "0.5<costheta_mu<0.7",
-          "lo": 0.5,
-          "hi": 0.7,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p5-0p7.csv"
-        },
-        {
-          "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
-          "label": "0.7<costheta_mu<0.8",
-          "lo": 0.7,
-          "hi": 0.8,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p7-0p8.csv"
-        },
-        {
-          "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
-          "label": "0.8<costheta_mu<0.9",
-          "lo": 0.8,
-          "hi": 0.9,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p8-0p9.csv"
-        },
-        {
-          "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
-          "label": "0.9<costheta_mu<1",
-          "lo": 0.9,
-          "hi": 1.0,
-          "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p9-1.csv"
-        }
-      ]
+     "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+     "label": "0.7<costheta_mu<0.8",
+     "lo": 0.7,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p7-0p8.csv"
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+     "label": "0.8<costheta_mu<0.9",
+     "lo": 0.8,
+     "hi": 0.9,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p8-0p9.csv"
+    },
+    {
+     "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+     "label": "0.9<costheta_mu<1",
+     "lo": 0.9,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_0p_costhetamu_emu__y_0p9-1.csv"
     }
-  ],
-  "cov": "data/datasets/sources/microboone-2024zkh/cov.csv",
-  "cov_note": "Full NxN covariance (absolute units^2, in units of the product of the two bins' yunit scales, i.e. 10^-72 cm^4/Ar^2 x appropriate GeV powers) sliced from the release's blockwise cov.txt using the GlobalBin index sets for the 6 distributions above, concatenated in listed order (Kp; Xp Emu; Xp costheta_mu; 0p 2d slices in order; Np 2d slices in order; Xp 2d slices in order), each slice's bins in file order. sqrt(diag) reproduces the per-bin err column exactly (by construction) and matches the paper's own Supplemental Material Uncertainty column to <1% (rounding)."
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dcosthetamu_dEmu_Np",
+   "label": "\\cos\\theta_\\mu, E_\\mu double-differential cross section (Np final state, N\\geq1)",
+   "xlabel": "E_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
+   "yunit": "10^{-36}cm^2/GeV/Ar",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "slices": [
+    {
+     "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+     "label": "-1<costheta_mu<-0.5",
+     "lo": -1.0,
+     "hi": -0.5,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_m1-m0p5.csv"
+    },
+    {
+     "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+     "label": "-0.5<costheta_mu<0",
+     "lo": -0.5,
+     "hi": 0.0,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_m0p5-0.csv"
+    },
+    {
+     "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+     "label": "0<costheta_mu<0.3",
+     "lo": 0.0,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+     "label": "0.3<costheta_mu<0.5",
+     "lo": 0.3,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p3-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+     "label": "0.5<costheta_mu<0.7",
+     "lo": 0.5,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p5-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+     "label": "0.7<costheta_mu<0.8",
+     "lo": 0.7,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p7-0p8.csv"
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+     "label": "0.8<costheta_mu<0.9",
+     "lo": 0.8,
+     "hi": 0.9,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p8-0p9.csv"
+    },
+    {
+     "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+     "label": "0.9<costheta_mu<1",
+     "lo": 0.9,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_np_costhetamu_emu__y_0p9-1.csv"
+    }
+   ]
+  },
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dcosthetamu_dEmu_Xp",
+   "label": "\\cos\\theta_\\mu, E_\\mu double-differential cross section (inclusive Xp, X\\geq0)",
+   "xlabel": "E_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}\\cos\\theta_\\mu\\mathrm{d}E_\\mu",
+   "yunit": "10^{-36}cm^2/GeV/Ar",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "slices": [
+    {
+     "label_tex": "$-1 < \\cos\\theta_\\mu < -0.5$",
+     "label": "-1<costheta_mu<-0.5",
+     "lo": -1.0,
+     "hi": -0.5,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_m1-m0p5.csv"
+    },
+    {
+     "label_tex": "$-0.5 < \\cos\\theta_\\mu < 0$",
+     "label": "-0.5<costheta_mu<0",
+     "lo": -0.5,
+     "hi": 0.0,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_m0p5-0.csv"
+    },
+    {
+     "label_tex": "$0 < \\cos\\theta_\\mu < 0.3$",
+     "label": "0<costheta_mu<0.3",
+     "lo": 0.0,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < \\cos\\theta_\\mu < 0.5$",
+     "label": "0.3<costheta_mu<0.5",
+     "lo": 0.3,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p3-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < \\cos\\theta_\\mu < 0.7$",
+     "label": "0.5<costheta_mu<0.7",
+     "lo": 0.5,
+     "hi": 0.7,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p5-0p7.csv"
+    },
+    {
+     "label_tex": "$0.7 < \\cos\\theta_\\mu < 0.8$",
+     "label": "0.7<costheta_mu<0.8",
+     "lo": 0.7,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p7-0p8.csv"
+    },
+    {
+     "label_tex": "$0.8 < \\cos\\theta_\\mu < 0.9$",
+     "label": "0.8<costheta_mu<0.9",
+     "lo": 0.8,
+     "hi": 0.9,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p8-0p9.csv"
+    },
+    {
+     "label_tex": "$0.9 < \\cos\\theta_\\mu < 1$",
+     "label": "0.9<costheta_mu<1",
+     "lo": 0.9,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/microboone-2024zkh/d2_xp_costhetamu_emu__y_0p9-1.csv"
+    }
+   ]
+  }
+ ],
+ "cov": "data/datasets/sources/microboone-2024zkh/cov.csv",
+ "cov_note": "Full NxN covariance (absolute units^2, in units of the product of the two bins' yunit scales, i.e. 10^-72 cm^4/Ar^2 x appropriate GeV powers) sliced from the release's blockwise cov.txt using the GlobalBin index sets for the 6 distributions above, concatenated in listed order (Kp; Xp Emu; Xp costheta_mu; 0p 2d slices in order; Np 2d slices in order; Xp 2d slices in order), each slice's bins in file order. sqrt(diag) reproduces the per-bin err column exactly (by construction) and matches the paper's own Supplemental Material Uncertainty column to <1% (rounding)."
 }

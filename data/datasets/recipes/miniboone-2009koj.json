@@ -3,7 +3,7 @@
  "slug": "miniboone-2009koj",
  "source": "NUISANCE",
  "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/MiniBooNE/CC1piRat/cc1pipccqerat_like_edit.txt",
- "note": "νμ charged-current single-π+ to quasi-elastic cross-section ratio on mineral oil (CH2) in the Fermilab Booster Neutrino Beam (mean Eν≈0.8 GeV), reported as a function of neutrino energy over 0.4 GeV < Eν < 2.4 GeV (Aguilar-Arevalo et al., Phys. Rev. Lett. 103 (2009) 081801). The paper's headline result is this dimensionless cross-section ratio, published in two forms in Table II: the observed CC1π+-like/CCQE-like ratio (measured directly, not corrected for hadronic final-state interactions in the target nucleus) and the FSI-corrected CC1π+/CCQE ratio (unfolded to the initial interaction vertex using MC, for comparison with prior ANL/K2K measurements). Both are genuine published observables and are ingested here as dimensionless ratios. The NUISANCE cc1pipccqerat_like_edit.txt / cc1pipccqerat_corr_edit.txt files reproduce Table II exactly. Target: CH2 (mineral oil). No covariance is published (per-bin total statistical+systematic uncertainty only).",
+ "note": "",
  "provenance": "MiniBooNE:2009koj — νμ CC single-π+ to quasi-elastic cross-section ratio on mineral oil (CH2), vs neutrino energy 0.4–2.4 GeV · published in two forms (observed CC1π+-like/CCQE-like and FSI-corrected CC1π+/CCQE) in the paper's Table II · dimensionless ratio, no covariance published · from the NUISANCE data release",
  "items": [
   {

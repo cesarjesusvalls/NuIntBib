@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2110.13372",
  "arxiv": "2110.13372",
  "cite": "Phys.Rev.D 106 032001",
- "note": "Double-differential cross section d^2\\sigma/dE_{avail}dq_3 for inclusive CC \\nu_\\mu scattering on hydrocarbon (CH), medium-energy NuMI beam, <E_\\nu>~6 GeV; per-nucleon, staircase binning in available energy vs three-momentum transfer.",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_eavail_q3",

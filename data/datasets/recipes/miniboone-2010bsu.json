@@ -2,8 +2,8 @@
  "bibtag": "MiniBooNE:2010bsu",
  "slug": "miniboone-2010bsu",
  "source_url": "https://arxiv.org/abs/1002.2680",
- "note": "Flux-integrated CCQE cross section for nu_mu on CH2 (mineral oil), reported per target neutron, MiniBooNE BNB (mean E_nu ~788 MeV): (1) single differential dsigma/dQ^2_QE, (2) flux-unfolded sigma(E_nu^QE,RFG). A double-differential d2sigma/dTmu dcos(theta_mu) table also exists but was not ingested (2D binning, see caveats). Target: per neutron (mineral oil CH2 target, cross section normalized \"per neutron\" per Sec. IV text: \"the choice of normalization yields cross sections 'per neutron'\"). No covariance is published (per-bin total uncertainty only).",
- "provenance": "MiniBooNE:2010bsu \u2014 Flux-integrated CCQE cross section for nu_mu on CH2 (mineral oil), reported per target neutron, MiniBooNE BNB (mean E_nu \u00b7 target per neutron (mineral oil CH2 target, cross section normalized \"per neutron\" per Sec. IV text: \"the choice of normalization yields cross sections 'per neutron'\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "note": "",
+ "provenance": "MiniBooNE:2010bsu — Flux-integrated CCQE cross section for nu_mu on CH2 (mineral oil), reported per target neutron, MiniBooNE BNB (mean E_nu · target per neutron (mineral oil CH2 target, cross section normalized \"per neutron\" per Sec. IV text: \"the choice of normalization yields cross sections 'per neutron'\") · values transcribed from the arXiv paper tables ·No covariance is published (per-bin total uncertainty only).",
  "items": [
   {
    "slug": "dsigma_dQ2",

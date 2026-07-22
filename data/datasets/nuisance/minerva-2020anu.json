@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2002.05812",
  "arxiv": "2002.05812",
  "cite": "Phys.Rev.D 102 072007",
- "note": "numu CC pi0-production transverse-kinematic-imbalance differential cross sections (nucleon momentum pn, boosting angle delta-alphaT, double-transverse imbalance delta-pTT) on hydrocarbon (per nucleon), NuMI LE <Enu>~3 GeV. Values + total covariance per observable from the arXiv ancillary release.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_pn",

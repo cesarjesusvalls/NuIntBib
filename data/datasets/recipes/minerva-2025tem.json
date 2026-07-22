@@ -3,7 +3,7 @@
  "slug": "minerva-2025tem",
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/2503.15047",
- "note": "Nuclear-target dependence of muon-neutrino CC quasielastic-like (0 pion, \u22651 proton) transverse-kinematic-imbalance and single-particle kinematics on C, CH, Fe, Pb and H2O targets, MINERvA low-energy NuMI beam",
+ "note": "",
  "provenance": "MINERvA official data release (anc/tki_release.root, arXiv:2503.15047 e-print ancillary files); absolute per-nucleon differential cross sections dsigma/dX for each of C, CH, Fe, Pb, H2O targets; per-bin error = total (stat+syst) error as released; per-distribution covariance from the release's absolute_xsec_<var>_<target>_covariance.txt (sparse row/col/value, N+2 with 1 under/overflow bin trimmed off each side)",
  "distributions": [
   {

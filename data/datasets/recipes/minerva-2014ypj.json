@@ -2,8 +2,8 @@
  "bibtag": "MINERvA:2014ypj",
  "slug": "minerva-2014ypj",
  "source_url": "https://arxiv.org/abs/1409.4497",
- "note": "Flux-integrated differential CC nu_mu QE-like (mu + >=1 proton, no pions) cross section on hydrocarbon, arXiv:1409.4497 \"Measurement of muon plus proton final states in nu_mu interactions on hydrocarbon at <E_nu>=4.2 GeV\" (MINERvA, on-axis NuMI beam, low-energy tune, mean E_nu=4.2 GeV). Two observables released: (1) dsigma/dQ2 vs Q2 reconstructed purely from HADRONIC (proton) kinematics, for the full QE-like sample (>=1 proton w/ KE>110 MeV, no pions, muon angle <70deg); (2) dsigma/dQ2 vs Q2 reconstructed from MUON kinematics (standard QE Q2_QE formula) for the MINOS-matched subsample, used as a cross-check against MINERvA's earlier muon-based QE measurement (Fiorentini:2013ezn). Target: per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule).",
- "provenance": "MINERvA:2014ypj \u2014 Flux-integrated differential CC nu_mu QE-like (mu + >=1 proton, no pions) cross section on hydrocarbon, arXiv:1409.4497 \u00b7 target per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MINERvA:2014ypj — Flux-integrated differential CC nu_mu QE-like (mu + >=1 proton, no pions) cross section on hydrocarbon, arXiv:1409.4497 · target per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "dxsec_dQ2_proton",

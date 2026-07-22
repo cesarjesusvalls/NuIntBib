@@ -687,8 +687,12 @@ def _notes_from_provenance(prov):
             continue                                   # source label
         if low.startswith('data/') or low.startswith('neutrino_data/'):
             continue                                   # in-repo file path
-        if 'arxiv' in low or 'zenodo' in low or 't2k.org data release' in low:
-            continue                                   # citation / description
+        if 'arxiv' in low or 'zenodo' in low or 'hepdata' in low or 't2k.org data release' in low:
+            continue                                   # citation / source (incl. "from the HepData record")
+        if re.match(r'^[A-Za-z][\w.]*:\d{4}\w*\s*[—–-]{1,2}\s', p):
+            continue                                   # leading "Bibtag — what-it-is" description blurb
+        if low in ('dimensionless', 'ratio', 'dimensionless ratio'):
+            continue                                   # trivial: the unit/label already shows this
         keep.append(p[0].upper() + p[1:])
     return '. '.join(keep) + ('.' if keep else '')
 
@@ -1551,11 +1555,7 @@ def _tki_items(slugs):
 
 REGISTRY = [
     {'bibtag': 'NOvA:2026zup', 'slug': 'nova-2026zup', 'source': 'arXiv',
-     'note': 'Muon-antineutrino CC-inclusive cross sections at NOvA (NuMI, antineutrino mode). '
-             'The primary result is the triple-differential d3sigma/dTmu dcos(theta_mu) dEavail '
-             '(shown as E_avail panels, each overlaying the cos(theta_mu) slices as coloured '
-             'lines); the two single-differential projections dsigma/dEnu and dsigma/dQ^2 are '
-             'also included. Per nucleon; per-bin total uncertainty; no covariance published.',
+     'note': '',
      'sources': [
          {'csv_simple': {
              'key': 'dsigma',
@@ -1583,11 +1583,7 @@ REGISTRY = [
                            'dEavail (NuMI antineutrino mode, arXiv:2603.06718) · per nucleon · from the '
                            'paper release · E_avail panels x cos(theta_mu) series'}}]},
     {'bibtag': 'ArgoNeuT:2014rlj', 'slug': 'argoneut-2014rlj', 'source': 'arXiv',
-     'note': 'Inclusive numu and antinumu CC differential cross sections on argon (per argon '
-             'nucleus), Fermilab NuMI low-energy antineutrino mode: dsigma/dtheta_mu and '
-             'dsigma/dp_mu, at <Enu>=9.6 GeV (numu) / 3.6 GeV (antinumu). Per-bin total '
-             'uncertainty (stat + syst in quadrature); no covariance is published. Values '
-             'transcribed from the paper tables (arXiv LaTeX source).',
+     'note': '',
      'sources': [{'csv_simple': {
          'key': 'dsigma',
          'items': [
@@ -1613,11 +1609,7 @@ REGISTRY = [
                        'per-bin total uncertainty only (no covariance published) · values '
                        'transcribed from the paper tables'}}]},
     {'bibtag': 'MicroBooNE:2024sec', 'slug': 'microboone-2024sec', 'source': 'arXiv',
-     'note': 'NC pi0 production on argon (per nucleon), Fermilab BNB. Flux-averaged differential '
-             'cross sections in pi0 momentum and cos(theta_pi0), split by hadronic final state '
-             '(0 protons / N protons / any protons Xp). The release also ships an Xp double-'
-             'differential [cos(theta_pi0), P_pi0] (24 bins) which is not ingested here. Values + '
-             'the cross-observable total covariance (Wiener-SVD) from the arXiv ancillary release.',
+     'note': '',
      'sources': [{'uboone_datarelease': {
          'xs': 'data/datasets/sources/microboone-2024sec/xs.txt',
          'bins': 'data/datasets/sources/microboone-2024sec/real_bins.txt',
@@ -1648,11 +1640,7 @@ REGISTRY = [
                        '· cross-observable total Wiener-SVD covariance (sub-matrix over ingested '
                        'bins) · from the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2025ooi', 'slug': 'microboone-2025ooi', 'source': 'arXiv',
-     'note': 'numu CC0pi flux-integrated differential cross sections on argon (per argon nucleus), '
-             'Fermilab BNB nu-mode <Enu>~0.8 GeV: dsigma/dpmu and dsigma/dcos(theta_mu). The release '
-             'also ships the 2D d2sigma/dpmu dcos(theta_mu) (37 concatenated bins) and per-observable '
-             'A_C regularization matrices; only the two 1D cross sections are ingested here. Values + '
-             'total covariance per observable from the arXiv ancillary release.',
+     'note': '',
      'sources': [{'uboone_files': {
          'key': 'dsigma',
          'items': [
@@ -1674,10 +1662,7 @@ REGISTRY = [
                        'covariance per observable (block-diagonal) · from the arXiv ancillary '
                        'release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2021sfa', 'slug': 'microboone-2021sfa', 'source': 'arXiv',
-     'note': 'First energy-dependent numu CC inclusive cross sections on argon (per nucleon), '
-             'Fermilab BNB nu-mode <Enu>~0.8 GeV: total sigma(Enu), plus flux-averaged dsigma/dEmu '
-             'and the first dsigma/dnu (energy transfer). Values + total covariance per measurement '
-             'from the arXiv ancillary text release.',
+     'note': '',
      'sources': [{'uboone_txt': {
          'values': 'data/datasets/sources/microboone-2021sfa/microboone_cc_inclusive_cross_section.txt',
          'cov': 'data/datasets/sources/microboone-2021sfa/microboone_cc_inclusive_cov_mat.txt',
@@ -1695,10 +1680,7 @@ REGISTRY = [
                        'covariance per measurement (block-diagonal) · from the arXiv ancillary text '
                        'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2015jih', 'slug': 'minerva-2015jih', 'source': 'arXiv',
-     'note': 'nu_e CC quasi-elastic-like differential cross sections (electron energy, electron '
-             'angle, Q^2_QE) and the (nu_e+nubar_e)/nu_mu ratio in Q^2_QE, on hydrocarbon '
-             '(per nucleon), NuMI LE. Values + total covariance per observable from the arXiv '
-             'ancillary CSVs.',
+     'note': '',
      'flux': {'csv': 'data/datasets/sources/minerva-2015jih/Flux.csv', 'sep': ',', 'erange': 0,
               'fcol': [(1, 'nue+nuebar (x1e-10 /cm^2/GeV/POT)'), (2, 'nuebar_fraction')],
               'note': 'MINERvA NuMI LE nu_e + nubar_e flux (x10^-10 neutrinos/cm^2/GeV/POT) with the '
@@ -1729,10 +1711,7 @@ REGISTRY = [
                        'covariance per observable (block-diagonal) · from the arXiv ancillary CSVs '
                        '· nothing digitized'}}]},
     {'bibtag': 'MINERvA:2018hba', 'slug': 'minerva-2018hba', 'source': 'arXiv',
-     'note': 'numu CCQE-like (muon + proton, mesonless) transverse-kinematic-imbalance and '
-             'lepton/proton kinematic differential cross sections on hydrocarbon (per nucleon), '
-             'NuMI LE <Enu>~3 GeV. Values + total covariance per observable from the arXiv '
-             'ancillary release.',
+     'note': '',
      'sources': [{'minerva_root': {
          'root': 'data/datasets/sources/minerva-2018hba/MINERvA_1805.05486.root', 'key': 'dsigma',
          'xlabel': r'\delta\alpha_T', 'xunit': 'deg',
@@ -1745,11 +1724,7 @@ REGISTRY = [
                        'per observable (block-diagonal) · from the arXiv ancillary release '
                        '(xsec_with_total_errors TH1D + covariance TMatrix per TList) · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2019ope', 'slug': 'minerva-2019ope', 'source': 'arXiv',
-     'note': 'numu CCQE-like (muon + proton, mesonless) single-transverse-kinematic-imbalance '
-             'differential cross sections on hydrocarbon (per nucleon), NuMI LE <Enu>~3 GeV. Adds '
-             'the delta-pTx and delta-pTy projections (sensitive to nucleon binding energy) to the '
-             'eight legacy observables, all re-extracted with corrected elastic-FSI weighting. '
-             'Values + total covariance per observable from the arXiv ancillary release.',
+     'note': '',
      'sources': [{'minerva_root': {
          'root': 'data/datasets/sources/minerva-2019ope/MINERvA_DataRelease_Updated.root', 'key': 'dsigma',
          'xlabel': r'\delta p_{Ty}', 'xunit': 'GeV/c',
@@ -1762,11 +1737,7 @@ REGISTRY = [
                        'covariance per observable (block-diagonal) · from the arXiv ancillary release '
                        '(xsec_with_total_errors TH1D + covariance TMatrix per TList) · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2025rch', 'slug': 'microboone-2025rch', 'source': 'arXiv',
-     'note': 'numu CC single-charged-pion production on argon (per argon nucleus), BNB '
-             '<Enu>~0.8 GeV. Five differential cross sections (muon cos-theta and momentum, pion '
-             'cos-theta and momentum, mu-pi opening angle) unfolded via Wiener-SVD; apply the '
-             'release regularization matrix A_C before comparing predictions. Values + one full '
-             '34-bin cross-observable covariance from the arXiv ancillary release.',
+     'note': '',
      'flux': {'blocks': [
          {'root': 'data/datasets/sources/microboone-2025rch/flux.root',
           'hists': [('hEnumu_cv', 'numu'), ('hEnumubar_cv', 'numubar')]}],
@@ -1803,10 +1774,7 @@ REGISTRY = [
                        '34-bin cross-observable covariance (bin-width normalized) · from the arXiv '
                        'ancillary release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2020anu', 'slug': 'minerva-2020anu', 'source': 'arXiv',
-     'note': 'numu CC pi0-production transverse-kinematic-imbalance differential cross sections '
-             '(nucleon momentum pn, boosting angle delta-alphaT, double-transverse imbalance '
-             'delta-pTT) on hydrocarbon (per nucleon), NuMI LE <Enu>~3 GeV. Values + total '
-             'covariance per observable from the arXiv ancillary release.',
+     'note': '',
      'sources': [{'minerva_root': {
          'root': 'data/datasets/sources/minerva-2020anu/SupplementalMaterial2.root',
          'key': 'dsigma',
@@ -1829,11 +1797,7 @@ REGISTRY = [
                        'release (xsec_with_total_errors TH1D + covariance TMatrix per TList) · '
                        'nothing digitized'}}]},
     {'bibtag': 'MINERvA:2020zzv', 'slug': 'minerva-2020zzv', 'source': 'arXiv',
-     'note': 'numu CC inclusive differential cross sections d(sigma)/dpT and d(sigma)/dp_parallel '
-             'on hydrocarbon (per nucleon), NuMI LE <Enu>~3.5 GeV. Muon-angle < 20 deg phase space. '
-             'Values + total covariance from the arXiv ancillary release; each 1D projection '
-             'carries its own covariance. The release also ships the 2D d2sigma/dpTdp_par '
-             '(144 bins + 156x156 covariance); only the two 1D projections are ingested here.',
+     'note': '',
      'sources': [{'minerva_root': {
          'key': 'dsigma',
          'xlabel': r'p_{T\mu}', 'xunit': 'GeV/c',
@@ -1855,9 +1819,7 @@ REGISTRY = [
                        '· total covariance per projection (block-diagonal) · from the arXiv ancillary '
                        'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2018hqn', 'slug': 'minerva-2018hqn', 'source': 'arXiv',
-     'note': 'numu CC quasielastic-like differential cross sections on hydrocarbon (per nucleon), '
-             'NuMI LE. Values + total covariance from the arXiv ancillary release (QE-like signal '
-             'definition); each observable carries its own covariance.',
+     'note': '',
      'sources': [{'minerva_root': {
          'key': 'dsigma',
          'xlabel': r'Q^2_{QE}', 'xunit': r'(GeV/c)^2',
@@ -1889,8 +1851,7 @@ REGISTRY = [
                        'covariance per observable (block-diagonal) · from the arXiv ancillary '
                        'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2023ikp', 'slug': 'minerva-2023ikp', 'source': 'arXiv',
-     'note': 'antinumu CC multi-neutron (>=2 neutrons, low available energy) dsigma/dpT on '
-             'hydrocarbon (per nucleon), NuMI. Values + covariance from the arXiv ancillary CSV.',
+     'note': '',
      'sources': [{'minerva_csv': {
          'data': 'data/datasets/sources/minerva-2023ikp/crossSection.csv',
          'cov': 'data/datasets/sources/minerva-2023ikp/crossSectionCovariance.csv',
@@ -1903,10 +1864,7 @@ REGISTRY = [
                        'arXiv:2310.17014) · per nucleon · total covariance · from the arXiv '
                        'ancillary CSV · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2025pvb', 'slug': 'microboone-2025pvb', 'source': 'arXiv',
-     'note': 'nu_e + nubar_e CC single-charged-pion differential cross sections on argon '
-             '(per nucleon), NuMI off-axis (FHC+RHC combined). Values + full covariance from the '
-             'arXiv ancillary release; apply the release smearing matrix A_C before model '
-             'comparison.',
+     'note': '',
      'flux': {'blocks': [
          {'root': 'data/datasets/sources/microboone-2025pvb/nue_flux.root',
           'hists': [('nue_CV_AV_TPC_5MeV_bin', 'nue')]},
@@ -1934,10 +1892,7 @@ REGISTRY = [
                        'observables; apply the release smearing matrix A_C before comparison · from '
                        'the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2023cmw', 'slug': 'microboone-2023cmw', 'source': 'arXiv',
-     'note': 'numu CC1p0pi multidifferential cross sections on argon (per Ar), BNB. Values + '
-             'covariance from the arXiv ancillary release; apply the release smearing matrix Ac '
-             'before model comparison; BNB flux is the standard MicroBooNE product (not in this '
-             'release).',
+     'note': '',
      'sources': [{'minerva_root': {
          'root': 'data/datasets/sources/microboone-2023cmw/release.root',
          'xlabel': r'\delta p_T', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta p_T',
@@ -1955,10 +1910,7 @@ REGISTRY = [
                        'observable (block-diagonal); apply the release smearing matrix Ac before '
                        'comparison · from the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2023krv', 'slug': 'microboone-2023krv', 'source': 'arXiv',
-     'note': 'numu CC1p0pi generalized (3D) kinematic-imbalance cross sections on argon '
-             '(per Ar), BNB. Values + covariance from the arXiv ancillary release; apply the '
-             'release smearing matrix Ac to a model before comparison; BNB flux is the standard '
-             'MicroBooNE product (not in this release).',
+     'note': '',
      'sources': [{'minerva_root': {
          'root': 'data/datasets/sources/microboone-2023krv/release.root',
          'xlabel': r'\delta p_n', 'xunit': 'GeV/c', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}\delta p_n',
@@ -1977,10 +1929,7 @@ REGISTRY = [
                        '(block-diagonal); apply the release smearing matrix Ac before comparison · '
                        'from the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2023tzj', 'slug': 'microboone-2023tzj', 'source': 'arXiv',
-     'note': 'numu CC1p0pi single-transverse-kinematic-imbalance cross sections on argon '
-             '(per Ar), BNB. Values + covariance from the arXiv ancillary release; a smearing '
-             'matrix Ac (in the release) must be applied to a model before comparison, and the '
-             'BNB flux is the standard MicroBooNE product (not in this release).',
+     'note': '',
      'sources': [{'minerva_root': {
          'root': 'data/datasets/sources/microboone-2023tzj/release.root',
          'xlabel': r'\delta p_T', 'xunit': 'GeV/c',
@@ -2002,9 +1951,7 @@ REGISTRY = [
                        '(block-diagonal); apply the release smearing matrix Ac to a model before '
                        'comparison · from the arXiv ancillary release · nothing digitized'}}]},
     {'bibtag': 'MicroBooNE:2025aiw', 'slug': 'microboone-2025aiw', 'source': 'arXiv',
-     'note': 'nu_e CC differential cross sections on argon (per nucleon) with final-state '
-             'protons; NuMI off-axis, FHC+RHC combined. Values + covariance from the arXiv '
-             'ancillary release; the NuMI off-axis flux is not in the release.',
+     'note': '',
      'sources': [{'minerva_root': {
          'root': 'data/datasets/sources/microboone-2025aiw/release.root',
          'xlabel': r'E_e', 'xunit': 'GeV', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}E_e',
@@ -2026,10 +1973,7 @@ REGISTRY = [
                        'covariance per observable (block-diagonal) · from the arXiv ancillary '
                        'release · nothing digitized'}}]},
     {'bibtag': 'MINERvA:2026apf', 'slug': 'minerva-2026apf', 'source': 'arXiv',
-     'note': 'CC-inclusive antineutrino dsigma/dpT per nucleon on C, CH, Fe, Pb; from the '
-             'arXiv ancillary ROOT release. The release also ships the three cross-section '
-             'ratios to hydrocarbon (C/CH, Fe/CH, Pb/CH) with their own covariances; only the '
-             'four absolute cross sections are ingested here.',
+     'note': '',
      'flux': {'root': 'data/datasets/sources/minerva-2026apf/release.root',
               'hists': [('flux_ptmu_carbon', 'numubar_C'), ('flux_ptmu_hydrocarbon', 'numubar_CH'),
                         ('flux_ptmu_iron', 'numubar_Fe'), ('flux_ptmu_lead', 'numubar_Pb')],

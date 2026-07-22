@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2110.07730",
  "arxiv": "2110.07730",
  "cite": "Phys.Rev.Lett. 129 081801",
- "note": "Flux-averaged total CEvNS cross section on CsI[Na], all-flavor SNS stopped-pion (\u03c0DAR) beam (prompt \u03bd\u03bc + delayed \u03bde/\u03bd\u0304\u03bc), COHERENT CsI[Na] scintillator detector; single flux-integrated \u03c3, no differential distribution published. Target: per nucleus (flux- and target-averaged over Cs and I nuclei in the CsI[Na] crystal; paper does not decompose Cs vs I). No covariance published (per-bin total uncertainty only).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_total_xsec_csi",
@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2110.07730",
    "provenance": "COHERENT:2021xmm - Flux-averaged total CEvNS cross section on CsI[Na], all-flavor SNS stopped-pion (\u03c0DAR) beam (prompt \u03bd\u03bc + delayed \u03bde/\u03bd\u0304\u03bc) \u00b7 target per nucleus (flux- and target-averaged over Cs and I nuclei in the CsI[Na] crystal; paper does not decompose Cs vs I) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
-   "notes": "COHERENT:2021xmm - Flux-averaged total CEvNS cross section on CsI[Na], all-flavor SNS stopped-pion (\u03c0DAR) beam (prompt \u03bd\u03bc + delayed \u03bde/\u03bd\u0304\u03bc). Target per nucleus (flux- and target-averaged over Cs and I nuclei in the CsI[Na] crystal; paper does not decompose Cs vs I)."
+   "notes": "Target per nucleus (flux- and target-averaged over Cs and I nuclei in the CsI[Na] crystal; paper does not decompose Cs vs I)."
   }
  ]
 }

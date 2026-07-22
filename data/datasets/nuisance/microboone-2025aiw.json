@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2511.17342",
  "arxiv": "2511.17342",
  "cite": "Phys.Rev.D",
- "note": "nu_e CC differential cross sections on argon (per nucleon) with final-state protons; NuMI off-axis, FHC+RHC combined. Values + covariance from the arXiv ancillary release; the NuMI off-axis flux is not in the release.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_Ee",

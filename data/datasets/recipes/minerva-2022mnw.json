@@ -3,7 +3,7 @@
  "slug": "minerva-2022mnw",
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/2203.08022",
- "note": "First flux-averaged triple-differential quasielastic-like numu-CH cross section, MINERvA NuMI medium-energy beam (2-20 GeV), muon P||>1.5 GeV, angle<20deg; measured in (SumTp, Muon Pt, Muon P||) and (SumTp, q0_QE, Muon Energy).",
+ "note": "",
  "provenance": "arXiv:2203.08022 e-print ancillary data release (anc/MINERvA_TripleDiffQELike_*_data_cross_section.csv + *_covariances_underoverbinsremoved.csv, README). Per-nucleon (CH scintillator) differential cross sections, TH3D global-bin id CovCSVId used to reorder into panel(outer)/series(middle)/x(SumTp,inner) grouping matching the paper's own Fig.1 layout (panels of P_t or E_mu, colored/grouped curves of P|| or q0_QE, vs SumTp). Total uncertainty = stat+syst in quadrature as released. Covariance released in integrated-bin (bin-content) units; converted to the differential (density) units of the value/error columns by dividing cov_ij by (binVolume_i * binVolume_j), where binVolume is the product of the three differential bin widths for that global bin; verified sqrt(diag(cov))/err == 1.00000 for all 660+540 bins after conversion.",
  "distributions": [
   {

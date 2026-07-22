@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2209.07852",
  "arxiv": "2209.07852",
  "cite": "Phys.Rev.Lett. 131 1",
- "note": "Flux-integrated CC single pi+ (numu A -> mu- pi+ + nucleon(s)) semi-inclusive differential cross sections vs 8 kinematic variables (p_mu, theta_mu, p_mu,par, p_mu,T, Q^2, W_exp, T_pi, theta_pi), each measured per nucleon on 5 targets (scintillator/CH, carbon, water, iron, lead), MINERvA medium-energy NuMI beam <E_nu>~6 GeV.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dpmu_CH",

@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2509.03628",
  "arxiv": "2509.03628",
  "cite": "Phys.Rev.D 113 032007",
- "note": "numu CC single-charged-pion production on argon (per argon nucleus), BNB <Enu>~0.8 GeV. Five differential cross sections (muon cos-theta and momentum, pion cos-theta and momentum, mu-pi opening angle) unfolded via Wiener-SVD; apply the release regularization matrix A_C before comparing predictions. Values + one full 34-bin cross-observable covariance from the arXiv ancillary release.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_cos_mu",

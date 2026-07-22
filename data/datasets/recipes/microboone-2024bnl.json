@@ -1,62 +1,62 @@
 {
-  "bibtag": "MicroBooNE:2024bnl",
-  "slug": "microboone-2024bnl",
-  "source": "arXiv",
-  "source_url": "https://arxiv.org/abs/2404.09949",
-  "note": "Flux-integrated single-differential nu_mu CC1pi0 (CC neutral-pion) production cross sections on argon, MicroBooNE, BNB (Wiener-SVD unfolded)",
-  "provenance": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon).",
-  "distributions": [
-    {
-      "kind": "1d",
-      "slug": "dsigma_dp_pi0",
-      "label": "\\pi^0 momentum differential cross section",
-      "xlabel": "p_{\\pi^0}",
-      "xunit": "GeV/c",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\pi^0}",
-      "yunit": "10^{-39}cm^2/GeV/nucleon",
-      "csv": "data/datasets/sources/microboone-2024bnl/pi0_momentum.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dcostheta_pi0",
-      "label": "\\pi^0 scattering angle differential cross section",
-      "xlabel": "\\cos\\theta_{\\pi^0}",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\pi^0}",
-      "yunit": "10^{-39}cm^2/nucleon",
-      "csv": "data/datasets/sources/microboone-2024bnl/pi0_angle.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dp_mu",
-      "label": "muon momentum differential cross section",
-      "xlabel": "p_{\\mu}",
-      "xunit": "GeV/c",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\mu}",
-      "yunit": "10^{-39}cm^2/GeV/nucleon",
-      "csv": "data/datasets/sources/microboone-2024bnl/muon_momentum.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dcostheta_mu",
-      "label": "muon scattering angle differential cross section",
-      "xlabel": "\\cos\\theta_{\\mu}",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\mu}",
-      "yunit": "10^{-39}cm^2/nucleon",
-      "csv": "data/datasets/sources/microboone-2024bnl/muon_angle.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dcostheta_mupi0",
-      "label": "muon-\\pi^0 opening angle differential cross section",
-      "xlabel": "\\cos\\theta_{\\mu\\pi^0}",
-      "xunit": "",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\mu\\pi^0}",
-      "yunit": "10^{-39}cm^2/nucleon",
-      "csv": "data/datasets/sources/microboone-2024bnl/muon_pi0_opening_angle.csv"
-    }
-  ],
-  "cov": "data/datasets/sources/microboone-2024bnl/cov.csv",
-  "cov_note": "Block-diagonal 39x39 covariance (units 1e-39 cm^2/... squared, matching the val columns), one block per distribution in the SAME order listed above (pi0 momentum [8 bins], pi0 angle [7 bins], muon momentum [8 bins], muon angle [8 bins], mu-pi0 opening angle [8 bins] = 39 total). Each block is the paper's own 'Unfolded Covariance Matrix' for that observable (converted from (1e-40)^2 to (1e-39)^2 units, i.e. divided by 100). No cross-observable covariance is reported in the release, so off-block-diagonal entries are set to zero (not a claim of true independence, simply the absence of published cross terms)."
+ "bibtag": "MicroBooNE:2024bnl",
+ "slug": "microboone-2024bnl",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2404.09949",
+ "note": "",
+ "provenance": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon).",
+ "distributions": [
+  {
+   "kind": "1d",
+   "slug": "dsigma_dp_pi0",
+   "label": "\\pi^0 momentum differential cross section",
+   "xlabel": "p_{\\pi^0}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\pi^0}",
+   "yunit": "10^{-39}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/microboone-2024bnl/pi0_momentum.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcostheta_pi0",
+   "label": "\\pi^0 scattering angle differential cross section",
+   "xlabel": "\\cos\\theta_{\\pi^0}",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\pi^0}",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "csv": "data/datasets/sources/microboone-2024bnl/pi0_angle.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dp_mu",
+   "label": "muon momentum differential cross section",
+   "xlabel": "p_{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\mu}",
+   "yunit": "10^{-39}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/microboone-2024bnl/muon_momentum.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcostheta_mu",
+   "label": "muon scattering angle differential cross section",
+   "xlabel": "\\cos\\theta_{\\mu}",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\mu}",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "csv": "data/datasets/sources/microboone-2024bnl/muon_angle.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dcostheta_mupi0",
+   "label": "muon-\\pi^0 opening angle differential cross section",
+   "xlabel": "\\cos\\theta_{\\mu\\pi^0}",
+   "xunit": "",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\cos\\theta_{\\mu\\pi^0}",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "csv": "data/datasets/sources/microboone-2024bnl/muon_pi0_opening_angle.csv"
+  }
+ ],
+ "cov": "data/datasets/sources/microboone-2024bnl/cov.csv",
+ "cov_note": "Block-diagonal 39x39 covariance (units 1e-39 cm^2/... squared, matching the val columns), one block per distribution in the SAME order listed above (pi0 momentum [8 bins], pi0 angle [7 bins], muon momentum [8 bins], muon angle [8 bins], mu-pi0 opening angle [8 bins] = 39 total). Each block is the paper's own 'Unfolded Covariance Matrix' for that observable (converted from (1e-40)^2 to (1e-39)^2 units, i.e. divided by 100). No cross-observable covariance is reported in the release, so off-block-diagonal entries are set to zero (not a claim of true independence, simply the absence of published cross terms)."
 }

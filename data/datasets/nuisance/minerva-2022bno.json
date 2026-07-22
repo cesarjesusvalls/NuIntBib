@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2211.10402",
  "arxiv": "2211.10402",
  "cite": "Phys.Rev.D 108 032018",
- "note": "Double-differential antineutrino CCQE-like cross section d2sigma/dpT dp|| vs muon transverse momentum pT in slices of muon longitudinal momentum p||, on hydrocarbon (CH) target, MINERvA medium-energy NuMI antineutrino beam (<Enu> ~ 6 GeV).",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_dpt_dppar",

@@ -2,8 +2,8 @@
  "bibtag": "MicroBooNE:2022tdd",
  "slug": "microboone-2022tdd",
  "source_url": "https://arxiv.org/abs/2208.02348",
- "note": "Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final-state pions (0pi, any number of protons) on argon, in 4 kinematic variables: electron energy E_e, electron angle cos(theta_e) w.r.t. beam, leading proton kinetic energy KE_p, and leading proton angle cos(theta_p) w.r.t. beam. Beam: BNB (Booster Neutrino Beam) intrinsic nu_e component, 6.86e20 POT, 2016-2018 data. Detector: MicroBooNE LArTPC. Target: per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables.",
- "provenance": "MicroBooNE:2022tdd \u2014 Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final- \u00b7 target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MicroBooNE:2022tdd — Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final- · target per nucleon (argon) — paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "electron_energy",

@@ -1,136 +1,136 @@
 {
-  "bibtag": "MINERvA:2021owq",
-  "slug": "minerva-2021owq",
-  "source": "arXiv",
-  "source_url": "https://arxiv.org/abs/2106.16210",
-  "note": "Double-differential CC-inclusive nu_mu cross section vs muon transverse (pt) and longitudinal (p||) momentum, CH target, MINERvA ME NuMI beam (~6 GeV peak)",
-  "provenance": "arXiv e-print ancillary files (anc/data_result_ptpl_2D_minerva_inclusive_6GeV.txt + bin_mapping.txt + cov_ptpl_minerva_inclusive_6GeV_total.txt), Phys.Rev.D 104 (2021) 9, 092007; cross section per nucleon (CH target: 88.51% C, 8.18% H, 2.5% O, plus trace Ti/Cl/Al/Si), divided by number of target nucleons in fiducial volume; total_uncertainty column (stat+syst in quadrature) used directly as err; zero-valued (unreported/out-of-acceptance) bins dropped",
-  "distributions": [
+ "bibtag": "MINERvA:2021owq",
+ "slug": "minerva-2021owq",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2106.16210",
+ "note": "",
+ "provenance": "arXiv e-print ancillary files (anc/data_result_ptpl_2D_minerva_inclusive_6GeV.txt + bin_mapping.txt + cov_ptpl_minerva_inclusive_6GeV_total.txt), Phys.Rev.D 104 (2021) 9, 092007; cross section per nucleon (CH target: 88.51% C, 8.18% H, 2.5% O, plus trace Ti/Cl/Al/Si), divided by number of target nucleons in fiducial volume; total_uncertainty column (stat+syst in quadrature) used directly as err; zero-valued (unreported/out-of-acceptance) bins dropped",
+ "distributions": [
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dpt_dpz",
+   "label": "",
+   "xlabel": "p_T^{\\mu}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{\\parallel}",
+   "yunit": "cm^{2}/(GeV/c)^{2}/nucleon",
+   "slicevar_tex": "$p_{\\parallel}^{\\mu}$",
+   "slices": [
     {
-      "kind": "2d",
-      "slug": "d2sigma_dpt_dpz",
-      "label": "",
-      "xlabel": "p_T^{\\mu}",
-      "xunit": "GeV/c",
-      "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{\\parallel}",
-      "yunit": "cm^{2}/(GeV/c)^{2}/nucleon",
-      "slicevar_tex": "$p_{\\parallel}^{\\mu}$",
-      "slices": [
-        {
-          "label_tex": "$1.5 < p_{\\parallel} < 2\\ \\mathrm{GeV}/c$",
-          "label": "1.5<p||<2",
-          "lo": 1.5,
-          "hi": 2.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_1p5-2.csv"
-        },
-        {
-          "label_tex": "$2 < p_{\\parallel} < 2.5\\ \\mathrm{GeV}/c$",
-          "label": "2<p||<2.5",
-          "lo": 2.0,
-          "hi": 2.5,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_2-2p5.csv"
-        },
-        {
-          "label_tex": "$2.5 < p_{\\parallel} < 3\\ \\mathrm{GeV}/c$",
-          "label": "2.5<p||<3",
-          "lo": 2.5,
-          "hi": 3.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_2p5-3.csv"
-        },
-        {
-          "label_tex": "$3 < p_{\\parallel} < 3.5\\ \\mathrm{GeV}/c$",
-          "label": "3<p||<3.5",
-          "lo": 3.0,
-          "hi": 3.5,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_3-3p5.csv"
-        },
-        {
-          "label_tex": "$3.5 < p_{\\parallel} < 4\\ \\mathrm{GeV}/c$",
-          "label": "3.5<p||<4",
-          "lo": 3.5,
-          "hi": 4.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_3p5-4.csv"
-        },
-        {
-          "label_tex": "$4 < p_{\\parallel} < 4.5\\ \\mathrm{GeV}/c$",
-          "label": "4<p||<4.5",
-          "lo": 4.0,
-          "hi": 4.5,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_4-4p5.csv"
-        },
-        {
-          "label_tex": "$4.5 < p_{\\parallel} < 5\\ \\mathrm{GeV}/c$",
-          "label": "4.5<p||<5",
-          "lo": 4.5,
-          "hi": 5.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_4p5-5.csv"
-        },
-        {
-          "label_tex": "$5 < p_{\\parallel} < 6\\ \\mathrm{GeV}/c$",
-          "label": "5<p||<6",
-          "lo": 5.0,
-          "hi": 6.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_5-6.csv"
-        },
-        {
-          "label_tex": "$6 < p_{\\parallel} < 7\\ \\mathrm{GeV}/c$",
-          "label": "6<p||<7",
-          "lo": 6.0,
-          "hi": 7.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_6-7.csv"
-        },
-        {
-          "label_tex": "$7 < p_{\\parallel} < 8\\ \\mathrm{GeV}/c$",
-          "label": "7<p||<8",
-          "lo": 7.0,
-          "hi": 8.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_7-8.csv"
-        },
-        {
-          "label_tex": "$8 < p_{\\parallel} < 9\\ \\mathrm{GeV}/c$",
-          "label": "8<p||<9",
-          "lo": 8.0,
-          "hi": 9.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_8-9.csv"
-        },
-        {
-          "label_tex": "$9 < p_{\\parallel} < 10\\ \\mathrm{GeV}/c$",
-          "label": "9<p||<10",
-          "lo": 9.0,
-          "hi": 10.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_9-10.csv"
-        },
-        {
-          "label_tex": "$10 < p_{\\parallel} < 15\\ \\mathrm{GeV}/c$",
-          "label": "10<p||<15",
-          "lo": 10.0,
-          "hi": 15.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_10-15.csv"
-        },
-        {
-          "label_tex": "$15 < p_{\\parallel} < 20\\ \\mathrm{GeV}/c$",
-          "label": "15<p||<20",
-          "lo": 15.0,
-          "hi": 20.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_15-20.csv"
-        },
-        {
-          "label_tex": "$20 < p_{\\parallel} < 40\\ \\mathrm{GeV}/c$",
-          "label": "20<p||<40",
-          "lo": 20.0,
-          "hi": 40.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_20-40.csv"
-        },
-        {
-          "label_tex": "$40 < p_{\\parallel} < 60\\ \\mathrm{GeV}/c$",
-          "label": "40<p||<60",
-          "lo": 40.0,
-          "hi": 60.0,
-          "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_40-60.csv"
-        }
-      ],
-      "cov": "data/datasets/sources/minerva-2021owq/cov.csv",
-      "cov_note": "Total covariance (cov_ptpl_minerva_inclusive_6GeV_total.txt), absolute units (cm^2/(GeV/c)^2/nucleon)^2, rows/cols ordered as slices (p|| bins, ascending) then bins within each slice (pt bins, ascending) in the same order as written in the CSVs; zero/unreported global bins excluded to match the 205 retained bins. sqrt(diag(cov)) vs err verified: ratio 0.996-1.005 (mean 1.0000) across all 205 bins."
+     "label_tex": "$1.5 < p_{\\parallel} < 2\\ \\mathrm{GeV}/c$",
+     "label": "1.5<p||<2",
+     "lo": 1.5,
+     "hi": 2.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_1p5-2.csv"
+    },
+    {
+     "label_tex": "$2 < p_{\\parallel} < 2.5\\ \\mathrm{GeV}/c$",
+     "label": "2<p||<2.5",
+     "lo": 2.0,
+     "hi": 2.5,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_2-2p5.csv"
+    },
+    {
+     "label_tex": "$2.5 < p_{\\parallel} < 3\\ \\mathrm{GeV}/c$",
+     "label": "2.5<p||<3",
+     "lo": 2.5,
+     "hi": 3.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_2p5-3.csv"
+    },
+    {
+     "label_tex": "$3 < p_{\\parallel} < 3.5\\ \\mathrm{GeV}/c$",
+     "label": "3<p||<3.5",
+     "lo": 3.0,
+     "hi": 3.5,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_3-3p5.csv"
+    },
+    {
+     "label_tex": "$3.5 < p_{\\parallel} < 4\\ \\mathrm{GeV}/c$",
+     "label": "3.5<p||<4",
+     "lo": 3.5,
+     "hi": 4.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_3p5-4.csv"
+    },
+    {
+     "label_tex": "$4 < p_{\\parallel} < 4.5\\ \\mathrm{GeV}/c$",
+     "label": "4<p||<4.5",
+     "lo": 4.0,
+     "hi": 4.5,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_4-4p5.csv"
+    },
+    {
+     "label_tex": "$4.5 < p_{\\parallel} < 5\\ \\mathrm{GeV}/c$",
+     "label": "4.5<p||<5",
+     "lo": 4.5,
+     "hi": 5.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_4p5-5.csv"
+    },
+    {
+     "label_tex": "$5 < p_{\\parallel} < 6\\ \\mathrm{GeV}/c$",
+     "label": "5<p||<6",
+     "lo": 5.0,
+     "hi": 6.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_5-6.csv"
+    },
+    {
+     "label_tex": "$6 < p_{\\parallel} < 7\\ \\mathrm{GeV}/c$",
+     "label": "6<p||<7",
+     "lo": 6.0,
+     "hi": 7.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_6-7.csv"
+    },
+    {
+     "label_tex": "$7 < p_{\\parallel} < 8\\ \\mathrm{GeV}/c$",
+     "label": "7<p||<8",
+     "lo": 7.0,
+     "hi": 8.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_7-8.csv"
+    },
+    {
+     "label_tex": "$8 < p_{\\parallel} < 9\\ \\mathrm{GeV}/c$",
+     "label": "8<p||<9",
+     "lo": 8.0,
+     "hi": 9.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_8-9.csv"
+    },
+    {
+     "label_tex": "$9 < p_{\\parallel} < 10\\ \\mathrm{GeV}/c$",
+     "label": "9<p||<10",
+     "lo": 9.0,
+     "hi": 10.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_9-10.csv"
+    },
+    {
+     "label_tex": "$10 < p_{\\parallel} < 15\\ \\mathrm{GeV}/c$",
+     "label": "10<p||<15",
+     "lo": 10.0,
+     "hi": 15.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_10-15.csv"
+    },
+    {
+     "label_tex": "$15 < p_{\\parallel} < 20\\ \\mathrm{GeV}/c$",
+     "label": "15<p||<20",
+     "lo": 15.0,
+     "hi": 20.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_15-20.csv"
+    },
+    {
+     "label_tex": "$20 < p_{\\parallel} < 40\\ \\mathrm{GeV}/c$",
+     "label": "20<p||<40",
+     "lo": 20.0,
+     "hi": 40.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_20-40.csv"
+    },
+    {
+     "label_tex": "$40 < p_{\\parallel} < 60\\ \\mathrm{GeV}/c$",
+     "label": "40<p||<60",
+     "lo": 40.0,
+     "hi": 60.0,
+     "csv": "data/datasets/sources/minerva-2021owq/d2sigma_dpt_dpz__pz_40-60.csv"
     }
-  ]
+   ],
+   "cov": "data/datasets/sources/minerva-2021owq/cov.csv",
+   "cov_note": "Total covariance (cov_ptpl_minerva_inclusive_6GeV_total.txt), absolute units (cm^2/(GeV/c)^2/nucleon)^2, rows/cols ordered as slices (p|| bins, ascending) then bins within each slice (pt bins, ascending) in the same order as written in the CSVs; zero/unreported global bins excluded to match the 205 retained bins. sqrt(diag(cov)) vs err verified: ratio 0.996-1.005 (mean 1.0000) across all 205 bins."
+  }
+ ]
 }

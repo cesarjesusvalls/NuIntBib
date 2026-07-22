@@ -2,8 +2,8 @@
  "bibtag": "NINJA:2020bvx",
  "slug": "ninja-2020bvx",
  "source_url": "https://arxiv.org/abs/2012.05221",
- "note": "Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nuclear-emulsion detector exposed to the T2K off-axis-free (J-PARC) neutrino beam; reported both over the full phase space and over a restricted muon phase space (theta_mu < 45 deg, p_mu > 400 MeV/c). Target: per nucleon (iron, Fe). No covariance is published (per-bin total uncertainty only).",
- "provenance": "NINJA:2020bvx \u2014 Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nucl \u00b7 target per nucleon (iron, Fe) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "note": "",
+ "provenance": "NINJA:2020bvx — Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nucl · target per nucleon (iron, Fe) · values transcribed from the arXiv paper tables ·No covariance is published (per-bin total uncertainty only).",
  "items": [
   {
    "slug": "sigma_cc_fullps",

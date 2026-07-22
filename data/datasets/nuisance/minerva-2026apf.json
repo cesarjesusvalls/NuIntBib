@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2604.07091",
  "arxiv": "2604.07091",
  "cite": "",
- "note": "CC-inclusive antineutrino dsigma/dpT per nucleon on C, CH, Fe, Pb; from the arXiv ancillary ROOT release. The release also ships the three cross-section ratios to hydrocarbon (C/CH, Fe/CH, Pb/CH) with their own covariances; only the four absolute cross sections are ingested here.",
+ "note": "",
  "distributions": [
   {
    "key": "dsdpt_C",

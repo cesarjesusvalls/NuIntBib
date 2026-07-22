@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2402.19216",
  "arxiv": "2402.19216",
  "cite": "Phys.Rev.D 110 013006",
- "note": "Double- and triple-differential flux-integrated cross sections for CC inclusive numu interactions on argon (0pi topology split by proton multiplicity: 0p, Np, and Xp=inclusive), MicroBooNE, BNB, 6.369e20 POT (Wiener-SVD unfolded).",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_costhetamu_emu_0p",

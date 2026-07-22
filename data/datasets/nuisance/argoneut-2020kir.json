@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2004.01956",
  "arxiv": "2004.01956",
  "cite": "Phys.Rev.D 102 011101",
- "note": "First combined nu_e + nubar_e charged-current inclusive total cross section on argon (per argon nucleus), ArgoNeuT in the Fermilab NuMI low-energy antineutrino-mode beam. Single flux-integrated value; the bin brackets the nu_e (10.5 GeV) and nubar_e (4.3 GeV) mean energies. A dsigma/dtheta_e is published in a figure only (not ingested). Requires both nu_e and nubar_e fluxes for interpretation. Value transcribed from the paper text; no covariance.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_total",

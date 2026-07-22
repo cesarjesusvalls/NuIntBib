@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2410.10222",
  "arxiv": "2410.10222",
  "cite": "",
- "note": "Double-differential nu_mu CC cross section vs muon kinetic energy and cos(theta_mu), plus single-differential vs E_nu and Q^2, in low-hadronic-energy events, NOvA Near Detector, NuMI neutrino-mode beam",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_dTmu_dcosmu",

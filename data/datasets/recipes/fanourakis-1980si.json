@@ -3,12 +3,12 @@
  "slug": "fanourakis-1980si",
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins9011",
- "note": "Antineutrino (\u03bd\u0304\u03bc) charged-current inclusive total cross section divided by energy, \u03c3/E\u03bd, on nucleon \u2014 a single flux-averaged data point over 1.0\u20134.0 GeV (Gargamelle bubble chamber). Target: nucleon (isoscalar, per-nucleon normalization per HepData reaction tag \"NUMUBAR NUCLEON\"). From the HepData record.",
- "provenance": "Fanourakis:1980si \u2014 Antineutrino (\u03bd\u0304\u03bc) charged-current inclusive total cross section divided by energy, \u03c3/E\u03bd, on nucleon \u2014 a single flux-ave \u00b7 target nucleon (isoscalar, per-nucleon normalization per HepData reaction tag \"NUMUBAR NUCLEON\") \u00b7 from the HepData record",
+ "note": "",
+ "provenance": "Fanourakis:1980si — Antineutrino (ν̄μ) charged-current inclusive total cross section divided by energy, σ/Eν, on nucleon — a single flux-ave · target nucleon (isoscalar, per-nucleon normalization per HepData reaction tag \"NUMUBAR NUCLEON\") · from the HepData record",
  "items": [
   {
    "slug": "sigma_over_enu_total_numubar",
-   "label": "\u03c3(\u03bd\u0304\u03bc CC incl.)/E\u03bd vs E\u03bd",
+   "label": "σ(ν̄μ CC incl.)/Eν vs Eν",
    "csv": "data/datasets/sources/fanourakis-1980si/sigma_over_enu_total_numubar.csv",
    "xlabel": "E_{\\bar\\nu}",
    "xunit": "GeV",

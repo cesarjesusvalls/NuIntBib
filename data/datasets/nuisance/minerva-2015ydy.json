@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1511.05944",
  "arxiv": "1511.05944",
  "cite": "Phys.Rev.Lett. 116 071802",
- "note": "Double-differential CC-inclusive-like (QE+2p2h+Delta) neutrino cross section d^2\\sigma/dE_avail dq_3 per nucleon on the MINERvA CH scintillator tracker, low-energy NuMI nu_mu beam (2-6 GeV), 3.33e20 POT.",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_deavail_dq3",

@@ -2,8 +2,8 @@
  "bibtag": "MicroBooNE:2026sbw",
  "slug": "microboone-2026sbw",
  "source_url": "https://arxiv.org/abs/2606.13613",
- "note": "Flux-averaged total charged-current coherent pion production cross section, sigma(nu_mu + Ar -> mu- + pi+ + Ar), on argon, muon-neutrino beam (BNB, predominantly numu: 93.6% numu, 5.86% numubar, 0.57% nue+nuebar; mean neutrino energy 0.8 GeV), MicroBooNE LArTPC. Single flux-integrated total value, no differential binning published. Target: per Ar nucleus (explicit \"cm^2/Ar\" in abstract, Results section, and Table I caption).",
- "provenance": "MicroBooNE:2026sbw \u2014 Flux-averaged total charged-current coherent pion production cross section, sigma(nu_mu + Ar -> mu- + pi+ + Ar), on argo \u00b7 target per Ar nucleus (explicit \"cm^2/Ar\" in abstract, Results section, and Table I caption) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MicroBooNE:2026sbw — Flux-averaged total charged-current coherent pion production cross section, sigma(nu_mu + Ar -> mu- + pi+ + Ar), on argo · target per Ar nucleus (explicit \"cm^2/Ar\" in abstract, Results section, and Table I caption) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "sigma_cccoh_numu_ar",

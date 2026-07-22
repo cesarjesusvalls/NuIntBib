@@ -2,8 +2,8 @@
  "bibtag": "MINOS:2016yyz",
  "slug": "minos-2016yyz",
  "source_url": "https://arxiv.org/abs/1608.05702",
- "note": "Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mode beam (numu-dominated), MINOS Near Detector (Fe:C 80:20 medium). Flux-integrated sigma only, no differential binning tabulated (angular/Evis distributions are figures only). Target: per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon). No covariance is published (per-bin total uncertainty only).",
- "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "note": "",
+ "provenance": "MINOS:2016yyz — Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod · target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) · values transcribed from the arXiv paper tables ·No covariance is published (per-bin total uncertainty only).",
  "items": [
   {
    "slug": "sigma_A48_partial",

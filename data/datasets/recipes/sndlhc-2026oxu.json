@@ -2,8 +2,8 @@
  "bibtag": "SNDLHC:2026oxu",
  "slug": "sndlhc-2026oxu",
  "source_url": "https://arxiv.org/abs/2606.14669",
- "note": "Flux-integrated (energy-averaged) combined \u03bd\u03bc+\u03bd\u0304\u03bc CC total cross section on tungsten, SND@LHC (pp collisions at \u221as=13.6 TeV, LHC Run 3, 2022+2023 data, 68.6 fb^-1). Target: per nucleus (tungsten). No covariance is published (per-bin total uncertainty only).",
- "provenance": "SNDLHC:2026oxu \u2014 Flux-integrated (energy-averaged) combined \u03bd\u03bc+\u03bd\u0304\u03bc CC total cross section on tungsten, SND@LHC (pp collisions at \u221as=13.6  \u00b7 target per nucleus (tungsten) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "note": "",
+ "provenance": "SNDLHC:2026oxu — Flux-integrated (energy-averaged) combined νμ+ν̄μ CC total cross section on tungsten, SND@LHC (pp collisions at √s=13.6  · target per nucleus (tungsten) · values transcribed from the arXiv paper tables ·No covariance is published (per-bin total uncertainty only).",
  "items": [
   {
    "slug": "sigma_numu_numubar_W",

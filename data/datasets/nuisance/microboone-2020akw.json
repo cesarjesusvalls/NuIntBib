@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2010.02390",
  "arxiv": "2010.02390",
  "cite": "Phys.Rev.D 102 112013",
- "note": "Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c threshold, no pions) in \u03bd\u03bc-Ar interactions, presented as a function of 5 reconstructed kinematic variables: muon polar angle cos\u03b8\u03bc, proton polar angle cos\u03b8p, muon momentum p\u03bc, proton momentum pp, and \u03bc-p opening angle \u03b8\u03bcp. Beam: Fermilab BNB (mean E\u03bd \u2248 800 MeV), MicroBooNE LArTPC, 1.6e20 POT. Target: per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\").",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_cos_theta_mu",
@@ -125,7 +125,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2010.02390",
    "provenance": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres \u00b7 target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres. Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
+   "notes": "Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
   },
   {
    "key": "dsigma_cos_theta_p",
@@ -221,7 +221,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2010.02390",
    "provenance": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres \u00b7 target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres. Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
+   "notes": "Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
   },
   {
    "key": "dsigma_p_mu",
@@ -294,7 +294,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2010.02390",
    "provenance": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres \u00b7 target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres. Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
+   "notes": "Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
   },
   {
    "key": "dsigma_p_p",
@@ -399,7 +399,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2010.02390",
    "provenance": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres \u00b7 target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres. Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
+   "notes": "Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
   },
   {
    "key": "dsigma_theta_mu_p",
@@ -471,7 +471,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2010.02390",
    "provenance": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres \u00b7 target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020akw \u2014 Flux-integrated single-differential cross sections d\u03c3/dX for the CC0\u03c0Np topology (\u03bd\u03bc CC, \u22651 proton above 300 MeV/c thres. Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
+   "notes": "Target per argon nucleus (N_target = number of Ar atoms in fiducial volume, per xsdef.tex Eq. for d\u03c3/dX; tables explicitly label units \"cm^2/nucleus\")."
   }
  ],
  "covariance": {

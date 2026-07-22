@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1711.01178",
  "arxiv": "1711.01178",
  "cite": "Phys.Rev.D 97 032014",
- "note": "Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and antineutrino-induced charged-current coherent \u03c0\u00b1 production (\u03bd\u0304_\u03bcA\u2192\u03bc\u00b1\u03c0\u2213A), separately for the \u03bd_\u03bc (forward-horn-current, \"neutrino\") and \u03bd\u0304_\u03bc (reverse-horn-current, \"antineutrino\") beams, 2-20 GeV, MINERvA tracker (low-water-content scintillator, effectively pure-carbon target for this analysis). Target: per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\").",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_xsec_Enu_numu",
@@ -93,7 +93,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1711.01178",
    "provenance": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an \u00b7 target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an. Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
+   "notes": "Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
   },
   {
    "key": "dsigma_xsec_Enu_numubar",
@@ -181,7 +181,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1711.01178",
    "provenance": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an \u00b7 target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an. Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
+   "notes": "Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
   },
   {
    "key": "dsigma_dxsec_dEpi_numu",
@@ -277,7 +277,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1711.01178",
    "provenance": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an \u00b7 target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an. Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
+   "notes": "Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
   },
   {
    "key": "dsigma_dxsec_dEpi_numubar",
@@ -373,7 +373,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1711.01178",
    "provenance": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an \u00b7 target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an. Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
+   "notes": "Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
   },
   {
    "key": "dsigma_dxsec_dThetaPi_numu",
@@ -493,7 +493,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1711.01178",
    "provenance": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an \u00b7 target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an. Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
+   "notes": "Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
   },
   {
    "key": "dsigma_dxsec_dThetaPi_numubar",
@@ -613,7 +613,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1711.01178",
    "provenance": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an \u00b7 target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an. Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
+   "notes": "Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
   },
   {
    "key": "dsigma_dxsec_dQ2_numu",
@@ -718,7 +718,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1711.01178",
    "provenance": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an \u00b7 target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an. Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
+   "notes": "Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
   },
   {
    "key": "dsigma_dxsec_dQ2_numubar",
@@ -823,7 +823,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1711.01178",
    "provenance": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an \u00b7 target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ipy \u2014 Total cross section \u03c3(E_\u03bd) and flux-integrated differential cross sections d\u03c3/dE_\u03c0, d\u03c3/d\u03b8_\u03c0, d\u03c3/dQ\u00b2 for neutrino- and an. Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
+   "notes": "Target per 12C nucleus (paper explicitly labels y-axis units \"cm^2/12C\" \u2014 a per-nucleus, not per-nucleon, normalization; tag as material \"C\")."
   }
  ],
  "covariance": {

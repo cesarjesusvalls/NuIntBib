@@ -2,8 +2,8 @@
  "bibtag": "ArgoNeuT:2015ldo",
  "slug": "argoneut-2015ldo",
  "source_url": "https://arxiv.org/abs/1511.00941",
- "note": "Flux-averaged total cross section for NC \u03c00 \u2192 \u03b3\u03b3 production on argon, separately for the neutrino and antineutrino components of the ArgoNeuT NuMI-LE antineutrino-mode beam (no differential/binned distribution reported). Target: per nucleon (argon nucleus; text says \"per argon nucleon\"). No covariance is published (per-bin total uncertainty only).",
- "provenance": "ArgoNeuT:2015ldo \u2014 Flux-averaged total cross section for NC \u03c00 \u2192 \u03b3\u03b3 production on argon, separately for the neutrino and antineutrino compo \u00b7 target per nucleon (argon nucleus; text says \"per argon nucleon\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
+ "note": "",
+ "provenance": "ArgoNeuT:2015ldo — Flux-averaged total cross section for NC π0 → γγ production on argon, separately for the neutrino and antineutrino compo · target per nucleon (argon nucleus; text says \"per argon nucleon\") · values transcribed from the arXiv paper tables ·No covariance is published (per-bin total uncertainty only).",
  "items": [
   {
    "slug": "sigma_ncpi0_numu",

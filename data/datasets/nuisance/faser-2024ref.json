@@ -5,7 +5,7 @@
  "source_url": "https://www.hepdata.net/record/ins2855783",
  "arxiv": "2412.03186",
  "cite": "Phys.Rev.Lett. 134 211801",
- "note": "CC muon-neutrino/anti-neutrino cross section vs neutrino energy. Target: nucleon (tungsten/emulsion detector, cross section quoted per nucleon). From the HepData record.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_sigma_numu",
@@ -53,7 +53,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins2855783",
    "provenance": "FASER:2024ref \u2014 CC muon-neutrino/anti-neutrino cross section vs neutrino energy \u00b7 target nucleon (tungsten/emulsion detector, cross section quoted per nucleon) \u00b7 from the HepData record",
-   "notes": "FASER:2024ref \u2014 CC muon-neutrino/anti-neutrino cross section vs neutrino energy. Target nucleon (tungsten/emulsion detector, cross section quoted per nucleon). From the HepData record."
+   "notes": "Target nucleon (tungsten/emulsion detector, cross section quoted per nucleon)."
   },
   {
    "key": "dsigma_sigma_numubar",
@@ -93,7 +93,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins2855783",
    "provenance": "FASER:2024ref \u2014 CC muon-neutrino/anti-neutrino cross section vs neutrino energy \u00b7 target nucleon (tungsten/emulsion detector, cross section quoted per nucleon) \u00b7 from the HepData record",
-   "notes": "FASER:2024ref \u2014 CC muon-neutrino/anti-neutrino cross section vs neutrino energy. Target nucleon (tungsten/emulsion detector, cross section quoted per nucleon). From the HepData record."
+   "notes": "Target nucleon (tungsten/emulsion detector, cross section quoted per nucleon)."
   },
   {
    "key": "dsigma_sigma_numu_numubar",
@@ -125,7 +125,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins2855783",
    "provenance": "FASER:2024ref \u2014 CC muon-neutrino/anti-neutrino cross section vs neutrino energy \u00b7 target nucleon (tungsten/emulsion detector, cross section quoted per nucleon) \u00b7 from the HepData record",
-   "notes": "FASER:2024ref \u2014 CC muon-neutrino/anti-neutrino cross section vs neutrino energy. Target nucleon (tungsten/emulsion detector, cross section quoted per nucleon). From the HepData record."
+   "notes": "Target nucleon (tungsten/emulsion detector, cross section quoted per nucleon)."
   }
  ]
 }

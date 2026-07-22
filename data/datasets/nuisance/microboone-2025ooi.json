@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2507.00921",
  "arxiv": "2507.00921",
  "cite": "Phys.Rev.D 112 072007",
- "note": "numu CC0pi flux-integrated differential cross sections on argon (per argon nucleus), Fermilab BNB nu-mode <Enu>~0.8 GeV: dsigma/dpmu and dsigma/dcos(theta_mu). The release also ships the 2D d2sigma/dpmu dcos(theta_mu) (37 concatenated bins) and per-observable A_C regularization matrices; only the two 1D cross sections are ingested here. Values + total covariance per observable from the arXiv ancillary release.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_pmu",

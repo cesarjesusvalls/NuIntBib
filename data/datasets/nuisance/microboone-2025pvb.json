@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2503.23384",
  "arxiv": "2503.23384",
  "cite": "Phys.Rev.Lett. 135 061802",
- "note": "nu_e + nubar_e CC single-charged-pion differential cross sections on argon (per nucleon), NuMI off-axis (FHC+RHC combined). Values + full covariance from the arXiv ancillary release; apply the release smearing matrix A_C before model comparison.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_Ee",

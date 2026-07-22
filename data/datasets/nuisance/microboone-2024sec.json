@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2404.10948",
  "arxiv": "2404.10948",
  "cite": "Phys.Rev.Lett. 134 161802",
- "note": "NC pi0 production on argon (per nucleon), Fermilab BNB. Flux-averaged differential cross sections in pi0 momentum and cos(theta_pi0), split by hadronic final state (0 protons / N protons / any protons Xp). The release also ships an Xp double-differential [cos(theta_pi0), P_pi0] (24 bins) which is not ingested here. Values + the cross-observable total covariance (Wiener-SVD) from the arXiv ancillary release.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_Ppi_0p",

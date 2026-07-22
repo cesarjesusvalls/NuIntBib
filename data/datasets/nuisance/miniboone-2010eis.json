@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1011.3572",
  "arxiv": "1011.3572",
  "cite": "Phys.Rev.D 83 052007",
- "note": "MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flux-averaged over the MiniBooNE \u03bd\u03bc beam. Target: per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron). No covariance is published (per-bin total uncertainty only).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_sigma_enu",
@@ -237,7 +237,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1011.3572",
    "provenance": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu \u00b7 target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu. Target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron)."
+   "notes": "Target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron)."
   },
   {
    "key": "dsigma_dsigma_dke_pi",
@@ -373,7 +373,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1011.3572",
    "provenance": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu \u00b7 target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu. Target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron)."
+   "notes": "Target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron)."
   },
   {
    "key": "dsigma_dsigma_dq2",
@@ -573,7 +573,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1011.3572",
    "provenance": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu \u00b7 target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu. Target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron)."
+   "notes": "Target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron)."
   },
   {
    "key": "dsigma_dsigma_dke_mu",
@@ -773,7 +773,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1011.3572",
    "provenance": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu \u00b7 target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "MiniBooNE:2010eis \u2014 MiniBooNE \u03bd\u03bc CC1\u03c0+ (\u03bd\u03bc p \u2192 \u03bc- p \u03c0+) on mineral oil: total \u03c3(E\u03bd), and single-differential d\u03c3/dQ\u00b2, d\u03c3/dKE_\u03bc, d\u03c3/dKE_\u03c0, flu. Target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron)."
+   "notes": "Target per CH2 (CH2.08 mineral-oil unit; paper explicitly defines N_targ as the number of \"average single unit[s] on the hydrocarbon chain, CH2.08\", so the cross section is normalized per CH2 molecule, not per nucleon or per neutron)."
   }
  ]
 }

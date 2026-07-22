@@ -2,8 +2,8 @@
  "bibtag": "MicroBooNE:2022cls",
  "slug": "microboone-2022cls",
  "source_url": "https://arxiv.org/abs/2212.07888",
- "note": "First measurement of the flux-averaged, restricted-phase-space cross section for Cabibbo-suppressed direct Lambda-baryon production, anti-nu_mu + Ar -> mu+ + Lambda + X (Lambda -> p pi-), on argon. Combined MicroBooNE NuMI FHC (2.2e20 POT, nu-mode) + RHC (4.9e20 POT, antinu-mode) exposure; the flux Phi in the cross-section formula is the total anti-nu_mu flux across both run configurations (the process is exclusively anti-neutrino-induced even in FHC running). Not differential in any kinematic variable \u2014 a single flux-integrated total, obtained via a Bayesian posterior on sigma_R = (N_obs - B) / (T*Phi*Gamma*epsilon). Target: per Ar (per argon nucleus, restricted-phase-space, i.e. only Lambda baryons decaying above MicroBooNE's proton >0.3 GeV/c and pi- >0.1 GeV/c detection thresholds \u2014 NOT the total/unrestricted Lambda-production cross section).",
- "provenance": "MicroBooNE:2022cls \u2014 First measurement of the flux-averaged, restricted-phase-space cross section for Cabibbo-suppressed direct Lambda-baryon \u00b7 target per Ar (per argon nucleus, restricted-phase-space, i.e. only Lambda baryons decaying above MicroBooNE's proton >0.3 GeV/c and pi- >0.1 GeV/c detection thresholds \u2014 NOT the total/unrestricted Lambda-production cross section) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MicroBooNE:2022cls — First measurement of the flux-averaged, restricted-phase-space cross section for Cabibbo-suppressed direct Lambda-baryon · target per Ar (per argon nucleus, restricted-phase-space, i.e. only Lambda baryons decaying above MicroBooNE's proton >0.3 GeV/c and pi- >0.1 GeV/c detection thresholds — NOT the total/unrestricted Lambda-production cross section) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "lambda_xsec_ar",

@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2503.15047",
  "arxiv": "2503.15047",
  "cite": "Phys.Rev.D 112 052005",
- "note": "Nuclear-target dependence of muon-neutrino CC quasielastic-like (0 pion, \u22651 proton) transverse-kinematic-imbalance and single-particle kinematics on C, CH, Fe, Pb and H2O targets, MINERvA low-energy NuMI beam",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_alpha_carbon",

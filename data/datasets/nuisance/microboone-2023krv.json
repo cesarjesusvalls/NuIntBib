@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2310.06082",
  "arxiv": "2310.06082",
  "cite": "Phys.Rev.D 109 092007",
- "note": "numu CC1p0pi generalized (3D) kinematic-imbalance cross sections on argon (per Ar), BNB. Values + covariance from the arXiv ancillary release; apply the release smearing matrix Ac to a model before comparison; BNB flux is the standard MicroBooNE product (not in this release).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_DeltaPn",

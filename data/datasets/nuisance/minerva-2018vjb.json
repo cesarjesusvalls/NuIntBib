@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1801.01197",
  "arxiv": "1801.01197",
  "cite": "Phys.Rev.D 97 052002",
- "note": "Muon antineutrino CCQE-like and true-CCQE double-differential cross sections vs muon (pT,pZ) and vs (Q2_QE, Enu) on CH (scintillator tracker), MINERvA low-energy NuMI beam.",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_pzpt_qelike",

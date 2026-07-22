@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2106.16210",
  "arxiv": "2106.16210",
  "cite": "Phys.Rev.D 104 092007",
- "note": "Double-differential CC-inclusive nu_mu cross section vs muon transverse (pt) and longitudinal (p||) momentum, CH target, MINERvA ME NuMI beam (~6 GeV peak)",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_dpt_dpz",

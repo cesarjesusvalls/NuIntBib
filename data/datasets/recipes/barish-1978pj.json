@@ -3,8 +3,8 @@
  "slug": "barish-1978pj",
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins7237",
- "note": "Total charged-current inclusive cross section (sigma_CC/E_nu) for numu + nucleon -> mu- + X, measured at two neutrino lab-energy points/bins. Target: nucleon (isoscalar-averaged; reaction listed as \"NUMU NUCLEON --> MU- X\", no explicit nuclear target given in this HepData table). From the HepData record.",
- "provenance": "Barish:1978pj \u2014 Total charged-current inclusive cross section (sigma_CC/E_nu) for numu + nucleon -> mu- + X, measured at two neutrino la \u00b7 target nucleon (isoscalar-averaged; reaction listed as \"NUMU NUCLEON --> MU- X\", no explicit nuclear target given in this HepData table) \u00b7 from the HepData record",
+ "note": "",
+ "provenance": "Barish:1978pj — Total charged-current inclusive cross section (sigma_CC/E_nu) for numu + nucleon -> mu- + X, measured at two neutrino la · target nucleon (isoscalar-averaged; reaction listed as \"NUMU NUCLEON --> MU- X\", no explicit nuclear target given in this HepData table) · from the HepData record",
  "items": [
   {
    "slug": "sigma_over_enu_total",

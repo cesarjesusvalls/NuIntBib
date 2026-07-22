@@ -2,8 +2,8 @@
  "bibtag": "MINERvA:2013bcy",
  "slug": "minerva-2013bcy",
  "source_url": "https://arxiv.org/abs/1305.2234",
- "note": "Flux-integrated differential cross section d\u03c3/dQ\u00b2_QE for muon-antineutrino charged-current quasi-elastic (CCQE) scattering, \u03bd\u0304\u03bc + p \u2192 n + \u03bc+, measured with the MINERvA detector on a plastic scintillator (CH) tracker target, in the NuMI low-energy antineutrino beam (mean E\u03bd \u2248 3.5 GeV, flux spans 1.5-10 GeV). Title: \"Measurement of Muon Antineutrino Quasi-Elastic Scattering on a Hydrocarbon Target at E\u03bd ~ 3.5 GeV\" (Phys.Rev.Lett. 111, 022501 (2013)). Target: per proton (free/bound proton in CH; antineutrino CCQE \u03bd\u0304\u03bc+p\u2192n+\u03bc+, so normalization is per proton, explicitly stated in both the ancillary CSV header and the LaTeX results table as \"cm^2/GeV^2/proton\").",
- "provenance": "MINERvA:2013bcy \u2014 Flux-integrated differential cross section d\u03c3/dQ\u00b2_QE for muon-antineutrino charged-current quasi-elastic (CCQE) scatteri \u00b7 target per proton (free/bound proton in CH; antineutrino CCQE \u03bd\u0304\u03bc+p\u2192n+\u03bc+, so normalization is per proton, explicitly stated in both the ancillary CSV header and the LaTeX results table as \"cm^2/GeV^2/proton\") \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MINERvA:2013bcy — Flux-integrated differential cross section dσ/dQ²_QE for muon-antineutrino charged-current quasi-elastic (CCQE) scatteri · target per proton (free/bound proton in CH; antineutrino CCQE ν̄μ+p→n+μ+, so normalization is per proton, explicitly stated in both the ancillary CSV header and the LaTeX results table as \"cm^2/GeV^2/proton\") · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "dsigma_dQ2",
@@ -16,5 +16,5 @@
   }
  ],
  "cov": "data/datasets/sources/minerva-2013bcy/cov.csv",
- "cov_note": "Built from the correlation matrix \u03c1 in anc/nubar-crossSection.csv (\"Correlation Matrix\" block, NOT the separate \"Cross-Section Shape Correlation Matrix\" block w"
+ "cov_note": "Built from the correlation matrix ρ in anc/nubar-crossSection.csv (\"Correlation Matrix\" block, NOT the separate \"Cross-Section Shape Correlation Matrix\" block w"
 }

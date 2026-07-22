@@ -5,7 +5,7 @@
  "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
  "arxiv": null,
  "cite": "Phys.Rev.D 28 2714",
- "note": "Charged-current two-pion production off deuterium in the threshold region at the ANL 12-ft bubble chamber (Day et al., Phys. Rev. D 28, 2714 (1983)). Absolute total cross sections sigma(E_nu) for the three exclusive CC two-pion channels: nu_mu n -> mu- p pi+ pi-, nu_mu p -> mu- p pi+ pi0, and nu_mu p -> mu- n pi+ pi+. These are the '_xsec' cross-section tables from the NUISANCE ANL/CC2pi directory; the accompanying weighted/unweighted momentum distributions in the same directories are event-shape histograms and are excluded. Target: bound nucleon in deuterium; values in 10^-41 cm^2.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_sigma_enu_pippim_p",
@@ -69,7 +69,7 @@
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
    "provenance": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release",
-   "notes": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_enu_pippi0_p",
@@ -133,7 +133,7 @@
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
    "provenance": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release",
-   "notes": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_enu_pippip_n",
@@ -197,7 +197,7 @@
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC2pi/1pim1pip/CC2pi_1pim1pip1p_xsec.csv",
    "provenance": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release",
-   "notes": "Day:1983itd - ANL 12-ft CC two-pion production on deuterium near threshold; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+ pi-, mu- p pi+ pi0, mu- n pi+ pi+) - from the NUISANCE data release."
+   "notes": ""
   }
  ]
 }

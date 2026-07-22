@@ -3,7 +3,7 @@
  "slug": "minerva-2022djk",
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/2209.07852",
- "note": "Flux-integrated CC single pi+ (numu A -> mu- pi+ + nucleon(s)) semi-inclusive differential cross sections vs 8 kinematic variables (p_mu, theta_mu, p_mu,par, p_mu,T, Q^2, W_exp, T_pi, theta_pi), each measured per nucleon on 5 targets (scintillator/CH, carbon, water, iron, lead), MINERvA medium-energy NuMI beam <E_nu>~6 GeV.",
+ "note": "",
  "provenance": "arXiv e-print ancillary file anc/Table_Var_Xsec.csv (40 blocks = 8 kinematic variables x 5 targets; each block: bin edges, measured sigma, Abs. Unc., and separate statistical and systematic NxN covariance matrices). Abs. Unc. = sqrt(diag(stat_cov)+diag(sys_cov)) (verified, max deviation < 1.2% from table rounding); flux-normalization fractional uncertainty is quoted separately per-bin in the table but is NOT part of Abs. Unc. or the two covariance matrices (it mostly cancels in the paper's target-ratio measurements, hence reported apart) so it is excluded here to match the paper's own headline uncertainty. Target labels: scintillator=CH (per-nucleon on the CH tracker, includes free-proton H), carbon/water/iron/lead are passive nuclear targets (per-nucleon).",
  "distributions": [
   {

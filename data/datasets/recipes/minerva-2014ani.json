@@ -2,8 +2,8 @@
  "bibtag": "MINERvA:2014ani",
  "slug": "minerva-2014ani",
  "source_url": "https://arxiv.org/abs/1409.3835",
- "note": "CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tracker but cross section quoted per carbon-12 nucleus (coherent process, whole-nucleus scattering). Three differential/flux-integrated observables, each measured separately for the neutrino- and antineutrino-mode NuMI low-energy beam: d\u03c3/dE\u03c0 (pion kinetic energy), d\u03c3/d\u03b8\u03c0 (pion angle w.r.t. beam), and \u03c3(E\u03bd) (flux-integrated cross section per E\u03bd bin, i.e. not per-GeV \u2014 an \"event rate vs energy\" style plot, not a true differential in E\u03bd). Target: per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\").",
- "provenance": "MINERvA:2014ani \u2014 CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tr \u00b7 target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MINERvA:2014ani — CC coherent charged-pion production, νμ + C → μ⁻ + π⁺ + C and ν̄μ + C → μ⁺ + π⁻ + C, on the MINERvA scintillator (CH) tr · target per C-12 nucleus (coherent — whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "nu_dsigma_dEpi",

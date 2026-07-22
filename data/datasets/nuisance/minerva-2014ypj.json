@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1409.4497",
  "arxiv": "1409.4497",
  "cite": "Phys.Rev.D 91 071301",
- "note": "Flux-integrated differential CC nu_mu QE-like (mu + >=1 proton, no pions) cross section on hydrocarbon, arXiv:1409.4497 \"Measurement of muon plus proton final states in nu_mu interactions on hydrocarbon at <E_nu>=4.2 GeV\" (MINERvA, on-axis NuMI beam, low-energy tune, mean E_nu=4.2 GeV). Two observables released: (1) dsigma/dQ2 vs Q2 reconstructed purely from HADRONIC (proton) kinematics, for the full QE-like sample (>=1 proton w/ KE>110 MeV, no pions, muon angle <70deg); (2) dsigma/dQ2 vs Q2 reconstructed from MUON kinematics (standard QE Q2_QE formula) for the MINOS-matched subsample, used as a cross-check against MINERvA's earlier muon-based QE measurement (Fiorentini:2013ezn). Target: per neutron (CH2 -&gt; effectively CH scintillator target, but cross section explicitly normalized \"per neutron\" per the ancillary file header, not per-nucleon or per-CH-molecule).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dxsec_dQ2_proton",

@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1509.05729",
  "arxiv": "1509.05729",
  "cite": "Phys.Rev.Lett. 116 081802",
- "note": "nu_e CC quasi-elastic-like differential cross sections (electron energy, electron angle, Q^2_QE) and the (nu_e+nubar_e)/nu_mu ratio in Q^2_QE, on hydrocarbon (per nucleon), NuMI LE. Values + total covariance per observable from the arXiv ancillary CSVs.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_Ee",

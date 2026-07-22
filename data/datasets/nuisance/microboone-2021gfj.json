@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2101.04228",
  "arxiv": "2101.04228",
  "cite": "Phys.Rev.D 104 052002",
- "note": "Flux-averaged inclusive charged-current total cross section for combined electron-neutrino + electron-antineutrino (\u03bd_e + \u03bd\u0304_e) interactions on argon, using the off-axis NuMI beam at MicroBooNE. This is a single flux-integrated number (not differential) \u2014 the paper's headline result, restated identically 4 times (abstract, results text, Eq. in Sec. V/summary, conclusion). Target: per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_total_nue_nuebar",
@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2101.04228",
    "provenance": "MicroBooNE:2021gfj \u2014 Flux-averaged inclusive charged-current total cross section for combined electron-neutrino + electron-antineutrino (\u03bd_e \u00b7 target per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus) \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2021gfj \u2014 Flux-averaged inclusive charged-current total cross section for combined electron-neutrino + electron-antineutrino (\u03bd_e. Target per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus)."
+   "notes": "Target per nucleon (paper explicitly states \"cm^2/nucleon\" \u2014 argon target, but result normalized per nucleon, not per Ar nucleus)."
   }
  ]
 }

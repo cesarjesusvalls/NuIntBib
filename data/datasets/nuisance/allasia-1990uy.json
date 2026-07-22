@@ -5,7 +5,7 @@
  "source_url": "https://www.hepdata.net/record/ins303953",
  "arxiv": null,
  "cite": "Nucl.Phys.B 343 285",
- "note": "BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elastic-like cross sections on free nucleons (n, p) tagged inside the deuteron: sigma(W) integrated over two W bins, sigma(E_nu) integrated over W<2 GeV, and dsigma/dQ^2(Q^2) in two W bins, for six reaction channels: nu_mu p -> mu- p pi+, nu_mu n -> mu- n pi+, nu_mu n -> mu- p pi0, nu_mu n -> mu- p, nubar_mu n -> mu+ n pi-, nubar_mu p -> mu+ p pi-. Target: D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_sig_w_numup_mumppip",
@@ -45,7 +45,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_w_numubarn_muplusnpim",
@@ -85,7 +85,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_w_numubarp_muplusppim",
@@ -125,7 +125,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_w_numun_mumppi0",
@@ -165,7 +165,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_w_numun_mumnpip",
@@ -205,7 +205,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_w_numun_mump",
@@ -237,7 +237,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_e_numup_mumppip_w2",
@@ -309,7 +309,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_e_numubarn_muplusnpim_w2",
@@ -381,7 +381,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_e_numubarp_muplusppim_w2",
@@ -453,7 +453,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_e_numun_mumppi0_w2",
@@ -525,7 +525,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_sig_e_numun_mump",
@@ -597,7 +597,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numup_mumppip_w1114",
@@ -773,7 +773,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numup_mumppip_w1420",
@@ -949,7 +949,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numubarn_muplusnpim_w1114",
@@ -1125,7 +1125,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numubarn_muplusnpim_w1420",
@@ -1301,7 +1301,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numubarp_muplusppim_w1114",
@@ -1477,7 +1477,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numubarp_muplusppim_w1420",
@@ -1653,7 +1653,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numun_mumppi0_w1114",
@@ -1829,7 +1829,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numun_mumppi0_w1420",
@@ -2005,7 +2005,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numun_mumnpip_w1114",
@@ -2181,7 +2181,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   },
   {
    "key": "dsigma_dsigdq2_numun_mumnpip_w1420",
@@ -2357,7 +2357,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins303953",
    "provenance": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti \u00b7 target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction) \u00b7 from the HepData record",
-   "notes": "Allasia:1990uy \u2014 BEBC deuterium bubble-chamber (WA59-type wideband nu_mu/nubar_mu beam) exclusive single-pion-production and quasi-elasti. Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction). From the HepData record."
+   "notes": "Target D2 (deuterium bubble chamber; cross sections are per free nucleon - per neutron or per proton depending on the struck nucleon named in the reaction)."
   }
  ]
 }

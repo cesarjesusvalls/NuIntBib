@@ -3,7 +3,7 @@
  "slug": "super-kamiokande-2026xsm",
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/2605.10221",
- "note": "Flux-averaged numu + numubar CC total cross section per nucleon (sigma/E_nu) on standard rock, from 3989 upward through-going muons at Super-Kamiokande, over 500-5000 GeV. Single flux-averaged value transcribed from the paper (post-fit). No covariance.",
+ "note": "",
  "provenance": "Super-Kamiokande numu+numubar CC-inclusive sigma/E_nu on rock (upward through-going muons, arXiv:2605.10221) - per nucleon - single flux-averaged value (0.51 +/- 0.11 x10^-38 cm^2/GeV over 500-5000 GeV) - transcribed from the paper",
  "items": [
   {

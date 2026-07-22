@@ -1,119 +1,119 @@
 {
-  "bibtag": "NOvA:2024rov",
-  "slug": "nova-2024rov",
-  "source": "arXiv",
-  "source_url": "https://arxiv.org/abs/2410.10222",
-  "note": "Double-differential nu_mu CC cross section vs muon kinetic energy and cos(theta_mu), plus single-differential vs E_nu and Q^2, in low-hadronic-energy events, NOvA Near Detector, NuMI neutrino-mode beam",
-  "provenance": "Values digitized from LaTeX results tables (Appendix 'Results in Table Format', main.tex from arXiv e-print 2410.10222); target is per-nucleon (mixed NOvA scintillator/PVC composition: 67% C, 16% Cl, 11% H, 3% Ti, 3% O); total error column used directly (already combines stat+syst)",
-  "distributions": [
+ "bibtag": "NOvA:2024rov",
+ "slug": "nova-2024rov",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/2410.10222",
+ "note": "",
+ "provenance": "Values digitized from LaTeX results tables (Appendix 'Results in Table Format', main.tex from arXiv e-print 2410.10222); target is per-nucleon (mixed NOvA scintillator/PVC composition: 67% C, 16% Cl, 11% H, 3% Ti, 3% O); total error column used directly (already combines stat+syst)",
+ "distributions": [
+  {
+   "kind": "2d",
+   "slug": "d2sigma_dTmu_dcosmu",
+   "label": "d^2\\sigma/dT_\\mu d\\cos\\theta_\\mu",
+   "xlabel": "T_\\mu",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}T_\\mu\\mathrm{d}\\cos\\theta_\\mu",
+   "yunit": "10^{-39}cm^2/GeV/nucleon",
+   "slicevar_tex": "$\\cos\\theta_\\mu$",
+   "slices": [
     {
-      "kind": "2d",
-      "slug": "d2sigma_dTmu_dcosmu",
-      "label": "d^2\\sigma/dT_\\mu d\\cos\\theta_\\mu",
-      "xlabel": "T_\\mu",
-      "xunit": "GeV",
-      "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}T_\\mu\\mathrm{d}\\cos\\theta_\\mu",
-      "yunit": "10^{-39}cm^2/GeV/nucleon",
-      "slicevar_tex": "$\\cos\\theta_\\mu$",
-      "slices": [
-        {
-          "label_tex": "$0.50 < \\cos\\theta_\\mu < 0.68$",
-          "label": "0.50<cosmu<0.68",
-          "lo": 0.5,
-          "hi": 0.68,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p5-0p68.csv"
-        },
-        {
-          "label_tex": "$0.68 < \\cos\\theta_\\mu < 0.74$",
-          "label": "0.68<cosmu<0.74",
-          "lo": 0.68,
-          "hi": 0.74,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p68-0p74.csv"
-        },
-        {
-          "label_tex": "$0.74 < \\cos\\theta_\\mu < 0.80$",
-          "label": "0.74<cosmu<0.80",
-          "lo": 0.74,
-          "hi": 0.8,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p74-0p8.csv"
-        },
-        {
-          "label_tex": "$0.80 < \\cos\\theta_\\mu < 0.85$",
-          "label": "0.80<cosmu<0.85",
-          "lo": 0.8,
-          "hi": 0.85,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p8-0p85.csv"
-        },
-        {
-          "label_tex": "$0.85 < \\cos\\theta_\\mu < 0.88$",
-          "label": "0.85<cosmu<0.88",
-          "lo": 0.85,
-          "hi": 0.88,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p85-0p88.csv"
-        },
-        {
-          "label_tex": "$0.88 < \\cos\\theta_\\mu < 0.91$",
-          "label": "0.88<cosmu<0.91",
-          "lo": 0.88,
-          "hi": 0.91,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p88-0p91.csv"
-        },
-        {
-          "label_tex": "$0.91 < \\cos\\theta_\\mu < 0.94$",
-          "label": "0.91<cosmu<0.94",
-          "lo": 0.91,
-          "hi": 0.94,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p91-0p94.csv"
-        },
-        {
-          "label_tex": "$0.94 < \\cos\\theta_\\mu < 0.96$",
-          "label": "0.94<cosmu<0.96",
-          "lo": 0.94,
-          "hi": 0.96,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p94-0p96.csv"
-        },
-        {
-          "label_tex": "$0.96 < \\cos\\theta_\\mu < 0.98$",
-          "label": "0.96<cosmu<0.98",
-          "lo": 0.96,
-          "hi": 0.98,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p96-0p98.csv"
-        },
-        {
-          "label_tex": "$0.98 < \\cos\\theta_\\mu < 0.99$",
-          "label": "0.98<cosmu<0.99",
-          "lo": 0.98,
-          "hi": 0.99,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p98-0p99.csv"
-        },
-        {
-          "label_tex": "$0.99 < \\cos\\theta_\\mu < 1.00$",
-          "label": "0.99<cosmu<1.00",
-          "lo": 0.99,
-          "hi": 1.0,
-          "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p99-1.csv"
-        }
-      ]
+     "label_tex": "$0.50 < \\cos\\theta_\\mu < 0.68$",
+     "label": "0.50<cosmu<0.68",
+     "lo": 0.5,
+     "hi": 0.68,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p5-0p68.csv"
     },
     {
-      "kind": "1d",
-      "slug": "sigma_Enu",
-      "label": "\\sigma(E_\\nu)",
-      "xlabel": "E_\\nu",
-      "xunit": "GeV",
-      "ylabel": "\\sigma(E_\\nu)",
-      "yunit": "10^{-39}cm^2/nucleon",
-      "csv": "data/datasets/sources/nova-2024rov/sigma_Enu.csv"
+     "label_tex": "$0.68 < \\cos\\theta_\\mu < 0.74$",
+     "label": "0.68<cosmu<0.74",
+     "lo": 0.68,
+     "hi": 0.74,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p68-0p74.csv"
     },
     {
-      "kind": "1d",
-      "slug": "dsigma_dQ2",
-      "label": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
-      "xlabel": "Q^2",
-      "xunit": "GeV^2",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
-      "yunit": "10^{-39}cm^2/GeV^2/nucleon",
-      "csv": "data/datasets/sources/nova-2024rov/dsigma_dQ2.csv"
+     "label_tex": "$0.74 < \\cos\\theta_\\mu < 0.80$",
+     "label": "0.74<cosmu<0.80",
+     "lo": 0.74,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p74-0p8.csv"
+    },
+    {
+     "label_tex": "$0.80 < \\cos\\theta_\\mu < 0.85$",
+     "label": "0.80<cosmu<0.85",
+     "lo": 0.8,
+     "hi": 0.85,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p8-0p85.csv"
+    },
+    {
+     "label_tex": "$0.85 < \\cos\\theta_\\mu < 0.88$",
+     "label": "0.85<cosmu<0.88",
+     "lo": 0.85,
+     "hi": 0.88,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p85-0p88.csv"
+    },
+    {
+     "label_tex": "$0.88 < \\cos\\theta_\\mu < 0.91$",
+     "label": "0.88<cosmu<0.91",
+     "lo": 0.88,
+     "hi": 0.91,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p88-0p91.csv"
+    },
+    {
+     "label_tex": "$0.91 < \\cos\\theta_\\mu < 0.94$",
+     "label": "0.91<cosmu<0.94",
+     "lo": 0.91,
+     "hi": 0.94,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p91-0p94.csv"
+    },
+    {
+     "label_tex": "$0.94 < \\cos\\theta_\\mu < 0.96$",
+     "label": "0.94<cosmu<0.96",
+     "lo": 0.94,
+     "hi": 0.96,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p94-0p96.csv"
+    },
+    {
+     "label_tex": "$0.96 < \\cos\\theta_\\mu < 0.98$",
+     "label": "0.96<cosmu<0.98",
+     "lo": 0.96,
+     "hi": 0.98,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p96-0p98.csv"
+    },
+    {
+     "label_tex": "$0.98 < \\cos\\theta_\\mu < 0.99$",
+     "label": "0.98<cosmu<0.99",
+     "lo": 0.98,
+     "hi": 0.99,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p98-0p99.csv"
+    },
+    {
+     "label_tex": "$0.99 < \\cos\\theta_\\mu < 1.00$",
+     "label": "0.99<cosmu<1.00",
+     "lo": 0.99,
+     "hi": 1.0,
+     "csv": "data/datasets/sources/nova-2024rov/d2sigma_dTmu_dcosmu__cosmu_0p99-1.csv"
     }
-  ]
+   ]
+  },
+  {
+   "kind": "1d",
+   "slug": "sigma_Enu",
+   "label": "\\sigma(E_\\nu)",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(E_\\nu)",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "csv": "data/datasets/sources/nova-2024rov/sigma_Enu.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dQ2",
+   "label": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
+   "xlabel": "Q^2",
+   "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
+   "yunit": "10^{-39}cm^2/GeV^2/nucleon",
+   "csv": "data/datasets/sources/nova-2024rov/dsigma_dQ2.csv"
+  }
+ ]
 }

@@ -2,8 +2,8 @@
  "bibtag": "MicroBooNE:2021ppm",
  "slug": "microboone-2021ppm",
  "source_url": "https://arxiv.org/abs/2109.06832",
- "note": "First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) electron/positron reconstructed-true energy E_e and (2) electron/positron scattering angle cos\u03b2 (\u03b2 = deflection from assumed neutrino direction), using NuMI beam in FHC (neutrino) mode, flux-integrated over 2.0e20 POT (off-axis ~8deg, \u03bde+\u03bd\u0304e mixed flux, avg energies 768/961 MeV). Wiener-SVD unfolded. This is a flux-integrated differential cross section (not per-energy-bin flux unfolding). Target: per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables).",
- "provenance": "MicroBooNE:2021ppm \u2014 First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) elec \u00b7 target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MicroBooNE:2021ppm — First single-differential ν_e+ν̄_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) elec · target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "energy",
@@ -25,5 +25,5 @@
   }
  ],
  "cov": "data/datasets/sources/microboone-2021ppm/cov.csv",
- "cov_note": "Absolute cross-section units^2, i.e. (10^-39 cm^2/GeV/nucleon)^2 for the energy block and (10^-39 cm^2/nucleon)^2 for the cos\u03b2 block \u2014 no fractional/correlation"
+ "cov_note": "Absolute cross-section units^2, i.e. (10^-39 cm^2/GeV/nucleon)^2 for the energy block and (10^-39 cm^2/nucleon)^2 for the cosβ block — no fractional/correlation"
 }

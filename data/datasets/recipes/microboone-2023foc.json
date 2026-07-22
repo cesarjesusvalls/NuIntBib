@@ -3,7 +3,7 @@
  "slug": "microboone-2023foc",
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/2307.06413",
- "note": "Triple-differential (E\u03bd slice x cos\u03b8\u03bc x P\u03bc) inclusive \u03bd\u03bc CC cross section on argon, MicroBooNE, BNB, 6.4e20 POT",
+ "note": "",
  "provenance": "arXiv:2307.06413 e-print ancillary files anc/microboone_cc_inclusive_cross_section.txt (+ .root, cross-checked) and anc/microboone_cc_inclusive_cov_matrix.txt; this is the d^2\\sigma(E_\\nu)/d\\cos\\theta_\\mu dP_\\mu three-dimensional result (Fig. 'xs_enu' / 1_numuCC_3D_Enu_uboone.pdf), distinct from the headline d^3\\sigma/dE_vis dcos\\theta dP_\\mu measurement (Evis-based, whose machine-readable files were not included in this e-print's ancillary bundle). Y-axis label and 1e-36 scale read directly from the PDF text layer of Fig. 'xs_enu': 'd^2\\sigma(E_\\nu)/dP_\\mu dcos\\theta_\\mu (cm^2/GeV/Ar)  x10^-36'. Errors are total (stat+syst) from the released covariance diagonal, exactly matching the txt file's 'uncertainty' column.",
  "distributions": [
   {
@@ -305,5 +305,5 @@
   }
  ],
  "cov": "data/datasets/sources/microboone-2023foc/cov.csv",
- "cov_note": "full 138x138 total (stat+syst) covariance over all bins (E\u03bd panel, then cos\u03b8\u03bc series, then P\u03bc bin, in file order), in raw units matching the CSV values (i.e. (10^-36 cm^2/(GeV/c)/Ar)^2); sqrt(diag) matches the released per-bin uncertainty exactly."
+ "cov_note": "full 138x138 total (stat+syst) covariance over all bins (Eν panel, then cosθμ series, then Pμ bin, in file order), in raw units matching the CSV values (i.e. (10^-36 cm^2/(GeV/c)/Ar)^2); sqrt(diag) matches the released per-bin uncertainty exactly."
 }

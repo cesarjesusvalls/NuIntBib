@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2403.19574",
  "arxiv": "2403.19574",
  "cite": "Phys.Rev.D 112 112004",
- "note": "Double-differential and single-differential flux-averaged cross sections for CC mesonless (0-meson) numu interactions on argon with >=1 final-state proton above 0.25 GeV/c threshold (CCNp0pi), MicroBooNE, BNB neutrino-mode beam.",
+ "note": "",
  "distributions": [
   {
    "key": "d2sigma_costhetamu_pmu",

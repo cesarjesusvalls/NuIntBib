@@ -2,8 +2,8 @@
  "bibtag": "MINERvA:2016uck",
  "slug": "minerva-2016uck",
  "source_url": "https://arxiv.org/abs/1604.01728",
- "note": "Flux-integrated (NuMI low-energy numu beam, mean E_nu=4.5 GeV, peak 3.15 GeV, neutrino mode) total cross section for the observed NC \"electromagnetic shower excess\", interpreted by the authors as NC diffractive pi0 production off free hydrogen in the CH scintillator, restricted to shower energy E_shower>3 GeV. This is a single number, not a differential distribution: \"a total cross section for E_shower>3 GeV integrated over the MINERvA flux of 0.26 +/- 0.02(stat) +/- 0.08(sys) x10^-39 cm^2/CH\" (main.tex line 334, matches abstract line 209). Target: per CH (paper states the unit explicitly as cm^2/CH \u2014 a flux-averaged cross section normalized per CH scintillator formula unit, per the NuIntBib C-vs-CH convention this matches the CH tag directly since the unit is given, not inferred).",
- "provenance": "MINERvA:2016uck \u2014 Flux-integrated (NuMI low-energy numu beam, mean E_nu=4.5 GeV, peak 3.15 GeV, neutrino mode) total cross section for the \u00b7 target per CH (paper states the unit explicitly as cm^2/CH \u2014 a flux-averaged cross section normalized per CH scintillator formula unit, per the NuIntBib C-vs-CH convention this matches the CH tag directly since the unit is given, not inferred) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MINERvA:2016uck — Flux-integrated (NuMI low-energy numu beam, mean E_nu=4.5 GeV, peak 3.15 GeV, neutrino mode) total cross section for the · target per CH (paper states the unit explicitly as cm^2/CH — a flux-averaged cross section normalized per CH scintillator formula unit, per the NuIntBib C-vs-CH convention this matches the CH tag directly since the unit is given, not inferred) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "total_xsec_ncdiffpi0_h",

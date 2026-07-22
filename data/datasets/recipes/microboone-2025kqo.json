@@ -2,8 +2,8 @@
  "bibtag": "MicroBooNE:2025kqo",
  "slug": "microboone-2025kqo",
  "source_url": "https://arxiv.org/abs/2503.00291",
- "note": "First-ever flux-integrated cross section for charged-current muon-neutrino induced K+ production on argon: numu + Ar -> mu- + K+ + X (sum of single-kaon and associated-kaon production channels), BNB numu beam (on-axis Booster Neutrino Beam), MicroBooNE LArTPC, 6.88e20 POT. Single-bin (non-differential) flux-integrated total cross section only -- paper states this is the first-ever measurement of this channel and explicitly defers differential measurements to future experiments (SBND/ICARUS/DUNE-ND). Target: per nucleon (paper states units as cm^2/nucleon explicitly, both in text line 391 and Table tab:cross_sections column header).",
- "provenance": "MicroBooNE:2025kqo \u2014 First-ever flux-integrated cross section for charged-current muon-neutrino induced K+ production on argon: numu + Ar -> \u00b7 target per nucleon (paper states units as cm^2/nucleon explicitly, both in text line 391 and Table tab:cross_sections column header) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MicroBooNE:2025kqo — First-ever flux-integrated cross section for charged-current muon-neutrino induced K+ production on argon: numu + Ar -> · target per nucleon (paper states units as cm^2/nucleon explicitly, both in text line 391 and Table tab:cross_sections column header) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "sigma_ccKplus_ar",

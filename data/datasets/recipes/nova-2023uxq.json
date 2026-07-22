@@ -2,8 +2,8 @@
  "bibtag": "NOvA:2023uxq",
  "slug": "nova-2023uxq",
  "source_url": "https://arxiv.org/abs/2306.04028",
- "note": "Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c00 (CC\u03c00, single \u03c00 + any other pions/nucleons allowed, \"multi-\u03c0\" included) production on the NOvA near-detector target (predominantly CH2), NuMI \u03bd_\u03bc beam, 3.72e20 POT. Target: per nucleon. Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
- "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
+ "note": "",
+ "provenance": "NOvA:2023uxq — Flux-integrated and 6 differential (dσ/dp_μ, dσ/dcosθ_μ, dσ/dp_π, dσ/dcosθ_π, dσ/dQ², dσ/dW) cross sections for ν_μ CC1π · target per nucleon · values transcribed from the arXiv paper tables ·Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) — full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
  "items": [
   {
    "slug": "dsdpmu_numu",

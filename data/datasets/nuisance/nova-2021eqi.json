@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2109.12220",
  "arxiv": "2109.12220",
  "cite": "Phys.Rev.D 107 052011",
- "note": "Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode beam), reported in 13 slices of muon scattering angle (costheta) vs muon kinetic energy Tmu, 158 bins total. Target: per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target). Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.50-0.56",
@@ -61,7 +61,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.56-0.62",
@@ -117,7 +117,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.62-0.68",
@@ -181,7 +181,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.68-0.74",
@@ -253,7 +253,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.74-0.80",
@@ -341,7 +341,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.80-0.85",
@@ -437,7 +437,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.85-0.88",
@@ -549,7 +549,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.88-0.91",
@@ -685,7 +685,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.91-0.94",
@@ -845,7 +845,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.94-0.96",
@@ -1029,7 +1029,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.96-0.98",
@@ -1213,7 +1213,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.98-0.99",
@@ -1397,7 +1397,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   },
   {
    "key": "dsigma_d2sigma_dtmu_dcostheta_costheta_0.99-1.00",
@@ -1581,7 +1581,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.12220",
    "provenance": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode \u00b7 target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target) \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Only fractional-uncertainty-and-correlation SUMMARY table given in the paper (Table \"Fractional uncertainties and correlations across all bins\", one row per systematic source, weighted-average correlation only \u2014 not a full bin-by-bin covariance matrix). Paper states full covariance matrices are on the NOvA Data Releases webpage (https://novaexperiment.fnal.gov/data-releases/), not fetched here..",
-   "notes": "NOvA:2021eqi \u2014 Double-differential numu CC-inclusive cross section d2sigma/dTmu/dcostheta in the NOvA near detector (NuMI neutrino-mode. Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
+   "notes": "Target per nucleon (NOvA near-detector fiducial-volume material mix: 67% C, 16% Cl, 11% H, 3% Ti, 3% O by mass \u2014 Table \"Mass contributions from various elements\", not a simple CH/CH2 target)."
   }
  ]
 }

@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1701.04857",
  "arxiv": "1701.04857",
  "cite": "Phys.Rev.D 95 072009",
- "note": "Flux-integrated differential cross section per unit neutrino energy, d\u03c3/dE \u2248 \u03c3(E)/E, for muon-neutrino CC-inclusive and muon-antineutrino CC-inclusive interactions vs true neutrino energy E_nu (2-22 GeV), measured with the MINERvA scintillator-tracker in the low-energy NuMI beam (FHC = neutrino mode, RHC = antineutrino mode). The paper also reports the antineutrino/neutrino cross-section ratio R(E) \u2014 a dimensionless ratio, not a cross section, so it was excluded from the ingested items per instructions. Target: per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_nu_cc_xsec_over_e",
@@ -101,7 +101,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1701.04857",
    "provenance": "MINERvA:2017ozn \u2014 Flux-integrated differential cross section per unit neutrino energy, d\u03c3/dE \u2248 \u03c3(E)/E, for muon-neutrino CC-inclusive and \u00b7 target per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ozn \u2014 Flux-integrated differential cross section per unit neutrino energy, d\u03c3/dE \u2248 \u03c3(E)/E, for muon-neutrino CC-inclusive and. Target per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex)."
+   "notes": "Target per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex)."
   },
   {
    "key": "dsigma_nubar_cc_xsec_over_e",
@@ -197,7 +197,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1701.04857",
    "provenance": "MINERvA:2017ozn \u2014 Flux-integrated differential cross section per unit neutrino energy, d\u03c3/dE \u2248 \u03c3(E)/E, for muon-neutrino CC-inclusive and \u00b7 target per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017ozn \u2014 Flux-integrated differential cross section per unit neutrino energy, d\u03c3/dE \u2248 \u03c3(E)/E, for muon-neutrino CC-inclusive and. Target per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex)."
+   "notes": "Target per nucleon (isoscalar-corrected carbon; MINERvA's scintillator-tracker fiducial volume is 88.5% carbon by mass, and the paper explicitly states results are corrected to and reported \"on a carbon target\", isoscalar-corrected \u2014 see abstract line 143-144 and body text lines 279-281, 616, 630-638, 695-698 of ratio_paper.tex)."
   }
  ],
  "covariance": {

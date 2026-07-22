@@ -2,8 +2,8 @@
  "bibtag": "MINERvA:2016zyp",
  "slug": "minerva-2016zyp",
  "source_url": "https://arxiv.org/abs/1604.03920",
- "note": "Flux-integrated single-differential cross section d\u03c3/dT_K for charged-current K+ production, \u03bd_\u03bc CH \u2192 \u03bc- K+ X (inclusive CC single/associated K+ production), vs kaon kinetic energy T_K, 0-500 MeV, in the NuMI low-energy beam. MINERvA tracker/scintillator detector. Target: per nucleon (plastic scintillator, CH).",
- "provenance": "MINERvA:2016zyp \u2014 Flux-integrated single-differential cross section d\u03c3/dT_K for charged-current K+ production, \u03bd_\u03bc CH \u2192 \u03bc- K+ X (inclusive \u00b7 target per nucleon (plastic scintillator, CH) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MINERvA:2016zyp — Flux-integrated single-differential cross section dσ/dT_K for charged-current K+ production, ν_μ CH → μ- K+ X (inclusive · target per nucleon (plastic scintillator, CH) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "kplus_dsigma_dTK",

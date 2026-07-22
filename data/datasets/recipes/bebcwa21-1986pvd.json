@@ -3,12 +3,12 @@
  "slug": "bebcwa21-1986pvd",
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins227412",
- "note": "Single-point \u03c3/E_\u03bd measurements for \u03bd_\u03bc p \u2192 X and \u03bd\u0304_\u03bc p \u2192 X inclusive (charged-current) interactions on free protons, averaged over the wide-band beam exposure range E=20\u2013300 GeV (quoted at \u27e8E\u27e9=160 GeV), from BEBC WA21 hydrogen bubble chamber. Target: proton (free, hydrogen bubble chamber). From the HepData record.",
- "provenance": "BEBCWA21:1986pvd \u2014 Single-point \u03c3/E_\u03bd measurements for \u03bd_\u03bc p \u2192 X and \u03bd\u0304_\u03bc p \u2192 X inclusive (charged-current) interactions on free protons, a \u00b7 target proton (free, hydrogen bubble chamber) \u00b7 from the HepData record",
+ "note": "",
+ "provenance": "BEBCWA21:1986pvd — Single-point σ/E_ν measurements for ν_μ p → X and ν̄_μ p → X inclusive (charged-current) interactions on free protons, a · target proton (free, hydrogen bubble chamber) · from the HepData record",
  "items": [
   {
    "slug": "sigma_over_e_nu",
-   "label": "\u03c3(\u03bd_\u03bc p \u2192 X)/E_\u03bd",
+   "label": "σ(ν_μ p → X)/E_ν",
    "csv": "data/datasets/sources/bebcwa21-1986pvd/sigma_over_e_nu.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -17,7 +17,7 @@
   },
   {
    "slug": "sigma_over_e_nubar",
-   "label": "\u03c3(\u03bd\u0304_\u03bc p \u2192 X)/E_\u03bd",
+   "label": "σ(ν̄_μ p → X)/E_ν",
    "csv": "data/datasets/sources/bebcwa21-1986pvd/sigma_over_e_nubar.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",

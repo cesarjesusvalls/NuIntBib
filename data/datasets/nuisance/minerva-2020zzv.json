@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2002.12496",
  "arxiv": "2002.12496",
  "cite": "Phys.Rev.D 101 112007",
- "note": "numu CC inclusive differential cross sections d(sigma)/dpT and d(sigma)/dp_parallel on hydrocarbon (per nucleon), NuMI LE <Enu>~3.5 GeV. Muon-angle < 20 deg phase space. Values + total covariance from the arXiv ancillary release; each 1D projection carries its own covariance. The release also ships the 2D d2sigma/dpTdp_par (144 bins + 156x156 covariance); only the two 1D projections are ingested here.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_ptmu",

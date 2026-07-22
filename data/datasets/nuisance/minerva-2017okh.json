@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1708.03723",
  "arxiv": "1708.03723",
  "cite": "Phys.Rev.D 96 072003",
- "note": "Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive channel \u03bd\u03bc + CH \u2192 \u03bc\u207b + \u03c0\u2070 + nucleon(s) (CC \u03c0\u2070 production), measured by MINERvA in the low-energy NuMI \u03bd\u03bc beam (spectral peak \u22483 GeV). Distributions: muon momentum p\u03bc, muon angle \u03b8\u03bc, \u03c0\u2070 kinetic energy T\u03c0, \u03c0\u2070 angle \u03b8\u03c0, cross section vs E\u03bd (1.5\u201320 GeV), Q\u00b2 (full sample and two E\u03bd sub-ranges 1.5\u20134.0 and 4.0\u201310.0 GeV), hadronic invariant mass W, p\u03c0\u2070 invariant mass M(p\u03c0\u2070) for two subsamples (W&lt;1.8 GeV and \u0394-enriched W&lt;1.4 GeV), and the \u03c0\u2070 decay-angle distributions cos\u03b8 and \u03c6 in the p\u03c0\u2070 rest frame for the \u0394-enriched (W&lt;1.4 GeV) subsample. Antineutrino/other-flavor channels are not part of this paper. Detector: MINERvA tracker (scintillator, CH). Target: per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_muon_p",
@@ -93,7 +93,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_muon_theta",
@@ -189,7 +189,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_pi0_ke",
@@ -269,7 +269,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_pi0_theta",
@@ -382,7 +382,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_enu_sigma",
@@ -494,7 +494,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_q2",
@@ -582,7 +582,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_q2_lowenu",
@@ -670,7 +670,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_q2_highenu",
@@ -758,7 +758,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_w",
@@ -862,7 +862,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_delta_mass",
@@ -950,7 +950,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_delta_mass_rich",
@@ -1030,7 +1030,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_delta_costheta",
@@ -1134,7 +1134,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   },
   {
    "key": "dsigma_delta_phi",
@@ -1222,7 +1222,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1708.03723",
    "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann. Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
+   "notes": "Target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions)."
   }
  ],
  "covariance": {

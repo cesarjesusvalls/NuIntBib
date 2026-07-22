@@ -2,8 +2,8 @@
  "bibtag": "MINERvA:2022esg",
  "slug": "minerva-2022esg",
  "source_url": "https://arxiv.org/abs/2210.01285",
- "note": "Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C, Fe, Pb targets with the NuMI medium-energy \u03bd\u03bc beam (\u27e8E\u03bd\u27e9\u22486 GeV, ~95% \u03bd\u03bc purity), MINERvA detector at FNAL. Six differential distributions per target: d\u03c3/dE\u03bd, d\u03c3/dE\u03c0, d\u03c3/d\u03b8\u03c0, d\u03c3/dQ2, d\u03c3/d\u03b8\u03bc, d\u03c3/dE\u03bc (24 distributions total, all flux-averaged over the 2-20 GeV coherent-\u03c0+ selection). Target: Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit..",
- "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MINERvA:2022esg — Flux-integrated νμ CC coherent π+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C · target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "dsigma_denu_ch",

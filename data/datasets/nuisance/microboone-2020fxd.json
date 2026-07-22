@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2006.00108",
  "arxiv": "2006.00108",
  "cite": "Phys.Rev.Lett. 125 201803",
- "note": "First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP_\u03bc, d\u03c3/dcos\u03b8_p, d\u03c3/dP_p, d\u03c3/dQ\u00b2_CCQE, d\u03c3/dE_\u03bd^cal) with the MicroBooNE LArTPC on the Fermilab Booster Neutrino Beam (BNB \u03bd_\u03bc, POT-averaged flux). Signal = events with exactly one muon, one proton, no pions above threshold. Target: per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\". (published covariance not attached: matrix 28x28 vs 42 bins)",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_cos_thetamu",
@@ -85,7 +85,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2006.00108",
    "provenance": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP \u00b7 target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\" \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP. Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
+   "notes": "Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
   },
   {
    "key": "dsigma_p_mu",
@@ -165,7 +165,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2006.00108",
    "provenance": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP \u00b7 target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\" \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP. Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
+   "notes": "Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
   },
   {
    "key": "dsigma_cos_thetap",
@@ -245,7 +245,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2006.00108",
    "provenance": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP \u00b7 target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\" \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP. Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
+   "notes": "Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
   },
   {
    "key": "dsigma_p_p",
@@ -325,7 +325,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2006.00108",
    "provenance": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP \u00b7 target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\" \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP. Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
+   "notes": "Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
   },
   {
    "key": "dsigma_q2ccqe",
@@ -405,7 +405,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2006.00108",
    "provenance": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP \u00b7 target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\" \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP. Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
+   "notes": "Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
   },
   {
    "key": "dsigma_enu_cal",
@@ -485,7 +485,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2006.00108",
    "provenance": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP \u00b7 target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\" \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2020fxd \u2014 First measurement of flux-integrated single-differential CC1p0\u03c0 (\"CCQE-like\") \u03bd_\u03bc-\u2074\u2070Ar cross sections (d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dP. Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
+   "notes": "Target per \u2074\u2070Ar nucleus (per-nucleus cross section, NOT per nucleon) \u2014 quote: abstract states \"the integrated per-nucleus CCQE-like cross section (4.93 \u00b1 0.76stat \u00b1 1.29sys) \u00d7 10\u207b\u00b3\u2078 cm\u00b2\"."
   }
  ]
 }

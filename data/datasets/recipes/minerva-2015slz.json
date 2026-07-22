@@ -1,30 +1,30 @@
 {
-  "bibtag": "MINERvA:2015slz",
-  "slug": "minerva-2015slz",
-  "source": "arXiv",
-  "source_url": "https://arxiv.org/abs/1503.02107",
-  "note": "Flux-averaged differential cross sections for single \\pi^0 momentum and angle in CC \\bar\\nu_\\mu single-\\pi^0 production on CH (MINERvA, <E_\\nu>=3.6 GeV)",
-  "provenance": "Digitized from LaTeX appendix tables (tab:xs-pimom, tab:xs-theta) in the arXiv e-print source of 1503.02107; no machine-readable data release or covariance matrix was found in anc/. Total error taken directly from the tot(%) column (verified consistent with sqrt(stat^2+sys^2)) applied to the central value.",
-  "distributions": [
-    {
-      "kind": "1d",
-      "slug": "dsigma_dpimom",
-      "label": "",
-      "xlabel": "p_{\\pi^0}",
-      "xunit": "GeV/c",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\pi^0}",
-      "yunit": "10^{-40}cm^2/nucleon/(GeV/c)",
-      "csv": "data/datasets/sources/minerva-2015slz/dsigma_dpimom.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dtheta",
-      "label": "",
-      "xlabel": "\\theta_{\\pi^0}",
-      "xunit": "deg",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\theta_{\\pi^0}",
-      "yunit": "10^{-42}cm^2/nucleon/deg",
-      "csv": "data/datasets/sources/minerva-2015slz/dsigma_dtheta.csv"
-    }
-  ]
+ "bibtag": "MINERvA:2015slz",
+ "slug": "minerva-2015slz",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1503.02107",
+ "note": "",
+ "provenance": "Digitized from LaTeX appendix tables (tab:xs-pimom, tab:xs-theta) in the arXiv e-print source of 1503.02107; no machine-readable data release or covariance matrix was found in anc/. Total error taken directly from the tot(%) column (verified consistent with sqrt(stat^2+sys^2)) applied to the central value.",
+ "distributions": [
+  {
+   "kind": "1d",
+   "slug": "dsigma_dpimom",
+   "label": "",
+   "xlabel": "p_{\\pi^0}",
+   "xunit": "GeV/c",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}p_{\\pi^0}",
+   "yunit": "10^{-40}cm^2/nucleon/(GeV/c)",
+   "csv": "data/datasets/sources/minerva-2015slz/dsigma_dpimom.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dtheta",
+   "label": "",
+   "xlabel": "\\theta_{\\pi^0}",
+   "xunit": "deg",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}\\theta_{\\pi^0}",
+   "yunit": "10^{-42}cm^2/nucleon/deg",
+   "csv": "data/datasets/sources/minerva-2015slz/dsigma_dtheta.csv"
+  }
+ ]
 }

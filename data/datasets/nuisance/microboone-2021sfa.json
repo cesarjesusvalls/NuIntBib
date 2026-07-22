@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2110.14023",
  "arxiv": "2110.14023",
  "cite": "Phys.Rev.Lett. 128 151801",
- "note": "First energy-dependent numu CC inclusive cross sections on argon (per nucleon), Fermilab BNB nu-mode <Enu>~0.8 GeV: total sigma(Enu), plus flux-averaged dsigma/dEmu and the first dsigma/dnu (energy transfer). Values + total covariance per measurement from the arXiv ancillary text release.",
+ "note": "",
  "distributions": [
   {
    "key": "xsec_Enu",

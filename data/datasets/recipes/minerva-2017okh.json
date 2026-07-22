@@ -2,8 +2,8 @@
  "bibtag": "MINERvA:2017okh",
  "slug": "minerva-2017okh",
  "source_url": "https://arxiv.org/abs/1708.03723",
- "note": "Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive channel \u03bd\u03bc + CH \u2192 \u03bc\u207b + \u03c0\u2070 + nucleon(s) (CC \u03c0\u2070 production), measured by MINERvA in the low-energy NuMI \u03bd\u03bc beam (spectral peak \u22483 GeV). Distributions: muon momentum p\u03bc, muon angle \u03b8\u03bc, \u03c0\u2070 kinetic energy T\u03c0, \u03c0\u2070 angle \u03b8\u03c0, cross section vs E\u03bd (1.5\u201320 GeV), Q\u00b2 (full sample and two E\u03bd sub-ranges 1.5\u20134.0 and 4.0\u201310.0 GeV), hadronic invariant mass W, p\u03c0\u2070 invariant mass M(p\u03c0\u2070) for two subsamples (W&lt;1.8 GeV and \u0394-enriched W&lt;1.4 GeV), and the \u03c0\u2070 decay-angle distributions cos\u03b8 and \u03c6 in the p\u03c0\u2070 rest frame for the \u0394-enriched (W&lt;1.4 GeV) subsample. Antineutrino/other-flavor channels are not part of this paper. Detector: MINERvA tracker (scintillator, CH). Target: per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions).",
- "provenance": "MINERvA:2017okh \u2014 Flux-averaged differential cross sections and a per-bin flux-integrated cross section \u03c3(E\u03bd) for the semi-exclusive chann \u00b7 target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm\u00b2/nucleon per Supplement.tex table captions) \u00b7 from the arXiv ancillary data release",
+ "note": "",
+ "provenance": "MINERvA:2017okh — Flux-averaged differential cross sections and a per-bin flux-integrated cross section σ(Eν) for the semi-exclusive chann · target per nucleon (hydrocarbon/CH scintillator target; explicit unit cm²/nucleon per Supplement.tex table captions) · from the arXiv ancillary data release",
  "items": [
   {
    "slug": "muon_p",

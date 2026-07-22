@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2603.13593",
  "arxiv": "2603.13593",
  "cite": "",
- "note": "Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final state (charged or neutral), MicroBooNE BNB (nu_e beam, on-axis, full 13.09x10^20 POT dataset). Six observables: electron energy E_e and cos\u03b8_e, leading-proton kinetic energy KE_p (6-bin \"full binning\" and a coarser 2-bin version split at the 50 MeV proton-visibility threshold), leading-proton angle cos\u03b8_p, and the electron-proton opening angle cos\u03b8_ep. The four lepton/proton-angle/opening-angle variables use only the 1eNp0\u03c0 (\u22651 visible proton) topology; the two KE_p measurements use the combined 1eXp0\u03c0 sample (1eNp0\u03c0 + 1e0p0\u03c0, i.e. include the below-threshold/no-visible-proton bin). Target: per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\").",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_electron_energy",
@@ -70,7 +70,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.13593",
    "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+   "notes": "Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
   },
   {
    "key": "dsigma_proton_ke_full",
@@ -143,7 +143,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.13593",
    "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+   "notes": "Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
   },
   {
    "key": "dsigma_proton_ke_twobin",
@@ -183,7 +183,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.13593",
    "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+   "notes": "Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
   },
   {
    "key": "dsigma_costheta_e",
@@ -239,7 +239,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.13593",
    "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+   "notes": "Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
   },
   {
    "key": "dsigma_costheta_p",
@@ -312,7 +312,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.13593",
    "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+   "notes": "Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
   },
   {
    "key": "dsigma_opening_angle",
@@ -384,7 +384,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.13593",
    "provenance": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st \u00b7 target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\") \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2026ifl \u2014 Flux-averaged differential cross sections for CC electron-neutrino interactions on argon with zero pions in the final st. Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
+   "notes": "Target per nucleon (argon target; N_target = number of target nucleons in fiducial volume, per Eq. for cross-section extraction, line ~528 of apstemplate.tex; table unit labels explicitly say \"nucleon\" not \"Ar\")."
   }
  ]
 }

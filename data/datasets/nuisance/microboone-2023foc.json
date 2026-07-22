@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2307.06413",
  "arxiv": "2307.06413",
  "cite": "Phys.Lett.B 870 139939",
- "note": "Triple-differential (E\u03bd slice x cos\u03b8\u03bc x P\u03bc) inclusive \u03bd\u03bc CC cross section on argon, MicroBooNE, BNB, 6.4e20 POT",
+ "note": "",
  "distributions": [
   {
    "key": "d3sigma_enu_cth_pmu",

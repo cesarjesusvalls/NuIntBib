@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2310.17014",
  "arxiv": "2310.17014",
  "cite": "Phys.Rev.D 108 112010",
- "note": "antinumu CC multi-neutron (>=2 neutrons, low available energy) dsigma/dpT on hydrocarbon (per nucleon), NuMI. Values + covariance from the arXiv ancillary CSV.",
+ "note": "",
  "distributions": [
   {
    "key": "dsdpt",

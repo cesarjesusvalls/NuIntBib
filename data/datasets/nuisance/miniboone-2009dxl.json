@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/0911.2063",
  "arxiv": "0911.2063",
  "cite": "Phys.Rev.D 81 013005",
- "note": "Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar induced, separately) on CH2 (mineral oil), MiniBooNE detector. Target: per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\"). Covariance: Paper states \"The measurements together with full error matrices are also in a data release available at the MiniBooNE website\" \u2014 no covariance matrix is given in the paper itself (Table tab:xsectables gives per-bin total error only). Not available in this extraction; would need the external MiniBooNE data release for the correlation matrix..",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dsdp_numu",
@@ -118,7 +118,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/0911.2063",
    "provenance": "MiniBooNE:2009dxl \u2014 Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar i \u00b7 target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Paper states \"The measurements together with full error matrices are also in a data release available at the MiniBooNE website\" \u2014 no covariance matrix is given in the paper itself (Table tab:xsectables gives per-bin total error only). Not available in this extraction; would need the external MiniBooNE data release for the correlation matrix..",
-   "notes": "MiniBooNE:2009dxl \u2014 Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar i. Target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\")."
+   "notes": "Target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\")."
   },
   {
    "key": "dsigma_dsdcostheta_numu",
@@ -287,7 +287,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/0911.2063",
    "provenance": "MiniBooNE:2009dxl \u2014 Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar i \u00b7 target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Paper states \"The measurements together with full error matrices are also in a data release available at the MiniBooNE website\" \u2014 no covariance matrix is given in the paper itself (Table tab:xsectables gives per-bin total error only). Not available in this extraction; would need the external MiniBooNE data release for the correlation matrix..",
-   "notes": "MiniBooNE:2009dxl \u2014 Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar i. Target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\")."
+   "notes": "Target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\")."
   },
   {
    "key": "dsigma_dsdp_numubar",
@@ -392,7 +392,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/0911.2063",
    "provenance": "MiniBooNE:2009dxl \u2014 Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar i \u00b7 target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Paper states \"The measurements together with full error matrices are also in a data release available at the MiniBooNE website\" \u2014 no covariance matrix is given in the paper itself (Table tab:xsectables gives per-bin total error only). Not available in this extraction; would need the external MiniBooNE data release for the correlation matrix..",
-   "notes": "MiniBooNE:2009dxl \u2014 Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar i. Target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\")."
+   "notes": "Target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\")."
   },
   {
    "key": "dsigma_dsdcostheta_numubar",
@@ -496,7 +496,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/0911.2063",
    "provenance": "MiniBooNE:2009dxl \u2014 Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar i \u00b7 target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\") \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: Paper states \"The measurements together with full error matrices are also in a data release available at the MiniBooNE website\" \u2014 no covariance matrix is given in the paper itself (Table tab:xsectables gives per-bin total error only). Not available in this extraction; would need the external MiniBooNE data release for the correlation matrix..",
-   "notes": "MiniBooNE:2009dxl \u2014 Flux-averaged differential cross sections d\u03c3/dp_\u03c00 and d\u03c3/dcos\u03b8_\u03c00 for inclusive NC 1\u03c00 production (\\numu and \\numubar i. Target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\")."
+   "notes": "Target per nucleon (mineral oil target simulated as CH2, but text explicitly states cross sections are divided by \"the number of targets\" to give \"flux-averaged cross section per nucleon\")."
   }
  ]
 }

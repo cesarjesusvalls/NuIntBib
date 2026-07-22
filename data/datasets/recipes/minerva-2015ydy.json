@@ -3,7 +3,7 @@
  "slug": "minerva-2015ydy",
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/1511.05944",
- "note": "Double-differential CC-inclusive-like (QE+2p2h+Delta) neutrino cross section d^2\\sigma/dE_avail dq_3 per nucleon on the MINERvA CH scintillator tracker, low-energy NuMI nu_mu beam (2-6 GeV), 3.33e20 POT.",
+ "note": "",
  "provenance": "arXiv e-print ancillary files anc/supplemental.txt (Tables II-V) and anc/supplemental.root (crossSection TH2D, crossSectionVector, covarianceMatrix TMatrixT), cross-checked against each other. Cross section values and full 67x67 covariance matrix taken from the higher-precision ROOT crossSectionVector/covarianceMatrix (agree with the rounded text-table Table II/IV/V values to <0.005e-38 cm^2/GeV^2). Bin scheme (which (E_avail,q3) cells exist per q3 slice) taken from Table III. Normalization: divided by flux and 3.17e30 nucleon targets in the tracker (H+C+O by weight 7.4%/88%/3.2%) -> tagged as per-nucleon CH target per project convention. Total error per bin = sqrt(diag(covariance)); verified sqrt(diag(cov))/err = 1 to machine precision by construction.",
  "distributions": [
   {
@@ -16,12 +16,48 @@
    "yunit": "10^{-38}cm^2/GeV^2/nucleon",
    "slicevar_tex": "$q_3$",
    "slices": [
-    {"label_tex": "$0.0 < q_3 < 0.2$ GeV", "label": "0.0<q3<0.2", "lo": 0.0, "hi": 0.2, "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0-0p2.csv"},
-    {"label_tex": "$0.2 < q_3 < 0.3$ GeV", "label": "0.2<q3<0.3", "lo": 0.2, "hi": 0.3, "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p2-0p3.csv"},
-    {"label_tex": "$0.3 < q_3 < 0.4$ GeV", "label": "0.3<q3<0.4", "lo": 0.3, "hi": 0.4, "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p3-0p4.csv"},
-    {"label_tex": "$0.4 < q_3 < 0.5$ GeV", "label": "0.4<q3<0.5", "lo": 0.4, "hi": 0.5, "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p4-0p5.csv"},
-    {"label_tex": "$0.5 < q_3 < 0.6$ GeV", "label": "0.5<q3<0.6", "lo": 0.5, "hi": 0.6, "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p5-0p6.csv"},
-    {"label_tex": "$0.6 < q_3 < 0.8$ GeV", "label": "0.6<q3<0.8", "lo": 0.6, "hi": 0.8, "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p6-0p8.csv"}
+    {
+     "label_tex": "$0.0 < q_3 < 0.2$ GeV",
+     "label": "0.0<q3<0.2",
+     "lo": 0.0,
+     "hi": 0.2,
+     "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0-0p2.csv"
+    },
+    {
+     "label_tex": "$0.2 < q_3 < 0.3$ GeV",
+     "label": "0.2<q3<0.3",
+     "lo": 0.2,
+     "hi": 0.3,
+     "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p2-0p3.csv"
+    },
+    {
+     "label_tex": "$0.3 < q_3 < 0.4$ GeV",
+     "label": "0.3<q3<0.4",
+     "lo": 0.3,
+     "hi": 0.4,
+     "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p3-0p4.csv"
+    },
+    {
+     "label_tex": "$0.4 < q_3 < 0.5$ GeV",
+     "label": "0.4<q3<0.5",
+     "lo": 0.4,
+     "hi": 0.5,
+     "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p4-0p5.csv"
+    },
+    {
+     "label_tex": "$0.5 < q_3 < 0.6$ GeV",
+     "label": "0.5<q3<0.6",
+     "lo": 0.5,
+     "hi": 0.6,
+     "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p5-0p6.csv"
+    },
+    {
+     "label_tex": "$0.6 < q_3 < 0.8$ GeV",
+     "label": "0.6<q3<0.8",
+     "lo": 0.6,
+     "hi": 0.8,
+     "csv": "data/datasets/sources/minerva-2015ydy/d2sigma_deavail_dq3__q3_0p6-0p8.csv"
+    }
    ],
    "cov": "data/datasets/sources/minerva-2015ydy/cov.csv",
    "cov_note": "Full 67x67 covariance matrix (absolute, in (10^-38 cm^2/GeV^2)^2) reconstructed from the release's Cholesky factor U (Table V / supplemental.root covarianceMatrix, C=U^T U); row/col order is the 6 q3 slices concatenated in the order listed above, each slice's E_avail bins in file order (matches Table III/IV 1D bin numbering, 3+7+12+14+15+16=67 bins). Verified sqrt(diag(cov)) equals the CSV err column exactly."

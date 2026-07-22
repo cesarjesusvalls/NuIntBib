@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2402.19281",
  "arxiv": "2402.19281",
  "cite": "Phys.Rev.Lett. 133 041801",
- "note": "Flux-averaged CC-inclusive numu-Ar differential cross sections (leading proton kinetic energy Kp; muon energy Emu and angle costheta_mu; and the double-differential d2sigma/dcostheta_mu dEmu split by final-state proton multiplicity 0p/Np/inclusive Xp), MicroBooNE, BNB.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_dKp",

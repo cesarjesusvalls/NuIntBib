@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1408.0598",
  "arxiv": "1408.0598",
  "cite": "Phys.Rev.Lett. 113 261801",
- "note": "Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI antineutrino-enhanced beam, ArgoNeuT LArTPC. Single flux-integrated \u03c3 values (no differential binning) for each flavor. Target: per Ar nucleus. No covariance is published (per-bin total uncertainty only).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_sigma_numu",
@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1408.0598",
    "provenance": "ArgoNeuT:2014uwh \u2014 Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI anti \u00b7 target per Ar nucleus \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2014uwh \u2014 Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI anti. Target per Ar nucleus."
+   "notes": "Target per Ar nucleus."
   },
   {
    "key": "dsigma_sigma_numubar",
@@ -69,7 +69,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1408.0598",
    "provenance": "ArgoNeuT:2014uwh \u2014 Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI anti \u00b7 target per Ar nucleus \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2014uwh \u2014 Flux-averaged CC coherent charged-pion production cross section (\u03bd\u03bc+Ar\u2192\u03bc\u207b+\u03c0\u207a+Ar and \u03bd\u0304\u03bc+Ar\u2192\u03bc\u207a+\u03c0\u207b+Ar) on argon, NuMI anti. Target per Ar nucleus."
+   "notes": "Target per Ar nucleus."
   }
  ]
 }

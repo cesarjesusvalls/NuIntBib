@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2410.05526",
  "arxiv": "2410.05526",
  "cite": "Phys.Rev.D 111 052009",
- "note": "CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available energy E_avail (and the model-subtracted \"2p2h-excess\" cross section derived from the same sample), NuMI beam (mean E_nu = 1.86 GeV), NOvA Near Detector (liquid scintillator, predominantly carbon). Target: per nucleon. No covariance is published (per-bin total uncertainty only).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_d2sigma_dq3_deavail_q3-0.50-1.00",
@@ -85,7 +85,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2410.05526",
    "provenance": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en. Target per nucleon."
+   "notes": "Target per nucleon."
   },
   {
    "key": "dsigma_dsigma_dq3",
@@ -205,7 +205,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2410.05526",
    "provenance": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en. Target per nucleon."
+   "notes": "Target per nucleon."
   },
   {
    "key": "dsigma_dsigma_deavail",
@@ -301,7 +301,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2410.05526",
    "provenance": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en. Target per nucleon."
+   "notes": "Target per nucleon."
   },
   {
    "key": "dsigma_dsigma_dq3_2p2h",
@@ -421,7 +421,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2410.05526",
    "provenance": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en. Target per nucleon."
+   "notes": "Target per nucleon."
   },
   {
    "key": "dsigma_dsigma_deavail_2p2h",
@@ -517,7 +517,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2410.05526",
    "provenance": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "NOvA:2024zmr \u2014 CC-inclusive numu-nucleus double- and single-differential cross sections vs three-momentum transfer |q| and available en. Target per nucleon."
+   "notes": "Target per nucleon."
   }
  ]
 }

@@ -5,7 +5,7 @@
  "source_url": "https://www.hepdata.net/record/ins358417",
  "arxiv": null,
  "cite": "Phys.Lett.B 313 267",
- "note": "Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (and CC-conjugate for \u03bd\u0304_\u03bc). HepData record ins358417 provides 10 tables: two energy-binned \"total\" cross sections (Tables 9,10, model-corrected from visible to total assuming the acceptance region E\u03c0>5 GeV / P=4 GeV cut, reaction-inclusive over all pion angles), two energy-binned \"visible\" cross sections restricted to E\u03c0>5 GeV (Tables 7,8), and 6 single-point (full-run, flux-averaged) cross sections: visible (Tables 1,2) and total corrected with two different extrapolation models \u2014 Rein-Sehgal (Tables 3,4) and Belkov-Kopeliovich (Tables 5,6) \u2014 one \u03bd_\u03bc/\u03bd\u0304_\u03bc pair each. No covariance or correlation matrix table is present in this HepData release. Target: SiO2. From the HepData record.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_numu-coh1pi-total-sigma-over-e",
@@ -62,7 +62,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numubar-coh1pi-total-sigma-over-e",
@@ -119,7 +119,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numu-coh1pi-visible-sigma-over-e",
@@ -176,7 +176,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numubar-coh1pi-visible-sigma-over-e",
@@ -233,7 +233,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numu-coh1pi-visible-xsec-avg",
@@ -265,7 +265,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numubar-coh1pi-visible-xsec-avg",
@@ -297,7 +297,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numu-coh1pi-total-xsec-avg-reinsehgal",
@@ -329,7 +329,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numubar-coh1pi-total-xsec-avg-reinsehgal",
@@ -361,7 +361,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numu-coh1pi-total-xsec-avg-belkovkopeliovich",
@@ -393,7 +393,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   },
   {
    "key": "dsigma_numubar-coh1pi-total-xsec-avg-belkovkopeliovich",
@@ -425,7 +425,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an \u00b7 target SiO2 \u00b7 from the HepData record",
-   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2. From the HepData record."
+   "notes": "CHARM-II:1993xmz \u2014 Coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc- \u03c0+ N (an. Target SiO2."
   }
  ]
 }

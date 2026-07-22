@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1404.4809",
  "arxiv": "1404.4809",
  "cite": "Phys.Rev.D 89 112003",
- "note": "Inclusive numu and antinumu CC differential cross sections on argon (per argon nucleus), Fermilab NuMI low-energy antineutrino mode: dsigma/dtheta_mu and dsigma/dp_mu, at <Enu>=9.6 GeV (numu) / 3.6 GeV (antinumu). Per-bin total uncertainty (stat + syst in quadrature); no covariance is published. Values transcribed from the paper tables (arXiv LaTeX source).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_theta_numu",

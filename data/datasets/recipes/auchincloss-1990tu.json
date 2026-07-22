@@ -3,8 +3,8 @@
  "slug": "auchincloss-1990tu",
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins27761",
- "note": "CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, from 7 HepData tables: Table1 = final \"combined\" result (E 30-300 GeV, bin edges, 100-300 GeV point merges this expt with earlier measurements); Table2/Table4 = \u03bd\u0304_\u03bc points from two independent flux-normalization methods (direct vs indirect); Table3/Table5 = \u03bd_\u03bc points from the same two methods; Table6/Table7 = (1/E)d\u03c3/dy at y=0 extracted from 2-parameter fits to the y-distribution, vs E_\u03bd, for \u03bd\u0304_\u03bc and \u03bd_\u03bc respectively. Target: Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon. From the HepData record.",
- "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
+ "note": "",
+ "provenance": "Auchincloss:1990tu — CCFR (Fermilab, quad-triplet wideband ν/ν̄ beam on iron) total CC cross sections σ(ν_μ N)/E_ν and σ(ν̄_μ N)/E_ν vs E_ν, · target Nucleon (isoscalar-corrected, iron target) — reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon · from the HepData record",
  "items": [
   {
    "slug": "t1_numu_combined_sigE_vs_E",

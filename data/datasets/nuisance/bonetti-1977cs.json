@@ -5,7 +5,7 @@
  "source_url": "https://www.hepdata.net/record/ins124163",
  "arxiv": null,
  "cite": "Nuovo Cim.A 38 260",
- "note": "Total cross section for quasi-elastic CC scattering nu_mu n -> mu- p as a function of neutrino lab momentum (GGM/Gargamelle-type bubble-chamber experiment, sqrt(s)=1.979-3.199 GeV). Target: neutron. From the HepData record.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_ccqe_sigma_vs_plab",
@@ -133,7 +133,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins124163",
    "provenance": "Bonetti:1977cs \u2014 Total cross section for quasi-elastic CC scattering nu_mu n -> mu- p as a function of neutrino lab momentum (GGM/Gargame \u00b7 target neutron \u00b7 from the HepData record",
-   "notes": "Bonetti:1977cs \u2014 Total cross section for quasi-elastic CC scattering nu_mu n -> mu- p as a function of neutrino lab momentum (GGM/Gargame. Target neutron. From the HepData record."
+   "notes": "Target neutron."
   }
  ]
 }

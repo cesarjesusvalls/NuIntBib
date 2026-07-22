@@ -1,32 +1,32 @@
 {
-  "bibtag": "MINERvA:2016ymg",
-  "slug": "minerva-2016ymg",
-  "source": "arXiv",
-  "source_url": "https://arxiv.org/abs/1611.02224",
-  "note": "Flux-integrated differential cross sections for neutral-current K+ production by neutrinos, dsigma/dT_K (K+ kinetic energy) and dsigma/dE_vis (non-K+ visible hadronic energy), per nucleon on the MINERvA CH scintillator tracker (low-energy NuMI numu beam, mean E_nu~3.5 GeV).",
-  "provenance": "MINERvA:2016ymg -- values, absolute stat/syst/total uncertainties, and stat/flux/other-systematic covariance matrices taken from the LaTeX supplementary-material tables (Tables I-VII) in the arXiv source (anc e-print, supplement.tex); target is the MINERvA CH scintillator tracker with cross section reported per nucleon (paper Eq. 1), tagged CH per site convention. No machine-readable (CSV/ROOT) data release was found in anc/; digitized from the LaTeX tables directly (not the PDF).",
-  "distributions": [
-    {
-      "kind": "1d",
-      "slug": "dsigma_dTK",
-      "label": "",
-      "xlabel": "T_K",
-      "xunit": "GeV",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}T_K",
-      "yunit": "10^{-39}cm^2/GeV/nucleon",
-      "csv": "data/datasets/sources/minerva-2016ymg/dsigma_dTK.csv"
-    },
-    {
-      "kind": "1d",
-      "slug": "dsigma_dEvis",
-      "label": "",
-      "xlabel": "E_{vis}",
-      "xunit": "GeV",
-      "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}E_{vis}",
-      "yunit": "10^{-42}cm^2/GeV/nucleon",
-      "csv": "data/datasets/sources/minerva-2016ymg/dsigma_dEvis.csv"
-    }
-  ],
-  "cov": "data/datasets/sources/minerva-2016ymg/cov.csv",
-  "cov_note": "Block-diagonal 11x11 covariance (5 T_K bins then 6 E_vis bins, matching distribution/row order above). Each block is the sum of the paper's statistical + flux + other-systematic covariance tables (Tables III-IV / VI-VII of the supplement), rescaled from the tables' quoted units (1e-80 (cm^2/nucleon/GeV)^2 for T_K, 1e-82 for E_vis) into the plain numeric scale of the val/err columns (i.e. sqrt(diag) reproduces the 'Total' column of Tables I and V). Off-diagonal cross-terms between the two observables are not given in the paper and are set to 0."
+ "bibtag": "MINERvA:2016ymg",
+ "slug": "minerva-2016ymg",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1611.02224",
+ "note": "",
+ "provenance": "MINERvA:2016ymg -- values, absolute stat/syst/total uncertainties, and stat/flux/other-systematic covariance matrices taken from the LaTeX supplementary-material tables (Tables I-VII) in the arXiv source (anc e-print, supplement.tex); target is the MINERvA CH scintillator tracker with cross section reported per nucleon (paper Eq. 1), tagged CH per site convention. No machine-readable (CSV/ROOT) data release was found in anc/; digitized from the LaTeX tables directly (not the PDF).",
+ "distributions": [
+  {
+   "kind": "1d",
+   "slug": "dsigma_dTK",
+   "label": "",
+   "xlabel": "T_K",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}T_K",
+   "yunit": "10^{-39}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/minerva-2016ymg/dsigma_dTK.csv"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_dEvis",
+   "label": "",
+   "xlabel": "E_{vis}",
+   "xunit": "GeV",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}E_{vis}",
+   "yunit": "10^{-42}cm^2/GeV/nucleon",
+   "csv": "data/datasets/sources/minerva-2016ymg/dsigma_dEvis.csv"
+  }
+ ],
+ "cov": "data/datasets/sources/minerva-2016ymg/cov.csv",
+ "cov_note": "Block-diagonal 11x11 covariance (5 T_K bins then 6 E_vis bins, matching distribution/row order above). Each block is the sum of the paper's statistical + flux + other-systematic covariance tables (Tables III-IV / VI-VII of the supplement), rescaled from the tables' quoted units (1e-80 (cm^2/nucleon/GeV)^2 for T_K, 1e-82 for E_vis) into the plain numeric scale of the val/err columns (i.e. sqrt(diag) reproduces the 'Total' column of Tables I and V). Off-diagonal cross-terms between the two observables are not given in the paper and are set to 0."
 }

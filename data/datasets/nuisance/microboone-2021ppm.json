@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2109.06832",
  "arxiv": "2109.06832",
  "cite": "Phys.Rev.D 105 L051102",
- "note": "First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) electron/positron reconstructed-true energy E_e and (2) electron/positron scattering angle cos\u03b2 (\u03b2 = deflection from assumed neutrino direction), using NuMI beam in FHC (neutrino) mode, flux-integrated over 2.0e20 POT (off-axis ~8deg, \u03bde+\u03bd\u0304e mixed flux, avg energies 768/961 MeV). Wiener-SVD unfolded. This is a flux-integrated differential cross section (not per-energy-bin flux unfolding). Target: per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_energy",
@@ -86,7 +86,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.06832",
    "provenance": "MicroBooNE:2021ppm \u2014 First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) elec \u00b7 target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables) \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2021ppm \u2014 First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) elec. Target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables)."
+   "notes": "Target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables)."
   },
   {
    "key": "dsigma_cosbeta",
@@ -151,7 +151,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.06832",
    "provenance": "MicroBooNE:2021ppm \u2014 First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) elec \u00b7 target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables) \u00b7 from the arXiv ancillary data release",
-   "notes": "MicroBooNE:2021ppm \u2014 First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) elec. Target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables)."
+   "notes": "Target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables)."
   }
  ],
  "covariance": {

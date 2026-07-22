@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/2603.06718",
  "arxiv": "2603.06718",
  "cite": "",
- "note": "Muon-antineutrino CC-inclusive cross sections at NOvA (NuMI, antineutrino mode). The primary result is the triple-differential d3sigma/dTmu dcos(theta_mu) dEavail (shown as E_avail panels, each overlaying the cos(theta_mu) slices as coloured lines); the two single-differential projections dsigma/dEnu and dsigma/dQ^2 are also included. Per nucleon; per-bin total uncertainty; no covariance published.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_denu",

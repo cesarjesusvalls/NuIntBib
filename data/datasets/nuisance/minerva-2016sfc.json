@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1606.07127",
  "arxiv": "1606.07127",
  "cite": "Phys.Rev.D 94 052005",
- "note": "Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exclusive, single \u03c00, no charged tracks) pion production on hydrocarbon, measured in MINERvA's low-energy NuMI beam. For each channel, differential cross sections d\u03c3/dX are given vs Q\u00b2, muon momentum p_\u03bc, muon angle \u03b8_\u03bc, pion angle \u03b8_\u03c0, pion kinetic energy T_\u03c0, plus the (non-differential) cross section per energy bin \u03c3(E\u03bd) \u2014 6 observables x 2 channels = 12 distributions. Target: per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_nu-ccnpiplus-enu",
@@ -93,7 +93,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_nu-ccnpiplus-q2",
@@ -181,7 +181,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_nu-ccnpiplus-pmu",
@@ -277,7 +277,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_nu-ccnpiplus-thetamu",
@@ -373,7 +373,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_nu-ccnpiplus-thetapi",
@@ -509,7 +509,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_nu-ccnpiplus-tpi",
@@ -590,7 +590,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_anu-cc1pi0-enu",
@@ -678,7 +678,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_anu-cc1pi0-q2",
@@ -766,7 +766,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_anu-cc1pi0-pmu",
@@ -862,7 +862,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_anu-cc1pi0-thetamu",
@@ -958,7 +958,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_anu-cc1pi0-thetapi",
@@ -1071,7 +1071,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   },
   {
    "key": "dsigma_anu-cc1pi0-tpi",
@@ -1151,7 +1151,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1606.07127",
    "provenance": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc \u00b7 target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308 \u00b7 from the arXiv ancillary data release",
-   "notes": "MINERvA:2016sfc \u2014 Flux-integrated cross sections for \u03bd\u03bc-CC(N\u03c0+) (semi-inclusive, \u22651 charged pion, W<1.8 GeV) and anti-\u03bd\u03bc-CC(1\u03c00) (near-exc. Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
+   "notes": "Target per nucleon (flux-integrated differential cross section per nucleon on hydrocarbon, CH) \u2014 confirmed at line 867 of the TeX source (\"flux-integrated differential cross section per nucleon\") and target stated as CH at line 308."
   }
  ],
  "covariance": {

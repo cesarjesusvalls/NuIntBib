@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1805.05486",
  "arxiv": "1805.05486",
  "cite": "Phys.Rev.Lett. 121 022504",
- "note": "numu CCQE-like (muon + proton, mesonless) transverse-kinematic-imbalance and lepton/proton kinematic differential cross sections on hydrocarbon (per nucleon), NuMI LE <Enu>~3 GeV. Values + total covariance per observable from the arXiv ancillary release.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_muonmomentum",

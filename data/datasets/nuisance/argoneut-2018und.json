@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1804.10294",
  "arxiv": "1804.10294",
  "cite": "Phys.Rev.D 98 052002",
- "note": "Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304_\u03bc, measured by ArgoNeuT in the NuMI beam (antineutrino-enhanced/reverse-horn-current mode, 60% \u03bd / 40% \u03bd\u0304 interactions). Target: per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\"). No covariance is published (per-bin total uncertainty only).",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_pmu_numu",
@@ -69,7 +69,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_thetamu_numu",
@@ -126,7 +126,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_thetapi_numu",
@@ -190,7 +190,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_thetamupi_numu",
@@ -262,7 +262,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_pmu_numubar",
@@ -318,7 +318,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_thetamu_numubar",
@@ -390,7 +390,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_thetapi_numubar",
@@ -486,7 +486,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_thetamupi_numubar",
@@ -582,7 +582,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_total_numu",
@@ -614,7 +614,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   },
   {
    "key": "dsigma_total_numubar",
@@ -646,7 +646,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1804.10294",
    "provenance": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304 \u00b7 target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "ArgoNeuT:2018und \u2014 Flux-integrated and differential (d\u03c3/dp_\u03bc, d\u03c3/d\u03b8_\u03bc, d\u03c3/d\u03b8_\u03c0, d\u03c3/d\u03b8_\u03bc\u03c0) CC1\u03c0\u00b1 cross sections on argon for both \u03bd_\u03bc and \u03bd\u0304. Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
+   "notes": "Target per nucleon for all differential distributions (explicit in table headers, e.g. \"[10^-37 cm^2/(GeV/c)/nucleon]\"); per Ar nucleus for the two flux-averaged total cross sections (table header \"[10^-37 cm^2/Ar]\" / \"[10^-38 cm^2/Ar]\")."
   }
  ]
 }

@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1811.02774",
  "arxiv": "1811.02774",
  "cite": "Phys.Rev.D 99 012004",
- "note": "numu CC quasielastic-like differential cross sections on hydrocarbon (per nucleon), NuMI LE. Values + total covariance from the arXiv ancillary release (QE-like signal definition); each observable carries its own covariance.",
+ "note": "",
  "distributions": [
   {
    "key": "dsigma_q2qe",

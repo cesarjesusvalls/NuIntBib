@@ -5,7 +5,7 @@
  "source_url": "https://arxiv.org/abs/1403.2103",
  "arxiv": "1403.2103",
  "cite": "Phys.Rev.Lett. 112 231801",
- "note": "Flux-integrated CC-inclusive \\nu_\\mu cross-section ratios (C/CH, Fe/CH, Pb/CH) vs Bjorken x and vs neutrino energy E_\\nu (2-20 GeV, <E_\\nu>=8 GeV), MINERvA nuclear-target passive planes vs the CH scintillator tracker in the NuMI beam.",
+ "note": "",
  "distributions": [
   {
    "key": "ratio_C_CH_vs_x",
