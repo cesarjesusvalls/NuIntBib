@@ -1,0 +1,11 @@
+# d^2sigma/ (dp*dcostheta). Units of 10-40 cm^2/nucleon/(Delta momentum [GeV/c])/(Delta costheta)
+# Bin Description Result Error
+cos theta [0.5,0.7], momentum [0.2,0.6] GeV/c 1.9945 0.7120
+cos theta [0.7,0.8], momentum [0.2,0.6] GeV/c 1.3081 0.6574
+cos theta [0.5,0.8], momentum [0.6,1.0] GeV/c 0.6329 0.2709
+cos theta [0.8,0.9], momentum [0.2,0.4] GeV/c 3.2953 1.4047
+cos theta [0.8,0.9], momentum [0.4,0.6] GeV/c 2.4493 1.1324
+cos theta [0.8,0.9], momentum [0.6,1.0] GeV/c 0.2871 0.4142
+cos theta [0.9,1.0], momentum [0.2,0.4] GeV/c 3.4038 1.1814
+cos theta [0.9,1.0], momentum [0.4,0.6] GeV/c 3.7054 1.3119
+cos theta [0.9,1.0], momentum [0.6,1.0] GeV/c 1.2584 0.7013

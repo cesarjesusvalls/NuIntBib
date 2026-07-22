@@ -1,4 +1,6 @@
 *.csv
+# ...but dataset source CSVs are real inputs — track them so builds are reproducible
+!/data/datasets/sources/**/*.csv
 *Untitled*
 *.ipynb_checkpoints
 .DS_Store
