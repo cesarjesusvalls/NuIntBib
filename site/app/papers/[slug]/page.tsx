@@ -189,9 +189,8 @@ export default async function PaperDetailPage({ params }: PageProps) {
                         {m.measurement_type ? (
                           <span className="tag tag-type">{m.measurement_type}</span>
                         ) : null}
-                        {m.observables ? (
-                          <span className="tag tag-obs">{m.observables}</span>
-                        ) : null}
+                        {/* observables descriptor intentionally not shown: it restates the
+                            chips above and the data-release axes below */}
                       </div>
                     ))}
               </div>

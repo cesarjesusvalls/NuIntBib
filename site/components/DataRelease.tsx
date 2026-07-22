@@ -59,8 +59,12 @@ function plotSVG(bins: DataBin[], logy: boolean, xcat = false): string {
   // Axis labels are laid out as HTML around the SVG (see the grid in the render);
   // the SVG carries only ticks + data, so margins just cover the tick numbers.
   const W = 560, H = 360, mL = 58, mR = 14, mT = 14, mB = 38;
-  const xmin = Math.min(...bins.map((b) => b.lo));
-  const xmax = Math.max(...bins.map((b) => b.hi));
+  let xmin = Math.min(...bins.map((b) => b.lo));
+  let xmax = Math.max(...bins.map((b) => b.hi));
+  // a single point (or any zero-width domain) would otherwise collapse onto the
+  // left axis; pad symmetrically so it sits centred
+  const xDegenerate = xmax - xmin < 1e-9 * (Math.abs(xmin) + Math.abs(xmax) + 1);
+  if (xDegenerate) { const c = (xmin + xmax) / 2, p = Math.max(Math.abs(c) * 0.5, 0.5); xmin = c - p; xmax = c + p; }
   const vmax = Math.max(...bins.map((b) => b.val + b.err));
   const vmin = Math.min(...bins.map((b) => Math.max(b.val - b.err, 0)));
   const iw = W - mL - mR, ih = H - mT - mB;
@@ -83,12 +87,16 @@ function plotSVG(bins: DataBin[], logy: boolean, xcat = false): string {
     for (let e = Math.floor(l); e <= Math.ceil(u); e++) yticks.push(Math.pow(10, e));
     yticks = yticks.filter((t) => t >= lo * 0.999 && t <= hi);
   } else {
-    const hi = vmax * 1.12;
+    // a lone point: run the axis 0 → 2·value so it sits vertically centred
+    // (widen only if a large error bar would otherwise overflow the top)
+    const single = bins.length === 1;
+    const hi = single ? Math.max(2 * bins[0].val, vmax * 1.02) : vmax * 1.12;
     Y = (v) => mT + ih - (v / hi) * ih;
     for (let i = 0; i <= 5; i++) yticks.push((hi * i) / 5);
   }
-  const xticks: number[] = [];
-  for (let i = 0; i <= 5; i++) xticks.push(xmin + ((xmax - xmin) * i) / 5);
+  const xticks: number[] = xDegenerate
+    ? [(xmin + xmax) / 2]                                    // one tick at the point's value
+    : Array.from({ length: 6 }, (_, i) => xmin + ((xmax - xmin) * i) / 5);
   let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="cross-section plot">`;
   s += `<rect x="${mL}" y="${mT}" width="${iw}" height="${ih}" fill="none" stroke="var(--line)"/>`;
   for (const t of yticks) {
