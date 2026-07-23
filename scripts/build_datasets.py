@@ -1129,6 +1129,7 @@ def build_grouped_dist(ds, src, url, prov):
     series:[{label_tex,label,lo,hi,csv}]}]. Each csv is a lo,hi,val,err file."""
     xl, yl = ds['xlabel'], ds['ylabel']; yu = ds.get('yunit', ''); xu = ds.get('xunit', '')
     lab = ds.get('label', '')
+    prov = ds.get('provenance', prov)   # per-distribution provenance overrides the release default
     base = {'key': ds['slug'], 'slug': ds['slug'],
             'name': plotify(yl) + (f' ({lab})' if lab else ''),
             'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),

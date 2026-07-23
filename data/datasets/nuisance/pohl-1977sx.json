@@ -1,0 +1,75 @@
+{
+ "bibtag": "Pohl:1977sx",
+ "slug": "pohl-1977sx",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins122236",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 72 489",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_observed",
+   "slug": "dsigma_observed",
+   "name": "\u03c3(\u03bd p to \u03bd p)/\u03c3(\u03bd n to \u03bc^- p) (observed)",
+   "name_tex": "$\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)\\ (observed)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "\u03c3(\u03bd p to \u03bd p)/\u03c3(\u03bd n to \u03bc^- p)",
+   "ylabel_plot": "\u03c3(\u03bd p to \u03bd p)/\u03c3(\u03bd n to \u03bc^- p)",
+   "ylabel_tex": "$\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 1.0,
+     "center": 0.65,
+     "val": 0.17,
+     "err": 0.08
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/pohl-1977sx/observed.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins122236",
+   "provenance": "Pohl:1977sx \u2014 Gargamelle heavy-liquid bubble chamber, \u03bd-proton NC-elastic to CC ratio \u03c3(\u03bd p \u2192 \u03bd p)/\u03c3(\u03bd n \u2192 \u03bc\u207b p) at Q\u00b2 0.3\u20131.0 GeV\u00b2, CERN PS \u03bd beam, given both as observed and corrected for nuclear effects \u00b7 dimensionless \u00b7 from the HepData record",
+   "notes": ""
+  },
+  {
+   "key": "dsigma_corrected",
+   "slug": "dsigma_corrected",
+   "name": "\u03c3(\u03bd p to \u03bd p)/\u03c3(\u03bd n to \u03bc^- p) (nuclear-corrected)",
+   "name_tex": "$\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)\\ (nuclear-corrected)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "\u03c3(\u03bd p to \u03bd p)/\u03c3(\u03bd n to \u03bc^- p)",
+   "ylabel_plot": "\u03c3(\u03bd p to \u03bd p)/\u03c3(\u03bd n to \u03bc^- p)",
+   "ylabel_tex": "$\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.3,
+     "hi": 1.0,
+     "center": 0.65,
+     "val": 0.12,
+     "err": 0.06
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/pohl-1977sx/corrected.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins122236",
+   "provenance": "Pohl:1977sx \u2014 Gargamelle heavy-liquid bubble chamber, \u03bd-proton NC-elastic to CC ratio \u03c3(\u03bd p \u2192 \u03bd p)/\u03c3(\u03bd n \u2192 \u03bc\u207b p) at Q\u00b2 0.3\u20131.0 GeV\u00b2, CERN PS \u03bd beam, given both as observed and corrected for nuclear effects \u00b7 dimensionless \u00b7 from the HepData record",
+   "notes": ""
+  }
+ ]
+}

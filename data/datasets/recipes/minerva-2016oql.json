@@ -1,0 +1,83 @@
+{
+ "bibtag": "MINERvA:2016oql",
+ "slug": "minerva-2016oql",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins1416818",
+ "note": "",
+ "provenance": "MINERvA:2016oql — partonic nuclear effects in deep-inelastic neutrino scattering, published as cross-section ratios (nucleus/CH) · ν_μ CC deep-inelastic scattering; ratio of the DIS cross section on the nucleus (C / Fe / Pb) to CH, both the total ratio vs E_ν and the x-differential ratio; MINERvA NuMI beam, E_ν ≈ 5–50 GeV; DIS selection Q² ≥ 1.0 GeV² and W ≥ 2.0 GeV; per-nucleus ratio · from the HepData record",
+ "cov_note": "block-diagonal total covariance (stat error matrix + syst error matrix, symmetrized) per distribution; per-bin err = sqrt(diag); row/col order = distribution order below",
+ "distributions": [
+  {
+   "kind": "1d",
+   "slug": "sigma_c_ch_enu",
+   "label": "",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma^{C}/\\sigma^{CH}",
+   "yunit": "",
+   "csv": "data/datasets/sources/minerva-2016oql/sigma_c_ch_enu.csv",
+   "cov": "data/datasets/sources/minerva-2016oql/sigma_c_ch_enu_cov.csv",
+   "provenance": "MINERvA:2016oql — ratio of the total ν_μ CC DIS cross section on C to CH vs E_ν · ν_μ CC deep-inelastic scattering, DIS selection Q² ≥ 1.0 GeV² and W ≥ 2.0 GeV, MINERvA NuMI E_ν ≈ 5–50 GeV, per-nucleus (C/CH) ratio · from the HepData record"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_c_ch_x",
+   "label": "",
+   "xlabel": "x",
+   "xunit": "",
+   "ylabel": "(\\mathrm{d}\\sigma^{C}/\\mathrm{d}x)/(\\mathrm{d}\\sigma^{CH}/\\mathrm{d}x)",
+   "yunit": "",
+   "csv": "data/datasets/sources/minerva-2016oql/dsigma_c_ch_x.csv",
+   "cov": "data/datasets/sources/minerva-2016oql/dsigma_c_ch_x_cov.csv",
+   "provenance": "MINERvA:2016oql — ratio of the x-differential ν_μ CC DIS cross section on C to CH · ν_μ CC deep-inelastic scattering, DIS selection Q² ≥ 1.0 GeV² and W ≥ 2.0 GeV, MINERvA NuMI E_ν ≈ 5–50 GeV, per-nucleus (C/CH) ratio · from the HepData record"
+  },
+  {
+   "kind": "1d",
+   "slug": "sigma_fe_ch_enu",
+   "label": "",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma^{Fe}/\\sigma^{CH}",
+   "yunit": "",
+   "csv": "data/datasets/sources/minerva-2016oql/sigma_fe_ch_enu.csv",
+   "cov": "data/datasets/sources/minerva-2016oql/sigma_fe_ch_enu_cov.csv",
+   "provenance": "MINERvA:2016oql — ratio of the total ν_μ CC DIS cross section on Fe to CH vs E_ν · ν_μ CC deep-inelastic scattering, DIS selection Q² ≥ 1.0 GeV² and W ≥ 2.0 GeV, MINERvA NuMI E_ν ≈ 5–50 GeV, per-nucleus (Fe/CH) ratio · from the HepData record"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_fe_ch_x",
+   "label": "",
+   "xlabel": "x",
+   "xunit": "",
+   "ylabel": "(\\mathrm{d}\\sigma^{Fe}/\\mathrm{d}x)/(\\mathrm{d}\\sigma^{CH}/\\mathrm{d}x)",
+   "yunit": "",
+   "csv": "data/datasets/sources/minerva-2016oql/dsigma_fe_ch_x.csv",
+   "cov": "data/datasets/sources/minerva-2016oql/dsigma_fe_ch_x_cov.csv",
+   "provenance": "MINERvA:2016oql — ratio of the x-differential ν_μ CC DIS cross section on Fe to CH · ν_μ CC deep-inelastic scattering, DIS selection Q² ≥ 1.0 GeV² and W ≥ 2.0 GeV, MINERvA NuMI E_ν ≈ 5–50 GeV, per-nucleus (Fe/CH) ratio · from the HepData record"
+  },
+  {
+   "kind": "1d",
+   "slug": "sigma_pb_ch_enu",
+   "label": "",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma^{Pb}/\\sigma^{CH}",
+   "yunit": "",
+   "csv": "data/datasets/sources/minerva-2016oql/sigma_pb_ch_enu.csv",
+   "cov": "data/datasets/sources/minerva-2016oql/sigma_pb_ch_enu_cov.csv",
+   "provenance": "MINERvA:2016oql — ratio of the total ν_μ CC DIS cross section on Pb to CH vs E_ν · ν_μ CC deep-inelastic scattering, DIS selection Q² ≥ 1.0 GeV² and W ≥ 2.0 GeV, MINERvA NuMI E_ν ≈ 5–50 GeV, per-nucleus (Pb/CH) ratio · from the HepData record"
+  },
+  {
+   "kind": "1d",
+   "slug": "dsigma_pb_ch_x",
+   "label": "",
+   "xlabel": "x",
+   "xunit": "",
+   "ylabel": "(\\mathrm{d}\\sigma^{Pb}/\\mathrm{d}x)/(\\mathrm{d}\\sigma^{CH}/\\mathrm{d}x)",
+   "yunit": "",
+   "csv": "data/datasets/sources/minerva-2016oql/dsigma_pb_ch_x.csv",
+   "cov": "data/datasets/sources/minerva-2016oql/dsigma_pb_ch_x_cov.csv",
+   "provenance": "MINERvA:2016oql — ratio of the x-differential ν_μ CC DIS cross section on Pb to CH · ν_μ CC deep-inelastic scattering, DIS selection Q² ≥ 1.0 GeV² and W ≥ 2.0 GeV, MINERvA NuMI E_ν ≈ 5–50 GeV, per-nucleus (Pb/CH) ratio · from the HepData record"
+  }
+ ]
+}

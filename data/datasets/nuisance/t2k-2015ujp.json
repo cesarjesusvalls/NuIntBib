@@ -1,0 +1,51 @@
+{
+ "bibtag": "T2K:2015ujp",
+ "slug": "t2k-2015ujp",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1503.07452",
+ "arxiv": "1503.07452",
+ "cite": "Phys.Rev.D 91 112002",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_ccqe_sigma_vs_e",
+   "slug": "dsigma_ccqe_sigma_vs_e",
+   "name": "\u03c3_CCQE (\\nu_\\mu CCQE (RFG))",
+   "name_tex": "$\\sigma_{CCQE}\\ (\\nu_\\mu CCQE (RFG))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_CCQE",
+   "ylabel_plot": "\u03c3_CCQE",
+   "ylabel_tex": "$\\sigma_{CCQE}$",
+   "yunit": "10^{-39}cm^2/neutron",
+   "yunit_tex": "$10^{-39}cm^2/neutron$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.93,
+     "hi": 0.93,
+     "center": 0.93,
+     "val": 10.64,
+     "err": 2.0634
+    },
+    {
+     "i": 1,
+     "lo": 1.94,
+     "hi": 1.94,
+     "center": 1.94,
+     "val": 11.95,
+     "err": 1.81
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/t2k-2015ujp/ccqe_sigma_vs_e.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1503.07452",
+   "provenance": "T2K:2015ujp \u2014 numu CCQE cross section per bound neutron on carbon, T2K INGRID on-axis Proton Module (scintillator CH; quoted per neutron) \u00b7 flux-averaged CCQE at two mean neutrino energies, 0.93 GeV (low-energy region) and 1.94 GeV (high-energy region), combined one-track+two-track sample \u00b7 MODEL-DEPENDENT: values are the T2K default relativistic Fermi gas (RFG) model (Table table_ccqe_result(a)); the paper also reports spectral-function and multi-nucleon (2p2h) variants that shift these values \u00b7 CSV err = quadrature of stat and (upper) syst; exact asymmetric errors are 11.95 +/- 0.19(stat) +1.80/-1.49(syst) at 1.94 GeV and 10.64 +/- 0.37(stat) +2.03/-1.65(syst) at 0.93 GeV \u00b7 transcribed from the paper",
+   "notes": "Flux-averaged CCQE at two mean neutrino energies, 0.93 GeV (low-energy region) and 1.94 GeV (high-energy region), combined one-track+two-track sample. MODEL-DEPENDENT: values are the T2K default relativistic Fermi gas (RFG) model (Table table_ccqe_result(a)); the paper also reports spectral-function and multi-nucleon (2p2h) variants that shift these values. CSV err = quadrature of stat and (upper) syst; exact asymmetric errors are 11.95 +/- 0.19(stat) +1.80/-1.49(syst) at 1.94 GeV and 10.64 +/- 0.37(stat) +2.03/-1.65(syst) at 0.93 GeV. Transcribed from the paper."
+  }
+ ]
+}

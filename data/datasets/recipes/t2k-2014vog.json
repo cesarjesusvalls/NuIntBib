@@ -1,0 +1,19 @@
+{
+ "bibtag": "T2K:2014vog",
+ "slug": "t2k-2014vog",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1403.3140",
+ "note": "",
+ "provenance": "T2K:2014vog — first measurement of the neutrino-oxygen NCQE cross section at Super-Kamiokande via nuclear deexcitation gamma-rays · signal: NC quasi-elastic (nucleon knockout) on 16O in the Super-K water target, per oxygen nucleus, T2K off-axis narrow-band beam (~93% numu), a single flux-averaged value at median E_nu 630 MeV · sigma = 1.55 x10^-38 cm^2 with asymmetric 68% CI (1.20, 2.26) x10^-38 cm^2 (90% CI (0.96, 2.78)); err is the symmetric half-width 0.53 x10^-38 cm^2 · transcribed from the paper",
+ "items": [
+  {
+   "slug": "ncqe_o",
+   "label": "NC quasi-elastic on 16O",
+   "csv": "data/datasets/sources/t2k-2014vog/ncqe_o_xsec.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "bibtag": "T2K:2014axs",
+ "slug": "t2k-2014axs",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1407.4256",
+ "arxiv": "1407.4256",
+ "cite": "Phys.Rev.D 90 052010",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_fe",
+   "slug": "dsigma_fe",
+   "name": "\u03c3 (Fe)",
+   "name_tex": "$\\sigma\\ (Fe)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.51,
+     "hi": 1.51,
+     "center": 1.51,
+     "val": 1.444,
+     "err": 0.173
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/t2k-2014axs/sigma_fe.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1407.4256",
+   "provenance": "T2K:2014axs \u2014 nu_mu CC-inclusive total cross section per nucleon (arXiv:1407.4256) \u00b7 T2K on-axis neutrino beam measured with INGRID (iron modules) and the Proton Module (CH), flux-averaged over the on-axis nu_mu flux at mean E_nu = 1.51 GeV, full phase space, isoscalar correction NOT applied (pure per-nucleon cross section on the physical target); two absolute flux-averaged values sigma(Fe) = 1.444 +/- 0.002(stat) +0.189/-0.157(syst) and sigma(CH) = 1.379 +/- 0.009(stat) +0.178/-0.147(syst) x10^-38 cm^2/nucleon (each stored as one point at the flux-mean energy with symmetrized total uncertainty) \u00b7 transcribed from the paper",
+   "notes": "T2K on-axis neutrino beam measured with INGRID (iron modules) and the Proton Module (CH), flux-averaged over the on-axis nu_mu flux at mean E_nu = 1.51 GeV, full phase space, isoscalar correction NOT applied (pure per-nucleon cross section on the physical target); two absolute flux-averaged values sigma(Fe) = 1.444 +/- 0.002(stat) +0.189/-0.157(syst) and sigma(CH) = 1.379 +/- 0.009(stat) +0.178/-0.147(syst) x10^-38 cm^2/nucleon (each stored as one point at the flux-mean energy with symmetrized total uncertainty). Transcribed from the paper."
+  },
+  {
+   "key": "dsigma_ch",
+   "slug": "dsigma_ch",
+   "name": "\u03c3 (CH)",
+   "name_tex": "$\\sigma\\ (CH)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2/nucleon",
+   "yunit_tex": "$10^{-38}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.51,
+     "hi": 1.51,
+     "center": 1.51,
+     "val": 1.379,
+     "err": 0.163
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/t2k-2014axs/sigma_ch.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1407.4256",
+   "provenance": "T2K:2014axs \u2014 nu_mu CC-inclusive total cross section per nucleon (arXiv:1407.4256) \u00b7 T2K on-axis neutrino beam measured with INGRID (iron modules) and the Proton Module (CH), flux-averaged over the on-axis nu_mu flux at mean E_nu = 1.51 GeV, full phase space, isoscalar correction NOT applied (pure per-nucleon cross section on the physical target); two absolute flux-averaged values sigma(Fe) = 1.444 +/- 0.002(stat) +0.189/-0.157(syst) and sigma(CH) = 1.379 +/- 0.009(stat) +0.178/-0.147(syst) x10^-38 cm^2/nucleon (each stored as one point at the flux-mean energy with symmetrized total uncertainty) \u00b7 transcribed from the paper",
+   "notes": "T2K on-axis neutrino beam measured with INGRID (iron modules) and the Proton Module (CH), flux-averaged over the on-axis nu_mu flux at mean E_nu = 1.51 GeV, full phase space, isoscalar correction NOT applied (pure per-nucleon cross section on the physical target); two absolute flux-averaged values sigma(Fe) = 1.444 +/- 0.002(stat) +0.189/-0.157(syst) and sigma(CH) = 1.379 +/- 0.009(stat) +0.178/-0.147(syst) x10^-38 cm^2/nucleon (each stored as one point at the flux-mean energy with symmetrized total uncertainty). Transcribed from the paper."
+  }
+ ]
+}

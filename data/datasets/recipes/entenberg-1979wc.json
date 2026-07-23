@@ -1,0 +1,37 @@
+{
+ "bibtag": "Entenberg:1979wc",
+ "slug": "entenberg-1979wc",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins140053",
+ "note": "",
+ "provenance": "Entenberg:1979wc — ANL 12-ft bubble chamber, elastic neutral-current to charged-current cross-section ratios on nucleons (ν p → ν p and ν̄ p → ν̄ p NC-elastic, ν n → μ⁻ p and ν̄ p → μ⁺ n CC), ANL wide-band ν/ν̄ beam, mean E≈7.5 GeV (1–14 GeV) · dimensionless · from the HepData record",
+ "items": [
+  {
+   "slug": "nccc_nu",
+   "label": "\\nu NC/CC",
+   "csv": "data/datasets/sources/entenberg-1979wc/nccc_nu.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)",
+   "yunit": ""
+  },
+  {
+   "slug": "nccc_nubar",
+   "label": "\\bar\\nu NC/CC",
+   "csv": "data/datasets/sources/entenberg-1979wc/nccc_nubar.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(\\bar\\nu p \\to \\bar\\nu p)/\\sigma(\\bar\\nu p \\to \\mu^+ n)",
+   "yunit": ""
+  },
+  {
+   "slug": "nc_nubar_nu",
+   "label": "\\bar\\nu/\\nu NC",
+   "csv": "data/datasets/sources/entenberg-1979wc/nc_nubar_nu.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(\\bar\\nu p \\to \\bar\\nu p)/\\sigma(\\nu p \\to \\nu p)",
+   "yunit": ""
+  }
+ ]
+}

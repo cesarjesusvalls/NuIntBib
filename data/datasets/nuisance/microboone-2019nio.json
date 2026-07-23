@@ -24,7 +24,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1905.09694",
-   "provenance": "Digitized from ancillary files (anc/cross_section.txt, anc/covariance_matrix.txt) of the arXiv e-print; bin edges from Table I / Fig. 1 of the Supplemental Material (anc/supplemental_material.pdf). Cross section is flux-integrated, per nucleon, on argon. Total uncertainty per bin = sqrt(diagonal of covariance matrix); covariance combines statistical and systematic uncertainties.",
+   "provenance": "Read from the ancillary files (anc/cross_section.txt, anc/covariance_matrix.txt) of the arXiv e-print; bin edges from Table I / Fig. 1 of the Supplemental Material (anc/supplemental_material.pdf). Cross section is flux-integrated, per nucleon, on argon. Total uncertainty per bin = sqrt(diagonal of covariance matrix); covariance combines statistical and systematic uncertainties.",
    "nbins": 42,
    "is2d": true,
    "bins": [],

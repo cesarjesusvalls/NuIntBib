@@ -28,8 +28,8 @@
      "lo": 10.0,
      "hi": 160.0,
      "center": 85.0,
-     "val": 6.86e-39,
-     "err": 2.01e-40
+     "val": 0.686,
+     "err": 0.0201
     }
    ],
    "nuisance_file": "data/datasets/sources/charm-1987mvh/numu-cc-total-sigma-over-e.csv",
@@ -60,8 +60,8 @@
      "lo": 10.0,
      "hi": 160.0,
      "center": 85.0,
-     "val": 3.35e-39,
-     "err": 1.077e-40
+     "val": 0.335,
+     "err": 0.01077
     }
    ],
    "nuisance_file": "data/datasets/sources/charm-1987mvh/numubar-cc-total-sigma-over-e.csv",

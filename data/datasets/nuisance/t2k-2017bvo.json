@@ -1,0 +1,139 @@
+{
+ "bibtag": "T2K:2017bvo",
+ "slug": "t2k-2017bvo",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1706.04257",
+ "arxiv": "1706.04257",
+ "cite": "Phys.Rev.D 96 052001",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_antinumu_restricted",
+   "slug": "dsigma_antinumu_restricted",
+   "name": "\u03c3 (\\bar\\nu_\\mu restricted PS)",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu restricted PS)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "center": 0.0,
+     "val": 0.9,
+     "err": 0.0927
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/t2k-2017bvo/antinumu_restricted.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1706.04257",
+   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (mass fractions H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O) \u00b7 single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV) \u00b7 primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters) \u00b7 transcribed from the paper",
+   "notes": "Single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV). Primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters). Transcribed from the paper."
+  },
+  {
+   "key": "dsigma_numu_restricted",
+   "slug": "dsigma_numu_restricted",
+   "name": "\u03c3 (\\nu_\\mu restricted PS)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu restricted PS)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "center": 0.0,
+     "val": 2.41,
+     "err": 0.232
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/t2k-2017bvo/numu_restricted.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1706.04257",
+   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (mass fractions H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O) \u00b7 single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV) \u00b7 primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters) \u00b7 transcribed from the paper",
+   "notes": "Single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV). Primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters). Transcribed from the paper."
+  },
+  {
+   "key": "dsigma_antinumu_fullps",
+   "slug": "dsigma_antinumu_fullps",
+   "name": "\u03c3 (\\bar\\nu_\\mu full PS (NEUT-extrap.))",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu full PS (NEUT-extrap.))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "center": 0.0,
+     "val": 1.71,
+     "err": 0.29
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/t2k-2017bvo/antinumu_fullps.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1706.04257",
+   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (mass fractions H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O) \u00b7 single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV) \u00b7 primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters) \u00b7 transcribed from the paper",
+   "notes": "Single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV). Primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters). Transcribed from the paper."
+  },
+  {
+   "key": "dsigma_numu_fullps",
+   "slug": "dsigma_numu_fullps",
+   "name": "\u03c3 (\\nu_\\mu full PS (NEUT-extrap.))",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu full PS (NEUT-extrap.))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2/nucleon",
+   "yunit_tex": "$10^{-39}cm^2/nucleon$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "center": 0.0,
+     "val": 7.07,
+     "err": 1.2
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/t2k-2017bvo/numu_fullps.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1706.04257",
+   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (mass fractions H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O) \u00b7 single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV) \u00b7 primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters) \u00b7 transcribed from the paper",
+   "notes": "Single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV). Primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters). Transcribed from the paper."
+  }
+ ]
+}

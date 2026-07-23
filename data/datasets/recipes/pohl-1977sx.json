@@ -1,0 +1,28 @@
+{
+ "bibtag": "Pohl:1977sx",
+ "slug": "pohl-1977sx",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins122236",
+ "note": "",
+ "provenance": "Pohl:1977sx — Gargamelle heavy-liquid bubble chamber, ν-proton NC-elastic to CC ratio σ(ν p → ν p)/σ(ν n → μ⁻ p) at Q² 0.3–1.0 GeV², CERN PS ν beam, given both as observed and corrected for nuclear effects · dimensionless · from the HepData record",
+ "items": [
+  {
+   "slug": "observed",
+   "label": "observed",
+   "csv": "data/datasets/sources/pohl-1977sx/observed.csv",
+   "xlabel": "Q^2",
+   "xunit": "GeV^2",
+   "ylabel": "\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)",
+   "yunit": ""
+  },
+  {
+   "slug": "corrected",
+   "label": "nuclear-corrected",
+   "csv": "data/datasets/sources/pohl-1977sx/corrected.csv",
+   "xlabel": "Q^2",
+   "xunit": "GeV^2",
+   "ylabel": "\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)",
+   "yunit": ""
+  }
+ ]
+}

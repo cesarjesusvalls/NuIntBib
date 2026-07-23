@@ -1,0 +1,43 @@
+{
+ "bibtag": "K2K:2004qpv",
+ "slug": "k2k-2004qpv",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins657451",
+ "arxiv": "hep-ex/0408134",
+ "cite": "Phys.Lett.B 619 255",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_ncpi0_cc_ratio",
+   "slug": "dsigma_ncpi0_cc_ratio",
+   "name": "\u03c3(NC 1\u03c0^0)/\u03c3(CC) (NC 1\\pi^0 / CC)",
+   "name_tex": "$\\sigma(NC\\,1\\pi^0)/\\sigma(CC)\\ (NC 1\\pi^0 / CC)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(NC 1\u03c0^0)/\u03c3(CC)",
+   "ylabel_plot": "\u03c3(NC 1\u03c0^0)/\u03c3(CC)",
+   "ylabel_tex": "$\\sigma(NC\\,1\\pi^0)/\\sigma(CC)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 3.0,
+     "center": 1.5,
+     "val": 0.064,
+     "err": 0.00707107
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/k2k-2004qpv/ncpi0_cc_ratio.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins657451",
+   "provenance": "K2K:2004qpv \u2014 ratio of the NC single-\u03c0\u2070 production cross section to the total CC cross section on water/CH, K2K neutrino beam, mean E_\u03bd\u22481.3 GeV (0\u20133 GeV); for reference the total CC cross section is 1.1\u00d710\u207b\u00b3\u2078 cm\u00b2/nucleon averaged over the K2K beam \u00b7 dimensionless \u00b7 from the HepData record",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "bibtag": "T2K:2017bvo",
+ "slug": "t2k-2017bvo",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1706.04257",
+ "note": "",
+ "provenance": "T2K:2017bvo — numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (mass fractions H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O) · single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV) · primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters) · transcribed from the paper",
+ "items": [
+  {
+   "slug": "antinumu_restricted",
+   "label": "\\bar\\nu_\\mu restricted PS",
+   "csv": "data/datasets/sources/t2k-2017bvo/antinumu_restricted.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2/nucleon"
+  },
+  {
+   "slug": "numu_restricted",
+   "label": "\\nu_\\mu restricted PS",
+   "csv": "data/datasets/sources/t2k-2017bvo/numu_restricted.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2/nucleon"
+  },
+  {
+   "slug": "antinumu_fullps",
+   "label": "\\bar\\nu_\\mu full PS (NEUT-extrap.)",
+   "csv": "data/datasets/sources/t2k-2017bvo/antinumu_fullps.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2/nucleon"
+  },
+  {
+   "slug": "numu_fullps",
+   "label": "\\nu_\\mu full PS (NEUT-extrap.)",
+   "csv": "data/datasets/sources/t2k-2017bvo/numu_fullps.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2/nucleon"
+  }
+ ]
+}

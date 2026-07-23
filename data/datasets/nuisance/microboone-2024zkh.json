@@ -24,7 +24,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2402.19281",
-   "provenance": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
+   "provenance": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
    "nbins": 15,
    "is2d": false,
    "bins": [
@@ -150,7 +150,7 @@
      "hi_true": 0.8
     }
    ],
-   "notes": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
+   "notes": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
   },
   {
    "key": "dsigma_dEmu_Xp",
@@ -169,7 +169,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2402.19281",
-   "provenance": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
+   "provenance": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
    "nbins": 11,
    "is2d": false,
    "bins": [
@@ -263,7 +263,7 @@
      "hi_true": 2.506
     }
    ],
-   "notes": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
+   "notes": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
   },
   {
    "key": "dsigma_dcosthetamu_Xp",
@@ -282,7 +282,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2402.19281",
-   "provenance": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
+   "provenance": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
    "nbins": 17,
    "is2d": false,
    "bins": [
@@ -424,7 +424,7 @@
      "err": 0.05879185273212736
     }
    ],
-   "notes": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
+   "notes": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
   },
   {
    "key": "d2sigma_dcosthetamu_dEmu_0p",
@@ -443,7 +443,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2402.19281",
-   "provenance": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
+   "provenance": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
    "nbins": 55,
    "is2d": true,
    "bins": [],
@@ -978,7 +978,7 @@
      "scale_note": null
     }
    ],
-   "notes": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
+   "notes": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
   },
   {
    "key": "d2sigma_dcosthetamu_dEmu_Np",
@@ -997,7 +997,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2402.19281",
-   "provenance": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
+   "provenance": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
    "nbins": 69,
    "is2d": true,
    "bins": [],
@@ -1644,7 +1644,7 @@
      "scale_note": null
     }
    ],
-   "notes": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
+   "notes": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
   },
   {
    "key": "d2sigma_dcosthetamu_dEmu_Xp",
@@ -1663,7 +1663,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2402.19281",
-   "provenance": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
+   "provenance": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.",
    "nbins": 69,
    "is2d": true,
    "bins": [],
@@ -2310,7 +2310,7 @@
      "scale_note": null
     }
    ],
-   "notes": "Digitized from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
+   "notes": "Read from the paper's own machine-readable data release (anc/DataRelease/{xs.txt,real_bins.txt,cov.txt}, GlobalBin blocks 99-113 [Kp], 358-368 [Xp Emu], 369-385 [Xp costheta_mu], 138-192 [0p costheta_mu-Emu], 193-261 [Np costheta_mu-Emu], 386-454 [Xp costheta_mu-Emu]); values cross-checked against Tables I-V of the paper's own Supplemental Material PDF. Target = whole Ar nucleus (per-Ar, not per-nucleon). Other GlobalBin blocks in the same DataRelease (Enu, energy-transfer nu, Eavail, CosThetaP, Pmult, CosThetaP-Kp 2D, Xp triple-differential, and the 1D 0p/Np Emuon & costheta_mu) belong to the companion long-form paper Abratenko et al., Phys. Rev. D 110, 013006 (2024) [ref PRD in this paper's bibliography], NOT to this PRL (2402.19281), and were excluded.."
   }
  ],
  "covariance": {

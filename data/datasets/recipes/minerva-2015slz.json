@@ -4,7 +4,7 @@
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/1503.02107",
  "note": "",
- "provenance": "Digitized from LaTeX appendix tables (tab:xs-pimom, tab:xs-theta) in the arXiv e-print source of 1503.02107; no machine-readable data release or covariance matrix was found in anc/. Total error taken directly from the tot(%) column (verified consistent with sqrt(stat^2+sys^2)) applied to the central value.",
+ "provenance": "Transcribed from the LaTeX appendix tables (tab:xs-pimom, tab:xs-theta) in the arXiv e-print source of 1503.02107; no machine-readable data release or covariance matrix was found in anc/. Total error taken directly from the tot(%) column (verified consistent with sqrt(stat^2+sys^2)) applied to the central value.",
  "distributions": [
   {
    "kind": "1d",

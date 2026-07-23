@@ -24,7 +24,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1611.02224",
-   "provenance": "MINERvA:2016ymg -- values, absolute stat/syst/total uncertainties, and stat/flux/other-systematic covariance matrices taken from the LaTeX supplementary-material tables (Tables I-VII) in the arXiv source (anc e-print, supplement.tex); target is the MINERvA CH scintillator tracker with cross section reported per nucleon (paper Eq. 1), tagged CH per site convention. No machine-readable (CSV/ROOT) data release was found in anc/; digitized from the LaTeX tables directly (not the PDF).",
+   "provenance": "MINERvA:2016ymg -- values, absolute stat/syst/total uncertainties, and stat/flux/other-systematic covariance matrices taken from the LaTeX supplementary-material tables (Tables I-VII) in the arXiv source (anc e-print, supplement.tex); target is the MINERvA CH scintillator tracker with cross section reported per nucleon (paper Eq. 1), tagged CH per site convention. No machine-readable (CSV/ROOT) data release was found in anc/; transcribed from the LaTeX tables directly (not the PDF).",
    "nbins": 5,
    "is2d": false,
    "bins": [
@@ -88,7 +88,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1611.02224",
-   "provenance": "MINERvA:2016ymg -- values, absolute stat/syst/total uncertainties, and stat/flux/other-systematic covariance matrices taken from the LaTeX supplementary-material tables (Tables I-VII) in the arXiv source (anc e-print, supplement.tex); target is the MINERvA CH scintillator tracker with cross section reported per nucleon (paper Eq. 1), tagged CH per site convention. No machine-readable (CSV/ROOT) data release was found in anc/; digitized from the LaTeX tables directly (not the PDF).",
+   "provenance": "MINERvA:2016ymg -- values, absolute stat/syst/total uncertainties, and stat/flux/other-systematic covariance matrices taken from the LaTeX supplementary-material tables (Tables I-VII) in the arXiv source (anc e-print, supplement.tex); target is the MINERvA CH scintillator tracker with cross section reported per nucleon (paper Eq. 1), tagged CH per site convention. No machine-readable (CSV/ROOT) data release was found in anc/; transcribed from the LaTeX tables directly (not the PDF).",
    "nbins": 6,
    "is2d": false,
    "bins": [

@@ -1,0 +1,43 @@
+{
+ "bibtag": "T2K:2014vog",
+ "slug": "t2k-2014vog",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1403.3140",
+ "arxiv": "1403.3140",
+ "cite": "Phys.Rev.D 90 072012",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_ncqe_o",
+   "slug": "dsigma_ncqe_o",
+   "name": "\u03c3 (NC quasi-elastic on 16O)",
+   "name_tex": "$\\sigma\\ (NC quasi-elastic on 16O)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.2,
+     "hi": 1.5,
+     "center": 0.85,
+     "val": 1.55,
+     "err": 0.53
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/t2k-2014vog/ncqe_o_xsec.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1403.3140",
+   "provenance": "T2K:2014vog \u2014 first measurement of the neutrino-oxygen NCQE cross section at Super-Kamiokande via nuclear deexcitation gamma-rays \u00b7 signal: NC quasi-elastic (nucleon knockout) on 16O in the Super-K water target, per oxygen nucleus, T2K off-axis narrow-band beam (~93% numu), a single flux-averaged value at median E_nu 630 MeV \u00b7 sigma = 1.55 x10^-38 cm^2 with asymmetric 68% CI (1.20, 2.26) x10^-38 cm^2 (90% CI (0.96, 2.78)); err is the symmetric half-width 0.53 x10^-38 cm^2 \u00b7 transcribed from the paper",
+   "notes": "Signal: NC quasi-elastic (nucleon knockout) on 16O in the Super-K water target, per oxygen nucleus, T2K off-axis narrow-band beam (~93% numu), a single flux-averaged value at median E_nu 630 MeV. Sigma = 1.55 x10^-38 cm^2 with asymmetric 68% CI (1.20, 2.26) x10^-38 cm^2 (90% CI (0.96, 2.78)); err is the symmetric half-width 0.53 x10^-38 cm^2. Transcribed from the paper."
+  }
+ ]
+}

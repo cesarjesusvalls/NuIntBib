@@ -1,0 +1,19 @@
+{
+ "bibtag": "T2K:2015ujp",
+ "slug": "t2k-2015ujp",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1503.07452",
+ "note": "",
+ "provenance": "T2K:2015ujp — numu CCQE cross section per bound neutron on carbon, T2K INGRID on-axis Proton Module (scintillator CH; quoted per neutron) · flux-averaged CCQE at two mean neutrino energies, 0.93 GeV (low-energy region) and 1.94 GeV (high-energy region), combined one-track+two-track sample · MODEL-DEPENDENT: values are the T2K default relativistic Fermi gas (RFG) model (Table table_ccqe_result(a)); the paper also reports spectral-function and multi-nucleon (2p2h) variants that shift these values · CSV err = quadrature of stat and (upper) syst; exact asymmetric errors are 11.95 +/- 0.19(stat) +1.80/-1.49(syst) at 1.94 GeV and 10.64 +/- 0.37(stat) +2.03/-1.65(syst) at 0.93 GeV · transcribed from the paper",
+ "items": [
+  {
+   "slug": "ccqe_sigma_vs_e",
+   "label": "\\nu_\\mu CCQE (RFG)",
+   "csv": "data/datasets/sources/t2k-2015ujp/ccqe_sigma_vs_e.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma_{CCQE}",
+   "yunit": "10^{-39}cm^2/neutron"
+  }
+ ]
+}

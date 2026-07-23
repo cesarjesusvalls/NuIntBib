@@ -24,7 +24,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2410.10222",
-   "provenance": "Values digitized from LaTeX results tables (Appendix 'Results in Table Format', main.tex from arXiv e-print 2410.10222); target is per-nucleon (mixed NOvA scintillator/PVC composition: 67% C, 16% Cl, 11% H, 3% Ti, 3% O); total error column used directly (already combines stat+syst)",
+   "provenance": "Values transcribed from the LaTeX results tables (Appendix 'Results in Table Format', main.tex from arXiv e-print 2410.10222); target is per-nucleon (mixed NOvA scintillator/PVC composition: 67% C, 16% Cl, 11% H, 3% Ti, 3% O); total error column used directly (already combines stat+syst)",
    "nbins": 115,
    "is2d": true,
    "bins": [],
@@ -1080,7 +1080,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2410.10222",
-   "provenance": "Values digitized from LaTeX results tables (Appendix 'Results in Table Format', main.tex from arXiv e-print 2410.10222); target is per-nucleon (mixed NOvA scintillator/PVC composition: 67% C, 16% Cl, 11% H, 3% Ti, 3% O); total error column used directly (already combines stat+syst)",
+   "provenance": "Values transcribed from the LaTeX results tables (Appendix 'Results in Table Format', main.tex from arXiv e-print 2410.10222); target is per-nucleon (mixed NOvA scintillator/PVC composition: 67% C, 16% Cl, 11% H, 3% Ti, 3% O); total error column used directly (already combines stat+syst)",
    "nbins": 8,
    "is2d": false,
    "bins": [
@@ -1168,7 +1168,7 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2410.10222",
-   "provenance": "Values digitized from LaTeX results tables (Appendix 'Results in Table Format', main.tex from arXiv e-print 2410.10222); target is per-nucleon (mixed NOvA scintillator/PVC composition: 67% C, 16% Cl, 11% H, 3% Ti, 3% O); total error column used directly (already combines stat+syst)",
+   "provenance": "Values transcribed from the LaTeX results tables (Appendix 'Results in Table Format', main.tex from arXiv e-print 2410.10222); target is per-nucleon (mixed NOvA scintillator/PVC composition: 67% C, 16% Cl, 11% H, 3% Ti, 3% O); total error column used directly (already combines stat+syst)",
    "nbins": 10,
    "is2d": false,
    "bins": [
