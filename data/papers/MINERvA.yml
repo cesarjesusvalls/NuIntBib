@@ -53,6 +53,7 @@
   published_date: '2026-05-30'
   inspire_recid: 3164246
   release_status: digitize
+  release_note: Working to add a data release; we are in contact with the MINERvA collaboration.
   citation_count: 0
   abstract: 'Neutrino charged-current quasielastic-like scattering, a reaction category extensively used
     in neutrino oscillation measurements, receives contributions from single nucleon knockout processes,
@@ -135,6 +136,7 @@
   published_date: '2025-03-25'
   inspire_recid: 2904418
   release_status: digitize
+  release_note: Working to add a data release; we are in contact with the MINERvA collaboration.
   citation_count: 7
   abstract: This MINERvA analysis is the first neutrino and antineutrino study of a shallow inelastic
     scattering region, which is the transition region between resonant production and deep inelastic scattering
@@ -227,6 +229,7 @@
   published_date: '2023-12-27'
   inspire_recid: 2741241
   release_status: digitize
+  release_note: Working to add a data release; we are in contact with the MINERvA collaboration.
   citation_count: 12
   abstract: Accelerator based neutrino oscillation experiments seek to measure the relative number of
     electron and muon neutrinos and antineutrinos at different $L/E$ values. However high statistics studies
@@ -436,6 +439,7 @@
   published_date: '2023-01-05'
   inspire_recid: 2621204
   release_status: digitize
+  release_note: Working to add a data release; we are in contact with the MINERvA collaboration.
   citation_count: 26
   abstract: This paper presents the first simultaneous measurement of the quasielastic-like neutrino-nucleus
     cross sections on C, water, Fe, Pb and scintillator (hydrocarbon or CH) as a function of longitudinal
@@ -849,6 +853,7 @@
   inspire_recid: 1713807
   citation_count: 48
   release_status: digitize
+  release_note: Working to add a data release; we are in contact with the MINERvA collaboration.
   abstract: Charged-current anti-neutrino interactions on hydrocarbon scintillator in the MINERvA detector
     are used to study activity from their final-state neutrons. To ensure that most of the neutrons are
     from the primary interaction, rather than hadronic reinteractions in the detector, the sample is limited
