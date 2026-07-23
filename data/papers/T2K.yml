@@ -669,6 +669,7 @@
   published_date: '2017-04-24'
   inspire_recid: 1594905
   citation_count: 21
+  release_status: abstract
   abstract: The single $\pi^0$ production rate in neutral current neutrino interactions on water in a
     neutrino beam with a peak neutrino energy of 0.6 GeV has been measured using the P{\O}D, one of the
     subdetectors of the T2K near detector. The production rate was measured for data taking periods when
@@ -1112,6 +1113,7 @@
   published_date: '2015-03-30'
   inspire_recid: 1357001
   citation_count: 30
+  release_status: abstract
   abstract: This paper presents a measurement of the charged current interaction rate of the electron
     neutrino beam component of the beam above $1.5$~GeV using the large fiducial mass of the T2K $\pi^0$
     detector. The predominant poriton of the $\nu_e$ flux ($\sim$85 %) at these energies comes from kaon

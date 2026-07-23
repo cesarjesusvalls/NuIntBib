@@ -844,6 +844,7 @@
   published_date: '2019-01-15'
   inspire_recid: 1713807
   citation_count: 48
+  release_status: digitize
   abstract: Charged-current anti-neutrino interactions on hydrocarbon scintillator in the MINERvA detector
     are used to study activity from their final-state neutrons. To ensure that most of the neutrons are
     from the primary interaction, rather than hadronic reinteractions in the detector, the sample is limited

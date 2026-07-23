@@ -12,6 +12,7 @@
   published_date: '2022-03-15'
   inspire_recid: 2053499
   citation_count: 7
+  release_status: not_xsec
   abstract: This study conducted an analysis of muons, protons, and charged pions emitted from $\nu_{\mu}$
     charged-current interactions on iron using a nuclear emulsion detector. The emulsion detector with
     a 65$\,$kg iron target was exposed to a neutrino beam corresponding to 4.0$\times$10$^{19}$ protons
@@ -99,6 +100,7 @@
   published_date: '2020-08-10'
   inspire_recid: 1810893
   citation_count: 41
+  release_status: not_xsec
   abstract: This paper reports the track multiplicity and kinematics of muons, charged pions, and protons
     from charged-current inclusive $\bar{\nu}_{\mu}$ and $\nu_{\mu}$ interactions on a water target, measured
     using a nuclear emulsion detector in the NINJA experiment. A 3-kg water target was exposed to the
