@@ -19,7 +19,8 @@
 }
 .dr-sub {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1.05rem;   /* match the abstract (.text-panel p) + no-release note */
+  line-height: 1.75;
   margin: 0.3rem 0 1.1rem;
   max-width: none;
 }

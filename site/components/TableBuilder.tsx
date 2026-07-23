@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import { Icon } from '@/components/Icon';
 import { downloadText, fileSlug } from '@/lib/download';
+import { facetValueLabel } from '@/lib/labels';
 
 export type Cluster = 'interactions' | 'oscillations';
 type TBMeas = Record<string, unknown>;
@@ -141,9 +142,9 @@ const PAPER_COLS: Col[] = [
 const INT_MEAS_COLS: Col[] = [
   { id: 'current', label: 'Current', scope: 'meas', align: 'l', text: (r) => ss(r, 'current'), tex: (r) => texEscape(ss(r, 'current')) },
   { id: 'flavor', label: 'Flavour', scope: 'meas', align: 'l', text: (r) => sa(r, 'flavor').map(flavorLabel).join(', '), tex: (r) => sa(r, 'flavor').map(flavorTex).join(', ') },
-  { id: 'target', label: 'Target', scope: 'meas', align: 'l', text: (r) => sa(r, 'target').join(', '), tex: (r) => uni2tex(sa(r, 'target').join(', ')) },
-  { id: 'topology', label: 'Topology', scope: 'meas', align: 'l', text: (r) => ss(r, 'topology'), tex: (r) => uni2tex(ss(r, 'topology')) },
-  { id: 'measurement_type', label: 'Type', scope: 'meas', align: 'l', text: (r) => ss(r, 'measurement_type'), tex: (r) => texEscape(ss(r, 'measurement_type')) },
+  { id: 'target', label: 'Target', scope: 'meas', align: 'l', text: (r) => sa(r, 'target').map((t) => facetValueLabel('target', t)).join(', '), tex: (r) => uni2tex(sa(r, 'target').join(', ')) },
+  { id: 'topology', label: 'Topology', scope: 'meas', align: 'l', text: (r) => facetValueLabel('topology', ss(r, 'topology')), tex: (r) => uni2tex(ss(r, 'topology')) },
+  { id: 'measurement_type', label: 'Type', scope: 'meas', align: 'l', text: (r) => facetValueLabel('measurement_type', ss(r, 'measurement_type')), tex: (r) => texEscape(ss(r, 'measurement_type')) },
   { id: 'observables', label: 'Observable', scope: 'meas', align: 'l', text: (r) => ss(r, 'observables'), tex: (r) => uni2tex(ss(r, 'observables')) },
 ];
 
@@ -353,7 +354,7 @@ export function TableBuilder({
                 <option value={ALL}>{f.allLabel}</option>
                 {f.values.map((v) => (
                   <option key={v} value={v}>
-                    {f.key === 'flavor' ? flavorLabel(v) : v}
+                    {f.key === 'flavor' ? flavorLabel(v) : facetValueLabel(f.key, v)}
                   </option>
                 ))}
               </select>

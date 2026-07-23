@@ -6,6 +6,7 @@ import { CiteBlock } from '@/components/CiteBlock';
 import { Tex } from '@/components/Tex';
 import { stripTex } from '@/lib/tex';
 import { getAllPapers, getPaperBySlug, flavorTexSegment } from '@/lib/papers';
+import { facetValueLabel } from '@/lib/labels';
 import { getDataRelease } from '@/lib/datasets';
 import { DataRelease } from '@/components/DataRelease';
 import {
@@ -25,6 +26,8 @@ const RELEASE_STATUS_NOTE: Record<string, string> = {
     'The result is reported directly in the paper abstract and there is no cross-section measurement to release as data.',
   not_xsec:
     'This paper measures final-state observables rather than a neutrino cross section, so there is no cross-section measurement to release as data.',
+  digitize:
+    'No numeric data release is available — the results are published only as figures, so the values would need to be digitized from the plots.',
 };
 
 export function generateStaticParams() {
@@ -199,12 +202,14 @@ export default async function PaperDetailPage({ params }: PageProps) {
                         ) : null}
                         {m.target.map((t) => (
                           <span className="tag tag-target" key={t}>
-                            {t}
+                            {facetValueLabel('target', t)}
                           </span>
                         ))}
-                        {m.topology ? <span className="tag tag-topo">{m.topology}</span> : null}
+                        {m.topology ? (
+                          <span className="tag tag-topo">{facetValueLabel('topology', m.topology)}</span>
+                        ) : null}
                         {m.measurement_type ? (
-                          <span className="tag tag-type">{m.measurement_type}</span>
+                          <span className="tag tag-type">{facetValueLabel('measurement_type', m.measurement_type)}</span>
                         ) : null}
                         {/* observables descriptor intentionally not shown: it restates the
                             chips above and the data-release axes below */}

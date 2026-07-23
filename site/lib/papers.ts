@@ -260,6 +260,11 @@ export function flavorHtml(f: string): string {
   return texToHtml(flavorTexSegment(f));
 }
 
+// Prettify helpers for the measurement label codes live in the client-safe
+// lib/labels.ts (so client components can share them); re-exported here for the
+// server components that already import from '@/lib/papers'.
+export { capitalizeLabel, targetLabel, topologyLabel, facetValueLabel } from './labels';
+
 // Condensed target groupings for the timeline breakdown. Anything not listed
 // (Ge, CsI, CaCO3, rock, SiO2, …) falls into "Other".
 const MATERIAL_GROUPS: [string, string[]][] = [

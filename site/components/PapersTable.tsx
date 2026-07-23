@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Icon } from '@/components/Icon';
 import { downloadText, fileSlug } from '@/lib/download';
+import { facetValueLabel } from '@/lib/labels';
 
 export type PaperRow = {
   slug: string;
@@ -73,22 +74,22 @@ function defaultInteractionTags(r: PaperRow): ReactNode {
       )}
       {arr('target').map((t) => (
         <span className="tag tag-target" key={t}>
-          {t}
+          {facetValueLabel('target', t)}
         </span>
       ))}
       {arr('topology').map((t) => (
         <span className="tag tag-topo" key={t}>
-          {t}
+          {facetValueLabel('topology', t)}
         </span>
       ))}
       {arr('measurement_type').map((t) => (
         <span className="tag tag-type" key={t}>
-          {t}
+          {facetValueLabel('measurement_type', t)}
         </span>
       ))}
       {arr('dataset').length > 0 ? (
         <span className="tag tag-data" title="A downloadable data release is available">
-          dataset
+          Dataset
         </span>
       ) : null}
     </>
@@ -312,7 +313,7 @@ export function PapersTable({
                       ? facet.allLabel
                       : facet.key === 'flavor'
                         ? flavorLabel(value)
-                        : value;
+                        : facetValueLabel(facet.key, value);
                   const html = value === ALL ? undefined : facet.valueHtml?.[value];
                   const isActive = (active[facet.key] ?? ALL) === value;
                   const n = count(facet, value);
@@ -395,7 +396,7 @@ export function PapersTable({
                       ) : f.key === 'flavor' ? (
                         flavorLabel(value)
                       ) : (
-                        value
+                        facetValueLabel(f.key, value)
                       )}
                       <span className="challenge-x" aria-hidden="true">x</span>
                     </button>
