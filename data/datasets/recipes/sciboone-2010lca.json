@@ -1,0 +1,28 @@
+{
+ "bibtag": "SciBooNE:2010lca",
+ "slug": "sciboone-2010lca",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1005.0059",
+ "note": "",
+ "provenance": "SciBooNE:2010lca — NC coherent \\pi^0 production on carbon at mean E_\\nu 0.8 GeV · dimensionless ratios · transcribed from the abstract: sigma(NC coh pi0)/sigma(CC) = (1.16 +/- 0.24)e-2, and sigma(CC coh pi)/sigma(NC coh pi0) = 0.14 +0.30/-0.28 (err = larger side 0.30)",
+ "items": [
+  {
+   "slug": "nccohpi0_cc_ratio",
+   "label": "\\nu_\\mu C \\to \\nu_\\mu \\pi^0 C",
+   "csv": "data/datasets/sources/sciboone-2010lca/nccohpi0_cc_ratio.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(NC\\,coh\\,\\pi^0)/\\sigma(CC)",
+   "yunit": ""
+  },
+  {
+   "slug": "cccohpi_nccohpi0_ratio",
+   "label": "\\sigma_{CC\\,coh\\,\\pi}/\\sigma_{NC\\,coh\\,\\pi^0}",
+   "csv": "data/datasets/sources/sciboone-2010lca/cccohpi_nccohpi0_ratio.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(CC\\,coh\\,\\pi)/\\sigma(NC\\,coh\\,\\pi^0)",
+   "yunit": ""
+  }
+ ]
+}

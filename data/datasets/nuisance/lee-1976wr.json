@@ -1,0 +1,75 @@
+{
+ "bibtag": "Lee:1976wr",
+ "slug": "lee-1976wr",
+ "source": "published (Phys.Rev.Lett.)",
+ "source_url": "https://doi.org/10.1103/PhysRevLett.38.202",
+ "arxiv": null,
+ "cite": "Phys.Rev.Lett. 38 202",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_r0prime",
+   "slug": "dsigma_r0prime",
+   "name": "\u03c3(\u03bd Nto\u03bd N'\u03c0^0)/2\u03c3(\u03bd Nto\u03bc^- N''\u03c0^0) (\\nu_\\mu)",
+   "name_tex": "$\\sigma(\\nu N\\to\\nu N'\\pi^0)/2\\sigma(\\nu N\\to\\mu^- N''\\pi^0)\\ (\\nu_\\mu)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(\u03bd Nto\u03bd N'\u03c0^0)/2\u03c3(\u03bd Nto\u03bc^- N''\u03c0^0)",
+   "ylabel_plot": "\u03c3(\u03bd Nto\u03bd N'\u03c0^0)/2\u03c3(\u03bd Nto\u03bc^- N''\u03c0^0)",
+   "ylabel_tex": "$\\sigma(\\nu N\\to\\nu N'\\pi^0)/2\\sigma(\\nu N\\to\\mu^- N''\\pi^0)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "center": 1.0,
+     "val": 0.17,
+     "err": 0.04
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/lee-1976wr/r0prime.csv",
+   "scale_note": null,
+   "source": "published (Phys.Rev.Lett.)",
+   "source_url": "https://doi.org/10.1103/PhysRevLett.38.202",
+   "provenance": "BNL \u00b7 NC single-\u03c0^0 production ratios \u00b7 R0'=\u03c3(\u03bd_\u03bc N\u2192\u03bd_\u03bc N'\u03c0^0)/[2\u03c3(\u03bd_\u03bc N\u2192\u03bc^- N''\u03c0^0)]=0.17\u00b10.04 and R\u03040'=\u03c3(\u03bd\u0304_\u03bc N\u2192\u03bd\u0304_\u03bc N'\u03c0^0)/[2\u03c3(\u03bd\u0304_\u03bc N\u2192\u03bc^+ N''\u03c0^0)]=0.39\u00b10.18 \u00b7 dimensionless \u00b7 flux-averaged over the BNL wide-band beam (energy axis shows a nominal ~1 GeV beam energy) \u00b7 transcribed from the abstract",
+   "notes": "BNL. NC single-\u03c0^0 production ratios. R0'=\u03c3(\u03bd_\u03bc N\u2192\u03bd_\u03bc N'\u03c0^0)/[2\u03c3(\u03bd_\u03bc N\u2192\u03bc^- N''\u03c0^0)]=0.17\u00b10.04 and R\u03040'=\u03c3(\u03bd\u0304_\u03bc N\u2192\u03bd\u0304_\u03bc N'\u03c0^0)/[2\u03c3(\u03bd\u0304_\u03bc N\u2192\u03bc^+ N''\u03c0^0)]=0.39\u00b10.18. Flux-averaged over the BNL wide-band beam (energy axis shows a nominal ~1 GeV beam energy). Transcribed from the abstract."
+  },
+  {
+   "key": "dsigma_r0prime_bar",
+   "slug": "dsigma_r0prime_bar",
+   "name": "\u03c3(bar\u03bd Ntobar\u03bd N'\u03c0^0)/2\u03c3(bar\u03bd Nto\u03bc^+ N''\u03c0^0) (\\bar\\nu_\\mu)",
+   "name_tex": "$\\sigma(\\bar\\nu N\\to\\bar\\nu N'\\pi^0)/2\\sigma(\\bar\\nu N\\to\\mu^+ N''\\pi^0)\\ (\\bar\\nu_\\mu)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(bar\u03bd Ntobar\u03bd N'\u03c0^0)/2\u03c3(bar\u03bd Nto\u03bc^+ N''\u03c0^0)",
+   "ylabel_plot": "\u03c3(bar\u03bd Ntobar\u03bd N'\u03c0^0)/2\u03c3(bar\u03bd Nto\u03bc^+ N''\u03c0^0)",
+   "ylabel_tex": "$\\sigma(\\bar\\nu N\\to\\bar\\nu N'\\pi^0)/2\\sigma(\\bar\\nu N\\to\\mu^+ N''\\pi^0)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "center": 1.0,
+     "val": 0.39,
+     "err": 0.18
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/lee-1976wr/r0prime_bar.csv",
+   "scale_note": null,
+   "source": "published (Phys.Rev.Lett.)",
+   "source_url": "https://doi.org/10.1103/PhysRevLett.38.202",
+   "provenance": "BNL \u00b7 NC single-\u03c0^0 production ratios \u00b7 R0'=\u03c3(\u03bd_\u03bc N\u2192\u03bd_\u03bc N'\u03c0^0)/[2\u03c3(\u03bd_\u03bc N\u2192\u03bc^- N''\u03c0^0)]=0.17\u00b10.04 and R\u03040'=\u03c3(\u03bd\u0304_\u03bc N\u2192\u03bd\u0304_\u03bc N'\u03c0^0)/[2\u03c3(\u03bd\u0304_\u03bc N\u2192\u03bc^+ N''\u03c0^0)]=0.39\u00b10.18 \u00b7 dimensionless \u00b7 flux-averaged over the BNL wide-band beam (energy axis shows a nominal ~1 GeV beam energy) \u00b7 transcribed from the abstract",
+   "notes": "BNL. NC single-\u03c0^0 production ratios. R0'=\u03c3(\u03bd_\u03bc N\u2192\u03bd_\u03bc N'\u03c0^0)/[2\u03c3(\u03bd_\u03bc N\u2192\u03bc^- N''\u03c0^0)]=0.17\u00b10.04 and R\u03040'=\u03c3(\u03bd\u0304_\u03bc N\u2192\u03bd\u0304_\u03bc N'\u03c0^0)/[2\u03c3(\u03bd\u0304_\u03bc N\u2192\u03bc^+ N''\u03c0^0)]=0.39\u00b10.18. Flux-averaged over the BNL wide-band beam (energy axis shows a nominal ~1 GeV beam energy). Transcribed from the abstract."
+  }
+ ]
+}

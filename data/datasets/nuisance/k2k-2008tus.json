@@ -1,0 +1,43 @@
+{
+ "bibtag": "K2K:2008tus",
+ "slug": "k2k-2008tus",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/0805.0186",
+ "arxiv": "0805.0186",
+ "cite": "Phys.Rev.D 78 032003",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_cc1pip_ccqe_ratio",
+   "slug": "dsigma_cc1pip_ccqe_ratio",
+   "name": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE) (\\nu_\\mu C \\to \\mu^- \\pi^+ X)",
+   "name_tex": "$\\sigma(CC1\\pi^+)/\\sigma(CCQE)\\ (\\nu_\\mu C \\to \\mu^- \\pi^+ X)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE)",
+   "ylabel_plot": "\u03c3(CC1\u03c0^+)/\u03c3(CCQE)",
+   "ylabel_tex": "$\\sigma(CC1\\pi^+)/\\sigma(CCQE)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 0.734,
+     "err": 0.153
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/k2k-2008tus/cc1pip_ccqe_ratio.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/0805.0186",
+   "provenance": "K2K:2008tus \u2014 single charged-pion CC1\\pi^+ (resonance region, W<2 GeV/c^2) to CCQE cross-section ratio on carbon (SciBar) at mean E_\\nu 1.3 GeV \u00b7 dimensionless \u00b7 transcribed from the abstract: sigma(CC1pi+)/sigma(CCQE) = 0.734 +0.140/-0.153, stored err = larger (lower) side 0.153",
+   "notes": "Transcribed from the abstract: sigma(CC1pi+)/sigma(CCQE) = 0.734 +0.140/-0.153, stored err = larger (lower) side 0.153."
+  }
+ ]
+}

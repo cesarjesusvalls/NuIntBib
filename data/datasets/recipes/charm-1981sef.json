@@ -1,0 +1,33 @@
+{
+ "bibtag": "CHARM:1981sef",
+ "slug": "charm-1981sef",
+ "source": "published (Phys.Lett.B 109 (1982) 234)",
+ "source_url": "https://doi.org/10.1016/0370-2693(82)90479-8",
+ "note": "",
+ "provenance": "CHARM:1981sef — E-scaled differential cross section (1/E_nu) dsigma/dy for numu and numubar CC-inclusive (deep-inelastic) scattering on the CHARM marble (CaCO3) target, flux-averaged over E_nu = 30-200 GeV (CERN SPS narrow-band beam), corrected for resolution and acceptance · per nucleon (isoscalar) · values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y · DIGITIZED from Fig 1 (analytical plot-digitizer, manual pixel calibration, overlay-verified) · from the paper",
+ "items": [
+  {
+   "slug": "numu",
+   "label": "\\nu_\\mu N \\to \\mu^- X",
+   "csv": "data/datasets/sources/charm-1981sef/dsigdy_numu.csv",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "(1/E_\\nu)\\, d\\sigma/dy",
+   "yunit": "10^{-41}cm^2/GeV",
+   "digitization": {
+    "original": "/digitize/charm-1981sef/original.png",
+    "overlay": "/digitize/charm-1981sef/overlay.png",
+    "note": "Fig 1 of the paper (left); our extracted points overlaid (right) — red circles = numu (filled markers), blue squares = numubar (open markers); all 18 points matched, model curves and legend excluded. Axis calibration was done manually (the scan's plot box is not auto-detectable). Both series' digitized values are in the tables below."
+   }
+  },
+  {
+   "slug": "numubar",
+   "label": "\\bar\\nu_\\mu N \\to \\mu^+ X",
+   "csv": "data/datasets/sources/charm-1981sef/dsigdy_numubar.csv",
+   "xlabel": "y",
+   "xunit": "",
+   "ylabel": "(1/E_\\nu)\\, d\\sigma/dy",
+   "yunit": "10^{-41}cm^2/GeV"
+  }
+ ]
+}

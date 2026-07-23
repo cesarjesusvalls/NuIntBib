@@ -1,0 +1,43 @@
+{
+ "bibtag": "K2K:2010xeb",
+ "slug": "k2k-2010xeb",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1012.1794",
+ "arxiv": "1012.1794",
+ "cite": "Phys.Rev.D 83 054023",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_ccpi0_ccqe_ratio",
+   "slug": "dsigma_ccpi0_ccqe_ratio",
+   "name": "\u03c3(CC\u03c0^0)/\u03c3(CCQE) (\\nu_\\mu C_8H_8 \\to \\mu^- \\pi^0 X)",
+   "name_tex": "$\\sigma(CC\\pi^0)/\\sigma(CCQE)\\ (\\nu_\\mu C_8H_8 \\to \\mu^- \\pi^0 X)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3(CC\u03c0^0)/\u03c3(CCQE)",
+   "ylabel_plot": "\u03c3(CC\u03c0^0)/\u03c3(CCQE)",
+   "ylabel_tex": "$\\sigma(CC\\pi^0)/\\sigma(CCQE)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 0.426,
+     "err": 0.0474236
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/k2k-2010xeb/ccpi0_ccqe_ratio.csv",
+   "scale_note": null,
+   "source": "arXiv",
+   "source_url": "https://arxiv.org/abs/1012.1794",
+   "provenance": "K2K:2010xeb \u2014 inclusive CC\\pi^0 to CCQE cross-section ratio on C8H8 at mean E_\\nu 1.3 GeV (K2K near detector) \u00b7 dimensionless \u00b7 transcribed from the abstract: sigma(CCpi0)/sigma(CCQE) = 0.426 +/- 0.032(stat.) +/- 0.035(syst.), errors combined in quadrature",
+   "notes": "Transcribed from the abstract: sigma(CCpi0)/sigma(CCQE) = 0.426 +/- 0.032(stat.) +/- 0.035(syst.), errors combined in quadrature."
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "bibtag": "Faissner:1983ng",
+ "slug": "faissner-1983ng",
+ "source": "published (Phys.Lett.B 125 (1983) 230)",
+ "source_url": "https://doi.org/10.1016/0370-2693(83)91274-1",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 125 230",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_numu",
+   "slug": "dsigma_numu",
+   "name": "\u03c3_coh (\\nu)",
+   "name_tex": "$\\sigma_\\mathrm{coh}\\ (\\nu)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_coh",
+   "ylabel_plot": "\u03c3_coh",
+   "ylabel_tex": "$\\sigma_\\mathrm{coh}$",
+   "yunit": "10^{-40}cm^2/nucleus",
+   "yunit_tex": "$10^{-40}cm^2/nucleus$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 2.0,
+     "hi": 2.0,
+     "center": 2.0,
+     "val": 29.0,
+     "err": 10.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/faissner-1983ng/sigma_numu.csv",
+   "scale_note": null,
+   "source": "published (Phys.Lett.B 125 (1983) 230)",
+   "source_url": "https://doi.org/10.1016/0370-2693(83)91274-1",
+   "provenance": "Aachen-Padova spark chamber, CERN PS wide-band beam (<E_nu> ~ 2 GeV) \u00b7 NC coherent single-pi0 production off 27Al (nu/nubar A -> nu/nubar A pi0) \u00b7 per Al nucleus (coherent) \u00b7 flux-averaged single values: sigma(nu)=(29 +/- 10), sigma(nubar)=(25 +/- 7) x10^-40 cm^2/nucleus \u00b7 transcribed from the paper (not digitized)",
+   "notes": "Aachen-Padova spark chamber, CERN PS wide-band beam (<E_nu> ~ 2 GeV). NC coherent single-pi0 production off 27Al (nu/nubar A -> nu/nubar A pi0). Per Al nucleus (coherent). Flux-averaged single values: sigma(nu)=(29 +/- 10), sigma(nubar)=(25 +/- 7) x10^-40 cm^2/nucleus. Transcribed from the paper (not digitized)."
+  },
+  {
+   "key": "dsigma_numubar",
+   "slug": "dsigma_numubar",
+   "name": "\u03c3_coh (\\bar\\nu)",
+   "name_tex": "$\\sigma_\\mathrm{coh}\\ (\\bar\\nu)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3_coh",
+   "ylabel_plot": "\u03c3_coh",
+   "ylabel_tex": "$\\sigma_\\mathrm{coh}$",
+   "yunit": "10^{-40}cm^2/nucleus",
+   "yunit_tex": "$10^{-40}cm^2/nucleus$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 2.0,
+     "hi": 2.0,
+     "center": 2.0,
+     "val": 25.0,
+     "err": 7.0
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/faissner-1983ng/sigma_numubar.csv",
+   "scale_note": null,
+   "source": "published (Phys.Lett.B 125 (1983) 230)",
+   "source_url": "https://doi.org/10.1016/0370-2693(83)91274-1",
+   "provenance": "Aachen-Padova spark chamber, CERN PS wide-band beam (<E_nu> ~ 2 GeV) \u00b7 NC coherent single-pi0 production off 27Al (nu/nubar A -> nu/nubar A pi0) \u00b7 per Al nucleus (coherent) \u00b7 flux-averaged single values: sigma(nu)=(29 +/- 10), sigma(nubar)=(25 +/- 7) x10^-40 cm^2/nucleus \u00b7 transcribed from the paper (not digitized)",
+   "notes": "Aachen-Padova spark chamber, CERN PS wide-band beam (<E_nu> ~ 2 GeV). NC coherent single-pi0 production off 27Al (nu/nubar A -> nu/nubar A pi0). Per Al nucleus (coherent). Flux-averaged single values: sigma(nu)=(29 +/- 10), sigma(nubar)=(25 +/- 7) x10^-40 cm^2/nucleus. Transcribed from the paper (not digitized)."
+  }
+ ]
+}

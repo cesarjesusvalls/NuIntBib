@@ -1104,6 +1104,8 @@ def build_csv_simple(spec):
             'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
             'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
         })
+        if it.get('digitization'):        # figure-digitized: original + overlay validation images
+            dists[-1]['digitization'] = it['digitization']
     # optional release covariance: a full NxN matrix (absolute cross-section units^2) whose row/col
     # order is the concatenation of the items' bins in item order.
     if spec.get('cov') and dists:
@@ -2379,6 +2381,40 @@ REGISTRY = [
              'provenance': 'T2K WAGASCI-INGRID CC0pi0p H2O/CH cross-section ratio '
                            '(Zenodo 10.5281/zenodo.7065210, arXiv:2004.13989) · stat+syst '
                            '(asymmetric) added in quadrature · nothing digitized'}}]},
+    # CHORUS Z/A dependence: relative total CC-inclusive cross sections on 4 targets
+    # (categorical x-axis = target material), plus the ratio to isoscalar marble.
+    # Transcribed from the paper (not digitized). Two categorical distributions.
+    {'bibtag': 'CHORUS:2003qcm', 'slug': 'chorus-2003qcm', 'source': 'published (Eur.Phys.J.C 30 (2003) 159)',
+     'note': '',
+     'sources': [
+         {'values': {
+             'key': 'sigC', 'ylabel': r'\sigma^A(\nu N)/C', 'yunit': r'10^{-27}cm^2/nucleon',
+             'items': [{'points': [
+                 {'cat': r'\mathrm{(CH_2)_n}', 'val': 6.39, 'err': 0.274},
+                 {'cat': r'\mathrm{CaCO_3}', 'val': 6.54, 'err': 0.267},
+                 {'cat': r'\mathrm{Fe}', 'val': 6.74, 'err': 0.288},
+                 {'cat': r'\mathrm{Pb}', 'val': 6.97, 'err': 0.262}]}],
+             'source': 'published (Eur.Phys.J.C 30 (2003) 159)',
+             'source_url': 'https://doi.org/10.1140/epjc/s2003-01292-3',
+             'provenance': 'CHORUS CERN-SPS wide-band beam · numu CC-inclusive total cross '
+                           'section (relative, normalized by a constant C) on 4 targets: '
+                           'Polyethylene (CH2)n / Marble (CaCO3) / Iron / Lead · per nucleon · '
+                           'combined error = quadrature(stat, subtraction, syst) · transcribed '
+                           'from the paper (not digitized)'}},
+         {'values': {
+             'key': 'ratio', 'ylabel': r'\sigma^A/\sigma^{marble}', 'yunit': '',
+             'items': [{'points': [
+                 {'cat': r'\mathrm{(CH_2)_n}', 'val': 0.977, 'err': 0.0218},
+                 {'cat': r'\mathrm{CaCO_3}', 'val': 1.000, 'err': 0.0},
+                 {'cat': r'\mathrm{Fe}', 'val': 1.031, 'err': 0.0231},
+                 {'cat': r'\mathrm{Pb}', 'val': 1.066, 'err': 0.0234}]}],
+             'source': 'published (Eur.Phys.J.C 30 (2003) 159)',
+             'source_url': 'https://doi.org/10.1140/epjc/s2003-01292-3',
+             'provenance': 'CHORUS CERN-SPS wide-band beam · numu CC-inclusive total cross '
+                           'section ratio sigma^A/sigma^marble on 4 targets: Polyethylene '
+                           '(CH2)n / Marble (CaCO3) / Iron / Lead, relative to the isoscalar '
+                           'marble reference (CaCO3 = 1.000) · combined error = quadrature('
+                           'stat, syst) · transcribed from the paper (not digitized)'}}]},
 ]
 
 

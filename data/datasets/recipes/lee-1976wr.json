@@ -1,0 +1,28 @@
+{
+ "bibtag": "Lee:1976wr",
+ "slug": "lee-1976wr",
+ "source": "published (Phys.Rev.Lett.)",
+ "source_url": "https://doi.org/10.1103/PhysRevLett.38.202",
+ "note": "",
+ "provenance": "BNL · NC single-π^0 production ratios · R0'=σ(ν_μ N→ν_μ N'π^0)/[2σ(ν_μ N→μ^- N''π^0)]=0.17±0.04 and R̄0'=σ(ν̄_μ N→ν̄_μ N'π^0)/[2σ(ν̄_μ N→μ^+ N''π^0)]=0.39±0.18 · dimensionless · flux-averaged over the BNL wide-band beam (energy axis shows a nominal ~1 GeV beam energy) · transcribed from the abstract",
+ "items": [
+  {
+   "slug": "r0prime",
+   "label": "\\nu_\\mu",
+   "csv": "data/datasets/sources/lee-1976wr/r0prime.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(\\nu N\\to\\nu N'\\pi^0)/2\\sigma(\\nu N\\to\\mu^- N''\\pi^0)",
+   "yunit": ""
+  },
+  {
+   "slug": "r0prime_bar",
+   "label": "\\bar\\nu_\\mu",
+   "csv": "data/datasets/sources/lee-1976wr/r0prime_bar.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(\\bar\\nu N\\to\\bar\\nu N'\\pi^0)/2\\sigma(\\bar\\nu N\\to\\mu^+ N''\\pi^0)",
+   "yunit": ""
+  }
+ ]
+}

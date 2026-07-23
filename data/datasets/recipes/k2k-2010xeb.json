@@ -1,0 +1,19 @@
+{
+ "bibtag": "K2K:2010xeb",
+ "slug": "k2k-2010xeb",
+ "source": "arXiv",
+ "source_url": "https://arxiv.org/abs/1012.1794",
+ "note": "",
+ "provenance": "K2K:2010xeb — inclusive CC\\pi^0 to CCQE cross-section ratio on C8H8 at mean E_\\nu 1.3 GeV (K2K near detector) · dimensionless · transcribed from the abstract: sigma(CCpi0)/sigma(CCQE) = 0.426 +/- 0.032(stat.) +/- 0.035(syst.), errors combined in quadrature",
+ "items": [
+  {
+   "slug": "ccpi0_ccqe_ratio",
+   "label": "\\nu_\\mu C_8H_8 \\to \\mu^- \\pi^0 X",
+   "csv": "data/datasets/sources/k2k-2010xeb/ccpi0_ccqe_ratio.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma(CC\\pi^0)/\\sigma(CCQE)",
+   "yunit": ""
+  }
+ ]
+}

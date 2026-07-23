@@ -1,0 +1,208 @@
+{
+ "bibtag": "CHARM:1981sef",
+ "slug": "charm-1981sef",
+ "source": "published (Phys.Lett.B 109 (1982) 234)",
+ "source_url": "https://doi.org/10.1016/0370-2693(82)90479-8",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 109 133",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_numu",
+   "slug": "dsigma_numu",
+   "name": "(1/E_\u03bd)  d\u03c3/dy (\\nu_\\mu N \\to \\mu^- X)",
+   "name_tex": "$(1/E_\\nu)\\, d\\sigma/dy\\ (\\nu_\\mu N \\to \\mu^- X)$",
+   "xlabel": "y",
+   "xunit": "",
+   "xlabel_tex": "$y$",
+   "ylabel": "(1/E_\u03bd)  d\u03c3/dy",
+   "ylabel_plot": "(1/E_\u03bd)  d\u03c3/dy",
+   "ylabel_tex": "$(1/E_\\nu)\\, d\\sigma/dy$",
+   "yunit": "10^{-41}cm^2/GeV",
+   "yunit_tex": "$10^{-41}cm^2/GeV$",
+   "nbins": 9,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 597.6,
+     "err": 38.9
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 617.3,
+     "err": 24.2
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 605.9,
+     "err": 24.2
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 589.3,
+     "err": 23.0
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 571.4,
+     "err": 22.3
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 567.6,
+     "err": 25.5
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 600.8,
+     "err": 25.5
+    },
+    {
+     "i": 7,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 617.3,
+     "err": 25.5
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 582.9,
+     "err": 26.8
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-1981sef/dsigdy_numu.csv",
+   "scale_note": null,
+   "source": "published (Phys.Lett.B 109 (1982) 234)",
+   "source_url": "https://doi.org/10.1016/0370-2693(82)90479-8",
+   "provenance": "CHARM:1981sef \u2014 E-scaled differential cross section (1/E_nu) dsigma/dy for numu and numubar CC-inclusive (deep-inelastic) scattering on the CHARM marble (CaCO3) target, flux-averaged over E_nu = 30-200 GeV (CERN SPS narrow-band beam), corrected for resolution and acceptance \u00b7 per nucleon (isoscalar) \u00b7 values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y \u00b7 DIGITIZED from Fig 1 (analytical plot-digitizer, manual pixel calibration, overlay-verified) \u00b7 from the paper",
+   "digitization": {
+    "original": "/digitize/charm-1981sef/original.png",
+    "overlay": "/digitize/charm-1981sef/overlay.png",
+    "note": "Fig 1 of the paper (left); our extracted points overlaid (right) \u2014 red circles = numu (filled markers), blue squares = numubar (open markers); all 18 points matched, model curves and legend excluded. Axis calibration was done manually (the scan's plot box is not auto-detectable). Both series' digitized values are in the tables below."
+   },
+   "notes": "Per nucleon (isoscalar). Values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y. DIGITIZED from Fig 1 (analytical plot-digitizer, manual pixel calibration, overlay-verified). From the paper."
+  },
+  {
+   "key": "dsigma_numubar",
+   "slug": "dsigma_numubar",
+   "name": "(1/E_\u03bd)  d\u03c3/dy (\\bar\\nu_\\mu N \\to \\mu^+ X)",
+   "name_tex": "$(1/E_\\nu)\\, d\\sigma/dy\\ (\\bar\\nu_\\mu N \\to \\mu^+ X)$",
+   "xlabel": "y",
+   "xunit": "",
+   "xlabel_tex": "$y$",
+   "ylabel": "(1/E_\u03bd)  d\u03c3/dy",
+   "ylabel_plot": "(1/E_\u03bd)  d\u03c3/dy",
+   "ylabel_tex": "$(1/E_\\nu)\\, d\\sigma/dy$",
+   "yunit": "10^{-41}cm^2/GeV",
+   "yunit_tex": "$10^{-41}cm^2/GeV$",
+   "nbins": 9,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 0.1,
+     "center": 0.05,
+     "val": 633.9,
+     "err": 52.3
+    },
+    {
+     "i": 1,
+     "lo": 0.1,
+     "hi": 0.2,
+     "center": 0.15000000000000002,
+     "val": 507.7,
+     "err": 21.0
+    },
+    {
+     "i": 2,
+     "lo": 0.2,
+     "hi": 0.3,
+     "center": 0.25,
+     "val": 443.9,
+     "err": 17.9
+    },
+    {
+     "i": 3,
+     "lo": 0.3,
+     "hi": 0.4,
+     "center": 0.35,
+     "val": 362.2,
+     "err": 8.9
+    },
+    {
+     "i": 4,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 275.5,
+     "err": 15.3
+    },
+    {
+     "i": 5,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 236.0,
+     "err": 15.9
+    },
+    {
+     "i": 6,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 193.9,
+     "err": 17.2
+    },
+    {
+     "i": 7,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 135.2,
+     "err": 12.1
+    },
+    {
+     "i": 8,
+     "lo": 0.8,
+     "hi": 1.0,
+     "center": 0.9,
+     "val": 116.1,
+     "err": 12.1
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/charm-1981sef/dsigdy_numubar.csv",
+   "scale_note": null,
+   "source": "published (Phys.Lett.B 109 (1982) 234)",
+   "source_url": "https://doi.org/10.1016/0370-2693(82)90479-8",
+   "provenance": "CHARM:1981sef \u2014 E-scaled differential cross section (1/E_nu) dsigma/dy for numu and numubar CC-inclusive (deep-inelastic) scattering on the CHARM marble (CaCO3) target, flux-averaged over E_nu = 30-200 GeV (CERN SPS narrow-band beam), corrected for resolution and acceptance \u00b7 per nucleon (isoscalar) \u00b7 values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y \u00b7 DIGITIZED from Fig 1 (analytical plot-digitizer, manual pixel calibration, overlay-verified) \u00b7 from the paper",
+   "notes": "Per nucleon (isoscalar). Values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y. DIGITIZED from Fig 1 (analytical plot-digitizer, manual pixel calibration, overlay-verified). From the paper."
+  }
+ ]
+}
