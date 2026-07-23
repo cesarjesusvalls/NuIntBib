@@ -1,0 +1,42 @@
+{
+ "bibtag": "Bolognese:1979gf",
+ "slug": "bolognese-1979gf",
+ "source": "published (Phys.Lett.B 81 (1979) 393)",
+ "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
+ "note": "",
+ "provenance": "Bolognese:1979gf — total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
+ "items": [
+  {
+   "slug": "numubar_pim_n_nocut",
+   "label": "\\bar\\nu_\\mu n \\to \\mu^+ \\pi^- n",
+   "csv": "data/datasets/sources/bolognese-1979gf/fig2a.csv",
+   "xlabel": "E_{\\bar\\nu}", "xunit": "GeV", "ylabel": "\\sigma", "yunit": "10^{-39}cm^2",
+   "digitization": {"original": "/digitize/bolognese-1979gf/fig2.png", "overlay": "/digitize/bolognese-1979gf/fig2a_overlay.png",
+     "note": "Fig 2(a): total sigma(E) for the exclusive channel, no invariant-mass cut. Deskewed panel with our 6 extracted points + error bars overlaid; model curves excluded."}
+  },
+  {
+   "slug": "numubar_pim_n_wcut",
+   "label": "\\bar\\nu_\\mu n \\to \\mu^+ \\pi^- n \\ (W \\le 1.4)",
+   "csv": "data/datasets/sources/bolognese-1979gf/fig2b.csv",
+   "xlabel": "E_{\\bar\\nu}", "xunit": "GeV", "ylabel": "\\sigma", "yunit": "10^{-39}cm^2",
+   "digitization": {"original": "/digitize/bolognese-1979gf/fig2.png", "overlay": "/digitize/bolognese-1979gf/fig2b_overlay.png",
+     "note": "Fig 2(b): same channel with the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. Deskewed panel with our 5 extracted points overlaid."}
+  },
+  {
+   "slug": "pim_excl_nocut",
+   "label": "\\pi^- \\ \\mathrm{exclusive} \\ (N = n,p)",
+   "csv": "data/datasets/sources/bolognese-1979gf/fig3a.csv",
+   "xlabel": "E_{\\bar\\nu}", "xunit": "GeV", "ylabel": "\\sigma", "yunit": "10^{-39}cm^2",
+   "digitization": {"original": "/digitize/bolognese-1979gf/fig3.png", "overlay": "/digitize/bolognese-1979gf/fig3a_overlay.png",
+     "note": "Fig 3(a): total sigma(E) for inclusive pi^- exclusive production, no cut. Deskewed panel with our 6 extracted points overlaid; model curves excluded."}
+  },
+  {
+   "slug": "pim_excl_wcut",
+   "label": "\\pi^- \\ \\mathrm{exclusive} \\ (W \\le 1.4)",
+   "csv": "data/datasets/sources/bolognese-1979gf/fig3b.csv",
+   "xlabel": "E_{\\bar\\nu}", "xunit": "GeV", "ylabel": "\\sigma", "yunit": "10^{-39}cm^2",
+   "digitization": {"original": "/digitize/bolognese-1979gf/fig3.png", "overlay": "/digitize/bolognese-1979gf/fig3b_overlay.png",
+     "note": "Fig 3(b): same with the cut W_{piN} <= 1.4 GeV/c^2. Deskewed panel with our 5 extracted points overlaid."}
+  }
+ ]
+}

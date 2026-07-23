@@ -1,0 +1,24 @@
+{
+ "bibtag": "Armenise:1979zg",
+ "slug": "armenise-1979zg",
+ "source": "published (Nucl.Phys.B 152 (1979) 365)",
+ "source_url": "https://doi.org/10.1016/0550-3213(79)90087-7",
+ "note": "",
+ "provenance": "Armenise:1979zg — total cross section for charged-current quasi-elastic anti-neutrino scattering (\\bar\\nu_\\mu p \\to \\mu^+ n) versus anti-neutrino energy, Gargamelle propane (C3H8) exposure at the CERN PS · target C3H8 (per the paper) · DIGITIZED from Fig 4 (analytical plot-digitizer; scan deskewed +0.55 deg to remove tilt, then axis-aligned calibration; overlay-verified) · the M_A=0.84 theory curve is excluded · from the paper",
+ "items": [
+  {
+   "slug": "sigma_enu",
+   "label": "\\bar\\nu_\\mu p \\to \\mu^+ n",
+   "csv": "data/datasets/sources/armenise-1979zg/sigma_enu.csv",
+   "xlabel": "E_{\\bar\\nu}",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2",
+   "digitization": {
+    "original": "/digitize/armenise-1979zg/original.png",
+    "overlay": "/digitize/armenise-1979zg/overlay.png",
+    "note": "Fig 4 of the paper, deskewed +0.55 deg to remove scan tilt (left); our 11 extracted points (green) with vertical error bars (red) overlaid (right). The M_A=0.84 theory curve and text were excluded; markers land on the printed dots uniformly across the plot."
+   }
+  }
+ ]
+}

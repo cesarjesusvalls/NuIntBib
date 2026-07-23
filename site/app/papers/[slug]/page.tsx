@@ -5,8 +5,8 @@ import { Icon } from '@/components/Icon';
 import { CiteBlock } from '@/components/CiteBlock';
 import { Tex } from '@/components/Tex';
 import { stripTex } from '@/lib/tex';
-import { getAllPapers, getPaperBySlug, flavorTexSegment } from '@/lib/papers';
-import { facetValueLabel } from '@/lib/labels';
+import { getAllPapers, getPaperBySlug, flavorHtml, paperFacetValues } from '@/lib/papers';
+import { MeasurementTags } from '@/components/MeasurementTags';
 import { getDataRelease } from '@/lib/datasets';
 import { DataRelease } from '@/components/DataRelease';
 import {
@@ -188,33 +188,32 @@ export default async function PaperDetailPage({ params }: PageProps) {
                         ) : null}
                       </div>
                     ))
-                  : intPaper!.measurements.map((m, i) => (
-                      <div className="paper-meta" key={i}>
-                        <span className={`tag tag-${m.current.toLowerCase()}`}>{m.current}</span>
-                        {m.flavor.length ? (
-                          m.flavor.map((f) => (
-                            <span className="tag tag-flavor" key={f}>
-                              <Tex text={flavorTexSegment(f)} />
-                            </span>
-                          ))
-                        ) : m.flavor_note ? (
-                          <span className="tag tag-flavor">{m.flavor_note}</span>
-                        ) : null}
-                        {m.target.map((t) => (
-                          <span className="tag tag-target" key={t}>
-                            {facetValueLabel('target', t)}
-                          </span>
-                        ))}
-                        {m.topology ? (
-                          <span className="tag tag-topo">{facetValueLabel('topology', m.topology)}</span>
-                        ) : null}
-                        {m.measurement_type ? (
-                          <span className="tag tag-type">{facetValueLabel('measurement_type', m.measurement_type)}</span>
-                        ) : null}
-                        {/* observables descriptor intentionally not shown: it restates the
-                            chips above and the data-release axes below */}
-                      </div>
-                    ))}
+                  : (() => {
+                      // Deduplicated union of every measurement's labels — identical
+                      // aggregation + markup to the papers-table row (MeasurementTags),
+                      // so a paper with N channels (e.g. GargamelleNeutrinoPropane's
+                      // three NC1pi topologies) shows each chip ONCE, not once per row.
+                      const f = paperFacetValues(intPaper!);
+                      const flavorNotes = Array.from(
+                        new Set(
+                          intPaper!.measurements
+                            .filter((m) => !m.flavor.length && m.flavor_note)
+                            .map((m) => m.flavor_note as string),
+                        ),
+                      );
+                      return (
+                        <div className="paper-meta">
+                          <MeasurementTags
+                            current={f.current}
+                            flavorHtml={f.flavor.map((fl) => flavorHtml(fl))}
+                            flavorText={f.flavor.length ? [] : flavorNotes}
+                            target={f.target}
+                            topology={f.topology}
+                            measurementType={f.measurement_type}
+                          />
+                        </div>
+                      );
+                    })()}
               </div>
             </div>
 

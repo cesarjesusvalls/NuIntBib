@@ -1,0 +1,307 @@
+{
+ "bibtag": "Bolognese:1979gf",
+ "slug": "bolognese-1979gf",
+ "source": "published (Phys.Lett.B 81 (1979) 393)",
+ "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 81 393",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_numubar_pim_n_nocut",
+   "slug": "dsigma_numubar_pim_n_nocut",
+   "name": "\u03c3 (\\bar\\nu_\\mu n \\to \\mu^+ \\pi^- n)",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu n \\to \\mu^+ \\pi^- n)$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2",
+   "yunit_tex": "$10^{-39}cm^2$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.012,
+     "hi": 1.51,
+     "center": 1.2610000000000001,
+     "val": 1.39,
+     "err": 0.458
+    },
+    {
+     "i": 1,
+     "lo": 1.502,
+     "hi": 1.983,
+     "center": 1.7425000000000002,
+     "val": 2.39,
+     "err": 0.561
+    },
+    {
+     "i": 2,
+     "lo": 2.017,
+     "hi": 2.507,
+     "center": 2.262,
+     "val": 2.606,
+     "err": 0.596
+    },
+    {
+     "i": 3,
+     "lo": 2.507,
+     "hi": 2.996,
+     "center": 2.7515,
+     "val": 2.993,
+     "err": 0.704
+    },
+    {
+     "i": 4,
+     "lo": 2.988,
+     "hi": 3.975,
+     "center": 3.4815,
+     "val": 4.399,
+     "err": 0.993
+    },
+    {
+     "i": 5,
+     "lo": 4.001,
+     "hi": 4.495,
+     "center": 4.248,
+     "val": 5.281,
+     "err": 1.2,
+     "hi_true": 7.48
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/bolognese-1979gf/fig2a.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Phys.Lett.B 81 (1979) 393)",
+   "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
+   "provenance": "Bolognese:1979gf \u2014 total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
+   "digitization": {
+    "original": "/digitize/bolognese-1979gf/fig2.png",
+    "overlay": "/digitize/bolognese-1979gf/fig2a_overlay.png",
+    "note": "Fig 2(a): total sigma(E) for the exclusive channel, no invariant-mass cut. Deskewed panel with our 6 extracted points + error bars overlaid; model curves excluded."
+   },
+   "notes": ""
+  },
+  {
+   "key": "dsigma_numubar_pim_n_wcut",
+   "slug": "dsigma_numubar_pim_n_wcut",
+   "name": "\u03c3 (\\bar\\nu_\\mu n \\to \\mu^+ \\pi^- n \\ (W \\le 1.4))",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu n \\to \\mu^+ \\pi^- n \\ (W \\le 1.4))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2",
+   "yunit_tex": "$10^{-39}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.023,
+     "hi": 1.504,
+     "center": 1.2635,
+     "val": 1.183,
+     "err": 0.37
+    },
+    {
+     "i": 1,
+     "lo": 1.529,
+     "hi": 2.01,
+     "center": 1.7694999999999999,
+     "val": 1.977,
+     "err": 0.512
+    },
+    {
+     "i": 2,
+     "lo": 2.036,
+     "hi": 2.508,
+     "center": 2.2720000000000002,
+     "val": 1.835,
+     "err": 0.4
+    },
+    {
+     "i": 3,
+     "lo": 2.534,
+     "hi": 3.496,
+     "center": 3.0149999999999997,
+     "val": 1.789,
+     "err": 0.413
+    },
+    {
+     "i": 4,
+     "lo": 3.548,
+     "hi": 4.029,
+     "center": 3.7885,
+     "val": 2.636,
+     "err": 0.696,
+     "hi_true": 7.473
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/bolognese-1979gf/fig2b.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Phys.Lett.B 81 (1979) 393)",
+   "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
+   "provenance": "Bolognese:1979gf \u2014 total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
+   "digitization": {
+    "original": "/digitize/bolognese-1979gf/fig2.png",
+    "overlay": "/digitize/bolognese-1979gf/fig2b_overlay.png",
+    "note": "Fig 2(b): same channel with the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. Deskewed panel with our 5 extracted points overlaid."
+   },
+   "notes": ""
+  },
+  {
+   "key": "dsigma_pim_excl_nocut",
+   "slug": "dsigma_pim_excl_nocut",
+   "name": "\u03c3 (\\pi^- \\ \\mathrm{exclusive} \\ (N = n,p))",
+   "name_tex": "$\\sigma\\ (\\pi^- \\ \\mathrm{exclusive} \\ (N = n,p))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2",
+   "yunit_tex": "$10^{-39}cm^2$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.02,
+     "hi": 1.484,
+     "center": 1.252,
+     "val": 0.911,
+     "err": 0.345
+    },
+    {
+     "i": 1,
+     "lo": 1.501,
+     "hi": 1.991,
+     "center": 1.746,
+     "val": 1.507,
+     "err": 0.479
+    },
+    {
+     "i": 2,
+     "lo": 2.017,
+     "hi": 2.48,
+     "center": 2.2485,
+     "val": 1.613,
+     "err": 0.453
+    },
+    {
+     "i": 3,
+     "lo": 2.498,
+     "hi": 2.979,
+     "center": 2.7385,
+     "val": 2.116,
+     "err": 0.427
+    },
+    {
+     "i": 4,
+     "lo": 2.987,
+     "hi": 4.009,
+     "center": 3.498,
+     "val": 2.614,
+     "err": 0.703
+    },
+    {
+     "i": 5,
+     "lo": 4.018,
+     "hi": 4.5035,
+     "center": 4.26075,
+     "val": 3.104,
+     "err": 1.009,
+     "hi_true": 7.428
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/bolognese-1979gf/fig3a.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Phys.Lett.B 81 (1979) 393)",
+   "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
+   "provenance": "Bolognese:1979gf \u2014 total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
+   "digitization": {
+    "original": "/digitize/bolognese-1979gf/fig3.png",
+    "overlay": "/digitize/bolognese-1979gf/fig3a_overlay.png",
+    "note": "Fig 3(a): total sigma(E) for inclusive pi^- exclusive production, no cut. Deskewed panel with our 6 extracted points overlaid; model curves excluded."
+   },
+   "notes": ""
+  },
+  {
+   "key": "dsigma_pim_excl_wcut",
+   "slug": "dsigma_pim_excl_wcut",
+   "name": "\u03c3 (\\pi^- \\ \\mathrm{exclusive} \\ (W \\le 1.4))",
+   "name_tex": "$\\sigma\\ (\\pi^- \\ \\mathrm{exclusive} \\ (W \\le 1.4))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}cm^2",
+   "yunit_tex": "$10^{-39}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.024,
+     "hi": 1.496,
+     "center": 1.26,
+     "val": 0.745,
+     "err": 0.291
+    },
+    {
+     "i": 1,
+     "lo": 1.521,
+     "hi": 2.01,
+     "center": 1.7654999999999998,
+     "val": 1.291,
+     "err": 0.4
+    },
+    {
+     "i": 2,
+     "lo": 2.027,
+     "hi": 2.515,
+     "center": 2.271,
+     "val": 1.063,
+     "err": 0.304
+    },
+    {
+     "i": 3,
+     "lo": 2.524,
+     "hi": 3.509,
+     "center": 3.0164999999999997,
+     "val": 1.285,
+     "err": 0.395
+    },
+    {
+     "i": 4,
+     "lo": 3.526,
+     "hi": 4.015,
+     "center": 3.7704999999999997,
+     "val": 1.981,
+     "err": 0.608,
+     "hi_true": 7.417
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/bolognese-1979gf/fig3b.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Phys.Lett.B 81 (1979) 393)",
+   "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
+   "provenance": "Bolognese:1979gf \u2014 total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
+   "digitization": {
+    "original": "/digitize/bolognese-1979gf/fig3.png",
+    "overlay": "/digitize/bolognese-1979gf/fig3b_overlay.png",
+    "note": "Fig 3(b): same with the cut W_{piN} <= 1.4 GeV/c^2. Deskewed panel with our 5 extracted points overlaid."
+   },
+   "notes": ""
+  }
+ ]
+}

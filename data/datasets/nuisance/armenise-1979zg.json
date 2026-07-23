@@ -1,0 +1,128 @@
+{
+ "bibtag": "Armenise:1979zg",
+ "slug": "armenise-1979zg",
+ "source": "published (Nucl.Phys.B 152 (1979) 365)",
+ "source_url": "https://doi.org/10.1016/0550-3213(79)90087-7",
+ "arxiv": null,
+ "cite": "Nucl.Phys.B 152 365",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_sigma_enu",
+   "slug": "dsigma_sigma_enu",
+   "name": "\u03c3 (\\bar\\nu_\\mu p \\to \\mu^+ n)",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu p \\to \\mu^+ n)$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 11,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 1.12,
+     "hi": 1.12,
+     "center": 1.12,
+     "val": 0.353,
+     "err": 0.083
+    },
+    {
+     "i": 1,
+     "lo": 1.38,
+     "hi": 1.38,
+     "center": 1.38,
+     "val": 0.462,
+     "err": 0.119
+    },
+    {
+     "i": 2,
+     "lo": 1.63,
+     "hi": 1.63,
+     "center": 1.63,
+     "val": 0.376,
+     "err": 0.06
+    },
+    {
+     "i": 3,
+     "lo": 1.88,
+     "hi": 1.88,
+     "center": 1.88,
+     "val": 0.416,
+     "err": 0.068
+    },
+    {
+     "i": 4,
+     "lo": 2.12,
+     "hi": 2.12,
+     "center": 2.12,
+     "val": 0.34,
+     "err": 0.042
+    },
+    {
+     "i": 5,
+     "lo": 2.38,
+     "hi": 2.38,
+     "center": 2.38,
+     "val": 0.413,
+     "err": 0.056
+    },
+    {
+     "i": 6,
+     "lo": 2.64,
+     "hi": 2.64,
+     "center": 2.64,
+     "val": 0.502,
+     "err": 0.072
+    },
+    {
+     "i": 7,
+     "lo": 2.88,
+     "hi": 2.88,
+     "center": 2.88,
+     "val": 0.573,
+     "err": 0.093
+    },
+    {
+     "i": 8,
+     "lo": 3.25,
+     "hi": 3.25,
+     "center": 3.25,
+     "val": 0.447,
+     "err": 0.069
+    },
+    {
+     "i": 9,
+     "lo": 3.76,
+     "hi": 3.76,
+     "center": 3.76,
+     "val": 0.578,
+     "err": 0.094
+    },
+    {
+     "i": 10,
+     "lo": 5.01,
+     "hi": 5.01,
+     "center": 5.01,
+     "val": 0.791,
+     "err": 0.114
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/armenise-1979zg/sigma_enu.csv",
+   "scale_note": null,
+   "source": "published (Nucl.Phys.B 152 (1979) 365)",
+   "source_url": "https://doi.org/10.1016/0550-3213(79)90087-7",
+   "provenance": "Armenise:1979zg \u2014 total cross section for charged-current quasi-elastic anti-neutrino scattering (\\bar\\nu_\\mu p \\to \\mu^+ n) versus anti-neutrino energy, Gargamelle propane (C3H8) exposure at the CERN PS \u00b7 target C3H8 (per the paper) \u00b7 DIGITIZED from Fig 4 (analytical plot-digitizer; scan deskewed +0.55 deg to remove tilt, then axis-aligned calibration; overlay-verified) \u00b7 the M_A=0.84 theory curve is excluded \u00b7 from the paper",
+   "digitization": {
+    "original": "/digitize/armenise-1979zg/original.png",
+    "overlay": "/digitize/armenise-1979zg/overlay.png",
+    "note": "Fig 4 of the paper, deskewed +0.55 deg to remove scan tilt (left); our 11 extracted points (green) with vertical error bars (red) overlaid (right). The M_A=0.84 theory curve and text were excluded; markers land on the printed dots uniformly across the plot."
+   },
+   "notes": "Target C3H8 (per the paper). DIGITIZED from Fig 4 (analytical plot-digitizer; scan deskewed +0.55 deg to remove tilt, then axis-aligned calibration; overlay-verified). The M_A=0.84 theory curve is excluded. From the paper."
+  }
+ ]
+}

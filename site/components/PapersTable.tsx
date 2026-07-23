@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Icon } from '@/components/Icon';
 import { downloadText, fileSlug } from '@/lib/download';
 import { facetValueLabel } from '@/lib/labels';
+import { MeasurementTags } from '@/components/MeasurementTags';
 
 export type PaperRow = {
   slug: string;
@@ -50,49 +51,16 @@ function flavorLabel(f: string) {
 
 function defaultInteractionTags(r: PaperRow): ReactNode {
   const arr = (k: string) => (r[k] as string[] | undefined) ?? [];
-  const flavor = arr('flavor');
-  const flavorHtmlArr = arr('flavorHtml');
   return (
-    <>
-      {arr('current').map((c) => (
-        <span className={`tag tag-${c.toLowerCase()}`} key={c}>
-          {c}
-        </span>
-      ))}
-      {flavor.map((f, i) =>
-        flavorHtmlArr[i] ? (
-          <span
-            className="tag tag-flavor"
-            key={f}
-            dangerouslySetInnerHTML={{ __html: flavorHtmlArr[i] }}
-          />
-        ) : (
-          <span className="tag tag-flavor" key={f}>
-            {flavorLabel(f)}
-          </span>
-        ),
-      )}
-      {arr('target').map((t) => (
-        <span className="tag tag-target" key={t}>
-          {facetValueLabel('target', t)}
-        </span>
-      ))}
-      {arr('topology').map((t) => (
-        <span className="tag tag-topo" key={t}>
-          {facetValueLabel('topology', t)}
-        </span>
-      ))}
-      {arr('measurement_type').map((t) => (
-        <span className="tag tag-type" key={t}>
-          {facetValueLabel('measurement_type', t)}
-        </span>
-      ))}
-      {arr('dataset').length > 0 ? (
-        <span className="tag tag-data" title="A downloadable data release is available">
-          Dataset
-        </span>
-      ) : null}
-    </>
+    <MeasurementTags
+      current={arr('current')}
+      flavorHtml={arr('flavorHtml')}
+      flavorText={arr('flavor').map(flavorLabel)}
+      target={arr('target')}
+      topology={arr('topology')}
+      measurementType={arr('measurement_type')}
+      dataset={arr('dataset').length > 0}
+    />
   );
 }
 

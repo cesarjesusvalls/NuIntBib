@@ -1,0 +1,136 @@
+{
+ "bibtag": "Baker:1980pj",
+ "slug": "baker-1980pj",
+ "source": "published (Phys.Rev.D 23 (1981) 2495)",
+ "source_url": "https://doi.org/10.1103/PhysRevD.23.2495",
+ "arxiv": null,
+ "cite": "Phys.Rev.D 23 2495",
+ "note": "",
+ "distributions": [
+  {
+   "key": "r1_r1",
+   "slug": "r1_r1",
+   "name": "R_1 = \u03c3(\u03bc^-p\u03c0^0)/\u03c3(\u03bc^-p\u03c0^+) (r1)",
+   "name_tex": "$R_1 = \\sigma(\\mu^-p\\pi^0)/\\sigma(\\mu^-p\\pi^+)$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "R_1 = \u03c3(\u03bc^-p\u03c0^0)/\u03c3(\u03bc^-p\u03c0^+)",
+   "ylabel_plot": "R_1 = \u03c3(\u03bc^-p\u03c0^0)/\u03c3(\u03bc^-p\u03c0^+)",
+   "ylabel_tex": "$R_1 = \\sigma(\\mu^-p\\pi^0)/\\sigma(\\mu^-p\\pi^+)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 3,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.448,
+     "err": 0.04,
+     "err_up": 0.04,
+     "err_down": 0.04,
+     "cat_tex": "\\mathrm{no\\ cut}",
+     "cat": "no cut"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.385,
+     "err": 0.043,
+     "err_up": 0.043,
+     "err_down": 0.043,
+     "cat_tex": "M_{N\\pi}<1.6\\,\\mathrm{GeV}",
+     "cat": "M_Npi<1.6 GeV"
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 0.297,
+     "err": 0.032,
+     "err_up": 0.032,
+     "err_down": 0.032,
+     "cat_tex": "M_{N\\pi}<1.4\\,\\mathrm{GeV}",
+     "cat": "M_Npi<1.4 GeV"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.D 23 (1981) 2495)",
+   "source_url": "https://doi.org/10.1103/PhysRevD.23.2495",
+   "provenance": "Baker:1980pj \u2014 BNL 7-ft bubble chamber, deuterium, wide-band nu beam \u00b7 charged-current single-pion production isospin ratios \u00b7 DIGITIZED from Fig 4 (analytical plot-digitizer; the three THIS-EXPERIMENT markers read off the 2-D R1-vs-R2 plane, overlay-verified) \u00b7 target D2 \u00b7 from the paper \u00b7 R1 = sigma(mu- p pi0)/sigma(mu- p pi+) vs invariant-mass cut",
+   "digitization": {
+    "original": "/digitize/baker-1980pj/original.png",
+    "overlay": "/digitize/baker-1980pj/overlay.png",
+    "note": "Fig 4 of the paper (left); our three extracted THIS-EXPERIMENT points (green = no cut, red = M_Npi<1.6, blue = M_Npi<1.4) with error bars overlaid (right). Both R1 and R2 for all three cuts are read from this single 2-D figure; the theory (eta, psi) contours are excluded."
+   },
+   "notes": "Charged-current single-pion production isospin ratios. DIGITIZED from Fig 4 (analytical plot-digitizer; the three THIS-EXPERIMENT markers read off the 2-D R1-vs-R2 plane, overlay-verified). Target D2. From the paper. R1 = sigma(mu- p pi0)/sigma(mu- p pi+) vs invariant-mass cut."
+  },
+  {
+   "key": "r2_r2",
+   "slug": "r2_r2",
+   "name": "R_2 = \u03c3(\u03bc^-n\u03c0^+)/\u03c3(\u03bc^-p\u03c0^+) (r2)",
+   "name_tex": "$R_2 = \\sigma(\\mu^-n\\pi^+)/\\sigma(\\mu^-p\\pi^+)$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "R_2 = \u03c3(\u03bc^-n\u03c0^+)/\u03c3(\u03bc^-p\u03c0^+)",
+   "ylabel_plot": "R_2 = \u03c3(\u03bc^-n\u03c0^+)/\u03c3(\u03bc^-p\u03c0^+)",
+   "ylabel_tex": "$R_2 = \\sigma(\\mu^-n\\pi^+)/\\sigma(\\mu^-p\\pi^+)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 3,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.41,
+     "err": 0.041,
+     "err_up": 0.041,
+     "err_down": 0.041,
+     "cat_tex": "\\mathrm{no\\ cut}",
+     "cat": "no cut"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.362,
+     "err": 0.032,
+     "err_up": 0.032,
+     "err_down": 0.032,
+     "cat_tex": "M_{N\\pi}<1.6\\,\\mathrm{GeV}",
+     "cat": "M_Npi<1.6 GeV"
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 0.27,
+     "err": 0.029,
+     "err_up": 0.029,
+     "err_down": 0.029,
+     "cat_tex": "M_{N\\pi}<1.4\\,\\mathrm{GeV}",
+     "cat": "M_Npi<1.4 GeV"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.D 23 (1981) 2495)",
+   "source_url": "https://doi.org/10.1103/PhysRevD.23.2495",
+   "provenance": "Baker:1980pj \u2014 BNL 7-ft bubble chamber, deuterium, wide-band nu beam \u00b7 charged-current single-pion production isospin ratios \u00b7 DIGITIZED from Fig 4 (analytical plot-digitizer; the three THIS-EXPERIMENT markers read off the 2-D R1-vs-R2 plane, overlay-verified) \u00b7 target D2 \u00b7 from the paper \u00b7 R2 = sigma(mu- n pi+)/sigma(mu- p pi+) vs invariant-mass cut",
+   "notes": "Charged-current single-pion production isospin ratios. DIGITIZED from Fig 4 (analytical plot-digitizer; the three THIS-EXPERIMENT markers read off the 2-D R1-vs-R2 plane, overlay-verified). Target D2. From the paper. R2 = sigma(mu- n pi+)/sigma(mu- p pi+) vs invariant-mass cut."
+  }
+ ]
+}

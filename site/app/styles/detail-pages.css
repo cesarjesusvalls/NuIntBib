@@ -127,6 +127,14 @@
   margin: .15rem 0 0;
   color: var(--ink);
   font-weight: 600;
+  /* long values (esp. the BibTeX key, e.g. GargamelleNeutrinoPropane:1977hya)
+     must wrap instead of overflowing the fixed-width sidebar card */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.detail-summary dd code {
+  font-size: .82rem;
 }
 
 .detail-main,

@@ -571,6 +571,16 @@ def build_values(spec):
             'source': spec['source'], 'source_url': spec['source_url'],
             'provenance': spec['provenance'] + (f" · {it['note']}" if it.get('note') else ''),
         })
+        if it.get('digitization'):
+            out[-1]['digitization'] = it['digitization']
+    # Optional release-level covariance spanning ALL flattened bins across every item
+    # (order = item0 bins, item1 bins, ...).  Attached to the first distribution; the
+    # build loop pops it into the release JSON.
+    if spec.get('cov') is not None and out:
+        M = np.asarray(spec['cov'], float)
+        order = spec.get('cov_order') or [b['cat'] for d in out for b in d['bins']]
+        out[0]['_release_cov'] = _cov_obj(M, order, spec.get(
+            'cov_note', 'covariance over all bins; row/col order below'))
     return out
 
 
@@ -1556,7 +1566,144 @@ def _tki_items(slugs):
     return out
 
 
+def _gargamelle_1977hya():
+    """Build the two `values` sources for GargamelleNeutrinoPropane:1977hya: the 5
+    relative single-pion cross sections (arbitrary units) with the paper's Table-4
+    5x5 covariance, and the 10 unique pairwise ratios r=val_i/val_j (i<j) with errors
+    propagated through that covariance.  The release covariance is 15x15 block-diagonal
+    in flattened bin order (5 relxsec bins, then 10 ratio bins): top-left block = C,
+    bottom-right block = diag(ratio_err^2), cross blocks = 0."""
+    import itertools
+    labels = [r'\nu p\pi^0', r'\nu n\pi^+', r'\nu n\pi^0', r'\nu p\pi^-', r'\mu^- p\pi^0']
+    val = [297.0, 180.0, 177.0, 237.0, 526.0]
+    err = [37.0, 31.0, 43.0, 59.0, 65.0]
+    C = np.array([[1351, -52, -230, 193, 352],
+                  [-52, 943, 52, 37, -383],
+                  [-230, 52, 1864, 45, 17],
+                  [193, 37, 45, 3504, 445],
+                  [352, -383, 17, 445, 4450]], float)
+    rel_points = [{'cat': labels[i], 'val': val[i], 'err': err[i]} for i in range(5)]
+    ratio_points, ratio_var = [], []
+    for i, j in itertools.combinations(range(5), 2):
+        r = val[i] / val[j]
+        er = abs(r) * math.sqrt(C[i, i] / val[i] ** 2 + C[j, j] / val[j] ** 2
+                                - 2 * C[i, j] / (val[i] * val[j]))
+        ratio_points.append({'cat': f'{labels[i]}/{labels[j]}', 'val': round(r, 4),
+                             'err': round(er, 4)})
+        ratio_var.append(er ** 2)
+    # 15x15 block-diagonal release covariance
+    N = 15
+    M = np.zeros((N, N))
+    M[:5, :5] = C
+    for k, v in enumerate(ratio_var):
+        M[5 + k, 5 + k] = v
+    order = [f'relxsec:{labels[i]}' for i in range(5)] + \
+            [f'ratio:{p["cat"]}' for p in ratio_points]
+    src = 'published (Nucl.Phys.B)'
+    url = 'https://doi.org/10.1016/0550-3213(78)90213-4'
+    prov = ('Gargamelle bubble chamber (propane-freon), CERN PS wide-band neutrino beam '
+            '· exclusive single-pion production, relative cross sections in ARBITRARY '
+            'UNITS, corrected for nuclear reinteractions · 4 NC channels (nu p->nu p pi0, '
+            'nu p->nu n pi+, nu n->nu n pi0, nu n->nu p pi-) + 1 CC channel '
+            '(nu n->mu- p pi0) · covariance from the paper Table 4 · transcribed from the '
+            'paper (not digitized)')
+    cov_note = ('15x15 block-diagonal covariance in flattened bin order (5 relxsec bins, '
+                'then 10 ratio bins): top-left 5x5 block is the paper Table-4 covariance '
+                'of the relative cross sections (arb. units^2); bottom-right 10x10 block is '
+                'diag(ratio_err^2) for the computed pairwise ratios (their mutual '
+                'correlations are not provided); cross blocks are zero · row/col order below')
+    return [
+        {'values': {
+            'key': 'relxsec', 'ylabel': r'\sigma\ (\mathrm{rel.})', 'yunit': 'arb.',
+            'items': [{'slug': 'relxsec', 'points': rel_points}],
+            'cov': M.tolist(), 'cov_order': order, 'cov_note': cov_note,
+            'source': src, 'source_url': url,
+            'provenance': prov + ' · relative single-pion cross sections (arb. units)'}},
+        {'values': {
+            'key': 'ratio', 'ylabel': r'\sigma_A/\sigma_B', 'yunit': '',
+            'items': [{'slug': 'ratio', 'points': ratio_points}],
+            'source': src, 'source_url': url,
+            'provenance': prov + ' · all 10 unique pairwise ratios sigma_A/sigma_B '
+            '(A/B only) computed by us; ratio errors propagated through the Table-4 '
+            'covariance'}}]
+
+
+def _baker_1980pj():
+    """Baker:1980pj (BNL 7-ft deuterium bubble chamber, CC single-pion production).
+    Fig 4 plots the two isospin cross-section ratios R1 = sigma(mu- p pi0)/sigma(mu- p pi+)
+    and R2 = sigma(mu- n pi+)/sigma(mu- p pi+) at three invariant-mass cuts (no cut,
+    M_Npi < 1.6, M_Npi < 1.4 GeV).  Both ratios are read from that single 2-D (R1 vs R2)
+    figure via the analytical plot-digitizer (overlay-verified).  Presented as two
+    categorical distributions (ratio vs mass cut)."""
+    cuts = [r'\mathrm{no\ cut}', r'M_{N\pi}<1.6\,\mathrm{GeV}', r'M_{N\pi}<1.4\,\mathrm{GeV}']
+    r1 = [(0.448, 0.040), (0.385, 0.043), (0.297, 0.032)]
+    r2 = [(0.410, 0.041), (0.362, 0.032), (0.270, 0.029)]
+    r1_pts = [{'cat': cuts[i], 'val': r1[i][0], 'err': r1[i][1]} for i in range(3)]
+    r2_pts = [{'cat': cuts[i], 'val': r2[i][0], 'err': r2[i][1]} for i in range(3)]
+    src = 'published (Phys.Rev.D 23 (1981) 2495)'
+    url = 'https://doi.org/10.1103/PhysRevD.23.2495'
+    prov = ('Baker:1980pj — BNL 7-ft bubble chamber, deuterium, wide-band nu beam · '
+            'charged-current single-pion production isospin ratios · DIGITIZED from Fig 4 '
+            '(analytical plot-digitizer; the three THIS-EXPERIMENT markers read off the 2-D '
+            'R1-vs-R2 plane, overlay-verified) · target D2 · from the paper')
+    digi = {'original': '/digitize/baker-1980pj/original.png',
+            'overlay': '/digitize/baker-1980pj/overlay.png',
+            'note': 'Fig 4 of the paper (left); our three extracted THIS-EXPERIMENT points '
+                    '(green = no cut, red = M_Npi<1.6, blue = M_Npi<1.4) with error bars '
+                    'overlaid (right). Both R1 and R2 for all three cuts are read from this '
+                    'single 2-D figure; the theory (eta, psi) contours are excluded.'}
+    return [
+        {'values': {
+            'key': 'r1', 'ylabel': r'R_1 = \sigma(\mu^-p\pi^0)/\sigma(\mu^-p\pi^+)', 'yunit': '',
+            'items': [{'slug': 'r1', 'points': r1_pts, 'digitization': digi}],
+            'source': src, 'source_url': url,
+            'provenance': prov + ' · R1 = sigma(mu- p pi0)/sigma(mu- p pi+) vs invariant-mass cut'}},
+        {'values': {
+            'key': 'r2', 'ylabel': r'R_2 = \sigma(\mu^-n\pi^+)/\sigma(\mu^-p\pi^+)', 'yunit': '',
+            'items': [{'slug': 'r2', 'points': r2_pts}],
+            'source': src, 'source_url': url,
+            'provenance': prov + ' · R2 = sigma(mu- n pi+)/sigma(mu- p pi+) vs invariant-mass cut'}}]
+
+
 REGISTRY = [
+    {'bibtag': 'GargamelleNeutrinoPropane:1977hya',
+     'slug': 'gargamelleneutrinopropane-1977hya',
+     'source': 'published (Nucl.Phys.B)', 'note': '',
+     'sources': _gargamelle_1977hya()},
+    {'bibtag': 'Baker:1980pj', 'slug': 'baker-1980pj',
+     'source': 'published (Phys.Rev.D)', 'note': '',
+     'sources': _baker_1980pj()},
+    {'bibtag': 'Derrick:1980xw', 'slug': 'derrick-1980xw',
+     'source': 'published (Phys.Rev.D)', 'note': '',
+     'sources': [
+         {'values': {
+             'key': 'nccc_ratio', 'ylabel': r'R = \sigma_{\mathrm{NC}}/\sigma_{\mathrm{CC}}', 'yunit': '',
+             'items': [{'slug': 'ratios', 'points': [
+                 {'cat': r'R_0', 'val': 0.09, 'err': 0.05},
+                 {'cat': r'R_+', 'val': 0.13, 'err': 0.04},
+                 {'cat': r'R_-', 'val': 0.11, 'err': 0.022}],
+                 'digitization': {
+                     'original': '/digitize/derrick-1980xw/original.png',
+                     'overlay': '/digitize/derrick-1980xw/overlay.png',
+                     'note': 'Fig of the paper: the three cross-hatched horizontal bands are the '
+                             'measured NC/CC single-pion ratios R_0, R_+, R_- (band centre = value, '
+                             'half-height = error). Right: our detected top/bottom band edges drawn '
+                             'as coloured lines (R_0 red, R_+ green, R_- blue); the theory curves vs '
+                             'sin^2(theta_W) are excluded. The digitized bands reproduce the paper\'s '
+                             'quoted R_0 = 0.09 +/- 0.05 and R_- = 0.11 +/- 0.022 centres to <=0.1%, '
+                             'which validates the R_+ extraction.'}}],
+             'source': 'published (Phys.Rev.D 23 (1981) 569)',
+             'source_url': 'https://doi.org/10.1103/PhysRevD.23.569',
+             'provenance': (
+                 'Derrick:1980xw — ANL 12-ft bubble chamber, deuterium, wide-band nu beam · '
+                 'neutral-current to charged-current single-pion production ratios · '
+                 'R_0 = sigma(nu p->nu p pi0)/sigma(nu p->mu- p pi+), '
+                 'R_+ = sigma(nu p->nu n pi+)/sigma(nu p->mu- p pi+), '
+                 'R_- = sigma(nu n->nu p pi-)/sigma(nu p->mu- p pi+) · target D2 · '
+                 'R_0 and R_- are the values quoted in the paper text (0.09 +/- 0.05 and '
+                 '0.11 +/- 0.022); R_+ is not quoted in the text and was DIGITIZED from the '
+                 'ratio figure (analytical band extraction, overlay-verified — our digitization '
+                 'reproduces the two quoted centres to <=0.1%) · from the paper')}}]},
     {'bibtag': 'NOvA:2026zup', 'slug': 'nova-2026zup', 'source': 'arXiv',
      'note': '',
      'sources': [
