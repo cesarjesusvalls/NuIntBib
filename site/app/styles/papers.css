@@ -711,3 +711,11 @@
     max-width: none;
   }
 }
+
+/* shown in place of a data release when a paper has none (result in the abstract,
+   search-only, superseded, …) */
+.no-release-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

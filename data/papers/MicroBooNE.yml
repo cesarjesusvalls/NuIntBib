@@ -437,6 +437,7 @@
   published_date: '2025-02-08'
   inspire_recid: 2878288
   citation_count: 7
+  release_status: abstract
   abstract: We report results from an updated search for neutral current (NC) resonant $Δ$(1232) baryon
     production and subsequent $Δ$ radiative decay (NC $Δ\rightarrow N γ$). We consider events with and
     without final state protons; events with a proton can be compared with the kinematics of a $Δ(1232)$
@@ -526,6 +527,7 @@
   published_date: '2025-02-09'
   inspire_recid: 2878505
   citation_count: 9
+  release_status: abstract
   abstract: This article presents the first search for neutrino-induced neutral current coherent single-photon
     production (NC coherent 1$\gamma$). The search makes use of data from the MicroBooNE 85-tonne active
     volume liquid argon time projection chamber detector, situated in the Fermilab Booster Neutrino Beam

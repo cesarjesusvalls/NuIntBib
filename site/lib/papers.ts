@@ -35,6 +35,14 @@ export type Paper = {
   abstract?: string | null;
   added?: string | null;
   notes?: string | null;
+  // shown in place of a data release when none exists (e.g. result quoted in the
+  // abstract, superseded by a later measurement). Free text; overrides release_status.
+  release_note?: string | null;
+  // canonical no-release category (e.g. 'search') -> a shared sentence, see page.tsx
+  release_status?: string | null;
+  // slug of a later paper (same experiment) that DID release a cross section, linked
+  // under the no-release note. Not a claim of same data/analysis — just a pointer.
+  release_see_also?: string | null;
   links?: Record<string, string | null>;
   measurements: Measurement[];
   // derived

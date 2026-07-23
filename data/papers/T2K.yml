@@ -582,6 +582,7 @@
   published_date: '2019-02-11'
   inspire_recid: 1719344
   citation_count: 28
+  release_status: abstract
   abstract: Neutrino neutral-current induced single photon production is a sub-leading order process for
     accelerator-based neutrino beam experiments including T2K. It is, however, an important process to
     understand because it is a background for electron (anti)neutrino appearance oscillation experiments.

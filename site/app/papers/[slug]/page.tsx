@@ -18,6 +18,15 @@ import {
 
 type PageProps = { params: Promise<{ slug: string }> };
 
+// canonical "why there's no data release" sentences, keyed by a paper's release_status.
+// Papers in the same category read identically; reword here once to change them all.
+const RELEASE_STATUS_NOTE: Record<string, string> = {
+  abstract:
+    'The result is reported directly in the paper abstract and there is no cross-section measurement to release as data.',
+  not_xsec:
+    'This paper measures final-state observables rather than a neutrino cross section, so there is no cross-section measurement to release as data.',
+};
+
 export function generateStaticParams() {
   return [
     ...getAllPapers().map((p) => ({ slug: p.slug })),
@@ -42,6 +51,14 @@ export default async function PaperDetailPage({ params }: PageProps) {
   const paper = (intPaper ?? oscPaper)!;
   const expLabel = oscPaper ? paperExperiments(oscPaper).join(' + ') : intPaper!.collaboration;
   const dataRelease = intPaper ? getDataRelease(slug) : null;
+  // when a paper has no data release, explain why: an explicit release_note wins,
+  // else a canonical sentence keyed by release_status (e.g. every search reads the same)
+  const noReleaseNote =
+    intPaper && !dataRelease
+      ? intPaper.release_note ?? RELEASE_STATUS_NOTE[intPaper.release_status ?? ''] ?? null
+      : null;
+  const seeAlso =
+    noReleaseNote && intPaper?.release_see_also ? getPaperBySlug(intPaper.release_see_also) : null;
 
   const citation = [paper.journal, paper.volume, paper.pages].filter(Boolean).join(' ');
 
@@ -196,7 +213,23 @@ export default async function PaperDetailPage({ params }: PageProps) {
               </div>
             </div>
 
-            {dataRelease ? <DataRelease release={dataRelease} /> : null}
+            {dataRelease ? (
+              <DataRelease release={dataRelease} />
+            ) : noReleaseNote ? (
+              <div>
+                <h2 className="type-h3">Data release</h2>
+                <p className="no-release-note">{noReleaseNote}</p>
+                {seeAlso ? (
+                  <p className="no-release-note">
+                    The same experiment later released a cross-section measurement:{' '}
+                    <a className="dr-src-link" href={`/papers/${seeAlso.slug}/`}>
+                      {seeAlso.bibtag}
+                    </a>
+                    .
+                  </p>
+                ) : null}
+              </div>
+            ) : null}
 
             <div>
               <h2 className="type-h3">Citation</h2>

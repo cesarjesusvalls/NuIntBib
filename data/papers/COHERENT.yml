@@ -50,6 +50,8 @@
   published_date: '2024-06-19'
   inspire_recid: 2800533
   citation_count: 94
+  release_status: abstract
+  release_see_also: coherent-2026yje
   abstract: We report the first detection of coherent elastic neutrino-nucleus scattering (CEvNS) on natural
     germanium, measured at the Spallation Neutron Source at Oak Ridge National Laboratory. The Ge-Mini
     detector of the COHERENT collaboration employs large-mass, low-noise, high-purity germanium spectrometers,
@@ -87,6 +89,7 @@
   published_date: '2022-12-21'
   inspire_recid: 2706242
   citation_count: 27
+  release_status: abstract
   abstract: Using neutrinos produced at the Spallation Neutron Source (SNS) at Oak Ridge National Laboratory
     (ORNL), the COHERENT collaboration has studied the Pb($\nu_e$,X$n$) process with a lead neutrino-induced-neutron
     (NIN) detector. Data from this detector are fit jointly with previously collected COHERENT data on
@@ -241,6 +244,8 @@
   published_date: '2017-08-03'
   inspire_recid: 1614476
   citation_count: 979
+  release_status: abstract
+  release_see_also: coherent-2021xmm
   abstract: The coherent elastic scattering of neutrinos off nuclei has eluded detection for four decades,
     even though its predicted cross-section is the largest by far of all low-energy neutrino couplings.
     This mode of interaction provides new opportunities to study neutrino properties, and leads to a miniaturization

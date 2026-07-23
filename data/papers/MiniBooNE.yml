@@ -361,6 +361,7 @@
   published_date: 2007-06
   inspire_recid: 752503
   citation_count: 301
+  release_status: abstract
   abstract: The observation of neutrino oscillations is clear evidence for physics beyond the standard
     model. To make precise measurements of this phenomenon, neutrino oscillation experiments, including
     MiniBooNE, require an accurate description of neutrino charged current quasi-elastic (CCQE) cross
@@ -401,6 +402,7 @@
   published_date: 2008-03
   inspire_recid: 781931
   citation_count: 170
+  release_status: abstract
   abstract: The MiniBooNE experiment at Fermilab has amassed the largest sample to date of $\pi^0$s produced
     in neutral current (NC) neutrino-nucleus interactions at low energy. This paper reports a measurement
     of the momentum distribution of $\pi^0$s produced in mineral oil (CH$_2$) and the first observation

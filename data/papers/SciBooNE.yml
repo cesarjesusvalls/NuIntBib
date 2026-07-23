@@ -123,6 +123,7 @@
   published_date: 2008-11
   inspire_recid: 801424
   citation_count: 191
+  release_status: abstract
   abstract: The SciBooNE Collaboration has performed a search for charged current coherent pion production
     from muon neutrinos scattering on carbon, $\nu_{\mu}$ $^{12}C \to \mu^{-12}C \pi^+$, with two distinct
     data samples. No evidence for coherent pion production is observed. We set 90% confidence level upper
