@@ -382,3 +382,37 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- bibtag: Barish:1974ye
+  title: Strange-Particle Production in Neutrino Interactions
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1103/PhysRevLett.33.1446
+  journal: Phys.Rev.Lett.
+  volume: '33'
+  pages: '1446'
+  year: 1974
+  published_date: '1974'
+  inspire_recid: 1673
+  citation_count: 64
+  release_status: abstract
+  abstract: Seven examples of strange-particle production by neutrinos are observed in the 12-ft bubble chamber.
+    One event represents the first observation of associated production by the weak neutral current.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
+    (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.33.1446
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Barish:1974ye
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: CC strange
+    pion_bucket: null
+    measurement_type: null
+    observables: observation of strange-particle production (7 events) in nu_mu interactions; includes the first
+      observation of associated production by the weak neutral current
+    energy_notes: ANL 12-ft bubble chamber

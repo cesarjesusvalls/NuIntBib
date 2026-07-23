@@ -280,3 +280,104 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- bibtag: Baker:1982ty
+  title: Total Cross-sections for Muon-neutrino $N$ and Muon-neutrino $P$ Charged Current Interactions in the 7-ft
+    Bubble Chamber
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.25.617
+  journal: Phys.Rev.D
+  volume: '25'
+  pages: '617'
+  year: 1982
+  published_date: '1982'
+  inspire_recid: 177607
+  citation_count: 136
+  release_status: digitize
+  abstract: The total cross sections for νμn and νμp charged-current interactions and their ratio R=σT(νn)σT(νp)
+    have been measured as a function of neutrino energy from 0.4 to 10 GeV. The experiment is performed using the
+    BNL 7-foot deuterium bubble chamber exposed to the Alternating Gradient Synchrotron wide-band neutrino beam.
+    The absolute values of the cross sections are normalized to the quasielastic scattering (νμn→μ−p) cross section.
+    Above 1.6 GeV the data are consistent with the quark-parton model. We find that σT(νn)Eν=(1.07±0.05)×10−38,
+    σT(νp)Eν=(0.54±0.04)×10−38, and σT(νN)Eν=(0.80±0.03)×10−38 cm2/GeV for 〈Eν〉=3.2 GeV, and R=1.95±0.10 for 〈Eν〉=3.7
+    GeV.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
+    (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.25.617
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Baker:1982ty
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total CC cross sections sigma_T(nu_mu n) and sigma_T(nu_mu p) vs E_nu, 0.4-10 GeV
+    energy_notes: BNL 7-ft deuterium bubble chamber, AGS wide-band beam, E_nu 0.4-10 GeV
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: R = sigma_T(nu n)/sigma_T(nu p) vs E_nu
+    energy_notes: null
+- bibtag: Kitagaki:1990vs
+  title: Study of neutrino d ---> mu- p p(s) and neutrino d ---> mu- Delta++ (1232) n(s) using the BNL 7-foot deuterium
+    filled bubble chamber
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.42.1331
+  journal: Phys.Rev.D
+  volume: '42'
+  pages: '1331'
+  year: 1990
+  published_date: '1990'
+  inspire_recid: 304880
+  citation_count: 212
+  release_status: digitize
+  abstract: The weak nucleon axial-vector (FA) and vector (FV) form factors are determined from the momentum-transfer-squared
+    (Q2) distributions using 2538μ−p and 1384μ−Δ++ events. The data were obtained from 1 800 000 pictures taken
+    in the BNL 7-foot deuterium-filled bubble chamber exposed to a wide-band neutrino beam with a mean energy Eν=1.6
+    GeV. In the framework of the conventional V−A theory with standard assumptions, the value obtained from the
+    μ−p events for the axial-vector mass MA in the pure dipole parameterization is 1.070+0.040−0.045 GeV and from
+    the μ−Δ++ events is 1.28+0.08−0.10 GeV. These results are in good agreement with an earlier measurement from
+    this experiment and other recent results. The reaction mechanisms for both processes are compared and found
+    to be very similar. A two-parameter fit for the quasielastic reaction, using dipole forms for FV and FA yields
+    MA=0.97−0.11+0.14 GeV and MV=0.89−0.07+0.04 GeV, which is in good agreement with the conserved-vector-current
+    value of MV=0.84 GeV. Possible deviations from the standard assumptions are also discussed.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
+    (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.42.1331
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Kitagaki:1990vs
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: quasi-elastic nu d -> mu- p p(s); dsigma/dQ^2 and axial-vector form factor F_A (2538 events)
+    energy_notes: BNL 7-ft deuterium bubble chamber, wide-band beam
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CC1π+
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: nu d -> mu- Delta++(1232) n(s); dsigma/dQ^2 and vector form factor (1384 events)
+    energy_notes: null

@@ -30,6 +30,19 @@
       "description": "ISO date this record was added to the NuIntBib database."
     },
     "notes": { "type": ["string", "null"] },
+    "release_status": {
+      "type": ["string", "null"],
+      "enum": ["abstract", "not_xsec", "digitize", null],
+      "description": "Why there is no data release: 'abstract' (result only in the abstract), 'not_xsec' (measures final-state observables, not a cross section), or 'digitize' (published only as figures). Overridden by release_note if present."
+    },
+    "release_note": {
+      "type": ["string", "null"],
+      "description": "Free-text override for the no-release message (e.g. a data release is pending from the collaboration)."
+    },
+    "release_see_also": {
+      "type": ["string", "null"],
+      "description": "Bibtag of a related paper whose data release covers the same measurement."
+    },
     "links": {
       "type": "object",
       "additionalProperties": { "type": ["string", "null"] }

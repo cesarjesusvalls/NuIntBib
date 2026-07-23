@@ -193,3 +193,38 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- bibtag: GargamelleNeutrinoPropane:1979kqo
+  title: Total Cross-section for Neutrino Charged Current Interactions at 3-{GeV} and 9-{GeV}
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(79)90303-4
+  journal: Phys.Lett.B
+  volume: '84'
+  pages: '281'
+  year: 1979
+  published_date: '1979'
+  inspire_recid: 141175
+  citation_count: 105
+  release_status: digitize
+  abstract: Average total cross sections are given for neutrino charged current interactions at neutrino energies
+    of 2.87 GeV and 9.05 GeV. The ratios 〈σ〉 〈E〉 are 0.69 ± 0.05 and 0.61 ± 0.06 in units of 10 −38 cm 2 /GeV nucleon,
+    respectively The errors include both statistical and systematic uncertainties.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
+    (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(79)90303-4
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:GargamelleNeutrinoPropane:1979kqo
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C3H8
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: average total CC cross section <sigma>/<E> at <E_nu> = 2.87 and 9.05 GeV (0.69 +/- 0.05 and 0.61
+      +/- 0.06, 10^-38 cm^2/GeV/nucleon)
+    energy_notes: Gargamelle propane, CERN PS and SPS wide-band beams

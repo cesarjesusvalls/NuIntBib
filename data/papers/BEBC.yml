@@ -118,3 +118,103 @@
     measurement_type: total
     observables: total CC cross sections on hydrogen and neon (and their ratio)
     energy_notes: high-energy (CERN SPS WBB, 20-300 GeV)
+- bibtag: Allen:1985ti
+  title: A Study of Single Meson Production in Neutrino and Anti-neutrinos Charged Current Interactions on Protons
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1016/0550-3213(86)90480-3
+  journal: Nucl.Phys.B
+  volume: '264'
+  pages: '221'
+  year: 1986
+  published_date: '1986'
+  inspire_recid: 213386
+  citation_count: 85
+  release_status: digitize
+  abstract: We present results on exclusive single-charged pion and kaon production in neutrino and antineutrino
+    interactions on protons in the energy range from 5 to 120 GeV. The data were obtained from exposures of BEBC
+    to wide band beams at the CERN SPS. For invariant masses of the (pπ) system below 2 GeV, the pions originate
+    predominantly from decays of baryon resonances excited by the weak charged current. Similarly, we observe the
+    production of Λ(1520) decaying into p and K − . For invariant masses above 2 GeV pion production becomes peripheral
+    by interaction of the weak current with a virtual π 0 . We establish a contribution of longitudinally polarised
+    intermediate vector bosons to this process.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
+    (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0550-3213(86)90480-3
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Allen:1985ti
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: CC1π+
+    pion_bucket: null
+    measurement_type: total
+    observables: exclusive single-pion production nu p -> mu- p pi+, 5-120 GeV
+    energy_notes: BEBC (WA21), CERN SPS wide-band beams, 5-120 GeV
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - H2
+    topology: CC1π-
+    pion_bucket: null
+    measurement_type: total
+    observables: exclusive single-pion production nu-bar p -> mu+ p pi-
+    energy_notes: null
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - H2
+    topology: CC1K+
+    pion_bucket: null
+    measurement_type: total
+    observables: exclusive single charged-kaon production in nu and nu-bar interactions on protons
+    energy_notes: null
+- bibtag: Allasia:1983qh
+  title: SINGLE PION PRODUCTION IN CHARGED CURRENT ANTI-NEUTRINO D INTERACTIONS AT HIGH-ENERGIES
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1007/BF01573212
+  journal: Z.Phys.C
+  volume: '20'
+  pages: '95'
+  year: 1983
+  published_date: '1983'
+  inspire_recid: 196370
+  citation_count: 22
+  release_status: digitize
+  abstract: The reactions\(\bar vD \to \mu ^ +n\pi ^ -(p_s )\) and\(\bar vD \to \mu ^ +p\pi (n_s )\) have been studied
+    at antineutrino energies varying from 5 to 200 GeV. The cross sections for these reactions were determined from
+    545 and 300 selected events for each channel respectively. The first reaction was used for the study of the
+    decay properties of the Δ resonance that dominates this channel. The experimental results have been compared
+    with the theoretical predictions of Rein and Sehgal [9] and of Fogli and Nardulli [10]. Using the first model
+    we obtained for the axial form factor parameterMa=1.01±0.05 GeV/c2. With this value the model is in agreement
+    with the experimentaldσ/dQ2 distributions forQ2>0.25 GeV2 and with the distributions of the invariant hadronic
+    massW. The isospin structure of the one-pion production has been investigated and compared with the results
+    of other experiments.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
+    (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01573212
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Allasia:1983qh
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - D2
+    topology: CC1π-
+    pion_bucket: null
+    measurement_type: total
+    observables: single-pion CC antineutrino production nu-bar n -> mu+ n pi-(p_s) and nu-bar p -> mu+ p pi-(n_s),
+      5-200 GeV
+    energy_notes: BEBC (WA25) deuterium, CERN SPS wide-band beam, 5-200 GeV
