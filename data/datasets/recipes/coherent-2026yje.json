@@ -1,0 +1,18 @@
+{
+ "bibtag": "COHERENT:2026yje",
+ "slug": "coherent-2026yje",
+ "source_url": "https://arxiv.org/abs/2603.17951",
+ "note": "",
+ "provenance": "COHERENT:2026yje — flux-averaged total CEvNS cross section on germanium (Ge-Mini array), all-flavor SNS stopped-pion (piDAR) beam · target per Ge nucleus · derived from the abstract: the measured/standard-model ratio 1.00 +/- 0.10(stat) +/- 0.10(syst) times the quoted SM expectation 5.9e-39 cm^2 gives (5.9 +/- 0.83)e-39 cm^2, error = SM x sqrt(stat^2+syst^2) · no covariance",
+ "items": [
+  {
+   "slug": "total_xsec_ge",
+   "label": "",
+   "csv": "data/datasets/sources/coherent-2026yje/total_xsec_ge.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-39}cm^2"
+  }
+ ]
+}
