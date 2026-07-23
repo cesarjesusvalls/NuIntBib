@@ -1,0 +1,19 @@
+{
+ "bibtag": "GargamelleNeutrinoPropane:1979kqo",
+ "slug": "gargamelleneutrinopropane-1979kqo",
+ "source": "published (Phys.Lett.B 84 (1979) 281)",
+ "source_url": "https://doi.org/10.1016/0370-2693(79)90303-4",
+ "note": "",
+ "provenance": "GargamelleNeutrinoPropane:1979kqo (Ciampolillo et al.) — average total charged-current cross section per unit energy <sigma>/<E_nu> for nu_mu N, Gargamelle propane exposure at the CERN PS and SPS wide-band beams · per nucleon · two flux-averaged points at mean neutrino energies <E_nu> = 2.87 GeV (PS) and 9.05 GeV (SPS); the errors include both statistical and systematic uncertainties · TRANSCRIBED from the paper (values quoted directly in the abstract/text; not digitized) · from the paper",
+ "items": [
+  {
+   "slug": "sigma_over_e",
+   "label": "\\nu_\\mu N \\to \\mu^- X",
+   "csv": "data/datasets/sources/gargamelleneutrinopropane-1979kqo/sigma_over_e.csv",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma/E_\\nu",
+   "yunit": "10^{-38}cm^2/GeV"
+  }
+ ]
+}
