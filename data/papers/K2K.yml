@@ -83,6 +83,7 @@
   year: 2006
   published_date: 2006-03
   inspire_recid: 712635
+  release_status: abstract
   citation_count: 317
   abstract: The weak nucleon axial-vector form factor for quasi-elastic interactions is determined using
     neutrino interaction data from the K2K Scintillating Fiber detector in the neutrino beam at KEK. More
@@ -158,6 +159,7 @@
   published_date: 2005-06
   inspire_recid: 684207
   citation_count: 240
+  release_status: abstract
   abstract: We report the result from a search for charged-current coherent pion production induced by
     muon neutrinos with a mean energy of 1.3 GeV. The data are collected with a fully active scintillator
     detector in the K2K long-baseline neutrino oscillation experiment. No evidence for coherent pion production

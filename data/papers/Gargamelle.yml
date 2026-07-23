@@ -9,6 +9,7 @@
   year: 1979
   published_date: '1979'
   inspire_recid: 146172
+  release_status: digitize
   citation_count: 101
   abstract: A sample of 766 antineutrino charged current elastic events has been used to extract the variation
     of the elastic cross section with antineutrino energy and the distribution of d N /d q 2 . The best
@@ -42,6 +43,7 @@
   year: 1979
   published_date: 1979-02
   inspire_recid: 7549
+  release_status: digitize
   citation_count: 54
   abstract: Results are presented on the exclusive charged current antineutrino production of one pion
     using the data of the Gargamelle propane experiment at CERN PS. The isospin structure of the charged
@@ -75,6 +77,7 @@
   year: 1978
   published_date: 1977-09
   inspire_recid: 122235
+  release_status: digitize
   citation_count: 136
   abstract: Results are presented on exclusive single-pion production in the bubble chamber Gargamelle,
     filled with a light propane-freon mixture, and exposed to the focused neutrino wide-band beam at the

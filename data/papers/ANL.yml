@@ -1,4 +1,5 @@
 - inspire_recid: 15108
+  release_status: not_xsec
   title: 'Two and Three Pion Production by $\nu_\mu D$ Reactions Near Threshold: The Implications for
     Nucleon Decay Experiments'
   abstract: We use νμ-deuteron reactions into exclusive multipion final states to determine the extent
@@ -130,6 +131,7 @@
     observables: null
     energy_notes: null
 - inspire_recid: 9759
+  release_status: digitize
   title: Study of Single Pion Production by Weak Neutral Currents in Low-energy Neutrino $d$ Interactions
   abstract: Results are presented on single-pion production by the weak neutral current observed in low-energy
     neutrino reactions in deuterium. Cross sections are given for the three exclusive neutral-current

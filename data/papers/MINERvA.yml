@@ -52,6 +52,7 @@
   year: 2026
   published_date: '2026-05-30'
   inspire_recid: 3164246
+  release_status: digitize
   citation_count: 0
   abstract: 'Neutrino charged-current quasielastic-like scattering, a reaction category extensively used
     in neutrino oscillation measurements, receives contributions from single nucleon knockout processes,
@@ -133,6 +134,7 @@
   year: 2025
   published_date: '2025-03-25'
   inspire_recid: 2904418
+  release_status: digitize
   citation_count: 7
   abstract: This MINERvA analysis is the first neutrino and antineutrino study of a shallow inelastic
     scattering region, which is the transition region between resonant production and deep inelastic scattering
@@ -224,6 +226,7 @@
   year: 2024
   published_date: '2023-12-27'
   inspire_recid: 2741241
+  release_status: digitize
   citation_count: 12
   abstract: Accelerator based neutrino oscillation experiments seek to measure the relative number of
     electron and muon neutrinos and antineutrinos at different $L/E$ values. However high statistics studies
@@ -432,6 +435,7 @@
   year: 2023
   published_date: '2023-01-05'
   inspire_recid: 2621204
+  release_status: digitize
   citation_count: 26
   abstract: This paper presents the first simultaneous measurement of the quasielastic-like neutrino-nucleus
     cross sections on C, water, Fe, Pb and scintillator (hydrocarbon or CH) as a function of longitudinal
@@ -1290,6 +1294,7 @@
   year: 2016
   published_date: '2016-06-28'
   inspire_recid: 1473763
+  release_status: digitize
   citation_count: 23
   abstract: Neutrino-induced charged-current coherent kaon production, $\nu_{\mu}A\rightarrow\mu^{-}K^{+}A$,
     is a rare, inelastic electroweak process that brings a $K^+$ on shell and leaves the target nucleus
