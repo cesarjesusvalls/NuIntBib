@@ -1665,6 +1665,47 @@ def _baker_1980pj():
             'provenance': prov + ' · R2 = sigma(mu- n pi+)/sigma(mu- p pi+) vs invariant-mass cut'}}]
 
 
+def _baker_1982ty():
+    """Baker:1982ty (BNL 7-ft deuterium bubble chamber) — total CC cross sections for
+    nu_mu N charged-current interactions, from the HepData record (ins177607).
+    Table 1: sigma/E vs neutrino lab momentum for the isoscalar nucleon (13 points).
+    Table 5: flux-averaged sigma/E for nu_mu n and nu_mu p separately (0.4-10 GeV).
+    Tables 2-4: the ratio sigma(nu n)/sigma(nu p) with no cut, W>1.4, Q^2>0.7."""
+    src = 'HepData'
+    url = 'https://www.hepdata.net/record/ins177607'
+    base = ('Baker:1982ty — total charged-current cross section for nu_mu N in the BNL '
+            '7-ft deuterium bubble chamber (AGS wide-band beam) · per nucleon (isoscalar) '
+            '· from the HepData record (ins177607)')
+    # Table 5: flux-averaged sigma/E per channel, coefficients of 10^-38 cm^2/GeV
+    chan_pts = [{'cat': r'\nu_\mu n \to \mu^- X', 'val': 1.07, 'err': 0.05},
+                {'cat': r'\nu_\mu p \to \mu^- X', 'val': 0.54, 'err': 0.04}]
+    # Tables 2-4: sigma(nu n)/sigma(nu p) under three selections
+    ratio_pts = [{'cat': r'\mathrm{no\ cut}', 'val': 1.95, 'err': 0.10},
+                 {'cat': r'W>1.4\,\mathrm{GeV}', 'val': 1.82, 'err': 0.13},
+                 {'cat': r'Q^2>0.7\,\mathrm{GeV}^2', 'val': 1.79, 'err': 0.15}]
+    return [
+        {'csv_simple': {
+            'key': 'sig_over_e',
+            'items': [{'slug': 'numuN', 'label': r'\nu_\mu N \to \mu^- X',
+                       'csv': 'data/datasets/sources/baker-1982ty/sig_over_e.csv',
+                       'xlabel': 'p_\\nu', 'xunit': 'GeV',
+                       'ylabel': r'\sigma/E_\nu', 'yunit': '10^{-38}cm^2/GeV'}],
+            'source': src, 'source_url': url,
+            'provenance': base + ' · Table 1: sigma/E vs neutrino lab momentum, nu_mu N -> mu- X'}},
+        {'values': {
+            'key': 'sig_over_e_avg', 'ylabel': r'\sigma/E_\nu', 'yunit': '10^{-38}cm^2/GeV',
+            'items': [{'slug': 'chan', 'points': chan_pts}],
+            'source': src, 'source_url': url,
+            'provenance': base + ' · Table 5: flux-averaged sigma/E (E_nu 0.4-10 GeV) for '
+            'nu_mu n and nu_mu p separately'}},
+        {'values': {
+            'key': 'ratio', 'ylabel': r'\sigma(\nu n)/\sigma(\nu p)', 'yunit': '',
+            'items': [{'slug': 'nn_over_np', 'points': ratio_pts}],
+            'source': src, 'source_url': url,
+            'provenance': base + ' · Tables 2-4: ratio sigma(nu n)/sigma(nu p) with no cut, '
+            'with W>1.4 GeV, and with Q^2>0.7 GeV^2'}}]
+
+
 REGISTRY = [
     {'bibtag': 'GargamelleNeutrinoPropane:1977hya',
      'slug': 'gargamelleneutrinopropane-1977hya',
@@ -1673,6 +1714,9 @@ REGISTRY = [
     {'bibtag': 'Baker:1980pj', 'slug': 'baker-1980pj',
      'source': 'published (Phys.Rev.D)', 'note': '',
      'sources': _baker_1980pj()},
+    {'bibtag': 'Baker:1982ty', 'slug': 'baker-1982ty',
+     'source': 'HepData', 'note': '',
+     'sources': _baker_1982ty()},
     {'bibtag': 'Derrick:1980xw', 'slug': 'derrick-1980xw',
      'source': 'published (Phys.Rev.D)', 'note': '',
      'sources': [

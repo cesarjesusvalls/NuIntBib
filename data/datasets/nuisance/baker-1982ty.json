@@ -1,0 +1,247 @@
+{
+ "bibtag": "Baker:1982ty",
+ "slug": "baker-1982ty",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins177607",
+ "arxiv": null,
+ "cite": "Phys.Rev.D 25 617",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sig_over_e_numuN",
+   "slug": "sig_over_e_numuN",
+   "name": "\u03c3/E_\u03bd (\\nu_\\mu N \\to \\mu^- X)",
+   "name_tex": "$\\sigma/E_\\nu\\ (\\nu_\\mu N \\to \\mu^- X)$",
+   "xlabel": "p_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$p_\\nu$",
+   "ylabel": "\u03c3/E_\u03bd",
+   "ylabel_plot": "\u03c3/E_\u03bd",
+   "ylabel_tex": "$\\sigma/E_\\nu$",
+   "yunit": "10^{-38}cm^2/GeV",
+   "yunit_tex": "$10^{-38}cm^2/GeV$",
+   "nbins": 13,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.7,
+     "hi": 0.7,
+     "center": 0.7,
+     "val": 1.09,
+     "err": 0.08
+    },
+    {
+     "i": 1,
+     "lo": 0.9,
+     "hi": 0.9,
+     "center": 0.9,
+     "val": 0.97,
+     "err": 0.07
+    },
+    {
+     "i": 2,
+     "lo": 1.2,
+     "hi": 1.2,
+     "center": 1.2,
+     "val": 0.98,
+     "err": 0.07
+    },
+    {
+     "i": 3,
+     "lo": 1.3,
+     "hi": 1.3,
+     "center": 1.3,
+     "val": 0.85,
+     "err": 0.07
+    },
+    {
+     "i": 4,
+     "lo": 1.6,
+     "hi": 1.6,
+     "center": 1.6,
+     "val": 0.78,
+     "err": 0.06
+    },
+    {
+     "i": 5,
+     "lo": 1.8,
+     "hi": 1.8,
+     "center": 1.8,
+     "val": 0.79,
+     "err": 0.07
+    },
+    {
+     "i": 6,
+     "lo": 2.0,
+     "hi": 2.0,
+     "center": 2.0,
+     "val": 0.8,
+     "err": 0.08
+    },
+    {
+     "i": 7,
+     "lo": 2.7,
+     "hi": 2.7,
+     "center": 2.7,
+     "val": 0.83,
+     "err": 0.08
+    },
+    {
+     "i": 8,
+     "lo": 3.0,
+     "hi": 3.0,
+     "center": 3.0,
+     "val": 0.79,
+     "err": 0.1
+    },
+    {
+     "i": 9,
+     "lo": 3.5,
+     "hi": 3.5,
+     "center": 3.5,
+     "val": 0.91,
+     "err": 0.14
+    },
+    {
+     "i": 10,
+     "lo": 4.0,
+     "hi": 4.0,
+     "center": 4.0,
+     "val": 0.85,
+     "err": 0.17
+    },
+    {
+     "i": 11,
+     "lo": 5.0,
+     "hi": 5.0,
+     "center": 5.0,
+     "val": 0.78,
+     "err": 0.11
+    },
+    {
+     "i": 12,
+     "lo": 7.5,
+     "hi": 7.5,
+     "center": 7.5,
+     "val": 0.7,
+     "err": 0.15
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/baker-1982ty/sig_over_e.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins177607",
+   "provenance": "Baker:1982ty \u2014 total charged-current cross section for nu_mu N in the BNL 7-ft deuterium bubble chamber (AGS wide-band beam) \u00b7 per nucleon (isoscalar) \u00b7 from the HepData record (ins177607) \u00b7 Table 1: sigma/E vs neutrino lab momentum, nu_mu N -> mu- X",
+   "notes": "Per nucleon (isoscalar). Table 1: sigma/E vs neutrino lab momentum, nu_mu N -> mu- X."
+  },
+  {
+   "key": "sig_over_e_avg_chan",
+   "slug": "sig_over_e_avg_chan",
+   "name": "\u03c3/E_\u03bd (chan)",
+   "name_tex": "$\\sigma/E_\\nu$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3/E_\u03bd",
+   "ylabel_plot": "\u03c3/E_\u03bd",
+   "ylabel_tex": "$\\sigma/E_\\nu$",
+   "yunit": "10^{-38}cm^2/GeV",
+   "yunit_tex": "$10^{-38}cm^2/GeV$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 1.07,
+     "err": 0.05,
+     "err_up": 0.05,
+     "err_down": 0.05,
+     "cat_tex": "\\nu_\\mu n \\to \\mu^- X",
+     "cat": "numu n to mu^- X"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.54,
+     "err": 0.04,
+     "err_up": 0.04,
+     "err_down": 0.04,
+     "cat_tex": "\\nu_\\mu p \\to \\mu^- X",
+     "cat": "numu p to mu^- X"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins177607",
+   "provenance": "Baker:1982ty \u2014 total charged-current cross section for nu_mu N in the BNL 7-ft deuterium bubble chamber (AGS wide-band beam) \u00b7 per nucleon (isoscalar) \u00b7 from the HepData record (ins177607) \u00b7 Table 5: flux-averaged sigma/E (E_nu 0.4-10 GeV) for nu_mu n and nu_mu p separately",
+   "notes": "Per nucleon (isoscalar). Table 5: flux-averaged sigma/E (E_nu 0.4-10 GeV) for nu_mu n and nu_mu p separately."
+  },
+  {
+   "key": "ratio_nn_over_np",
+   "slug": "ratio_nn_over_np",
+   "name": "\u03c3(\u03bd n)/\u03c3(\u03bd p) (nn_over_np)",
+   "name_tex": "$\\sigma(\\nu n)/\\sigma(\\nu p)$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3(\u03bd n)/\u03c3(\u03bd p)",
+   "ylabel_plot": "\u03c3(\u03bd n)/\u03c3(\u03bd p)",
+   "ylabel_tex": "$\\sigma(\\nu n)/\\sigma(\\nu p)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 3,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 1.95,
+     "err": 0.1,
+     "err_up": 0.1,
+     "err_down": 0.1,
+     "cat_tex": "\\mathrm{no\\ cut}",
+     "cat": "no cut"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 1.82,
+     "err": 0.13,
+     "err_up": 0.13,
+     "err_down": 0.13,
+     "cat_tex": "W>1.4\\,\\mathrm{GeV}",
+     "cat": "W>1.4 GeV"
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 1.79,
+     "err": 0.15,
+     "err_up": 0.15,
+     "err_down": 0.15,
+     "cat_tex": "Q^2>0.7\\,\\mathrm{GeV}^2",
+     "cat": "Q^2>0.7 GeV^2"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins177607",
+   "provenance": "Baker:1982ty \u2014 total charged-current cross section for nu_mu N in the BNL 7-ft deuterium bubble chamber (AGS wide-band beam) \u00b7 per nucleon (isoscalar) \u00b7 from the HepData record (ins177607) \u00b7 Tables 2-4: ratio sigma(nu n)/sigma(nu p) with no cut, with W>1.4 GeV, and with Q^2>0.7 GeV^2",
+   "notes": "Per nucleon (isoscalar). Tables 2-4: ratio sigma(nu n)/sigma(nu p) with no cut, with W>1.4 GeV, and with Q^2>0.7 GeV^2."
+  }
+ ]
+}

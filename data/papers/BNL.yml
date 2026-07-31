@@ -293,7 +293,6 @@
   published_date: '1982'
   inspire_recid: 177607
   citation_count: 136
-  release_status: digitize
   abstract: The total cross sections for νμn and νμp charged-current interactions and their ratio R=σT(νn)σT(νp)
     have been measured as a function of neutrino energy from 0.4 to 10 GeV. The experiment is performed using the
     BNL 7-foot deuterium bubble chamber exposed to the Alternating Gradient Synchrotron wide-band neutrino beam.
@@ -342,7 +341,7 @@
   published_date: '1990'
   inspire_recid: 304880
   citation_count: 212
-  release_status: digitize
+  release_status: not_xsec
   abstract: The weak nucleon axial-vector (FA) and vector (FV) form factors are determined from the momentum-transfer-squared
     (Q2) distributions using 2538μ−p and 1384μ−Δ++ events. The data were obtained from 1 800 000 pictures taken
     in the BNL 7-foot deuterium-filled bubble chamber exposed to a wide-band neutrino beam with a mean energy Eν=1.6
@@ -368,8 +367,9 @@
     - D2
     topology: CCQE
     pion_bucket: null
-    measurement_type: single-diff
-    observables: quasi-elastic nu d -> mu- p p(s); dsigma/dQ^2 and axial-vector form factor F_A (2538 events)
+    measurement_type: null
+    observables: axial-vector and vector form factors (M_A, M_V) from the Q^2 distribution of
+      quasi-elastic nu d -> mu- p p(s) events; not a released cross section
     energy_notes: BNL 7-ft deuterium bubble chamber, wide-band beam
   - current: CC
     flavor:
@@ -378,6 +378,7 @@
     - D2
     topology: CC1π+
     pion_bucket: null
-    measurement_type: single-diff
-    observables: nu d -> mu- Delta++(1232) n(s); dsigma/dQ^2 and vector form factor (1384 events)
+    measurement_type: null
+    observables: axial-vector mass M_A from the Q^2 distribution of nu d -> mu- Delta++(1232) n(s)
+      events; not a released cross section
     energy_notes: null
