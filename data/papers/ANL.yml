@@ -415,3 +415,50 @@
     observables: observation of strange-particle production (7 events) in nu_mu interactions; includes the first
       observation of associated production by the weak neutral current
     energy_notes: ANL 12-ft bubble chamber
+- bibtag: Barish:1974fe
+  title: Observation of Single Pion Production by a Weak Neutral Current
+  collaboration: ANL
+  arxiv: null
+  doi: 10.1103/PhysRevLett.33.448
+  journal: Phys.Rev.Lett.
+  volume: '33'
+  pages: '448'
+  year: 1974
+  published_date: '1974'
+  inspire_recid: 89586
+  citation_count: 213
+  release_status: digitize
+  abstract: In exposures of the Argonne National Laboratory 12-ft bubble chamber filled with hydrogen and deuterium
+    to a neutrino beam, we have observed events consisting of (1) a single π+ meson originating in the liquid, and
+    (2) a proton with an e+e− pair pointing to it. Only a small fraction of these events can be ascribed to known
+    reactions such as np→nnπ+ and np→npπ0. The remaining events, which correspond to a signal of about 4.5 standard
+    deviations, we ascribe to the reactions νp→νnπ+ and νpπ0.
+  added: '2026-07-31'
+  notes: Added from the Formaggio-Zeller Table XI cross-check. Distinct from the strange-particle Barish:1974ye
+    (PRL 33, 1446); this is the ANL NC single-pion discovery paper (PRL 33, 448). NC/CC single-pion ratios later
+    revised by Derrick:1980xw.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.33.448
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Barish:1974fe
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: NC1π0
+    pion_bucket: pi0
+    measurement_type: ratio
+    observables: NC/CC single-pion ratio sigma(nu p->nu p pi0)/sigma(nu p->mu- p pi+) = 0.51 +/- 0.25
+    energy_notes: ANL 12-ft bubble chamber (H2/D2)
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: NC1π+
+    pion_bucket: pi_charged
+    measurement_type: ratio
+    observables: NC/CC single-pion ratio sigma(nu p->nu n pi+)/sigma(nu p->mu- p pi+) = 0.17 +/- 0.08
+    energy_notes: null
