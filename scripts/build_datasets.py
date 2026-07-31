@@ -1724,7 +1724,7 @@ REGISTRY = [
              'key': 'nccc_ratio', 'ylabel': r'R = \sigma_{\mathrm{NC}}/\sigma_{\mathrm{CC}}', 'yunit': '',
              'items': [{'slug': 'ratios', 'points': [
                  {'cat': r'R_0', 'val': 0.09, 'err': 0.05},
-                 {'cat': r'R_+', 'val': 0.13, 'err': 0.04},
+                 {'cat': r'R_+', 'val': 0.12, 'err': 0.04},
                  {'cat': r'R_-', 'val': 0.11, 'err': 0.022}],
                  'digitization': {
                      'original': '/digitize/derrick-1980xw/original.png',
@@ -1734,8 +1734,8 @@ REGISTRY = [
                              'half-height = error). Right: our detected top/bottom band edges drawn '
                              'as coloured lines (R_0 red, R_+ green, R_- blue); the theory curves vs '
                              'sin^2(theta_W) are excluded. The digitized bands reproduce the paper\'s '
-                             'quoted R_0 = 0.09 +/- 0.05 and R_- = 0.11 +/- 0.022 centres to <=0.1%, '
-                             'which validates the R_+ extraction.'}}],
+                             'quoted R_0 = 0.09 +/- 0.05 and R_- = 0.11 +/- 0.022 centres to <=0.1%, and '
+                             'give R_+ ~ 0.13, confirming the tabulated R_+ = 0.12 +/- 0.04 adopted here.'}}],
              'source': 'published (Phys.Rev.D 23 (1981) 569)',
              'source_url': 'https://doi.org/10.1103/PhysRevD.23.569',
              'provenance': (
@@ -1745,9 +1745,11 @@ REGISTRY = [
                  'R_+ = sigma(nu p->nu n pi+)/sigma(nu p->mu- p pi+), '
                  'R_- = sigma(nu n->nu p pi-)/sigma(nu p->mu- p pi+) · target D2 · '
                  'R_0 and R_- are the values quoted in the paper text (0.09 +/- 0.05 and '
-                 '0.11 +/- 0.022); R_+ is not quoted in the text and was DIGITIZED from the '
-                 'ratio figure (analytical band extraction, overlay-verified — our digitization '
-                 'reproduces the two quoted centres to <=0.1%) · from the paper')}}]},
+                 '0.11 +/- 0.022); R_+ is not quoted in the paper text and is taken from the '
+                 'Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Table XI: '
+                 '0.12 +/- 0.04). Our band digitization of the ratio figure (analytical extraction, '
+                 'overlay-verified) independently reproduces the two quoted centres to <=0.1% and '
+                 'gives R_+ ~ 0.13, consistent with the adopted value · from the paper')}}]},
     {'bibtag': 'NOvA:2026zup', 'slug': 'nova-2026zup', 'source': 'arXiv',
      'note': '',
      'sources': [
