@@ -166,17 +166,6 @@
     measurement_type: total
     observables: exclusive single-pion production nu-bar p -> mu+ p pi-
     energy_notes: null
-  - current: CC
-    flavor:
-    - numu
-    - numubar
-    target:
-    - H2
-    topology: CC1K+
-    pion_bucket: null
-    measurement_type: total
-    observables: exclusive single charged-kaon production in nu and nu-bar interactions on protons
-    energy_notes: null
 - bibtag: Allasia:1983qh
   title: SINGLE PION PRODUCTION IN CHARGED CURRENT ANTI-NEUTRINO D INTERACTIONS AT HIGH-ENERGIES
   collaboration: BEBC

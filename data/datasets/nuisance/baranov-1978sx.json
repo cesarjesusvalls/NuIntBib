@@ -1,0 +1,67 @@
+{
+ "bibtag": "Baranov:1978sx",
+ "slug": "baranov-1978sx",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins130963",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 81 255",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigma_sig_over_e",
+   "slug": "dsigma_sig_over_e",
+   "name": "\u03c3/E_\u03bd (\\nu_\\mu N \\to \\mu^- X)",
+   "name_tex": "$\\sigma/E_\\nu\\ (\\nu_\\mu N \\to \\mu^- X)$",
+   "xlabel": "p_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$p_\\nu$",
+   "ylabel": "\u03c3/E_\u03bd",
+   "ylabel_plot": "\u03c3/E_\u03bd",
+   "ylabel_tex": "$\\sigma/E_\\nu$",
+   "yunit": "10^{-38}cm^2/GeV",
+   "yunit_tex": "$10^{-38}cm^2/GeV$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.0,
+     "hi": 5.0,
+     "center": 4.0,
+     "val": 0.68,
+     "err": 0.07
+    },
+    {
+     "i": 1,
+     "lo": 5.0,
+     "hi": 9.0,
+     "center": 7.0,
+     "val": 0.7,
+     "err": 0.09
+    },
+    {
+     "i": 2,
+     "lo": 9.0,
+     "hi": 16.0,
+     "center": 12.5,
+     "val": 0.86,
+     "err": 0.13
+    },
+    {
+     "i": 3,
+     "lo": 16.0,
+     "hi": 30.0,
+     "center": 23.0,
+     "val": 0.7,
+     "err": 0.15
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/baranov-1978sx/sig_over_e.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins130963",
+   "provenance": "Baranov:1978sx \u2014 measured charged-current total cross section per unit energy sigma/E_nu for nu_mu N (isoscalar nucleon) in the SKAT heavy-freon bubble chamber, Serpukhov \u00b7 four neutrino-momentum bins spanning 3-30 GeV \u00b7 per nucleon \u00b7 from the HepData record (ins130963)",
+   "notes": "Four neutrino-momentum bins spanning 3-30 GeV. Per nucleon."
+  }
+ ]
+}
