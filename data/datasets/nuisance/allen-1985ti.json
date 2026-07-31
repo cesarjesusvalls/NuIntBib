@@ -1,0 +1,262 @@
+{
+ "bibtag": "Allen:1985ti",
+ "slug": "allen-1985ti",
+ "source": "published (Nucl.Phys.B 264 (1986) 221)",
+ "source_url": "https://doi.org/10.1016/0550-3213(86)90480-3",
+ "arxiv": null,
+ "cite": "Nucl.Phys.B 264 221",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_numu_ppi_Wlt2",
+   "slug": "sigma_numu_ppi_Wlt2",
+   "name": "\u03c3 (\\nu p \\to \\mu^- p \\pi^+ \\ (W_{p\\pi}<2))",
+   "name_tex": "$\\sigma\\ (\\nu p \\to \\mu^- p \\pi^+ \\ (W_{p\\pi}<2))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 9.92,
+     "hi": 14.6,
+     "center": 12.26,
+     "val": 66.16,
+     "err": 5.83
+    },
+    {
+     "i": 1,
+     "lo": 15.43,
+     "hi": 19.69,
+     "center": 17.560000000000002,
+     "val": 77.85,
+     "err": 7.32
+    },
+    {
+     "i": 2,
+     "lo": 19.97,
+     "hi": 29.6,
+     "center": 24.785,
+     "val": 64.64,
+     "err": 6.37
+    },
+    {
+     "i": 3,
+     "lo": 30.43,
+     "hi": 49.69,
+     "center": 40.06,
+     "val": 73.83,
+     "err": 9.49
+    },
+    {
+     "i": 4,
+     "lo": 50.38,
+     "hi": 78.44,
+     "center": 64.41,
+     "val": 52.76,
+     "err": 10.85
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allen-1985ti/numu_ppi_Wlt2.csv",
+   "scale_note": null,
+   "source": "published (Nucl.Phys.B 264 (1986) 221)",
+   "source_url": "https://doi.org/10.1016/0550-3213(86)90480-3",
+   "provenance": "Allen:1985ti \u2014 exclusive charged-current single-pion (p pi) production cross section vs (anti)neutrino energy for nu p -> mu- p pi+ and nu-bar p -> mu+ p pi- on protons (hydrogen), BEBC WA21 at the CERN SPS wide-band beams \u00b7 per proton \u00b7 split by the (p pi) invariant mass W(p pi) < 2 GeV (Fig 3) and W(p pi) > 2 GeV (Fig 8) \u00b7 DIGITIZED from Figs 3 and 8 (analytical plot-digitizer; each panel deskewed and calibrated independently from its tick labels, overlay-verified; the Rein-Sehgal model curve is excluded) \u00b7 from the paper",
+   "digitization": {
+    "original": "/digitize/allen-1985ti/fig3.png",
+    "overlay": "/digitize/allen-1985ti/fig3_overlay.png",
+    "note": "Fig 3 of the paper (left): sigma vs E for (p pi) states with W < 2 GeV, panel (a) nu p -> mu- p pi+ and (b) nu-bar p -> mu+ p pi-. Right: the deskewed figure with our extracted points (red markers), sigma error bars (green) and energy bins (blue); the R-S model curve is excluded. Both W<2 distributions here are read from this single figure."
+   },
+   "notes": "Per proton. Split by the (p pi) invariant mass W(p pi) < 2 GeV (Fig 3) and W(p pi) > 2 GeV (Fig 8). DIGITIZED from Figs 3 and 8 (analytical plot-digitizer; each panel deskewed and calibrated independently from its tick labels, overlay-verified; the Rein-Sehgal model curve is excluded). From the paper."
+  },
+  {
+   "key": "sigma_numubar_ppi_Wlt2",
+   "slug": "sigma_numubar_ppi_Wlt2",
+   "name": "\u03c3 (\\bar\\nu p \\to \\mu^+ p \\pi^- \\ (W_{p\\pi}<2))",
+   "name_tex": "$\\sigma\\ (\\bar\\nu p \\to \\mu^+ p \\pi^- \\ (W_{p\\pi}<2))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 9.96,
+     "hi": 14.48,
+     "center": 12.22,
+     "val": 22.73,
+     "err": 4.83
+    },
+    {
+     "i": 1,
+     "lo": 14.89,
+     "hi": 19.81,
+     "center": 17.35,
+     "val": 29.76,
+     "err": 4.63
+    },
+    {
+     "i": 2,
+     "lo": 20.23,
+     "hi": 29.67,
+     "center": 24.950000000000003,
+     "val": 30.9,
+     "err": 4.97
+    },
+    {
+     "i": 3,
+     "lo": 30.08,
+     "hi": 39.8,
+     "center": 34.94,
+     "val": 28.81,
+     "err": 6.74
+    },
+    {
+     "i": 4,
+     "lo": 40.07,
+     "hi": 49.51,
+     "center": 44.79,
+     "val": 32.79,
+     "err": 7.76,
+     "hi_true": 79.5
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allen-1985ti/numubar_ppi_Wlt2.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Nucl.Phys.B 264 (1986) 221)",
+   "source_url": "https://doi.org/10.1016/0550-3213(86)90480-3",
+   "provenance": "Allen:1985ti \u2014 exclusive charged-current single-pion (p pi) production cross section vs (anti)neutrino energy for nu p -> mu- p pi+ and nu-bar p -> mu+ p pi- on protons (hydrogen), BEBC WA21 at the CERN SPS wide-band beams \u00b7 per proton \u00b7 split by the (p pi) invariant mass W(p pi) < 2 GeV (Fig 3) and W(p pi) > 2 GeV (Fig 8) \u00b7 DIGITIZED from Figs 3 and 8 (analytical plot-digitizer; each panel deskewed and calibrated independently from its tick labels, overlay-verified; the Rein-Sehgal model curve is excluded) \u00b7 from the paper",
+   "notes": "Per proton. Split by the (p pi) invariant mass W(p pi) < 2 GeV (Fig 3) and W(p pi) > 2 GeV (Fig 8). DIGITIZED from Figs 3 and 8 (analytical plot-digitizer; each panel deskewed and calibrated independently from its tick labels, overlay-verified; the Rein-Sehgal model curve is excluded). From the paper."
+  },
+  {
+   "key": "sigma_numu_ppi_Wgt2",
+   "slug": "sigma_numu_ppi_Wgt2",
+   "name": "\u03c3 (\\nu p \\to \\mu^- p \\pi^+ \\ (W_{p\\pi}>2))",
+   "name_tex": "$\\sigma\\ (\\nu p \\to \\mu^- p \\pi^+ \\ (W_{p\\pi}>2))$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 9.5,
+     "hi": 19.96,
+     "center": 14.73,
+     "val": 7.61,
+     "err": 2.3
+    },
+    {
+     "i": 1,
+     "lo": 20.15,
+     "hi": 30.24,
+     "center": 25.195,
+     "val": 10.66,
+     "err": 2.78
+    },
+    {
+     "i": 2,
+     "lo": 30.24,
+     "hi": 49.46,
+     "center": 39.85,
+     "val": 9.12,
+     "err": 3.45
+    },
+    {
+     "i": 3,
+     "lo": 50.22,
+     "hi": 99.89,
+     "center": 75.055,
+     "val": 16.62,
+     "err": 6.14
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allen-1985ti/numu_ppi_Wgt2.csv",
+   "scale_note": null,
+   "source": "published (Nucl.Phys.B 264 (1986) 221)",
+   "source_url": "https://doi.org/10.1016/0550-3213(86)90480-3",
+   "provenance": "Allen:1985ti \u2014 exclusive charged-current single-pion (p pi) production cross section vs (anti)neutrino energy for nu p -> mu- p pi+ and nu-bar p -> mu+ p pi- on protons (hydrogen), BEBC WA21 at the CERN SPS wide-band beams \u00b7 per proton \u00b7 split by the (p pi) invariant mass W(p pi) < 2 GeV (Fig 3) and W(p pi) > 2 GeV (Fig 8) \u00b7 DIGITIZED from Figs 3 and 8 (analytical plot-digitizer; each panel deskewed and calibrated independently from its tick labels, overlay-verified; the Rein-Sehgal model curve is excluded) \u00b7 from the paper",
+   "digitization": {
+    "original": "/digitize/allen-1985ti/fig8.png",
+    "overlay": "/digitize/allen-1985ti/fig8_overlay.png",
+    "note": "Fig 8 of the paper (left): sigma vs E for (p pi) states with W > 2 GeV, panel (a) nu and (b) nu-bar. Right: the deskewed figure with our extracted points (red), sigma error bars (green) and energy bins (blue). Both W>2 distributions here are read from this single figure."
+   },
+   "notes": "Per proton. Split by the (p pi) invariant mass W(p pi) < 2 GeV (Fig 3) and W(p pi) > 2 GeV (Fig 8). DIGITIZED from Figs 3 and 8 (analytical plot-digitizer; each panel deskewed and calibrated independently from its tick labels, overlay-verified; the Rein-Sehgal model curve is excluded). From the paper."
+  },
+  {
+   "key": "sigma_numubar_ppi_Wgt2",
+   "slug": "sigma_numubar_ppi_Wgt2",
+   "name": "\u03c3 (\\bar\\nu p \\to \\mu^+ p \\pi^- \\ (W_{p\\pi}>2))",
+   "name_tex": "$\\sigma\\ (\\bar\\nu p \\to \\mu^+ p \\pi^- \\ (W_{p\\pi}>2))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}cm^2",
+   "yunit_tex": "$10^{-40}cm^2$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 9.8,
+     "hi": 19.85,
+     "center": 14.825000000000001,
+     "val": 9.01,
+     "err": 2.3
+    },
+    {
+     "i": 1,
+     "lo": 19.85,
+     "hi": 30.09,
+     "center": 24.97,
+     "val": 11.76,
+     "err": 3.02
+    },
+    {
+     "i": 2,
+     "lo": 29.33,
+     "hi": 39.38,
+     "center": 34.355000000000004,
+     "val": 20.19,
+     "err": 5.08
+    },
+    {
+     "i": 3,
+     "lo": 40.9,
+     "hi": 79.4,
+     "center": 60.150000000000006,
+     "val": 20.0,
+     "err": 5.76
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allen-1985ti/numubar_ppi_Wgt2.csv",
+   "scale_note": null,
+   "source": "published (Nucl.Phys.B 264 (1986) 221)",
+   "source_url": "https://doi.org/10.1016/0550-3213(86)90480-3",
+   "provenance": "Allen:1985ti \u2014 exclusive charged-current single-pion (p pi) production cross section vs (anti)neutrino energy for nu p -> mu- p pi+ and nu-bar p -> mu+ p pi- on protons (hydrogen), BEBC WA21 at the CERN SPS wide-band beams \u00b7 per proton \u00b7 split by the (p pi) invariant mass W(p pi) < 2 GeV (Fig 3) and W(p pi) > 2 GeV (Fig 8) \u00b7 DIGITIZED from Figs 3 and 8 (analytical plot-digitizer; each panel deskewed and calibrated independently from its tick labels, overlay-verified; the Rein-Sehgal model curve is excluded) \u00b7 from the paper",
+   "notes": "Per proton. Split by the (p pi) invariant mass W(p pi) < 2 GeV (Fig 3) and W(p pi) > 2 GeV (Fig 8). DIGITIZED from Figs 3 and 8 (analytical plot-digitizer; each panel deskewed and calibrated independently from its tick labels, overlay-verified; the Rein-Sehgal model curve is excluded). From the paper."
+  }
+ ]
+}
