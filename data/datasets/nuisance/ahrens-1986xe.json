@@ -1,0 +1,171 @@
+{
+ "bibtag": "Ahrens:1986xe",
+ "slug": "ahrens-1986xe",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins18763",
+ "arxiv": null,
+ "cite": "Phys.Rev.D 35 785",
+ "note": "",
+ "distributions": [
+  {
+   "key": "dsigdq2_numu_p",
+   "slug": "dsigdq2_numu_p",
+   "name": "d\u03c3/dQ\u00b2 (\\nu_\\mu p \\to \\nu_\\mu p)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2\\ (\\nu_\\mu p \\to \\nu_\\mu p)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
+   "yunit": "10^{-39}cm^2/GeV^2",
+   "yunit_tex": "$10^{-39}cm^2/GeV^2$",
+   "nbins": 7,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 1.65,
+     "err": 0.11
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 1.09,
+     "err": 0.08
+    },
+    {
+     "i": 2,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 0.803,
+     "err": 0.076
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 0.657,
+     "err": 0.064
+    },
+    {
+     "i": 4,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 0.447,
+     "err": 0.073
+    },
+    {
+     "i": 5,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 0.294,
+     "err": 0.064
+    },
+    {
+     "i": 6,
+     "lo": 1.0,
+     "hi": 1.1,
+     "center": 1.05,
+     "val": 0.205,
+     "err": 0.057
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/ahrens-1986xe/numu_p.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins18763",
+   "provenance": "Ahrens:1986xe (BNL E734) \u2014 absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons) \u00b7 per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar) \u00b7 from the HepData record (ins18763)",
+   "notes": "Ahrens:1986xe (BNL E734) \u2014 absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons). Per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar)."
+  },
+  {
+   "key": "dsigdq2_numubar_p",
+   "slug": "dsigdq2_numubar_p",
+   "name": "d\u03c3/dQ\u00b2 (\\bar\\nu_\\mu p \\to \\bar\\nu_\\mu p)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2\\ (\\bar\\nu_\\mu p \\to \\bar\\nu_\\mu p)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
+   "yunit": "10^{-39}cm^2/GeV^2",
+   "yunit_tex": "$10^{-39}cm^2/GeV^2$",
+   "nbins": 7,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.4,
+     "hi": 0.5,
+     "center": 0.45,
+     "val": 0.756,
+     "err": 0.048
+    },
+    {
+     "i": 1,
+     "lo": 0.5,
+     "hi": 0.6,
+     "center": 0.55,
+     "val": 0.426,
+     "err": 0.026
+    },
+    {
+     "i": 2,
+     "lo": 0.6,
+     "hi": 0.7,
+     "center": 0.6499999999999999,
+     "val": 0.283,
+     "err": 0.021
+    },
+    {
+     "i": 3,
+     "lo": 0.7,
+     "hi": 0.8,
+     "center": 0.75,
+     "val": 0.184,
+     "err": 0.019
+    },
+    {
+     "i": 4,
+     "lo": 0.8,
+     "hi": 0.9,
+     "center": 0.8500000000000001,
+     "val": 0.129,
+     "err": 0.018
+    },
+    {
+     "i": 5,
+     "lo": 0.9,
+     "hi": 1.0,
+     "center": 0.95,
+     "val": 0.108,
+     "err": 0.018
+    },
+    {
+     "i": 6,
+     "lo": 1.0,
+     "hi": 1.1,
+     "center": 1.05,
+     "val": 0.101,
+     "err": 0.024
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/ahrens-1986xe/numubar_p.csv",
+   "scale_note": null,
+   "source": "HepData",
+   "source_url": "https://www.hepdata.net/record/ins18763",
+   "provenance": "Ahrens:1986xe (BNL E734) \u2014 absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons) \u00b7 per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar) \u00b7 from the HepData record (ins18763)",
+   "notes": "Ahrens:1986xe (BNL E734) \u2014 absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons). Per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar)."
+  }
+ ]
+}

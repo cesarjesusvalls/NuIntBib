@@ -1,0 +1,25 @@
+{
+ "bibtag": "Ahrens:1986xe",
+ "slug": "ahrens-1986xe",
+ "key": "dsigdq2",
+ "source": "HepData",
+ "source_url": "https://www.hepdata.net/record/ins18763",
+ "note": "",
+ "provenance": "Ahrens:1986xe (BNL E734) — absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons) · per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar) · from the HepData record (ins18763)",
+ "items": [
+  {
+   "slug": "numu_p",
+   "label": "\\nu_\\mu p \\to \\nu_\\mu p",
+   "csv": "data/datasets/sources/ahrens-1986xe/numu_p.csv",
+   "xlabel": "Q^2", "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2", "yunit": "10^{-39}cm^2/GeV^2"
+  },
+  {
+   "slug": "numubar_p",
+   "label": "\\bar\\nu_\\mu p \\to \\bar\\nu_\\mu p",
+   "csv": "data/datasets/sources/ahrens-1986xe/numubar_p.csv",
+   "xlabel": "Q^2", "xunit": "GeV^2",
+   "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2", "yunit": "10^{-39}cm^2/GeV^2"
+  }
+ ]
+}

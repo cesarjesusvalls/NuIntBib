@@ -381,3 +381,48 @@
     observables: axial-vector mass M_A from the Q^2 distribution of nu d -> mu- Delta++(1232) n(s)
       events; not a released cross section
     energy_notes: null
+- bibtag: Ahrens:1986xe
+  title: Measurement of Neutrino - Proton and anti-neutrino - Proton Elastic Scattering
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.35.785
+  journal: Phys.Rev.D
+  volume: '35'
+  pages: '785'
+  year: 1987
+  published_date: '1987'
+  inspire_recid: 18763
+  citation_count: 546
+  abstract: Measurements of the semileptonic weak-neutral-current reactions νμp→νμp and ν¯μp→ν¯μp are presented.
+    The experiment was performed using a 170-metric-ton high-resolution target detector in the BNL wide-band neutrino
+    beam. High-statistics samples yield the absolute differential cross sections dσ(νμp)/dQ2 and dσ(ν¯μp)/dQ2. A
+    measurement of the axial-vector form factor GA(Q2) is also presented. The results are in good agreement with
+    the standard model SU(2)×U(1). The weak-neutral-current parameter sin2thetaW is determined to be sin2θW=0.220±0.016(stat)−0.031+0.023(syst).
+  added: '2026-07-31'
+  notes: 'Added from the Formaggio-Zeller NC-elastic thread: the BNL-E734 NC/CC ratio (~0.15) and dsigma/dQ^2 trace
+    to this paper, not to the axial-mass Ahrens:1988rr.'
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.35.785
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ahrens:1986xe
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: NCE
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: absolute dsigma/dQ^2 for NC elastic nu_mu p -> nu_mu p; axial-vector form factor G_A(Q^2) and sin^2(theta_W)
+    energy_notes: BNL E734, wide-band beam, mean E_nu ~ 0.8 GeV
+  - current: NC
+    flavor:
+    - numubar
+    target:
+    - H2
+    topology: NCE
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: absolute dsigma/dQ^2 for NC elastic nu-bar_mu p -> nu-bar_mu p
+    energy_notes: null
