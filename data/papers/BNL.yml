@@ -262,7 +262,12 @@
     and R¯0′=σ(ν¯μN→ν¯μN′π0)2σ(ν¯μN→μ+N′′π0) to be 0.17±0.04 and 0.39±0.18, respectively. We also present
     the π0p invariant-mass distribution of the neutrino-induced reactions.
   added: '2026-06-16'
-  notes: Imported from PhD thesis Chapter 3 classification tables.
+  notes: 'Target corrected D2 -> Al (2026-07-31): this is the W. Lee BNL-AGS counter experiment
+    on an aluminum target (reactions on generic nucleons N with the isoscalar factor-of-2),
+    not a deuterium bubble chamber; consistent with Formaggio-Zeller Table XI (BNL, Al). The NC/CC
+    pi0 ratio R0''=0.17+/-0.04 was later reanalyzed in P.J. Nienaber''s 1988 PhD thesis
+    (Nienaber:1988js), which corrected multi-pion backgrounds and found a larger value 0.25+/-0.09
+    (FZ Table XI); that thesis reanalysis is intentionally not a separate nubib entry.'
   links:
     arxiv: null
     doi: https://doi.org/10.1103/PhysRevLett.38.202
@@ -273,11 +278,11 @@
     - numu
     - numubar
     target:
-    - D2
+    - Al
     topology: NC1π0
-    pion_bucket: null
-    measurement_type: null
-    observables: null
+    pion_bucket: pi0
+    measurement_type: ratio
+    observables: NC/CC single-pi0 ratios R0'=0.17+/-0.04 (nu) and R0bar'=0.39+/-0.18 (nubar)
     energy_notes: null
 - bibtag: Baker:1982ty
   title: Total Cross-sections for Muon-neutrino $N$ and Muon-neutrino $P$ Charged Current Interactions in the 7-ft
