@@ -120,7 +120,7 @@
    "digitization": {
     "original": "/digitize/armenise-1979zg/original.png",
     "overlay": "/digitize/armenise-1979zg/overlay.png",
-    "note": "Fig 4 of the paper, deskewed +0.55 deg to remove scan tilt (left); our 11 extracted points (green) with vertical error bars (red) overlaid (right). The M_A=0.84 theory curve and text were excluded; markers land on the printed dots uniformly across the plot."
+    "note": ""
    },
    "notes": "The M_A=0.84 theory curve is excluded."
   }

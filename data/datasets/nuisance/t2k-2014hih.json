@@ -72,7 +72,7 @@
    "digitization": {
     "original": "/digitize/t2k-2014hih/original.png",
     "overlay": "/digitize/t2k-2014hih/overlay.png",
-    "note": "Fig 7 of the paper (left); our extracted points + errors overlaid in cyan (right); the digitized data below. Values are the black cross markers; error bars are sqrt(frac_ii) x the pre-fit NEUT nominal."
+    "note": ""
    },
    "notes": "Sigma(E_nu) per target neutron. Central values DIGITIZED from Fig 7 (analytical digitizer). Covariance = fractional covariance (Table) x pre-fit NEUT nominal_i*nominal_j."
   }

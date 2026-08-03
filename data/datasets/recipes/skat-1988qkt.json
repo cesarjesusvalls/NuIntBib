@@ -11,33 +11,42 @@
    "slug": "numu_n_cc1pi0",
    "label": "\\nu_\\mu n \\to \\mu^- p \\pi^0",
    "csv": "data/datasets/sources/skat-1988qkt/cc1pi0_n.csv",
-   "xlabel": "E_\\nu", "xunit": "GeV", "ylabel": "\\sigma", "yunit": "10^{-38}cm^2",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2",
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig14.png",
     "overlay": "/digitize/skat-1988qkt/fig14_overlay.png",
-    "note": "Formaggio-Zeller Fig 14 — SKAT is the asterisk series; all other experiments and the NUANCE curve are excluded."
+    "note": ""
    }
   },
   {
    "slug": "numu_n_cc1piplus",
    "label": "\\nu_\\mu n \\to \\mu^- n \\pi^+",
    "csv": "data/datasets/sources/skat-1988qkt/cc1piplus_n.csv",
-   "xlabel": "E_\\nu", "xunit": "GeV", "ylabel": "\\sigma", "yunit": "10^{-38}cm^2",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2",
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig15.png",
     "overlay": "/digitize/skat-1988qkt/fig15_overlay.png",
-    "note": "Formaggio-Zeller Fig 15 — SKAT asterisk series."
+    "note": ""
    }
   },
   {
    "slug": "numu_p_cc1piplus",
    "label": "\\nu_\\mu p \\to \\mu^- p \\pi^+",
    "csv": "data/datasets/sources/skat-1988qkt/cc1piplus_p.csv",
-   "xlabel": "E_\\nu", "xunit": "GeV", "ylabel": "\\sigma", "yunit": "10^{-38}cm^2",
+   "xlabel": "E_\\nu",
+   "xunit": "GeV",
+   "ylabel": "\\sigma",
+   "yunit": "10^{-38}cm^2",
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig13.png",
     "overlay": "/digitize/skat-1988qkt/fig13_overlay.png",
-    "note": "Formaggio-Zeller Fig 13 (the most crowded panel) — SKAT asterisk series; includes the E~24 GeV point recovered on review."
+    "note": ""
    }
   }
  ]

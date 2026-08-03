@@ -1666,10 +1666,7 @@ def _baker_1980pj():
             'R1-vs-R2 plane, overlay-verified) · target D2 · from the paper')
     digi = {'original': '/digitize/baker-1980pj/original.png',
             'overlay': '/digitize/baker-1980pj/overlay.png',
-            'note': 'Fig 4 of the paper (left); our three extracted THIS-EXPERIMENT points '
-                    '(green = no cut, red = M_Npi<1.6, blue = M_Npi<1.4) with error bars '
-                    'overlaid (right). Both R1 and R2 for all three cuts are read from this '
-                    'single 2-D figure; the theory (eta, psi) contours are excluded.'}
+            'note': ''}
     return [
         {'values': {
             'key': 'r1', 'ylabel': r'R_1 = \sigma(\mu^-p\pi^0)/\sigma(\mu^-p\pi^+)', 'yunit': '',
@@ -1747,13 +1744,7 @@ REGISTRY = [
                  'digitization': {
                      'original': '/digitize/derrick-1980xw/original.png',
                      'overlay': '/digitize/derrick-1980xw/overlay.png',
-                     'note': 'Fig of the paper: the three cross-hatched horizontal bands are the '
-                             'measured NC/CC single-pion ratios R_0, R_+, R_- (band centre = value, '
-                             'half-height = error). Right: our detected top/bottom band edges drawn '
-                             'as coloured lines (R_0 red, R_+ green, R_- blue); the theory curves vs '
-                             'sin^2(theta_W) are excluded. The digitized bands reproduce the paper\'s '
-                             'quoted R_0 = 0.09 +/- 0.05 and R_- = 0.11 +/- 0.022 centres to <=0.1%, and '
-                             'give R_+ ~ 0.13, confirming the tabulated R_+ = 0.12 +/- 0.04 adopted here.'}}],
+                     'note': ''}}],
              'source': 'published (Phys.Rev.D 23 (1981) 569)',
              'source_url': 'https://doi.org/10.1103/PhysRevD.23.569',
              'provenance': (
@@ -2325,9 +2316,7 @@ REGISTRY = [
          'digitization': {
              'original': '/digitize/t2k-2014hih/original.png',
              'overlay': '/digitize/t2k-2014hih/overlay.png',
-             'note': 'Fig 7 of the paper (left); our extracted points + errors overlaid in '
-                     'cyan (right); the digitized data below. Values are the black cross '
-                     'markers; error bars are sqrt(frac_ii) x the pre-fit NEUT nominal.'}}}]},
+             'note': ''}}}]},
     {'bibtag': 'T2K:2016cbz', 'slug': 't2k-2016cbz',
      'flux': {'root': 'data/T2K/CC1pip/H2O/nd280data-numu-cc1pi-xs-on-h2o-2015.root',
               'hists': [('numu_flux', 'numu')],

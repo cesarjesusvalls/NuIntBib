@@ -80,7 +80,7 @@
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig14.png",
     "overlay": "/digitize/skat-1988qkt/fig14_overlay.png",
-    "note": "Formaggio-Zeller Fig 14 \u2014 SKAT is the asterisk series; all other experiments and the NUANCE curve are excluded."
+    "note": ""
    },
    "notes": "The SKAT data is easier to digitize in the Formaggio-Zeller review (Figs 13-15), so we digitized them from there.."
   },
@@ -149,7 +149,7 @@
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig15.png",
     "overlay": "/digitize/skat-1988qkt/fig15_overlay.png",
-    "note": "Formaggio-Zeller Fig 15 \u2014 SKAT asterisk series."
+    "note": ""
    },
    "notes": "The SKAT data is easier to digitize in the Formaggio-Zeller review (Figs 13-15), so we digitized them from there.."
   },
@@ -218,7 +218,7 @@
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig13.png",
     "overlay": "/digitize/skat-1988qkt/fig13_overlay.png",
-    "note": "Formaggio-Zeller Fig 13 (the most crowded panel) \u2014 SKAT asterisk series; includes the E~24 GeV point recovered on review."
+    "note": ""
    },
    "notes": "The SKAT data is easier to digitize in the Formaggio-Zeller review (Figs 13-15), so we digitized them from there.."
   }

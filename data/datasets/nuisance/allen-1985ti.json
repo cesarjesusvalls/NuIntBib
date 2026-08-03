@@ -72,7 +72,7 @@
    "digitization": {
     "original": "/digitize/allen-1985ti/fig3.png",
     "overlay": "/digitize/allen-1985ti/fig3_overlay.png",
-    "note": "Fig 3 of the paper (left): sigma vs E for (p pi) states with W < 2 GeV, panel (a) nu p -> mu- p pi+ and (b) nu-bar p -> mu+ p pi-. Right: the deskewed figure with our extracted points (red markers), sigma error bars (green) and energy bins (blue); the R-S model curve is excluded. Both W<2 distributions here are read from this single figure."
+    "note": ""
    },
    "notes": ""
   },
@@ -198,7 +198,7 @@
    "digitization": {
     "original": "/digitize/allen-1985ti/fig8.png",
     "overlay": "/digitize/allen-1985ti/fig8_overlay.png",
-    "note": "Fig 8 of the paper (left): sigma vs E for (p pi) states with W > 2 GeV, panel (a) nu and (b) nu-bar. Right: the deskewed figure with our extracted points (red), sigma error bars (green) and energy bins (blue). Both W>2 distributions here are read from this single figure."
+    "note": ""
    },
    "notes": ""
   },

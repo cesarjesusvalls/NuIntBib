@@ -68,7 +68,7 @@
    "digitization": {
     "original": "/digitize/derrick-1980xw/original.png",
     "overlay": "/digitize/derrick-1980xw/overlay.png",
-    "note": "Fig of the paper: the three cross-hatched horizontal bands are the measured NC/CC single-pion ratios R_0, R_+, R_- (band centre = value, half-height = error). Right: our detected top/bottom band edges drawn as coloured lines (R_0 red, R_+ green, R_- blue); the theory curves vs sin^2(theta_W) are excluded. The digitized bands reproduce the paper's quoted R_0 = 0.09 +/- 0.05 and R_- = 0.11 +/- 0.022 centres to <=0.1%, and give R_+ ~ 0.13, confirming the tabulated R_+ = 0.12 +/- 0.04 adopted here."
+    "note": ""
    },
    "notes": "R_0 and R_- are the values quoted in the paper text (0.09 +/- 0.05 and 0.11 +/- 0.022); R_+ is not quoted in the paper text and is taken from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Table XI: 0.12 +/- 0.04). Our band digitization of the ratio figure (analytical extraction, overlay-verified) independently reproduces the two quoted centres to <=0.1% and gives R_+ ~ 0.13, consistent with the adopted value."
   }

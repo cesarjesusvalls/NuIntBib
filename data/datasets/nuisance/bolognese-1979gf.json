@@ -81,7 +81,7 @@
    "digitization": {
     "original": "/digitize/bolognese-1979gf/fig2.png",
     "overlay": "/digitize/bolognese-1979gf/fig2a_overlay.png",
-    "note": "Fig 2(a): total sigma(E) for the exclusive channel, no invariant-mass cut. Deskewed panel with our 6 extracted points + error bars overlaid; model curves excluded."
+    "note": ""
    },
    "notes": ""
   },
@@ -151,7 +151,7 @@
    "digitization": {
     "original": "/digitize/bolognese-1979gf/fig2.png",
     "overlay": "/digitize/bolognese-1979gf/fig2b_overlay.png",
-    "note": "Fig 2(b): same channel with the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. Deskewed panel with our 5 extracted points overlaid."
+    "note": ""
    },
    "notes": ""
   },
@@ -229,7 +229,7 @@
    "digitization": {
     "original": "/digitize/bolognese-1979gf/fig3.png",
     "overlay": "/digitize/bolognese-1979gf/fig3a_overlay.png",
-    "note": "Fig 3(a): total sigma(E) for inclusive pi^- exclusive production, no cut. Deskewed panel with our 6 extracted points overlaid; model curves excluded."
+    "note": ""
    },
    "notes": ""
   },
@@ -299,7 +299,7 @@
    "digitization": {
     "original": "/digitize/bolognese-1979gf/fig3.png",
     "overlay": "/digitize/bolognese-1979gf/fig3b_overlay.png",
-    "note": "Fig 3(b): same with the cut W_{piN} <= 1.4 GeV/c^2. Deskewed panel with our 5 extracted points overlaid."
+    "note": ""
    },
    "notes": ""
   }
