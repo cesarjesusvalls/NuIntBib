@@ -1,0 +1,226 @@
+{
+ "bibtag": "SKAT:1988qkt",
+ "slug": "skat-1988qkt",
+ "source": "published (Rev.Mod.Phys. 84 (2012) 1307)",
+ "source_url": "https://doi.org/10.1103/RevModPhys.84.1307",
+ "arxiv": null,
+ "cite": "Z.Phys.C 41 527",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_numu_n_cc1pi0",
+   "slug": "sigma_numu_n_cc1pi0",
+   "name": "\u03c3 (\\nu_\\mu n \\to \\mu^- p \\pi^0)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu n \\to \\mu^- p \\pi^0)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.766,
+     "hi": 3.766,
+     "center": 3.766,
+     "val": 0.2504,
+     "err": 0.0609
+    },
+    {
+     "i": 1,
+     "lo": 4.485,
+     "hi": 4.485,
+     "center": 4.485,
+     "val": 0.2336,
+     "err": 0.0714
+    },
+    {
+     "i": 2,
+     "lo": 5.513,
+     "hi": 5.513,
+     "center": 5.513,
+     "val": 0.2588,
+     "err": 0.0714
+    },
+    {
+     "i": 3,
+     "lo": 6.996,
+     "hi": 6.996,
+     "center": 6.996,
+     "val": 0.2966,
+     "err": 0.0609
+    },
+    {
+     "i": 4,
+     "lo": 8.877,
+     "hi": 8.877,
+     "center": 8.877,
+     "val": 0.3176,
+     "err": 0.0714
+    },
+    {
+     "i": 5,
+     "lo": 17.023,
+     "hi": 17.023,
+     "center": 17.023,
+     "val": 0.5571,
+     "err": 0.1513
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/skat-1988qkt/cc1pi0_n.csv",
+   "scale_note": null,
+   "source": "published (Rev.Mod.Phys. 84 (2012) 1307)",
+   "source_url": "https://doi.org/10.1103/RevModPhys.84.1307",
+   "provenance": "SKAT:1988qkt (Grabosch et al., Z.Phys.C 41 (1989) 527) \u2014 charged-current single-pion production cross sections for nu_mu on the SKAT freon (CF3Br) bubble chamber: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+ \u00b7 per nucleon \u00b7 SECOND-HAND DIGITIZATION: the SKAT points were extracted from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Figs 14, 15, 13), which themselves reproduce the SKAT data (originally digitized by that review from the SKAT paper); we did NOT read the SKAT paper's own figures \u00b7 in each compilation panel the SKAT markers are asterisks overlaid on several other experiments \u2014 they were isolated by marker shape (star-template score + fill-fraction cut) and overlay-verified, discarding all other series and the model curve \u00b7 from the compilation figures",
+   "digitization": {
+    "original": "/digitize/skat-1988qkt/fig14.png",
+    "overlay": "/digitize/skat-1988qkt/fig14_overlay.png",
+    "note": "Formaggio-Zeller Fig 14 (left); right: the panel with our extracted SKAT points (red rings + error bars). SKAT is the asterisk series; all other experiments and the NUANCE curve are excluded."
+   },
+   "notes": "SKAT:1988qkt (Grabosch et al., Z.Phys.C 41 (1989) 527) \u2014 charged-current single-pion production cross sections for nu_mu on the SKAT freon (CF3Br) bubble chamber: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+. Per nucleon. SECOND-HAND DIGITIZATION: the SKAT points were extracted from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Figs 14, 15, 13), which themselves reproduce the SKAT data (originally digitized by that review from the SKAT paper); we did NOT read the SKAT paper's own figures. In each compilation panel the SKAT markers are asterisks overlaid on several other experiments \u2014 they were isolated by marker shape (star-template score + fill-fraction cut) and overlay-verified, discarding all other series and the model curve. From the compilation figures."
+  },
+  {
+   "key": "sigma_numu_n_cc1piplus",
+   "slug": "sigma_numu_n_cc1piplus",
+   "name": "\u03c3 (\\nu_\\mu n \\to \\mu^- n \\pi^+)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu n \\to \\mu^- n \\pi^+)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 3.484,
+     "hi": 3.484,
+     "center": 3.484,
+     "val": 0.3763,
+     "err": 0.1028
+    },
+    {
+     "i": 1,
+     "lo": 4.211,
+     "hi": 4.211,
+     "center": 4.211,
+     "val": 0.2714,
+     "err": 0.0902
+    },
+    {
+     "i": 2,
+     "lo": 5.09,
+     "hi": 5.09,
+     "center": 5.09,
+     "val": 0.3805,
+     "err": 0.1406
+    },
+    {
+     "i": 3,
+     "lo": 6.981,
+     "hi": 6.981,
+     "center": 6.981,
+     "val": 0.3469,
+     "err": 0.1028
+    },
+    {
+     "i": 4,
+     "lo": 11.945,
+     "hi": 11.945,
+     "center": 11.945,
+     "val": 0.3091,
+     "err": 0.0818
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/skat-1988qkt/cc1piplus_n.csv",
+   "scale_note": null,
+   "source": "published (Rev.Mod.Phys. 84 (2012) 1307)",
+   "source_url": "https://doi.org/10.1103/RevModPhys.84.1307",
+   "provenance": "SKAT:1988qkt (Grabosch et al., Z.Phys.C 41 (1989) 527) \u2014 charged-current single-pion production cross sections for nu_mu on the SKAT freon (CF3Br) bubble chamber: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+ \u00b7 per nucleon \u00b7 SECOND-HAND DIGITIZATION: the SKAT points were extracted from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Figs 14, 15, 13), which themselves reproduce the SKAT data (originally digitized by that review from the SKAT paper); we did NOT read the SKAT paper's own figures \u00b7 in each compilation panel the SKAT markers are asterisks overlaid on several other experiments \u2014 they were isolated by marker shape (star-template score + fill-fraction cut) and overlay-verified, discarding all other series and the model curve \u00b7 from the compilation figures",
+   "digitization": {
+    "original": "/digitize/skat-1988qkt/fig15.png",
+    "overlay": "/digitize/skat-1988qkt/fig15_overlay.png",
+    "note": "Formaggio-Zeller Fig 15 (left); right: our extracted SKAT asterisk points (red)."
+   },
+   "notes": "SKAT:1988qkt (Grabosch et al., Z.Phys.C 41 (1989) 527) \u2014 charged-current single-pion production cross sections for nu_mu on the SKAT freon (CF3Br) bubble chamber: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+. Per nucleon. SECOND-HAND DIGITIZATION: the SKAT points were extracted from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Figs 14, 15, 13), which themselves reproduce the SKAT data (originally digitized by that review from the SKAT paper); we did NOT read the SKAT paper's own figures. In each compilation panel the SKAT markers are asterisks overlaid on several other experiments \u2014 they were isolated by marker shape (star-template score + fill-fraction cut) and overlay-verified, discarding all other series and the model curve. From the compilation figures."
+  },
+  {
+   "key": "sigma_numu_p_cc1piplus",
+   "slug": "sigma_numu_p_cc1piplus",
+   "name": "\u03c3 (\\nu_\\mu p \\to \\mu^- p \\pi^+)",
+   "name_tex": "$\\sigma\\ (\\nu_\\mu p \\to \\mu^- p \\pi^+)$",
+   "xlabel": "E_\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_\\nu$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 5,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 4.703,
+     "hi": 4.703,
+     "center": 4.703,
+     "val": 0.7806,
+     "err": 0.1828
+    },
+    {
+     "i": 1,
+     "lo": 7.555,
+     "hi": 7.555,
+     "center": 7.555,
+     "val": 0.5832,
+     "err": 0.1609
+    },
+    {
+     "i": 2,
+     "lo": 11.945,
+     "hi": 11.945,
+     "center": 11.945,
+     "val": 0.5759,
+     "err": 0.1536
+    },
+    {
+     "i": 3,
+     "lo": 14.902,
+     "hi": 14.902,
+     "center": 14.902,
+     "val": 1.0292,
+     "err": 0.2303
+    },
+    {
+     "i": 4,
+     "lo": 23.94,
+     "hi": 23.94,
+     "center": 23.94,
+     "val": 0.795,
+     "err": 0.332
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/skat-1988qkt/cc1piplus_p.csv",
+   "scale_note": null,
+   "source": "published (Rev.Mod.Phys. 84 (2012) 1307)",
+   "source_url": "https://doi.org/10.1103/RevModPhys.84.1307",
+   "provenance": "SKAT:1988qkt (Grabosch et al., Z.Phys.C 41 (1989) 527) \u2014 charged-current single-pion production cross sections for nu_mu on the SKAT freon (CF3Br) bubble chamber: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+ \u00b7 per nucleon \u00b7 SECOND-HAND DIGITIZATION: the SKAT points were extracted from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Figs 14, 15, 13), which themselves reproduce the SKAT data (originally digitized by that review from the SKAT paper); we did NOT read the SKAT paper's own figures \u00b7 in each compilation panel the SKAT markers are asterisks overlaid on several other experiments \u2014 they were isolated by marker shape (star-template score + fill-fraction cut) and overlay-verified, discarding all other series and the model curve \u00b7 from the compilation figures",
+   "digitization": {
+    "original": "/digitize/skat-1988qkt/fig13.png",
+    "overlay": "/digitize/skat-1988qkt/fig13_overlay.png",
+    "note": "Formaggio-Zeller Fig 13 (left, the most crowded panel); right: our extracted SKAT asterisk points (red), including the E~24 GeV point recovered on review."
+   },
+   "notes": "SKAT:1988qkt (Grabosch et al., Z.Phys.C 41 (1989) 527) \u2014 charged-current single-pion production cross sections for nu_mu on the SKAT freon (CF3Br) bubble chamber: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+. Per nucleon. SECOND-HAND DIGITIZATION: the SKAT points were extracted from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Figs 14, 15, 13), which themselves reproduce the SKAT data (originally digitized by that review from the SKAT paper); we did NOT read the SKAT paper's own figures. In each compilation panel the SKAT markers are asterisks overlaid on several other experiments \u2014 they were isolated by marker shape (star-template score + fill-fraction cut) and overlay-verified, discarding all other series and the model curve. From the compilation figures."
+  }
+ ]
+}
