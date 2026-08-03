@@ -5,7 +5,7 @@
  "source": "published (Rev.Mod.Phys. 84 (2012) 1307)",
  "source_url": "https://doi.org/10.1103/RevModPhys.84.1307",
  "note": "",
- "provenance": "SKAT:1988qkt (Grabosch et al., Z.Phys.C 41 (1989) 527) — charged-current single-pion production cross sections for nu_mu on the SKAT freon (CF3Br) bubble chamber: nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, and nu_mu p -> mu- p pi+ · per nucleon · SECOND-HAND DIGITIZATION: the SKAT points were extracted from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Figs 14, 15, 13), which themselves reproduce the SKAT data (originally digitized by that review from the SKAT paper); we did NOT read the SKAT paper's own figures · in each compilation panel the SKAT markers are asterisks overlaid on several other experiments — they were isolated by marker shape (star-template score + fill-fraction cut) and overlay-verified, discarding all other series and the model curve · from the compilation figures",
+ "provenance": "The SKAT data is easier to digitize in the Formaggio-Zeller review (Figs 13-15), so we digitized them from there.",
  "items": [
   {
    "slug": "numu_n_cc1pi0",
@@ -15,7 +15,7 @@
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig14.png",
     "overlay": "/digitize/skat-1988qkt/fig14_overlay.png",
-    "note": "Formaggio-Zeller Fig 14 (left); right: the panel with our extracted SKAT points (red rings + error bars). SKAT is the asterisk series; all other experiments and the NUANCE curve are excluded."
+    "note": "Formaggio-Zeller Fig 14 — SKAT is the asterisk series; all other experiments and the NUANCE curve are excluded."
    }
   },
   {
@@ -26,7 +26,7 @@
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig15.png",
     "overlay": "/digitize/skat-1988qkt/fig15_overlay.png",
-    "note": "Formaggio-Zeller Fig 15 (left); right: our extracted SKAT asterisk points (red)."
+    "note": "Formaggio-Zeller Fig 15 — SKAT asterisk series."
    }
   },
   {
@@ -37,7 +37,7 @@
    "digitization": {
     "original": "/digitize/skat-1988qkt/fig13.png",
     "overlay": "/digitize/skat-1988qkt/fig13_overlay.png",
-    "note": "Formaggio-Zeller Fig 13 (left, the most crowded panel); right: our extracted SKAT asterisk points (red), including the E~24 GeV point recovered on review."
+    "note": "Formaggio-Zeller Fig 13 (the most crowded panel) — SKAT asterisk series; includes the E~24 GeV point recovered on review."
    }
   }
  ]

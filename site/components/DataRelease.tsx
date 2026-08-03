@@ -418,7 +418,7 @@ export function DataRelease({ release }: { release: Release }) {
                         </figure>
                         <figure>
                           <img src={d.digitization.overlay} alt="Our extracted points and errors overlaid on the paper figure" loading="lazy" />
-                          <figcaption>Our extraction overlaid (cyan)</figcaption>
+                          <figcaption>Our extraction overlaid</figcaption>
                         </figure>
                       </div>
                       {d.digitization.note && <p className="dr-digi-note">{d.digitization.note}</p>}
