@@ -1750,6 +1750,27 @@ REGISTRY = [
                  '0.12 +/- 0.04). Our band digitization of the ratio figure (analytical extraction, '
                  'overlay-verified) independently reproduces the two quoted centres to <=0.1% and '
                  'gives R_+ ~ 0.13, consistent with the adopted value · from the paper')}}]},
+    {'bibtag': 'Barish:1974fe', 'slug': 'barish-1974fe',
+     'source': 'published (Phys.Rev.Lett.)', 'note': '',
+     'sources': [
+         {'values': {
+             'key': 'nccc_ratio', 'ylabel': r'R = \sigma_{\mathrm{NC}}/\sigma_{\mathrm{CC}}', 'yunit': '',
+             'items': [{'slug': 'ratios', 'points': [
+                 {'cat': r'R_0', 'val': 0.51, 'err': 0.25},
+                 {'cat': r'R_+', 'val': 0.17, 'err': 0.08}]}],
+             'source': 'published (Phys.Rev.Lett. 33 (1974) 448)',
+             'source_url': 'https://doi.org/10.1103/PhysRevLett.33.448',
+             'provenance': (
+                 'Barish:1974fe — ANL 12-ft bubble chamber (H2/D2), wide-band nu beam · '
+                 'first observation of neutral-current single-pion production · '
+                 'NC/CC single-pion ratios on the proton: '
+                 'R_0 = sigma(nu p->nu p pi0)/sigma(nu p->mu- p pi+) = 0.51 +/- 0.25 and '
+                 'R_+ = sigma(nu p->nu n pi+)/sigma(nu p->mu- p pi+) = 0.17 +/- 0.08 · '
+                 'TRANSCRIBED from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 '
+                 '(2012) 1307, Table XI), which tabulates these values from the paper (not '
+                 'digitized) · these early discovery-era ratios were later superseded by the '
+                 'higher-statistics Derrick:1980xw (R_0 = 0.09 +/- 0.05, R_+ = 0.12 +/- 0.04) · '
+                 'from the paper')}}]},
     {'bibtag': 'NOvA:2026zup', 'slug': 'nova-2026zup', 'source': 'arXiv',
      'note': '',
      'sources': [

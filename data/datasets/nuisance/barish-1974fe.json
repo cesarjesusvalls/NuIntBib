@@ -1,0 +1,59 @@
+{
+ "bibtag": "Barish:1974fe",
+ "slug": "barish-1974fe",
+ "source": "published (Phys.Rev.Lett. 33 (1974) 448)",
+ "source_url": "https://doi.org/10.1103/PhysRevLett.33.448",
+ "arxiv": null,
+ "cite": "Phys.Rev.Lett. 33 448",
+ "note": "",
+ "distributions": [
+  {
+   "key": "nccc_ratio_ratios",
+   "slug": "nccc_ratio_ratios",
+   "name": "R = \u03c3_NC/\u03c3_CC (ratios)",
+   "name_tex": "$R = \\sigma_{\\mathrm{NC}}/\\sigma_{\\mathrm{CC}}$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "R = \u03c3_NC/\u03c3_CC",
+   "ylabel_plot": "R = \u03c3_NC/\u03c3_CC",
+   "ylabel_tex": "$R = \\sigma_{\\mathrm{NC}}/\\sigma_{\\mathrm{CC}}$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.51,
+     "err": 0.25,
+     "err_up": 0.25,
+     "err_down": 0.25,
+     "cat_tex": "R_0",
+     "cat": "R_0"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.17,
+     "err": 0.08,
+     "err_up": 0.08,
+     "err_down": 0.08,
+     "cat_tex": "R_+",
+     "cat": "R_+"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.Lett. 33 (1974) 448)",
+   "source_url": "https://doi.org/10.1103/PhysRevLett.33.448",
+   "provenance": "Barish:1974fe \u2014 ANL 12-ft bubble chamber (H2/D2), wide-band nu beam \u00b7 first observation of neutral-current single-pion production \u00b7 NC/CC single-pion ratios on the proton: R_0 = sigma(nu p->nu p pi0)/sigma(nu p->mu- p pi+) = 0.51 +/- 0.25 and R_+ = sigma(nu p->nu n pi+)/sigma(nu p->mu- p pi+) = 0.17 +/- 0.08 \u00b7 TRANSCRIBED from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Table XI), which tabulates these values from the paper (not digitized) \u00b7 these early discovery-era ratios were later superseded by the higher-statistics Derrick:1980xw (R_0 = 0.09 +/- 0.05, R_+ = 0.12 +/- 0.04) \u00b7 from the paper",
+   "notes": "First observation of neutral-current single-pion production. NC/CC single-pion ratios on the proton: R_0 = sigma(nu p->nu p pi0)/sigma(nu p->mu- p pi+) = 0.51 +/- 0.25 and R_+ = sigma(nu p->nu n pi+)/sigma(nu p->mu- p pi+) = 0.17 +/- 0.08. TRANSCRIBED from the Formaggio-Zeller review compilation (Rev.Mod.Phys. 84 (2012) 1307, Table XI), which tabulates these values from the paper (not digitized). These early discovery-era ratios were later superseded by the higher-statistics Derrick:1980xw (R_0 = 0.09 +/- 0.05, R_+ = 0.12 +/- 0.04). From the paper."
+  }
+ ]
+}
