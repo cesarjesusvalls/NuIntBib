@@ -713,6 +713,14 @@ def _notes_from_provenance(prov):
             continue                                   # the digitization overlay is shown right here
         if low.startswith('from the paper') or low.startswith('from the compilation'):
             continue                                   # trivial source tail
+        if low.startswith('values are '):
+            continue                                   # restates the y-axis label
+        if re.match(r'^tables?\s+[\d]', low):
+            continue                                   # "Table 1: ..." source-table pointer
+        if re.match(r'^r[_]?[+\-0-9]?\s*=', low):
+            continue                                   # ratio definition "R_0 = ...", "R1 = ..." (shown in labels)
+        if re.match(r'^(neutral|charged)-current .*production(\s+isospin)? ratios$', low):
+            continue                                   # channel description (shown in the distribution labels)
         keep.append(p[0].upper() + p[1:])
     return '. '.join(keep) + ('.' if keep else '')
 

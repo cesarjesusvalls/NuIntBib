@@ -70,7 +70,7 @@
     "overlay": "/digitize/baker-1980pj/overlay.png",
     "note": "Fig 4 of the paper (left); our three extracted THIS-EXPERIMENT points (green = no cut, red = M_Npi<1.6, blue = M_Npi<1.4) with error bars overlaid (right). Both R1 and R2 for all three cuts are read from this single 2-D figure; the theory (eta, psi) contours are excluded."
    },
-   "notes": "Charged-current single-pion production isospin ratios. R1 = sigma(mu- p pi0)/sigma(mu- p pi+) vs invariant-mass cut."
+   "notes": ""
   },
   {
    "key": "r2_r2",
@@ -130,7 +130,7 @@
    "source": "published (Phys.Rev.D 23 (1981) 2495)",
    "source_url": "https://doi.org/10.1103/PhysRevD.23.2495",
    "provenance": "Baker:1980pj \u2014 BNL 7-ft bubble chamber, deuterium, wide-band nu beam \u00b7 charged-current single-pion production isospin ratios \u00b7 DIGITIZED from Fig 4 (analytical plot-digitizer; the three THIS-EXPERIMENT markers read off the 2-D R1-vs-R2 plane, overlay-verified) \u00b7 target D2 \u00b7 from the paper \u00b7 R2 = sigma(mu- n pi+)/sigma(mu- p pi+) vs invariant-mass cut",
-   "notes": "Charged-current single-pion production isospin ratios. R2 = sigma(mu- n pi+)/sigma(mu- p pi+) vs invariant-mass cut."
+   "notes": ""
   }
  ]
 }
