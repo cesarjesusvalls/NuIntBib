@@ -101,7 +101,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.06718",
    "provenance": "NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 from the paper tables \u00b7 no covariance",
-   "notes": "Per nucleon. From the paper tables. No covariance."
+   "notes": "No covariance."
   },
   {
    "key": "dsigma_dq2",
@@ -182,7 +182,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.06718",
    "provenance": "NOvA numubar CC-inclusive dsigma/dEnu and dsigma/dQ^2 (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 from the paper tables \u00b7 no covariance",
-   "notes": "Per nucleon. From the paper tables. No covariance."
+   "notes": "No covariance."
   },
   {
    "key": "d3sigma",
@@ -4402,7 +4402,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.06718",
    "provenance": "NOvA numubar CC-inclusive triple-differential d3sigma/dTmu dcos(theta_mu) dEavail (NuMI antineutrino mode, arXiv:2603.06718) \u00b7 per nucleon \u00b7 from the paper release \u00b7 E_avail panels x cos(theta_mu) series",
-   "notes": "Per nucleon. From the paper release. E_avail panels x cos(theta_mu) series."
+   "notes": "E_avail panels x cos(theta_mu) series."
   }
  ]
 }

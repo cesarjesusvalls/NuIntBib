@@ -70,7 +70,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2511.17342",
    "provenance": "MicroBooNE nu_e CC differential cross sections on argon with final-state protons (NuMI off-axis FHC+RHC, arXiv:2511.17342) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_Evis",
@@ -151,7 +151,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2511.17342",
    "provenance": "MicroBooNE nu_e CC differential cross sections on argon with final-state protons (NuMI off-axis FHC+RHC, arXiv:2511.17342) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_costheta_ep",
@@ -215,7 +215,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2511.17342",
    "provenance": "MicroBooNE nu_e CC differential cross sections on argon with final-state protons (NuMI off-axis FHC+RHC, arXiv:2511.17342) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   }
  ],
  "covariance": {

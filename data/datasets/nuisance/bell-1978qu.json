@@ -117,7 +117,7 @@
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/FNAL/CC1pip_on_p/FNAL_cc1ppip_dsigdQ2_W14.txt",
    "provenance": "Bell:1978qu \u2014 d\u03c3/dQ\u00b2 for \u03bd_\u03bc p \u2192 \u03bc\u207b \u03c0\u207a p, M(\u03c0\u207ap) < 1.4 GeV, FNAL 15-foot hydrogen bubble chamber \u00b7 target free proton \u00b7 absolute cross section validated against the paper's integrated \u03c3 \u00b7 from the NUISANCE data release",
-   "notes": "Target free proton. Absolute cross section validated against the paper's integrated \u03c3. From the NUISANCE data release."
+   "notes": "Absolute cross section validated against the paper's integrated \u03c3. From the NUISANCE data release."
   }
  ]
 }

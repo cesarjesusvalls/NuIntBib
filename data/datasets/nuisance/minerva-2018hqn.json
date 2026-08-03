@@ -158,7 +158,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1811.02774",
    "provenance": "MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, arXiv:1811.02774) \u00b7 per nucleon \u00b7 QE-like signal definition \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. QE-like signal definition. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "QE-like signal definition. Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_ptmu",
@@ -287,7 +287,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1811.02774",
    "provenance": "MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, arXiv:1811.02774) \u00b7 per nucleon \u00b7 QE-like signal definition \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. QE-like signal definition. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "QE-like signal definition. Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_pzmu",
@@ -408,7 +408,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1811.02774",
    "provenance": "MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, arXiv:1811.02774) \u00b7 per nucleon \u00b7 QE-like signal definition \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. QE-like signal definition. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "QE-like signal definition. Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_enuqe",
@@ -529,7 +529,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1811.02774",
    "provenance": "MINERvA numu CC quasielastic-like cross sections on hydrocarbon (NuMI LE, arXiv:1811.02774) \u00b7 per nucleon \u00b7 QE-like signal definition \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. QE-like signal definition. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "QE-like signal definition. Total covariance per observable (block-diagonal). Nothing digitized."
   }
  ],
  "covariance": {

@@ -69,7 +69,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1705.03791",
    "provenance": "MINERvA:2017dzh \u2014 Flux-integrated differential CCQE-like cross section d\u03c3/dQ\u00b2_p (Q\u00b2 reconstructed from the leading proton kinematics, \"pro \u00b7 target per nucleon (paper explicitly labels each cross-section column \"10^-38 cm\u00b2/GeV\u00b2/nucleon\" for C, Fe, and Pb separately) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (paper explicitly labels each cross-section column \"10^-38 cm\u00b2/GeV\u00b2/nucleon\" for C, Fe, and Pb separately)."
+   "notes": ""
   },
   {
    "key": "dsigma_qsq_fe",
@@ -133,7 +133,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1705.03791",
    "provenance": "MINERvA:2017dzh \u2014 Flux-integrated differential CCQE-like cross section d\u03c3/dQ\u00b2_p (Q\u00b2 reconstructed from the leading proton kinematics, \"pro \u00b7 target per nucleon (paper explicitly labels each cross-section column \"10^-38 cm\u00b2/GeV\u00b2/nucleon\" for C, Fe, and Pb separately) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (paper explicitly labels each cross-section column \"10^-38 cm\u00b2/GeV\u00b2/nucleon\" for C, Fe, and Pb separately)."
+   "notes": ""
   },
   {
    "key": "dsigma_qsq_pb",
@@ -197,7 +197,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1705.03791",
    "provenance": "MINERvA:2017dzh \u2014 Flux-integrated differential CCQE-like cross section d\u03c3/dQ\u00b2_p (Q\u00b2 reconstructed from the leading proton kinematics, \"pro \u00b7 target per nucleon (paper explicitly labels each cross-section column \"10^-38 cm\u00b2/GeV\u00b2/nucleon\" for C, Fe, and Pb separately) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (paper explicitly labels each cross-section column \"10^-38 cm\u00b2/GeV\u00b2/nucleon\" for C, Fe, and Pb separately)."
+   "notes": ""
   }
  ],
  "covariance": {

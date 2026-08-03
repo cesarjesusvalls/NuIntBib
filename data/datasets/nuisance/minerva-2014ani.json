@@ -101,7 +101,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1409.3835",
    "provenance": "MINERvA:2014ani \u2014 CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tr \u00b7 target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\")."
+   "notes": ""
   },
   {
    "key": "dsigma_nubar_dsigma_dEpi",
@@ -197,7 +197,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1409.3835",
    "provenance": "MINERvA:2014ani \u2014 CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tr \u00b7 target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\")."
+   "notes": ""
   },
   {
    "key": "dsigma_nu_dsigma_dthetapi",
@@ -317,7 +317,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1409.3835",
    "provenance": "MINERvA:2014ani \u2014 CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tr \u00b7 target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\")."
+   "notes": ""
   },
   {
    "key": "dsigma_nubar_dsigma_dthetapi",
@@ -437,7 +437,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1409.3835",
    "provenance": "MINERvA:2014ani \u2014 CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tr \u00b7 target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\")."
+   "notes": ""
   },
   {
    "key": "dsigma_nu_sigma_Enu",
@@ -533,7 +533,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1409.3835",
    "provenance": "MINERvA:2014ani \u2014 CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tr \u00b7 target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\")."
+   "notes": ""
   },
   {
    "key": "dsigma_nubar_sigma_Enu",
@@ -629,7 +629,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1409.3835",
    "provenance": "MINERvA:2014ani \u2014 CC coherent charged-pion production, \u03bd\u03bc + C \u2192 \u03bc\u207b + \u03c0\u207a + C and \u03bd\u0304\u03bc + C \u2192 \u03bc\u207a + \u03c0\u207b + C, on the MINERvA scintillator (CH) tr \u00b7 target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\") \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per C-12 nucleus (coherent \u2014 whole-nucleus process; column headers in the ancillary CSVs read \"cm^2//C^12\")."
+   "notes": ""
   }
  ],
  "covariance": {

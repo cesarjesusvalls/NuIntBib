@@ -301,7 +301,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_muontheta",
@@ -493,7 +493,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_protonmomentum",
@@ -733,7 +733,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_protontheta",
@@ -981,7 +981,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_neutronmomentum",
@@ -1213,7 +1213,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_dalphat",
@@ -1341,7 +1341,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_dpt",
@@ -1573,7 +1573,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_dphit",
@@ -1790,7 +1790,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1805.05486",
    "provenance": "MINERvA numu CCQE-like TKI + lepton/proton kinematics on hydrocarbon (NuMI LE <Enu>~3 GeV, arXiv:1805.05486) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary release (xsec_with_total_errors TH1D + covariance TMatrix per TList) \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   }
  ],
  "covariance": {

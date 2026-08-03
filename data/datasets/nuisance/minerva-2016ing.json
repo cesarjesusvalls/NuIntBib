@@ -149,7 +149,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1610.04746",
    "provenance": "MINERvA:2016ing \u2014 Isoscalar-corrected inclusive charged-current d\u03c3/dE_\u03bd vs E_\u03bd, extracted via the low-\u03bd flux method, for the \"focused\" NuM \u00b7 target per nucleon (isoscalar-corrected CH scintillator target) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (isoscalar-corrected CH scintillator target)."
+   "notes": ""
   },
   {
    "key": "dsigma_numubar_rhc_ccinclusive_dsigdE",
@@ -293,7 +293,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1610.04746",
    "provenance": "MINERvA:2016ing \u2014 Isoscalar-corrected inclusive charged-current d\u03c3/dE_\u03bd vs E_\u03bd, extracted via the low-\u03bd flux method, for the \"focused\" NuM \u00b7 target per nucleon (isoscalar-corrected CH scintillator target) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (isoscalar-corrected CH scintillator target)."
+   "notes": ""
   }
  ],
  "covariance": {

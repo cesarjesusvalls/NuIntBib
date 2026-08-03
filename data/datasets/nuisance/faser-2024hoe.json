@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2403.12520",
    "provenance": "FASER:2024hoe \u2014 Flux-integrated CC interaction cross section per nucleon divided by neutrino energy, sigma_obs/E_nu, for nu_e (combined  \u00b7 target per nucleon (tungsten target) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (tungsten target)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_over_E_numu",
@@ -69,7 +69,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2403.12520",
    "provenance": "FASER:2024hoe \u2014 Flux-integrated CC interaction cross section per nucleon divided by neutrino energy, sigma_obs/E_nu, for nu_e (combined  \u00b7 target per nucleon (tungsten target) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (tungsten target)."
+   "notes": ""
   }
  ]
 }

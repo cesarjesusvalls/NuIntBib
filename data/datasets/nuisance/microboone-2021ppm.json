@@ -86,7 +86,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.06832",
    "provenance": "MicroBooNE:2021ppm \u2014 First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) elec \u00b7 target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables)."
+   "notes": ""
   },
   {
    "key": "dsigma_cosbeta",
@@ -151,7 +151,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2109.06832",
    "provenance": "MicroBooNE:2021ppm \u2014 First single-differential \u03bd_e+\u03bd\u0304_e CC-inclusive cross section on argon at MicroBooNE, measured as a function of (1) elec \u00b7 target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (argon; explicitly \"T = number of target nucleons\" in xsec formula, Eq. near main.tex line 130, and units printed as \"cm^2/nucleon\" in Supplemental Material tables)."
+   "notes": ""
   }
  ],
  "covariance": {

@@ -37,7 +37,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins227412",
    "provenance": "BEBCWA21:1986pvd \u2014 Single-point \u03c3/E_\u03bd measurements for \u03bd_\u03bc p \u2192 X and \u03bd\u0304_\u03bc p \u2192 X inclusive (charged-current) interactions on free protons, a \u00b7 target proton (free, hydrogen bubble chamber) \u00b7 from the HepData record",
-   "notes": "Target proton (free, hydrogen bubble chamber)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_over_e_nubar",
@@ -69,7 +69,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins227412",
    "provenance": "BEBCWA21:1986pvd \u2014 Single-point \u03c3/E_\u03bd measurements for \u03bd_\u03bc p \u2192 X and \u03bd\u0304_\u03bc p \u2192 X inclusive (charged-current) interactions on free protons, a \u00b7 target proton (free, hydrogen bubble chamber) \u00b7 from the HepData record",
-   "notes": "Target proton (free, hydrogen bubble chamber)."
+   "notes": ""
   }
  ]
 }

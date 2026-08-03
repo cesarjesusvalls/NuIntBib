@@ -133,7 +133,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins177607",
    "provenance": "Baker:1982ty \u2014 total charged-current cross section for nu_mu N in the BNL 7-ft deuterium bubble chamber (AGS wide-band beam) \u00b7 per nucleon (isoscalar) \u00b7 from the HepData record (ins177607) \u00b7 Table 1: sigma/E vs neutrino lab momentum, nu_mu N -> mu- X",
-   "notes": "Per nucleon (isoscalar). Table 1: sigma/E vs neutrino lab momentum, nu_mu N -> mu- X."
+   "notes": "Table 1: sigma/E vs neutrino lab momentum, nu_mu N -> mu- X."
   },
   {
    "key": "sig_over_e_avg_chan",
@@ -181,7 +181,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins177607",
    "provenance": "Baker:1982ty \u2014 total charged-current cross section for nu_mu N in the BNL 7-ft deuterium bubble chamber (AGS wide-band beam) \u00b7 per nucleon (isoscalar) \u00b7 from the HepData record (ins177607) \u00b7 Table 5: flux-averaged sigma/E (E_nu 0.4-10 GeV) for nu_mu n and nu_mu p separately",
-   "notes": "Per nucleon (isoscalar). Table 5: flux-averaged sigma/E (E_nu 0.4-10 GeV) for nu_mu n and nu_mu p separately."
+   "notes": "Table 5: flux-averaged sigma/E (E_nu 0.4-10 GeV) for nu_mu n and nu_mu p separately."
   },
   {
    "key": "ratio_nn_over_np",
@@ -241,7 +241,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins177607",
    "provenance": "Baker:1982ty \u2014 total charged-current cross section for nu_mu N in the BNL 7-ft deuterium bubble chamber (AGS wide-band beam) \u00b7 per nucleon (isoscalar) \u00b7 from the HepData record (ins177607) \u00b7 Tables 2-4: ratio sigma(nu n)/sigma(nu p) with no cut, with W>1.4 GeV, and with Q^2>0.7 GeV^2",
-   "notes": "Per nucleon (isoscalar). Tables 2-4: ratio sigma(nu n)/sigma(nu p) with no cut, with W>1.4 GeV, and with Q^2>0.7 GeV^2."
+   "notes": "Tables 2-4: ratio sigma(nu n)/sigma(nu p) with no cut, with W>1.4 GeV, and with Q^2>0.7 GeV^2."
   }
  ]
 }

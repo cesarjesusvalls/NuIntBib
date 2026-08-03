@@ -78,7 +78,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2404.10948",
    "provenance": "MicroBooNE NC pi0 production dsigma/dp_pi0 and dsigma/dcos(theta_pi0) on argon, split by 0p/Np/Xp final state (BNB, arXiv:2404.10948) \u00b7 per nucleon \u00b7 cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
+   "notes": "Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
   },
   {
    "key": "dsigma_Ppi_Np",
@@ -151,7 +151,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2404.10948",
    "provenance": "MicroBooNE NC pi0 production dsigma/dp_pi0 and dsigma/dcos(theta_pi0) on argon, split by 0p/Np/Xp final state (BNB, arXiv:2404.10948) \u00b7 per nucleon \u00b7 cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
+   "notes": "Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
   },
   {
    "key": "dsigma_Ppi_Xp",
@@ -248,7 +248,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2404.10948",
    "provenance": "MicroBooNE NC pi0 production dsigma/dp_pi0 and dsigma/dcos(theta_pi0) on argon, split by 0p/Np/Xp final state (BNB, arXiv:2404.10948) \u00b7 per nucleon \u00b7 cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
+   "notes": "Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
   },
   {
    "key": "dsigma_cospi_0p",
@@ -337,7 +337,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2404.10948",
    "provenance": "MicroBooNE NC pi0 production dsigma/dp_pi0 and dsigma/dcos(theta_pi0) on argon, split by 0p/Np/Xp final state (BNB, arXiv:2404.10948) \u00b7 per nucleon \u00b7 cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
+   "notes": "Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
   },
   {
    "key": "dsigma_cospi_Np",
@@ -481,7 +481,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2404.10948",
    "provenance": "MicroBooNE NC pi0 production dsigma/dp_pi0 and dsigma/dcos(theta_pi0) on argon, split by 0p/Np/Xp final state (BNB, arXiv:2404.10948) \u00b7 per nucleon \u00b7 cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
+   "notes": "Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
   },
   {
    "key": "dsigma_cospi_Xp",
@@ -641,7 +641,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2404.10948",
    "provenance": "MicroBooNE NC pi0 production dsigma/dp_pi0 and dsigma/dcos(theta_pi0) on argon, split by 0p/Np/Xp final state (BNB, arXiv:2404.10948) \u00b7 per nucleon \u00b7 cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins) \u00b7 from the arXiv ancillary release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
+   "notes": "Cross-observable total Wiener-SVD covariance (sub-matrix over ingested bins). Nothing digitized."
   }
  ],
  "covariance": {

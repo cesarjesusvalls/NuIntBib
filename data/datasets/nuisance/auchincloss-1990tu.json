@@ -45,7 +45,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins27761",
    "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
-   "notes": "Target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_t1_numubar_combined_sigE_vs_E",
@@ -85,7 +85,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins27761",
    "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
-   "notes": "Target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_t2_numubar_direct_sigE_vs_E",
@@ -189,7 +189,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins27761",
    "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
-   "notes": "Target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_t3_numu_direct_sigE_vs_E",
@@ -229,7 +229,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins27761",
    "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
-   "notes": "Target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_t4_numubar_indirect_sigE_vs_E",
@@ -333,7 +333,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins27761",
    "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
-   "notes": "Target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_t5_numu_indirect_sigE_vs_E",
@@ -373,7 +373,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins27761",
    "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
-   "notes": "Target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_t6_numubar_dsigdy_y0_vs_E",
@@ -477,7 +477,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins27761",
    "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
-   "notes": "Target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_t7_numu_dsigdy_y0_vs_E",
@@ -517,7 +517,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins27761",
    "provenance": "Auchincloss:1990tu \u2014 CCFR (Fermilab, quad-triplet wideband \u03bd/\u03bd\u0304 beam on iron) total CC cross sections \u03c3(\u03bd_\u03bc N)/E_\u03bd and \u03c3(\u03bd\u0304_\u03bc N)/E_\u03bd vs E_\u03bd, \u00b7 target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon \u00b7 from the HepData record",
-   "notes": "Target Nucleon (isoscalar-corrected, iron target) \u2014 reaction strings are \"NUMU(BAR) NUCLEON --> MU-(+) X\", i.e. per-nucleon."
+   "notes": ""
   }
  ]
 }

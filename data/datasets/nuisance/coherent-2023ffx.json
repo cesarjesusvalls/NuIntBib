@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2305.19594",
    "provenance": "COHERENT:2023ffx - Flux-averaged (piDAR \u03bde) inclusive and exclusive (0n, \u22651n) charged-current cross sections for \u03bde + 127I, NaIvE detector  \u00b7 target per nucleus (127I) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (127I)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_excl_0n_nue_I127",
@@ -69,7 +69,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2305.19594",
    "provenance": "COHERENT:2023ffx - Flux-averaged (piDAR \u03bde) inclusive and exclusive (0n, \u22651n) charged-current cross sections for \u03bde + 127I, NaIvE detector  \u00b7 target per nucleus (127I) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (127I)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_excl_ge1n_nue_I127",
@@ -101,7 +101,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2305.19594",
    "provenance": "COHERENT:2023ffx - Flux-averaged (piDAR \u03bde) inclusive and exclusive (0n, \u22651n) charged-current cross sections for \u03bde + 127I, NaIvE detector  \u00b7 target per nucleus (127I) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (127I)."
+   "notes": ""
   }
  ]
 }

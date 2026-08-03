@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1608.05702",
    "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_A48_total",
@@ -69,7 +69,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1608.05702",
    "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_A56_partial",
@@ -101,7 +101,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1608.05702",
    "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_A56_total",
@@ -133,7 +133,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1608.05702",
    "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_A12_partial",
@@ -165,7 +165,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1608.05702",
    "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_A12_total",
@@ -197,7 +197,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1608.05702",
    "provenance": "MINOS:2016yyz \u2014 Flux-averaged total cross section for coherent NC single-pi0 production (nu A -> nu A pi0), NuMI low-energy neutrino-mod \u00b7 target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (A=48 Fe:C 80:20 average medium; A=56 iron-inferred; A=12 carbon-inferred, all \"per nucleus\" not per nucleon)."
+   "notes": ""
   }
  ]
 }

@@ -122,7 +122,7 @@
     "overlay": "/digitize/armenise-1979zg/overlay.png",
     "note": "Fig 4 of the paper, deskewed +0.55 deg to remove scan tilt (left); our 11 extracted points (green) with vertical error bars (red) overlaid (right). The M_A=0.84 theory curve and text were excluded; markers land on the printed dots uniformly across the plot."
    },
-   "notes": "Target C3H8 (per the paper). DIGITIZED from Fig 4 (analytical plot-digitizer; scan deskewed +0.55 deg to remove tilt, then axis-aligned calibration; overlay-verified). The M_A=0.84 theory curve is excluded. From the paper."
+   "notes": "The M_A=0.84 theory curve is excluded."
   }
  ]
 }

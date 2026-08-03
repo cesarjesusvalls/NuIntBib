@@ -166,7 +166,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1002.2680",
    "provenance": "MiniBooNE:2010bsu \u2014 Flux-integrated CCQE cross section for nu_mu on CH2 (mineral oil), reported per target neutron, MiniBooNE BNB (mean E_nu \u00b7 target per neutron (mineral oil CH2 target, cross section normalized \"per neutron\" per Sec. IV text: \"the choice of normalization yields cross sections 'per neutron'\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per neutron (mineral oil CH2 target, cross section normalized \"per neutron\" per Sec. IV text: \"the choice of normalization yields cross sections 'per neutron'\")."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_Enu",
@@ -303,7 +303,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1002.2680",
    "provenance": "MiniBooNE:2010bsu \u2014 Flux-integrated CCQE cross section for nu_mu on CH2 (mineral oil), reported per target neutron, MiniBooNE BNB (mean E_nu \u00b7 target per neutron (mineral oil CH2 target, cross section normalized \"per neutron\" per Sec. IV text: \"the choice of normalization yields cross sections 'per neutron'\") \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per neutron (mineral oil CH2 target, cross section normalized \"per neutron\" per Sec. IV text: \"the choice of normalization yields cross sections 'per neutron'\")."
+   "notes": ""
   }
  ]
 }

@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1902.00558",
    "provenance": "NOvA:2019bdw \u2014 Flux-integrated total cross section of NC coherent \u03c00 production (\u03bd\u03bc + \u03bd\u0304\u03bc, dominated by neutrino-induced, NuMI off-axis \u00b7 target per nucleus (NOvA's predominantly-carbon scintillator/mineral-oil target, effective atomic number A=13.8 computed via Berger-Sehgal A^(2/3) weighting, excluding hydrogen) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleus (NOvA's predominantly-carbon scintillator/mineral-oil target, effective atomic number A=13.8 computed via Berger-Sehgal A^(2/3) weighting, excluding hydrogen)."
+   "notes": ""
   }
  ]
 }

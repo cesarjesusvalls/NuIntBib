@@ -62,7 +62,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2208.02348",
    "provenance": "MicroBooNE:2022tdd \u2014 Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final- \u00b7 target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables."
+   "notes": ""
   },
   {
    "key": "dsigma_electron_angle",
@@ -118,7 +118,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2208.02348",
    "provenance": "MicroBooNE:2022tdd \u2014 Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final- \u00b7 target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables."
+   "notes": ""
   },
   {
    "key": "dsigma_proton_energy",
@@ -183,7 +183,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2208.02348",
    "provenance": "MicroBooNE:2022tdd \u2014 Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final- \u00b7 target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables."
+   "notes": ""
   },
   {
    "key": "dsigma_proton_angle",
@@ -239,7 +239,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2208.02348",
    "provenance": "MicroBooNE:2022tdd \u2014 Flux-integrated differential cross section for charged-current electron-neutrino (nu_e CC) interactions with zero final- \u00b7 target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (argon) \u2014 paper explicitly divides by N_target = 4.3912e31 nucleons (main.tex ~line 192) and labels units 'cm2/GeV/nucleon' or 'cm2/nucleon' in Supplemental Material tables."
+   "notes": ""
   }
  ],
  "covariance": {

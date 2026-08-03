@@ -134,7 +134,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2604.07091",
    "provenance": "MINERvA CC-inclusive antinumu dsigma/dpT_mu on C/CH/Fe/Pb (NuMI ME RHC, arXiv:2604.07091) \u00b7 per nucleon \u00b7 total (stat+syst) covariance per target (block-diagonal) \u00b7 from the arXiv ancillary ROOT release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total (stat+syst) covariance per target (block-diagonal). Nothing digitized."
+   "notes": "Total (stat+syst) covariance per target (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsdpt_CH",
@@ -263,7 +263,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2604.07091",
    "provenance": "MINERvA CC-inclusive antinumu dsigma/dpT_mu on C/CH/Fe/Pb (NuMI ME RHC, arXiv:2604.07091) \u00b7 per nucleon \u00b7 total (stat+syst) covariance per target (block-diagonal) \u00b7 from the arXiv ancillary ROOT release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total (stat+syst) covariance per target (block-diagonal). Nothing digitized."
+   "notes": "Total (stat+syst) covariance per target (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsdpt_Fe",
@@ -392,7 +392,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2604.07091",
    "provenance": "MINERvA CC-inclusive antinumu dsigma/dpT_mu on C/CH/Fe/Pb (NuMI ME RHC, arXiv:2604.07091) \u00b7 per nucleon \u00b7 total (stat+syst) covariance per target (block-diagonal) \u00b7 from the arXiv ancillary ROOT release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total (stat+syst) covariance per target (block-diagonal). Nothing digitized."
+   "notes": "Total (stat+syst) covariance per target (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsdpt_Pb",
@@ -521,7 +521,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2604.07091",
    "provenance": "MINERvA CC-inclusive antinumu dsigma/dpT_mu on C/CH/Fe/Pb (NuMI ME RHC, arXiv:2604.07091) \u00b7 per nucleon \u00b7 total (stat+syst) covariance per target (block-diagonal) \u00b7 from the arXiv ancillary ROOT release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total (stat+syst) covariance per target (block-diagonal). Nothing digitized."
+   "notes": "Total (stat+syst) covariance per target (block-diagonal). Nothing digitized."
   }
  ],
  "covariance": {

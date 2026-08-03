@@ -213,7 +213,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1007.4730",
    "provenance": "MiniBooNE:2010xqw \u2014 Flux-averaged NC elastic (\u03bdN\u2192\u03bdN) differential cross section d\u03c3/dQ\u00b2_QE on mineral oil (CH2), muon-neutrino beam (BNB neut \u00b7 target per nucleon (flux-averaged over free H protons, bound C protons, bound C neutrons in CH2, weighted 1/7 : 3/7 : 3/7 per Eq. B.2, i.e. divided by the 14 nucleons in CH2 \u2014 see Appendix B.2, eq. \\ref{eq:NCE_xs_expression}) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (flux-averaged over free H protons, bound C protons, bound C neutrons in CH2, weighted 1/7 : 3/7 : 3/7 per Eq. B.2, i.e. divided by the 14 nucleons in CH2 \u2014 see Appendix B.2, eq. \\ref{eq:NCE_xs_expression})."
+   "notes": ""
   }
  ]
 }

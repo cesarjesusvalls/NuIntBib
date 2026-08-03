@@ -106,7 +106,7 @@
     "overlay": "/digitize/charm-1981sef/overlay.png",
     "note": "Fig 1 of the paper (left); our extracted points overlaid (right) \u2014 red circles = numu (filled markers), blue squares = numubar (open markers); all 18 points matched, model curves and legend excluded. Axis calibration was done manually (the scan's plot box is not auto-detectable). Both series' digitized values are in the tables below."
    },
-   "notes": "Per nucleon (isoscalar). Values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y. DIGITIZED from Fig 1 (analytical plot-digitizer, manual pixel calibration, overlay-verified). From the paper."
+   "notes": "Values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y."
   },
   {
    "key": "dsigma_numubar",
@@ -202,7 +202,7 @@
    "source": "published (Phys.Lett.B 109 (1982) 234)",
    "source_url": "https://doi.org/10.1016/0370-2693(82)90479-8",
    "provenance": "CHARM:1981sef \u2014 E-scaled differential cross section (1/E_nu) dsigma/dy for numu and numubar CC-inclusive (deep-inelastic) scattering on the CHARM marble (CaCO3) target, flux-averaged over E_nu = 30-200 GeV (CERN SPS narrow-band beam), corrected for resolution and acceptance \u00b7 per nucleon (isoscalar) \u00b7 values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y \u00b7 DIGITIZED from Fig 1 (analytical plot-digitizer, manual pixel calibration, overlay-verified) \u00b7 from the paper",
-   "notes": "Per nucleon (isoscalar). Values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y. DIGITIZED from Fig 1 (analytical plot-digitizer, manual pixel calibration, overlay-verified). From the paper."
+   "notes": "Values are (1/E) dsigma/dy in 10^-41 cm^2/GeV vs inelasticity y."
   }
  ]
 }

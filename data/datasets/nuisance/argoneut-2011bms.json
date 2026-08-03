@@ -141,7 +141,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1111.0103",
    "provenance": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu \u00b7 target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
-   "notes": "Target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors)."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dp_mu",
@@ -253,7 +253,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1111.0103",
    "provenance": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu \u00b7 target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
-   "notes": "Target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_over_enu_total",
@@ -285,7 +285,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1111.0103",
    "provenance": "ArgoNeuT:2011bms - Flux-integrated \u03bd_\u03bc CC-inclusive differential cross sections d\u03c3/d\u03b8_\u03bc and d\u03c3/dP_\u03bc on argon (NuMI low-energy beam, ArgoNeu \u00b7 target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance published (per-bin total uncertainty only).",
-   "notes": "Target per argon nucleus (differential tables); the single total-cross-section value quoted in the text is per isoscalar nucleon (argon-to-isoscalar correction factor 0.96 applied by the authors)."
+   "notes": ""
   }
  ]
 }

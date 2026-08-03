@@ -108,7 +108,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2110.14023",
    "provenance": "MicroBooNE numu CC inclusive sigma(Enu), dsigma/dEmu, dsigma/dnu on argon (BNB nu-mode <Enu>~0.8 GeV, arXiv:2110.14023) \u00b7 per nucleon \u00b7 total covariance per measurement (block-diagonal) \u00b7 from the arXiv ancillary text release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per measurement (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per measurement (block-diagonal). Nothing digitized."
   },
   {
    "key": "xsec_Emu",
@@ -219,7 +219,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2110.14023",
    "provenance": "MicroBooNE numu CC inclusive sigma(Enu), dsigma/dEmu, dsigma/dnu on argon (BNB nu-mode <Enu>~0.8 GeV, arXiv:2110.14023) \u00b7 per nucleon \u00b7 total covariance per measurement (block-diagonal) \u00b7 from the arXiv ancillary text release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per measurement (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per measurement (block-diagonal). Nothing digitized."
   },
   {
    "key": "xsec_nu",
@@ -306,7 +306,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2110.14023",
    "provenance": "MicroBooNE numu CC inclusive sigma(Enu), dsigma/dEmu, dsigma/dnu on argon (BNB nu-mode <Enu>~0.8 GeV, arXiv:2110.14023) \u00b7 per nucleon \u00b7 total covariance per measurement (block-diagonal) \u00b7 from the arXiv ancillary text release \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per measurement (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per measurement (block-diagonal). Nothing digitized."
   }
  ],
  "covariance": {

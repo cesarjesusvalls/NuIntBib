@@ -116,7 +116,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1509.05729",
    "provenance": "MINERvA nu_e CCQE-like dsigma/d{E_e, theta_e, Q^2_QE} and the nu_e/nu_mu ratio on hydrocarbon (NuMI LE, arXiv:1509.05729) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary CSVs \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_theta_e",
@@ -259,7 +259,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1509.05729",
    "provenance": "MINERvA nu_e CCQE-like dsigma/d{E_e, theta_e, Q^2_QE} and the nu_e/nu_mu ratio on hydrocarbon (NuMI LE, arXiv:1509.05729) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary CSVs \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_Q2QE",
@@ -354,7 +354,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1509.05729",
    "provenance": "MINERvA nu_e CCQE-like dsigma/d{E_e, theta_e, Q^2_QE} and the nu_e/nu_mu ratio on hydrocarbon (NuMI LE, arXiv:1509.05729) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary CSVs \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   },
   {
    "key": "dsigma_ratio_Q2QE",
@@ -425,7 +425,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1509.05729",
    "provenance": "MINERvA nu_e CCQE-like dsigma/d{E_e, theta_e, Q^2_QE} and the nu_e/nu_mu ratio on hydrocarbon (NuMI LE, arXiv:1509.05729) \u00b7 per nucleon \u00b7 total covariance per observable (block-diagonal) \u00b7 from the arXiv ancillary CSVs \u00b7 nothing digitized",
-   "notes": "Per nucleon. Total covariance per observable (block-diagonal). Nothing digitized."
+   "notes": "Total covariance per observable (block-diagonal). Nothing digitized."
   }
  ],
  "covariance": {

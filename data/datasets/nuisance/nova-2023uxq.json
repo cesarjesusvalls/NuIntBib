@@ -101,7 +101,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2306.04028",
    "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
-   "notes": "Target per nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_dsdcosthetamu_numu",
@@ -214,7 +214,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2306.04028",
    "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
-   "notes": "Target per nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_dsdppi_numu",
@@ -367,7 +367,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2306.04028",
    "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
-   "notes": "Target per nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_dsdcosthetapi_numu",
@@ -503,7 +503,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2306.04028",
    "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
-   "notes": "Target per nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_dsdq2_numu",
@@ -615,7 +615,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2306.04028",
    "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
-   "notes": "Target per nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_dsdW_numu",
@@ -736,7 +736,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2306.04028",
    "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
-   "notes": "Target per nucleon."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_tot_numu",
@@ -768,7 +768,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2306.04028",
    "provenance": "NOvA:2023uxq \u2014 Flux-integrated and 6 differential (d\u03c3/dp_\u03bc, d\u03c3/dcos\u03b8_\u03bc, d\u03c3/dp_\u03c0, d\u03c3/dcos\u03b8_\u03c0, d\u03c3/dQ\u00b2, d\u03c3/dW) cross sections for \u03bd_\u03bc CC1\u03c0 \u00b7 target per nucleon \u00b7 values transcribed from the arXiv paper tables \u00b7Covariance: paper Appendix Tables (table:ccpi0_xseccov_pmu / _cosmu / _ppi / _cospi / _q2 / _W) \u2014 full covariance+correlation matrices given for each distribution; I only used the diagonal (variance) entries for the per-bin error in these CSVs.",
-   "notes": "Target per nucleon."
+   "notes": ""
   }
  ]
 }

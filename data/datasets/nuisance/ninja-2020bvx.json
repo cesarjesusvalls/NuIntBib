@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2012.05221",
    "provenance": "NINJA:2020bvx \u2014 Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nucl \u00b7 target per nucleon (iron, Fe) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (iron, Fe)."
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_cc_restricted_ps",
@@ -69,7 +69,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2012.05221",
    "provenance": "NINJA:2020bvx \u2014 Flux-averaged (i.e. not truly differential) total nu_mu CC-inclusive cross section on iron, measured with the NINJA nucl \u00b7 target per nucleon (iron, Fe) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (iron, Fe)."
+   "notes": ""
   }
  ]
 }

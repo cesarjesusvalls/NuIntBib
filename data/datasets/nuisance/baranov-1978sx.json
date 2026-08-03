@@ -61,7 +61,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins130963",
    "provenance": "Baranov:1978sx \u2014 measured charged-current total cross section per unit energy sigma/E_nu for nu_mu N (isoscalar nucleon) in the SKAT heavy-freon bubble chamber, Serpukhov \u00b7 four neutrino-momentum bins spanning 3-30 GeV \u00b7 per nucleon \u00b7 from the HepData record (ins130963)",
-   "notes": "Four neutrino-momentum bins spanning 3-30 GeV. Per nucleon."
+   "notes": "Four neutrino-momentum bins spanning 3-30 GeV."
   }
  ]
 }

@@ -703,6 +703,16 @@ def _notes_from_provenance(prov):
             continue                                   # leading "Bibtag — what-it-is" description blurb
         if low in ('dimensionless', 'ratio', 'dimensionless ratio'):
             continue                                   # trivial: the unit/label already shows this
+        if re.match(r'^per\s+(proton|nucleon|nucleus|neutron|deuteron|isoscalar)\b', low):
+            continue                                   # normalization — shown in the target column
+        if low.startswith('target '):
+            continue                                   # target material — shown in the target column
+        if low.startswith('split by ') or low.startswith('exclusive '):
+            continue                                   # channel / binning description — shown in the distribution labels
+        if low.startswith('digitized from ') or low.startswith('digitised from '):
+            continue                                   # the digitization overlay is shown right here
+        if low.startswith('from the paper') or low.startswith('from the compilation'):
+            continue                                   # trivial source tail
         keep.append(p[0].upper() + p[1:])
     return '. '.join(keep) + ('.' if keep else '')
 

@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1604.01728",
    "provenance": "MINERvA:2016uck \u2014 Flux-integrated (NuMI low-energy numu beam, mean E_nu=4.5 GeV, peak 3.15 GeV, neutrino mode) total cross section for the \u00b7 target per CH (paper states the unit explicitly as cm^2/CH \u2014 a flux-averaged cross section normalized per CH scintillator formula unit, per the NuIntBib C-vs-CH convention this matches the CH tag directly since the unit is given, not inferred) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per CH (paper states the unit explicitly as cm^2/CH \u2014 a flux-averaged cross section normalized per CH scintillator formula unit, per the NuIntBib C-vs-CH convention this matches the CH tag directly since the unit is given, not inferred)."
+   "notes": ""
   }
  ]
 }

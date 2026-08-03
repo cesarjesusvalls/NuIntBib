@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2503.00291",
    "provenance": "MicroBooNE:2025kqo \u2014 First-ever flux-integrated cross section for charged-current muon-neutrino induced K+ production on argon: numu + Ar -> \u00b7 target per nucleon (paper states units as cm^2/nucleon explicitly, both in text line 391 and Table tab:cross_sections column header) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (paper states units as cm^2/nucleon explicitly, both in text line 391 and Table tab:cross_sections column header)."
+   "notes": ""
   }
  ]
 }

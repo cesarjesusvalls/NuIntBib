@@ -102,7 +102,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_denu_c",
@@ -199,7 +199,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_denu_fe",
@@ -296,7 +296,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_denu_pb",
@@ -393,7 +393,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_depi_ch",
@@ -482,7 +482,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_depi_c",
@@ -571,7 +571,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_depi_fe",
@@ -660,7 +660,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_depi_pb",
@@ -749,7 +749,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dthetapi_ch",
@@ -869,7 +869,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dthetapi_c",
@@ -989,7 +989,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dthetapi_fe",
@@ -1109,7 +1109,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dthetapi_pb",
@@ -1229,7 +1229,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dq2_ch",
@@ -1334,7 +1334,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dq2_c",
@@ -1439,7 +1439,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dq2_fe",
@@ -1544,7 +1544,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dq2_pb",
@@ -1649,7 +1649,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dthetamu_ch",
@@ -1721,7 +1721,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dthetamu_c",
@@ -1793,7 +1793,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dthetamu_fe",
@@ -1865,7 +1865,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_dthetamu_pb",
@@ -1937,7 +1937,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_demu_ch",
@@ -2042,7 +2042,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_demu_c",
@@ -2147,7 +2147,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_demu_fe",
@@ -2252,7 +2252,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   },
   {
    "key": "dsigma_dsigma_demu_pb",
@@ -2357,7 +2357,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2210.01285",
    "provenance": "MINERvA:2022esg \u2014 Flux-integrated \u03bd\u03bc CC coherent \u03c0+ production cross section (arXiv:2210.01285, PRL 2022) measured simultaneously on CH, C \u00b7 target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit. \u00b7 from the arXiv ancillary data release",
-   "notes": "Target Per-nucleus (not per-nucleon): separately reported for CH (molecule), C, Fe, Pb as explicitly stated in each ancillary-file unit string, e.g. \"cm^2/GeV/^12CH\", \"cm^2/GeV/^12C\", \"cm^2/GeV/^56Fe\", \"cm^2/GeV/^207Pb\". Target is encoded in each item's slug (_ch/_c/_fe/_pb) and yunit.."
+   "notes": ""
   }
  ],
  "covariance": {

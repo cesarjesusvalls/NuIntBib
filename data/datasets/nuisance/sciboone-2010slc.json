@@ -69,7 +69,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1011.2131",
    "provenance": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB \u00b7 target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8)."
+   "notes": ""
   },
   {
    "key": "dsigma_cc_inclusive_edep_xsec_nuance",
@@ -133,7 +133,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1011.2131",
    "provenance": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB \u00b7 target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8)."
+   "notes": ""
   },
   {
    "key": "dsigma_cc_inclusive_total_xsec_neut",
@@ -165,7 +165,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1011.2131",
    "provenance": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB \u00b7 target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8)."
+   "notes": ""
   },
   {
    "key": "dsigma_cc_inclusive_total_xsec_nuance",
@@ -197,7 +197,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1011.2131",
    "provenance": "SciBooNE:2010slc \u2014 \u03bd\u03bc CC-inclusive interaction rate/cross section on carbon (polystyrene, C8H8), extracted from muon kinematics fit to SciB \u00b7 target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (on polystyrene C8H8 \u2192 treated as CH per nubib convention: per-nucleon on scintillator tags as CH, never C8H8)."
+   "notes": ""
   }
  ]
 }

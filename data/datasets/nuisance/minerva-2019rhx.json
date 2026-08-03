@@ -93,7 +93,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1906.08300",
    "provenance": "MINERvA:2019rhx \u2014 Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel \u03bd\u0304\u03bc + C \u00b7 target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions)."
+   "notes": ""
   },
   {
    "key": "dsigma_mutheta",
@@ -189,7 +189,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1906.08300",
    "provenance": "MINERvA:2019rhx \u2014 Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel \u03bd\u0304\u03bc + C \u00b7 target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions)."
+   "notes": ""
   },
   {
    "key": "dsigma_kinetic",
@@ -269,7 +269,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1906.08300",
    "provenance": "MINERvA:2019rhx \u2014 Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel \u03bd\u0304\u03bc + C \u00b7 target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions)."
+   "notes": ""
   },
   {
    "key": "dsigma_theta",
@@ -381,7 +381,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1906.08300",
    "provenance": "MINERvA:2019rhx \u2014 Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel \u03bd\u0304\u03bc + C \u00b7 target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions)."
+   "notes": ""
   },
   {
    "key": "dsigma_enu",
@@ -469,7 +469,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1906.08300",
    "provenance": "MINERvA:2019rhx \u2014 Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel \u03bd\u0304\u03bc + C \u00b7 target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions)."
+   "notes": ""
   },
   {
    "key": "dsigma_q2",
@@ -557,7 +557,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1906.08300",
    "provenance": "MINERvA:2019rhx \u2014 Flux-integrated differential cross sections for the MINERvA antineutrino CC single-pion-minus-production channel \u03bd\u0304\u03bc + C \u00b7 target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (isoscalar-corrected CH target; explicitly labeled \"per nucleon\" on all plot y-axes and table captions)."
+   "notes": ""
   }
  ],
  "covariance": {

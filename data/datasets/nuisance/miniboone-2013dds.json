@@ -221,7 +221,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1309.7257",
    "provenance": "MiniBooNE:2013dds \u2014 Flux-averaged antineutrino NC elastic (\u03bdbar N -> \u03bdbar N) differential cross section d\u03c3/dQ\u00b2_QE on CH2 (mineral oil), Mini \u00b7 target per nucleon (flux-averaged mixture of free H protons + bound C protons/neutrons in CH2, per Eq. in Appendix A; verified numerically \u2014 see caveats) \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
-   "notes": "Target per nucleon (flux-averaged mixture of free H protons + bound C protons/neutrons in CH2, per Eq. in Appendix A; verified numerically \u2014 see caveats)."
+   "notes": ""
   }
  ]
 }

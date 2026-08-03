@@ -133,7 +133,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1406.6415",
    "provenance": "MINERvA:2014ogb \u2014 Charged-current single- and multi-pion production by muon neutrinos on CH (NuMI low-energy \u03bd\u03bc beam, \u27e8E\u03bd\u27e9\u22484.0 GeV), MINER \u00b7 target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table)."
+   "notes": ""
   },
   {
    "key": "dsigma_cc1pi_dsigma_dT_pi",
@@ -214,7 +214,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1406.6415",
    "provenance": "MINERvA:2014ogb \u2014 Charged-current single- and multi-pion production by muon neutrinos on CH (NuMI low-energy \u03bd\u03bc beam, \u27e8E\u03bd\u27e9\u22484.0 GeV), MINER \u00b7 target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table)."
+   "notes": ""
   },
   {
    "key": "dsigma_ccnpi_dN_dtheta_pi",
@@ -342,7 +342,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1406.6415",
    "provenance": "MINERvA:2014ogb \u2014 Charged-current single- and multi-pion production by muon neutrinos on CH (NuMI low-energy \u03bd\u03bc beam, \u27e8E\u03bd\u27e9\u22484.0 GeV), MINER \u00b7 target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table)."
+   "notes": ""
   },
   {
    "key": "dsigma_ccnpi_dN_dT_pi",
@@ -423,7 +423,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1406.6415",
    "provenance": "MINERvA:2014ogb \u2014 Charged-current single- and multi-pion production by muon neutrinos on CH (NuMI low-energy \u03bd\u03bc beam, \u27e8E\u03bd\u27e9\u22484.0 GeV), MINER \u00b7 target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table) \u00b7 from the arXiv ancillary data release",
-   "notes": "Target per nucleon (CH scintillator target; unit explicitly \"10^-41 cm^2 / [degree|MeV] / nucleon\" in every appendix table)."
+   "notes": ""
   }
  ],
  "covariance": {
