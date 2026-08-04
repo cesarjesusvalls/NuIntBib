@@ -15,7 +15,7 @@
    "ylabel": "\\sigma",
    "yunit": "10^{-39}cm^2",
    "digitization": {
-    "original": "/digitize/bolognese-1979gf/fig2.png",
+    "original": "/digitize/bolognese-1979gf/fig2a.png",
     "overlay": "/digitize/bolognese-1979gf/fig2a_overlay.png",
     "note": ""
    }
@@ -29,7 +29,7 @@
    "ylabel": "\\sigma",
    "yunit": "10^{-39}cm^2",
    "digitization": {
-    "original": "/digitize/bolognese-1979gf/fig2.png",
+    "original": "/digitize/bolognese-1979gf/fig2b.png",
     "overlay": "/digitize/bolognese-1979gf/fig2b_overlay.png",
     "note": ""
    }
@@ -43,7 +43,7 @@
    "ylabel": "\\sigma",
    "yunit": "10^{-39}cm^2",
    "digitization": {
-    "original": "/digitize/bolognese-1979gf/fig3.png",
+    "original": "/digitize/bolognese-1979gf/fig3a.png",
     "overlay": "/digitize/bolognese-1979gf/fig3a_overlay.png",
     "note": ""
    }
@@ -57,7 +57,7 @@
    "ylabel": "\\sigma",
    "yunit": "10^{-39}cm^2",
    "digitization": {
-    "original": "/digitize/bolognese-1979gf/fig3.png",
+    "original": "/digitize/bolognese-1979gf/fig3b.png",
     "overlay": "/digitize/bolognese-1979gf/fig3b_overlay.png",
     "note": ""
    }
