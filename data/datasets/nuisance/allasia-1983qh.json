@@ -1,0 +1,470 @@
+{
+ "bibtag": "Allasia:1983qh",
+ "slug": "allasia-1983qh",
+ "source": "published (Z.Phys.C 20 (1983) 95)",
+ "source_url": "https://doi.org/10.1007/BF01573212",
+ "arxiv": null,
+ "cite": "Z.Phys.C 20 95",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_numubar_n_Wlt2",
+   "slug": "sigma_numubar_n_Wlt2",
+   "name": "\u03c3 (\\bar\\nu_\\mu n \\to \\mu^+ n \\pi^- \\ (W<2))",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu n \\to \\mu^+ n \\pi^- \\ (W<2))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 5.9,
+     "hi": 9.76,
+     "center": 7.83,
+     "val": 0.5546,
+     "err": 0.0796
+    },
+    {
+     "i": 1,
+     "lo": 11.83,
+     "hi": 15.03,
+     "center": 13.43,
+     "val": 0.5546,
+     "err": 0.0693
+    },
+    {
+     "i": 2,
+     "lo": 15.4,
+     "hi": 19.57,
+     "center": 17.485,
+     "val": 0.649,
+     "err": 0.0796
+    },
+    {
+     "i": 3,
+     "lo": 23.15,
+     "hi": 30.14,
+     "center": 26.645,
+     "val": 0.5841,
+     "err": 0.0678
+    },
+    {
+     "i": 4,
+     "lo": 30.14,
+     "hi": 49.88,
+     "center": 40.010000000000005,
+     "val": 0.6254,
+     "err": 0.09
+    },
+    {
+     "i": 5,
+     "lo": 59.0,
+     "hi": 64.58,
+     "center": 61.79,
+     "val": 0.7817,
+     "err": 0.1504,
+     "hi_true": 195.73
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1983qh/f3a.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Z.Phys.C 20 (1983) 95)",
+   "source_url": "https://doi.org/10.1007/BF01573212",
+   "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded)",
+   "digitization": {
+    "original": "/digitize/allasia-1983qh/fig3.png",
+    "overlay": "/digitize/allasia-1983qh/fig3_overlay.png",
+    "note": ""
+   },
+   "notes": ""
+  },
+  {
+   "key": "sigma_numubar_n_Wlt1p4",
+   "slug": "sigma_numubar_n_Wlt1p4",
+   "name": "\u03c3 (\\bar\\nu_\\mu n \\to \\mu^+ n \\pi^- \\ (W<1.4))",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu n \\to \\mu^+ n \\pi^- \\ (W<1.4))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 6.65,
+     "hi": 9.76,
+     "center": 8.205,
+     "val": 0.3743,
+     "err": 0.0629
+    },
+    {
+     "i": 1,
+     "lo": 10.0,
+     "hi": 14.68,
+     "center": 12.34,
+     "val": 0.4281,
+     "err": 0.0644
+    },
+    {
+     "i": 2,
+     "lo": 15.4,
+     "hi": 20.54,
+     "center": 17.97,
+     "val": 0.4611,
+     "err": 0.0704
+    },
+    {
+     "i": 3,
+     "lo": 20.54,
+     "hi": 26.74,
+     "center": 23.64,
+     "val": 0.3832,
+     "err": 0.0614
+    },
+    {
+     "i": 4,
+     "lo": 31.62,
+     "hi": 42.17,
+     "center": 36.895,
+     "val": 0.3922,
+     "err": 0.0704
+    },
+    {
+     "i": 5,
+     "lo": 52.33,
+     "hi": 58.0,
+     "center": 55.165,
+     "val": 0.5299,
+     "err": 0.1228,
+     "hi_true": 200.49
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1983qh/f3b.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Z.Phys.C 20 (1983) 95)",
+   "source_url": "https://doi.org/10.1007/BF01573212",
+   "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded)",
+   "notes": ""
+  },
+  {
+   "key": "sigma_numubar_p_Wlt2",
+   "slug": "sigma_numubar_p_Wlt2",
+   "name": "\u03c3 (\\bar\\nu_\\mu p \\to \\mu^+ p \\pi^- \\ (W<2))",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu p \\to \\mu^+ p \\pi^- \\ (W<2))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 5.07,
+     "hi": 10.44,
+     "center": 7.755,
+     "val": 0.2419,
+     "err": 0.09
+    },
+    {
+     "i": 1,
+     "lo": 10.19,
+     "hi": 14.98,
+     "center": 12.585,
+     "val": 0.4218,
+     "err": 0.059
+    },
+    {
+     "i": 2,
+     "lo": 15.35,
+     "hi": 20.0,
+     "center": 17.675,
+     "val": 0.3864,
+     "err": 0.0575
+    },
+    {
+     "i": 3,
+     "lo": 17.31,
+     "hi": 30.1,
+     "center": 23.705,
+     "val": 0.3599,
+     "err": 0.0472
+    },
+    {
+     "i": 4,
+     "lo": 30.1,
+     "hi": 48.7,
+     "center": 39.400000000000006,
+     "val": 0.4749,
+     "err": 0.0826
+    },
+    {
+     "i": 5,
+     "lo": 49.89,
+     "hi": 58.97,
+     "center": 54.43,
+     "val": 0.5339,
+     "err": 0.1254,
+     "hi_true": 201.41
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1983qh/f3c.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Z.Phys.C 20 (1983) 95)",
+   "source_url": "https://doi.org/10.1007/BF01573212",
+   "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded)",
+   "notes": ""
+  },
+  {
+   "key": "sigma_numubar_p_Wlt1p4",
+   "slug": "sigma_numubar_p_Wlt1p4",
+   "name": "\u03c3 (\\bar\\nu_\\mu p \\to \\mu^+ p \\pi^- \\ (W<1.4))",
+   "name_tex": "$\\sigma\\ (\\bar\\nu_\\mu p \\to \\mu^+ p \\pi^- \\ (W<1.4))$",
+   "xlabel": "E_bar\u03bd",
+   "xunit": "GeV",
+   "xlabel_tex": "$E_{\\bar\\nu}$",
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-38}cm^2",
+   "yunit_tex": "$10^{-38}cm^2$",
+   "nbins": 6,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 5.45,
+     "hi": 9.95,
+     "center": 7.699999999999999,
+     "val": 0.0699,
+     "err": 0.0305
+    },
+    {
+     "i": 1,
+     "lo": 10.19,
+     "hi": 15.35,
+     "center": 12.77,
+     "val": 0.1726,
+     "err": 0.0402
+    },
+    {
+     "i": 2,
+     "lo": 15.72,
+     "hi": 23.1,
+     "center": 19.41,
+     "val": 0.1101,
+     "err": 0.029
+    },
+    {
+     "i": 3,
+     "lo": 20.48,
+     "hi": 29.39,
+     "center": 24.935000000000002,
+     "val": 0.1518,
+     "err": 0.0335
+    },
+    {
+     "i": 4,
+     "lo": 29.39,
+     "hi": 48.7,
+     "center": 39.045,
+     "val": 0.2232,
+     "err": 0.0491
+    },
+    {
+     "i": 5,
+     "lo": 49.89,
+     "hi": 58.035,
+     "center": 53.9625,
+     "val": 0.1518,
+     "err": 0.0595,
+     "hi_true": 191.94
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1983qh/f3d.csv",
+   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "source": "published (Z.Phys.C 20 (1983) 95)",
+   "source_url": "https://doi.org/10.1007/BF01573212",
+   "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded)",
+   "notes": ""
+  },
+  {
+   "key": "sigma_numubar_n_dsigdq2",
+   "slug": "sigma_numubar_n_dsigdq2",
+   "name": "d\u03c3/dQ\u00b2 (\\bar\\nu_\\mu n \\to \\mu^+ n \\pi^-)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2\\ (\\bar\\nu_\\mu n \\to \\mu^+ n \\pi^-)$",
+   "xlabel": "Q\u00b2",
+   "xunit": "GeV^2",
+   "xlabel_tex": "$Q^2$",
+   "ylabel": "d\u03c3/dQ\u00b2",
+   "ylabel_plot": "d\u03c3/dQ\u00b2",
+   "ylabel_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
+   "yunit": "10^{-38}cm^2/GeV^2",
+   "yunit_tex": "$10^{-38}cm^2/GeV^2$",
+   "nbins": 4,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.884,
+     "hi": 0.884,
+     "center": 0.884,
+     "val": 0.3188,
+     "err": 0.0899
+    },
+    {
+     "i": 1,
+     "lo": 1.285,
+     "hi": 1.285,
+     "center": 1.285,
+     "val": 0.1686,
+     "err": 0.0435
+    },
+    {
+     "i": 2,
+     "lo": 1.807,
+     "hi": 1.807,
+     "center": 1.807,
+     "val": 0.0385,
+     "err": 0.0315
+    },
+    {
+     "i": 3,
+     "lo": 2.57,
+     "hi": 2.57,
+     "center": 2.57,
+     "val": 0.024,
+     "err": 0.0202
+    }
+   ],
+   "nuisance_file": "data/datasets/sources/allasia-1983qh/f5a.csv",
+   "scale_note": null,
+   "source": "published (Z.Phys.C 20 (1983) 95)",
+   "source_url": "https://doi.org/10.1007/BF01573212",
+   "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded) \u00b7 background-subtracted (deep-inelastic) distribution",
+   "digitization": {
+    "original": "/digitize/allasia-1983qh/fig5a.png",
+    "overlay": "/digitize/allasia-1983qh/fig5a_overlay.png",
+    "note": ""
+   },
+   "notes": "Background-subtracted (deep-inelastic) distribution."
+  },
+  {
+   "key": "r1_r1",
+   "slug": "r1_r1",
+   "name": "R_1 = \u03c3(\u03bc^+ n\u03c0^0)/\u03c3(\u03bc^+ n\u03c0^-) (r1)",
+   "name_tex": "$R_1 = \\sigma(\\mu^+ n\\pi^0)/\\sigma(\\mu^+ n\\pi^-)$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "R_1 = \u03c3(\u03bc^+ n\u03c0^0)/\u03c3(\u03bc^+ n\u03c0^-)",
+   "ylabel_plot": "R_1 = \u03c3(\u03bc^+ n\u03c0^0)/\u03c3(\u03bc^+ n\u03c0^-)",
+   "ylabel_tex": "$R_1 = \\sigma(\\mu^+ n\\pi^0)/\\sigma(\\mu^+ n\\pi^-)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.331,
+     "err": 0.0,
+     "err_up": 0.0,
+     "err_down": 0.0,
+     "cat_tex": "M_{N\\pi}<1.4",
+     "cat": "M_Npi<1.4"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.482,
+     "err": 0.0,
+     "err_up": 0.0,
+     "err_down": 0.0,
+     "cat_tex": "M_{N\\pi}<2.0",
+     "cat": "M_Npi<2.0"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Z.Phys.C 20 (1983) 95)",
+   "source_url": "https://doi.org/10.1007/BF01573212",
+   "provenance": "Allasia:1983qh \u2014 BEBC WA25, Fig 4 isospin ratios \u00b7 R1 has no horizontal error bar in the figure",
+   "digitization": {
+    "original": "/digitize/allasia-1983qh/fig4.png",
+    "overlay": "/digitize/allasia-1983qh/fig4_overlay.png",
+    "note": ""
+   },
+   "notes": "R1 has no horizontal error bar in the figure."
+  },
+  {
+   "key": "r2_r2",
+   "slug": "r2_r2",
+   "name": "R_2 = \u03c3(\u03bc^+ p\u03c0^-)/\u03c3(\u03bc^+ n\u03c0^-) (r2)",
+   "name_tex": "$R_2 = \\sigma(\\mu^+ p\\pi^-)/\\sigma(\\mu^+ n\\pi^-)$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "R_2 = \u03c3(\u03bc^+ p\u03c0^-)/\u03c3(\u03bc^+ n\u03c0^-)",
+   "ylabel_plot": "R_2 = \u03c3(\u03bc^+ p\u03c0^-)/\u03c3(\u03bc^+ n\u03c0^-)",
+   "ylabel_tex": "$R_2 = \\sigma(\\mu^+ p\\pi^-)/\\sigma(\\mu^+ n\\pi^-)$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.329,
+     "err": 0.069,
+     "err_up": 0.069,
+     "err_down": 0.069,
+     "cat_tex": "M_{N\\pi}<1.4",
+     "cat": "M_Npi<1.4"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.619,
+     "err": 0.068,
+     "err_up": 0.068,
+     "err_down": 0.068,
+     "cat_tex": "M_{N\\pi}<2.0",
+     "cat": "M_Npi<2.0"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Z.Phys.C 20 (1983) 95)",
+   "source_url": "https://doi.org/10.1007/BF01573212",
+   "provenance": "Allasia:1983qh \u2014 BEBC WA25, Fig 4 isospin ratios",
+   "notes": ""
+  }
+ ]
+}

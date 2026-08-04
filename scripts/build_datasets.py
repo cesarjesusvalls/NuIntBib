@@ -1130,7 +1130,8 @@ def build_csv_simple(spec):
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
             'nbins': len(bins), 'is2d': False, 'bins': bins, 'nuisance_file': it['csv'],
             'scale_note': 'a wide terminal bin is shown truncated (true edge in hi_true)' if clipped else None,
-            'source': spec['source'], 'source_url': spec['source_url'], 'provenance': spec['provenance'],
+            'source': spec['source'], 'source_url': spec['source_url'],
+            'provenance': spec['provenance'] + (f" · {it['note']}" if it.get('note') else ''),
         })
         if it.get('digitization'):        # figure-digitized: original + overlay validation images
             dists[-1]['digitization'] = it['digitization']
@@ -1780,6 +1781,54 @@ REGISTRY = [
                  'digitized) · these early discovery-era ratios were later superseded by the '
                  'higher-statistics Derrick:1980xw (R_0 = 0.09 +/- 0.05, R_+ = 0.12 +/- 0.04) · '
                  'from the paper')}}]},
+    {'bibtag': 'Allasia:1983qh', 'slug': 'allasia-1983qh',
+     'source': 'published (Z.Phys.C 20 (1983) 95)', 'note': '',
+     'sources': [
+         {'csv_simple': {
+             'key': 'sigma',
+             'items': [
+                 {'slug': 'numubar_n_Wlt2', 'label': r'\bar\nu_\mu n \to \mu^+ n \pi^- \ (W<2)',
+                  'csv': 'data/datasets/sources/allasia-1983qh/f3a.csv',
+                  'xlabel': r'E_{\bar\nu}', 'xunit': 'GeV', 'ylabel': r'\sigma', 'yunit': '10^{-38}cm^2',
+                  'digitization': {'original': '/digitize/allasia-1983qh/fig3.png',
+                                   'overlay': '/digitize/allasia-1983qh/fig3_overlay.png', 'note': ''}},
+                 {'slug': 'numubar_n_Wlt1p4', 'label': r'\bar\nu_\mu n \to \mu^+ n \pi^- \ (W<1.4)',
+                  'csv': 'data/datasets/sources/allasia-1983qh/f3b.csv',
+                  'xlabel': r'E_{\bar\nu}', 'xunit': 'GeV', 'ylabel': r'\sigma', 'yunit': '10^{-38}cm^2'},
+                 {'slug': 'numubar_p_Wlt2', 'label': r'\bar\nu_\mu p \to \mu^+ p \pi^- \ (W<2)',
+                  'csv': 'data/datasets/sources/allasia-1983qh/f3c.csv',
+                  'xlabel': r'E_{\bar\nu}', 'xunit': 'GeV', 'ylabel': r'\sigma', 'yunit': '10^{-38}cm^2'},
+                 {'slug': 'numubar_p_Wlt1p4', 'label': r'\bar\nu_\mu p \to \mu^+ p \pi^- \ (W<1.4)',
+                  'csv': 'data/datasets/sources/allasia-1983qh/f3d.csv',
+                  'xlabel': r'E_{\bar\nu}', 'xunit': 'GeV', 'ylabel': r'\sigma', 'yunit': '10^{-38}cm^2'},
+                 {'slug': 'numubar_n_dsigdq2', 'label': r'\bar\nu_\mu n \to \mu^+ n \pi^-',
+                  'csv': 'data/datasets/sources/allasia-1983qh/f5a.csv',
+                  'xlabel': r'Q^2', 'xunit': 'GeV^2', 'ylabel': r'\mathrm{d}\sigma/\mathrm{d}Q^2',
+                  'yunit': '10^{-38}cm^2/GeV^2',
+                  'digitization': {'original': '/digitize/allasia-1983qh/fig5a.png',
+                                   'overlay': '/digitize/allasia-1983qh/fig5a_overlay.png', 'note': ''},
+                  'note': 'background-subtracted (deep-inelastic) distribution'}],
+             'source': 'published (Z.Phys.C 20 (1983) 95)', 'source_url': 'https://doi.org/10.1007/BF01573212',
+             'provenance': "Allasia:1983qh — BEBC WA25 anti-neutrino deuterium exclusive single-pion "
+                           "production; digitized from the paper figures (our 'This experiment' points; "
+                           "G.G.M. and Barish comparison points and model curves excluded)"}},
+         {'values': {
+             'key': 'r1', 'ylabel': r'R_1 = \sigma(\mu^+ n\pi^0)/\sigma(\mu^+ n\pi^-)', 'yunit': '',
+             'items': [{'slug': 'r1', 'points': [
+                 {'cat': r'M_{N\pi}<1.4', 'val': 0.331, 'err': 0.0},
+                 {'cat': r'M_{N\pi}<2.0', 'val': 0.482, 'err': 0.0}],
+                 'digitization': {'original': '/digitize/allasia-1983qh/fig4.png',
+                                  'overlay': '/digitize/allasia-1983qh/fig4_overlay.png', 'note': ''}}],
+             'source': 'published (Z.Phys.C 20 (1983) 95)', 'source_url': 'https://doi.org/10.1007/BF01573212',
+             'provenance': 'Allasia:1983qh — BEBC WA25, Fig 4 isospin ratios · R1 has no horizontal '
+                           'error bar in the figure'}},
+         {'values': {
+             'key': 'r2', 'ylabel': r'R_2 = \sigma(\mu^+ p\pi^-)/\sigma(\mu^+ n\pi^-)', 'yunit': '',
+             'items': [{'slug': 'r2', 'points': [
+                 {'cat': r'M_{N\pi}<1.4', 'val': 0.329, 'err': 0.069},
+                 {'cat': r'M_{N\pi}<2.0', 'val': 0.619, 'err': 0.068}]}],
+             'source': 'published (Z.Phys.C 20 (1983) 95)', 'source_url': 'https://doi.org/10.1007/BF01573212',
+             'provenance': 'Allasia:1983qh — BEBC WA25, Fig 4 isospin ratios'}}]},
     {'bibtag': 'NOvA:2026zup', 'slug': 'nova-2026zup', 'source': 'arXiv',
      'note': '',
      'sources': [
