@@ -2293,12 +2293,9 @@ REGISTRY = [
                            'INGRID complex, arXiv:1904.09611, PTEP 2019 093C02) · stat + syst '
                            '(quadrature) · nothing digitized'}}]},
     {'bibtag': 'T2K:2014hih', 'slug': 't2k-2014hih', 'source': 'arXiv',
-     'note': 'sigma(E_nu) central values digitized from Fig 7 (analytical digitizer, overlay '
-             'verified; the 5 points flux-integrate to 0.855 vs the paper flux-integrated '
-             '0.83). The paper prints a fractional covariance (relative to the pre-fit NEUT '
-             'nominal); it is made absolute with the digitized pre-fit NEUT-binned curve, so '
-             'the covariance and correlations are exact. CCQE-like, model-dependent '
-             '(Smith-Moniz) extraction.',
+     'note': 'CCQE (model-dependent Smith-Moniz RFG extraction). The highest-energy bin is '
+             'open, E_nu > 1.5 GeV (shown truncated). Covariance is the paper fractional '
+             'covariance made absolute with the digitized pre-fit RFG nominal.',
      'flux': _FLUX_FHC,
      'sources': [{'sigma_enu': {
          'data': 'data/datasets/sources/t2k-2014hih/sigma_enu.csv',
@@ -2306,10 +2303,10 @@ REGISTRY = [
          'key': 'sigma_enu', 'xlabel': r'E_\nu', 'xunit': 'GeV',
          'ylabel': r'\sigma_\mathrm{CCQE}(E_\nu)', 'yunit': r'10^{-38}cm^2/\mathrm{neutron}',
          'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/1411.6264',
-         'provenance': 'T2K numu CCQE(-like) on carbon (ND280/FGD1, arXiv:1411.6264, '
-                       'Phys.Rev.D 92 112003) · sigma(E_nu) per target neutron · central '
-                       'values DIGITIZED from Fig 7 (analytical digitizer) · covariance = '
-                       'fractional covariance (Table) x pre-fit NEUT nominal_i*nominal_j',
+         'provenance': 'T2K numu CCQE on carbon (ND280/FGD1, arXiv:1411.6264, '
+                       'Phys.Rev.D 92 112003) · sigma(E_nu) per target neutron; highest bin '
+                       'open (E_nu > 1.5 GeV) · central values DIGITIZED from Fig 7 · covariance '
+                       '= fractional covariance (Table) x pre-fit RFG nominal_i*nominal_j',
          'cov_note': 'covariance in (10^-38 cm^2/neutron)^2, from the paper fractional '
                      'covariance (relative to the pre-fit NEUT nominal) times the digitized '
                      'nominal_i*nominal_j; row/col order below',
