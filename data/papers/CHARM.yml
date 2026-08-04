@@ -88,10 +88,10 @@
   abstract: Inclusive neutrino and antineutrino charged-current interactions were studied using the electronic
     detector of the CHARM Collaboration exposed to the narrow-band beam of the CERN SPS. The relative
     contributions of quarks and antiquarks to the neutrino cross sections were deduced from the differential
-    cross sectionsdσ/d y . The x and Q 2 dependence of the structure functions F 2 and F 3 were measured.
-    Scaling violations were observed, in qualitative agreement with QCD. A value of the mass scale parameter
-    of QCD,Λ = [0.29 ± 0.12 (stat.) ± 0.10 (syst.)] GeV, was deduced in a leading-order approximation,
-    following the method of Buras and Gaemers.
+    cross sections $d\sigma/dy$. The $x$ and $Q^2$ dependence of the structure functions $F_2$ and $F_3$ were
+    measured. Scaling violations were observed, in qualitative agreement with QCD. A value of the mass scale
+    parameter of QCD, $\Lambda = [0.29 \pm 0.12\,\text{(stat.)} \pm 0.10\,\text{(syst.)}]$ GeV, was deduced in
+    a leading-order approximation, following the method of Buras and Gaemers.
   added: '2026-06-16'
   notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
   links:
