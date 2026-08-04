@@ -177,15 +177,15 @@
   published_date: '1983'
   inspire_recid: 196370
   citation_count: 22
-  abstract: The reactions\(\bar vD \to \mu ^ +n\pi ^ -(p_s )\) and\(\bar vD \to \mu ^ +p\pi (n_s )\) have been studied
-    at antineutrino energies varying from 5 to 200 GeV. The cross sections for these reactions were determined from
-    545 and 300 selected events for each channel respectively. The first reaction was used for the study of the
-    decay properties of the Δ resonance that dominates this channel. The experimental results have been compared
-    with the theoretical predictions of Rein and Sehgal [9] and of Fogli and Nardulli [10]. Using the first model
-    we obtained for the axial form factor parameterMa=1.01±0.05 GeV/c2. With this value the model is in agreement
-    with the experimentaldσ/dQ2 distributions forQ2>0.25 GeV2 and with the distributions of the invariant hadronic
-    massW. The isospin structure of the one-pion production has been investigated and compared with the results
-    of other experiments.
+  abstract: The reactions $\bar\nu D \to \mu^+ n \pi^- (p_s)$ and $\bar\nu D \to \mu^+ p \pi (n_s)$ have been
+    studied at antineutrino energies varying from 5 to 200 GeV. The cross sections for these reactions were
+    determined from 545 and 300 selected events for each channel respectively. The first reaction was used for
+    the study of the decay properties of the Δ resonance that dominates this channel. The experimental results
+    have been compared with the theoretical predictions of Rein and Sehgal [9] and of Fogli and Nardulli [10].
+    Using the first model we obtained for the axial form factor parameter $M_A = 1.01 \pm 0.05$ GeV/c². With this
+    value the model is in agreement with the experimental $d\sigma/dQ^2$ distributions for $Q^2 > 0.25$ GeV² and
+    with the distributions of the invariant hadronic mass $W$. The isospin structure of the one-pion production
+    has been investigated and compared with the results of other experiments.
   added: '2026-07-23'
   notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
     (1411.4482).
