@@ -79,6 +79,9 @@ function renderInlineTex(text: string): string {
 
 export function texToHtml(input: string | null | undefined): string {
   if (!input) return '';
+  // Some INSPIRE abstracts use \( … \) / \[ … \] LaTeX delimiters instead of $…$;
+  // normalize them so the KaTeX pass below picks up the math.
+  input = input.replace(/\\[()[\]]/g, '$');
   // Some INSPIRE titles ship raw MathML (<math>…</math>) instead of $…$ TeX.
   // Browsers render MathML natively, so pass those blocks through verbatim and
   // only TeX-process the surrounding text.
@@ -93,8 +96,11 @@ export function texToHtml(input: string | null | undefined): string {
 /** Plain-text version (for search text and meta descriptions): drop markup. */
 export function stripTex(input: string | null | undefined): string {
   if (!input) return '';
-  return input
-    .replace(/<[^>]+>/g, ' ') // MathML / HTML tags
+  return latexToUnicode(
+    input
+      .replace(/<[^>]+>/g, ' ') // MathML / HTML tags
+      .replace(/\\[()[\]]/g, ' '), // \( \) \[ \] LaTeX delimiters
+  )
     .replace(/\$/g, '')
     .replace(/[{}]/g, '')
     .replace(/\s+/g, ' ')
