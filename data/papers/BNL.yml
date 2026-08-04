@@ -12,10 +12,11 @@
   inspire_recid: 264269
   release_status: abstract
   citation_count: 124
-  abstract: The antineutrino quasielastic reaction ν μm p →μ + n has been studied in the Q 2 range up
-    to 1.0 (GeV/ c ) 2 at the Brookhaven AGS. The value of the axial vector mass M A in the dipole parametrization
-    of the from factor was determined from the shape of the Q 2 distribution to be 1.09±0.03±0.02 GeV/
-    c 2 . A search for second-class currents was also conducted. No significant effect was found.
+  abstract: The antineutrino quasielastic reaction $\bar\nu_\mu p \to \mu^+ n$ has been studied in
+    the $Q^2$ range up to $1.0\,(\mathrm{GeV}/c)^2$ at the Brookhaven AGS. The value of the axial
+    vector mass $M_A$ in the dipole parametrization of the form factor was determined from the
+    shape of the $Q^2$ distribution to be $1.09\pm0.03\pm0.02$ GeV/$c^2$. A search for
+    second-class currents was also conducted. No significant effect was found.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:

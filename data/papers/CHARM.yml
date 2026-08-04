@@ -45,15 +45,17 @@
   published_date: 1985-03
   inspire_recid: 214232
   citation_count: 81
-  abstract: Measurements of coherent π 0 production by muon-neutrinos and antineutrinos on nuclei in marble
-    have been carried out using the CHARM neutrino detector in the CERN-SPS neutrino wide-band beam. We
-    determined the cross sections σ ν = (96±42)×10 −40 cm 2 and σ ν = (79±26)×10 −40 cm 2 per average
-    marble nucleus. Comparing these experimental results to theoretical predictions we evaluated the isovector
-    axial vector neutral-current coupling constant ∣ β ∣ = 1.08±0.24, averaged over the neutrino and the
-    antineutrino results, and found agreement with the prediction of the standard model, β = 1.0. From
-    the ratio of coherent π 0 production by neutral-current interactions observed in this experiment and
-    of coherent π − production by charged-current interactions of antineutrinos measured in BEBC a value
-    of ∣ β ∣ = 1.10±0.23 is derived.
+  abstract: Measurements of coherent $\pi^0$ production by muon-neutrinos and antineutrinos on
+    nuclei in marble have been carried out using the CHARM neutrino detector in the CERN-SPS
+    neutrino wide-band beam. We determined the cross sections $\sigma_\nu =
+    (96\pm42)\times10^{-40}$ cm$^2$ and $\sigma_{\bar\nu} = (79\pm26)\times10^{-40}$ cm$^2$ per
+    average marble nucleus. Comparing these experimental results to theoretical predictions we
+    evaluated the isovector axial vector neutral-current coupling constant $|\beta| =
+    1.08\pm0.24$, averaged over the neutrino and the antineutrino results, and found agreement
+    with the prediction of the standard model, $\beta = 1.0$. From the ratio of coherent $\pi^0$
+    production by neutral-current interactions observed in this experiment and of coherent $\pi^-$
+    production by charged-current interactions of antineutrinos measured in BEBC a value of
+    $|\beta| = 1.10\pm0.23$ is derived.
   added: '2026-06-16'
   notes: High-energy DIS-era measurement (added via 2605.28671 cross-check).
   links:

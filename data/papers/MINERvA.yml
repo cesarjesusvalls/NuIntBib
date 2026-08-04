@@ -854,18 +854,20 @@
   citation_count: 48
   release_status: digitize
   release_note: Working to add a data release; we are in contact with the MINERvA collaboration.
-  abstract: Charged-current anti-neutrino interactions on hydrocarbon scintillator in the MINERvA detector
-    are used to study activity from their final-state neutrons. To ensure that most of the neutrons are
-    from the primary interaction, rather than hadronic reinteractions in the detector, the sample is limited
-    to momentum transfers below 0.8 GeV/c. From 16,129 interactions, 15,246 neutral particle candidates
-    are observed. The reference simulation predicts 64\% of these candidates are due to neutrons from
-    the anti-neutrino interaction directly, but also overpredicts the number of candidates by 15\% overall,
-    which is beyond the standard uncertainty estimates for models of neutrino interactions and neutron
-    propagation in the detector. Using the measured distributions for energy deposition, time of flight,
-    position, and speed, we explore the sensitivity to the details those two aspects of the models. We
-    also use multiplicity distributions to evaluate the presence of a two-nucleon knockout process. These
-    results provide critical new information toward a complete description of the hadronic final state
-    of neutrino interactions, which is vital to neutrino oscillation experiments.
+  abstract: Charged-current anti-neutrino interactions on hydrocarbon scintillator in the MINERvA
+    detector are used to study activity from their final-state neutrons. To ensure that most of
+    the neutrons are from the primary interaction, rather than hadronic reinteractions in the
+    detector, the sample is limited to momentum transfers below 0.8 GeV/c. From 16,129
+    interactions, 15,246 neutral particle candidates are observed. The reference simulation
+    predicts 64% of these candidates are due to neutrons from the anti-neutrino interaction
+    directly, but also overpredicts the number of candidates by 15% overall, which is beyond the
+    standard uncertainty estimates for models of neutrino interactions and neutron propagation in
+    the detector. Using the measured distributions for energy deposition, time of flight,
+    position, and speed, we explore the sensitivity to the details of those two aspects of the
+    models. We also use multiplicity distributions to evaluate the presence of a two-nucleon
+    knockout process. These results provide critical new information toward a complete description
+    of the hadronic final state of neutrino interactions, which is vital to neutrino oscillation
+    experiments.
   added: '2024-12-09'
   notes: null
   links:
@@ -1751,14 +1753,15 @@
   published_date: '2013-05-09'
   inspire_recid: 1232962
   citation_count: 244
-  abstract: We have isolated muon anti-neutrino charged-current quasi-elastic interactions occurring in
-    the segmented scintillator tracking region of the MINERvA detector running in the NuMI neutrino beam
-    at Fermilab. We measure the flux-averaged differential cross-section, d{\sigma}/dQ^2, and compare
-    to several theoretical models of quasi-elastic scattering. Good agreement is obtained with a model
-    where the nucleon axial mass, M_A, is set to 0.99 GeV/c^2 but the nucleon vector form factors are
-    modified to account for the observed enhancement, relative to the free nucleon case, of the cross-section
-    for the exchange of transversely polarized photons in electron-nucleus scattering. Our data at higher
-    Q^2 favor this interpretation over an alternative in which the axial mass is increased.
+  abstract: We have isolated muon anti-neutrino charged-current quasi-elastic interactions
+    occurring in the segmented scintillator tracking region of the MINERvA detector running in the
+    NuMI neutrino beam at Fermilab. We measure the flux-averaged differential cross-section,
+    $d\sigma/dQ^2$, and compare to several theoretical models of quasi-elastic scattering. Good
+    agreement is obtained with a model where the nucleon axial mass, $M_A$, is set to 0.99
+    GeV/$c^2$ but the nucleon vector form factors are modified to account for the observed
+    enhancement, relative to the free nucleon case, of the cross-section for the exchange of
+    transversely polarized photons in electron-nucleus scattering. Our data at higher $Q^2$ favor
+    this interpretation over an alternative in which the axial mass is increased.
   added: '2024-12-09'
   notes: null
   links:

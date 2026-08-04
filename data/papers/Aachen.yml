@@ -10,15 +10,17 @@
   published_date: 1983-03
   inspire_recid: 189649
   citation_count: 145
-  abstract: The angular distribution of isolated π 0 ,s, produced by ν μ ′s and ν μ ′s in the Aachen-Padova
-    spark chamber, shows a peak in the forward direction which is not explicable by resonance production.
-    A similar effect is seen in the acoplanarity distribution of the decay photons, which shows an excess
-    of nearly coplanar events. A control sample containing a recoil proton shows no such peaks and is
-    well reproduced by a resonance model. The observed effects are consistent with neutral current (NC)
-    induced coherent single π 0 production off the entire Al 27 nucleus. The coherent cross sections are
-    σ ν =(29±10)×10 −40 cm 2 /nucleus and σ ν =(25±7)×10 −40 cm 2 / nucleus . They determine the isovector
-    axial NC coupling constant ß =0.93±0.12. No η 0 mesons were observed, which limits the corresponding
-    isoscalar coupling constant to δ <0.7 (with 90% confidence).
+  abstract: The angular distribution of isolated $\pi^0$'s, produced by $\nu_\mu$'s and
+    $\bar\nu_\mu$'s in the Aachen-Padova spark chamber, shows a peak in the forward direction
+    which is not explicable by resonance production. A similar effect is seen in the acoplanarity
+    distribution of the decay photons, which shows an excess of nearly coplanar events. A control
+    sample containing a recoil proton shows no such peaks and is well reproduced by a resonance
+    model. The observed effects are consistent with neutral current (NC) induced coherent single
+    $\pi^0$ production off the entire $^{27}$Al nucleus. The coherent cross sections are
+    $\sigma_\nu = (29\pm10)\times10^{-40}$ cm$^2$/nucleus and $\sigma_{\bar\nu} =
+    (25\pm7)\times10^{-40}$ cm$^2$/nucleus. They determine the isovector axial NC coupling
+    constant $\beta = 0.93\pm0.12$. No $\eta^0$ mesons were observed, which limits the
+    corresponding isoscalar coupling constant to $\delta < 0.7$ (with 90% confidence).
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:

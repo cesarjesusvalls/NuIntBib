@@ -44,9 +44,10 @@
   published_date: 1979-10
   inspire_recid: 8430
   citation_count: 42
-  abstract: We present data on the reaction ν p → μ + pπ − from an exposure of the Fermilab 15 ft hydrogen
-    bubble chamber. The channel cross section for 5 GeV < E ν < 70 GeV and M( p π − ) < 1.9 GeV is σ =
-    (27 ± 5) × 10 −40 cm 2 . This cross section is dominated by the I = 1 2 production amplitude.
+  abstract: We present data on the reaction $\nu p \to \mu^+ p\pi^-$ from an exposure of the
+    Fermilab 15 ft hydrogen bubble chamber. The channel cross section for $5\,\mathrm{GeV} < E_\nu
+    < 70\,\mathrm{GeV}$ and $M(p\pi^-) < 1.9$ GeV is $\sigma = (27\pm5)\times10^{-40}$ cm$^2$.
+    This cross section is dominated by the $I = \tfrac{1}{2}$ production amplitude.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:

@@ -90,15 +90,18 @@
   published_date: 1986-03
   inspire_recid: 227412
   citation_count: 31
-  abstract: BEBC filled in turn with hydrogen, and with a neon-hydrogen mixture, was exposed to the CERN
-    SPS wide band neutrino and antineutrino beams. The ratios of the charged-current cross sections per
-    nucleon, σ(νH 2 ) σ(ν Ne ) and σ( ν H 2 ) σ( ν Ne ) , between 20 and 300 GeV were found to be 0.656
-    ± 0.020 and 1.425 ± 0.052, respectively. Multiplying these ratios by the revised cross sections in
-    neon, σ(ν Ne ) E = (0.723 ± 0.038) × 10 −38 cm 2 / GeV per nucleon and σ( ν Ne ) E = (0.351 ± 0.019)
-    × 10 −38 cm 2 / GeV per nucleon, and their ratio, σ( ν Ne ) σ(ν Ne ) = 0.485 ± 0.020 ,, yields values
-    for the total charged-current cross sections on protons, σ(νp)/ E and σ( ν p ) E , of (0.474 ± 0.029)
-    × 10 −38 cm 2 /GeV and (0.500 ± 0.032) × 10 −38 cm 2 /GeV. respectively, and a value for the ratio
-    σ( ν p ) σ(ν p ) of 1.053 ± 0.066.
+  abstract: BEBC filled in turn with hydrogen, and with a neon-hydrogen mixture, was exposed to
+    the CERN SPS wide band neutrino and antineutrino beams. The ratios of the charged-current
+    cross sections per nucleon, $\sigma(\nu\mathrm{H}_2)/\sigma(\nu\mathrm{Ne})$ and
+    $\sigma(\bar\nu\mathrm{H}_2)/\sigma(\bar\nu\mathrm{Ne})$, between 20 and 300 GeV were found to
+    be $0.656\pm0.020$ and $1.425\pm0.052$, respectively. Multiplying these ratios by the revised
+    cross sections in neon, $\sigma(\nu\mathrm{Ne})/E = (0.723\pm0.038)\times10^{-38}$ cm$^2$/GeV
+    per nucleon and $\sigma(\bar\nu\mathrm{Ne})/E = (0.351\pm0.019)\times10^{-38}$ cm$^2$/GeV per
+    nucleon, and their ratio, $\sigma(\bar\nu\mathrm{Ne})/\sigma(\nu\mathrm{Ne}) = 0.485\pm0.020$,
+    yields values for the total charged-current cross sections on protons, $\sigma(\nu p)/E$ and
+    $\sigma(\bar\nu p)/E$, of $(0.474\pm0.029)\times10^{-38}$ cm$^2$/GeV and
+    $(0.500\pm0.032)\times10^{-38}$ cm$^2$/GeV, respectively, and a value for the ratio
+    $\sigma(\bar\nu p)/\sigma(\nu p)$ of $1.053\pm0.066$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -130,13 +133,14 @@
   published_date: '1986'
   inspire_recid: 213386
   citation_count: 85
-  abstract: We present results on exclusive single-charged pion and kaon production in neutrino and antineutrino
-    interactions on protons in the energy range from 5 to 120 GeV. The data were obtained from exposures of BEBC
-    to wide band beams at the CERN SPS. For invariant masses of the (pπ) system below 2 GeV, the pions originate
-    predominantly from decays of baryon resonances excited by the weak charged current. Similarly, we observe the
-    production of Λ(1520) decaying into p and K − . For invariant masses above 2 GeV pion production becomes peripheral
-    by interaction of the weak current with a virtual π 0 . We establish a contribution of longitudinally polarised
-    intermediate vector bosons to this process.
+  abstract: We present results on exclusive single-charged pion and kaon production in neutrino
+    and antineutrino interactions on protons in the energy range from 5 to 120 GeV. The data were
+    obtained from exposures of BEBC to wide band beams at the CERN SPS. For invariant masses of
+    the $(p\pi)$ system below 2 GeV, the pions originate predominantly from decays of baryon
+    resonances excited by the weak charged current. Similarly, we observe the production of
+    $\Lambda(1520)$ decaying into $p$ and $K^-$. For invariant masses above 2 GeV pion production
+    becomes peripheral by interaction of the weak current with a virtual $\pi^0$. We establish a
+    contribution of longitudinally polarised intermediate vector bosons to this process.
   added: '2026-07-23'
   notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
     (1411.4482).

@@ -10,10 +10,11 @@
   published_date: '1979'
   inspire_recid: 146172
   citation_count: 101
-  abstract: A sample of 766 antineutrino charged current elastic events has been used to extract the variation
-    of the elastic cross section with antineutrino energy and the distribution of d N /d q 2 . The best
-    fit value for the parameter M A obtained from these measurements is M A = 0.91 ± 0.04 GeV/ c 2 for
-    M V = 0.84 GeV/ c 2 . A simultaneous determination of M A and M V gives M A = 0.94 ± 0.07, M V = 0.81
+  abstract: A sample of 766 antineutrino charged current elastic events has been used to extract
+    the variation of the elastic cross section with antineutrino energy and the distribution of
+    $dN/dq^2$. The best fit value for the parameter $M_A$ obtained from these measurements is $M_A
+    = 0.91\pm0.04$ GeV/$c^2$ for $M_V = 0.84$ GeV/$c^2$. A simultaneous determination of $M_A$ and
+    $M_V$ gives $M_A = 0.94\pm0.07$, $M_V = 0.81$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -129,10 +130,11 @@
   published_date: 1977-11
   inspire_recid: 122236
   citation_count: 42
-  abstract: The cross section ratio of the elastic neutral current reaction ν p→ ν p to the quasi-elastic
-    charged current reaction ν n→ μ − p has been measured in the kinematical region 0.3⩽ q 2 ⩽1.0 (GeV/
-    c ) 2 . The measured value is R M =0.17±0.08. Model dependent corrections are applied, especially
-    for ν n→ ν n contamination, and the result is compared to various models.
+  abstract: The cross section ratio of the elastic neutral current reaction $\nu p \to \nu p$ to
+    the quasi-elastic charged current reaction $\nu n \to \mu^- p$ has been measured in the
+    kinematical region $0.3 \leq q^2 \leq 1.0\,(\mathrm{GeV}/c)^2$. The measured value is $R_M =
+    0.17\pm0.08$. Model dependent corrections are applied, especially for $\nu n \to \nu n$
+    contamination, and the result is compared to various models.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -162,15 +164,17 @@
   published_date: '1977'
   inspire_recid: 124163
   citation_count: 148
-  abstract: The quasi-elastic cross-sectionsσeltot and dσ/dq2 for the reactions 1) νn → μ−p and 2)\(\overline
-    v \) → μ+n have been measured by using the data of the ν Gargamelle collaboration. 687 ν events, candidates
-    for reaction 1), and 476\(\overline v \) events, candidates for the reactions 2), have been used for
-    the analysis. Because the ν and\(\overline v \) interactions are on nuclei, suitable corrections for
-    nuclear effects have been taken into account. In the framework of the «usual»V −A theory, by assuming
-    for the axial form factor the dipolar formFA(q2)=1.23/(1 +q2/MA/2)2, our data have been fitted to
-    the differential cross-section dσ/dq2 integrated over the ν and\(\overline v \) energy spectra and
-    to the total cross-sectionσeltot as a function of the ν,\(\overline v \) energy to determine the best
-    value for the parameterMA.
+  abstract: The quasi-elastic cross-sections $\sigma_\mathrm{el}^\mathrm{tot}$ and $d\sigma/dq^2$
+    for the reactions 1) $\nu n \to \mu^- p$ and 2) $\bar\nu p \to \mu^+ n$ have been measured by
+    using the data of the $\nu$ Gargamelle collaboration. 687 $\nu$ events, candidates for
+    reaction 1), and 476 $\bar\nu$ events, candidates for reaction 2), have been used for the
+    analysis. Because the $\nu$ and $\bar\nu$ interactions are on nuclei, suitable corrections for
+    nuclear effects have been taken into account. In the framework of the usual $V-A$ theory, by
+    assuming for the axial form factor the dipole form $F_A(q^2) = 1.23/(1 + q^2/M_A^2)^2$, our
+    data have been fitted to the differential cross-section $d\sigma/dq^2$ integrated over the
+    $\nu$ and $\bar\nu$ energy spectra and to the total cross-section
+    $\sigma_\mathrm{el}^\mathrm{tot}$ as a function of the $\nu$, $\bar\nu$ energy to determine
+    the best value for the parameter $M_A$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -202,9 +206,10 @@
   published_date: '1979'
   inspire_recid: 141175
   citation_count: 105
-  abstract: Average total cross sections are given for neutrino charged current interactions at neutrino energies
-    of 2.87 GeV and 9.05 GeV. The ratios 〈σ〉 〈E〉 are 0.69 ± 0.05 and 0.61 ± 0.06 in units of 10 −38 cm 2 /GeV nucleon,
-    respectively The errors include both statistical and systematic uncertainties.
+  abstract: Average total cross sections are given for neutrino charged current interactions at
+    neutrino energies of 2.87 GeV and 9.05 GeV. The ratios $\langle\sigma\rangle/\langle E\rangle$
+    are $0.69\pm0.05$ and $0.61\pm0.06$ in units of $10^{-38}$ cm$^2$/GeV nucleon, respectively.
+    The errors include both statistical and systematic uncertainties.
   added: '2026-07-23'
   notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
     (1411.4482).

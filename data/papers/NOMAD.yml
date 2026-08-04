@@ -451,11 +451,12 @@
   inspire_recid: 480555
   citation_count: 16
   release_status: not_xsec
-  abstract: We report the first precision measurements of the scaled momentum, the charge multiplicity,
-    and the thrust of hadronic jets in the Breit frame in Deep Inelastic Scattering ν μ N and ν ̄ μ N
-    charged current events over the Q 2 range from 1 to 100 GeV 2 . The neutrino data, obtained in the
-    NOMAD experiment at the CERN SPS, extend the Q 2 -evolution of these parameters by two orders of magnitude,
-    and with commensurate precision, when compared to those reported by the ep and e + e − experiments.
+  abstract: We report the first precision measurements of the scaled momentum, the charge
+    multiplicity, and the thrust of hadronic jets in the Breit frame in Deep Inelastic Scattering
+    $\nu_\mu N$ and $\bar\nu_\mu N$ charged current events over the $Q^2$ range from 1 to 100
+    GeV$^2$. The neutrino data, obtained in the NOMAD experiment at the CERN SPS, extend the
+    $Q^2$-evolution of these parameters by two orders of magnitude, and with commensurate
+    precision, when compared to those reported by the $ep$ and $e^+e^-$ experiments.
   added: '2024-12-09'
   notes: null
   links:

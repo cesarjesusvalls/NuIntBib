@@ -11,11 +11,12 @@
   published_date: '1989-10-23'
   inspire_recid: 26520
   citation_count: 107
-  abstract: The cross sections of neutrino and antineutrino quasielastic reactions\(vn \to \mu ^ -p,\bar
-    vp \to \mu ^ +n,\bar vp \to \mu ^ +\Lambda\) were studied in the neutrino energy range between 3 and
-    30 GeV. In comparison withV-A theory axial mass parameters ofMA=(1.06±0.05±0.14) GeV/c2 from neutrino
-    andMA=(0.71±0.10±0.20) GeV/c2 from antineutrino data were found. The total cross-section for the hyperon
-    production process can be described byMA=1.0 GeV/c2.
+  abstract: The cross sections of neutrino and antineutrino quasielastic reactions $\nu n \to
+    \mu^- p$, $\bar\nu p \to \mu^+ n$, $\bar\nu p \to \mu^+ \Lambda$ were studied in the neutrino
+    energy range between 3 and 30 GeV. In comparison with $V-A$ theory axial mass parameters of
+    $M_A = (1.06\pm0.05\pm0.14)$ GeV/$c^2$ from neutrino and $M_A = (0.71\pm0.10\pm0.20)$
+    GeV/$c^2$ from antineutrino data were found. The total cross-section for the hyperon
+    production process can be described by $M_A = 1.0$ GeV/$c^2$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
