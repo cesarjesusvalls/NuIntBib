@@ -93,7 +93,7 @@
      "err": 0.013038
     }
    ],
-   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon).."
+   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon)."
   },
   {
    "key": "dsigma_dcostheta_pi0",
@@ -173,7 +173,7 @@
      "err": 0.029155
     }
    ],
-   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon).."
+   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon)."
   },
   {
    "key": "dsigma_dp_mu",
@@ -262,7 +262,7 @@
      "hi_true": 2.5
     }
    ],
-   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon).."
+   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon)."
   },
   {
    "key": "dsigma_dcostheta_mu",
@@ -350,7 +350,7 @@
      "err": 0.0249
     }
    ],
-   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon).."
+   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon)."
   },
   {
    "key": "dsigma_dcostheta_mupi0",
@@ -438,7 +438,7 @@
      "err": 0.014491
     }
    ],
-   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon).."
+   "notes": "Central values and bin edges from Supplemental Material Tables I-V (background-subtracted-events / unfolded-cross-section tables); per-bin total errors taken as sqrt(diag) of the 'Unfolded Covariance Matrix' figures (Figs. 6, 10, 14, 18, 22) in the same Supplemental Material, which combine statistical and systematic uncertainty. No machine-readable data files were shipped with the e-print (anc/ contains only a PDF of the Supplemental Material); all numbers were read from pdftotext -layout extraction of that PDF's tables/heatmap axis+cell text. Target is argon (per nucleon)."
   }
  ],
  "covariance": {

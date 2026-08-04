@@ -134,7 +134,13 @@ export function getDataRelease(slug: string): DataRelease | null {
           p.labelHtml = texToHtml(p.label_tex);
           for (const s of p.series) s.labelHtml = texToHtml(s.label_tex);
         }
-        if (d.xcat) for (const b of d.bins) b.catHtml = texToHtml(b.cat_tex ?? '');
+        // Categorical x-labels are pure math expressions (e.g. M_{N\pi}<1.6\,\mathrm{GeV});
+        // render them through KaTeX by wrapping in $…$ so subscripts / \mathrm / \, come out right.
+        if (d.xcat)
+          for (const b of d.bins) {
+            const c = b.cat_tex ?? '';
+            b.catHtml = c ? texToHtml(c.includes('$') ? c : `$${c}$`) : '';
+          }
       }
       return release;
     }

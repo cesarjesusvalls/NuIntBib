@@ -41,6 +41,13 @@ export function latexToUnicode(input: string): string {
   let s = input;
   // \bar{x} / \overline{x} -> x with combining overline
   s = s.replace(/\\(?:bar|overline)\s*\{([^}]*)\}/g, (_, x) => `${x}̅`);
+  // roman/text font macros: \mathrm{X} \text{X} \operatorname{X} ... -> X
+  s = s.replace(
+    /\\(?:math(?:rm|bf|it|sf|cal|tt)|text(?:rm|it|bf)?|operatorname)\s*\{([^}]*)\}/g,
+    '$1',
+  );
+  // spacing macros: \, \; \: \! \quad \qquad \ (backslash-space) -> a space
+  s = s.replace(/\\(?:q?quad)/g, ' ').replace(/\\[\s,;:!]/g, ' ');
   // superscripts: ^{...} or ^x  (only when every char is scriptable)
   s = s.replace(/\^\{([^}]*)\}/g, (m, b) => mapScript(b, SUP) ?? m);
   s = s.replace(/\^(\S)/g, (m, b) => mapScript(b, SUP) ?? m);

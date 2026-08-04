@@ -722,7 +722,10 @@ def _notes_from_provenance(prov):
         if re.match(r'^(neutral|charged)-current .*production(\s+isospin)? ratios$', low):
             continue                                   # channel description (shown in the distribution labels)
         keep.append(p[0].upper() + p[1:])
-    return '. '.join(keep) + ('.' if keep else '')
+    text = '. '.join(keep)
+    if text and text[-1] not in '.!?':
+        text += '.'                                    # add a period only if not already ended
+    return text
 
 
 def build_sigma_enu(spec):
