@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "published (Z.Phys.C 38 (1988) 403)",
    "source_url": "https://doi.org/10.1007/BF01584388",
-   "provenance": "CHARM total CC sigma/E on isoscalar nuclei (Z.Phys.C 38 (1988) 403) - per nucleon - two flux-averaged slopes numu (0.686 +/- 0.020) and numubar (0.335 +/- 0.011) x10^-38 cm^2/GeV over ~10-160 GeV - transcribed from the paper",
-   "notes": "CHARM total CC sigma/E on isoscalar nuclei (Z.Phys.C 38 (1988) 403) - per nucleon - two flux-averaged slopes numu (0.686 +/- 0.020) and numubar (0.335 +/- 0.011) x10^-38 cm^2/GeV over ~10-160 GeV - transcribed from the paper."
+   "provenance": "CHARM:1987mvh \u2014 total CC \u03c3/E on isoscalar nuclei (Z.Phys.C 38 (1988) 403), per nucleon; two flux-averaged slopes numu (0.686\u00b10.020) and numubar (0.335\u00b10.011) \u00d710^-38 cm^2/GeV over ~10-160 GeV; transcribed from the paper",
+   "notes": ""
   },
   {
    "key": "dsigma_numubar",
@@ -68,8 +68,8 @@
    "scale_note": null,
    "source": "published (Z.Phys.C 38 (1988) 403)",
    "source_url": "https://doi.org/10.1007/BF01584388",
-   "provenance": "CHARM total CC sigma/E on isoscalar nuclei (Z.Phys.C 38 (1988) 403) - per nucleon - two flux-averaged slopes numu (0.686 +/- 0.020) and numubar (0.335 +/- 0.011) x10^-38 cm^2/GeV over ~10-160 GeV - transcribed from the paper",
-   "notes": "CHARM total CC sigma/E on isoscalar nuclei (Z.Phys.C 38 (1988) 403) - per nucleon - two flux-averaged slopes numu (0.686 +/- 0.020) and numubar (0.335 +/- 0.011) x10^-38 cm^2/GeV over ~10-160 GeV - transcribed from the paper."
+   "provenance": "CHARM:1987mvh \u2014 total CC \u03c3/E on isoscalar nuclei (Z.Phys.C 38 (1988) 403), per nucleon; two flux-averaged slopes numu (0.686\u00b10.020) and numubar (0.335\u00b10.011) \u00d710^-38 cm^2/GeV over ~10-160 GeV; transcribed from the paper",
+   "notes": ""
   }
  ]
 }

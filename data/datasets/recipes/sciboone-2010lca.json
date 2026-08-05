@@ -4,7 +4,7 @@
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/1005.0059",
  "note": "",
- "provenance": "SciBooNE:2010lca — NC coherent \\pi^0 production on carbon at mean E_\\nu 0.8 GeV · dimensionless ratios · transcribed from the abstract: sigma(NC coh pi0)/sigma(CC) = (1.16 +/- 0.24)e-2, and sigma(CC coh pi)/sigma(NC coh pi0) = 0.14 +0.30/-0.28 (err = larger side 0.30)",
+ "provenance": "SciBooNE:2010lca — NC coherent \\pi^0 production on carbon at mean E_\\nu 0.8 GeV; ratios σ(NC coh π0)/σ(CC)=(1.16±0.24)e-2 and σ(CC coh π)/σ(NC coh π0)=0.14 +0.30/-0.28; transcribed from the abstract · dimensionless ratios · the second ratio's stored error is the larger side, 0.30",
  "items": [
   {
    "slug": "nccohpi0_cc_ratio",

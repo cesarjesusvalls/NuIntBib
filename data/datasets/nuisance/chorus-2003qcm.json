@@ -76,8 +76,8 @@
    "scale_note": null,
    "source": "published (Eur.Phys.J.C 30 (2003) 159)",
    "source_url": "https://doi.org/10.1140/epjc/s2003-01292-3",
-   "provenance": "CHORUS CERN-SPS wide-band beam \u00b7 numu CC-inclusive total cross section (relative, normalized by a constant C) on 4 targets: Polyethylene (CH2)n / Marble (CaCO3) / Iron / Lead \u00b7 per nucleon \u00b7 combined error = quadrature(stat, subtraction, syst) \u00b7 transcribed from the paper (not digitized)",
-   "notes": "CHORUS CERN-SPS wide-band beam. Numu CC-inclusive total cross section (relative, normalized by a constant C) on 4 targets: Polyethylene (CH2)n / Marble (CaCO3) / Iron / Lead. Combined error = quadrature(stat, subtraction, syst). Transcribed from the paper (not digitized)."
+   "provenance": "CHORUS:2003qcm \u2014 numu CC-inclusive total cross section on 4 targets (CH2/CaCO3/Fe/Pb), CERN-SPS wide-band beam, per nucleon; transcribed from the paper \u00b7 relative cross section, normalized by a constant C \u00b7 combined error = quadrature(stat, subtraction, syst)",
+   "notes": "Relative cross section, normalized by a constant C. Combined error = quadrature(stat, subtraction, syst)."
   },
   {
    "key": "ratio",
@@ -148,8 +148,8 @@
    "scale_note": null,
    "source": "published (Eur.Phys.J.C 30 (2003) 159)",
    "source_url": "https://doi.org/10.1140/epjc/s2003-01292-3",
-   "provenance": "CHORUS CERN-SPS wide-band beam \u00b7 numu CC-inclusive total cross section ratio sigma^A/sigma^marble on 4 targets: Polyethylene (CH2)n / Marble (CaCO3) / Iron / Lead, relative to the isoscalar marble reference (CaCO3 = 1.000) \u00b7 combined error = quadrature(stat, syst) \u00b7 transcribed from the paper (not digitized)",
-   "notes": "CHORUS CERN-SPS wide-band beam. Numu CC-inclusive total cross section ratio sigma^A/sigma^marble on 4 targets: Polyethylene (CH2)n / Marble (CaCO3) / Iron / Lead, relative to the isoscalar marble reference (CaCO3 = 1.000). Combined error = quadrature(stat, syst). Transcribed from the paper (not digitized)."
+   "provenance": "CHORUS:2003qcm \u2014 numu CC-inclusive total-cross-section ratio sigma^A/sigma^marble on 4 targets (CH2/CaCO3/Fe/Pb), CERN-SPS wide-band beam; transcribed from the paper \u00b7 relative to the isoscalar marble reference (CaCO3 = 1.000) \u00b7 combined error = quadrature(stat, syst)",
+   "notes": "Relative to the isoscalar marble reference (CaCO3 = 1.000). Combined error = quadrature(stat, syst)."
   }
  ]
 }

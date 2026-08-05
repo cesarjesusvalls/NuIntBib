@@ -4,7 +4,7 @@
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/1407.4256",
  "note": "",
- "provenance": "T2K:2014axs — nu_mu CC-inclusive total cross section per nucleon (arXiv:1407.4256) · T2K on-axis neutrino beam measured with INGRID (iron modules) and the Proton Module (CH), flux-averaged over the on-axis nu_mu flux at mean E_nu = 1.51 GeV, full phase space, isoscalar correction NOT applied (pure per-nucleon cross section on the physical target); two absolute flux-averaged values sigma(Fe) = 1.444 +/- 0.002(stat) +0.189/-0.157(syst) and sigma(CH) = 1.379 +/- 0.009(stat) +0.178/-0.147(syst) x10^-38 cm^2/nucleon (each stored as one point at the flux-mean energy with symmetrized total uncertainty) · transcribed from the paper",
+ "provenance": "T2K:2014axs — nu_mu CC-inclusive total cross section per nucleon (arXiv:1407.4256), T2K on-axis INGRID (iron) and Proton Module (CH), flux-averaged at mean E_nu=1.51 GeV, full phase space; two absolute values σ(Fe)=1.444±0.002(stat)+0.189/-0.157(syst), σ(CH)=1.379±0.009(stat)+0.178/-0.147(syst) ×10^-38 cm^2/nucleon; transcribed from the paper · isoscalar correction not applied (pure per-nucleon cross section on the physical target)",
  "items": [
   {
    "slug": "fe",

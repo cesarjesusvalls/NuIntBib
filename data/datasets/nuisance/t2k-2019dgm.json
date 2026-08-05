@@ -64,8 +64,8 @@
    "scale_note": null,
    "source": "T2K",
    "source_url": "http://web.archive.org/web/2020/http://t2k-experiment.org/results/ingriddata-numu-cc-inc-xs-on-h2o-2018",
-   "provenance": "T2K numu CC-inclusive on H2O/CH/Fe (on-axis INGRID complex, arXiv:1904.09611, PTEP 2019 093C02) \u00b7 flux-integrated per-nucleon cross sections, restricted PS theta_mu<45 deg, p_mu>0.4 GeV/c \u00b7 stat + asymmetric syst \u00b7 nothing digitized",
-   "notes": "Flux-integrated per-nucleon cross sections, restricted PS theta_mu<45 deg, p_mu>0.4 GeV/c. Stat + asymmetric syst. Nothing digitized."
+   "provenance": "T2K numu CC-inclusive on H2O/CH/Fe (on-axis INGRID complex, arXiv:1904.09611, PTEP 2019 093C02) \u00b7 restricted phase space theta_mu<45 deg, p_mu>0.4 GeV/c \u00b7 stat + asymmetric syst \u00b7 nothing digitized",
+   "notes": "Restricted phase space theta_mu<45 deg, p_mu>0.4 GeV/c. Stat + asymmetric syst. Nothing digitized."
   },
   {
    "key": "ratio_ratio",

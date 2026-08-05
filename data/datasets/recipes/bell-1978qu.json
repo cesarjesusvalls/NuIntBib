@@ -4,7 +4,7 @@
  "source": "NUISANCE",
  "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/FNAL/CC1pip_on_p/FNAL_cc1ppip_dsigdQ2_W14.txt",
  "note": "",
- "provenance": "Bell:1978qu — dσ/dQ² for ν_μ p → μ⁻ π⁺ p, M(π⁺p) < 1.4 GeV, FNAL 15-foot hydrogen bubble chamber · target free proton · absolute cross section validated against the paper's integrated σ · from the NUISANCE data release",
+ "provenance": "Bell:1978qu — dσ/dQ² for ν_μ p → μ⁻π⁺p, M(π⁺p)<1.4 GeV, FNAL 15-foot hydrogen bubble chamber, free proton; absolute cross section validated against the paper's integrated σ; from the NUISANCE data release",
  "items": [
   {
    "slug": "dsigdq2_w14",

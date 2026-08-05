@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "published (Phys.Lett.B)",
    "source_url": "https://doi.org/10.1016/0370-2693(85)90402-2",
-   "provenance": "CHARM CERN-SPS wide-band beam \u00b7 NC coherent single-\u03c0^0 production on marble (CaCO3), absolute cross section per average marble nucleus \u00b7 \u03c3(\u03bd_\u03bc)=(96\u00b142)\u00d710^-40 cm^2 and \u03c3(\u03bd\u0304_\u03bc)=(79\u00b126)\u00d710^-40 cm^2 per nucleus \u00b7 flux-averaged total cross section over the WBB (energy axis shows a nominal ~20 GeV beam energy) \u00b7 transcribed from the abstract",
-   "notes": "CHARM CERN-SPS wide-band beam. NC coherent single-\u03c0^0 production on marble (CaCO3), absolute cross section per average marble nucleus. \u03a3(\u03bd_\u03bc)=(96\u00b142)\u00d710^-40 cm^2 and \u03c3(\u03bd\u0304_\u03bc)=(79\u00b126)\u00d710^-40 cm^2 per nucleus. Flux-averaged total cross section over the WBB (energy axis shows a nominal ~20 GeV beam energy). Transcribed from the abstract."
+   "provenance": "CHARM:1985bva \u2014 NC coherent single-\u03c0^0 production on marble (CaCO3), CHARM CERN-SPS wide-band beam, per average marble nucleus; \u03c3(\u03bd_\u03bc)=(96\u00b142)\u00d710^-40 and \u03c3(\u03bd\u0304_\u03bc)=(79\u00b126)\u00d710^-40 cm^2/nucleus; flux-averaged; transcribed from the abstract",
+   "notes": ""
   },
   {
    "key": "dsigma_sigma_numubar",
@@ -68,8 +68,8 @@
    "scale_note": null,
    "source": "published (Phys.Lett.B)",
    "source_url": "https://doi.org/10.1016/0370-2693(85)90402-2",
-   "provenance": "CHARM CERN-SPS wide-band beam \u00b7 NC coherent single-\u03c0^0 production on marble (CaCO3), absolute cross section per average marble nucleus \u00b7 \u03c3(\u03bd_\u03bc)=(96\u00b142)\u00d710^-40 cm^2 and \u03c3(\u03bd\u0304_\u03bc)=(79\u00b126)\u00d710^-40 cm^2 per nucleus \u00b7 flux-averaged total cross section over the WBB (energy axis shows a nominal ~20 GeV beam energy) \u00b7 transcribed from the abstract",
-   "notes": "CHARM CERN-SPS wide-band beam. NC coherent single-\u03c0^0 production on marble (CaCO3), absolute cross section per average marble nucleus. \u03a3(\u03bd_\u03bc)=(96\u00b142)\u00d710^-40 cm^2 and \u03c3(\u03bd\u0304_\u03bc)=(79\u00b126)\u00d710^-40 cm^2 per nucleus. Flux-averaged total cross section over the WBB (energy axis shows a nominal ~20 GeV beam energy). Transcribed from the abstract."
+   "provenance": "CHARM:1985bva \u2014 NC coherent single-\u03c0^0 production on marble (CaCO3), CHARM CERN-SPS wide-band beam, per average marble nucleus; \u03c3(\u03bd_\u03bc)=(96\u00b142)\u00d710^-40 and \u03c3(\u03bd\u0304_\u03bc)=(79\u00b126)\u00d710^-40 cm^2/nucleus; flux-averaged; transcribed from the abstract",
+   "notes": ""
   }
  ]
 }

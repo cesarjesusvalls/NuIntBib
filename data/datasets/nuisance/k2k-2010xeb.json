@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1012.1794",
-   "provenance": "K2K:2010xeb \u2014 inclusive CC\\pi^0 to CCQE cross-section ratio on C8H8 at mean E_\\nu 1.3 GeV (K2K near detector) \u00b7 dimensionless \u00b7 transcribed from the abstract: sigma(CCpi0)/sigma(CCQE) = 0.426 +/- 0.032(stat.) +/- 0.035(syst.), errors combined in quadrature",
-   "notes": "Transcribed from the abstract: sigma(CCpi0)/sigma(CCQE) = 0.426 +/- 0.032(stat.) +/- 0.035(syst.), errors combined in quadrature."
+   "provenance": "K2K:2010xeb \u2014 inclusive CC\\pi^0/CCQE cross-section ratio on C8H8 at mean E_\\nu 1.3 GeV (K2K near detector), \u03c3(CC\u03c00)/\u03c3(CCQE)=0.426 \u00b10.032(stat.) \u00b10.035(syst.); transcribed from the abstract \u00b7 dimensionless \u00b7 stat and syst errors combined in quadrature",
+   "notes": "Stat and syst errors combined in quadrature."
   }
  ]
 }

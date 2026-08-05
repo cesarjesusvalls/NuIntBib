@@ -4,7 +4,7 @@
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/1706.04257",
  "note": "",
- "provenance": "T2K:2017bvo — numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (mass fractions H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O) · single flux-averaged value over the T2K off-axis ND280 flux (FHC nu-mode for numu, RHC antinumu-mode for antinumu; peak Enu ~0.6 GeV, energies below 1.5 GeV) · primary results are the model-independent RESTRICTED phase space sigma with lab-frame cuts theta_mu < 32 deg and p_mu > 500 MeV/c (Table VII); the full-PS values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters) · transcribed from the paper",
+ "provenance": "T2K:2017bvo — numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space σ with θ_mu<32° and p_mu>500 MeV/c (Table VII); transcribed from the paper · the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
  "items": [
   {
    "slug": "antinumu_restricted",

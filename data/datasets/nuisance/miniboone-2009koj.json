@@ -134,7 +134,7 @@
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/MiniBooNE/CC1piRat/cc1pipccqerat_like_edit.txt",
    "provenance": "MiniBooNE:2009koj \u2014 \u03bd\u03bc CC single-\u03c0+ to quasi-elastic cross-section ratio on mineral oil (CH2), vs neutrino energy 0.4\u20132.4 GeV \u00b7 published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II \u00b7 dimensionless ratio, no covariance published \u00b7 from the NUISANCE data release",
-   "notes": "Published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II. Dimensionless ratio, no covariance published. From the NUISANCE data release."
+   "notes": "Published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II. Dimensionless ratio, no covariance published."
   },
   {
    "key": "dsigma_ratio_fsi_corrected",
@@ -263,7 +263,7 @@
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/MiniBooNE/CC1piRat/cc1pipccqerat_like_edit.txt",
    "provenance": "MiniBooNE:2009koj \u2014 \u03bd\u03bc CC single-\u03c0+ to quasi-elastic cross-section ratio on mineral oil (CH2), vs neutrino energy 0.4\u20132.4 GeV \u00b7 published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II \u00b7 dimensionless ratio, no covariance published \u00b7 from the NUISANCE data release",
-   "notes": "Published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II. Dimensionless ratio, no covariance published. From the NUISANCE data release."
+   "notes": "Published in two forms (observed CC1\u03c0+-like/CCQE-like and FSI-corrected CC1\u03c0+/CCQE) in the paper's Table II. Dimensionless ratio, no covariance published."
   }
  ]
 }

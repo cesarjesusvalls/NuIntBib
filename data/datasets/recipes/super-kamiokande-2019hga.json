@@ -3,7 +3,7 @@
  "slug": "super-kamiokande-2019hga",
  "source_url": "https://arxiv.org/abs/1901.05281",
  "note": "",
- "provenance": "Super-Kamiokande:2019hga — Flux-averaged NC quasi-elastic (NCQE) cross section on oxygen, ν+ν̄ atmospheric flux (all flavors, 160 MeV-10 GeV), Supe · target per ¹⁶O nucleus · values transcribed from the arXiv paper tables ·No covariance is published (per-bin total uncertainty only).",
+ "provenance": "Super-Kamiokande:2019hga — flux-averaged NC quasi-elastic (NCQE) cross section on oxygen, ν+ν̄ atmospheric flux (all flavors, 160 MeV-10 GeV) · target per ¹⁶O nucleus · values transcribed from the arXiv paper tables · No covariance is published (per-bin total uncertainty only).",
  "items": [
   {
    "slug": "sigma_ncqe_oxygen_atmnu",

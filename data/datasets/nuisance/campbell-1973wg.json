@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "published (Phys.Rev.Lett. 30 (1973) 335)",
    "source_url": "https://doi.org/10.1103/PhysRevLett.30.335",
-   "provenance": "ANL 12-ft hydrogen bubble chamber (free proton target) \u00b7 numu p -> mu- Delta++(1236) -> mu- p pi+ total cross section, E_nu >~ 1 GeV \u00b7 single flux-averaged value (0.74 +/- 0.18 x10^-38 cm^2) \u00b7 transcribed from the paper (not digitized)",
-   "notes": "ANL 12-ft hydrogen bubble chamber (free proton target). Numu p -> mu- Delta++(1236) -> mu- p pi+ total cross section, E_nu >~ 1 GeV. Single flux-averaged value (0.74 +/- 0.18 x10^-38 cm^2). Transcribed from the paper (not digitized)."
+   "provenance": "Campbell:1973wg \u2014 numu p \u2192 \u03bc\u207b \u0394\u207a\u207a(1236) \u2192 \u03bc\u207b p \u03c0\u207a total cross section, ANL 12-ft hydrogen bubble chamber (free proton), E_nu \u2273 1 GeV; single flux-averaged value (0.74\u00b10.18 \u00d710^-38 cm^2); transcribed from the paper",
+   "notes": ""
   }
  ]
 }

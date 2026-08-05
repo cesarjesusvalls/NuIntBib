@@ -89,7 +89,7 @@
    "source": "published (Nucl.Phys.B)",
    "source_url": "https://doi.org/10.1016/0550-3213(78)90213-4",
    "provenance": "Gargamelle bubble chamber (propane-freon), CERN PS wide-band neutrino beam \u00b7 exclusive single-pion production, relative cross sections in ARBITRARY UNITS, corrected for nuclear reinteractions \u00b7 4 NC channels (nu p->nu p pi0, nu p->nu n pi+, nu n->nu n pi0, nu n->nu p pi-) + 1 CC channel (nu n->mu- p pi0) \u00b7 covariance from the paper Table 4 \u00b7 transcribed from the paper (not digitized) \u00b7 relative single-pion cross sections (arb. units)",
-   "notes": "Gargamelle bubble chamber (propane-freon), CERN PS wide-band neutrino beam. 4 NC channels (nu p->nu p pi0, nu p->nu n pi+, nu n->nu n pi0, nu n->nu p pi-) + 1 CC channel (nu n->mu- p pi0). Covariance from the paper Table 4. Transcribed from the paper (not digitized). Relative single-pion cross sections (arb. units)."
+   "notes": "Gargamelle bubble chamber (propane-freon), CERN PS wide-band neutrino beam. 4 NC channels (nu p->nu p pi0, nu p->nu n pi+, nu n->nu n pi0, nu n->nu p pi-) + 1 CC channel (nu n->mu- p pi0). Covariance from the paper Table 4. Relative single-pion cross sections (arb. units)."
   },
   {
    "key": "ratio_ratio",
@@ -233,7 +233,7 @@
    "source": "published (Nucl.Phys.B)",
    "source_url": "https://doi.org/10.1016/0550-3213(78)90213-4",
    "provenance": "Gargamelle bubble chamber (propane-freon), CERN PS wide-band neutrino beam \u00b7 exclusive single-pion production, relative cross sections in ARBITRARY UNITS, corrected for nuclear reinteractions \u00b7 4 NC channels (nu p->nu p pi0, nu p->nu n pi+, nu n->nu n pi0, nu n->nu p pi-) + 1 CC channel (nu n->mu- p pi0) \u00b7 covariance from the paper Table 4 \u00b7 transcribed from the paper (not digitized) \u00b7 all 10 unique pairwise ratios sigma_A/sigma_B (A/B only) computed by us; ratio errors propagated through the Table-4 covariance",
-   "notes": "Gargamelle bubble chamber (propane-freon), CERN PS wide-band neutrino beam. 4 NC channels (nu p->nu p pi0, nu p->nu n pi+, nu n->nu n pi0, nu n->nu p pi-) + 1 CC channel (nu n->mu- p pi0). Covariance from the paper Table 4. Transcribed from the paper (not digitized). All 10 unique pairwise ratios sigma_A/sigma_B (A/B only) computed by us; ratio errors propagated through the Table-4 covariance."
+   "notes": "Gargamelle bubble chamber (propane-freon), CERN PS wide-band neutrino beam. 4 NC channels (nu p->nu p pi0, nu p->nu n pi+, nu n->nu n pi0, nu n->nu p pi-) + 1 CC channel (nu n->mu- p pi0). Covariance from the paper Table 4. All 10 unique pairwise ratios sigma_A/sigma_B (A/B only) computed by us; ratio errors propagated through the Table-4 covariance."
   }
  ],
  "covariance": {

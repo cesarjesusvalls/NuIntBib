@@ -4,7 +4,7 @@
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/1012.1794",
  "note": "",
- "provenance": "K2K:2010xeb — inclusive CC\\pi^0 to CCQE cross-section ratio on C8H8 at mean E_\\nu 1.3 GeV (K2K near detector) · dimensionless · transcribed from the abstract: sigma(CCpi0)/sigma(CCQE) = 0.426 +/- 0.032(stat.) +/- 0.035(syst.), errors combined in quadrature",
+ "provenance": "K2K:2010xeb — inclusive CC\\pi^0/CCQE cross-section ratio on C8H8 at mean E_\\nu 1.3 GeV (K2K near detector), σ(CCπ0)/σ(CCQE)=0.426 ±0.032(stat.) ±0.035(syst.); transcribed from the abstract · dimensionless · stat and syst errors combined in quadrature",
  "items": [
   {
    "slug": "ccpi0_ccqe_ratio",

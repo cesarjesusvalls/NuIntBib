@@ -699,9 +699,14 @@ def _notes_from_provenance(prov):
             continue                                   # in-repo file path
         if 'arxiv' in low or 'zenodo' in low or 'hepdata' in low or 't2k.org data release' in low:
             continue                                   # citation / source (incl. "from the HepData record")
-        if re.match(r'^[A-Za-z][\w.]*:\d{4}\w*\s*[—–-]{1,2}\s', p):
+        if re.match(r'^[A-Za-z][\w.-]*:\d{4}\w*\s*(?:\([^)]*\)\s*)?[—–-]{1,2}\s', p):
             continue                                   # leading "Bibtag — what-it-is" description blurb
-        if low in ('dimensionless', 'ratio', 'dimensionless ratio'):
+            #   (hyphenated collabs e.g. Super-Kamiokande, and an optional "(Expt)" before the dash)
+        if low.startswith('transcribed ') or low.startswith('transcribed:'):
+            continue                                   # sourcing note ("transcribed from ..."), not a caveat
+        if 'nuisance data release' in low:
+            continue                                   # source label (shown by the source link)
+        if low in ('dimensionless', 'ratio', 'ratios', 'dimensionless ratio', 'dimensionless ratios'):
             continue                                   # trivial: the unit/label already shows this
         if re.match(r'^per\s+(proton|nucleon|nucleus|neutron|deuteron|isoscalar)\b', low):
             continue                                   # normalization — shown in the target column
@@ -1859,7 +1864,7 @@ REGISTRY = [
              'source': 'arXiv', 'source_url': 'https://arxiv.org/abs/2603.06718',
              'provenance': 'NOvA numubar CC-inclusive triple-differential d3sigma/dTmu dcos(theta_mu) '
                            'dEavail (NuMI antineutrino mode, arXiv:2603.06718) · per nucleon · from the '
-                           'paper release · E_avail panels x cos(theta_mu) series'}}]},
+                           'paper release · no covariance'}}]},
     {'bibtag': 'ArgoNeuT:2014rlj', 'slug': 'argoneut-2014rlj', 'source': 'arXiv',
      'note': '',
      'sources': [{'csv_simple': {
@@ -2329,9 +2334,9 @@ REGISTRY = [
              'source_url': 'http://web.archive.org/web/2020/http://t2k-experiment.org/results/'
                            'ingriddata-numu-cc-inc-xs-on-h2o-2018',
              'provenance': 'T2K numu CC-inclusive on H2O/CH/Fe (on-axis INGRID complex, '
-                           'arXiv:1904.09611, PTEP 2019 093C02) · flux-integrated per-nucleon '
-                           'cross sections, restricted PS theta_mu<45 deg, p_mu>0.4 GeV/c · '
-                           'stat + asymmetric syst · nothing digitized'}},
+                           'arXiv:1904.09611, PTEP 2019 093C02) · restricted phase space '
+                           'theta_mu<45 deg, p_mu>0.4 GeV/c · stat + asymmetric syst · '
+                           'nothing digitized'}},
          {'values': {
              'key': 'ratio', 'ylabel': r'\sigma\ \mathrm{ratio}', 'yunit': '',
              'items': [{'slug': 'ratio', 'points': [
@@ -2666,11 +2671,10 @@ REGISTRY = [
                  {'cat': r'\mathrm{Pb}', 'val': 6.97, 'err': 0.262}]}],
              'source': 'published (Eur.Phys.J.C 30 (2003) 159)',
              'source_url': 'https://doi.org/10.1140/epjc/s2003-01292-3',
-             'provenance': 'CHORUS CERN-SPS wide-band beam · numu CC-inclusive total cross '
-                           'section (relative, normalized by a constant C) on 4 targets: '
-                           'Polyethylene (CH2)n / Marble (CaCO3) / Iron / Lead · per nucleon · '
-                           'combined error = quadrature(stat, subtraction, syst) · transcribed '
-                           'from the paper (not digitized)'}},
+             'provenance': 'CHORUS:2003qcm — numu CC-inclusive total cross section on 4 targets '
+                           '(CH2/CaCO3/Fe/Pb), CERN-SPS wide-band beam, per nucleon; transcribed '
+                           'from the paper · relative cross section, normalized by a constant C · '
+                           'combined error = quadrature(stat, subtraction, syst)'}},
          {'values': {
              'key': 'ratio', 'ylabel': r'\sigma^A/\sigma^{marble}', 'yunit': '',
              'items': [{'points': [
@@ -2680,11 +2684,10 @@ REGISTRY = [
                  {'cat': r'\mathrm{Pb}', 'val': 1.066, 'err': 0.0234}]}],
              'source': 'published (Eur.Phys.J.C 30 (2003) 159)',
              'source_url': 'https://doi.org/10.1140/epjc/s2003-01292-3',
-             'provenance': 'CHORUS CERN-SPS wide-band beam · numu CC-inclusive total cross '
-                           'section ratio sigma^A/sigma^marble on 4 targets: Polyethylene '
-                           '(CH2)n / Marble (CaCO3) / Iron / Lead, relative to the isoscalar '
-                           'marble reference (CaCO3 = 1.000) · combined error = quadrature('
-                           'stat, syst) · transcribed from the paper (not digitized)'}}]},
+             'provenance': 'CHORUS:2003qcm — numu CC-inclusive total-cross-section ratio '
+                           'sigma^A/sigma^marble on 4 targets (CH2/CaCO3/Fe/Pb), CERN-SPS '
+                           'wide-band beam; transcribed from the paper · relative to the isoscalar '
+                           'marble reference (CaCO3 = 1.000) · combined error = quadrature(stat, syst)'}}]},
 ]
 
 

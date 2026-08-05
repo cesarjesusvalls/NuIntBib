@@ -18,7 +18,7 @@
    "csv": "data/datasets/sources/t2k-2014lbi/mom.csv",
    "cov": "data/datasets/sources/t2k-2014lbi/cov_tot_mom.txt",
    "cov_note": "total covariance cov_tot_mom from the T2K data release (units 10^{-39}cm^2/nucleon/(GeV/c) squared)",
-   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory mom) \u00b7 differential cross section per nucleon on carbon, full electron kinematic phase space \u00b7 per-bin error = sqrt(diag(cov_tot_mom)); total covariance cov_tot_mom attached"
+   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory mom) \u00b7 per-bin error = sqrt(diag(cov_tot_mom)); total covariance cov_tot_mom attached"
   },
   {
    "kind": "1d",
@@ -31,7 +31,7 @@
    "csv": "data/datasets/sources/t2k-2014lbi/ang.csv",
    "cov": "data/datasets/sources/t2k-2014lbi/cov_tot_ang.txt",
    "cov_note": "total covariance cov_tot_ang from the T2K data release (units 10^{-39}cm^2/nucleon squared)",
-   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory ang) \u00b7 differential cross section per nucleon on carbon, full electron kinematic phase space \u00b7 per-bin error = sqrt(diag(cov_tot_ang)); total covariance cov_tot_ang attached"
+   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory ang) \u00b7 per-bin error = sqrt(diag(cov_tot_ang)); total covariance cov_tot_ang attached"
   },
   {
    "kind": "1d",
@@ -44,7 +44,7 @@
    "csv": "data/datasets/sources/t2k-2014lbi/q2.csv",
    "cov": "data/datasets/sources/t2k-2014lbi/cov_tot_q2.txt",
    "cov_note": "total covariance cov_tot_q2 from the T2K data release (units 10^{-39}cm^2/nucleon/(GeV^2/c^2) squared)",
-   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory q2) \u00b7 differential cross section per nucleon on carbon, full electron kinematic phase space \u00b7 per-bin error = sqrt(diag(cov_tot_q2)); total covariance cov_tot_q2 attached"
+   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory q2) \u00b7 per-bin error = sqrt(diag(cov_tot_q2)); total covariance cov_tot_q2 attached"
   },
   {
    "kind": "1d",
@@ -57,7 +57,7 @@
    "csv": "data/datasets/sources/t2k-2014lbi/mom_restrict.csv",
    "cov": "data/datasets/sources/t2k-2014lbi/cov_tot_mom_restrict.txt",
    "cov_note": "total covariance cov_tot_mom_restrict from the T2K data release (units 10^{-39}cm^2/nucleon/(GeV/c) squared)",
-   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory mom_restrict) \u00b7 differential cross section per nucleon on carbon, restricted phase space: only electrons with p_e>0.55 GeV/c and cos(theta_e)>0.72 \u00b7 per-bin error = sqrt(diag(cov_tot_mom_restrict)); total covariance cov_tot_mom_restrict attached"
+   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory mom_restrict) \u00b7 restricted phase space: only electrons with p_e>0.55 GeV/c and cos(theta_e)>0.72 \u00b7 per-bin error = sqrt(diag(cov_tot_mom_restrict)); total covariance cov_tot_mom_restrict attached"
   },
   {
    "kind": "1d",
@@ -70,7 +70,7 @@
    "csv": "data/datasets/sources/t2k-2014lbi/ang_restrict.csv",
    "cov": "data/datasets/sources/t2k-2014lbi/cov_tot_ang_restrict.txt",
    "cov_note": "total covariance cov_tot_ang_restrict from the T2K data release (units 10^{-39}cm^2/nucleon squared)",
-   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory ang_restrict) \u00b7 differential cross section per nucleon on carbon, restricted phase space: only electrons with p_e>0.55 GeV/c and cos(theta_e)>0.72 \u00b7 per-bin error = sqrt(diag(cov_tot_ang_restrict)); total covariance cov_tot_ang_restrict attached"
+   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory ang_restrict) \u00b7 restricted phase space: only electrons with p_e>0.55 GeV/c and cos(theta_e)>0.72 \u00b7 per-bin error = sqrt(diag(cov_tot_ang_restrict)); total covariance cov_tot_ang_restrict attached"
   },
   {
    "kind": "1d",
@@ -83,7 +83,7 @@
    "csv": "data/datasets/sources/t2k-2014lbi/q2_restrict.csv",
    "cov": "data/datasets/sources/t2k-2014lbi/cov_tot_q2_restrict.txt",
    "cov_note": "total covariance cov_tot_q2_restrict from the T2K data release (units 10^{-39}cm^2/nucleon/(GeV^2/c^2) squared)",
-   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory q2_restrict) \u00b7 differential cross section per nucleon on carbon, restricted phase space: only electrons with p_e>0.55 GeV/c and cos(theta_e)>0.72 \u00b7 per-bin error = sqrt(diag(cov_tot_q2_restrict)); total covariance cov_tot_q2_restrict attached"
+   "provenance": "T2K 2014 nu_e CC-inclusive on carbon (arXiv:1407.4256, official t2k.org data release t2k_nue_ccinc_2014.root, directory q2_restrict) \u00b7 restricted phase space: only electrons with p_e>0.55 GeV/c and cos(theta_e)>0.72 \u00b7 per-bin error = sqrt(diag(cov_tot_q2_restrict)); total covariance cov_tot_q2_restrict attached"
   }
  ]
 }

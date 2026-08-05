@@ -4,7 +4,7 @@
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins358417",
  "note": "",
- "provenance": "CHARM-II:1993xmz — Coherent single charged-pion production by ν_μ/ν̄_μ on the CHARM-II glass (SiO2) calorimeter target, ν_μ N → μ- π+ N (an · target SiO2 · from the HepData record",
+ "provenance": "CHARM-II:1993xmz — coherent single charged-pion production by ν_μ/ν̄_μ on the CHARM-II glass (SiO2) calorimeter target, ν_μ N → μ⁻ π⁺ N · target SiO2 · from the HepData record",
  "items": [
   {
    "slug": "numu-coh1pi-total-sigma-over-e",

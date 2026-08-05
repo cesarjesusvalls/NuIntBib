@@ -85,7 +85,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins18763",
    "provenance": "Ahrens:1986xe (BNL E734) \u2014 absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons) \u00b7 per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar) \u00b7 from the HepData record (ins18763)",
-   "notes": "Ahrens:1986xe (BNL E734) \u2014 absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons). Per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar)."
+   "notes": "Per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar)."
   },
   {
    "key": "dsigdq2_numubar_p",
@@ -165,7 +165,7 @@
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins18763",
    "provenance": "Ahrens:1986xe (BNL E734) \u2014 absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons) \u00b7 per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar) \u00b7 from the HepData record (ins18763)",
-   "notes": "Ahrens:1986xe (BNL E734) \u2014 absolute differential cross section dsigma/dQ^2 for neutral-current elastic scattering nu_mu p -> nu_mu p and nu-bar_mu p -> nu-bar_mu p, BNL wide-band beam (mean E_nu ~ 0.8 GeV, spectrum 0-5 GeV) on the high-resolution target (protons). Per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar)."
+   "notes": "Per-point error is combined statistical+systematic and EXCLUDES the overall normalization uncertainty (11.2% for nu; 10.4% + 11.2% for nu-bar)."
   }
  ]
 }

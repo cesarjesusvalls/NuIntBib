@@ -4,7 +4,7 @@
  "source": "published (Phys.Lett.B)",
  "source_url": "https://doi.org/10.1016/0370-2693(85)90402-2",
  "note": "",
- "provenance": "CHARM CERN-SPS wide-band beam · NC coherent single-π^0 production on marble (CaCO3), absolute cross section per average marble nucleus · σ(ν_μ)=(96±42)×10^-40 cm^2 and σ(ν̄_μ)=(79±26)×10^-40 cm^2 per nucleus · flux-averaged total cross section over the WBB (energy axis shows a nominal ~20 GeV beam energy) · transcribed from the abstract",
+ "provenance": "CHARM:1985bva — NC coherent single-π^0 production on marble (CaCO3), CHARM CERN-SPS wide-band beam, per average marble nucleus; σ(ν_μ)=(96±42)×10^-40 and σ(ν̄_μ)=(79±26)×10^-40 cm^2/nucleus; flux-averaged; transcribed from the abstract",
  "items": [
   {
    "slug": "sigma_numu",

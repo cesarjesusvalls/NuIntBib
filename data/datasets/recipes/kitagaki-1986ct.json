@@ -4,7 +4,7 @@
  "source": "NUISANCE",
  "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/BNL",
  "note": "",
- "provenance": "Kitagaki:1986ct — CC exclusive single-pion production cross sections sigma(E_nu) in neutrino-deuterium interactions (BNL 7-foot deuterium bubble chamber): nu_mu n -> mu- p pi0, nu_mu n -> mu- n pi+, nu_mu p -> mu- p pi+ · from the NUISANCE data release",
+ "provenance": "Kitagaki:1986ct — CC exclusive single-pion production cross sections σ(E_nu) in nu-deuterium (BNL 7-foot deuterium bubble chamber): nu_mu n→μ⁻pπ⁰, nu_mu n→μ⁻nπ⁺, nu_mu p→μ⁻pπ⁺; from the NUISANCE data release",
  "items": [
   {
    "slug": "cc1pi0_n",
