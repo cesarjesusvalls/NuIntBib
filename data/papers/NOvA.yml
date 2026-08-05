@@ -94,16 +94,17 @@
   published_date: '2024-10-07'
   inspire_recid: 2838751
   citation_count: 9
-  abstract: Double- and single-differential cross sections for inclusive charged-current neutrino-nucleus
-    scattering are reported for the kinematic domain 0 to 2 GeV/c in three-momentum transfer and 0 to
-    2 GeV in available energy, at a mean muon-neutrino energy of 1.86 GeV. The measurements are based
-    on an estimated 995,760 muon-neutrino CC interactions in the scintillator medium of the NOvA Near
-    Detector. The subdomain populated by 2-particle-2-hole reactions is identified by the cross-section
-    excess relative to predictions for neutrino-nucleus scattering that are constrained by a data control
-    sample. Models for 2-particle-2- hole processes are rated by chi-square comparisons of the predicted-versus-measured
-    muon-neutrino CC inclusive cross section over the full phase space and in the restricted subdomain.
-    Shortfalls are observed in neutrino generator predictions obtained using the theory-based Val`encia
-    and SuSAv2 2p2h models.
+  abstract: Double- and single-differential cross sections for inclusive charged-current
+    neutrino-nucleus scattering are reported for the kinematic domain 0 to 2 GeV/c in
+    three-momentum transfer and 0 to 2 GeV in available energy, at a mean muon-neutrino energy of
+    1.86 GeV. The measurements are based on an estimated 995,760 muon-neutrino CC interactions in
+    the scintillator medium of the NOvA Near Detector. The subdomain populated by
+    2-particle-2-hole reactions is identified by the cross-section excess relative to predictions
+    for neutrino-nucleus scattering that are constrained by a data control sample. Models for
+    2-particle-2-hole processes are rated by chi-square comparisons of the
+    predicted-versus-measured muon-neutrino CC inclusive cross section over the full phase space
+    and in the restricted subdomain. Shortfalls are observed in neutrino generator predictions
+    obtained using the theory-based València and SuSAv2 2p2h models.
   added: '2024-12-09'
   notes: null
   links:

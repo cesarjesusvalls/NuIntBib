@@ -2,12 +2,13 @@
   release_status: not_xsec
   title: 'Two and Three Pion Production by $\nu_\mu D$ Reactions Near Threshold: The Implications for
     Nucleon Decay Experiments'
-  abstract: We use νμ-deuteron reactions into exclusive multipion final states to determine the extent
-    to which atmospheric ν interactions can imitate nucleon decay. For decays N→lcπcπc (lcπcπcπ0), neutrinos
-    induce background events at the rate 0.07±0.06 (0.03±0.02) per kiloton year. By requiring a multipion
-    final state to be consistent with a ρ, ω, or η, a fivefold reduction of the background is obtained.
-    Thus presentgeneration experiments are capable of searching for such decays at a lifetime level corresponding
-    to many kiloton years of detector exposure.
+  abstract: We use $\nu_\mu$-deuteron reactions into exclusive multipion final states to determine
+    the extent to which atmospheric $\nu$ interactions can imitate nucleon decay. For decays
+    $N\to\ell^c\pi^c\pi^c$ ($\ell^c\pi^c\pi^c\pi^0$), neutrinos induce background events at the
+    rate $0.07\pm0.06$ ($0.03\pm0.02$) per kiloton year. By requiring a multipion final state to
+    be consistent with a $\rho$, $\omega$, or $\eta$, a fivefold reduction of the background is
+    obtained. Thus present-generation experiments are capable of searching for such decays at a
+    lifetime level corresponding to many kiloton years of detector exposure.
   arxiv: null
   doi: 10.1103/PhysRevD.30.1605
   journal: Phys.Rev.D
@@ -56,15 +57,17 @@
   published_date: '1983'
   inspire_recid: 200475
   citation_count: 45
-  abstract: We present our final results on double-pion production by muon-type neutrinos observed in
-    a 2.4×106 (365 000) picture exposure of the Argonne 12-foot deuterium- (hydrogen-) filled bubble chamber.
-    The reactions νd→μ−π−π+pps, νd→μ−π+π0pns, and νd→μ−π+π+nns are studied. The data, which shows strong
-    Δ(1236) production, has nucleon-π−π mass distribution peaked at low masses in all three reactions.
-    The excitation functions for the three reactions exhibit a rapid rise over the energy range from threshold
-    up to about 3 GeV, but thereafter the energy dependence appears less pronounced. The threshold behavior
-    of the cross sections for these reactions is analyzed in the context of a model developed by Adjei,
-    Dicus, and Teplitz. Data from the constrained reaction, νd→μ−π−π+pps, satisfy the Adler conserved-vector-current
-    test.
+  abstract: We present our final results on double-pion production by muon-type neutrinos observed
+    in a $2.4\times10^6$ (365 000) picture exposure of the Argonne 12-foot deuterium- (hydrogen-)
+    filled bubble chamber. The reactions $\nu d\to\mu^-\pi^-\pi^+ p p_s$, $\nu d\to\mu^-\pi^+\pi^0
+    p n_s$, and $\nu d\to\mu^-\pi^+\pi^+ n n_s$ are studied. The data, which shows strong
+    $\Delta(1236)$ production, has nucleon-$\pi\pi$ mass distribution peaked at low masses in all
+    three reactions. The excitation functions for the three reactions exhibit a rapid rise over
+    the energy range from threshold up to about 3 GeV, but thereafter the energy dependence
+    appears less pronounced. The threshold behavior of the cross sections for these reactions is
+    analyzed in the context of a model developed by Adjei, Dicus, and Teplitz. Data from the
+    constrained reaction, $\nu d\to\mu^-\pi^-\pi^+ p p_s$, satisfy the Adler
+    conserved-vector-current test.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -94,17 +97,20 @@
   published_date: 1981-09
   inspire_recid: 167744
   citation_count: 366
-  abstract: This paper gives the results of a study of single-pion production by the weak charged current
-    utilizing the wide-band muon-type-neutrino beam at the Argonne Zero Gradient Synchrotron. The data
-    were obtained from hydrogen and deuterium fillings of the 12-ft bubble chamber. The methods of event
-    selection and separation from background are given as are the details of the corrections and systematic
-    effects in the data sample. The energy-dependent cross sections and differential distributions are
-    presented for the three single-pion production reactions νp→μ−pπ+, νn→μ−pπ0, and νn→μ−nπ+. An isospin
-    decomposition shows that the ratio of I=12 to I=32 amplitudes is 0.68±0.04 with a relative phase of
-    (90.7±4.6)° for M(Nπ)<1.4 GeV. This agrees with theoretical models, particularly the detailed calculation
-    of Adler. Using the data of the reaction νp→μ−pπ+, the characteristic mass of the nucleon axial-vector
-    elastic form factor is measured to be 0.98−0.03+0.06 GeV when analyzed within the context of the Adler
-    model. The data are also compared to other parametrizations of the nucleon axial-vector form factor.
+  abstract: This paper gives the results of a study of single-pion production by the weak charged
+    current utilizing the wide-band muon-type-neutrino beam at the Argonne Zero Gradient
+    Synchrotron. The data were obtained from hydrogen and deuterium fillings of the 12-ft bubble
+    chamber. The methods of event selection and separation from background are given as are the
+    details of the corrections and systematic effects in the data sample. The energy-dependent
+    cross sections and differential distributions are presented for the three single-pion
+    production reactions $\nu p\to\mu^- p\pi^+$, $\nu n\to\mu^- p\pi^0$, and $\nu n\to\mu^-
+    n\pi^+$. An isospin decomposition shows that the ratio of $I=\tfrac{1}{2}$ to $I=\tfrac{3}{2}$
+    amplitudes is $0.68\pm0.04$ with a relative phase of $(90.7\pm4.6)°$ for $M(N\pi)<1.4$ GeV.
+    This agrees with theoretical models, particularly the detailed calculation of Adler. Using the
+    data of the reaction $\nu p\to\mu^- p\pi^+$, the characteristic mass of the nucleon
+    axial-vector elastic form factor is measured to be $0.98^{+0.06}_{-0.03}$ GeV when analyzed
+    within the context of the Adler model. The data are also compared to other parametrizations of
+    the nucleon axial-vector form factor.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -132,11 +138,11 @@
     energy_notes: null
 - inspire_recid: 9759
   title: Study of Single Pion Production by Weak Neutral Currents in Low-energy Neutrino $d$ Interactions
-  abstract: Results are presented on single-pion production by the weak neutral current observed in low-energy
-    neutrino reactions in deuterium. Cross sections are given for the three exclusive neutral-current
-    final states νpπ−, νpπ0, and νnπ+ relative to the charged-current final state μ−pπ+. The results agree
-    well with models for weak one-pion production which incorporate the Weinberg-Salam structure of the
-    neutral current.
+  abstract: Results are presented on single-pion production by the weak neutral current observed
+    in low-energy neutrino reactions in deuterium. Cross sections are given for the three
+    exclusive neutral-current final states $\nu p\pi^-$, $\nu p\pi^0$, and $\nu n\pi^+$ relative
+    to the charged-current final state $\mu^- p\pi^+$. The results agree well with models for weak
+    one-pion production which incorporate the Weinberg-Salam structure of the neutral current.
   arxiv: null
   doi: 10.1103/PhysRevD.23.569
   journal: Phys.Rev.D
@@ -230,18 +236,21 @@
   published_date: 1978-11
   inspire_recid: 7237
   citation_count: 304
-  abstract: This paper gives the results of a study of inelastic charged-current interactions of muon-type
-    neutrinos with hydrogen and deuterium targets using the Argonne 12-foot bubble chamber. We discuss
-    in detail the separation of the events from background. For the single-pion production reactions νp→μ−pπ+,
-    νn→μ−nπ+, and νn→μ−pπ0, energy-dependent cross sections, differential cross sections, invariant-mass
-    distributions, and the Δ++(1236) decay angular distribution are presented. These data are also used
-    to study the isospin properties of the πN system. Comparisons of the data with models of single-pion
-    production are made, and a direct test of partial conservation of the axial-vector current is discussed.
-    Cross sections and invariant-mass distributions are given for the reactions in which more than one
-    pion is produced. Ten events of strange-particle production were found, and the properties of these
-    events are discussed. The energy dependence of the total νp and νn cross sections from threshold to
-    6 GeV was determined, and the σ(νn)σ(νp) ratio measured. This ratio and the inclusive x and y distributions
-    rapidly approach the scaling distributions expected from the quark-parton model.
+  abstract: This paper gives the results of a study of inelastic charged-current interactions of
+    muon-type neutrinos with hydrogen and deuterium targets using the Argonne 12-foot bubble
+    chamber. We discuss in detail the separation of the events from background. For the
+    single-pion production reactions $\nu p\to\mu^- p\pi^+$, $\nu n\to\mu^- n\pi^+$, and $\nu
+    n\to\mu^- p\pi^0$, energy-dependent cross sections, differential cross sections,
+    invariant-mass distributions, and the $\Delta^{++}(1236)$ decay angular distribution are
+    presented. These data are also used to study the isospin properties of the $\pi N$ system.
+    Comparisons of the data with models of single-pion production are made, and a direct test of
+    partial conservation of the axial-vector current is discussed. Cross sections and
+    invariant-mass distributions are given for the reactions in which more than one pion is
+    produced. Ten events of strange-particle production were found, and the properties of these
+    events are discussed. The energy dependence of the total $\nu p$ and $\nu n$ cross sections
+    from threshold to 6 GeV was determined, and the $\sigma(\nu n)/\sigma(\nu p)$ ratio measured.
+    This ratio and the inclusive $x$ and $y$ distributions rapidly approach the scaling
+    distributions expected from the quark-parton model.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -279,11 +288,13 @@
   published_date: 1979-01
   inspire_recid: 140053
   citation_count: 53
-  abstract: We have observed 217 (66) events of the process νp→νp (ν¯p→ν¯p) with an estimated background
-    of 82 (28). The neutral-to-charged-current ratios are σ(νp→νp)σ(νn→μ−p)=0.11±0.02 and σ(ν¯p→ν¯p)σ(ν¯p→μ+n)=0.19±0.05
-    for 0.40<Q2<0.90 (GeV/c)2, where -Q2 is the square of the momentum transfer to the nucleon. These
-    yield σ(ν¯p→ν¯p)σ(νp→νp)=0.53±0.17. The neutral-current form factors at Q2=0 are GE=0.5−0.5+0.25,
-    GM=1.0−0.04+0.35, and gA=0.5−0.15+0.2.
+  abstract: We have observed 217 (66) events of the process $\nu p\to\nu p$ ($\bar\nu p\to\bar\nu
+    p$) with an estimated background of 82 (28). The neutral-to-charged-current ratios are
+    $\sigma(\nu p\to\nu p)/\sigma(\nu n\to\mu^- p)=0.11\pm0.02$ and $\sigma(\bar\nu p\to\bar\nu
+    p)/\sigma(\bar\nu p\to\mu^+ n)=0.19\pm0.05$ for $0.40<Q^2<0.90\,(\mathrm{GeV}/c)^2$, where
+    $-Q^2$ is the square of the momentum transfer to the nucleon. These yield $\sigma(\bar\nu
+    p\to\bar\nu p)/\sigma(\nu p\to\nu p)=0.53\pm0.17$. The neutral-current form factors at $Q^2=0$
+    are $G_E=0.5^{+0.25}_{-0.5}$, $G_M=1.0^{+0.35}_{-0.04}$, and $g_A=0.5^{+0.2}_{-0.15}$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -359,11 +370,12 @@
   published_date: '1973'
   inspire_recid: 84537
   citation_count: 140
-  abstract: We present an analysis of 153 events of the reaction νp→μ−π+p at an average neutrino energy
-    of 1 GeV. The results were obtained using the Argonne 12-ft hydrogen bubble chamber. The reaction
-    is dominated by μ−Δ++(1236) production for which the total cross section rises from threshold to a
-    value of (0.74±0.18)×10−38 cm2 at Eν≳1.0 GeV. The production and decay angular distributions of the
-    Δ++ are given. There is no evidence for hadron-lepton mass enhancements.
+  abstract: We present an analysis of 153 events of the reaction $\nu p\to\mu^-\pi^+ p$ at an
+    average neutrino energy of 1 GeV. The results were obtained using the Argonne 12-ft hydrogen
+    bubble chamber. The reaction is dominated by $\mu^-\Delta^{++}(1236)$ production for which the
+    total cross section rises from threshold to a value of $(0.74\pm0.18)\times10^{-38}$ cm$^2$ at
+    $E_\nu\gtrsim1.0$ GeV. The production and decay angular distributions of the $\Delta^{++}$ are
+    given. There is no evidence for hadron-lepton mass enhancements.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -427,11 +439,12 @@
   published_date: '1974'
   inspire_recid: 89586
   citation_count: 213
-  abstract: In exposures of the Argonne National Laboratory 12-ft bubble chamber filled with hydrogen and deuterium
-    to a neutrino beam, we have observed events consisting of (1) a single π+ meson originating in the liquid, and
-    (2) a proton with an e+e− pair pointing to it. Only a small fraction of these events can be ascribed to known
-    reactions such as np→nnπ+ and np→npπ0. The remaining events, which correspond to a signal of about 4.5 standard
-    deviations, we ascribe to the reactions νp→νnπ+ and νpπ0.
+  abstract: In exposures of the Argonne National Laboratory 12-ft bubble chamber filled with
+    hydrogen and deuterium to a neutrino beam, we have observed events consisting of (1) a single
+    $\pi^+$ meson originating in the liquid, and (2) a proton with an $e^+e^-$ pair pointing to
+    it. Only a small fraction of these events can be ascribed to known reactions such as $np\to
+    nn\pi^+$ and $np\to np\pi^0$. The remaining events, which correspond to a signal of about 4.5
+    standard deviations, we ascribe to the reactions $\nu p\to\nu n\pi^+$ and $\nu p\pi^0$.
   added: '2026-07-31'
   notes: Added from the Formaggio-Zeller Table XI cross-check. Distinct from the strange-particle Barish:1974ye
     (PRL 33, 1446); this is the ANL NC single-pion discovery paper (PRL 33, 448). NC/CC single-pion ratios later

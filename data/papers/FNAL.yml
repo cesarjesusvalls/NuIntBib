@@ -10,11 +10,12 @@
   published_date: '1983'
   inspire_recid: 195139
   citation_count: 288
-  abstract: We have studied the quasielastic reaction νμn→μ−p in an exposure of the Fermilab deuterium-filled
-    15-foot bubble chamber to a high-energy wide-band neutrino beam. From an analysis of the Q2 distribution
-    based on the standard V−A theory, the axial-vector mass in a dipole parametrization of the axial-vector
-    form factor is determined to be MA=1.05−0.16+0.12 GeV, consistent with the values previously reported
-    from low-energy experiments.
+  abstract: We have studied the quasielastic reaction $\nu_\mu n\to\mu^- p$ in an exposure of the
+    Fermilab deuterium-filled 15-foot bubble chamber to a high-energy wide-band neutrino beam.
+    From an analysis of the $Q^2$ distribution based on the standard $V-A$ theory, the
+    axial-vector mass in a dipole parametrization of the axial-vector form factor is determined to
+    be $M_A=1.05^{+0.12}_{-0.16}$ GeV, consistent with the values previously reported from
+    low-energy experiments.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -78,10 +79,11 @@
   published_date: 1978-08
   inspire_recid: 131344
   citation_count: 102
-  abstract: We present results for the reactions νp→μ−π+p and νp→μ−K+p at energies above 5 GeV. The average
-    cross section for the first reaction between 15 and 40 GeV is (0.80±0.12) × 10−38 cm2 and for events
-    with Mπ+p<1.4 GeV is (0.55±0.08) × 10−38 cm2. The ratio of the cross section for the second reaction
-    to that for the first is 0.017±0.010.
+  abstract: We present results for the reactions $\nu p\to\mu^-\pi^+ p$ and $\nu p\to\mu^- K^+ p$
+    at energies above 5 GeV. The average cross section for the first reaction between 15 and 40
+    GeV is $(0.80\pm0.12)\times10^{-38}$ cm$^2$ and for events with $M_{\pi^+ p}<1.4$ GeV is
+    $(0.55\pm0.08)\times10^{-38}$ cm$^2$. The ratio of the cross section for the second reaction
+    to that for the first is $0.017\pm0.010$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:

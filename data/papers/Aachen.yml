@@ -51,16 +51,19 @@
   published_date: '1978'
   inspire_recid: 137396
   citation_count: 21
-  abstract: Single recoil protons have been detected in a multiplate Al spark chamber exposed to the 2-GeV
-    wide-band neutrino beam from the CERN proton synchrotron. Neutron-induced protons were suppressed
-    by suitable geometrical and kinematical cuts. After correction for remaining neutron background (110±15
-    events) and single-pion contribution (45±6 events), the final sample contains 62±19 genuine neutrino-induced
-    single protons. This yields an effective ratio of neutral-current (NC) to charged-current (CC) events
-    of RN=(15±5)%, in the range 0.2<−q2<1.0 (GeV/c)2. This number is due to a mixture of elastic neutrino
-    scatterings off protons and neutrons. From the probability fnp for a recoil neutron to give an accepted
-    proton, one derives a model-independent combination of the NC/CC ratios Rp+fnpRn, with fnp=0.31±0.04.
-    This favors axial-vector-isovector-dominant NC coupling constants and is consistent with the Weinberg-Salam
-    model with sin2θW=0.29−0.11+0.21. In terms of this model, this corresponds to Rp=(10±3)% and Rn=(15−5+3)%.
+  abstract: Single recoil protons have been detected in a multiplate Al spark chamber exposed to
+    the 2-GeV wide-band neutrino beam from the CERN proton synchrotron. Neutron-induced protons
+    were suppressed by suitable geometrical and kinematical cuts. After correction for remaining
+    neutron background (110±15 events) and single-pion contribution (45±6 events), the final
+    sample contains 62±19 genuine neutrino-induced single protons. This yields an effective ratio
+    of neutral-current (NC) to charged-current (CC) events of $R_N=(15\pm5)$%, in the range
+    $0.2<-q^2<1.0\,(\mathrm{GeV}/c)^2$. This number is due to a mixture of elastic neutrino
+    scatterings off protons and neutrons. From the probability $f_{np}$ for a recoil neutron to
+    give an accepted proton, one derives a model-independent combination of the NC/CC ratios
+    $R_p+f_{np}R_n$, with $f_{np}=0.31\pm0.04$. This favors axial-vector-isovector-dominant NC
+    coupling constants and is consistent with the Weinberg-Salam model with
+    $\sin^2\theta_W=0.29^{+0.21}_{-0.11}$. In terms of this model, this corresponds to
+    $R_p=(10\pm3)$% and $R_n=(15^{+3}_{-5})$%.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:

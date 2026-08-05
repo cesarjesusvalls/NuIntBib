@@ -225,13 +225,14 @@
   inspire_recid: 566751
   citation_count: 40
   release_status: not_xsec
-  abstract: 'A study of strange particle production in muon neutrino charged current interactions has
-    been performed using the data from the NOMAD experiment. Yields of neutral strange particles K0s,
-    Lambda, AntiLambda have been measured. Mean multiplicities are reported as a function of the event
-    kinematic variables Enu, W2 and Q2 as well as of the variables describing particle behaviour within
-    a hadronic jet: xF, z and pT2. Decays of resonances and heavy hyperons with identified K0s and Lambda
-    in the final state have been analyzed. Clear signals corresponding to K*+-, Sigma*+-, Xi- and Sigma0
-    have been observed.'
+  abstract: A study of strange particle production in muon neutrino charged current interactions
+    has been performed using the data from the NOMAD experiment. Yields of neutral strange
+    particles $K^0_S$, $\Lambda$, $\bar\Lambda$ have been measured. Mean multiplicities are
+    reported as a function of the event kinematic variables $E_\nu$, $W^2$ and $Q^2$ as well as of
+    the variables describing particle behaviour within a hadronic jet ($x_F$, $z$ and $p_T^2$).
+    Decays of resonances and heavy hyperons with identified $K^0_S$ and $\Lambda$ in the final
+    state have been analyzed. Clear signals corresponding to $K^{*\pm}$, $\Sigma^{*\pm}$, $\Xi^-$
+    and $\Sigma^0$ have been observed.
   added: '2024-12-09'
   notes: null
   links:

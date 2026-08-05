@@ -86,10 +86,11 @@
     energy_notes: null
 - inspire_recid: 159782
   title: Study of the Isospin Structure of Single Pion Production in Charged Current Neutrino Interactions
-  abstract: The isospin structure of weak single-pion production in the reactions νp→μ−pπ+, νn→μ−pπ0,
-    and νn→μ−nπ+ has been studied using the 7-foot deuterium bubble chamber exposed to a wide-band neutrino
-    beam at BNL. We find that the I=12Nπ amplitude is substantial even in the Δ(1232) mass region and
-    the relative phase angle ψ is approximately 90° as predicted by the Adler model.
+  abstract: The isospin structure of weak single-pion production in the reactions $\nu p\to\mu^-
+    p\pi^+$, $\nu n\to\mu^- p\pi^0$, and $\nu n\to\mu^- n\pi^+$ has been studied using the 7-foot
+    deuterium bubble chamber exposed to a wide-band neutrino beam at BNL. We find that the
+    $I=\tfrac{1}{2}$ $N\pi$ amplitude is substantial even in the $\Delta(1232)$ mass region and
+    the relative phase angle $\psi$ is approximately 90° as predicted by the Adler model.
   arxiv: null
   doi: 10.1103/PhysRevD.23.2495
   journal: Phys.Rev.D
@@ -138,15 +139,16 @@
   published_date: 1981-06
   inspire_recid: 170354
   citation_count: 344
-  abstract: The quasielastic reaction νμn→μ−p was studied in an experiment using the BNL 7-foot deuterium
-    bubble chamber exposed to the wide-band neutrino beam with an average energy of 1.6 GeV. A total of
-    1138 quasielastic events in the momentum-transfer range Q2=0.06−3.00 (GeV/c)2 were selected by kinematic
-    fitting and particle identification and were used to extract the axial-vector form factor FA(Q2) from
-    the Q2 distribution. In the framework of the conventional V−A theory, we find that the dipole parametrization
-    is favored over the monopole. The value of the axial-vector mass MA in the dipole parametrization
-    is 1.07±0.06 GeV, which is in good agreement with both recent neutrino and electroproduction experiments.
-    In addition, the standard assumptions of conserved vector current and no second-class currents are
-    checked.
+  abstract: The quasielastic reaction $\nu_\mu n\to\mu^- p$ was studied in an experiment using the
+    BNL 7-foot deuterium bubble chamber exposed to the wide-band neutrino beam with an average
+    energy of 1.6 GeV. A total of 1138 quasielastic events in the momentum-transfer range
+    $Q^2=0.06-3.00\,(\mathrm{GeV}/c)^2$ were selected by kinematic fitting and particle
+    identification and were used to extract the axial-vector form factor $F_A(Q^2)$ from the $Q^2$
+    distribution. In the framework of the conventional $V-A$ theory, we find that the dipole
+    parametrization is favored over the monopole. The value of the axial-vector mass $M_A$ in the
+    dipole parametrization is $1.07\pm0.06$ GeV, which is in good agreement with both recent
+    neutrino and electroproduction experiments. In addition, the standard assumptions of conserved
+    vector current and no second-class currents are checked.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -176,10 +178,12 @@
   published_date: '1981'
   inspire_recid: 171264
   citation_count: 15
-  abstract: We have measured elastic νμ and ν¯μ scattering on protons at the Brookhaven National Laboratory
-    Alternating Gradient Synchrotron. We find RNC=σ(ν¯μp→ν¯μp)σ(νμp→νμp)=0.44±0.12 and Rνμ=σ(νμp→νμp)σ(νμn→μ−p)=0.11±0.03.
-    The elastic Q2 distribution is in good agreement with present knowledge of form factors and the Weinberg-Salam
-    model. We find sin2θW=0.26±0.06.
+  abstract: We have measured elastic $\nu_\mu$ and $\bar\nu_\mu$ scattering on protons at the
+    Brookhaven National Laboratory Alternating Gradient Synchrotron. We find
+    $R_{NC}=\sigma(\bar\nu_\mu p\to\bar\nu_\mu p)/\sigma(\nu_\mu p\to\nu_\mu p)=0.44\pm0.12$ and
+    $R_{\nu_\mu}=\sigma(\nu_\mu p\to\nu_\mu p)/\sigma(\nu_\mu n\to\mu^- p)=0.11\pm0.03$. The
+    elastic $Q^2$ distribution is in good agreement with present knowledge of form factors and the
+    Weinberg-Salam model. We find $\sin^2\theta_W=0.26\pm0.06$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -210,15 +214,20 @@
   published_date: 1980-03
   inspire_recid: 9011
   citation_count: 70
-  abstract: We present a study of antineutrino interactions in hydrogen obtained in a 138000-picture run
-    at the BNL 7-ft bubble chamber. The antineutrino beam had an energy distribution that peaked at ∼1.1
-    GeV. The cross section measured for charged-current interactions is σ(ν¯p→μ++anything)=(0.32±0.08)×10−38×[Eν¯ (GeV)]
-    cm2. The neutral-current cross section is σ(ν¯p→ν¯pπ+π−)=5.5−2.6+4.4×10−40 cm2. The ratio of strangeness-changing
-    to non-strangeness-changing charged currents is Rs=0.06−0.05+0.13. An upper limit determined for charm
-    production is σc<3.8×10−40 cm2 at the 90% confidence level. From the momentum-transfer distribution
-    we measure average Q2 for inelastic charged-current events with energy greater than 2 GeV, 〈Q2〉=(0.10±0.03)[Eν¯ (GeV)]+(0.10±0.09)
-    (GeV/c)2. Using a maximum-likelihood method we determine from the quasielastic events ν¯p→μ+n an axial-vector
-    mass MA=0.9−0.3+0.4 GeV/c2.
+  abstract: We present a study of antineutrino interactions in hydrogen obtained in a
+    138000-picture run at the BNL 7-ft bubble chamber. The antineutrino beam had an energy
+    distribution that peaked at $\sim1.1$ GeV. The cross section measured for charged-current
+    interactions is $\sigma(\bar\nu
+    p\to\mu^++\text{anything})=(0.32\pm0.08)\times10^{-38}\times[E_{\bar\nu}\,(\mathrm{GeV})]$
+    cm$^2$. The neutral-current cross section is $\sigma(\bar\nu p\to\bar\nu
+    p\pi^+\pi^-)=5.5^{+4.4}_{-2.6}\times10^{-40}$ cm$^2$. The ratio of strangeness-changing to
+    non-strangeness-changing charged currents is $R_s=0.06^{+0.13}_{-0.05}$. An upper limit
+    determined for charm production is $\sigma_c<3.8\times10^{-40}$ cm$^2$ at the 90% confidence
+    level. From the momentum-transfer distribution we measure average $Q^2$ for inelastic
+    charged-current events with energy greater than 2 GeV, $\langle
+    Q^2\rangle=(0.10\pm0.03)[E_{\bar\nu}\,(\mathrm{GeV})]+(0.10\pm0.09)\,(\mathrm{GeV}/c)^2$.
+    Using a maximum-likelihood method we determine from the quasielastic events $\bar\nu p\to\mu^+
+    n$ an axial-vector mass $M_A=0.9^{+0.4}_{-0.3}$ GeV/$c^2$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -258,10 +267,13 @@
   published_date: 1976-11
   inspire_recid: 110367
   citation_count: 86
-  abstract: We have studied the neutral-current reactions νμN→νμN′π0 and ν¯μN→ν¯μN′π0 and compared them
-    to the charged-current reactions νμN→μ−N′′π0 and ν¯μN→μ+N′′π0. We have measured the ratios R0′=σ(νμN→νμN′π0)2σ(νμN→μ−N′′π0)
-    and R¯0′=σ(ν¯μN→ν¯μN′π0)2σ(ν¯μN→μ+N′′π0) to be 0.17±0.04 and 0.39±0.18, respectively. We also present
-    the π0p invariant-mass distribution of the neutrino-induced reactions.
+  abstract: We have studied the neutral-current reactions $\nu_\mu N\to\nu_\mu N'\pi^0$ and
+    $\bar\nu_\mu N\to\bar\nu_\mu N'\pi^0$ and compared them to the charged-current reactions
+    $\nu_\mu N\to\mu^- N''\pi^0$ and $\bar\nu_\mu N\to\mu^+ N''\pi^0$. We have measured the ratios
+    $R_0'=\sigma(\nu_\mu N\to\nu_\mu N'\pi^0)/2\sigma(\nu_\mu N\to\mu^- N''\pi^0)$ and $\bar
+    R_0'=\sigma(\bar\nu_\mu N\to\bar\nu_\mu N'\pi^0)/2\sigma(\bar\nu_\mu N\to\mu^+ N''\pi^0)$ to
+    be $0.17\pm0.04$ and $0.39\pm0.18$, respectively. We also present the $\pi^0 p$ invariant-mass
+    distribution of the neutrino-induced reactions.
   added: '2026-06-16'
   notes: 'Target corrected D2 -> Al (2026-07-31): this is the W. Lee BNL-AGS counter experiment
     on an aluminum target (reactions on generic nucleons N with the isoscalar factor-of-2),
@@ -298,13 +310,16 @@
   published_date: '1982'
   inspire_recid: 177607
   citation_count: 136
-  abstract: The total cross sections for νμn and νμp charged-current interactions and their ratio R=σT(νn)σT(νp)
-    have been measured as a function of neutrino energy from 0.4 to 10 GeV. The experiment is performed using the
-    BNL 7-foot deuterium bubble chamber exposed to the Alternating Gradient Synchrotron wide-band neutrino beam.
-    The absolute values of the cross sections are normalized to the quasielastic scattering (νμn→μ−p) cross section.
-    Above 1.6 GeV the data are consistent with the quark-parton model. We find that σT(νn)Eν=(1.07±0.05)×10−38,
-    σT(νp)Eν=(0.54±0.04)×10−38, and σT(νN)Eν=(0.80±0.03)×10−38 cm2/GeV for 〈Eν〉=3.2 GeV, and R=1.95±0.10 for 〈Eν〉=3.7
-    GeV.
+  abstract: The total cross sections for $\nu_\mu n$ and $\nu_\mu p$ charged-current interactions
+    and their ratio $R=\sigma_T(\nu n)/\sigma_T(\nu p)$ have been measured as a function of
+    neutrino energy from 0.4 to 10 GeV. The experiment is performed using the BNL 7-foot deuterium
+    bubble chamber exposed to the Alternating Gradient Synchrotron wide-band neutrino beam. The
+    absolute values of the cross sections are normalized to the quasielastic scattering ($\nu_\mu
+    n\to\mu^- p$) cross section. Above 1.6 GeV the data are consistent with the quark-parton
+    model. We find that $\sigma_T(\nu n)/E_\nu=(1.07\pm0.05)\times10^{-38}$, $\sigma_T(\nu
+    p)/E_\nu=(0.54\pm0.04)\times10^{-38}$, and $\sigma_T(\nu N)/E_\nu=(0.80\pm0.03)\times10^{-38}$
+    cm$^2$/GeV for $\langle E_\nu\rangle=3.2$ GeV, and $R=1.95\pm0.10$ for $\langle
+    E_\nu\rangle=3.7$ GeV.
   added: '2026-07-23'
   notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
     (1411.4482).
@@ -347,16 +362,19 @@
   inspire_recid: 304880
   citation_count: 212
   release_status: not_xsec
-  abstract: The weak nucleon axial-vector (FA) and vector (FV) form factors are determined from the momentum-transfer-squared
-    (Q2) distributions using 2538μ−p and 1384μ−Δ++ events. The data were obtained from 1 800 000 pictures taken
-    in the BNL 7-foot deuterium-filled bubble chamber exposed to a wide-band neutrino beam with a mean energy Eν=1.6
-    GeV. In the framework of the conventional V−A theory with standard assumptions, the value obtained from the
-    μ−p events for the axial-vector mass MA in the pure dipole parameterization is 1.070+0.040−0.045 GeV and from
-    the μ−Δ++ events is 1.28+0.08−0.10 GeV. These results are in good agreement with an earlier measurement from
-    this experiment and other recent results. The reaction mechanisms for both processes are compared and found
-    to be very similar. A two-parameter fit for the quasielastic reaction, using dipole forms for FV and FA yields
-    MA=0.97−0.11+0.14 GeV and MV=0.89−0.07+0.04 GeV, which is in good agreement with the conserved-vector-current
-    value of MV=0.84 GeV. Possible deviations from the standard assumptions are also discussed.
+  abstract: The weak nucleon axial-vector ($F_A$) and vector ($F_V$) form factors are determined
+    from the momentum-transfer-squared ($Q^2$) distributions using 2538 $\mu^- p$ and 1384
+    $\mu^-\Delta^{++}$ events. The data were obtained from 1 800 000 pictures taken in the BNL
+    7-foot deuterium-filled bubble chamber exposed to a wide-band neutrino beam with a mean energy
+    $E_\nu=1.6$ GeV. In the framework of the conventional $V-A$ theory with standard assumptions,
+    the value obtained from the $\mu^- p$ events for the axial-vector mass $M_A$ in the pure
+    dipole parameterization is $1.070^{+0.040}_{-0.045}$ GeV and from the $\mu^-\Delta^{++}$
+    events is $1.28^{+0.08}_{-0.10}$ GeV. These results are in good agreement with an earlier
+    measurement from this experiment and other recent results. The reaction mechanisms for both
+    processes are compared and found to be very similar. A two-parameter fit for the quasielastic
+    reaction, using dipole forms for $F_V$ and $F_A$ yields $M_A=0.97^{+0.14}_{-0.11}$ GeV and
+    $M_V=0.89^{+0.04}_{-0.07}$ GeV, which is in good agreement with the conserved-vector-current
+    value of $M_V=0.84$ GeV. Possible deviations from the standard assumptions are also discussed.
   added: '2026-07-23'
   notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
     (1411.4482).
@@ -399,11 +417,14 @@
   published_date: '1987'
   inspire_recid: 18763
   citation_count: 546
-  abstract: Measurements of the semileptonic weak-neutral-current reactions νμp→νμp and ν¯μp→ν¯μp are presented.
-    The experiment was performed using a 170-metric-ton high-resolution target detector in the BNL wide-band neutrino
-    beam. High-statistics samples yield the absolute differential cross sections dσ(νμp)/dQ2 and dσ(ν¯μp)/dQ2. A
-    measurement of the axial-vector form factor GA(Q2) is also presented. The results are in good agreement with
-    the standard model SU(2)×U(1). The weak-neutral-current parameter sin2thetaW is determined to be sin2θW=0.220±0.016(stat)−0.031+0.023(syst).
+  abstract: Measurements of the semileptonic weak-neutral-current reactions $\nu_\mu p\to\nu_\mu
+    p$ and $\bar\nu_\mu p\to\bar\nu_\mu p$ are presented. The experiment was performed using a
+    170-metric-ton high-resolution target detector in the BNL wide-band neutrino beam.
+    High-statistics samples yield the absolute differential cross sections $d\sigma(\nu_\mu
+    p)/dQ^2$ and $d\sigma(\bar\nu_\mu p)/dQ^2$. A measurement of the axial-vector form factor
+    $G_A(Q^2)$ is also presented. The results are in good agreement with the standard model
+    $SU(2)\times U(1)$. The weak-neutral-current parameter $\sin^2\theta_W$ is determined to be
+    $\sin^2\theta_W=0.220\pm0.016(\text{stat})^{+0.023}_{-0.031}(\text{syst})$.
   added: '2026-07-31'
   notes: 'Added from the Formaggio-Zeller NC-elastic thread: the BNL-E734 NC/CC ratio (~0.15) and dsigma/dQ^2 trace
     to this paper, not to the axial-mass Ahrens:1988rr.'
