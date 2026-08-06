@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2305.16249",
-   "provenance": "MicroBooNE:2023ubu \u2014 first measurement of eta meson production in neutrino-argon interactions (MicroBooNE); \u22651 eta in the final state on argon, per nucleon, CC+NC inclusive (98.6% numu CC), flux-integrated BNB (mean E_nu~0.8 GeV), \u03c3(nu\u21921\u03b7+X)=3.22\u00b10.84(stat)\u00b10.86(syst) \u00d710^-41 cm^2/nucleon; transcribed from the paper \u00b7 BR-corrected total from the 2\u03b3 channel using BR(\u03b7\u21922\u03b3)=39.41%; err = sqrt(stat\u00b2+sys\u00b2) = 1.20",
-   "notes": "BR-corrected total from the 2\u03b3 channel using BR(\u03b7\u21922\u03b3)=39.41%; err = sqrt(stat\u00b2+sys\u00b2) = 1.20."
+   "provenance": "MicroBooNE:2023ubu \u2014 first measurement of eta meson production in neutrino-argon interactions (MicroBooNE); \u22651 eta in the final state on argon, per nucleon, CC+NC inclusive (98.6% numu CC), flux-integrated BNB (mean E_nu~0.8 GeV), \u03c3(nu\u21921\u03b7+X)=3.22\u00b10.84(stat)\u00b10.86(syst) \u00d710^-41 cm^2/nucleon \u00b7 transcribed from the paper \u00b7 BR-corrected total from the 2\u03b3 channel using BR(\u03b7\u21922\u03b3)=39.41%; err = sqrt(stat\u00b2+sys\u00b2) = 1.20",
+   "notes": "Transcribed from the paper. BR-corrected total from the 2\u03b3 channel using BR(\u03b7\u21922\u03b3)=39.41%; err = sqrt(stat\u00b2+sys\u00b2) = 1.20."
   }
  ]
 }

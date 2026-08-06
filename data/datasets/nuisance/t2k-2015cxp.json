@@ -52,8 +52,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1509.06940",
-   "provenance": "T2K:2015cxp \u2014 nu_mu CC-inclusive cross section per nucleon on iron vs neutrino energy (arXiv:1509.06940), T2K on-axis nu_mu beam via the INGRID off-axis-angle technique; absolute \u03c3(E_nu) at 1.1, 2.0 and 3.3 GeV (1.10\u00b10.15, 2.07\u00b10.27, 2.29\u00b10.45 \u00d710^-38 cm^2/nucleon); transcribed from the paper",
-   "notes": ""
+   "provenance": "T2K:2015cxp \u2014 nu_mu CC-inclusive cross section per nucleon on iron vs neutrino energy (arXiv:1509.06940), T2K on-axis nu_mu beam via the INGRID off-axis-angle technique; absolute \u03c3(E_nu) at 1.1, 2.0 and 3.3 GeV (1.10\u00b10.15, 2.07\u00b10.27, 2.29\u00b10.45 \u00d710^-38 cm^2/nucleon) \u00b7 transcribed from the paper",
+   "notes": "Transcribed from the paper."
   }
  ]
 }

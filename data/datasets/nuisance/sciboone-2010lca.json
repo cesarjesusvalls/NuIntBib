@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1005.0059",
-   "provenance": "SciBooNE:2010lca \u2014 NC coherent \\pi^0 production on carbon at mean E_\\nu 0.8 GeV; ratios \u03c3(NC coh \u03c00)/\u03c3(CC)=(1.16\u00b10.24)e-2 and \u03c3(CC coh \u03c0)/\u03c3(NC coh \u03c00)=0.14 +0.30/-0.28; transcribed from the abstract \u00b7 dimensionless ratios \u00b7 the second ratio's stored error is the larger side, 0.30",
-   "notes": "The second ratio's stored error is the larger side, 0.30."
+   "provenance": "SciBooNE:2010lca \u2014 NC coherent \\pi^0 production on carbon at mean E_\\nu 0.8 GeV; ratios \u03c3(NC coh \u03c00)/\u03c3(CC)=(1.16\u00b10.24)e-2 and \u03c3(CC coh \u03c0)/\u03c3(NC coh \u03c00)=0.14 +0.30/-0.28 \u00b7 transcribed from the abstract \u00b7 dimensionless ratios \u00b7 the second ratio's stored error is the larger side, 0.30",
+   "notes": "Transcribed from the abstract. The second ratio's stored error is the larger side, 0.30."
   },
   {
    "key": "dsigma_cccohpi_nccohpi0_ratio",
@@ -68,8 +68,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1005.0059",
-   "provenance": "SciBooNE:2010lca \u2014 NC coherent \\pi^0 production on carbon at mean E_\\nu 0.8 GeV; ratios \u03c3(NC coh \u03c00)/\u03c3(CC)=(1.16\u00b10.24)e-2 and \u03c3(CC coh \u03c0)/\u03c3(NC coh \u03c00)=0.14 +0.30/-0.28; transcribed from the abstract \u00b7 dimensionless ratios \u00b7 the second ratio's stored error is the larger side, 0.30",
-   "notes": "The second ratio's stored error is the larger side, 0.30."
+   "provenance": "SciBooNE:2010lca \u2014 NC coherent \\pi^0 production on carbon at mean E_\\nu 0.8 GeV; ratios \u03c3(NC coh \u03c00)/\u03c3(CC)=(1.16\u00b10.24)e-2 and \u03c3(CC coh \u03c0)/\u03c3(NC coh \u03c00)=0.14 +0.30/-0.28 \u00b7 transcribed from the abstract \u00b7 dimensionless ratios \u00b7 the second ratio's stored error is the larger side, 0.30",
+   "notes": "Transcribed from the abstract. The second ratio's stored error is the larger side, 0.30."
   }
  ]
 }

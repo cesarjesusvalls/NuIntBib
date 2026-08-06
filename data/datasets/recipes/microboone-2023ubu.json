@@ -4,7 +4,7 @@
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/2305.16249",
  "note": "",
- "provenance": "MicroBooNE:2023ubu — first measurement of eta meson production in neutrino-argon interactions (MicroBooNE); ≥1 eta in the final state on argon, per nucleon, CC+NC inclusive (98.6% numu CC), flux-integrated BNB (mean E_nu~0.8 GeV), σ(nu→1η+X)=3.22±0.84(stat)±0.86(syst) ×10^-41 cm^2/nucleon; transcribed from the paper · BR-corrected total from the 2γ channel using BR(η→2γ)=39.41%; err = sqrt(stat²+sys²) = 1.20",
+ "provenance": "MicroBooNE:2023ubu — first measurement of eta meson production in neutrino-argon interactions (MicroBooNE); ≥1 eta in the final state on argon, per nucleon, CC+NC inclusive (98.6% numu CC), flux-integrated BNB (mean E_nu~0.8 GeV), σ(nu→1η+X)=3.22±0.84(stat)±0.86(syst) ×10^-41 cm^2/nucleon · transcribed from the paper · BR-corrected total from the 2γ channel using BR(η→2γ)=39.41%; err = sqrt(stat²+sys²) = 1.20",
  "items": [
   {
    "slug": "eta_prod",

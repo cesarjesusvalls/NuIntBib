@@ -4,7 +4,7 @@
  "source": "published (Phys.Rev.D)",
  "source_url": "https://doi.org/10.1103/PhysRevD.24.1420",
  "note": "",
- "provenance": "Coteus:1981ub — elastic NC ν_μ/ν̄_μ scattering ratios on protons, BNL AGS wide-band beam; R_NC=σ(ν̄_μ p→ν̄_μ p)/σ(ν_μ p→ν_μ p)=0.44±0.12 and R_{ν_μ}=σ(ν_μ p→ν_μ p)/σ(ν_μ n→μ^- p)=0.11±0.03; flux-averaged; transcribed from the abstract",
+ "provenance": "Coteus:1981ub — elastic NC ν_μ/ν̄_μ scattering ratios on protons, BNL AGS wide-band beam; R_NC=σ(ν̄_μ p→ν̄_μ p)/σ(ν_μ p→ν_μ p)=0.44±0.12 and R_{ν_μ}=σ(ν_μ p→ν_μ p)/σ(ν_μ n→μ^- p)=0.11±0.03; flux-averaged · transcribed from the abstract",
  "items": [
   {
    "slug": "r_nc",

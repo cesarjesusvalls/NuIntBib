@@ -4,7 +4,7 @@
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/1403.3140",
  "note": "",
- "provenance": "T2K:2014vog — first measurement of the neutrino-oxygen NCQE cross section at Super-Kamiokande via nuclear deexcitation gamma-rays; NCQE (nucleon knockout) on ¹⁶O in the Super-K water target, per oxygen nucleus, T2K off-axis narrow-band beam (~93% numu), single flux-averaged value at median E_nu 630 MeV, σ=1.55 ×10^-38 cm^2; transcribed from the paper · asymmetric 68% CI (1.20, 2.26) ×10^-38 cm^2 (90% CI (0.96, 2.78)); the stored error is the symmetric half-width 0.53 ×10^-38 cm^2",
+ "provenance": "T2K:2014vog — first measurement of the neutrino-oxygen NCQE cross section at Super-Kamiokande via nuclear deexcitation gamma-rays; NCQE (nucleon knockout) on ¹⁶O in the Super-K water target, per oxygen nucleus, T2K off-axis narrow-band beam (~93% numu), single flux-averaged value at median E_nu 630 MeV, σ=1.55 ×10^-38 cm^2 · transcribed from the paper · asymmetric 68% CI (1.20, 2.26) ×10^-38 cm^2 (90% CI (0.96, 2.78)); the stored error is the symmetric half-width 0.53 ×10^-38 cm^2",
  "items": [
   {
    "slug": "ncqe_o",

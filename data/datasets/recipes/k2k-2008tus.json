@@ -4,7 +4,7 @@
  "source": "arXiv",
  "source_url": "https://arxiv.org/abs/0805.0186",
  "note": "",
- "provenance": "K2K:2008tus — CC1\\pi^+/CCQE cross-section ratio (resonance region W<2 GeV/c^2, SciBar) at mean E_\\nu 1.3 GeV, σ(CC1π+)/σ(CCQE)=0.734 +0.140/-0.153; transcribed from the abstract · dimensionless · the stored error is the larger (lower) side of the asymmetric uncertainty, 0.153",
+ "provenance": "K2K:2008tus — CC1\\pi^+/CCQE cross-section ratio (resonance region W<2 GeV/c^2, SciBar) at mean E_\\nu 1.3 GeV, σ(CC1π+)/σ(CCQE)=0.734 +0.140/-0.153 · transcribed from the abstract · dimensionless · the stored error is the larger (lower) side of the asymmetric uncertainty, 0.153",
  "items": [
   {
    "slug": "cc1pip_ccqe_ratio",

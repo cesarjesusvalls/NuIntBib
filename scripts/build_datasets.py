@@ -702,8 +702,6 @@ def _notes_from_provenance(prov):
         if re.match(r'^[A-Za-z][\w.-]*:\d{4}\w*\s*(?:\([^)]*\)\s*)?[—–-]{1,2}\s', p):
             continue                                   # leading "Bibtag — what-it-is" description blurb
             #   (hyphenated collabs e.g. Super-Kamiokande, and an optional "(Expt)" before the dash)
-        if low.startswith('transcribed ') or low.startswith('transcribed:'):
-            continue                                   # sourcing note ("transcribed from ..."), not a caveat
         if 'nuisance data release' in low:
             continue                                   # source label (shown by the source link)
         if low in ('dimensionless', 'ratio', 'ratios', 'dimensionless ratio', 'dimensionless ratios'):
@@ -2672,7 +2670,7 @@ REGISTRY = [
              'source': 'published (Eur.Phys.J.C 30 (2003) 159)',
              'source_url': 'https://doi.org/10.1140/epjc/s2003-01292-3',
              'provenance': 'CHORUS:2003qcm — numu CC-inclusive total cross section on 4 targets '
-                           '(CH2/CaCO3/Fe/Pb), CERN-SPS wide-band beam, per nucleon; transcribed '
+                           '(CH2/CaCO3/Fe/Pb), CERN-SPS wide-band beam, per nucleon · transcribed '
                            'from the paper · relative cross section, normalized by a constant C · '
                            'combined error = quadrature(stat, subtraction, syst)'}},
          {'values': {
@@ -2686,7 +2684,7 @@ REGISTRY = [
              'source_url': 'https://doi.org/10.1140/epjc/s2003-01292-3',
              'provenance': 'CHORUS:2003qcm — numu CC-inclusive total-cross-section ratio '
                            'sigma^A/sigma^marble on 4 targets (CH2/CaCO3/Fe/Pb), CERN-SPS '
-                           'wide-band beam; transcribed from the paper · relative to the isoscalar '
+                           'wide-band beam · transcribed from the paper · relative to the isoscalar '
                            'marble reference (CaCO3 = 1.000) · combined error = quadrature(stat, syst)'}}]},
 ]
 

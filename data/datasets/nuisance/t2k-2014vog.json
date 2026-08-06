@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1403.3140",
-   "provenance": "T2K:2014vog \u2014 first measurement of the neutrino-oxygen NCQE cross section at Super-Kamiokande via nuclear deexcitation gamma-rays; NCQE (nucleon knockout) on \u00b9\u2076O in the Super-K water target, per oxygen nucleus, T2K off-axis narrow-band beam (~93% numu), single flux-averaged value at median E_nu 630 MeV, \u03c3=1.55 \u00d710^-38 cm^2; transcribed from the paper \u00b7 asymmetric 68% CI (1.20, 2.26) \u00d710^-38 cm^2 (90% CI (0.96, 2.78)); the stored error is the symmetric half-width 0.53 \u00d710^-38 cm^2",
-   "notes": "Asymmetric 68% CI (1.20, 2.26) \u00d710^-38 cm^2 (90% CI (0.96, 2.78)); the stored error is the symmetric half-width 0.53 \u00d710^-38 cm^2."
+   "provenance": "T2K:2014vog \u2014 first measurement of the neutrino-oxygen NCQE cross section at Super-Kamiokande via nuclear deexcitation gamma-rays; NCQE (nucleon knockout) on \u00b9\u2076O in the Super-K water target, per oxygen nucleus, T2K off-axis narrow-band beam (~93% numu), single flux-averaged value at median E_nu 630 MeV, \u03c3=1.55 \u00d710^-38 cm^2 \u00b7 transcribed from the paper \u00b7 asymmetric 68% CI (1.20, 2.26) \u00d710^-38 cm^2 (90% CI (0.96, 2.78)); the stored error is the symmetric half-width 0.53 \u00d710^-38 cm^2",
+   "notes": "Transcribed from the paper. Asymmetric 68% CI (1.20, 2.26) \u00d710^-38 cm^2 (90% CI (0.96, 2.78)); the stored error is the symmetric half-width 0.53 \u00d710^-38 cm^2."
   }
  ]
 }

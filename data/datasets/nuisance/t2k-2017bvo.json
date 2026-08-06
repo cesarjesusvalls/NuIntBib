@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1706.04257",
-   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space \u03c3 with \u03b8_mu<32\u00b0 and p_mu>500 MeV/c (Table VII); transcribed from the paper \u00b7 the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
-   "notes": "The full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)."
+   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space \u03c3 with \u03b8_mu<32\u00b0 and p_mu>500 MeV/c (Table VII) \u00b7 transcribed from the paper \u00b7 the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
+   "notes": "Transcribed from the paper. The full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)."
   },
   {
    "key": "dsigma_numu_restricted",
@@ -68,8 +68,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1706.04257",
-   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space \u03c3 with \u03b8_mu<32\u00b0 and p_mu>500 MeV/c (Table VII); transcribed from the paper \u00b7 the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
-   "notes": "The full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)."
+   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space \u03c3 with \u03b8_mu<32\u00b0 and p_mu>500 MeV/c (Table VII) \u00b7 transcribed from the paper \u00b7 the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
+   "notes": "Transcribed from the paper. The full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)."
   },
   {
    "key": "dsigma_antinumu_fullps",
@@ -100,8 +100,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1706.04257",
-   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space \u03c3 with \u03b8_mu<32\u00b0 and p_mu>500 MeV/c (Table VII); transcribed from the paper \u00b7 the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
-   "notes": "The full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)."
+   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space \u03c3 with \u03b8_mu<32\u00b0 and p_mu>500 MeV/c (Table VII) \u00b7 transcribed from the paper \u00b7 the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
+   "notes": "Transcribed from the paper. The full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)."
   },
   {
    "key": "dsigma_numu_fullps",
@@ -132,8 +132,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1706.04257",
-   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space \u03c3 with \u03b8_mu<32\u00b0 and p_mu>500 MeV/c (Table VII); transcribed from the paper \u00b7 the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
-   "notes": "The full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)."
+   "provenance": "T2K:2017bvo \u2014 numu and antinumu CC-inclusive cross sections per nucleon, T2K ND280 off-axis P0D water-target-region material (H 8%, C 45%, O 29.9%, Cu 14.3%, plus Cl/Ti/Zn; not pure H2O), single flux-averaged value; primary results are the model-independent restricted phase space \u03c3 with \u03b8_mu<32\u00b0 and p_mu>500 MeV/c (Table VII) \u00b7 transcribed from the paper \u00b7 the full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)",
+   "notes": "Transcribed from the paper. The full-phase-space values are NEUT-extrapolated by the total/restricted ratio and are model-dependent (assumed M_A^QE and 2p2h C/O parameters)."
   }
  ]
 }

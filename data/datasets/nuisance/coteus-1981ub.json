@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "published (Phys.Rev.D)",
    "source_url": "https://doi.org/10.1103/PhysRevD.24.1420",
-   "provenance": "Coteus:1981ub \u2014 elastic NC \u03bd_\u03bc/\u03bd\u0304_\u03bc scattering ratios on protons, BNL AGS wide-band beam; R_NC=\u03c3(\u03bd\u0304_\u03bc p\u2192\u03bd\u0304_\u03bc p)/\u03c3(\u03bd_\u03bc p\u2192\u03bd_\u03bc p)=0.44\u00b10.12 and R_{\u03bd_\u03bc}=\u03c3(\u03bd_\u03bc p\u2192\u03bd_\u03bc p)/\u03c3(\u03bd_\u03bc n\u2192\u03bc^- p)=0.11\u00b10.03; flux-averaged; transcribed from the abstract",
-   "notes": ""
+   "provenance": "Coteus:1981ub \u2014 elastic NC \u03bd_\u03bc/\u03bd\u0304_\u03bc scattering ratios on protons, BNL AGS wide-band beam; R_NC=\u03c3(\u03bd\u0304_\u03bc p\u2192\u03bd\u0304_\u03bc p)/\u03c3(\u03bd_\u03bc p\u2192\u03bd_\u03bc p)=0.44\u00b10.12 and R_{\u03bd_\u03bc}=\u03c3(\u03bd_\u03bc p\u2192\u03bd_\u03bc p)/\u03c3(\u03bd_\u03bc n\u2192\u03bc^- p)=0.11\u00b10.03; flux-averaged \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
   },
   {
    "key": "dsigma_r_numu",
@@ -68,8 +68,8 @@
    "scale_note": null,
    "source": "published (Phys.Rev.D)",
    "source_url": "https://doi.org/10.1103/PhysRevD.24.1420",
-   "provenance": "Coteus:1981ub \u2014 elastic NC \u03bd_\u03bc/\u03bd\u0304_\u03bc scattering ratios on protons, BNL AGS wide-band beam; R_NC=\u03c3(\u03bd\u0304_\u03bc p\u2192\u03bd\u0304_\u03bc p)/\u03c3(\u03bd_\u03bc p\u2192\u03bd_\u03bc p)=0.44\u00b10.12 and R_{\u03bd_\u03bc}=\u03c3(\u03bd_\u03bc p\u2192\u03bd_\u03bc p)/\u03c3(\u03bd_\u03bc n\u2192\u03bc^- p)=0.11\u00b10.03; flux-averaged; transcribed from the abstract",
-   "notes": ""
+   "provenance": "Coteus:1981ub \u2014 elastic NC \u03bd_\u03bc/\u03bd\u0304_\u03bc scattering ratios on protons, BNL AGS wide-band beam; R_NC=\u03c3(\u03bd\u0304_\u03bc p\u2192\u03bd\u0304_\u03bc p)/\u03c3(\u03bd_\u03bc p\u2192\u03bd_\u03bc p)=0.44\u00b10.12 and R_{\u03bd_\u03bc}=\u03c3(\u03bd_\u03bc p\u2192\u03bd_\u03bc p)/\u03c3(\u03bd_\u03bc n\u2192\u03bc^- p)=0.11\u00b10.03; flux-averaged \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
   }
  ]
 }

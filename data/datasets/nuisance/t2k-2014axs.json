@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1407.4256",
-   "provenance": "T2K:2014axs \u2014 nu_mu CC-inclusive total cross section per nucleon (arXiv:1407.4256), T2K on-axis INGRID (iron) and Proton Module (CH), flux-averaged at mean E_nu=1.51 GeV, full phase space; two absolute values \u03c3(Fe)=1.444\u00b10.002(stat)+0.189/-0.157(syst), \u03c3(CH)=1.379\u00b10.009(stat)+0.178/-0.147(syst) \u00d710^-38 cm^2/nucleon; transcribed from the paper \u00b7 isoscalar correction not applied (pure per-nucleon cross section on the physical target)",
-   "notes": "Isoscalar correction not applied (pure per-nucleon cross section on the physical target)."
+   "provenance": "T2K:2014axs \u2014 nu_mu CC-inclusive total cross section per nucleon (arXiv:1407.4256), T2K on-axis INGRID (iron) and Proton Module (CH), flux-averaged at mean E_nu=1.51 GeV, full phase space; two absolute values \u03c3(Fe)=1.444\u00b10.002(stat)+0.189/-0.157(syst), \u03c3(CH)=1.379\u00b10.009(stat)+0.178/-0.147(syst) \u00d710^-38 cm^2/nucleon \u00b7 transcribed from the paper \u00b7 isoscalar correction not applied (pure per-nucleon cross section on the physical target)",
+   "notes": "Transcribed from the paper. Isoscalar correction not applied (pure per-nucleon cross section on the physical target)."
   },
   {
    "key": "dsigma_ch",
@@ -68,8 +68,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1407.4256",
-   "provenance": "T2K:2014axs \u2014 nu_mu CC-inclusive total cross section per nucleon (arXiv:1407.4256), T2K on-axis INGRID (iron) and Proton Module (CH), flux-averaged at mean E_nu=1.51 GeV, full phase space; two absolute values \u03c3(Fe)=1.444\u00b10.002(stat)+0.189/-0.157(syst), \u03c3(CH)=1.379\u00b10.009(stat)+0.178/-0.147(syst) \u00d710^-38 cm^2/nucleon; transcribed from the paper \u00b7 isoscalar correction not applied (pure per-nucleon cross section on the physical target)",
-   "notes": "Isoscalar correction not applied (pure per-nucleon cross section on the physical target)."
+   "provenance": "T2K:2014axs \u2014 nu_mu CC-inclusive total cross section per nucleon (arXiv:1407.4256), T2K on-axis INGRID (iron) and Proton Module (CH), flux-averaged at mean E_nu=1.51 GeV, full phase space; two absolute values \u03c3(Fe)=1.444\u00b10.002(stat)+0.189/-0.157(syst), \u03c3(CH)=1.379\u00b10.009(stat)+0.178/-0.147(syst) \u00d710^-38 cm^2/nucleon \u00b7 transcribed from the paper \u00b7 isoscalar correction not applied (pure per-nucleon cross section on the physical target)",
+   "notes": "Transcribed from the paper. Isoscalar correction not applied (pure per-nucleon cross section on the physical target)."
   }
  ]
 }
