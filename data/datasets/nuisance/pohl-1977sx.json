@@ -43,7 +43,7 @@
    "key": "dsigma_corrected",
    "slug": "dsigma_corrected",
    "name": "\u03c3(\u03bd p to \u03bd p)/\u03c3(\u03bd n to \u03bc^- p) (nuclear-corrected)",
-   "name_tex": "$\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)\\ (nuclear-corrected)$",
+   "name_tex": "$\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)$ (nuclear-corrected)",
    "xlabel": "Q\u00b2",
    "xunit": "GeV^2",
    "xlabel_tex": "$Q^2$",

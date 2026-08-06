@@ -11,7 +11,7 @@
    "key": "d2sigma_dpt_dppar",
    "slug": "d2sigma_dpt_dppar",
    "name": "d\u00b2\u03c3/dp_Tdp_|| (d^2sigma/dp_T dp_{||} vs p_T in slices of p_{||})",
-   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{||}\\ (d^2sigma/dp_T dp_{||} vs p_T in slices of p_{||})$",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{||}$ (d^2sigma/dp_T dp_{||} vs p_T in slices of p_{||})",
    "xlabel": "p_T",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_T$",

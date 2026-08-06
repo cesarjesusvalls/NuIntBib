@@ -11,7 +11,7 @@
    "key": "dsigma_total",
    "slug": "dsigma_total",
    "name": "\u03c3 (nue+nuebar)",
-   "name_tex": "$\\sigma\\ (nue+nuebar)$",
+   "name_tex": "$\\sigma$ (nue+nuebar)",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

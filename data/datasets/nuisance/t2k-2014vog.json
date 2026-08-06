@@ -11,7 +11,7 @@
    "key": "dsigma_ncqe_o",
    "slug": "dsigma_ncqe_o",
    "name": "\u03c3 (NC quasi-elastic on 16O)",
-   "name_tex": "$\\sigma\\ (NC quasi-elastic on 16O)$",
+   "name_tex": "$\\sigma$ (NC quasi-elastic on 16O)",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

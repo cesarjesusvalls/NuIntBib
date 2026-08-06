@@ -11,7 +11,7 @@
    "key": "dsigma_ccqe_sigma_vs_e",
    "slug": "dsigma_ccqe_sigma_vs_e",
    "name": "\u03c3_CCQE (\\nu_\\mu CCQE (RFG))",
-   "name_tex": "$\\sigma_{CCQE}\\ (\\nu_\\mu CCQE (RFG))$",
+   "name_tex": "$\\sigma_{CCQE}$ (\\nu_\\mu CCQE (RFG))",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

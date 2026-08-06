@@ -105,6 +105,20 @@ def plotify(tex):
             .replace('^2', '²').replace('^{2}', '²').replace('^3', '³').replace('^{3}', '³'))
 
 
+def _name_tex(yl, suffix=''):
+    """Distribution title: ylabel as KaTeX math ($...$). The suffix is a channel/expression
+    OR a prose description. Prose (2+ real words) is appended OUTSIDE the math so it renders
+    as text with spaces preserved (KaTeX would collapse them into 'openinganglebetween...');
+    a pure formula stays INSIDE the math so its subscripts render properly."""
+    suffix = (suffix or '').strip()
+    if not suffix:
+        return f'${yl}$'
+    words = re.findall(r'[A-Za-z]{3,}', re.sub(r'\\[A-Za-z]+', ' ', suffix))  # words, macros dropped
+    if len(words) >= 2:
+        return f'${yl}$ ({suffix})'          # prose / mixed -> text
+    return rf'${yl}\ ({suffix})$'            # pure formula -> KaTeX
+
+
 def _clip_wide_ends(bins, factor=4):
     """Shrink a genuine overflow/underflow CATCH-ALL bin to the median width for display,
     keeping its true edge in hi_true. Such a catch-all is only ever the FIRST or LAST bin, so
@@ -425,7 +439,7 @@ def build_1d_csv_targets(spec):
             yl, key = res['ylabel'], f"{res['key']}_{t.lower()}"
             out.append({
                 'key': key, 'slug': key, 'name': plotify(yl) + f' ({t})',
-                'name_tex': rf'${yl}\ (\mathrm{{{t}}})$',
+                'name_tex': _name_tex(yl, t),
                 'xlabel': plotify(res['xlabel']), 'xunit': res.get('xunit', ''),
                 'xlabel_tex': f"${res['xlabel']}$",
                 'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
@@ -563,7 +577,7 @@ def build_values(spec):
         out.append({
             'key': key, 'slug': key,
             'name': plotify(yl) + (f" ({it['slug']})" if it.get('slug') else ''),
-            'name_tex': f'${yl}{suf_tex}$',
+            'name_tex': _name_tex(yl, nu or ''),
             'xlabel': '', 'xunit': '', 'xcat': True,
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': spec.get('yunit', ''),
@@ -831,7 +845,7 @@ def build_minerva_root(spec):
         dists.append({
             'key': key, 'slug': key,
             'name': plotify(yl) + (f' ({lab})' if lab else ''),
-            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'name_tex': _name_tex(yl, lab),
             'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
@@ -1098,7 +1112,7 @@ def build_uboone_datarelease(spec):
         dists.append({
             'key': key, 'slug': key,
             'name': plotify(yl) + (f' ({lab})' if lab else ''),
-            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'name_tex': _name_tex(yl, lab),
             'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
@@ -1136,7 +1150,7 @@ def build_csv_simple(spec):
         dists.append({
             'key': key, 'slug': key,
             'name': plotify(yl) + (f' ({lab})' if lab else ''),
-            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'name_tex': _name_tex(yl, lab),
             'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
@@ -1175,7 +1189,7 @@ def build_grouped_dist(ds, src, url, prov):
     prov = ds.get('provenance', prov)   # per-distribution provenance overrides the release default
     base = {'key': ds['slug'], 'slug': ds['slug'],
             'name': plotify(yl) + (f' ({lab})' if lab else ''),
-            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'name_tex': _name_tex(yl, lab),
             'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
@@ -1314,7 +1328,7 @@ def build_uboone_concat(spec):
         dists.append({
             'key': key, 'slug': key,
             'name': plotify(yl) + (f' ({lab})' if lab else ''),
-            'name_tex': f'${yl}' + (f'\\ ({lab})$' if lab else '$'),
+            'name_tex': _name_tex(yl, lab),
             'xlabel': plotify(xl), 'xunit': xu, 'xlabel_tex': f'${xl}$',
             'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
             'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
@@ -1507,7 +1521,7 @@ def _assemble_2d(grouped, spec):
     dkey = (f"_{det_slug}" if det_slug else '')
     dist = {
         'key': spec.get('key', 'd2xsec') + dkey, 'slug': spec.get('slug', 'd2xsec') + dkey,
-        'name': plotify(yl) + suf, 'name_tex': f'${yl}{suf_tex}$',
+        'name': plotify(yl) + suf, 'name_tex': _name_tex(yl, det_tex or ''),
         'xlabel': plotify(xl), 'xunit': spec.get('xunit', ''), 'xlabel_tex': f'${xl}$',
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': spec.get('yunit', ''), 'yunit_tex': f"${tl(spec.get('yunit',''))}$" if spec.get('yunit') else '',

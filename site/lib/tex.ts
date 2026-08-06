@@ -16,7 +16,9 @@ const GREEK: Record<string, string> = {
 };
 const SYM: Record<string, string> = {
   times: '×', pm: '±', mp: '∓', to: '→', rightarrow: '→', approx: '≈',
-  sim: '~', leq: '≤', geq: '≥', cdot: '·', ell: 'ℓ', infty: '∞', simeq: '≃',
+  sim: '~', leq: '≤', le: '≤', geq: '≥', ge: '≥', cdot: '·', ell: 'ℓ',
+  infty: '∞', simeq: '≃', parallel: '∥', perp: '⊥', cos: 'cos', sin: 'sin',
+  tan: 'tan', langle: '⟨', rangle: '⟩',
 };
 const SUP: Record<string, string> = {
   '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶',
@@ -41,6 +43,12 @@ export function latexToUnicode(input: string): string {
   let s = input;
   // \bar{x} / \overline{x} -> x with combining overline
   s = s.replace(/\\(?:bar|overline)\s*\{([^}]*)\}/g, (_, x) => `${x}̅`);
+  // \bar / \overline applied to a single following token (macro or char), no braces:
+  // e.g. \bar\nu -> ν̄
+  s = s.replace(/\\(?:bar|overline)\s*(\\[A-Za-z]+|\S)/g, (_, tok) => {
+    const ch = tok.startsWith('\\') ? GREEK[tok.slice(1)] ?? SYM[tok.slice(1)] ?? tok : tok;
+    return `${ch}̅`;
+  });
   // roman/text font macros: \mathrm{X} \text{X} \operatorname{X} ... -> X
   s = s.replace(
     /\\(?:math(?:rm|bf|it|sf|cal|tt)|text(?:rm|it|bf)?|operatorname)\s*\{([^}]*)\}/g,

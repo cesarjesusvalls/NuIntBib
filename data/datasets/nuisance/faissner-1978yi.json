@@ -11,7 +11,7 @@
    "key": "dsigma_rn",
    "slug": "dsigma_rn",
    "name": "R_N=\u03c3_NC/\u03c3_CC (single recoil p in Al)",
-   "name_tex": "$R_N=\\sigma_{NC}/\\sigma_{CC}\\ (single recoil p in Al)$",
+   "name_tex": "$R_N=\\sigma_{NC}/\\sigma_{CC}$ (single recoil p in Al)",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

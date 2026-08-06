@@ -43,7 +43,7 @@
    "key": "dsigma_cccohpi_nccohpi0_ratio",
    "slug": "dsigma_cccohpi_nccohpi0_ratio",
    "name": "\u03c3(CC coh \u03c0)/\u03c3(NC coh \u03c0^0) (\\sigma_{CC\\,coh\\,\\pi}/\\sigma_{NC\\,coh\\,\\pi^0})",
-   "name_tex": "$\\sigma(CC\\,coh\\,\\pi)/\\sigma(NC\\,coh\\,\\pi^0)\\ (\\sigma_{CC\\,coh\\,\\pi}/\\sigma_{NC\\,coh\\,\\pi^0})$",
+   "name_tex": "$\\sigma(CC\\,coh\\,\\pi)/\\sigma(NC\\,coh\\,\\pi^0)$ (\\sigma_{CC\\,coh\\,\\pi}/\\sigma_{NC\\,coh\\,\\pi^0})",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

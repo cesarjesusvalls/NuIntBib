@@ -11,7 +11,7 @@
    "key": "dsigma_nc1pi0_semi_inclusive_ar",
    "slug": "dsigma_nc1pi0_semi_inclusive_ar",
    "name": "\u03c3_NC1\u03c0^0 (NC\u03c00 (semi-inclusive))",
-   "name_tex": "$\\sigma_{NC1\\pi^0}\\ (NC\u03c00 (semi-inclusive))$",
+   "name_tex": "$\\sigma_{NC1\\pi^0}$ (NC\u03c00 (semi-inclusive))",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",
