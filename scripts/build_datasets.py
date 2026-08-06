@@ -685,16 +685,20 @@ def _read_matrix_txt(path, fmt=None):
     return np.asarray(rows)
 
 
-def _notes_from_provenance(prov):
+def _notes_from_provenance(prov, n_bins=None):
     """Derive the display 'Notes' from the full provenance: keep the technical caveats
     (how the error is defined, nothing digitized, rescalings, typos, ...) and drop the
     source / file path / citation, which are already shown by the subtitle, the source
-    link, and the paper's own arXiv/DOI. Rendered as capitalised sentences."""
+    link, and the paper's own arXiv/DOI. Rendered as capitalised sentences.
+    n_bins is the distribution's bin count: for a single value, covariance talk
+    ("no covariance", "per-bin error = sqrt(diag(covariance))") is vacuous, so drop it."""
     keep = []
     for p in (part.strip() for part in prov.split(' · ')):
         low = p.lower()
         if not p or p in ('NUISANCE', 'NUISANCE neutrino_data'):
             continue                                   # source label
+        if n_bins == 1 and ('covariance' in low or low.startswith('per-bin error')):
+            continue                                   # covariance is meaningless for a single value
         if low.startswith('data/') or low.startswith('neutrino_data/'):
             continue                                   # in-repo file path
         if 'arxiv' in low or 'zenodo' in low or 'hepdata' in low or 't2k.org data release' in low:
@@ -2782,7 +2786,7 @@ def build(entry):
     # release spans several files (NUISANCE, one per observable), link the common
     # parent directory instead of an arbitrary single file.
     for d in dists:                                  # display notes (full provenance kept)
-        d['notes'] = _notes_from_provenance(d.get('provenance', ''))
+        d['notes'] = _notes_from_provenance(d.get('provenance', ''), len(d.get('bins') or []))
     src = dists[0]['source'] if dists else entry.get('source', 'NUISANCE')
     src_url = _release_source_url(dists)
     out = {'bibtag': entry['bibtag'], 'slug': entry['slug'],
@@ -2892,7 +2896,7 @@ if __name__ == '__main__':
                 'values; row/col order below')
             d['note'] = ''
             for dist in d['distributions']:
-                dist['notes'] = _notes_from_provenance(dist.get('provenance', ''))
+                dist['notes'] = _notes_from_provenance(dist.get('provenance', ''), len(dist.get('bins') or []))
             d['source'] = d['distributions'][0].get('source', d.get('source', 'NUISANCE'))
             d['source_url'] = _release_source_url(d['distributions'])
             json.dump(d, open(path, 'w'), indent=1)

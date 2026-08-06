@@ -36,7 +36,7 @@
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/T2K/CCCOH/C12_Enu_1bin.txt",
    "provenance": "NUISANCE \u00b7 data/T2K/CCCOH/C12_Enu_1bin.txt \u00b7 from arXiv:1604.04406 (Phys.Rev.Lett. 117 192501) \u00b7 per-bin error = sqrt(diag(covariance))",
-   "notes": "Per-bin error = sqrt(diag(covariance))."
+   "notes": ""
   }
  ],
  "flux": {

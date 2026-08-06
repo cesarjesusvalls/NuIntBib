@@ -37,7 +37,7 @@
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/2603.17951",
    "provenance": "COHERENT:2026yje \u2014 flux-averaged total CEvNS cross section on germanium (Ge-Mini array), all-flavor SNS stopped-pion (piDAR) beam \u00b7 target per Ge nucleus \u00b7 derived from the abstract: the measured/standard-model ratio 1.00 +/- 0.10(stat) +/- 0.10(syst) times the quoted SM expectation 5.9e-39 cm^2 gives (5.9 +/- 0.83)e-39 cm^2, error = SM x sqrt(stat^2+syst^2) \u00b7 no covariance",
-   "notes": "Derived from the abstract: the measured/standard-model ratio 1.00 +/- 0.10(stat) +/- 0.10(syst) times the quoted SM expectation 5.9e-39 cm^2 gives (5.9 +/- 0.83)e-39 cm^2, error = SM x sqrt(stat^2+syst^2). No covariance."
+   "notes": "Derived from the abstract: the measured/standard-model ratio 1.00 +/- 0.10(stat) +/- 0.10(syst) times the quoted SM expectation 5.9e-39 cm^2 gives (5.9 +/- 0.83)e-39 cm^2, error = SM x sqrt(stat^2+syst^2)."
   }
  ]
 }
