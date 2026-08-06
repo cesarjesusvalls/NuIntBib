@@ -10,8 +10,8 @@
   {
    "key": "dsigma_numu_sigma_over_e",
    "slug": "dsigma_numu_sigma_over_e",
-   "name": "\u03c3/E_\u03bd (numu)",
-   "name_tex": "$\\sigma/E_\\nu\\ (numu)$",
+   "name": "\u03c3/E_\u03bd (\\nu_\\mu)",
+   "name_tex": "$\\sigma/E_\\nu\\ (\\nu_\\mu)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",
@@ -138,8 +138,8 @@
   {
    "key": "dsigma_numubar_sigma_over_e",
    "slug": "dsigma_numubar_sigma_over_e",
-   "name": "\u03c3/E_bar\u03bd (numubar)",
-   "name_tex": "$\\sigma/E_{\\bar\\nu}\\ (numubar)$",
+   "name": "\u03c3/E_bar\u03bd (\\bar\\nu_\\mu)",
+   "name_tex": "$\\sigma/E_{\\bar\\nu}\\ (\\bar\\nu_\\mu)$",
    "xlabel": "E_bar\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_{\\bar\\nu}$",

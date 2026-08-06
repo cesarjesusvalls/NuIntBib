@@ -10,8 +10,8 @@
   {
    "key": "dsigma_dsdp_numu",
    "slug": "dsigma_dsdp_numu",
-   "name": "d\u03c3/dp_\u03c0^0 (numu)",
-   "name_tex": "$d\\sigma/dp_{\\pi^0}\\ (numu)$",
+   "name": "d\u03c3/dp_\u03c0^0 (\\nu_\\mu)",
+   "name_tex": "$d\\sigma/dp_{\\pi^0}\\ (\\nu_\\mu)$",
    "xlabel": "p_\u03c0^0",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_{\\pi^0}$",
@@ -123,8 +123,8 @@
   {
    "key": "dsigma_dsdcostheta_numu",
    "slug": "dsigma_dsdcostheta_numu",
-   "name": "d\u03c3/dcos\u03b8_\u03c0^0 (numu)",
-   "name_tex": "$d\\sigma/d\\cos\\theta_{\\pi^0}\\ (numu)$",
+   "name": "d\u03c3/dcos\u03b8_\u03c0^0 (\\nu_\\mu)",
+   "name_tex": "$d\\sigma/d\\cos\\theta_{\\pi^0}\\ (\\nu_\\mu)$",
    "xlabel": "cos\u03b8_\u03c0^0",
    "xunit": "",
    "xlabel_tex": "$\\cos\\theta_{\\pi^0}$",
@@ -292,8 +292,8 @@
   {
    "key": "dsigma_dsdp_numubar",
    "slug": "dsigma_dsdp_numubar",
-   "name": "d\u03c3/dp_\u03c0^0 (numubar)",
-   "name_tex": "$d\\sigma/dp_{\\pi^0}\\ (numubar)$",
+   "name": "d\u03c3/dp_\u03c0^0 (\\bar\\nu_\\mu)",
+   "name_tex": "$d\\sigma/dp_{\\pi^0}\\ (\\bar\\nu_\\mu)$",
    "xlabel": "p_\u03c0^0",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_{\\pi^0}$",
@@ -397,8 +397,8 @@
   {
    "key": "dsigma_dsdcostheta_numubar",
    "slug": "dsigma_dsdcostheta_numubar",
-   "name": "d\u03c3/dcos\u03b8_\u03c0^0 (numubar)",
-   "name_tex": "$d\\sigma/d\\cos\\theta_{\\pi^0}\\ (numubar)$",
+   "name": "d\u03c3/dcos\u03b8_\u03c0^0 (\\bar\\nu_\\mu)",
+   "name_tex": "$d\\sigma/d\\cos\\theta_{\\pi^0}\\ (\\bar\\nu_\\mu)$",
    "xlabel": "cos\u03b8_\u03c0^0",
    "xunit": "",
    "xlabel_tex": "$\\cos\\theta_{\\pi^0}$",

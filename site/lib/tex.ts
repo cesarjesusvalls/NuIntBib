@@ -69,6 +69,16 @@ export function latexToUnicode(input: string): string {
   return s;
 }
 
+// Author-defined shorthand macros that INSPIRE abstracts sometimes carry over from a
+// paper's preamble (e.g. MiniBooNE's \numub, \mup, \qsq, \uz). KaTeX doesn't know them,
+// so without this it renders them in red as undefined control sequences.
+const TEX_MACROS: Record<string, string> = {
+  '\\numu': '\\nu_\\mu', '\\numub': '\\bar\\nu_\\mu', '\\numubar': '\\bar\\nu_\\mu',
+  '\\nue': '\\nu_e', '\\nueb': '\\bar\\nu_e', '\\nuebar': '\\bar\\nu_e',
+  '\\nutau': '\\nu_\\tau', '\\nutaub': '\\bar\\nu_\\tau',
+  '\\mup': '\\mu^+', '\\mum': '\\mu^-', '\\qsq': 'Q^2', '\\uz': '\\cos\\theta_\\mu',
+};
+
 /**
  * Render a string that mixes plain text with inline `$...$` LaTeX into HTML.
  * Runs at build time (server) via katex.renderToString; no client JS needed.
@@ -82,7 +92,7 @@ function renderInlineTex(text: string): string {
       if (seg.length > 1 && seg.startsWith('$') && seg.endsWith('$')) {
         const tex = seg.slice(1, -1);
         try {
-          return katex.renderToString(tex, { throwOnError: false, strict: false });
+          return katex.renderToString(tex, { throwOnError: false, strict: false, macros: TEX_MACROS });
         } catch {
           return escapeHtml(seg);
         }

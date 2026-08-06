@@ -10,8 +10,8 @@
   {
    "key": "dsigma_sigma_ncpi0_numu",
    "slug": "dsigma_sigma_ncpi0_numu",
-   "name": "\u03c3(NC\u03c0^0) (numu)",
-   "name_tex": "$\\sigma(NC\\pi^0)\\ (numu)$",
+   "name": "\u03c3(NC\u03c0^0) (\\nu_\\mu)",
+   "name_tex": "$\\sigma(NC\\pi^0)\\ (\\nu_\\mu)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",
@@ -42,8 +42,8 @@
   {
    "key": "dsigma_sigma_ncpi0_numubar",
    "slug": "dsigma_sigma_ncpi0_numubar",
-   "name": "\u03c3(NC\u03c0^0) (numubar)",
-   "name_tex": "$\\sigma(NC\\pi^0)\\ (numubar)$",
+   "name": "\u03c3(NC\u03c0^0) (\\bar\\nu_\\mu)",
+   "name_tex": "$\\sigma(NC\\pi^0)\\ (\\bar\\nu_\\mu)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

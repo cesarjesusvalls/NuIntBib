@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "numu_sigma_over_e",
-   "label": "numu",
+   "label": "\\nu_\\mu",
    "csv": "data/datasets/sources/minos-2009ugl/numu_sigma_over_e.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -16,7 +16,7 @@
   },
   {
    "slug": "numubar_sigma_over_e",
-   "label": "numubar",
+   "label": "\\bar\\nu_\\mu",
    "csv": "data/datasets/sources/minos-2009ugl/numubar_sigma_over_e.csv",
    "xlabel": "E_{\\bar\\nu}",
    "xunit": "GeV",

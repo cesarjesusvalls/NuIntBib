@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "sigma_ncpi0_numu",
-   "label": "numu",
+   "label": "\\nu_\\mu",
    "csv": "data/datasets/sources/argoneut-2015ldo/sigma_ncpi0_numu.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -16,7 +16,7 @@
   },
   {
    "slug": "sigma_ncpi0_numubar",
-   "label": "numubar",
+   "label": "\\bar\\nu_\\mu",
    "csv": "data/datasets/sources/argoneut-2015ldo/sigma_ncpi0_numubar.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",

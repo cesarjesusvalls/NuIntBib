@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "dsdp_numu",
-   "label": "numu",
+   "label": "\\nu_\\mu",
    "csv": "data/datasets/sources/miniboone-2009dxl/p_numu.csv",
    "xlabel": "p_{\\pi^0}",
    "xunit": "GeV/c",
@@ -16,7 +16,7 @@
   },
   {
    "slug": "dsdcostheta_numu",
-   "label": "numu",
+   "label": "\\nu_\\mu",
    "csv": "data/datasets/sources/miniboone-2009dxl/costheta_numu.csv",
    "xlabel": "\\cos\\theta_{\\pi^0}",
    "xunit": "",
@@ -25,7 +25,7 @@
   },
   {
    "slug": "dsdp_numubar",
-   "label": "numubar",
+   "label": "\\bar\\nu_\\mu",
    "csv": "data/datasets/sources/miniboone-2009dxl/p_numubar.csv",
    "xlabel": "p_{\\pi^0}",
    "xunit": "GeV/c",
@@ -34,7 +34,7 @@
   },
   {
    "slug": "dsdcostheta_numubar",
-   "label": "numubar",
+   "label": "\\bar\\nu_\\mu",
    "csv": "data/datasets/sources/miniboone-2009dxl/costheta_numubar.csv",
    "xlabel": "\\cos\\theta_{\\pi^0}",
    "xunit": "",

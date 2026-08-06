@@ -10,8 +10,8 @@
   {
    "key": "dsigma_theta_numu",
    "slug": "dsigma_theta_numu",
-   "name": "d\u03c3/d\u03b8_\u03bc (numu)",
-   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu\\ (numu)$",
+   "name": "d\u03c3/d\u03b8_\u03bc (\\nu_\\mu)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu\\ (\\nu_\\mu)$",
    "xlabel": "\u03b8_\u03bc",
    "xunit": "deg",
    "xlabel_tex": "$\\theta_\\mu$",
@@ -178,8 +178,8 @@
   {
    "key": "dsigma_theta_numubar",
    "slug": "dsigma_theta_numubar",
-   "name": "d\u03c3/d\u03b8_\u03bc (antinumu)",
-   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu\\ (antinumu)$",
+   "name": "d\u03c3/d\u03b8_\u03bc (\\bar\\nu_\\mu)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}\\theta_\\mu\\ (\\bar\\nu_\\mu)$",
    "xlabel": "\u03b8_\u03bc",
    "xunit": "deg",
    "xlabel_tex": "$\\theta_\\mu$",
@@ -346,8 +346,8 @@
   {
    "key": "dsigma_pmu_numu",
    "slug": "dsigma_pmu_numu",
-   "name": "d\u03c3/dp_\u03bc (numu)",
-   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu\\ (numu)$",
+   "name": "d\u03c3/dp_\u03bc (\\nu_\\mu)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu\\ (\\nu_\\mu)$",
    "xlabel": "p_\u03bc",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_\\mu$",
@@ -530,8 +530,8 @@
   {
    "key": "dsigma_pmu_numubar",
    "slug": "dsigma_pmu_numubar",
-   "name": "d\u03c3/dp_\u03bc (antinumu)",
-   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu\\ (antinumu)$",
+   "name": "d\u03c3/dp_\u03bc (\\bar\\nu_\\mu)",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}p_\\mu\\ (\\bar\\nu_\\mu)$",
    "xlabel": "p_\u03bc",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_\\mu$",
