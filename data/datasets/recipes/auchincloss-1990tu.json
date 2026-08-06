@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "t1_numu_combined_sigE_vs_E",
-   "label": "CCFR nu_mu N -> mu- X, sigma/E vs E_nu (combined result, 30-300 GeV)",
+   "label": "CCFR \\nu_\\mu N \\to \\mu^- X, \\sigma/E vs E_\\nu (combined result, 30-300\\,\\mathrm{GeV})",
    "csv": "data/datasets/sources/auchincloss-1990tu/t1_numu_combined_sigE_vs_E.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -17,7 +17,7 @@
   },
   {
    "slug": "t1_numubar_combined_sigE_vs_E",
-   "label": "CCFR nu_mu-bar N -> mu+ X, sigma/E vs E_nu (combined result, 30-300 GeV)",
+   "label": "CCFR \\bar\\nu_\\mu N \\to \\mu^+ X, \\sigma/E vs E_\\nu (combined result, 30-300\\,\\mathrm{GeV})",
    "csv": "data/datasets/sources/auchincloss-1990tu/t1_numubar_combined_sigE_vs_E.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -26,7 +26,7 @@
   },
   {
    "slug": "t2_numubar_direct_sigE_vs_E",
-   "label": "CCFR nu_mu-bar N -> mu+ X, sigma/E vs E_nu (direct flux normalization)",
+   "label": "CCFR \\bar\\nu_\\mu N \\to \\mu^+ X, \\sigma/E vs E_\\nu (direct flux normalization)",
    "csv": "data/datasets/sources/auchincloss-1990tu/t2_numubar_direct_sigE_vs_E.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -35,7 +35,7 @@
   },
   {
    "slug": "t3_numu_direct_sigE_vs_E",
-   "label": "CCFR nu_mu N -> mu- X, sigma/E vs E_nu (direct flux normalization)",
+   "label": "CCFR \\nu_\\mu N \\to \\mu^- X, \\sigma/E vs E_\\nu (direct flux normalization)",
    "csv": "data/datasets/sources/auchincloss-1990tu/t3_numu_direct_sigE_vs_E.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -44,7 +44,7 @@
   },
   {
    "slug": "t4_numubar_indirect_sigE_vs_E",
-   "label": "CCFR nu_mu-bar N -> mu+ X, sigma/E vs E_nu (indirect flux normalization)",
+   "label": "CCFR \\bar\\nu_\\mu N \\to \\mu^+ X, \\sigma/E vs E_\\nu (indirect flux normalization)",
    "csv": "data/datasets/sources/auchincloss-1990tu/t4_numubar_indirect_sigE_vs_E.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -53,7 +53,7 @@
   },
   {
    "slug": "t5_numu_indirect_sigE_vs_E",
-   "label": "CCFR nu_mu N -> mu- X, sigma/E vs E_nu (indirect flux normalization)",
+   "label": "CCFR \\nu_\\mu N \\to \\mu^- X, \\sigma/E vs E_\\nu (indirect flux normalization)",
    "csv": "data/datasets/sources/auchincloss-1990tu/t5_numu_indirect_sigE_vs_E.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -62,7 +62,7 @@
   },
   {
    "slug": "t6_numubar_dsigdy_y0_vs_E",
-   "label": "CCFR nu_mu-bar N -> mu+ X, (1/E) dsigma/dy at y=0 vs E_nu (fit)",
+   "label": "CCFR \\bar\\nu_\\mu N \\to \\mu^+ X, (1/E) dsigma/dy at y=0 vs E_\\nu (fit)",
    "csv": "data/datasets/sources/auchincloss-1990tu/t6_numubar_dsigdy_y0_vs_E.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -71,7 +71,7 @@
   },
   {
    "slug": "t7_numu_dsigdy_y0_vs_E",
-   "label": "CCFR nu_mu N -> mu- X, (1/E) dsigma/dy at y=0 vs E_nu (fit)",
+   "label": "CCFR \\nu_\\mu N \\to \\mu^- X, (1/E) dsigma/dy at y=0 vs E_\\nu (fit)",
    "csv": "data/datasets/sources/auchincloss-1990tu/t7_numu_dsigdy_y0_vs_E.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
