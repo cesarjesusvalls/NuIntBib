@@ -11,7 +11,7 @@
    "csv": "data/datasets/sources/coherent-2026yje/total_xsec_ge.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
-   "ylabel": "\\sigma",
+   "ylabel": "\\sigma_{\\mathrm{CEvNS}}",
    "yunit": "10^{-39}cm^2"
   }
  ]

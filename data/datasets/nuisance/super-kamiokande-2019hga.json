@@ -36,8 +36,8 @@
    "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/1901.05281",
-   "provenance": "Super-Kamiokande:2019hga \u2014 flux-averaged NC quasi-elastic (NCQE) cross section on oxygen, \u03bd+\u03bd\u0304 atmospheric flux (all flavors, 160 MeV-10 GeV) \u00b7 target per \u00b9\u2076O nucleus \u00b7 transcribed from the paper tables",
-   "notes": "Transcribed from the paper tables."
+   "provenance": "Super-Kamiokande:2019hga \u2014 flux-averaged NC quasi-elastic (NCQE) cross section on oxygen, \u03bd+\u03bd\u0304 atmospheric flux (all flavors, 160 MeV-10 GeV) \u00b7 target per \u00b9\u2076O nucleus \u00b7 transcribed from the abstract \u00b7 stored error is the statistical and symmetrized systematic added in quadrature (the paper quotes an asymmetric systematic, \u22120.30/+0.78)",
+   "notes": "Transcribed from the abstract. Stored error is the statistical and symmetrized systematic added in quadrature (the paper quotes an asymmetric systematic, \u22120.30/+0.78)."
   }
  ]
 }

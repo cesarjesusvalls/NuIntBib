@@ -10,8 +10,8 @@
   {
    "key": "Enu",
    "slug": "enu",
-   "name": "E_\u03bd",
-   "name_tex": "$E_\\nu$",
+   "name": "\u03c3_coh",
+   "name_tex": "$\\sigma_{\\mathrm{coh}}$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

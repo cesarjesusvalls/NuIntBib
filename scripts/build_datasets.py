@@ -155,9 +155,10 @@ def _distr_from(name, hres, hcov, relfile):
         lo, hi = float(edges[i]), float(edges[i + 1])
         bins.append({'i': i, 'lo': lo, 'hi': hi, 'center': 0.5 * (lo + hi),
                      'val': float(vals[i]), 'err': float(err[i])})
+    nm = ylab if (len(bins) == 1 and ylab) else xlab    # single value: name by the measured quantity
     return {
         'key': name, 'slug': re.sub(r'[^a-z0-9]+', '_', name.lower()).strip('_'),
-        'name': plotify(xlab), 'name_tex': f'${xlab}$',
+        'name': plotify(nm), 'name_tex': f'${nm}$',
         'xlabel': plotify(xlab), 'xunit': xunit, 'xlabel_tex': f'${xlab}$',
         'ylabel': plotify(ylab), 'ylabel_plot': plotify(ylab),
         'ylabel_tex': f'${ylab}$' if ylab else '$\\mathrm{d}\\sigma$',
@@ -196,9 +197,10 @@ def parse_edge_txt(relfile, labels):
                      'val': v, 'err': e})
     xl, yl = labels['xlabel'], labels['ylabel']
     xu, yu = labels.get('xunit', ''), labels.get('yunit', '')
+    nm = yl if (len(bins) == 1 and yl) else xl    # single value: name by the measured quantity, not the x-var
     return {
         'key': labels['key'], 'slug': re.sub(r'[^a-z0-9]+', '_', labels['key'].lower()).strip('_'),
-        'name': plotify(xl), 'name_tex': f'${xl}$', 'xlabel': plotify(xl), 'xunit': xu,
+        'name': plotify(nm), 'name_tex': f'${nm}$', 'xlabel': plotify(xl), 'xunit': xu,
         'xlabel_tex': f'${xl}$',
         'ylabel': plotify(yl), 'ylabel_plot': plotify(yl), 'ylabel_tex': f'${yl}$',
         'yunit': yu, 'yunit_tex': f'${tl(yu)}$' if yu else '',
