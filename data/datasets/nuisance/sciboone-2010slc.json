@@ -10,8 +10,8 @@
   {
    "key": "dsigma_cc_inclusive_edep_xsec_neut",
    "slug": "dsigma_cc_inclusive_edep_xsec_neut",
-   "name": "\u03c3(E_\u03bd bin) (NEUT-based)",
-   "name_tex": "$\\sigma(E_\\nu\\ \\mathrm{bin})\\ (NEUT-based)$",
+   "name": "\u03c3(E_\u03bd bin) (\\mathrm{NEUT})",
+   "name_tex": "$\\sigma(E_\\nu\\ \\mathrm{bin})\\ (\\mathrm{NEUT})$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",
@@ -74,8 +74,8 @@
   {
    "key": "dsigma_cc_inclusive_edep_xsec_nuance",
    "slug": "dsigma_cc_inclusive_edep_xsec_nuance",
-   "name": "\u03c3(E_\u03bd bin) (NUANCE-based)",
-   "name_tex": "$\\sigma(E_\\nu\\ \\mathrm{bin})\\ (NUANCE-based)$",
+   "name": "\u03c3(E_\u03bd bin) (\\mathrm{NUANCE})",
+   "name_tex": "$\\sigma(E_\\nu\\ \\mathrm{bin})\\ (\\mathrm{NUANCE})$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",
@@ -138,8 +138,8 @@
   {
    "key": "dsigma_cc_inclusive_total_xsec_neut",
    "slug": "dsigma_cc_inclusive_total_xsec_neut",
-   "name": "\u03c3 (NEUT-based, flux-integrated (E_nu>0.25 GeV))",
-   "name_tex": "$\\sigma\\ (NEUT-based, flux-integrated (E_nu>0.25 GeV))$",
+   "name": "\u03c3 (\\mathrm{NEUT\\ (flux\\ int.)})",
+   "name_tex": "$\\sigma\\ (\\mathrm{NEUT\\ (flux\\ int.)})$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",
@@ -170,8 +170,8 @@
   {
    "key": "dsigma_cc_inclusive_total_xsec_nuance",
    "slug": "dsigma_cc_inclusive_total_xsec_nuance",
-   "name": "\u03c3 (NUANCE-based, flux-integrated (E_nu>0.25 GeV))",
-   "name_tex": "$\\sigma\\ (NUANCE-based, flux-integrated (E_nu>0.25 GeV))$",
+   "name": "\u03c3 (\\mathrm{NUANCE\\ (flux\\ int.)})",
+   "name_tex": "$\\sigma\\ (\\mathrm{NUANCE\\ (flux\\ int.)})$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

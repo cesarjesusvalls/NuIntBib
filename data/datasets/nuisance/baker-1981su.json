@@ -10,8 +10,8 @@
   {
    "key": "dsigma_sigma_qe_vs_plab",
    "slug": "dsigma_sigma_qe_vs_plab",
-   "name": "\u03c3_QE (CCQE total cross section (\u03bd_\u03bc n \u2192 \u03bc\u207b p) vs neutrino lab momentum)",
-   "name_tex": "$\\sigma_{QE}\\ (CCQE total cross section (\u03bd_\u03bc n \u2192 \u03bc\u207b p) vs neutrino lab momentum)$",
+   "name": "\u03c3_QE (\\nu_\\mu n \\to \\mu^- p)",
+   "name_tex": "$\\sigma_{QE}\\ (\\nu_\\mu n \\to \\mu^- p)$",
    "xlabel": "p_\u03bd",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_\\nu$",

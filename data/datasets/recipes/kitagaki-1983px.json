@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "sigma_qe_total",
-   "label": "Quasi-elastic total cross section vs neutrino lab momentum",
+   "label": "\\nu_\\mu n \\to \\mu^- p",
    "csv": "data/datasets/sources/kitagaki-1983px/sigma_qe_total.csv",
    "xlabel": "p_{lab}",
    "xunit": "GeV",

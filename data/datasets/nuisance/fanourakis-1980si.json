@@ -10,8 +10,8 @@
   {
    "key": "dsigma_sigma_over_enu_total_numubar",
    "slug": "dsigma_sigma_over_enu_total_numubar",
-   "name": "\u03c3/E_bar\u03bd (\u03c3(\u03bd\u0304\u03bc CC incl.)/E\u03bd vs E\u03bd)",
-   "name_tex": "$\\sigma/E_{\\bar\\nu}\\ (\u03c3(\u03bd\u0304\u03bc CC incl.)/E\u03bd vs E\u03bd)$",
+   "name": "\u03c3/E_bar\u03bd (\\bar\\nu_\\mu p \\to \\mu^+ X)",
+   "name_tex": "$\\sigma/E_{\\bar\\nu}\\ (\\bar\\nu_\\mu p \\to \\mu^+ X)$",
    "xlabel": "E_bar\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_{\\bar\\nu}$",

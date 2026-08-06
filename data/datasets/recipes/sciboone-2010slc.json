@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "cc_inclusive_edep_xsec_neut",
-   "label": "NEUT-based",
+   "label": "\\mathrm{NEUT}",
    "csv": "data/datasets/sources/sciboone-2010slc/cc_inclusive_edep_xsec_neut.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -16,7 +16,7 @@
   },
   {
    "slug": "cc_inclusive_edep_xsec_nuance",
-   "label": "NUANCE-based",
+   "label": "\\mathrm{NUANCE}",
    "csv": "data/datasets/sources/sciboone-2010slc/cc_inclusive_edep_xsec_nuance.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -25,7 +25,7 @@
   },
   {
    "slug": "cc_inclusive_total_xsec_neut",
-   "label": "NEUT-based, flux-integrated (E_nu>0.25 GeV)",
+   "label": "\\mathrm{NEUT\\ (flux\\ int.)}",
    "csv": "data/datasets/sources/sciboone-2010slc/cc_inclusive_total_xsec_neut.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -34,7 +34,7 @@
   },
   {
    "slug": "cc_inclusive_total_xsec_nuance",
-   "label": "NUANCE-based, flux-integrated (E_nu>0.25 GeV)",
+   "label": "\\mathrm{NUANCE\\ (flux\\ int.)}",
    "csv": "data/datasets/sources/sciboone-2010slc/cc_inclusive_total_xsec_nuance.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",

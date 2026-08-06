@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "sigma_over_enu_total",
-   "label": "Total CC cross section / E_nu (numu N -> mu- X)",
+   "label": "\\nu_\\mu N \\to \\mu^- X",
    "csv": "data/datasets/sources/barish-1978pj/sigma_over_enu_total.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",

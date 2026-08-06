@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "sigma_over_enu_total_numubar",
-   "label": "σ(ν̄μ CC incl.)/Eν vs Eν",
+   "label": "\\bar\\nu_\\mu p \\to \\mu^+ X",
    "csv": "data/datasets/sources/fanourakis-1980si/sigma_over_enu_total_numubar.csv",
    "xlabel": "E_{\\bar\\nu}",
    "xunit": "GeV",

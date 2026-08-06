@@ -10,8 +10,8 @@
   {
    "key": "dsigma_sigma_over_enu_total",
    "slug": "dsigma_sigma_over_enu_total",
-   "name": "\u03c3_CC/E_\u03bd (Total CC cross section / E_nu (numu N -> mu- X))",
-   "name_tex": "$\\sigma_{CC}/E_\\nu\\ (Total CC cross section / E_nu (numu N -> mu- X))$",
+   "name": "\u03c3_CC/E_\u03bd (\\nu_\\mu N \\to \\mu^- X)",
+   "name_tex": "$\\sigma_{CC}/E_\\nu\\ (\\nu_\\mu N \\to \\mu^- X)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

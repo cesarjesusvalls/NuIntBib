@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "numu-cc-total-sigma-over-e",
-   "label": "CHARM numu CC sigma/E vs E (Table 1)",
+   "label": "\\nu_\\mu N \\to \\mu^- X",
    "csv": "data/datasets/sources/charm-1980yym/numu-cc-total-sigma-over-e.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
@@ -17,7 +17,7 @@
   },
   {
    "slug": "numubar-cc-total-sigma-over-e",
-   "label": "CHARM numubar CC sigma/E vs E (Table 2)",
+   "label": "\\bar\\nu_\\mu N \\to \\mu^+ X",
    "csv": "data/datasets/sources/charm-1980yym/numubar-cc-total-sigma-over-e.csv",
    "xlabel": "E_{\\bar\\nu}",
    "xunit": "GeV",

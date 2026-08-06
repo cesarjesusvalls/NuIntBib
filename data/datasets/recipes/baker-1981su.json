@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "sigma_qe_vs_plab",
-   "label": "CCQE total cross section (ν_μ n → μ⁻ p) vs neutrino lab momentum",
+   "label": "\\nu_\\mu n \\to \\mu^- p",
    "csv": "data/datasets/sources/baker-1981su/sigma_qe_vs_plab.csv",
    "xlabel": "p_\\nu",
    "xunit": "GeV/c",

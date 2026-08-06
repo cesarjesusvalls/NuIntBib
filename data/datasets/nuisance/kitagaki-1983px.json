@@ -10,8 +10,8 @@
   {
    "key": "dsigma_sigma_qe_total",
    "slug": "dsigma_sigma_qe_total",
-   "name": "\u03c3_QE (Quasi-elastic total cross section vs neutrino lab momentum)",
-   "name_tex": "$\\sigma_{QE}\\ (Quasi-elastic total cross section vs neutrino lab momentum)$",
+   "name": "\u03c3_QE (\\nu_\\mu n \\to \\mu^- p)",
+   "name_tex": "$\\sigma_{QE}\\ (\\nu_\\mu n \\to \\mu^- p)$",
    "xlabel": "p_lab",
    "xunit": "GeV",
    "xlabel_tex": "$p_{lab}$",

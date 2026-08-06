@@ -10,8 +10,8 @@
   {
    "key": "dsigma_sigma_numubarp_muplus_p_piminus_vs_Mcut",
    "slug": "dsigma_sigma_numubarp_muplus_p_piminus_vs_Mcut",
-   "name": "\u03c3(bar\u03bd_\u03bc p to \u03bc^+ p \u03c0^-; M(p\u03c0^-)<M_cut) (Integrated cross section vs p\u03c0- invariant-mass cut)",
-   "name_tex": "$\\sigma(\\bar\\nu_\\mu p \\to \\mu^+ p \\pi^-;\\ M(p\\pi^-)<M_{cut})\\ (Integrated cross section vs p\u03c0- invariant-mass cut)$",
+   "name": "\u03c3(bar\u03bd_\u03bc p to \u03bc^+ p \u03c0^-; M(p\u03c0^-)<M_cut) (\\nu p \\to \\mu^+ p\\pi^-)",
+   "name_tex": "$\\sigma(\\bar\\nu_\\mu p \\to \\mu^+ p \\pi^-;\\ M(p\\pi^-)<M_{cut})\\ (\\nu p \\to \\mu^+ p\\pi^-)$",
    "xlabel": "M(p\u03c0^-) textupper cut",
    "xunit": "GeV",
    "xlabel_tex": "$M(p\\pi^-)\\ \\text{upper cut}$",

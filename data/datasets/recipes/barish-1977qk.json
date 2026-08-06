@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "barish-1977qk-ccqe_sigma_vs_plab",
-   "label": "Quasi-elastic total cross section vs neutrino lab momentum",
+   "label": "\\nu_\\mu n \\to \\mu^- p",
    "csv": "data/datasets/sources/barish-1977qk/ccqe_sigma_vs_plab.csv",
    "xlabel": "p_{\\nu,\\mathrm{lab}}",
    "xunit": "GeV",

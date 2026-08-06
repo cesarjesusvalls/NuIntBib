@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "sigma_numubarp_muplus_p_piminus_vs_Mcut",
-   "label": "Integrated cross section vs pπ- invariant-mass cut",
+   "label": "\\nu p \\to \\mu^+ p\\pi^-",
    "csv": "data/datasets/sources/barish-1979ny/sigma_numubarp_muplus_p_piminus_vs_Mcut.csv",
    "xlabel": "M(p\\pi^-)\\ \\text{upper cut}",
    "xunit": "GeV",

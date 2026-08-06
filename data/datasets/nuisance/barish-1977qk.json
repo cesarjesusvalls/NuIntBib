@@ -10,8 +10,8 @@
   {
    "key": "dsigma_barish-1977qk-ccqe_sigma_vs_plab",
    "slug": "dsigma_barish-1977qk-ccqe_sigma_vs_plab",
-   "name": "\u03c3(\u03bd_\u03bc n to \u03bc^- p) (Quasi-elastic total cross section vs neutrino lab momentum)",
-   "name_tex": "$\\sigma(\\nu_\\mu n \\to \\mu^- p)\\ (Quasi-elastic total cross section vs neutrino lab momentum)$",
+   "name": "\u03c3(\u03bd_\u03bc n to \u03bc^- p) (\\nu_\\mu n \\to \\mu^- p)",
+   "name_tex": "$\\sigma(\\nu_\\mu n \\to \\mu^- p)\\ (\\nu_\\mu n \\to \\mu^- p)$",
    "xlabel": "p_\u03bd,lab",
    "xunit": "GeV",
    "xlabel_tex": "$p_{\\nu,\\mathrm{lab}}$",

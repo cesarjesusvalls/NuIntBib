@@ -10,8 +10,8 @@
   {
    "key": "dsigma_numu-cc-total-sigma-over-e",
    "slug": "dsigma_numu-cc-total-sigma-over-e",
-   "name": "\u03c3_CC(\u03bd_\u03bc N)/E_\u03bd (CHARM numu CC sigma/E vs E (Table 1))",
-   "name_tex": "$\\sigma_{CC}(\\nu_\\mu N)/E_\\nu\\ (CHARM numu CC sigma/E vs E (Table 1))$",
+   "name": "\u03c3_CC(\u03bd_\u03bc N)/E_\u03bd (\\nu_\\mu N \\to \\mu^- X)",
+   "name_tex": "$\\sigma_{CC}(\\nu_\\mu N)/E_\\nu\\ (\\nu_\\mu N \\to \\mu^- X)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",
@@ -42,8 +42,8 @@
   {
    "key": "dsigma_numubar-cc-total-sigma-over-e",
    "slug": "dsigma_numubar-cc-total-sigma-over-e",
-   "name": "\u03c3_CC(bar\u03bd_\u03bc N)/E_bar\u03bd (CHARM numubar CC sigma/E vs E (Table 2))",
-   "name_tex": "$\\sigma_{CC}(\\bar\\nu_\\mu N)/E_{\\bar\\nu}\\ (CHARM numubar CC sigma/E vs E (Table 2))$",
+   "name": "\u03c3_CC(bar\u03bd_\u03bc N)/E_bar\u03bd (\\bar\\nu_\\mu N \\to \\mu^+ X)",
+   "name_tex": "$\\sigma_{CC}(\\bar\\nu_\\mu N)/E_{\\bar\\nu}\\ (\\bar\\nu_\\mu N \\to \\mu^+ X)$",
    "xlabel": "E_bar\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_{\\bar\\nu}$",

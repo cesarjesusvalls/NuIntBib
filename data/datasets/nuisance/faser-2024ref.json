@@ -10,8 +10,8 @@
   {
    "key": "dsigma_sigma_numu",
    "slug": "dsigma_sigma_numu",
-   "name": "\u03c3_CC (nu_mu CC cross section)",
-   "name_tex": "$\\sigma_{CC}\\ (nu_mu CC cross section)$",
+   "name": "\u03c3_CC (\\nu_\\mu)",
+   "name_tex": "$\\sigma_{CC}\\ (\\nu_\\mu)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_{\\nu}$",
@@ -58,8 +58,8 @@
   {
    "key": "dsigma_sigma_numubar",
    "slug": "dsigma_sigma_numubar",
-   "name": "\u03c3_CC (nu_mu-bar CC cross section)",
-   "name_tex": "$\\sigma_{CC}\\ (nu_mu-bar CC cross section)$",
+   "name": "\u03c3_CC (\\bar\\nu_\\mu)",
+   "name_tex": "$\\sigma_{CC}\\ (\\bar\\nu_\\mu)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_{\\nu}$",
@@ -98,8 +98,8 @@
   {
    "key": "dsigma_sigma_numu_numubar",
    "slug": "dsigma_sigma_numu_numubar",
-   "name": "\u03c3_CC (nu_mu + nu_mu-bar (combined) CC cross section)",
-   "name_tex": "$\\sigma_{CC}\\ (nu_mu + nu_mu-bar (combined) CC cross section)$",
+   "name": "\u03c3_CC (\\nu_\\mu + \\bar\\nu_\\mu)",
+   "name_tex": "$\\sigma_{CC}\\ (\\nu_\\mu + \\bar\\nu_\\mu)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_{\\nu}$",
