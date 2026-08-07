@@ -2,7 +2,7 @@
  "bibtag": "KARMEN:1992nka",
  "slug": "karmen-1992nka",
  "source": "published (Phys.Lett.B 280 (1992) 198)",
- "source_url": "https://doi.org/10.1016/0370-2693(92)90062-9",
+ "source_url": "https://doi.org/10.1016/0370-2693(92)90055-9",
  "arxiv": null,
  "cite": "Phys.Lett.B 280 198",
  "note": "",
@@ -39,7 +39,7 @@
    "nuisance_file": "",
    "scale_note": null,
    "source": "published (Phys.Lett.B 280 (1992) 198)",
-   "source_url": "https://doi.org/10.1016/0370-2693(92)90062-9",
+   "source_url": "https://doi.org/10.1016/0370-2693(92)90055-9",
    "provenance": "KARMEN:1992nka \u2014 KARMEN, mu+ decay-at-rest nu_e; CC 12C(nu_e,e-)12N g.s., first observation; target C \u00b7 transcribed from the abstract",
    "notes": "Transcribed from the abstract."
   }

@@ -1,7 +1,7 @@
 {
  "bibtag": "GALLEX:1997lja",
  "slug": "gallex-1997lja",
- "source": "published (Phys.Lett.B 420 (1998) 114)",
+ "source": "published (Phys.Lett.B 420 (1997) 114)",
  "source_url": "https://doi.org/10.1016/S0370-2693(97)01562-1",
  "arxiv": null,
  "cite": "Phys.Lett.B 420 114",
@@ -62,7 +62,7 @@
    ],
    "nuisance_file": "",
    "scale_note": null,
-   "source": "published (Phys.Lett.B 420 (1998) 114)",
+   "source": "published (Phys.Lett.B 420 (1997) 114)",
    "source_url": "https://doi.org/10.1016/S0370-2693(97)01562-1",
    "provenance": "GALLEX:1997lja \u2014 GALLEX, two 51Cr sources; 71Ga(nu_e,e-)71Ge rate ratio R = observed/expected; target Ga \u00b7 transcribed from the abstract",
    "notes": "Transcribed from the abstract."

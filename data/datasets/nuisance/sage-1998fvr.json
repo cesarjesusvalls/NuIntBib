@@ -1,7 +1,7 @@
 {
  "bibtag": "SAGE:1998fvr",
  "slug": "sage-1998fvr",
- "source": "published (Phys.Rev.C 59 (1999) 2246)",
+ "source": "published (Phys.Rev.C 59 (1998) 2246)",
  "source_url": "https://doi.org/10.1103/PhysRevC.59.2246",
  "arxiv": "hep-ph/9803418",
  "cite": "Phys.Rev.C 59 2246",
@@ -38,7 +38,7 @@
    ],
    "nuisance_file": "",
    "scale_note": null,
-   "source": "published (Phys.Rev.C 59 (1999) 2246)",
+   "source": "published (Phys.Rev.C 59 (1998) 2246)",
    "source_url": "https://doi.org/10.1103/PhysRevC.59.2246",
    "provenance": "SAGE:1998fvr \u2014 SAGE, 51Cr radioactive source (~0.75 MeV nu_e); 71Ga(nu_e,e-)71Ge cross section; target Ga \u00b7 transcribed from the abstract",
    "notes": "Transcribed from the abstract."

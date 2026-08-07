@@ -1,7 +1,7 @@
 {
  "bibtag": "Distel:2002ch",
  "slug": "distel-2002ch",
- "source": "published (Phys.Rev.C 68 (2003) 054613)",
+ "source": "published (Phys.Rev.C 68 (2002) 054613)",
  "source_url": "https://doi.org/10.1103/PhysRevC.68.054613",
  "arxiv": "nucl-ex/0208012",
  "cite": "Phys.Rev.C 68 054613",
@@ -38,7 +38,7 @@
    ],
    "nuisance_file": "",
    "scale_note": null,
-   "source": "published (Phys.Rev.C 68 (2003) 054613)",
+   "source": "published (Phys.Rev.C 68 (2002) 054613)",
    "source_url": "https://doi.org/10.1103/PhysRevC.68.054613",
    "provenance": "Distel:2002ch \u2014 LAMPF, mu+ decay-at-rest nu_e; CC 127I(nu_e,e-)127Xe, first for iodine; target I \u00b7 transcribed from the abstract",
    "notes": "Transcribed from the abstract."

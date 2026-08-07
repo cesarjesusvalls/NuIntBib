@@ -2,7 +2,7 @@
  "bibtag": "KARMEN:1991vkr",
  "slug": "karmen-1991vkr",
  "source": "published (Phys.Lett.B 267 (1991) 321)",
- "source_url": "https://doi.org/10.1016/0370-2693(91)90948-P",
+ "source_url": "https://doi.org/10.1016/0370-2693(91)90939-N",
  "arxiv": null,
  "cite": "Phys.Lett.B 267 321",
  "note": "",
@@ -39,7 +39,7 @@
    "nuisance_file": "",
    "scale_note": null,
    "source": "published (Phys.Lett.B 267 (1991) 321)",
-   "source_url": "https://doi.org/10.1016/0370-2693(91)90948-P",
+   "source_url": "https://doi.org/10.1016/0370-2693(91)90939-N",
    "provenance": "KARMEN:1991vkr \u2014 KARMEN, mu+/pi+ decay-at-rest flux; NC 12C(nu,nu')12C*(15.1 MeV), first observation; target C \u00b7 transcribed from the abstract",
    "notes": "Transcribed from the abstract."
   }
