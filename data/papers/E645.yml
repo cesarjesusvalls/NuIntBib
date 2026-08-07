@@ -37,3 +37,12 @@
     measurement_type: total
     observables: 12C(νμ,μ-)X inclusive cross section (15.9e-39)
     energy_notes: π+ decay-in-flight (~202 MeV)
+  abstract_tex: A measurement of the muon-neutrino carbon charged-current cross section, $^{12}\mathrm{C}$($\nu_\mu$,$\mu^-$)X,
+    was performed using the in-flight pion-decay neutrino source at the LAMPF accelerator. At an average
+    interacting neutrino energy of 202 MeV an inclusive cross section of (15.9±2.6±3.7)$\times 10^{-39}$
+    $\mathrm{cm}^2$ was measured. This value is in best agreement with the Fermi-gas model and is in disagreement
+    with a previous experiment and subsequent calculations that yielded substantially lower cross sections.
+    However, the muon energy spectrum shows a marked depletion of events at high energies compared to
+    the Fermi-gas model. From a small sample of events in which the final-state nucleus was in the ground
+    state of $^{12}\mathrm{N}$, a cross section for the reaction $^{12}\mathrm{C}$($\nu_\mu$,$\mu^-$)$^{12}\mathrm{N}$(g.s.)
+    of (1.7±0.8±0.3)$\times 10^{-39}$ $\mathrm{cm}^2$ or about 11±5 % of the total event rate was obtained.

@@ -80,3 +80,10 @@
     measurement_type: total
     observables: νe d→pp e- CC dissociation cross section (0.52e-40); also μ-number test
     energy_notes: μ+ decay-at-rest νe (LAMPF)
+  abstract_tex: This paper reports on a search for $\bar\nu_e$ from $\mu^+$ $\to$ $e^+$ $\bar\nu_e$ $\nu_\mu$,
+    allowed by multiplicative but not additive muon conservation, and for $\nu_e$ from $\mu^+$ $\to$ $e^+$
+    $\nu_e$ $\bar\nu_\mu$, allowed by both. Neutrinos from the Clinton P. Anderson Meson Physics Facility
+    have been used, together with a six-ton Cherenkov counter filled with H2O (D2O) to look for νep $\to$
+    ne+(νed $\to$ ppe-). The branching ratio ($\mu^+$ $\to$ $e^+$νe$\nu_\mu$)($\mu^+$ $\to$ all)=-0.001±0.040
+    is in excellent agreement with the additive law. The cross section 〈σ(νed $\to$ ppe-)〉=(0.52±0.18)$\times
+    10^{-40}$ $\mathrm{cm}^2$ agrees with theory.

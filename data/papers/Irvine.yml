@@ -101,3 +101,9 @@
     measurement_type: total
     observables: ν̄e d→n n e+ CC dissociation cross section (1.5e-45)
     energy_notes: reactor ν̄e (few MeV)
+  abstract_tex: The weak-neutral-current reaction $\bar\nu_e$+d $\to$ n+p+$\bar\nu_e$ has been observed
+    concurrently with the charged-current process $\bar\nu_e$+d $\to$ n+n+$e^+$ using an instrumented
+    D2O target exposed to an $\bar\nu_e$ flux of 2.5$\times 10^{13}$ cm-2 sec-1. The measured neutral-current
+    cross section, (3.8±0.9)$\times 10^{-45}$ $\mathrm{cm}^2$/V¯e, is consistent with the Weinberg-Salam
+    model, dependent in this case only on the axial-vector contribution. The charged-current reaction
+    cross section is (1.5±0.4)$\times 10^{-45}$ $\mathrm{cm}^2$/V¯e, in fair agreement with expectation.

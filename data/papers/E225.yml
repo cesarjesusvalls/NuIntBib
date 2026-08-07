@@ -36,6 +36,16 @@
     measurement_type: total
     observables: 12C(νe,e-)12N g.s. exclusive (1.05e-41) + inclusive cross sections
     energy_notes: μ+ decay-at-rest (~30 MeV νe)
+  abstract_tex: The process of electron emission from ∼30 MeV neutrino absorption on carbon, $^{12}\mathrm{C}$($\nu_e$,$e^-$)$^{12}\mathrm{N}$,
+    has been observed. The flux-weighted total cross section for the exclusive neutrino-induced nuclear
+    transition $^{12}\mathrm{C}$($\nu_e$,$e^-$)$^{12}\mathrm{N}$(g.s.) is [1.05±0.10(stat)±0.10(syst)]$\times
+    10^{-41}$ $\mathrm{cm}^2$. The measured cross section and angular distribution dσ/dΩ are in agreement
+    with theoretical estimates. The inclusive $\nu_e$ $^{12}\mathrm{C}$ reaction rate, which accounted
+    for the majority of all neutrino interactions observed in this experiment, was determined from a detailed
+    fit of energy and angular distributions for the observed electrons. The inclusive $^{12}\mathrm{C}$($\nu_e$,$e^-$)X
+    cross section is measured to be [1.41±0.23(tot)]$\times 10^{-41}$ $\mathrm{cm}^2$. An upper limit
+    for the sum of the $^{13}\mathrm{C}$($\nu_e$,$e^-$)X+$^{27}\mathrm{Al}$($\nu_e$,$e^-$)X inclusive
+    absorption cross sections is presented.
 - bibtag: Allen:1990nr
   title: Measurement of the Exclusive Cross-section $^{12}$C ($\nu_e$, $e^-$) $^{12}$N (Gs)
   collaboration: E225
@@ -72,3 +82,10 @@
     measurement_type: total
     observables: 12C(νe,e-)12N g.s. exclusive cross section (1.05e-41)
     energy_notes: μ+ decay-at-rest (35 MeV equiv.)
+  abstract_tex: The neutrino-induced nuclear transition $^{12}\mathrm{C}$($\nu_e$,$e^-$)$^{12}\mathrm{N}$
+    (g.s.) has been observed with a 15-ton fine-grained tracking detector. The exclusive final state is
+    identified by both an electron track and the positron decay of the $^{12}\mathrm{N}$. From the observation
+    of 181±17 $^{12}\mathrm{C}$($\nu_e$,$e^-$)$^{12}\mathrm{N}$ (g.s.) events with subsequent positron
+    decays the flux-averaged cross section, equivalent to the cross section for 35.0-MeV neutrinos, is
+    [1.05±0.10(stat)±0.10(syst)]$\times 10^{-41}$ $\mathrm{cm}^2$. This result is in good agreement with
+    recent calculations.

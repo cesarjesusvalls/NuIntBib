@@ -38,6 +38,16 @@
     measurement_type: total
     observables: 71Ga(νe,e-)71Ge rate ratio R, final combined 51Cr source result
     energy_notes: 51Cr source (~0.75 MeV νe)
+  abstract_tex: The radiochemical GALLEX experiment, which has been measuring the solar neutrino flux
+    since May 1991, has performed an investigation with two intense 51 Crneutrino sources (> 60 PBq) that
+    were produced in the Siloé nuclear reactor and used at the Gran Sasso National Laboratory, one between
+    June and October 1994, and the second between October 95 and February 96. The ratio, R, of the the
+    neutrino source strength derived from the measured rate of 71 Geproduction, divided by the directly
+    determined source strength is R=1.01 +0.12 -0.11 for the first source and R=0.84 +0.12 -0.11 for the
+    second one. The combined value of R for the two source experiments is R=0.93 ± 0.08. It shows that
+    the > 40 % deficit of solar neutrino flux observed by GALLEX cannot be attributed to experimental
+    artifacts and demonstrates the absence of any significant unexpected systematic errors at the 10 %
+    level.
 - bibtag: GALLEX:1994rym
   title: First results from the Cr-51 neutrino source experiment with the GALLEX detector
   collaboration: GALLEX

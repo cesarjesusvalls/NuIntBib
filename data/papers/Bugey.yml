@@ -33,3 +33,8 @@
     measurement_type: total
     observables: ν̄e p→n e+ IBD cross section to 1.4%; σ/σ_V-A=0.987±0.030
     energy_notes: Bugey reactor ν̄e (few MeV)
+  abstract_tex: 'We report on a high precision measurement at 15m from a 2800 MWth reactor in which 300
+    000 events of electron antineutrino interactions with proton have been detected using an integral
+    method. The cross section of the neutron inverse beta-decay process has been measured with an accuracy
+    of 1.4%. The ratio of measured cross section to the expected one in the standard V-A theory of weak
+    interactions is: σ ⨍ /σ V-A = 98.7% ± 1.4% ± 2.7% = 0.987 ± 0.030 .'
