@@ -160,8 +160,9 @@
     - CH2
     topology: Low recoil
     pion_bucket: null
-    measurement_type: single-diff
-    observables: differential cross sections (muon kinematics)
+    measurement_type: double-diff
+    observables: double-differential cross section in muon kinematics (cosθμ, pμ);
+      also single-differential in Q^2 and Eν
     energy_notes: ~2 GeV (NuMI off-axis)
 - bibtag: NOvA:2021eqi
   title: Measurement of the double-differential muon-neutrino charged-current inclusive cross section
