@@ -47,6 +47,15 @@
     measurement_type: total
     observables: ν̄e d→n n e+ CC dissociation cross section (9.83e-45)
     energy_notes: reactor ν̄e (few MeV)
+  abstract_tex: Cross sections for the disintegration of the deuteron via neutral-current (NCD) and charged-current
+    (CCD) interactions with reactor antineutrinos are measured to be 6.08 +/- 0.77 x $10^{-45}$ cm-sq
+    and 9.83 +/- 2.04 x $10^{-45}$ cm-sq per neutrino, respectively, in excellent agreement with current
+    calculations. Since the experimental NCD value depends upon the CCD value, if we use the theoretical
+    value for the CCD reaction, we obtain the improved value of 5.98 +/- 0.54 x $10^{-45}$ for the NCD
+    cross section. The neutral-current reaction allows a unique measurement of the isovector-axial vector
+    coupling constant in the hadronic weak interaction (beta). In the standard model, this constant is
+    predicted to be exactly 1, independent of the Weinberg angle. We measure a value of beta^2 = 1.01
+    +/- 0.16. Using the above improved value for the NCD cross section, beta^2 becomes 0.99 +/- 0.10.
 - bibtag: Pasierb:1979fb
   title: Detection of Weak Neutral Current Using Fission $\bar{\nu}_e$ on Deuterons
   collaboration: Irvine

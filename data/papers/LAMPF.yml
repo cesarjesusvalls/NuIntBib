@@ -36,6 +36,14 @@
     measurement_type: total
     observables: 127I(νe,e-)127Xe cross section (2.84e-40) — first for iodine
     energy_notes: μ+ decay-at-rest νe
+  abstract_tex: The cross section for the reaction $^{127}\mathrm{I}$(neutrino,electron)$^{127}\mathrm{Xe}$_(bound
+    states) has been measured for electron neutrinos from the decay of stopped muons to be [2.84 +/- 0.91
+    (stat) +/- 0.25 (syst)] x $10^{-40}$ $\mathrm{cm}^2$. A tank containing 1540 kg of $^{127}\mathrm{I}$
+    in the form of NaI solution was placed 8.53 m from the LAMPF beamstop where it received a typical
+    flux of 5 x $10^{7}$ neutrinos/($\mathrm{cm}^2$ s). The $^{127}\mathrm{Xe}$ atoms produced by neutrino
+    capture were extracted from the target solution, placed in miniature proportional counters, and their
+    number was determined by counting. This is the first measurement of a neutrino capture cross section
+    for an I nucleus and is in good agreement with a recent calculation.
 - bibtag: Willis:1980pj
   title: A Neutrino Experiment to Test the Nature of Muon Number Conservation
   collaboration: LAMPF

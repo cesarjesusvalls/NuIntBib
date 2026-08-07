@@ -39,6 +39,18 @@
     measurement_type: total
     observables: 71Ga(νe,e-)71Ge cross section from a 37Ar source
     energy_notes: 37Ar source (~0.81 MeV νe)
+  abstract_tex: An intense source of $^{37}\mathrm{Ar}$ was produced by the (n,alpha) reaction on $^{40}\mathrm{Ca}$
+    by irradiating 330 kg of calcium oxide in the fast neutron breeder reactor at Zarechny, Russia. The
+    $^{37}\mathrm{Ar}$ was released from the solid target by dissolution in acid, collected from this
+    solution, purified, sealed into a small source, and brought to the Baksan Neutrino Observatory where
+    it was used to irradiate 13 tonnes of gallium metal in the Russian-American gallium solar neutrino
+    experiment SAGE. Ten exposures of the gallium to the source, whose initial strength was 409 +/- 2
+    kCi, were carried out during the period April to September 2004. The $^{71}\mathrm{Ge}$ produced by
+    the reaction $^{71}\mathrm{Ga}$($\nu_e$,e^-)$^{71}\mathrm{Ge}$ was extracted, purified, and counted.
+    The measured production rate was 11.0 ^+1.0 _-0.9 (stat) +/- 0.6 (syst) atoms of $^{71}\mathrm{Ge}$/d,
+    which is 0.79 ^+0.09_-0.10 of the theoretically calculated production rate. When all neutrino source
+    experiments with gallium are considered together, there is an indication the theoretical cross section
+    has been overestimated.
 - bibtag: SAGE:1998fvr
   title: Measurement of the response of the Russian-American gallium experiment to neutrinos from a Cr-51
     source
@@ -81,3 +93,15 @@
     measurement_type: total
     observables: 71Ga(νe,e-)71Ge cross section from a 51Cr source, (5.55±0.6±0.3)e-45 cm^2
     energy_notes: 51Cr source (~0.75 MeV νe)
+  abstract_tex: The neutrino capture rate measured by the Russian-American Gallium Experiment is well
+    below that predicted by solar models. To check the response of this experiment to low-energy neutrinos,
+    a 517 kCi source of $^{51}\mathrm{Cr}$ was produced by irradiating 512.7 g of 92.4%-enriched $^{50}\mathrm{Cr}$
+    in a high-flux fast neutron reactor. This source, which mainly emits monoenergetic 747-keV neutrinos,
+    was placed at the center of a 13.1 tonne target of liquid gallium and the cross section for the production
+    of $^{71}\mathrm{Ge}$ by the inverse beta decay reaction was measured to be (5.55 +/- 0.60 (stat.)
+    +/- 0.32 (syst.)) x $10^{-45}$ $\mathrm{cm}^2$. The ratio of this cross section to the theoretical
+    cross section of Bahcall for this reaction is 0.95 +/- 0.12 (exp.) +/- 0.03 (theor.) and to the cross
+    section of Haxton is 0.87 +/- 0.11 (exp.) +/- 0.09 (theor.). This good agreement between prediction
+    and observation implies that the overall experimental efficiency for the solar neutrino measurements
+    is correctly determined and provides considerable evidence for the reliability of the solar neutrino
+    measurement.
