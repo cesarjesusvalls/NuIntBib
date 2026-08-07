@@ -3,7 +3,7 @@
  "slug": "charm-ii-1993xmz",
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins358417",
- "note": "The visible cross section (muon energy transfer to the pion, E_pi > 5 GeV) is extrapolated to the total coherent cross section using two coherent-pion models: Rein-Sehgal (the _RS titles) and Belkov-Kopeliovich (the _BK titles).",
+ "note": "The visible cross section (muon energy transfer to the pion, E_pi > 5 GeV) is extrapolated to the total coherent cross section using two coherent-pion models: Rein-Sehgal (RS) and Belkov-Kopeliovich (BK).",
  "provenance": "CHARM-II:1993xmz — coherent single charged-pion production by ν_μ/ν̄_μ on the CHARM-II glass (SiO2) calorimeter target, ν_μ N → μ⁻ π⁺ N · target SiO2 · from the HepData record",
  "items": [
   {

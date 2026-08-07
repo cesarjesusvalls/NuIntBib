@@ -5,7 +5,7 @@
  "source_url": "https://www.hepdata.net/record/ins358417",
  "arxiv": null,
  "cite": "Phys.Lett.B 313 267",
- "note": "The visible cross section (muon energy transfer to the pion, E_pi > 5 GeV) is extrapolated to the total coherent cross section using two coherent-pion models: Rein-Sehgal (the _RS titles) and Belkov-Kopeliovich (the _BK titles).",
+ "note": "The visible cross section (muon energy transfer to the pion, E_pi > 5 GeV) is extrapolated to the total coherent cross section using two coherent-pion models: Rein-Sehgal (RS) and Belkov-Kopeliovich (BK).",
  "distributions": [
   {
    "key": "dsigma_numu-coh1pi-total-sigma-over-e",
