@@ -17,7 +17,7 @@
   },
   {
    "slug": "cccohpi_nccohpi0_ratio",
-   "label": "\\sigma_{CC\\,coh\\,\\pi}/\\sigma_{NC\\,coh\\,\\pi^0}",
+   "label": "",
    "csv": "data/datasets/sources/sciboone-2010lca/cccohpi_nccohpi0_ratio.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",

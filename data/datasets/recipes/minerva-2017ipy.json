@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "xsec_Enu_numu",
-   "label": "MINERvA CC coherent pi+ total cross section vs E_nu, nu_mu beam",
+   "label": "\\nu_\\mu",
    "csv": "data/datasets/sources/minerva-2017ipy/xsec_Enu_numu.csv",
    "xlabel": "E_{\\nu}",
    "xunit": "GeV",
@@ -16,7 +16,7 @@
   },
   {
    "slug": "xsec_Enu_numubar",
-   "label": "MINERvA CC coherent pi- total cross section vs E_nu, nu_mu-bar beam",
+   "label": "\\bar\\nu_\\mu",
    "csv": "data/datasets/sources/minerva-2017ipy/xsec_Enu_numubar.csv",
    "xlabel": "E_{\\nu}",
    "xunit": "GeV",
@@ -25,7 +25,7 @@
   },
   {
    "slug": "dxsec_dEpi_numu",
-   "label": "MINERvA CC coherent pi+ dsigma/dE_pi, nu_mu beam, flux-integrated 2-20 GeV",
+   "label": "\\nu_\\mu",
    "csv": "data/datasets/sources/minerva-2017ipy/dxsec_dEpi_numu.csv",
    "xlabel": "E_{\\pi}",
    "xunit": "GeV",
@@ -34,7 +34,7 @@
   },
   {
    "slug": "dxsec_dEpi_numubar",
-   "label": "MINERvA CC coherent pi- dsigma/dE_pi, nu_mu-bar beam, flux-integrated 2-20 GeV",
+   "label": "\\bar\\nu_\\mu",
    "csv": "data/datasets/sources/minerva-2017ipy/dxsec_dEpi_numubar.csv",
    "xlabel": "E_{\\pi}",
    "xunit": "GeV",
@@ -43,7 +43,7 @@
   },
   {
    "slug": "dxsec_dThetaPi_numu",
-   "label": "MINERvA CC coherent pi+ dsigma/dtheta_pi, nu_mu beam, flux-integrated 2-20 GeV",
+   "label": "\\nu_\\mu",
    "csv": "data/datasets/sources/minerva-2017ipy/dxsec_dThetaPi_numu.csv",
    "xlabel": "\\theta_{\\pi}",
    "xunit": "degree",
@@ -52,7 +52,7 @@
   },
   {
    "slug": "dxsec_dThetaPi_numubar",
-   "label": "MINERvA CC coherent pi- dsigma/dtheta_pi, nu_mu-bar beam, flux-integrated 2-20 GeV",
+   "label": "\\bar\\nu_\\mu",
    "csv": "data/datasets/sources/minerva-2017ipy/dxsec_dThetaPi_numubar.csv",
    "xlabel": "\\theta_{\\pi}",
    "xunit": "degree",
@@ -61,7 +61,7 @@
   },
   {
    "slug": "dxsec_dQ2_numu",
-   "label": "MINERvA CC coherent pi+ dsigma/dQ^2, nu_mu beam, flux-integrated 2-20 GeV",
+   "label": "\\nu_\\mu",
    "csv": "data/datasets/sources/minerva-2017ipy/dxsec_dQ2_numu.csv",
    "xlabel": "Q^2",
    "xunit": "GeV^2",
@@ -70,7 +70,7 @@
   },
   {
    "slug": "dxsec_dQ2_numubar",
-   "label": "MINERvA CC coherent pi- dsigma/dQ^2, nu_mu-bar beam, flux-integrated 2-20 GeV",
+   "label": "\\bar\\nu_\\mu",
    "csv": "data/datasets/sources/minerva-2017ipy/dxsec_dQ2_numubar.csv",
    "xlabel": "Q^2",
    "xunit": "GeV^2",

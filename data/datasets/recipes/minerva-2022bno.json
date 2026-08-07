@@ -9,7 +9,7 @@
   {
    "kind": "2d",
    "slug": "d2sigma_dpt_dppar",
-   "label": "d^2sigma/dp_T dp_{||} vs p_T in slices of p_{||}",
+   "label": "in slices of p_\\parallel",
    "xlabel": "p_T",
    "xunit": "GeV/c",
    "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}p_T\\mathrm{d}p_{||}",

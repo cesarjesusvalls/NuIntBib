@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.50-0.56",
-   "label": "0.50<costheta<0.56",
+   "label": "0.50<\\cos\\theta_\\mu<0.56",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p50-0p56.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -16,7 +16,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.56-0.62",
-   "label": "0.56<costheta<0.62",
+   "label": "0.56<\\cos\\theta_\\mu<0.62",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p56-0p62.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -25,7 +25,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.62-0.68",
-   "label": "0.62<costheta<0.68",
+   "label": "0.62<\\cos\\theta_\\mu<0.68",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p62-0p68.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -34,7 +34,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.68-0.74",
-   "label": "0.68<costheta<0.74",
+   "label": "0.68<\\cos\\theta_\\mu<0.74",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p68-0p74.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -43,7 +43,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.74-0.80",
-   "label": "0.74<costheta<0.80",
+   "label": "0.74<\\cos\\theta_\\mu<0.80",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p74-0p80.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -52,7 +52,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.80-0.85",
-   "label": "0.80<costheta<0.85",
+   "label": "0.80<\\cos\\theta_\\mu<0.85",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p80-0p85.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -61,7 +61,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.85-0.88",
-   "label": "0.85<costheta<0.88",
+   "label": "0.85<\\cos\\theta_\\mu<0.88",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p85-0p88.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -70,7 +70,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.88-0.91",
-   "label": "0.88<costheta<0.91",
+   "label": "0.88<\\cos\\theta_\\mu<0.91",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p88-0p91.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -79,7 +79,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.91-0.94",
-   "label": "0.91<costheta<0.94",
+   "label": "0.91<\\cos\\theta_\\mu<0.94",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p91-0p94.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -88,7 +88,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.94-0.96",
-   "label": "0.94<costheta<0.96",
+   "label": "0.94<\\cos\\theta_\\mu<0.96",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p94-0p96.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -97,7 +97,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.96-0.98",
-   "label": "0.96<costheta<0.98",
+   "label": "0.96<\\cos\\theta_\\mu<0.98",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p96-0p98.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -106,7 +106,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.98-0.99",
-   "label": "0.98<costheta<0.99",
+   "label": "0.98<\\cos\\theta_\\mu<0.99",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p98-0p99.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
@@ -115,7 +115,7 @@
   },
   {
    "slug": "d2sigma_dtmu_dcostheta_costheta_0.99-1.00",
-   "label": "0.99<costheta<1.00",
+   "label": "0.99<\\cos\\theta_\\mu<1.00",
    "csv": "data/datasets/sources/nova-2021eqi/d2sigma_dtmu_dcostheta_costheta_0p99-1p00.csv",
    "xlabel": "T_\\mu",
    "xunit": "GeV",

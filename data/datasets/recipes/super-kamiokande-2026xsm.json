@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "total",
-   "label": "numu+numubar",
+   "label": "\\nu_\\mu + \\bar\\nu_\\mu",
    "csv": "data/datasets/sources/super-kamiokande-2026xsm/sigma_over_e.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",

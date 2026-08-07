@@ -10,8 +10,8 @@
   {
    "key": "dsigma_total",
    "slug": "dsigma_total",
-   "name": "\u03c3 (nue+nuebar)",
-   "name_tex": "$\\sigma$ (nue+nuebar)",
+   "name": "\u03c3 (\\nu_e + \\bar\\nu_e)",
+   "name_tex": "$\\sigma\\ (\\nu_e + \\bar\\nu_e)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

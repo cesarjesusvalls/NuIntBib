@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "q2",
-   "label": "dsigma/dQ^2_QE (muon quasielastic-hypothesis momentum transfer squared)",
+   "label": "muon quasielastic-hypothesis momentum transfer squared",
    "csv": "data/datasets/sources/minerva-2019gsf/q2.csv",
    "xlabel": "Q^2_{QE}",
    "xunit": "GeV^2",
@@ -16,7 +16,7 @@
   },
   {
    "slug": "ppar",
-   "label": "dsigma/dp_parallel (muon longitudinal momentum, official 1D marginal of the 2D p_perp-p_parallel result)",
+   "label": "muon longitudinal momentum, official 1D marginal of the 2D p_perp-p_parallel result",
    "csv": "data/datasets/sources/minerva-2019gsf/ppar.csv",
    "xlabel": "p_{\\mu,\\parallel}",
    "xunit": "GeV/c",
@@ -25,7 +25,7 @@
   },
   {
    "slug": "pperp",
-   "label": "dsigma/dp_perp (muon transverse momentum, official 1D marginal of the 2D p_perp-p_parallel result)",
+   "label": "muon transverse momentum, official 1D marginal of the 2D p_perp-p_parallel result",
    "csv": "data/datasets/sources/minerva-2019gsf/pperp.csv",
    "xlabel": "p_{\\mu,\\perp}",
    "xunit": "GeV/c",

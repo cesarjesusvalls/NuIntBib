@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "numu-coh1pi-total-sigma-over-e",
-   "label": "CHARM-II Table 9: ν_μ SiO2 → μ- π+ SiO2, total coherent cross section vs E_ν (energy-binned)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-sigma-over-e.csv",
    "xlabel": "E_{\\nu}",
    "xunit": "GeV",
@@ -17,7 +17,7 @@
   },
   {
    "slug": "numubar-coh1pi-total-sigma-over-e",
-   "label": "CHARM-II Table 10: ν̄_μ SiO2 → μ+ π- SiO2, total coherent cross section vs E_ν (energy-binned)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-sigma-over-e.csv",
    "xlabel": "E_{\\bar\\nu}",
    "xunit": "GeV",
@@ -26,7 +26,7 @@
   },
   {
    "slug": "numu-coh1pi-visible-sigma-over-e",
-   "label": "CHARM-II Table 7: ν_μ SiO2 → μ- π+ SiO2, visible (E_π>5 GeV) coherent cross section vs E_ν (energy-binned)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-visible-sigma-over-e.csv",
    "xlabel": "E_{\\nu}",
    "xunit": "GeV",
@@ -35,7 +35,7 @@
   },
   {
    "slug": "numubar-coh1pi-visible-sigma-over-e",
-   "label": "CHARM-II Table 8: ν̄_μ SiO2 → μ+ π- SiO2, visible (E_π>5 GeV) coherent cross section vs E_ν (energy-binned)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-visible-sigma-over-e.csv",
    "xlabel": "E_{\\bar\\nu}",
    "xunit": "GeV",
@@ -44,7 +44,7 @@
   },
   {
    "slug": "numu-coh1pi-visible-xsec-avg",
-   "label": "CHARM-II Table 1: ν_μ SiO2 → μ- π+ SiO2, flux-averaged visible (E_π>5 GeV) coherent cross section (single point, full run)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-visible-xsec-avg.csv",
    "xlabel": "\\langle E_{\\nu}\\rangle",
    "xunit": "GeV",
@@ -53,7 +53,7 @@
   },
   {
    "slug": "numubar-coh1pi-visible-xsec-avg",
-   "label": "CHARM-II Table 2: ν̄_μ SiO2 → μ+ π- SiO2, flux-averaged visible (E_π>5 GeV) coherent cross section (single point, full run)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-visible-xsec-avg.csv",
    "xlabel": "\\langle E_{\\bar\\nu}\\rangle",
    "xunit": "GeV",
@@ -62,7 +62,7 @@
   },
   {
    "slug": "numu-coh1pi-total-xsec-avg-reinsehgal",
-   "label": "CHARM-II Table 3: ν_μ SiO2 → μ- π+ SiO2, flux-averaged total coherent cross section, Rein-Sehgal-model-corrected (single point, full run)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-xsec-avg-reinsehgal.csv",
    "xlabel": "\\langle E_{\\nu}\\rangle",
    "xunit": "GeV",
@@ -71,7 +71,7 @@
   },
   {
    "slug": "numubar-coh1pi-total-xsec-avg-reinsehgal",
-   "label": "CHARM-II Table 4: ν̄_μ SiO2 → μ+ π- SiO2, flux-averaged total coherent cross section, Rein-Sehgal-model-corrected (single point, full run)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-xsec-avg-reinsehgal.csv",
    "xlabel": "\\langle E_{\\bar\\nu}\\rangle",
    "xunit": "GeV",
@@ -80,7 +80,7 @@
   },
   {
    "slug": "numu-coh1pi-total-xsec-avg-belkovkopeliovich",
-   "label": "CHARM-II Table 5: ν_μ SiO2 → μ- π+ SiO2, flux-averaged total coherent cross section, Belkov-Kopeliovich-model-corrected (single point, full run)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-xsec-avg-belkovkopeliovich.csv",
    "xlabel": "\\langle E_{\\nu}\\rangle",
    "xunit": "GeV",
@@ -89,7 +89,7 @@
   },
   {
    "slug": "numubar-coh1pi-total-xsec-avg-belkovkopeliovich",
-   "label": "CHARM-II Table 6: ν̄_μ SiO2 → μ+ π- SiO2, flux-averaged total coherent cross section, Belkov-Kopeliovich-model-corrected (single point, full run)",
+   "label": "",
    "csv": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-xsec-avg-belkovkopeliovich.csv",
    "xlabel": "\\langle E_{\\bar\\nu}\\rangle",
    "xunit": "GeV",

@@ -10,8 +10,8 @@
   {
    "key": "dsigma_ncpi0_cc_ratio",
    "slug": "dsigma_ncpi0_cc_ratio",
-   "name": "\u03c3(NC 1\u03c0^0)/\u03c3(CC) (NC 1\\pi^0 / CC)",
-   "name_tex": "$\\sigma(NC\\,1\\pi^0)/\\sigma(CC)\\ (NC 1\\pi^0 / CC)$",
+   "name": "\u03c3(NC 1\u03c0^0)/\u03c3(CC)",
+   "name_tex": "$\\sigma(NC\\,1\\pi^0)/\\sigma(CC)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",

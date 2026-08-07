@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "d2sigma_dq3_deavail_q3-0.50-1.00",
-   "label": "CC-incl numu, |q| restricted 0.50-1.00 GeV/c (Fig.12)",
+   "label": "\\nu_\\mu CC-incl, |q| restricted 0.50-1.00 GeV/c (Fig.12)",
    "csv": "data/datasets/sources/nova-2024zmr/d2sigma_deavail_dq3_q3_0p50-1p00.csv",
    "xlabel": "E_{\\rm avail}",
    "xunit": "GeV",
@@ -16,7 +16,7 @@
   },
   {
    "slug": "dsigma_dq3",
-   "label": "CC-incl numu",
+   "label": "\\nu_\\mu CC-incl",
    "csv": "data/datasets/sources/nova-2024zmr/dsigma_dq3.csv",
    "xlabel": "|\\vec q|",
    "xunit": "GeV/c",
@@ -25,7 +25,7 @@
   },
   {
    "slug": "dsigma_deavail",
-   "label": "CC-incl numu",
+   "label": "\\nu_\\mu CC-incl",
    "csv": "data/datasets/sources/nova-2024zmr/dsigma_deavail.csv",
    "xlabel": "E_{\\rm avail}",
    "xunit": "GeV",
@@ -34,20 +34,20 @@
   },
   {
    "slug": "dsigma_dq3_2p2h",
-   "label": "extracted 2p2h-excess",
+   "label": "2p2h excess (extracted)",
    "csv": "data/datasets/sources/nova-2024zmr/dsigma_dq3_2p2h.csv",
    "xlabel": "|\\vec q|",
    "xunit": "GeV/c",
-   "ylabel": "d\\sigma/d|\\vec q|\\ (2p2h\\ excess)",
+   "ylabel": "d\\sigma/d|\\vec q|",
    "yunit": "10^{-39}cm^2/(GeV/c)/nucleon"
   },
   {
    "slug": "dsigma_deavail_2p2h",
-   "label": "extracted 2p2h-excess",
+   "label": "2p2h excess (extracted)",
    "csv": "data/datasets/sources/nova-2024zmr/dsigma_deavail_2p2h.csv",
    "xlabel": "E_{\\rm avail}",
    "xunit": "GeV",
-   "ylabel": "d\\sigma/dE_{\\rm avail}\\ (2p2h\\ excess)",
+   "ylabel": "d\\sigma/dE_{\\rm avail}",
    "yunit": "10^{-39}cm^2/GeV/nucleon"
   }
  ]

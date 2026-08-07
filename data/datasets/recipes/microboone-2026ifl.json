@@ -25,11 +25,11 @@
   },
   {
    "slug": "proton_ke_twobin",
-   "label": "",
+   "label": "bin-integrated, not divided by bin width",
    "csv": "data/datasets/sources/microboone-2026ifl/proton_ke_twobin.csv",
    "xlabel": "KE_{p}",
    "xunit": "GeV",
-   "ylabel": "\\sigma (bin-integrated, not divided by bin width)",
+   "ylabel": "\\sigma",
    "yunit": "10^{-39} cm^2/nucleon"
   },
   {

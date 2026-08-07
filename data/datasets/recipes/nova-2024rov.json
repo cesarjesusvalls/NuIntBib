@@ -9,7 +9,7 @@
   {
    "kind": "2d",
    "slug": "d2sigma_dTmu_dcosmu",
-   "label": "d^2\\sigma/dT_\\mu d\\cos\\theta_\\mu",
+   "label": "",
    "xlabel": "T_\\mu",
    "xunit": "GeV",
    "ylabel": "\\mathrm{d}^2\\sigma/\\mathrm{d}T_\\mu\\mathrm{d}\\cos\\theta_\\mu",
@@ -98,7 +98,7 @@
   {
    "kind": "1d",
    "slug": "sigma_Enu",
-   "label": "\\sigma(E_\\nu)",
+   "label": "",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
    "ylabel": "\\sigma(E_\\nu)",
@@ -108,7 +108,7 @@
   {
    "kind": "1d",
    "slug": "dsigma_dQ2",
-   "label": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",
+   "label": "",
    "xlabel": "Q^2",
    "xunit": "GeV^2",
    "ylabel": "\\mathrm{d}\\sigma/\\mathrm{d}Q^2",

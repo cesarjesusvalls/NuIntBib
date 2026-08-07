@@ -8,7 +8,7 @@
  "items": [
   {
    "slug": "ncpi0_cc_ratio",
-   "label": "NC 1\\pi^0 / CC",
+   "label": "",
    "csv": "data/datasets/sources/k2k-2004qpv/ncpi0_cc_ratio.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",

@@ -10,8 +10,8 @@
   {
    "key": "dsigma_q2",
    "slug": "dsigma_q2",
-   "name": "d\u03c3/dQ\u00b2_QE (dsigma/dQ^2_QE (muon quasielastic-hypothesis momentum transfer squared))",
-   "name_tex": "$d\\sigma/dQ^2_{QE}$ (dsigma/dQ^2_QE (muon quasielastic-hypothesis momentum transfer squared))",
+   "name": "d\u03c3/dQ\u00b2_QE (muon quasielastic-hypothesis momentum transfer squared)",
+   "name_tex": "$d\\sigma/dQ^2_{QE}$ (muon quasielastic-hypothesis momentum transfer squared)",
    "xlabel": "Q\u00b2_QE",
    "xunit": "GeV^2",
    "xlabel_tex": "$Q^2_{QE}$",
@@ -187,8 +187,8 @@
   {
    "key": "dsigma_ppar",
    "slug": "dsigma_ppar",
-   "name": "d\u03c3/dp_\u03bc,parallel (dsigma/dp_parallel (muon longitudinal momentum, official 1D marginal of the 2D p_perp-p_parallel result))",
-   "name_tex": "$d\\sigma/dp_{\\mu,\\parallel}$ (dsigma/dp_parallel (muon longitudinal momentum, official 1D marginal of the 2D p_perp-p_parallel result))",
+   "name": "d\u03c3/dp_\u03bc,parallel (muon longitudinal momentum, official 1D marginal of the 2D p_perp-p_parallel result)",
+   "name_tex": "$d\\sigma/dp_{\\mu,\\parallel}$ (muon longitudinal momentum, official 1D marginal of the 2D p_perp-p_parallel result)",
    "xlabel": "p_\u03bc,parallel",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_{\\mu,\\parallel}$",
@@ -332,8 +332,8 @@
   {
    "key": "dsigma_pperp",
    "slug": "dsigma_pperp",
-   "name": "d\u03c3/dp_\u03bc,perp (dsigma/dp_perp (muon transverse momentum, official 1D marginal of the 2D p_perp-p_parallel result))",
-   "name_tex": "$d\\sigma/dp_{\\mu,\\perp}$ (dsigma/dp_perp (muon transverse momentum, official 1D marginal of the 2D p_perp-p_parallel result))",
+   "name": "d\u03c3/dp_\u03bc,perp (muon transverse momentum, official 1D marginal of the 2D p_perp-p_parallel result)",
+   "name_tex": "$d\\sigma/dp_{\\mu,\\perp}$ (muon transverse momentum, official 1D marginal of the 2D p_perp-p_parallel result)",
    "xlabel": "p_\u03bc,perp",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_{\\mu,\\perp}$",

@@ -10,8 +10,8 @@
   {
    "key": "d2sigma_dTmu_dcosmu",
    "slug": "d2sigma_dTmu_dcosmu",
-   "name": "d\u00b2\u03c3/dT_\u03bcdcos\u03b8_\u03bc (d^2\\sigma/dT_\\mu d\\cos\\theta_\\mu)",
-   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}T_\\mu\\mathrm{d}\\cos\\theta_\\mu\\ (d^2\\sigma/dT_\\mu d\\cos\\theta_\\mu)$",
+   "name": "d\u00b2\u03c3/dT_\u03bcdcos\u03b8_\u03bc",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}T_\\mu\\mathrm{d}\\cos\\theta_\\mu$",
    "xlabel": "T_\u03bc",
    "xunit": "GeV",
    "xlabel_tex": "$T_\\mu$",
@@ -1066,8 +1066,8 @@
   {
    "key": "sigma_Enu",
    "slug": "sigma_Enu",
-   "name": "\u03c3(E_\u03bd) (\\sigma(E_\\nu))",
-   "name_tex": "$\\sigma(E_\\nu)\\ (\\sigma(E_\\nu))$",
+   "name": "\u03c3(E_\u03bd)",
+   "name_tex": "$\\sigma(E_\\nu)$",
    "xlabel": "E_\u03bd",
    "xunit": "GeV",
    "xlabel_tex": "$E_\\nu$",
@@ -1154,8 +1154,8 @@
   {
    "key": "dsigma_dQ2",
    "slug": "dsigma_dQ2",
-   "name": "d\u03c3/dQ\u00b2 (\\mathrm{d}\\sigma/\\mathrm{d}Q^2)",
-   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2\\ (\\mathrm{d}\\sigma/\\mathrm{d}Q^2)$",
+   "name": "d\u03c3/dQ\u00b2",
+   "name_tex": "$\\mathrm{d}\\sigma/\\mathrm{d}Q^2$",
    "xlabel": "Q\u00b2",
    "xunit": "GeV^2",
    "xlabel_tex": "$Q^2$",

@@ -7,7 +7,7 @@
  "items": [
   {
    "slug": "total",
-   "label": "nue+nuebar",
+   "label": "\\nu_e + \\bar\\nu_e",
    "csv": "data/datasets/sources/argoneut-2020kir/total.csv",
    "xlabel": "E_\\nu",
    "xunit": "GeV",
