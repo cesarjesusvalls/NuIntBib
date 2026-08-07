@@ -23,7 +23,7 @@ type PageProps = { params: Promise<{ slug: string }> };
 // Papers in the same category read identically; reword here once to change them all.
 const RELEASE_STATUS_NOTE: Record<string, string> = {
   abstract:
-    'The result is reported directly in the paper abstract and there is no cross-section measurement to release as data.',
+    'The measured cross section is reported as a value in the paper itself (see the abstract above); no machine-readable data release — differential distributions or covariance — is provided to display here.',
   not_xsec:
     'This paper measures final-state observables rather than a neutrino cross section, so there is no cross-section measurement to release as data.',
   digitize:
@@ -148,7 +148,7 @@ export default async function PaperDetailPage({ params }: PageProps) {
               <div className="text-panel">
                 <h2 className="type-h3">Abstract</h2>
                 <p>
-                  <Tex text={paper.abstract} />
+                  <Tex text={intPaper?.abstract_tex ?? paper.abstract} />
                 </p>
               </div>
             ) : null}

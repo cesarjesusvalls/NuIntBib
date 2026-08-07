@@ -25,6 +25,7 @@ import yaml
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import classify  # noqa: E402
 import db  # noqa: E402
+from abstract_tex import to_tex  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -57,6 +58,11 @@ def main() -> int:
             skipped_dup.append(rec["bibtag"])
             continue
         rec["measurements"] = normalize_measurements(rec)
+        # derive a display abstract with inline LaTeX from the raw one (only when
+        # it actually changes anything); the site renders abstract_tex ?? abstract
+        tex = to_tex(rec.get("abstract"))
+        if tex and tex != rec.get("abstract"):
+            rec["abstract_tex"] = tex
         if not rec["measurements"]:
             skipped_class.append(rec["bibtag"])
             continue

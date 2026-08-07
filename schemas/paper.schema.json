@@ -25,6 +25,10 @@
     "inspire_recid": { "type": ["integer", "null"] },
     "citation_count": { "type": ["integer", "null"] },
     "abstract": { "type": ["string", "null"] },
+    "abstract_tex": {
+      "type": ["string", "null"],
+      "description": "Display abstract with inline $...$ LaTeX, derived from the raw `abstract` at ingestion by scripts/abstract_tex.to_tex(). Present only when it differs from the raw text; the site renders abstract_tex ?? abstract."
+    },
     "added": {
       "type": ["string", "null"],
       "description": "ISO date this record was added to the NuIntBib database."

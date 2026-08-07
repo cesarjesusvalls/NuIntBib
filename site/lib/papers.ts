@@ -33,6 +33,9 @@ export type Paper = {
   inspire_recid?: number | null;
   citation_count?: number | null;
   abstract?: string | null;
+  // display abstract with inline $...$ LaTeX, derived from `abstract` at ingestion
+  // (scripts/abstract_tex.py); present only when it differs. Render this if set.
+  abstract_tex?: string | null;
   added?: string | null;
   notes?: string | null;
   // shown in place of a data release when none exists (e.g. result quoted in the
