@@ -73,10 +73,11 @@
     measurement_type: total
     observables: first CC 12C(νe,e-)12N g.s. (8.1e-42) + energy dependence to 50 MeV
     energy_notes: μ+ decay-at-rest νe
-  abstract_tex: The charged current nuclear transition 12 C(v e , $e^-$ ) 12 N g.s. has been observed
-    in the KARMEN experiment. The flux average cross section for v e from $\mu^+$ decay at rest is determined
-    to be 〈 σ 〉 = [8.1±0.9(stat.)±0.75 (syst.)]$\times 10^{-42}$ $\mathrm{cm}^2$ . For the first time
-    also the energy dependence of the cross section has been measured for neutrino energies up to 50 MeV.
+  abstract_tex: The charged current nuclear transition 12 C($\nu_e$ , e - ) 12 N g.s. has been observed
+    in the KARMEN experiment. The flux average cross section for $\nu_e$ from $\mu^+$ decay at rest is
+    determined to be 〈 σ 〉 = [8.1±0.9(stat.)±0.75 (syst.)]$\times 10^{-42}$ $\mathrm{cm}^2$ . For the
+    first time also the energy dependence of the cross section has been measured for neutrino energies
+    up to 50 MeV.
 - bibtag: KARMEN:1991vkr
   title: First observation of the neutral current nuclear excitation C-12 (nu, nu-prime) C-12* (1+, 1).
   collaboration: KARMEN
@@ -112,7 +113,7 @@
     observables: first obs. NC 12C(ν,ν')12C*(15.1 MeV); σ(νe+νμ)=10.8e-42
     energy_notes: μ+/π+ decay-at-rest flux
     flavor_note: μ+/π+ DAR flux (νe, νμ, ν̄μ)
-  abstract_tex: The neutral current nuclear excitation 12 (v,v') 12 C * (1 + , 1; 15.1 MeV) has been observed
-    for the first time. For v e and v μ from $\mu^+$ -decay at rest the flux averaged cross section was
-    determined to be <σ NC (v $e^+$ v μ ) > = [10.8±5.1 (stat.) ±1.1 (syst.)]$\times 10^{-42}$ $\mathrm{cm}^2$
-    .
+  abstract_tex: The neutral current nuclear excitation 12 $(\nu,\nu')$ 12 C * (1 + , 1; 15.1 MeV) has
+    been observed for the first time. For $\nu_e$ and $\nu_\mu$ from $\mu^+$ -decay at rest the flux averaged
+    cross section was determined to be <σ NC ($\nu_e$ + $\nu_\mu$ ) > = [10.8±5.1 (stat.) ±1.1 (syst.)]$\times
+    10^{-42}$ $\mathrm{cm}^2$ .

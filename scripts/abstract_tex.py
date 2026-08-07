@@ -49,14 +49,21 @@ _REPS = [
     (NU + r"\s*_?\s*e\b", r"$\\nu_e$"),
     (NU + r"\s*_?\s*(?:" + MU + r"|mu)", r"$\\nu_\\mu$"),
     (NU + r"\s*_?\s*(?:" + TAU + r"|tau)", r"$\\nu_\\tau$"),
+    # some 1980s-90s abstracts (e.g. KARMEN) write "v" (ascii vee) for ν. Convert
+    # only the unambiguous neutrino contexts: "(v,v')", "v e", "v μ".
+    (r"\(\s*v\s*,\s*v'?\s*\)", r"$(\\nu,\\nu')$"),
+    (r"\bv\s+e\b", r"$\\nu_e$"),
+    (r"\bv\s+(?:mu|" + MU + r")\b", r"$\\nu_\\mu$"),
     # charged leptons / pions (ascii + unicode). (?<!\\) so "\mu", "\pi" in an
     # abstract that mixes ascii with stray LaTeX macros are left alone.
     (r"(?<!\\)\b(?:mu|" + MU + r")\s*\+", r"$\\mu^+$"),
     (r"(?<!\\)\b(?:mu|" + MU + r")\s*-", r"$\\mu^-$"),
     (r"(?<!\\)\b(?:pi|" + PI + r")\s*\+", r"$\\pi^+$"),
     (r"(?<!\\)\b(?:pi|" + PI + r")\s*-", r"$\\pi^-$"),
-    (r"(?<!\\)\be\s*\+(?![A-Za-z])", r"$e^+$"),
-    (r"(?<!\\)\be\s*-(?![A-Za-z])", r"$e^-$"),
+    # e+ / e- must be ADJACENT (no space): "e +" with a space is almost always an
+    # addition ("νe + νμ"), not a positron, so it must NOT become e^+.
+    (r"(?<!\\)\be\+(?![A-Za-z])", r"$e^+$"),
+    (r"(?<!\\)\be-(?![A-Za-z])", r"$e^-$"),
     # isotopes: mass-first (12C) and element-first (C12); look-around keeps
     # molecules ("H2O", "D2O", "NaI") intact.
     (rf"(?<![A-Za-z])(\d{{1,3}})({_ISO})(?![A-Za-z])", r"$^{\1}\\mathrm{\2}$"),
