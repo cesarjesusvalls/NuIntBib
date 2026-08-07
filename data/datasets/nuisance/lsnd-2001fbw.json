@@ -1,0 +1,59 @@
+{
+ "bibtag": "LSND:2001fbw",
+ "slug": "lsnd-2001fbw",
+ "source": "published (Phys.Rev.C 64 (2001) 065501)",
+ "source_url": "https://doi.org/10.1103/PhysRevC.64.065501",
+ "arxiv": "hep-ex/0105068",
+ "cite": "Phys.Rev.C 64 065501",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3 (sigma)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-42}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-42}\\,\\mathrm{cm}^2$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 8.9,
+     "err": 0.9486832980505138,
+     "err_up": 0.9486832980505138,
+     "err_down": 0.9486832980505138,
+     "cat_tex": "^{12}\\mathrm{N}\\ \\mathrm{g.s.}",
+     "cat": "^12N g.s."
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 4.3,
+     "err": 0.7211102550927978,
+     "err_up": 0.7211102550927978,
+     "err_down": 0.7211102550927978,
+     "cat_tex": "^{12}\\mathrm{N}^{*}\\ \\mathrm{(excited)}",
+     "cat": "^12N^* (excited)"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.C 64 (2001) 065501)",
+   "source_url": "https://doi.org/10.1103/PhysRevC.64.065501",
+   "provenance": "LSND:2001fbw \u2014 LSND, mu+ decay-at-rest nu_e beam at LANSCE; CC 12C(nu_e,e-)12N; target C \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

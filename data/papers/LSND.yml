@@ -10,7 +10,6 @@
   published_date: 2002-03
   inspire_recid: 584364
   citation_count: 101
-  release_status: abstract
   abstract: Charged current scattering of \nu_\mu on ^{12}C has been studied using a \pi^+ decay-in-flight
     \nu_\mu beam at the Los Alamos Neutron Science Center. A sample of 66.9+-9.1 events satisfying criteria
     for the exclusive reaction ^{12}C(\nu_\mu,\mu^-)^{12}N_{g.s.} was obtained using a large liquid scintillator
@@ -54,7 +53,6 @@
   published_date: 2001-05
   inspire_recid: 557014
   citation_count: 139
-  release_status: abstract
   abstract: Charged Current reactions of $\nu_e$ on $^{12}C$ have been studied using a $\mu^+$ decay-at-rest
     $\nu_e$ beam at the Los Alamos Neutron Science Center. The cross section for the exclusive reaction
     $^{12}C(\nu_e,e^-)^{12}N_{g.s.}$ was measured to be $(8.9\pm0.3\pm0.9)\times10^{-42}$ cm$^2$. The
@@ -140,7 +138,6 @@
   published_date: 1997-05
   inspire_recid: 443432
   citation_count: 73
-  release_status: abstract
   abstract: Charged current scattering of nu_mu on 12C has been studied using a pi+ decay-in-flight nu_mu
     beam at the Los Alamos Meson Physics Facility. A sample of 56.8 +- 9.6 events satisfying criteria
     for the exclusive reaction 12C + nu_mu -> mu- + 12N_g.s. was obtained using the large Liquid Scintillator

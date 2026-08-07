@@ -10,7 +10,6 @@
   published_date: 1998-12
   inspire_recid: 483690
   citation_count: 42
-  release_status: abstract
   abstract: Cross sections for the disintegration of the deuteron via neutral-current (NCD) and charged-current
     (CCD) interactions with reactor antineutrinos are measured to be 6.08 +/- 0.77 x 10^(-45) cm-sq and
     9.83 +/- 2.04 x 10^(-45) cm-sq per neutrino, respectively, in excellent agreement with current calculations.
@@ -68,7 +67,6 @@
   published_date: 1979-03
   inspire_recid: 140338
   citation_count: 107
-  release_status: abstract
   abstract: The weak-neutral-current reaction ν¯e+d→n+p+ν¯e has been observed concurrently with the charged-current
     process ν¯e+d→n+n+e+ using an instrumented D2O target exposed to an ν¯e flux of 2.5×1013 cm−2 sec−1.
     The measured neutral-current cross section, (3.8±0.9)×10−45 cm2/V¯e, is consistent with the Weinberg-Salam

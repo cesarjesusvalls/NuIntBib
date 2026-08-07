@@ -1,0 +1,47 @@
+{
+ "bibtag": "KARMEN:1992nka",
+ "slug": "karmen-1992nka",
+ "source": "published (Phys.Lett.B 280 (1992) 198)",
+ "source_url": "https://doi.org/10.1016/0370-2693(92)90062-9",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 280 198",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3 (sigma)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-42}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-42}\\,\\mathrm{cm}^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 8.1,
+     "err": 1.1715374513859982,
+     "err_up": 1.1715374513859982,
+     "err_down": 1.1715374513859982,
+     "cat_tex": "^{12}\\mathrm{N}\\ \\mathrm{g.s.}",
+     "cat": "^12N g.s."
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Lett.B 280 (1992) 198)",
+   "source_url": "https://doi.org/10.1016/0370-2693(92)90062-9",
+   "provenance": "KARMEN:1992nka \u2014 KARMEN, mu+ decay-at-rest nu_e; CC 12C(nu_e,e-)12N g.s., first observation; target C \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "bibtag": "Koetke:1992yk",
+ "slug": "koetke-1992yk",
+ "source": "published (Phys.Rev.C 46 (1992) 2554)",
+ "source_url": "https://doi.org/10.1103/PhysRevC.46.2554",
+ "arxiv": null,
+ "cite": "Phys.Rev.C 46 2554",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3 (sigma)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-39}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-39}\\,\\mathrm{cm}^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 15.9,
+     "err": 4.522167621838006,
+     "err_up": 4.522167621838006,
+     "err_down": 4.522167621838006,
+     "cat_tex": "\\mathrm{inclusive}\\ (X)",
+     "cat": "inclusive (X)"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.C 46 (1992) 2554)",
+   "source_url": "https://doi.org/10.1103/PhysRevC.46.2554",
+   "provenance": "Koetke:1992yk \u2014 E645 at LAMPF, pi+ decay-in-flight nu_mu (~202 MeV); CC 12C(nu_mu,mu-)X inclusive; target C \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

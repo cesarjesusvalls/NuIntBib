@@ -1,0 +1,59 @@
+{
+ "bibtag": "LSND:1997tqo",
+ "slug": "lsnd-1997tqo",
+ "source": "published (Phys.Rev.C 56 (1997) 2806)",
+ "source_url": "https://doi.org/10.1103/PhysRevC.56.2806",
+ "arxiv": "nucl-ex/9705002",
+ "cite": "Phys.Rev.C 56 2806",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3 (sigma)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-40}\\,\\mathrm{cm}^2$",
+   "nbins": 2,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.66,
+     "err": 0.1414213562373095,
+     "err_up": 0.1414213562373095,
+     "err_down": 0.1414213562373095,
+     "cat_tex": "^{12}\\mathrm{N}\\ \\mathrm{g.s.}",
+     "cat": "^12N g.s."
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 11.2,
+     "err": 1.8248287590894658,
+     "err_up": 1.8248287590894658,
+     "err_down": 1.8248287590894658,
+     "cat_tex": "\\mathrm{inclusive}",
+     "cat": "inclusive"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.C 56 (1997) 2806)",
+   "source_url": "https://doi.org/10.1103/PhysRevC.56.2806",
+   "provenance": "LSND:1997tqo \u2014 LSND, pi+ decay-in-flight nu_mu beam at LAMPF; CC 12C(nu_mu,mu-)12N; target C \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

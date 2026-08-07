@@ -1,0 +1,47 @@
+{
+ "bibtag": "SAGE:1998fvr",
+ "slug": "sage-1998fvr",
+ "source": "published (Phys.Rev.C 59 (1999) 2246)",
+ "source_url": "https://doi.org/10.1103/PhysRevC.59.2246",
+ "arxiv": "hep-ph/9803418",
+ "cite": "Phys.Rev.C 59 2246",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3 (sigma)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-45}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-45}\\,\\mathrm{cm}^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 5.55,
+     "err": 0.6799999999999999,
+     "err_up": 0.6799999999999999,
+     "err_down": 0.6799999999999999,
+     "cat_tex": "^{51}\\mathrm{Cr}\\ \\mathrm{source}",
+     "cat": "^51Cr source"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.C 59 (1999) 2246)",
+   "source_url": "https://doi.org/10.1103/PhysRevC.59.2246",
+   "provenance": "SAGE:1998fvr \u2014 SAGE, 51Cr radioactive source (~0.75 MeV nu_e); 71Ga(nu_e,e-)71Ge cross section; target Ga \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

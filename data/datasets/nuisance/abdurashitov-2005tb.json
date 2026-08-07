@@ -1,0 +1,47 @@
+{
+ "bibtag": "Abdurashitov:2005tb",
+ "slug": "abdurashitov-2005tb",
+ "source": "published (Phys.Rev.C 73 (2006) 045805)",
+ "source_url": "https://doi.org/10.1103/PhysRevC.73.045805",
+ "arxiv": "nucl-ex/0512041",
+ "cite": "Phys.Rev.C 73 045805",
+ "note": "",
+ "distributions": [
+  {
+   "key": "ratio_ratio",
+   "slug": "ratio_ratio",
+   "name": "R=\u03c3_obs/\u03c3_pred (ratio)",
+   "name_tex": "$R=\\sigma_{\\mathrm{obs}}/\\sigma_{\\mathrm{pred}}$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "R=\u03c3_obs/\u03c3_pred",
+   "ylabel_plot": "R=\u03c3_obs/\u03c3_pred",
+   "ylabel_tex": "$R=\\sigma_{\\mathrm{obs}}/\\sigma_{\\mathrm{pred}}$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.79,
+     "err": 0.1,
+     "err_up": 0.09,
+     "err_down": 0.1,
+     "cat_tex": "^{37}\\mathrm{Ar}\\ \\mathrm{source}",
+     "cat": "^37Ar source"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.C 73 (2006) 045805)",
+   "source_url": "https://doi.org/10.1103/PhysRevC.73.045805",
+   "provenance": "Abdurashitov:2005tb \u2014 SAGE, 37Ar source; 71Ga(nu_e,e-)71Ge production-rate ratio R = observed/predicted; target Ga \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

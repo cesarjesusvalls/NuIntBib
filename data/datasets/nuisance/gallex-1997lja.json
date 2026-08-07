@@ -1,0 +1,71 @@
+{
+ "bibtag": "GALLEX:1997lja",
+ "slug": "gallex-1997lja",
+ "source": "published (Phys.Lett.B 420 (1998) 114)",
+ "source_url": "https://doi.org/10.1016/S0370-2693(97)01562-1",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 420 114",
+ "note": "",
+ "distributions": [
+  {
+   "key": "ratio_ratio",
+   "slug": "ratio_ratio",
+   "name": "R=\u03c3_obs/\u03c3_pred (ratio)",
+   "name_tex": "$R=\\sigma_{\\mathrm{obs}}/\\sigma_{\\mathrm{pred}}$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "R=\u03c3_obs/\u03c3_pred",
+   "ylabel_plot": "R=\u03c3_obs/\u03c3_pred",
+   "ylabel_tex": "$R=\\sigma_{\\mathrm{obs}}/\\sigma_{\\mathrm{pred}}$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 3,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 1.01,
+     "err": 0.12,
+     "err_up": 0.12,
+     "err_down": 0.11,
+     "cat_tex": "\\mathrm{source\\ 1}",
+     "cat": "source 1"
+    },
+    {
+     "i": 1,
+     "lo": 1.0,
+     "hi": 2.0,
+     "center": 1.5,
+     "val": 0.84,
+     "err": 0.12,
+     "err_up": 0.12,
+     "err_down": 0.11,
+     "cat_tex": "\\mathrm{source\\ 2}",
+     "cat": "source 2"
+    },
+    {
+     "i": 2,
+     "lo": 2.0,
+     "hi": 3.0,
+     "center": 2.5,
+     "val": 0.93,
+     "err": 0.08,
+     "err_up": 0.08,
+     "err_down": 0.08,
+     "cat_tex": "\\mathrm{combined}",
+     "cat": "combined"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Lett.B 420 (1998) 114)",
+   "source_url": "https://doi.org/10.1016/S0370-2693(97)01562-1",
+   "provenance": "GALLEX:1997lja \u2014 GALLEX, two 51Cr sources; 71Ga(nu_e,e-)71Ge rate ratio R = observed/expected; target Ga \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "bibtag": "Allen:1990nr",
+ "slug": "allen-1990nr",
+ "source": "published (Phys.Rev.Lett. 64 (1990) 1871)",
+ "source_url": "https://doi.org/10.1103/PhysRevLett.64.1871",
+ "arxiv": null,
+ "cite": "Phys.Rev.Lett. 64 1871",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3 (sigma)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-41}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-41}\\,\\mathrm{cm}^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 1.05,
+     "err": 0.1414213562373095,
+     "err_up": 0.1414213562373095,
+     "err_down": 0.1414213562373095,
+     "cat_tex": "^{12}\\mathrm{N}\\ \\mathrm{g.s.}",
+     "cat": "^12N g.s."
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.Lett. 64 (1990) 1871)",
+   "source_url": "https://doi.org/10.1103/PhysRevLett.64.1871",
+   "provenance": "Allen:1990nr \u2014 E225 at LAMPF, mu+ decay-at-rest nu_e; CC 12C(nu_e,e-)12N g.s. exclusive; target C \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "bibtag": "KARMEN:1991vkr",
+ "slug": "karmen-1991vkr",
+ "source": "published (Phys.Lett.B 267 (1991) 321)",
+ "source_url": "https://doi.org/10.1016/0370-2693(91)90948-P",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 267 321",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3_NC (sigma)",
+   "name_tex": "$\\sigma_{\\mathrm{NC}}$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3_NC",
+   "ylabel_plot": "\u03c3_NC",
+   "ylabel_tex": "$\\sigma_{\\mathrm{NC}}$",
+   "yunit": "10^{-42}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-42}\\,\\mathrm{cm}^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 10.8,
+     "err": 5.217278984298233,
+     "err_up": 5.217278984298233,
+     "err_down": 5.217278984298233,
+     "cat_tex": "\\nu_e+\\nu_\\mu",
+     "cat": "nu_e+numu"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Lett.B 267 (1991) 321)",
+   "source_url": "https://doi.org/10.1016/0370-2693(91)90948-P",
+   "provenance": "KARMEN:1991vkr \u2014 KARMEN, mu+/pi+ decay-at-rest flux; NC 12C(nu,nu')12C*(15.1 MeV), first observation; target C \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

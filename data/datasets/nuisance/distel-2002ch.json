@@ -1,0 +1,47 @@
+{
+ "bibtag": "Distel:2002ch",
+ "slug": "distel-2002ch",
+ "source": "published (Phys.Rev.C 68 (2003) 054613)",
+ "source_url": "https://doi.org/10.1103/PhysRevC.68.054613",
+ "arxiv": "nucl-ex/0208012",
+ "cite": "Phys.Rev.C 68 054613",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3 (sigma)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-40}\\,\\mathrm{cm}^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 2.84,
+     "err": 0.9437160589923221,
+     "err_up": 0.9437160589923221,
+     "err_down": 0.9437160589923221,
+     "cat_tex": "^{127}\\mathrm{Xe}",
+     "cat": "^127Xe"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.C 68 (2003) 054613)",
+   "source_url": "https://doi.org/10.1103/PhysRevC.68.054613",
+   "provenance": "Distel:2002ch \u2014 LAMPF, mu+ decay-at-rest nu_e; CC 127I(nu_e,e-)127Xe, first for iodine; target I \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

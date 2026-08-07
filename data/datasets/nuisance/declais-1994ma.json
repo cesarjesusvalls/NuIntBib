@@ -1,0 +1,47 @@
+{
+ "bibtag": "Declais:1994ma",
+ "slug": "declais-1994ma",
+ "source": "published (Phys.Lett.B 338 (1994) 383)",
+ "source_url": "https://doi.org/10.1016/0370-2693(94)91385-4",
+ "arxiv": null,
+ "cite": "Phys.Lett.B 338 383",
+ "note": "",
+ "distributions": [
+  {
+   "key": "ratio_ratio",
+   "slug": "ratio_ratio",
+   "name": "\u03c3/\u03c3_Vtext-A (ratio)",
+   "name_tex": "$\\sigma/\\sigma_{V\\text{-}A}$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3/\u03c3_Vtext-A",
+   "ylabel_plot": "\u03c3/\u03c3_Vtext-A",
+   "ylabel_tex": "$\\sigma/\\sigma_{V\\text{-}A}$",
+   "yunit": "",
+   "yunit_tex": "",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.987,
+     "err": 0.03,
+     "err_up": 0.03,
+     "err_down": 0.03,
+     "cat_tex": "\\bar\\nu_e p\\to ne^+",
+     "cat": "barnu_e pto ne^+"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Lett.B 338 (1994) 383)",
+   "source_url": "https://doi.org/10.1016/0370-2693(94)91385-4",
+   "provenance": "Declais:1994ma \u2014 Bugey reactor anti-nu_e; inverse beta decay cross-section ratio to V-A theory; target H \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}

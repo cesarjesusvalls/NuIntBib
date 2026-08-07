@@ -1748,7 +1748,118 @@ def _baker_1982ty():
             'with W>1.4 GeV, and with Q^2>0.7 GeV^2'}}]
 
 
-REGISTRY = [
+def _lowE_values():
+    """Low-energy FZ-audit papers whose flux-averaged cross section (or rate ratio)
+    is quoted only in the paper text — transcribed here as single-value releases.
+    All description sits in the provenance blurb (dropped from the display note);
+    the only surviving note is 'transcribed from the abstract'."""
+    def P(cat, val, stat=None, syst=None, err=None, su=None, sd=None):
+        d = {'cat': cat, 'val': val}
+        if err is not None:
+            d['err'] = err
+        elif su is not None or sd is not None:
+            d.update(stat=stat or 0.0, syst_up=su, syst_down=sd)
+        else:
+            d.update(stat=stat, syst_up=syst, syst_down=syst)
+        return d
+
+    def E(bibtag, slug, journal, doi, blurb, blocks):
+        src, url = f'published ({journal})', f'https://doi.org/{doi}'
+        srcs = [{'values': {
+            'key': key, 'ylabel': yl, 'yunit': yu,
+            'items': [{'slug': key, 'points': pts}],
+            'source': src, 'source_url': url,
+            'provenance': f'{bibtag} — {blurb} · transcribed from the abstract'}}
+            for (key, yl, yu, pts) in blocks]
+        return {'bibtag': bibtag, 'slug': slug, 'source': src, 'note': '', 'sources': srcs}
+
+    S, U = r'\sigma', r'\,\mathrm{cm}^2'
+    return [
+        E('LSND:1997tqo', 'lsnd-1997tqo', 'Phys.Rev.C 56 (1997) 2806', '10.1103/PhysRevC.56.2806',
+          'LSND, pi+ decay-in-flight nu_mu beam at LAMPF; CC 12C(nu_mu,mu-)12N; target C',
+          [('sigma', S, '10^{-40}' + U,
+            [P(r'^{12}\mathrm{N}\ \mathrm{g.s.}', 0.66, 0.10, 0.10),
+             P(r'\mathrm{inclusive}', 11.2, 0.3, 1.8)])]),
+        E('LSND:2002oco', 'lsnd-2002oco', 'Phys.Rev.C 66 (2002) 015501', '10.1103/PhysRevC.66.015501',
+          'LSND, pi+ decay-in-flight nu_mu beam at LANSCE; CC 12C(nu_mu,mu-)12N; target C',
+          [('sigma', S, '10^{-40}' + U,
+            [P(r'^{12}\mathrm{N}\ \mathrm{g.s.}', 0.56, 0.08, 0.10),
+             P(r'\mathrm{inclusive}', 10.6, 0.3, 1.8)])]),
+        E('LSND:2001fbw', 'lsnd-2001fbw', 'Phys.Rev.C 64 (2001) 065501', '10.1103/PhysRevC.64.065501',
+          'LSND, mu+ decay-at-rest nu_e beam at LANSCE; CC 12C(nu_e,e-)12N; target C',
+          [('sigma', S, '10^{-42}' + U,
+            [P(r'^{12}\mathrm{N}\ \mathrm{g.s.}', 8.9, 0.3, 0.9),
+             P(r'^{12}\mathrm{N}^{*}\ \mathrm{(excited)}', 4.3, 0.4, 0.6)])]),
+        E('Krakauer:1991rf', 'krakauer-1991rf', 'Phys.Rev.C 45 (1991) 2450', '10.1103/PhysRevC.45.2450',
+          'E225 at LAMPF, mu+ decay-at-rest nu_e (~30 MeV); CC 12C(nu_e,e-)12N; target C',
+          [('sigma', S, '10^{-41}' + U,
+            [P(r'^{12}\mathrm{N}\ \mathrm{g.s.}', 1.05, 0.10, 0.10),
+             P(r'\mathrm{inclusive}\ (X)', 1.41, err=0.23)])]),
+        E('Allen:1990nr', 'allen-1990nr', 'Phys.Rev.Lett. 64 (1990) 1871', '10.1103/PhysRevLett.64.1871',
+          'E225 at LAMPF, mu+ decay-at-rest nu_e; CC 12C(nu_e,e-)12N g.s. exclusive; target C',
+          [('sigma', S, '10^{-41}' + U,
+            [P(r'^{12}\mathrm{N}\ \mathrm{g.s.}', 1.05, 0.10, 0.10)])]),
+        E('Koetke:1992yk', 'koetke-1992yk', 'Phys.Rev.C 46 (1992) 2554', '10.1103/PhysRevC.46.2554',
+          'E645 at LAMPF, pi+ decay-in-flight nu_mu (~202 MeV); CC 12C(nu_mu,mu-)X inclusive; target C',
+          [('sigma', S, '10^{-39}' + U,
+            [P(r'\mathrm{inclusive}\ (X)', 15.9, 2.6, 3.7)])]),
+        E('KARMEN:1991vkr', 'karmen-1991vkr', 'Phys.Lett.B 267 (1991) 321', '10.1016/0370-2693(91)90948-P',
+          'KARMEN, mu+/pi+ decay-at-rest flux; NC 12C(nu,nu\')12C*(15.1 MeV), first observation; target C',
+          [('sigma', S + r'_{\mathrm{NC}}', '10^{-42}' + U,
+            [P(r'\nu_e+\nu_\mu', 10.8, 5.1, 1.1)])]),
+        E('KARMEN:1998xmo', 'karmen-1998xmo', 'Phys.Lett.B 423 (1998) 15', '10.1016/S0370-2693(98)00087-2',
+          'KARMEN, pi+ decay-at-rest monoenergetic nu_mu (29.8 MeV); NC 12C(nu_mu,nu_mu\')12C*(15.1 MeV); target C',
+          [('sigma', S + r'_{\mathrm{NC}}', '10^{-42}' + U,
+            [P(r'\nu_\mu', 3.2, 0.5, 0.4)])]),
+        E('KARMEN:1992nka', 'karmen-1992nka', 'Phys.Lett.B 280 (1992) 198', '10.1016/0370-2693(92)90062-9',
+          'KARMEN, mu+ decay-at-rest nu_e; CC 12C(nu_e,e-)12N g.s., first observation; target C',
+          [('sigma', S, '10^{-42}' + U,
+            [P(r'^{12}\mathrm{N}\ \mathrm{g.s.}', 8.1, 0.9, 0.75)])]),
+        E('Distel:2002ch', 'distel-2002ch', 'Phys.Rev.C 68 (2003) 054613', '10.1103/PhysRevC.68.054613',
+          'LAMPF, mu+ decay-at-rest nu_e; CC 127I(nu_e,e-)127Xe, first for iodine; target I',
+          [('sigma', S, '10^{-40}' + U,
+            [P(r'^{127}\mathrm{Xe}', 2.84, 0.91, 0.25)])]),
+        E('SAGE:1998fvr', 'sage-1998fvr', 'Phys.Rev.C 59 (1999) 2246', '10.1103/PhysRevC.59.2246',
+          'SAGE, 51Cr radioactive source (~0.75 MeV nu_e); 71Ga(nu_e,e-)71Ge cross section; target Ga',
+          [('sigma', S, '10^{-45}' + U,
+            [P(r'^{51}\mathrm{Cr}\ \mathrm{source}', 5.55, 0.60, 0.32)])]),
+        E('Willis:1980pj', 'willis-1980pj', 'Phys.Rev.Lett. 44 (1980) 522', '10.1103/PhysRevLett.44.522',
+          'LAMPF, mu+ decay-at-rest nu_e; CC nu_e d -> p p e- dissociation; target D2',
+          [('sigma', S, '10^{-40}' + U,
+            [P(r'\nu_e d\to ppe^-', 0.52, err=0.18)])]),
+        E('Pasierb:1979fb', 'pasierb-1979fb', 'Phys.Rev.Lett. 43 (1979) 96', '10.1103/PhysRevLett.43.96',
+          'Irvine, reactor anti-nu_e; NC/CC deuteron dissociation, first NC observation; target D2',
+          [('sigma', S, '10^{-45}' + U,
+            [P(r'\mathrm{NC}\ (\bar\nu_e d\to npv)', 3.8, err=0.9),
+             P(r'\mathrm{CC}\ (\bar\nu_e d\to nne^+)', 1.5, err=0.4)])]),
+        E('Riley:1998ca', 'riley-1998ca', 'Phys.Rev.C 59 (1999) 1780', '10.1103/PhysRevC.59.1780',
+          'Irvine, reactor anti-nu_e; NC/CC deuteron dissociation; target D2',
+          [('sigma', S, '10^{-45}' + U,
+            [P(r'\mathrm{NCD}', 6.08, err=0.77),
+             P(r'\mathrm{CCD}', 9.83, err=2.04)])]),
+        # rate-ratio checks (R = measured / Standard-Model-predicted); dimensionless
+        E('GALLEX:1994rym', 'gallex-1994rym', 'Phys.Lett.B 342 (1995) 440', '10.1016/0370-2693(94)01586-2',
+          'GALLEX, 51Cr source; 71Ga(nu_e,e-)71Ge rate ratio R = observed/expected; target Ga',
+          [('ratio', r'R=\sigma_{\mathrm{obs}}/\sigma_{\mathrm{pred}}', '',
+            [P(r'^{51}\mathrm{Cr}\ \mathrm{source}', 1.04, err=0.12)])]),
+        E('GALLEX:1997lja', 'gallex-1997lja', 'Phys.Lett.B 420 (1998) 114', '10.1016/S0370-2693(97)01562-1',
+          'GALLEX, two 51Cr sources; 71Ga(nu_e,e-)71Ge rate ratio R = observed/expected; target Ga',
+          [('ratio', r'R=\sigma_{\mathrm{obs}}/\sigma_{\mathrm{pred}}', '',
+            [P(r'\mathrm{source\ 1}', 1.01, su=0.12, sd=0.11),
+             P(r'\mathrm{source\ 2}', 0.84, su=0.12, sd=0.11),
+             P(r'\mathrm{combined}', 0.93, err=0.08)])]),
+        E('Abdurashitov:2005tb', 'abdurashitov-2005tb', 'Phys.Rev.C 73 (2006) 045805', '10.1103/PhysRevC.73.045805',
+          'SAGE, 37Ar source; 71Ga(nu_e,e-)71Ge production-rate ratio R = observed/predicted; target Ga',
+          [('ratio', r'R=\sigma_{\mathrm{obs}}/\sigma_{\mathrm{pred}}', '',
+            [P(r'^{37}\mathrm{Ar}\ \mathrm{source}', 0.79, su=0.09, sd=0.10)])]),
+        E('Declais:1994ma', 'declais-1994ma', 'Phys.Lett.B 338 (1994) 383', '10.1016/0370-2693(94)91385-4',
+          'Bugey reactor anti-nu_e; inverse beta decay cross-section ratio to V-A theory; target H',
+          [('ratio', r'\sigma/\sigma_{V\text{-}A}', '',
+            [P(r'\bar\nu_e p\to ne^+', 0.987, err=0.030)])]),
+    ]
+
+
+REGISTRY = _lowE_values() + [
     {'bibtag': 'GargamelleNeutrinoPropane:1977hya',
      'slug': 'gargamelleneutrinopropane-1977hya',
      'source': 'published (Nucl.Phys.B)', 'note': '',

@@ -1,0 +1,47 @@
+{
+ "bibtag": "Willis:1980pj",
+ "slug": "willis-1980pj",
+ "source": "published (Phys.Rev.Lett. 44 (1980) 522)",
+ "source_url": "https://doi.org/10.1103/PhysRevLett.44.522",
+ "arxiv": null,
+ "cite": "Phys.Rev.Lett. 44 522",
+ "note": "",
+ "distributions": [
+  {
+   "key": "sigma_sigma",
+   "slug": "sigma_sigma",
+   "name": "\u03c3 (sigma)",
+   "name_tex": "$\\sigma$",
+   "xlabel": "",
+   "xunit": "",
+   "xcat": true,
+   "ylabel": "\u03c3",
+   "ylabel_plot": "\u03c3",
+   "ylabel_tex": "$\\sigma$",
+   "yunit": "10^{-40}\\,\\mathrm{cm}^2",
+   "yunit_tex": "$10^{-40}\\,\\mathrm{cm}^2$",
+   "nbins": 1,
+   "is2d": false,
+   "bins": [
+    {
+     "i": 0,
+     "lo": 0.0,
+     "hi": 1.0,
+     "center": 0.5,
+     "val": 0.52,
+     "err": 0.18,
+     "err_up": 0.18,
+     "err_down": 0.18,
+     "cat_tex": "\\nu_e d\\to ppe^-",
+     "cat": "nu_e dto ppe^-"
+    }
+   ],
+   "nuisance_file": "",
+   "scale_note": null,
+   "source": "published (Phys.Rev.Lett. 44 (1980) 522)",
+   "source_url": "https://doi.org/10.1103/PhysRevLett.44.522",
+   "provenance": "Willis:1980pj \u2014 LAMPF, mu+ decay-at-rest nu_e; CC nu_e d -> p p e- dissociation; target D2 \u00b7 transcribed from the abstract",
+   "notes": "Transcribed from the abstract."
+  }
+ ]
+}
