@@ -1,0 +1,74 @@
+- bibtag: Krakauer:1991rf
+  title: Experimental study of neutrino absorption on carbon
+  collaboration: E225
+  arxiv: null
+  doi: 10.1103/PhysRevC.45.2450
+  journal: Phys.Rev.C
+  volume: '45'
+  pages: '2450'
+  year: 1991
+  published_date: 1991-10
+  inspire_recid: 320635
+  citation_count: 93
+  release_status: abstract
+  abstract: The process of electron emission from ∼30 MeV neutrino absorption on carbon, C12(νe,e−)12N,
+    has been observed. The flux-weighted total cross section for the exclusive neutrino-induced nuclear
+    transition C12(νe,e−)12N(g.s.) is [1.05±0.10(stat)±0.10(syst)]×10−41 cm2. The measured cross section
+    and angular distribution dσ/dΩ are in agreement with theoretical estimates. The inclusive νe C12 reaction
+    rate, which accounted for the majority of all neutrino interactions observed in this experiment, was
+    determined from a detailed fit of energy and angular distributions for the observed electrons. The
+    inclusive C12(νe,e−)X cross section is measured to be [1.41±0.23(tot)]×10−41 cm2. An upper limit for
+    the sum of the C13(νe,e−)X+27Al(νe,e−)X inclusive absorption cross sections is presented.
+  added: '2026-08-07'
+  notes: Low-energy decay-at-rest ν–12C (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevC.45.2450
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Krakauer:1991rf
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 12C(νe,e-)12N g.s. exclusive (1.05e-41) + inclusive cross sections
+    energy_notes: μ+ decay-at-rest (~30 MeV νe)
+- bibtag: Allen:1990nr
+  title: Measurement of the Exclusive Cross-section $^{12}$C ($\nu_e$, $e^-$) $^{12}$N (Gs)
+  collaboration: E225
+  arxiv: null
+  doi: 10.1103/PhysRevLett.64.1871
+  journal: Phys.Rev.Lett.
+  volume: '64'
+  pages: '1871'
+  year: 1990
+  published_date: 1990-01
+  inspire_recid: 294532
+  citation_count: 48
+  release_status: abstract
+  abstract: The neutrino-induced nuclear transition C12(νe,e−)12N (g.s.) has been observed with a 15-ton
+    fine-grained tracking detector. The exclusive final state is identified by both an electron track
+    and the positron decay of the N12. From the observation of 181±17 C12(νe,e−)12N (g.s.) events with
+    subsequent positron decays the flux-averaged cross section, equivalent to the cross section for 35.0-MeV
+    neutrinos, is [1.05±0.10(stat)±0.10(syst)]×10−41 cm2. This result is in good agreement with recent
+    calculations.
+  added: '2026-08-07'
+  notes: Low-energy decay-at-rest ν–12C (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.64.1871
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Allen:1990nr
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 12C(νe,e-)12N g.s. exclusive cross section (1.05e-41)
+    energy_notes: μ+ decay-at-rest (35 MeV equiv.)

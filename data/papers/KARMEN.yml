@@ -1,0 +1,107 @@
+- bibtag: KARMEN:1998xmo
+  title: Measurement of the weak neutral current excitation C-12(nu(mu) nu'(mu))C*-12(1+,1,15.1-MeV) at
+    E(nu(mu)) = 29.8-MeV
+  collaboration: KARMEN
+  arxiv: null
+  doi: 10.1016/S0370-2693(98)00087-2
+  journal: Phys.Lett.B
+  volume: '423'
+  pages: '15'
+  year: 1998
+  published_date: '1998'
+  inspire_recid: 471278
+  citation_count: 82
+  release_status: abstract
+  abstract: The weak neutral current reaction 12 C( ν μ , ν μ ′ ) 12 C ∗ (1 + ,1; 15.1MeV) has been observed
+    for the first time in the KARMEN experiment. Neutrino events were separated from background using
+    two different analysis methods. The measured cross section σ NC =(3.2 ± 0.5 stat. ± 0.4 syst. ) ×
+    10 −42 cm 2 for monoenergetic ν μ from π + -decay at rest is in good agreement with the standard model,
+    the isovector-axialvector coupling constant of weak hadronic current deduced from this experiment
+    is | β |=1.11±0.13.
+  added: '2026-08-07'
+  notes: Low-energy decay-at-rest ν–12C, neutral current (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/S0370-2693(98)00087-2
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KARMEN:1998xmo
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: NC 12C(νμ,νμ')12C*(15.1 MeV) cross section (3.2e-42), monoenergetic νμ
+    energy_notes: π+ decay-at-rest νμ (29.8 MeV)
+- bibtag: KARMEN:1992nka
+  title: Cross-section of the charged current reaction C-12 (electron-neutrino e-) N-12 (g.s.).
+  collaboration: KARMEN
+  arxiv: null
+  doi: 10.1016/0370-2693(92)90055-9
+  journal: Phys.Lett.B
+  volume: '280'
+  pages: '198'
+  year: 1992
+  published_date: '1992'
+  inspire_recid: 339317
+  citation_count: 70
+  release_status: abstract
+  abstract: The charged current nuclear transition 12 C(v e , e − ) 12 N g.s. has been observed in the
+    KARMEN experiment. The flux average cross section for v e from μ + decay at rest is determined to
+    be 〈 σ 〉 = [8.1±0.9(stat.)±0.75 (syst.)]×10 −42 cm 2 . For the first time also the energy dependence
+    of the cross section has been measured for neutrino energies up to 50 MeV.
+  added: '2026-08-07'
+  notes: Low-energy decay-at-rest ν–12C (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(92)90055-9
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KARMEN:1992nka
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: first CC 12C(νe,e-)12N g.s. (8.1e-42) + energy dependence to 50 MeV
+    energy_notes: μ+ decay-at-rest νe
+- bibtag: KARMEN:1991vkr
+  title: First observation of the neutral current nuclear excitation C-12 (nu, nu-prime) C-12* (1+, 1).
+  collaboration: KARMEN
+  arxiv: null
+  doi: 10.1016/0370-2693(91)90939-N
+  journal: Phys.Lett.B
+  volume: '267'
+  pages: '321'
+  year: 1991
+  published_date: '1991'
+  inspire_recid: 321321
+  citation_count: 90
+  release_status: abstract
+  abstract: The neutral current nuclear excitation 12 (v,v′) 12 C ∗ (1 + , 1; 15.1 MeV) has been observed
+    for the first time. For v e and v μ from μ + -decay at rest the flux averaged cross section was determined
+    to be <σ NC (v e + v μ ) > = [10.8±5.1 (stat.) ±1.1 (syst.)]×10 −42 cm 2 .
+  added: '2026-08-07'
+  notes: Low-energy decay-at-rest ν–12C, neutral current (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(91)90939-N
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:KARMEN:1991vkr
+  measurements:
+  - current: NC
+    flavor:
+    - nue
+    - numu
+    - numubar
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: first obs. NC 12C(ν,ν')12C*(15.1 MeV); σ(νe+νμ)=10.8e-42
+    energy_notes: μ+/π+ decay-at-rest flux
+    flavor_note: μ+/π+ DAR flux (νe, νμ, ν̄μ)

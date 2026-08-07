@@ -1,0 +1,74 @@
+- bibtag: Distel:2002ch
+  title: Measurement of the cross-section for the reaction I-127 (nu(e), e-) Xe-127(bound states) with
+    neutrinos from the decay of stopped muons
+  collaboration: LAMPF
+  arxiv: nucl-ex/0208012
+  doi: 10.1103/PhysRevC.68.054613
+  journal: Phys.Rev.C
+  volume: '68'
+  pages: '054613'
+  year: 2002
+  published_date: 2002-08
+  inspire_recid: 593436
+  citation_count: 25
+  release_status: abstract
+  abstract: The cross section for the reaction 127I(neutrino,electron)127Xe_(bound states) has been measured
+    for electron neutrinos from the decay of stopped muons to be [2.84 +/- 0.91 (stat) +/- 0.25 (syst)]
+    x 10^(-40) cm^2. A tank containing 1540 kg of 127I in the form of NaI solution was placed 8.53 m from
+    the LAMPF beamstop where it received a typical flux of 5 x 10^7 neutrinos/(cm^2 s). The 127Xe atoms
+    produced by neutrino capture were extracted from the target solution, placed in miniature proportional
+    counters, and their number was determined by counting. This is the first measurement of a neutrino
+    capture cross section for an I nucleus and is in good agreement with a recent calculation.
+  added: '2026-08-07'
+  notes: Low-energy decay-at-rest ν–127I (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/0208012
+    doi: https://doi.org/10.1103/PhysRevC.68.054613
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Distel:2002ch
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - I
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 127I(νe,e-)127Xe cross section (2.84e-40) — first for iodine
+    energy_notes: μ+ decay-at-rest νe
+- bibtag: Willis:1980pj
+  title: A Neutrino Experiment to Test the Nature of Muon Number Conservation
+  collaboration: LAMPF
+  arxiv: null
+  doi: 10.1103/PhysRevLett.44.522
+  journal: Phys.Rev.Lett.
+  volume: '44'
+  pages: '522'
+  year: 1980
+  published_date: 1980-01
+  inspire_recid: 8773
+  citation_count: 132
+  release_status: abstract
+  abstract: This paper reports on a search for ν¯e from μ+→e+ν¯eνμ, allowed by multiplicative but not
+    additive muon conservation, and for νe from μ+→e+νeν¯μ, allowed by both. Neutrinos from the Clinton
+    P. Anderson Meson Physics Facility have been used, together with a six-ton Cherenkov counter filled
+    with H2O (D2O) to look for νep→ne+(νed→ppe−). The branching ratio (μ+→e+νeνμ)(μ+→all)=−0.001±0.040
+    is in excellent agreement with the additive law. The cross section 〈σ(νed→ppe−)〉=(0.52±0.18)×10−40
+    cm2 agrees with theory.
+  added: '2026-08-07'
+  notes: Decay-at-rest ν–deuteron dissociation (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.44.522
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Willis:1980pj
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - D2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: νe d→pp e- CC dissociation cross section (0.52e-40); also μ-number test
+    energy_notes: μ+ decay-at-rest νe (LAMPF)

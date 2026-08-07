@@ -1,0 +1,153 @@
+- bibtag: LSND:2002oco
+  title: Measurements of charged current reactions of muon neutrinos on C-12
+  collaboration: LSND
+  arxiv: nucl-ex/0203011
+  doi: 10.1103/PhysRevC.66.015501
+  journal: Phys.Rev.C
+  volume: '66'
+  pages: '015501'
+  year: 2002
+  published_date: 2002-03
+  inspire_recid: 584364
+  citation_count: 101
+  release_status: abstract
+  abstract: Charged current scattering of \nu_\mu on ^{12}C has been studied using a \pi^+ decay-in-flight
+    \nu_\mu beam at the Los Alamos Neutron Science Center. A sample of 66.9+-9.1 events satisfying criteria
+    for the exclusive reaction ^{12}C(\nu_\mu,\mu^-)^{12}N_{g.s.} was obtained using a large liquid scintillator
+    neutrino detector. The observed flux-averaged cross section (5.6+-0.8+-1.0) x 10^{-41} cm^2 agrees
+    well with reliable theoretical expectations. A measurement was also obtained for the inclusive cross
+    section to all accessible ^{12}N states ^{12}C(\nu_\mu,\mu^-)X. This flux-averaged cross section is
+    (10.6+-0.3+-1.8) x 10^{-40} cm^2 which is lower than present theoretical calculations.
+  added: '2026-08-07'
+  notes: Low-energy ν–12C via decay-in-flight (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/0203011
+    doi: https://doi.org/10.1103/PhysRevC.66.015501
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:2002oco
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 12C(νμ,μ-)12N g.s. (5.6e-41) + inclusive cross sections
+    energy_notes: π+ decay-in-flight νμ (~0.15–0.3 GeV)
+- bibtag: LSND:2001fbw
+  title: Measurements of charged current reactions of nu(e) on 12-C
+  collaboration: LSND
+  arxiv: hep-ex/0105068
+  doi: 10.1103/PhysRevC.64.065501
+  journal: Phys.Rev.C
+  volume: '64'
+  pages: '065501'
+  year: 2001
+  published_date: 2001-05
+  inspire_recid: 557014
+  citation_count: 139
+  release_status: abstract
+  abstract: Charged Current reactions of $\nu_e$ on $^{12}C$ have been studied using a $\mu^+$ decay-at-rest
+    $\nu_e$ beam at the Los Alamos Neutron Science Center. The cross section for the exclusive reaction
+    $^{12}C(\nu_e,e^-)^{12}N_{g.s.}$ was measured to be $(8.9\pm0.3\pm0.9)\times10^{-42}$ cm$^2$. The
+    observed energy dependence of the cross section and angular distribution of the outgoing electron
+    agree well with theoretical expectations. Measurements are also presented for inclusive transitions
+    to $^{12}N$ excited states, $^{12}C(\nu_e,e^-)^{12}N^*$ and compared with theoretical expectations.
+    The measured cross section, $(4.3\pm0.4\pm0.6)\times10^{-42}$ cm$^2$, is somewhat lower than previous
+    measurements and than a continuum random phase approximation calculation. It is in better agreement
+    with a recent shell model calculation.
+  added: '2026-08-07'
+  notes: Low-energy decay-at-rest ν–12C (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0105068
+    doi: https://doi.org/10.1103/PhysRevC.64.065501
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:2001fbw
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 12C(νe,e-)12N g.s. (8.9e-42) + inclusive 12N* cross sections
+    energy_notes: μ+ decay-at-rest (νe, Eν<52.8 MeV)
+- bibtag: LSND:1997lta
+  title: Measurements of the reactions C-12 (electron-neutrino, e-) N-12 (g.s.) and C-12 (electron-neutrino,
+    e-) N*-12
+  collaboration: LSND
+  arxiv: nucl-ex/9705001
+  doi: 10.1103/PhysRevC.55.2078
+  journal: Phys.Rev.C
+  volume: '55'
+  pages: '2078'
+  year: 1997
+  published_date: 1997-05
+  inspire_recid: 443431
+  citation_count: 120
+  release_status: abstract
+  abstract: Charged current reactions of nu_e on 12C have been studied using a mu decay-at-rest nu_e beam
+    from the Los Alamos Meson Physics Facility. More than 500 events from the exclusive reaction 12C +
+    nu_e -> e- + 12N g.s. were measured in a large Liquid Scintillator Neutrino Detector (LSND). The observed
+    energy dependence of the cross section and the angular distribution of the outgoing electron agree
+    well with theoretical expectations. Measurements are also presented for inclusive transitions to 12N
+    excited states, 12C + nu_e -> e- + 12N and compared with theoretical expectations. Results are consistent
+    with a recent Continuum Random Phase Approximation (CRPA) calculation.
+  added: '2026-08-07'
+  notes: Low-energy decay-at-rest ν–12C (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/9705001
+    doi: https://doi.org/10.1103/PhysRevC.55.2078
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:1997lta
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 12C(νe,e-)12N g.s. exclusive + inclusive 12N* cross sections
+    energy_notes: μ+ decay-at-rest (νe, Eν<52.8 MeV)
+- bibtag: LSND:1997tqo
+  title: Measurements of the reactions C-12 (muon-neutrino, mu-) N-12 (g.s.) and C-12 (muon-neutrino,
+    mu-) X
+  collaboration: LSND
+  arxiv: nucl-ex/9705002
+  doi: 10.1103/PhysRevC.56.2806
+  journal: Phys.Rev.C
+  volume: '56'
+  pages: '2806'
+  year: 1997
+  published_date: 1997-05
+  inspire_recid: 443432
+  citation_count: 73
+  release_status: abstract
+  abstract: Charged current scattering of nu_mu on 12C has been studied using a pi+ decay-in-flight nu_mu
+    beam at the Los Alamos Meson Physics Facility. A sample of 56.8 +- 9.6 events satisfying criteria
+    for the exclusive reaction 12C + nu_mu -> mu- + 12N_g.s. was obtained using the large Liquid Scintillator
+    Neutrino Detector (LSND). The observed flux-averaged cross section, (6.6 +- 1.0 +- 1.0) x 10^-41 cm^2,
+    agrees well with reliable theoretical expectations. A measurement was also obtained for the inclusive
+    cross section to all accessible 12N states, 12C + nu_\mu -> mu- + X. This flux-averaged cross section
+    is (11.2 +- 0.3 +- 1.8)x 10^-40 cm^2, which is approximately half of that given by a recent Continuum
+    Random Phase Approximation (CRPA) calculation.
+  added: '2026-08-07'
+  notes: Low-energy ν–12C via decay-in-flight (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/nucl-ex/9705002
+    doi: https://doi.org/10.1103/PhysRevC.56.2806
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:1997tqo
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 12C(νμ,μ-)12N g.s. exclusive (6.6e-41) + inclusive cross sections
+    energy_notes: π+ decay-in-flight νμ (~0.15–0.3 GeV)

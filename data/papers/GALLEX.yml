@@ -1,0 +1,84 @@
+- bibtag: GALLEX:1997lja
+  title: Final results of the Cr-51 neutrino source experiments in GALLEX
+  collaboration: GALLEX
+  arxiv: null
+  doi: 10.1016/S0370-2693(97)01562-1
+  journal: Phys.Lett.B
+  volume: '420'
+  pages: '114'
+  year: 1997
+  published_date: 1997-11
+  inspire_recid: 451948
+  citation_count: 497
+  release_status: abstract
+  abstract: The radiochemical GALLEX experiment, which has been measuring the solar neutrino flux since
+    May 1991, has performed an investigation with two intense 51 Crneutrino sources (> 60 PBq) that were
+    produced in the Siloé nuclear reactor and used at the Gran Sasso National Laboratory, one between
+    June and October 1994, and the second between October 95 and February 96. The ratio, R, of the the
+    neutrino source strength derived from the measured rate of 71 Geproduction, divided by the directly
+    determined source strength is R=1.01 +0.12 −0.11 for the first source and R=0.84 +0.12 −0.11 for the
+    second one. The combined value of R for the two source experiments is R=0.93 ± 0.08. It shows that
+    the > 40 % deficit of solar neutrino flux observed by GALLEX cannot be attributed to experimental
+    artifacts and demonstrates the absence of any significant unexpected systematic errors at the 10 %
+    level.
+  added: '2026-08-07'
+  notes: Low-energy 71Ga radioactive-source cross section (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/S0370-2693(97)01562-1
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:GALLEX:1997lja
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - Ga
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 71Ga(νe,e-)71Ge rate ratio R, final combined 51Cr source result
+    energy_notes: 51Cr source (~0.75 MeV νe)
+- bibtag: GALLEX:1994rym
+  title: First results from the Cr-51 neutrino source experiment with the GALLEX detector
+  collaboration: GALLEX
+  arxiv: null
+  doi: 10.1016/0370-2693(94)01586-2
+  journal: Phys.Lett.B
+  volume: '342'
+  pages: '440'
+  year: 1994
+  published_date: 1994-11
+  inspire_recid: 380797
+  citation_count: 517
+  release_status: abstract
+  abstract: 'The radiochemical GALLEX experiment, which has been measuring the solar neutrino flux since
+    May 1991, has performed an investigation with an intense man-made 51 Cr neutrino source (61.9 ± 1.2
+    PBq). The source, produced via neutron irradiation of ≈ 36 kg of chromium enriched in 50 Cr, primarily
+    emits 746 keV neutrinos. It was placed for a period of 3.5 months in the reentrant tube in the GALLEX
+    tank, to expose the gallium chloride target to a known neutrino flux. This experiment provides the
+    ratio, R , of the production rate of Cr-produced 71 Ge measured in these source exposures to the rate
+    expected from the known source activity: R = 1.04 ± 0.12. This result not only constitutes the first
+    observation of low-energy neutrinos from a terrestrial source, but also (a) provides an overall check
+    of GALLEX, indicating that there are no significant experimental artifacts or unknown errors at the
+    10% level that are comparable to the 40% deficit in observed solar neutrino signal, and (b) directly
+    demonstrates for the first time, using a man-made neutrino source, the validity of the basic principles
+    of radiochemical methods used to detect rare events (at the level of 10 atoms or less). Because of
+    the close similarity in neutrino energy spectra from 51 Cr and from the solar 7 Be branch, this source
+    experiment also shows that the gallium detector is sensitive to 7 Be neutrinos with full efficiency.'
+  added: '2026-08-07'
+  notes: Low-energy 71Ga radioactive-source cross section (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(94)01586-2
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:GALLEX:1994rym
+  measurements:
+  - current: CC
+    flavor:
+    - nue
+    target:
+    - Ga
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 71Ga(νe,e-)71Ge rate ratio R from the first 51Cr source exposure
+    energy_notes: 51Cr source (~0.75 MeV νe)

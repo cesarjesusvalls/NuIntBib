@@ -1,0 +1,35 @@
+- bibtag: Declais:1994ma
+  title: Study of reactor anti-neutrino interaction with proton at Bugey nuclear power plant
+  collaboration: Bugey
+  arxiv: null
+  doi: 10.1016/0370-2693(94)91394-3
+  journal: Phys.Lett.B
+  volume: '338'
+  pages: '383'
+  year: 1994
+  published_date: '1994-11-07'
+  inspire_recid: 39502
+  citation_count: 329
+  release_status: abstract
+  abstract: 'We report on a high precision measurement at 15m from a 2800 MWth reactor in which 300 000
+    events of electron antineutrino interactions with proton have been detected using an integral method.
+    The cross section of the neutron inverse beta-decay process has been measured with an accuracy of
+    1.4%. The ratio of measured cross section to the expected one in the standard V-A theory of weak interactions
+    is: σ ⨍ /σ V−A = 98.7% ± 1.4% ± 2.7% = 0.987 ± 0.030 .'
+  added: '2026-08-07'
+  notes: Reactor ν̄e inverse beta decay (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(94)91394-3
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Declais:1994ma
+  measurements:
+  - current: CC
+    flavor:
+    - nuebar
+    target:
+    - H
+    topology: IBD
+    pion_bucket: null
+    measurement_type: total
+    observables: ν̄e p→n e+ IBD cross section to 1.4%; σ/σ_V-A=0.987±0.030
+    energy_notes: Bugey reactor ν̄e (few MeV)

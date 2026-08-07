@@ -1,0 +1,74 @@
+- bibtag: Vershinsky:1991fv
+  title: Measurement of the cross-sections for the interaction of fission anti-neutrinos with deuterons
+    at the Rovno atomic power plant
+  collaboration: Rovno
+  arxiv: null
+  doi: null
+  journal: JETP Lett.
+  volume: '53'
+  pages: '513'
+  year: 1991
+  published_date: '1991'
+  inspire_recid: 324778
+  citation_count: 14
+  release_status: abstract
+  abstract: null
+  added: '2026-08-07'
+  notes: Reactor ν̄e–deuteron dissociation (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Vershinsky:1991fv
+  measurements:
+  - current: NC
+    flavor:
+    - nuebar
+    target:
+    - D2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: ν̄e-d NC disintegration cross section (INSPIRE has no abstract — verify)
+    energy_notes: reactor ν̄e (few MeV)
+  - current: CC
+    flavor:
+    - nuebar
+    target:
+    - D2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: ν̄e-d CC disintegration cross section (INSPIRE has no abstract — verify)
+    energy_notes: reactor ν̄e (few MeV)
+- bibtag: Kuvshinnikov:1990ry
+  title: Measuring the anti-electron-neutrino + p ---> n + e+ cross-section and beta decay axial constant
+    in a new experiment at Rovno NPP reactor. (In Russian)
+  collaboration: Rovno
+  arxiv: null
+  doi: null
+  journal: JETP Lett.
+  volume: '54'
+  pages: '253'
+  year: 1990
+  published_date: '1990'
+  inspire_recid: 306219
+  citation_count: 110
+  release_status: abstract
+  abstract: null
+  added: '2026-08-07'
+  notes: Reactor ν̄e inverse beta decay (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: null
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Kuvshinnikov:1990ry
+  measurements:
+  - current: CC
+    flavor:
+    - nuebar
+    target:
+    - H
+    topology: IBD
+    pion_bucket: null
+    measurement_type: total
+    observables: ν̄e p→n e+ IBD cross section + axial-vector constant
+    energy_notes: Rovno reactor ν̄e (few MeV)

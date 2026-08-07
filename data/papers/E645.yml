@@ -1,0 +1,39 @@
+- bibtag: Koetke:1992yk
+  title: Muon-neutrino carbon charged current interaction near the muon threshold
+  collaboration: E645
+  arxiv: null
+  doi: 10.1103/PhysRevC.46.2554
+  journal: Phys.Rev.C
+  volume: '46'
+  pages: '2554'
+  year: 1992
+  published_date: 1992-04
+  inspire_recid: 335000
+  citation_count: 24
+  release_status: abstract
+  abstract: A measurement of the muon-neutrino carbon charged-current cross section, C12(νμ,μ−)X, was
+    performed using the in-flight pion-decay neutrino source at the LAMPF accelerator. At an average interacting
+    neutrino energy of 202 MeV an inclusive cross section of (15.9±2.6±3.7)×10−39 cm2 was measured. This
+    value is in best agreement with the Fermi-gas model and is in disagreement with a previous experiment
+    and subsequent calculations that yielded substantially lower cross sections. However, the muon energy
+    spectrum shows a marked depletion of events at high energies compared to the Fermi-gas model. From
+    a small sample of events in which the final-state nucleus was in the ground state of N12, a cross
+    section for the reaction C12(νμ,μ−)12N(g.s.) of (1.7±0.8±0.3)×10−39 cm2 or about 11±5 % of the total
+    event rate was obtained.
+  added: '2026-08-07'
+  notes: Low-energy ν–12C via decay-in-flight (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevC.46.2554
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Koetke:1992yk
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: 12C(νμ,μ-)X inclusive cross section (15.9e-39)
+    energy_notes: π+ decay-in-flight (~202 MeV)
