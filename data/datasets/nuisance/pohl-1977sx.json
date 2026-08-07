@@ -11,7 +11,7 @@
    "key": "dsigma_observed",
    "slug": "dsigma_observed",
    "name": "\u03c3(\u03bd p to \u03bd p)/\u03c3(\u03bd n to \u03bc^- p) (observed)",
-   "name_tex": "$\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)\\ (observed)$",
+   "name_tex": "$\\sigma(\\nu p \\to \\nu p)/\\sigma(\\nu n \\to \\mu^- p)$ (observed)",
    "xlabel": "Q\u00b2",
    "xunit": "GeV^2",
    "xlabel_tex": "$Q^2$",

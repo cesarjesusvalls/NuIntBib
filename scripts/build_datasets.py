@@ -114,9 +114,9 @@ def _name_tex(yl, suffix=''):
     if not suffix:
         return f'${yl}$'
     words = re.findall(r'[A-Za-z]{3,}', re.sub(r'\\[A-Za-z]+', ' ', suffix))  # words, macros dropped
-    if len(words) >= 2:
+    if words:                                # any real word (e.g. "restricted PS") -> prose
         return f'${yl}$ ({suffix})'          # prose / mixed -> text
-    return rf'${yl}\ ({suffix})$'            # pure formula -> KaTeX
+    return rf'${yl}\ ({suffix})$'            # pure formula (channels, "(vs W)") -> KaTeX
 
 
 def _clip_wide_ends(bins, factor=4):

@@ -599,7 +599,7 @@
    "key": "d2xsec_ingrid",
    "slug": "d2xsec_ingrid",
    "name": "d\u00b2\u03c3/dp_\u03bcdcos\u03b8_\u03bc (ingrid)",
-   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\mathrm{d}\\cos\\theta_\\mu\\ (\\mathrm{INGRID})$",
+   "name_tex": "$\\mathrm{d}^2\\sigma/\\mathrm{d}p_\\mu\\mathrm{d}\\cos\\theta_\\mu$ (\\mathrm{INGRID})",
    "xlabel": "p_\u03bc",
    "xunit": "GeV/c",
    "xlabel_tex": "$p_\\mu$",

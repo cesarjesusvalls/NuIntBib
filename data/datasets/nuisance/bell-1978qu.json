@@ -11,7 +11,7 @@
    "key": "dsigma_dsigdq2_w14",
    "slug": "dsigma_dsigdq2_w14",
    "name": "d\u03c3/dQ\u00b2 (M(\\pi^+ p) < 1.4 GeV)",
-   "name_tex": "$d\\sigma/dQ^2\\ (M(\\pi^+ p) < 1.4 GeV)$",
+   "name_tex": "$d\\sigma/dQ^2$ (M(\\pi^+ p) < 1.4 GeV)",
    "xlabel": "Q\u00b2",
    "xunit": "GeV^2",
    "xlabel_tex": "$Q^2$",
