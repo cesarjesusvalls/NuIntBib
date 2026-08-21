@@ -1,0 +1,45 @@
+- bibtag: TEXONO:2009knm
+  title: Measurement of Nu(e)-bar -Electron Scattering Cross-Section with a CsI(Tl) Scintillating Crystal
+    Array at the Kuo-Sheng Nuclear Power Reactor
+  collaboration: TEXONO
+  arxiv: '0911.1597'
+  doi: 10.1103/PhysRevD.81.072001
+  journal: Phys.Rev.D
+  volume: '81'
+  pages: '072001'
+  year: 2009
+  published_date: 2009-11
+  inspire_recid: 836428
+  citation_count: 332
+  release_status: abstract
+  abstract: 'The $\bar{\nu}_{e}-e^{-}$ elastic scattering cross-section was measured with a CsI(Tl) scintillating
+    crystal array having a total mass of 187kg. The detector was exposed to an average reactor $\bar{\nu}_{e}$
+    flux of $\rm{6.4\times 10^{12} ~ cm^{-2}s^{-1}}$ at the Kuo-Sheng Nuclear Power Station. The experimental
+    design, conceptual merits, detector hardware, data analysis and background understanding of the experiment
+    are presented. Using 29882/7369 kg-days of Reactor ON/OFF data, the Standard Model(SM) electroweak
+    interaction was probed at the squared 4-momentum transfer range of $\rm{Q^2 \sim 3 \times 10^{-6}
+    ~ GeV^2}$. The ratio of experimental to SM cross-sections of $ \xi =[ 1.08 \pm 0.21(stat)\pm 0.16(sys)]
+    $ was measured. Constraints on the electroweak parameters $(g_V , g_A)$ were placed, corresponding
+    to a weak mixing angle measurement of $ \s2tw = 0.251 \pm 0.031({\it stat}) \pm 0.024({\it sys}) $.
+    Destructive interference in the SM $\nuebar -$e process was verified. Bounds on anomalous neutrino
+    electromagnetic properties were placed: neutrino magnetic moment at $\mu_{\nuebar}< 2.2 \times 10^{-10}
+    \mu_{\rm B}$ and the neutrino charge radius at $-2.1 \times 10^{-32} ~{\rm cm^{2}} < \nuchrad < 3.3
+    \times 10^{-32} ~{\rm cm^{2}}$, both at 90% confidence level.'
+  added: '2026-08-21'
+  notes: ν–e elastic scattering (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/0911.1597
+    doi: https://doi.org/10.1103/PhysRevD.81.072001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:TEXONO:2009knm
+  measurements:
+  - current: NC
+    flavor:
+    - nuebar
+    target:
+    - e
+    topology: ν-e elastic
+    pion_bucket: null
+    measurement_type: total
+    observables: ν̄e-e elastic cross section, sin²θW (CsI(Tl))
+    energy_notes: Kuo-Sheng reactor ν̄e (few MeV)
+    flavor_note: CC–NC interference

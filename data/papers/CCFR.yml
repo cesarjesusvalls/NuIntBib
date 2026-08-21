@@ -76,6 +76,46 @@
     measurement_type: total
     observables: total inclusive CC cross section vs energy
     energy_notes: high-energy (FNAL, ~30-250 GeV)
+- bibtag: Mishra:1990yf
+  title: Inverse Muon Decay, $\nu_\mu e \to \mu^- \nu_e$, at the Fermilab Tevatron
+  collaboration: CCFR
+  arxiv: null
+  doi: 10.1016/0370-2693(90)91099-W
+  journal: Phys.Lett.B
+  volume: '252'
+  pages: '170'
+  year: 1990
+  published_date: 1990-05
+  inspire_recid: 296115
+  citation_count: 54
+  release_status: abstract
+  abstract: We report an improved measurement of the inverse muon decay process, ν μ +e→ μ − + ν e , at
+    the Fermilab Tevatron. The rate of this reaction with respect to the ν μ -N charged current interaction
+    is measured to be (0.1245±0.0057(stat.)±0.0031 (sys.)) × 10 −2 . The measurement confirms the standard
+    model predictions for the Lorentz structure of the weak current, the helicity of the neutrino, and
+    the energy dependence of the cross section.
+  added: '2026-08-21'
+  notes: Inverse muon decay (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(90)91099-W
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Mishra:1990yf
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - e
+    topology: IMD
+    pion_bucket: null
+    measurement_type: ratio
+    observables: inverse muon decay νµe→µ⁻νe rate relative to CC = 0.1245e-2
+    energy_notes: FNAL Tevatron
+  abstract_tex: We report an improved measurement of the inverse muon decay process, $\nu_\mu$ +e $\to$
+    $\mu^-$ + $\nu_e$ , at the Fermilab Tevatron. The rate of this reaction with respect to the $\nu_\mu$
+    -N charged current interaction is measured to be (0.1245±0.0057(stat.)±0.0031 (sys.)) $\times 10^{-2}$
+    . The measurement confirms the standard model predictions for the Lorentz structure of the weak current,
+    the helicity of the neutrino, and the energy dependence of the cross section.
 - bibtag: Foudas:1989rk
   title: Neutrino Production of Opposite Sign Dimuons at Tevatron Energies
   collaboration: CCFR

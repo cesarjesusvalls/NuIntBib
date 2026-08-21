@@ -41,6 +41,57 @@
     agrees well with reliable theoretical expectations. A measurement was also obtained for the inclusive
     cross section to all accessible ^{12}N states ^{12}C(\nu_\mu,\mu^-)X. This flux-averaged cross section
     is (10.6+-0.3+-1.8) x $10^{-40}$ $\mathrm{cm}^2$ which is lower than present theoretical calculations.
+- bibtag: LSND:2001akn
+  title: Measurement of electron - neutrino - electron elastic scattering
+  collaboration: LSND
+  arxiv: hep-ex/0101039
+  doi: 10.1103/PhysRevD.63.112001
+  journal: Phys.Rev.D
+  volume: '63'
+  pages: '112001'
+  year: 2001
+  published_date: 2001-01
+  inspire_recid: 552304
+  citation_count: 406
+  release_status: abstract
+  abstract: The cross section for the elastic scattering reaction nu_e+e- -> nu_e+e- was measured by the
+    Liquid Scintillator Neutrino Detector using a mu+ decay-at-rest nu_e beam at the Los Alamos Neutron
+    Science Center. The standard model of electroweak physics predicts a large destructive interference
+    between the charge current and neutral current channels for this reaction. The measured cross section,
+    sigma_{nu_e e-}=[10.1 +- 1.1(stat.) +- 1.0(syst.)]x E_{nu_e} (MeV) x 10^{-45} cm^2, agrees well with
+    standard model expectations. The measured value of the interference parameter, I=-1.01 +- 0.13(stat.)
+    +- 0.12(syst.), is in good agreement with the standard model expectation of I^{SM}=-1.09. Limits are
+    placed on neutrino flavor-changing neutral currents. An upper limit on the muon-neutrino magnetic
+    moment of 6.8 x 10^{-10} mu_{Bohr} is obtained using the nu_mu and \bar{nu}_mu fluxes from pi+ and
+    mu+ decay.
+  added: '2026-08-21'
+  notes: ν–e elastic scattering (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0101039
+    doi: https://doi.org/10.1103/PhysRevD.63.112001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:LSND:2001akn
+  measurements:
+  - current: NC
+    flavor:
+    - nue
+    target:
+    - e
+    topology: ν-e elastic
+    pion_bucket: null
+    measurement_type: total
+    observables: νe e→νe e elastic cross section (large CC–NC interference)
+    energy_notes: μ+ decay-at-rest νe
+    flavor_note: CC–NC interference
+  abstract_tex: The cross section for the elastic scattering reaction $\nu_e$+$e^-$ $\to$ $\nu_e$+$e^-$
+    was measured by the Liquid Scintillator Neutrino Detector using a $\mu^+$ decay-at-rest $\nu_e$ beam
+    at the Los Alamos Neutron Science Center. The standard model of electroweak physics predicts a large
+    destructive interference between the charge current and neutral current channels for this reaction.
+    The measured cross section, sigma_{$\nu_e$ $e^-$}=[10.1 +- 1.1(stat.) +- 1.0(syst.)]x E_{$\nu_e$}
+    (MeV) x $10^{-45}$ $\mathrm{cm}^2$, agrees well with standard model expectations. The measured value
+    of the interference parameter, I=-1.01 +- 0.13(stat.) +- 0.12(syst.), is in good agreement with the
+    standard model expectation of I^{SM}=-1.09. Limits are placed on neutrino flavor-changing neutral
+    currents. An upper limit on the muon-neutrino magnetic moment of 6.8 x $10^{-10}$ mu_{Bohr} is obtained
+    using the $\nu_\mu$ and \bar{nu}_mu fluxes from $\pi^+$ and $\mu^+$ decay.
 - bibtag: LSND:2001fbw
   title: Measurements of charged current reactions of nu(e) on 12-C
   collaboration: LSND

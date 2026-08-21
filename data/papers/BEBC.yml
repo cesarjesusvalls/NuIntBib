@@ -164,6 +164,72 @@
     measurement_type: null
     observables: one-, two-, three-pion production cross sections
     energy_notes: null
+- bibtag: WA21:1989gku
+  title: Experimental Test of the {PCAC} Hypothesis in the Reactions $\nu_\mu p \to \mu^- p \pi^+$ and
+    $\bar{\nu}_\mu p \to \mu^+ p \pi^-$ in the $\Delta(1232)$ Region
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1007/BF01550930
+  journal: Z.Phys.C
+  volume: '43'
+  pages: '527'
+  year: 1989
+  published_date: 1989-04
+  inspire_recid: 278225
+  citation_count: 21
+  release_status: digitize
+  abstract: Data on the reactionsvμp→ μ−pπ+ and\( \bar v_\mup \to \mu ^ +p\pi ^ -\) in the Δ(1232) region
+    are presented and a test of the PCAC hypothesis, using a modified version of the Adler model, is performed.
+    The analysis is based on 1081 events in the neutrino and on 180 events in the antineutrino reaction,
+    obtained in a bubble chamber experiment with BEBC at CERN. The experimental cross-sections for an
+    invariant hadronic massW<1.4 GeV and an (anti-)neutrino energyEvL>10 GeV are determined to be (0.628±0.059)·10−38
+    cm2 for the neutrino and (0.168±0.023)·10−38 cm2 for the antineutrino reaction. TheQ2 andW distributions,
+    the density matrix elements of the Δ resonance, and moments of the pion angular distribution are discussed.
+    The data are found to be in good agreement with the Adler model in theQ2 region below 1 GeV2. A maximum
+    likelihood fit for the axial massmA in the axial-vector form factor yields a value ofmA=1.31±0.12
+    GeV. At lowQ2 the data confirm the PCAC hypothesis and the discrepancy, formerly observed between
+    the experimental and theoretical cross-sections forvμp→ μ−pπ+ at low momentum transfers (Q2≲0.2 GeV2),
+    is understood as being due to inadequate pion ‘off-mass-shell’ corrections.
+  added: '2026-08-21'
+  notes: Single-pion PCAC test (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01550930
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:WA21:1989gku
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: CC1π+
+    pion_bucket: null
+    measurement_type: total
+    observables: νµ p→µ⁻ p π⁺ in Δ(1232); PCAC/Adler test
+    energy_notes: CERN SPS wide-band
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - H2
+    topology: CC1π-
+    pion_bucket: null
+    measurement_type: total
+    observables: ν̄µ p→µ⁺ p π⁻ in Δ(1232); PCAC/Adler test
+    energy_notes: CERN SPS wide-band
+  abstract_tex: Data on the reactionsvμp $\to$ $\mu^-$pπ+ and\( \bar v_\mup \to \mu ^ +p\pi ^ -\) in the
+    Δ(1232) region are presented and a test of the PCAC hypothesis, using a modified version of the Adler
+    model, is performed. The analysis is based on 1081 events in the neutrino and on 180 events in the
+    antineutrino reaction, obtained in a bubble chamber experiment with BEBC at CERN. The experimental
+    cross-sections for an invariant hadronic massW<1.4 GeV and an (anti-)neutrino energyEvL>10 GeV are
+    determined to be (0.628±0.059)·10-38 $\mathrm{cm}^2$ for the neutrino and (0.168±0.023)·10-38 $\mathrm{cm}^2$
+    for the antineutrino reaction. TheQ2 andW distributions, the density matrix elements of the Δ resonance,
+    and moments of the pion angular distribution are discussed. The data are found to be in good agreement
+    with the Adler model in theQ2 region below 1 GeV2. A maximum likelihood fit for the axial massmA in
+    the axial-vector form factor yields a value ofmA=1.31±0.12 GeV. At lowQ2 the data confirm the PCAC
+    hypothesis and the discrepancy, formerly observed between the experimental and theoretical cross-sections
+    forvμp $\to$ $\mu^-$pπ+ at low momentum transfers (Q2≲0.2 GeV2), is understood as being due to inadequate
+    pion ‘off-mass-shell’ corrections.
 - bibtag: Allen:1985ti
   title: A Study of Single Meson Production in Neutrino and Anti-neutrinos Charged Current Interactions
     on Protons

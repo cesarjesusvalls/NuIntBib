@@ -104,6 +104,53 @@
     Beam between 1995 and 1998. The analysis yields a value of the charm quark mass of m c = ( 1.26 ±
     0.16 ± 0.09 ) GeV / c 2 and a value of the ratio of the strange to non-strange sea in the nucleon
     of κ = 0.33 ± 0.05 ± 0.05 , improving the results obtained in similar analyses by previous experiments.
+- bibtag: CHORUS:2005cpn
+  title: Measurement of nucleon structure functions in neutrino scattering
+  collaboration: CHORUS
+  arxiv: null
+  doi: 10.1016/j.physletb.2005.10.062
+  journal: Phys.Lett.B
+  volume: '632'
+  pages: '65'
+  year: 2005
+  published_date: 2005-10
+  inspire_recid: 699123
+  citation_count: 236
+  release_status: digitize
+  abstract: After completion of the data taking for the νμ→ντ oscillation search, the CHORUS lead–scintillator
+    calorimeter was used in the 1998 run as an active target. High-statistics samples of charged-current
+    interactions were collected in the CERN SPS west area neutrino beam. This beam contained predominantly
+    muon (anti-)neutrinos from sign-selected pions and kaons. We measure the flux and energy spectrum
+    of the incident neutrinos and compare them with beam simulations. The neutrino–nucleon and anti-neutrino–nucleon
+    differential cross-sections are measured in the range 0.01<x<0.7 , 0.05<y<0.95 , 10<Eν<200 GeV . We
+    extract the neutrino–nucleon structure functions F2(x,Q2) , xF3(x,Q2) , and R(x,Q2) and compare these
+    with results from other experiments.
+  added: '2026-08-21'
+  notes: Neutrino structure functions (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/j.physletb.2005.10.062
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHORUS:2005cpn
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Pb
+    topology: DIS
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: structure functions F2, xF3, R + differential cross sections
+    energy_notes: CERN SPS wide-band
+  abstract_tex: After completion of the data taking for the $\nu_\mu$ $\to$ $\nu_\tau$ oscillation search,
+    the CHORUS lead-scintillator calorimeter was used in the 1998 run as an active target. High-statistics
+    samples of charged-current interactions were collected in the CERN SPS west area neutrino beam. This
+    beam contained predominantly muon (anti-)neutrinos from sign-selected pions and kaons. We measure
+    the flux and energy spectrum of the incident neutrinos and compare them with beam simulations. The
+    neutrino-nucleon and anti-neutrino-nucleon differential cross-sections are measured in the range 0.01<x<0.7
+    , 0.05<y<0.95 , 10<Eν<200 GeV . We extract the neutrino-nucleon structure functions $^{2}\mathrm{F}$(x,Q2)
+    , xF3(x,Q2) , and R(x,Q2) and compare these with results from other experiments.
 - bibtag: CHORUS:2005mof
   title: Measurements of D0 production and of decay branching fractions in neutrino nucleon scattering
   collaboration: CHORUS

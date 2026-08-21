@@ -105,8 +105,8 @@ several measurements (different channel/target); add one entry each. Either:
 | --- | --- |
 | `current` | `CC`, `NC` |
 | `flavor` | `numu`, `numubar`, `nue`, `nuebar` (list; use `flavor_note` for "unspecified") |
-| `target` | material symbols: `Ar`, `CH`, `CH2`, `C`, `O`, `H2O`, `Fe`, `Pb`, `W`, `C8H8`, … |
-| `topology` | `Inclusive`, `CCQE`, `CCQE-like`, `CCQEp`, `CC0pi`, `CC1pi+`, `CC1pi0`, `CCcoh pi`, `NC1pi0`, `NCcoh pi0`, `NC elastic`, `DIS`, `CC2p`, `CC K+`, `CC eta`, `CC Lambda`, … (π → `pi`) |
+| `target` | material symbols: `Ar`, `CH`, `CH2`, `C`, `O`, `H2O`, `Fe`, `Pb`, `W`, `C8H8`, `e` (electron, for ν–e scattering), … |
+| `topology` | `Inclusive`, `CCQE`, `CCQE-like`, `CCQEp`, `CC0pi`, `CC1pi+`, `CC1pi0`, `CCcoh pi`, `NC1pi0`, `NCcoh pi0`, `NC elastic`, `DIS`, `CC2p`, `CC K+`, `CC eta`, `CC Λ`, `CC strange`, `NC strange`, `CC charm`, `IBD`, `ν-e elastic`, `IMD`, … (π → `pi`) |
 | `measurement_type` | `total`, `single-diff`, `double-diff`, `triple-diff`, `ratio`, `limit` |
 | `pion_bucket` | `0pi`, `pi_charged`, `pi0`, `multi_pi`, or null (auto-derived if omitted) |
 

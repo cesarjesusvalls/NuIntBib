@@ -105,3 +105,44 @@
     cross section, (3.8±0.9)$\times 10^{-45}$ $\mathrm{cm}^2$/V¯e, is consistent with the Weinberg-Salam
     model, dependent in this case only on the axial-vector contribution. The charged-current reaction
     cross section is (1.5±0.4)$\times 10^{-45}$ $\mathrm{cm}^2$/V¯e, in fair agreement with expectation.
+- bibtag: Reines:1976pv
+  title: Detection of anti-electron-neutrino e Scattering
+  collaboration: Irvine
+  arxiv: null
+  doi: 10.1103/PhysRevLett.37.315
+  journal: Phys.Rev.Lett.
+  volume: '37'
+  pages: '315'
+  year: 1976
+  published_date: 1976-08
+  inspire_recid: 114484
+  citation_count: 558
+  release_status: abstract
+  abstract: The reaction ν¯e+e−→ν¯e+e− has been observed using a 15.9-kg plastic scintillation target
+    in a composite plastic-NaI-liquid detector exposed to a ν¯e flux of 2.2×1013 cm−2 sec−1 from an 1800-MW
+    fission reactor. Tests rule out a reactor-associated signal produced by inverse β decay, neutrons,
+    or gamma rays. The measured cross section is consistent with V−A and the Weinberg model with parameter
+    sin2θW=0.29±0.05.
+  added: '2026-08-21'
+  notes: ν–e elastic scattering (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.37.315
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Reines:1976pv
+  measurements:
+  - current: NC
+    flavor:
+    - nuebar
+    target:
+    - e
+    topology: ν-e elastic
+    pion_bucket: null
+    measurement_type: total
+    observables: ν̄e e→ν̄e e elastic cross section (reactor)
+    energy_notes: Savannah River reactor ν̄e (few MeV)
+    flavor_note: CC–NC interference
+  abstract_tex: The reaction $\bar\nu_e$+$e^-$ $\to$ $\bar\nu_e$+$e^-$ has been observed using a 15.9-kg
+    plastic scintillation target in a composite plastic-NaI-liquid detector exposed to a $\bar\nu_e$ flux
+    of 2.2$\times 10^{13}$ cm-2 sec-1 from an 1800-MW fission reactor. Tests rule out a reactor-associated
+    signal produced by inverse β decay, neutrons, or gamma rays. The measured cross section is consistent
+    with V-A and the Weinberg model with parameter sin2θW=0.29±0.05.

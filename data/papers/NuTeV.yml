@@ -72,6 +72,44 @@
     measurement_type: double-diff
     observables: CC differential cross sections (DIS) on iron
     energy_notes: high-energy (FNAL sign-selected beam)
+- bibtag: NuTeV:2001bgq
+  title: Search for the Lepton Number Violating Process $\bar{\nu}_{\mu} e^- \to \mu^- \bar{\nu}_e$
+  collaboration: NuTeV
+  arxiv: hep-ex/0104029
+  doi: 10.1103/PhysRevLett.87.071803
+  journal: Phys.Rev.Lett.
+  volume: '87'
+  pages: 071803
+  year: 2001
+  published_date: 2001-04
+  inspire_recid: 555474
+  citation_count: 17
+  release_status: abstract
+  abstract: The NuTeV experiment at Fermilab has used a sign-selected neutrino beam to perform a search
+    for the lepton number violating process $\bar{\nu}_mu e^- \to \mu^- \bar{\nu}_e$, and to measure the
+    cross-section of the Standard Model inverse muon decay process $\nu_{\mu} e^- \to \mu^- \nu_e$. NuTeV
+    measures the inverse muon decay asymptotic cross-section $\sigma/E$ to be 13.8 $\pm$ 1.2 $\pm$ 1.4
+    x $10^{-42} cm^2$/GeV. The experiment also observes no evidence for lepton number violation and places
+    one of the most restrictive limits on the LNV/IMD cross-section ratio at $\sigma (\bar{\nu}_{\mu}
+    e^- \to \mu^- \bar{\nu}_e) /\sigma (\nu_{\mu}e^- \to \mu^- \nu_e$) $\le$ 1.7% at 90% C.L. for V-A
+    couplings and $\le$ 0.6% for scalar couplings.
+  added: '2026-08-21'
+  notes: Inverse muon decay (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0104029
+    doi: https://doi.org/10.1103/PhysRevLett.87.071803
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NuTeV:2001bgq
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - e
+    topology: IMD
+    pion_bucket: null
+    measurement_type: total
+    observables: inverse muon decay νµe→µ⁻νe cross section (+ LNV search)
+    energy_notes: FNAL sign-selected beam
 - bibtag: NuTeV:2001dfo
   title: Precise Measurement of Dimuon Production Cross-Sections in $\nu_{\mu}$ Fe and $\bar{\nu}_{\mu}$
     Fe Deep Inelastic Scattering at the Tevatron.

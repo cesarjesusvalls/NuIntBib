@@ -1,3 +1,46 @@
+- bibtag: Ahrens:1990fp
+  title: Determination of electroweak parameters from the elastic scattering of muon-neutrinos and anti-neutrinos
+    on electrons
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.41.3297
+  journal: Phys.Rev.D
+  volume: '41'
+  pages: '3297'
+  year: 1990
+  published_date: '1990'
+  inspire_recid: 306084
+  citation_count: 135
+  release_status: digitize
+  abstract: Total and differential cross sections for νμe→νμe and ν¯μe→ν¯μe are measured. Values for the
+    model-independent neutral-current couplings of the electron are found to be gV=−0.107±0.035(stat)±0.028(syst)
+    and gA=−0.514±0.023(stat)±0.028(syst). The electroweak mixing parameter sin2θW is determined to be
+    0.195±0.018(stat)±0.013(syst). Limits are set for the charge radius and magnetic moment of the neutrino
+    as (〈r2〉)<0.24×10−32 cm2 and fμ<0.85×10−9 Bohr magnetons, respectively.
+  added: '2026-08-21'
+  notes: ν–e elastic scattering (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.41.3297
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ahrens:1990fp
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - e
+    topology: ν-e elastic
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: νµe & ν̄µe total+differential cross sections; gV, gA, sin²θW
+    energy_notes: BNL E734 wide-band
+  abstract_tex: Total and differential cross sections for $\nu_\mu$e $\to$ $\nu_\mu$e and $\bar\nu_\mu$e
+    $\to$ $\bar\nu_\mu$e are measured. Values for the model-independent neutral-current couplings of the
+    electron are found to be gV=-0.107±0.035(stat)±0.028(syst) and gA=-0.514±0.023(stat)±0.028(syst).
+    The electroweak mixing parameter sin2θW is determined to be 0.195±0.018(stat)±0.013(syst). Limits
+    are set for the charge radius and magnetic moment of the neutrino as (〈r2〉)<0.24$\times 10^{-32}$
+    $\mathrm{cm}^2$ and fμ<0.85$\times 10^{-9}$ Bohr magnetons, respectively.
 - bibtag: Kitagaki:1990vs
   title: Study of neutrino d ---> mu- p p(s) and neutrino d ---> mu- Delta++ (1232) n(s) using the BNL
     7-foot deuterium filled bubble chamber
@@ -54,6 +97,48 @@
     observables: axial-vector mass M_A from the Q^2 distribution of nu d -> mu- Delta++(1232) n(s) events;
       not a released cross section
     energy_notes: null
+- bibtag: Abe:1989qk
+  title: Determination of Sin**2($\theta(W$ From Measurements of Differential Cross-sections for $\nu_\mu$
+    and Muon-anti-neutrino Scattering by Electrons
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevLett.62.1709
+  journal: Phys.Rev.Lett.
+  volume: '62'
+  pages: '1709'
+  year: 1989
+  published_date: '1989'
+  inspire_recid: 281709
+  citation_count: 57
+  release_status: digitize
+  abstract: Measurements of the combined differential cross sections dσ/dy for νμ and ν¯μ scattering by
+    electrons yield the value sin2θW=0.195±0.018±0.013. This value, at Q2≃1×10−3 (GeV/c)2, is more precise
+    than and in good agreement with our determination from the ratio of the total cross sections for the
+    same reaction. It is consistent with, but lower than, the value determined from deep-inelastic neutrino
+    scattering.
+  added: '2026-08-21'
+  notes: ν–e elastic scattering (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.62.1709
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Abe:1989qk
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - e
+    topology: ν-e elastic
+    pion_bucket: null
+    measurement_type: single-diff
+    observables: νµe/ν̄µe differential dσ/dy; sin²θW
+    energy_notes: BNL E734 wide-band
+  abstract_tex: Measurements of the combined differential cross sections dσ/dy for $\nu_\mu$ and $\bar\nu_\mu$
+    scattering by electrons yield the value sin2θW=0.195±0.018±0.013. This value, at Q2≃1$\times 10^{-3}$
+    (GeV/c)2, is more precise than and in good agreement with our determination from the ratio of the
+    total cross sections for the same reaction. It is consistent with, but lower than, the value determined
+    from deep-inelastic neutrino scattering.
 - bibtag: Ahrens:1988rr
   title: A Study of the Axial Vector Form-factor and Second Class Currents in Anti-neutrino Quasielastic
     Scattering

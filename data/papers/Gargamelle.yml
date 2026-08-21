@@ -403,42 +403,6 @@
     changing reactions. Associated production reactions ( ΔS = 0) have been observed in the charged and
     the neutral current channels. For the elastic reaction v p $\to$ $\mu^+$ Λ , estimates have been made
     of the axial transition form factor.
-- bibtag: Blietschau:1975vt
-  title: Observation of Muon-Neutrino Reactions Producing a Positron and a Strange Particle
-  collaboration: Gargamelle
-  arxiv: null
-  doi: 10.1016/0370-2693(76)90425-1
-  journal: Phys.Lett.B
-  volume: '60'
-  pages: '207'
-  year: 1975
-  published_date: 1975-12
-  inspire_recid: 100913
-  citation_count: 224
-  abstract: In addition to one previously reported event, a second event, in which a positron is observed
-    together with a strange particle and a negative muon, has been seen in the bubble chamber Gargamelle
-    exposed to the CERN neutrino beam. The level of the background for this type of event is found to
-    be very low. The data strongly indicate the existence of a new type of interaction leading to a charged
-    lepton pair correlated with a strange particle in the final state. The interpretation of these two
-    events in terms of production of a charmed hadron is presented.
-  added: '2026-08-21'
-  notes: Charm/dimuon production (FZ audit, added 2026-08).
-  links:
-    arxiv: null
-    doi: https://doi.org/10.1016/0370-2693(76)90425-1
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:Blietschau:1975vt
-  measurements:
-  - current: CC
-    flavor:
-    - numu
-    target:
-    - CF3Br
-    topology: CC charm
-    measurement_type: null
-    observables: observation of mu-e+ + strange-particle events (candidate charm dilepton events)
-    energy_notes: CERN PS Gargamelle beam
-    pion_bucket: null
-  release_status: not_xsec
 - bibtag: Deden:1975pa
   title: Strange Particle Production and Charmed Particle Search in the Gargamelle Neutrino Experiment
   collaboration: Gargamelle
@@ -476,6 +440,42 @@
     energy_notes: CERN PS Gargamelle beam
     pion_bucket: null
   release_status: digitize
+- bibtag: Hasert:1973cr
+  title: Search for Elastic $\nu_\mu$ Electron Scattering
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(73)90494-2
+  journal: Phys.Lett.B
+  volume: '46'
+  pages: '121'
+  year: 1973
+  published_date: 1973-09
+  inspire_recid: 84483
+  citation_count: 1095
+  release_status: abstract
+  abstract: One possible event of the process ν − μ + e − → v − μ + e − has been observed. The various
+    background processes are discussed and the event interpreted in terms of the Weinberg theory. The
+    90% confidence limits on the Weinberg parameter are 0.1 < sin 2 θ W < 0.6.
+  added: '2026-08-21'
+  notes: ν–e elastic scattering (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(73)90494-2
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Hasert:1973cr
+  measurements:
+  - current: NC
+    flavor:
+    - numubar
+    target:
+    - e
+    topology: ν-e elastic
+    pion_bucket: null
+    measurement_type: limit
+    observables: first ν̄µ e→ν̄µ e event; 0.1<sin²θW<0.6
+    energy_notes: CERN PS ν̄µ wide-band
+  abstract_tex: One possible event of the process ν - $\mu^+$ e - $\to$ v - $\mu^+$ e - has been observed.
+    The various background processes are discussed and the event interpreted in terms of the Weinberg
+    theory. The 90% confidence limits on the Weinberg parameter are 0.1 < sin 2 θ W < 0.6.
 - bibtag: Eichten:1972bb
   title: Observation of 'Elastic' Hyperon Production by Anti-neutrinos
   collaboration: Gargamelle
