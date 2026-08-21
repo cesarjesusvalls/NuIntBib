@@ -1,3 +1,233 @@
+- bibtag: Kayis-Topaksu:2011ols
+  title: Measurement of charm production in neutrino charged-current interactions
+  collaboration: CHORUS
+  arxiv: '1107.0613'
+  doi: 10.1088/1367-2630/13/9/093002
+  journal: New J.Phys.
+  volume: '13'
+  pages: 093002
+  year: 2011
+  published_date: 2011-07
+  inspire_recid: 916818
+  citation_count: 90
+  abstract: 'The nuclear emulsion target of the CHORUS detector was exposed to the wide-band neutrino
+    beam of the CERN SPS of 27 GeV average neutrino energy from 1994 to 1997. In total about 100000 charged-current
+    neutrino interactions with at least one identified muon were located in the emulsion target and fully
+    reconstructed, using newly developed automated scanning systems. Charmed particles were searched for
+    by a program recognizing particle decays. The observation of the decay in nuclear emulsion makes it
+    possible to select a sample with very low background and minimal kinematical bias. 2013 charged-current
+    interactions with a charmed hadron candidate in the final state were selected and confirmed through
+    visual inspection. The charm production rate induced by neutrinos relative to the charged-current
+    cross-section is measured to be sigma(nu_mu N -> mu- C X)/sigma(CC) = (5.75 +-0.32 stat +-0.30 syst)%.
+    The charm production cross-section as a function of the neutrino energy is also obtained. The results
+    are in good agreement with previous measurements. The charm-quark hadronization produces the following
+    charmed hadrons with relative fractions (in %): f_Dzero = 43.7+-4.5, f_Lambda_c^plus = 19.2+-4.2,
+    f_Dplus = 25.3+-4.2, and f_D_splus = 11.8+-4.7.'
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/1107.0613
+    doi: https://doi.org/10.1088/1367-2630/13/9/093002
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Kayis-Topaksu:2011ols
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - emulsion
+    topology: CC charm
+    measurement_type: ratio
+    observables: charm production rate relative to CC cross section, sigma(numu N->mu- C X)/sigma(CC)=(5.75+-0.32+-0.30)%;
+      also charm cross section vs E_nu
+    energy_notes: CERN SPS wide-band, 27 GeV average (CHORUS)
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: 'The nuclear emulsion target of the CHORUS detector was exposed to the wide-band neutrino
+    beam of the CERN SPS of 27 GeV average neutrino energy from 1994 to 1997. In total about 100000 charged-current
+    neutrino interactions with at least one identified muon were located in the emulsion target and fully
+    reconstructed, using newly developed automated scanning systems. Charmed particles were searched for
+    by a program recognizing particle decays. The observation of the decay in nuclear emulsion makes it
+    possible to select a sample with very low background and minimal kinematical bias. 2013 charged-current
+    interactions with a charmed hadron candidate in the final state were selected and confirmed through
+    visual inspection. The charm production rate induced by neutrinos relative to the charged-current
+    cross-section is measured to be sigma($\nu_\mu$ N $\to$ $\mu^-$ C X)/sigma(CC) = (5.75 +-0.32 stat
+    +-0.30 syst)%. The charm production cross-section as a function of the neutrino energy is also obtained.
+    The results are in good agreement with previous measurements. The charm-quark hadronization produces
+    the following charmed hadrons with relative fractions (in %): f_Dzero = 43.7+-4.5, f_Lambda_c^plus
+    = 19.2+-4.2, f_Dplus = 25.3+-4.2, and f_D_splus = 11.8+-4.7.'
+- bibtag: CHORUS:2008vjb
+  title: Leading order analysis of neutrino induced dimuon events in the CHORUS experiment
+  collaboration: CHORUS
+  arxiv: '0804.1869'
+  doi: 10.1016/j.nuclphysb.2008.02.013
+  journal: Nucl.Phys.B
+  volume: '798'
+  pages: '1'
+  year: 2008
+  published_date: 2008-04
+  inspire_recid: 783243
+  citation_count: 64
+  abstract: "We present a leading order QCD analysis of a sample of neutrino induced charged-current events\
+    \ with two muons in the final state originating in the lead-scintillating fibre calorimeter of the\
+    \ CHORUS detector. The results are based on a sample of 8910 neutrino and 430 antineutrino induced\
+    \ opposite-sign dimuon events collected during the exposure of the detector to the CERN Wide Band\
+    \ Neutrino Beam between 1995 and 1998. The analysis yields a value of the charm quark mass of \t\t\
+    \t\t\t\t\t\t\t\t\t\t\t\t\tm\t\t\t\t\t\t\t\tc\t\t\t\t\t\t\t\t\t\t\t\t\t\t=\t\t\t\t\t\t\t(\t\t\t\t\t\
+    \t\t1.26\t\t\t\t\t\t\t±\t\t\t\t\t\t\t0.16\t\t\t\t\t\t\t±\t\t\t\t\t\t\t0.09\t\t\t\t\t\t\t)\t\t\t\t\t\
+    \t\t\t\t\t\t\t\t\tGeV\t\t\t\t\t\t\t/\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tc\t\t\t\t\t\t\t\t2\t\t\t\t\t\t\t\
+    \t\t\t\t\t\t and a value of the ratio of the strange to non-strange sea in the nucleon of \t\t\t\t\
+    \t\t\tκ\t\t\t\t\t\t\t=\t\t\t\t\t\t\t0.33\t\t\t\t\t\t\t±\t\t\t\t\t\t\t0.05\t\t\t\t\t\t\t±\t\t\t\t\t\
+    \t\t0.05\t\t\t\t\t\t , improving the results obtained in similar analyses by previous experiments."
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/0804.1869
+    doi: https://doi.org/10.1016/j.nuclphysb.2008.02.013
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHORUS:2008vjb
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - emulsion
+    topology: CC charm
+    measurement_type: total
+    observables: opposite-sign dimuon events; charm quark mass and strange sea ratio kappa
+    energy_notes: CERN SPS wide-band, 1995-1998
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: We present a leading order QCD analysis of a sample of neutrino induced charged-current
+    events with two muons in the final state originating in the lead-scintillating fibre calorimeter of
+    the CHORUS detector. The results are based on a sample of 8910 neutrino and 430 antineutrino induced
+    opposite-sign dimuon events collected during the exposure of the detector to the CERN Wide Band Neutrino
+    Beam between 1995 and 1998. The analysis yields a value of the charm quark mass of m c = ( 1.26 ±
+    0.16 ± 0.09 ) GeV / c 2 and a value of the ratio of the strange to non-strange sea in the nucleon
+    of κ = 0.33 ± 0.05 ± 0.05 , improving the results obtained in similar analyses by previous experiments.
+- bibtag: CHORUS:2005mof
+  title: Measurements of D0 production and of decay branching fractions in neutrino nucleon scattering
+  collaboration: CHORUS
+  arxiv: null
+  doi: 10.1016/j.j.physletb.2005.03.036
+  journal: Phys.Lett.B
+  volume: '613'
+  pages: '105'
+  year: 2005
+  published_date: 2005-03
+  inspire_recid: 680505
+  citation_count: 32
+  abstract: During the years 1994–1997, the emulsion target of the CHORUS detector was exposed to the
+    wide-band neutrino beam of the CERN SPS of 27 GeV average neutrino energy. In total about 100 000
+    charged-current neutrino interactions were located in the nuclear emulsion target and fully reconstructed.
+    From this sample of events which was based on the data acquired by new automatic scanning systems,
+    1048 charged-current interactions with a D0 in the final state were selected by a pattern recognition
+    program and confirmed as neutral-particle decays through visual inspection. The ratio of decay branching
+    fractions of the D0 into four charged particles to two charged particles was measured to be B(D0→V4)/B(D0→V2)=0.207±0.016±0.004
+    . The inclusive measurement of the observed production rate of the D0 with a decay into four charged
+    prongs in combination with external measurements of this topological branching ratio was used to determine
+    the total D0 production rate by neutrinos without additional assumption on the branching fractions.
+    The value of this rate relative to the charged-current cross-section was found to be σ(D0)/σ(CC)=0.0269±0.0018±0.0013
+    . In addition, the same normalization method was used to deduce the inclusive topological decay rate
+    into final states with neutral particles only. A value of 0.218±0.049±0.036 was found for this branching
+    fraction. From an observed number of three charged six-prong events the branching ratio into six charged
+    particles was determined to be (1.2−0.9+1.3±0.2)×10−3 . A measurement of the energy dependence of
+    the D0 production by neutrinos relative to the total charged-current cross-section is also reported.
+    This measurement was used to deduce for mc , the effective charm-quark mass, a value of (1.42±0.08)GeV/c2
+    .
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/j.j.physletb.2005.03.036
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHORUS:2005mof
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - emulsion
+    topology: CC charm
+    measurement_type: ratio
+    observables: D0 production rate relative to CC, sigma(D0)/sigma(CC)=0.0269+-0.0018+-0.0013; D0 decay
+      branching fractions
+    energy_notes: CERN SPS wide-band, 27 GeV average, 1994-1997
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: During the years 1994-1997, the emulsion target of the CHORUS detector was exposed to
+    the wide-band neutrino beam of the CERN SPS of 27 GeV average neutrino energy. In total about 100 000
+    charged-current neutrino interactions were located in the nuclear emulsion target and fully reconstructed.
+    From this sample of events which was based on the data acquired by new automatic scanning systems,
+    1048 charged-current interactions with a D0 in the final state were selected by a pattern recognition
+    program and confirmed as neutral-particle decays through visual inspection. The ratio of decay branching
+    fractions of the D0 into four charged particles to two charged particles was measured to be B(D0 $\to$
+    $^{4}\mathrm{V}$)/B(D0 $\to$ $^{2}\mathrm{V}$)=0.207±0.016±0.004 . The inclusive measurement of the
+    observed production rate of the D0 with a decay into four charged prongs in combination with external
+    measurements of this topological branching ratio was used to determine the total D0 production rate
+    by neutrinos without additional assumption on the branching fractions. The value of this rate relative
+    to the charged-current cross-section was found to be σ(D0)/σ(CC)=0.0269±0.0018±0.0013 . In addition,
+    the same normalization method was used to deduce the inclusive topological decay rate into final states
+    with neutral particles only. A value of 0.218±0.049±0.036 was found for this branching fraction. From
+    an observed number of three charged six-prong events the branching ratio into six charged particles
+    was determined to be (1.2-0.9+1.3±0.2)$\times 10^{-3}$ . A measurement of the energy dependence of
+    the D0 production by neutrinos relative to the total charged-current cross-section is also reported.
+    This measurement was used to deduce for mc , the effective charm-quark mass, a value of (1.42±0.08)GeV/c2
+    .
+- bibtag: CHORUS:2005nog
+  title: Measurement of topological muonic branching ratios of charmed hadrons produced in neutrino-induced
+    charged-current interactions
+  collaboration: CHORUS
+  arxiv: null
+  doi: 10.1016/j.physletb.2005.08.082
+  journal: Phys.Lett.B
+  volume: '626'
+  pages: '24'
+  year: 2005
+  published_date: '2005'
+  inspire_recid: 699088
+  citation_count: 37
+  abstract: From 1994 to 1997, the emulsion target of the CHORUS detector was exposed to the wideband
+    neutrino beam of the CERN SPS. In total about 100 000 charged-current neutrino interactions were located
+    in the nuclear emulsion target and fully reconstructed. From this sample of events based on the data
+    acquired by new automatic scanning systems, 2013 charm-decay events were selected by a pattern recognition
+    program. They were confirmed as decays through visual inspection. Based on these events, the effective
+    branching ratio of charmed particles into muons was determined to be B¯μ=[7.3±0.8(stat)±0.2(syst)]×10−2
+    . In addition, the muonic branching ratios are presented for dominating charm-decay topologies. Normalization
+    of the muonic decays to charged-current interactions provides σμ−μ+/σcc=[3.16±0.34(stat)±0.09(syst)]×10−3
+    . Selecting only events with visible energy greater than 30 GeV gives a value of B¯μ that is less
+    affected by the charm production threshold and quasi-elastic Λc+ production. Combining this value
+    with the current average of B¯μ×|Vcd|2 at the leading order yields the value of |Vcd|LO=0.236±0.016
+    .
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/j.physletb.2005.08.082
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHORUS:2005nog
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - emulsion
+    topology: CC charm
+    measurement_type: ratio
+    observables: topological muonic branching ratios of charmed hadrons; dimuon-to-CC production ratio
+      sigma(mu-mu+)/sigma(CC)=3.16e-3
+    energy_notes: CERN SPS wide-band, 1994-1997
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: From 1994 to 1997, the emulsion target of the CHORUS detector was exposed to the wideband
+    neutrino beam of the CERN SPS. In total about 100 000 charged-current neutrino interactions were located
+    in the nuclear emulsion target and fully reconstructed. From this sample of events based on the data
+    acquired by new automatic scanning systems, 2013 charm-decay events were selected by a pattern recognition
+    program. They were confirmed as decays through visual inspection. Based on these events, the effective
+    branching ratio of charmed particles into muons was determined to be B¯μ=[7.3±0.8(stat)±0.2(syst)]$\times
+    10^{-2}$ . In addition, the muonic branching ratios are presented for dominating charm-decay topologies.
+    Normalization of the muonic decays to charged-current interactions provides σμ-$\mu^+$/σcc=[3.16±0.34(stat)±0.09(syst)]$\times
+    10^{-3}$ . Selecting only events with visible energy greater than 30 GeV gives a value of B¯μ that
+    is less affected by the charm production threshold and quasi-elastic Λc+ production. Combining this
+    value with the current average of B¯μ×|Vcd|2 at the leading order yields the value of |Vcd|LO=0.236±0.016
+    .
 - bibtag: CHORUS:2003qcm
   title: Measurement of the Z/A dependence of neutrino charged-current total cross-sections
   collaboration: CHORUS

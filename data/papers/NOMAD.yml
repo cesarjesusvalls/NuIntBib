@@ -225,14 +225,13 @@
   inspire_recid: 566751
   citation_count: 40
   release_status: not_xsec
-  abstract: A study of strange particle production in muon neutrino charged current interactions
-    has been performed using the data from the NOMAD experiment. Yields of neutral strange
-    particles $K^0_S$, $\Lambda$, $\bar\Lambda$ have been measured. Mean multiplicities are
-    reported as a function of the event kinematic variables $E_\nu$, $W^2$ and $Q^2$ as well as of
-    the variables describing particle behaviour within a hadronic jet ($x_F$, $z$ and $p_T^2$).
-    Decays of resonances and heavy hyperons with identified $K^0_S$ and $\Lambda$ in the final
-    state have been analyzed. Clear signals corresponding to $K^{*\pm}$, $\Sigma^{*\pm}$, $\Xi^-$
-    and $\Sigma^0$ have been observed.
+  abstract: A study of strange particle production in muon neutrino charged current interactions has been
+    performed using the data from the NOMAD experiment. Yields of neutral strange particles $K^0_S$, $\Lambda$,
+    $\bar\Lambda$ have been measured. Mean multiplicities are reported as a function of the event kinematic
+    variables $E_\nu$, $W^2$ and $Q^2$ as well as of the variables describing particle behaviour within
+    a hadronic jet ($x_F$, $z$ and $p_T^2$). Decays of resonances and heavy hyperons with identified $K^0_S$
+    and $\Lambda$ in the final state have been analyzed. Clear signals corresponding to $K^{*\pm}$, $\Sigma^{*\pm}$,
+    $\Xi^-$ and $\Sigma^0$ have been observed.
   added: '2024-12-09'
   notes: null
   links:
@@ -281,7 +280,7 @@
     - numu
     target:
     - C
-    topology: CC D*+
+    topology: CC charm
     pion_bucket: null
     measurement_type: null
     observables: D★+ yield and fragmentation
@@ -397,6 +396,56 @@
     measurement_type: null
     observables: backward proton/pion production
     energy_notes: null
+- bibtag: NOMAD:2000sdx
+  title: Neutrino production of opposite sign dimuons in the NOMAD experiment
+  collaboration: NOMAD
+  arxiv: null
+  doi: 10.1016/S0370-2693(00)00612-2
+  journal: Phys.Lett.B
+  volume: '486'
+  pages: '35'
+  year: 2000
+  published_date: 2000-05
+  inspire_recid: 532382
+  citation_count: 79
+  abstract: The NOMAD Collaboration presents a study of opposite sign dimuon events in the framework of
+    Leading Order QCD. A total of 2714 neutrino- and 115 antineutrino-induced opposite sign dimuon events
+    with E μ 1 , E μ 2 >4.5 GeV, 15< E ν <300 GeV and Q 2 >1 ( GeV / c ) 2 are observed in the Front-Calorimeter
+    of NOMAD during the 1995 and 1996 runs. The analysis yields a value for the charm quark mass of m
+    c =1.3 +0.3+0.3 −0.3−0.3 GeV / c 2 and for the average semileptonic branching ratio of B c =0.095
+    +0.007+0.014 −0.007−0.013 . The ratio of the strange to non-strange sea in the nucleon is measured
+    to be κ =0.48 +0.09+0.17 −0.07−0.12 . The measured rate of charm-induced dimuon relative to single
+    muon, as a function of neutrino energy, is consistent with the slow rescaling hypothesis of heavy
+    quark production.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/S0370-2693(00)00612-2
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NOMAD:2000sdx
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - C
+    topology: CC charm
+    measurement_type: total
+    observables: opposite-sign dimuon events; charm quark mass, semileptonic branching ratio, strange
+      sea ratio kappa
+    energy_notes: CERN SPS wide-band, 15-300 GeV
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: The NOMAD Collaboration presents a study of opposite sign dimuon events in the framework
+    of Leading Order QCD. A total of 2714 neutrino- and 115 antineutrino-induced opposite sign dimuon
+    events with E μ 1 , E μ 2 >4.5 GeV, 15< E ν <300 GeV and Q 2 >1 ( GeV / c ) 2 are observed in the
+    Front-Calorimeter of NOMAD during the 1995 and 1996 runs. The analysis yields a value for the charm
+    quark mass of m c =1.3 +0.3+0.3 -0.3-0.3 GeV / c 2 and for the average semileptonic branching ratio
+    of B c =0.095 +0.007+0.014 -0.007-0.013 . The ratio of the strange to non-strange sea in the nucleon
+    is measured to be κ =0.48 +0.09+0.17 -0.07-0.12 . The measured rate of charm-induced dimuon relative
+    to single muon, as a function of neutrino energy, is consistent with the slow rescaling hypothesis
+    of heavy quark production.
 - bibtag: NOMAD:2000wdf
   title: Measurement of the Lambda polarization in nu/mu charged current interactions in the NOMAD experiment
   collaboration: NOMAD
@@ -452,12 +501,12 @@
   inspire_recid: 480555
   citation_count: 16
   release_status: not_xsec
-  abstract: We report the first precision measurements of the scaled momentum, the charge
-    multiplicity, and the thrust of hadronic jets in the Breit frame in Deep Inelastic Scattering
-    $\nu_\mu N$ and $\bar\nu_\mu N$ charged current events over the $Q^2$ range from 1 to 100
-    GeV$^2$. The neutrino data, obtained in the NOMAD experiment at the CERN SPS, extend the
-    $Q^2$-evolution of these parameters by two orders of magnitude, and with commensurate
-    precision, when compared to those reported by the $ep$ and $e^+e^-$ experiments.
+  abstract: We report the first precision measurements of the scaled momentum, the charge multiplicity,
+    and the thrust of hadronic jets in the Breit frame in Deep Inelastic Scattering $\nu_\mu N$ and $\bar\nu_\mu
+    N$ charged current events over the $Q^2$ range from 1 to 100 GeV$^2$. The neutrino data, obtained
+    in the NOMAD experiment at the CERN SPS, extend the $Q^2$-evolution of these parameters by two orders
+    of magnitude, and with commensurate precision, when compared to those reported by the $ep$ and $e^+e^-$
+    experiments.
   added: '2024-12-09'
   notes: null
   links:

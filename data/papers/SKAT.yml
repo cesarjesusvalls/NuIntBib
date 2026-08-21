@@ -1,3 +1,43 @@
+- bibtag: Agababyan:2004fy
+  title: A Study of the nuclear medium influence on neutral strange particle production in deep inelastic
+    neutrino scattering
+  collaboration: SKAT
+  arxiv: hep-ex/0405076
+  doi: 10.1134/S1063778806010054
+  journal: Phys.Atom.Nucl.
+  volume: '69'
+  pages: '35'
+  year: 2004
+  published_date: 2004-05
+  inspire_recid: 651156
+  citation_count: 2
+  abstract: The influence of nuclear effects on the production of neutral strange particles ($V^{\circ}$)
+    is investigated using the data obtained with SKAT propane-freon bubble chamber irradiated in the neutrino
+    beam (with $E_{\nu}$ = 3-30 GeV) at Serpukhov accelerator. The measured mean multiplicity of $V^{\circ}$
+    particles in nuclear interactions, ${<n_{V^{\circ}}>}_A$ = 0.096$\pm$0.011, is found to exceed significantly
+    that in 'quasinucleon' interactions, ${<n_{V^{\circ}}>}_N$ = 0.059$\pm$0.012. The ratio of ${\rho}_{V^{\circ}}$
+    =${<n_{V^{\circ}}>}_A/{<n_{V^{\circ}}>}_N$ =1.61$\pm$0.23 is larger than that for $\pi^{-}$ mesons,
+    ${\rho}_{\pi^-}$ = 1.10$\pm$0.03. It is shown that a dominant part of the multiplicity gain of $V^{\circ}$
+    particles can be explained by intranuclear interactions of produced pions.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0405076
+    doi: https://doi.org/10.1134/S1063778806010054
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Agababyan:2004fy
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CF3Br
+    topology: CC strange
+    measurement_type: ratio
+    observables: Mean multiplicity of neutral strange (V0=K0+Lambda) particles in nuclear vs quasi-nucleon
+      interactions; nuclear-medium enhancement ratio compared to pi-
+    energy_notes: Serpukhov SKAT propane-freon bubble chamber, Enu=3-30 GeV
+    pion_bucket: null
+  release_status: not_xsec
 - bibtag: SKAT:1989nel
   title: Quasielastic Nucleon and Hyperon Production by Neutrinos and Anti-neutrinos With Energies Below
     30-{GeV}
@@ -11,12 +51,11 @@
   published_date: '1989-10-23'
   inspire_recid: 26520
   citation_count: 107
-  abstract: The cross sections of neutrino and antineutrino quasielastic reactions $\nu n \to
-    \mu^- p$, $\bar\nu p \to \mu^+ n$, $\bar\nu p \to \mu^+ \Lambda$ were studied in the neutrino
-    energy range between 3 and 30 GeV. In comparison with $V-A$ theory axial mass parameters of
-    $M_A = (1.06\pm0.05\pm0.14)$ GeV/$c^2$ from neutrino and $M_A = (0.71\pm0.10\pm0.20)$
-    GeV/$c^2$ from antineutrino data were found. The total cross-section for the hyperon
-    production process can be described by $M_A = 1.0$ GeV/$c^2$.
+  abstract: The cross sections of neutrino and antineutrino quasielastic reactions $\nu n \to \mu^- p$,
+    $\bar\nu p \to \mu^+ n$, $\bar\nu p \to \mu^+ \Lambda$ were studied in the neutrino energy range between
+    3 and 30 GeV. In comparison with $V-A$ theory axial mass parameters of $M_A = (1.06\pm0.05\pm0.14)$
+    GeV/$c^2$ from neutrino and $M_A = (0.71\pm0.10\pm0.20)$ GeV/$c^2$ from antineutrino data were found.
+    The total cross-section for the hyperon production process can be described by $M_A = 1.0$ GeV/$c^2$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -98,11 +137,11 @@
   published_date: '1979'
   inspire_recid: 130963
   citation_count: 73
-  abstract: Data on the measurement of the v μ N total cross section at 2–30 GeV are presented. The observed behavior
-    does not contradict a linear dependence on neutrino energy with slope S =0.73 ± 0.08.
+  abstract: Data on the measurement of the v μ N total cross section at 2–30 GeV are presented. The observed
+    behavior does not contradict a linear dependence on neutrino energy with slope S =0.73 ± 0.08.
   added: '2026-07-23'
-  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
-    (1411.4482).
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL
+    reanalysis (1411.4482).
   links:
     arxiv: null
     doi: https://doi.org/10.1016/0370-2693(79)90536-7
@@ -116,6 +155,6 @@
     topology: Inclusive
     pion_bucket: null
     measurement_type: total
-    observables: nu_mu N total cross section, 2-30 GeV; consistent with linear sigma/E slope 0.73 +/- 0.08 (10^-38
-      cm^2/GeV)
+    observables: nu_mu N total cross section, 2-30 GeV; consistent with linear sigma/E slope 0.73 +/-
+      0.08 (10^-38 cm^2/GeV)
     energy_notes: SKAT freon bubble chamber, Serpukhov, E_nu 2-30 GeV

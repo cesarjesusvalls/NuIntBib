@@ -1,3 +1,36 @@
+- bibtag: CHARMII:1998njb
+  title: Leading order QCD analysis of neutrino induced dimuon events
+  collaboration: CHARM-II
+  arxiv: null
+  doi: 10.1007/s100520050611
+  journal: Eur.Phys.J.C
+  volume: '11'
+  pages: '19'
+  year: 1998
+  published_date: 1998-08
+  inspire_recid: 476584
+  citation_count: 103
+  abstract: The results of a leading-order QCD analysis of neutrino-induced charm production are presented.
+    They are based on a sample of 4111
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/s100520050611
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:CHARMII:1998njb
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - SiO2
+    topology: CC charm
+    measurement_type: null
+    observables: neutrino-induced dimuon events; leading-order QCD analysis of charm production
+    energy_notes: CERN SPS wide-band
+    pion_bucket: null
+  release_status: digitize
 - bibtag: CHARM-II:1993xmz
   title: Coherent single charged pion production by neutrinos
   collaboration: CHARM-II

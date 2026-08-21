@@ -1,3 +1,49 @@
+- bibtag: Haatuft:1983it
+  title: Dilepton and Trilepton Production by Neutrinos in Gargamelle at {CERN} {SPS} Energies
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0550-3213(83)90539-4
+  journal: Nucl.Phys.B
+  volume: '222'
+  pages: '365'
+  year: 1983
+  published_date: 1983-01
+  inspire_recid: 189031
+  citation_count: 31
+  abstract: We report on a search for ν μ N → μ − e − X and ν μ N → μ − e + e − X events in Gargamelle
+    at CERN Super Proton Synchrotron (SPS) energies. Ten μ − e − events were found with p e − > 0.5 GeV/
+    c and p μ − > 4.5 GeV/ c (seven of these events have p e − > 0.8 GeV/ c ). The rate relative to the
+    charged-current events is (6.7 ± 3.9) × 10 −4 , and to the opposite-sign dileptons 0.20 ± 0.11. Some
+    characteristics of the μ − e − events are compared with μ − e + and charged-current events. Three
+    ν μ N → μ − e + e − X events were observed with p e ± > 0.3 GeV/ c , p μ − > 4.5 GeV/ c , and m e
+    + e − > m π 0 . The rate of these events relative to the charged-current events is (3.1 ± 1.9) × 10
+    −4 .
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0550-3213(83)90539-4
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Haatuft:1983it
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - CF3Br
+    topology: CC charm
+    measurement_type: ratio
+    observables: mu-e- and mu-e+e- dilepton/trilepton rates relative to CC events, (6.7+-3.9)e-4 and (3.1+-1.9)e-4
+    energy_notes: CERN SPS Gargamelle beam
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: We report on a search for $\nu_\mu$ N $\to$ $\mu^-$ e - X and $\nu_\mu$ N $\to$ $\mu^-$
+    e + e - X events in Gargamelle at CERN Super Proton Synchrotron (SPS) energies. Ten $\mu^-$ e - events
+    were found with p e - > 0.5 GeV/ c and p $\mu^-$ > 4.5 GeV/ c (seven of these events have p e - >
+    0.8 GeV/ c ). The rate relative to the charged-current events is (6.7 ± 3.9) $\times 10^{-4}$ , and
+    to the opposite-sign dileptons 0.20 ± 0.11. Some characteristics of the $\mu^-$ e - events are compared
+    with $\mu^-$ e + and charged-current events. Three $\nu_\mu$ N $\to$ $\mu^-$ e + e - X events were
+    observed with p e ± > 0.3 GeV/ c , p $\mu^-$ > 4.5 GeV/ c , and m e + e - > m π 0 . The rate of these
+    events relative to the charged-current events is (3.1 ± 1.9) $\times 10^{-4}$ .
 - bibtag: Armenise:1979zg
   title: Charged Current Elastic Anti-neutrino Interactions in Propane
   collaboration: Gargamelle
@@ -10,11 +56,11 @@
   published_date: '1979'
   inspire_recid: 146172
   citation_count: 101
-  abstract: A sample of 766 antineutrino charged current elastic events has been used to extract
-    the variation of the elastic cross section with antineutrino energy and the distribution of
-    $dN/dq^2$. The best fit value for the parameter $M_A$ obtained from these measurements is $M_A
-    = 0.91\pm0.04$ GeV/$c^2$ for $M_V = 0.84$ GeV/$c^2$. A simultaneous determination of $M_A$ and
-    $M_V$ gives $M_A = 0.94\pm0.07$, $M_V = 0.81$.
+  abstract: A sample of 766 antineutrino charged current elastic events has been used to extract the variation
+    of the elastic cross section with antineutrino energy and the distribution of $dN/dq^2$. The best
+    fit value for the parameter $M_A$ obtained from these measurements is $M_A = 0.91\pm0.04$ GeV/$c^2$
+    for $M_V = 0.84$ GeV/$c^2$. A simultaneous determination of $M_A$ and $M_V$ gives $M_A = 0.94\pm0.07$,
+    $M_V = 0.81$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -65,6 +111,41 @@
     measurement_type: total
     observables: null
     energy_notes: null
+- bibtag: GargamelleNeutrinoPropane:1979kqo
+  title: Total Cross-section for Neutrino Charged Current Interactions at 3-{GeV} and 9-{GeV}
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(79)90303-4
+  journal: Phys.Lett.B
+  volume: '84'
+  pages: '281'
+  year: 1979
+  published_date: '1979'
+  inspire_recid: 141175
+  citation_count: 105
+  abstract: Average total cross sections are given for neutrino charged current interactions at neutrino
+    energies of 2.87 GeV and 9.05 GeV. The ratios $\langle\sigma\rangle/\langle E\rangle$ are $0.69\pm0.05$
+    and $0.61\pm0.06$ in units of $10^{-38}$ cm$^2$/GeV nucleon, respectively. The errors include both
+    statistical and systematic uncertainties.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL
+    reanalysis (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(79)90303-4
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:GargamelleNeutrinoPropane:1979kqo
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - C3H8
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: average total CC cross section <sigma>/<E> at <E_nu> = 2.87 and 9.05 GeV (0.69 +/- 0.05
+      and 0.61 +/- 0.06, 10^-38 cm^2/GeV/nucleon)
+    energy_notes: Gargamelle propane, CERN PS and SPS wide-band beams
 - bibtag: GargamelleNeutrinoPropane:1977hya
   title: Experimental Study of Exclusive One Pion Production in All Neutrino Induced Neutral Current Channels
   collaboration: Gargamelle
@@ -118,6 +199,39 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- bibtag: Krenz:1978hh
+  title: Strange Particle Production by Neutral Currents in Neutrino Reactions
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(78)90773-6
+  journal: Phys.Lett.B
+  volume: '73'
+  pages: '493'
+  year: 1978
+  published_date: '1978'
+  inspire_recid: 134415
+  citation_count: 7
+  abstract: The production rate of strange particle pairs in neutrino current has been measured in the
+    “Gargamelle propane” neutrino experiment and is found to be agreement with the resuylt from the “Gargamelle
+    freon” experiment.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(78)90773-6
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Krenz:1978hh
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - C3H8
+    topology: NC strange
+    measurement_type: total
+    observables: Production rate of strange-particle pairs (associated production) via NC
+    energy_notes: CERN PS Gargamelle propane, wide-band neutrino beam
+    pion_bucket: null
+  release_status: digitize
 - bibtag: Pohl:1977sx
   title: Study of Neutrino Proton Elastic Scattering in the GARGAMELLE Freon Experiment
   collaboration: Gargamelle
@@ -130,11 +244,11 @@
   published_date: 1977-11
   inspire_recid: 122236
   citation_count: 42
-  abstract: The cross section ratio of the elastic neutral current reaction $\nu p \to \nu p$ to
-    the quasi-elastic charged current reaction $\nu n \to \mu^- p$ has been measured in the
-    kinematical region $0.3 \leq q^2 \leq 1.0\,(\mathrm{GeV}/c)^2$. The measured value is $R_M =
-    0.17\pm0.08$. Model dependent corrections are applied, especially for $\nu n \to \nu n$
-    contamination, and the result is compared to various models.
+  abstract: The cross section ratio of the elastic neutral current reaction $\nu p \to \nu p$ to the quasi-elastic
+    charged current reaction $\nu n \to \mu^- p$ has been measured in the kinematical region $0.3 \leq
+    q^2 \leq 1.0\,(\mathrm{GeV}/c)^2$. The measured value is $R_M = 0.17\pm0.08$. Model dependent corrections
+    are applied, especially for $\nu n \to \nu n$ contamination, and the result is compared to various
+    models.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -152,6 +266,42 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- bibtag: Aachen-Brussels-CERN-EcolePoly-Milan-Orsay-London:1977tvj
+  title: Strange Particle Production by Neutral Currents in the GARGAMELLE Neutrino and anti-neutrino
+    Experiments
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(78)90772-4
+  journal: Phys.Lett.B
+  volume: '73'
+  pages: '487'
+  year: 1977
+  published_date: 1977-11
+  inspire_recid: 122196
+  citation_count: 6
+  abstract: The production rates of strange particles in pairs via neutral currents in ν and ν reactions
+    have been measured in the “Garmelle” freon experiment. An upper limit for the fraction of the nucleon
+    momentum carried is also given.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(78)90772-4
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Aachen-Brussels-CERN-EcolePoly-Milan-Orsay-London:1977tvj
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CF3Br
+    topology: NC strange
+    measurement_type: total
+    observables: Production rate of strange-particle pairs via NC in nu and nubar reactions; upper limit
+      on fraction of nucleon momentum carried by strange pairs
+    energy_notes: CERN Gargamelle freon, wide-band nu/nubar beam
+    pion_bucket: null
+  release_status: digitize
 - bibtag: Bonetti:1977cs
   title: Study of Quasielastic Reactions of Neutrino and anti-neutrino in Gargamelle
   collaboration: Gargamelle
@@ -164,17 +314,16 @@
   published_date: '1977'
   inspire_recid: 124163
   citation_count: 148
-  abstract: The quasi-elastic cross-sections $\sigma_\mathrm{el}^\mathrm{tot}$ and $d\sigma/dq^2$
-    for the reactions 1) $\nu n \to \mu^- p$ and 2) $\bar\nu p \to \mu^+ n$ have been measured by
-    using the data of the $\nu$ Gargamelle collaboration. 687 $\nu$ events, candidates for
-    reaction 1), and 476 $\bar\nu$ events, candidates for reaction 2), have been used for the
-    analysis. Because the $\nu$ and $\bar\nu$ interactions are on nuclei, suitable corrections for
-    nuclear effects have been taken into account. In the framework of the usual $V-A$ theory, by
-    assuming for the axial form factor the dipole form $F_A(q^2) = 1.23/(1 + q^2/M_A^2)^2$, our
-    data have been fitted to the differential cross-section $d\sigma/dq^2$ integrated over the
-    $\nu$ and $\bar\nu$ energy spectra and to the total cross-section
-    $\sigma_\mathrm{el}^\mathrm{tot}$ as a function of the $\nu$, $\bar\nu$ energy to determine
-    the best value for the parameter $M_A$.
+  abstract: The quasi-elastic cross-sections $\sigma_\mathrm{el}^\mathrm{tot}$ and $d\sigma/dq^2$ for
+    the reactions 1) $\nu n \to \mu^- p$ and 2) $\bar\nu p \to \mu^+ n$ have been measured by using the
+    data of the $\nu$ Gargamelle collaboration. 687 $\nu$ events, candidates for reaction 1), and 476
+    $\bar\nu$ events, candidates for reaction 2), have been used for the analysis. Because the $\nu$ and
+    $\bar\nu$ interactions are on nuclei, suitable corrections for nuclear effects have been taken into
+    account. In the framework of the usual $V-A$ theory, by assuming for the axial form factor the dipole
+    form $F_A(q^2) = 1.23/(1 + q^2/M_A^2)^2$, our data have been fitted to the differential cross-section
+    $d\sigma/dq^2$ integrated over the $\nu$ and $\bar\nu$ energy spectra and to the total cross-section
+    $\sigma_\mathrm{el}^\mathrm{tot}$ as a function of the $\nu$, $\bar\nu$ energy to determine the best
+    value for the parameter $M_A$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -194,38 +343,173 @@
     measurement_type: null
     observables: null
     energy_notes: null
-- bibtag: GargamelleNeutrinoPropane:1979kqo
-  title: Total Cross-section for Neutrino Charged Current Interactions at 3-{GeV} and 9-{GeV}
+- bibtag: Erriquez:1977tr
+  title: Strange Particle Production by anti-neutrinos
   collaboration: Gargamelle
   arxiv: null
-  doi: 10.1016/0370-2693(79)90303-4
+  doi: 10.1016/0370-2693(77)90683-9
   journal: Phys.Lett.B
-  volume: '84'
-  pages: '281'
-  year: 1979
-  published_date: '1979'
-  inspire_recid: 141175
-  citation_count: 105
-  abstract: Average total cross sections are given for neutrino charged current interactions at
-    neutrino energies of 2.87 GeV and 9.05 GeV. The ratios $\langle\sigma\rangle/\langle E\rangle$
-    are $0.69\pm0.05$ and $0.61\pm0.06$ in units of $10^{-38}$ cm$^2$/GeV nucleon, respectively.
-    The errors include both statistical and systematic uncertainties.
-  added: '2026-07-23'
-  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
-    (1411.4482).
+  volume: '70'
+  pages: '383'
+  year: 1977
+  published_date: '1977'
+  inspire_recid: 126180
+  citation_count: 28
+  abstract: Cross sections are presented for antineutrino production of Λ, Σ 0 and K 0 in strangeness
+    changing reactions. Associated production reactions ( ΔS = 0) have been observed in the charged and
+    the neutral current channels. For the elastic reaction v p → μ + Λ , estimates have been made of the
+    axial transition form factor.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
   links:
     arxiv: null
-    doi: https://doi.org/10.1016/0370-2693(79)90303-4
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:GargamelleNeutrinoPropane:1979kqo
+    doi: https://doi.org/10.1016/0370-2693(77)90683-9
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Erriquez:1977tr
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CF3Br
+    topology: CC strange
+    measurement_type: total
+    observables: Cross sections for antineutrino associated (Delta S=0) production of Lambda, Sigma0,
+      K0
+    energy_notes: Gargamelle CERN PS/SPS antineutrino wide-band beam
+    pion_bucket: null
+  - current: NC
+    flavor:
+    - numubar
+    target:
+    - CF3Br
+    topology: NC strange
+    measurement_type: total
+    observables: Cross sections for antineutrino associated (Delta S=0) production of Lambda, Sigma0,
+      K0 via NC
+    energy_notes: Gargamelle CERN PS/SPS antineutrino wide-band beam
+    pion_bucket: null
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CF3Br
+    topology: CC Λ
+    measurement_type: total
+    observables: Quasi-elastic reaction nubar p -> mu+ Lambda; axial transition form factor estimate
+    energy_notes: Gargamelle CERN PS/SPS antineutrino wide-band beam
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: Cross sections are presented for antineutrino production of Λ, Σ 0 and K 0 in strangeness
+    changing reactions. Associated production reactions ( ΔS = 0) have been observed in the charged and
+    the neutral current channels. For the elastic reaction v p $\to$ $\mu^+$ Λ , estimates have been made
+    of the axial transition form factor.
+- bibtag: Blietschau:1975vt
+  title: Observation of Muon-Neutrino Reactions Producing a Positron and a Strange Particle
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(76)90425-1
+  journal: Phys.Lett.B
+  volume: '60'
+  pages: '207'
+  year: 1975
+  published_date: 1975-12
+  inspire_recid: 100913
+  citation_count: 224
+  abstract: In addition to one previously reported event, a second event, in which a positron is observed
+    together with a strange particle and a negative muon, has been seen in the bubble chamber Gargamelle
+    exposed to the CERN neutrino beam. The level of the background for this type of event is found to
+    be very low. The data strongly indicate the existence of a new type of interaction leading to a charged
+    lepton pair correlated with a strange particle in the final state. The interpretation of these two
+    events in terms of production of a charmed hadron is presented.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(76)90425-1
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Blietschau:1975vt
   measurements:
   - current: CC
     flavor:
     - numu
     target:
-    - C3H8
-    topology: Inclusive
+    - CF3Br
+    topology: CC charm
+    measurement_type: null
+    observables: observation of mu-e+ + strange-particle events (candidate charm dilepton events)
+    energy_notes: CERN PS Gargamelle beam
     pion_bucket: null
+  release_status: not_xsec
+- bibtag: Deden:1975pa
+  title: Strange Particle Production and Charmed Particle Search in the Gargamelle Neutrino Experiment
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(75)90674-7
+  journal: Phys.Lett.B
+  volume: '58'
+  pages: '361'
+  year: 1975
+  published_date: '1975'
+  inspire_recid: 103554
+  citation_count: 149
+  abstract: Data is given for single and multiple strange particle production in neutrino reactions in
+    both charged and neutral current channels. A total of 15000 neutrino and antineutrino events has been
+    examined for possible evidence of semi-leptonic decay of a charmed particle. One candidate has been
+    observed. Upper limits on charmed particle production cross-sections are given as a function of the
+    neutrino energy and the invariant mass of the final state hadrons.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(75)90674-7
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Deden:1975pa
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - CF3Br
+    topology: CC charm
+    measurement_type: limit
+    observables: search for charmed-particle semileptonic decay; upper limits on charm production cross
+      section vs E_nu and hadronic mass
+    energy_notes: CERN PS Gargamelle beam
+    pion_bucket: null
+  release_status: digitize
+- bibtag: Eichten:1972bb
+  title: Observation of 'Elastic' Hyperon Production by Anti-neutrinos
+  collaboration: Gargamelle
+  arxiv: null
+  doi: 10.1016/0370-2693(72)90490-X
+  journal: Phys.Lett.B
+  volume: '40'
+  pages: '593'
+  year: 1972
+  published_date: 1972-08
+  inspire_recid: 75412
+  citation_count: 69
+  abstract: The production of Λ and Σ 0 hyperons by antineutrinos has been observed. These events have
+    been used to estimate the production cross-section on protons. The result is compared with the predictions
+    of the Cabibbo theory for the process ν p → μ + Λ .
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(72)90490-X
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Eichten:1972bb
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - CF3Br
+    topology: CC Λ
     measurement_type: total
-    observables: average total CC cross section <sigma>/<E> at <E_nu> = 2.87 and 9.05 GeV (0.69 +/- 0.05 and 0.61
-      +/- 0.06, 10^-38 cm^2/GeV/nucleon)
-    energy_notes: Gargamelle propane, CERN PS and SPS wide-band beams
+    observables: Quasi-elastic ('elastic') Lambda and Sigma0 hyperon production cross section on protons
+      (nubar p -> mu+ Lambda), compared to Cabibbo-theory prediction
+    energy_notes: Gargamelle CERN PS antineutrino wide-band beam
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: The production of Λ and Σ 0 hyperons by antineutrinos has been observed. These events
+    have been used to estimate the production cross-section on protons. The result is compared with the
+    predictions of the Cabibbo theory for the process ν p $\to$ $\mu^+$ Λ .

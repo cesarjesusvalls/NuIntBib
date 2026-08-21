@@ -1,3 +1,41 @@
+- bibtag: NuTeV:2007uwm
+  title: Measurement of the Nucleon Strange-Antistrange Asymmetry at Next-to-Leading Order in QCD from
+    NuTeV Dimuon Data
+  collaboration: NuTeV
+  arxiv: null
+  doi: 10.1103/PhysRevLett.99.192001
+  journal: Phys.Rev.Lett.
+  volume: '99'
+  pages: '192001'
+  year: 2007
+  published_date: 2007-11
+  inspire_recid: 774494
+  citation_count: 170
+  abstract: We present a new measurement of the difference between the nucleon strange and antistrange
+    quark distributions from dimuon events recorded by the NuTeV experiment at Fermilab. This analysis
+    is the first to use a complete next to leading order QCD d escription of charm production from neutrino
+    scattering. Dimuon events in neutrino deep inelastic scattering allow direct and independent study
+    of the strange and antistrange content of the nucleon. We find a positive strange asymmetry with a
+    significance of 1.6sigma . We also report a new measurement of the charm mass.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.99.192001
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NuTeV:2007uwm
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: CC charm
+    measurement_type: single-diff
+    observables: dimuon events; strange-antistrange quark distribution asymmetry s(x)-sbar(x); charm mass
+    energy_notes: Fermilab Tevatron NuTeV beam
+    pion_bucket: null
+  release_status: digitize
 - bibtag: NuTeV:2005wsg
   title: Precise measurement of neutrino and anti-neutrino differential cross sections
   collaboration: NuTeV
@@ -34,3 +72,58 @@
     measurement_type: double-diff
     observables: CC differential cross sections (DIS) on iron
     energy_notes: high-energy (FNAL sign-selected beam)
+- bibtag: NuTeV:2001dfo
+  title: Precise Measurement of Dimuon Production Cross-Sections in $\nu_{\mu}$ Fe and $\bar{\nu}_{\mu}$
+    Fe Deep Inelastic Scattering at the Tevatron.
+  collaboration: NuTeV
+  arxiv: hep-ex/0102049
+  doi: 10.1103/PhysRevD.64.112006
+  journal: Phys.Rev.D
+  volume: '64'
+  pages: '112006'
+  year: 2001
+  published_date: 2001-02
+  inspire_recid: 553499
+  citation_count: 425
+  abstract: We present measurements of the semi-inclusive cross sections for νμ- and ν¯μ-nucleon deep
+    inelastic scattering interactions with two oppositely charged muons in the final state. These events
+    dominantly arise from the production of a charm quark during the scattering process. The measurement
+    was obtained from the analysis of 5102 νμ-induced and 1458 ν¯μ-induced events collected with the NuTeV
+    detector exposed to a sign-selected beam at the Fermilab Tevatron. We also extract a cross-section
+    measurement from a reanalysis of 5030 νμ-induced and 1060 ν¯μ-induced events collected from the exposure
+    of the same detector to a quad-triplet beam by the Chicago Columbia Fermilab Rochester (CCFR) experiment.
+    The results are combined to obtain the most statistically precise measurement of neutrino-induced
+    dimuon production cross sections to date. These measurements should be of broad use to phenomenologists
+    interested in the dynamics of charm production, the strangeness content of the nucleon, and the Cabibbo-Kobayashi-Maskawa
+    matrix element Vcd.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: https://arxiv.org/abs/hep-ex/0102049
+    doi: https://doi.org/10.1103/PhysRevD.64.112006
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:NuTeV:2001dfo
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: CC charm
+    measurement_type: single-diff
+    observables: semi-inclusive dimuon (charm) production cross sections in numu-Fe and numubar-Fe DIS,
+      combined NuTeV+CCFR
+    energy_notes: Fermilab Tevatron NuTeV sign-selected beam
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: We present measurements of the semi-inclusive cross sections for $\nu_\mu$- and $\bar\nu_\mu$-nucleon
+    deep inelastic scattering interactions with two oppositely charged muons in the final state. These
+    events dominantly arise from the production of a charm quark during the scattering process. The measurement
+    was obtained from the analysis of 5102 $\nu_\mu$-induced and 1458 $\bar\nu_\mu$-induced events collected
+    with the NuTeV detector exposed to a sign-selected beam at the Fermilab Tevatron. We also extract
+    a cross-section measurement from a reanalysis of 5030 $\nu_\mu$-induced and 1060 $\bar\nu_\mu$-induced
+    events collected from the exposure of the same detector to a quad-triplet beam by the Chicago Columbia
+    Fermilab Rochester (CCFR) experiment. The results are combined to obtain the most statistically precise
+    measurement of neutrino-induced dimuon production cross sections to date. These measurements should
+    be of broad use to phenomenologists interested in the dynamics of charm production, the strangeness
+    content of the nucleon, and the Cabibbo-Kobayashi-Maskawa matrix element Vcd.

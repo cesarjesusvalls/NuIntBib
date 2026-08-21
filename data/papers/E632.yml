@@ -1,0 +1,125 @@
+- bibtag: E632:1994njp
+  title: Neutral strange particle production in neutrino and anti-neutrino charged current interactions
+    on neon
+  collaboration: E632
+  arxiv: null
+  doi: 10.1103/PhysRevD.50.6691
+  journal: Phys.Rev.D
+  volume: '50'
+  pages: '6691'
+  year: 1994
+  published_date: '1994'
+  inspire_recid: 384756
+  citation_count: 43
+  abstract: A study has been made of neutral strange particle production in νμNe and ν¯μNe charged-current
+    interactions at a higher energy than any previous study. The experiment was done at the Fermilab Tevatron
+    using the 15-ft. bubble chamber, and the data sample consists of 814(154) observed neutral strange
+    particles from 6263(1115) ν(ν¯) charged-current events. For the ν beam (average event energy 〈Eν〉=150
+    GeV), the average multiplicities per charged-current event have been measured to be 0.408±0.048 for
+    K0, 0.127±0.014 for Λ, and 0.015±0.005 for Λ¯, which are significantly greater than for lower-energy
+    experiments. The dependence of rates on kinematical variables has been measured, and shows that both
+    K0 and Λ production increase strongly with Eν, W2, Q2, and yB. Compared to lower-energy experiments,
+    single-particle distributions indicate that there is much more K0 production for xF>-0.2, and the
+    enhanced Λ production spans most of the kinematic region. Λ¯ production is mostly in the region ‖xF‖<0.3.
+    The Lund model is shown to be in qualitative agreement with the data, but does not reproduce single-particle
+    distributions in detail. For xF>-0.2 there is a significant excess of Λ production over the model’s
+    prediction. The Λ hyperons are found to be polarized in the production plane.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.50.6691
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:E632:1994njp
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ne
+    topology: CC strange
+    measurement_type: total
+    observables: K0, Lambda, Lambdabar mean multiplicities per CC event; dependence on Enu, W2, Q2, yB;
+      xF distributions; Lambda polarization
+    energy_notes: Fermilab Tevatron 15-ft bubble chamber wide-band beam, <Enu>~150 GeV (nu) / 110 GeV
+      (nubar)
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: A study has been made of neutral strange particle production in $\nu_\mu$Ne and $\bar\nu_\mu$Ne
+    charged-current interactions at a higher energy than any previous study. The experiment was done at
+    the Fermilab Tevatron using the 15-ft. bubble chamber, and the data sample consists of 814(154) observed
+    neutral strange particles from 6263(1115) ν(ν¯) charged-current events. For the ν beam (average event
+    energy 〈Eν〉=150 GeV), the average multiplicities per charged-current event have been measured to be
+    0.408±0.048 for $^{0}\mathrm{K}$, 0.127±0.014 for Λ, and 0.015±0.005 for Λ¯, which are significantly
+    greater than for lower-energy experiments. The dependence of rates on kinematical variables has been
+    measured, and shows that both $^{0}\mathrm{K}$ and Λ production increase strongly with Eν, $^{2}\mathrm{W}$,
+    Q2, and yB. Compared to lower-energy experiments, single-particle distributions indicate that there
+    is much more $^{0}\mathrm{K}$ production for xF>-0.2, and the enhanced Λ production spans most of
+    the kinematic region. Λ¯ production is mostly in the region ‖xF‖<0.3. The Lund model is shown to be
+    in qualitative agreement with the data, but does not reproduce single-particle distributions in detail.
+    For xF>-0.2 there is a significant excess of Λ production over the model’s prediction. The Λ hyperons
+    are found to be polarized in the production plane.
+- bibtag: E-632:1992djc
+  title: Study of High-Energy Neutrino Neutral Current Interactions
+  collaboration: E632
+  arxiv: null
+  doi: 10.1103/PhysRevD.45.2232
+  journal: Phys.Rev.D
+  volume: '45'
+  pages: '2232'
+  year: 1992
+  published_date: '1992-12-07'
+  inspire_recid: 33677
+  citation_count: 14
+  abstract: From an exposure of the Fermilab 15-foot bubble chamber to the Tevatron quadrupole triplet
+    neutrino beam, we have determined the ratio of neutral-current (NC) to charged-current (CC) interactions
+    to be 0.288 ± 0.032 for events with visible hadron momentum above 10 GeV/c. The mean ν(ν¯) event energy
+    is 150 (110) GeV, which is higher than that for any previous beam. This result agrees with those from
+    previous experiments at lower energies. The NC/CC ratio is derived for a combined sample of ν and
+    ν events. A value of 0.274 ± 0.038 is obtained for the dominant ν component assuming ν¯ NC/CC = 0.39
+    ± 0.08. For events with visible hadron momentum above 25 GeV/c, where the neutral hadron contamination
+    remaining in the NC sample is assumed to be negligible, the combined NC/CC is 0.323 ± 0.025 and the
+    K0 production rates are 0.375 ± 0.064 per CC and 0.322 ± 0.073 per NC event. The corresponding Λ rates
+    are 0.161 ± 0.030 per CC and 0.113 ± 0.030 per NC event. The K0 and Δ distributions of the fractional
+    hadron energy variable z in NC events are consistent with those in CC events.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.45.2232
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:E-632:1992djc
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ne
+    topology: CC strange
+    measurement_type: total
+    observables: K0 and Lambda production rate per CC event (visible hadron momentum >25 GeV/c)
+    energy_notes: Fermilab Tevatron 15-ft bubble chamber wide-band beam, <Enu>~150(nu)/110(nubar) GeV
+    pion_bucket: null
+  - current: NC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ne
+    topology: NC strange
+    measurement_type: total
+    observables: K0 and Lambda production rate per NC event (visible hadron momentum >25 GeV/c)
+    energy_notes: Fermilab Tevatron 15-ft bubble chamber wide-band beam, <Enu>~150(nu)/110(nubar) GeV
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: From an exposure of the Fermilab 15-foot bubble chamber to the Tevatron quadrupole triplet
+    neutrino beam, we have determined the ratio of neutral-current (NC) to charged-current (CC) interactions
+    to be 0.288 ± 0.032 for events with visible hadron momentum above 10 GeV/c. The mean ν(ν¯) event energy
+    is 150 (110) GeV, which is higher than that for any previous beam. This result agrees with those from
+    previous experiments at lower energies. The NC/CC ratio is derived for a combined sample of ν and
+    ν events. A value of 0.274 ± 0.038 is obtained for the dominant ν component assuming ν¯ NC/CC = 0.39
+    ± 0.08. For events with visible hadron momentum above 25 GeV/c, where the neutral hadron contamination
+    remaining in the NC sample is assumed to be negligible, the combined NC/CC is 0.323 ± 0.025 and the
+    $^{0}\mathrm{K}$ production rates are 0.375 ± 0.064 per CC and 0.322 ± 0.073 per NC event. The corresponding
+    Λ rates are 0.161 ± 0.030 per CC and 0.113 ± 0.030 per NC event. The $^{0}\mathrm{K}$ and Δ distributions
+    of the fractional hadron energy variable z in NC events are consistent with those in CC events.

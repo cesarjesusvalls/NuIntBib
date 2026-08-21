@@ -1,3 +1,48 @@
+- bibtag: Rabinowitz:1993xx
+  title: Measurement of the Strange Sea Distribution using Neutrino Charm Production
+  collaboration: CCFR
+  arxiv: null
+  doi: 10.1103/PhysRevLett.70.134
+  journal: Phys.Rev.Lett.
+  volume: '70'
+  pages: '134'
+  year: 1993
+  published_date: 1993-08
+  inspire_recid: 354524
+  citation_count: 280
+  abstract: A high-statistics study by the Columbia-Chicago-Fermilab-Rochester Collaboration of opposite-sign
+    dimuon events induced by neutrino-nucleon scattering at the Fermilab Tevatron is presented. A sample
+    of 5044 νμ and 1062 ν¯μ induced μ∓μ± events with Pμ1≥9 GeV/c, Pμ2≥5 GeV/c, 30≤Eν≤600 GeV, and 〈Q2〉=22.2
+    GeV2/c2 is observed. The data support the slow-rescaling model of charm production with a value of
+    mc=1.31±0.24 GeV2/c2. The first measurement of the Q2 dependence of the nucleon strange quark distribution
+    xs(x) is presented. The data yield the Cabibbo-Kobayashi-Maskawa matrix element ‖Vcd‖=0.209±0.012
+    and the nucleon fractional strangeness content ηs=0.064−0.007+0.008.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.70.134
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Rabinowitz:1993xx
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: CC charm
+    measurement_type: single-diff
+    observables: opposite-sign dimuon events; Q2 dependence of strange sea xs(x); charm mass, Vcd, eta_s
+    energy_notes: Fermilab Tevatron narrow-band, 30-600 GeV
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: A high-statistics study by the Columbia-Chicago-Fermilab-Rochester Collaboration of opposite-sign
+    dimuon events induced by neutrino-nucleon scattering at the Fermilab Tevatron is presented. A sample
+    of 5044 $\nu_\mu$ and 1062 $\bar\nu_\mu$ induced μ∓μ± events with Pμ1≥9 GeV/c, Pμ2≥5 GeV/c, 30≤Eν≤600
+    GeV, and 〈Q2〉=22.2 GeV2/c2 is observed. The data support the slow-rescaling model of charm production
+    with a value of mc=1.31±0.24 GeV2/c2. The first measurement of the Q2 dependence of the nucleon strange
+    quark distribution xs(x) is presented. The data yield the Cabibbo-Kobayashi-Maskawa matrix element
+    ‖Vcd‖=0.209±0.012 and the nucleon fractional strangeness content ηs=0.064-0.007+0.008.
 - bibtag: Auchincloss:1990tu
   title: Measurement of the Inclusive Charged Current Cross-section for Neutrino and Anti-neutrino Scattering
     on Isoscalar Nucleons
@@ -31,3 +76,44 @@
     measurement_type: total
     observables: total inclusive CC cross section vs energy
     energy_notes: high-energy (FNAL, ~30-250 GeV)
+- bibtag: Foudas:1989rk
+  title: Neutrino Production of Opposite Sign Dimuons at Tevatron Energies
+  collaboration: CCFR
+  arxiv: null
+  doi: 10.1103/PhysRevLett.64.1207
+  journal: Phys.Rev.Lett.
+  volume: '64'
+  pages: '1207'
+  year: 1989
+  published_date: '1989-10-02'
+  inspire_recid: 26417
+  citation_count: 156
+  abstract: We have measured the strange-quark content of the nucleon, ηs=−0.08+0.012, and the Kobayashi-Maskawa
+    matrix element ‖Vcd‖=0.220−0.018+0.015 using a sample of 1797 νμ- and ν¯μ-induced μ−μ+ events with
+    Pμ≥9 GeV/c and 30≤Eν≤600 GeV. The data are consistent with the slow-rescaling hypothesis of charm
+    production in ν-N scattering and within this formalism yield a value of the charm-quark mass parameter
+    mc=1.31−0.48+0.64 GeV/c2. .AE
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.64.1207
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Foudas:1989rk
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: CC charm
+    measurement_type: total
+    observables: opposite-sign dimuon events; strange sea content eta_s, Vcd, charm-quark mass
+    energy_notes: Fermilab Tevatron narrow-band, 30-600 GeV
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: We have measured the strange-quark content of the nucleon, ηs=-0.08+0.012, and the Kobayashi-Maskawa
+    matrix element ‖Vcd‖=0.220-0.018+0.015 using a sample of 1797 $\nu_\mu$- and $\bar\nu_\mu$-induced
+    $\mu^-$ $\mu^+$ events with Pμ≥9 GeV/c and 30≤Eν≤600 GeV. The data are consistent with the slow-rescaling
+    hypothesis of charm production in ν-N scattering and within this formalism yield a value of the charm-quark
+    mass parameter mc=1.31-0.48+0.64 GeV/c2. .AE

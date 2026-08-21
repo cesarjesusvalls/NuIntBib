@@ -1,3 +1,90 @@
+- bibtag: Jones:1992bm
+  title: Neutral strange particle production in neutrino and anti-neutrino charged current interactions
+    on protons
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1007/BF01565049
+  journal: Z.Phys.C
+  volume: '57'
+  pages: '197'
+  year: 1992
+  published_date: 1992-08
+  inspire_recid: 341096
+  citation_count: 30
+  abstract: The production of the neutral strange particlesK0, Λ and\(\bar \Lambda \) invp and\(\bar vp\)
+    charged current interactions is studied in an experiment with the Big European Bubble Chamber. Mean
+    multiplicities are measured as a function of the event variablesEv,W2 andQ2 and of the hadron variablesxF,z
+    andpT2.K*± (892) and∑*± (1385) signals are observed, whereas there is no evidence for∑*- (1385) production
+    invp scattering. Forward, backward and total mean multiplicities are found to compare well with the
+    predictions of an empirical model for deep-inelastic reactions in the case of the strange mesonsK0
+    andK*± (892) but less so for the strange baryons Λ,\(\bar \Lambda \) and∑*± (1385). The strange baryon
+    multiplicities are used to obtain the decuplet to octet baryon production ratio and to assess the
+    probabilities of auu orud system to break up.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01565049
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Jones:1992bm
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - H2
+    topology: CC strange
+    measurement_type: single-diff
+    observables: K0, Lambda, Lambdabar mean multiplicities vs Enu, W2, Q2, xF, z, pT2; K*+-(892), Sigma*+-(1385)
+      resonance production; decuplet/octet baryon ratio
+    energy_notes: BEBC wide-band nu/nubar beam, protons
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: The production of the neutral strange particlesK0, Λ and\(\bar \Lambda \) invp and\(\bar
+    vp\) charged current interactions is studied in an experiment with the Big European Bubble Chamber.
+    Mean multiplicities are measured as a function of the event variablesEv,$^{2}\mathrm{W}$ andQ2 and
+    of the hadron variablesxF,z andpT2.K*± (892) and∑*± (1385) signals are observed, whereas there is
+    no evidence for∑*- (1385) production invp scattering. Forward, backward and total mean multiplicities
+    are found to compare well with the predictions of an empirical model for deep-inelastic reactions
+    in the case of the strange mesonsK0 andK*± (892) but less so for the strange baryons Λ,\(\bar \Lambda
+    \) and∑*± (1385). The strange baryon multiplicities are used to obtain the decuplet to octet baryon
+    production ratio and to assess the probabilities of auu orud system to break up.
+- bibtag: WA59:1991cop
+  title: Neutral strange particle production in anti-neutrino - neon charged current interactions
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1007/BF01597556
+  journal: Z.Phys.C
+  volume: '53'
+  pages: '207'
+  year: 1991
+  published_date: 1991-09
+  inspire_recid: 319235
+  citation_count: 63
+  abstract: Neutral strange particle production in\(\bar v\) Ne charged current interactions is studied
+    using the bubble chamber BEBC, exposed to the CERN SPS antineutrino wide band beam. From a sample
+    of 1191 neutral strange particles, the inclusive production rates are determined to be (15.7±0.8)%
+    forK0 mesons, (8.2±0.5)% for Λ, (0.4±0.2)% for\(\bar \Lambda \) and (0.6±0.3)% for Σ0 hyperons. The
+    inclusive production properties ofK0 mesons and Λ hyperons are investigated. The Λ hyperons are found
+    to be polarized in the production plane.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01597556
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:WA59:1991cop
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - Ne
+    topology: CC strange
+    measurement_type: total
+    observables: K0, Lambda, Lambdabar, Sigma0 inclusive production rates; Lambda polarization
+    energy_notes: CERN SPS antineutrino wide-band beam (BEBC)
+    pion_bucket: null
+  release_status: abstract
 - bibtag: Allasia:1990uy
   title: Investigation of exclusive channels in neutrino / anti-neutrino deuteron charged current interactions
   collaboration: BEBC
@@ -77,52 +164,9 @@
     measurement_type: null
     observables: one-, two-, three-pion production cross sections
     energy_notes: null
-- bibtag: BEBCWA21:1986pvd
-  title: Measurement of Total Cross-sections for Neutrino and Anti-neutrino Charged Current Interactions
-    in Hydrogen and Neon
-  collaboration: BEBC
-  arxiv: null
-  doi: 10.1016/0370-2693(86)90248-0
-  journal: Phys.Lett.B
-  volume: '173'
-  pages: '211'
-  year: 1986
-  published_date: 1986-03
-  inspire_recid: 227412
-  citation_count: 31
-  abstract: BEBC filled in turn with hydrogen, and with a neon-hydrogen mixture, was exposed to
-    the CERN SPS wide band neutrino and antineutrino beams. The ratios of the charged-current
-    cross sections per nucleon, $\sigma(\nu\mathrm{H}_2)/\sigma(\nu\mathrm{Ne})$ and
-    $\sigma(\bar\nu\mathrm{H}_2)/\sigma(\bar\nu\mathrm{Ne})$, between 20 and 300 GeV were found to
-    be $0.656\pm0.020$ and $1.425\pm0.052$, respectively. Multiplying these ratios by the revised
-    cross sections in neon, $\sigma(\nu\mathrm{Ne})/E = (0.723\pm0.038)\times10^{-38}$ cm$^2$/GeV
-    per nucleon and $\sigma(\bar\nu\mathrm{Ne})/E = (0.351\pm0.019)\times10^{-38}$ cm$^2$/GeV per
-    nucleon, and their ratio, $\sigma(\bar\nu\mathrm{Ne})/\sigma(\nu\mathrm{Ne}) = 0.485\pm0.020$,
-    yields values for the total charged-current cross sections on protons, $\sigma(\nu p)/E$ and
-    $\sigma(\bar\nu p)/E$, of $(0.474\pm0.029)\times10^{-38}$ cm$^2$/GeV and
-    $(0.500\pm0.032)\times10^{-38}$ cm$^2$/GeV, respectively, and a value for the ratio
-    $\sigma(\bar\nu p)/\sigma(\nu p)$ of $1.053\pm0.066$.
-  added: '2026-06-16'
-  notes: Imported from PhD thesis Chapter 3 classification tables.
-  links:
-    arxiv: null
-    doi: https://doi.org/10.1016/0370-2693(86)90248-0
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:BEBCWA21:1986pvd
-  measurements:
-  - current: CC
-    flavor:
-    - numu
-    - numubar
-    target:
-    - H2
-    - Ne
-    topology: Inclusive
-    pion_bucket: null
-    measurement_type: total
-    observables: total CC cross sections on hydrogen and neon (and their ratio)
-    energy_notes: high-energy (CERN SPS WBB, 20-300 GeV)
 - bibtag: Allen:1985ti
-  title: A Study of Single Meson Production in Neutrino and Anti-neutrinos Charged Current Interactions on Protons
+  title: A Study of Single Meson Production in Neutrino and Anti-neutrinos Charged Current Interactions
+    on Protons
   collaboration: BEBC
   arxiv: null
   doi: 10.1016/0550-3213(86)90480-3
@@ -133,17 +177,17 @@
   published_date: '1986'
   inspire_recid: 213386
   citation_count: 85
-  abstract: We present results on exclusive single-charged pion and kaon production in neutrino
-    and antineutrino interactions on protons in the energy range from 5 to 120 GeV. The data were
-    obtained from exposures of BEBC to wide band beams at the CERN SPS. For invariant masses of
-    the $(p\pi)$ system below 2 GeV, the pions originate predominantly from decays of baryon
-    resonances excited by the weak charged current. Similarly, we observe the production of
-    $\Lambda(1520)$ decaying into $p$ and $K^-$. For invariant masses above 2 GeV pion production
-    becomes peripheral by interaction of the weak current with a virtual $\pi^0$. We establish a
-    contribution of longitudinally polarised intermediate vector bosons to this process.
+  abstract: We present results on exclusive single-charged pion and kaon production in neutrino and antineutrino
+    interactions on protons in the energy range from 5 to 120 GeV. The data were obtained from exposures
+    of BEBC to wide band beams at the CERN SPS. For invariant masses of the $(p\pi)$ system below 2 GeV,
+    the pions originate predominantly from decays of baryon resonances excited by the weak charged current.
+    Similarly, we observe the production of $\Lambda(1520)$ decaying into $p$ and $K^-$. For invariant
+    masses above 2 GeV pion production becomes peripheral by interaction of the weak current with a virtual
+    $\pi^0$. We establish a contribution of longitudinally polarised intermediate vector bosons to this
+    process.
   added: '2026-07-23'
-  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
-    (1411.4482).
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL
+    reanalysis (1411.4482).
   links:
     arxiv: null
     doi: https://doi.org/10.1016/0550-3213(86)90480-3
@@ -169,6 +213,92 @@
     measurement_type: total
     observables: exclusive single-pion production nu-bar p -> mu+ p pi-
     energy_notes: null
+- bibtag: BEBCWA21:1986pvd
+  title: Measurement of Total Cross-sections for Neutrino and Anti-neutrino Charged Current Interactions
+    in Hydrogen and Neon
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1016/0370-2693(86)90248-0
+  journal: Phys.Lett.B
+  volume: '173'
+  pages: '211'
+  year: 1986
+  published_date: 1986-03
+  inspire_recid: 227412
+  citation_count: 31
+  abstract: BEBC filled in turn with hydrogen, and with a neon-hydrogen mixture, was exposed to the CERN
+    SPS wide band neutrino and antineutrino beams. The ratios of the charged-current cross sections per
+    nucleon, $\sigma(\nu\mathrm{H}_2)/\sigma(\nu\mathrm{Ne})$ and $\sigma(\bar\nu\mathrm{H}_2)/\sigma(\bar\nu\mathrm{Ne})$,
+    between 20 and 300 GeV were found to be $0.656\pm0.020$ and $1.425\pm0.052$, respectively. Multiplying
+    these ratios by the revised cross sections in neon, $\sigma(\nu\mathrm{Ne})/E = (0.723\pm0.038)\times10^{-38}$
+    cm$^2$/GeV per nucleon and $\sigma(\bar\nu\mathrm{Ne})/E = (0.351\pm0.019)\times10^{-38}$ cm$^2$/GeV
+    per nucleon, and their ratio, $\sigma(\bar\nu\mathrm{Ne})/\sigma(\nu\mathrm{Ne}) = 0.485\pm0.020$,
+    yields values for the total charged-current cross sections on protons, $\sigma(\nu p)/E$ and $\sigma(\bar\nu
+    p)/E$, of $(0.474\pm0.029)\times10^{-38}$ cm$^2$/GeV and $(0.500\pm0.032)\times10^{-38}$ cm$^2$/GeV,
+    respectively, and a value for the ratio $\sigma(\bar\nu p)/\sigma(\nu p)$ of $1.053\pm0.066$.
+  added: '2026-06-16'
+  notes: Imported from PhD thesis Chapter 3 classification tables.
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0370-2693(86)90248-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:BEBCWA21:1986pvd
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - H2
+    - Ne
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total CC cross sections on hydrogen and neon (and their ratio)
+    energy_notes: high-energy (CERN SPS WBB, 20-300 GeV)
+- bibtag: BEBCWA59:1985qpt
+  title: Dilepton and Trilepton Production by Anti-neutrinos and Neutrinos in Neon
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1007/BF01571374
+  journal: Z.Phys.C
+  volume: '29'
+  pages: '15'
+  year: 1985
+  published_date: 1985-05
+  inspire_recid: 218652
+  citation_count: 20
+  abstract: A sample of over 25,000 fully measured neutrino and antineutrino charged current interactions
+    in BEBC includes 192 dilepton candidates. The prompt signal after subtraction of background is 41
+    ±7µ+e-, 35±7µ+µ- events from\(\bar v\) interactions, and 32±7µ-µ+ events from ν interactions. There
+    are 2 trileptons, µ-µ-e+ and µ-µ-µ+. Results are compared with other experimental data and with the
+    standard model. Limits to prompt like sign µ+e+, µ+µ+ and µ-µ- signals are given and compared with
+    other experiments and with theoretical calculations.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01571374
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:BEBCWA59:1985qpt
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ne
+    topology: CC charm
+    measurement_type: null
+    observables: dilepton (mu+e-, mu+mu-, mu-mu+) and trilepton event counts; limits on like-sign dilepton
+      signals
+    energy_notes: CERN SPS wide-band beam
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: A sample of over 25,000 fully measured neutrino and antineutrino charged current interactions
+    in BEBC includes 192 dilepton candidates. The prompt signal after subtraction of background is 41
+    ±7µ+$e^-$, 35±7µ+µ- events from\(\bar v\) interactions, and 32±7µ-µ+ events from ν interactions. There
+    are 2 trileptons, µ-µ-$e^+$ and µ-µ-µ+. Results are compared with other experimental data and with
+    the standard model. Limits to prompt like sign µ+$e^+$, µ+µ+ and µ-µ- signals are given and compared
+    with other experiments and with theoretical calculations.
 - bibtag: Allasia:1983qh
   title: Single Pion Production in Charged Current Anti-neutrino D Interactions at High Energies
   collaboration: BEBC
@@ -181,18 +311,19 @@
   published_date: '1983'
   inspire_recid: 196370
   citation_count: 22
-  abstract: The reactions $\bar\nu D \to \mu^+ n \pi^- (p_s)$ and $\bar\nu D \to \mu^+ p \pi (n_s)$ have been
-    studied at antineutrino energies varying from 5 to 200 GeV. The cross sections for these reactions were
-    determined from 545 and 300 selected events for each channel respectively. The first reaction was used for
-    the study of the decay properties of the Δ resonance that dominates this channel. The experimental results
-    have been compared with the theoretical predictions of Rein and Sehgal [9] and of Fogli and Nardulli [10].
-    Using the first model we obtained for the axial form factor parameter $M_A = 1.01 \pm 0.05$ GeV/c². With this
-    value the model is in agreement with the experimental $d\sigma/dQ^2$ distributions for $Q^2 > 0.25$ GeV² and
-    with the distributions of the invariant hadronic mass $W$. The isospin structure of the one-pion production
-    has been investigated and compared with the results of other experiments.
+  abstract: The reactions $\bar\nu D \to \mu^+ n \pi^- (p_s)$ and $\bar\nu D \to \mu^+ p \pi (n_s)$ have
+    been studied at antineutrino energies varying from 5 to 200 GeV. The cross sections for these reactions
+    were determined from 545 and 300 selected events for each channel respectively. The first reaction
+    was used for the study of the decay properties of the Δ resonance that dominates this channel. The
+    experimental results have been compared with the theoretical predictions of Rein and Sehgal [9] and
+    of Fogli and Nardulli [10]. Using the first model we obtained for the axial form factor parameter
+    $M_A = 1.01 \pm 0.05$ GeV/c². With this value the model is in agreement with the experimental $d\sigma/dQ^2$
+    distributions for $Q^2 > 0.25$ GeV² and with the distributions of the invariant hadronic mass $W$.
+    The isospin structure of the one-pion production has been investigated and compared with the results
+    of other experiments.
   added: '2026-07-23'
-  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
-    (1411.4482).
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL
+    reanalysis (1411.4482).
   links:
     arxiv: null
     doi: https://doi.org/10.1007/BF01573212
@@ -206,6 +337,114 @@
     topology: CC1π-
     pion_bucket: null
     measurement_type: total
-    observables: single-pion CC antineutrino production nu-bar n -> mu+ n pi-(p_s) and nu-bar p -> mu+ p pi-(n_s),
-      5-200 GeV
+    observables: single-pion CC antineutrino production nu-bar n -> mu+ n pi-(p_s) and nu-bar p -> mu+
+      p pi-(n_s), 5-200 GeV
     energy_notes: BEBC (WA25) deuterium, CERN SPS wide-band beam, 5-200 GeV
+- bibtag: Aachen-Bonn-CERN-Democritos-London-Oxford-Saclay:1982tho
+  title: Strange Particle Production in Neutrino and Anti-neutrino Neon Interactions
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1016/0550-3213(82)90100-6
+  journal: Nucl.Phys.B
+  volume: '209'
+  pages: '29'
+  year: 1982
+  published_date: 1982-11
+  inspire_recid: 12781
+  citation_count: 49
+  abstract: The inclusive production of K 0 's and Λ's has been investigated in neutrino and antineutrino
+    interactions in BEBC, filled with a neon-hydrogen mixture. The inclusive rates for the 3083 (1022)
+    ν ( ν ) induced charged current events are (23.0 ± 1.7)% ((21.9 ± 2.8)%) for K 0 's and (5.7 ± 0.7)%
+    ((6.5 ± 1.2)%) for Λ 's. The general behaviour of the K 0 's and Λ's is found to be similar to that
+    in νp interactions and π + p interactions at lower 〈 W 〉. In the hadronic c.m.s. K 0 's are produced
+    mostly forwards, Λ's predominantly in the backward hemisphere. The data indicate that K 0 's produced
+    in ν interactions on average carry a larger fraction of the total available momentum than those in
+    ν induced reactions. The dependences of the average transverse momentum on the variables Q 2 , W 2
+    and Bjorken x are presented.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0550-3213(82)90100-6
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Aachen-Bonn-CERN-Democritos-London-Oxford-Saclay:1982tho
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ne
+    topology: CC strange
+    measurement_type: total
+    observables: K0 and Lambda inclusive production rates for nu and nubar CC events; forward/backward
+      asymmetry and <pT> vs Q2,W2,x
+    energy_notes: CERN wide-band nu/nubar beam (BEBC neon-hydrogen)
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: The inclusive production of K 0 's and Λ's has been investigated in neutrino and antineutrino
+    interactions in BEBC, filled with a neon-hydrogen mixture. The inclusive rates for the 3083 (1022)
+    ν ( ν ) induced charged current events are (23.0 ± 1.7)% ((21.9 ± 2.8)%) for K 0 's and (5.7 ± 0.7)%
+    ((6.5 ± 1.2)%) for Λ 's. The general behaviour of the K 0 's and Λ's is found to be similar to that
+    in νp interactions and $\pi^+$ p interactions at lower 〈 W 〉. In the hadronic c.m.s. K 0 's are produced
+    mostly forwards, Λ's predominantly in the backward hemisphere. The data indicate that K 0 's produced
+    in ν interactions on average carry a larger fraction of the total available momentum than those in
+    ν induced reactions. The dependences of the average transverse momentum on the variables Q 2 , W 2
+    and Bjorken x are presented.
+- bibtag: Aachen-Bonn-CERN-Munich-Oxford:1981mcl
+  title: Inclusive Neutral Strange Particle Production in Neutrino $p$ Interactions
+  collaboration: BEBC
+  arxiv: null
+  doi: 10.1016/0550-3213(82)90509-0
+  journal: Nucl.Phys.B
+  volume: '194'
+  pages: '1'
+  year: 1981
+  published_date: 1981-06
+  inspire_recid: 166157
+  citation_count: 45
+  abstract: In a selected sample of 6770 charged current (CC) events of νp interactions with 〈 E ν 〉 =
+    43 GeV and 〈W〉 = 4.6 GeV , 359 K 0 , 180 Λ and 13 Λ have been observed, which corresponds to a corrected
+    production rate at least one neutral strange particle in (17.4±0.8)% of the CC events. The ratio of
+    the inclusive Λ to K 0 production cross section is found to be 0.26±0.03. The number of CC events
+    containing at least one K 0 increases with increasing E ν and Q 2 , while the CC events containing
+    at least one Λ remain practically constant. The fractions of the total hadronic energy carried by
+    K 0 and Λ are found to be approximately the same in νp as in ep and μp interactions. In the hadronic
+    c.m.s., the K 0 are produced mostly forwards, the Λ mostly backwards, with asymmetry parameters of
+    +0.32±0.02 and −0.45±0.06, respectively. The total strange particle production cross section is estimated
+    to be (25±4)% of the cross section for production of CC events with W >1.5 GeV and that for charm
+    production (10±2)% of the CC cross section well above charm threshold ( W >3 GeV). The production
+    of the resonances K ∗+ (890) and Σ + (1385) has been observed. The production rate of K ∗+ (890) is
+    comparable to that of D ∗+ (2009), above the corresponding thresholds.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1016/0550-3213(82)90509-0
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Aachen-Bonn-CERN-Munich-Oxford:1981mcl
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: CC strange
+    measurement_type: total
+    observables: K0, Lambda inclusive production rate per CC event; Lambda/K0 cross-section ratio; strange-
+      and charm-production cross-section fractions of CC cross section; K*+(890), Sigma+(1385) resonance
+      production
+    energy_notes: BEBC wide-band neutrino beam, <Enu>=43 GeV
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: In a selected sample of 6770 charged current (CC) events of νp interactions with 〈 E ν
+    〉 = 43 GeV and 〈W〉 = 4.6 GeV , 359 K 0 , 180 Λ and 13 Λ have been observed, which corresponds to a
+    corrected production rate at least one neutral strange particle in (17.4±0.8)% of the CC events. The
+    ratio of the inclusive Λ to K 0 production cross section is found to be 0.26±0.03. The number of CC
+    events containing at least one K 0 increases with increasing E ν and Q 2 , while the CC events containing
+    at least one Λ remain practically constant. The fractions of the total hadronic energy carried by
+    K 0 and Λ are found to be approximately the same in νp as in ep and μp interactions. In the hadronic
+    c.m.s., the K 0 are produced mostly forwards, the Λ mostly backwards, with asymmetry parameters of
+    +0.32±0.02 and -0.45±0.06, respectively. The total strange particle production cross section is estimated
+    to be (25±4)% of the cross section for production of CC events with W >1.5 GeV and that for charm
+    production (10±2)% of the CC cross section well above charm threshold ( W >3 GeV). The production
+    of the resonances K *+ (890) and Σ + (1385) has been observed. The production rate of K *+ (890) is
+    comparable to that of D *+ (2009), above the corresponding thresholds.

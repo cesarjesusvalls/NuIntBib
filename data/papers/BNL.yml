@@ -1,3 +1,59 @@
+- bibtag: Kitagaki:1990vs
+  title: Study of neutrino d ---> mu- p p(s) and neutrino d ---> mu- Delta++ (1232) n(s) using the BNL
+    7-foot deuterium filled bubble chamber
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.42.1331
+  journal: Phys.Rev.D
+  volume: '42'
+  pages: '1331'
+  year: 1990
+  published_date: '1990'
+  inspire_recid: 304880
+  citation_count: 212
+  release_status: not_xsec
+  abstract: The weak nucleon axial-vector ($F_A$) and vector ($F_V$) form factors are determined from
+    the momentum-transfer-squared ($Q^2$) distributions using 2538 $\mu^- p$ and 1384 $\mu^-\Delta^{++}$
+    events. The data were obtained from 1 800 000 pictures taken in the BNL 7-foot deuterium-filled bubble
+    chamber exposed to a wide-band neutrino beam with a mean energy $E_\nu=1.6$ GeV. In the framework
+    of the conventional $V-A$ theory with standard assumptions, the value obtained from the $\mu^- p$
+    events for the axial-vector mass $M_A$ in the pure dipole parameterization is $1.070^{+0.040}_{-0.045}$
+    GeV and from the $\mu^-\Delta^{++}$ events is $1.28^{+0.08}_{-0.10}$ GeV. These results are in good
+    agreement with an earlier measurement from this experiment and other recent results. The reaction
+    mechanisms for both processes are compared and found to be very similar. A two-parameter fit for the
+    quasielastic reaction, using dipole forms for $F_V$ and $F_A$ yields $M_A=0.97^{+0.14}_{-0.11}$ GeV
+    and $M_V=0.89^{+0.04}_{-0.07}$ GeV, which is in good agreement with the conserved-vector-current value
+    of $M_V=0.84$ GeV. Possible deviations from the standard assumptions are also discussed.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL
+    reanalysis (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.42.1331
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Kitagaki:1990vs
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CCQE
+    pion_bucket: null
+    measurement_type: null
+    observables: axial-vector and vector form factors (M_A, M_V) from the Q^2 distribution of quasi-elastic
+      nu d -> mu- p p(s) events; not a released cross section
+    energy_notes: BNL 7-ft deuterium bubble chamber, wide-band beam
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CC1π+
+    pion_bucket: null
+    measurement_type: null
+    observables: axial-vector mass M_A from the Q^2 distribution of nu d -> mu- Delta++(1232) n(s) events;
+      not a released cross section
+    energy_notes: null
 - bibtag: Ahrens:1988rr
   title: A Study of the Axial Vector Form-factor and Second Class Currents in Anti-neutrino Quasielastic
     Scattering
@@ -12,11 +68,11 @@
   inspire_recid: 264269
   release_status: abstract
   citation_count: 124
-  abstract: The antineutrino quasielastic reaction $\bar\nu_\mu p \to \mu^+ n$ has been studied in
-    the $Q^2$ range up to $1.0\,(\mathrm{GeV}/c)^2$ at the Brookhaven AGS. The value of the axial
-    vector mass $M_A$ in the dipole parametrization of the form factor was determined from the
-    shape of the $Q^2$ distribution to be $1.09\pm0.03\pm0.02$ GeV/$c^2$. A search for
-    second-class currents was also conducted. No significant effect was found.
+  abstract: The antineutrino quasielastic reaction $\bar\nu_\mu p \to \mu^+ n$ has been studied in the
+    $Q^2$ range up to $1.0\,(\mathrm{GeV}/c)^2$ at the Brookhaven AGS. The value of the axial vector mass
+    $M_A$ in the dipole parametrization of the form factor was determined from the shape of the $Q^2$
+    distribution to be $1.09\pm0.03\pm0.02$ GeV/$c^2$. A search for second-class currents was also conducted.
+    No significant effect was found.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -33,6 +89,54 @@
     pion_bucket: 0pi
     measurement_type: null
     observables: null
+    energy_notes: null
+- bibtag: Ahrens:1986xe
+  title: Measurement of Neutrino - Proton and anti-neutrino - Proton Elastic Scattering
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.35.785
+  journal: Phys.Rev.D
+  volume: '35'
+  pages: '785'
+  year: 1987
+  published_date: '1987'
+  inspire_recid: 18763
+  citation_count: 546
+  abstract: Measurements of the semileptonic weak-neutral-current reactions $\nu_\mu p\to\nu_\mu p$ and
+    $\bar\nu_\mu p\to\bar\nu_\mu p$ are presented. The experiment was performed using a 170-metric-ton
+    high-resolution target detector in the BNL wide-band neutrino beam. High-statistics samples yield
+    the absolute differential cross sections $d\sigma(\nu_\mu p)/dQ^2$ and $d\sigma(\bar\nu_\mu p)/dQ^2$.
+    A measurement of the axial-vector form factor $G_A(Q^2)$ is also presented. The results are in good
+    agreement with the standard model $SU(2)\times U(1)$. The weak-neutral-current parameter $\sin^2\theta_W$
+    is determined to be $\sin^2\theta_W=0.220\pm0.016(\text{stat})^{+0.023}_{-0.031}(\text{syst})$.
+  added: '2026-07-31'
+  notes: 'Added from the Formaggio-Zeller NC-elastic thread: the BNL-E734 NC/CC ratio (~0.15) and dsigma/dQ^2
+    trace to this paper, not to the axial-mass Ahrens:1988rr.'
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.35.785
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ahrens:1986xe
+  measurements:
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: NCE
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: absolute dsigma/dQ^2 for NC elastic nu_mu p -> nu_mu p; axial-vector form factor G_A(Q^2)
+      and sin^2(theta_W)
+    energy_notes: BNL E734, wide-band beam, mean E_nu ~ 0.8 GeV
+  - current: NC
+    flavor:
+    - numubar
+    target:
+    - H2
+    topology: NCE
+    pion_bucket: 0pi
+    measurement_type: single-diff
+    observables: absolute dsigma/dQ^2 for NC elastic nu-bar_mu p -> nu-bar_mu p
     energy_notes: null
 - bibtag: Kitagaki:1986ct
   title: Charged Current Exclusive Pion Production in Neutrino Deuterium Interactions
@@ -84,13 +188,63 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- bibtag: Baker:1982ty
+  title: Total Cross-sections for Muon-neutrino $N$ and Muon-neutrino $P$ Charged Current Interactions
+    in the 7-ft Bubble Chamber
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.25.617
+  journal: Phys.Rev.D
+  volume: '25'
+  pages: '617'
+  year: 1982
+  published_date: '1982'
+  inspire_recid: 177607
+  citation_count: 136
+  abstract: The total cross sections for $\nu_\mu n$ and $\nu_\mu p$ charged-current interactions and
+    their ratio $R=\sigma_T(\nu n)/\sigma_T(\nu p)$ have been measured as a function of neutrino energy
+    from 0.4 to 10 GeV. The experiment is performed using the BNL 7-foot deuterium bubble chamber exposed
+    to the Alternating Gradient Synchrotron wide-band neutrino beam. The absolute values of the cross
+    sections are normalized to the quasielastic scattering ($\nu_\mu n\to\mu^- p$) cross section. Above
+    1.6 GeV the data are consistent with the quark-parton model. We find that $\sigma_T(\nu n)/E_\nu=(1.07\pm0.05)\times10^{-38}$,
+    $\sigma_T(\nu p)/E_\nu=(0.54\pm0.04)\times10^{-38}$, and $\sigma_T(\nu N)/E_\nu=(0.80\pm0.03)\times10^{-38}$
+    cm$^2$/GeV for $\langle E_\nu\rangle=3.2$ GeV, and $R=1.95\pm0.10$ for $\langle E_\nu\rangle=3.7$
+    GeV.
+  added: '2026-07-23'
+  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL
+    reanalysis (1411.4482).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.25.617
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Baker:1982ty
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: total
+    observables: total CC cross sections sigma_T(nu_mu n) and sigma_T(nu_mu p) vs E_nu, 0.4-10 GeV
+    energy_notes: BNL 7-ft deuterium bubble chamber, AGS wide-band beam, E_nu 0.4-10 GeV
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: Inclusive
+    pion_bucket: null
+    measurement_type: ratio
+    observables: R = sigma_T(nu n)/sigma_T(nu p) vs E_nu
+    energy_notes: null
 - inspire_recid: 159782
   title: Study of the Isospin Structure of Single Pion Production in Charged Current Neutrino Interactions
-  abstract: The isospin structure of weak single-pion production in the reactions $\nu p\to\mu^-
-    p\pi^+$, $\nu n\to\mu^- p\pi^0$, and $\nu n\to\mu^- n\pi^+$ has been studied using the 7-foot
-    deuterium bubble chamber exposed to a wide-band neutrino beam at BNL. We find that the
-    $I=\tfrac{1}{2}$ $N\pi$ amplitude is substantial even in the $\Delta(1232)$ mass region and
-    the relative phase angle $\psi$ is approximately 90° as predicted by the Adler model.
+  abstract: The isospin structure of weak single-pion production in the reactions $\nu p\to\mu^- p\pi^+$,
+    $\nu n\to\mu^- p\pi^0$, and $\nu n\to\mu^- n\pi^+$ has been studied using the 7-foot deuterium bubble
+    chamber exposed to a wide-band neutrino beam at BNL. We find that the $I=\tfrac{1}{2}$ $N\pi$ amplitude
+    is substantial even in the $\Delta(1232)$ mass region and the relative phase angle $\psi$ is approximately
+    90° as predicted by the Adler model.
   arxiv: null
   doi: 10.1103/PhysRevD.23.2495
   journal: Phys.Rev.D
@@ -139,15 +293,14 @@
   published_date: 1981-06
   inspire_recid: 170354
   citation_count: 344
-  abstract: The quasielastic reaction $\nu_\mu n\to\mu^- p$ was studied in an experiment using the
-    BNL 7-foot deuterium bubble chamber exposed to the wide-band neutrino beam with an average
-    energy of 1.6 GeV. A total of 1138 quasielastic events in the momentum-transfer range
-    $Q^2=0.06-3.00\,(\mathrm{GeV}/c)^2$ were selected by kinematic fitting and particle
-    identification and were used to extract the axial-vector form factor $F_A(Q^2)$ from the $Q^2$
-    distribution. In the framework of the conventional $V-A$ theory, we find that the dipole
-    parametrization is favored over the monopole. The value of the axial-vector mass $M_A$ in the
-    dipole parametrization is $1.07\pm0.06$ GeV, which is in good agreement with both recent
-    neutrino and electroproduction experiments. In addition, the standard assumptions of conserved
+  abstract: The quasielastic reaction $\nu_\mu n\to\mu^- p$ was studied in an experiment using the BNL
+    7-foot deuterium bubble chamber exposed to the wide-band neutrino beam with an average energy of 1.6
+    GeV. A total of 1138 quasielastic events in the momentum-transfer range $Q^2=0.06-3.00\,(\mathrm{GeV}/c)^2$
+    were selected by kinematic fitting and particle identification and were used to extract the axial-vector
+    form factor $F_A(Q^2)$ from the $Q^2$ distribution. In the framework of the conventional $V-A$ theory,
+    we find that the dipole parametrization is favored over the monopole. The value of the axial-vector
+    mass $M_A$ in the dipole parametrization is $1.07\pm0.06$ GeV, which is in good agreement with both
+    recent neutrino and electroproduction experiments. In addition, the standard assumptions of conserved
     vector current and no second-class currents are checked.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
@@ -166,6 +319,57 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- bibtag: Baker:1981tx
+  title: Strange Particle Production from Neutrino Interactions in the BNL 7-Ft Bubble Chamber
+  collaboration: BNL
+  arxiv: null
+  doi: 10.1103/PhysRevD.24.2779
+  journal: Phys.Rev.D
+  volume: '24'
+  pages: '2779'
+  year: 1981
+  published_date: 1981-12
+  inspire_recid: 171262
+  citation_count: 46
+  abstract: Strange-particle production in charged-current and neutral-current neutrino interactions has
+    been studied using the BNL 7-foot deuterium bubble chamber. A total of 37 charged-current and 9 neutral-current
+    events in the data sample contain one or more strange particles. Three events have ΔS≠0. The measured
+    total rate for neutral V0 production in charged-current interactions is (4.2±1.0)%. Cross sections
+    are given for low-multiplicity reactions involving neutral strange particles.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.24.2779
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Baker:1981tx
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CC strange
+    measurement_type: total
+    observables: Total rate for neutral V0 production in CC interactions
+    energy_notes: BNL AGS wide-band neutrino beam, 7-ft bubble chamber
+    pion_bucket: null
+  - current: NC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: NC strange
+    measurement_type: total
+    observables: NC strange-particle event yield (9 events) and cross sections for low-multiplicity V0
+      reactions
+    energy_notes: BNL AGS wide-band neutrino beam, 7-ft bubble chamber
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: Strange-particle production in charged-current and neutral-current neutrino interactions
+    has been studied using the BNL 7-foot deuterium bubble chamber. A total of 37 charged-current and
+    9 neutral-current events in the data sample contain one or more strange particles. Three events have
+    ΔS≠0. The measured total rate for neutral $^{0}\mathrm{V}$ production in charged-current interactions
+    is (4.2±1.0)%. Cross sections are given for low-multiplicity reactions involving neutral strange particles.
 - bibtag: Coteus:1981ub
   title: Measurement of Elastic Muon-neutrino and Anti-muon-neutrino Scattering on Protons
   collaboration: BNL
@@ -178,12 +382,11 @@
   published_date: '1981'
   inspire_recid: 171264
   citation_count: 15
-  abstract: We have measured elastic $\nu_\mu$ and $\bar\nu_\mu$ scattering on protons at the
-    Brookhaven National Laboratory Alternating Gradient Synchrotron. We find
-    $R_{NC}=\sigma(\bar\nu_\mu p\to\bar\nu_\mu p)/\sigma(\nu_\mu p\to\nu_\mu p)=0.44\pm0.12$ and
-    $R_{\nu_\mu}=\sigma(\nu_\mu p\to\nu_\mu p)/\sigma(\nu_\mu n\to\mu^- p)=0.11\pm0.03$. The
-    elastic $Q^2$ distribution is in good agreement with present knowledge of form factors and the
-    Weinberg-Salam model. We find $\sin^2\theta_W=0.26\pm0.06$.
+  abstract: We have measured elastic $\nu_\mu$ and $\bar\nu_\mu$ scattering on protons at the Brookhaven
+    National Laboratory Alternating Gradient Synchrotron. We find $R_{NC}=\sigma(\bar\nu_\mu p\to\bar\nu_\mu
+    p)/\sigma(\nu_\mu p\to\nu_\mu p)=0.44\pm0.12$ and $R_{\nu_\mu}=\sigma(\nu_\mu p\to\nu_\mu p)/\sigma(\nu_\mu
+    n\to\mu^- p)=0.11\pm0.03$. The elastic $Q^2$ distribution is in good agreement with present knowledge
+    of form factors and the Weinberg-Salam model. We find $\sin^2\theta_W=0.26\pm0.06$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -214,20 +417,16 @@
   published_date: 1980-03
   inspire_recid: 9011
   citation_count: 70
-  abstract: We present a study of antineutrino interactions in hydrogen obtained in a
-    138000-picture run at the BNL 7-ft bubble chamber. The antineutrino beam had an energy
-    distribution that peaked at $\sim1.1$ GeV. The cross section measured for charged-current
-    interactions is $\sigma(\bar\nu
-    p\to\mu^++\text{anything})=(0.32\pm0.08)\times10^{-38}\times[E_{\bar\nu}\,(\mathrm{GeV})]$
-    cm$^2$. The neutral-current cross section is $\sigma(\bar\nu p\to\bar\nu
-    p\pi^+\pi^-)=5.5^{+4.4}_{-2.6}\times10^{-40}$ cm$^2$. The ratio of strangeness-changing to
-    non-strangeness-changing charged currents is $R_s=0.06^{+0.13}_{-0.05}$. An upper limit
-    determined for charm production is $\sigma_c<3.8\times10^{-40}$ cm$^2$ at the 90% confidence
-    level. From the momentum-transfer distribution we measure average $Q^2$ for inelastic
-    charged-current events with energy greater than 2 GeV, $\langle
-    Q^2\rangle=(0.10\pm0.03)[E_{\bar\nu}\,(\mathrm{GeV})]+(0.10\pm0.09)\,(\mathrm{GeV}/c)^2$.
-    Using a maximum-likelihood method we determine from the quasielastic events $\bar\nu p\to\mu^+
-    n$ an axial-vector mass $M_A=0.9^{+0.4}_{-0.3}$ GeV/$c^2$.
+  abstract: We present a study of antineutrino interactions in hydrogen obtained in a 138000-picture run
+    at the BNL 7-ft bubble chamber. The antineutrino beam had an energy distribution that peaked at $\sim1.1$
+    GeV. The cross section measured for charged-current interactions is $\sigma(\bar\nu p\to\mu^++\text{anything})=(0.32\pm0.08)\times10^{-38}\times[E_{\bar\nu}\,(\mathrm{GeV})]$
+    cm$^2$. The neutral-current cross section is $\sigma(\bar\nu p\to\bar\nu p\pi^+\pi^-)=5.5^{+4.4}_{-2.6}\times10^{-40}$
+    cm$^2$. The ratio of strangeness-changing to non-strangeness-changing charged currents is $R_s=0.06^{+0.13}_{-0.05}$.
+    An upper limit determined for charm production is $\sigma_c<3.8\times10^{-40}$ cm$^2$ at the 90% confidence
+    level. From the momentum-transfer distribution we measure average $Q^2$ for inelastic charged-current
+    events with energy greater than 2 GeV, $\langle Q^2\rangle=(0.10\pm0.03)[E_{\bar\nu}\,(\mathrm{GeV})]+(0.10\pm0.09)\,(\mathrm{GeV}/c)^2$.
+    Using a maximum-likelihood method we determine from the quasielastic events $\bar\nu p\to\mu^+ n$
+    an axial-vector mass $M_A=0.9^{+0.4}_{-0.3}$ GeV/$c^2$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -267,20 +466,19 @@
   published_date: 1976-11
   inspire_recid: 110367
   citation_count: 86
-  abstract: We have studied the neutral-current reactions $\nu_\mu N\to\nu_\mu N'\pi^0$ and
-    $\bar\nu_\mu N\to\bar\nu_\mu N'\pi^0$ and compared them to the charged-current reactions
-    $\nu_\mu N\to\mu^- N''\pi^0$ and $\bar\nu_\mu N\to\mu^+ N''\pi^0$. We have measured the ratios
-    $R_0'=\sigma(\nu_\mu N\to\nu_\mu N'\pi^0)/2\sigma(\nu_\mu N\to\mu^- N''\pi^0)$ and $\bar
-    R_0'=\sigma(\bar\nu_\mu N\to\bar\nu_\mu N'\pi^0)/2\sigma(\bar\nu_\mu N\to\mu^+ N''\pi^0)$ to
-    be $0.17\pm0.04$ and $0.39\pm0.18$, respectively. We also present the $\pi^0 p$ invariant-mass
-    distribution of the neutrino-induced reactions.
+  abstract: We have studied the neutral-current reactions $\nu_\mu N\to\nu_\mu N'\pi^0$ and $\bar\nu_\mu
+    N\to\bar\nu_\mu N'\pi^0$ and compared them to the charged-current reactions $\nu_\mu N\to\mu^- N''\pi^0$
+    and $\bar\nu_\mu N\to\mu^+ N''\pi^0$. We have measured the ratios $R_0'=\sigma(\nu_\mu N\to\nu_\mu
+    N'\pi^0)/2\sigma(\nu_\mu N\to\mu^- N''\pi^0)$ and $\bar R_0'=\sigma(\bar\nu_\mu N\to\bar\nu_\mu N'\pi^0)/2\sigma(\bar\nu_\mu
+    N\to\mu^+ N''\pi^0)$ to be $0.17\pm0.04$ and $0.39\pm0.18$, respectively. We also present the $\pi^0
+    p$ invariant-mass distribution of the neutrino-induced reactions.
   added: '2026-06-16'
-  notes: 'Target corrected D2 -> Al (2026-07-31): this is the W. Lee BNL-AGS counter experiment
-    on an aluminum target (reactions on generic nucleons N with the isoscalar factor-of-2),
-    not a deuterium bubble chamber; consistent with Formaggio-Zeller Table XI (BNL, Al). The NC/CC
-    pi0 ratio R0''=0.17+/-0.04 was later reanalyzed in P.J. Nienaber''s 1988 PhD thesis
-    (Nienaber:1988js), which corrected multi-pion backgrounds and found a larger value 0.25+/-0.09
-    (FZ Table XI); that thesis reanalysis is intentionally not a separate nubib entry.'
+  notes: 'Target corrected D2 -> Al (2026-07-31): this is the W. Lee BNL-AGS counter experiment on an
+    aluminum target (reactions on generic nucleons N with the isoscalar factor-of-2), not a deuterium
+    bubble chamber; consistent with Formaggio-Zeller Table XI (BNL, Al). The NC/CC pi0 ratio R0''=0.17+/-0.04
+    was later reanalyzed in P.J. Nienaber''s 1988 PhD thesis (Nienaber:1988js), which corrected multi-pion
+    backgrounds and found a larger value 0.25+/-0.09 (FZ Table XI); that thesis reanalysis is intentionally
+    not a separate nubib entry.'
   links:
     arxiv: null
     doi: https://doi.org/10.1103/PhysRevLett.38.202
@@ -296,160 +494,4 @@
     pion_bucket: pi0
     measurement_type: ratio
     observables: NC/CC single-pi0 ratios R0'=0.17+/-0.04 (nu) and R0bar'=0.39+/-0.18 (nubar)
-    energy_notes: null
-- bibtag: Baker:1982ty
-  title: Total Cross-sections for Muon-neutrino $N$ and Muon-neutrino $P$ Charged Current Interactions in the 7-ft
-    Bubble Chamber
-  collaboration: BNL
-  arxiv: null
-  doi: 10.1103/PhysRevD.25.617
-  journal: Phys.Rev.D
-  volume: '25'
-  pages: '617'
-  year: 1982
-  published_date: '1982'
-  inspire_recid: 177607
-  citation_count: 136
-  abstract: The total cross sections for $\nu_\mu n$ and $\nu_\mu p$ charged-current interactions
-    and their ratio $R=\sigma_T(\nu n)/\sigma_T(\nu p)$ have been measured as a function of
-    neutrino energy from 0.4 to 10 GeV. The experiment is performed using the BNL 7-foot deuterium
-    bubble chamber exposed to the Alternating Gradient Synchrotron wide-band neutrino beam. The
-    absolute values of the cross sections are normalized to the quasielastic scattering ($\nu_\mu
-    n\to\mu^- p$) cross section. Above 1.6 GeV the data are consistent with the quark-parton
-    model. We find that $\sigma_T(\nu n)/E_\nu=(1.07\pm0.05)\times10^{-38}$, $\sigma_T(\nu
-    p)/E_\nu=(0.54\pm0.04)\times10^{-38}$, and $\sigma_T(\nu N)/E_\nu=(0.80\pm0.03)\times10^{-38}$
-    cm$^2$/GeV for $\langle E_\nu\rangle=3.2$ GeV, and $R=1.95\pm0.10$ for $\langle
-    E_\nu\rangle=3.7$ GeV.
-  added: '2026-07-23'
-  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
-    (1411.4482).
-  links:
-    arxiv: null
-    doi: https://doi.org/10.1103/PhysRevD.25.617
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:Baker:1982ty
-  measurements:
-  - current: CC
-    flavor:
-    - numu
-    target:
-    - D2
-    topology: Inclusive
-    pion_bucket: null
-    measurement_type: total
-    observables: total CC cross sections sigma_T(nu_mu n) and sigma_T(nu_mu p) vs E_nu, 0.4-10 GeV
-    energy_notes: BNL 7-ft deuterium bubble chamber, AGS wide-band beam, E_nu 0.4-10 GeV
-  - current: CC
-    flavor:
-    - numu
-    target:
-    - D2
-    topology: Inclusive
-    pion_bucket: null
-    measurement_type: ratio
-    observables: R = sigma_T(nu n)/sigma_T(nu p) vs E_nu
-    energy_notes: null
-- bibtag: Kitagaki:1990vs
-  title: Study of neutrino d ---> mu- p p(s) and neutrino d ---> mu- Delta++ (1232) n(s) using the BNL 7-foot deuterium
-    filled bubble chamber
-  collaboration: BNL
-  arxiv: null
-  doi: 10.1103/PhysRevD.42.1331
-  journal: Phys.Rev.D
-  volume: '42'
-  pages: '1331'
-  year: 1990
-  published_date: '1990'
-  inspire_recid: 304880
-  citation_count: 212
-  release_status: not_xsec
-  abstract: The weak nucleon axial-vector ($F_A$) and vector ($F_V$) form factors are determined
-    from the momentum-transfer-squared ($Q^2$) distributions using 2538 $\mu^- p$ and 1384
-    $\mu^-\Delta^{++}$ events. The data were obtained from 1 800 000 pictures taken in the BNL
-    7-foot deuterium-filled bubble chamber exposed to a wide-band neutrino beam with a mean energy
-    $E_\nu=1.6$ GeV. In the framework of the conventional $V-A$ theory with standard assumptions,
-    the value obtained from the $\mu^- p$ events for the axial-vector mass $M_A$ in the pure
-    dipole parameterization is $1.070^{+0.040}_{-0.045}$ GeV and from the $\mu^-\Delta^{++}$
-    events is $1.28^{+0.08}_{-0.10}$ GeV. These results are in good agreement with an earlier
-    measurement from this experiment and other recent results. The reaction mechanisms for both
-    processes are compared and found to be very similar. A two-parameter fit for the quasielastic
-    reaction, using dipole forms for $F_V$ and $F_A$ yields $M_A=0.97^{+0.14}_{-0.11}$ GeV and
-    $M_V=0.89^{+0.04}_{-0.07}$ GeV, which is in good agreement with the conserved-vector-current
-    value of $M_V=0.84$ GeV. Possible deviations from the standard assumptions are also discussed.
-  added: '2026-07-23'
-  notes: Added after cross-referencing the Formaggio-Zeller review (1305.7513) and the Wilkinson ANL/BNL reanalysis
-    (1411.4482).
-  links:
-    arxiv: null
-    doi: https://doi.org/10.1103/PhysRevD.42.1331
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:Kitagaki:1990vs
-  measurements:
-  - current: CC
-    flavor:
-    - numu
-    target:
-    - D2
-    topology: CCQE
-    pion_bucket: null
-    measurement_type: null
-    observables: axial-vector and vector form factors (M_A, M_V) from the Q^2 distribution of
-      quasi-elastic nu d -> mu- p p(s) events; not a released cross section
-    energy_notes: BNL 7-ft deuterium bubble chamber, wide-band beam
-  - current: CC
-    flavor:
-    - numu
-    target:
-    - D2
-    topology: CC1π+
-    pion_bucket: null
-    measurement_type: null
-    observables: axial-vector mass M_A from the Q^2 distribution of nu d -> mu- Delta++(1232) n(s)
-      events; not a released cross section
-    energy_notes: null
-- bibtag: Ahrens:1986xe
-  title: Measurement of Neutrino - Proton and anti-neutrino - Proton Elastic Scattering
-  collaboration: BNL
-  arxiv: null
-  doi: 10.1103/PhysRevD.35.785
-  journal: Phys.Rev.D
-  volume: '35'
-  pages: '785'
-  year: 1987
-  published_date: '1987'
-  inspire_recid: 18763
-  citation_count: 546
-  abstract: Measurements of the semileptonic weak-neutral-current reactions $\nu_\mu p\to\nu_\mu
-    p$ and $\bar\nu_\mu p\to\bar\nu_\mu p$ are presented. The experiment was performed using a
-    170-metric-ton high-resolution target detector in the BNL wide-band neutrino beam.
-    High-statistics samples yield the absolute differential cross sections $d\sigma(\nu_\mu
-    p)/dQ^2$ and $d\sigma(\bar\nu_\mu p)/dQ^2$. A measurement of the axial-vector form factor
-    $G_A(Q^2)$ is also presented. The results are in good agreement with the standard model
-    $SU(2)\times U(1)$. The weak-neutral-current parameter $\sin^2\theta_W$ is determined to be
-    $\sin^2\theta_W=0.220\pm0.016(\text{stat})^{+0.023}_{-0.031}(\text{syst})$.
-  added: '2026-07-31'
-  notes: 'Added from the Formaggio-Zeller NC-elastic thread: the BNL-E734 NC/CC ratio (~0.15) and dsigma/dQ^2 trace
-    to this paper, not to the axial-mass Ahrens:1988rr.'
-  links:
-    arxiv: null
-    doi: https://doi.org/10.1103/PhysRevD.35.785
-    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ahrens:1986xe
-  measurements:
-  - current: NC
-    flavor:
-    - numu
-    target:
-    - H2
-    topology: NCE
-    pion_bucket: 0pi
-    measurement_type: single-diff
-    observables: absolute dsigma/dQ^2 for NC elastic nu_mu p -> nu_mu p; axial-vector form factor G_A(Q^2) and sin^2(theta_W)
-    energy_notes: BNL E734, wide-band beam, mean E_nu ~ 0.8 GeV
-  - current: NC
-    flavor:
-    - numubar
-    target:
-    - H2
-    topology: NCE
-    pion_bucket: 0pi
-    measurement_type: single-diff
-    observables: absolute dsigma/dQ^2 for NC elastic nu-bar_mu p -> nu-bar_mu p
     energy_notes: null

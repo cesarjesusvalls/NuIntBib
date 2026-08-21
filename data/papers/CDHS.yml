@@ -1,0 +1,38 @@
+- bibtag: Abramowicz:1982zr
+  title: Experimental Study of Opposite Sign Dimuons Produced in Neutrino and anti-neutrinos Interactions
+  collaboration: CDHS
+  arxiv: null
+  doi: 10.1007/BF01573422
+  journal: Z.Phys.C
+  volume: '15'
+  pages: '19'
+  year: 1982
+  published_date: 1982-06
+  inspire_recid: 178578
+  citation_count: 464
+  abstract: A large sample of opposite-sign dimuons, produced by the interaction of neutrinos and antineutrinos
+    in iron, is analysed. The data agree very well with the hypothesis that the extra muon is the product
+    of charm decay. They yield information on the strength and space-time structure of the charmproducing
+    weak current. The strange-sea structure functionxs(x) is determined. The difference between neutrino
+    and antineutrino dimuon production is analysed to provide a value of the Kobayashi-Maskawa weak mixing
+    angleθ2.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01573422
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Abramowicz:1982zr
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: CC charm
+    measurement_type: single-diff
+    observables: opposite-sign dimuon events; strange-sea structure function xs(x); nu vs nubar dimuon
+      comparison for CKM mixing angle
+    energy_notes: CERN SPS wide-band (CDHS)
+    pion_bucket: null
+  release_status: digitize

@@ -1,3 +1,216 @@
+- bibtag: Ammosov:1986jn
+  title: Neutral Strange Particle Exclusive Production in Charged Current High-energy Anti-neutrino Interactions
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1007/BF01573931
+  journal: Z.Phys.C
+  volume: '36'
+  pages: '377'
+  year: 1986
+  published_date: 1986-04
+  inspire_recid: 230983
+  citation_count: 25
+  abstract: The cross section of the quasi-elastic reactions\(\bar v_\mup \to \mu ^ +\Lambda (\Sigma ^0
+    )\) in the energy range 5–100 GeV is determined from Fermilab 15′ bubble chamber antineutrino data.
+    TheQ2 analysis of quasi-elastic Λ events yieldsMA=1.0±0.3 GeV/c2 for the axial mass value. With zero
+    µΛK0 events observed, the 90% confidence level upper limit\(\sigma (\bar v_\mup \to \mu ^ +\Lambda
+    {\rm K}^0 )< 2.0 \cdot 10^{ - 40} cm^2 \) is obtained. At the same time, we found that the cross section
+    of reaction\(\bar v_\mup \to \mu ^ +\Lambda {\rm K}^0+ m\pi ^0 \) is equal to\(\left( {3.9\begin{array}{*{20}c}{
+    + 1.6}\\{ - 1.3}\\ \end{array} } \right) \cdot 10^{ - 40} cm^2 \).
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01573931
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ammosov:1986jn
+  measurements:
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - Ne
+    topology: CC Λ
+    measurement_type: total
+    observables: Quasi-elastic cross section for nubar_mu p -> mu+ Lambda(Sigma0), 5-100 GeV; axial mass
+      MA=1.0+-0.3 GeV/c2
+    energy_notes: Fermilab 15-ft bubble chamber antineutrino wide-band beam, 5-100 GeV
+    pion_bucket: null
+  - current: CC
+    flavor:
+    - numubar
+    target:
+    - Ne
+    topology: CC strange
+    measurement_type: total
+    observables: 'Exclusive nubar_mu p -> mu+ Lambda K0 (+m pi0) channel: 90% CL upper limit for pure
+      Lambda K0, and cross section (3.9+1.6-1.3)x10^-40 cm2 for Lambda K0 + m pi0'
+    energy_notes: Fermilab 15-ft bubble chamber antineutrino wide-band beam, 5-100 GeV
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: The cross section of the quasi-elastic reactions\(\bar v_\mup \to \mu ^ +\Lambda (\Sigma
+    ^0 )\) in the energy range 5-100 GeV is determined from Fermilab 15' bubble chamber antineutrino data.
+    TheQ2 analysis of quasi-elastic Λ events yieldsMA=1.0±0.3 GeV/c2 for the axial mass value. With zero
+    µΛ$^{0}\mathrm{K}$ events observed, the 90% confidence level upper limit\(\sigma (\bar v_\mup \to
+    \mu ^ +\Lambda {\rm K}^0 )< 2.0 \cdot 10^{ - 40} $\mathrm{cm}^2$ \) is obtained. At the same time,
+    we found that the cross section of reaction\(\bar v_\mup \to \mu ^ +\Lambda {\rm K}^0+ m\pi ^0 \)
+    is equal to\(\left( {3.9\begin{array}{*{20}c}{ + 1.6}\\{ - 1.3}\\ \end{array} } \right) \cdot 10^{
+    - 40} $\mathrm{cm}^2$ \).
+- bibtag: Baker:1986xx
+  title: Strange Particle Production in Neutrino - Neon Charged Current Interactions
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevD.34.1251
+  journal: Phys.Rev.D
+  volume: '34'
+  pages: '1251'
+  year: 1986
+  published_date: 1986-02
+  inspire_recid: 230097
+  citation_count: 62
+  abstract: We report a study of strange-particle production from 61?0 charged-current νμNe interactions
+    in the Fermilab 15-ft bubble chamber. The observed sample consists of 2279 K0, 1843 Λ (including 94
+    Σ0), 93 Λ¯, and 4 Ξ−. We give inclusive production rates for each of these, as well as the rates for
+    specific single-, double-, and triple-vee channels. From these we derive the rates for associated
+    production of ss¯ quark pairs, and for single-s-quark production via charm decay. The dependence of
+    K0 and Λ production on Eν, Q2, W2, xB, and yB are given. Normalized distributions of Feynman x, rapidity,
+    fragmentation variable z, and transverse momentum squared are obtained for K0 and Λ, and compared
+    with those for charged pions. QCD predictions on the behavior of 〈PT2〉 are tested.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.34.1251
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Baker:1986xx
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Ne
+    topology: CC strange
+    measurement_type: single-diff
+    observables: K0, Lambda, Lambdabar, Xi- production rates and their dependence on Enu, Q2, W2, xB,
+      yB; xF/rapidity/z/pT2 distributions vs charged pions
+    energy_notes: Fermilab 15-ft bubble chamber wide-band neutrino beam
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: We report a study of strange-particle production from 61?0 charged-current $\nu_\mu$Ne
+    interactions in the Fermilab 15-ft bubble chamber. The observed sample consists of 2279 $^{0}\mathrm{K}$,
+    1843 Λ (including 94 Σ0), 93 Λ¯, and 4 Ξ-. We give inclusive production rates for each of these, as
+    well as the rates for specific single-, double-, and triple-vee channels. From these we derive the
+    rates for associated production of ss¯ quark pairs, and for single-s-quark production via charm decay.
+    The dependence of $^{0}\mathrm{K}$ and Λ production on Eν, Q2, $^{2}\mathrm{W}$, xB, and yB are given.
+    Normalized distributions of Feynman x, rapidity, fragmentation variable z, and transverse momentum
+    squared are obtained for $^{0}\mathrm{K}$ and Λ, and compared with those for charged pions. QCD predictions
+    on the behavior of 〈PT2〉 are tested.
+- bibtag: Lang:1986at
+  title: Neutrino Production of Dimuons
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1007/BF01548260
+  journal: Z.Phys.C
+  volume: '33'
+  pages: '483'
+  year: 1986
+  published_date: 1986-05
+  inspire_recid: 230839
+  citation_count: 83
+  abstract: Neutrino interactions with two muons in the final state have been studied using the Fermilab
+    narrow band beam. A sample of 18vμ like sign dimuon events withPμ>9 GeV/c yields 6.6±4.8 events after
+    backgroud subtraction and a prompt rate of (1.0±0.7)×10−4 per single muon event. The kinematics of
+    these events are compared with those of the non-prompt sources. A total of 437vμ and 31\(\bar v_\mu\)
+    opposite sign dimuon events withPμ>4.3 GeV/c are used to measure the strange quark content of the
+    nucleon:\(\kappa= {{2s} \mathord{\left/ {\vphantom {{2s} {\left( {\bar u + \bar d} \right) = 0.52_{
+    - 0.15}^{ + 0.17} \left( {or\eta _s \frac{{2s}}{{u + d}} = 0.075 \pm 0.019} \right) for 100< E_v<
+    230 GeV\left( {\left\langle {Q^2 } \right\rangle= {{23 GeV^2 } \mathord{\left/ {\vphantom {{23 GeV^2
+    } {c^2 }}} \right. \kern-\nulldelimiterspace} {c^2 }}} \right)}}} \right. \kern-\nulldelimiterspace}
+    {\left( {\bar u + \bar d} \right) = 0.52_{ - 0.15}^{ + 0.17} \left( {or\eta _s \frac{{2s}}{{u + d}}
+    = 0.075 \pm 0.019} \right) for 100< E_v< 230 GeV\left( {\left\langle {Q^2 } \right\rangle= {{23 GeV^2
+    } \mathord{\left/ {\vphantom {{23 GeV^2 } {c^2 }}} \right. \kern-\nulldelimiterspace} {c^2 }}} \right)}}\)
+    using a charm semileptonic branching ratio of (10.9±1.4)% extracted from measurements ine+e− collisions
+    and neutrino emulsion data.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1007/BF01548260
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Lang:1986at
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: CC charm
+    measurement_type: total
+    observables: like-sign and opposite-sign dimuon events; strange quark content kappa/eta_s
+    energy_notes: Fermilab narrow-band beam, 100-230 GeV
+    pion_bucket: null
+  release_status: digitize
+  abstract_tex: Neutrino interactions with two muons in the final state have been studied using the Fermilab
+    narrow band beam. A sample of 18vμ like sign dimuon events withPμ>9 GeV/c yields 6.6±4.8 events after
+    backgroud subtraction and a prompt rate of (1.0±0.7)$\times 10^{-4}$ per single muon event. The kinematics
+    of these events are compared with those of the non-prompt sources. A total of 437vμ and 31\(\bar v_\mu\)
+    opposite sign dimuon events withPμ>4.3 GeV/c are used to measure the strange quark content of the
+    nucleon:\(\kappa= {{2s} \mathord{\left/ {\vphantom {{2s} {\left( {\bar u + \bar d} \right) = 0.52_{
+    - 0.15}^{ + 0.17} \left( {or\eta _s \frac{{2s}}{{u + d}} = 0.075 \pm 0.019} \right) for 100< E_v<
+    230 GeV\left( {\left\langle {Q^2 } \right\rangle= {{23 GeV^2 } \mathord{\left/ {\vphantom {{23 GeV^2
+    } {c^2 }}} \right. \kern-\nulldelimiterspace} {c^2 }}} \right)}}} \right. \kern-\nulldelimiterspace}
+    {\left( {\bar u + \bar d} \right) = 0.52_{ - 0.15}^{ + 0.17} \left( {or\eta _s \frac{{2s}}{{u + d}}
+    = 0.075 \pm 0.019} \right) for 100< E_v< 230 GeV\left( {\left\langle {Q^2 } \right\rangle= {{23 GeV^2
+    } \mathord{\left/ {\vphantom {{23 GeV^2 } {c^2 }}} \right. \kern-\nulldelimiterspace} {c^2 }}} \right)}}\)
+    using a charm semileptonic branching ratio of (10.9±1.4)% extracted from measurements ine+$e^-$ collisions
+    and neutrino emulsion data.
+- bibtag: Baker:1985rx
+  title: OPPOSITE SIGN DILEPTON PRODUCTION IN muon-neutrino INTERACTIONS
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevD.32.531
+  journal: Phys.Rev.D
+  volume: '32'
+  pages: '531'
+  year: 1985
+  published_date: '1985'
+  inspire_recid: 222364
+  citation_count: 29
+  abstract: We report on a high-statistics bubble-chamber experiment using the Fermilab 15-ft bubble chamber
+    filled with a heavy neon/hydrogen mixture exposed to a wide-band neutrino beam. In a sample of 106
+    000 νμ &>0.3 GeV/c) and a negative muon were observed. After corrections, the rate for opposite-sign
+    dilepton production for νμ charged-current events is (0.52±0.09)%. The Eν dependence of this rate
+    from threshold to ≊200 GeV is presented. The kinematic distributions and strange-particle content
+    of the dilepton events are consistent with those expected from charm-particle production in neutrino
+    interactions. A total of 58 neutral strange particles (Λ→pπ−, KS0→π+π−) are observed in these events,
+    where less than 16 are expected from conventional charged-current interactions. The presence of a
+    significant excess of Λ’s is evidence for substantial charmed-baryon production.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.32.531
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Baker:1985rx
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - Ne
+    topology: CC charm
+    measurement_type: ratio
+    observables: opposite-sign dilepton production rate relative to CC events, (0.52+-0.09)%; associated
+      strange-particle (Lambda) content
+    energy_notes: Fermilab 15-ft neon-hydrogen bubble chamber, wide-band beam up to ~200 GeV
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: We report on a high-statistics bubble-chamber experiment using the Fermilab 15-ft bubble
+    chamber filled with a heavy neon/hydrogen mixture exposed to a wide-band neutrino beam. In a sample
+    of 106 000 $\nu_\mu$ &>0.3 GeV/c) and a negative muon were observed. After corrections, the rate for
+    opposite-sign dilepton production for $\nu_\mu$ charged-current events is (0.52±0.09)%. The Eν dependence
+    of this rate from threshold to ≊200 GeV is presented. The kinematic distributions and strange-particle
+    content of the dilepton events are consistent with those expected from charm-particle production in
+    neutrino interactions. A total of 58 neutral strange particles (Λ $\to$ pπ-, KS0 $\to$ $\pi^+$ $\pi^-$)
+    are observed in these events, where less than 16 are expected from conventional charged-current interactions.
+    The presence of a significant excess of Λ’s is evidence for substantial charmed-baryon production.
 - bibtag: Kitagaki:1983px
   title: High-Energy Quasielastic $\nu_{\mu} n \to \mu^- p$ Scattering in Deuterium
   collaboration: FNAL
@@ -10,12 +223,11 @@
   published_date: '1983'
   inspire_recid: 195139
   citation_count: 288
-  abstract: We have studied the quasielastic reaction $\nu_\mu n\to\mu^- p$ in an exposure of the
-    Fermilab deuterium-filled 15-foot bubble chamber to a high-energy wide-band neutrino beam.
-    From an analysis of the $Q^2$ distribution based on the standard $V-A$ theory, the
-    axial-vector mass in a dipole parametrization of the axial-vector form factor is determined to
-    be $M_A=1.05^{+0.12}_{-0.16}$ GeV, consistent with the values previously reported from
-    low-energy experiments.
+  abstract: We have studied the quasielastic reaction $\nu_\mu n\to\mu^- p$ in an exposure of the Fermilab
+    deuterium-filled 15-foot bubble chamber to a high-energy wide-band neutrino beam. From an analysis
+    of the $Q^2$ distribution based on the standard $V-A$ theory, the axial-vector mass in a dipole parametrization
+    of the axial-vector form factor is determined to be $M_A=1.05^{+0.12}_{-0.16}$ GeV, consistent with
+    the values previously reported from low-energy experiments.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -33,6 +245,165 @@
     measurement_type: null
     observables: null
     energy_notes: null
+- bibtag: Son:1983xh
+  title: Quasielastic Charmed Baryon Production and Exclusive Strange Particle Production by High-energy
+    Neutrinos
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevD.28.2129
+  journal: Phys.Rev.D
+  volume: '28'
+  pages: '2129'
+  year: 1983
+  published_date: 1983-04
+  inspire_recid: 13356
+  citation_count: 24
+  abstract: Three charmed-baryon candidates produced in the quasielastic reaction νn→μ−Λc+→μ−Λπ+ were
+    found in an exposure of the Fermilab deuterium-filled 15-ft bubble chamber to a wide-band neutrino
+    beam. We also found that the cross section of the associated-production reaction νn→μ−ΛK+ is (5.5±1.3±1.1)
+    × 10−40 cm2 for Eν>10 GeV, and is approximately independent of energy. In addition we studied the
+    cross sections of some quasi-two-body associated strange-particle production reactions other than
+    μ−ΛK+.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.28.2129
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Son:1983xh
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - D2
+    topology: CC charm
+    measurement_type: total
+    observables: quasielastic charmed-baryon production nu n->mu- Lambda_c+; associated strange-particle
+      cross section sigma(nu n->mu- Lambda K+)=(5.5+-1.3+-1.1)e-40 cm2
+    energy_notes: Fermilab 15-ft deuterium bubble chamber, wide-band beam, E_nu>10 GeV
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: Three charmed-baryon candidates produced in the quasielastic reaction νn $\to$ $\mu^-$Λc+
+    $\to$ $\mu^-$Λπ+ were found in an exposure of the Fermilab deuterium-filled 15-ft bubble chamber to
+    a wide-band neutrino beam. We also found that the cross section of the associated-production reaction
+    νn $\to$ $\mu^-$ΛK+ is (5.5±1.3±1.1) $\times 10^{-40}$ $\mathrm{cm}^2$ for Eν>10 GeV, and is approximately
+    independent of energy. In addition we studied the cross sections of some quasi-two-body associated
+    strange-particle production reactions other than $\mu^-$ΛK+.
+- bibtag: Ballagh:1981yh
+  title: Dilepton Production by Neutrinos in the {Fermilab} 15-ft Bubble Chamber
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevD.24.7
+  journal: Phys.Rev.D
+  volume: '24'
+  pages: '7'
+  year: 1981
+  published_date: 1981-02
+  inspire_recid: 164237
+  citation_count: 78
+  abstract: In an exposure of the Fermilab 15-foot neon-hydrogen bubble chamber to a quadrupole triplet
+    neutrino beam, 49μ−e+ and 14μ+e− events with e± momenta greater than 0.3 GeV/c have been observed,
+    yielding μe rates per charged-current event of (0.73±0.11)% and (1.1±0.3)%, respectively. The μ−e+
+    rate shows no strong energy dependence in the range from 30 to 300 GeV. The 18 neutral strange particles
+    observed in the 63 events contain 14KS0, 2Λ, and 2ΛKS0 ambiguities, suggesting that the events are
+    predominantly D-meson production and decay and that the Λc+→ΛeX branching ratio is very small. The
+    corrected numbers of neutral strange particles per μ−e+ and μ+e− event are 1.2±0.3 and 0.6−0.3+0.6,
+    respectively. Properties of the events, including strange-particle production, are compared to μ∓μ±
+    events in the same experiment and to a charm production and decay model, and good agreement is found,
+    apart from a possible enhancement at ∼5-6 GeV/c2 in the mass of the system recoiling against the μ+
+    in μ+e− (and μ+μ−) events. As reported previously, four events show short-lived-particle decays, and
+    D-meson lifetime estimates are reevaluated using the final event sample. One μ+e+ and three μ−e− events
+    were observed. The μ−e− events are consistent with background and lead to a μ−e−μ−e+ ratio of less
+    than 0.07 (90% confidence level) for e± momenta above 0.8 GeV/c. Five candidates for dilepton production
+    by electron neutrinos and antineutrinos in the beam are consistent with approximately 1% rates. No
+    good three-lepton candidates were found, and one, previously reported, four-lepton candidate was found.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.24.7
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Ballagh:1981yh
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Ne
+    topology: CC charm
+    measurement_type: ratio
+    observables: dilepton (mu-e+, mu+e-) production rates per CC event, (0.73+-0.11)% and (1.1+-0.3)%
+    energy_notes: Fermilab 15-ft bubble chamber, quadrupole-triplet beam, 30-300 GeV
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: In an exposure of the Fermilab 15-foot neon-hydrogen bubble chamber to a quadrupole triplet
+    neutrino beam, 49μ-$e^+$ and 14μ+$e^-$ events with e± momenta greater than 0.3 GeV/c have been observed,
+    yielding μe rates per charged-current event of (0.73±0.11)% and (1.1±0.3)%, respectively. The $\mu^-$
+    $e^+$ rate shows no strong energy dependence in the range from 30 to 300 GeV. The 18 neutral strange
+    particles observed in the 63 events contain 14KS0, 2Λ, and 2ΛKS0 ambiguities, suggesting that the
+    events are predominantly D-meson production and decay and that the Λc+ $\to$ ΛeX branching ratio is
+    very small. The corrected numbers of neutral strange particles per $\mu^-$ $e^+$ and $\mu^+$ $e^-$
+    event are 1.2±0.3 and 0.6-0.3+0.6, respectively. Properties of the events, including strange-particle
+    production, are compared to μ∓μ± events in the same experiment and to a charm production and decay
+    model, and good agreement is found, apart from a possible enhancement at ∼5-6 GeV/c2 in the mass of
+    the system recoiling against the $\mu^+$ in $\mu^+$ $e^-$ (and $\mu^+$ $\mu^-$) events. As reported
+    previously, four events show short-lived-particle decays, and D-meson lifetime estimates are reevaluated
+    using the final event sample. One $\mu^+$ $e^+$ and three $\mu^-$ $e^-$ events were observed. The
+    $\mu^-$ $e^-$ events are consistent with background and lead to a $\mu^-$ $e^-$ $\mu^-$ $e^+$ ratio
+    of less than 0.07 (90% confidence level) for e± momenta above 0.8 GeV/c. Five candidates for dilepton
+    production by electron neutrinos and antineutrinos in the beam are consistent with approximately 1%
+    rates. No good three-lepton candidates were found, and one, previously reported, four-lepton candidate
+    was found.
+- bibtag: Brock:1981rj
+  title: Strange Particle Production in High-energy Anti-neutrino and Neutrino Charged Current Interactions
+    on Protons
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevD.25.1753
+  journal: Phys.Rev.D
+  volume: '25'
+  pages: '1753'
+  year: 1981
+  published_date: 1981-10
+  inspire_recid: 11160
+  citation_count: 19
+  abstract: We have studied the semi-inclusive reactions ν¯p→μ+V0X and νp→μ−V0X, and measured the fractional
+    rate for producing one or more neutral strange particles in these reactions to be 0.16±0.03 and 0.15±0.04,
+    respectively. We have observed K−(892) and Σ−(1385) production in ν¯p scattering at a few percent
+    of the inclusive rate. No evidence for D0 production was seen in the KS0π+π− final state. The distributions
+    in the standard deep-inelastic kinematic variables are presented for events with strange particles
+    and compared to those for the other charged-current data. The fragmentation properties of events containing
+    a KS0 are in agreement with results from electroproduction experiments, and we have measured ∫0.31.0(1NT)(dNdz)dz=0.029±0.005,
+    which is smaller than the prediction of the Field and Feynman fragmentation model.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.25.1753
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Brock:1981rj
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - H2
+    topology: CC strange
+    measurement_type: total
+    observables: Fractional rate for producing >=1 neutral strange particle (V0) in CC nu/nubar-p interactions;
+      K*(892), Sigma*-(1385) production; fragmentation integral for K0_S
+    energy_notes: wide-band nu/nubar beam (bubble chamber, protons)
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: We have studied the semi-inclusive reactions ν¯p $\to$ $\mu^+$V0X and νp $\to$ $\mu^-$V0X,
+    and measured the fractional rate for producing one or more neutral strange particles in these reactions
+    to be 0.16±0.03 and 0.15±0.04, respectively. We have observed K-(892) and Σ-(1385) production in ν¯p
+    scattering at a few percent of the inclusive rate. No evidence for D0 production was seen in the KS0π+$\pi^-$
+    final state. The distributions in the standard deep-inelastic kinematic variables are presented for
+    events with strange particles and compared to those for the other charged-current data. The fragmentation
+    properties of events containing a KS0 are in agreement with results from electroproduction experiments,
+    and we have measured ∫0.31.0(1NT)(dNdz)dz=0.029±0.005, which is smaller than the prediction of the
+    Field and Feynman fragmentation model.
 - bibtag: Barish:1979ny
   title: Study of the Reaction $\bar{\nu} p \to \mu^+ p \pi^-$
   collaboration: FNAL
@@ -45,10 +416,10 @@
   published_date: 1979-10
   inspire_recid: 8430
   citation_count: 42
-  abstract: We present data on the reaction $\nu p \to \mu^+ p\pi^-$ from an exposure of the
-    Fermilab 15 ft hydrogen bubble chamber. The channel cross section for $5\,\mathrm{GeV} < E_\nu
-    < 70\,\mathrm{GeV}$ and $M(p\pi^-) < 1.9$ GeV is $\sigma = (27\pm5)\times10^{-40}$ cm$^2$.
-    This cross section is dominated by the $I = \tfrac{1}{2}$ production amplitude.
+  abstract: We present data on the reaction $\nu p \to \mu^+ p\pi^-$ from an exposure of the Fermilab
+    15 ft hydrogen bubble chamber. The channel cross section for $5\,\mathrm{GeV} < E_\nu < 70\,\mathrm{GeV}$
+    and $M(p\pi^-) < 1.9$ GeV is $\sigma = (27\pm5)\times10^{-40}$ cm$^2$. This cross section is dominated
+    by the $I = \tfrac{1}{2}$ production amplitude.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -79,11 +450,10 @@
   published_date: 1978-08
   inspire_recid: 131344
   citation_count: 102
-  abstract: We present results for the reactions $\nu p\to\mu^-\pi^+ p$ and $\nu p\to\mu^- K^+ p$
-    at energies above 5 GeV. The average cross section for the first reaction between 15 and 40
-    GeV is $(0.80\pm0.12)\times10^{-38}$ cm$^2$ and for events with $M_{\pi^+ p}<1.4$ GeV is
-    $(0.55\pm0.08)\times10^{-38}$ cm$^2$. The ratio of the cross section for the second reaction
-    to that for the first is $0.017\pm0.010$.
+  abstract: We present results for the reactions $\nu p\to\mu^-\pi^+ p$ and $\nu p\to\mu^- K^+ p$ at energies
+    above 5 GeV. The average cross section for the first reaction between 15 and 40 GeV is $(0.80\pm0.12)\times10^{-38}$
+    cm$^2$ and for events with $M_{\pi^+ p}<1.4$ GeV is $(0.55\pm0.08)\times10^{-38}$ cm$^2$. The ratio
+    of the cross section for the second reaction to that for the first is $0.017\pm0.010$.
   added: '2026-06-16'
   notes: Imported from PhD thesis Chapter 3 classification tables.
   links:
@@ -111,3 +481,101 @@
     measurement_type: total
     observables: nu p -> mu- K+ p cross section
     energy_notes: E>5GeV
+- bibtag: Berge:1978fy
+  title: Inclusive Neutral Strange Particle Production from High-Energy Neutrino p Charged Current Interactions
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevD.18.1359
+  journal: Phys.Rev.D
+  volume: '18'
+  pages: '1359'
+  year: 1978
+  published_date: 1978-03
+  inspire_recid: 130087
+  citation_count: 32
+  abstract: We have studied the properties of inclusive neutral-strange-particle production in charged-current
+    νp interactions. The relative rate for producing at least one neutral strange particle in a charged-current
+    interaction is 0.14 ± 0.02. The inclusive distributions for events with neutral strange particles
+    and for all charged-current events exhibit the same qualitative behavior. We find no acceptable candidates
+    for the ΔS=−ΔQ  Λ production reaction νp→μ−Λ3π+π− in approximately 3000 charged-current events with
+    Eν>10 GeV. We find upper limits (relative to the total charged-current sample) for charmed-particle
+    production in any one mass region with subsequent decay into Λmπ and Kmπ final states of 1% and 2%,
+    respectively.
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevD.18.1359
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Berge:1978fy
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: CC strange
+    measurement_type: total
+    observables: Relative rate for producing at least one inclusive neutral strange particle in a CC event
+    energy_notes: wide-band neutrino beam, Enu>10 GeV (bubble chamber, protons)
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: We have studied the properties of inclusive neutral-strange-particle production in charged-current
+    νp interactions. The relative rate for producing at least one neutral strange particle in a charged-current
+    interaction is 0.14 ± 0.02. The inclusive distributions for events with neutral strange particles
+    and for all charged-current events exhibit the same qualitative behavior. We find no acceptable candidates
+    for the ΔS=-ΔQ  Λ production reaction νp $\to$ $\mu^-$Λ3π+$\pi^-$ in approximately 3000 charged-current
+    events with Eν>10 GeV. We find upper limits (relative to the total charged-current sample) for charmed-particle
+    production in any one mass region with subsequent decay into Λmπ and Kmπ final states of 1% and 2%,
+    respectively.
+- bibtag: Berge:1975bq
+  title: Inclusive Strange Particle Production by Neutrino p Interactions in the 10-GeV to 200-GeV Region
+  collaboration: FNAL
+  arxiv: null
+  doi: 10.1103/PhysRevLett.36.127
+  journal: Phys.Rev.Lett.
+  volume: '36'
+  pages: '127'
+  year: 1975
+  published_date: 1975-11
+  inspire_recid: 101235
+  citation_count: 46
+  abstract: 'Data are presented on charged-current inclusive strange-particle production in 10-200-GeV/c
+    νp interactions. Final states with V0 decay topologies are reported: Ks0, Λ0(Σ0), Λ¯0(Σ¯0). Neutrino
+    energy, charged multiplicity, Q2, W, x, and y distributions are shown. The corrected relative V0 production
+    rate is 0.16±0.03 per event. The first example of neutrino-induced antibaryon (Λ¯) production is observed.
+    The 90%-confidence upper limit on ΔS=−ΔQ inclusive Λ production is 0.036 of all charged-current νp
+    interactions above 10 GeV/c.'
+  added: '2026-08-21'
+  notes: Strange-particle production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.36.127
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Berge:1975bq
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: CC strange
+    measurement_type: total
+    observables: Inclusive V0 (Ks0, Lambda(Sigma0), Lambdabar(Sigmabar0)) production rate per CC event
+    energy_notes: wide-band neutrino beam, 10-200 GeV/c (bubble chamber, protons)
+    pion_bucket: null
+  - current: CC
+    flavor:
+    - numu
+    target:
+    - H2
+    topology: CC strange
+    measurement_type: limit
+    observables: 90% CL upper limit on Delta S = -Delta Q inclusive Lambda production
+    energy_notes: wide-band neutrino beam, 10-200 GeV/c (bubble chamber, protons)
+    pion_bucket: null
+  release_status: abstract
+  abstract_tex: 'Data are presented on charged-current inclusive strange-particle production in 10-200-GeV/c
+    νp interactions. Final states with $^{0}\mathrm{V}$ decay topologies are reported: Ks0, Λ0(Σ0), Λ¯0(Σ¯0).
+    Neutrino energy, charged multiplicity, Q2, W, x, and y distributions are shown. The corrected relative
+    $^{0}\mathrm{V}$ production rate is 0.16±0.03 per event. The first example of neutrino-induced antibaryon
+    (Λ¯) production is observed. The 90%-confidence upper limit on ΔS=-ΔQ inclusive Λ production is 0.036
+    of all charged-current νp interactions above 10 GeV/c.'

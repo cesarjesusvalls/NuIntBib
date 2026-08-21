@@ -1,0 +1,34 @@
+- bibtag: Benvenuti:1978gy
+  title: Rates and Properties of Opposite Sign Dimuons From Neutrinos and Anti-neutrinos
+  collaboration: HPWF
+  arxiv: null
+  doi: 10.1103/PhysRevLett.41.1204
+  journal: Phys.Rev.Lett.
+  volume: '41'
+  pages: '1204'
+  year: 1978
+  published_date: 1978-08
+  inspire_recid: 6991
+  citation_count: 60
+  abstract: Measured energy-dependent rates of opposite-sign dimuons produced by neutrinos and antineutrinos
+    are presented and used to determine the fraction of strange quarks. Experimental distributions are
+    compared with those expected from charm production and decay.
+  added: '2026-08-21'
+  notes: Charm/dimuon production (FZ audit, added 2026-08).
+  links:
+    arxiv: null
+    doi: https://doi.org/10.1103/PhysRevLett.41.1204
+    inspire: https://inspirehep.net/literature?q=texkeys.raw:Benvenuti:1978gy
+  measurements:
+  - current: CC
+    flavor:
+    - numu
+    - numubar
+    target:
+    - Fe
+    topology: CC charm
+    measurement_type: single-diff
+    observables: energy-dependent rates of opposite-sign dimuons; strange quark fraction
+    energy_notes: Fermilab narrow-band beam
+    pion_bucket: null
+  release_status: digitize
