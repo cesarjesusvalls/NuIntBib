@@ -1143,7 +1143,10 @@ def build_csv_simple(spec):
             lo, hi, val, err = float(r[0]), float(r[1]), float(r[2]), float(r[3])
             bins.append({'i': len(bins), 'lo': lo, 'hi': hi, 'center': 0.5 * (lo + hi),
                          'val': val, 'err': err})
-        clipped = _clip_wide_ends(bins)
+        # clip a genuine overflow catch-all terminal bin for display, unless the
+        # recipe opts out (clip_wide_ends: false) because its wide terminal bin is a
+        # real coarse measurement bin, not an overflow (e.g. Bolognese's 4-7.5 GeV bin).
+        clipped = _clip_wide_ends(bins) if spec.get('clip_wide_ends', True) else False
         xl, yl = it['xlabel'], it['ylabel']
         yu = it.get('yunit', ''); xu = it.get('xunit', ''); lab = it.get('label', '')
         key = spec.get('key', 'dsigma') + '_' + it['slug']
@@ -2964,6 +2967,8 @@ for _rp in sorted(glob.glob(os.path.join(ROOT_DIR, 'data', 'datasets', 'recipes'
         'key': _r.get('key', 'dsigma'), 'items': _r['items'],
         'source': _r.get('source', 'arXiv'), 'source_url': _r['source_url'], 'provenance': _r['provenance'],
     }
+    if 'clip_wide_ends' in _r:              # opt out of terminal-bin display clipping
+        _spec['clip_wide_ends'] = _r['clip_wide_ends']
     if _r.get('cov'):                       # optional full covariance matrix CSV (absolute units^2)
         _spec['cov'] = _r['cov']
         if _r.get('cov_note'):

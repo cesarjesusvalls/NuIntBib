@@ -66,15 +66,14 @@
     {
      "i": 5,
      "lo": 4.001,
-     "hi": 4.495,
-     "center": 4.248,
+     "hi": 7.48,
+     "center": 5.740500000000001,
      "val": 5.281,
-     "err": 1.2,
-     "hi_true": 7.48
+     "err": 1.2
     }
    ],
    "nuisance_file": "data/datasets/sources/bolognese-1979gf/fig2a.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "published (Phys.Lett.B 81 (1979) 393)",
    "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
    "provenance": "Bolognese:1979gf \u2014 total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
@@ -136,15 +135,14 @@
     {
      "i": 4,
      "lo": 3.548,
-     "hi": 4.029,
-     "center": 3.7885,
+     "hi": 7.473,
+     "center": 5.5105,
      "val": 2.636,
-     "err": 0.696,
-     "hi_true": 7.473
+     "err": 0.696
     }
    ],
    "nuisance_file": "data/datasets/sources/bolognese-1979gf/fig2b.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "published (Phys.Lett.B 81 (1979) 393)",
    "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
    "provenance": "Bolognese:1979gf \u2014 total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
@@ -214,15 +212,14 @@
     {
      "i": 5,
      "lo": 4.018,
-     "hi": 4.5035,
-     "center": 4.26075,
+     "hi": 7.428,
+     "center": 5.723,
      "val": 3.104,
-     "err": 1.009,
-     "hi_true": 7.428
+     "err": 1.009
     }
    ],
    "nuisance_file": "data/datasets/sources/bolognese-1979gf/fig3a.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "published (Phys.Lett.B 81 (1979) 393)",
    "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
    "provenance": "Bolognese:1979gf \u2014 total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
@@ -284,15 +281,14 @@
     {
      "i": 4,
      "lo": 3.526,
-     "hi": 4.015,
-     "center": 3.7704999999999997,
+     "hi": 7.417,
+     "center": 5.4715,
      "val": 1.981,
-     "err": 0.608,
-     "hi_true": 7.417
+     "err": 0.608
     }
    ],
    "nuisance_file": "data/datasets/sources/bolognese-1979gf/fig3b.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "published (Phys.Lett.B 81 (1979) 393)",
    "source_url": "https://doi.org/10.1016/0370-2693(79)90361-7",
    "provenance": "Bolognese:1979gf \u2014 total cross section vs anti-neutrino energy for charged-current single-pion (pi^-) production, Gargamelle propane-freon exposure at the CERN PS, corrected for nuclear reinteractions. Fig 2: the exclusive channel \\bar\\nu n \\to \\mu^+ \\pi^- n; Fig 3: inclusive \\pi^- exclusive production (N = neutron or proton). Each shown with and without the invariant-mass cut W_{piN} <= 1.4 GeV/c^2. DIGITIZED from Figs 2 and 3 (analytical plot-digitizer; each panel deskewed to remove scan tilt, then axis-aligned calibration; overlay-verified). The two M_A^2 theory curves (1.5 and 0.71 GeV^2/c^4) are excluded. From the paper.",
