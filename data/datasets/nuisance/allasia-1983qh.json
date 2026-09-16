@@ -66,15 +66,14 @@
     {
      "i": 5,
      "lo": 59.0,
-     "hi": 64.58,
-     "center": 61.79,
+     "hi": 195.73,
+     "center": 127.365,
      "val": 0.7817,
-     "err": 0.1504,
-     "hi_true": 195.73
+     "err": 0.1504
     }
    ],
    "nuisance_file": "data/datasets/sources/allasia-1983qh/f3a.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "published (Z.Phys.C 20 (1983) 95)",
    "source_url": "https://doi.org/10.1007/BF01573212",
    "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded)",
@@ -144,15 +143,14 @@
     {
      "i": 5,
      "lo": 52.33,
-     "hi": 58.0,
-     "center": 55.165,
+     "hi": 200.49,
+     "center": 126.41,
      "val": 0.5299,
-     "err": 0.1228,
-     "hi_true": 200.49
+     "err": 0.1228
     }
    ],
    "nuisance_file": "data/datasets/sources/allasia-1983qh/f3b.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "published (Z.Phys.C 20 (1983) 95)",
    "source_url": "https://doi.org/10.1007/BF01573212",
    "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded)",
@@ -217,15 +215,14 @@
     {
      "i": 5,
      "lo": 49.89,
-     "hi": 58.97,
-     "center": 54.43,
+     "hi": 201.41,
+     "center": 125.65,
      "val": 0.5339,
-     "err": 0.1254,
-     "hi_true": 201.41
+     "err": 0.1254
     }
    ],
    "nuisance_file": "data/datasets/sources/allasia-1983qh/f3c.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "published (Z.Phys.C 20 (1983) 95)",
    "source_url": "https://doi.org/10.1007/BF01573212",
    "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded)",
@@ -290,15 +287,14 @@
     {
      "i": 5,
      "lo": 49.89,
-     "hi": 58.035,
-     "center": 53.9625,
+     "hi": 191.94,
+     "center": 120.91499999999999,
      "val": 0.1518,
-     "err": 0.0595,
-     "hi_true": 191.94
+     "err": 0.0595
     }
    ],
    "nuisance_file": "data/datasets/sources/allasia-1983qh/f3d.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "published (Z.Phys.C 20 (1983) 95)",
    "source_url": "https://doi.org/10.1007/BF01573212",
    "provenance": "Allasia:1983qh \u2014 BEBC WA25 anti-neutrino deuterium exclusive single-pion production; digitized from the paper figures (our 'This experiment' points; G.G.M. and Barish comparison points and model curves excluded)",

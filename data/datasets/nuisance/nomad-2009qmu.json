@@ -98,15 +98,14 @@
     {
      "i": 9,
      "lo": 54.0,
-     "hi": 60.0,
-     "center": 57.0,
+     "hi": 100.0,
+     "center": 77.0,
      "val": 0.911,
-     "err": 0.1061,
-     "hi_true": 100.0
+     "err": 0.1061
     }
    ],
    "nuisance_file": "data/datasets/sources/nomad-2009qmu/sigma_qel_numu_nucl.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/0812.4543",
    "provenance": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene \u00b7 target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
@@ -203,15 +202,14 @@
     {
      "i": 9,
      "lo": 54.0,
-     "hi": 60.0,
-     "center": 57.0,
+     "hi": 100.0,
+     "center": 77.0,
      "val": 0.967,
-     "err": 0.1132,
-     "hi_true": 100.0
+     "err": 0.1132
     }
    ],
    "nuisance_file": "data/datasets/sources/nomad-2009qmu/sigma_qel_numu_free.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/0812.4543",
    "provenance": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene \u00b7 target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
@@ -276,15 +274,14 @@
     {
      "i": 5,
      "lo": 42.0,
-     "hi": 49.5,
-     "center": 45.75,
+     "hi": 100.0,
+     "center": 71.0,
      "val": 0.993,
-     "err": 0.1993,
-     "hi_true": 100.0
+     "err": 0.1993
     }
    ],
    "nuisance_file": "data/datasets/sources/nomad-2009qmu/sigma_qel_antinumu_nucl.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/0812.4543",
    "provenance": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene \u00b7 target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",
@@ -349,15 +346,14 @@
     {
      "i": 5,
      "lo": 42.0,
-     "hi": 49.5,
-     "center": 45.75,
+     "hi": 100.0,
+     "center": 71.0,
      "val": 1.056,
-     "err": 0.2119,
-     "hi_true": 100.0
+     "err": 0.2119
     }
    ],
    "nuisance_file": "data/datasets/sources/nomad-2009qmu/sigma_qel_antinumu_free.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "arXiv",
    "source_url": "https://arxiv.org/abs/0812.4543",
    "provenance": "NOMAD:2009qmu \u2014 Quasi-elastic (QEL) \u03bd\u03bc and \u03bd\u0304\u03bc charged-current cross section \u03c3_qel(E\u03bd) in bins of neutrino energy, flux-averaged per ene \u00b7 target per neutron \u2014 two variants tabulated: (a) \"Nucl\" = per neutron bound in the NOMAD nuclear target (mainly Carbon), (b) \"Free\" = per free neutron, obtained by dividing the nuclear-target value by a Smith-Moniz-model correction factor g \u00b7 values transcribed from the arXiv paper tables \u00b7No covariance is published (per-bin total uncertainty only).",

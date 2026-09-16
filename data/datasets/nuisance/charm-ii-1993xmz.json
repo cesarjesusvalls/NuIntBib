@@ -50,15 +50,14 @@
     {
      "i": 3,
      "lo": 66.0,
-     "hi": 91.5,
-     "center": 78.75,
+     "hi": 300.0,
+     "center": 183.0,
      "val": 274.0,
-     "err": 88.0,
-     "hi_true": 300.0
+     "err": 88.0
     }
    ],
    "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-total-sigma-over-e.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc\u207b \u03c0\u207a N \u00b7 target SiO2 \u00b7 from the HepData record",
@@ -107,15 +106,14 @@
     {
      "i": 3,
      "lo": 66.0,
-     "hi": 91.5,
-     "center": 78.75,
+     "hi": 300.0,
+     "center": 183.0,
      "val": 305.0,
-     "err": 101.0,
-     "hi_true": 300.0
+     "err": 101.0
     }
    ],
    "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-total-sigma-over-e.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc\u207b \u03c0\u207a N \u00b7 target SiO2 \u00b7 from the HepData record",
@@ -164,15 +162,14 @@
     {
      "i": 3,
      "lo": 66.0,
-     "hi": 91.5,
-     "center": 78.75,
+     "hi": 300.0,
+     "center": 183.0,
      "val": 172.4,
-     "err": 49.1,
-     "hi_true": 300.0
+     "err": 49.1
     }
    ],
    "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numu-coh1pi-visible-sigma-over-e.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc\u207b \u03c0\u207a N \u00b7 target SiO2 \u00b7 from the HepData record",
@@ -221,15 +218,14 @@
     {
      "i": 3,
      "lo": 66.0,
-     "hi": 91.5,
-     "center": 78.75,
+     "hi": 300.0,
+     "center": 183.0,
      "val": 192.7,
-     "err": 56.8,
-     "hi_true": 300.0
+     "err": 56.8
     }
    ],
    "nuisance_file": "data/datasets/sources/charm-ii-1993xmz/numubar-coh1pi-visible-sigma-over-e.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins358417",
    "provenance": "CHARM-II:1993xmz \u2014 coherent single charged-pion production by \u03bd_\u03bc/\u03bd\u0304_\u03bc on the CHARM-II glass (SiO2) calorimeter target, \u03bd_\u03bc N \u2192 \u03bc\u207b \u03c0\u207a N \u00b7 target SiO2 \u00b7 from the HepData record",

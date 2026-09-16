@@ -82,15 +82,14 @@
     {
      "i": 7,
      "lo": 3.5,
-     "hi": 3.75,
-     "center": 3.625,
+     "hi": 6.0,
+     "center": 4.75,
      "val": 0.368,
-     "err": 0.121,
-     "hi_true": 6.0
+     "err": 0.121
     }
    ],
    "nuisance_file": "data/datasets/sources/radecky-1981fn/sigma_enu_ppip.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "NUISANCE",
    "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC1pip_on_p/ANL_CC1pip_on_p_dSigdQ2_W14_1982.txt",
    "provenance": "Radecky:1981fn - ANL 12-ft CC single-pion production on deuterium; total cross sections sigma(E_nu) for the three exclusive channels (mu- p pi+, mu- n pi+, mu- p pi0) with W < 1.4 GeV, plus dsigma/dQ^2 for nu_mu p -> mu- p pi+ - from the NUISANCE data release",

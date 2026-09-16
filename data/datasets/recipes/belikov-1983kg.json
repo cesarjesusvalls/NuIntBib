@@ -1,6 +1,7 @@
 {
  "bibtag": "Belikov:1983kg",
  "slug": "belikov-1983kg",
+ "clip_wide_ends": false,
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins195754",
  "note": "",

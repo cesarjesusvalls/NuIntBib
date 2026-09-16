@@ -74,15 +74,14 @@
     {
      "i": 6,
      "lo": 15.0,
-     "hi": 16.0,
-     "center": 15.5,
+     "hi": 25.0,
+     "center": 20.0,
      "val": 0.83,
-     "err": 0.1628,
-     "hi_true": 25.0
+     "err": 0.1628
     }
    ],
    "nuisance_file": "data/datasets/sources/belikov-1983kg/numu_qe.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins195754",
    "provenance": "Belikov:1983kg -- quasi-elastic total cross sections nu_mu n -> mu- p and nubar_mu p -> mu+ n vs neutrino energy (Serpukhov/ITEP) - SIG converted from CM**2 to 10^{-38} cm^2; per-bin error = quad-sum of the statistical error and the 10% flux/trigger systematic; axial-mass fit result excluded - from the HepData record",
@@ -163,15 +162,14 @@
     {
      "i": 7,
      "lo": 15.0,
-     "hi": 16.0,
-     "center": 15.5,
+     "hi": 25.0,
+     "center": 20.0,
      "val": 0.85,
-     "err": 0.2735,
-     "hi_true": 25.0
+     "err": 0.2735
     }
    ],
    "nuisance_file": "data/datasets/sources/belikov-1983kg/numubar_qe.csv",
-   "scale_note": "a wide terminal bin is shown truncated (true edge in hi_true)",
+   "scale_note": null,
    "source": "HepData",
    "source_url": "https://www.hepdata.net/record/ins195754",
    "provenance": "Belikov:1983kg -- quasi-elastic total cross sections nu_mu n -> mu- p and nubar_mu p -> mu+ n vs neutrino energy (Serpukhov/ITEP) - SIG converted from CM**2 to 10^{-38} cm^2; per-bin error = quad-sum of the statistical error and the 10% flux/trigger systematic; axial-mass fit result excluded - from the HepData record",

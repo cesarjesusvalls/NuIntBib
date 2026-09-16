@@ -1,6 +1,7 @@
 {
  "bibtag": "NOMAD:2007krq",
  "slug": "nomad-2007krq",
+ "clip_wide_ends": false,
  "source": "HepData",
  "source_url": "https://www.hepdata.net/record/ins767013",
  "note": "",

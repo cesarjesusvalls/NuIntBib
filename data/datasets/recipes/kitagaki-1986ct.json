@@ -1,6 +1,7 @@
 {
  "bibtag": "Kitagaki:1986ct",
  "slug": "kitagaki-1986ct",
+ "clip_wide_ends": false,
  "source": "NUISANCE",
  "source_url": "https://github.com/NUISANCEMC/nuisance/tree/main/data/BNL",
  "note": "",

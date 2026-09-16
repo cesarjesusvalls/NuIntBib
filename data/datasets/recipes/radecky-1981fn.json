@@ -1,6 +1,7 @@
 {
  "bibtag": "Radecky:1981fn",
  "slug": "radecky-1981fn",
+ "clip_wide_ends": false,
  "source": "NUISANCE",
  "source_url": "https://github.com/NUISANCEMC/nuisance/blob/main/data/ANL/CC1pip_on_p/ANL_CC1pip_on_p_dSigdQ2_W14_1982.txt",
  "note": "",

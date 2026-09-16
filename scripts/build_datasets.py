@@ -1942,6 +1942,7 @@ REGISTRY = _lowE_values() + [
      'sources': [
          {'csv_simple': {
              'key': 'sigma',
+             'clip_wide_ends': False,   # BEBC wideband: top energy bin is a genuine coarse bin
              'items': [
                  {'slug': 'numubar_n_Wlt2', 'label': r'\bar\nu_\mu n \to \mu^+ n \pi^- \ (W<2)',
                   'csv': 'data/datasets/sources/allasia-1983qh/f3a.csv',
